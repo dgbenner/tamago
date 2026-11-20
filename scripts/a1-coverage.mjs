@@ -86,6 +86,14 @@ const THEMES = {
     Months: ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro', 'mês'],
     Dates: ['data', 'ano', 'primeiro', 'aniversário', 'primavera', 'verão', 'outono', 'inverno'],
   },
+  sv: {
+    'Numbers to 100': ['noll', 'en', 'ett', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio', 'elva', 'tolv', 'tretton', 'fjorton', 'femton', 'sexton', 'sjutton', 'arton', 'nitton', 'tjugo', 'trettio', 'fyrtio', 'femtio', 'sextio', 'sjuttio', 'åttio', 'nittio', 'hundra'],
+    Prices: ['krona', 'kronor', 'öre', 'kosta', 'pris', 'billig', 'dyr', 'betala', 'pengar'],
+    Times: ['timme', 'minut', 'halv', 'kvart', 'över', 'förmiddag', 'eftermiddag', 'morgon', 'kväll', 'natt', 'tidig', 'sen'],
+    Days: ['måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag', 'söndag', 'helg', 'dag', 'vecka', 'idag', 'imorgon', 'igår'],
+    Months: ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december', 'månad'],
+    Dates: ['datum', 'år', 'första', 'andra', 'tredje', 'födelsedag', 'vår', 'sommar', 'höst', 'vinter'],
+  },
   fr: {
     'Numbers to 100': ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf', 'vingt', 'trente', 'quarante', 'cinquante', 'soixante', 'soixante-dix', 'quatre-vingts', 'quatre-vingt-dix', 'cent'],
     Prices: ['euro', 'centime', 'coûter', 'prix', 'cher', 'payer', 'argent'],

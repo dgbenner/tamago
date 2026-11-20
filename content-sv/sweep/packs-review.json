@@ -1,0 +1,19 @@
+{
+ "U01": { "reject": { "5330162": "repeated word (Hej hej) and loose gloss (Bye)" } },
+ "U02": { "reject": { "2261331": "adjective tom reads as the name Tom; misleading" } },
+ "U06": { "reject": { "4317219": "idiom and repeated words (Vi är de vi är)" } },
+ "U08": { "reject": {
+   "5007413": "idiomatic and incomplete (Tom är inte på)",
+   "912732": "finns as exist, not the taught det finns = there is",
+   "2235447": "finns as exist, not the taught there is",
+   "2235448": "finns as exist, not the taught there is",
+   "10710763": "finns as exist, not the taught there is"
+ } },
+ "U15": { "reject": { "2205974": "idiom (Hur står det till); muddies står = stands/is located" } },
+ "U33": { "reject": {
+   "3874322": "idiom (ligga efter); muddies efter = after",
+   "487168": "slang English (Dunno)"
+ } },
+ "U52": { "reject": { "4839744": "repeated word (Titta, titta)" } },
+ "U53": { "reject": { "2738153": "idiom (that was a close call); keep nära literal" } }
+}

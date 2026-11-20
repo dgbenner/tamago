@@ -1,0 +1,1464 @@
+{
+  "unit_id": "U15",
+  "pulled_at": "2026-11-20",
+  "candidates": 28,
+  "sentences": [
+    {
+      "sentence_id": "S15001",
+      "unit_id": "U15",
+      "french": "Jag åker till Stockholm.",
+      "english": "I'm going to Stockholm.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3097315",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mrkalling",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15002",
+      "unit_id": "U15",
+      "french": "Jag åker till Paris imorgon.",
+      "english": "I leave for Paris tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4448218",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15003",
+      "unit_id": "U15",
+      "french": "Hur går det?",
+      "english": "How's it coming?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2005643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "How are we doing?"
+      ]
+    },
+    {
+      "sentence_id": "S15004",
+      "unit_id": "U15",
+      "french": "Går måndag bra?",
+      "english": "Is Monday OK?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3711776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15005",
+      "unit_id": "U15",
+      "french": "Varför åker inte Tom?",
+      "english": "Why won't Tom leave?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2079135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15006",
+      "unit_id": "U15",
+      "french": "Hur går det, Tom?",
+      "english": "How's it going, Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11852228",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15007",
+      "unit_id": "U15",
+      "french": "Vad är den här till?",
+      "english": "What's this for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2015047",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15008",
+      "unit_id": "U15",
+      "french": "Var ligger din skola?",
+      "english": "Where is your school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2183625",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Balamax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15009",
+      "unit_id": "U15",
+      "french": "Jag gillar min skola.",
+      "english": "I like my school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11852648",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15010",
+      "unit_id": "U15",
+      "french": "Det finns en restaurang här.",
+      "english": "There's a restaurant here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "880572",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15011",
+      "unit_id": "U15",
+      "french": "Jag tycker om min skola.",
+      "english": "I like my school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11852649",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15012",
+      "unit_id": "U15",
+      "french": "Hur går din dag?",
+      "english": "How's your day going?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11908310",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "How is your day going?"
+      ]
+    },
+    {
+      "sentence_id": "S15013",
+      "unit_id": "U15",
+      "french": "Vad är det här till?",
+      "english": "What is this for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2022947",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15014",
+      "unit_id": "U15",
+      "french": "Går det bra på måndag?",
+      "english": "Is Monday OK?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3711777",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15015",
+      "unit_id": "U15",
+      "french": "Vi åker.",
+      "english": "We're going.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5007333",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15016",
+      "unit_id": "U15",
+      "french": "Vi går.",
+      "english": "We're going.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5007334",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15017",
+      "unit_id": "U15",
+      "french": "Jag går.",
+      "english": "I walk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10857072",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sprakify",
+      "other_english": [
+        "I'm walking."
+      ]
+    },
+    {
+      "sentence_id": "S15018",
+      "unit_id": "U15",
+      "french": "Jag går nu.",
+      "english": "I'm going to go now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2053579",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15019",
+      "unit_id": "U15",
+      "french": "Jag åker gärna.",
+      "english": "I'll be happy to go.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4320014",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15020",
+      "unit_id": "U15",
+      "french": "Jag går mycket.",
+      "english": "I walk a lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4441850",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15021",
+      "unit_id": "U15",
+      "french": "Jag går om du går.",
+      "english": "I'll go if you go.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4328558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": [
+        "I will go if you go."
+      ]
+    },
+    {
+      "sentence_id": "S15022",
+      "unit_id": "U15",
+      "french": "Jag har en syster till.",
+      "english": "I have another sister.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12220405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15023",
+      "unit_id": "U15",
+      "french": "Vi åker om en vecka idag.",
+      "english": "We'll go a week from today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2389834",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15024",
+      "unit_id": "U15",
+      "french": "I går var en bra dag.",
+      "english": "Yesterday was a good day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4170143",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15025",
+      "unit_id": "U15",
+      "french": "Det är inte långt till Paris.",
+      "english": "It is not far to Paris.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9987465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15026",
+      "unit_id": "U15",
+      "french": "Det var söndag i går, inte lördag.",
+      "english": "Yesterday was Sunday, not Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2097931",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15027",
+      "unit_id": "U15",
+      "french": "I går var det söndag, inte lördag.",
+      "english": "Yesterday was Sunday, not Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2097932",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15028",
+      "unit_id": "U15",
+      "french": "Jag är en vän till hans bror.",
+      "english": "I'm a friend of his brother's.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12249343",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S15001",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 2,
+      "surface": "åker",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 3,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 4,
+      "surface": "Stockholm",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 2,
+      "surface": "åker",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 3,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 4,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 5,
+      "surface": "imorgon",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 1,
+      "surface": "Går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 2,
+      "surface": "måndag",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 3,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 1,
+      "surface": "Varför",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 2,
+      "surface": "åker",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 3,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 4,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 5,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 1,
+      "surface": "Var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 2,
+      "surface": "ligger",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 4,
+      "surface": "skola",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 2,
+      "surface": "gillar",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 3,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 4,
+      "surface": "skola",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 2,
+      "surface": "finns",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 4,
+      "surface": "restaurang",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 5,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 2,
+      "surface": "tycker",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 3,
+      "surface": "om",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 4,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 5,
+      "surface": "skola",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 4,
+      "surface": "dag",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 4,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 5,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 1,
+      "surface": "Går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 3,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 4,
+      "surface": "på",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 5,
+      "surface": "måndag",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 2,
+      "surface": "åker",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 3,
+      "surface": "nu",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 2,
+      "surface": "åker",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 3,
+      "surface": "gärna",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 3,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 3,
+      "surface": "om",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 5,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 4,
+      "surface": "syster",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 5,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 2,
+      "surface": "åker",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 3,
+      "surface": "om",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 5,
+      "surface": "vecka",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 6,
+      "surface": "idag",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 1,
+      "surface": "I",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 3,
+      "surface": "var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 5,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 6,
+      "surface": "dag",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 4,
+      "surface": "långt",
+      "word_id": "W1036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 5,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 6,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 2,
+      "surface": "var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 3,
+      "surface": "söndag",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 4,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 5,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 6,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 7,
+      "surface": "lördag",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 1,
+      "surface": "I",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 3,
+      "surface": "var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 5,
+      "surface": "söndag",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 6,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 7,
+      "surface": "lördag",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 4,
+      "surface": "vän",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 5,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 6,
+      "surface": "hans",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 7,
+      "surface": "bror",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A150031",
+      "sentence_id": "S15003",
+      "direction": "fr_to_en",
+      "answer": "How are we doing?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150121",
+      "sentence_id": "S15012",
+      "direction": "fr_to_en",
+      "answer": "How is your day going?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150171",
+      "sentence_id": "S15017",
+      "direction": "fr_to_en",
+      "answer": "I'm walking.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150211",
+      "sentence_id": "S15021",
+      "direction": "fr_to_en",
+      "answer": "I will go if you go.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

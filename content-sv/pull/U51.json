@@ -1,0 +1,423 @@
+{
+  "unit_id": "U51",
+  "pulled_at": "2026-11-20",
+  "candidates": 9,
+  "sentences": [
+    {
+      "sentence_id": "S51001",
+      "unit_id": "U51",
+      "french": "Är han lång?",
+      "english": "Is he tall?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10707705",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51002",
+      "unit_id": "U51",
+      "french": "Hur lång är du?",
+      "english": "How tall are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1126341",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Spraaksugen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51003",
+      "unit_id": "U51",
+      "french": "Tom är lång.",
+      "english": "Tom is tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4423910",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51004",
+      "unit_id": "U51",
+      "french": "Han är blond.",
+      "english": "He's blond.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10707720",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51005",
+      "unit_id": "U51",
+      "french": "Tom har långt hår.",
+      "english": "Tom has long hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10714458",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51006",
+      "unit_id": "U51",
+      "french": "Jag är lång.",
+      "english": "I'm tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11572403",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": [
+        "I am tall."
+      ]
+    },
+    {
+      "sentence_id": "S51007",
+      "unit_id": "U51",
+      "french": "Tom är inte lång.",
+      "english": "Tom isn't tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2900332",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zink",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51008",
+      "unit_id": "U51",
+      "french": "Han är mycket lång.",
+      "english": "He's very tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3005125",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": [
+        "He is very tall."
+      ]
+    },
+    {
+      "sentence_id": "S51009",
+      "unit_id": "U51",
+      "french": "Hon är mycket lång.",
+      "english": "She's very tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3301510",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "\\N",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S51001",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 2,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 3,
+      "surface": "lång",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 2,
+      "surface": "lång",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 3,
+      "surface": "lång",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 3,
+      "surface": "blond",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 3,
+      "surface": "långt",
+      "word_id": "W1036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 4,
+      "surface": "hår",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 3,
+      "surface": "lång",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 4,
+      "surface": "lång",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 3,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 4,
+      "surface": "lång",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 1,
+      "surface": "Hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 3,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 4,
+      "surface": "lång",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A510061",
+      "sentence_id": "S51006",
+      "direction": "fr_to_en",
+      "answer": "I am tall.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510081",
+      "sentence_id": "S51008",
+      "direction": "fr_to_en",
+      "answer": "He is very tall.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

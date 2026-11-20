@@ -62,6 +62,17 @@ export const VOCAB_PART1 = {
       words: ['museu', 'igreja', 'hotel', 'estação', 'ônibus', 'trem', 'táxi', 'rua', 'praia', 'banco', 'aeroporto', 'hospital', 'bicicleta', 'fica', 'perto', 'longe'],
       cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
   ],
+  sv: [
+    { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Hon har blå ögon, han har kort hår: har for features; en adjective before an ett-word adds -t, before a plural -a',
+      words: ['hår', 'öga', 'ögon', 'hand', 'fot', 'näsa', 'mun', 'huvud', 'ben', 'arm', 'lång', 'blond'],
+      cando: ['speaking', 'Spoken production', 'I can describe a person simply: their hair, their eyes, what they are like.'] },
+    { unit_id: 'U52', order: 7.2, row: 5, title: 'Free Time', grammar: 'Present verbs end in -r: jag simmar, jag dansar; jag spelar fotboll; jag tittar; tycker om musik',
+      words: ['musik', 'foto', 'fest', 'fotboll', 'spel', 'spelar', 'simmar', 'dansar', 'sjunger', 'läser', 'tittar', 'film'],
+      cando: ['speaking', 'Spoken production', 'I can say what I like doing in my free time.'] },
+    { unit_id: 'U53', order: 11.2, row: 7, title: 'Around Town', grammar: 'Var ligger…? asks where a place is; med bussen, med tåget for how you travel; nära and långt',
+      words: ['museum', 'kyrka', 'hotell', 'station', 'buss', 'tåg', 'strand', 'sjukhus', 'torg', 'bank', 'nära', 'långt'],
+      cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
+  ],
 }
 export const SLOTS_PART1 = [{ slot_id: 'C01', part: 1, after_row: 5 }, { slot_id: 'C02', part: 1, after_row: 7 }]
 
@@ -94,7 +105,7 @@ if (process.argv[1] === import.meta.filename) {
   const words = sheet('words').filter((w) => !/^W1\d{3}$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
   const keys = Object.keys(words[0])
-  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese' }[COURSE]
+  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', sv: 'Swedish' }[COURSE]
   let n = 1001
   for (const u of V) for (const form of u.words) {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)

@@ -1,0 +1,381 @@
+{
+ "_about": "Review rulings for the Swedish course (Claude, Builder 2, 2026-11-19, branch lang/swedish). Same shape as the other courses. gender holds en/ett imported from Wiktionary where the pipeline leaves it blank (build-content.mjs override). claude_hints beats the workbook hint. names are allowed in sentences.",
+ "sentences": {},
+ "accepted_answers": {},
+ "units": {
+  "U01": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U02": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U03": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U04": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U05": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U06": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U07": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U08": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U09": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U10": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U11": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U12": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U13": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U14": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U15": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U31": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U32": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U33": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U51": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U52": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  },
+  "U53": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under autonomous-build.md: reviewed Tatoeba pull, clean for A1"
+  }
+ },
+ "cut_sentences": [],
+ "vocabulary_additions": [],
+ "hints": {},
+ "borrow": {},
+ "drafting": {},
+ "claude_hints": {
+  "W007": {
+   "hint": "am, is, are",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W041": {
+   "hint": "feel, feels",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W044": {
+   "hint": "eat, eats",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W045": {
+   "hint": "drink, drinks",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W046": {
+   "hint": "think; like (with om)",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W048": {
+   "hint": "like, likes",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W058": {
+   "hint": "have, has",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W089": {
+   "hint": "stand, stands; is (located)",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W090": {
+   "hint": "lie, lies; is (located)",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W097": {
+   "hint": "there is, there are",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W160": {
+   "hint": "go, goes; walk",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W161": {
+   "hint": "go, goes (by vehicle)",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W701": {
+   "hint": "understand, understands",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W704": {
+   "hint": "say! (imperative)",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W706": {
+   "hint": "talk, talks",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W709": {
+   "hint": "say, says",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W710": {
+   "hint": "mean, means",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W715": {
+   "hint": "look for, looks for",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W717": {
+   "hint": "know, knows",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W719": {
+   "hint": "is called",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W720": {
+   "hint": "is called",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1022": {
+   "hint": "read, reads",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1018": {
+   "hint": "play, plays",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1019": {
+   "hint": "swim, swims",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1020": {
+   "hint": "dance, dances",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1021": {
+   "hint": "sing, sings",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1023": {
+   "hint": "look, looks; watch",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W021": {
+   "hint": "book",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W703": {
+   "hint": "time, occasion",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W015": {
+   "hint": "and",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1017": {
+   "hint": "game",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W057": {
+   "hint": "good, tasty",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W008": {
+   "hint": "a, an",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1028": {
+   "hint": "station",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1025": {
+   "hint": "museum",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W164": {
+   "hint": "park",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1024": {
+   "hint": "film",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1010": {
+   "hint": "arm",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1004": {
+   "hint": "hand",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W1034": {
+   "hint": "bank",
+   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  }
+ },
+ "phrases_off": {},
+ "names": [
+  "Tom",
+  "Maria",
+  "Mary",
+  "Anna",
+  "Erik",
+  "Lars",
+  "Eva",
+  "Stockholm",
+  "Göteborg",
+  "Malmö",
+  "London",
+  "Paris"
+ ],
+ "accepted_additions": [],
+ "gender": {
+  "W010": "en",
+  "W011": "en",
+  "W012": "en",
+  "W013": "en",
+  "W014": "ett",
+  "W021": "en",
+  "W022": "ett",
+  "W023": "en",
+  "W024": "en",
+  "W025": "ett",
+  "W026": "en",
+  "W027": "en",
+  "W049": "ett",
+  "W050": "ett",
+  "W051": "en",
+  "W052": "en",
+  "W053": "ett",
+  "W054": "ett",
+  "W055": "ett",
+  "W056": "ett",
+  "W059": "en",
+  "W060": "en",
+  "W061": "en",
+  "W062": "en",
+  "W063": "en",
+  "W064": "en",
+  "W065": "en",
+  "W066": "ett",
+  "W086": "en",
+  "W098": "ett",
+  "W099": "ett",
+  "W100": "en",
+  "W101": "ett",
+  "W102": "en",
+  "W119": "en",
+  "W120": "en",
+  "W121": "en",
+  "W122": "en",
+  "W123": "en",
+  "W124": "en",
+  "W141": "ett",
+  "W149": "en",
+  "W153": "en",
+  "W154": "en",
+  "W155": "en",
+  "W156": "en",
+  "W157": "en",
+  "W158": "en",
+  "W164": "en",
+  "W165": "en",
+  "W166": "en",
+  "W167": "en",
+  "W168": "en",
+  "W169": "en",
+  "W703": "en",
+  "W711": "ett",
+  "W713": "en",
+  "W714": "en",
+  "W718": "en",
+  "W1001": "ett",
+  "W1002": "ett",
+  "W1004": "en",
+  "W1005": "en",
+  "W1006": "en",
+  "W1007": "en",
+  "W1008": "ett",
+  "W1009": "ett",
+  "W1010": "en",
+  "W1013": "en",
+  "W1014": "ett",
+  "W1015": "en",
+  "W1016": "en",
+  "W1017": "ett",
+  "W1024": "en",
+  "W1025": "ett",
+  "W1026": "en",
+  "W1027": "ett",
+  "W1028": "en",
+  "W1029": "en",
+  "W1030": "ett",
+  "W1031": "en",
+  "W1032": "ett",
+  "W1033": "ett",
+  "W1034": "en"
+ }
+}
