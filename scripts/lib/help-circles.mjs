@@ -39,6 +39,11 @@ export const HELP = {
     U32: { grammar: 'Como se diz…? O que significa…? O que quer dizer…?', words: ['se', 'diz', 'significa', 'quer', 'dizer', 'palavra', 'português', 'inglês'], borrow: ['o que', 'que', 'em', 'como', 'isso'] },
     U33: { grammar: 'Estou procurando a palavra…; é uma coisa para…; não sei', words: ['procurando', 'sei', 'sabe', 'coisa', 'chama', 'serve', 'nome'], borrow: ['para', 'o que'] },
   },
+  da: {
+    U31: { grammar: 'Jeg forstår det ikke; langsommere, tak; en gang til', words: ['forstår', 'langsommere', 'gang', 'siger', 'taler', 'gentag', 'igen'], borrow: ['tak', 'ikke', 'til'] },
+    U32: { grammar: 'Hvordan siger man…? Hvad betyder…? Ordet på dansk', words: ['betyder', 'man', 'ord', 'dansk', 'engelsk'], borrow: ['hvad', 'hvordan', 'siger', 'på'] },
+    U33: { grammar: 'Jeg leder efter ordet…; det er en ting…; jeg ved det ikke', words: ['leder', 'efter', 'ved', 'ting', 'hedder'], borrow: ['ord', 'ikke'] },
+  },
 }
 
 // "I can" statements, written for the CEFR self-assessment grid's A1 spoken interaction row, which is this thread:

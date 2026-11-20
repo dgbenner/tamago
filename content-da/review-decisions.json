@@ -1,0 +1,413 @@
+{
+ "_about": "Danish course review decisions (Dan, 2026-11-19, branch lang/danish). units: circle approvals. gender: en/et imported from a Wiktionary pass where the pipeline leaves Danish noun gender blank (build-content applies it). names: people and places allowed in sentences. sentences/cut_sentences/claude_hints/accepted_additions as the review needs.",
+ "sentences": {},
+ "accepted_answers": {},
+ "units": {
+  "U01": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: greetings and who you are, clean after review"
+  },
+  "U02": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: he/she, it, this/that and jobs without en/et, clean after review"
+  },
+  "U03": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: set polite phrases, clean after review"
+  },
+  "U04": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: food, drink and liking, clean after review"
+  },
+  "U05": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: animals and have, clean after review"
+  },
+  "U06": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: plurals, we/they, clean after review"
+  },
+  "U07": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: describing things, clean after review"
+  },
+  "U08": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: where things are, clean after review"
+  },
+  "U09": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: how you feel, clean after review"
+  },
+  "U10": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: mine and yours, family, clean after review"
+  },
+  "U11": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: question words, clean after review"
+  },
+  "U12": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: numbers to ten and age, clean after review"
+  },
+  "U13": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: colours, clean after review"
+  },
+  "U14": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: days and times, clean after review"
+  },
+  "U15": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: going to places, clean after review"
+  },
+  "U31": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: asking for help, clean after review"
+  },
+  "U32": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: asking about words, clean after review"
+  },
+  "U33": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: finding the word, clean after review"
+  },
+  "U51": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: body and looks, clean after review"
+  },
+  "U52": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: free time, clean after review"
+  },
+  "U53": {
+   "action": "approve",
+   "on": "2026-11-19",
+   "by": "Claude (Builder 2) under the overnight Danish build: around town, clean after review"
+  }
+ },
+ "cut_sentences": [
+  "S6014",
+  "S6025",
+  "S8001",
+  "S8012",
+  "S8013",
+  "S8014",
+  "S8015",
+  "S8016",
+  "S8018",
+  "S8019",
+  "S8028",
+  "S11006",
+  "S11022",
+  "S11026",
+  "S12008",
+  "S12010",
+  "S14017"
+ ],
+ "vocabulary_additions": [],
+ "hints": {},
+ "borrow": {},
+ "claude_hints": {
+  "W702": {
+   "hint": "slower",
+   "source": "comparative of langsom (slow), Wiktionary Danish"
+  },
+  "W706": {
+   "hint": "repeat (say it again)",
+   "source": "imperative of gentage (to repeat), Wiktionary Danish"
+  },
+  "W036": {
+   "hint": "goes",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W041": {
+   "hint": "eat, eats",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W064": {
+   "hint": "they",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W019": {
+   "hint": "it, that",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W020": {
+   "hint": "it, that",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W109": {
+   "hint": "my",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W110": {
+   "hint": "my (with et-words)",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W111": {
+   "hint": "your",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W112": {
+   "hint": "your (with et-words)",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W113": {
+   "hint": "his",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W114": {
+   "hint": "her",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W115": {
+   "hint": "our, ours",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W074": {
+   "hint": "many",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W081": {
+   "hint": "very, much",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W150": {
+   "hint": "now",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W086": {
+   "hint": "fun, funny",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W044": {
+   "hint": "kan lide: to like",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W705": {
+   "hint": "speak, talk",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W709": {
+   "hint": "one, you (in general)",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W713": {
+   "hint": "leder efter: to look for",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W715": {
+   "hint": "know",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W1002": {
+   "hint": "eyes",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W1020": {
+   "hint": "dance, dances",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W1013": {
+   "hint": "clever, smart",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W1036": {
+   "hint": "far",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W703": {
+   "hint": "a time (en gang til: one more time)",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W129": {
+   "hint": "which",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W157": {
+   "hint": "the clock, o’clock",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W075": {
+   "hint": "big (plural)",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W065": {
+   "hint": "dogs",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W066": {
+   "hint": "cats",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W067": {
+   "hint": "books",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W068": {
+   "hint": "houses",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W069": {
+   "hint": "men",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W070": {
+   "hint": "women",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W071": {
+   "hint": "children",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W072": {
+   "hint": "apples",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W073": {
+   "hint": "friends",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W037": {
+   "hint": "good, well",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W038": {
+   "hint": "bad, badly",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W039": {
+   "hint": "fine",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W707": {
+   "hint": "again",
+   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  }
+ },
+ "phrases_off": {},
+ "names": [
+  "Tom",
+  "Maria",
+  "Mary",
+  "Anna",
+  "Peter",
+  "Jens",
+  "Mette",
+  "Lars",
+  "København",
+  "Aarhus",
+  "London",
+  "Paris"
+ ],
+ "gender": {
+  "W011": "en",
+  "W012": "en",
+  "W013": "en",
+  "W014": "en",
+  "W015": "et",
+  "W021": "en",
+  "W022": "et",
+  "W023": "en",
+  "W024": "en",
+  "W028": "en",
+  "W029": "et",
+  "W030": "en",
+  "W046": "et",
+  "W047": "en",
+  "W048": "en",
+  "W049": "et",
+  "W050": "en",
+  "W051": "en",
+  "W055": "en",
+  "W056": "en",
+  "W057": "en",
+  "W058": "en",
+  "W060": "en",
+  "W061": "en",
+  "W083": "en",
+  "W084": "en",
+  "W095": "et",
+  "W097": "et",
+  "W098": "en",
+  "W116": "en",
+  "W117": "en",
+  "W118": "en",
+  "W119": "en",
+  "W120": "en",
+  "W121": "en",
+  "W122": "en",
+  "W150": "et",
+  "W151": "en",
+  "W152": "en",
+  "W153": "en",
+  "W154": "en",
+  "W155": "en",
+  "W156": "en",
+  "W159": "en",
+  "W160": "en",
+  "W162": "en",
+  "W163": "en",
+  "W164": "en",
+  "W703": "en",
+  "W1001": "et",
+  "W1003": "en",
+  "W1004": "en",
+  "W1006": "en",
+  "W1007": "et",
+  "W1009": "en",
+  "W1014": "en",
+  "W1015": "et",
+  "W1016": "en",
+  "W1017": "en",
+  "W1018": "et",
+  "W1023": "en",
+  "W1026": "en",
+  "W1027": "et",
+  "W1028": "en",
+  "W1029": "en",
+  "W1030": "et",
+  "W1031": "en",
+  "W1032": "en",
+  "W1033": "et",
+  "W1034": "et",
+  "W052": "en",
+  "W096": "en",
+  "W147": "en",
+  "W161": "en",
+  "W1005": "en",
+  "W1025": "et",
+  "W045": "et",
+  "W059": "en",
+  "W062": "et",
+  "W139": "et",
+  "W710": "et",
+  "W716": "en",
+  "W1008": "et"
+ },
+ "accepted_additions": []
+}

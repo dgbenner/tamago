@@ -1,0 +1,863 @@
+{
+  "unit_id": "U32",
+  "pulled_at": "2026-11-20",
+  "candidates": 18,
+  "sentences": [
+    {
+      "sentence_id": "S32001",
+      "unit_id": "U32",
+      "french": "Taler hun engelsk?",
+      "english": "Does she speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "594300",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32002",
+      "unit_id": "U32",
+      "french": "Taler du engelsk?",
+      "english": "Do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "615849",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Are you speaking English?"
+      ]
+    },
+    {
+      "sentence_id": "S32003",
+      "unit_id": "U32",
+      "french": "Hvad betyder det?",
+      "english": "What's that mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "623380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "What does that mean?",
+        "What does it mean?",
+        "What's the meaning of that?"
+      ]
+    },
+    {
+      "sentence_id": "S32004",
+      "unit_id": "U32",
+      "french": "Taler han engelsk?",
+      "english": "Does he speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1720372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32005",
+      "unit_id": "U32",
+      "french": "Hvordan siger man ...?",
+      "english": "How do you say...?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7266851",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32006",
+      "unit_id": "U32",
+      "french": "Jeg taler dansk.",
+      "english": "I speak Danish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4657027",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32007",
+      "unit_id": "U32",
+      "french": "Nej betyder nej.",
+      "english": "No means no.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8032543",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32008",
+      "unit_id": "U32",
+      "french": "Han taler dansk.",
+      "english": "He speaks Danish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13425238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "deniko",
+      "other_english": [
+        "He's speaking Danish."
+      ]
+    },
+    {
+      "sentence_id": "S32009",
+      "unit_id": "U32",
+      "french": "Jeg taler ikke dansk.",
+      "english": "I don't speak Danish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13422173",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "deniko",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32010",
+      "unit_id": "U32",
+      "french": "Han siger ikke et ord.",
+      "english": "He doesn't say a word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8668234",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32011",
+      "unit_id": "U32",
+      "french": "Jeg forstår ikke et ord.",
+      "english": "I don't understand a word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9688873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32012",
+      "unit_id": "U32",
+      "french": "Du kan engelsk?",
+      "english": "You know English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3493632",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32013",
+      "unit_id": "U32",
+      "french": "Undskyld, taler du engelsk?",
+      "english": "Pardon me, do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "715835",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32014",
+      "unit_id": "U32",
+      "french": "Han taler engelsk.",
+      "english": "He speaks English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1866238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "He is speaking English."
+      ]
+    },
+    {
+      "sentence_id": "S32015",
+      "unit_id": "U32",
+      "french": "Jeg taler engelsk.",
+      "english": "I speak English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5483721",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32016",
+      "unit_id": "U32",
+      "french": "Han taler godt engelsk.",
+      "english": "He speaks English well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "615844",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32017",
+      "unit_id": "U32",
+      "french": "Jeg kan ikke engelsk.",
+      "english": "I don't know English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2269622",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32018",
+      "unit_id": "U32",
+      "french": "Jeg taler ikke engelsk.",
+      "english": "I don't speak English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5745576",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Theocracy",
+      "other_english": [
+        "I'm not speaking English.",
+        "I do not speak English."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S32001",
+      "position": 1,
+      "surface": "Taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 2,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 1,
+      "surface": "Taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 1,
+      "surface": "Hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 2,
+      "surface": "betyder",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 1,
+      "surface": "Taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 2,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 1,
+      "surface": "Hvordan",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 2,
+      "surface": "siger",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 3,
+      "surface": "man",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 3,
+      "surface": "dansk",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 1,
+      "surface": "Nej",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 2,
+      "surface": "betyder",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 3,
+      "surface": "nej",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 3,
+      "surface": "dansk",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 4,
+      "surface": "dansk",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 2,
+      "surface": "siger",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 4,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 5,
+      "surface": "ord",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 2,
+      "surface": "forstår",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 4,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 5,
+      "surface": "ord",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 1,
+      "surface": "Undskyld",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 4,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 3,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 4,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 4,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 4,
+      "surface": "engelsk",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A320021",
+      "sentence_id": "S32002",
+      "direction": "fr_to_en",
+      "answer": "Are you speaking English?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320031",
+      "sentence_id": "S32003",
+      "direction": "fr_to_en",
+      "answer": "What does that mean?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320032",
+      "sentence_id": "S32003",
+      "direction": "fr_to_en",
+      "answer": "What does it mean?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320033",
+      "sentence_id": "S32003",
+      "direction": "fr_to_en",
+      "answer": "What's the meaning of that?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320081",
+      "sentence_id": "S32008",
+      "direction": "fr_to_en",
+      "answer": "He's speaking Danish.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320141",
+      "sentence_id": "S32014",
+      "direction": "fr_to_en",
+      "answer": "He is speaking English.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320181",
+      "sentence_id": "S32018",
+      "direction": "fr_to_en",
+      "answer": "I'm not speaking English.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320182",
+      "sentence_id": "S32018",
+      "direction": "fr_to_en",
+      "answer": "I do not speak English.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,0 +1,1521 @@
+{
+  "unit_id": "U06",
+  "pulled_at": "2026-11-20",
+  "candidates": 77,
+  "sentences": [
+    {
+      "sentence_id": "S6001",
+      "unit_id": "U06",
+      "french": "De æbler er store.",
+      "english": "Those apples are big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "630763",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6002",
+      "unit_id": "U06",
+      "french": "Er de store?",
+      "english": "Are they big?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4427859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6003",
+      "unit_id": "U06",
+      "french": "Vi er mænd.",
+      "english": "We are men.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1989826",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6004",
+      "unit_id": "U06",
+      "french": "Hun har mange hunde.",
+      "english": "She has many dogs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4203630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6005",
+      "unit_id": "U06",
+      "french": "De har mange venner.",
+      "english": "They have many friends.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6175437",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6006",
+      "unit_id": "U06",
+      "french": "Katte kan ikke lide hunde.",
+      "english": "Cats don't like dogs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1568718",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6007",
+      "unit_id": "U06",
+      "french": "Katte og hunde er dyr.",
+      "english": "Cats and dogs are animals.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10717378",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SeaLiteral",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6008",
+      "unit_id": "U06",
+      "french": "Vi er venner.",
+      "english": "We're friends.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3548973",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "We are friends."
+      ]
+    },
+    {
+      "sentence_id": "S6009",
+      "unit_id": "U06",
+      "french": "Vi spiser æbler.",
+      "english": "We're eating apples.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3568089",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6010",
+      "unit_id": "U06",
+      "french": "Jeg har mange venner.",
+      "english": "I have many friends.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "626826",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I have lots of friends.",
+        "I have a lot of friends.",
+        "I've got a lot of friends."
+      ]
+    },
+    {
+      "sentence_id": "S6011",
+      "unit_id": "U06",
+      "french": "Hunde kan ikke lide katte.",
+      "english": "Dogs don't like cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13004717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6012",
+      "unit_id": "U06",
+      "french": "Jeg har en stor hund.",
+      "english": "I have a big dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4203616",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6013",
+      "unit_id": "U06",
+      "french": "Tom har en stor hund.",
+      "english": "Tom has a big dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4203673",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6014",
+      "unit_id": "U06",
+      "french": "Har De æbler?",
+      "english": "Do you have any apples?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3568219",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6015",
+      "unit_id": "U06",
+      "french": "Har han børn?",
+      "english": "Has he any children?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1151379",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Does he have any children?"
+      ]
+    },
+    {
+      "sentence_id": "S6016",
+      "unit_id": "U06",
+      "french": "Har hun børn?",
+      "english": "Does she have children?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2348912",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6017",
+      "unit_id": "U06",
+      "french": "Har du børn?",
+      "english": "Do you have children?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8487361",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Do you have any children?"
+      ]
+    },
+    {
+      "sentence_id": "S6018",
+      "unit_id": "U06",
+      "french": "De er kvinder.",
+      "english": "They're women.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10684119",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "They are women."
+      ]
+    },
+    {
+      "sentence_id": "S6019",
+      "unit_id": "U06",
+      "french": "Vi er kvinder.",
+      "english": "We are women.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11577796",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6020",
+      "unit_id": "U06",
+      "french": "Jeg er en mand.",
+      "english": "I'm a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "675168",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am a man."
+      ]
+    },
+    {
+      "sentence_id": "S6021",
+      "unit_id": "U06",
+      "french": "Mary kan godt lide kvinder.",
+      "english": "Mary likes women.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11577799",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6022",
+      "unit_id": "U06",
+      "french": "Tom er en mand.",
+      "english": "Tom is a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2442286",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6023",
+      "unit_id": "U06",
+      "french": "Har du æbler?",
+      "english": "Do you have any apples?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3568218",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6024",
+      "unit_id": "U06",
+      "french": "Kan du lide æbler?",
+      "english": "Do you like apples?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3567983",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6025",
+      "unit_id": "U06",
+      "french": "Har De et hus?",
+      "english": "Do you have a house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3866655",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6026",
+      "unit_id": "U06",
+      "french": "Kan Tom lide hunde?",
+      "english": "Does Tom like dogs?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8714563",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6027",
+      "unit_id": "U06",
+      "french": "Kan du ikke lide æbler?",
+      "english": "Don't you like apples?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "476026",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6028",
+      "unit_id": "U06",
+      "french": "Har du en hund?",
+      "english": "Have you a dog?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3123771",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Do you have a dog?",
+        "Have you got a dog?"
+      ]
+    },
+    {
+      "sentence_id": "S6029",
+      "unit_id": "U06",
+      "french": "Har han en hund?",
+      "english": "Does he have a dog?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4203575",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Has he got a dog?"
+      ]
+    },
+    {
+      "sentence_id": "S6030",
+      "unit_id": "U06",
+      "french": "Du har en hund, har du ikke?",
+      "english": "You have a dog, don't you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4203694",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6001",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 2,
+      "surface": "æbler",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 4,
+      "surface": "store",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 3,
+      "surface": "store",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 3,
+      "surface": "mænd",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 3,
+      "surface": "mange",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 4,
+      "surface": "hunde",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6005",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6005",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6005",
+      "position": 3,
+      "surface": "mange",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6005",
+      "position": 4,
+      "surface": "venner",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 1,
+      "surface": "Katte",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 4,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 5,
+      "surface": "hunde",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 1,
+      "surface": "Katte",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 2,
+      "surface": "og",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 3,
+      "surface": "hunde",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 4,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 5,
+      "surface": "dyr",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6008",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6008",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6008",
+      "position": 3,
+      "surface": "venner",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6009",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6009",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6009",
+      "position": 3,
+      "surface": "æbler",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 3,
+      "surface": "mange",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 4,
+      "surface": "venner",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 1,
+      "surface": "Hunde",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 4,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 5,
+      "surface": "katte",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 4,
+      "surface": "stor",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 5,
+      "surface": "hund",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 4,
+      "surface": "stor",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 5,
+      "surface": "hund",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6014",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6014",
+      "position": 2,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6014",
+      "position": 3,
+      "surface": "æbler",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6015",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6015",
+      "position": 2,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6015",
+      "position": 3,
+      "surface": "børn",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6016",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6016",
+      "position": 2,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6016",
+      "position": 3,
+      "surface": "børn",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6017",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6017",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6017",
+      "position": 3,
+      "surface": "børn",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6018",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6018",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6018",
+      "position": 3,
+      "surface": "kvinder",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6019",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6019",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6019",
+      "position": 3,
+      "surface": "kvinder",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6020",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6020",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6020",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6020",
+      "position": 4,
+      "surface": "mand",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6021",
+      "position": 1,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6021",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6021",
+      "position": 3,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6021",
+      "position": 4,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6021",
+      "position": 5,
+      "surface": "kvinder",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6022",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6022",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6022",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6022",
+      "position": 4,
+      "surface": "mand",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6023",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6023",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6023",
+      "position": 3,
+      "surface": "æbler",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6024",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6024",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6024",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6024",
+      "position": 4,
+      "surface": "æbler",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6025",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6025",
+      "position": 2,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6025",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6025",
+      "position": 4,
+      "surface": "hus",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6026",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6026",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6026",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6026",
+      "position": 4,
+      "surface": "hunde",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6027",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6027",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6027",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6027",
+      "position": 4,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6027",
+      "position": 5,
+      "surface": "æbler",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6028",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6028",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6028",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6028",
+      "position": 4,
+      "surface": "hund",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6029",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6029",
+      "position": 2,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6029",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6029",
+      "position": 4,
+      "surface": "hund",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6030",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6030",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6030",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6030",
+      "position": 4,
+      "surface": "hund",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6030",
+      "position": 5,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6030",
+      "position": 6,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6030",
+      "position": 7,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A60081",
+      "sentence_id": "S6008",
+      "direction": "fr_to_en",
+      "answer": "We are friends.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60101",
+      "sentence_id": "S6010",
+      "direction": "fr_to_en",
+      "answer": "I have lots of friends.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60102",
+      "sentence_id": "S6010",
+      "direction": "fr_to_en",
+      "answer": "I have a lot of friends.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60103",
+      "sentence_id": "S6010",
+      "direction": "fr_to_en",
+      "answer": "I've got a lot of friends.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60151",
+      "sentence_id": "S6015",
+      "direction": "fr_to_en",
+      "answer": "Does he have any children?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60171",
+      "sentence_id": "S6017",
+      "direction": "fr_to_en",
+      "answer": "Do you have any children?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60181",
+      "sentence_id": "S6018",
+      "direction": "fr_to_en",
+      "answer": "They are women.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60201",
+      "sentence_id": "S6020",
+      "direction": "fr_to_en",
+      "answer": "I am a man.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60281",
+      "sentence_id": "S6028",
+      "direction": "fr_to_en",
+      "answer": "Do you have a dog?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60282",
+      "sentence_id": "S6028",
+      "direction": "fr_to_en",
+      "answer": "Have you got a dog?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60291",
+      "sentence_id": "S6029",
+      "direction": "fr_to_en",
+      "answer": "Has he got a dog?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

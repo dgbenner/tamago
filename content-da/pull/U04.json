@@ -1,0 +1,1392 @@
+{
+  "unit_id": "U04",
+  "pulled_at": "2026-11-20",
+  "candidates": 36,
+  "sentences": [
+    {
+      "sentence_id": "S4001",
+      "unit_id": "U04",
+      "french": "Drikker du vand?",
+      "english": "Do you drink water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13076018",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "abiniz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4002",
+      "unit_id": "U04",
+      "french": "Jeg drikker vand.",
+      "english": "I drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4209298",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm drinking water."
+      ]
+    },
+    {
+      "sentence_id": "S4003",
+      "unit_id": "U04",
+      "french": "Kan du lide te?",
+      "english": "Do you like tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2560995",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4004",
+      "unit_id": "U04",
+      "french": "Kan du lide mælk?",
+      "english": "Do you like milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13330931",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4005",
+      "unit_id": "U04",
+      "french": "Jeg spiser ost.",
+      "english": "I eat cheese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2482340",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4006",
+      "unit_id": "U04",
+      "french": "Jeg spiser et æble.",
+      "english": "I eat an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "671987",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm eating an apple.",
+        "I am eating an apple."
+      ]
+    },
+    {
+      "sentence_id": "S4007",
+      "unit_id": "U04",
+      "french": "Jeg kan godt lide mælk.",
+      "english": "I like milk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11230656",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4008",
+      "unit_id": "U04",
+      "french": "Drikker du kaffe?",
+      "english": "Do you drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1174254",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4009",
+      "unit_id": "U04",
+      "french": "Han spiser et æble.",
+      "english": "He's eating an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2313840",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4010",
+      "unit_id": "U04",
+      "french": "Drikker du vin?",
+      "english": "Do you drink wine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2467184",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Are you drinking wine?"
+      ]
+    },
+    {
+      "sentence_id": "S4011",
+      "unit_id": "U04",
+      "french": "Drikker Tom kaffe?",
+      "english": "Does Tom drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3493633",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4012",
+      "unit_id": "U04",
+      "french": "Tom drikker kaffe.",
+      "english": "Tom drinks coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2729724",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4013",
+      "unit_id": "U04",
+      "french": "Han drikker vand.",
+      "english": "He drinks water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5575060",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "He's drinking water."
+      ]
+    },
+    {
+      "sentence_id": "S4014",
+      "unit_id": "U04",
+      "french": "Tom drikker mælk.",
+      "english": "Tom drinks milk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7588443",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "M1dx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4015",
+      "unit_id": "U04",
+      "french": "Han drikker te.",
+      "english": "He is drinking tea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8120061",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4016",
+      "unit_id": "U04",
+      "french": "Hun spiser et æble.",
+      "english": "She's eating an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3568227",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4017",
+      "unit_id": "U04",
+      "french": "Kan du lide det?",
+      "english": "Do you like it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1810058",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4018",
+      "unit_id": "U04",
+      "french": "Kan du lide Tom?",
+      "english": "Do you like Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6891181",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4019",
+      "unit_id": "U04",
+      "french": "Drikker Tom?",
+      "english": "Does Tom drink?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8040050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4020",
+      "unit_id": "U04",
+      "french": "Jeg drikker kaffe.",
+      "english": "I drink coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5408379",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm drinking coffee.",
+        "I am drinking coffee."
+      ]
+    },
+    {
+      "sentence_id": "S4021",
+      "unit_id": "U04",
+      "french": "Jeg drikker ikke kaffe.",
+      "english": "I don't drink coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2127539",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I do not drink coffee."
+      ]
+    },
+    {
+      "sentence_id": "S4022",
+      "unit_id": "U04",
+      "french": "Hun drikker ikke kaffe.",
+      "english": "She doesn't drink coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3741196",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4023",
+      "unit_id": "U04",
+      "french": "Tom spiser ikke et æble.",
+      "english": "Tom isn't eating an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5446777",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4024",
+      "unit_id": "U04",
+      "french": "Hun spiser.",
+      "english": "She's eating.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "658519",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "She eats.",
+        "She is eating."
+      ]
+    },
+    {
+      "sentence_id": "S4025",
+      "unit_id": "U04",
+      "french": "Han spiser.",
+      "english": "He's eating.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1484227",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "He eats.",
+        "He is eating."
+      ]
+    },
+    {
+      "sentence_id": "S4026",
+      "unit_id": "U04",
+      "french": "Jeg spiser.",
+      "english": "I eat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1790113",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm eating.",
+        "I will eat.",
+        "I am eating."
+      ]
+    },
+    {
+      "sentence_id": "S4027",
+      "unit_id": "U04",
+      "french": "Tom spiser.",
+      "english": "Tom's eating.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2526236",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4028",
+      "unit_id": "U04",
+      "french": "Tom drikker.",
+      "english": "Tom drinks.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8040045",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4029",
+      "unit_id": "U04",
+      "french": "Jeg spiser ikke.",
+      "english": "I am not eating.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "671960",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4030",
+      "unit_id": "U04",
+      "french": "Jeg kan ikke.",
+      "english": "I can't.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1962254",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I can not."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S4001",
+      "position": 1,
+      "surface": "Drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 3,
+      "surface": "vand",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 3,
+      "surface": "vand",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 4,
+      "surface": "te",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 4,
+      "surface": "mælk",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 3,
+      "surface": "ost",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 4,
+      "surface": "æble",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 3,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 4,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 5,
+      "surface": "mælk",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 1,
+      "surface": "Drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 3,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 4,
+      "surface": "æble",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 1,
+      "surface": "Drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 3,
+      "surface": "vin",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 1,
+      "surface": "Drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 3,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 3,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 3,
+      "surface": "vand",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 3,
+      "surface": "mælk",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 4,
+      "surface": "æble",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 1,
+      "surface": "Drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 3,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 4,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 4,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 4,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 5,
+      "surface": "æble",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 2,
+      "surface": "drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A40021",
+      "sentence_id": "S4002",
+      "direction": "fr_to_en",
+      "answer": "I'm drinking water.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40061",
+      "sentence_id": "S4006",
+      "direction": "fr_to_en",
+      "answer": "I'm eating an apple.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40062",
+      "sentence_id": "S4006",
+      "direction": "fr_to_en",
+      "answer": "I am eating an apple.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40101",
+      "sentence_id": "S4010",
+      "direction": "fr_to_en",
+      "answer": "Are you drinking wine?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40131",
+      "sentence_id": "S4013",
+      "direction": "fr_to_en",
+      "answer": "He's drinking water.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40201",
+      "sentence_id": "S4020",
+      "direction": "fr_to_en",
+      "answer": "I'm drinking coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40202",
+      "sentence_id": "S4020",
+      "direction": "fr_to_en",
+      "answer": "I am drinking coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40211",
+      "sentence_id": "S4021",
+      "direction": "fr_to_en",
+      "answer": "I do not drink coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40241",
+      "sentence_id": "S4024",
+      "direction": "fr_to_en",
+      "answer": "She eats.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40242",
+      "sentence_id": "S4024",
+      "direction": "fr_to_en",
+      "answer": "She is eating.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40251",
+      "sentence_id": "S4025",
+      "direction": "fr_to_en",
+      "answer": "He eats.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40252",
+      "sentence_id": "S4025",
+      "direction": "fr_to_en",
+      "answer": "He is eating.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40261",
+      "sentence_id": "S4026",
+      "direction": "fr_to_en",
+      "answer": "I'm eating.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40262",
+      "sentence_id": "S4026",
+      "direction": "fr_to_en",
+      "answer": "I will eat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40263",
+      "sentence_id": "S4026",
+      "direction": "fr_to_en",
+      "answer": "I am eating.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40301",
+      "sentence_id": "S4030",
+      "direction": "fr_to_en",
+      "answer": "I can not.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

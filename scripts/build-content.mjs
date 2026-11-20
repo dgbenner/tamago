@@ -112,6 +112,8 @@ tables.words = raw('words').flatMap((w) => {
     if (w[col] === '' || w[col] == null) filled[col] = c[col]
     else if (col === 'gloss' ? !String(w.gloss).includes(c.gloss) : String(w[col]) !== String(c[col])) bad.push(`${w.word_id} ${col}: workbook "${w[col]}", Wiktionary "${c[col]}"`)
   }
+  // Gender a reviewer imported from a Wiktionary pass where the pipeline left it blank (Danish: en/et, 2026-11-19).
+  if (decisions.gender?.[w.word_id]) filled.gender = decisions.gender[w.word_id]
   if (decisions.hints?.[w.word_id]) { filled.hint = decisions.hints[w.word_id]; filled.hint_source = 'Dan, review decisions' }
   // Claude's hints under autonomous-build.md: a short form or a better-fitting Wiktionary sense, with its source.
   else if (decisions.claude_hints?.[w.word_id]) { filled.hint = decisions.claude_hints[w.word_id].hint; filled.hint_source = decisions.claude_hints[w.word_id].source }

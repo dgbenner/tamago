@@ -1,0 +1,1458 @@
+{
+  "unit_id": "U09",
+  "pulled_at": "2026-11-20",
+  "candidates": 42,
+  "sentences": [
+    {
+      "sentence_id": "S9001",
+      "unit_id": "U09",
+      "french": "Er du tørstig?",
+      "english": "Are you thirsty?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "661828",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9002",
+      "unit_id": "U09",
+      "french": "Er du træt?",
+      "english": "Are you tired?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3465308",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9003",
+      "unit_id": "U09",
+      "french": "Er du sulten?",
+      "english": "Are you hungry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6934654",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9004",
+      "unit_id": "U09",
+      "french": "Er du også sulten?",
+      "english": "Are you hungry, too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6760657",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Are you hungry too?"
+      ]
+    },
+    {
+      "sentence_id": "S9005",
+      "unit_id": "U09",
+      "french": "Er du ikke tørstig?",
+      "english": "Aren't you thirsty?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10702455",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9006",
+      "unit_id": "U09",
+      "french": "Jeg er træt.",
+      "english": "I'm tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "618876",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am tired."
+      ]
+    },
+    {
+      "sentence_id": "S9007",
+      "unit_id": "U09",
+      "french": "Jeg er glad!",
+      "english": "I'm happy!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6157496",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9008",
+      "unit_id": "U09",
+      "french": "Jeg kan ikke lide kold kaffe.",
+      "english": "I don't like cold coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1447794",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9009",
+      "unit_id": "U09",
+      "french": "Jeg er tørstig.",
+      "english": "I'm thirsty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "618833",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am thirsty."
+      ]
+    },
+    {
+      "sentence_id": "S9010",
+      "unit_id": "U09",
+      "french": "Jeg er sulten.",
+      "english": "I'm hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "654742",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am hungry."
+      ]
+    },
+    {
+      "sentence_id": "S9011",
+      "unit_id": "U09",
+      "french": "Er du syg?",
+      "english": "Are you sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10567018",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": [
+        "Are you ill?"
+      ]
+    },
+    {
+      "sentence_id": "S9012",
+      "unit_id": "U09",
+      "french": "Er du ikke bange?",
+      "english": "Aren't you afraid?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10649409",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9013",
+      "unit_id": "U09",
+      "french": "Han er syg.",
+      "english": "He is sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "688869",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "He is ill."
+      ]
+    },
+    {
+      "sentence_id": "S9014",
+      "unit_id": "U09",
+      "french": "Jeg er syg.",
+      "english": "I am sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "695667",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9015",
+      "unit_id": "U09",
+      "french": "Jeg er trist.",
+      "english": "I'm sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1850532",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jinpt",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9016",
+      "unit_id": "U09",
+      "french": "Han er bange.",
+      "english": "He's afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2502606",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "He is afraid."
+      ]
+    },
+    {
+      "sentence_id": "S9017",
+      "unit_id": "U09",
+      "french": "Jeg er vred.",
+      "english": "I'm angry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3299106",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9018",
+      "unit_id": "U09",
+      "french": "Tom er bange.",
+      "english": "Tom's afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4080472",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Tom's scared.",
+        "Tom is afraid.",
+        "Tom is scared."
+      ]
+    },
+    {
+      "sentence_id": "S9019",
+      "unit_id": "U09",
+      "french": "Jeg er meget træt.",
+      "english": "I'm very tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1182700",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am very tired."
+      ]
+    },
+    {
+      "sentence_id": "S9020",
+      "unit_id": "U09",
+      "french": "Ja, hun er vred.",
+      "english": "Yes, she is angry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2195413",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9021",
+      "unit_id": "U09",
+      "french": "Jeg er ikke vred.",
+      "english": "I'm not angry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12758481",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9022",
+      "unit_id": "U09",
+      "french": "Tom er syg.",
+      "english": "Tom's sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4080433",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Tom is sick."
+      ]
+    },
+    {
+      "sentence_id": "S9023",
+      "unit_id": "U09",
+      "french": "Du er syg!",
+      "english": "You're sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4881906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "You're sick!"
+      ]
+    },
+    {
+      "sentence_id": "S9024",
+      "unit_id": "U09",
+      "french": "Du er bange.",
+      "english": "You're afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7244301",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "You are afraid."
+      ]
+    },
+    {
+      "sentence_id": "S9025",
+      "unit_id": "U09",
+      "french": "Vi er bange.",
+      "english": "We're afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8815775",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "We are afraid."
+      ]
+    },
+    {
+      "sentence_id": "S9026",
+      "unit_id": "U09",
+      "french": "De er bange.",
+      "english": "They're afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10649392",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9027",
+      "unit_id": "U09",
+      "french": "Jeg er bange.",
+      "english": "I'm afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10697108",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am afraid."
+      ]
+    },
+    {
+      "sentence_id": "S9028",
+      "unit_id": "U09",
+      "french": "Du er tørstig.",
+      "english": "You're thirsty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12830238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "You are thirsty."
+      ]
+    },
+    {
+      "sentence_id": "S9029",
+      "unit_id": "U09",
+      "french": "Jeg er meget sulten.",
+      "english": "I'm very hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "654913",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am very hungry."
+      ]
+    },
+    {
+      "sentence_id": "S9030",
+      "unit_id": "U09",
+      "french": "Jeg er ikke bange.",
+      "english": "I'm not afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "694449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I am not afraid."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S9001",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 3,
+      "surface": "tørstig",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 3,
+      "surface": "træt",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 3,
+      "surface": "sulten",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 3,
+      "surface": "også",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 4,
+      "surface": "sulten",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 4,
+      "surface": "tørstig",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 3,
+      "surface": "træt",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 3,
+      "surface": "glad",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 4,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 5,
+      "surface": "kold",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 6,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 3,
+      "surface": "tørstig",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 3,
+      "surface": "sulten",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 3,
+      "surface": "syg",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 4,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 3,
+      "surface": "syg",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 3,
+      "surface": "syg",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 3,
+      "surface": "trist",
+      "word_id": "W101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 3,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 3,
+      "surface": "vred",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 3,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 4,
+      "surface": "træt",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 2,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 4,
+      "surface": "vred",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 4,
+      "surface": "vred",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 3,
+      "surface": "syg",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 3,
+      "surface": "syg",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 3,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 3,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 3,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 3,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 3,
+      "surface": "tørstig",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 4,
+      "surface": "sulten",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 4,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A90041",
+      "sentence_id": "S9004",
+      "direction": "fr_to_en",
+      "answer": "Are you hungry too?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90061",
+      "sentence_id": "S9006",
+      "direction": "fr_to_en",
+      "answer": "I am tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90091",
+      "sentence_id": "S9009",
+      "direction": "fr_to_en",
+      "answer": "I am thirsty.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90101",
+      "sentence_id": "S9010",
+      "direction": "fr_to_en",
+      "answer": "I am hungry.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90111",
+      "sentence_id": "S9011",
+      "direction": "fr_to_en",
+      "answer": "Are you ill?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90131",
+      "sentence_id": "S9013",
+      "direction": "fr_to_en",
+      "answer": "He is ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90161",
+      "sentence_id": "S9016",
+      "direction": "fr_to_en",
+      "answer": "He is afraid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90181",
+      "sentence_id": "S9018",
+      "direction": "fr_to_en",
+      "answer": "Tom's scared.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90182",
+      "sentence_id": "S9018",
+      "direction": "fr_to_en",
+      "answer": "Tom is afraid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90183",
+      "sentence_id": "S9018",
+      "direction": "fr_to_en",
+      "answer": "Tom is scared.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90191",
+      "sentence_id": "S9019",
+      "direction": "fr_to_en",
+      "answer": "I am very tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90221",
+      "sentence_id": "S9022",
+      "direction": "fr_to_en",
+      "answer": "Tom is sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90231",
+      "sentence_id": "S9023",
+      "direction": "fr_to_en",
+      "answer": "You're sick!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90241",
+      "sentence_id": "S9024",
+      "direction": "fr_to_en",
+      "answer": "You are afraid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90251",
+      "sentence_id": "S9025",
+      "direction": "fr_to_en",
+      "answer": "We are afraid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90271",
+      "sentence_id": "S9027",
+      "direction": "fr_to_en",
+      "answer": "I am afraid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90281",
+      "sentence_id": "S9028",
+      "direction": "fr_to_en",
+      "answer": "You are thirsty.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90291",
+      "sentence_id": "S9029",
+      "direction": "fr_to_en",
+      "answer": "I am very hungry.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90301",
+      "sentence_id": "S9030",
+      "direction": "fr_to_en",
+      "answer": "I am not afraid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

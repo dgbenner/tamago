@@ -121,4 +121,6 @@ async function portuguese(lemma) {
   return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
 }
 
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese }[COURSE]
+// Danish (2026-11-19): the present tense is one form for every person (jeg er, du er, han er; jeg taler, vi taler),
+// so the course teaches no per-person verb table. No grammar note sets a conjugation_lemma; this stays null.
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, da: async () => null }[COURSE]
