@@ -339,8 +339,8 @@ test('French final check: a mock DELF A1 with numbers heard, four kinds of text,
   assert.equal(s.graded, items.filter((i) => i.part !== 'speaking' && i.type !== 'QT16').length)
   const scores = finalScores([{ part: 'writing', correct: true }, { part: 'writing', correct: true, ungraded: true }])
   assert.deepEqual(scores.writing, { right: 1, total: 1, written: 1 })
-  // Courses without a mock exam format keep the general one (Spanish and German have DELE and Goethe: test/exams.test.js).
-  assert.ok(finalItems(all, mains, seeded(11), 'pt').every((i) => !i.a1))
+  // A course without a mock exam format keeps the general one (every course has one now: test/exams.test.js).
+  assert.ok(finalItems(all, mains, seeded(11), 'zz').every((i) => !i.a1))
 })
 
 // Crash fix (playthrough audit, 2026-11-12): a later round for a learner who hasn't met its words (a topic pack, a Dev

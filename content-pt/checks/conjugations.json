@@ -575,6 +575,222 @@
       "form": "visitam"
     }
   ],
+  "pedir": [
+    {
+      "person": "eu",
+      "form": "peço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "pede"
+    },
+    {
+      "person": "nós",
+      "form": "pedimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "pedem"
+    }
+  ],
+  "ajudar": [
+    {
+      "person": "eu",
+      "form": "ajudo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "ajuda"
+    },
+    {
+      "person": "nós",
+      "form": "ajudamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "ajudam"
+    }
+  ],
+  "virar": [
+    {
+      "person": "eu",
+      "form": "viro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "vira"
+    },
+    {
+      "person": "nós",
+      "form": "viramos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "viram"
+    }
+  ],
+  "mostrar": [
+    {
+      "person": "eu",
+      "form": "mostro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "mostra"
+    },
+    {
+      "person": "nós",
+      "form": "mostramos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "mostram"
+    }
+  ],
+  "pegar": [
+    {
+      "person": "eu",
+      "form": "pego"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "pega"
+    },
+    {
+      "person": "nós",
+      "form": "pegamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "pegam"
+    }
+  ],
+  "alugar": [
+    {
+      "person": "eu",
+      "form": "alugo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "aluga"
+    },
+    {
+      "person": "nós",
+      "form": "alugamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "alugam"
+    }
+  ],
+  "assinar": [
+    {
+      "person": "eu",
+      "form": "assino"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "assina"
+    },
+    {
+      "person": "nós",
+      "form": "assinamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "assinam"
+    }
+  ],
+  "enviar": [
+    {
+      "person": "eu",
+      "form": "envio"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "envia"
+    },
+    {
+      "person": "nós",
+      "form": "enviamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "enviam"
+    }
+  ],
+  "cozinhar": [
+    {
+      "person": "eu",
+      "form": "cozinho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "cozinha"
+    },
+    {
+      "person": "nós",
+      "form": "cozinhamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "cozinham"
+    }
+  ],
+  "desligar": [
+    {
+      "person": "eu",
+      "form": "desligo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "desliga"
+    },
+    {
+      "person": "nós",
+      "form": "desligamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "desligam"
+    }
+  ],
+  "sentir": [
+    {
+      "person": "eu",
+      "form": "sinto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "sente"
+    },
+    {
+      "person": "nós",
+      "form": "sentimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "sentem"
+    }
+  ],
+  "tirar": [
+    {
+      "person": "eu",
+      "form": "tiro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "tira"
+    },
+    {
+      "person": "nós",
+      "form": "tiramos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "tiram"
+    }
+  ],
   "desculpar": [
     {
       "person": "eu",
@@ -1674,24 +1890,6 @@
       "form": "conversam"
     }
   ],
-  "pedir": [
-    {
-      "person": "eu",
-      "form": "peço"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "pede"
-    },
-    {
-      "person": "nós",
-      "form": "pedimos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "pedem"
-    }
-  ],
   "provar": [
     {
       "person": "eu",
@@ -1708,42 +1906,6 @@
     {
       "person": "vocês, eles, elas",
       "form": "provam"
-    }
-  ],
-  "ajudar": [
-    {
-      "person": "eu",
-      "form": "ajudo"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "ajuda"
-    },
-    {
-      "person": "nós",
-      "form": "ajudamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "ajudam"
-    }
-  ],
-  "virar": [
-    {
-      "person": "eu",
-      "form": "viro"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "vira"
-    },
-    {
-      "person": "nós",
-      "form": "viramos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "viram"
     }
   ],
   "parar": [
@@ -1782,24 +1944,6 @@
       "form": "procuram"
     }
   ],
-  "mostrar": [
-    {
-      "person": "eu",
-      "form": "mostro"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "mostra"
-    },
-    {
-      "person": "nós",
-      "form": "mostramos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "mostram"
-    }
-  ],
   "partir": [
     {
       "person": "eu",
@@ -1818,42 +1962,6 @@
       "form": "partem"
     }
   ],
-  "pegar": [
-    {
-      "person": "eu",
-      "form": "pego"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "pega"
-    },
-    {
-      "person": "nós",
-      "form": "pegamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "pegam"
-    }
-  ],
-  "alugar": [
-    {
-      "person": "eu",
-      "form": "alugo"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "aluga"
-    },
-    {
-      "person": "nós",
-      "form": "alugamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "alugam"
-    }
-  ],
   "funcionar": [
     {
       "person": "eu",
@@ -1870,42 +1978,6 @@
     {
       "person": "vocês, eles, elas",
       "form": "funcionam"
-    }
-  ],
-  "assinar": [
-    {
-      "person": "eu",
-      "form": "assino"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "assina"
-    },
-    {
-      "person": "nós",
-      "form": "assinamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "assinam"
-    }
-  ],
-  "enviar": [
-    {
-      "person": "eu",
-      "form": "envio"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "envia"
-    },
-    {
-      "person": "nós",
-      "form": "enviamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "enviam"
     }
   ],
   "mandar": [
@@ -1944,24 +2016,6 @@
       "form": "cheiram"
     }
   ],
-  "cozinhar": [
-    {
-      "person": "eu",
-      "form": "cozinho"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "cozinha"
-    },
-    {
-      "person": "nós",
-      "form": "cozinhamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "cozinham"
-    }
-  ],
   "preparar": [
     {
       "person": "eu",
@@ -1978,24 +2032,6 @@
     {
       "person": "vocês, eles, elas",
       "form": "preparam"
-    }
-  ],
-  "desligar": [
-    {
-      "person": "eu",
-      "form": "desligo"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "desliga"
-    },
-    {
-      "person": "nós",
-      "form": "desligamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "desligam"
     }
   ],
   "sujar": [
@@ -2035,24 +2071,6 @@
       "form": "queimam"
     }
   ],
-  "sentir": [
-    {
-      "person": "eu",
-      "form": "sinto"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "sente"
-    },
-    {
-      "person": "nós",
-      "form": "sentimos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "sentem"
-    }
-  ],
   "adormecer": [
     {
       "person": "eu",
@@ -2069,24 +2087,6 @@
     {
       "person": "vocês, eles, elas",
       "form": "adormecem"
-    }
-  ],
-  "tirar": [
-    {
-      "person": "eu",
-      "form": "tiro"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "tira"
-    },
-    {
-      "person": "nós",
-      "form": "tiramos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "tiram"
     }
   ]
 }
