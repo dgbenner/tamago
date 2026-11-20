@@ -352,7 +352,10 @@ for (const w of words) {
     row.gender = ['Noun', 'Article'].includes(entry.pos) ? genderFrom(section, entry.pos, posIndex, definition) : ''
     // Form-of entries name their lemma: "first-person ... of être", "feminine singular of un (“a / an”)".
     // The "of" must come after the person or number ("back (of a person)" is a gloss, not a form of "a").
-    const form = definition.match(/\b(?:inflection|person|singular|plural)\b[^()]*?\bof ([\p{L}'-]+)(?: \(“(.+?)”\))?/u)
+    // A pick may name the lemma outright (`lemma`), for a gloss whose "of" reads as a form-of (Portuguese cada "examples of the
+    // thing", viúvo "a state of widowhood"; Fable, 2026-11-19).
+    const form = pick?.lemma ? null : definition.match(/\b(?:inflection|person|singular|plural)\b[^()]*?\bof ([\p{L}'-]+)(?: \(“(.+?)”\))?/u)
+    if (pick?.lemma) row.lemma = pick.lemma
     if (form) {
       row.lemma = form[1]
       if (form[2]) row.gloss = form[2]

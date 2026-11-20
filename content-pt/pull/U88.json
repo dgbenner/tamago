@@ -1,0 +1,1444 @@
+{
+  "unit_id": "U88",
+  "pulled_at": "2026-11-19",
+  "candidates": 118,
+  "sentences": [
+    {
+      "sentence_id": "S88001",
+      "unit_id": "U88",
+      "french": "Ele é casado ou solteiro?",
+      "english": "Is he married or single?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1521615",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88002",
+      "unit_id": "U88",
+      "french": "Você é casado ou solteiro?",
+      "english": "Are you married or single?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3625086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88003",
+      "unit_id": "U88",
+      "french": "Qual é seu estado civil?",
+      "english": "What is your marital status?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6722082",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mecamute",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88004",
+      "unit_id": "U88",
+      "french": "Ela é solteira ou casada?",
+      "english": "Is she single or married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7531893",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "joao7889",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88005",
+      "unit_id": "U88",
+      "french": "Você é casado ou é solteiro?",
+      "english": "Are you married or single?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8348611",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": [
+        "Are you married or are you single?"
+      ]
+    },
+    {
+      "sentence_id": "S88006",
+      "unit_id": "U88",
+      "french": "É casada?",
+      "english": "Are you married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "503517",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88007",
+      "unit_id": "U88",
+      "french": "Está solteira?",
+      "english": "Are you single?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2418029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88008",
+      "unit_id": "U88",
+      "french": "Você é casada?",
+      "english": "Are you married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1204968",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88009",
+      "unit_id": "U88",
+      "french": "Você está solteira?",
+      "english": "Are you single?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2418030",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88010",
+      "unit_id": "U88",
+      "french": "Você é viúva?",
+      "english": "Are you widowed?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3791793",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "AbiezerFm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88011",
+      "unit_id": "U88",
+      "french": "Você é um cidadão de que país?",
+      "english": "What country are you a citizen of?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13079543",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "laetitiamg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88012",
+      "unit_id": "U88",
+      "french": "Sou divorciado.",
+      "english": "I am divorced.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "939634",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88013",
+      "unit_id": "U88",
+      "french": "Assine aqui.",
+      "english": "Sign here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "950855",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88014",
+      "unit_id": "U88",
+      "french": "Sou viúva.",
+      "english": "I am a widow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3755973",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Balamax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88015",
+      "unit_id": "U88",
+      "french": "Assine isso.",
+      "english": "Sign this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4593613",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88016",
+      "unit_id": "U88",
+      "french": "Assine embaixo, por favor.",
+      "english": "Sign at the bottom, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "393696",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88017",
+      "unit_id": "U88",
+      "french": "Tom é divorciado.",
+      "english": "Tom's divorced.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1864438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Tom is divorced."
+      ]
+    },
+    {
+      "sentence_id": "S88018",
+      "unit_id": "U88",
+      "french": "Vou assinar amanhã.",
+      "english": "I'll sign it tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5710262",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88019",
+      "unit_id": "U88",
+      "french": "Eu sou viúvo.",
+      "english": "I'm a widower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5969861",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88020",
+      "unit_id": "U88",
+      "french": "Não vou assinar.",
+      "english": "I'm not signing it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8510267",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88021",
+      "unit_id": "U88",
+      "french": "Tom é viúvo.",
+      "english": "Tom is a widower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11737632",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88022",
+      "unit_id": "U88",
+      "french": "Essa é minha assinatura.",
+      "english": "That's my signature.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2735377",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88023",
+      "unit_id": "U88",
+      "french": "Eu vou assinar amanhã.",
+      "english": "I'll sign it tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3447785",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88024",
+      "unit_id": "U88",
+      "french": "Eu não sou viúvo.",
+      "english": "I am not widowed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3791798",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "AbiezerFm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88025",
+      "unit_id": "U88",
+      "french": "A Mary é viúva.",
+      "english": "Mary is a widow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3808065",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "muriloricci",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88026",
+      "unit_id": "U88",
+      "french": "Olá, eu sou um usuário novo.",
+      "english": "Hello! I'm a new user.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2002500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Matheus",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88027",
+      "unit_id": "U88",
+      "french": "Escreva a data debaixo da assinatura.",
+      "english": "Write the date under the signature.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11088040",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MrJuice",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88028",
+      "unit_id": "U88",
+      "french": "Maria não é um nome masculino.",
+      "english": "Mary isn't a boy's name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11390312",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MrJuice",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88029",
+      "unit_id": "U88",
+      "french": "A assinatura dela é muito bonita.",
+      "english": "Her signature is very beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13889459",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88030",
+      "unit_id": "U88",
+      "french": "Você é casado ou você é solteiro?",
+      "english": "Are you married or single?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8348608",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": [
+        "Are you married or are you single?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S88001",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 3,
+      "surface": "casado",
+      "word_id": "W1723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 4,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 5,
+      "surface": "solteiro",
+      "word_id": "W1721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 3,
+      "surface": "casado",
+      "word_id": "W1723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 4,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 5,
+      "surface": "solteiro",
+      "word_id": "W1721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 1,
+      "surface": "Qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 3,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 4,
+      "surface": "estado",
+      "word_id": "W1719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 5,
+      "surface": "civil",
+      "word_id": "W1720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 3,
+      "surface": "solteira",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 4,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 5,
+      "surface": "casada",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 3,
+      "surface": "casado",
+      "word_id": "W1723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 4,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 5,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 6,
+      "surface": "solteiro",
+      "word_id": "W1721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 2,
+      "surface": "casada",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 2,
+      "surface": "solteira",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 3,
+      "surface": "casada",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 3,
+      "surface": "solteira",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 3,
+      "surface": "viúva",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 4,
+      "surface": "cidadão",
+      "word_id": "W1734",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 6,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 7,
+      "surface": "país",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 2,
+      "surface": "divorciado",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 1,
+      "surface": "Assine",
+      "word_id": "W1714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 2,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 2,
+      "surface": "viúva",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 1,
+      "surface": "Assine",
+      "word_id": "W1714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 2,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 1,
+      "surface": "Assine",
+      "word_id": "W1714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 2,
+      "surface": "embaixo",
+      "word_id": "W1408",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 3,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 3,
+      "surface": "divorciado",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 1,
+      "surface": "Vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 2,
+      "surface": "assinar",
+      "word_id": "W1713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 3,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 3,
+      "surface": "viúvo",
+      "word_id": "W1728",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 2,
+      "surface": "vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 3,
+      "surface": "assinar",
+      "word_id": "W1713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 3,
+      "surface": "viúvo",
+      "word_id": "W1728",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 1,
+      "surface": "Essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 3,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 4,
+      "surface": "assinatura",
+      "word_id": "W1715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 2,
+      "surface": "vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 3,
+      "surface": "assinar",
+      "word_id": "W1713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 4,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88024",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88024",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88024",
+      "position": 3,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88024",
+      "position": 4,
+      "surface": "viúvo",
+      "word_id": "W1728",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88025",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88025",
+      "position": 2,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88025",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88025",
+      "position": 4,
+      "surface": "viúva",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88026",
+      "position": 1,
+      "surface": "Olá",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88026",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88026",
+      "position": 3,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88026",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88026",
+      "position": 5,
+      "surface": "usuário",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88026",
+      "position": 6,
+      "surface": "novo",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88027",
+      "position": 1,
+      "surface": "Escreva",
+      "word_id": "W1358",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88027",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88027",
+      "position": 3,
+      "surface": "data",
+      "word_id": "W842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88027",
+      "position": 4,
+      "surface": "debaixo",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88027",
+      "position": 5,
+      "surface": "da",
+      "word_id": "W1499",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88027",
+      "position": 6,
+      "surface": "assinatura",
+      "word_id": "W1715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88028",
+      "position": 1,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88028",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88028",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88028",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88028",
+      "position": 5,
+      "surface": "nome",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88028",
+      "position": 6,
+      "surface": "masculino",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88029",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88029",
+      "position": 2,
+      "surface": "assinatura",
+      "word_id": "W1715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88029",
+      "position": 3,
+      "surface": "dela",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88029",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88029",
+      "position": 5,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88029",
+      "position": 6,
+      "surface": "bonita",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88030",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88030",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88030",
+      "position": 3,
+      "surface": "casado",
+      "word_id": "W1723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88030",
+      "position": 4,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88030",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88030",
+      "position": 6,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88030",
+      "position": 7,
+      "surface": "solteiro",
+      "word_id": "W1721",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A880051",
+      "sentence_id": "S88005",
+      "direction": "fr_to_en",
+      "answer": "Are you married or are you single?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A880171",
+      "sentence_id": "S88017",
+      "direction": "fr_to_en",
+      "answer": "Tom is divorced.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A880301",
+      "sentence_id": "S88030",
+      "direction": "fr_to_en",
+      "answer": "Are you married or are you single?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

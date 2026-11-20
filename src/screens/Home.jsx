@@ -202,8 +202,9 @@ function FinalCard({ fc, onStart, onClose }) {
   const s = fc.last?.scores
   return (
     <Sheet onClose={onClose}>
-      <SheetHead kicker={`Modeled on the ${fc.exam.name}`} title="A1 Final Check" onClose={onClose} />
-      <p className="mt-2">Four parts, in the order of the {fc.exam.name}: {fc.exam.format ?? 'listening, reading, writing, then speaking.'} Every question uses this course's own sentences and texts, from all of its units.</p>
+      {/* A course with no exam picked yet (Swedish, Danish, Norwegian; 2026-11-20) runs the general format and names no exam. */}
+      <SheetHead kicker={fc.exam ? `Modeled on the ${fc.exam.name}` : 'General A1 Format'} title="A1 Final Check" onClose={onClose} />
+      <p className="mt-2">{fc.exam ? <>Four parts, in the order of the {fc.exam.name}: {fc.exam.format ?? 'listening, reading, writing, then speaking.'}</> : 'Four parts: listening, reading, writing, then speaking.'} Every question uses this course's own sentences and texts, from all of its units.</p>
       <p className="mt-2 text-sm text-muted">Listening, reading and writing are scored. Speaking is practice and never graded. It never locks anything; take it as often as you like.</p>
       {s && (
         <div className="mt-4">
@@ -217,8 +218,12 @@ function FinalCard({ fc, onStart, onClose }) {
       {fc.available
         ? <button onClick={onStart} className="btn-submit mt-5 w-full">{fc.last ? 'Take It Again' : 'Start the Final Check'}</button>
         : <p className="mt-4 text-sm">It opens when you've finished the first lessons of every unit.</p>}
-      <a href={fc.exam.samples} target="_blank" rel="noopener noreferrer" className="btn-secondary mt-3 flex w-full items-center justify-center">Official {fc.exam.name} Sample Papers</a>
-      <p className="mt-1 text-center text-xs text-muted">Free, from the {fc.exam.body}. Opens their site.</p>
+      {fc.exam && (
+        <>
+          <a href={fc.exam.samples} target="_blank" rel="noopener noreferrer" className="btn-secondary mt-3 flex w-full items-center justify-center">Official {fc.exam.name} Sample Papers</a>
+          <p className="mt-1 text-center text-xs text-muted">Free, from the {fc.exam.body}. Opens their site.</p>
+        </>
+      )}
     </Sheet>
   )
 }

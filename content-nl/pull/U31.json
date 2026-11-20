@@ -1,0 +1,640 @@
+{
+  "unit_id": "U31",
+  "pulled_at": "2026-11-19",
+  "candidates": 15,
+  "sentences": [
+    {
+      "sentence_id": "S31001",
+      "unit_id": "U31",
+      "french": "Praat langzamer.",
+      "english": "Talk slower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7632687",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31002",
+      "unit_id": "U31",
+      "french": "Spreek langzamer!",
+      "english": "Talk slower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7706502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "Speak slower.",
+        "Speak more slowly.",
+        "Speak more slowly!"
+      ]
+    },
+    {
+      "sentence_id": "S31003",
+      "unit_id": "U31",
+      "french": "Nog een keer.",
+      "english": "One more time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5978708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31004",
+      "unit_id": "U31",
+      "french": "Spreek langzamer alsjeblieft.",
+      "english": "Please speak more slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8396487",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31005",
+      "unit_id": "U31",
+      "french": "Begrijp je?",
+      "english": "Understand?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7632714",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "Understood?",
+        "Do you understand?",
+        "Capisce?"
+      ]
+    },
+    {
+      "sentence_id": "S31006",
+      "unit_id": "U31",
+      "french": "Ik spreek.",
+      "english": "I speak.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1434325",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31007",
+      "unit_id": "U31",
+      "french": "Tom praat.",
+      "english": "Tom is talking.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4780813",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31008",
+      "unit_id": "U31",
+      "french": "Zeg alsjeblieft.",
+      "english": "Say please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7349260",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31009",
+      "unit_id": "U31",
+      "french": "Zeg hallo.",
+      "english": "Say hello.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7349261",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31010",
+      "unit_id": "U31",
+      "french": "Zeg ja!",
+      "english": "Say yes!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9756110",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31011",
+      "unit_id": "U31",
+      "french": "Ik begrijp Tom.",
+      "english": "I understand Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12423886",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31012",
+      "unit_id": "U31",
+      "french": "Tom begrijpt Mary.",
+      "english": "Tom understands Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13001410",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31013",
+      "unit_id": "U31",
+      "french": "Tom is nog een kind.",
+      "english": "Tom's still a kid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6275152",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": [
+        "Tom is still a child.",
+        "Tom is still a kid."
+      ]
+    },
+    {
+      "sentence_id": "S31014",
+      "unit_id": "U31",
+      "french": "Zeg ja, alsjeblieft!",
+      "english": "Please say ‘yes’!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13365862",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31015",
+      "unit_id": "U31",
+      "french": "Ik zeg \"Ik ben Tom\".",
+      "english": "I say \"I'm Tom\".",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4306525",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aubrey",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S31001",
+      "position": 1,
+      "surface": "Praat",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 2,
+      "surface": "langzamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 1,
+      "surface": "Spreek",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 2,
+      "surface": "langzamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 1,
+      "surface": "Nog",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 2,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 3,
+      "surface": "keer",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 1,
+      "surface": "Spreek",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 2,
+      "surface": "langzamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 3,
+      "surface": "alsjeblieft",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 1,
+      "surface": "Begrijp",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 2,
+      "surface": "spreek",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 2,
+      "surface": "praat",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 1,
+      "surface": "Zeg",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 2,
+      "surface": "alsjeblieft",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 1,
+      "surface": "Zeg",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 2,
+      "surface": "hallo",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 1,
+      "surface": "Zeg",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 2,
+      "surface": "ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 2,
+      "surface": "begrijp",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 2,
+      "surface": "begrijpt",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 3,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 3,
+      "surface": "nog",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 4,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 5,
+      "surface": "kind",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 1,
+      "surface": "Zeg",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 2,
+      "surface": "ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 3,
+      "surface": "alsjeblieft",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 2,
+      "surface": "zeg",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 3,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 4,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A310021",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "Speak slower.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310022",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "Speak more slowly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310023",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "Speak more slowly!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310051",
+      "sentence_id": "S31005",
+      "direction": "fr_to_en",
+      "answer": "Understood?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310052",
+      "sentence_id": "S31005",
+      "direction": "fr_to_en",
+      "answer": "Do you understand?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310053",
+      "sentence_id": "S31005",
+      "direction": "fr_to_en",
+      "answer": "Capisce?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310131",
+      "sentence_id": "S31013",
+      "direction": "fr_to_en",
+      "answer": "Tom is still a child.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310132",
+      "sentence_id": "S31013",
+      "direction": "fr_to_en",
+      "answer": "Tom is still a kid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

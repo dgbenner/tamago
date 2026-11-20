@@ -112,8 +112,7 @@ tables.words = raw('words').flatMap((w) => {
     if (w[col] === '' || w[col] == null) filled[col] = c[col]
     else if (col === 'gloss' ? !String(w.gloss).includes(c.gloss) : String(w[col]) !== String(c[col])) bad.push(`${w.word_id} ${col}: workbook "${w[col]}", Wiktionary "${c[col]}"`)
   }
-  // Gender imported from a reviewer's Wiktionary pass where the pipeline leaves it blank (Swedish: en/ett, 2026-11-19;
-  // the same additive course-scoped override Dutch introduced). Keyed by word_id in decisions.gender.
+  // Gender Dan imported from a reviewer's Wiktionary pass where the pipeline left it blank (Dutch: de/het, 2026-11-19).
   if (decisions.gender?.[w.word_id]) filled.gender = decisions.gender[w.word_id]
   if (decisions.hints?.[w.word_id]) { filled.hint = decisions.hints[w.word_id]; filled.hint_source = 'Dan, review decisions' }
   // Claude's hints under autonomous-build.md: a short form or a better-fitting Wiktionary sense, with its source.
@@ -121,6 +120,13 @@ tables.words = raw('words').flatMap((w) => {
   if (!filled.hint) { filled.hint = hintFrom(c); filled.hint_source = 'Wiktionary (built)' }
   return [{ ...filled, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss, ...(c.lingua_libre ? { lingua_libre: c.lingua_libre } : {}) }]
 })
+
+// decisions.gender is additive only (2026-11-20): it fills a gender the workbook and Wiktionary left blank and never
+// replaces one they found, so a reviewer's pass can't silently overrule the pipeline.
+for (const [id, g] of Object.entries(decisions.gender ?? {})) {
+  const found = raw('words').find((x) => x.word_id === id)?.gender || wCheck.get(id)?.gender || ''
+  if (found && found !== g) bad.push(`${id} gender: decisions.gender "${g}" would replace "${found}"`)
+}
 
 // Answers: workbook rows, plus the en_to_fr rows the check generated.
 tables.accepted_answers = [

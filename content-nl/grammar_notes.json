@@ -1,0 +1,152 @@
+{
+  "_about": "Dutch grammar notes.",
+  "notes": [
+    {
+      "unit_id": "U01",
+      "rule": "**Zijn** is the verb to be. **Ik ben** says who I am, **jij bent** (or **je bent**) who you are, and **hij**/**zij is** who someone else is. **Een** is a or an and never changes: **een man**, **een vrouw**. **Ja** is yes and **nee** is no. You can leave **ik** or **jij** out once the verb makes it clear.",
+      "example_sentence_ids": "S1001;S1003;S1008",
+      "conjugation_lemma": "zijn",
+      "status": "live"
+    },
+    {
+      "unit_id": "U02",
+      "rule": "The word for the is **de** or **het**, learned with each noun: **de man**, **het boek**. **Hij** is he and **zij** (or **ze**) is she. **Dit** is this and **dat** is that. A job takes no **een**: **hij is dokter**. An adjective after the verb keeps its plain form: **de man is groot**.",
+      "example_sentence_ids": "S2006;S2002;S2007",
+      "conjugation_lemma": "zijn",
+      "status": "live"
+    },
+    {
+      "unit_id": "U03",
+      "rule": "Everyday politeness as set phrases. **Dank je** is thank you and **alsjeblieft** is both please and here you are. **Hoe gaat het?** asks how things are, and **goed** (fine) is the usual answer. **Goedemorgen**, **goedemiddag** and **goedenavond** greet by time of day; **tot ziens** is goodbye.",
+      "example_sentence_ids": "S3004;S3009;S3016",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U04",
+      "rule": "In the present tense **ik** takes the plain stem (**ik drink**, **ik eet**), while **jij**, **je**, **hij**, **zij** and **het** add **-t** (**jij drinkt**, **hij drinkt**). The plural form is the same as the dictionary verb: **wij drinken**. To say you like something, use **houden van**: **ik houd van koffie**, **Tom houdt van thee**.",
+      "example_sentence_ids": "S4001;S4005;S4016",
+      "conjugation_lemma": "drinken",
+      "status": "live"
+    },
+    {
+      "unit_id": "U05",
+      "rule": "**Hebben** is to have, and its forms are irregular: **ik heb**, **jij hebt** (**je hebt**), **hij**/**zij heeft**, and **wij**/**jullie**/**zij hebben**. Use it for what you own or keep: **ik heb een hond**.",
+      "example_sentence_ids": "S5003;S5001;S5101",
+      "conjugation_lemma": "hebben",
+      "status": "live"
+    },
+    {
+      "unit_id": "U06",
+      "rule": "Most plurals add **-en** (**hond**, **honden**; **man**, **mannen**) and some add **-s** (**appel**, **appels**); every plural takes **de**. The plural persons are **wij** (or **we**), **jullie** and **zij**, with **zijn** (**wij zijn vrienden**) and **hebben** (**we hebben wijn**). **Veel** means a lot of.",
+      "example_sentence_ids": "S6003;S6005;S6001",
+      "conjugation_lemma": "hebben",
+      "status": "live"
+    },
+    {
+      "unit_id": "U07",
+      "rule": "An adjective before a noun usually adds **-e**: **een mooie auto**, **een oude man**. The one exception is a **het**-word with **een**, which keeps the plain form: **een mooi huis**. After the verb the adjective is always plain: **de auto is mooi**. **Heel** means very and **ook** means also.",
+      "example_sentence_ids": "S7015;S7008;S7030",
+      "conjugation_lemma": "zijn",
+      "status": "live"
+    },
+    {
+      "unit_id": "U08",
+      "rule": "Dutch picks the verb that fits: **staat** for things that stand, **ligt** for things that lie, and **is** for the rest. The place words are **in**, **op** (on) and **onder** (under), with **naast** for next to. **Hier** is here and **daar** is there. **Er is** means there is: **er is een vogel hier**.",
+      "example_sentence_ids": "S8001;S8003;S8101",
+      "conjugation_lemma": "staan",
+      "status": "live"
+    },
+    {
+      "unit_id": "U09",
+      "rule": "Most feelings use **zijn** with an adjective: **ik ben moe**, **ik ben blij**, **hij is ziek**. But **honger** (hunger), **dorst** (thirst) and being cold take **hebben**: **ik heb honger**, **ik heb dorst**, **ik heb het koud**.",
+      "example_sentence_ids": "S9003;S9101;S9030",
+      "conjugation_lemma": "zijn",
+      "status": "live"
+    },
+    {
+      "unit_id": "U10",
+      "rule": "The possessives are **mijn** (my), **jouw** or **je** (your), **zijn** (his) and **haar** (her); for our there are two, **ons** before a **het**-word (**ons huis**) and **onze** before the rest (**onze auto**). Family words: **vader**, **moeder**, **broer**, **zus**, and **vriend** / **vriendin** for a friend.",
+      "example_sentence_ids": "S10001;S10015;S10003",
+      "conjugation_lemma": "zijn",
+      "status": "live"
+    },
+    {
+      "unit_id": "U11",
+      "rule": "A question word opens the sentence and the verb comes next: **wie** (who), **wat** (what), **waar** (where), **wanneer** (when), **waarom** (why), **welke** (which). In the answer, **omdat** means because and sends its verb to the end: **Omdat ik moe ben.**",
+      "example_sentence_ids": "S11001;S11002;S11104",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U12",
+      "rule": "The numbers one to ten: **een**, **twee**, **drie**, **vier**, **vijf**, **zes**, **zeven**, **acht**, **negen**, **tien**. A number sits straight before the noun: **twee kinderen**, **drie honden**. **Hoeveel** asks how many, and **jaar** gives an age: **hij is vader van twee kinderen**.",
+      "example_sentence_ids": "S12005;S12101;S12004",
+      "conjugation_lemma": "hebben",
+      "status": "live"
+    },
+    {
+      "unit_id": "U13",
+      "rule": "A colour after **de** or **het** keeps its plain form: **de auto is rood**, **het boek is groen**. Before a noun it adds **-e** like other adjectives: **een rode auto**. **Kleur** means colour.",
+      "example_sentence_ids": "S13003;S13006;S13101",
+      "conjugation_lemma": "zijn",
+      "status": "live"
+    },
+    {
+      "unit_id": "U14",
+      "rule": "**Vandaag** is today, **morgen** is tomorrow (and also morning) and **nu** is now. The days of the week are written with a small letter: **maandag**, **zaterdag**, **zondag**. **Dag** is day and **week** is week; **laat** means late.",
+      "example_sentence_ids": "S14001;S14008;S14102",
+      "conjugation_lemma": "zijn",
+      "status": "live"
+    },
+    {
+      "unit_id": "U15",
+      "rule": "**Gaan** is to go: **ik ga**, **jij gaat**, **hij gaat**, **wij**/**jullie**/**zij gaan**. **Naar** marks where you are headed: **ik ga naar school**, **ze gaat naar het park**. Place words here: **park**, **school**, **winkel**, **stad**, **restaurant**, **straat**.",
+      "example_sentence_ids": "S15001;S15006;S15101",
+      "conjugation_lemma": "gaan",
+      "status": "live"
+    },
+    {
+      "unit_id": "U31",
+      "rule": "Three handy lines. **Ik begrijp het** means I understand; **langzamer** asks for slower speech, as in **praat langzamer** or **spreek langzamer**. **Nog een keer** means one more time. **Alsjeblieft** makes any of them polite.",
+      "example_sentence_ids": "S31001;S31003;S31101",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U32",
+      "rule": "**Wat betekent…?** asks what something means, and **Hoe zeg je…?** asks how to say it: **Hoe zeg je dat in het Nederlands?** **Nederlands** is Dutch and **Engels** is English; a language is written with a capital letter.",
+      "example_sentence_ids": "S32004;S32009;S32005",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U33",
+      "rule": "When you are missing a word, describe it. **Ik zoek…** means I am looking for…, and **het is om te…** says what it is for: **het is om te eten**. **Ik weet het** means I know; **heet** means is called (**ik heet Tom**).",
+      "example_sentence_ids": "S33004;S33101;S33107",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U51",
+      "rule": "Use **hebben** for features: **zij heeft blauwe ogen**, **hij heeft blond haar**. The adjective adds **-e** before the noun (**lange armen**) and stays plain after the verb (**mijn been is lang**). Words for looks: **lang** (tall), **kort** (short), **blond**, **knap** (good-looking), **slim** (clever).",
+      "example_sentence_ids": "S51012;S51102;S51001",
+      "conjugation_lemma": "hebben",
+      "status": "live"
+    },
+    {
+      "unit_id": "U52",
+      "rule": "To say you like doing something, use **houden van** with the plain verb: **ik houd van zwemmen**, **ik houd van lezen**. For reading, **ik lees** and **hij leest**. **Voetbal** is football and a **spel** is a game; a **film** is a film.",
+      "example_sentence_ids": "S52109;S52002;S52112",
+      "conjugation_lemma": "houden",
+      "status": "live"
+    },
+    {
+      "unit_id": "U53",
+      "rule": "**Waar is…?** asks where a place is: **Waar is het museum?** Places in town: **het museum**, **de kerk**, **het station**, **het ziekenhuis**, **het plein**. You travel **met de bus** or **met de trein**. **Dichtbij** means nearby and **ver** means far.",
+      "example_sentence_ids": "S53101;S53006;S53002",
+      "conjugation_lemma": "",
+      "status": "live"
+    }
+  ]
+}

@@ -62,6 +62,17 @@ export const VOCAB_PART1 = {
       words: ['museu', 'igreja', 'hotel', 'estação', 'ônibus', 'trem', 'táxi', 'rua', 'praia', 'banco', 'aeroporto', 'hospital', 'bicicleta', 'fica', 'perto', 'longe'],
       cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
   ],
+  nl: [
+    { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Zij heeft blauwe ogen: hebben with the article for features; lang, kort: adjectives add -e before a noun',
+      words: ['oog', 'ogen', 'hand', 'voet', 'neus', 'mond', 'hoofd', 'been', 'arm', 'lang', 'kort', 'blond', 'knap', 'slim'],
+      cando: ['speaking', 'Spoken production', 'I can describe a person simply: their hair, their eyes, what they are like.'] },
+    { unit_id: 'U52', order: 7.2, row: 5, title: 'Free Time', grammar: 'Ik houd van zwemmen: houden van and a verb; ik lees, hij leest; voetbal spelen',
+      words: ['muziek', 'foto', 'feest', 'voetbal', 'spel', 'zwemmen', 'dansen', 'zingen', 'lezen', 'lees', 'kijken', 'film'],
+      cando: ['speaking', 'Spoken production', 'I can say what I like doing in my free time.'] },
+    { unit_id: 'U53', order: 11.2, row: 7, title: 'Around Town', grammar: 'Waar is…? Het museum, de kerk; met de bus, met de trein for how you travel; dichtbij and ver',
+      words: ['museum', 'kerk', 'hotel', 'station', 'bus', 'trein', 'taxi', 'strand', 'ziekenhuis', 'plein', 'dichtbij', 'ver'],
+      cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
+  ],
   sv: [
     { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Hon har blå ögon, han har kort hår: har for features; en adjective before an ett-word adds -t, before a plural -a',
       words: ['hår', 'öga', 'ögon', 'hand', 'fot', 'näsa', 'mun', 'huvud', 'ben', 'arm', 'lång', 'blond'],
@@ -105,7 +116,7 @@ if (process.argv[1] === import.meta.filename) {
   const words = sheet('words').filter((w) => !/^W1\d{3}$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
   const keys = Object.keys(words[0])
-  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', sv: 'Swedish' }[COURSE]
+  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', nl: 'Dutch', sv: 'Swedish' }[COURSE]
   let n = 1001
   for (const u of V) for (const form of u.words) {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)

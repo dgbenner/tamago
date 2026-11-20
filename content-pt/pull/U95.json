@@ -1,0 +1,1200 @@
+{
+  "unit_id": "U95",
+  "pulled_at": "2026-11-19",
+  "candidates": 22,
+  "sentences": [
+    {
+      "sentence_id": "S95001",
+      "unit_id": "U95",
+      "french": "Onde está o elevador?",
+      "english": "Where is the elevator?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1652119",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95002",
+      "unit_id": "U95",
+      "french": "Onde está sua carteira?",
+      "english": "Where's your wallet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4809063",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95003",
+      "unit_id": "U95",
+      "french": "Posso fazer uma reserva?",
+      "english": "Can I make a reservation?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6556002",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95004",
+      "unit_id": "U95",
+      "french": "Você tem um elevador?",
+      "english": "Do you have an elevator?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11718933",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95005",
+      "unit_id": "U95",
+      "french": "Vocês têm um elevador?",
+      "english": "Do you have an elevator?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11718934",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95006",
+      "unit_id": "U95",
+      "french": "De quem é esta carteira?",
+      "english": "Whose wallet is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11766750",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95007",
+      "unit_id": "U95",
+      "french": "Você tem quanto na sua carteira?",
+      "english": "How much do you have in your wallet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8541979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95008",
+      "unit_id": "U95",
+      "french": "Tenho uma reserva.",
+      "english": "I have a reservation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "985188",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I've got a reservation."
+      ]
+    },
+    {
+      "sentence_id": "S95009",
+      "unit_id": "U95",
+      "french": "Tom tem uma reserva.",
+      "english": "Tom has a reservation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1571380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95010",
+      "unit_id": "U95",
+      "french": "Mary não está em sua tenda.",
+      "english": "Mary isn't in her tent.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6695996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mecamute",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95011",
+      "unit_id": "U95",
+      "french": "Ele não entende o princípio da coisa.",
+      "english": "He doesn't understand the principle of the thing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2828650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95012",
+      "unit_id": "U95",
+      "french": "Você tem elevador na sua casa?",
+      "english": "Do you have an elevator in your house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6943727",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95013",
+      "unit_id": "U95",
+      "french": "Não há elevador.",
+      "english": "There's no elevator.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11718925",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95014",
+      "unit_id": "U95",
+      "french": "Aqui está minha carteira.",
+      "english": "Here's my wallet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1009117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95015",
+      "unit_id": "U95",
+      "french": "Nós temos uma reserva.",
+      "english": "We have a reservation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4815086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95016",
+      "unit_id": "U95",
+      "french": "Vamos pegar o elevador.",
+      "english": "Let's take the elevator.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11718932",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95017",
+      "unit_id": "U95",
+      "french": "Tom está procurando sua carteira.",
+      "english": "Tom is looking for his wallet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3453953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95018",
+      "unit_id": "U95",
+      "french": "Esta carteira não é minha.",
+      "english": "This wallet isn't mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8979192",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95019",
+      "unit_id": "U95",
+      "french": "Sua carteira está na mesa.",
+      "english": "Your wallet is on the table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10781354",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DavidDias",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95020",
+      "unit_id": "U95",
+      "french": "Tenho uma reserva para o almoço.",
+      "english": "I have a reservation for lunch.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3453910",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95021",
+      "unit_id": "U95",
+      "french": "Não tenho mais dinheiro na carteira.",
+      "english": "I have no more money in my wallet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3806689",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95022",
+      "unit_id": "U95",
+      "french": "Temos uma reserva para seis e meia.",
+      "english": "We have a reservation for six-thirty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1969726",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S95001",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 4,
+      "surface": "elevador",
+      "word_id": "W1892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 3,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 4,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 2,
+      "surface": "fazer",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 4,
+      "surface": "reserva",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 4,
+      "surface": "elevador",
+      "word_id": "W1892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 1,
+      "surface": "Vocês",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 2,
+      "surface": "têm",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 4,
+      "surface": "elevador",
+      "word_id": "W1892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 2,
+      "surface": "quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 5,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 3,
+      "surface": "quanto",
+      "word_id": "W942",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 4,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 5,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 6,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 3,
+      "surface": "reserva",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 4,
+      "surface": "reserva",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 1,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 4,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 5,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 6,
+      "surface": "tenda",
+      "word_id": "W1888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 3,
+      "surface": "entende",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 5,
+      "surface": "princípio",
+      "word_id": "W1893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 6,
+      "surface": "da",
+      "word_id": "W1499",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 7,
+      "surface": "coisa",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 3,
+      "surface": "elevador",
+      "word_id": "W1892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 4,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 5,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 6,
+      "surface": "casa",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 2,
+      "surface": "há",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 3,
+      "surface": "elevador",
+      "word_id": "W1892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 1,
+      "surface": "Aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 3,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 4,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 1,
+      "surface": "Nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 2,
+      "surface": "temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 4,
+      "surface": "reserva",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 2,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 4,
+      "surface": "elevador",
+      "word_id": "W1892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 3,
+      "surface": "procurando",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 4,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 5,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 2,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 5,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 1,
+      "surface": "Sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 2,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 4,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 5,
+      "surface": "mesa",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 3,
+      "surface": "reserva",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 6,
+      "surface": "almoço",
+      "word_id": "W1293",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 3,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 4,
+      "surface": "dinheiro",
+      "word_id": "W921",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 5,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 6,
+      "surface": "carteira",
+      "word_id": "W1890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 1,
+      "surface": "Temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 3,
+      "surface": "reserva",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 5,
+      "surface": "seis",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 6,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 7,
+      "surface": "meia",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A950081",
+      "sentence_id": "S95008",
+      "direction": "fr_to_en",
+      "answer": "I've got a reservation.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

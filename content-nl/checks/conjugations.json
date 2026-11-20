@@ -1,0 +1,398 @@
+{
+  "zijn": [
+    {
+      "person": "ik",
+      "form": "ben"
+    },
+    {
+      "person": "jij, je",
+      "form": "bent"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "is"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zijn"
+    }
+  ],
+  "drinken": [
+    {
+      "person": "ik",
+      "form": "drink"
+    },
+    {
+      "person": "jij, je",
+      "form": "drinkt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "drinkt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "drinken"
+    }
+  ],
+  "hebben": [
+    {
+      "person": "ik",
+      "form": "heb"
+    },
+    {
+      "person": "jij, je",
+      "form": "hebt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "heeft"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "hebben"
+    }
+  ],
+  "staan": [
+    {
+      "person": "ik",
+      "form": "sta"
+    },
+    {
+      "person": "jij, je",
+      "form": "staat"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "staat"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "staan"
+    }
+  ],
+  "gaan": [
+    {
+      "person": "ik",
+      "form": "ga"
+    },
+    {
+      "person": "jij, je",
+      "form": "gaat"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "gaat"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "gaan"
+    }
+  ],
+  "houden": [
+    {
+      "person": "ik",
+      "form": "hou"
+    },
+    {
+      "person": "jij, je",
+      "form": "houdt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "houdt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "houden"
+    }
+  ],
+  "eten": [
+    {
+      "person": "ik",
+      "form": "eet"
+    },
+    {
+      "person": "jij, je",
+      "form": "eet"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "eet"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "eten"
+    }
+  ],
+  "liggen": [
+    {
+      "person": "ik",
+      "form": "lig"
+    },
+    {
+      "person": "jij, je",
+      "form": "ligt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "ligt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "liggen"
+    }
+  ],
+  "begrijpen": [
+    {
+      "person": "ik",
+      "form": "begrijp"
+    },
+    {
+      "person": "jij, je",
+      "form": "begrijpt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "begrijpt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "begrijpen"
+    }
+  ],
+  "zeggen": [
+    {
+      "person": "ik",
+      "form": "zeg"
+    },
+    {
+      "person": "jij, je",
+      "form": "zegt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zegt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zeggen"
+    }
+  ],
+  "spreken": [
+    {
+      "person": "ik",
+      "form": "spreek"
+    },
+    {
+      "person": "jij, je",
+      "form": "spreekt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "spreekt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "spreken"
+    }
+  ],
+  "praten": [
+    {
+      "person": "ik",
+      "form": "praat"
+    },
+    {
+      "person": "jij, je",
+      "form": "praat"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "praat"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "praten"
+    }
+  ],
+  "herhalen": [
+    {
+      "person": "ik",
+      "form": "herhaal"
+    },
+    {
+      "person": "jij, je",
+      "form": "herhaalt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "herhaalt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "herhalen"
+    }
+  ],
+  "betekenen": [
+    {
+      "person": "ik",
+      "form": "beteken"
+    },
+    {
+      "person": "jij, je",
+      "form": "betekent"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "betekent"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "betekenen"
+    }
+  ],
+  "zoeken": [
+    {
+      "person": "ik",
+      "form": "zoek"
+    },
+    {
+      "person": "jij, je",
+      "form": "zoekt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zoekt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zoeken"
+    }
+  ],
+  "weten": [
+    {
+      "person": "ik",
+      "form": "weet"
+    },
+    {
+      "person": "jij, je",
+      "form": "weet"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "weet"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "weten"
+    }
+  ],
+  "heten": [
+    {
+      "person": "ik",
+      "form": "heet"
+    },
+    {
+      "person": "jij, je",
+      "form": "heet"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "heet"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "heten"
+    }
+  ],
+  "zwemmen": [
+    {
+      "person": "ik",
+      "form": "zwem"
+    },
+    {
+      "person": "jij, je",
+      "form": "zwemt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zwemt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zwemmen"
+    }
+  ],
+  "dansen": [
+    {
+      "person": "ik",
+      "form": "dans"
+    },
+    {
+      "person": "jij, je",
+      "form": "danst"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "danst"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "dansen"
+    }
+  ],
+  "zingen": [
+    {
+      "person": "ik",
+      "form": "zing"
+    },
+    {
+      "person": "jij, je",
+      "form": "zingt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zingt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zingen"
+    }
+  ],
+  "lezen": [
+    {
+      "person": "ik",
+      "form": "lees"
+    },
+    {
+      "person": "jij, je",
+      "form": "leest"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "leest"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "lezen"
+    }
+  ],
+  "kijken": [
+    {
+      "person": "ik",
+      "form": "kijk"
+    },
+    {
+      "person": "jij, je",
+      "form": "kijkt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "kijkt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "kijken"
+    }
+  ]
+}

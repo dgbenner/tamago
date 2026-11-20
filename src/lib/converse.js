@@ -73,6 +73,14 @@ export const HELP_PHRASES = {
     { help: 'say', level: 2, text: 'Como se diz…?', frame: 'Como se diz “” em português?', caret: 13 },
     { help: 'word', level: 3, text: 'Estou procurando a palavra…', frame: 'Estou procurando a palavra. É uma coisa para ' },
   ],
+  nl: [
+    { help: 'understand', level: 1, text: 'Ik begrijp het niet.' },
+    { help: 'slower', level: 1, text: 'Langzamer, alsjeblieft.' },
+    { help: 'repeat', level: 1, text: 'Kunt u dat herhalen?' },
+    { help: 'meaning', level: 2, text: 'Wat betekent dat?', withWord: (w) => `Wat betekent „${w}”?` },
+    { help: 'say', level: 2, text: 'Hoe zeg je…?', frame: 'Hoe zeg je „” in het Nederlands?', caret: 12 },
+    { help: 'word', level: 3, text: 'Ik zoek het woord…', frame: 'Ik zoek het woord. Het is een ding om ' },
+  ],
 }
 
 // Three scenes per course, built around the help phrases: Claude speaks slightly above the learner's level on
@@ -102,6 +110,11 @@ export const SCENES = {
     { id: 'cafe', title: 'Ordering a Drink', about: 'You walk into a café and order something to drink.', setting: 'A small café. The learner comes in and orders something to drink.', ai: 'the waiter, friendly and a little quick', learner: 'a customer', keys: ['café', 'chá', 'água', 'leite', 'por favor', 'obrigado'] },
     { id: 'neighbour', title: 'A New Neighbour', about: 'Someone has just moved in next door. Say hello and get to know them.', setting: 'The learner meets someone who has just moved in next door, outside the house.', ai: 'the new neighbour, chatty, with a family and a dog', learner: 'the person who lives next door', keys: ['oi', 'casa', 'família', 'crianças', 'cachorro'] },
     { id: 'way', title: 'Finding the Way', about: 'You\'re in town looking for the park. Ask someone the way.', setting: 'In town. The learner is looking for the park and asks someone in the street.', ai: 'a local who knows the town well', learner: 'a visitor', keys: ['onde', 'parque', 'escola', 'restaurante', 'cidade'] },
+  ],
+  nl: [
+    { id: 'cafe', title: 'Ordering a Drink', about: 'You walk into a café and order something to drink.', setting: 'A small café. The learner comes in and orders something to drink.', ai: 'the waiter, friendly and a little quick', learner: 'a customer', keys: ['koffie', 'thee', 'water', 'melk', 'alsjeblieft', 'dank'] },
+    { id: 'neighbour', title: 'A New Neighbour', about: 'Someone has just moved in next door. Say hello and get to know them.', setting: 'The learner meets someone who has just moved in next door, outside the house.', ai: 'the new neighbour, chatty, with a family and a dog', learner: 'the person who lives next door', keys: ['hallo', 'huis', 'familie', 'kinderen', 'hond'] },
+    { id: 'way', title: 'Finding the Way', about: 'You\'re in town looking for the park. Ask someone the way.', setting: 'In town. The learner is looking for the park and asks someone in the street.', ai: 'a local who knows the town well', learner: 'a visitor', keys: ['waar', 'park', 'school', 'restaurant', 'stad'] },
   ],
 }
 
@@ -143,6 +156,12 @@ export const TALK_HELP = {
     { help: 'spell', text: 'Como se escreve?', withWord: (w) => `Como se escreve “${w}”?` },
     { help: 'meaning', text: 'O que significa?', withWord: (w) => `O que significa “${w}”?` },
   ],
+  nl: [
+    { help: 'repeat', text: 'Kunt u dat herhalen?' },
+    { help: 'slower', text: 'Langzamer, alsjeblieft.' },
+    { help: 'spell', text: 'Hoe schrijf je dat?', withWord: (w) => `Hoe schrijf je „${w}”?` },
+    { help: 'meaning', text: 'Wat betekent dat?', withWord: (w) => `Wat betekent „${w}”?` },
+  ],
 }
 // The whole help row: the four first, then the help circles' phrases the learner has opened that aren't the same ask.
 export const helpRow = (courseId, helpLevel) => [
@@ -151,7 +170,7 @@ export const helpRow = (courseId, helpLevel) => [
 ]
 
 // Five scenes, one A1 task each. keys: course words the task turns on; a key the course doesn't have yet is skipped
-// (Italian and Portuguese have Part 1 only), so a scene fits more courses as they grow.
+// (Dutch has Part 1 only), so a scene fits more courses as they grow.
 const TASKS = [
   { id: 'food', title: 'Ordering Food', about: 'Order something to eat and drink, then ask for the bill', setting: 'A small restaurant or café at lunchtime. The learner orders food and a drink, and at the end asks to pay.', ai: 'the waiter, friendly', learner: 'a customer' },
   { id: 'way', title: 'Asking Directions', about: 'Ask someone in town the way to a place', setting: 'In the street in town. The learner asks a local the way to a place (the station, a shop, a street) and checks how far it is.', ai: 'a local who knows the town', learner: 'a visitor' },
@@ -165,6 +184,7 @@ const KEYS = {
   de: { food: ['essen', 'Brot', 'Wasser', 'Kaffee', 'bezahlen', 'möchte'], way: ['wo', 'Straße', 'links', 'rechts', 'weit', 'Bahnhof'], intro: ['heiße', 'Name', 'wohne', 'Jahre', 'arbeite', 'hallo'], shop: ['wie viel', 'Euro', 'kaufen', 'Preis', 'kostet', 'möchte'], plan: ['morgen', 'Samstag', 'Kino', 'Uhr', 'zusammen', 'Zeit'] },
   it: { food: ['mangiare', 'pane', 'acqua', 'caffè', 'conto', 'vorrei'], way: ['dove', 'strada', 'sinistra', 'destra', 'lontano', 'stazione'], intro: ['chiamo', 'nome', 'abito', 'anni', 'lavoro', 'ciao'], shop: ['quanto', 'euro', 'comprare', 'prezzo', 'costa', 'vorrei'], plan: ['domani', 'sabato', 'cinema', 'ora', 'insieme', 'libero'] },
   pt: { food: ['comer', 'pão', 'água', 'café', 'conta', 'quero'], way: ['onde', 'rua', 'esquerda', 'direita', 'longe', 'estação'], intro: ['chamo', 'nome', 'moro', 'anos', 'trabalho', 'oi'], shop: ['quanto', 'reais', 'comprar', 'preço', 'custa', 'quero'], plan: ['amanhã', 'sábado', 'cinema', 'hora', 'juntos', 'livre'] },
+  nl: { food: ['eten', 'brood', 'water', 'koffie', 'rekening', 'wil'], way: ['waar', 'straat', 'links', 'rechts', 'ver', 'station'], intro: ['heet', 'naam', 'woon', 'jaar', 'werk', 'hoi'], shop: ['hoeveel', 'euro', 'kopen', 'prijs', 'kost', 'wil'], plan: ['morgen', 'zaterdag', 'film', 'laat', 'samen', 'vrij'] },
 }
 export const TASK_SCENES = Object.fromEntries(Object.entries(KEYS).map(([c, k]) => [c, TASKS.map((t) => ({ ...t, task: t.title, keys: k[t.id] }))]))
 
