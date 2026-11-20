@@ -968,7 +968,7 @@ export default function App() {
       const scores = finalScores(s.results)
       const record = { date: today(), scores }
       setFinalCheck(record); putKv('final_check', record)
-      setEnding({ line: finalLine(scores), back: 'home', exam: true })
+      setEnding({ line: finalLine(scores), back: 'home', exam: !!EXAMS[course.id] })
       return
     }
     if (s.kind === 'check') {

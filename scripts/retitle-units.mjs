@@ -2,7 +2,7 @@
 // list; Spanish and German follow it where the circle is the same, and the same style where it isn't. French Part 2
 // followed in round 2. Writes the next workbook version; rerun after regenerating a Spanish or
 // German workbook with its make-*-workbook script, which writes the old titles back.
-// Usage: COURSE=fr|es|de node scripts/retitle-units.mjs <from.xlsx> <to.xlsx>
+// Usage: COURSE=<course id> node scripts/retitle-units.mjs <from.xlsx> <to.xlsx>
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
 import { C } from './lib/course.mjs'
@@ -19,6 +19,7 @@ export const SHARED = {
   // Round 2 (Dan, 2026-11-11): every "and" becomes "+", in all parts; a title needn't cover everything in the circle.
   'Mine and Yours': 'Mine + Yours', 'Music and Songs': 'Music', 'Age and Birthdays': 'Birthdays',
   'Countries and Languages': 'Countries + Languages', 'Bottles and Bags': 'Bottles + Bags', 'Body and Feelings': 'Body + Feelings',
+  'Naming Colours': 'Colors', // the UK spelling some generators wrote (Dutch, Danish, Norwegian; 2026-11-20)
 }
 // Circles only one course has.
 export const OWN = {
@@ -27,9 +28,13 @@ export const OWN = {
   de: { 'Not and None': 'Not + None', 'Wanting and Can': 'Want + Can', 'People and Feelings': 'People + Feelings' },
   it: { 'Body and Looks': 'Body + Looks' },
   pt: { 'Body and Looks': 'Body + Looks' },
+  nl: { 'Body and Looks': 'Body + Looks' },
+  sv: { 'Body and Looks': 'Body + Looks' },
+  da: { 'Body and Looks': 'Body + Looks' },
+  no: { 'Body and Looks': 'Body + Looks' },
 }
 // French Part 2 kept its titles in the first round; since round 2 every part follows the same rules.
-const KEEP_PARTS = { fr: [], es: [], de: [], it: [], pt: [] }
+const KEEP_PARTS = { fr: [], es: [], de: [], it: [], pt: [], nl: [], sv: [], da: [], no: [] }
 
 const [from, to] = process.argv.slice(2)
 if (!from || !to) throw new Error('usage: COURSE=fr|es|de node scripts/retitle-units.mjs <from.xlsx> <to.xlsx>')
