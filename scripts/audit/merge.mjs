@@ -27,7 +27,7 @@ for (const i of ui.issues) {
 for (const i of groups.values()) rows.push({ course: i.course, circle: i.circle, round: i.round, lesson: i.lesson === '-' ? '-' : `${i.lesson}, question ${i.question}`, 'question type': name(i.type, i.course), issue: `${i.issue}${i.n > 2 ? ` (${i.n} times in this circle)` : ''} [WebKit ${[...i.devices].sort().join(' and ')}]`, severity: i.severity, screenshot: i.screenshot })
 try {
   const wb0 = XLSX.readFile(`${homedir()}/Desktop/tamago-word-intro-audit.xlsx`)
-  for (const course of ['French', 'Spanish', 'German', 'Italian', 'Portuguese', 'Dutch']) for (const r of XLSX.utils.sheet_to_json(wb0.Sheets[course] ?? {}).filter((x) => x.flagged === 'yes')) {
+  for (const course of ['French', 'Spanish', 'German', 'Italian', 'Portuguese', 'Dutch', 'Swedish']) for (const r of XLSX.utils.sheet_to_json(wb0.Sheets[course] ?? {}).filter((x) => x.flagged === 'yes')) {
     rows.push({ course, circle: r.circle, round: r.round, lesson: r.lesson, 'question type': r.first_question_type, issue: `word "${r.word}" first appears here, before it's introduced: ${r.reason} [word audit]`, severity: 'medium', screenshot: '' })
   }
 } catch { /* no word audit on the Desktop */ }

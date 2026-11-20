@@ -10,7 +10,7 @@ test('colour becomes color, case and endings kept', () => {
 })
 
 test('no shipped content says colour, outside the accepted answers', () => {
-  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl']) {
+  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl', 'content-sv']) {
     for (const f of readdirSync(`src/${dir}`).filter((x) => x.endsWith('.json') && x !== 'accepted_answers.json')) {
       const text = readFileSync(`src/${dir}/${f}`, 'utf8')
       assert.ok(!/\bcolour/i.test(text), `src/${dir}/${f} still says colour`)

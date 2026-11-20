@@ -154,4 +154,9 @@ async function dutch(lemma) {
   return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
 }
 
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch }[COURSE]
+// Swedish (2026-11-19): the present tense is one form for every person (jag/du/han/vi talar), so a per-person table
+// would only repeat it. No table is built; the grammar note carries the pattern in prose. Returning null is the
+// "no table" signal check-content already handles (like the other readers when a table can't be read).
+async function swedish() { return null }
+
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish }[COURSE]

@@ -1,0 +1,308 @@
+{
+ "unit_id": "U32",
+ "pulled_at": "2026-11-20",
+ "candidates": 7,
+ "sentences": [
+  {
+   "sentence_id": "S32001",
+   "unit_id": "U32",
+   "french": "Vad betyder det?",
+   "english": "What does it mean?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "401347",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "morbrorper",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S32002",
+   "unit_id": "U32",
+   "french": "Vad säger han?",
+   "english": "What does he say?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1603370",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "viorayli",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S32003",
+   "unit_id": "U32",
+   "french": "Pratar du svenska?",
+   "english": "Do you speak Swedish?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2180636",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S32004",
+   "unit_id": "U32",
+   "french": "Betyder det ja?",
+   "english": "Does that mean yes?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4328403",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S32005",
+   "unit_id": "U32",
+   "french": "Jag pratar svenska.",
+   "english": "I speak Swedish.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2180637",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S32006",
+   "unit_id": "U32",
+   "french": "Jag pratar inte svenska.",
+   "english": "I don't speak Swedish.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2180633",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S32007",
+   "unit_id": "U32",
+   "french": "Jag förstår vad du säger.",
+   "english": "I understand what you're saying.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2654805",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S32001",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32001",
+   "position": 2,
+   "surface": "betyder",
+   "word_id": "W710",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32001",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32002",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32002",
+   "position": 2,
+   "surface": "säger",
+   "word_id": "W709",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32002",
+   "position": 3,
+   "surface": "han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32003",
+   "position": 1,
+   "surface": "Pratar",
+   "word_id": "W706",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32003",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32003",
+   "position": 3,
+   "surface": "svenska",
+   "word_id": "W713",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32004",
+   "position": 1,
+   "surface": "Betyder",
+   "word_id": "W710",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32004",
+   "position": 2,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32004",
+   "position": 3,
+   "surface": "ja",
+   "word_id": "W003",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32005",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32005",
+   "position": 2,
+   "surface": "pratar",
+   "word_id": "W706",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32005",
+   "position": 3,
+   "surface": "svenska",
+   "word_id": "W713",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32006",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32006",
+   "position": 2,
+   "surface": "pratar",
+   "word_id": "W706",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32006",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32006",
+   "position": 4,
+   "surface": "svenska",
+   "word_id": "W713",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32007",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32007",
+   "position": 2,
+   "surface": "förstår",
+   "word_id": "W701",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32007",
+   "position": 3,
+   "surface": "vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32007",
+   "position": 4,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S32007",
+   "position": 5,
+   "surface": "säger",
+   "word_id": "W709",
+   "notes": "",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [],
+ "qa_answers": []
+}
