@@ -1,0 +1,292 @@
+{
+  "unit_id": "U14",
+  "pulled_at": "2026-11-20",
+  "candidates": 7,
+  "sentences": [
+    {
+      "sentence_id": "S14001",
+      "unit_id": "U14",
+      "french": "Er det mandag i dag?",
+      "english": "Is today Monday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11063960",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14002",
+      "unit_id": "U14",
+      "french": "I morgen?",
+      "english": "Tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940343",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14003",
+      "unit_id": "U14",
+      "french": "Og nå?",
+      "english": "And now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940508",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14004",
+      "unit_id": "U14",
+      "french": "Hvor er du nå?",
+      "english": "Where are you now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4870120",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pergpau",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14005",
+      "unit_id": "U14",
+      "french": "Ikke nå!",
+      "english": "Not now!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940646",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14006",
+      "unit_id": "U14",
+      "french": "Jeg er syk nå.",
+      "english": "I'm sick now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12576327",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elithyia",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14007",
+      "unit_id": "U14",
+      "french": "Jeg er veldig sulten nå.",
+      "english": "I'm very hungry now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2941326",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S14001",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 3,
+      "surface": "mandag",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 4,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 1,
+      "surface": "I morgen",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 1,
+      "surface": "Og",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 2,
+      "surface": "nå",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 4,
+      "surface": "nå",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 1,
+      "surface": "Ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 2,
+      "surface": "nå",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 3,
+      "surface": "syk",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 4,
+      "surface": "nå",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 3,
+      "surface": "veldig",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 4,
+      "surface": "sulten",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 5,
+      "surface": "nå",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

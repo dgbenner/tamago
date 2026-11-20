@@ -1,0 +1,205 @@
+{
+  "unit_id": "U04",
+  "pulled_at": "2026-11-20",
+  "candidates": 4,
+  "sentences": [
+    {
+      "sentence_id": "S4001",
+      "unit_id": "U04",
+      "french": "Jeg spiser brød.",
+      "english": "I eat bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4866445",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "VegBerg",
+      "other_english": [
+        "I'm eating bread.",
+        "I am eating bread."
+      ]
+    },
+    {
+      "sentence_id": "S4002",
+      "unit_id": "U04",
+      "french": "Jeg liker ikke kaffe.",
+      "english": "I don't like coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2879705",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": [
+        "I dislike coffee."
+      ]
+    },
+    {
+      "sentence_id": "S4003",
+      "unit_id": "U04",
+      "french": "Jeg liker brød.",
+      "english": "I like bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14060666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4004",
+      "unit_id": "U04",
+      "french": "Liker du det?",
+      "english": "Do you like it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940412",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S4001",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 3,
+      "surface": "brød",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 2,
+      "surface": "liker",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 4,
+      "surface": "kaffe",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 2,
+      "surface": "liker",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 3,
+      "surface": "brød",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 1,
+      "surface": "Liker",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A40011",
+      "sentence_id": "S4001",
+      "direction": "fr_to_en",
+      "answer": "I'm eating bread.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40012",
+      "sentence_id": "S4001",
+      "direction": "fr_to_en",
+      "answer": "I am eating bread.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40021",
+      "sentence_id": "S4002",
+      "direction": "fr_to_en",
+      "answer": "I dislike coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

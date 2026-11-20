@@ -161,4 +161,9 @@ async function swedish() { return null }
 
 // Danish (2026-11-19): the present tense is one form for every person (jeg er, du er, han er; jeg taler, vi taler),
 // so the course teaches no per-person verb table. No grammar note sets a conjugation_lemma; this stays null.
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish, da: async () => null }[COURSE]
+// Norwegian Bokmål (2026-11-19): the present tense is one form for every person (jeg er, du er, han er; jeg spiser,
+// du spiser), so a per-person table teaches nothing and the grammar note carries the rule instead. No table is built,
+// the same outcome as a verb whose table the other courses can't parse (null), which the pipeline already handles.
+async function norwegian() { return null }
+
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish, da: async () => null, no: norwegian }[COURSE]

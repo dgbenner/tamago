@@ -1,0 +1,415 @@
+{
+  "_about": "Norwegian (Bokmål) review decisions, branch lang/norwegian (Dan, 2026-11-19). units: Dan's approvals per circle. gender: en/ei/et imported from Wiktionary where the pipeline left the noun blank (build-content.mjs applies it so the Glossary shows the article). claude_hints: a short form or a better-fitting Wiktionary sense, with its source. sentences: swap/confirm rulings on drafts. names: names allowed in sentences.",
+  "units": {
+    "U01": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U02": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U03": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U04": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U05": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U06": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U07": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U08": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U09": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U10": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U11": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U12": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U13": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U14": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U15": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U31": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U32": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U33": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U51": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U52": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    },
+    "U53": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: Part 1 circle reviewed (pull + drafts), words covered, note written"
+    }
+  },
+  "sentences": {
+    "S5005": {
+      "action": "confirm",
+      "french": "Har du melk?",
+      "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation"
+    },
+    "S6003": {
+      "action": "confirm",
+      "french": "Hei, dere.",
+      "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation"
+    },
+    "S9005": {
+      "action": "confirm",
+      "french": "Er du ikke trist?",
+      "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation"
+    },
+    "S10003": {
+      "action": "confirm",
+      "french": "Hei, far.",
+      "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation"
+    },
+    "S31001": {
+      "action": "confirm",
+      "french": "Forstår du?",
+      "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation"
+    }
+  },
+  "accepted_answers": {},
+  "cut_sentences": [],
+  "vocabulary_additions": [],
+  "hints": {},
+  "gender": {
+    "W049": "et",
+    "W099": "et",
+    "W1009": "en"
+  },
+  "claude_hints": {
+    "W102": {
+      "hint": "happy",
+      "source": "Claude, 2026-11-19: primary sense; drops the \"glad\" synonym so it is not treated as an English cognate (word audit)"
+    },
+    "W046": {
+      "hint": "to drink",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1024": {
+      "hint": "to read",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W090": {
+      "hint": "in",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W115": {
+      "hint": "our",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1009": {
+      "hint": "arm",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W099": {
+      "hint": "room",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W010": {
+      "hint": "a, an",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W011": {
+      "hint": "man",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W068": {
+      "hint": "they",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W019": {
+      "hint": "it, that",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W020": {
+      "hint": "it, that",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1013": {
+      "hint": "pretty",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W097": {
+      "hint": "bathroom, bath",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1025": {
+      "hint": "to see",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W160": {
+      "hint": "park",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W164": {
+      "hint": "restaurant",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1026": {
+      "hint": "film, movie",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1028": {
+      "hint": "museum",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1034": {
+      "hint": "taxi",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W1003": {
+      "hint": "hand",
+      "source": "Fable's Part 1 review, 2026-11-20 (Wiktionary sense), applied by Claude"
+    },
+    "W045": {
+      "hint": "to eat",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W047": {
+      "hint": "to like",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W088": {
+      "hint": "to stand",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W089": {
+      "hint": "to lie, be located",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W041": {
+      "hint": "to walk, go",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W069": {
+      "hint": "dogs",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W070": {
+      "hint": "cats",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W071": {
+      "hint": "books",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W074": {
+      "hint": "apples",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W075": {
+      "hint": "friends",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W072": {
+      "hint": "men",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W073": {
+      "hint": "women",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W044": {
+      "hint": "fine",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W130": {
+      "hint": "one",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W009": {
+      "hint": "a, an; one",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W012": {
+      "hint": "woman",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W049": {
+      "hint": "water",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W048": {
+      "hint": "bread",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W085": {
+      "hint": "car",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W002": {
+      "hint": "hello",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W006": {
+      "hint": "I",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W007": {
+      "hint": "you",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W017": {
+      "hint": "he",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W018": {
+      "hint": "she",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W066": {
+      "hint": "we",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W067": {
+      "hint": "you (plural)",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W022": {
+      "hint": "this",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W111": {
+      "hint": "my",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W112": {
+      "hint": "your",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W113": {
+      "hint": "his",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W114": {
+      "hint": "her",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W123": {
+      "hint": "who",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W124": {
+      "hint": "what",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W125": {
+      "hint": "where",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W126": {
+      "hint": "when",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W127": {
+      "hint": "why",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W129": {
+      "hint": "which",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W039": {
+      "hint": "sorry",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W043": {
+      "hint": "bad",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W040": {
+      "hint": "how",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W034": {
+      "hint": "good morning",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W035": {
+      "hint": "good day",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W036": {
+      "hint": "good evening",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    },
+    "W037": {
+      "hint": "goodbye",
+      "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
+    }
+  },
+  "names": [],
+  "gender_corrections": {
+    "W049": {
+      "why": "vann is neuter in Bokmål (et vann, vannet); the pipeline read 'en' from the Wiktionary entry. Fable's review (2026-11-19).",
+      "was": "en"
+    }
+  }
+}

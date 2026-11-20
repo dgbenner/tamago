@@ -403,7 +403,7 @@ export function makeMatchPairs(c, words, round, rng) {
 
 // QT18 Type the word (A1 Complete 9): the English meaning, and the picture where there is one; the course word typed.
 // A noun is right with or without an article.
-const ARTICLES = { fr: ['le', 'la', "l'", 'les', 'un', 'une', 'des'], es: ['el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas'], de: ['der', 'die', 'das', 'den', 'dem', 'ein', 'eine', 'einen'], it: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le', 'un', 'uno', 'una', "un'"], pt: ['o', 'a', 'os', 'as', 'um', 'uma', 'uns', 'umas'], nl: ['de', 'het', 'een'], da: ['en', 'et'], sv: ['en', 'ett'] }
+const ARTICLES = { fr: ['le', 'la', "l'", 'les', 'un', 'une', 'des'], es: ['el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas'], de: ['der', 'die', 'das', 'den', 'dem', 'ein', 'eine', 'einen'], it: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le', 'un', 'uno', 'una', "un'"], pt: ['o', 'a', 'os', 'as', 'um', 'uma', 'uns', 'umas'], nl: ['de', 'het', 'een'], no: ['en', 'ei', 'et'], da: ['en', 'et'], sv: ['en', 'ett'] }
 export function makeTypeWord(c, word, round, rng) {
   const articles = word.part_of_speech === 'Noun' ? ARTICLES[word.lang_id] ?? [] : []
   return {

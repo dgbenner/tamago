@@ -11,7 +11,7 @@ import Anthropic from '@anthropic-ai/sdk'
 
 const MODEL = 'claude-haiku-5-5'
 export const LIMITS = { turns: 14, chars: 240, words: 400 }
-const LANG = { fr: 'French', es: 'Latin American Spanish (use ustedes, never vosotros)', de: 'standard German as spoken in Germany', it: 'standard Italian as spoken in Italy (tu with friends, Lei with strangers)', pt: 'Portuguese as spoken in Brazil (você, never tu; Brazilian spelling and words)', nl: 'standard Dutch as spoken in the Netherlands (je with friends, u with strangers)', da: 'standard Danish as spoken in Denmark (du throughout, never the formal De)', sv: 'standard Swedish as spoken in Sweden (du throughout, never ni as polite address)' }
+const LANG = { fr: 'French', es: 'Latin American Spanish (use ustedes, never vosotros)', de: 'standard German as spoken in Germany', it: 'standard Italian as spoken in Italy (tu with friends, Lei with strangers)', pt: 'Portuguese as spoken in Brazil (você, never tu; Brazilian spelling and words)', nl: 'standard Dutch as spoken in the Netherlands (je with friends, u with strangers)', no: 'Norwegian Bokmål as spoken in Norway (du throughout, never the formal De)', da: 'standard Danish as spoken in Denmark (du throughout, never the formal De)', sv: 'standard Swedish as spoken in Sweden (du throughout, never ni as polite address)' }
 const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } })
 const clip = (s, n) => String(s ?? '').slice(0, n)
 

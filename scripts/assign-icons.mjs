@@ -31,7 +31,7 @@ const dishOf = (m) => m.dish.replace(/ \(.*/, '').replace(/ with .*/, '').toLowe
 // Each course looks different (Dan, 2026-11-11): a course prefers images the courses before it (French, then Spanish,
 // then German) don't use in the same part, so no two courses show the same pieces in the same order.
 const ROOT = join(import.meta.dirname, '..')
-const RANK = [['fr', 'content'], ['es', 'content-es'], ['de', 'content-de'], ['it', 'content-it'], ['pt', 'content-pt'], ['nl', 'content-nl'], ['da', 'content-da'], ['sv', 'content-sv']]
+const RANK = [['fr', 'content'], ['es', 'content-es'], ['de', 'content-de'], ['it', 'content-it'], ['pt', 'content-pt'], ['nl', 'content-nl'], ['no', 'content-no'], ['da', 'content-da'], ['sv', 'content-sv']]
 const earlier = RANK.slice(0, RANK.findIndex(([id]) => id === C.id)).map(([, dir]) => {
   const f = join(ROOT, dir, 'unit-icons.json')
   const us = JSON.parse(readFileSync(join(ROOT, dir, 'raw/units.json'), 'utf8'))

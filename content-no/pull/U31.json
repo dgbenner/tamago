@@ -1,0 +1,106 @@
+{
+  "unit_id": "U31",
+  "pulled_at": "2026-11-20",
+  "candidates": 3,
+  "sentences": [
+    {
+      "sentence_id": "S31001",
+      "unit_id": "U31",
+      "french": "Forstår du?",
+      "english": "Do you understand?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940244",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": [
+        "Understand?"
+      ]
+    },
+    {
+      "sentence_id": "S31002",
+      "unit_id": "U31",
+      "french": "Jeg forstår!",
+      "english": "I understand!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9295810",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31003",
+      "unit_id": "U31",
+      "french": "Du snakker.",
+      "english": "You speak.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940565",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S31001",
+      "position": 1,
+      "surface": "Forstår",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 2,
+      "surface": "forstår",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 2,
+      "surface": "snakker",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

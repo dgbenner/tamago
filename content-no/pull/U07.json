@@ -1,0 +1,144 @@
+{
+  "unit_id": "U07",
+  "pulled_at": "2026-11-20",
+  "candidates": 3,
+  "sentences": [
+    {
+      "sentence_id": "S7001",
+      "unit_id": "U07",
+      "french": "Jeg har en gammel bil.",
+      "english": "I have an old car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3774237",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "giiraffen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7002",
+      "unit_id": "U07",
+      "french": "Ha det gøy.",
+      "english": "Have fun.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12259610",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "augine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7003",
+      "unit_id": "U07",
+      "french": "Jeg er lærer også.",
+      "english": "I am a teacher, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1945062",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S7001",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 4,
+      "surface": "gammel",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 5,
+      "surface": "bil",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 1,
+      "surface": "Ha det",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 2,
+      "surface": "gøy",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 3,
+      "surface": "lærer",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 4,
+      "surface": "også",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

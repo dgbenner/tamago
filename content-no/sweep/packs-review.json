@@ -1,0 +1,50 @@
+{
+  "_about": "Pull review for the Norwegian course (Dan, 2026-11-19; Fable rejects applied 2026-11-20). reject by Tatoeba id with reason; english = Fable English pick where it is a linked Tatoeba translation.",
+  "U02": {
+    "reject": {
+      "2879655": "ungrammatical (\"Han du en?\" missing verb har)"
+    }
+  },
+  "U03": {
+    "reject": {
+      "10838512": "English mislinked (\"Det er bra!\" is \"That is good!\", not \"That is big!\")"
+    }
+  },
+  "U04": {
+    "english": {
+      "2879705": "I don't like coffee."
+    }
+  },
+  "U05": {
+    "reject": {
+      "10838512": "English mislinked; off the animals point"
+    }
+  },
+  "U06": {
+    "reject": {
+      "10940587": "fragment (\"Er de?\" = \"They are?\")"
+    }
+  },
+  "U11": {
+    "reject": {
+      "13374355": "odd fragment (\"Hva, hvorfor?\")"
+    }
+  },
+  "U14": {
+    "reject": {
+      "6364609": "idiom (\"Hva har vi nå her?\")"
+    }
+  },
+  "U15": {
+    "reject": {
+      "2829601": "\"dårlig til å\" = bad at; til and å in senses not taught",
+      "2875026": "imperative + indirect clause; word order past A1 Part 1"
+    }
+  },
+  "U52": {
+    "reject": {
+      "10940617": "å read as \"oh\"; learners know å only as the infinitive marker",
+      "12757590": "å read as \"oh\"; same trap"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "unit_id": "U12",
+  "pulled_at": "2026-11-20",
+  "candidates": 2,
+  "sentences": [
+    {
+      "sentence_id": "S12001",
+      "unit_id": "U12",
+      "french": "Ja, to.",
+      "english": "Yes, two.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12002",
+      "unit_id": "U12",
+      "french": "Vi er en familie på fem.",
+      "english": "We are a family of five.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11931552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "vikvaering",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S12001",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12001",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 4,
+      "surface": "familie",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 6,
+      "surface": "fem",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

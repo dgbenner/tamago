@@ -7,7 +7,7 @@
 import { createClient } from '@supabase/supabase-js'
 import { INVITES_OPEN, ROLES, checkPassword, checkScreenName, deviceType } from './config.js'
 
-const COURSES = ['fr', 'es', 'de', 'it', 'pt', 'nl', 'sv', 'da']
+const COURSES = ['fr', 'es', 'de', 'it', 'pt', 'nl', 'sv', 'da', 'no']
 const friendly = (error) => {
   const m = String(error?.message ?? error)
   if (/invalid login/i.test(m)) return 'That email and password don’t match.'

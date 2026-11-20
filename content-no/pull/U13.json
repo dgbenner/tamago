@@ -1,0 +1,187 @@
+{
+  "unit_id": "U13",
+  "pulled_at": "2026-11-20",
+  "candidates": 3,
+  "sentences": [
+    {
+      "sentence_id": "S13001",
+      "unit_id": "U13",
+      "french": "Hvilken hund er svart?",
+      "english": "Which dog is black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10941132",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13002",
+      "unit_id": "U13",
+      "french": "Jeg har en hvit hest.",
+      "english": "I've got a white horse.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2908744",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13003",
+      "unit_id": "U13",
+      "french": "Dette er en veldig fin farge.",
+      "english": "This is a very pretty color.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10943845",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": [
+        "This is a very beautiful color."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S13001",
+      "position": 1,
+      "surface": "Hvilken",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 2,
+      "surface": "hund",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 4,
+      "surface": "svart",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 4,
+      "surface": "hvit",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 5,
+      "surface": "hest",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 1,
+      "surface": "Dette",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 4,
+      "surface": "veldig",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 5,
+      "surface": "fin",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 6,
+      "surface": "farge",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A130031",
+      "sentence_id": "S13003",
+      "direction": "fr_to_en",
+      "answer": "This is a very beautiful color.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

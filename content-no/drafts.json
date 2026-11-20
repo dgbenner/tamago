@@ -1,0 +1,980 @@
+{
+  "_about": "Sentences Claude drafted for the Norwegian course (Dan, 2026-11-19, branch lang/norwegian) where Tatoeba's Bokmål corpus was too thin to introduce a circle's words. Each uses only forms taught by its circle's order (base/indefinite forms, since the definite is a suffix and neuter -t adjective forms are not taught as words); origin tamago_original, native-speaker check before Phase 4.",
+  "sentences": [
+    {
+      "sentence_id": "S1101",
+      "unit_id": "U01",
+      "french": "Hallo!",
+      "english": "Hello!",
+      "notes": "draft: introduce hallo"
+    },
+    {
+      "sentence_id": "S1102",
+      "unit_id": "U01",
+      "french": "Jeg er en mann.",
+      "english": "I am a man.",
+      "notes": "draft: introduce mann; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "12262306",
+      "source_owner": "augine"
+    },
+    {
+      "sentence_id": "S1103",
+      "unit_id": "U01",
+      "french": "Du er en gutt.",
+      "english": "You are a boy.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S1104",
+      "unit_id": "U01",
+      "french": "Ja og nei.",
+      "english": "Yes and no.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S1105",
+      "unit_id": "U01",
+      "french": "Er du en jente?",
+      "english": "Are you a girl?",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S1106",
+      "unit_id": "U01",
+      "french": "Nei, jeg er ikke en gutt.",
+      "english": "No, I am not a boy.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S31101",
+      "unit_id": "U31",
+      "french": "Saktere, takk.",
+      "english": "Slower, please.",
+      "notes": "draft: introduce saktere"
+    },
+    {
+      "sentence_id": "S31102",
+      "unit_id": "U31",
+      "french": "En gang til.",
+      "english": "One more time.",
+      "notes": "draft: introduce gang"
+    },
+    {
+      "sentence_id": "S31103",
+      "unit_id": "U31",
+      "french": "Jeg sier ja.",
+      "english": "I say yes.",
+      "notes": "draft: introduce sier"
+    },
+    {
+      "sentence_id": "S31104",
+      "unit_id": "U31",
+      "french": "Gjenta, takk.",
+      "english": "Repeat, please.",
+      "notes": "draft: introduce gjenta"
+    },
+    {
+      "sentence_id": "S2101",
+      "unit_id": "U02",
+      "french": "Dette er et hus.",
+      "english": "This is a house.",
+      "notes": "draft: introduce hus"
+    },
+    {
+      "sentence_id": "S2102",
+      "unit_id": "U02",
+      "french": "Det er en liten dør.",
+      "english": "It is a small door.",
+      "notes": "draft: introduce liten, dør"
+    },
+    {
+      "sentence_id": "S2103",
+      "unit_id": "U02",
+      "french": "Det er et bord.",
+      "english": "It is a table.",
+      "notes": "draft: introduce bord"
+    },
+    {
+      "sentence_id": "S2104",
+      "unit_id": "U02",
+      "french": "Denne er stor.",
+      "english": "This one is big.",
+      "notes": "draft: introduce denne"
+    },
+    {
+      "sentence_id": "S2105",
+      "unit_id": "U02",
+      "french": "Han er lærer og hun er lege.",
+      "english": "He is a teacher and she is a doctor.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S3101",
+      "unit_id": "U03",
+      "french": "God dag!",
+      "english": "Good day!",
+      "notes": "draft: introduce god dag"
+    },
+    {
+      "sentence_id": "S3102",
+      "unit_id": "U03",
+      "french": "Vær så god.",
+      "english": "Here you are.",
+      "notes": "draft: introduce vær så god"
+    },
+    {
+      "sentence_id": "S3103",
+      "unit_id": "U03",
+      "french": "Hvordan går det?",
+      "english": "How are you?",
+      "notes": "draft: introduce hvordan, går"
+    },
+    {
+      "sentence_id": "S3104",
+      "unit_id": "U03",
+      "french": "Det går fint.",
+      "english": "It is going fine.",
+      "notes": "draft: introduce fint"
+    },
+    {
+      "sentence_id": "S3105",
+      "unit_id": "U03",
+      "french": "Bra, takk.",
+      "english": "Fine, thanks.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S4101",
+      "unit_id": "U04",
+      "french": "Jeg drikker vann.",
+      "english": "I drink water.",
+      "notes": "draft: introduce drikker"
+    },
+    {
+      "sentence_id": "S4102",
+      "unit_id": "U04",
+      "french": "Jeg drikker te.",
+      "english": "I drink tea.",
+      "notes": "draft: introduce te"
+    },
+    {
+      "sentence_id": "S4103",
+      "unit_id": "U04",
+      "french": "Jeg liker ost.",
+      "english": "I like cheese.",
+      "notes": "draft: introduce ost"
+    },
+    {
+      "sentence_id": "S4104",
+      "unit_id": "U04",
+      "french": "Et eple, takk.",
+      "english": "An apple, please.",
+      "notes": "draft: introduce eple"
+    },
+    {
+      "sentence_id": "S4105",
+      "unit_id": "U04",
+      "french": "Vin er deilig.",
+      "english": "Wine is delicious.",
+      "notes": "draft: introduce vin, deilig"
+    },
+    {
+      "sentence_id": "S4106",
+      "unit_id": "U04",
+      "french": "Kaffe er deilig.",
+      "english": "Coffee is delicious.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S4107",
+      "unit_id": "U04",
+      "french": "Drikker du melk?",
+      "english": "Do you drink milk?",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S5101",
+      "unit_id": "U05",
+      "french": "Jeg har en mus.",
+      "english": "I have a mouse.",
+      "notes": "draft: introduce mus"
+    },
+    {
+      "sentence_id": "S5102",
+      "unit_id": "U05",
+      "french": "Du har en kanin.",
+      "english": "You have a rabbit.",
+      "notes": "draft: introduce kanin"
+    },
+    {
+      "sentence_id": "S5103",
+      "unit_id": "U05",
+      "french": "En kanin er et dyr.",
+      "english": "A rabbit is an animal.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S32101",
+      "unit_id": "U32",
+      "french": "Et ord på norsk.",
+      "english": "A word in Norwegian.",
+      "notes": "draft: introduce ord, norsk"
+    },
+    {
+      "sentence_id": "S32102",
+      "unit_id": "U32",
+      "french": "Hva betyr det på norsk?",
+      "english": "What does that mean in Norwegian?",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S32103",
+      "unit_id": "U32",
+      "french": "Et ord på engelsk.",
+      "english": "A word in English.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S6101",
+      "unit_id": "U06",
+      "french": "Jeg har to hunder.",
+      "english": "I have two dogs.",
+      "notes": "draft: introduce hunder"
+    },
+    {
+      "sentence_id": "S6102",
+      "unit_id": "U06",
+      "french": "Vi har mange katter.",
+      "english": "We have many cats.",
+      "notes": "draft: introduce katter"
+    },
+    {
+      "sentence_id": "S6103",
+      "unit_id": "U06",
+      "french": "To bøker.",
+      "english": "Two books.",
+      "notes": "draft: introduce bøker"
+    },
+    {
+      "sentence_id": "S6104",
+      "unit_id": "U06",
+      "french": "De er menn.",
+      "english": "They are men.",
+      "notes": "draft: introduce menn"
+    },
+    {
+      "sentence_id": "S6105",
+      "unit_id": "U06",
+      "french": "De er kvinner.",
+      "english": "They are women.",
+      "notes": "draft: introduce kvinner"
+    },
+    {
+      "sentence_id": "S6106",
+      "unit_id": "U06",
+      "french": "Jeg har to epler.",
+      "english": "I have two apples.",
+      "notes": "draft: introduce epler"
+    },
+    {
+      "sentence_id": "S6107",
+      "unit_id": "U06",
+      "french": "Vi er venner.",
+      "english": "We are friends.",
+      "notes": "draft: introduce venner"
+    },
+    {
+      "sentence_id": "S7101",
+      "unit_id": "U07",
+      "french": "En ny bil.",
+      "english": "A new car.",
+      "notes": "draft: introduce ny"
+    },
+    {
+      "sentence_id": "S7102",
+      "unit_id": "U07",
+      "french": "En stygg hund.",
+      "english": "An ugly dog.",
+      "notes": "draft: introduce stygg"
+    },
+    {
+      "sentence_id": "S7103",
+      "unit_id": "U07",
+      "french": "Han er ung.",
+      "english": "He is young.",
+      "notes": "draft: introduce ung"
+    },
+    {
+      "sentence_id": "S7104",
+      "unit_id": "U07",
+      "french": "Jeg har en sykkel.",
+      "english": "I have a bicycle.",
+      "notes": "draft: introduce sykkel"
+    },
+    {
+      "sentence_id": "S7105",
+      "unit_id": "U07",
+      "french": "En ung mann.",
+      "english": "A young man.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S52101",
+      "unit_id": "U52",
+      "french": "Jeg liker musikk.",
+      "english": "I like music.",
+      "notes": "draft: introduce musikk"
+    },
+    {
+      "sentence_id": "S52102",
+      "unit_id": "U52",
+      "french": "Liker du fotball?",
+      "english": "Do you like football?",
+      "notes": "draft: introduce fotball"
+    },
+    {
+      "sentence_id": "S52103",
+      "unit_id": "U52",
+      "french": "Jeg liker å synge.",
+      "english": "I like to sing.",
+      "notes": "draft: introduce synge"
+    },
+    {
+      "sentence_id": "S52104",
+      "unit_id": "U52",
+      "french": "Jeg liker å lese.",
+      "english": "I like to read.",
+      "notes": "draft: introduce lese"
+    },
+    {
+      "sentence_id": "S52105",
+      "unit_id": "U52",
+      "french": "Jeg leser en bok.",
+      "english": "I am reading a book.",
+      "notes": "draft: introduce leser; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "11071044",
+      "source_owner": "Mayk"
+    },
+    {
+      "sentence_id": "S52106",
+      "unit_id": "U52",
+      "french": "En fin film.",
+      "english": "A nice film.",
+      "notes": "draft: introduce film"
+    },
+    {
+      "sentence_id": "S52107",
+      "unit_id": "U52",
+      "french": "Et bilde.",
+      "english": "A picture.",
+      "notes": "draft: introduce bilde"
+    },
+    {
+      "sentence_id": "S52108",
+      "unit_id": "U52",
+      "french": "En fest!",
+      "english": "A party!",
+      "notes": "draft: introduce fest"
+    },
+    {
+      "sentence_id": "S52109",
+      "unit_id": "U52",
+      "french": "Jeg liker spill.",
+      "english": "I like games.",
+      "notes": "draft: introduce spill"
+    },
+    {
+      "sentence_id": "S52110",
+      "unit_id": "U52",
+      "french": "Jeg liker å danse.",
+      "english": "I like to dance.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S52111",
+      "unit_id": "U52",
+      "french": "Jeg liker å svømme.",
+      "english": "I like to swim.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S8101",
+      "unit_id": "U08",
+      "french": "Det er en seng her.",
+      "english": "There is a bed here.",
+      "notes": "draft: introduce seng"
+    },
+    {
+      "sentence_id": "S8102",
+      "unit_id": "U08",
+      "french": "Det er et bad her.",
+      "english": "There is a bathroom here.",
+      "notes": "draft: introduce bad"
+    },
+    {
+      "sentence_id": "S8103",
+      "unit_id": "U08",
+      "french": "Det er et rom her.",
+      "english": "There is a room here.",
+      "notes": "draft: introduce rom"
+    },
+    {
+      "sentence_id": "S8104",
+      "unit_id": "U08",
+      "french": "Det er et kjøkken her.",
+      "english": "There is a kitchen here.",
+      "notes": "draft: introduce i, kjøkken; fixed 2026-11-20 (Fable): was \"Jeg er i et kjøkken.\""
+    },
+    {
+      "sentence_id": "S8105",
+      "unit_id": "U08",
+      "french": "Den står der.",
+      "english": "It stands there.",
+      "notes": "draft: introduce står"
+    },
+    {
+      "sentence_id": "S8106",
+      "unit_id": "U08",
+      "french": "En bok ligger der.",
+      "english": "A book lies there.",
+      "notes": "draft: introduce ligger"
+    },
+    {
+      "sentence_id": "S8107",
+      "unit_id": "U08",
+      "french": "En katt er under et bord.",
+      "english": "A cat is under a table.",
+      "notes": "draft: introduce under"
+    },
+    {
+      "sentence_id": "S8108",
+      "unit_id": "U08",
+      "french": "Det er en hage ved et hus.",
+      "english": "There is a garden by a house.",
+      "notes": "draft: introduce ved, hage"
+    },
+    {
+      "sentence_id": "S9101",
+      "unit_id": "U09",
+      "french": "Jeg er glad.",
+      "english": "I am happy.",
+      "notes": "draft: introduce glad"
+    },
+    {
+      "sentence_id": "S9102",
+      "unit_id": "U09",
+      "french": "Er du redd?",
+      "english": "Are you afraid?",
+      "notes": "draft: introduce redd"
+    },
+    {
+      "sentence_id": "S9103",
+      "unit_id": "U09",
+      "french": "Jeg er tørst.",
+      "english": "I am thirsty.",
+      "notes": "draft: introduce tørst"
+    },
+    {
+      "sentence_id": "S9104",
+      "unit_id": "U09",
+      "french": "Jeg er varm.",
+      "english": "I am warm.",
+      "notes": "draft: introduce varm"
+    },
+    {
+      "sentence_id": "S33101",
+      "unit_id": "U33",
+      "french": "Jeg leter etter en bok.",
+      "english": "I am looking for a book.",
+      "notes": "draft: introduce leter, etter"
+    },
+    {
+      "sentence_id": "S33102",
+      "unit_id": "U33",
+      "french": "Det er en ting.",
+      "english": "It is a thing.",
+      "notes": "draft: introduce ting; fixed 2026-11-20 (Fable): dropped \"å se\", was \"Det er en ting å se.\""
+    },
+    {
+      "sentence_id": "S33103",
+      "unit_id": "U33",
+      "french": "Jeg vet det.",
+      "english": "I know that.",
+      "notes": "draft: introduce vet"
+    },
+    {
+      "sentence_id": "S33104",
+      "unit_id": "U33",
+      "french": "Det heter kaffe.",
+      "english": "It is called coffee.",
+      "notes": "draft: introduce heter"
+    },
+    {
+      "sentence_id": "S10101",
+      "unit_id": "U10",
+      "french": "Det er hans bok.",
+      "english": "It is his book.",
+      "notes": "draft: introduce hans"
+    },
+    {
+      "sentence_id": "S10102",
+      "unit_id": "U10",
+      "french": "Det er hennes katt.",
+      "english": "It is her cat.",
+      "notes": "draft: introduce hennes"
+    },
+    {
+      "sentence_id": "S10103",
+      "unit_id": "U10",
+      "french": "Det er vår hund.",
+      "english": "It is our dog.",
+      "notes": "draft: introduce vår"
+    },
+    {
+      "sentence_id": "S10104",
+      "unit_id": "U10",
+      "french": "Hun er min venninne.",
+      "english": "She is my friend.",
+      "notes": "draft: introduce venninne"
+    },
+    {
+      "sentence_id": "S10105",
+      "unit_id": "U10",
+      "french": "Hun er min mor.",
+      "english": "She is my mother.",
+      "notes": "draft: introduce mor"
+    },
+    {
+      "sentence_id": "S11101",
+      "unit_id": "U11",
+      "french": "Når?",
+      "english": "When?",
+      "notes": "draft: introduce når; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "9295685",
+      "source_owner": "Mayk"
+    },
+    {
+      "sentence_id": "S11102",
+      "unit_id": "U11",
+      "french": "Når er det?",
+      "english": "When is it?",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S11103",
+      "unit_id": "U11",
+      "french": "Når spiser vi?",
+      "english": "When do we eat?",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S53101",
+      "unit_id": "U53",
+      "french": "Det er et museum.",
+      "english": "It is a museum.",
+      "notes": "draft: introduce museum"
+    },
+    {
+      "sentence_id": "S53102",
+      "unit_id": "U53",
+      "french": "Det er en kirke.",
+      "english": "It is a church.",
+      "notes": "draft: introduce kirke"
+    },
+    {
+      "sentence_id": "S53103",
+      "unit_id": "U53",
+      "french": "Det er et hotell.",
+      "english": "It is a hotel.",
+      "notes": "draft: introduce hotell"
+    },
+    {
+      "sentence_id": "S53104",
+      "unit_id": "U53",
+      "french": "Det er en stasjon.",
+      "english": "It is a station.",
+      "notes": "draft: introduce stasjon"
+    },
+    {
+      "sentence_id": "S53105",
+      "unit_id": "U53",
+      "french": "Det er en buss.",
+      "english": "It is a bus.",
+      "notes": "draft: introduce buss"
+    },
+    {
+      "sentence_id": "S53106",
+      "unit_id": "U53",
+      "french": "Det er et tog.",
+      "english": "It is a train.",
+      "notes": "draft: introduce tog"
+    },
+    {
+      "sentence_id": "S53107",
+      "unit_id": "U53",
+      "french": "Det er en taxi.",
+      "english": "It is a taxi.",
+      "notes": "draft: introduce taxi"
+    },
+    {
+      "sentence_id": "S53108",
+      "unit_id": "U53",
+      "french": "Det er en strand.",
+      "english": "It is a beach.",
+      "notes": "draft: introduce strand"
+    },
+    {
+      "sentence_id": "S53109",
+      "unit_id": "U53",
+      "french": "Det er et sykehus.",
+      "english": "It is a hospital.",
+      "notes": "draft: introduce sykehus"
+    },
+    {
+      "sentence_id": "S53110",
+      "unit_id": "U53",
+      "french": "Det er et torg.",
+      "english": "It is a square.",
+      "notes": "draft: introduce torg"
+    },
+    {
+      "sentence_id": "S53111",
+      "unit_id": "U53",
+      "french": "Det er nær.",
+      "english": "It is near.",
+      "notes": "draft: introduce nær"
+    },
+    {
+      "sentence_id": "S53112",
+      "unit_id": "U53",
+      "french": "Det er langt.",
+      "english": "It is far.",
+      "notes": "draft: introduce langt"
+    },
+    {
+      "sentence_id": "S12101",
+      "unit_id": "U12",
+      "french": "Én, to, tre.",
+      "english": "One, two, three.",
+      "notes": "draft: introduce én, tre"
+    },
+    {
+      "sentence_id": "S12102",
+      "unit_id": "U12",
+      "french": "Tre, fire, fem.",
+      "english": "Three, four, five.",
+      "notes": "draft: introduce fire, fem"
+    },
+    {
+      "sentence_id": "S12103",
+      "unit_id": "U12",
+      "french": "Seks, sju, åtte.",
+      "english": "Six, seven, eight.",
+      "notes": "draft: introduce seks, sju, åtte"
+    },
+    {
+      "sentence_id": "S12104",
+      "unit_id": "U12",
+      "french": "Ni, ti.",
+      "english": "Nine, ten.",
+      "notes": "draft: introduce ni, ti"
+    },
+    {
+      "sentence_id": "S12105",
+      "unit_id": "U12",
+      "french": "Jeg er ti år.",
+      "english": "I am ten years old.",
+      "notes": "draft: introduce år"
+    },
+    {
+      "sentence_id": "S12106",
+      "unit_id": "U12",
+      "french": "Jeg har én bror.",
+      "english": "I have one brother.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S12107",
+      "unit_id": "U12",
+      "french": "Jeg har fire bøker.",
+      "english": "I have four books.",
+      "notes": "draft"
+    },
+    {
+      "sentence_id": "S13101",
+      "unit_id": "U13",
+      "french": "Det er en rød bil.",
+      "english": "It is a red car.",
+      "notes": "draft: introduce rød"
+    },
+    {
+      "sentence_id": "S13102",
+      "unit_id": "U13",
+      "french": "Det er en blå dør.",
+      "english": "It is a blue door.",
+      "notes": "draft: introduce blå"
+    },
+    {
+      "sentence_id": "S13103",
+      "unit_id": "U13",
+      "french": "Det er en grønn sykkel.",
+      "english": "It is a green bicycle.",
+      "notes": "draft: introduce grønn"
+    },
+    {
+      "sentence_id": "S13104",
+      "unit_id": "U13",
+      "french": "Det er en gul bok.",
+      "english": "It is a yellow book.",
+      "notes": "draft: introduce gul"
+    },
+    {
+      "sentence_id": "S13105",
+      "unit_id": "U13",
+      "french": "Det er en brun hund.",
+      "english": "It is a brown dog.",
+      "notes": "draft: introduce brun"
+    },
+    {
+      "sentence_id": "S14101",
+      "unit_id": "U14",
+      "french": "Det er en fin dag.",
+      "english": "It is a nice day.",
+      "notes": "draft: introduce dag"
+    },
+    {
+      "sentence_id": "S14102",
+      "unit_id": "U14",
+      "french": "Det er en uke.",
+      "english": "It is a week.",
+      "notes": "draft: introduce uke"
+    },
+    {
+      "sentence_id": "S14103",
+      "unit_id": "U14",
+      "french": "En time.",
+      "english": "An hour.",
+      "notes": "draft: introduce time"
+    },
+    {
+      "sentence_id": "S14104",
+      "unit_id": "U14",
+      "french": "I dag er det lørdag.",
+      "english": "Today is Saturday.",
+      "notes": "draft: introduce lørdag"
+    },
+    {
+      "sentence_id": "S14105",
+      "unit_id": "U14",
+      "french": "I morgen er det søndag.",
+      "english": "Tomorrow is Sunday.",
+      "notes": "draft: introduce søndag"
+    },
+    {
+      "sentence_id": "S14106",
+      "unit_id": "U14",
+      "french": "Det er sent.",
+      "english": "It is late.",
+      "notes": "draft: introduce sent"
+    },
+    {
+      "sentence_id": "S15101",
+      "unit_id": "U15",
+      "french": "Jeg går til en skole.",
+      "english": "I go to a school.",
+      "notes": "draft: introduce til, skole"
+    },
+    {
+      "sentence_id": "S15102",
+      "unit_id": "U15",
+      "french": "Vi går til en park.",
+      "english": "We go to a park.",
+      "notes": "draft: introduce park"
+    },
+    {
+      "sentence_id": "S15103",
+      "unit_id": "U15",
+      "french": "Hun går til en butikk.",
+      "english": "She goes to a shop.",
+      "notes": "draft: introduce butikk"
+    },
+    {
+      "sentence_id": "S15104",
+      "unit_id": "U15",
+      "french": "Jeg går til en by.",
+      "english": "I go to a city.",
+      "notes": "draft: introduce by"
+    },
+    {
+      "sentence_id": "S15105",
+      "unit_id": "U15",
+      "french": "Det er en gate.",
+      "english": "It is a street.",
+      "notes": "draft: introduce gate"
+    },
+    {
+      "sentence_id": "S51101",
+      "unit_id": "U51",
+      "french": "Jeg har to øyne.",
+      "english": "I have two eyes.",
+      "notes": "draft: introduce øyne"
+    },
+    {
+      "sentence_id": "S51102",
+      "unit_id": "U51",
+      "french": "Et øye.",
+      "english": "An eye.",
+      "notes": "draft: introduce øye"
+    },
+    {
+      "sentence_id": "S51103",
+      "unit_id": "U51",
+      "french": "Jeg har en hånd.",
+      "english": "I have a hand.",
+      "notes": "draft: introduce hånd"
+    },
+    {
+      "sentence_id": "S51104",
+      "unit_id": "U51",
+      "french": "Jeg har en fot.",
+      "english": "I have a foot.",
+      "notes": "draft: introduce fot"
+    },
+    {
+      "sentence_id": "S51105",
+      "unit_id": "U51",
+      "french": "Han har en stor munn.",
+      "english": "He has a big mouth.",
+      "notes": "draft: introduce munn"
+    },
+    {
+      "sentence_id": "S51106",
+      "unit_id": "U51",
+      "french": "Hun har et fint hode.",
+      "english": "She has a fine head.",
+      "notes": "draft: introduce hode"
+    },
+    {
+      "sentence_id": "S51107",
+      "unit_id": "U51",
+      "french": "Jeg har et ben.",
+      "english": "I have a leg.",
+      "notes": "draft: introduce ben"
+    },
+    {
+      "sentence_id": "S51108",
+      "unit_id": "U51",
+      "french": "Han har en lang arm.",
+      "english": "He has a long arm.",
+      "notes": "draft: introduce arm"
+    },
+    {
+      "sentence_id": "S51109",
+      "unit_id": "U51",
+      "french": "Hun har langt hår.",
+      "english": "She has long hair.",
+      "notes": "draft: introduce hår"
+    },
+    {
+      "sentence_id": "S51110",
+      "unit_id": "U51",
+      "french": "Han har kort hår.",
+      "english": "He has short hair.",
+      "notes": "draft: introduce kort"
+    },
+    {
+      "sentence_id": "S1107",
+      "unit_id": "U01",
+      "french": "Jeg er et barn.",
+      "english": "I am a child.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S2106",
+      "unit_id": "U02",
+      "french": "Den er stor.",
+      "english": "It is big.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S2107",
+      "unit_id": "U02",
+      "french": "Det er en bok.",
+      "english": "It is a book.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S3106",
+      "unit_id": "U03",
+      "french": "Unnskyld!",
+      "english": "Excuse me!",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S5104",
+      "unit_id": "U05",
+      "french": "Jeg har en katt.",
+      "english": "I have a cat.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S7106",
+      "unit_id": "U07",
+      "french": "En fin bil.",
+      "english": "A nice car.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S7107",
+      "unit_id": "U07",
+      "french": "Han er veldig ung.",
+      "english": "He is very young.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S9105",
+      "unit_id": "U09",
+      "french": "Jeg er sint.",
+      "english": "I am angry.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S9106",
+      "unit_id": "U09",
+      "french": "Jeg er sulten.",
+      "english": "I am hungry.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S10106",
+      "unit_id": "U10",
+      "french": "Det er min familie.",
+      "english": "It is my family.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S52112",
+      "unit_id": "U52",
+      "french": "Jeg liker å se en film.",
+      "english": "I like to watch a film.",
+      "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S8109",
+      "unit_id": "U08",
+      "french": "Jeg er i et rom.",
+      "english": "I am in a room.",
+      "notes": "draft: own-circle sentence after Fable fix/reject removed the word's only line (i, gå)"
+    },
+    {
+      "sentence_id": "S15106",
+      "unit_id": "U15",
+      "french": "Jeg liker å gå.",
+      "english": "I like to walk.",
+      "notes": "draft: own-circle sentence after Fable fix/reject removed the word's only line (i, gå)"
+    }
+  ]
+}

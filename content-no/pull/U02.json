@@ -1,0 +1,191 @@
+{
+  "unit_id": "U02",
+  "pulled_at": "2026-11-20",
+  "candidates": 4,
+  "sentences": [
+    {
+      "sentence_id": "S2001",
+      "unit_id": "U02",
+      "french": "Han er lærer.",
+      "english": "He is a teacher.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2977031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2002",
+      "unit_id": "U02",
+      "french": "Er det et nei?",
+      "english": "Is that a no?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5656785",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Meggie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2003",
+      "unit_id": "U02",
+      "french": "Jeg er ikke lege.",
+      "english": "I'm not a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2634731",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pergpau",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2004",
+      "unit_id": "U02",
+      "french": "Du er en lege.",
+      "english": "You are a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12757654",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pckv",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S2001",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 3,
+      "surface": "lærer",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 4,
+      "surface": "nei",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 4,
+      "surface": "lege",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 4,
+      "surface": "lege",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

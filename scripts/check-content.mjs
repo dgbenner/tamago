@@ -289,9 +289,21 @@ async function french(form) {
   // the course's section of the page itself, each part-of-speech heading and its # definitions (2026-11-14).
   const section = await frenchWikitext(form)
   const out = []
-  for (const m of section.matchAll(/\n===+ *(Number|Numeral|Adjective|Determiner|Noun|Verb|Adverb|Pronoun|Interjection|Preposition|Conjunction|Proper noun) *===+\n([\s\S]*?)(?=\n===|$)/g)) {
+  for (const m of section.matchAll(/\n===+ *(Number|Numeral|Adjective|Determiner|Noun|Verb|Adverb|Pronoun|Interjection|Preposition|Conjunction|Proper noun|Phrase|Particle) *===+\n([\s\S]*?)(?=\n===|$)/g)) {
     const defs = [...m[2].matchAll(/^# (?!:)(.+)$/gm)].map((d) => d[1]
       .replace(/\{\{(?:feminine singular of|feminine of|plural of|masculine plural of|feminine plural of)\|[a-z]+\|([^}|]+)[^}]*\}\}/g, 'feminine singular of $1')
+      // Norwegian Bokmål (2026-11-19, lang/norwegian): Bokmål entries write the gloss as an English link template,
+      // "# {{l-lite|en|fine}}", inflected forms as "# {{inflection of|nb|spise||pres|t=to eat}}", the stressed numeral
+      // as "{{alternative spelling of|nb|en|t=one}}" and comparatives as "{{comparative of|nb|sakte}}"; all would strip
+      // to nothing below and leave the word with no entry. Expand them first so the gloss and the "of LEMMA" survive
+      // (the form-of detector downstream reads "inflection of X"). Harmless to the other courses, which use plain text.
+      .replace(/\{\{(?:inflection of|infl of)\|[a-z-]+\|([^}|]+)\|[^}]*?\|t=([^}|]+?)(?:\|[^}]*)?\}\}/g, 'inflection of $1 (“$2”)')
+      .replace(/\{\{(?:inflection of|infl of)\|[a-z-]+\|([^}|]+)[^}]*\}\}/g, 'inflection of $1')
+      .replace(/\{\{(?:alternative spelling of|alternative form of|alt sp of|alt form of)\|[a-z-]+\|[^}|]+\|[^}]*?\|t=([^}|]+?)(?:\|[^}]*)?\}\}/g, '$1')
+      .replace(/\{\{(?:alternative spelling of|alternative form of|alt sp of|alt form of)\|[a-z-]+\|([^}|]+)[^}]*\}\}/g, 'alternative spelling of $1')
+      .replace(/\{\{(comparative|superlative) of\|[a-z-]+\|([^}|]+)[^}]*\}\}/g, '$1 of $2')
+      .replace(/\{\{(?:l|m|ll|l-lite|m-lite)\|[a-z-]+\|([^}|]+?)(?:\|[^}]*)?\}\}/g, '$1')
+      .replace(/\{\{q\|[^}]*\}\}/g, '')
       .replace(/\{\{gl\|([^}]*)\}\}/g, '($1)').replace(/\{\{[^}]*\}\}/g, '').replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1').replace(/'''?/g, '').trim()).filter(Boolean)
     if (defs.length) out.push({ pos: m[1] === 'Number' ? 'Numeral' : m[1], definitions: defs })
   }
@@ -312,6 +324,14 @@ async function frenchWikitext(form) {
 function genderFrom(section, pos, posIndex, definition) {
   const parts = section.split(new RegExp(`\\n={3,4}${pos}={3,4}\\n`))
   const head = parts[posIndex + 1]?.split('\n').find((l) => l.startsWith('{{')) ?? ''
+  // Norwegian Bokmål (2026-11-19): the Glossary shows the indefinite article, so return en/et, not m/f/n. Neuter
+  // ({{nb-noun-n…}}, g=n) is et; common, masculine and feminine ({{nb-noun-m…/-c/-mu/-f…}}, bare {{nb-noun…}}, g=m/f)
+  // are en, as standard Bokmål takes en for most feminine nouns (Dan's ruling for Part 1).
+  if (C.id === 'no') {
+    if (/\{\{nb-noun-n\d?\b/.test(head) || /\{\{head\|nb\|noun[^}]*\bg=n\b/.test(head)) return 'et'
+    if (/\{\{nb-noun(-(?:m|c|mu|f)\w*|\b)/.test(head) || /\{\{head\|nb\|noun[^}]*\bg=[mf]\b/.test(head)) return 'en'
+    return ''
+  }
   const fromNoun = head.match(/\{\{fr-noun\|(?:g=)?(mfbysense|mf|m|f)\b/)?.[1]
   // German and Spanish headwords (2026-11-10): {{de-noun|m,es,…}}, {{de-noun|g=n}}, {{es-noun|m}}.
   const fromOther = head.match(/\{\{(?:de|es|it|pt)-noun\|(?:g=)?(mfbysense|mf|m|f|n)\b/)?.[1]

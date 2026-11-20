@@ -1,0 +1,343 @@
+{
+  "unit_id": "U03",
+  "pulled_at": "2026-11-20",
+  "candidates": 10,
+  "sentences": [
+    {
+      "sentence_id": "S3001",
+      "unit_id": "U03",
+      "french": "Det går bra.",
+      "english": "All right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3551519",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danieljtah",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3002",
+      "unit_id": "U03",
+      "french": "God kveld.",
+      "english": "Good evening.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9295731",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3003",
+      "unit_id": "U03",
+      "french": "God morgen.",
+      "english": "Good morning.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9295775",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3004",
+      "unit_id": "U03",
+      "french": "Ikke dårlig.",
+      "english": "Not bad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940423",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3005",
+      "unit_id": "U03",
+      "french": "Det er ikke bra.",
+      "english": "It isn't good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10943787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": [
+        "It's not good."
+      ]
+    },
+    {
+      "sentence_id": "S3006",
+      "unit_id": "U03",
+      "french": "Ha det!",
+      "english": "Goodbye!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2817995",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": [
+        "Good bye!",
+        "Good-bye!"
+      ]
+    },
+    {
+      "sentence_id": "S3007",
+      "unit_id": "U03",
+      "french": "Vær så snill.",
+      "english": "Please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9295649",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3008",
+      "unit_id": "U03",
+      "french": "Hun går.",
+      "english": "She walks.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9295724",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3009",
+      "unit_id": "U03",
+      "french": "Han går.",
+      "english": "He walks.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9295805",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3010",
+      "unit_id": "U03",
+      "french": "Beklager det.",
+      "english": "Sorry about that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13374375",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gnofs",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S3001",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3001",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3001",
+      "position": 3,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3002",
+      "position": 1,
+      "surface": "God kveld",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3003",
+      "position": 1,
+      "surface": "God morgen",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3004",
+      "position": 1,
+      "surface": "Ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3004",
+      "position": 2,
+      "surface": "dårlig",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3005",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3005",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3005",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3005",
+      "position": 4,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3006",
+      "position": 1,
+      "surface": "Ha det",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3007",
+      "position": 1,
+      "surface": "Vær så snill",
+      "word_id": "W032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3008",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3008",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3009",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3009",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3010",
+      "position": 1,
+      "surface": "Beklager",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3010",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A30051",
+      "sentence_id": "S3005",
+      "direction": "fr_to_en",
+      "answer": "It's not good.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30061",
+      "sentence_id": "S3006",
+      "direction": "fr_to_en",
+      "answer": "Good bye!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30062",
+      "sentence_id": "S3006",
+      "direction": "fr_to_en",
+      "answer": "Good-bye!",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

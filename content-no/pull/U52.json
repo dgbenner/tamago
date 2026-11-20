@@ -1,0 +1,66 @@
+{
+  "unit_id": "U52",
+  "pulled_at": "2026-11-20",
+  "candidates": 1,
+  "sentences": [
+    {
+      "sentence_id": "S52001",
+      "unit_id": "U52",
+      "french": "Han liker ikke å danse.",
+      "english": "He doesn't like dancing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10944341",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S52001",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 2,
+      "surface": "liker",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 4,
+      "surface": "å",
+      "word_id": "W1027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 5,
+      "surface": "danse",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}
