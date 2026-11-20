@@ -6,6 +6,9 @@
     <title>Tamago</title>
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fffbf2" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#12100d" />
+    <!-- The page color from the first moment (Dan, 2026-11-19), before the app's own styles and code arrive, so the
+         wait is never the browser's black or white. -->
+    <style>html { background: #fffbf2; } @media (prefers-color-scheme: dark) { html { background: #12100d; } }</style>
     <link rel="icon" type="image/png" href="/icon-32.png" />
     <link rel="apple-touch-icon" href="/icon-180.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
