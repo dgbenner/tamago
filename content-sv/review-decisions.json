@@ -1,6 +1,115 @@
 {
  "_about": "Review rulings for the Swedish course (Claude, Builder 2, 2026-11-19, branch lang/swedish). Same shape as the other courses. gender holds en/ett imported from Wiktionary where the pipeline leaves it blank (build-content.mjs override). claude_hints beats the workbook hint. names are allowed in sentences.",
- "sentences": {},
+ "sentences": {
+  "S2006": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Hon är inte läkare."
+  },
+  "S2013": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Det är jag."
+  },
+  "S3017": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Hur mår Tom?"
+  },
+  "S6015": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Hur mår ni?"
+  },
+  "S7024": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Det är mycket."
+  },
+  "S8001": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Titta på det här."
+  },
+  "S8009": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Hallå? Är du där?"
+  },
+  "S8025": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Tom är där."
+  },
+  "S9014": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Är du arg?"
+  },
+  "S9015": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Är Tom arg?"
+  },
+  "S11005": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Vad är det?"
+  },
+  "S14017": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Var är ni nu?"
+  },
+  "S15002": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Jag åker till Paris imorgon."
+  },
+  "S15005": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Varför åker inte Tom?"
+  },
+  "S15018": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Jag går nu."
+  },
+  "S33003": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Vet Tom om det?"
+  },
+  "S33008": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Hur vet ni det?"
+  },
+  "S33019": {
+   "action": "confirm",
+   "english_source": "Fable review pick",
+   "by": "Fable's Swedish Part 1 review English pick, applied by Claude 2026-11-20",
+   "french": "Det där vet jag."
+  }
+ },
  "accepted_answers": {},
  "units": {
   "U01": {
@@ -197,7 +306,7 @@
   },
   "W720": {
    "hint": "is called",
-   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
   },
   "W1022": {
    "hint": "read, reads",
@@ -228,16 +337,16 @@
    "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
   },
   "W703": {
-   "hint": "time, occasion",
-   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+   "hint": "a time, occasion (en gång till)",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
   },
   "W015": {
    "hint": "and",
    "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
   },
   "W1017": {
-   "hint": "game",
-   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+   "hint": "a game",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
   },
   "W057": {
    "hint": "good, tasty",
@@ -249,7 +358,7 @@
   },
   "W1028": {
    "hint": "station",
-   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
   },
   "W1025": {
    "hint": "museum",
@@ -260,8 +369,8 @@
    "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
   },
   "W1024": {
-   "hint": "film",
-   "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+   "hint": "film, movie",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
   },
   "W1010": {
    "hint": "arm",
@@ -274,6 +383,26 @@
   "W1034": {
    "hint": "bank",
    "source": "Claude (Builder 2): clean learner hint / cognate guard, 2026-11-19"
+  },
+  "W159": {
+   "hint": "the clock; o’clock (Vad är klockan?)",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
+  },
+  "W074": {
+   "hint": "men",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
+  },
+  "W1011": {
+   "hint": "long; tall (of a person)",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
+  },
+  "W068": {
+   "hint": "you (plural)",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
+  },
+  "W053": {
+   "hint": "apple",
+   "source": "Fable's Swedish Part 1 review, applied 2026-11-20"
   }
  },
  "phrases_off": {},

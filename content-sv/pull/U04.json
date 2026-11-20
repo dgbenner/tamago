@@ -1,1375 +1,1289 @@
 {
-  "unit_id": "U04",
-  "pulled_at": "2026-11-20",
-  "candidates": 63,
-  "sentences": [
-    {
-      "sentence_id": "S4001",
-      "unit_id": "U04",
-      "french": "Tycker du om kaffe?",
-      "english": "Do you like coffee?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4144566",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4002",
-      "unit_id": "U04",
-      "french": "Tycker du om ost?",
-      "english": "Do you like cheese?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4328274",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4003",
-      "unit_id": "U04",
-      "french": "Tycker du om vin?",
-      "english": "Do you like wine?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4328319",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4004",
-      "unit_id": "U04",
-      "french": "Dricker du kaffe?",
-      "english": "Do you drink coffee?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1168719",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "benutzer",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4005",
-      "unit_id": "U04",
-      "french": "Dricker du te?",
-      "english": "Do you drink tea?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3674794",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Balamax",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4006",
-      "unit_id": "U04",
-      "french": "Gillar du ost?",
-      "english": "Do you like cheese?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4328275",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4007",
-      "unit_id": "U04",
-      "french": "Jag gillar te.",
-      "english": "I like tea.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2113509",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4008",
-      "unit_id": "U04",
-      "french": "Jag äter ett äpple.",
-      "english": "I eat an apple.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2146134",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "jeedrek",
-      "other_english": [
-        "I'm eating an apple.",
-        "I am eating an apple."
-      ]
-    },
-    {
-      "sentence_id": "S4009",
-      "unit_id": "U04",
-      "french": "Du äter ett äpple.",
-      "english": "You eat an apple.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10687049",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4010",
-      "unit_id": "U04",
-      "french": "Dricker Tom kaffe?",
-      "english": "Does Tom drink coffee?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3993099",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "turklehceleri",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4011",
-      "unit_id": "U04",
-      "french": "Hon gillar vin.",
-      "english": "She likes wine.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2146307",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4012",
-      "unit_id": "U04",
-      "french": "Jag äter inte ost.",
-      "english": "I don't eat cheese.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10747309",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4013",
-      "unit_id": "U04",
-      "french": "Jag tycker om te.",
-      "english": "I like tea.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2113511",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4014",
-      "unit_id": "U04",
-      "french": "Hon tycker om vin.",
-      "english": "She likes wine.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2146298",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "jeedrek",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4015",
-      "unit_id": "U04",
-      "french": "Jag tycker om vatten.",
-      "english": "I like water.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4163782",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4016",
-      "unit_id": "U04",
-      "french": "Jag dricker vatten.",
-      "english": "I drink water.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4258969",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "morbrorper",
-      "other_english": [
-        "I'm drinking water."
-      ]
-    },
-    {
-      "sentence_id": "S4017",
-      "unit_id": "U04",
-      "french": "Jag dricker mjölk.",
-      "english": "I drink milk.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10598335",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4018",
-      "unit_id": "U04",
-      "french": "Hon dricker mjölk.",
-      "english": "She drinks milk.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10710895",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4019",
-      "unit_id": "U04",
-      "french": "Du och jag dricker vatten.",
-      "english": "You and I drink water.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10687041",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4020",
-      "unit_id": "U04",
-      "french": "Den är god.",
-      "english": "It's good.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4408961",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4021",
-      "unit_id": "U04",
-      "french": "Jag är inte god.",
-      "english": "I am not good.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "8742124",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "morbrorper",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4022",
-      "unit_id": "U04",
-      "french": "Det är ett äpple.",
-      "english": "It's an apple.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10687014",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": [
-        "It is an apple."
-      ]
-    },
-    {
-      "sentence_id": "S4023",
-      "unit_id": "U04",
-      "french": "Han är en god man.",
-      "english": "He is a good man.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "9419500",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "morbrorper",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4024",
-      "unit_id": "U04",
-      "french": "Tycker du om Tom?",
-      "english": "Do you like Tom?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2003856",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4025",
-      "unit_id": "U04",
-      "french": "Tycker du om det?",
-      "english": "Do you like it?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2791489",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Alex1975",
-      "other_english": [
-        "Do you enjoy it?"
-      ]
-    },
-    {
-      "sentence_id": "S4026",
-      "unit_id": "U04",
-      "french": "Tycker Tom om det?",
-      "english": "Does Tom enjoy it?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4328428",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4027",
-      "unit_id": "U04",
-      "french": "Gillar du Tom?",
-      "english": "Do you like Tom?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2003855",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4028",
-      "unit_id": "U04",
-      "french": "Dricker du, Tom?",
-      "english": "Do you drink, Tom?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4327977",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4029",
-      "unit_id": "U04",
-      "french": "Gillar du den?",
-      "english": "Do you like it?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5891825",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S4030",
-      "unit_id": "U04",
-      "french": "Gillar du det?",
-      "english": "Do you like it?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5891826",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    }
-  ],
-  "sentence_words": [
-    {
-      "sentence_id": "S4001",
-      "position": 1,
-      "surface": "Tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4001",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4001",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4001",
-      "position": 4,
-      "surface": "kaffe",
-      "word_id": "W054",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4002",
-      "position": 1,
-      "surface": "Tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4002",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4002",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4002",
-      "position": 4,
-      "surface": "ost",
-      "word_id": "W052",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4003",
-      "position": 1,
-      "surface": "Tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4003",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4003",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4003",
-      "position": 4,
-      "surface": "vin",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4004",
-      "position": 1,
-      "surface": "Dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4004",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4004",
-      "position": 3,
-      "surface": "kaffe",
-      "word_id": "W054",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4005",
-      "position": 1,
-      "surface": "Dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4005",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4005",
-      "position": 3,
-      "surface": "te",
-      "word_id": "W055",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4006",
-      "position": 1,
-      "surface": "Gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4006",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4006",
-      "position": 3,
-      "surface": "ost",
-      "word_id": "W052",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4007",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4007",
-      "position": 2,
-      "surface": "gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4007",
-      "position": 3,
-      "surface": "te",
-      "word_id": "W055",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4008",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4008",
-      "position": 2,
-      "surface": "äter",
-      "word_id": "W044",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4008",
-      "position": 3,
-      "surface": "ett",
-      "word_id": "W009",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4008",
-      "position": 4,
-      "surface": "äpple",
-      "word_id": "W053",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4009",
-      "position": 1,
-      "surface": "Du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4009",
-      "position": 2,
-      "surface": "äter",
-      "word_id": "W044",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4009",
-      "position": 3,
-      "surface": "ett",
-      "word_id": "W009",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4009",
-      "position": 4,
-      "surface": "äpple",
-      "word_id": "W053",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4010",
-      "position": 1,
-      "surface": "Dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4010",
-      "position": 2,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4010",
-      "position": 3,
-      "surface": "kaffe",
-      "word_id": "W054",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4011",
-      "position": 1,
-      "surface": "Hon",
-      "word_id": "W018",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4011",
-      "position": 2,
-      "surface": "gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4011",
-      "position": 3,
-      "surface": "vin",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4012",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4012",
-      "position": 2,
-      "surface": "äter",
-      "word_id": "W044",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4012",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4012",
-      "position": 4,
-      "surface": "ost",
-      "word_id": "W052",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4013",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4013",
-      "position": 2,
-      "surface": "tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4013",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4013",
-      "position": 4,
-      "surface": "te",
-      "word_id": "W055",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4014",
-      "position": 1,
-      "surface": "Hon",
-      "word_id": "W018",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4014",
-      "position": 2,
-      "surface": "tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4014",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4014",
-      "position": 4,
-      "surface": "vin",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4015",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4015",
-      "position": 2,
-      "surface": "tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4015",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4015",
-      "position": 4,
-      "surface": "vatten",
-      "word_id": "W050",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4016",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4016",
-      "position": 2,
-      "surface": "dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4016",
-      "position": 3,
-      "surface": "vatten",
-      "word_id": "W050",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4017",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4017",
-      "position": 2,
-      "surface": "dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4017",
-      "position": 3,
-      "surface": "mjölk",
-      "word_id": "W051",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4018",
-      "position": 1,
-      "surface": "Hon",
-      "word_id": "W018",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4018",
-      "position": 2,
-      "surface": "dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4018",
-      "position": 3,
-      "surface": "mjölk",
-      "word_id": "W051",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4019",
-      "position": 1,
-      "surface": "Du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4019",
-      "position": 2,
-      "surface": "och",
-      "word_id": "W015",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4019",
-      "position": 3,
-      "surface": "jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4019",
-      "position": 4,
-      "surface": "dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4019",
-      "position": 5,
-      "surface": "vatten",
-      "word_id": "W050",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4020",
-      "position": 1,
-      "surface": "Den",
-      "word_id": "W019",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4020",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4020",
-      "position": 3,
-      "surface": "god",
-      "word_id": "W057",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4021",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4021",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4021",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4021",
-      "position": 4,
-      "surface": "god",
-      "word_id": "W057",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4022",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4022",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4022",
-      "position": 3,
-      "surface": "ett",
-      "word_id": "W009",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4022",
-      "position": 4,
-      "surface": "äpple",
-      "word_id": "W053",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4023",
-      "position": 1,
-      "surface": "Han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4023",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4023",
-      "position": 3,
-      "surface": "en",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4023",
-      "position": 4,
-      "surface": "god",
-      "word_id": "W057",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4023",
-      "position": 5,
-      "surface": "man",
-      "word_id": "W010",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4024",
-      "position": 1,
-      "surface": "Tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4024",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4024",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4024",
-      "position": 4,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4025",
-      "position": 1,
-      "surface": "Tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4025",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4025",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4025",
-      "position": 4,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4026",
-      "position": 1,
-      "surface": "Tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4026",
-      "position": 2,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4026",
-      "position": 3,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4026",
-      "position": 4,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4027",
-      "position": 1,
-      "surface": "Gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4027",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4027",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4028",
-      "position": 1,
-      "surface": "Dricker",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4028",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4028",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4029",
-      "position": 1,
-      "surface": "Gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4029",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4029",
-      "position": 3,
-      "surface": "den",
-      "word_id": "W019",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4030",
-      "position": 1,
-      "surface": "Gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4030",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S4030",
-      "position": 3,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    }
-  ],
-  "accepted_answers": [
-    {
-      "answer_id": "A40081",
-      "sentence_id": "S4008",
-      "direction": "fr_to_en",
-      "answer": "I'm eating an apple.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A40082",
-      "sentence_id": "S4008",
-      "direction": "fr_to_en",
-      "answer": "I am eating an apple.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A40161",
-      "sentence_id": "S4016",
-      "direction": "fr_to_en",
-      "answer": "I'm drinking water.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A40221",
-      "sentence_id": "S4022",
-      "direction": "fr_to_en",
-      "answer": "It is an apple.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A40251",
-      "sentence_id": "S4025",
-      "direction": "fr_to_en",
-      "answer": "Do you enjoy it?",
-      "source": "tatoeba",
-      "status": "pulled"
-    }
-  ],
-  "qa_answers": []
+ "unit_id": "U04",
+ "pulled_at": "2026-11-20",
+ "candidates": 63,
+ "sentences": [
+  {
+   "sentence_id": "S4001",
+   "unit_id": "U04",
+   "french": "Tycker du om kaffe?",
+   "english": "Do you like coffee?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4144566",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4002",
+   "unit_id": "U04",
+   "french": "Tycker du om ost?",
+   "english": "Do you like cheese?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4328274",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4003",
+   "unit_id": "U04",
+   "french": "Tycker du om vin?",
+   "english": "Do you like wine?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4328319",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4004",
+   "unit_id": "U04",
+   "french": "Dricker du kaffe?",
+   "english": "Do you drink coffee?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1168719",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "benutzer",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4005",
+   "unit_id": "U04",
+   "french": "Dricker du te?",
+   "english": "Do you drink tea?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3674794",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Balamax",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4006",
+   "unit_id": "U04",
+   "french": "Gillar du ost?",
+   "english": "Do you like cheese?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4328275",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4007",
+   "unit_id": "U04",
+   "french": "Jag gillar te.",
+   "english": "I like tea.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2113509",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4008",
+   "unit_id": "U04",
+   "french": "Jag äter ett äpple.",
+   "english": "I eat an apple.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2146134",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "jeedrek",
+   "other_english": [
+    "I'm eating an apple.",
+    "I am eating an apple."
+   ]
+  },
+  {
+   "sentence_id": "S4009",
+   "unit_id": "U04",
+   "french": "Du äter ett äpple.",
+   "english": "You eat an apple.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10687049",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4010",
+   "unit_id": "U04",
+   "french": "Dricker Tom kaffe?",
+   "english": "Does Tom drink coffee?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3993099",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "turklehceleri",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4011",
+   "unit_id": "U04",
+   "french": "Hon gillar vin.",
+   "english": "She likes wine.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2146307",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4012",
+   "unit_id": "U04",
+   "french": "Jag äter inte ost.",
+   "english": "I don't eat cheese.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10747309",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4013",
+   "unit_id": "U04",
+   "french": "Jag tycker om te.",
+   "english": "I like tea.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2113511",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4014",
+   "unit_id": "U04",
+   "french": "Hon tycker om vin.",
+   "english": "She likes wine.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2146298",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "jeedrek",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4015",
+   "unit_id": "U04",
+   "french": "Jag tycker om vatten.",
+   "english": "I like water.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4163782",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4016",
+   "unit_id": "U04",
+   "french": "Jag dricker vatten.",
+   "english": "I drink water.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4258969",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "morbrorper",
+   "other_english": [
+    "I'm drinking water."
+   ]
+  },
+  {
+   "sentence_id": "S4017",
+   "unit_id": "U04",
+   "french": "Jag dricker mjölk.",
+   "english": "I drink milk.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10598335",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4018",
+   "unit_id": "U04",
+   "french": "Hon dricker mjölk.",
+   "english": "She drinks milk.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10710895",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4019",
+   "unit_id": "U04",
+   "french": "Du och jag dricker vatten.",
+   "english": "You and I drink water.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10687041",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4020",
+   "unit_id": "U04",
+   "french": "Den är god.",
+   "english": "It's good.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4408961",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4022",
+   "unit_id": "U04",
+   "french": "Det är ett äpple.",
+   "english": "It's an apple.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10687014",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": [
+    "It is an apple."
+   ]
+  },
+  {
+   "sentence_id": "S4023",
+   "unit_id": "U04",
+   "french": "Han är en god man.",
+   "english": "He is a good man.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "9419500",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "morbrorper",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4024",
+   "unit_id": "U04",
+   "french": "Tycker du om Tom?",
+   "english": "Do you like Tom?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2003856",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4025",
+   "unit_id": "U04",
+   "french": "Tycker du om det?",
+   "english": "Do you like it?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2791489",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Alex1975",
+   "other_english": [
+    "Do you enjoy it?"
+   ]
+  },
+  {
+   "sentence_id": "S4026",
+   "unit_id": "U04",
+   "french": "Tycker Tom om det?",
+   "english": "Does Tom enjoy it?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4328428",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4027",
+   "unit_id": "U04",
+   "french": "Gillar du Tom?",
+   "english": "Do you like Tom?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2003855",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4029",
+   "unit_id": "U04",
+   "french": "Gillar du den?",
+   "english": "Do you like it?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5891825",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S4030",
+   "unit_id": "U04",
+   "french": "Gillar du det?",
+   "english": "Do you like it?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5891826",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S4001",
+   "position": 1,
+   "surface": "Tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4001",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4001",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4001",
+   "position": 4,
+   "surface": "kaffe",
+   "word_id": "W054",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4002",
+   "position": 1,
+   "surface": "Tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4002",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4002",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4002",
+   "position": 4,
+   "surface": "ost",
+   "word_id": "W052",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4003",
+   "position": 1,
+   "surface": "Tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4003",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4003",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4003",
+   "position": 4,
+   "surface": "vin",
+   "word_id": "W056",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4004",
+   "position": 1,
+   "surface": "Dricker",
+   "word_id": "W045",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4004",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4004",
+   "position": 3,
+   "surface": "kaffe",
+   "word_id": "W054",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4005",
+   "position": 1,
+   "surface": "Dricker",
+   "word_id": "W045",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4005",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4005",
+   "position": 3,
+   "surface": "te",
+   "word_id": "W055",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4006",
+   "position": 1,
+   "surface": "Gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4006",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4006",
+   "position": 3,
+   "surface": "ost",
+   "word_id": "W052",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4007",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4007",
+   "position": 2,
+   "surface": "gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4007",
+   "position": 3,
+   "surface": "te",
+   "word_id": "W055",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4008",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4008",
+   "position": 2,
+   "surface": "äter",
+   "word_id": "W044",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4008",
+   "position": 3,
+   "surface": "ett",
+   "word_id": "W009",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4008",
+   "position": 4,
+   "surface": "äpple",
+   "word_id": "W053",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4009",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4009",
+   "position": 2,
+   "surface": "äter",
+   "word_id": "W044",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4009",
+   "position": 3,
+   "surface": "ett",
+   "word_id": "W009",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4009",
+   "position": 4,
+   "surface": "äpple",
+   "word_id": "W053",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4010",
+   "position": 1,
+   "surface": "Dricker",
+   "word_id": "W045",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4010",
+   "position": 2,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4010",
+   "position": 3,
+   "surface": "kaffe",
+   "word_id": "W054",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4011",
+   "position": 1,
+   "surface": "Hon",
+   "word_id": "W018",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4011",
+   "position": 2,
+   "surface": "gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4011",
+   "position": 3,
+   "surface": "vin",
+   "word_id": "W056",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4012",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4012",
+   "position": 2,
+   "surface": "äter",
+   "word_id": "W044",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4012",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4012",
+   "position": 4,
+   "surface": "ost",
+   "word_id": "W052",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4013",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4013",
+   "position": 2,
+   "surface": "tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4013",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4013",
+   "position": 4,
+   "surface": "te",
+   "word_id": "W055",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4014",
+   "position": 1,
+   "surface": "Hon",
+   "word_id": "W018",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4014",
+   "position": 2,
+   "surface": "tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4014",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4014",
+   "position": 4,
+   "surface": "vin",
+   "word_id": "W056",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4015",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4015",
+   "position": 2,
+   "surface": "tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4015",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4015",
+   "position": 4,
+   "surface": "vatten",
+   "word_id": "W050",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4016",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4016",
+   "position": 2,
+   "surface": "dricker",
+   "word_id": "W045",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4016",
+   "position": 3,
+   "surface": "vatten",
+   "word_id": "W050",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4017",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4017",
+   "position": 2,
+   "surface": "dricker",
+   "word_id": "W045",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4017",
+   "position": 3,
+   "surface": "mjölk",
+   "word_id": "W051",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4018",
+   "position": 1,
+   "surface": "Hon",
+   "word_id": "W018",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4018",
+   "position": 2,
+   "surface": "dricker",
+   "word_id": "W045",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4018",
+   "position": 3,
+   "surface": "mjölk",
+   "word_id": "W051",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4019",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4019",
+   "position": 2,
+   "surface": "och",
+   "word_id": "W015",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4019",
+   "position": 3,
+   "surface": "jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4019",
+   "position": 4,
+   "surface": "dricker",
+   "word_id": "W045",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4019",
+   "position": 5,
+   "surface": "vatten",
+   "word_id": "W050",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4020",
+   "position": 1,
+   "surface": "Den",
+   "word_id": "W019",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4020",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4020",
+   "position": 3,
+   "surface": "god",
+   "word_id": "W057",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4022",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4022",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4022",
+   "position": 3,
+   "surface": "ett",
+   "word_id": "W009",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4022",
+   "position": 4,
+   "surface": "äpple",
+   "word_id": "W053",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4023",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4023",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4023",
+   "position": 3,
+   "surface": "en",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4023",
+   "position": 4,
+   "surface": "god",
+   "word_id": "W057",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4023",
+   "position": 5,
+   "surface": "man",
+   "word_id": "W010",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4024",
+   "position": 1,
+   "surface": "Tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4024",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4024",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4024",
+   "position": 4,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4025",
+   "position": 1,
+   "surface": "Tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4025",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4025",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4025",
+   "position": 4,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4026",
+   "position": 1,
+   "surface": "Tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4026",
+   "position": 2,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4026",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4026",
+   "position": 4,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4027",
+   "position": 1,
+   "surface": "Gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4027",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4027",
+   "position": 3,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4029",
+   "position": 1,
+   "surface": "Gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4029",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4029",
+   "position": 3,
+   "surface": "den",
+   "word_id": "W019",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4030",
+   "position": 1,
+   "surface": "Gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4030",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S4030",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [
+  {
+   "answer_id": "A40081",
+   "sentence_id": "S4008",
+   "direction": "fr_to_en",
+   "answer": "I'm eating an apple.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A40082",
+   "sentence_id": "S4008",
+   "direction": "fr_to_en",
+   "answer": "I am eating an apple.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A40161",
+   "sentence_id": "S4016",
+   "direction": "fr_to_en",
+   "answer": "I'm drinking water.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A40221",
+   "sentence_id": "S4022",
+   "direction": "fr_to_en",
+   "answer": "It is an apple.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A40251",
+   "sentence_id": "S4025",
+   "direction": "fr_to_en",
+   "answer": "Do you enjoy it?",
+   "source": "tatoeba",
+   "status": "pulled"
+  }
+ ],
+ "qa_answers": []
 }

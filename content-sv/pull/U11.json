@@ -1,1275 +1,931 @@
 {
-  "unit_id": "U11",
-  "pulled_at": "2026-11-20",
-  "candidates": 102,
-  "sentences": [
-    {
-      "sentence_id": "S11001",
-      "unit_id": "U11",
-      "french": "När var det?",
-      "english": "When was that?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1998350",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11002",
-      "unit_id": "U11",
-      "french": "Varför var du där?",
-      "english": "Why were you there?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1587330",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Tximist",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11003",
-      "unit_id": "U11",
-      "french": "Varför var Tom rädd?",
-      "english": "Why was Tom frightened?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4423933",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11004",
-      "unit_id": "U11",
-      "french": "Vem läser?",
-      "english": "Who is reading?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "869060",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11005",
-      "unit_id": "U11",
-      "french": "Vad är det?",
-      "english": "What is this?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "409683",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11006",
-      "unit_id": "U11",
-      "french": "Vem är du?",
-      "english": "Who are you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "773371",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "marloncori",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11007",
-      "unit_id": "U11",
-      "french": "Vad läser du?",
-      "english": "What are you reading?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1138547",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "arahlen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11008",
-      "unit_id": "U11",
-      "french": "Varför var inte Tom där?",
-      "english": "Why wasn't Tom there?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3840620",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11009",
-      "unit_id": "U11",
-      "french": "Vem är hon?",
-      "english": "Who's she?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "891548",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Tximist",
-      "other_english": [
-        "Who is she?"
-      ]
-    },
-    {
-      "sentence_id": "S11010",
-      "unit_id": "U11",
-      "french": "Vad har hon?",
-      "english": "What does she have?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1990287",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11011",
-      "unit_id": "U11",
-      "french": "Vilken är min?",
-      "english": "Which is mine?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3809595",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Amabayashi",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11012",
-      "unit_id": "U11",
-      "french": "Vilken hund är din?",
-      "english": "Which dog is yours?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "8745879",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "morbrorper",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11013",
-      "unit_id": "U11",
-      "french": "Vilken stor hund!",
-      "english": "What a big dog!",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1987457",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11014",
-      "unit_id": "U11",
-      "french": "Varför, Tom?",
-      "english": "Why, Tom?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10713281",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11015",
-      "unit_id": "U11",
-      "french": "Hur var det?",
-      "english": "What was it like?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1131156",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "HannesP",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11016",
-      "unit_id": "U11",
-      "french": "Vem är han?",
-      "english": "Who's he?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1965154",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": [
-        "Who is he?"
-      ]
-    },
-    {
-      "sentence_id": "S11017",
-      "unit_id": "U11",
-      "french": "Var är han?",
-      "english": "Where is he?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1966405",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11018",
-      "unit_id": "U11",
-      "french": "Var är du?",
-      "english": "Where are you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1991660",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11019",
-      "unit_id": "U11",
-      "french": "Var ligger Paris?",
-      "english": "Where is Paris?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1996310",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11020",
-      "unit_id": "U11",
-      "french": "Var är jag?",
-      "english": "Where am I?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2000250",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Siljan",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11021",
-      "unit_id": "U11",
-      "french": "Var är de?",
-      "english": "Where are they?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2001550",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11022",
-      "unit_id": "U11",
-      "french": "Vad har du?",
-      "english": "What do you have?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2015050",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": [
-        "What have you got?",
-        "What've you got?"
-      ]
-    },
-    {
-      "sentence_id": "S11023",
-      "unit_id": "U11",
-      "french": "Var är hon?",
-      "english": "Where is she?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2147544",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11024",
-      "unit_id": "U11",
-      "french": "Var är ni?",
-      "english": "Where are you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2227025",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "loghaD",
-      "other_english": [
-        "Where are you guys?"
-      ]
-    },
-    {
-      "sentence_id": "S11025",
-      "unit_id": "U11",
-      "french": "Var de bra?",
-      "english": "Were they any good?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4446570",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11026",
-      "unit_id": "U11",
-      "french": "Vad tycker de?",
-      "english": "What do they think?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4446713",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11027",
-      "unit_id": "U11",
-      "french": "Vad har vi?",
-      "english": "What do we have?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4446726",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": [
-        "What have we got?"
-      ]
-    },
-    {
-      "sentence_id": "S11028",
-      "unit_id": "U11",
-      "french": "Vad tycker Tom?",
-      "english": "What does Tom think?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4446736",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11029",
-      "unit_id": "U11",
-      "french": "Och varför inte?",
-      "english": "And why not?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4840352",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Nour",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11030",
-      "unit_id": "U11",
-      "french": "Vad äter du?",
-      "english": "What're you eating?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5240206",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "zrajm",
-      "other_english": [
-        "What are you eating?"
-      ]
-    }
-  ],
-  "sentence_words": [
-    {
-      "sentence_id": "S11001",
-      "position": 1,
-      "surface": "När",
-      "word_id": "W128",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11001",
-      "position": 2,
-      "surface": "var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11001",
-      "position": 3,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11002",
-      "position": 1,
-      "surface": "Varför",
-      "word_id": "W129",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11002",
-      "position": 2,
-      "surface": "var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11002",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11002",
-      "position": 4,
-      "surface": "där",
-      "word_id": "W096",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11003",
-      "position": 1,
-      "surface": "Varför",
-      "word_id": "W129",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11003",
-      "position": 2,
-      "surface": "var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11003",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11003",
-      "position": 4,
-      "surface": "rädd",
-      "word_id": "W108",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11004",
-      "position": 1,
-      "surface": "Vem",
-      "word_id": "W125",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11004",
-      "position": 2,
-      "surface": "läser",
-      "word_id": "W1022",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11005",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11005",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11005",
-      "position": 3,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11006",
-      "position": 1,
-      "surface": "Vem",
-      "word_id": "W125",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11006",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11006",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 2,
-      "surface": "läser",
-      "word_id": "W1022",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 1,
-      "surface": "Varför",
-      "word_id": "W129",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 2,
-      "surface": "var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 4,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 5,
-      "surface": "där",
-      "word_id": "W096",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11009",
-      "position": 1,
-      "surface": "Vem",
-      "word_id": "W125",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11009",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11009",
-      "position": 3,
-      "surface": "hon",
-      "word_id": "W018",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11010",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11010",
-      "position": 2,
-      "surface": "har",
-      "word_id": "W058",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11010",
-      "position": 3,
-      "surface": "hon",
-      "word_id": "W018",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11011",
-      "position": 1,
-      "surface": "Vilken",
-      "word_id": "W131",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11011",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11011",
-      "position": 3,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11012",
-      "position": 1,
-      "surface": "Vilken",
-      "word_id": "W131",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11012",
-      "position": 2,
-      "surface": "hund",
-      "word_id": "W059",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11012",
-      "position": 3,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11012",
-      "position": 4,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11013",
-      "position": 1,
-      "surface": "Vilken",
-      "word_id": "W131",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11013",
-      "position": 2,
-      "surface": "stor",
-      "word_id": "W028",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11013",
-      "position": 3,
-      "surface": "hund",
-      "word_id": "W059",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11014",
-      "position": 1,
-      "surface": "Varför",
-      "word_id": "W129",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11014",
-      "position": 2,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11015",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11015",
-      "position": 2,
-      "surface": "var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11015",
-      "position": 3,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11016",
-      "position": 1,
-      "surface": "Vem",
-      "word_id": "W125",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11016",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11016",
-      "position": 3,
-      "surface": "han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11017",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11017",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11017",
-      "position": 3,
-      "surface": "han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11018",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11018",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11018",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11019",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11019",
-      "position": 2,
-      "surface": "ligger",
-      "word_id": "W090",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11019",
-      "position": 3,
-      "surface": "Paris",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11020",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11020",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11020",
-      "position": 3,
-      "surface": "jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11021",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11021",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11021",
-      "position": 3,
-      "surface": "de",
-      "word_id": "W069",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11022",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11022",
-      "position": 2,
-      "surface": "har",
-      "word_id": "W058",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11022",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11023",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11023",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11023",
-      "position": 3,
-      "surface": "hon",
-      "word_id": "W018",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11024",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11024",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11024",
-      "position": 3,
-      "surface": "ni",
-      "word_id": "W068",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11025",
-      "position": 1,
-      "surface": "Var",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11025",
-      "position": 2,
-      "surface": "de",
-      "word_id": "W069",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11025",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11026",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11026",
-      "position": 2,
-      "surface": "tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11026",
-      "position": 3,
-      "surface": "de",
-      "word_id": "W069",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11027",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11027",
-      "position": 2,
-      "surface": "har",
-      "word_id": "W058",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11027",
-      "position": 3,
-      "surface": "vi",
-      "word_id": "W067",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11028",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11028",
-      "position": 2,
-      "surface": "tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11028",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11029",
-      "position": 1,
-      "surface": "Och",
-      "word_id": "W015",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11029",
-      "position": 2,
-      "surface": "varför",
-      "word_id": "W129",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11029",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11030",
-      "position": 1,
-      "surface": "Vad",
-      "word_id": "W126",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11030",
-      "position": 2,
-      "surface": "äter",
-      "word_id": "W044",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11030",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    }
-  ],
-  "accepted_answers": [
-    {
-      "answer_id": "A110091",
-      "sentence_id": "S11009",
-      "direction": "fr_to_en",
-      "answer": "Who is she?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A110161",
-      "sentence_id": "S11016",
-      "direction": "fr_to_en",
-      "answer": "Who is he?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A110221",
-      "sentence_id": "S11022",
-      "direction": "fr_to_en",
-      "answer": "What have you got?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A110222",
-      "sentence_id": "S11022",
-      "direction": "fr_to_en",
-      "answer": "What've you got?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A110241",
-      "sentence_id": "S11024",
-      "direction": "fr_to_en",
-      "answer": "Where are you guys?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A110271",
-      "sentence_id": "S11027",
-      "direction": "fr_to_en",
-      "answer": "What have we got?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A110301",
-      "sentence_id": "S11030",
-      "direction": "fr_to_en",
-      "answer": "What are you eating?",
-      "source": "tatoeba",
-      "status": "pulled"
-    }
-  ],
-  "qa_answers": []
+ "unit_id": "U11",
+ "pulled_at": "2026-11-20",
+ "candidates": 102,
+ "sentences": [
+  {
+   "sentence_id": "S11004",
+   "unit_id": "U11",
+   "french": "Vem läser?",
+   "english": "Who is reading?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "869060",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11005",
+   "unit_id": "U11",
+   "french": "Vad är det?",
+   "english": "What is that?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "409683",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11006",
+   "unit_id": "U11",
+   "french": "Vem är du?",
+   "english": "Who are you?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "773371",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "marloncori",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11007",
+   "unit_id": "U11",
+   "french": "Vad läser du?",
+   "english": "What are you reading?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1138547",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "arahlen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11009",
+   "unit_id": "U11",
+   "french": "Vem är hon?",
+   "english": "Who's she?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "891548",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Tximist",
+   "other_english": [
+    "Who is she?"
+   ]
+  },
+  {
+   "sentence_id": "S11010",
+   "unit_id": "U11",
+   "french": "Vad har hon?",
+   "english": "What does she have?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1990287",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11011",
+   "unit_id": "U11",
+   "french": "Vilken är min?",
+   "english": "Which is mine?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3809595",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Amabayashi",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11012",
+   "unit_id": "U11",
+   "french": "Vilken hund är din?",
+   "english": "Which dog is yours?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8745879",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "morbrorper",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11013",
+   "unit_id": "U11",
+   "french": "Vilken stor hund!",
+   "english": "What a big dog!",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1987457",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11014",
+   "unit_id": "U11",
+   "french": "Varför, Tom?",
+   "english": "Why, Tom?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10713281",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11016",
+   "unit_id": "U11",
+   "french": "Vem är han?",
+   "english": "Who's he?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1965154",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": [
+    "Who is he?"
+   ]
+  },
+  {
+   "sentence_id": "S11017",
+   "unit_id": "U11",
+   "french": "Var är han?",
+   "english": "Where is he?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1966405",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11018",
+   "unit_id": "U11",
+   "french": "Var är du?",
+   "english": "Where are you?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1991660",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11019",
+   "unit_id": "U11",
+   "french": "Var ligger Paris?",
+   "english": "Where is Paris?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1996310",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11020",
+   "unit_id": "U11",
+   "french": "Var är jag?",
+   "english": "Where am I?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2000250",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Siljan",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11021",
+   "unit_id": "U11",
+   "french": "Var är de?",
+   "english": "Where are they?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2001550",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11022",
+   "unit_id": "U11",
+   "french": "Vad har du?",
+   "english": "What do you have?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2015050",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": [
+    "What have you got?",
+    "What've you got?"
+   ]
+  },
+  {
+   "sentence_id": "S11023",
+   "unit_id": "U11",
+   "french": "Var är hon?",
+   "english": "Where is she?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2147544",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11024",
+   "unit_id": "U11",
+   "french": "Var är ni?",
+   "english": "Where are you?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2227025",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "loghaD",
+   "other_english": [
+    "Where are you guys?"
+   ]
+  },
+  {
+   "sentence_id": "S11027",
+   "unit_id": "U11",
+   "french": "Vad har vi?",
+   "english": "What do we have?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4446726",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": [
+    "What have we got?"
+   ]
+  },
+  {
+   "sentence_id": "S11029",
+   "unit_id": "U11",
+   "french": "Och varför inte?",
+   "english": "And why not?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4840352",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Nour",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S11030",
+   "unit_id": "U11",
+   "french": "Vad äter du?",
+   "english": "What're you eating?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5240206",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "zrajm",
+   "other_english": [
+    "What are you eating?"
+   ]
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S11004",
+   "position": 1,
+   "surface": "Vem",
+   "word_id": "W125",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11004",
+   "position": 2,
+   "surface": "läser",
+   "word_id": "W1022",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11005",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11005",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11005",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11006",
+   "position": 1,
+   "surface": "Vem",
+   "word_id": "W125",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11006",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11006",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11007",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11007",
+   "position": 2,
+   "surface": "läser",
+   "word_id": "W1022",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11007",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11009",
+   "position": 1,
+   "surface": "Vem",
+   "word_id": "W125",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11009",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11009",
+   "position": 3,
+   "surface": "hon",
+   "word_id": "W018",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11010",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11010",
+   "position": 2,
+   "surface": "har",
+   "word_id": "W058",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11010",
+   "position": 3,
+   "surface": "hon",
+   "word_id": "W018",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11011",
+   "position": 1,
+   "surface": "Vilken",
+   "word_id": "W131",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11011",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11011",
+   "position": 3,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11012",
+   "position": 1,
+   "surface": "Vilken",
+   "word_id": "W131",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11012",
+   "position": 2,
+   "surface": "hund",
+   "word_id": "W059",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11012",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11012",
+   "position": 4,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11013",
+   "position": 1,
+   "surface": "Vilken",
+   "word_id": "W131",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11013",
+   "position": 2,
+   "surface": "stor",
+   "word_id": "W028",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11013",
+   "position": 3,
+   "surface": "hund",
+   "word_id": "W059",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11014",
+   "position": 1,
+   "surface": "Varför",
+   "word_id": "W129",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11014",
+   "position": 2,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11016",
+   "position": 1,
+   "surface": "Vem",
+   "word_id": "W125",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11016",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11016",
+   "position": 3,
+   "surface": "han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11017",
+   "position": 1,
+   "surface": "Var",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11017",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11017",
+   "position": 3,
+   "surface": "han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11018",
+   "position": 1,
+   "surface": "Var",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11018",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11018",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11019",
+   "position": 1,
+   "surface": "Var",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11019",
+   "position": 2,
+   "surface": "ligger",
+   "word_id": "W090",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11019",
+   "position": 3,
+   "surface": "Paris",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11020",
+   "position": 1,
+   "surface": "Var",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11020",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11020",
+   "position": 3,
+   "surface": "jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11021",
+   "position": 1,
+   "surface": "Var",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11021",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11021",
+   "position": 3,
+   "surface": "de",
+   "word_id": "W069",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11022",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11022",
+   "position": 2,
+   "surface": "har",
+   "word_id": "W058",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11022",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11023",
+   "position": 1,
+   "surface": "Var",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11023",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11023",
+   "position": 3,
+   "surface": "hon",
+   "word_id": "W018",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11024",
+   "position": 1,
+   "surface": "Var",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11024",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11024",
+   "position": 3,
+   "surface": "ni",
+   "word_id": "W068",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11027",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11027",
+   "position": 2,
+   "surface": "har",
+   "word_id": "W058",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11027",
+   "position": 3,
+   "surface": "vi",
+   "word_id": "W067",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11029",
+   "position": 1,
+   "surface": "Och",
+   "word_id": "W015",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11029",
+   "position": 2,
+   "surface": "varför",
+   "word_id": "W129",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11029",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11030",
+   "position": 1,
+   "surface": "Vad",
+   "word_id": "W126",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11030",
+   "position": 2,
+   "surface": "äter",
+   "word_id": "W044",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S11030",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [
+  {
+   "answer_id": "A110091",
+   "sentence_id": "S11009",
+   "direction": "fr_to_en",
+   "answer": "Who is she?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A110161",
+   "sentence_id": "S11016",
+   "direction": "fr_to_en",
+   "answer": "Who is he?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A110221",
+   "sentence_id": "S11022",
+   "direction": "fr_to_en",
+   "answer": "What have you got?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A110222",
+   "sentence_id": "S11022",
+   "direction": "fr_to_en",
+   "answer": "What've you got?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A110241",
+   "sentence_id": "S11024",
+   "direction": "fr_to_en",
+   "answer": "Where are you guys?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A110271",
+   "sentence_id": "S11027",
+   "direction": "fr_to_en",
+   "answer": "What have we got?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A110301",
+   "sentence_id": "S11030",
+   "direction": "fr_to_en",
+   "answer": "What are you eating?",
+   "source": "tatoeba",
+   "status": "pulled"
+  }
+ ],
+ "qa_answers": []
 }

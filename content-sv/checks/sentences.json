@@ -427,9 +427,9 @@
     "sentence_id": "S2006",
     "unit_id": "U02",
     "draft_french": "Hon är inte läkare.",
-    "draft_english": "She is not a physician.",
+    "draft_english": "She is not a doctor.",
     "french": "Hon är inte läkare.",
-    "english": "She is not a physician.",
+    "english": "She is not a doctor.",
     "source": "tatoeba",
     "source_id": "8778440",
     "source_owner": "morbrorper",
@@ -446,9 +446,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -639,9 +639,9 @@
     "sentence_id": "S2013",
     "unit_id": "U02",
     "draft_french": "Det är jag.",
-    "draft_english": "It is I.",
+    "draft_english": "It's me.",
     "french": "Det är jag.",
-    "english": "It is I.",
+    "english": "It's me.",
     "source": "tatoeba",
     "source_id": "8760472",
     "source_owner": "morbrorper",
@@ -658,9 +658,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -1369,9 +1369,9 @@
     "sentence_id": "S3017",
     "unit_id": "U03",
     "draft_french": "Hur mår Tom?",
-    "draft_english": "How's Tom's health?",
+    "draft_english": "How is Tom?",
     "french": "Hur mår Tom?",
-    "english": "How's Tom's health?",
+    "english": "How is Tom?",
     "source": "tatoeba",
     "source_id": "9577430",
     "source_owner": "mrkalling",
@@ -1388,9 +1388,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -1520,9 +1520,9 @@
     "sentence_id": "S3022",
     "unit_id": "U03",
     "draft_french": "Hur är det?",
-    "draft_english": "How are you?",
+    "draft_english": "How is it?",
     "french": "Hur är det?",
-    "english": "How are you?",
+    "english": "How is it?",
     "source": "tatoeba",
     "source_id": "2001546",
     "source_owner": "herrsilen",
@@ -2392,36 +2392,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S4021",
-    "unit_id": "U04",
-    "draft_french": "Jag är inte god.",
-    "draft_english": "I am not good.",
-    "french": "Jag är inte god.",
-    "english": "I am not good.",
-    "source": "tatoeba",
-    "source_id": "8742124",
-    "source_owner": "morbrorper",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "8742124",
-      "source_owner": "morbrorper",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Jag är inte god.",
-      "english": [
-        "I am not good."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S4022",
     "unit_id": "U04",
     "draft_french": "Det är ett äpple.",
@@ -2604,36 +2574,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S4028",
-    "unit_id": "U04",
-    "draft_french": "Dricker du, Tom?",
-    "draft_english": "Do you drink, Tom?",
-    "french": "Dricker du, Tom?",
-    "english": "Do you drink, Tom?",
-    "source": "tatoeba",
-    "source_id": "4327977",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4327977",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Dricker du, Tom?",
-      "english": [
-        "Do you drink, Tom?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S4029",
     "unit_id": "U04",
     "draft_french": "Gillar du den?",
@@ -2803,37 +2743,6 @@
       "french": "Är det en häst?",
       "english": [
         "Is it a horse?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S5005",
-    "unit_id": "U05",
-    "draft_french": "Jag är en fisk.",
-    "draft_english": "I'm a fish.",
-    "french": "Jag är en fisk.",
-    "english": "I'm a fish.",
-    "source": "tatoeba",
-    "source_id": "11562970",
-    "source_owner": "Pineapple",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "11562970",
-      "source_owner": "Pineapple",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Jag är en fisk.",
-      "english": [
-        "I'm a fish.",
-        "I am a fish."
       ]
     },
     "variants": [],
@@ -3330,9 +3239,9 @@
     "sentence_id": "S5022",
     "unit_id": "U05",
     "draft_french": "Hur är det?",
-    "draft_english": "How are you?",
+    "draft_english": "How is it?",
     "french": "Hur är det?",
-    "english": "How are you?",
+    "english": "How is it?",
     "source": "tatoeba",
     "source_id": "2001546",
     "source_owner": "herrsilen",
@@ -3587,36 +3496,6 @@
       "french": "Hon har vatten.",
       "english": [
         "She has water."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S6001",
-    "unit_id": "U06",
-    "draft_french": "Ni är inte hundar.",
-    "draft_english": "You're not dogs.",
-    "french": "Ni är inte hundar.",
-    "english": "You're not dogs.",
-    "source": "tatoeba",
-    "source_id": "3869687",
-    "source_owner": "Balamax",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3869687",
-      "source_owner": "Balamax",
-      "native_owner": false,
-      "ok_tag": true,
-      "french": "Ni är inte hundar.",
-      "english": [
-        "You're not dogs."
       ]
     },
     "variants": [],
@@ -4022,9 +3901,9 @@
     "sentence_id": "S6015",
     "unit_id": "U06",
     "draft_french": "Hur mår ni?",
-    "draft_english": "How are you guys?",
+    "draft_english": "How are you all?",
     "french": "Hur mår ni?",
-    "english": "How are you guys?",
+    "english": "How are you all?",
     "source": "tatoeba",
     "source_id": "4343930",
     "source_owner": "richke",
@@ -4041,9 +3920,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -5198,9 +5077,9 @@
     "sentence_id": "S7024",
     "unit_id": "U07",
     "draft_french": "Det är mycket.",
-    "draft_english": "That's plenty.",
+    "draft_english": "That's a lot.",
     "french": "Det är mycket.",
-    "english": "That's plenty.",
+    "english": "That's a lot.",
     "source": "tatoeba",
     "source_id": "1998289",
     "source_owner": "herrsilen",
@@ -5217,9 +5096,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -5316,37 +5195,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S7028",
-    "unit_id": "U07",
-    "draft_french": "Jag dricker inte mycket.",
-    "draft_english": "I don't drink much.",
-    "french": "Jag dricker inte mycket.",
-    "english": "I don't drink much.",
-    "source": "tatoeba",
-    "source_id": "11188786",
-    "source_owner": "Pineapple",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "11188786",
-      "source_owner": "Pineapple",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Jag dricker inte mycket.",
-      "english": [
-        "I don't drink a lot.",
-        "I don't drink much."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S7029",
     "unit_id": "U07",
     "draft_french": "Jag tycker mycket om hundar.",
@@ -5410,9 +5258,9 @@
     "sentence_id": "S8001",
     "unit_id": "U08",
     "draft_french": "Titta på det här.",
-    "draft_english": "Watch this.",
+    "draft_english": "Look at this.",
     "french": "Titta på det här.",
-    "english": "Watch this.",
+    "english": "Look at this.",
     "source": "tatoeba",
     "source_id": "3711740",
     "source_owner": "herrsilen",
@@ -5429,9 +5277,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -5650,9 +5498,9 @@
     "sentence_id": "S8009",
     "unit_id": "U08",
     "draft_french": "Hallå? Är du där?",
-    "draft_english": "Hello? Are you still here?",
+    "draft_english": "Hello? Are you there?",
     "french": "Hallå? Är du där?",
-    "english": "Hello? Are you still here?",
+    "english": "Hello? Are you there?",
     "source": "tatoeba",
     "source_id": "4159684",
     "source_owner": "richke",
@@ -5669,9 +5517,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -6132,9 +5980,9 @@
     "sentence_id": "S8025",
     "unit_id": "U08",
     "draft_french": "Tom är där.",
-    "draft_english": "Tom is right there.",
+    "draft_english": "Tom is there.",
     "french": "Tom är där.",
-    "english": "Tom is right there.",
+    "english": "Tom is there.",
     "source": "tatoeba",
     "source_id": "2048632",
     "source_owner": "herrsilen",
@@ -6151,9 +5999,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -6705,9 +6553,9 @@
     "sentence_id": "S9014",
     "unit_id": "U09",
     "draft_french": "Är du arg?",
-    "draft_english": "Are you mad?",
+    "draft_english": "Are you angry?",
     "french": "Är du arg?",
-    "english": "Are you mad?",
+    "english": "Are you angry?",
     "source": "tatoeba",
     "source_id": "3741005",
     "source_owner": "herrsilen",
@@ -6724,9 +6572,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -6735,9 +6583,9 @@
     "sentence_id": "S9015",
     "unit_id": "U09",
     "draft_french": "Är Tom arg?",
-    "draft_english": "Is Tom mad?",
+    "draft_english": "Is Tom angry?",
     "french": "Är Tom arg?",
-    "english": "Is Tom mad?",
+    "english": "Is Tom angry?",
     "source": "tatoeba",
     "source_id": "3829809",
     "source_owner": "herrsilen",
@@ -6754,9 +6602,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -7144,36 +6992,6 @@
       "french": "Tom är inte glad.",
       "english": [
         "Tom isn't happy."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S9029",
-    "unit_id": "U09",
-    "draft_french": "Tom gillar den varm.",
-    "draft_english": "Tom likes it hot.",
-    "french": "Tom gillar den varm.",
-    "english": "Tom likes it hot.",
-    "source": "tatoeba",
-    "source_id": "2022408",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "2022408",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Tom gillar den varm.",
-      "english": [
-        "Tom likes it hot."
       ]
     },
     "variants": [],
@@ -8124,96 +7942,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S11001",
-    "unit_id": "U11",
-    "draft_french": "När var det?",
-    "draft_english": "When was that?",
-    "french": "När var det?",
-    "english": "When was that?",
-    "source": "tatoeba",
-    "source_id": "1998350",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "1998350",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "När var det?",
-      "english": [
-        "When was that?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11002",
-    "unit_id": "U11",
-    "draft_french": "Varför var du där?",
-    "draft_english": "Why were you there?",
-    "french": "Varför var du där?",
-    "english": "Why were you there?",
-    "source": "tatoeba",
-    "source_id": "1587330",
-    "source_owner": "Tximist",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "1587330",
-      "source_owner": "Tximist",
-      "native_owner": true,
-      "ok_tag": true,
-      "french": "Varför var du där?",
-      "english": [
-        "Why were you there?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11003",
-    "unit_id": "U11",
-    "draft_french": "Varför var Tom rädd?",
-    "draft_english": "Why was Tom frightened?",
-    "french": "Varför var Tom rädd?",
-    "english": "Why was Tom frightened?",
-    "source": "tatoeba",
-    "source_id": "4423933",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4423933",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Varför var Tom rädd?",
-      "english": [
-        "Why was Tom frightened?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S11004",
     "unit_id": "U11",
     "draft_french": "Vem läser?",
@@ -8247,9 +7975,9 @@
     "sentence_id": "S11005",
     "unit_id": "U11",
     "draft_french": "Vad är det?",
-    "draft_english": "What is this?",
+    "draft_english": "What is that?",
     "french": "Vad är det?",
-    "english": "What is this?",
+    "english": "What is that?",
     "source": "tatoeba",
     "source_id": "409683",
     "source_owner": "herrsilen",
@@ -8266,9 +7994,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -8323,36 +8051,6 @@
       "french": "Vad läser du?",
       "english": [
         "What are you reading?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11008",
-    "unit_id": "U11",
-    "draft_french": "Varför var inte Tom där?",
-    "draft_english": "Why wasn't Tom there?",
-    "french": "Varför var inte Tom där?",
-    "english": "Why wasn't Tom there?",
-    "source": "tatoeba",
-    "source_id": "3840620",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3840620",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Varför var inte Tom där?",
-      "english": [
-        "Why wasn't Tom there?"
       ]
     },
     "variants": [],
@@ -8534,36 +8232,6 @@
       "french": "Varför, Tom?",
       "english": [
         "Why, Tom?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11015",
-    "unit_id": "U11",
-    "draft_french": "Hur var det?",
-    "draft_english": "What was it like?",
-    "french": "Hur var det?",
-    "english": "What was it like?",
-    "source": "tatoeba",
-    "source_id": "1131156",
-    "source_owner": "HannesP",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "1131156",
-      "source_owner": "HannesP",
-      "native_owner": false,
-      "ok_tag": true,
-      "french": "Hur var det?",
-      "english": [
-        "What was it like?"
       ]
     },
     "variants": [],
@@ -8849,66 +8517,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S11025",
-    "unit_id": "U11",
-    "draft_french": "Var de bra?",
-    "draft_english": "Were they any good?",
-    "french": "Var de bra?",
-    "english": "Were they any good?",
-    "source": "tatoeba",
-    "source_id": "4446570",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4446570",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Var de bra?",
-      "english": [
-        "Were they any good?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11026",
-    "unit_id": "U11",
-    "draft_french": "Vad tycker de?",
-    "draft_english": "What do they think?",
-    "french": "Vad tycker de?",
-    "english": "What do they think?",
-    "source": "tatoeba",
-    "source_id": "4446713",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4446713",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Vad tycker de?",
-      "english": [
-        "What do they think?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S11027",
     "unit_id": "U11",
     "draft_french": "Vad har vi?",
@@ -8929,36 +8537,6 @@
       "english": [
         "What do we have?",
         "What have we got?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11028",
-    "unit_id": "U11",
-    "draft_french": "Vad tycker Tom?",
-    "draft_english": "What does Tom think?",
-    "french": "Vad tycker Tom?",
-    "english": "What does Tom think?",
-    "source": "tatoeba",
-    "source_id": "4446736",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4446736",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Vad tycker Tom?",
-      "english": [
-        "What does Tom think?"
       ]
     },
     "variants": [],
@@ -9665,36 +9243,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S13003",
-    "unit_id": "U13",
-    "draft_french": "Är Tom svart?",
-    "draft_english": "Is Tom black?",
-    "french": "Är Tom svart?",
-    "english": "Is Tom black?",
-    "source": "tatoeba",
-    "source_id": "12096990",
-    "source_owner": "johanrhg",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "12096990",
-      "source_owner": "johanrhg",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Är Tom svart?",
-      "english": [
-        "Is Tom black?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S13004",
     "unit_id": "U13",
     "draft_french": "Är din bil svart?",
@@ -9755,36 +9303,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S13006",
-    "unit_id": "U13",
-    "draft_french": "Hon är vit.",
-    "draft_english": "She's white.",
-    "french": "Hon är vit.",
-    "english": "She's white.",
-    "source": "tatoeba",
-    "source_id": "10710890",
-    "source_owner": "Pineapple",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "10710890",
-      "source_owner": "Pineapple",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Hon är vit.",
-      "english": [
-        "She's white."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S13007",
     "unit_id": "U13",
     "draft_french": "Hennes bok är röd.",
@@ -9834,36 +9352,6 @@
       "french": "Jag har en röd bil.",
       "english": [
         "I have a red car."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S13009",
-    "unit_id": "U13",
-    "draft_french": "Den var svart.",
-    "draft_english": "It was black.",
-    "french": "Den var svart.",
-    "english": "It was black.",
-    "source": "tatoeba",
-    "source_id": "3710525",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3710525",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Den var svart.",
-      "english": [
-        "It was black."
       ]
     },
     "variants": [],
@@ -9954,36 +9442,6 @@
       "french": "Jag har en ny röd bil.",
       "english": [
         "I have a new red car."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S13013",
-    "unit_id": "U13",
-    "draft_french": "Det var svart.",
-    "draft_english": "It was black.",
-    "french": "Det var svart.",
-    "english": "It was black.",
-    "source": "tatoeba",
-    "source_id": "3710526",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3710526",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Det var svart.",
-      "english": [
-        "It was black."
       ]
     },
     "variants": [],
@@ -10265,36 +9723,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S14001",
-    "unit_id": "U14",
-    "draft_french": "Hur var din dag idag?",
-    "draft_english": "How was your day today?",
-    "french": "Hur var din dag idag?",
-    "english": "How was your day today?",
-    "source": "tatoeba",
-    "source_id": "1988739",
-    "source_owner": "Ribon",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "1988739",
-      "source_owner": "Ribon",
-      "native_owner": false,
-      "ok_tag": true,
-      "french": "Hur var din dag idag?",
-      "english": [
-        "How was your day today?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S14002",
     "unit_id": "U14",
     "draft_french": "Är idag en dålig dag?",
@@ -10404,37 +9832,6 @@
       "french": "Är det måndag idag?",
       "english": [
         "Is today Monday?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S14006",
-    "unit_id": "U14",
-    "draft_french": "Hur var din dag?",
-    "draft_english": "How was your day?",
-    "french": "Hur var din dag?",
-    "english": "How was your day?",
-    "source": "tatoeba",
-    "source_id": "1936173",
-    "source_owner": "LanguageExpert",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "1936173",
-      "source_owner": "LanguageExpert",
-      "native_owner": false,
-      "ok_tag": true,
-      "french": "Hur var din dag?",
-      "english": [
-        "How was your day?",
-        "How did your day go?"
       ]
     },
     "variants": [],
@@ -10626,36 +10023,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S14013",
-    "unit_id": "U14",
-    "draft_french": "Hur var det idag?",
-    "draft_english": "How was it today?",
-    "french": "Hur var det idag?",
-    "english": "How was it today?",
-    "source": "tatoeba",
-    "source_id": "4344169",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4344169",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Hur var det idag?",
-      "english": [
-        "How was it today?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S14014",
     "unit_id": "U14",
     "draft_french": "Vilken dag är det?",
@@ -10749,9 +10116,9 @@
     "sentence_id": "S14017",
     "unit_id": "U14",
     "draft_french": "Var är ni nu?",
-    "draft_english": "Where are you guys now?",
+    "draft_english": "Where are you all now?",
     "french": "Var är ni nu?",
-    "english": "Where are you guys now?",
+    "english": "Where are you all now?",
     "source": "tatoeba",
     "source_id": "5337070",
     "source_owner": "Pineapple",
@@ -10768,9 +10135,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -10855,36 +10222,6 @@
       "french": "Hur gammal är du nu?",
       "english": [
         "How old are you now?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S14021",
-    "unit_id": "U14",
-    "draft_french": "Varför var Tom inte här idag?",
-    "draft_english": "Why wasn't Tom here today?",
-    "french": "Varför var Tom inte här idag?",
-    "english": "Why wasn't Tom here today?",
-    "source": "tatoeba",
-    "source_id": "6080457",
-    "source_owner": "Davellan",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "6080457",
-      "source_owner": "Davellan",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Varför var Tom inte här idag?",
-      "english": [
-        "Why wasn't Tom here today?"
       ]
     },
     "variants": [],
@@ -11199,9 +10536,9 @@
     "sentence_id": "S15002",
     "unit_id": "U15",
     "draft_french": "Jag åker till Paris imorgon.",
-    "draft_english": "I leave for Paris tomorrow.",
+    "draft_english": "I'm going to Paris tomorrow.",
     "french": "Jag åker till Paris imorgon.",
-    "english": "I leave for Paris tomorrow.",
+    "english": "I'm going to Paris tomorrow.",
     "source": "tatoeba",
     "source_id": "4448218",
     "source_owner": "richke",
@@ -11218,9 +10555,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -11229,9 +10566,9 @@
     "sentence_id": "S15003",
     "unit_id": "U15",
     "draft_french": "Hur går det?",
-    "draft_english": "How's it coming?",
+    "draft_english": "How is it going?",
     "french": "Hur går det?",
-    "english": "How's it coming?",
+    "english": "How is it going?",
     "source": "tatoeba",
     "source_id": "2005643",
     "source_owner": "herrsilen",
@@ -11257,42 +10594,12 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S15004",
-    "unit_id": "U15",
-    "draft_french": "Går måndag bra?",
-    "draft_english": "Is Monday OK?",
-    "french": "Går måndag bra?",
-    "english": "Is Monday OK?",
-    "source": "tatoeba",
-    "source_id": "3711776",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3711776",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Går måndag bra?",
-      "english": [
-        "Is Monday OK?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S15005",
     "unit_id": "U15",
     "draft_french": "Varför åker inte Tom?",
-    "draft_english": "Why won't Tom leave?",
+    "draft_english": "Why isn't Tom going?",
     "french": "Varför åker inte Tom?",
-    "english": "Why won't Tom leave?",
+    "english": "Why isn't Tom going?",
     "source": "tatoeba",
     "source_id": "2079135",
     "source_owner": "herrsilen",
@@ -11309,9 +10616,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -11336,36 +10643,6 @@
       "french": "Hur går det, Tom?",
       "english": [
         "How's it going, Tom?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15007",
-    "unit_id": "U15",
-    "draft_french": "Vad är den här till?",
-    "draft_english": "What's this for?",
-    "french": "Vad är den här till?",
-    "english": "What's this for?",
-    "source": "tatoeba",
-    "source_id": "2015047",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "2015047",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Vad är den här till?",
-      "english": [
-        "What's this for?"
       ]
     },
     "variants": [],
@@ -11528,66 +10805,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S15013",
-    "unit_id": "U15",
-    "draft_french": "Vad är det här till?",
-    "draft_english": "What is this for?",
-    "french": "Vad är det här till?",
-    "english": "What is this for?",
-    "source": "tatoeba",
-    "source_id": "2022947",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "2022947",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Vad är det här till?",
-      "english": [
-        "What is this for?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15014",
-    "unit_id": "U15",
-    "draft_french": "Går det bra på måndag?",
-    "draft_english": "Is Monday OK?",
-    "french": "Går det bra på måndag?",
-    "english": "Is Monday OK?",
-    "source": "tatoeba",
-    "source_id": "3711777",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3711777",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Går det bra på måndag?",
-      "english": [
-        "Is Monday OK?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S15015",
     "unit_id": "U15",
     "draft_french": "Vi åker.",
@@ -11682,9 +10899,9 @@
     "sentence_id": "S15018",
     "unit_id": "U15",
     "draft_french": "Jag går nu.",
-    "draft_english": "I'm going to go now.",
+    "draft_english": "I'm going now.",
     "french": "Jag går nu.",
-    "english": "I'm going to go now.",
+    "english": "I'm going now.",
     "source": "tatoeba",
     "source_id": "2053579",
     "source_owner": "herrsilen",
@@ -11701,9 +10918,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -11769,127 +10986,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S15021",
-    "unit_id": "U15",
-    "draft_french": "Jag går om du går.",
-    "draft_english": "I'll go if you go.",
-    "french": "Jag går om du går.",
-    "english": "I'll go if you go.",
-    "source": "tatoeba",
-    "source_id": "4328558",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4328558",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Jag går om du går.",
-      "english": [
-        "I will go if you go.",
-        "I'll go if you go."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15022",
-    "unit_id": "U15",
-    "draft_french": "Jag har en syster till.",
-    "draft_english": "I have another sister.",
-    "french": "Jag har en syster till.",
-    "english": "I have another sister.",
-    "source": "tatoeba",
-    "source_id": "12220405",
-    "source_owner": "morbrorper",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "12220405",
-      "source_owner": "morbrorper",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Jag har en syster till.",
-      "english": [
-        "I have another sister."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15023",
-    "unit_id": "U15",
-    "draft_french": "Vi åker om en vecka idag.",
-    "draft_english": "We'll go a week from today.",
-    "french": "Vi åker om en vecka idag.",
-    "english": "We'll go a week from today.",
-    "source": "tatoeba",
-    "source_id": "2389834",
-    "source_owner": "Tximist",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "2389834",
-      "source_owner": "Tximist",
-      "native_owner": true,
-      "ok_tag": true,
-      "french": "Vi åker om en vecka idag.",
-      "english": [
-        "We'll go a week from today."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15024",
-    "unit_id": "U15",
-    "draft_french": "I går var en bra dag.",
-    "draft_english": "Yesterday was a good day.",
-    "french": "I går var en bra dag.",
-    "english": "Yesterday was a good day.",
-    "source": "tatoeba",
-    "source_id": "4170143",
-    "source_owner": "richke",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4170143",
-      "source_owner": "richke",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "I går var en bra dag.",
-      "english": [
-        "Yesterday was a good day."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S15025",
     "unit_id": "U15",
     "draft_french": "Det är inte långt till Paris.",
@@ -11909,96 +11005,6 @@
       "french": "Det är inte långt till Paris.",
       "english": [
         "It is not far to Paris."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15026",
-    "unit_id": "U15",
-    "draft_french": "Det var söndag i går, inte lördag.",
-    "draft_english": "Yesterday was Sunday, not Saturday.",
-    "french": "Det var söndag i går, inte lördag.",
-    "english": "Yesterday was Sunday, not Saturday.",
-    "source": "tatoeba",
-    "source_id": "2097931",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "2097931",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Det var söndag i går, inte lördag.",
-      "english": [
-        "Yesterday was Sunday, not Saturday."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15027",
-    "unit_id": "U15",
-    "draft_french": "I går var det söndag, inte lördag.",
-    "draft_english": "Yesterday was Sunday, not Saturday.",
-    "french": "I går var det söndag, inte lördag.",
-    "english": "Yesterday was Sunday, not Saturday.",
-    "source": "tatoeba",
-    "source_id": "2097932",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "2097932",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "I går var det söndag, inte lördag.",
-      "english": [
-        "Yesterday was Sunday, not Saturday."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S15028",
-    "unit_id": "U15",
-    "draft_french": "Jag är en vän till hans bror.",
-    "draft_english": "I'm a friend of his brother's.",
-    "french": "Jag är en vän till hans bror.",
-    "english": "I'm a friend of his brother's.",
-    "source": "tatoeba",
-    "source_id": "12249343",
-    "source_owner": "morbrorper",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "12249343",
-      "source_owner": "morbrorper",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Jag är en vän till hans bror.",
-      "english": [
-        "I'm a friend of his brother's."
       ]
     },
     "variants": [],
@@ -12043,9 +11049,9 @@
     "sentence_id": "S31002",
     "unit_id": "U31",
     "draft_french": "Jag förstår.",
-    "draft_english": "I see.",
+    "draft_english": "I understand.",
     "french": "Jag förstår.",
-    "english": "I see.",
+    "english": "I understand.",
     "source": "tatoeba",
     "source_id": "1990271",
     "source_owner": "Ribon",
@@ -12467,9 +11473,9 @@
     "sentence_id": "S33003",
     "unit_id": "U33",
     "draft_french": "Vet Tom om det?",
-    "draft_english": "Does Tom know?",
+    "draft_english": "Does Tom know about it?",
     "french": "Vet Tom om det?",
-    "english": "Does Tom know?",
+    "english": "Does Tom know about it?",
     "source": "tatoeba",
     "source_id": "1996740",
     "source_owner": "herrsilen",
@@ -12486,9 +11492,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -12619,9 +11625,9 @@
     "sentence_id": "S33008",
     "unit_id": "U33",
     "draft_french": "Hur vet ni det?",
-    "draft_english": "How can you know that?",
+    "draft_english": "How do you all know that?",
     "french": "Hur vet ni det?",
-    "english": "How can you know that?",
+    "english": "How do you all know that?",
     "source": "tatoeba",
     "source_id": "2096038",
     "source_owner": "herrsilen",
@@ -12638,9 +11644,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -12755,36 +11761,6 @@
       "french": "Vet du mycket om Tom?",
       "english": [
         "Do you know a lot about Tom?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S33013",
-    "unit_id": "U33",
-    "draft_french": "Vet de hur gammal jag är?",
-    "draft_english": "Do they know how old I am?",
-    "french": "Vet de hur gammal jag är?",
-    "english": "Do they know how old I am?",
-    "source": "tatoeba",
-    "source_id": "11852283",
-    "source_owner": "Pineapple",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "11852283",
-      "source_owner": "Pineapple",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Vet de hur gammal jag är?",
-      "english": [
-        "Do they know how old I am?"
       ]
     },
     "variants": [],
@@ -12949,9 +11925,9 @@
     "sentence_id": "S33019",
     "unit_id": "U33",
     "draft_french": "Det där vet jag.",
-    "draft_english": "I know that much.",
+    "draft_english": "I know that.",
     "french": "Det där vet jag.",
-    "english": "I know that much.",
+    "english": "I know that.",
     "source": "tatoeba",
     "source_id": "4350429",
     "source_owner": "richke",
@@ -12968,9 +11944,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -13025,36 +12001,6 @@
       "french": "Jag vet om det.",
       "english": [
         "I know about that."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S33022",
-    "unit_id": "U33",
-    "draft_french": "Jag vet hur gammal Tom är.",
-    "draft_english": "I know how old Tom is.",
-    "french": "Jag vet hur gammal Tom är.",
-    "english": "I know how old Tom is.",
-    "source": "tatoeba",
-    "source_id": "2098278",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "2098278",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Jag vet hur gammal Tom är.",
-      "english": [
-        "I know how old Tom is."
       ]
     },
     "variants": [],
@@ -14371,37 +13317,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S53005",
-    "unit_id": "U53",
-    "draft_french": "Han ligger på sjukhus.",
-    "draft_english": "He is in hospital.",
-    "french": "Han ligger på sjukhus.",
-    "english": "He is in hospital.",
-    "source": "tatoeba",
-    "source_id": "3747481",
-    "source_owner": "herrsilen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3747481",
-      "source_owner": "herrsilen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Han ligger på sjukhus.",
-      "english": [
-        "He is in hospital.",
-        "He's in the hospital."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S53006",
     "unit_id": "U53",
     "draft_french": "Jag tycker om tåg.",
@@ -15320,10 +14235,10 @@
   {
     "sentence_id": "S32103",
     "unit_id": "U32",
-    "draft_french": "Ordet på engelska.",
-    "draft_english": "The word in English.",
-    "french": "Ordet på engelska.",
-    "english": "The word in English.",
+    "draft_french": "Säg ordet på engelska.",
+    "draft_english": "Say the word in English.",
+    "french": "Säg ordet på engelska.",
+    "english": "Say the word in English.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",
@@ -15434,10 +14349,10 @@
   {
     "sentence_id": "S51102",
     "unit_id": "U51",
-    "draft_french": "Jag har ett öga.",
-    "draft_english": "I have one eye.",
-    "french": "Jag har ett öga.",
-    "english": "I have one eye.",
+    "draft_french": "Det är ett öga.",
+    "draft_english": "It's an eye.",
+    "french": "Det är ett öga.",
+    "english": "It's an eye.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",
@@ -15738,9 +14653,9 @@
     "sentence_id": "S52107",
     "unit_id": "U52",
     "draft_french": "Jag gillar film.",
-    "draft_english": "I like film.",
+    "draft_english": "I like films.",
     "french": "Jag gillar film.",
-    "english": "I like film.",
+    "english": "I like films.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",
@@ -15981,6 +14896,132 @@
     "draft_english": "You are talking.",
     "french": "Du pratar.",
     "english": "You are talking.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S11102",
+    "unit_id": "U11",
+    "draft_french": "När äter du?",
+    "draft_english": "When do you eat?",
+    "french": "När äter du?",
+    "english": "When do you eat?",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S14103",
+    "unit_id": "U14",
+    "draft_french": "Jag är här en vecka.",
+    "draft_english": "I'm here a week.",
+    "french": "Jag är här en vecka.",
+    "english": "I'm here a week.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S53106",
+    "unit_id": "U53",
+    "draft_french": "Det finns ett sjukhus här.",
+    "draft_english": "There's a hospital here.",
+    "french": "Det finns ett sjukhus här.",
+    "english": "There's a hospital here.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S8106",
+    "unit_id": "U08",
+    "draft_french": "En bok ligger här.",
+    "draft_english": "A book is here.",
+    "french": "En bok ligger här.",
+    "english": "A book is here.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S3103",
+    "unit_id": "U03",
+    "draft_french": "Det är en dålig bil.",
+    "draft_english": "It's a bad car.",
+    "french": "Det är en dålig bil.",
+    "english": "It's a bad car.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S8107",
+    "unit_id": "U08",
+    "draft_french": "Det finns ett rum här.",
+    "draft_english": "There's a room here.",
+    "french": "Det finns ett rum här.",
+    "english": "There's a room here.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",

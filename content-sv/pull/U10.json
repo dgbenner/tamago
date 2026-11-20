@@ -1,1541 +1,1541 @@
 {
-  "unit_id": "U10",
-  "pulled_at": "2026-11-20",
-  "candidates": 69,
-  "sentences": [
-    {
-      "sentence_id": "S10001",
-      "unit_id": "U10",
-      "french": "Hur mår din pappa?",
-      "english": "How is your dad?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1996378",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10002",
-      "unit_id": "U10",
-      "french": "Hur mår din mamma?",
-      "english": "How's your mother?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2048348",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10003",
-      "unit_id": "U10",
-      "french": "Du är min pappa.",
-      "english": "You're my father.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4025401",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "malinef",
-      "other_english": [
-        "You're my dad.",
-        "You are my father."
-      ]
-    },
-    {
-      "sentence_id": "S10004",
-      "unit_id": "U10",
-      "french": "Han är min bror.",
-      "english": "He's my brother.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "893313",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Tximist",
-      "other_english": [
-        "He is my brother."
-      ]
-    },
-    {
-      "sentence_id": "S10005",
-      "unit_id": "U10",
-      "french": "Han är hennes vän.",
-      "english": "He's her friend.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1433375",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "arahlen",
-      "other_english": [
-        "He is her friend."
-      ]
-    },
-    {
-      "sentence_id": "S10006",
-      "unit_id": "U10",
-      "french": "Jag är inte din mamma.",
-      "english": "I'm not your mother.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3095399",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "jeedrek",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10007",
-      "unit_id": "U10",
-      "french": "Min bror är lärare.",
-      "english": "My brother is a teacher.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1130753",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "HannesP",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10008",
-      "unit_id": "U10",
-      "french": "Jag läser hans bok.",
-      "english": "I read his book.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3098206",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "KajsaKavat",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10009",
-      "unit_id": "U10",
-      "french": "Vi är hans barn.",
-      "english": "We are his children.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10753403",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10010",
-      "unit_id": "U10",
-      "french": "Är hon din syster?",
-      "english": "Is she your sister?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "11057270",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "SilasNordgren",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10011",
-      "unit_id": "U10",
-      "french": "Gillar din vän te?",
-      "english": "Does your friend like tea?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "11281996",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10012",
-      "unit_id": "U10",
-      "french": "Tycker din vän om te?",
-      "english": "Does your friend like tea?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "11281998",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10013",
-      "unit_id": "U10",
-      "french": "Jag är din bror.",
-      "english": "I'm your brother.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2291286",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "loghaD",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10014",
-      "unit_id": "U10",
-      "french": "Min familj är liten.",
-      "english": "My family is small.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4457040",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10015",
-      "unit_id": "U10",
-      "french": "Vi är din familj.",
-      "english": "We're your family.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "8603474",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "ajje",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10016",
-      "unit_id": "U10",
-      "french": "Det är min syster.",
-      "english": "That is my sister.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10661030",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10017",
-      "unit_id": "U10",
-      "french": "Min familj mår bra, tack.",
-      "english": "My family is fine, thanks.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1433463",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "arahlen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10018",
-      "unit_id": "U10",
-      "french": "Det där är min pappa.",
-      "english": "That's my dad.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4441885",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10019",
-      "unit_id": "U10",
-      "french": "Det är mitt.",
-      "english": "It's mine.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1990636",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": [
-        "That's mine.",
-        "That is mine.",
-        "It is mine."
-      ]
-    },
-    {
-      "sentence_id": "S10020",
-      "unit_id": "U10",
-      "french": "Den är vår.",
-      "english": "It's ours.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4408972",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10021",
-      "unit_id": "U10",
-      "french": "Du är mitt barn.",
-      "english": "You're my child.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5408035",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "User73201",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10022",
-      "unit_id": "U10",
-      "french": "Tom gillar vår hund.",
-      "english": "Tom likes our dog.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10691723",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10023",
-      "unit_id": "U10",
-      "french": "Vår lärare är trött.",
-      "english": "Our teacher is tired.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10701075",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10024",
-      "unit_id": "U10",
-      "french": "Det där är hans bil.",
-      "english": "That is his car.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2009003",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10025",
-      "unit_id": "U10",
-      "french": "Det här är mitt hus.",
-      "english": "This is my house.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2654378",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10026",
-      "unit_id": "U10",
-      "french": "Är du min läkare?",
-      "english": "Are you my doctor?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4317335",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10027",
-      "unit_id": "U10",
-      "french": "Är det här din?",
-      "english": "Is this yours?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10161641",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "SilasNordgren",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10028",
-      "unit_id": "U10",
-      "french": "Han är min vän.",
-      "english": "He's my friend.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1543842",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Tokeingah",
-      "other_english": [
-        "He is my friend."
-      ]
-    },
-    {
-      "sentence_id": "S10029",
-      "unit_id": "U10",
-      "french": "Han är din vän.",
-      "english": "He's your friend.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2158353",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S10030",
-      "unit_id": "U10",
-      "french": "Du är min vän.",
-      "english": "You're my friend.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3099435",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "morbrorper",
-      "other_english": [
-        "You are my friend."
-      ]
-    }
-  ],
-  "sentence_words": [
-    {
-      "sentence_id": "S10001",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10001",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10001",
-      "position": 3,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10001",
-      "position": 4,
-      "surface": "pappa",
-      "word_id": "W122",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10002",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10002",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10002",
-      "position": 3,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10002",
-      "position": 4,
-      "surface": "mamma",
-      "word_id": "W121",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10003",
-      "position": 1,
-      "surface": "Du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10003",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10003",
-      "position": 3,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10003",
-      "position": 4,
-      "surface": "pappa",
-      "word_id": "W122",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10004",
-      "position": 1,
-      "surface": "Han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10004",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10004",
-      "position": 3,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10004",
-      "position": 4,
-      "surface": "bror",
-      "word_id": "W123",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10005",
-      "position": 1,
-      "surface": "Han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10005",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10005",
-      "position": 3,
-      "surface": "hennes",
-      "word_id": "W117",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10005",
-      "position": 4,
-      "surface": "vän",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10006",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10006",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10006",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10006",
-      "position": 4,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10006",
-      "position": 5,
-      "surface": "mamma",
-      "word_id": "W121",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10007",
-      "position": 1,
-      "surface": "Min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10007",
-      "position": 2,
-      "surface": "bror",
-      "word_id": "W123",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10007",
-      "position": 3,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10007",
-      "position": 4,
-      "surface": "lärare",
-      "word_id": "W027",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10008",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10008",
-      "position": 2,
-      "surface": "läser",
-      "word_id": "W1022",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10008",
-      "position": 3,
-      "surface": "hans",
-      "word_id": "W116",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10008",
-      "position": 4,
-      "surface": "bok",
-      "word_id": "W021",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10009",
-      "position": 1,
-      "surface": "Vi",
-      "word_id": "W067",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10009",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10009",
-      "position": 3,
-      "surface": "hans",
-      "word_id": "W116",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10009",
-      "position": 4,
-      "surface": "barn",
-      "word_id": "W014",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10010",
-      "position": 1,
-      "surface": "Är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10010",
-      "position": 2,
-      "surface": "hon",
-      "word_id": "W018",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10010",
-      "position": 3,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10010",
-      "position": 4,
-      "surface": "syster",
-      "word_id": "W124",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10011",
-      "position": 1,
-      "surface": "Gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10011",
-      "position": 2,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10011",
-      "position": 3,
-      "surface": "vän",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10011",
-      "position": 4,
-      "surface": "te",
-      "word_id": "W055",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10012",
-      "position": 1,
-      "surface": "Tycker",
-      "word_id": "W046",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10012",
-      "position": 2,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10012",
-      "position": 3,
-      "surface": "vän",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10012",
-      "position": 4,
-      "surface": "om",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10012",
-      "position": 5,
-      "surface": "te",
-      "word_id": "W055",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10013",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10013",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10013",
-      "position": 3,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10013",
-      "position": 4,
-      "surface": "bror",
-      "word_id": "W123",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10014",
-      "position": 1,
-      "surface": "Min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10014",
-      "position": 2,
-      "surface": "familj",
-      "word_id": "W120",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10014",
-      "position": 3,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10014",
-      "position": 4,
-      "surface": "liten",
-      "word_id": "W029",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10015",
-      "position": 1,
-      "surface": "Vi",
-      "word_id": "W067",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10015",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10015",
-      "position": 3,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10015",
-      "position": 4,
-      "surface": "familj",
-      "word_id": "W120",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10016",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10016",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10016",
-      "position": 3,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10016",
-      "position": 4,
-      "surface": "syster",
-      "word_id": "W124",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10017",
-      "position": 1,
-      "surface": "Min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10017",
-      "position": 2,
-      "surface": "familj",
-      "word_id": "W120",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10017",
-      "position": 3,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10017",
-      "position": 4,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10017",
-      "position": 5,
-      "surface": "tack",
-      "word_id": "W031",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10018",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10018",
-      "position": 2,
-      "surface": "där",
-      "word_id": "W096",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10018",
-      "position": 3,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10018",
-      "position": 4,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10018",
-      "position": 5,
-      "surface": "pappa",
-      "word_id": "W122",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10019",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10019",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10019",
-      "position": 3,
-      "surface": "mitt",
-      "word_id": "W114",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10020",
-      "position": 1,
-      "surface": "Den",
-      "word_id": "W019",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10020",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10020",
-      "position": 3,
-      "surface": "vår",
-      "word_id": "W118",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10021",
-      "position": 1,
-      "surface": "Du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10021",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10021",
-      "position": 3,
-      "surface": "mitt",
-      "word_id": "W114",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10021",
-      "position": 4,
-      "surface": "barn",
-      "word_id": "W014",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10022",
-      "position": 1,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10022",
-      "position": 2,
-      "surface": "gillar",
-      "word_id": "W048",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10022",
-      "position": 3,
-      "surface": "vår",
-      "word_id": "W118",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10022",
-      "position": 4,
-      "surface": "hund",
-      "word_id": "W059",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10023",
-      "position": 1,
-      "surface": "Vår",
-      "word_id": "W118",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10023",
-      "position": 2,
-      "surface": "lärare",
-      "word_id": "W027",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10023",
-      "position": 3,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10023",
-      "position": 4,
-      "surface": "trött",
-      "word_id": "W103",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10024",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10024",
-      "position": 2,
-      "surface": "där",
-      "word_id": "W096",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10024",
-      "position": 3,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10024",
-      "position": 4,
-      "surface": "hans",
-      "word_id": "W116",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10024",
-      "position": 5,
-      "surface": "bil",
-      "word_id": "W023",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10025",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10025",
-      "position": 2,
-      "surface": "här",
-      "word_id": "W095",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10025",
-      "position": 3,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10025",
-      "position": 4,
-      "surface": "mitt",
-      "word_id": "W114",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10025",
-      "position": 5,
-      "surface": "hus",
-      "word_id": "W022",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10026",
-      "position": 1,
-      "surface": "Är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10026",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10026",
-      "position": 3,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10026",
-      "position": 4,
-      "surface": "läkare",
-      "word_id": "W026",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10027",
-      "position": 1,
-      "surface": "Är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10027",
-      "position": 2,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10027",
-      "position": 3,
-      "surface": "här",
-      "word_id": "W095",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10027",
-      "position": 4,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10028",
-      "position": 1,
-      "surface": "Han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10028",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10028",
-      "position": 3,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10028",
-      "position": 4,
-      "surface": "vän",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10029",
-      "position": 1,
-      "surface": "Han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10029",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10029",
-      "position": 3,
-      "surface": "din",
-      "word_id": "W115",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10029",
-      "position": 4,
-      "surface": "vän",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10030",
-      "position": 1,
-      "surface": "Du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10030",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10030",
-      "position": 3,
-      "surface": "min",
-      "word_id": "W113",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S10030",
-      "position": 4,
-      "surface": "vän",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    }
-  ],
-  "accepted_answers": [
-    {
-      "answer_id": "A100031",
-      "sentence_id": "S10003",
-      "direction": "fr_to_en",
-      "answer": "You're my dad.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100032",
-      "sentence_id": "S10003",
-      "direction": "fr_to_en",
-      "answer": "You are my father.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100041",
-      "sentence_id": "S10004",
-      "direction": "fr_to_en",
-      "answer": "He is my brother.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100051",
-      "sentence_id": "S10005",
-      "direction": "fr_to_en",
-      "answer": "He is her friend.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100191",
-      "sentence_id": "S10019",
-      "direction": "fr_to_en",
-      "answer": "That's mine.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100192",
-      "sentence_id": "S10019",
-      "direction": "fr_to_en",
-      "answer": "That is mine.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100193",
-      "sentence_id": "S10019",
-      "direction": "fr_to_en",
-      "answer": "It is mine.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100281",
-      "sentence_id": "S10028",
-      "direction": "fr_to_en",
-      "answer": "He is my friend.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A100301",
-      "sentence_id": "S10030",
-      "direction": "fr_to_en",
-      "answer": "You are my friend.",
-      "source": "tatoeba",
-      "status": "pulled"
-    }
-  ],
-  "qa_answers": []
+ "unit_id": "U10",
+ "pulled_at": "2026-11-20",
+ "candidates": 69,
+ "sentences": [
+  {
+   "sentence_id": "S10001",
+   "unit_id": "U10",
+   "french": "Hur mår din pappa?",
+   "english": "How is your dad?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1996378",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10002",
+   "unit_id": "U10",
+   "french": "Hur mår din mamma?",
+   "english": "How's your mother?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2048348",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10003",
+   "unit_id": "U10",
+   "french": "Du är min pappa.",
+   "english": "You're my father.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4025401",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "malinef",
+   "other_english": [
+    "You're my dad.",
+    "You are my father."
+   ]
+  },
+  {
+   "sentence_id": "S10004",
+   "unit_id": "U10",
+   "french": "Han är min bror.",
+   "english": "He's my brother.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "893313",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Tximist",
+   "other_english": [
+    "He is my brother."
+   ]
+  },
+  {
+   "sentence_id": "S10005",
+   "unit_id": "U10",
+   "french": "Han är hennes vän.",
+   "english": "He's her friend.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1433375",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "arahlen",
+   "other_english": [
+    "He is her friend."
+   ]
+  },
+  {
+   "sentence_id": "S10006",
+   "unit_id": "U10",
+   "french": "Jag är inte din mamma.",
+   "english": "I'm not your mother.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3095399",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "jeedrek",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10007",
+   "unit_id": "U10",
+   "french": "Min bror är lärare.",
+   "english": "My brother is a teacher.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1130753",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "HannesP",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10008",
+   "unit_id": "U10",
+   "french": "Jag läser hans bok.",
+   "english": "I read his book.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3098206",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "KajsaKavat",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10009",
+   "unit_id": "U10",
+   "french": "Vi är hans barn.",
+   "english": "We are his children.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10753403",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10010",
+   "unit_id": "U10",
+   "french": "Är hon din syster?",
+   "english": "Is she your sister?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "11057270",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "SilasNordgren",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10011",
+   "unit_id": "U10",
+   "french": "Gillar din vän te?",
+   "english": "Does your friend like tea?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "11281996",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10012",
+   "unit_id": "U10",
+   "french": "Tycker din vän om te?",
+   "english": "Does your friend like tea?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "11281998",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10013",
+   "unit_id": "U10",
+   "french": "Jag är din bror.",
+   "english": "I'm your brother.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2291286",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "loghaD",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10014",
+   "unit_id": "U10",
+   "french": "Min familj är liten.",
+   "english": "My family is small.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4457040",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10015",
+   "unit_id": "U10",
+   "french": "Vi är din familj.",
+   "english": "We're your family.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8603474",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "ajje",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10016",
+   "unit_id": "U10",
+   "french": "Det är min syster.",
+   "english": "That is my sister.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10661030",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10017",
+   "unit_id": "U10",
+   "french": "Min familj mår bra, tack.",
+   "english": "My family is fine, thanks.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1433463",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "arahlen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10018",
+   "unit_id": "U10",
+   "french": "Det där är min pappa.",
+   "english": "That's my dad.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4441885",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10019",
+   "unit_id": "U10",
+   "french": "Det är mitt.",
+   "english": "It's mine.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1990636",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": [
+    "That's mine.",
+    "That is mine.",
+    "It is mine."
+   ]
+  },
+  {
+   "sentence_id": "S10020",
+   "unit_id": "U10",
+   "french": "Den är vår.",
+   "english": "It's ours.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4408972",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10021",
+   "unit_id": "U10",
+   "french": "Du är mitt barn.",
+   "english": "You're my child.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5408035",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "User73201",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10022",
+   "unit_id": "U10",
+   "french": "Tom gillar vår hund.",
+   "english": "Tom likes our dog.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10691723",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10023",
+   "unit_id": "U10",
+   "french": "Vår lärare är trött.",
+   "english": "Our teacher is tired.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10701075",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10024",
+   "unit_id": "U10",
+   "french": "Det där är hans bil.",
+   "english": "That is his car.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2009003",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10025",
+   "unit_id": "U10",
+   "french": "Det här är mitt hus.",
+   "english": "This is my house.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2654378",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10026",
+   "unit_id": "U10",
+   "french": "Är du min läkare?",
+   "english": "Are you my doctor?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4317335",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10027",
+   "unit_id": "U10",
+   "french": "Är det här din?",
+   "english": "Is this yours?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10161641",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "SilasNordgren",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10028",
+   "unit_id": "U10",
+   "french": "Han är min vän.",
+   "english": "He's my friend.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1543842",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Tokeingah",
+   "other_english": [
+    "He is my friend."
+   ]
+  },
+  {
+   "sentence_id": "S10029",
+   "unit_id": "U10",
+   "french": "Han är din vän.",
+   "english": "He's your friend.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2158353",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S10030",
+   "unit_id": "U10",
+   "french": "Du är min vän.",
+   "english": "You're my friend.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3099435",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "morbrorper",
+   "other_english": [
+    "You are my friend."
+   ]
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S10001",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10001",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10001",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10001",
+   "position": 4,
+   "surface": "pappa",
+   "word_id": "W122",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10002",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10002",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10002",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10002",
+   "position": 4,
+   "surface": "mamma",
+   "word_id": "W121",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10003",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10003",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10003",
+   "position": 3,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10003",
+   "position": 4,
+   "surface": "pappa",
+   "word_id": "W122",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10004",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10004",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10004",
+   "position": 3,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10004",
+   "position": 4,
+   "surface": "bror",
+   "word_id": "W123",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10005",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10005",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10005",
+   "position": 3,
+   "surface": "hennes",
+   "word_id": "W117",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10005",
+   "position": 4,
+   "surface": "vän",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10006",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10006",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10006",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10006",
+   "position": 4,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10006",
+   "position": 5,
+   "surface": "mamma",
+   "word_id": "W121",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10007",
+   "position": 1,
+   "surface": "Min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10007",
+   "position": 2,
+   "surface": "bror",
+   "word_id": "W123",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10007",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10007",
+   "position": 4,
+   "surface": "lärare",
+   "word_id": "W027",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10008",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10008",
+   "position": 2,
+   "surface": "läser",
+   "word_id": "W1022",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10008",
+   "position": 3,
+   "surface": "hans",
+   "word_id": "W116",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10008",
+   "position": 4,
+   "surface": "bok",
+   "word_id": "W021",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10009",
+   "position": 1,
+   "surface": "Vi",
+   "word_id": "W067",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10009",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10009",
+   "position": 3,
+   "surface": "hans",
+   "word_id": "W116",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10009",
+   "position": 4,
+   "surface": "barn",
+   "word_id": "W014",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10010",
+   "position": 1,
+   "surface": "Är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10010",
+   "position": 2,
+   "surface": "hon",
+   "word_id": "W018",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10010",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10010",
+   "position": 4,
+   "surface": "syster",
+   "word_id": "W124",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10011",
+   "position": 1,
+   "surface": "Gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10011",
+   "position": 2,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10011",
+   "position": 3,
+   "surface": "vän",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10011",
+   "position": 4,
+   "surface": "te",
+   "word_id": "W055",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10012",
+   "position": 1,
+   "surface": "Tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10012",
+   "position": 2,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10012",
+   "position": 3,
+   "surface": "vän",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10012",
+   "position": 4,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10012",
+   "position": 5,
+   "surface": "te",
+   "word_id": "W055",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10013",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10013",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10013",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10013",
+   "position": 4,
+   "surface": "bror",
+   "word_id": "W123",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10014",
+   "position": 1,
+   "surface": "Min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10014",
+   "position": 2,
+   "surface": "familj",
+   "word_id": "W120",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10014",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10014",
+   "position": 4,
+   "surface": "liten",
+   "word_id": "W029",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10015",
+   "position": 1,
+   "surface": "Vi",
+   "word_id": "W067",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10015",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10015",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10015",
+   "position": 4,
+   "surface": "familj",
+   "word_id": "W120",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10016",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10016",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10016",
+   "position": 3,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10016",
+   "position": 4,
+   "surface": "syster",
+   "word_id": "W124",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10017",
+   "position": 1,
+   "surface": "Min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10017",
+   "position": 2,
+   "surface": "familj",
+   "word_id": "W120",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10017",
+   "position": 3,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10017",
+   "position": 4,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10017",
+   "position": 5,
+   "surface": "tack",
+   "word_id": "W031",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10018",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10018",
+   "position": 2,
+   "surface": "där",
+   "word_id": "W096",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10018",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10018",
+   "position": 4,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10018",
+   "position": 5,
+   "surface": "pappa",
+   "word_id": "W122",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10019",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10019",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10019",
+   "position": 3,
+   "surface": "mitt",
+   "word_id": "W114",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10020",
+   "position": 1,
+   "surface": "Den",
+   "word_id": "W019",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10020",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10020",
+   "position": 3,
+   "surface": "vår",
+   "word_id": "W118",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10021",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10021",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10021",
+   "position": 3,
+   "surface": "mitt",
+   "word_id": "W114",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10021",
+   "position": 4,
+   "surface": "barn",
+   "word_id": "W014",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10022",
+   "position": 1,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10022",
+   "position": 2,
+   "surface": "gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10022",
+   "position": 3,
+   "surface": "vår",
+   "word_id": "W118",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10022",
+   "position": 4,
+   "surface": "hund",
+   "word_id": "W059",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10023",
+   "position": 1,
+   "surface": "Vår",
+   "word_id": "W118",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10023",
+   "position": 2,
+   "surface": "lärare",
+   "word_id": "W027",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10023",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10023",
+   "position": 4,
+   "surface": "trött",
+   "word_id": "W103",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10024",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10024",
+   "position": 2,
+   "surface": "där",
+   "word_id": "W096",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10024",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10024",
+   "position": 4,
+   "surface": "hans",
+   "word_id": "W116",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10024",
+   "position": 5,
+   "surface": "bil",
+   "word_id": "W023",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10025",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10025",
+   "position": 2,
+   "surface": "här",
+   "word_id": "W095",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10025",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10025",
+   "position": 4,
+   "surface": "mitt",
+   "word_id": "W114",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10025",
+   "position": 5,
+   "surface": "hus",
+   "word_id": "W022",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10026",
+   "position": 1,
+   "surface": "Är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10026",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10026",
+   "position": 3,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10026",
+   "position": 4,
+   "surface": "läkare",
+   "word_id": "W026",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10027",
+   "position": 1,
+   "surface": "Är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10027",
+   "position": 2,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10027",
+   "position": 3,
+   "surface": "här",
+   "word_id": "W095",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10027",
+   "position": 4,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10028",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10028",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10028",
+   "position": 3,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10028",
+   "position": 4,
+   "surface": "vän",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10029",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10029",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10029",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W115",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10029",
+   "position": 4,
+   "surface": "vän",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10030",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10030",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10030",
+   "position": 3,
+   "surface": "min",
+   "word_id": "W113",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S10030",
+   "position": 4,
+   "surface": "vän",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [
+  {
+   "answer_id": "A100031",
+   "sentence_id": "S10003",
+   "direction": "fr_to_en",
+   "answer": "You're my dad.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100032",
+   "sentence_id": "S10003",
+   "direction": "fr_to_en",
+   "answer": "You are my father.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100041",
+   "sentence_id": "S10004",
+   "direction": "fr_to_en",
+   "answer": "He is my brother.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100051",
+   "sentence_id": "S10005",
+   "direction": "fr_to_en",
+   "answer": "He is her friend.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100191",
+   "sentence_id": "S10019",
+   "direction": "fr_to_en",
+   "answer": "That's mine.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100192",
+   "sentence_id": "S10019",
+   "direction": "fr_to_en",
+   "answer": "That is mine.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100193",
+   "sentence_id": "S10019",
+   "direction": "fr_to_en",
+   "answer": "It is mine.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100281",
+   "sentence_id": "S10028",
+   "direction": "fr_to_en",
+   "answer": "He is my friend.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A100301",
+   "sentence_id": "S10030",
+   "direction": "fr_to_en",
+   "answer": "You are my friend.",
+   "source": "tatoeba",
+   "status": "pulled"
+  }
+ ],
+ "qa_answers": []
 }

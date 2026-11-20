@@ -259,9 +259,9 @@
     {
       "sentence_id": "S32103",
       "unit_id": "U32",
-      "french": "Ordet på engelska.",
-      "english": "The word in English.",
-      "notes": "draft: Tatoeba had no checked line for this word at this point in the course"
+      "french": "Säg ordet på engelska.",
+      "english": "Say the word in English.",
+      "notes": "draft: Tatoeba had no checked line for this word at this point in the course; Fable fix 2026-11-20"
     },
     {
       "sentence_id": "S33101",
@@ -297,9 +297,9 @@
     {
       "sentence_id": "S51102",
       "unit_id": "U51",
-      "french": "Jag har ett öga.",
-      "english": "I have one eye.",
-      "notes": "draft: Tatoeba had no checked line for this word at this point in the course"
+      "french": "Det är ett öga.",
+      "english": "It's an eye.",
+      "notes": "draft: Tatoeba had no checked line for this word at this point in the course; Fable fix 2026-11-20"
     },
     {
       "sentence_id": "S51103",
@@ -399,8 +399,8 @@
       "sentence_id": "S52107",
       "unit_id": "U52",
       "french": "Jag gillar film.",
-      "english": "I like film.",
-      "notes": "draft: Tatoeba had no checked line for this word at this point in the course"
+      "english": "I like films.",
+      "notes": "draft: Tatoeba had no checked line for this word at this point in the course; Fable fix 2026-11-20"
     },
     {
       "sentence_id": "S53101",
@@ -478,6 +478,48 @@
       "french": "Du pratar.",
       "english": "You are talking.",
       "notes": "draft: introduce the word in a seen sentence in its own circle (word audit: heard-before-seen)"
+    },
+    {
+      "sentence_id": "S11102",
+      "unit_id": "U11",
+      "french": "När äter du?",
+      "english": "When do you eat?",
+      "notes": "draft: word lost its only Tatoeba line to a Fable reject; replacement using taught words"
+    },
+    {
+      "sentence_id": "S14103",
+      "unit_id": "U14",
+      "french": "Jag är här en vecka.",
+      "english": "I'm here a week.",
+      "notes": "draft: word lost its only Tatoeba line to a Fable reject; replacement using taught words"
+    },
+    {
+      "sentence_id": "S53106",
+      "unit_id": "U53",
+      "french": "Det finns ett sjukhus här.",
+      "english": "There's a hospital here.",
+      "notes": "draft: word lost its only Tatoeba line to a Fable reject; replacement using taught words"
+    },
+    {
+      "sentence_id": "S8106",
+      "unit_id": "U08",
+      "french": "En bok ligger här.",
+      "english": "A book is here.",
+      "notes": "draft: introduce the word in a seen sentence in its own circle (word audit: heard-before-seen after Fable rejects)"
+    },
+    {
+      "sentence_id": "S3103",
+      "unit_id": "U03",
+      "french": "Det är en dålig bil.",
+      "english": "It's a bad car.",
+      "notes": "draft: introduce the word in a seen sentence in its own circle (word audit: heard-before-seen after Fable rejects)"
+    },
+    {
+      "sentence_id": "S8107",
+      "unit_id": "U08",
+      "french": "Det finns ett rum här.",
+      "english": "There's a room here.",
+      "notes": "draft: introduce rum in a seen sentence in its own circle (word audit heard-before-seen)"
     }
   ],
   "qa_answers": []

@@ -192,14 +192,6 @@
     "status": "live"
   },
   {
-    "answer_id": "A50051",
-    "sentence_id": "S5005",
-    "direction": "fr_to_en",
-    "answer": "I am a fish.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
     "answer_id": "A50101",
     "sentence_id": "S5010",
     "direction": "fr_to_en",
@@ -284,14 +276,6 @@
     "sentence_id": "S7027",
     "direction": "fr_to_en",
     "answer": "You are not old.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A70281",
-    "sentence_id": "S7028",
-    "direction": "fr_to_en",
-    "answer": "I don't drink a lot.",
     "source": "tatoeba",
     "status": "live"
   },
@@ -504,14 +488,6 @@
     "status": "live"
   },
   {
-    "answer_id": "A140061",
-    "sentence_id": "S14006",
-    "direction": "fr_to_en",
-    "answer": "How did your day go?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
     "answer_id": "A150031",
     "sentence_id": "S15003",
     "direction": "fr_to_en",
@@ -532,14 +508,6 @@
     "sentence_id": "S15017",
     "direction": "fr_to_en",
     "answer": "I'm walking.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A150211",
-    "sentence_id": "S15021",
-    "direction": "fr_to_en",
-    "answer": "I will go if you go.",
     "source": "tatoeba",
     "status": "live"
   },
@@ -712,14 +680,6 @@
     "status": "live"
   },
   {
-    "answer_id": "A530051",
-    "sentence_id": "S53005",
-    "direction": "fr_to_en",
-    "answer": "He's in the hospital.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
     "answer_id": "GS33103-4446756",
     "sentence_id": "S33103",
     "direction": "en_to_fr",
@@ -855,36 +815,28 @@
     "answer_id": "AE00015",
     "sentence_id": "S15002",
     "direction": "fr_to_en",
-    "answer": "Tomorrow, I leave for Paris.",
+    "answer": "Tomorrow, I'm going to Paris.",
     "source": "equivalent: order",
     "status": "live"
   },
   {
     "answer_id": "AE00016",
-    "sentence_id": "S15004",
-    "direction": "fr_to_en",
-    "answer": "Is Monday okay?",
-    "source": "equivalent: spelling",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00017",
-    "sentence_id": "S15014",
-    "direction": "fr_to_en",
-    "answer": "Is Monday okay?",
-    "source": "equivalent: spelling",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00018",
     "sentence_id": "S15018",
     "direction": "fr_to_en",
-    "answer": "Now, I'm going to go.",
+    "answer": "Now, I'm going.",
     "source": "equivalent: order",
     "status": "live"
   },
   {
-    "answer_id": "AE00019",
+    "answer_id": "AE00017",
+    "sentence_id": "S31002",
+    "direction": "fr_to_en",
+    "answer": "I see.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00018",
     "sentence_id": "S52015",
     "direction": "fr_to_en",
     "answer": "She doesn't like football.",
@@ -892,7 +844,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00020",
+    "answer_id": "AE00019",
     "sentence_id": "S52018",
     "direction": "fr_to_en",
     "answer": "He likes football a lot.",
@@ -900,7 +852,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00021",
+    "answer_id": "AE00020",
     "sentence_id": "S13103",
     "direction": "fr_to_en",
     "answer": "Blue is a colour.",
@@ -908,7 +860,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00022",
+    "answer_id": "AE00021",
     "sentence_id": "S14102",
     "direction": "fr_to_en",
     "answer": "What's the time?",
@@ -916,7 +868,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00023",
+    "answer_id": "AE00022",
     "sentence_id": "S15103",
     "direction": "fr_to_en",
     "answer": "I go to a store.",
@@ -924,7 +876,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00024",
+    "answer_id": "AE00023",
     "sentence_id": "S52103",
     "direction": "fr_to_en",
     "answer": "I play football.",
@@ -932,10 +884,10 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00025",
+    "answer_id": "AE00024",
     "sentence_id": "S52107",
     "direction": "fr_to_en",
-    "answer": "I like movie.",
+    "answer": "I like movies.",
     "source": "equivalent: spelling",
     "status": "live"
   }

@@ -1,1291 +1,1291 @@
 {
-  "unit_id": "U03",
-  "pulled_at": "2026-11-20",
-  "candidates": 31,
-  "sentences": [
-    {
-      "sentence_id": "S3001",
-      "unit_id": "U03",
-      "french": "\"Hur mår du?\" \"Jag mår bra, tack.\"",
-      "english": "\"How are you?\" \"I'm fine, thanks.\"",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10686519",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3002",
-      "unit_id": "U03",
-      "french": "Jag mår bra, tack.",
-      "english": "I'm fine, thank you.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1387537",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Balamax",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3003",
-      "unit_id": "U03",
-      "french": "Mår du bra?",
-      "english": "Are you OK?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1990458",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3004",
-      "unit_id": "U03",
-      "french": "God morgon.",
-      "english": "Good morning.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "849444",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Mauritz",
-      "other_english": [
-        "Good morning!"
-      ]
-    },
-    {
-      "sentence_id": "S3005",
-      "unit_id": "U03",
-      "french": "God kväll!",
-      "english": "Good evening.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3807229",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ricardo14",
-      "other_english": [
-        "Good evening!"
-      ]
-    },
-    {
-      "sentence_id": "S3006",
-      "unit_id": "U03",
-      "french": "”Tack.” ”Varsågod.”",
-      "english": "\"Thanks.\" \"You're welcome.\"",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1215764",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "wallebot",
-      "other_english": [
-        "\"Thank you.\" \"You're welcome.\""
-      ]
-    },
-    {
-      "sentence_id": "S3007",
-      "unit_id": "U03",
-      "french": "Hej! God morgon!",
-      "english": "Hello! Good morning!",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2332806",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "freddy1",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3008",
-      "unit_id": "U03",
-      "french": "Hur mår Mary?",
-      "english": "How is Mary?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1990482",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Ribon",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3009",
-      "unit_id": "U03",
-      "french": "Hur mår du?",
-      "english": "How are you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2042055",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": [
-        "How do you do?",
-        "How are we doing?",
-        "How're you feeling?"
-      ]
-    },
-    {
-      "sentence_id": "S3010",
-      "unit_id": "U03",
-      "french": "God dag.",
-      "english": "Good day.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "778582",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "marloncori",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3011",
-      "unit_id": "U03",
-      "french": "Hej då.",
-      "english": "Goodbye.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1387686",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Balamax",
-      "other_english": [
-        "Farewell.",
-        "Bye."
-      ]
-    },
-    {
-      "sentence_id": "S3012",
-      "unit_id": "U03",
-      "french": "Ja, gärna.",
-      "english": "Yes, please.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5893672",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "User73201",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3013",
-      "unit_id": "U03",
-      "french": "Mår han bra?",
-      "english": "Is he all right?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2000141",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Siljan",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3014",
-      "unit_id": "U03",
-      "french": "Mår du inte bra?",
-      "english": "Are you not feeling well?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2455236",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "torulf",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3015",
-      "unit_id": "U03",
-      "french": "Jag mår bra.",
-      "english": "I'm OK.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1583404",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "viorayli",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3016",
-      "unit_id": "U03",
-      "french": "Han mår bra.",
-      "english": "He's all right.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1607648",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "viorayli",
-      "other_english": [
-        "He is doing well."
-      ]
-    },
-    {
-      "sentence_id": "S3017",
-      "unit_id": "U03",
-      "french": "Hur mår Tom?",
-      "english": "How's Tom's health?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "9577430",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "mrkalling",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3018",
-      "unit_id": "U03",
-      "french": "Hej! Hur mår du?",
-      "english": "Hello! How are you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "427049",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Cilyan",
-      "other_english": [
-        "Hi! How are you?"
-      ]
-    },
-    {
-      "sentence_id": "S3019",
-      "unit_id": "U03",
-      "french": "Hur stor?",
-      "english": "How big?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5893619",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "User73201",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3020",
-      "unit_id": "U03",
-      "french": "Hur är han?",
-      "english": "What is he like?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "890908",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Tximist",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3021",
-      "unit_id": "U03",
-      "french": "Hur är den?",
-      "english": "What's it like?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2001542",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3022",
-      "unit_id": "U03",
-      "french": "Hur är det?",
-      "english": "How are you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "2001546",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": [
-        "What's it like?"
-      ]
-    },
-    {
-      "sentence_id": "S3023",
-      "unit_id": "U03",
-      "french": "Tom mår inte bra.",
-      "english": "Tom isn't feeling well.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "6779957",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "SilasNordgren",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3024",
-      "unit_id": "U03",
-      "french": "Ja, tack.",
-      "english": "Yes, please.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5893671",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "User73201",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3025",
-      "unit_id": "U03",
-      "french": "Tack, Tom.",
-      "english": "Thanks, Tom.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10712102",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pineapple",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3026",
-      "unit_id": "U03",
-      "french": "Det är bra.",
-      "english": "It's good.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4408957",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": [
-        "That's good."
-      ]
-    },
-    {
-      "sentence_id": "S3027",
-      "unit_id": "U03",
-      "french": "Den är bra.",
-      "english": "It's good.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4408958",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "richke",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3028",
-      "unit_id": "U03",
-      "french": "Jag är inte bra.",
-      "english": "I am not good.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "8742126",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "morbrorper",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3029",
-      "unit_id": "U03",
-      "french": "Du är en bra läkare.",
-      "english": "You're a good doctor.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3840623",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "herrsilen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S3030",
-      "unit_id": "U03",
-      "french": "Han är en bra man.",
-      "english": "He is a good man.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "9419503",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "morbrorper",
-      "other_english": []
-    }
-  ],
-  "sentence_words": [
-    {
-      "sentence_id": "S3001",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3001",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3001",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3001",
-      "position": 4,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3001",
-      "position": 5,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3001",
-      "position": 6,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3001",
-      "position": 7,
-      "surface": "tack",
-      "word_id": "W031",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3002",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3002",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3002",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3002",
-      "position": 4,
-      "surface": "tack",
-      "word_id": "W031",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3003",
-      "position": 1,
-      "surface": "Mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3003",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3003",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3004",
-      "position": 1,
-      "surface": "God morgon",
-      "word_id": "W034",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3005",
-      "position": 1,
-      "surface": "God kväll",
-      "word_id": "W036",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3006",
-      "position": 1,
-      "surface": "Tack",
-      "word_id": "W031",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3006",
-      "position": 2,
-      "surface": "Varsågod",
-      "word_id": "W032",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3007",
-      "position": 1,
-      "surface": "Hej",
-      "word_id": "W001",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3007",
-      "position": 2,
-      "surface": "God morgon",
-      "word_id": "W034",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3008",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3008",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3008",
-      "position": 3,
-      "surface": "Mary",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3009",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3009",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3009",
-      "position": 3,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3010",
-      "position": 1,
-      "surface": "God dag",
-      "word_id": "W035",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3011",
-      "position": 1,
-      "surface": "Hej då",
-      "word_id": "W037",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3012",
-      "position": 1,
-      "surface": "Ja",
-      "word_id": "W003",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3012",
-      "position": 2,
-      "surface": "gärna",
-      "word_id": "W033",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3013",
-      "position": 1,
-      "surface": "Mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3013",
-      "position": 2,
-      "surface": "han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3013",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3014",
-      "position": 1,
-      "surface": "Mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3014",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3014",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3014",
-      "position": 4,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3015",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3015",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3015",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3016",
-      "position": 1,
-      "surface": "Han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3016",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3016",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3017",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3017",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3017",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3018",
-      "position": 1,
-      "surface": "Hej",
-      "word_id": "W001",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3018",
-      "position": 2,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3018",
-      "position": 3,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3018",
-      "position": 4,
-      "surface": "du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3019",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3019",
-      "position": 2,
-      "surface": "stor",
-      "word_id": "W028",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3020",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3020",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3020",
-      "position": 3,
-      "surface": "han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3021",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3021",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3021",
-      "position": 3,
-      "surface": "den",
-      "word_id": "W019",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3022",
-      "position": 1,
-      "surface": "Hur",
-      "word_id": "W040",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3022",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3022",
-      "position": 3,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3023",
-      "position": 1,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3023",
-      "position": 2,
-      "surface": "mår",
-      "word_id": "W041",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3023",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3023",
-      "position": 4,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3024",
-      "position": 1,
-      "surface": "Ja",
-      "word_id": "W003",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3024",
-      "position": 2,
-      "surface": "tack",
-      "word_id": "W031",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3025",
-      "position": 1,
-      "surface": "Tack",
-      "word_id": "W031",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3025",
-      "position": 2,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3026",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3026",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3026",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3027",
-      "position": 1,
-      "surface": "Den",
-      "word_id": "W019",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3027",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3027",
-      "position": 3,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3028",
-      "position": 1,
-      "surface": "Jag",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3028",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3028",
-      "position": 3,
-      "surface": "inte",
-      "word_id": "W016",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3028",
-      "position": 4,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3029",
-      "position": 1,
-      "surface": "Du",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3029",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3029",
-      "position": 3,
-      "surface": "en",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3029",
-      "position": 4,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3029",
-      "position": 5,
-      "surface": "läkare",
-      "word_id": "W026",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3030",
-      "position": 1,
-      "surface": "Han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3030",
-      "position": 2,
-      "surface": "är",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3030",
-      "position": 3,
-      "surface": "en",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3030",
-      "position": 4,
-      "surface": "bra",
-      "word_id": "W042",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S3030",
-      "position": 5,
-      "surface": "man",
-      "word_id": "W010",
-      "notes": "",
-      "hint_override": ""
-    }
-  ],
-  "accepted_answers": [
-    {
-      "answer_id": "A30041",
-      "sentence_id": "S3004",
-      "direction": "fr_to_en",
-      "answer": "Good morning!",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30051",
-      "sentence_id": "S3005",
-      "direction": "fr_to_en",
-      "answer": "Good evening!",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30061",
-      "sentence_id": "S3006",
-      "direction": "fr_to_en",
-      "answer": "\"Thank you.\" \"You're welcome.\"",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30091",
-      "sentence_id": "S3009",
-      "direction": "fr_to_en",
-      "answer": "How do you do?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30092",
-      "sentence_id": "S3009",
-      "direction": "fr_to_en",
-      "answer": "How are we doing?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30093",
-      "sentence_id": "S3009",
-      "direction": "fr_to_en",
-      "answer": "How're you feeling?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30111",
-      "sentence_id": "S3011",
-      "direction": "fr_to_en",
-      "answer": "Farewell.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30112",
-      "sentence_id": "S3011",
-      "direction": "fr_to_en",
-      "answer": "Bye.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30161",
-      "sentence_id": "S3016",
-      "direction": "fr_to_en",
-      "answer": "He is doing well.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30181",
-      "sentence_id": "S3018",
-      "direction": "fr_to_en",
-      "answer": "Hi! How are you?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30221",
-      "sentence_id": "S3022",
-      "direction": "fr_to_en",
-      "answer": "What's it like?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A30261",
-      "sentence_id": "S3026",
-      "direction": "fr_to_en",
-      "answer": "That's good.",
-      "source": "tatoeba",
-      "status": "pulled"
-    }
-  ],
-  "qa_answers": []
+ "unit_id": "U03",
+ "pulled_at": "2026-11-20",
+ "candidates": 31,
+ "sentences": [
+  {
+   "sentence_id": "S3001",
+   "unit_id": "U03",
+   "french": "\"Hur mår du?\" \"Jag mår bra, tack.\"",
+   "english": "\"How are you?\" \"I'm fine, thanks.\"",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10686519",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3002",
+   "unit_id": "U03",
+   "french": "Jag mår bra, tack.",
+   "english": "I'm fine, thank you.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1387537",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Balamax",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3003",
+   "unit_id": "U03",
+   "french": "Mår du bra?",
+   "english": "Are you OK?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1990458",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3004",
+   "unit_id": "U03",
+   "french": "God morgon.",
+   "english": "Good morning.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "849444",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Mauritz",
+   "other_english": [
+    "Good morning!"
+   ]
+  },
+  {
+   "sentence_id": "S3005",
+   "unit_id": "U03",
+   "french": "God kväll!",
+   "english": "Good evening.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3807229",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ricardo14",
+   "other_english": [
+    "Good evening!"
+   ]
+  },
+  {
+   "sentence_id": "S3006",
+   "unit_id": "U03",
+   "french": "”Tack.” ”Varsågod.”",
+   "english": "\"Thanks.\" \"You're welcome.\"",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1215764",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "wallebot",
+   "other_english": [
+    "\"Thank you.\" \"You're welcome.\""
+   ]
+  },
+  {
+   "sentence_id": "S3007",
+   "unit_id": "U03",
+   "french": "Hej! God morgon!",
+   "english": "Hello! Good morning!",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2332806",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "freddy1",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3008",
+   "unit_id": "U03",
+   "french": "Hur mår Mary?",
+   "english": "How is Mary?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1990482",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3009",
+   "unit_id": "U03",
+   "french": "Hur mår du?",
+   "english": "How are you?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2042055",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": [
+    "How do you do?",
+    "How are we doing?",
+    "How're you feeling?"
+   ]
+  },
+  {
+   "sentence_id": "S3010",
+   "unit_id": "U03",
+   "french": "God dag.",
+   "english": "Good day.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "778582",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "marloncori",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3011",
+   "unit_id": "U03",
+   "french": "Hej då.",
+   "english": "Goodbye.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1387686",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Balamax",
+   "other_english": [
+    "Farewell.",
+    "Bye."
+   ]
+  },
+  {
+   "sentence_id": "S3012",
+   "unit_id": "U03",
+   "french": "Ja, gärna.",
+   "english": "Yes, please.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5893672",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "User73201",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3013",
+   "unit_id": "U03",
+   "french": "Mår han bra?",
+   "english": "Is he all right?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2000141",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Siljan",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3014",
+   "unit_id": "U03",
+   "french": "Mår du inte bra?",
+   "english": "Are you not feeling well?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2455236",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "torulf",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3015",
+   "unit_id": "U03",
+   "french": "Jag mår bra.",
+   "english": "I'm OK.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1583404",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "viorayli",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3016",
+   "unit_id": "U03",
+   "french": "Han mår bra.",
+   "english": "He's all right.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1607648",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "viorayli",
+   "other_english": [
+    "He is doing well."
+   ]
+  },
+  {
+   "sentence_id": "S3017",
+   "unit_id": "U03",
+   "french": "Hur mår Tom?",
+   "english": "How is Tom?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "9577430",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "mrkalling",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3018",
+   "unit_id": "U03",
+   "french": "Hej! Hur mår du?",
+   "english": "Hello! How are you?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "427049",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Cilyan",
+   "other_english": [
+    "Hi! How are you?"
+   ]
+  },
+  {
+   "sentence_id": "S3019",
+   "unit_id": "U03",
+   "french": "Hur stor?",
+   "english": "How big?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5893619",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "User73201",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3020",
+   "unit_id": "U03",
+   "french": "Hur är han?",
+   "english": "What is he like?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "890908",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Tximist",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3021",
+   "unit_id": "U03",
+   "french": "Hur är den?",
+   "english": "What's it like?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2001542",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3022",
+   "unit_id": "U03",
+   "french": "Hur är det?",
+   "english": "How is it?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2001546",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": [
+    "What's it like?"
+   ]
+  },
+  {
+   "sentence_id": "S3023",
+   "unit_id": "U03",
+   "french": "Tom mår inte bra.",
+   "english": "Tom isn't feeling well.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "6779957",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "SilasNordgren",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3024",
+   "unit_id": "U03",
+   "french": "Ja, tack.",
+   "english": "Yes, please.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5893671",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "User73201",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3025",
+   "unit_id": "U03",
+   "french": "Tack, Tom.",
+   "english": "Thanks, Tom.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10712102",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3026",
+   "unit_id": "U03",
+   "french": "Det är bra.",
+   "english": "It's good.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4408957",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": [
+    "That's good."
+   ]
+  },
+  {
+   "sentence_id": "S3027",
+   "unit_id": "U03",
+   "french": "Den är bra.",
+   "english": "It's good.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4408958",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3028",
+   "unit_id": "U03",
+   "french": "Jag är inte bra.",
+   "english": "I am not good.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8742126",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "morbrorper",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3029",
+   "unit_id": "U03",
+   "french": "Du är en bra läkare.",
+   "english": "You're a good doctor.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3840623",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S3030",
+   "unit_id": "U03",
+   "french": "Han är en bra man.",
+   "english": "He is a good man.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "9419503",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "morbrorper",
+   "other_english": []
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S3001",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3001",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3001",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3001",
+   "position": 4,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3001",
+   "position": 5,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3001",
+   "position": 6,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3001",
+   "position": 7,
+   "surface": "tack",
+   "word_id": "W031",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3002",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3002",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3002",
+   "position": 3,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3002",
+   "position": 4,
+   "surface": "tack",
+   "word_id": "W031",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3003",
+   "position": 1,
+   "surface": "Mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3003",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3003",
+   "position": 3,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3004",
+   "position": 1,
+   "surface": "God morgon",
+   "word_id": "W034",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3005",
+   "position": 1,
+   "surface": "God kväll",
+   "word_id": "W036",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3006",
+   "position": 1,
+   "surface": "Tack",
+   "word_id": "W031",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3006",
+   "position": 2,
+   "surface": "Varsågod",
+   "word_id": "W032",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3007",
+   "position": 1,
+   "surface": "Hej",
+   "word_id": "W001",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3007",
+   "position": 2,
+   "surface": "God morgon",
+   "word_id": "W034",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3008",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3008",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3008",
+   "position": 3,
+   "surface": "Mary",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3009",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3009",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3009",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3010",
+   "position": 1,
+   "surface": "God dag",
+   "word_id": "W035",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3011",
+   "position": 1,
+   "surface": "Hej då",
+   "word_id": "W037",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3012",
+   "position": 1,
+   "surface": "Ja",
+   "word_id": "W003",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3012",
+   "position": 2,
+   "surface": "gärna",
+   "word_id": "W033",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3013",
+   "position": 1,
+   "surface": "Mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3013",
+   "position": 2,
+   "surface": "han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3013",
+   "position": 3,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3014",
+   "position": 1,
+   "surface": "Mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3014",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3014",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3014",
+   "position": 4,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3015",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3015",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3015",
+   "position": 3,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3016",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3016",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3016",
+   "position": 3,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3017",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3017",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3017",
+   "position": 3,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3018",
+   "position": 1,
+   "surface": "Hej",
+   "word_id": "W001",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3018",
+   "position": 2,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3018",
+   "position": 3,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3018",
+   "position": 4,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3019",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3019",
+   "position": 2,
+   "surface": "stor",
+   "word_id": "W028",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3020",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3020",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3020",
+   "position": 3,
+   "surface": "han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3021",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3021",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3021",
+   "position": 3,
+   "surface": "den",
+   "word_id": "W019",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3022",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3022",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3022",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3023",
+   "position": 1,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3023",
+   "position": 2,
+   "surface": "mår",
+   "word_id": "W041",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3023",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3023",
+   "position": 4,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3024",
+   "position": 1,
+   "surface": "Ja",
+   "word_id": "W003",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3024",
+   "position": 2,
+   "surface": "tack",
+   "word_id": "W031",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3025",
+   "position": 1,
+   "surface": "Tack",
+   "word_id": "W031",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3025",
+   "position": 2,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3026",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3026",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3026",
+   "position": 3,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3027",
+   "position": 1,
+   "surface": "Den",
+   "word_id": "W019",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3027",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3027",
+   "position": 3,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3028",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3028",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3028",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3028",
+   "position": 4,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3029",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3029",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3029",
+   "position": 3,
+   "surface": "en",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3029",
+   "position": 4,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3029",
+   "position": 5,
+   "surface": "läkare",
+   "word_id": "W026",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3030",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3030",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3030",
+   "position": 3,
+   "surface": "en",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3030",
+   "position": 4,
+   "surface": "bra",
+   "word_id": "W042",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S3030",
+   "position": 5,
+   "surface": "man",
+   "word_id": "W010",
+   "notes": "",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [
+  {
+   "answer_id": "A30041",
+   "sentence_id": "S3004",
+   "direction": "fr_to_en",
+   "answer": "Good morning!",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30051",
+   "sentence_id": "S3005",
+   "direction": "fr_to_en",
+   "answer": "Good evening!",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30061",
+   "sentence_id": "S3006",
+   "direction": "fr_to_en",
+   "answer": "\"Thank you.\" \"You're welcome.\"",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30091",
+   "sentence_id": "S3009",
+   "direction": "fr_to_en",
+   "answer": "How do you do?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30092",
+   "sentence_id": "S3009",
+   "direction": "fr_to_en",
+   "answer": "How are we doing?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30093",
+   "sentence_id": "S3009",
+   "direction": "fr_to_en",
+   "answer": "How're you feeling?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30111",
+   "sentence_id": "S3011",
+   "direction": "fr_to_en",
+   "answer": "Farewell.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30112",
+   "sentence_id": "S3011",
+   "direction": "fr_to_en",
+   "answer": "Bye.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30161",
+   "sentence_id": "S3016",
+   "direction": "fr_to_en",
+   "answer": "He is doing well.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30181",
+   "sentence_id": "S3018",
+   "direction": "fr_to_en",
+   "answer": "Hi! How are you?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30221",
+   "sentence_id": "S3022",
+   "direction": "fr_to_en",
+   "answer": "What's it like?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A30261",
+   "sentence_id": "S3026",
+   "direction": "fr_to_en",
+   "answer": "That's good.",
+   "source": "tatoeba",
+   "status": "pulled"
+  }
+ ],
+ "qa_answers": []
 }
