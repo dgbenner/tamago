@@ -1,6 +1,67 @@
 {
   "_about": "Dan's rulings for the Dutch course: approvals, cuts, accepted answers, hints, allowed names. Same shape as the other courses' content-*/review-decisions.json.",
-  "sentences": {},
+  "sentences": {
+    "S52109": {
+      "action": "confirm",
+      "french": "Hij houdt van zwemmen.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner Vulgaris has no native or OK signal"
+    },
+    "S33103": {
+      "action": "confirm",
+      "french": "Tom weet dat.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner vvv123 has no native or OK signal"
+    },
+    "S53104": {
+      "action": "confirm",
+      "french": "Dat is een kerk.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner Henkert has no native or OK signal"
+    },
+    "S53115": {
+      "action": "confirm",
+      "french": "Het station is dichtbij.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner anders has no native or OK signal"
+    },
+    "S13101": {
+      "action": "confirm",
+      "french": "Het konijn is bruin.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner carlosalberto has no native or OK signal"
+    },
+    "S13102": {
+      "action": "confirm",
+      "french": "Ik heb een bruin paard.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner carlosalberto has no native or OK signal"
+    },
+    "S15101": {
+      "action": "confirm",
+      "french": "Ik ga naar het park.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner Akradna has no native or OK signal"
+    },
+    "S15103": {
+      "action": "confirm",
+      "french": "Dat is mijn school.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner marcelostockle has no native or OK signal"
+    },
+    "S15107": {
+      "action": "confirm",
+      "french": "Ben je in de stad?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner gilles1007 has no native or OK signal"
+    },
+    "S51102": {
+      "action": "confirm",
+      "french": "Mijn ogen zijn blauw.",
+      "english_source": "",
+      "by": "Fable's review (Use), applied by Claude at Dan's request 2026-11-19: owner phiz has no native or OK signal"
+    }
+  },
   "accepted_answers": {},
   "units": {
     "U01": {
@@ -114,7 +175,124 @@
   "hints": {},
   "borrow": {},
   "drafting": {},
-  "claude_hints": {},
+  "claude_hints": {
+    "W008": {
+      "hint": "am",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W009": {
+      "hint": "are",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W701": {
+      "hint": "I understand",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W702": {
+      "hint": "understands",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W706": {
+      "hint": "I say",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W707": {
+      "hint": "says",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W708": {
+      "hint": "I speak",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W709": {
+      "hint": "speak!; speaks",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W710": {
+      "hint": "repeat!",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W045": {
+      "hint": "goes (hoe gaat het)",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W049": {
+      "hint": "eats; eat!",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W051": {
+      "hint": "I drink",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W052": {
+      "hint": "drinks",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W053": {
+      "hint": "I like (houden van)",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W054": {
+      "hint": "likes",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W065": {
+      "hint": "I have",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W066": {
+      "hint": "you have",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W102": {
+      "hint": "stands, is",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W103": {
+      "hint": "lies, is",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W711": {
+      "hint": "means",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W715": {
+      "hint": "I look for",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W716": {
+      "hint": "knows; know",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W720": {
+      "hint": "is called",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W1024": {
+      "hint": "I read",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W174": {
+      "hint": "I go",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W1026": {
+      "hint": "film, movie",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W1033": {
+      "hint": "taxi",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W1003": {
+      "hint": "hand",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W178": {
+      "hint": "school",
+      "source": "Fable review 2026-11-19 (sense fix)"
+    }
+  },
   "phrases_off": {},
   "names": [
     "Tom",
@@ -129,5 +307,93 @@
     "Londen"
   ],
   "_names": "Names Tatoeba's Dutch sentences use that the analyser should treat as proper nouns, not unknown words.",
-  "accepted_additions": []
+  "accepted_additions": [],
+  "gender": {
+    "W060": "de",
+    "W1009": "de",
+    "W099": "de",
+    "W112": "de",
+    "W115": "het",
+    "W1008": "het",
+    "W025": "het",
+    "W136": "de",
+    "W056": "het",
+    "W1031": "de",
+    "W167": "de",
+    "W035": "de",
+    "W033": "de",
+    "W075": "het",
+    "W717": "het",
+    "W027": "de",
+    "W123": "de",
+    "W133": "de",
+    "W1017": "het",
+    "W100": "de",
+    "W1026": "de",
+    "W1016": "de",
+    "W1003": "de",
+    "W068": "de",
+    "W122": "de",
+    "W1007": "het",
+    "W1029": "het",
+    "W026": "het",
+    "W155": "het",
+    "W014": "de",
+    "W059": "de",
+    "W114": "de",
+    "W069": "de",
+    "W705": "de",
+    "W1028": "de",
+    "W111": "de",
+    "W016": "het",
+    "W163": "de",
+    "W061": "de",
+    "W074": "het",
+    "W028": "de",
+    "W029": "de",
+    "W170": "de",
+    "W012": "de",
+    "W015": "het",
+    "W058": "de",
+    "W135": "de",
+    "W1006": "de",
+    "W073": "de",
+    "W1027": "het",
+    "W1015": "de",
+    "W1005": "de",
+    "W1001": "het",
+    "W070": "het",
+    "W177": "het",
+    "W1036": "het",
+    "W181": "het",
+    "W178": "de",
+    "W1019": "het",
+    "W180": "de",
+    "W1030": "het",
+    "W182": "de",
+    "W1034": "het",
+    "W034": "de",
+    "W1033": "de",
+    "W062": "de",
+    "W1032": "de",
+    "W113": "de",
+    "W169": "het",
+    "W134": "de",
+    "W072": "de",
+    "W1004": "de",
+    "W1018": "het",
+    "W071": "de",
+    "W131": "de",
+    "W132": "de",
+    "W013": "de",
+    "W057": "het",
+    "W168": "de",
+    "W063": "de",
+    "W179": "de",
+    "W712": "het",
+    "W171": "de",
+    "W1035": "het",
+    "W172": "de",
+    "W137": "de"
+  }
 }

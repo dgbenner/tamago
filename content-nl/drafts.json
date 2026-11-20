@@ -691,16 +691,22 @@
     {
       "sentence_id": "S13101",
       "unit_id": "U13",
-      "french": "De hond is bruin.",
-      "english": "The dog is brown.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Het konijn is bruin.",
+      "english": "The rabbit is brown.",
+      "notes": "swapped 2026-11-19 for Tatoeba #11524221 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"De hond is bruin.\"",
+      "source": "tatoeba",
+      "source_id": "11524221",
+      "source_owner": "carlosalberto"
     },
     {
       "sentence_id": "S13102",
       "unit_id": "U13",
-      "french": "Mijn paard is bruin.",
-      "english": "My horse is brown.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Ik heb een bruin paard.",
+      "english": "I have a brown horse.",
+      "notes": "swapped 2026-11-19 for Tatoeba #12013861 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Mijn paard is bruin.\"",
+      "source": "tatoeba",
+      "source_id": "12013861",
+      "source_owner": "carlosalberto"
     },
     {
       "sentence_id": "S13103",
@@ -789,8 +795,11 @@
       "sentence_id": "S15101",
       "unit_id": "U15",
       "french": "Ik ga naar het park.",
-      "english": "I'm going to the park.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "english": "I go to the park.",
+      "notes": "swapped 2026-11-19 for Tatoeba #450250 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Ik ga naar het park.\"",
+      "source": "tatoeba",
+      "source_id": "450250",
+      "source_owner": "Akradna"
     },
     {
       "sentence_id": "S15102",
@@ -802,9 +811,12 @@
     {
       "sentence_id": "S15103",
       "unit_id": "U15",
-      "french": "Mijn school is groot.",
-      "english": "My school is big.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Dat is mijn school.",
+      "english": "That is my school.",
+      "notes": "swapped 2026-11-19 for Tatoeba #533731 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Mijn school is groot.\"",
+      "source": "tatoeba",
+      "source_id": "533731",
+      "source_owner": "marcelostockle"
     },
     {
       "sentence_id": "S15104",
@@ -833,9 +845,12 @@
     {
       "sentence_id": "S15107",
       "unit_id": "U15",
-      "french": "De stad is groot.",
-      "english": "The city is big.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Ben je in de stad?",
+      "english": "Are you in town?",
+      "notes": "swapped 2026-11-19 for Tatoeba #2824895 (Fable's review of _review/dutch-part1-check.md: Use), English picked by Fable over \"Aren’t you in town?\"; was the draft \"De stad is groot.\"",
+      "source": "tatoeba",
+      "source_id": "2824895",
+      "source_owner": "gilles1007"
     },
     {
       "sentence_id": "S15108",
@@ -971,9 +986,12 @@
     {
       "sentence_id": "S33103",
       "unit_id": "U33",
-      "french": "Weet je het?",
-      "english": "Do you know?",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Tom weet dat.",
+      "english": "Tom knows that.",
+      "notes": "swapped 2026-11-19 for Tatoeba #3606287 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Weet je het?\"",
+      "source": "tatoeba",
+      "source_id": "3606287",
+      "source_owner": "vvv123"
     },
     {
       "sentence_id": "S33104",
@@ -1029,7 +1047,10 @@
       "unit_id": "U51",
       "french": "Mijn ogen zijn blauw.",
       "english": "My eyes are blue.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "notes": "swapped 2026-11-19 for Tatoeba #422361 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Mijn ogen zijn blauw.\"",
+      "source": "tatoeba",
+      "source_id": "422361",
+      "source_owner": "phiz"
     },
     {
       "sentence_id": "S51103",
@@ -1076,9 +1097,9 @@
     {
       "sentence_id": "S51109",
       "unit_id": "U51",
-      "french": "Zijn neus is rood.",
-      "english": "His nose is red.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Haar neus is rood.",
+      "english": "Her nose is red.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-19 (Fable): zijn->haar, the circle teaches zijn only as the verb; was \"Zijn neus is rood.\""
     },
     {
       "sentence_id": "S51110",
@@ -1132,9 +1153,9 @@
     {
       "sentence_id": "S51117",
       "unit_id": "U51",
-      "french": "Zijn arm is lang.",
-      "english": "His arm is long.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Haar arm is lang.",
+      "english": "Her arm is long.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-19 (Fable): zijn->haar, the circle teaches zijn only as the verb; was \"Zijn arm is lang.\""
     },
     {
       "sentence_id": "S52101",
@@ -1198,9 +1219,12 @@
     {
       "sentence_id": "S52109",
       "unit_id": "U52",
-      "french": "Ik houd van zwemmen.",
-      "english": "I like swimming.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Hij houdt van zwemmen.",
+      "english": "He likes to swim.",
+      "notes": "swapped 2026-11-19 for Tatoeba #846663 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Ik houd van zwemmen.\"",
+      "source": "tatoeba",
+      "source_id": "846663",
+      "source_owner": "Vulgaris"
     },
     {
       "sentence_id": "S52110",
@@ -1264,9 +1288,12 @@
     {
       "sentence_id": "S53104",
       "unit_id": "U53",
-      "french": "De kerk is mooi.",
-      "english": "The church is beautiful.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Dat is een kerk.",
+      "english": "That's a church.",
+      "notes": "swapped 2026-11-19 for Tatoeba #3524272 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"De kerk is mooi.\"",
+      "source": "tatoeba",
+      "source_id": "3524272",
+      "source_owner": "Henkert"
     },
     {
       "sentence_id": "S53105",
@@ -1341,9 +1368,12 @@
     {
       "sentence_id": "S53115",
       "unit_id": "U53",
-      "french": "Het plein is dichtbij.",
-      "english": "The square is nearby.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Het station is dichtbij.",
+      "english": "The station is nearby.",
+      "notes": "swapped 2026-11-19 for Tatoeba #2797304 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Het plein is dichtbij.\"",
+      "source": "tatoeba",
+      "source_id": "2797304",
+      "source_owner": "anders"
     },
     {
       "sentence_id": "S53116",

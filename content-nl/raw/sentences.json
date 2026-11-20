@@ -10196,30 +10196,32 @@
   {
     "sentence_id": "S13101",
     "unit_id": "U13",
-    "french": "De hond is bruin.",
-    "english": "The dog is brown.",
+    "french": "Het konijn is bruin.",
+    "english": "The rabbit is brown.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "11524221",
+    "source_owner": "carlosalberto",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #11524221 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"De hond is bruin.\""
   },
   {
     "sentence_id": "S13102",
     "unit_id": "U13",
-    "french": "Mijn paard is bruin.",
-    "english": "My horse is brown.",
+    "french": "Ik heb een bruin paard.",
+    "english": "I have a brown horse.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "12013861",
+    "source_owner": "carlosalberto",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #12013861 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Mijn paard is bruin.\""
   },
   {
     "sentence_id": "S13103",
@@ -10381,15 +10383,16 @@
     "sentence_id": "S15101",
     "unit_id": "U15",
     "french": "Ik ga naar het park.",
-    "english": "I'm going to the park.",
+    "english": "I go to the park.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "450250",
+    "source_owner": "Akradna",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #450250 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Ik ga naar het park.\""
   },
   {
     "sentence_id": "S15102",
@@ -10408,16 +10411,17 @@
   {
     "sentence_id": "S15103",
     "unit_id": "U15",
-    "french": "Mijn school is groot.",
-    "english": "My school is big.",
+    "french": "Dat is mijn school.",
+    "english": "That is my school.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "533731",
+    "source_owner": "marcelostockle",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #533731 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Mijn school is groot.\""
   },
   {
     "sentence_id": "S15104",
@@ -10465,16 +10469,17 @@
   {
     "sentence_id": "S15107",
     "unit_id": "U15",
-    "french": "De stad is groot.",
-    "english": "The city is big.",
+    "french": "Ben je in de stad?",
+    "english": "Are you in town?",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "2824895",
+    "source_owner": "gilles1007",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #2824895 (Fable's review of _review/dutch-part1-check.md: Use), English picked by Fable over \"Aren’t you in town?\"; was the draft \"De stad is groot.\""
   },
   {
     "sentence_id": "S15108",
@@ -10721,16 +10726,17 @@
   {
     "sentence_id": "S33103",
     "unit_id": "U33",
-    "french": "Weet je het?",
-    "english": "Do you know?",
+    "french": "Tom weet dat.",
+    "english": "Tom knows that.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "3606287",
+    "source_owner": "vvv123",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #3606287 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Weet je het?\""
   },
   {
     "sentence_id": "S33104",
@@ -10836,13 +10842,14 @@
     "french": "Mijn ogen zijn blauw.",
     "english": "My eyes are blue.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "422361",
+    "source_owner": "phiz",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #422361 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Mijn ogen zijn blauw.\""
   },
   {
     "sentence_id": "S51103",
@@ -10931,8 +10938,8 @@
   {
     "sentence_id": "S51109",
     "unit_id": "U51",
-    "french": "Zijn neus is rood.",
-    "english": "His nose is red.",
+    "french": "Haar neus is rood.",
+    "english": "Her nose is red.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -10940,7 +10947,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-19 (Fable): zijn->haar, the circle teaches zijn only as the verb; was \"Zijn neus is rood.\""
   },
   {
     "sentence_id": "S51110",
@@ -11043,8 +11050,8 @@
   {
     "sentence_id": "S51117",
     "unit_id": "U51",
-    "french": "Zijn arm is lang.",
-    "english": "His arm is long.",
+    "french": "Haar arm is lang.",
+    "english": "Her arm is long.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -11052,7 +11059,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-19 (Fable): zijn->haar, the circle teaches zijn only as the verb; was \"Zijn arm is lang.\""
   },
   {
     "sentence_id": "S52101",
@@ -11170,16 +11177,17 @@
   {
     "sentence_id": "S52109",
     "unit_id": "U52",
-    "french": "Ik houd van zwemmen.",
-    "english": "I like swimming.",
+    "french": "Hij houdt van zwemmen.",
+    "english": "He likes to swim.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "846663",
+    "source_owner": "Vulgaris",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #846663 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Ik houd van zwemmen.\""
   },
   {
     "sentence_id": "S52110",
@@ -11297,16 +11305,17 @@
   {
     "sentence_id": "S53104",
     "unit_id": "U53",
-    "french": "De kerk is mooi.",
-    "english": "The church is beautiful.",
+    "french": "Dat is een kerk.",
+    "english": "That's a church.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "3524272",
+    "source_owner": "Henkert",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #3524272 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"De kerk is mooi.\""
   },
   {
     "sentence_id": "S53105",
@@ -11451,16 +11460,17 @@
   {
     "sentence_id": "S53115",
     "unit_id": "U53",
-    "french": "Het plein is dichtbij.",
-    "english": "The square is nearby.",
+    "french": "Het station is dichtbij.",
+    "english": "The station is nearby.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "2797304",
+    "source_owner": "anders",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "swapped 2026-11-19 for Tatoeba #2797304 (Fable's review of _review/dutch-part1-check.md: Use); was the draft \"Het plein is dichtbij.\""
   },
   {
     "sentence_id": "S53116",

@@ -1590,16 +1590,6 @@
     "source_owner": "Dorenda"
   },
   {
-    "answer_id": "GS33103-8573021",
-    "sentence_id": "S33103",
-    "direction": "en_to_fr",
-    "answer": "Weet je dat?",
-    "source": "tatoeba",
-    "source_id": "8573021",
-    "status": "live",
-    "source_owner": "Micsmithel"
-  },
-  {
     "answer_id": "GS4103-659477",
     "sentence_id": "S4103",
     "direction": "en_to_fr",
@@ -2021,6 +2011,22 @@
   },
   {
     "answer_id": "AE00046",
+    "sentence_id": "S15101",
+    "direction": "fr_to_en",
+    "answer": "I will go to the park.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00047",
+    "sentence_id": "S15101",
+    "direction": "fr_to_en",
+    "answer": "I'm going to the park.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00048",
     "sentence_id": "S15104",
     "direction": "fr_to_en",
     "answer": "I'm going to the store.",
@@ -2028,7 +2034,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00047",
+    "answer_id": "AE00049",
     "sentence_id": "S15105",
     "direction": "fr_to_en",
     "answer": "Here is the shop.",
@@ -2036,7 +2042,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00048",
+    "answer_id": "AE00050",
     "sentence_id": "S15105",
     "direction": "fr_to_en",
     "answer": "The store is here.",
@@ -2044,7 +2050,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00049",
+    "answer_id": "AE00051",
     "sentence_id": "S15105",
     "direction": "fr_to_en",
     "answer": "Here is the store.",
@@ -2052,7 +2058,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00050",
+    "answer_id": "AE00052",
     "sentence_id": "S15110",
     "direction": "fr_to_en",
     "answer": "The store is in the street.",
@@ -2060,7 +2066,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00051",
+    "answer_id": "AE00053",
     "sentence_id": "S31105",
     "direction": "fr_to_en",
     "answer": "Come again?",
@@ -2068,7 +2074,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00052",
+    "answer_id": "AE00054",
     "sentence_id": "S31105",
     "direction": "fr_to_en",
     "answer": "Once again.",
@@ -2076,7 +2082,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00053",
+    "answer_id": "AE00055",
     "sentence_id": "S52112",
     "direction": "fr_to_en",
     "answer": "We're watching a movie.",
@@ -2084,7 +2090,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00054",
+    "answer_id": "AE00056",
     "sentence_id": "S52113",
     "direction": "fr_to_en",
     "answer": "The movie is fun.",
@@ -2092,7 +2098,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00055",
+    "answer_id": "AE00057",
     "sentence_id": "S52114",
     "direction": "fr_to_en",
     "answer": "The movie is good.",
@@ -2100,7 +2106,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00056",
+    "answer_id": "AE00058",
     "sentence_id": "S53102",
     "direction": "fr_to_en",
     "answer": "Where's the museum?",
@@ -2108,7 +2114,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00057",
+    "answer_id": "AE00059",
     "sentence_id": "S53107",
     "direction": "fr_to_en",
     "answer": "Here is the train.",
@@ -2116,7 +2122,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00058",
+    "answer_id": "AE00060",
     "sentence_id": "S53112",
     "direction": "fr_to_en",
     "answer": "Here is the taxi.",

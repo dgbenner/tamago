@@ -20058,16 +20058,16 @@
   {
     "sentence_id": "S13101",
     "position": 1,
-    "surface": "De",
-    "word_id": "W018",
+    "surface": "Het",
+    "word_id": "W019",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13101",
     "position": 2,
-    "surface": "hond",
-    "word_id": "W068",
+    "surface": "konijn",
+    "word_id": "W074",
     "notes": "",
     "hint_override": ""
   },
@@ -20090,24 +20090,24 @@
   {
     "sentence_id": "S13102",
     "position": 1,
-    "surface": "Mijn",
-    "word_id": "W126",
+    "surface": "Ik",
+    "word_id": "W005",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13102",
     "position": 2,
-    "surface": "paard",
-    "word_id": "W070",
+    "surface": "heb",
+    "word_id": "W065",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13102",
     "position": 3,
-    "surface": "is",
-    "word_id": "W010",
+    "surface": "een",
+    "word_id": "W011",
     "notes": "",
     "hint_override": ""
   },
@@ -20116,6 +20116,14 @@
     "position": 4,
     "surface": "bruin",
     "word_id": "W162",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13102",
+    "position": 5,
+    "surface": "paard",
+    "word_id": "W070",
     "notes": "",
     "hint_override": ""
   },
@@ -20530,22 +20538,14 @@
   {
     "sentence_id": "S15103",
     "position": 1,
-    "surface": "Mijn",
-    "word_id": "W126",
+    "surface": "Dat",
+    "word_id": "W024",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S15103",
     "position": 2,
-    "surface": "school",
-    "word_id": "W178",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S15103",
-    "position": 3,
     "surface": "is",
     "word_id": "W010",
     "notes": "",
@@ -20553,9 +20553,17 @@
   },
   {
     "sentence_id": "S15103",
+    "position": 3,
+    "surface": "mijn",
+    "word_id": "W126",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15103",
     "position": 4,
-    "surface": "groot",
-    "word_id": "W030",
+    "surface": "school",
+    "word_id": "W178",
     "notes": "",
     "hint_override": ""
   },
@@ -20674,32 +20682,40 @@
   {
     "sentence_id": "S15107",
     "position": 1,
-    "surface": "De",
-    "word_id": "W018",
+    "surface": "Ben",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S15107",
     "position": 2,
-    "surface": "stad",
-    "word_id": "W180",
+    "surface": "je",
+    "word_id": "W007",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S15107",
     "position": 3,
-    "surface": "is",
-    "word_id": "W010",
+    "surface": "in",
+    "word_id": "W104",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S15107",
     "position": 4,
-    "surface": "groot",
-    "word_id": "W030",
+    "surface": "de",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15107",
+    "position": 5,
+    "surface": "stad",
+    "word_id": "W180",
     "notes": "",
     "hint_override": ""
   },
@@ -21154,24 +21170,24 @@
   {
     "sentence_id": "S33103",
     "position": 1,
-    "surface": "Weet",
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33103",
+    "position": 2,
+    "surface": "weet",
     "word_id": "W716",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S33103",
-    "position": 2,
-    "surface": "je",
-    "word_id": "W007",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S33103",
     "position": 3,
-    "surface": "het",
-    "word_id": "W019",
+    "surface": "dat",
+    "word_id": "W024",
     "notes": "",
     "hint_override": ""
   },
@@ -21658,8 +21674,8 @@
   {
     "sentence_id": "S51109",
     "position": 1,
-    "surface": "Zijn",
-    "word_id": "W088",
+    "surface": "Haar",
+    "word_id": "W128",
     "notes": "",
     "hint_override": ""
   },
@@ -21914,8 +21930,8 @@
   {
     "sentence_id": "S51117",
     "position": 1,
-    "surface": "Zijn",
-    "word_id": "W088",
+    "surface": "Haar",
+    "word_id": "W128",
     "notes": "",
     "hint_override": ""
   },
@@ -22202,16 +22218,16 @@
   {
     "sentence_id": "S52109",
     "position": 1,
-    "surface": "Ik",
-    "word_id": "W005",
+    "surface": "Hij",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S52109",
     "position": 2,
-    "surface": "houd",
-    "word_id": "W053",
+    "surface": "houdt",
+    "word_id": "W054",
     "notes": "",
     "hint_override": ""
   },
@@ -22474,22 +22490,14 @@
   {
     "sentence_id": "S53104",
     "position": 1,
-    "surface": "De",
-    "word_id": "W018",
+    "surface": "Dat",
+    "word_id": "W024",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53104",
     "position": 2,
-    "surface": "kerk",
-    "word_id": "W1028",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S53104",
-    "position": 3,
     "surface": "is",
     "word_id": "W010",
     "notes": "",
@@ -22497,9 +22505,17 @@
   },
   {
     "sentence_id": "S53104",
+    "position": 3,
+    "surface": "een",
+    "word_id": "W011",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53104",
     "position": 4,
-    "surface": "mooi",
-    "word_id": "W092",
+    "surface": "kerk",
+    "word_id": "W1028",
     "notes": "",
     "hint_override": ""
   },
@@ -22834,8 +22850,8 @@
   {
     "sentence_id": "S53115",
     "position": 2,
-    "surface": "plein",
-    "word_id": "W1036",
+    "surface": "station",
+    "word_id": "W1030",
     "notes": "",
     "hint_override": ""
   },
