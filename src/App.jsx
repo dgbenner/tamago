@@ -1208,23 +1208,25 @@ export default function App() {
       topic: node.is_topic_pick === 'node' ? { choosing, packs: packsAt(node.unit_id).map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
   }), { row: r }))
   const curUnit = tables.units.find((u) => u.unit_id === currentUnit)
-  // Levels: markers across the tree where finishing the units above would reach the next band (score.js: 10 and 20 of
-  // 29). Going down the path only, never at the top (Dan, 2026-11-11: no "Very Early A1" line over the first circle).
   const mainA1 = layout.filter((t) => !isTopicNode(t.unit_id))
-  const started = mainA1.some((t) => progressOf(t.unit_id).round_reached >= 1) || packs.some((p) => progressOf(p.unit_id).round_reached >= 1)
   const rowNumbers = [...new Set(layout.map((t) => t.row))].sort((p, q) => p - q)
   // The row after a given one (rows can be 1.5 for a help circle); one past the last when it's the last.
   const rowAfter = (r) => rowNumbers[rowNumbers.indexOf(r) + 1] ?? r + 1
   const rowReaching = (share) => rowNumbers.find((r) => mainA1.filter((t) => t.row <= r).length / mainA1.length >= share)
-  const markers = started ? [
-    { beforeRow: rowAfter(rowReaching(10 / 29)), label: 'Early A1' },
-    { beforeRow: rowAfter(rowReaching(20 / 29)), label: 'High A1' },
-    // A2 begins after the last part only.
-    ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
-  ] : []
+  // Part dividers (Dan, 2026-11-20), in place of the level markers ("Early A1", "High A1"), which counted shares of the
+  // whole course and so mostly fell outside the part on screen once courses had four to six parts: "A1: Part 2" at the
+  // top of every part from Part 2 (Part 1 has none at its start), and "A1: Part 2 · Midpoint" where the second half of
+  // the part's circles begins, in every part. Always shown, started or not.
+  const partMain = shownLayout.filter((t) => !isTopicNode(t.unit_id))
+  const partRows = [...new Set(shownLayout.map((t) => t.row))].sort((p, q) => p - q)
+  const midRow = partRows.find((r) => partMain.filter((t) => t.row < r).length >= partMain.length / 2)
+  const markers = [
+    ...(shownPart > 1 && partRows.length ? [{ beforeRow: partRows[0], label: `A1: Part ${shownPart}`, top: true }] : []),
+    ...(midRow != null && midRow !== partRows[0] ? [{ beforeRow: midRow, label: `A1: Part ${shownPart} · Midpoint` }] : []),
+  ]
   // The "I can" checklist per level (Dan, 2026-11-15): a small marker at the end of each level on the tree (where the
   // next level's marker goes, and after the last part for High A1) opens that level's statements, each with Check.
-  // Levels end at the same rows as the markers above, shown whether or not the learner has started.
+  // Levels end where 10 and 20 of 29 circles' worth of the course is reached (score.js), shown whether or not the learner has started.
   const levelEnds = [
     { label: 'Very Early A1', from: -Infinity, to: rowAfter(rowReaching(10 / 29)) },
     { label: 'Early A1', from: rowAfter(rowReaching(10 / 29)), to: rowAfter(rowReaching(20 / 29)) },
@@ -1236,7 +1238,7 @@ export default function App() {
     return { ...lv, beforeRow: lv.to, items }
   }).filter((lv) => lv.items.length && (rows.some((r) => r.row === lv.beforeRow) || (lv.label === 'High A1' && shownPart === lastPart)))
   return (
-    <Home rows={rows} iCan={iCan} onCheckCanDo={(d) => startCheck(d, 'home')} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
+    <Home rows={rows} iCan={iCan} onCheckCanDo={(d) => startCheck(d, 'home')} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow))} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       tools={[
         { id: 'glossary', screen: 'words', label: 'Glossary', about: 'See which words are sticking', onOpen: () => setScreen('words') },
         { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Get every present-tense form right', onOpen: () => setScreen('verbs') },

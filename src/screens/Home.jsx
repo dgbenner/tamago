@@ -507,14 +507,14 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
-      {/* Nothing between the tools and the first circle (Dan, 2026-11-11): no streak, no part header or switcher, no level
-          line; "Start Here" on the first circle, first use only. */}
+      {/* Nothing between the tools and the first circle (Dan, 2026-11-11): no streak, no part header or switcher; "Start
+          Here" on the first circle, first use only. From Part 2 the part's divider ("A1: Part 2") sits above it (Dan, 2026-11-20). */}
       <ol className="home-tree flex flex-1 flex-col items-center gap-y-[2.7rem] pt-[1.9rem] pb-24 lg:[&>li]:[zoom:1.11]">
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)
           const cu = catchUps.find((x) => x.afterRow === n)
-          const marker = i > 0 && markers.find((m) => m.beforeRow === n) // going down the path only, never at the top
+          const marker = markers.find((m) => m.beforeRow === n && (i > 0 || m.top)) // only a part's own top divider sits above its first row
           const ican = i > 0 && iCan.find((lv) => lv.beforeRow === n)
           return [
             ican && <ICanNode key={`ic${i}`} level={ican} onPick={setICanPicked} />,

@@ -220,13 +220,13 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 ## LevelLine
 
 - **File:** `src/components/LevelLine.jsx`
-- **What it's for:** the thin line across the tree that names the level reached ("Early A1"). A list item, because the tree is a list.
+- **What it's for:** the thin divider across the tree (Dan, 2026-11-20): "A1: Part 2" at the top of each part from Part 2, and "A1: Part 2 · Midpoint" where the second half of every part begins (Part 1 too). It replaced the level markers ("Early A1"). A list item, because the tree is a list; its accessible name is the label.
 - **Styles:** Tamago's own, adapted (hairline and small capitals on iOS; 1dp line and a medium label on Android).
 - **Main settings:**
-  - `label`: the level's name.
+  - `label`: the divider's text.
 
 ```jsx
-<LevelLine label="Early A1" />
+<LevelLine label="A1: Part 2 · Midpoint" />
 ```
 
 ## Toast

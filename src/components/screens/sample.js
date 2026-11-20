@@ -35,7 +35,7 @@ export const tree = [
     { id: 'U02', title: 'Numbers', icon: s('nigiri', 'aji-nigiri-sq'), done: 20, total: 20 },
     { id: 'U03', title: 'At the Café', icon: s('misc', 'gyoza'), done: 8, total: 20, current: true, about: 'Ordering politely with “je voudrais” and “s’il vous plaît”.' },
   ] },
-  { level: 'Early A1' },
+  { level: 'A1: Part 1 · Midpoint' },
   { row: [
     { id: 'U04', title: 'My Family', icon: s('misc', 'edamame'), done: 0, total: 20 },
     { id: 'U05', title: 'Days of the Week', icon: s('misc', 'takoyaki'), done: 0, total: 20 },
