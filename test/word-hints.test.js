@@ -25,7 +25,7 @@ test('a course word keeps its own hint, never the verb\'s', () => {
 
 const ONE_FORM = new Set(['content-sv', 'content-da', 'content-no'])
 test('every course gets verb-form hints, and the Glossary finds a verb by any form', () => {
-  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl', 'content-da', 'content-sv']) {
+  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl', 'content-no', 'content-da', 'content-sv']) {
     const t = load(dir)
     // Swedish, Danish and Norwegian (2026-11-20): the present tense is one form for every person, so these courses
     // build no verb tables on purpose and their notes carry the pattern; they must stay empty rather than half-built.

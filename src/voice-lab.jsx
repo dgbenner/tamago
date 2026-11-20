@@ -18,6 +18,7 @@ const TABLES = {
   it: { words: () => import('./content-it/words.json'), sentences: () => import('./content-it/sentences.json'), qa: () => import('./content-it/qa_answers.json') },
   pt: { words: () => import('./content-pt/words.json'), sentences: () => import('./content-pt/sentences.json'), qa: () => import('./content-pt/qa_answers.json') },
   nl: { words: () => import('./content-nl/words.json'), sentences: () => import('./content-nl/sentences.json'), qa: () => import('./content-nl/qa_answers.json') },
+  no: { words: () => import('./content-no/words.json'), sentences: () => import('./content-no/sentences.json'), qa: () => import('./content-no/qa_answers.json') },
   da: { words: () => import('./content-da/words.json'), sentences: () => import('./content-da/sentences.json'), qa: () => import('./content-da/qa_answers.json') },
   sv: { words: () => import('./content-sv/words.json'), sentences: () => import('./content-sv/sentences.json'), qa: () => import('./content-sv/qa_answers.json') },
 }

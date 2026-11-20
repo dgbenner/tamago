@@ -50,7 +50,7 @@ export const COURSES = {
   },
   // Norwegian Bokmål (2026-11-19, branch lang/norwegian): standard written Bokmål, du throughout (formal De kept out of Part 1). Its folders: content-no/…
   no: {
-    id: 'no', name: 'Norwegian', workbook: '_source/tamago-no-data-v2.xlsx',
+    id: 'no', name: 'Norwegian', workbook: '_source/tamago-no-data-v3.xlsx',
     tatoeba: 'nob', wiktionaryCode: 'no', wiktionarySection: 'Norwegian Bokmål', linguaLibre: { qid: 'Q25167', iso: 'nob' }, wikidataLanguage: 'Q25167',
   },
 }

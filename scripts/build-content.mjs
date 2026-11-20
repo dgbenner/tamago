@@ -122,10 +122,12 @@ tables.words = raw('words').flatMap((w) => {
 })
 
 // decisions.gender is additive only (2026-11-20): it fills a gender the workbook and Wiktionary left blank and never
-// replaces one they found, so a reviewer's pass can't silently overrule the pipeline.
+// replaces one they found, so a reviewer's pass can't silently overrule the pipeline. A deliberate correction (the
+// pipeline misread the headword) goes in decisions.gender_corrections with its reason, and only then may it replace.
 for (const [id, g] of Object.entries(decisions.gender ?? {})) {
   const found = raw('words').find((x) => x.word_id === id)?.gender || wCheck.get(id)?.gender || ''
-  if (found && found !== g) bad.push(`${id} gender: decisions.gender "${g}" would replace "${found}"`)
+  if (!found || found === g) continue
+  if (!decisions.gender_corrections?.[id]?.why) bad.push(`${id} gender: decisions.gender "${g}" would replace "${found}" (a deliberate fix needs gender_corrections with a why)`)
 }
 
 // Answers: workbook rows, plus the en_to_fr rows the check generated.

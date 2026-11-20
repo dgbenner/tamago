@@ -405,5 +405,11 @@
       "source": "Claude broad sense review, 2026-11-20: short learner hint (was an inflection-of/raw-tag/verbose gloss)"
     }
   },
-  "names": []
+  "names": [],
+  "gender_corrections": {
+    "W049": {
+      "why": "vann is neuter in Bokmål (et vann, vannet); the pipeline read 'en' from the Wiktionary entry. Fable's review (2026-11-19).",
+      "was": "en"
+    }
+  }
 }
