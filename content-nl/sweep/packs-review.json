@@ -1,0 +1,61 @@
+{
+ "U01": {
+  "reject": {
+   "412340": "idiom: jij bent = your turn, not literal"
+  }
+ },
+ "U03": {
+  "reject": {
+   "7959758": "repeated word (alsjeblieft twice)",
+   "8683448": "idiom: en hoe"
+  }
+ },
+ "U04": {
+  "reject": {
+   "7487824": "love line (person)",
+   "7906293": "love line",
+   "9512870": "love line",
+   "10919011": "nonsense joke line"
+  }
+ },
+ "U05": {
+  "reject": {
+   "7484288": "insult: you're a dog",
+   "9388984": "silly: I'm a dog",
+   "13253209": "insult: you're a dog"
+  }
+ },
+ "U07": {
+  "reject": {
+   "1128599": "grammar error: dit nieuw boek should be nieuwe (adjective -e)",
+   "9051759": "insult: you're ugly"
+  }
+ },
+ "U08": {
+  "reject": {
+   "9167392": "sexual innuendo",
+   "11516036": "broken English"
+  }
+ },
+ "U09": {
+  "reject": {
+   "12982439": "slang: ziek=cool, other sense"
+  }
+ },
+ "U10": {
+  "reject": {
+   "12511001": "idiomatic/ominous: they are among us"
+  }
+ },
+ "U11": {
+  "reject": {
+   "445757": "idiom: wat houdt dat in (entail), conflicts with houden van"
+  }
+ },
+ "U53": {
+  "reject": {
+   "11167102": "duplicate: redundant hospital line",
+   "11169271": "duplicate: redundant hospital line"
+  }
+ }
+}

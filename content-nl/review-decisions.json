@@ -1,0 +1,133 @@
+{
+  "_about": "Dan's rulings for the Dutch course: approvals, cuts, accepted answers, hints, allowed names. Same shape as the other courses' content-*/review-decisions.json.",
+  "sentences": {},
+  "accepted_answers": {},
+  "units": {
+    "U01": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: greetings and who you are, all clean after review"
+    },
+    "U02": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: the, he/she, this/that, and jobs without een"
+    },
+    "U03": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: set polite phrases"
+    },
+    "U04": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: present tense and houden van for liking"
+    },
+    "U05": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: hebben for having"
+    },
+    "U06": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: plurals and the we/you-all/they forms"
+    },
+    "U07": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: adjectives before a noun"
+    },
+    "U08": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: saying where something is"
+    },
+    "U09": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: feelings: zijn for most, hebben for a few"
+    },
+    "U10": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: my, your, his, her and family"
+    },
+    "U11": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: question words come first"
+    },
+    "U12": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: counting to ten"
+    },
+    "U13": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: colours"
+    },
+    "U14": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: time words and the days"
+    },
+    "U15": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: gaan for going, naar for to"
+    },
+    "U31": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: keeping a conversation going"
+    },
+    "U32": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: asking about words"
+    },
+    "U33": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: asking for a word you do not have"
+    },
+    "U51": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: describing a person"
+    },
+    "U52": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: free time"
+    },
+    "U53": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude under autonomous-build.md: getting around town"
+    }
+  },
+  "cut_sentences": [],
+  "vocabulary_additions": [],
+  "hints": {},
+  "borrow": {},
+  "drafting": {},
+  "claude_hints": {},
+  "phrases_off": {},
+  "names": [
+    "Tom",
+    "Maria",
+    "Mary",
+    "Anna",
+    "Jan",
+    "Mark",
+    "Amsterdam",
+    "Rotterdam",
+    "Parijs",
+    "Londen"
+  ],
+  "_names": "Names Tatoeba's Dutch sentences use that the analyser should treat as proper nouns, not unknown words.",
+  "accepted_additions": []
+}

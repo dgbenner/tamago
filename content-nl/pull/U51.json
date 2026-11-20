@@ -1,0 +1,1449 @@
+{
+  "unit_id": "U51",
+  "pulled_at": "2026-11-19",
+  "candidates": 75,
+  "sentences": [
+    {
+      "sentence_id": "S51001",
+      "unit_id": "U51",
+      "french": "Maria heeft lang blond haar.",
+      "english": "Mary has long blonde hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7488036",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51002",
+      "unit_id": "U51",
+      "french": "Tom heeft lang blond haar.",
+      "english": "Tom has long blond hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7488038",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51003",
+      "unit_id": "U51",
+      "french": "Ik heb lang blond haar.",
+      "english": "I have long blonde hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7488039",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51004",
+      "unit_id": "U51",
+      "french": "Ik ben knap?",
+      "english": "I am handsome?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7548977",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51005",
+      "unit_id": "U51",
+      "french": "Ben ik knap?",
+      "english": "Am I pretty?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7548980",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "Am I handsome?"
+      ]
+    },
+    {
+      "sentence_id": "S51006",
+      "unit_id": "U51",
+      "french": "Is Tom knap?",
+      "english": "Is Tom handsome?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9259134",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51007",
+      "unit_id": "U51",
+      "french": "Is haar hoofd rood?",
+      "english": "Is her head red?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6196772",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Piet_c",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51008",
+      "unit_id": "U51",
+      "french": "Zijn mijn ogen rood?",
+      "english": "Are my eyes red?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10643247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rose_d",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51009",
+      "unit_id": "U51",
+      "french": "Waarom zijn je ogen rood?",
+      "english": "Why are your eyes red?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8008577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51010",
+      "unit_id": "U51",
+      "french": "Waarom zijn jullie ogen rood?",
+      "english": "Why are your eyes red?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8008580",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51011",
+      "unit_id": "U51",
+      "french": "Wat slim!",
+      "english": "How clever!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8234760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "meshbags",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51012",
+      "unit_id": "U51",
+      "french": "Slim kind!",
+      "english": "Smart kid!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10106061",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51013",
+      "unit_id": "U51",
+      "french": "Hij is slim.",
+      "english": "He's smart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "379663",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "He is smart."
+      ]
+    },
+    {
+      "sentence_id": "S51014",
+      "unit_id": "U51",
+      "french": "Houd het kort.",
+      "english": "Be brief.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9053002",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51015",
+      "unit_id": "U51",
+      "french": "Hij heeft kort haar.",
+      "english": "He has short hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6622937",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51016",
+      "unit_id": "U51",
+      "french": "Mijn haar is kort.",
+      "english": "My hair is short.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7611583",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51017",
+      "unit_id": "U51",
+      "french": "Tom heeft een blauw oog.",
+      "english": "Tom has a black eye.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1482774",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51018",
+      "unit_id": "U51",
+      "french": "Hij heeft een grote mond.",
+      "english": "He has a big mouth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8374023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51019",
+      "unit_id": "U51",
+      "french": "Je hebt een grote neus.",
+      "english": "You have a big nose.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11872646",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Slam4",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51020",
+      "unit_id": "U51",
+      "french": "Dat kind heeft een heel groot hoofd.",
+      "english": "That child has a very large head.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5340317",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51021",
+      "unit_id": "U51",
+      "french": "Hoe lang?",
+      "english": "How long?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8615213",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51022",
+      "unit_id": "U51",
+      "french": "Is hij lang?",
+      "english": "Is he tall?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7899029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51023",
+      "unit_id": "U51",
+      "french": "Hoe lang ben jij?",
+      "english": "How tall are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8075282",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51024",
+      "unit_id": "U51",
+      "french": "Hoe lang is jouw broer?",
+      "english": "How tall is your brother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7499907",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51025",
+      "unit_id": "U51",
+      "french": "Tom is lang en knap.",
+      "english": "Tom is tall and handsome.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11508007",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51026",
+      "unit_id": "U51",
+      "french": "Ik ben slim.",
+      "english": "I'm smart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "403228",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "I am smart."
+      ]
+    },
+    {
+      "sentence_id": "S51027",
+      "unit_id": "U51",
+      "french": "Katten zijn slim.",
+      "english": "Cats are smart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3959216",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lonepawn",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51028",
+      "unit_id": "U51",
+      "french": "Ik ben lang.",
+      "english": "I'm tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4945034",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": [
+        "I am tall."
+      ]
+    },
+    {
+      "sentence_id": "S51029",
+      "unit_id": "U51",
+      "french": "Maria is blond.",
+      "english": "Mary is blonde.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6087450",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mandalay",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51030",
+      "unit_id": "U51",
+      "french": "Tom is slim.",
+      "english": "Tom's smart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6577296",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ag12x",
+      "other_english": [
+        "Tom is smart.",
+        "Tom is clever."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S51001",
+      "position": 1,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 3,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 4,
+      "surface": "blond",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 5,
+      "surface": "haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 3,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 4,
+      "surface": "blond",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 5,
+      "surface": "haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 2,
+      "surface": "heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 3,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 4,
+      "surface": "blond",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 5,
+      "surface": "haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 3,
+      "surface": "knap",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 2,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 3,
+      "surface": "knap",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 3,
+      "surface": "knap",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 2,
+      "surface": "haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 3,
+      "surface": "hoofd",
+      "word_id": "W1007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 4,
+      "surface": "rood",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 2,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 3,
+      "surface": "ogen",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 4,
+      "surface": "rood",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 4,
+      "surface": "ogen",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 5,
+      "surface": "rood",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 3,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 4,
+      "surface": "ogen",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 5,
+      "surface": "rood",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51011",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51011",
+      "position": 2,
+      "surface": "slim",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51012",
+      "position": 1,
+      "surface": "Slim",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51012",
+      "position": 2,
+      "surface": "kind",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 3,
+      "surface": "slim",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51014",
+      "position": 1,
+      "surface": "Houd",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51014",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51014",
+      "position": 3,
+      "surface": "kort",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51015",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51015",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51015",
+      "position": 3,
+      "surface": "kort",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51015",
+      "position": 4,
+      "surface": "haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51016",
+      "position": 1,
+      "surface": "Mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51016",
+      "position": 2,
+      "surface": "haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51016",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51016",
+      "position": 4,
+      "surface": "kort",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 4,
+      "surface": "blauw",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 5,
+      "surface": "oog",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 4,
+      "surface": "grote",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 5,
+      "surface": "mond",
+      "word_id": "W1006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 2,
+      "surface": "hebt",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 4,
+      "surface": "grote",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 5,
+      "surface": "neus",
+      "word_id": "W1005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 1,
+      "surface": "Dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 2,
+      "surface": "kind",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 3,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 4,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 5,
+      "surface": "heel",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 6,
+      "surface": "groot",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 7,
+      "surface": "hoofd",
+      "word_id": "W1007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51021",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51021",
+      "position": 2,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 2,
+      "surface": "hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 3,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51023",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51023",
+      "position": 2,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51023",
+      "position": 3,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51023",
+      "position": 4,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 2,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 4,
+      "surface": "jouw",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 5,
+      "surface": "broer",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 3,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 5,
+      "surface": "knap",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51026",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51026",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51026",
+      "position": 3,
+      "surface": "slim",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51027",
+      "position": 1,
+      "surface": "Katten",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51027",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51027",
+      "position": 3,
+      "surface": "slim",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51028",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51028",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51028",
+      "position": 3,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51029",
+      "position": 1,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51029",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51029",
+      "position": 3,
+      "surface": "blond",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51030",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51030",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51030",
+      "position": 3,
+      "surface": "slim",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A510051",
+      "sentence_id": "S51005",
+      "direction": "fr_to_en",
+      "answer": "Am I handsome?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510131",
+      "sentence_id": "S51013",
+      "direction": "fr_to_en",
+      "answer": "He is smart.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510261",
+      "sentence_id": "S51026",
+      "direction": "fr_to_en",
+      "answer": "I am smart.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510281",
+      "sentence_id": "S51028",
+      "direction": "fr_to_en",
+      "answer": "I am tall.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510301",
+      "sentence_id": "S51030",
+      "direction": "fr_to_en",
+      "answer": "Tom is smart.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510302",
+      "sentence_id": "S51030",
+      "direction": "fr_to_en",
+      "answer": "Tom is clever.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

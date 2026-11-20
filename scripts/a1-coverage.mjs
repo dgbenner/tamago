@@ -86,6 +86,14 @@ const THEMES = {
     Months: ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro', 'mês'],
     Dates: ['data', 'ano', 'primeiro', 'aniversário', 'primavera', 'verão', 'outono', 'inverno'],
   },
+  nl: {
+    'Numbers to 100': ['nul', 'een', 'één', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien', 'elf', 'twaalf', 'dertien', 'veertien', 'vijftien', 'zestien', 'zeventien', 'achttien', 'negentien', 'twintig', 'dertig', 'veertig', 'vijftig', 'zestig', 'zeventig', 'tachtig', 'negentig', 'honderd'],
+    Prices: ['euro', 'cent', 'kosten', 'prijs', 'goedkoop', 'duur', 'betalen', 'geld'],
+    Times: ['uur', 'minuut', 'half', 'kwart', 'voor', 'over', 'ochtend', 'middag', 'avond', 'nacht', 'vroeg', 'laat'],
+    Days: ['maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag', 'zondag', 'weekend', 'dag', 'week', 'vandaag', 'morgen', 'gisteren'],
+    Months: ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december', 'maand'],
+    Dates: ['datum', 'jaar', 'eerste', 'tweede', 'derde', 'verjaardag', 'lente', 'zomer', 'herfst', 'winter'],
+  },
   fr: {
     'Numbers to 100': ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf', 'vingt', 'trente', 'quarante', 'cinquante', 'soixante', 'soixante-dix', 'quatre-vingts', 'quatre-vingt-dix', 'cent'],
     Prices: ['euro', 'centime', 'coûter', 'prix', 'cher', 'payer', 'argent'],

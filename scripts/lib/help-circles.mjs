@@ -39,6 +39,11 @@ export const HELP = {
     U32: { grammar: 'Como se diz…? O que significa…? O que quer dizer…?', words: ['se', 'diz', 'significa', 'quer', 'dizer', 'palavra', 'português', 'inglês'], borrow: ['o que', 'que', 'em', 'como', 'isso'] },
     U33: { grammar: 'Estou procurando a palavra…; é uma coisa para…; não sei', words: ['procurando', 'sei', 'sabe', 'coisa', 'chama', 'serve', 'nome'], borrow: ['para', 'o que'] },
   },
+  nl: {
+    U31: { grammar: 'Ik begrijp het niet; langzamer, alsjeblieft; nog een keer', words: ['begrijp', 'begrijpt', 'langzamer', 'nog', 'keer', 'zeg', 'zegt', 'spreek', 'praat', 'herhaal'], borrow: ['alsjeblieft', 'niet'] },
+    U32: { grammar: 'Hoe zeg je…? Wat betekent…? Het woord in het Nederlands', words: ['betekent', 'woord', 'Nederlands', 'Engels'], borrow: ['wat', 'hoe', 'zeg', 'in'] },
+    U33: { grammar: 'Ik zoek het woord…; het is een ding om te…; ik weet het niet', words: ['zoek', 'weet', 'ding', 'om', 'te', 'heet'], borrow: ['woord', 'niet'] },
+  },
 }
 
 // "I can" statements, written for the CEFR self-assessment grid's A1 spoken interaction row, which is this thread:
