@@ -16034,8 +16034,8 @@
   {
     "sentence_id": "S32102",
     "position": 3,
-    "surface": "et",
-    "word_id": "W010",
+    "surface": "det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
@@ -16194,24 +16194,24 @@
   {
     "sentence_id": "S7101",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7101",
     "position": 2,
-    "surface": "bil",
-    "word_id": "W083",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7101",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -16224,26 +16224,34 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S7101",
+    "position": 5,
+    "surface": "bil",
+    "word_id": "W083",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S7102",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7102",
     "position": 2,
-    "surface": "cykel",
-    "word_id": "W084",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7102",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -16252,6 +16260,14 @@
     "position": 4,
     "surface": "gammel",
     "word_id": "W078",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7102",
+    "position": 5,
+    "surface": "cykel",
+    "word_id": "W084",
     "notes": "",
     "hint_override": ""
   },
@@ -16282,24 +16298,24 @@
   {
     "sentence_id": "S7104",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7104",
     "position": 2,
-    "surface": "bil",
-    "word_id": "W083",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7104",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -16312,26 +16328,34 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S7104",
+    "position": 5,
+    "surface": "bil",
+    "word_id": "W083",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S7105",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7105",
     "position": 2,
-    "surface": "bog",
-    "word_id": "W021",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S7105",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -16340,6 +16364,14 @@
     "position": 4,
     "surface": "sjov",
     "word_id": "W086",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7105",
+    "position": 5,
+    "surface": "bog",
+    "word_id": "W021",
     "notes": "",
     "hint_override": ""
   },
@@ -17802,24 +17834,24 @@
   {
     "sentence_id": "S13101",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13101",
     "position": 2,
-    "surface": "bil",
-    "word_id": "W083",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13101",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -17832,26 +17864,34 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S13101",
+    "position": 5,
+    "surface": "bil",
+    "word_id": "W083",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S13102",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13102",
     "position": 2,
-    "surface": "cykel",
-    "word_id": "W084",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13102",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -17864,26 +17904,34 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S13102",
+    "position": 5,
+    "surface": "cykel",
+    "word_id": "W084",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S13103",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13103",
     "position": 2,
-    "surface": "bus",
-    "word_id": "W1029",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13103",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -17896,26 +17944,34 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S13103",
+    "position": 5,
+    "surface": "bus",
+    "word_id": "W1029",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S13104",
     "position": 1,
-    "surface": "En",
-    "word_id": "W009",
+    "surface": "Det",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13104",
     "position": 2,
-    "surface": "hund",
-    "word_id": "W055",
+    "surface": "er",
+    "word_id": "W008",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13104",
     "position": 3,
-    "surface": "er",
-    "word_id": "W008",
+    "surface": "en",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
@@ -17924,6 +17980,14 @@
     "position": 4,
     "surface": "brun",
     "word_id": "W146",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13104",
+    "position": 5,
+    "surface": "hund",
+    "word_id": "W055",
     "notes": "",
     "hint_override": ""
   },

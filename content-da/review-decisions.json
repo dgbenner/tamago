@@ -1,6 +1,82 @@
 {
  "_about": "Danish course review decisions (Dan, 2026-11-19, branch lang/danish). units: circle approvals. gender: en/et imported from a Wiktionary pass where the pipeline leaves Danish noun gender blank (build-content applies it). names: people and places allowed in sentences. sentences/cut_sentences/claude_hints/accepted_additions as the review needs.",
- "sentences": {},
+ "sentences": {
+  "S3007": {
+   "action": "confirm",
+   "french": "Farvel, Tom!",
+   "english_source": "Fable review pick"
+  },
+  "S5003": {
+   "action": "confirm",
+   "french": "Har du en hund?",
+   "english_source": "Fable review pick"
+  },
+  "S5017": {
+   "action": "confirm",
+   "french": "Har du det dårligt?",
+   "english_source": "Fable review pick"
+  },
+  "S5021": {
+   "action": "confirm",
+   "french": "Har du det ikke godt?",
+   "english_source": "Fable review pick"
+  },
+  "S32005": {
+   "action": "confirm",
+   "french": "Hvordan siger man ...?",
+   "english_source": "Fable review pick"
+  },
+  "S6015": {
+   "action": "confirm",
+   "french": "Har han børn?",
+   "english_source": "Fable review pick"
+  },
+  "S6028": {
+   "action": "confirm",
+   "french": "Har du en hund?",
+   "english_source": "Fable review pick"
+  },
+  "S33003": {
+   "action": "confirm",
+   "french": "Jeg ved ikke.",
+   "english_source": "Fable review pick"
+  },
+  "S33004": {
+   "action": "confirm",
+   "french": "Jeg ved hvordan.",
+   "english_source": "Fable review pick"
+  },
+  "S33010": {
+   "action": "confirm",
+   "french": "Det ved jeg ikke.",
+   "english_source": "Fable review pick"
+  },
+  "S11010": {
+   "action": "confirm",
+   "french": "Hvornår er vi der?",
+   "english_source": "Fable review pick"
+  },
+  "S11017": {
+   "action": "confirm",
+   "french": "Hvornår går du i seng?",
+   "english_source": "Fable review pick"
+  },
+  "S53005": {
+   "action": "confirm",
+   "french": "Tom går ikke i kirke.",
+   "english_source": "Fable review pick"
+  },
+  "S15009": {
+   "action": "confirm",
+   "french": "Hvor går Tom i skole?",
+   "english_source": "Fable review pick"
+  },
+  "S51004": {
+   "action": "confirm",
+   "french": "Tom er klog.",
+   "english_source": "Fable review pick"
+  }
+ },
  "accepted_answers": {},
  "units": {
   "U01": {
@@ -126,7 +202,55 @@
   "S11026",
   "S12008",
   "S12010",
-  "S14017"
+  "S14017",
+  "S1006",
+  "S1017",
+  "S31002",
+  "S31102",
+  "S2009",
+  "S2010",
+  "S2101",
+  "S2103",
+  "S3008",
+  "S4019",
+  "S4028",
+  "S5101",
+  "S32003",
+  "S32007",
+  "S32012",
+  "S32017",
+  "S6001",
+  "S6021",
+  "S7016",
+  "S7017",
+  "S7024",
+  "S52013",
+  "S52016",
+  "S52019",
+  "S52104",
+  "S52106",
+  "S8002",
+  "S8025",
+  "S9023",
+  "S33002",
+  "S33009",
+  "S10023",
+  "S10026",
+  "S11001",
+  "S12029",
+  "S51010",
+  "S51011",
+  "S15005",
+  "S15006",
+  "S15007",
+  "S15014",
+  "S15015",
+  "S15016",
+  "S15017",
+  "S15018",
+  "S15020",
+  "S15022",
+  "S53110"
  ],
  "vocabulary_additions": [],
  "hints": {},
@@ -217,8 +341,8 @@
    "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
   },
   "W713": {
-   "hint": "leder efter: to look for",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+   "hint": "to look for",
+   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
   },
   "W715": {
    "hint": "know",
@@ -241,8 +365,8 @@
    "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
   },
   "W703": {
-   "hint": "a time (en gang til: one more time)",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+   "hint": "a time, an occasion",
+   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
   },
   "W129": {
    "hint": "which",
@@ -307,6 +431,18 @@
   "W707": {
    "hint": "again",
    "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+  },
+  "W1012": {
+   "hint": "pretty, nice",
+   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+  },
+  "W1010": {
+   "hint": "long; tall (of a person)",
+   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+  },
+  "W1023": {
+   "hint": "film, movie",
+   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
   }
  },
  "phrases_off": {},
@@ -407,7 +543,8 @@
   "W139": "et",
   "W710": "et",
   "W716": "en",
-  "W1008": "et"
+  "W1008": "et",
+  "W094": "et"
  },
  "accepted_additions": []
 }

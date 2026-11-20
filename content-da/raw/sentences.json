@@ -753,7 +753,7 @@
     "sentence_id": "S3007",
     "unit_id": "U03",
     "french": "Farvel, Tom!",
-    "english": "Have a nice day, Tom.",
+    "english": "Goodbye, Tom!",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "4407898",
@@ -1308,7 +1308,7 @@
     "sentence_id": "S5003",
     "unit_id": "U05",
     "french": "Har du en hund?",
-    "english": "Have you a dog?",
+    "english": "Do you have a dog?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "3123771",
@@ -1518,7 +1518,7 @@
     "sentence_id": "S5017",
     "unit_id": "U05",
     "french": "Har du det dårligt?",
-    "english": "Do you feel sick?",
+    "english": "Are you feeling bad?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "4317882",
@@ -1578,7 +1578,7 @@
     "sentence_id": "S5021",
     "unit_id": "U05",
     "french": "Har du det ikke godt?",
-    "english": "Do you feel sick?",
+    "english": "Aren't you feeling well?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "4317869",
@@ -1938,7 +1938,7 @@
     "sentence_id": "S6015",
     "unit_id": "U06",
     "french": "Har han børn?",
-    "english": "Has he any children?",
+    "english": "Does he have children?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "1151379",
@@ -2133,7 +2133,7 @@
     "sentence_id": "S6028",
     "unit_id": "U06",
     "french": "Har du en hund?",
-    "english": "Have you a dog?",
+    "english": "Do you have a dog?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "3123771",
@@ -4113,7 +4113,7 @@
     "sentence_id": "S11010",
     "unit_id": "U11",
     "french": "Hvornår er vi der?",
-    "english": "When will we get there?",
+    "english": "When are we there?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "12002182",
@@ -4218,7 +4218,7 @@
     "sentence_id": "S11017",
     "unit_id": "U11",
     "french": "Hvornår går du i seng?",
-    "english": "At what time do you go to bed?",
+    "english": "When do you go to bed?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "13161967",
@@ -5748,7 +5748,7 @@
     "sentence_id": "S15009",
     "unit_id": "U15",
     "french": "Hvor går Tom i skole?",
-    "english": "Where does Tom attend school?",
+    "english": "Where does Tom go to school?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "12134481",
@@ -6063,7 +6063,7 @@
     "sentence_id": "S32005",
     "unit_id": "U32",
     "french": "Hvordan siger man ...?",
-    "english": "How do you say...?",
+    "english": "How do you say ...?",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "7266851",
@@ -6303,7 +6303,7 @@
     "sentence_id": "S33003",
     "unit_id": "U33",
     "french": "Jeg ved ikke.",
-    "english": "Dunno.",
+    "english": "I don't know.",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "618979",
@@ -6318,7 +6318,7 @@
     "sentence_id": "S33004",
     "unit_id": "U33",
     "french": "Jeg ved hvordan.",
-    "english": "I know a way.",
+    "english": "I know how.",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "8730695",
@@ -6408,7 +6408,7 @@
     "sentence_id": "S33010",
     "unit_id": "U33",
     "french": "Det ved jeg ikke.",
-    "english": "Don't know.",
+    "english": "I don't know that.",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "599562",
@@ -6513,7 +6513,7 @@
     "sentence_id": "S51004",
     "unit_id": "U51",
     "french": "Tom er klog.",
-    "english": "Tom has brains.",
+    "english": "Tom is clever.",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "8589527",
@@ -7128,7 +7128,7 @@
     "sentence_id": "S53005",
     "unit_id": "U53",
     "french": "Tom går ikke i kirke.",
-    "english": "Tom isn't a church-going man.",
+    "english": "Tom doesn't go to church.",
     "pair_id": "",
     "source": "tatoeba",
     "source_id": "7433305",
@@ -7513,7 +7513,7 @@
     "sentence_id": "S3103",
     "unit_id": "U03",
     "french": "Hvordan går det? Det går godt.",
-    "english": "How are you? I am well.",
+    "english": "How is it going? It is going well.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -7521,7 +7521,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S3104",
@@ -7769,8 +7769,8 @@
   {
     "sentence_id": "S32102",
     "unit_id": "U32",
-    "french": "Hvad betyder et ord?",
-    "english": "What does a word mean?",
+    "french": "Hvad betyder det ord?",
+    "english": "What does that word mean?",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -7778,7 +7778,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S32103",
@@ -7853,8 +7853,8 @@
   {
     "sentence_id": "S7101",
     "unit_id": "U07",
-    "french": "En bil er ny.",
-    "english": "A car is new.",
+    "french": "Det er en ny bil.",
+    "english": "It is a new car.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -7862,13 +7862,13 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S7102",
     "unit_id": "U07",
-    "french": "En cykel er gammel.",
-    "english": "A bike is old.",
+    "french": "Det er en gammel cykel.",
+    "english": "It is an old bike.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -7876,7 +7876,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S7103",
@@ -7895,8 +7895,8 @@
   {
     "sentence_id": "S7104",
     "unit_id": "U07",
-    "french": "En bil er grim.",
-    "english": "A car is ugly.",
+    "french": "Det er en grim bil.",
+    "english": "It is an ugly car.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -7904,13 +7904,13 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S7105",
     "unit_id": "U07",
-    "french": "En bog er sjov.",
-    "english": "A book is fun.",
+    "french": "Det er en sjov bog.",
+    "english": "It is a fun book.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -7918,7 +7918,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S52101",
@@ -8541,8 +8541,8 @@
   {
     "sentence_id": "S13101",
     "unit_id": "U13",
-    "french": "En bil er rød.",
-    "english": "A car is red.",
+    "french": "Det er en rød bil.",
+    "english": "It is a red car.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -8550,13 +8550,13 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S13102",
     "unit_id": "U13",
-    "french": "En cykel er grøn.",
-    "english": "A bike is green.",
+    "french": "Det er en grøn cykel.",
+    "english": "It is a green bike.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -8564,13 +8564,13 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S13103",
     "unit_id": "U13",
-    "french": "En bus er gul.",
-    "english": "A bus is yellow.",
+    "french": "Det er en gul bus.",
+    "english": "It is a yellow bus.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -8578,13 +8578,13 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S13104",
     "unit_id": "U13",
-    "french": "En hund er brun.",
-    "english": "A dog is brown.",
+    "french": "Det er en brun hund.",
+    "english": "It is a brown dog.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -8592,7 +8592,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had few lines for these words"
+    "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
   },
   {
     "sentence_id": "S13105",

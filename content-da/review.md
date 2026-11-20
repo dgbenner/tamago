@@ -34,7 +34,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S2105 |  | En lille dør. | A small door. | tts |
 | S2106 |  | Det er et bord. | It is a table. | tts |
 | S2107 |  | Den er lille. | It is small. | tts |
-| S3103 |  | Hvordan går det? Det går godt. | How are you? I am well. | tts |
+| S3103 |  | Hvordan går det? Det går godt. | How is it going? It is going well. | tts |
 | S3104 |  | Det går dårligt. | Things are going badly. | tts |
 | S3108 |  | Tak, det er fint. | Thanks, that is fine. | tts |
 | S4101 |  | Jeg spiser brød. | I eat bread. | tts |
@@ -47,17 +47,17 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S5104 |  | Jeg har en mus. | I have a mouse. | tts |
 | S5105 |  | Jeg har en kanin. | I have a rabbit. | tts |
 | S5106 |  | En hund er et dyr. | A dog is an animal. | tts |
-| S32102 |  | Hvad betyder et ord? | What does a word mean? | tts |
+| S32102 |  | Hvad betyder det ord? | What does that word mean? | tts |
 | S32103 |  | Hvordan siger man det? | How do you say it? | tts |
 | S6101 |  | Jeg har mange bøger. | I have many books. | tts |
 | S6102 |  | Vi har mange huse. | We have many houses. | tts |
 | S6103 |  | De er mænd. | They are men. | tts |
 | S6104 |  | Mange store æbler. | Many big apples. | tts |
-| S7101 |  | En bil er ny. | A car is new. | tts |
-| S7102 |  | En cykel er gammel. | A bike is old. | tts |
+| S7101 |  | Det er en ny bil. | It is a new car. | tts |
+| S7102 |  | Det er en gammel cykel. | It is an old bike. | tts |
 | S7103 |  | Hun er ung. | She is young. | tts |
-| S7104 |  | En bil er grim. | A car is ugly. | tts |
-| S7105 |  | En bog er sjov. | A book is fun. | tts |
+| S7104 |  | Det er en grim bil. | It is an ugly car. | tts |
+| S7105 |  | Det er en sjov bog. | It is a fun book. | tts |
 | S52101 |  | Jeg kan lide musik. | I like music. | tts |
 | S52102 |  | Det er et billede. | It is a picture. | tts |
 | S52103 |  | Jeg kan lide fodbold. | I like football. | tts |
@@ -100,10 +100,10 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S12105 |  | Jeg har ni æbler. | I have nine apples. | tts |
 | S12106 |  | Der er ti venner. | There are ten friends. | tts |
 | S12107 |  | Jeg er ti år. | I am ten years old. | tts |
-| S13101 |  | En bil er rød. | A car is red. | tts |
-| S13102 |  | En cykel er grøn. | A bike is green. | tts |
-| S13103 |  | En bus er gul. | A bus is yellow. | tts |
-| S13104 |  | En hund er brun. | A dog is brown. | tts |
+| S13101 |  | Det er en rød bil. | It is a red car. | tts |
+| S13102 |  | Det er en grøn cykel. | It is a green bike. | tts |
+| S13103 |  | Det er en gul bus. | It is a yellow bus. | tts |
+| S13104 |  | Det er en brun hund. | It is a brown dog. | tts |
 | S13105 |  | Hvilken farve? | Which colour? | tts |
 | S14101 |  | I dag er en god dag. | Today is a good day. | tts |
 | S14102 |  | Det er en uge. | It is a week. | tts |
@@ -406,7 +406,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S3004 | Ikke dårligt! | Not bad. | [#5893719](https://tatoeba.org/en/sentences/show/5893719) | danepo |  |  | tts |
 | S3005 | Godaften, Tom. | Good evening, Tom. | [#9937505](https://tatoeba.org/en/sentences/show/9937505) | danepo |  |  | tts |
 | S3006 | Nej tak. | No, thanks. | [#615936](https://tatoeba.org/en/sentences/show/615936) | danepo |  |  | tts |
-| S3007 | Farvel, Tom! | Have a nice day, Tom. | [#4407898](https://tatoeba.org/en/sentences/show/4407898) | danepo |  |  | tts |
+| S3007 | Farvel, Tom! | Goodbye, Tom! | [#4407898](https://tatoeba.org/en/sentences/show/4407898) | danepo | confirm | Fable review pick | tts |
 | S3008 | Du er ikke velkommen. | You're not welcome. | [#13102722](https://tatoeba.org/en/sentences/show/13102722) | danepo |  |  | tts |
 | S3009 | Jeg går. | I'm going. | [#614072](https://tatoeba.org/en/sentences/show/614072) | danepo |  |  | tts |
 | S3010 | Han går. | He walks. | [#3943261](https://tatoeba.org/en/sentences/show/3943261) | Mlkragelund |  |  | tts |
@@ -443,7 +443,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S4030 | Jeg kan ikke. | I can't. | [#1962254](https://tatoeba.org/en/sentences/show/1962254) | danepo |  |  | tts |
 | S5001 | Jeg har en kat og en hund. | I have a cat and a dog. | [#516102](https://tatoeba.org/en/sentences/show/516102) | danepo |  |  | tts |
 | S5002 | Jeg har en hund og en kat. | I have a dog and a cat. | [#1282127](https://tatoeba.org/en/sentences/show/1282127) | danepo |  |  | tts |
-| S5003 | Har du en hund? | Have you a dog? | [#3123771](https://tatoeba.org/en/sentences/show/3123771) | danepo |  |  | tts |
+| S5003 | Har du en hund? | Do you have a dog? | [#3123771](https://tatoeba.org/en/sentences/show/3123771) | danepo | confirm |  | tts |
 | S5004 | Er det en kat? | Is that a cat? | [#474890](https://tatoeba.org/en/sentences/show/474890) | danepo |  |  | tts |
 | S5005 | Er det en fugl? | Is it a bird? | [#12431004](https://tatoeba.org/en/sentences/show/12431004) | danepo |  |  | tts |
 | S5006 | Jeg har en hest. | I have a horse. | [#5185761](https://tatoeba.org/en/sentences/show/5185761) | danepo |  |  | tts |
@@ -457,11 +457,11 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S5014 | Har hun det godt? | Is she all right? | [#1939814](https://tatoeba.org/en/sentences/show/1939814) | danepo |  |  | tts |
 | S5015 | Har du en bog? | Do you have a book? | [#2667131](https://tatoeba.org/en/sentences/show/2667131) | danepo |  |  | tts |
 | S5016 | Har du et hus? | Do you have a house? | [#3866653](https://tatoeba.org/en/sentences/show/3866653) | danepo |  |  | tts |
-| S5017 | Har du det dårligt? | Do you feel sick? | [#4317882](https://tatoeba.org/en/sentences/show/4317882) | danepo |  |  | tts |
+| S5017 | Har du det dårligt? | Are you feeling bad? | [#4317882](https://tatoeba.org/en/sentences/show/4317882) | danepo | confirm | Fable review pick | tts |
 | S5018 | Hvordan har Mary det? | How is Mary? | [#8808221](https://tatoeba.org/en/sentences/show/8808221) | danepo |  |  | tts |
 | S5019 | Har Tom det dårligt? | Is Tom feeling bad? | [#11214730](https://tatoeba.org/en/sentences/show/11214730) | danepo |  |  | tts |
 | S5020 | Har du det godt? | Are you feeling OK? | [#12970871](https://tatoeba.org/en/sentences/show/12970871) | danepo |  |  | tts |
-| S5021 | Har du det ikke godt? | Do you feel sick? | [#4317869](https://tatoeba.org/en/sentences/show/4317869) | danepo |  |  | tts |
+| S5021 | Har du det ikke godt? | Aren't you feeling well? | [#4317869](https://tatoeba.org/en/sentences/show/4317869) | danepo | confirm | Fable review pick | tts |
 | S5022 | Hvordan har du det, Tom? | How are you, Tom? | [#6891089](https://tatoeba.org/en/sentences/show/6891089) | danepo |  |  | tts |
 | S5023 | Og du, hvordan har du det? | And you, how are you? | [#611275](https://tatoeba.org/en/sentences/show/611275) | danepo |  |  | tts |
 | S5024 | Er du læge? | Are you a doctor? | [#3231541](https://tatoeba.org/en/sentences/show/3231541) | danepo |  |  | tts |
@@ -485,7 +485,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S6012 | Jeg har en stor hund. | I have a big dog. | [#4203616](https://tatoeba.org/en/sentences/show/4203616) | danepo |  |  | tts |
 | S6013 | Tom har en stor hund. | Tom has a big dog. | [#4203673](https://tatoeba.org/en/sentences/show/4203673) | danepo |  |  | tts |
 | S6014 | Har De æbler? | Do you have any apples? | [#3568219](https://tatoeba.org/en/sentences/show/3568219) | danepo |  |  | tts |
-| S6015 | Har han børn? | Has he any children? | [#1151379](https://tatoeba.org/en/sentences/show/1151379) | danepo |  |  | tts |
+| S6015 | Har han børn? | Does he have children? | [#1151379](https://tatoeba.org/en/sentences/show/1151379) | danepo | confirm |  | tts |
 | S6016 | Har hun børn? | Does she have children? | [#2348912](https://tatoeba.org/en/sentences/show/2348912) | Sharaf78 |  |  | tts |
 | S6017 | Har du børn? | Do you have children? | [#8487361](https://tatoeba.org/en/sentences/show/8487361) | danepo |  |  | tts |
 | S6018 | De er kvinder. | They're women. | [#10684119](https://tatoeba.org/en/sentences/show/10684119) | danepo |  |  | tts |
@@ -498,7 +498,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S6025 | Har De et hus? | Do you have a house? | [#3866655](https://tatoeba.org/en/sentences/show/3866655) | danepo |  |  | tts |
 | S6026 | Kan Tom lide hunde? | Does Tom like dogs? | [#8714563](https://tatoeba.org/en/sentences/show/8714563) | danepo |  |  | tts |
 | S6027 | Kan du ikke lide æbler? | Don't you like apples? | [#476026](https://tatoeba.org/en/sentences/show/476026) | danepo |  |  | tts |
-| S6028 | Har du en hund? | Have you a dog? | [#3123771](https://tatoeba.org/en/sentences/show/3123771) | danepo |  |  | tts |
+| S6028 | Har du en hund? | Do you have a dog? | [#3123771](https://tatoeba.org/en/sentences/show/3123771) | danepo | confirm |  | tts |
 | S6029 | Har han en hund? | Does he have a dog? | [#4203575](https://tatoeba.org/en/sentences/show/4203575) | danepo |  |  | tts |
 | S6030 | Du har en hund, har du ikke? | You have a dog, don't you? | [#4203694](https://tatoeba.org/en/sentences/show/4203694) | danepo |  |  | tts |
 | S7001 | Han er meget smuk. | He is very handsome. | [#1826855](https://tatoeba.org/en/sentences/show/1826855) | danepo |  |  | tts |
@@ -630,14 +630,14 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S11007 | Hvorfor danser du? | Why are you dancing? | [#6141032](https://tatoeba.org/en/sentences/show/6141032) | sifhg |  |  | tts |
 | S11008 | Hvorfor er du her? | Why are you here? | [#1568802](https://tatoeba.org/en/sentences/show/1568802) | Sharaf78 |  |  | tts |
 | S11009 | Hvornår drikker du kaffe? | When do you drink coffee? | [#1850939](https://tatoeba.org/en/sentences/show/1850939) | danepo |  |  | tts |
-| S11010 | Hvornår er vi der? | When will we get there? | [#12002182](https://tatoeba.org/en/sentences/show/12002182) | danepo |  |  | tts |
+| S11010 | Hvornår er vi der? | When are we there? | [#12002182](https://tatoeba.org/en/sentences/show/12002182) | danepo | confirm | Fable review pick | tts |
 | S11011 | Det er fordi du er en pige. | That's because you're a girl. | [#2426330](https://tatoeba.org/en/sentences/show/2426330) | Sharaf78 |  |  | tts |
 | S11012 | Hvem er du? | Who are you? | [#1568750](https://tatoeba.org/en/sentences/show/1568750) | Sharaf78 |  |  | tts |
 | S11013 | Hvor svømmer du? | Where do you swim? | [#1803135](https://tatoeba.org/en/sentences/show/1803135) | danepo |  |  | tts |
 | S11014 | Hvad har Tom? | What does Tom have? | [#4256169](https://tatoeba.org/en/sentences/show/4256169) | DetErMinNavn |  |  | tts |
 | S11015 | Hvilken hund er din? | Which dog is yours? | [#483386](https://tatoeba.org/en/sentences/show/483386) | danepo |  |  | tts |
 | S11016 | Hvorfor er han her? | Why is he here? | [#2365830](https://tatoeba.org/en/sentences/show/2365830) | danepo |  |  | tts |
-| S11017 | Hvornår går du i seng? | At what time do you go to bed? | [#13161967](https://tatoeba.org/en/sentences/show/13161967) | danepo |  |  | tts |
+| S11017 | Hvornår går du i seng? | When do you go to bed? | [#13161967](https://tatoeba.org/en/sentences/show/13161967) | danepo | confirm | Fable review pick | tts |
 | S11018 | Hvor er Paris? | Where is Paris? | [#2379835](https://tatoeba.org/en/sentences/show/2379835) | Sharaf78 |  |  | tts |
 | S11019 | Hvor er han? | Where is he? | [#2606555](https://tatoeba.org/en/sentences/show/2606555) | danepo |  |  | tts |
 | S11020 | Hvem er Tom? | Who's Tom? | [#4080459](https://tatoeba.org/en/sentences/show/4080459) | danepo |  |  | tts |
@@ -739,7 +739,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S15006 | Hvad er Tom god til? | What's Tom good at? | [#7567857](https://tatoeba.org/en/sentences/show/7567857) | danepo |  |  | tts |
 | S15007 | Her er butik. | At this location, there is a store. | [#2685264](https://tatoeba.org/en/sentences/show/2685264) | danepo |  |  | tts |
 | S15008 | Er Tom i skole? | Is Tom at school? | [#8069978](https://tatoeba.org/en/sentences/show/8069978) | danepo |  |  | tts |
-| S15009 | Hvor går Tom i skole? | Where does Tom attend school? | [#12134481](https://tatoeba.org/en/sentences/show/12134481) | danepo |  |  | tts |
+| S15009 | Hvor går Tom i skole? | Where does Tom go to school? | [#12134481](https://tatoeba.org/en/sentences/show/12134481) | danepo | confirm | Fable review pick | tts |
 | S15010 | Hvorfor er du ikke i skole? | Why aren't you in school? | [#5354623](https://tatoeba.org/en/sentences/show/5354623) | danepo |  |  | tts |
 | S15011 | Jeg går i skole. | I go to school. | [#4558022](https://tatoeba.org/en/sentences/show/4558022) | danepo |  |  | tts |
 | S15012 | Det er en skole. | That is a school. | [#7267056](https://tatoeba.org/en/sentences/show/7267056) | danepo |  |  | tts |
@@ -760,7 +760,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S32002 | Taler du engelsk? | Do you speak English? | [#615849](https://tatoeba.org/en/sentences/show/615849) | danepo |  |  | lingua_libre |
 | S32003 | Hvad betyder det? | What's that mean? | [#623380](https://tatoeba.org/en/sentences/show/623380) | danepo |  |  | tts |
 | S32004 | Taler han engelsk? | Does he speak English? | [#1720372](https://tatoeba.org/en/sentences/show/1720372) | danepo |  |  | tts |
-| S32005 | Hvordan siger man ...? | How do you say...? | [#7266851](https://tatoeba.org/en/sentences/show/7266851) | danepo |  |  | tts |
+| S32005 | Hvordan siger man ...? | How do you say ...? | [#7266851](https://tatoeba.org/en/sentences/show/7266851) | danepo | confirm |  | tts |
 | S32006 | Jeg taler dansk. | I speak Danish. | [#4657027](https://tatoeba.org/en/sentences/show/4657027) | danepo |  |  | tts |
 | S32007 | Nej betyder nej. | No means no. | [#8032543](https://tatoeba.org/en/sentences/show/8032543) | danepo |  |  | tts |
 | S32008 | Han taler dansk. | He speaks Danish. | [#13425238](https://tatoeba.org/en/sentences/show/13425238) | deniko |  |  | tts |
@@ -776,21 +776,21 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S32018 | Jeg taler ikke engelsk. | I don't speak English. | [#5745576](https://tatoeba.org/en/sentences/show/5745576) | Theocracy |  |  | tts |
 | S33001 | Ved du ikke det? | Don't you know? | [#8087913](https://tatoeba.org/en/sentences/show/8087913) | danepo |  |  | tts |
 | S33002 | Er det ikke Tom han hedder? | Isn't his name Tom? | [#4858860](https://tatoeba.org/en/sentences/show/4858860) | danepo |  |  | tts |
-| S33003 | Jeg ved ikke. | Dunno. | [#618979](https://tatoeba.org/en/sentences/show/618979) | danepo |  |  | tts |
-| S33004 | Jeg ved hvordan. | I know a way. | [#8730695](https://tatoeba.org/en/sentences/show/8730695) | danepo |  |  | tts |
+| S33003 | Jeg ved ikke. | I don't know. | [#618979](https://tatoeba.org/en/sentences/show/618979) | danepo | confirm |  | tts |
+| S33004 | Jeg ved hvordan. | I know how. | [#8730695](https://tatoeba.org/en/sentences/show/8730695) | danepo | confirm | Fable review pick | tts |
 | S33005 | Jeg hedder Tom. | My name is Tom. | [#10257308](https://tatoeba.org/en/sentences/show/10257308) | danepo |  |  | tts |
 | S33006 | Jeg hedder også Tom. | My name is Tom, too. | [#4858837](https://tatoeba.org/en/sentences/show/4858837) | danepo |  |  | tts |
 | S33007 | Det ved jeg. | I know that. | [#10515354](https://tatoeba.org/en/sentences/show/10515354) | danepo |  |  | tts |
 | S33008 | Han ved det. | He knows it. | [#10594128](https://tatoeba.org/en/sentences/show/10594128) | maaster |  |  | tts |
 | S33009 | Det ved kvinder. | Women know that. | [#11577797](https://tatoeba.org/en/sentences/show/11577797) | sifhg |  |  | tts |
-| S33010 | Det ved jeg ikke. | Don't know. | [#599562](https://tatoeba.org/en/sentences/show/599562) | danepo |  |  | tts |
+| S33010 | Det ved jeg ikke. | I don't know that. | [#599562](https://tatoeba.org/en/sentences/show/599562) | danepo | confirm |  | tts |
 | S33011 | Jeg ved det ikke. | I don't know. | [#1129125](https://tatoeba.org/en/sentences/show/1129125) | danepo |  |  | tts |
 | S33012 | Han ved det ikke. | He does not know. | [#1568821](https://tatoeba.org/en/sentences/show/1568821) | Sharaf78 |  |  | tts |
 | S33013 | Ja, jeg ved det. | Yes, I know. | [#4440992](https://tatoeba.org/en/sentences/show/4440992) | danepo |  |  | tts |
 | S51001 | Han har en lang næse. | He has a long nose. | [#3682470](https://tatoeba.org/en/sentences/show/3682470) | Sharaf78 |  |  | tts |
 | S51002 | Hun er meget klog, er hun ikke? | She's very smart, isn't she? | [#11922002](https://tatoeba.org/en/sentences/show/11922002) | sifhg |  |  | tts |
 | S51003 | Tom er kort. | Tom is short. | [#4080439](https://tatoeba.org/en/sentences/show/4080439) | danepo |  |  | tts |
-| S51004 | Tom er klog. | Tom has brains. | [#8589527](https://tatoeba.org/en/sentences/show/8589527) | danepo |  |  | tts |
+| S51004 | Tom er klog. | Tom is clever. | [#8589527](https://tatoeba.org/en/sentences/show/8589527) | danepo | confirm | Fable review pick | tts |
 | S51005 | Hun har blå øjne. | She has blue eyes. | [#476066](https://tatoeba.org/en/sentences/show/476066) | danepo |  |  | tts |
 | S51006 | Han har blå øjne. | He has blue eyes. | [#2306609](https://tatoeba.org/en/sentences/show/2306609) | danepo |  |  | tts |
 | S51007 | Hendes øjne er blå. | Her eyes are blue. | [#2514185](https://tatoeba.org/en/sentences/show/2514185) | danepo |  |  | tts |
@@ -831,7 +831,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S53002 | Der er vores bus. | There's our bus. | [#2255550](https://tatoeba.org/en/sentences/show/2255550) | danepo |  |  | tts |
 | S53003 | Det er en kirke. | That's a church. | [#2527897](https://tatoeba.org/en/sentences/show/2527897) | danepo |  |  | tts |
 | S53004 | Jeg ser en kirke. | I see a church. | [#8919029](https://tatoeba.org/en/sentences/show/8919029) | danepo |  |  | tts |
-| S53005 | Tom går ikke i kirke. | Tom isn't a church-going man. | [#7433305](https://tatoeba.org/en/sentences/show/7433305) | danepo |  |  | tts |
+| S53005 | Tom går ikke i kirke. | Tom doesn't go to church. | [#7433305](https://tatoeba.org/en/sentences/show/7433305) | danepo | confirm | Fable review pick | tts |
 | S31101 | Jeg forstår. | I understand. | [#7588726](https://tatoeba.org/en/sentences/show/7588726) | M1dx |  |  | tts |
 | S31102 | Jeg forstår ikke. | I do not understand. | [#606659](https://tatoeba.org/en/sentences/show/606659) | danepo |  |  | lingua_libre |
 | S2101 | Det er en bog. | It is a book. | [#1334067](https://tatoeba.org/en/sentences/show/1334067) | danepo |  |  | tts |
