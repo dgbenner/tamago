@@ -15,6 +15,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "são"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "seja"
     }
   ],
   "estar": [
@@ -33,6 +37,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "estão"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "esteja"
     }
   ],
   "comer": [
@@ -51,6 +59,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "comem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "coma"
     }
   ],
   "beber": [
@@ -69,6 +81,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "bebem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "beba"
     }
   ],
   "gostar": [
@@ -87,6 +103,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "gostam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "goste"
     }
   ],
   "ter": [
@@ -105,6 +125,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "têm"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "tenha"
     }
   ],
   "cantar": [
@@ -123,6 +147,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "cantam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "cante"
     }
   ],
   "ler": [
@@ -141,6 +169,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "leem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "leia"
     }
   ],
   "saber": [
@@ -159,6 +191,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "sabem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "saiba"
     }
   ],
   "ir": [
@@ -177,6 +213,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "vão"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "vá"
     }
   ],
   "apresentar": [
@@ -195,6 +235,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "apresentam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "apresente"
     }
   ],
   "usar": [
@@ -213,6 +257,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "usam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "use"
     }
   ],
   "poder": [
@@ -231,6 +279,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "podem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "possa"
     }
   ],
   "telefonar": [
@@ -249,6 +301,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "telefonam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "telefone"
     }
   ],
   "nascer": [
@@ -267,6 +323,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "nascem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "nasça"
     }
   ],
   "estudar": [
@@ -285,6 +345,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "estudam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "estude"
     }
   ],
   "morar": [
@@ -303,6 +367,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "moram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "more"
     }
   ],
   "falar": [
@@ -321,6 +389,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "falam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "fale"
     }
   ],
   "comprar": [
@@ -339,6 +411,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "compram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "compre"
     }
   ],
   "custar": [
@@ -357,6 +433,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "custam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "custe"
     }
   ],
   "ouvir": [
@@ -375,24 +455,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "ouvem"
-    }
-  ],
-  "chover": [
-    {
-      "person": "eu",
-      "form": "chovo"
     },
     {
-      "person": "você, ele, ela",
-      "form": "chove"
-    },
-    {
-      "person": "nós",
-      "form": "chovemos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "chovem"
+      "person": "você (imperativo)",
+      "form": "ouça"
     }
   ],
   "pensar": [
@@ -411,6 +477,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "pensam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "pense"
     }
   ],
   "vir": [
@@ -429,6 +499,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "vêm"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "venha"
     }
   ],
   "fazer": [
@@ -447,6 +521,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "fazem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "faça"
     }
   ],
   "dar": [
@@ -465,6 +543,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "dão"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "dê"
     }
   ],
   "abrir": [
@@ -483,6 +565,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "abrem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "abra"
     }
   ],
   "viajar": [
@@ -501,6 +587,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "viajam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "viaje"
     }
   ],
   "jogar": [
@@ -519,6 +609,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "jogam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "jogue"
     }
   ],
   "achar": [
@@ -537,6 +631,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "acham"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "ache"
     }
   ],
   "entrar": [
@@ -555,6 +653,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "entram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "entre"
     }
   ],
   "visitar": [
@@ -573,6 +675,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "visitam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "visite"
     }
   ],
   "pedir": [
@@ -591,6 +697,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "pedem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "peça"
     }
   ],
   "ajudar": [
@@ -609,6 +719,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "ajudam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "ajude"
     }
   ],
   "virar": [
@@ -627,6 +741,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "viram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "vire"
     }
   ],
   "mostrar": [
@@ -645,6 +763,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "mostram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "mostre"
     }
   ],
   "pegar": [
@@ -663,6 +785,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "pegam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "pegue"
     }
   ],
   "alugar": [
@@ -681,6 +807,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "alugam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "alugue"
     }
   ],
   "assinar": [
@@ -699,6 +829,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "assinam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "assine"
     }
   ],
   "enviar": [
@@ -717,6 +851,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "enviam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "envie"
     }
   ],
   "cozinhar": [
@@ -735,6 +873,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "cozinham"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "cozinhe"
     }
   ],
   "desligar": [
@@ -753,6 +895,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "desligam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "desligue"
     }
   ],
   "sentir": [
@@ -771,6 +917,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "sentem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "sinta"
     }
   ],
   "tirar": [
@@ -789,6 +939,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "tiram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "tire"
     }
   ],
   "desculpar": [
@@ -807,6 +961,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "desculpam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "desculpe"
     }
   ],
   "entender": [
@@ -825,6 +983,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "entendem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "entenda"
     }
   ],
   "repetir": [
@@ -843,6 +1005,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "repetem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "repita"
     }
   ],
   "dizer": [
@@ -861,6 +1027,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "dizem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "diga"
     }
   ],
   "significar": [
@@ -879,6 +1049,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "significam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "signifique"
     }
   ],
   "querer": [
@@ -897,6 +1071,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "querem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "queira"
     }
   ],
   "chamar": [
@@ -915,6 +1093,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "chamam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "chame"
     }
   ],
   "servir": [
@@ -933,6 +1115,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "servem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "sirva"
     }
   ],
   "nadar": [
@@ -951,6 +1137,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "nadam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "nade"
     }
   ],
   "dançar": [
@@ -969,6 +1159,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "dançam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "dance"
     }
   ],
   "ficar": [
@@ -987,6 +1181,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "ficam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "fique"
     }
   ],
   "conhecer": [
@@ -1005,6 +1203,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "conhecem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "conheça"
     }
   ],
   "escrever": [
@@ -1023,6 +1225,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "escrevem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "escreva"
     }
   ],
   "soletrar": [
@@ -1041,6 +1247,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "soletram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "soletre"
     }
   ],
   "ligar": [
@@ -1059,6 +1269,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "ligam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "ligue"
     }
   ],
   "esperar": [
@@ -1077,6 +1291,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "esperam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "espere"
     }
   ],
   "viver": [
@@ -1095,6 +1313,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "vivem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "viva"
     }
   ],
   "vender": [
@@ -1113,6 +1335,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "vendem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "venda"
     }
   ],
   "pagar": [
@@ -1131,6 +1357,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "pagam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "pague"
     }
   ],
   "vestir": [
@@ -1149,6 +1379,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "vestem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "vista"
     }
   ],
   "perguntar": [
@@ -1167,6 +1401,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "perguntam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "pergunte"
     }
   ],
   "responder": [
@@ -1185,6 +1423,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "respondem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "responda"
     }
   ],
   "aprender": [
@@ -1203,6 +1445,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "aprendem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "aprenda"
     }
   ],
   "costumar": [
@@ -1221,6 +1467,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "costumam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "costume"
     }
   ],
   "ver": [
@@ -1239,6 +1489,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "veem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "veja"
     }
   ],
   "deixar": [
@@ -1257,6 +1511,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "deixam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "deixe"
     }
   ],
   "sair": [
@@ -1275,6 +1533,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "saem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "saia"
     }
   ],
   "acordar": [
@@ -1293,6 +1555,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "acordam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "acorde"
     }
   ],
   "levantar": [
@@ -1311,6 +1577,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "levantam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "levante"
     }
   ],
   "deitar": [
@@ -1329,6 +1599,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "deitam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "deite"
     }
   ],
   "dormir": [
@@ -1347,6 +1621,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "dormem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "durma"
     }
   ],
   "tomar": [
@@ -1365,6 +1643,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "tomam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "tome"
     }
   ],
   "almoçar": [
@@ -1383,6 +1665,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "almoçam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "almoce"
     }
   ],
   "jantar": [
@@ -1401,6 +1687,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "jantam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "jante"
     }
   ],
   "lanchar": [
@@ -1419,6 +1709,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "lancham"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "lanche"
     }
   ],
   "começar": [
@@ -1437,6 +1731,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "começam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "comece"
     }
   ],
   "acabar": [
@@ -1455,6 +1753,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "acabam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "acabe"
     }
   ],
   "trabalhar": [
@@ -1473,6 +1775,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "trabalham"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "trabalhe"
     }
   ],
   "chegar": [
@@ -1491,6 +1797,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "chegam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "chegue"
     }
   ],
   "fechar": [
@@ -1509,6 +1819,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "fecham"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "feche"
     }
   ],
   "escolher": [
@@ -1527,6 +1841,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "escolhem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "escolha"
     }
   ],
   "completar": [
@@ -1545,6 +1863,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "completam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "complete"
     }
   ],
   "olhar": [
@@ -1563,26 +1885,14 @@
     {
       "person": "vocês, eles, elas",
       "form": "olham"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "olhe"
     }
   ],
-  "haver": [
-    {
-      "person": "eu",
-      "form": "hei"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "há"
-    },
-    {
-      "person": "nós",
-      "form": "havemos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "hão"
-    }
-  ],
+  "haver": null,
+  "chover": null,
   "nevar": null,
   "sentar": [
     {
@@ -1600,6 +1910,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "sentam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "sente"
     }
   ],
   "mudar": [
@@ -1618,6 +1932,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "mudam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "mude"
     }
   ],
   "seguir": [
@@ -1636,6 +1954,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "seguem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "siga"
     }
   ],
   "conseguir": [
@@ -1654,6 +1976,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "conseguem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "consiga"
     }
   ],
   "oferecer": [
@@ -1672,6 +1998,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "oferecem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "ofereça"
     }
   ],
   "lavar": [
@@ -1690,6 +2020,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "lavam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "lave"
     }
   ],
   "limpar": [
@@ -1708,6 +2042,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "limpam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "limpe"
     }
   ],
   "pintar": [
@@ -1726,6 +2064,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "pintam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "pinte"
     }
   ],
   "andar": [
@@ -1744,6 +2086,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "andam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "ande"
     }
   ],
   "passar": [
@@ -1762,6 +2108,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "passam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "passe"
     }
   ],
   "perder": [
@@ -1780,6 +2130,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "perdem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "perca"
     }
   ],
   "receber": [
@@ -1798,6 +2152,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "recebem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "receba"
     }
   ],
   "correr": [
@@ -1816,6 +2174,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "correm"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "corra"
     }
   ],
   "esquiar": [
@@ -1834,6 +2196,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "esquiam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "esquie"
     }
   ],
   "brincar": [
@@ -1852,6 +2218,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "brincam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "brinque"
     }
   ],
   "tocar": [
@@ -1870,6 +2240,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "tocam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "toque"
     }
   ],
   "conversar": [
@@ -1888,6 +2262,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "conversam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "converse"
     }
   ],
   "provar": [
@@ -1906,6 +2284,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "provam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "prove"
     }
   ],
   "parar": [
@@ -1924,6 +2306,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "param"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "pare"
     }
   ],
   "procurar": [
@@ -1942,6 +2328,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "procuram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "procure"
     }
   ],
   "partir": [
@@ -1960,6 +2350,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "partem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "parta"
     }
   ],
   "funcionar": [
@@ -1978,6 +2372,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "funcionam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "funcione"
     }
   ],
   "mandar": [
@@ -1996,6 +2394,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "mandam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "mande"
     }
   ],
   "cheirar": [
@@ -2014,6 +2416,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "cheiram"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "cheire"
     }
   ],
   "preparar": [
@@ -2032,6 +2438,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "preparam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "prepare"
     }
   ],
   "sujar": [
@@ -2050,6 +2460,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "sujam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "suje"
     }
   ],
   "doer": null,
@@ -2069,6 +2483,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "queimam"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "queime"
     }
   ],
   "adormecer": [
@@ -2087,6 +2505,10 @@
     {
       "person": "vocês, eles, elas",
       "form": "adormecem"
+    },
+    {
+      "person": "você (imperativo)",
+      "form": "adormeça"
     }
   ]
 }

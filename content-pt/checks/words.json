@@ -8080,8 +8080,8 @@
     "lemma": "caro",
     "part_of_speech": "Adjective",
     "gender": "",
-    "gloss": "greatly valued; dear; loved; lovable",
-    "gloss_full": "greatly valued; dear; loved; lovable",
+    "gloss": "of high price; expensive",
+    "gloss_full": "of high price; expensive",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/caro#Portuguese",
     "status": "checked",
@@ -11032,10 +11032,10 @@
   {
     "word_id": "W1240",
     "form": "cada",
-    "lemma": "the",
+    "lemma": "cada",
     "part_of_speech": "Pronoun",
     "gender": "",
-    "gloss": "each, every (qualifying a singular noun, indicating all examples of the thing so named seen as individual or separate items)",
+    "gloss": "each, every",
     "gloss_full": "each, every (qualifying a singular noun, indicating all examples of the thing so named seen as individual or separate items)",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/cada#Portuguese",
@@ -15038,8 +15038,8 @@
     "lemma": "tocar",
     "part_of_speech": "Verb",
     "gender": "",
-    "gloss": "to touch, to finger, to feel [transitive or with em ‘something’]",
-    "gloss_full": "to touch, to finger, to feel (tactually) [transitive or with em ‘something’]",
+    "gloss": "to play",
+    "gloss_full": "to play (a musical instrument)",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/tocar#Portuguese",
     "status": "checked",
@@ -18189,10 +18189,10 @@
   {
     "word_id": "W1728",
     "form": "viúvo",
-    "lemma": "widowhood",
+    "lemma": "viúvo",
     "part_of_speech": "Adjective",
     "gender": "",
-    "gloss": "widowed (said of a person who is in a state of widowhood)",
+    "gloss": "widowed",
     "gloss_full": "widowed (said of a person who is in a state of widowhood)",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/vi%C3%BAvo#Portuguese",
@@ -20517,5 +20517,75 @@
       "license": "CC BY-SA 4.0",
       "recordings_found": 2
     }
+  },
+  {
+    "word_id": "W943",
+    "form": "CEP",
+    "lemma": "CEP",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "postcode",
+    "gloss_full": "postcode (sequence of letters and/or numbers added to a postal address)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/CEP#Portuguese",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: Portuguese Expeditionary Corps",
+      "Noun: any name of city, state or country, for use in the word game stop"
+    ],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W1375",
+    "form": "correio",
+    "lemma": "correio",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "mail",
+    "gloss_full": "mail (regular delivery of letters and small parcels)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/correio#Portuguese",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q5146 (por)-MedK1-correio.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/LL-Q5146_%28por%29-MedK1-correio.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1755",
+    "form": "cobrador",
+    "lemma": "cobrador",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "conductor",
+    "gloss_full": "conductor",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/cobrador#Portuguese",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Adjective: collecting, conducting, receiving"
+    ],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W1896",
+    "form": "hospedagem",
+    "lemma": "hospedagem",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "accommodation",
+    "gloss_full": "accommodation",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/hospedagem#Portuguese",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": null
   }
 ]

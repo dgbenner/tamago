@@ -5895,7 +5895,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/postal#Portuguese",
-    "status": "pull from Wiktionary",
+    "status": "off: Portugal; the course teaches CEP (Dan, 2026-11-19)",
     "notes": "A1 Part 2 word"
   },
   {
@@ -10400,7 +10400,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/correios#Portuguese",
-    "status": "pull from Wiktionary",
+    "status": "off: Portugal; the course teaches correio (Dan, 2026-11-19)",
     "notes": "A1 Part 3 word"
   },
   {
@@ -13766,7 +13766,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/condutor#Portuguese",
-    "status": "pull from Wiktionary",
+    "status": "off: Portugal; the course teaches motorista, cobrador (Dan, 2026-11-19)",
     "notes": "A1 Part 4 word"
   },
   {
@@ -17013,7 +17013,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/alojamento#Portuguese",
-    "status": "pull from Wiktionary",
+    "status": "off: Portugal; the course teaches hospedagem (Dan, 2026-11-19)",
     "notes": "A1 Part 4 vocabulary circle word"
   },
   {
@@ -17064,7 +17064,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/tenda#Portuguese",
-    "status": "pull from Wiktionary",
+    "status": "off: Portugal; the course teaches barraca (Dan, 2026-11-19)",
     "notes": "A1 Part 4 vocabulary circle word"
   },
   {
@@ -17185,5 +17185,73 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/tome#Portuguese",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word (added for coverage)"
+  },
+  {
+    "word_id": "W943",
+    "lang_id": "pt",
+    "form": "CEP",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U45",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/CEP#Portuguese",
+    "status": "pull from Wiktionary",
+    "notes": "Brazilian word in place of Portugal's (Fable's Parts 2 to 4 review, 2026-11-19)"
+  },
+  {
+    "word_id": "W1375",
+    "lang_id": "pt",
+    "form": "correio",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U66",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/correio#Portuguese",
+    "status": "pull from Wiktionary",
+    "notes": "Brazilian word in place of Portugal's (Fable's Parts 2 to 4 review, 2026-11-19)"
+  },
+  {
+    "word_id": "W1755",
+    "lang_id": "pt",
+    "form": "cobrador",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U84",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/cobrador#Portuguese",
+    "status": "pull from Wiktionary",
+    "notes": "Brazilian word in place of Portugal's (Fable's Parts 2 to 4 review, 2026-11-19)"
+  },
+  {
+    "word_id": "W1896",
+    "lang_id": "pt",
+    "form": "hospedagem",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U95",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/hospedagem#Portuguese",
+    "status": "pull from Wiktionary",
+    "notes": "Brazilian word in place of Portugal's (Fable's Parts 2 to 4 review, 2026-11-19)"
   }
 ]

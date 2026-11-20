@@ -157,7 +157,9 @@ export default {
   situation, vocab, items, canDo,
   // Added in review (2026-11-19): the command forms the circles' notes teach (siga reto, chame a polícia, tome um
   // comprimido), which no other course word gives.
-  late: [{ unit_id: 'U83', words: ['siga'] }, { unit_id: 'U28', words: ['chame'] }, { unit_id: 'U93', words: ['tome'] }],
+  late: [{ unit_id: 'U83', words: ['siga'] }, { unit_id: 'U28', words: ['chame'] }, { unit_id: 'U93', words: ['tome'] },
+    // The Brazilian words from Fable's review (Dan, 2026-11-19): condutor, alojamento and tenda are off.
+    { unit_id: 'U84', words: ['cobrador'] }, { unit_id: 'U95', words: ['hospedagem'] }],
   // Turned off in review (2026-11-19): kept as an id, never shown.
-  off: { grama: 'the singular unit reads as grass and is rarely natural at A1; gramas teaches the list word' },
+  off: { condutor: "Portugal; the course teaches motorista and cobrador (Dan, 2026-11-19; Fable's review)", alojamento: "Portugal; the course teaches hospedagem (Dan, 2026-11-19; Fable's review)", tenda: "Portugal; the course teaches barraca (Dan, 2026-11-19; Fable's review)", grama: 'the singular unit reads as grass and is rarely natural at A1; gramas teaches the list word' },
 }

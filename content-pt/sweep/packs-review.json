@@ -1354,6 +1354,7 @@
       "11341391": "vivo as alive, ao vivo, or tired of living: other senses or too dark",
       "11363377": "a two-line dialogue in quotes",
       "11734468": "vivo as alive, ao vivo, or tired of living: other senses or too dark",
+      "11748207": "código postal is Portugal's word; the line is redrafted as S45301 with the Brazilian one (Fable's Parts 2 to 4 review, 2026-11-19)",
       "12346130": "vivo as alive, ao vivo, or tired of living: other senses or too dark",
       "12346132": "vivo as alive, ao vivo, or tired of living: other senses or too dark",
       "12346133": "vivo as alive, ao vivo, or tired of living: other senses or too dark",
@@ -4069,6 +4070,7 @@
       "1266536": "parte as part, not leaves",
       "1272294": "parte as part, not leaves",
       "1275102": "parte as part, not leaves",
+      "1304500": "condutor is Portugal's word; the line is redrafted as S84301 with the Brazilian one (Fable's Parts 2 to 4 review, 2026-11-19)",
       "1311606": "odd (estar para, about to)",
       "1311929": "parte as part, not leaves",
       "1318997": "parte as part, not leaves",
@@ -4580,5 +4582,9 @@
     }
   },
   "U89": {},
-  "U95": {}
+  "U95": {
+    "reject": {
+      "6695996": "tenda is Portugal's word; the line is redrafted as S95301 with the Brazilian one (Fable's Parts 2 to 4 review, 2026-11-19)"
+    }
+  }
 }

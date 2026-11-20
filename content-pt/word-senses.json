@@ -1206,7 +1206,9 @@
     "pos": "Noun"
   },
   "W915": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "expensive",
+    "note": "the prices circle teaches expensive, not dear (Fable, 2026-11-19)"
   },
   "W916": {
     "pos": "Adjective"
@@ -1639,7 +1641,9 @@
     "pos": "Preposition"
   },
   "W1240": {
-    "pos": "Pronoun"
+    "pos": "Pronoun",
+    "lemma": "cada",
+    "note": "its gloss \"examples of the thing\" read as a form of \"the\" (Fable, 2026-11-19)"
   },
   "W1241": {
     "pos": "Verb"
@@ -2255,7 +2259,9 @@
     "pos": "Verb"
   },
   "W1469": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to play (a musical instrument)",
+    "note": "Free Time teaches toco violão (Fable, 2026-11-19)"
   },
   "W1470": {
     "pos": "Verb"
@@ -2788,7 +2794,9 @@
     "pos": "Participle"
   },
   "W1728": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "lemma": "viúvo",
+    "note": "its gloss \"a state of widowhood\" read as a form of \"widowhood\" (Fable, 2026-11-19)"
   },
   "W1729": {
     "pos": "Noun",
@@ -3186,5 +3194,24 @@
   },
   "W1895": {
     "pos": "Verb"
+  },
+  "W943": {
+    "pos": "Noun",
+    "match": "postcode",
+    "note": "the Brazilian CEP (Fable, 2026-11-19)"
+  },
+  "W1375": {
+    "pos": "Noun",
+    "note": "post office; mail (Fable, 2026-11-19)"
+  },
+  "W1755": {
+    "pos": "Noun",
+    "match": "conductor",
+    "note": "the bus fare collector (Fable, 2026-11-19)"
+  },
+  "W1896": {
+    "pos": "Noun",
+    "match": "accommodation",
+    "note": "Fable, 2026-11-19"
   }
 }

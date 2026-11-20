@@ -149,7 +149,7 @@ export default {
   slots: [{ slot_id: 'C05', part: 3, after_row: 17 }, { slot_id: 'C06', part: 3, after_row: 19 }],
   situation, vocab, items, canDo,
   // Added in review (2026-11-16): às for the time, do and da for where things are; the course had none of them.
-  late: [{ unit_id: 'U61', words: ['às'] }, { unit_id: 'U71', words: ['do', 'da'] }],
+  late: [{ unit_id: 'U61', words: ['às'] }, { unit_id: 'U71', words: ['do', 'da'] }, { unit_id: 'U66', words: ['correio'] }],
   // Turned off in review (2026-11-16): kept as an id, never shown.
-  off: { deixa: 'its natural lines (Deixa eu ver, Deixa isso) use the tu imperative', passado: 'every natural line needs a past tense not yet taught', passada: 'every natural line needs a past tense not yet taught' },
+  off: { correios: "Portugal; the course teaches o correio (Dan, 2026-11-19; Fable's review)", deixa: 'its natural lines (Deixa eu ver, Deixa isso) use the tu imperative', passado: 'every natural line needs a past tense not yet taught', passada: 'every natural line needs a past tense not yet taught' },
 }
