@@ -1,0 +1,11 @@
+{
+  "_about": "Pictures for word to image in the Norwegian course: OpenMoji where a word has one. Filled by hand during review; import.mjs reads words{word_id: slug} and sets words.image_file to openmoji/<slug>.svg.",
+  "set": {
+    "name": "OpenMoji",
+    "version": "15.1.0",
+    "license": "CC BY-SA 4.0",
+    "url": "https://openmoji.org",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "words": {}
+}

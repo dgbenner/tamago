@@ -1,0 +1,199 @@
+{
+  "unit_id": "U51",
+  "pulled_at": "2026-11-20",
+  "candidates": 4,
+  "sentences": [
+    {
+      "sentence_id": "S51001",
+      "unit_id": "U51",
+      "french": "Han har lang nese.",
+      "english": "He has a long nose.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2948076",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51002",
+      "unit_id": "U51",
+      "french": "Du er pen.",
+      "english": "You're pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12259528",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "augine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51003",
+      "unit_id": "U51",
+      "french": "Han er veldig smart.",
+      "english": "He's very smart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10941113",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51004",
+      "unit_id": "U51",
+      "french": "Du er en smart gutt.",
+      "english": "You're a smart boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3547409",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danieljtah",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S51001",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 3,
+      "surface": "lang",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 4,
+      "surface": "nese",
+      "word_id": "W1005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 3,
+      "surface": "pen",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 3,
+      "surface": "veldig",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 4,
+      "surface": "smart",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 4,
+      "surface": "smart",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 5,
+      "surface": "gutt",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

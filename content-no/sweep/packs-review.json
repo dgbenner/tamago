@@ -1,0 +1,18 @@
+{
+  "_about": "Pull review for the Norwegian course: Tatoeba sentences turned down (reject, by Tatoeba id, with the reason) and English picks (english) per circle (Dan, 2026-11-19, branch lang/norwegian).",
+  "U02": {
+    "reject": {
+      "2879655": "ungrammatical Norwegian (\"Han du en?\" is missing the verb har)"
+    }
+  },
+  "U03": {
+    "reject": {
+      "10838512": "English mislinked (\"Det er bra!\" is \"That's good!\", not \"That's big!\"); no other linked English to pick"
+    }
+  },
+  "U05": {
+    "reject": {
+      "10838512": "English mislinked (\"Det er bra!\" is \"That's good!\", not \"That's big!\"); also off the animals point"
+    }
+  }
+}

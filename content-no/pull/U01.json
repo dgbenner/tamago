@@ -1,0 +1,167 @@
+{
+  "unit_id": "U01",
+  "pulled_at": "2026-11-20",
+  "candidates": 4,
+  "sentences": [
+    {
+      "sentence_id": "S1001",
+      "unit_id": "U01",
+      "french": "Jeg er en kvinne.",
+      "english": "I am a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10941239",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1002",
+      "unit_id": "U01",
+      "french": "Jeg er en jente.",
+      "english": "I am a girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10941240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1003",
+      "unit_id": "U01",
+      "french": "Hei, du.",
+      "english": "Hey, you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1004",
+      "unit_id": "U01",
+      "french": "Jeg er.",
+      "english": "I am.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940586",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S1001",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 4,
+      "surface": "kvinne",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 4,
+      "surface": "jente",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 1,
+      "surface": "Hei",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

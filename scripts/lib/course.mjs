@@ -32,6 +32,11 @@ export const COURSES = {
     id: 'pt', name: 'Portuguese', workbook: '_source/tamago-pt-data-v6.xlsx',
     tatoeba: 'por', wiktionaryCode: 'pt', wiktionarySection: 'Portuguese', linguaLibre: { qid: 'Q5146', iso: 'por' }, wikidataLanguage: 'Q5146',
   },
+  // Norwegian Bokmål (2026-11-19, branch lang/norwegian): standard written Bokmål, du throughout (formal De kept out of Part 1). Its folders: content-no/…
+  no: {
+    id: 'no', name: 'Norwegian', workbook: '_source/tamago-no-data-v2.xlsx',
+    tatoeba: 'nob', wiktionaryCode: 'no', wiktionarySection: 'Norwegian Bokmål', linguaLibre: { qid: 'Q25167', iso: 'nob' }, wikidataLanguage: 'Q25167',
+  },
 }
 export const C = COURSES[COURSE]
 if (!C) throw new Error(`COURSE=${COURSE}: no such course`)

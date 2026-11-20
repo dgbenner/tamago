@@ -1,0 +1,229 @@
+{
+  "unit_id": "U08",
+  "pulled_at": "2026-11-20",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S8001",
+      "unit_id": "U08",
+      "french": "Er den der?",
+      "english": "Is it there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2942683",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8002",
+      "unit_id": "U08",
+      "french": "Er det der?",
+      "english": "Is it there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2942684",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8003",
+      "unit_id": "U08",
+      "french": "Ikke her.",
+      "english": "Not here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940642",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8004",
+      "unit_id": "U08",
+      "french": "Se på det!",
+      "english": "Look at that!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4394953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "beeccy",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8005",
+      "unit_id": "U08",
+      "french": "Jeg spiser her.",
+      "english": "I eat here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10841186",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Lehon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8006",
+      "unit_id": "U08",
+      "french": "Se der.",
+      "english": "Look there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10940628",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S8001",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 2,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 1,
+      "surface": "Ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 2,
+      "surface": "her",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 1,
+      "surface": "Se",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 2,
+      "surface": "på",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8005",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8005",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8005",
+      "position": 3,
+      "surface": "her",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 1,
+      "surface": "Se",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 2,
+      "surface": "der",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

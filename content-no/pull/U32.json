@@ -1,0 +1,158 @@
+{
+  "unit_id": "U32",
+  "pulled_at": "2026-11-20",
+  "candidates": 3,
+  "sentences": [
+    {
+      "sentence_id": "S32001",
+      "unit_id": "U32",
+      "french": "Hva betyr det?",
+      "english": "What does that mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2674811",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": [
+        "What does it mean?",
+        "What's the meaning of that?"
+      ]
+    },
+    {
+      "sentence_id": "S32002",
+      "unit_id": "U32",
+      "french": "Er du engelsk?",
+      "english": "Are you English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5145047",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sotolf",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32003",
+      "unit_id": "U32",
+      "french": "Han snakker engelsk.",
+      "english": "He speaks English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1866243",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": [
+        "He is speaking English."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S32001",
+      "position": 1,
+      "surface": "Hva",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 2,
+      "surface": "betyr",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 2,
+      "surface": "snakker",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 3,
+      "surface": "engelsk",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A320011",
+      "sentence_id": "S32001",
+      "direction": "fr_to_en",
+      "answer": "What does it mean?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320012",
+      "sentence_id": "S32001",
+      "direction": "fr_to_en",
+      "answer": "What's the meaning of that?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320031",
+      "sentence_id": "S32003",
+      "direction": "fr_to_en",
+      "answer": "He is speaking English.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

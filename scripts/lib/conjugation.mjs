@@ -121,4 +121,9 @@ async function portuguese(lemma) {
   return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
 }
 
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese }[COURSE]
+// Norwegian Bokmål (2026-11-19): the present tense is one form for every person (jeg er, du er, han er; jeg spiser,
+// du spiser), so a per-person table teaches nothing and the grammar note carries the rule instead. No table is built,
+// the same outcome as a verb whose table the other courses can't parse (null), which the pipeline already handles.
+async function norwegian() { return null }
+
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, no: norwegian }[COURSE]
