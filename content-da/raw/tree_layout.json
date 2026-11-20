@@ -1,0 +1,149 @@
+[
+  {
+    "row": 1,
+    "position": 1,
+    "unit_id": "U01",
+    "unlocks_after": "",
+    "notes": ""
+  },
+  {
+    "row": 2,
+    "position": 1,
+    "unit_id": "U02",
+    "unlocks_after": "row 1",
+    "notes": ""
+  },
+  {
+    "row": 2,
+    "position": 2,
+    "unit_id": "U03",
+    "unlocks_after": "row 1",
+    "notes": ""
+  },
+  {
+    "row": 3,
+    "position": 1,
+    "unit_id": "U04",
+    "unlocks_after": "row 2",
+    "notes": ""
+  },
+  {
+    "row": 3,
+    "position": 2,
+    "unit_id": "U05",
+    "unlocks_after": "row 2",
+    "notes": ""
+  },
+  {
+    "row": 5,
+    "position": 1,
+    "unit_id": "U06",
+    "unlocks_after": "row 3",
+    "notes": ""
+  },
+  {
+    "row": 5,
+    "position": 2,
+    "unit_id": "U07",
+    "unlocks_after": "row 3",
+    "notes": ""
+  },
+  {
+    "row": 6,
+    "position": 1,
+    "unit_id": "U08",
+    "unlocks_after": "row 5",
+    "notes": ""
+  },
+  {
+    "row": 6,
+    "position": 2,
+    "unit_id": "U09",
+    "unlocks_after": "row 5",
+    "notes": ""
+  },
+  {
+    "row": 7,
+    "position": 1,
+    "unit_id": "U10",
+    "unlocks_after": "row 6",
+    "notes": ""
+  },
+  {
+    "row": 7,
+    "position": 2,
+    "unit_id": "U11",
+    "unlocks_after": "row 6",
+    "notes": ""
+  },
+  {
+    "row": 8,
+    "position": 1,
+    "unit_id": "U12",
+    "unlocks_after": "row 7",
+    "notes": ""
+  },
+  {
+    "row": 8,
+    "position": 2,
+    "unit_id": "U13",
+    "unlocks_after": "row 7",
+    "notes": ""
+  },
+  {
+    "row": 9,
+    "position": 1,
+    "unit_id": "U14",
+    "unlocks_after": "row 8",
+    "notes": ""
+  },
+  {
+    "row": 9,
+    "position": 2,
+    "unit_id": "U15",
+    "unlocks_after": "row 8",
+    "notes": ""
+  },
+  {
+    "row": 1.5,
+    "position": 1,
+    "unit_id": "U31",
+    "unlocks_after": "row 1",
+    "notes": "Asking for Help thread: a help circle, gates nothing"
+  },
+  {
+    "row": 3.5,
+    "position": 1,
+    "unit_id": "U32",
+    "unlocks_after": "row 3",
+    "notes": "Asking for Help thread: a help circle, gates nothing"
+  },
+  {
+    "row": 6.5,
+    "position": 1,
+    "unit_id": "U33",
+    "unlocks_after": "row 6",
+    "notes": "Asking for Help thread: a help circle, gates nothing"
+  },
+  {
+    "row": 9,
+    "position": 3,
+    "unit_id": "U51",
+    "unlocks_after": "row 8",
+    "notes": "A1 Part 1 vocabulary circle"
+  },
+  {
+    "row": 5,
+    "position": 3,
+    "unit_id": "U52",
+    "unlocks_after": "row 3",
+    "notes": "A1 Part 1 vocabulary circle"
+  },
+  {
+    "row": 7,
+    "position": 3,
+    "unit_id": "U53",
+    "unlocks_after": "row 6",
+    "notes": "A1 Part 1 vocabulary circle"
+  }
+]

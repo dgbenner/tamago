@@ -189,5 +189,148 @@
         ]
       }
     ]
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Meu nome é Ana Costa. Sou brasileira. Nasci no dia 10 de abril, em São Paulo. Sou casada. Moro na Rua das Flores, 12, no Rio.",
+    "fields": [
+      {
+        "key": "name",
+        "label": "Nome completo",
+        "rule": "text",
+        "answer": "Ana Costa"
+      },
+      {
+        "key": "nat",
+        "label": "Nacionalidade",
+        "rule": "text",
+        "answer": "brasileira",
+        "also": [
+          "brasileiro",
+          "Brasileira"
+        ]
+      },
+      {
+        "key": "born",
+        "label": "Data de nascimento",
+        "rule": "text",
+        "answer": "10/4",
+        "also": [
+          "10 de abril",
+          "10/04",
+          "10.4",
+          "10 de Abril"
+        ]
+      },
+      {
+        "key": "place",
+        "label": "Local de nascimento",
+        "rule": "text",
+        "answer": "São Paulo",
+        "also": [
+          "Sao Paulo"
+        ]
+      },
+      {
+        "key": "civil",
+        "label": "Estado civil",
+        "rule": "text",
+        "answer": "casada",
+        "also": [
+          "Casada",
+          "casado"
+        ]
+      },
+      {
+        "key": "town",
+        "label": "Cidade",
+        "rule": "text",
+        "answer": "Rio",
+        "also": [
+          "Rio de Janeiro",
+          "rio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Meu nome é João Silva. Tenho trinta anos. Sou enfermeiro e trabalho num hospital em Recife. Sou solteiro.",
+    "fields": [
+      {
+        "key": "name",
+        "label": "Nome",
+        "rule": "text",
+        "answer": "João",
+        "also": [
+          "Joao"
+        ]
+      },
+      {
+        "key": "last",
+        "label": "Sobrenome",
+        "rule": "text",
+        "answer": "Silva"
+      },
+      {
+        "key": "age",
+        "label": "Idade",
+        "rule": "number",
+        "answer": "30"
+      },
+      {
+        "key": "job",
+        "label": "Profissão",
+        "rule": "text",
+        "answer": "enfermeiro",
+        "also": [
+          "Enfermeiro"
+        ]
+      },
+      {
+        "key": "civil",
+        "label": "Estado civil",
+        "rule": "text",
+        "answer": "solteiro",
+        "also": [
+          "Solteiro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F303",
+    "unit_id": "U81",
+    "card": "Na lanchonete: o Tom pede um café e um pão de queijo. A Maria pede um suco. Eles pagam vinte reais.",
+    "fields": [
+      {
+        "key": "tom",
+        "label": "Tom",
+        "rule": "text",
+        "answer": "um café e um pão de queijo",
+        "also": [
+          "café e pão de queijo",
+          "café, pão de queijo",
+          "um café, um pão de queijo"
+        ]
+      },
+      {
+        "key": "maria",
+        "label": "Maria",
+        "rule": "text",
+        "answer": "um suco",
+        "also": [
+          "suco"
+        ]
+      },
+      {
+        "key": "total",
+        "label": "Total (reais)",
+        "rule": "number",
+        "answer": "20"
+      }
+    ]
   }
 ]

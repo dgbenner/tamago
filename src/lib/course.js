@@ -10,10 +10,13 @@ export const COURSES = [
   // Italian and Brazilian Portuguese: public since 2026-11-16 (Dan approved; Developer only until then).
   { id: 'it', name: 'Italian', sample: 'mela, formaggio, gatto…', lang: 'it', voice: ['it-IT', 'it'], db: 'tamago-it', flag: '/flags/it.webp', ready: true },
   { id: 'pt', name: 'Portuguese', sample: 'maçã, queijo, gato…', lang: 'pt-BR', voice: ['pt-BR', 'pt'], db: 'tamago-pt', flag: '/flags/pt.webp', ready: true }, // Brazilian Portuguese
-  // Coming Soon: Dutch (flag from Dan, 2026-11-14) and nine more (Dan, 2026-11-16; originals in _source/flags).
-  { id: 'nl', name: 'Dutch', sample: 'appel, kaas, kat…', lang: 'nl', voice: ['nl-NL', 'nl'], db: 'tamago-nl', flag: '/flags/nl.webp', ready: false },
-  { id: 'sv', name: 'Swedish', sample: 'äpple, ost, katt…', lang: 'sv', voice: ['sv-SE', 'sv'], db: 'tamago-sv', flag: '/flags/sv.webp', ready: false },
-  { id: 'da', name: 'Danish', sample: 'æble, ost, kat…', lang: 'da', voice: ['da-DK', 'da'], db: 'tamago-da', flag: '/flags/da.webp', ready: false },
+  // Dutch (Dan, 2026-11-20): Part 1 only, so Developer only for now (devOnly: ready while Developer is on).
+  { id: 'nl', name: 'Dutch', sample: 'appel, kaas, kat…', lang: 'nl', voice: ['nl-NL', 'nl'], db: 'tamago-nl', flag: '/flags/nl.webp', ready: false, devOnly: true },
+  // Danish (Dan, 2026-11-20): Part 1 only, so Developer only for now, like Dutch.
+  { id: 'da', name: 'Danish', sample: 'æble, ost, kat…', lang: 'da', voice: ['da-DK', 'da'], db: 'tamago-da', flag: '/flags/da.webp', ready: false, devOnly: true },
+  // Swedish (Dan, 2026-11-20): Part 1 only, so Developer only for now, like Dutch.
+  { id: 'sv', name: 'Swedish', sample: 'äpple, ost, katt…', lang: 'sv', voice: ['sv-SE', 'sv'], db: 'tamago-sv', flag: '/flags/sv.webp', ready: false, devOnly: true },
+  // Coming Soon: nine more (Dan, 2026-11-16; originals in _source/flags).
   { id: 'pl', name: 'Polish', sample: 'jabłko, ser, kot…', lang: 'pl', voice: ['pl-PL', 'pl'], db: 'tamago-pl', flag: '/flags/pl.webp', ready: false },
   { id: 'ro', name: 'Romanian', sample: 'măr, brânză, pisică…', lang: 'ro', voice: ['ro-RO', 'ro'], db: 'tamago-ro', flag: '/flags/ro.webp', ready: false },
   { id: 'no', name: 'Norwegian', sample: 'eple, ost, katt…', lang: 'nb', voice: ['nb-NO', 'no-NO', 'nb', 'no'], db: 'tamago-no', flag: '/flags/no.webp', ready: false },

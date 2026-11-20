@@ -1,0 +1,57 @@
+[
+  {
+    "setting": "answer_strictness",
+    "default": "lenient",
+    "options": "lenient; strict"
+  },
+  {
+    "setting": "typed_input",
+    "default": "chips",
+    "options": "chips; keyboard"
+  },
+  {
+    "setting": "listen_first",
+    "default": "on",
+    "options": "on; off"
+  },
+  {
+    "setting": "cant_listen_now",
+    "default": "available",
+    "options": "available; off"
+  },
+  {
+    "setting": "cant_speak_now",
+    "default": "available",
+    "options": "available; off"
+  },
+  {
+    "setting": "points_and_streaks",
+    "default": "on",
+    "options": "on; off"
+  },
+  {
+    "setting": "weekly_goal",
+    "default": "none",
+    "options": "none; 1 to 7 days"
+  },
+  {
+    "setting": "notifications",
+    "default": "off",
+    "options": "off (version 1)"
+  },
+  {
+    "setting": "theme",
+    "default": "system",
+    "options": "system; light; dark"
+  },
+  {
+    "setting": "french_feedback_rate",
+    "default": "about 1 per lesson",
+    "options": "flexible; grows with level. Share of feedback lines shown in French"
+  },
+  {
+    "setting": "french_instructions",
+    "default": "off at A1",
+    "options": "grows with level; instructions shift to French over the course"
+  }
+]

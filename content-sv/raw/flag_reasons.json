@@ -1,0 +1,22 @@
+[
+  {
+    "reason_id": "F1",
+    "label": "My answer should be accepted",
+    "goes_to": "answer review list (version 2)"
+  },
+  {
+    "reason_id": "F2",
+    "label": "The audio is wrong",
+    "goes_to": "content issue list"
+  },
+  {
+    "reason_id": "F3",
+    "label": "The translation is wrong",
+    "goes_to": "content issue list"
+  },
+  {
+    "reason_id": "F4",
+    "label": "Something is broken",
+    "goes_to": "bug list"
+  }
+]

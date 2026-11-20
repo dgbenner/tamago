@@ -29,8 +29,24 @@ export const COURSES = {
   },
   // Brazilian Portuguese (2026-11-14, branch lang/portuguese): você, Brazilian spelling and words. Its folders: content-pt/…
   pt: {
-    id: 'pt', name: 'Portuguese', workbook: '_source/tamago-pt-data-v6.xlsx',
+    id: 'pt', name: 'Portuguese', workbook: '_source/tamago-pt-data-v8.xlsx',
     tatoeba: 'por', wiktionaryCode: 'pt', wiktionarySection: 'Portuguese', linguaLibre: { qid: 'Q5146', iso: 'por' }, wikidataLanguage: 'Q5146',
+  },
+  // Dutch (2026-11-19, branch lang/dutch): standard Dutch (Netherlands), je informally and u formally. Its folders: content-nl/…
+  nl: {
+    id: "nl", name: "Dutch", workbook: "_source/tamago-nl-data-v3.xlsx",
+    tatoeba: "nld", wiktionaryCode: "nl", wiktionarySection: "Dutch", linguaLibre: { qid: "Q7411", iso: "nld" }, wikidataLanguage: "Q7411",
+  },
+  // Swedish (2026-11-19, branch lang/swedish): standard Swedish, du throughout (formal ni is archaic, kept out of
+  // Part 1). Its folders: content-sv/, src/content-sv/, public/audio-sv/.
+  sv: {
+    id: 'sv', name: 'Swedish', workbook: '_source/tamago-sv-data-v3.xlsx',
+    tatoeba: 'swe', wiktionaryCode: 'sv', wiktionarySection: 'Swedish', linguaLibre: { qid: 'Q9027', iso: 'swe' }, wikidataLanguage: 'Q9027',
+  },
+  // Danish (2026-11-19, branch lang/danish): standard Danish, modern du (formal De kept out of Part 1). Its folders: content-da/…
+  da: {
+    id: 'da', name: 'Danish', workbook: '_source/tamago-da-data-v3.xlsx',
+    tatoeba: 'dan', wiktionaryCode: 'da', wiktionarySection: 'Danish', linguaLibre: { qid: 'Q9035', iso: 'dan' }, wikidataLanguage: 'Q9035',
   },
   // Norwegian Bokmål (2026-11-19, branch lang/norwegian): standard written Bokmål, du throughout (formal De kept out of Part 1). Its folders: content-no/…
   no: {

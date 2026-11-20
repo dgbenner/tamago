@@ -1,0 +1,883 @@
+{
+  "unit_id": "U52",
+  "pulled_at": "2026-11-20",
+  "candidates": 19,
+  "sentences": [
+    {
+      "sentence_id": "S52001",
+      "unit_id": "U52",
+      "french": "Ser Tom fodbold?",
+      "english": "Does Tom watch soccer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8828010",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52002",
+      "unit_id": "U52",
+      "french": "Jeg kan spille fodbold.",
+      "english": "I can play soccer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10687102",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I know how to play soccer."
+      ]
+    },
+    {
+      "sentence_id": "S52003",
+      "unit_id": "U52",
+      "french": "Vi ser en ny film.",
+      "english": "We are watching a new film.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6317496",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52004",
+      "unit_id": "U52",
+      "french": "Kan du lide film?",
+      "english": "Do you like movies?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2874237",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52005",
+      "unit_id": "U52",
+      "french": "Jeg synger.",
+      "english": "I sing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3274262",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm singing.",
+        "I am singing."
+      ]
+    },
+    {
+      "sentence_id": "S52006",
+      "unit_id": "U52",
+      "french": "Jeg danser.",
+      "english": "I'm dancing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6141026",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52007",
+      "unit_id": "U52",
+      "french": "Tom danser.",
+      "english": "Tom dances.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6141027",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": [
+        "Tom is dancing."
+      ]
+    },
+    {
+      "sentence_id": "S52008",
+      "unit_id": "U52",
+      "french": "De danser.",
+      "english": "They're dancing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7419405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52009",
+      "unit_id": "U52",
+      "french": "Tom svømmer.",
+      "english": "Tom's swimming.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7838274",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Tom swims.",
+        "Tom is swimming."
+      ]
+    },
+    {
+      "sentence_id": "S52010",
+      "unit_id": "U52",
+      "french": "Tom synger godt.",
+      "english": "Tom sings well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6891117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52011",
+      "unit_id": "U52",
+      "french": "Han svømmer godt.",
+      "english": "He swims well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11524432",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52012",
+      "unit_id": "U52",
+      "french": "Jeg ser en bog.",
+      "english": "I see a book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9839166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52013",
+      "unit_id": "U52",
+      "french": "Hun er en god svømmer.",
+      "english": "She is a good swimmer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1826927",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52014",
+      "unit_id": "U52",
+      "french": "Du kan ikke lide musik.",
+      "english": "You don't like music.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7795198",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52015",
+      "unit_id": "U52",
+      "french": "Det er en sjov film.",
+      "english": "It's a funny movie.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11919767",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52016",
+      "unit_id": "U52",
+      "french": "Jeg er danser.",
+      "english": "I'm a dancer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6141002",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52017",
+      "unit_id": "U52",
+      "french": "Jeg danser ikke.",
+      "english": "I don't dance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6141029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52018",
+      "unit_id": "U52",
+      "french": "Tom og Mary danser.",
+      "english": "Tom and Mary are dancing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7287261",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52019",
+      "unit_id": "U52",
+      "french": "Du er en god danser.",
+      "english": "You're a good dancer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6892743",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S52001",
+      "position": 1,
+      "surface": "Ser",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 3,
+      "surface": "fodbold",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 3,
+      "surface": "spille",
+      "word_id": "W1024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 4,
+      "surface": "fodbold",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 2,
+      "surface": "ser",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 4,
+      "surface": "ny",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 5,
+      "surface": "film",
+      "word_id": "W1023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 4,
+      "surface": "film",
+      "word_id": "W1023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 2,
+      "surface": "synger",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 2,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 2,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 2,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 2,
+      "surface": "svømmer",
+      "word_id": "W1019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 2,
+      "surface": "synger",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 3,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52011",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52011",
+      "position": 2,
+      "surface": "svømmer",
+      "word_id": "W1019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52011",
+      "position": 3,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52012",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52012",
+      "position": 2,
+      "surface": "ser",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52012",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52012",
+      "position": 4,
+      "surface": "bog",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 4,
+      "surface": "god",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 5,
+      "surface": "svømmer",
+      "word_id": "W1019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 4,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 5,
+      "surface": "musik",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 4,
+      "surface": "sjov",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 5,
+      "surface": "film",
+      "word_id": "W1023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52016",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52016",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52016",
+      "position": 3,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52017",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52017",
+      "position": 2,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52017",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52018",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52018",
+      "position": 2,
+      "surface": "og",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52018",
+      "position": 3,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52018",
+      "position": 4,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 4,
+      "surface": "god",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 5,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A520021",
+      "sentence_id": "S52002",
+      "direction": "fr_to_en",
+      "answer": "I know how to play soccer.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520051",
+      "sentence_id": "S52005",
+      "direction": "fr_to_en",
+      "answer": "I'm singing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520052",
+      "sentence_id": "S52005",
+      "direction": "fr_to_en",
+      "answer": "I am singing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520071",
+      "sentence_id": "S52007",
+      "direction": "fr_to_en",
+      "answer": "Tom is dancing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520091",
+      "sentence_id": "S52009",
+      "direction": "fr_to_en",
+      "answer": "Tom swims.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520092",
+      "sentence_id": "S52009",
+      "direction": "fr_to_en",
+      "answer": "Tom is swimming.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

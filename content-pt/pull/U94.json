@@ -1,0 +1,1688 @@
+{
+  "unit_id": "U94",
+  "pulled_at": "2026-11-19",
+  "candidates": 33,
+  "sentences": [
+    {
+      "sentence_id": "S94001",
+      "unit_id": "U94",
+      "french": "Posso tirar uma foto?",
+      "english": "Can I get a picture?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "960405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94002",
+      "unit_id": "U94",
+      "french": "Esse curso é bom?",
+      "english": "Is this course good?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8924468",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94003",
+      "unit_id": "U94",
+      "french": "Posso tirar uma foto sua?",
+      "english": "Can I take your picture?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "944174",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "May I take a picture of you?"
+      ]
+    },
+    {
+      "sentence_id": "S94004",
+      "unit_id": "U94",
+      "french": "Posso tirar uma foto aqui?",
+      "english": "Can I take a picture here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1050643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94005",
+      "unit_id": "U94",
+      "french": "De que período é este quadro?",
+      "english": "What period is this painting from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7682156",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jjoao",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94006",
+      "unit_id": "U94",
+      "french": "A biblioteca da universidade está aberta agora?",
+      "english": "Is the university's library open now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "421865",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94007",
+      "unit_id": "U94",
+      "french": "Sou universitário.",
+      "english": "I'm a university student.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4259128",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JFMorais",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94008",
+      "unit_id": "U94",
+      "french": "Isso não é brincadeira.",
+      "english": "This is no joke.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "738948",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Gyuri",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94009",
+      "unit_id": "U94",
+      "french": "Não entendi esta brincadeira.",
+      "english": "I didn't get this joke.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "958518",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94010",
+      "unit_id": "U94",
+      "french": "Não entendi sua brincadeira.",
+      "english": "I couldn't understand his joke.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "985237",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94011",
+      "unit_id": "U94",
+      "french": "Ele está na universidade.",
+      "english": "He is at university.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1245210",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Welton",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94012",
+      "unit_id": "U94",
+      "french": "Sou um estudante universitário.",
+      "english": "I'm a university student.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3186521",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94013",
+      "unit_id": "U94",
+      "french": "Meu irmão é estudante universitário.",
+      "english": "My brother is a college student.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1289362",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94014",
+      "unit_id": "U94",
+      "french": "Vou estudar mais no próximo semestre.",
+      "english": "I'm going to study harder next semester.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3000356",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94015",
+      "unit_id": "U94",
+      "french": "Minha irmã vai para uma universidade.",
+      "english": "My sister goes to a university.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4935491",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94016",
+      "unit_id": "U94",
+      "french": "Temos tempo para tirar uma foto?",
+      "english": "Do we have time for a picture?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8564369",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94017",
+      "unit_id": "U94",
+      "french": "Quando tenho que tirar o lixo?",
+      "english": "When do I have to take out the trash?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9156314",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94018",
+      "unit_id": "U94",
+      "french": "Você pode tirar uma foto minha?",
+      "english": "Can you take a picture of me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9672468",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94019",
+      "unit_id": "U94",
+      "french": "Eu tenho que tirar meus sapatos aqui?",
+      "english": "Do I have to take off my shoes here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "918154",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94020",
+      "unit_id": "U94",
+      "french": "Eu posso tirar uma foto com você?",
+      "english": "Can I take a picture with you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10514398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94021",
+      "unit_id": "U94",
+      "french": "Esta é uma brincadeira.",
+      "english": "This is a joke.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1909512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94022",
+      "unit_id": "U94",
+      "french": "Vamos tirar uma foto.",
+      "english": "Let's take a picture.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5977859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94023",
+      "unit_id": "U94",
+      "french": "Eu vou tirar dinheiro.",
+      "english": "I am going to take out money.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8785520",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94024",
+      "unit_id": "U94",
+      "french": "Tom é um estudante universitário.",
+      "english": "Tom is a university student.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1588923",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nancy",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94025",
+      "unit_id": "U94",
+      "french": "Isto não é uma brincadeira.",
+      "english": "This isn't a joke.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2621104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcospcruz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94026",
+      "unit_id": "U94",
+      "french": "Vamos tirar uma foto juntos.",
+      "english": "Let's get a picture of us together.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6152248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94027",
+      "unit_id": "U94",
+      "french": "Tenho que tirar o lixo.",
+      "english": "I have to take out the trash.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9156319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94028",
+      "unit_id": "U94",
+      "french": "Eu não posso tirar os óculos.",
+      "english": "I can't take my glasses off.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4846459",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94029",
+      "unit_id": "U94",
+      "french": "Vou para a universidade amanhã também.",
+      "english": "I'll go to the university tomorrow, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9132050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94030",
+      "unit_id": "U94",
+      "french": "Também vou para a universidade amanhã.",
+      "english": "I'll go to the university tomorrow, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9132052",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S94001",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94001",
+      "position": 2,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94001",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94001",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94002",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94002",
+      "position": 2,
+      "surface": "curso",
+      "word_id": "W1873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94002",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94002",
+      "position": 4,
+      "surface": "bom",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94003",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94003",
+      "position": 2,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94003",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94003",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94003",
+      "position": 5,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94004",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94004",
+      "position": 2,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94004",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94004",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94004",
+      "position": 5,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94005",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94005",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94005",
+      "position": 3,
+      "surface": "período",
+      "word_id": "W1876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94005",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94005",
+      "position": 5,
+      "surface": "este",
+      "word_id": "W1238",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94005",
+      "position": 6,
+      "surface": "quadro",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94006",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94006",
+      "position": 2,
+      "surface": "biblioteca",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94006",
+      "position": 3,
+      "surface": "da",
+      "word_id": "W1499",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94006",
+      "position": 4,
+      "surface": "universidade",
+      "word_id": "W1869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94006",
+      "position": 5,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94006",
+      "position": 6,
+      "surface": "aberta",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94006",
+      "position": 7,
+      "surface": "agora",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94007",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94007",
+      "position": 2,
+      "surface": "universitário",
+      "word_id": "W1870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94008",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94008",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94008",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94008",
+      "position": 4,
+      "surface": "brincadeira",
+      "word_id": "W1881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94009",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94009",
+      "position": 2,
+      "surface": "entendi",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94009",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94009",
+      "position": 4,
+      "surface": "brincadeira",
+      "word_id": "W1881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94010",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94010",
+      "position": 2,
+      "surface": "entendi",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94010",
+      "position": 3,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94010",
+      "position": 4,
+      "surface": "brincadeira",
+      "word_id": "W1881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94011",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94011",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94011",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94011",
+      "position": 4,
+      "surface": "universidade",
+      "word_id": "W1869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94012",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94012",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94012",
+      "position": 3,
+      "surface": "estudante",
+      "word_id": "W1131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94012",
+      "position": 4,
+      "surface": "universitário",
+      "word_id": "W1870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
+      "position": 1,
+      "surface": "Meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
+      "position": 2,
+      "surface": "irmão",
+      "word_id": "W1655",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
+      "position": 4,
+      "surface": "estudante",
+      "word_id": "W1131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
+      "position": 5,
+      "surface": "universitário",
+      "word_id": "W1870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 1,
+      "surface": "Vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 2,
+      "surface": "estudar",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 3,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 5,
+      "surface": "próximo",
+      "word_id": "W1234",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 6,
+      "surface": "semestre",
+      "word_id": "W1875",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 1,
+      "surface": "Minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 2,
+      "surface": "irmã",
+      "word_id": "W1656",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 5,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 6,
+      "surface": "universidade",
+      "word_id": "W1869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 1,
+      "surface": "Temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 2,
+      "surface": "tempo",
+      "word_id": "W1213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 3,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 4,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 5,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 6,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 4,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 6,
+      "surface": "lixo",
+      "word_id": "W1832",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 3,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 4,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 5,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 6,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 4,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 5,
+      "surface": "meus",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 6,
+      "surface": "sapatos",
+      "word_id": "W1107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 7,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 3,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 4,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 5,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 6,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 7,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 4,
+      "surface": "brincadeira",
+      "word_id": "W1881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 2,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 2,
+      "surface": "vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 3,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 4,
+      "surface": "dinheiro",
+      "word_id": "W921",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94024",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94024",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94024",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94024",
+      "position": 4,
+      "surface": "estudante",
+      "word_id": "W1131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94024",
+      "position": 5,
+      "surface": "universitário",
+      "word_id": "W1870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94025",
+      "position": 1,
+      "surface": "Isto",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94025",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94025",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94025",
+      "position": 4,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94025",
+      "position": 5,
+      "surface": "brincadeira",
+      "word_id": "W1881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94026",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94026",
+      "position": 2,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94026",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94026",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94026",
+      "position": 5,
+      "surface": "juntos",
+      "word_id": "W1275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94027",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94027",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94027",
+      "position": 3,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94027",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94027",
+      "position": 5,
+      "surface": "lixo",
+      "word_id": "W1832",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 3,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 4,
+      "surface": "tirar",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 5,
+      "surface": "os",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 6,
+      "surface": "óculos",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 1,
+      "surface": "Vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 2,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 4,
+      "surface": "universidade",
+      "word_id": "W1869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 5,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 6,
+      "surface": "também",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 1,
+      "surface": "Também",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 2,
+      "surface": "vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 3,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 5,
+      "surface": "universidade",
+      "word_id": "W1869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 6,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A940031",
+      "sentence_id": "S94003",
+      "direction": "fr_to_en",
+      "answer": "May I take a picture of you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

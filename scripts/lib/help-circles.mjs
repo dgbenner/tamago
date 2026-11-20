@@ -39,6 +39,21 @@ export const HELP = {
     U32: { grammar: 'Como se diz…? O que significa…? O que quer dizer…?', words: ['se', 'diz', 'significa', 'quer', 'dizer', 'palavra', 'português', 'inglês'], borrow: ['o que', 'que', 'em', 'como', 'isso'] },
     U33: { grammar: 'Estou procurando a palavra…; é uma coisa para…; não sei', words: ['procurando', 'sei', 'sabe', 'coisa', 'chama', 'serve', 'nome'], borrow: ['para', 'o que'] },
   },
+  nl: {
+    U31: { grammar: 'Ik begrijp het niet; langzamer, alsjeblieft; nog een keer', words: ['begrijp', 'begrijpt', 'langzamer', 'nog', 'keer', 'zeg', 'zegt', 'spreek', 'praat', 'herhaal'], borrow: ['alsjeblieft', 'niet'] },
+    U32: { grammar: 'Hoe zeg je…? Wat betekent…? Het woord in het Nederlands', words: ['betekent', 'woord', 'Nederlands', 'Engels'], borrow: ['wat', 'hoe', 'zeg', 'in'] },
+    U33: { grammar: 'Ik zoek het woord…; het is een ding om te…; ik weet het niet', words: ['zoek', 'weet', 'ding', 'om', 'te', 'heet'], borrow: ['woord', 'niet'] },
+  },
+  sv: {
+    U31: { grammar: 'Jag förstår inte; långsammare, tack; en gång till', words: ['förstår', 'långsammare', 'gång', 'säg', 'prata', 'pratar', 'upprepa', 'igen'], borrow: ['tack', 'inte', 'till'] },
+    U32: { grammar: 'Hur säger man…? Vad betyder…? Ordet på svenska', words: ['säger', 'betyder', 'ord', 'ordet', 'svenska', 'engelska'], borrow: ['vad', 'hur', 'på'] },
+    U33: { grammar: 'Jag letar efter ordet…; det är en sak för…; jag vet inte', words: ['letar', 'efter', 'vet', 'sak', 'heter', 'kallas'], borrow: ['inte'] },
+  },
+  da: {
+    U31: { grammar: 'Jeg forstår det ikke; langsommere, tak; en gang til', words: ['forstår', 'langsommere', 'gang', 'siger', 'taler', 'gentag', 'igen'], borrow: ['tak', 'ikke', 'til'] },
+    U32: { grammar: 'Hvordan siger man…? Hvad betyder…? Ordet på dansk', words: ['betyder', 'man', 'ord', 'dansk', 'engelsk'], borrow: ['hvad', 'hvordan', 'siger', 'på'] },
+    U33: { grammar: 'Jeg leder efter ordet…; det er en ting…; jeg ved det ikke', words: ['leder', 'efter', 'ved', 'ting', 'hedder'], borrow: ['ord', 'ikke'] },
+  },
   no: {
     U31: { grammar: 'Jeg forstår ikke; saktere, takk; en gang til', words: ['forstår', 'saktere', 'gang', 'sier', 'snakker', 'gjenta'], borrow: ['takk', 'til'] },
     U32: { grammar: 'Hvordan sier du…? Hva betyr…? Ordet på norsk', words: ['betyr', 'ord', 'norsk', 'engelsk'], borrow: ['hva', 'på'] },
@@ -84,7 +99,7 @@ export function addHelpCircles(wb, XLSX, lang) {
 
   const words = sheet('words').filter((w) => !/^W7\d\d$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
-  const section = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese' }[lang]
+  const section = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', sv: 'Swedish' }[lang]
   let n = 701
   for (const h of HELP_ROWS) for (const form of spec[h.unit_id].words) {
     if (taken.has(form)) throw new Error(`${h.unit_id}: ${form} is already in the course`)
