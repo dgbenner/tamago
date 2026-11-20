@@ -1,7 +1,7 @@
 {
   "unit_id": "U52",
   "pulled_at": "2026-11-20",
-  "candidates": 3,
+  "candidates": 1,
   "sentences": [
     {
       "sentence_id": "S52001",
@@ -16,38 +16,6 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Mayk",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S52002",
-      "unit_id": "U52",
-      "french": "Å nei!",
-      "english": "Oh no!",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10940617",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Mayk",
-      "other_english": [
-        "Oh, no!"
-      ]
-    },
-    {
-      "sentence_id": "S52003",
-      "unit_id": "U52",
-      "french": "Å, unnskyld.",
-      "english": "Oh, I'm sorry.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "12757590",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "pckv",
       "other_english": []
     }
   ],
@@ -91,49 +59,8 @@
       "word_id": "W1021",
       "notes": "",
       "hint_override": ""
-    },
-    {
-      "sentence_id": "S52002",
-      "position": 1,
-      "surface": "Å",
-      "word_id": "W1027",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S52002",
-      "position": 2,
-      "surface": "nei",
-      "word_id": "W004",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S52003",
-      "position": 1,
-      "surface": "Å",
-      "word_id": "W1027",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S52003",
-      "position": 2,
-      "surface": "unnskyld",
-      "word_id": "W038",
-      "notes": "",
-      "hint_override": ""
     }
   ],
-  "accepted_answers": [
-    {
-      "answer_id": "A520021",
-      "sentence_id": "S52002",
-      "direction": "fr_to_en",
-      "answer": "Oh, no!",
-      "source": "tatoeba",
-      "status": "pulled"
-    }
-  ],
+  "accepted_answers": [],
   "qa_answers": []
 }

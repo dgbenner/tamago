@@ -6,21 +6,6 @@
     {
       "sentence_id": "S11001",
       "unit_id": "U11",
-      "french": "Hva, hvorfor?",
-      "english": "What, why?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "13374355",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "gnofs",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11002",
-      "unit_id": "U11",
       "french": "Hvorfor ikke?",
       "english": "Why not?",
       "pair_id": "",
@@ -34,7 +19,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S11003",
+      "sentence_id": "S11002",
       "unit_id": "U11",
       "french": "Hvem er det?",
       "english": "Who's that?",
@@ -50,6 +35,23 @@
         "Who's this?",
         "Who is that?",
         "Who is it?"
+      ]
+    },
+    {
+      "sentence_id": "S11003",
+      "unit_id": "U11",
+      "french": "Når går du?",
+      "english": "When will you leave?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2907040",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eirik174",
+      "other_english": [
+        "What time will you leave?"
       ]
     },
     {
@@ -87,6 +89,36 @@
     {
       "sentence_id": "S11006",
       "unit_id": "U11",
+      "french": "Hei, hva er dette?",
+      "english": "Hey, what's this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5708347",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Meggie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11007",
+      "unit_id": "U11",
+      "french": "Hvorfor er han sint?",
+      "english": "Why is he angry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10943398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11008",
+      "unit_id": "U11",
       "french": "Hvor mange barn har du?",
       "english": "How many children do you have?",
       "pair_id": "",
@@ -100,7 +132,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S11007",
+      "sentence_id": "S11009",
       "unit_id": "U11",
       "french": "Det er fordi du er jente.",
       "english": "That's because you're a girl.",
@@ -115,7 +147,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S11008",
+      "sentence_id": "S11010",
       "unit_id": "U11",
       "french": "Hvem er dere?",
       "english": "Who are you all?",
@@ -127,36 +159,6 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "RudeGuyGames",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11009",
-      "unit_id": "U11",
-      "french": "Hei, hva er dette?",
-      "english": "Hey, what's this?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "5708347",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Meggie",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S11010",
-      "unit_id": "U11",
-      "french": "Hvorfor er han sint?",
-      "english": "Why is he angry?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10943398",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Mayk",
       "other_english": []
     },
     {
@@ -177,6 +179,21 @@
     {
       "sentence_id": "S11012",
       "unit_id": "U11",
+      "french": "Hvorfor er du trøtt?",
+      "english": "Why are you tired?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10958086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11013",
+      "unit_id": "U11",
       "french": "Hvem er sulten?",
       "english": "Who's hungry?",
       "pair_id": "",
@@ -190,7 +207,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S11013",
+      "sentence_id": "S11014",
       "unit_id": "U11",
       "french": "Hvem er der?",
       "english": "Who is there?",
@@ -203,42 +220,11 @@
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "gnofs",
       "other_english": []
-    },
-    {
-      "sentence_id": "S11014",
-      "unit_id": "U11",
-      "french": "Hvorfor er du trøtt?",
-      "english": "Why are you tired?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10958086",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Mayk",
-      "other_english": []
     }
   ],
   "sentence_words": [
     {
       "sentence_id": "S11001",
-      "position": 1,
-      "surface": "Hva",
-      "word_id": "W124",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11001",
-      "position": 2,
-      "surface": "hvorfor",
-      "word_id": "W127",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11002",
       "position": 1,
       "surface": "Hvorfor",
       "word_id": "W127",
@@ -246,7 +232,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11002",
+      "sentence_id": "S11001",
       "position": 2,
       "surface": "ikke",
       "word_id": "W005",
@@ -254,7 +240,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11003",
+      "sentence_id": "S11002",
       "position": 1,
       "surface": "Hvem",
       "word_id": "W123",
@@ -262,7 +248,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11003",
+      "sentence_id": "S11002",
       "position": 2,
       "surface": "er",
       "word_id": "W008",
@@ -270,10 +256,34 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11003",
+      "sentence_id": "S11002",
       "position": 3,
       "surface": "det",
       "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11003",
+      "position": 1,
+      "surface": "Når",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11003",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11003",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
       "notes": "",
       "hint_override": ""
     },
@@ -328,125 +338,13 @@
     {
       "sentence_id": "S11006",
       "position": 1,
-      "surface": "Hvor",
-      "word_id": "W125",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11006",
-      "position": 2,
-      "surface": "mange",
-      "word_id": "W076",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11006",
-      "position": 3,
-      "surface": "barn",
-      "word_id": "W015",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11006",
-      "position": 4,
-      "surface": "har",
-      "word_id": "W057",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11006",
-      "position": 5,
-      "surface": "du",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 1,
-      "surface": "Det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 2,
-      "surface": "er",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 3,
-      "surface": "fordi",
-      "word_id": "W128",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 4,
-      "surface": "du",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 5,
-      "surface": "er",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11007",
-      "position": 6,
-      "surface": "jente",
-      "word_id": "W014",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 1,
-      "surface": "Hvem",
-      "word_id": "W123",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 2,
-      "surface": "er",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11008",
-      "position": 3,
-      "surface": "dere",
-      "word_id": "W067",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11009",
-      "position": 1,
       "surface": "Hei",
       "word_id": "W001",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S11009",
+      "sentence_id": "S11006",
       "position": 2,
       "surface": "hva",
       "word_id": "W124",
@@ -454,7 +352,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11009",
+      "sentence_id": "S11006",
       "position": 3,
       "surface": "er",
       "word_id": "W008",
@@ -462,7 +360,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11009",
+      "sentence_id": "S11006",
       "position": 4,
       "surface": "dette",
       "word_id": "W022",
@@ -470,10 +368,130 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11010",
+      "sentence_id": "S11007",
       "position": 1,
       "surface": "Hvorfor",
       "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11007",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11007",
+      "position": 3,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11007",
+      "position": 4,
+      "surface": "sint",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 3,
+      "surface": "barn",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 4,
+      "surface": "har",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 5,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11009",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11009",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11009",
+      "position": 3,
+      "surface": "fordi",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11009",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11009",
+      "position": 5,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11009",
+      "position": 6,
+      "surface": "jente",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11010",
+      "position": 1,
+      "surface": "Hvem",
+      "word_id": "W123",
       "notes": "",
       "hint_override": ""
     },
@@ -488,16 +506,8 @@
     {
       "sentence_id": "S11010",
       "position": 3,
-      "surface": "han",
-      "word_id": "W017",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11010",
-      "position": 4,
-      "surface": "sint",
-      "word_id": "W105",
+      "surface": "dere",
+      "word_id": "W067",
       "notes": "",
       "hint_override": ""
     },
@@ -536,61 +546,13 @@
     {
       "sentence_id": "S11012",
       "position": 1,
-      "surface": "Hvem",
-      "word_id": "W123",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11012",
-      "position": 2,
-      "surface": "er",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11012",
-      "position": 3,
-      "surface": "sulten",
-      "word_id": "W107",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11013",
-      "position": 1,
-      "surface": "Hvem",
-      "word_id": "W123",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11013",
-      "position": 2,
-      "surface": "er",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11013",
-      "position": 3,
-      "surface": "der",
-      "word_id": "W095",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S11014",
-      "position": 1,
       "surface": "Hvorfor",
       "word_id": "W127",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S11014",
+      "sentence_id": "S11012",
       "position": 2,
       "surface": "er",
       "word_id": "W008",
@@ -598,7 +560,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11014",
+      "sentence_id": "S11012",
       "position": 3,
       "surface": "du",
       "word_id": "W007",
@@ -606,36 +568,92 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S11014",
+      "sentence_id": "S11012",
       "position": 4,
       "surface": "trøtt",
       "word_id": "W101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11013",
+      "position": 1,
+      "surface": "Hvem",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11013",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11013",
+      "position": 3,
+      "surface": "sulten",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11014",
+      "position": 1,
+      "surface": "Hvem",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11014",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11014",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W095",
       "notes": "",
       "hint_override": ""
     }
   ],
   "accepted_answers": [
     {
-      "answer_id": "A110031",
-      "sentence_id": "S11003",
+      "answer_id": "A110021",
+      "sentence_id": "S11002",
       "direction": "fr_to_en",
       "answer": "Who's this?",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A110032",
-      "sentence_id": "S11003",
+      "answer_id": "A110022",
+      "sentence_id": "S11002",
       "direction": "fr_to_en",
       "answer": "Who is that?",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A110033",
-      "sentence_id": "S11003",
+      "answer_id": "A110023",
+      "sentence_id": "S11002",
       "direction": "fr_to_en",
       "answer": "Who is it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A110031",
+      "sentence_id": "S11003",
+      "direction": "fr_to_en",
+      "answer": "What time will you leave?",
       "source": "tatoeba",
       "status": "pulled"
     },

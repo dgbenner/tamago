@@ -1,7 +1,7 @@
 {
   "unit_id": "U05",
   "pulled_at": "2026-11-20",
-  "candidates": 16,
+  "candidates": 18,
   "sentences": [
     {
       "sentence_id": "S5001",
@@ -67,7 +67,7 @@
       "sentence_id": "S5005",
       "unit_id": "U05",
       "french": "Har du melk?",
-      "english": "Do you have some milk?",
+      "english": "Do you have milk?",
       "pair_id": "",
       "source": "tatoeba",
       "source_id": "2907589",
@@ -76,7 +76,9 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "eirik174",
-      "other_english": []
+      "other_english": [
+        "Do you have some milk?"
+      ]
     },
     {
       "sentence_id": "S5006",
@@ -233,6 +235,21 @@
     {
       "sentence_id": "S5016",
       "unit_id": "U05",
+      "french": "Jeg er en mann.",
+      "english": "I am a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12262306",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "augine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5017",
+      "unit_id": "U05",
       "french": "Du er en lege.",
       "english": "You are a doctor.",
       "pair_id": "",
@@ -243,6 +260,21 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "pckv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5018",
+      "unit_id": "U05",
+      "french": "Du er en gutt, ikke en mann.",
+      "english": "You are a boy, not a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12732902",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "augine",
       "other_english": []
     }
   ],
@@ -690,8 +722,8 @@
     {
       "sentence_id": "S5016",
       "position": 1,
-      "surface": "Du",
-      "word_id": "W007",
+      "surface": "Jeg",
+      "word_id": "W006",
       "notes": "",
       "hint_override": ""
     },
@@ -714,8 +746,96 @@
     {
       "sentence_id": "S5016",
       "position": 4,
+      "surface": "mann",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5017",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5017",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5017",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5017",
+      "position": 4,
       "surface": "lege",
       "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 4,
+      "surface": "gutt",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 5,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 6,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 7,
+      "surface": "mann",
+      "word_id": "W011",
       "notes": "",
       "hint_override": ""
     }

@@ -2,6 +2,36 @@
   {
     "sentence_id": "S1001",
     "unit_id": "U01",
+    "draft_french": "Du er en gutt, ikke en mann.",
+    "draft_english": "You are a boy, not a man.",
+    "french": "Du er en gutt, ikke en mann.",
+    "english": "You are a boy, not a man.",
+    "source": "tatoeba",
+    "source_id": "12732902",
+    "source_owner": "augine",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12732902",
+      "source_owner": "augine",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Du er en gutt, ikke en mann.",
+      "english": [
+        "You are a boy, not a man."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S1002",
+    "unit_id": "U01",
     "draft_french": "Jeg er en kvinne.",
     "draft_english": "I am a woman.",
     "french": "Jeg er en kvinne.",
@@ -30,7 +60,37 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S1002",
+    "sentence_id": "S1003",
+    "unit_id": "U01",
+    "draft_french": "Jeg er en mann.",
+    "draft_english": "I am a man.",
+    "french": "Jeg er en mann.",
+    "english": "I am a man.",
+    "source": "tatoeba",
+    "source_id": "12262306",
+    "source_owner": "augine",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12262306",
+      "source_owner": "augine",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Jeg er en mann.",
+      "english": [
+        "I am a man."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S1004",
     "unit_id": "U01",
     "draft_french": "Jeg er en jente.",
     "draft_english": "I am a girl.",
@@ -60,7 +120,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S1003",
+    "sentence_id": "S1005",
     "unit_id": "U01",
     "draft_french": "Hei, du.",
     "draft_english": "Hey, you.",
@@ -90,7 +150,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S1004",
+    "sentence_id": "S1006",
     "unit_id": "U01",
     "draft_french": "Jeg er.",
     "draft_english": "I am.",
@@ -242,6 +302,36 @@
   {
     "sentence_id": "S3001",
     "unit_id": "U03",
+    "draft_french": "Det går bra.",
+    "draft_english": "All right.",
+    "french": "Det går bra.",
+    "english": "All right.",
+    "source": "tatoeba",
+    "source_id": "3551519",
+    "source_owner": "danieljtah",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3551519",
+      "source_owner": "danieljtah",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Det går bra.",
+      "english": [
+        "All right."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S3002",
+    "unit_id": "U03",
     "draft_french": "God kveld.",
     "draft_english": "Good evening.",
     "french": "God kveld.",
@@ -270,7 +360,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S3002",
+    "sentence_id": "S3003",
     "unit_id": "U03",
     "draft_french": "God morgen.",
     "draft_english": "Good morning.",
@@ -300,7 +390,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S3003",
+    "sentence_id": "S3004",
     "unit_id": "U03",
     "draft_french": "Ikke dårlig.",
     "draft_english": "Not bad.",
@@ -330,7 +420,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S3004",
+    "sentence_id": "S3005",
     "unit_id": "U03",
     "draft_french": "Det er ikke bra.",
     "draft_english": "It isn't good.",
@@ -361,7 +451,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S3005",
+    "sentence_id": "S3006",
     "unit_id": "U03",
     "draft_french": "Ha det!",
     "draft_english": "Goodbye!",
@@ -393,7 +483,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S3006",
+    "sentence_id": "S3007",
     "unit_id": "U03",
     "draft_french": "Vær så snill.",
     "draft_english": "Please.",
@@ -423,7 +513,67 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S3007",
+    "sentence_id": "S3008",
+    "unit_id": "U03",
+    "draft_french": "Hun går.",
+    "draft_english": "She walks.",
+    "french": "Hun går.",
+    "english": "She walks.",
+    "source": "tatoeba",
+    "source_id": "9295724",
+    "source_owner": "Mayk",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "9295724",
+      "source_owner": "Mayk",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hun går.",
+      "english": [
+        "She walks."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S3009",
+    "unit_id": "U03",
+    "draft_french": "Han går.",
+    "draft_english": "He walks.",
+    "french": "Han går.",
+    "english": "He walks.",
+    "source": "tatoeba",
+    "source_id": "9295805",
+    "source_owner": "Mayk",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "9295805",
+      "source_owner": "Mayk",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Han går.",
+      "english": [
+        "He walks."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S3010",
     "unit_id": "U03",
     "draft_french": "Beklager det.",
     "draft_english": "Sorry about that.",
@@ -488,9 +638,9 @@
     "sentence_id": "S4002",
     "unit_id": "U04",
     "draft_french": "Jeg liker ikke kaffe.",
-    "draft_english": "I dislike coffee.",
+    "draft_english": "I don't like coffee.",
     "french": "Jeg liker ikke kaffe.",
-    "english": "I dislike coffee.",
+    "english": "I don't like coffee.",
     "source": "tatoeba",
     "source_id": "2879705",
     "source_owner": "eirik174",
@@ -699,9 +849,9 @@
     "sentence_id": "S5005",
     "unit_id": "U05",
     "draft_french": "Har du melk?",
-    "draft_english": "Do you have some milk?",
+    "draft_english": "Do you have milk?",
     "french": "Har du melk?",
-    "english": "Do you have some milk?",
+    "english": "Do you have milk?",
     "source": "tatoeba",
     "source_id": "2907589",
     "source_owner": "eirik174",
@@ -718,9 +868,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -1029,6 +1179,36 @@
   {
     "sentence_id": "S5016",
     "unit_id": "U05",
+    "draft_french": "Jeg er en mann.",
+    "draft_english": "I am a man.",
+    "french": "Jeg er en mann.",
+    "english": "I am a man.",
+    "source": "tatoeba",
+    "source_id": "12262306",
+    "source_owner": "augine",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12262306",
+      "source_owner": "augine",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Jeg er en mann.",
+      "english": [
+        "I am a man."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S5017",
+    "unit_id": "U05",
     "draft_french": "Du er en lege.",
     "draft_english": "You are a doctor.",
     "french": "Du er en lege.",
@@ -1057,25 +1237,25 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6001",
-    "unit_id": "U06",
-    "draft_french": "Er de?",
-    "draft_english": "They are?",
-    "french": "Er de?",
-    "english": "They are?",
+    "sentence_id": "S5018",
+    "unit_id": "U05",
+    "draft_french": "Du er en gutt, ikke en mann.",
+    "draft_english": "You are a boy, not a man.",
+    "french": "Du er en gutt, ikke en mann.",
+    "english": "You are a boy, not a man.",
     "source": "tatoeba",
-    "source_id": "10940587",
-    "source_owner": "Mayk",
+    "source_id": "12732902",
+    "source_owner": "augine",
     "status": "checked",
     "flag_reason": null,
     "match": {
-      "source_id": "10940587",
-      "source_owner": "Mayk",
+      "source_id": "12732902",
+      "source_owner": "augine",
       "native_owner": true,
       "ok_tag": false,
-      "french": "Er de?",
+      "french": "Du er en gutt, ikke en mann.",
       "english": [
-        "They are?"
+        "You are a boy, not a man."
       ]
     },
     "variants": [],
@@ -1087,7 +1267,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6002",
+    "sentence_id": "S6001",
     "unit_id": "U06",
     "draft_french": "Liker dere det?",
     "draft_english": "Do you like it?",
@@ -1117,7 +1297,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6003",
+    "sentence_id": "S6002",
     "unit_id": "U06",
     "draft_french": "Ja, to.",
     "draft_english": "Yes, two.",
@@ -1147,12 +1327,12 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6004",
+    "sentence_id": "S6003",
     "unit_id": "U06",
     "draft_french": "Hei, dere.",
-    "draft_english": "Hey, you.",
+    "draft_english": "Hey, you all.",
     "french": "Hei, dere.",
-    "english": "Hey, you.",
+    "english": "Hey, you all.",
     "source": "tatoeba",
     "source_id": "10940441",
     "source_owner": "Mayk",
@@ -1169,15 +1349,15 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6005",
+    "sentence_id": "S6004",
     "unit_id": "U06",
     "draft_french": "De er barn.",
     "draft_english": "They're children.",
@@ -1207,7 +1387,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6006",
+    "sentence_id": "S6005",
     "unit_id": "U06",
     "draft_french": "De spiser brød.",
     "draft_english": "They are eating bread.",
@@ -1237,7 +1417,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6007",
+    "sentence_id": "S6006",
     "unit_id": "U06",
     "draft_french": "Vi har ikke vann.",
     "draft_english": "We have no water.",
@@ -1267,7 +1447,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6008",
+    "sentence_id": "S6007",
     "unit_id": "U06",
     "draft_french": "Han har en hund.",
     "draft_english": "He has a dog.",
@@ -1297,7 +1477,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S6009",
+    "sentence_id": "S6008",
     "unit_id": "U06",
     "draft_french": "Jeg har en stor hund.",
     "draft_english": "I have a big dog.",
@@ -1722,9 +1902,9 @@
     "sentence_id": "S9005",
     "unit_id": "U09",
     "draft_french": "Er du ikke trist?",
-    "draft_english": "You’re not sad?",
+    "draft_english": "Aren't you sad?",
     "french": "Er du ikke trist?",
-    "english": "You’re not sad?",
+    "english": "Aren't you sad?",
     "source": "tatoeba",
     "source_id": "10943494",
     "source_owner": "Mayk",
@@ -1741,9 +1921,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -1842,9 +2022,9 @@
     "sentence_id": "S10003",
     "unit_id": "U10",
     "draft_french": "Hei, far.",
-    "draft_english": "Hi, Father.",
+    "draft_english": "Hi, Dad.",
     "french": "Hei, far.",
-    "english": "Hi, Father.",
+    "english": "Hi, Dad.",
     "source": "tatoeba",
     "source_id": "10940657",
     "source_owner": "Mayk",
@@ -1861,9 +2041,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -1901,6 +2081,36 @@
   {
     "sentence_id": "S10005",
     "unit_id": "U10",
+    "draft_french": "Du er ikke vår venn.",
+    "draft_english": "You aren't our friend.",
+    "french": "Du er ikke vår venn.",
+    "english": "You aren't our friend.",
+    "source": "tatoeba",
+    "source_id": "5145352",
+    "source_owner": "sotolf",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "5145352",
+      "source_owner": "sotolf",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Du er ikke vår venn.",
+      "english": [
+        "You aren't our friend."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S10006",
+    "unit_id": "U10",
     "draft_french": "Den er ikke min.",
     "draft_english": "It isn't mine.",
     "french": "Den er ikke min.",
@@ -1932,7 +2142,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S10006",
+    "sentence_id": "S10007",
     "unit_id": "U10",
     "draft_french": "Har du en søster?",
     "draft_english": "Do you have a sister?",
@@ -1962,7 +2172,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S10007",
+    "sentence_id": "S10008",
     "unit_id": "U10",
     "draft_french": "Har dere en søster?",
     "draft_english": "Do you have a sister?",
@@ -1992,7 +2202,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S10008",
+    "sentence_id": "S10009",
     "unit_id": "U10",
     "draft_french": "Har hun en søster?",
     "draft_english": "Does she have a sister?",
@@ -2022,7 +2232,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S10009",
+    "sentence_id": "S10010",
     "unit_id": "U10",
     "draft_french": "Hei, venn!",
     "draft_english": "Hi, friend!",
@@ -2052,7 +2262,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S10010",
+    "sentence_id": "S10011",
     "unit_id": "U10",
     "draft_french": "Jeg har en venn.",
     "draft_english": "I have a friend.",
@@ -2082,7 +2292,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S10011",
+    "sentence_id": "S10012",
     "unit_id": "U10",
     "draft_french": "Det er ikke min katt.",
     "draft_english": "It's not my cat.",
@@ -2112,7 +2322,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S10012",
+    "sentence_id": "S10013",
     "unit_id": "U10",
     "draft_french": "Har han en søster?",
     "draft_english": "Does he have a sister?",
@@ -2144,36 +2354,6 @@
   {
     "sentence_id": "S11001",
     "unit_id": "U11",
-    "draft_french": "Hva, hvorfor?",
-    "draft_english": "What, why?",
-    "french": "Hva, hvorfor?",
-    "english": "What, why?",
-    "source": "tatoeba",
-    "source_id": "13374355",
-    "source_owner": "gnofs",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "13374355",
-      "source_owner": "gnofs",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Hva, hvorfor?",
-      "english": [
-        "What, why?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11002",
-    "unit_id": "U11",
     "draft_french": "Hvorfor ikke?",
     "draft_english": "Why not?",
     "french": "Hvorfor ikke?",
@@ -2202,7 +2382,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S11003",
+    "sentence_id": "S11002",
     "unit_id": "U11",
     "draft_french": "Hvem er det?",
     "draft_english": "Who's that?",
@@ -2224,6 +2404,37 @@
         "Who is that?",
         "Who's this?",
         "Who is it?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S11003",
+    "unit_id": "U11",
+    "draft_french": "Når går du?",
+    "draft_english": "When will you leave?",
+    "french": "Når går du?",
+    "english": "When will you leave?",
+    "source": "tatoeba",
+    "source_id": "2907040",
+    "source_owner": "eirik174",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "2907040",
+      "source_owner": "eirik174",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Når går du?",
+      "english": [
+        "What time will you leave?",
+        "When will you leave?"
       ]
     },
     "variants": [],
@@ -2298,6 +2509,66 @@
   {
     "sentence_id": "S11006",
     "unit_id": "U11",
+    "draft_french": "Hei, hva er dette?",
+    "draft_english": "Hey, what's this?",
+    "french": "Hei, hva er dette?",
+    "english": "Hey, what's this?",
+    "source": "tatoeba",
+    "source_id": "5708347",
+    "source_owner": "Meggie",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "5708347",
+      "source_owner": "Meggie",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hei, hva er dette?",
+      "english": [
+        "Hey, what's this?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S11007",
+    "unit_id": "U11",
+    "draft_french": "Hvorfor er han sint?",
+    "draft_english": "Why is he angry?",
+    "french": "Hvorfor er han sint?",
+    "english": "Why is he angry?",
+    "source": "tatoeba",
+    "source_id": "10943398",
+    "source_owner": "Mayk",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "10943398",
+      "source_owner": "Mayk",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hvorfor er han sint?",
+      "english": [
+        "Why is he angry?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S11008",
+    "unit_id": "U11",
     "draft_french": "Hvor mange barn har du?",
     "draft_english": "How many children do you have?",
     "french": "Hvor mange barn har du?",
@@ -2326,7 +2597,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S11007",
+    "sentence_id": "S11009",
     "unit_id": "U11",
     "draft_french": "Det er fordi du er jente.",
     "draft_english": "That's because you're a girl.",
@@ -2356,7 +2627,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S11008",
+    "sentence_id": "S11010",
     "unit_id": "U11",
     "draft_french": "Hvem er dere?",
     "draft_english": "Who are you all?",
@@ -2375,66 +2646,6 @@
       "french": "Hvem er dere?",
       "english": [
         "Who are you all?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11009",
-    "unit_id": "U11",
-    "draft_french": "Hei, hva er dette?",
-    "draft_english": "Hey, what's this?",
-    "french": "Hei, hva er dette?",
-    "english": "Hey, what's this?",
-    "source": "tatoeba",
-    "source_id": "5708347",
-    "source_owner": "Meggie",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "5708347",
-      "source_owner": "Meggie",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Hei, hva er dette?",
-      "english": [
-        "Hey, what's this?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11010",
-    "unit_id": "U11",
-    "draft_french": "Hvorfor er han sint?",
-    "draft_english": "Why is he angry?",
-    "french": "Hvorfor er han sint?",
-    "english": "Why is he angry?",
-    "source": "tatoeba",
-    "source_id": "10943398",
-    "source_owner": "Mayk",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "10943398",
-      "source_owner": "Mayk",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Hvorfor er han sint?",
-      "english": [
-        "Why is he angry?"
       ]
     },
     "variants": [],
@@ -2478,6 +2689,36 @@
   {
     "sentence_id": "S11012",
     "unit_id": "U11",
+    "draft_french": "Hvorfor er du trøtt?",
+    "draft_english": "Why are you tired?",
+    "french": "Hvorfor er du trøtt?",
+    "english": "Why are you tired?",
+    "source": "tatoeba",
+    "source_id": "10958086",
+    "source_owner": "Mayk",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "10958086",
+      "source_owner": "Mayk",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hvorfor er du trøtt?",
+      "english": [
+        "Why are you tired?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S11013",
+    "unit_id": "U11",
     "draft_french": "Hvem er sulten?",
     "draft_english": "Who's hungry?",
     "french": "Hvem er sulten?",
@@ -2506,7 +2747,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S11013",
+    "sentence_id": "S11014",
     "unit_id": "U11",
     "draft_french": "Hvem er der?",
     "draft_english": "Who is there?",
@@ -2525,36 +2766,6 @@
       "french": "Hvem er der?",
       "english": [
         "Who is there?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S11014",
-    "unit_id": "U11",
-    "draft_french": "Hvorfor er du trøtt?",
-    "draft_english": "Why are you tired?",
-    "french": "Hvorfor er du trøtt?",
-    "english": "Why are you tired?",
-    "source": "tatoeba",
-    "source_id": "10958086",
-    "source_owner": "Mayk",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "10958086",
-      "source_owner": "Mayk",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Hvorfor er du trøtt?",
-      "english": [
-        "Why are you tired?"
       ]
     },
     "variants": [],
@@ -2839,36 +3050,6 @@
   {
     "sentence_id": "S14005",
     "unit_id": "U14",
-    "draft_french": "Hva har vi nå her?",
-    "draft_english": "What have we here?",
-    "french": "Hva har vi nå her?",
-    "english": "What have we here?",
-    "source": "tatoeba",
-    "source_id": "6364609",
-    "source_owner": "RudeGuyGames",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "6364609",
-      "source_owner": "RudeGuyGames",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Hva har vi nå her?",
-      "english": [
-        "What have we here?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S14006",
-    "unit_id": "U14",
     "draft_french": "Ikke nå!",
     "draft_english": "Not now!",
     "french": "Ikke nå!",
@@ -2897,7 +3078,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S14007",
+    "sentence_id": "S14006",
     "unit_id": "U14",
     "draft_french": "Jeg er syk nå.",
     "draft_english": "I'm sick now.",
@@ -2927,7 +3108,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S14008",
+    "sentence_id": "S14007",
     "unit_id": "U14",
     "draft_french": "Jeg er veldig sulten nå.",
     "draft_english": "I'm very hungry now.",
@@ -2959,23 +3140,24 @@
   {
     "sentence_id": "S15001",
     "unit_id": "U15",
-    "draft_french": "Gå og se hvem det er.",
-    "draft_english": "Go and see who it is.",
-    "french": "Gå og se hvem det er.",
-    "english": "Go and see who it is.",
+    "draft_french": "Når går du?",
+    "draft_english": "When will you leave?",
+    "french": "Når går du?",
+    "english": "When will you leave?",
     "source": "tatoeba",
-    "source_id": "2875026",
+    "source_id": "2907040",
     "source_owner": "eirik174",
     "status": "checked",
     "flag_reason": null,
     "match": {
-      "source_id": "2875026",
+      "source_id": "2907040",
       "source_owner": "eirik174",
       "native_owner": true,
       "ok_tag": false,
-      "french": "Gå og se hvem det er.",
+      "french": "Når går du?",
       "english": [
-        "Go and see who it is."
+        "What time will you leave?",
+        "When will you leave?"
       ]
     },
     "variants": [],
@@ -2988,6 +3170,36 @@
   },
   {
     "sentence_id": "S15002",
+    "unit_id": "U15",
+    "draft_french": "Hun går.",
+    "draft_english": "She walks.",
+    "french": "Hun går.",
+    "english": "She walks.",
+    "source": "tatoeba",
+    "source_id": "9295724",
+    "source_owner": "Mayk",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "9295724",
+      "source_owner": "Mayk",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hun går.",
+      "english": [
+        "She walks."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S15003",
     "unit_id": "U15",
     "draft_french": "Det er en restaurant her.",
     "draft_english": "There's a restaurant here.",
@@ -3017,25 +3229,55 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S15003",
+    "sentence_id": "S15004",
     "unit_id": "U15",
-    "draft_french": "Jeg er dårlig til å svømme.",
-    "draft_english": "I'm bad at swimming.",
-    "french": "Jeg er dårlig til å svømme.",
-    "english": "I'm bad at swimming.",
+    "draft_french": "Han går.",
+    "draft_english": "He walks.",
+    "french": "Han går.",
+    "english": "He walks.",
     "source": "tatoeba",
-    "source_id": "2829601",
-    "source_owner": "eirik174",
+    "source_id": "9295805",
+    "source_owner": "Mayk",
     "status": "checked",
     "flag_reason": null,
     "match": {
-      "source_id": "2829601",
-      "source_owner": "eirik174",
+      "source_id": "9295805",
+      "source_owner": "Mayk",
       "native_owner": true,
       "ok_tag": false,
-      "french": "Jeg er dårlig til å svømme.",
+      "french": "Han går.",
       "english": [
-        "I'm bad at swimming."
+        "He walks."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S15005",
+    "unit_id": "U15",
+    "draft_french": "Det går bra.",
+    "draft_english": "All right.",
+    "french": "Det går bra.",
+    "english": "All right.",
+    "source": "tatoeba",
+    "source_id": "3551519",
+    "source_owner": "danieljtah",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3551519",
+      "source_owner": "danieljtah",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Det går bra.",
+      "english": [
+        "All right."
       ]
     },
     "variants": [],
@@ -3050,9 +3292,9 @@
     "sentence_id": "S31001",
     "unit_id": "U31",
     "draft_french": "Forstår du?",
-    "draft_english": "Understand?",
+    "draft_english": "Do you understand?",
     "french": "Forstår du?",
-    "english": "Understand?",
+    "english": "Do you understand?",
     "source": "tatoeba",
     "source_id": "10940244",
     "source_owner": "Mayk",
@@ -3069,9 +3311,9 @@
       ]
     },
     "variants": [],
-    "decision": "",
+    "decision": "confirm",
     "sentence_words": null,
-    "english_source": "",
+    "english_source": "Fable review pick (2026-11-20), English not a linked Tatoeba translation",
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
@@ -3369,67 +3611,6 @@
       "french": "Han liker ikke å danse.",
       "english": [
         "He doesn't like dancing."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S52002",
-    "unit_id": "U52",
-    "draft_french": "Å nei!",
-    "draft_english": "Oh no!",
-    "french": "Å nei!",
-    "english": "Oh no!",
-    "source": "tatoeba",
-    "source_id": "10940617",
-    "source_owner": "Mayk",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "10940617",
-      "source_owner": "Mayk",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Å nei!",
-      "english": [
-        "Oh no!",
-        "Oh, no!"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S52003",
-    "unit_id": "U52",
-    "draft_french": "Å, unnskyld.",
-    "draft_english": "Oh, I'm sorry.",
-    "french": "Å, unnskyld.",
-    "english": "Oh, I'm sorry.",
-    "source": "tatoeba",
-    "source_id": "12757590",
-    "source_owner": "pckv",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "12757590",
-      "source_owner": "pckv",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Å, unnskyld.",
-      "english": [
-        "Oh, I'm sorry."
       ]
     },
     "variants": [],
@@ -4743,10 +4924,10 @@
   {
     "sentence_id": "S8104",
     "unit_id": "U08",
-    "draft_french": "Jeg er i et kjøkken.",
-    "draft_english": "I am in a kitchen.",
-    "french": "Jeg er i et kjøkken.",
-    "english": "I am in a kitchen.",
+    "draft_french": "Det er et kjøkken her.",
+    "draft_english": "There is a kitchen here.",
+    "french": "Det er et kjøkken her.",
+    "english": "There is a kitchen here.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",
@@ -4963,10 +5144,10 @@
   {
     "sentence_id": "S33102",
     "unit_id": "U33",
-    "draft_french": "Det er en ting å se.",
-    "draft_english": "It is a thing to see.",
-    "french": "Det er en ting å se.",
-    "english": "It is a thing to see.",
+    "draft_french": "Det er en ting.",
+    "draft_english": "It is a thing.",
+    "french": "Det er en ting.",
+    "english": "It is a thing.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",
@@ -6387,6 +6568,48 @@
     "draft_english": "I like to watch a film.",
     "french": "Jeg liker å se en film.",
     "english": "I like to watch a film.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S8109",
+    "unit_id": "U08",
+    "draft_french": "Jeg er i et rom.",
+    "draft_english": "I am in a room.",
+    "french": "Jeg er i et rom.",
+    "english": "I am in a room.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S15106",
+    "unit_id": "U15",
+    "draft_french": "Jeg liker å gå.",
+    "draft_english": "I like to walk.",
+    "french": "Jeg liker å gå.",
+    "english": "I like to walk.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",

@@ -1,7 +1,7 @@
 {
   "unit_id": "U10",
   "pulled_at": "2026-11-20",
-  "candidates": 12,
+  "candidates": 13,
   "sentences": [
     {
       "sentence_id": "S10001",
@@ -37,7 +37,7 @@
       "sentence_id": "S10003",
       "unit_id": "U10",
       "french": "Hei, far.",
-      "english": "Hi, Father.",
+      "english": "Hi, Dad.",
       "pair_id": "",
       "source": "tatoeba",
       "source_id": "10940657",
@@ -46,7 +46,9 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Mayk",
-      "other_english": []
+      "other_english": [
+        "Hi, Father."
+      ]
     },
     {
       "sentence_id": "S10004",
@@ -66,6 +68,21 @@
     {
       "sentence_id": "S10005",
       "unit_id": "U10",
+      "french": "Du er ikke vår venn.",
+      "english": "You aren't our friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5145352",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sotolf",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10006",
+      "unit_id": "U10",
       "french": "Den er ikke min.",
       "english": "It isn't mine.",
       "pair_id": "",
@@ -83,7 +100,7 @@
       ]
     },
     {
-      "sentence_id": "S10006",
+      "sentence_id": "S10007",
       "unit_id": "U10",
       "french": "Har du en søster?",
       "english": "Do you have a sister?",
@@ -98,7 +115,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S10007",
+      "sentence_id": "S10008",
       "unit_id": "U10",
       "french": "Har dere en søster?",
       "english": "Do you have a sister?",
@@ -113,7 +130,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S10008",
+      "sentence_id": "S10009",
       "unit_id": "U10",
       "french": "Har hun en søster?",
       "english": "Does she have a sister?",
@@ -128,7 +145,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S10009",
+      "sentence_id": "S10010",
       "unit_id": "U10",
       "french": "Hei, venn!",
       "english": "Hi, friend!",
@@ -143,7 +160,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S10010",
+      "sentence_id": "S10011",
       "unit_id": "U10",
       "french": "Jeg har en venn.",
       "english": "I have a friend.",
@@ -158,7 +175,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S10011",
+      "sentence_id": "S10012",
       "unit_id": "U10",
       "french": "Det er ikke min katt.",
       "english": "It's not my cat.",
@@ -173,7 +190,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S10012",
+      "sentence_id": "S10013",
       "unit_id": "U10",
       "french": "Har han en søster?",
       "english": "Does he have a sister?",
@@ -296,8 +313,8 @@
     {
       "sentence_id": "S10005",
       "position": 1,
-      "surface": "Den",
-      "word_id": "W019",
+      "surface": "Du",
+      "word_id": "W007",
       "notes": "",
       "hint_override": ""
     },
@@ -320,13 +337,53 @@
     {
       "sentence_id": "S10005",
       "position": 4,
+      "surface": "vår",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 5,
+      "surface": "venn",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 1,
+      "surface": "Den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 4,
       "surface": "min",
       "word_id": "W111",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S10006",
+      "sentence_id": "S10007",
       "position": 1,
       "surface": "Har",
       "word_id": "W057",
@@ -334,7 +391,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10006",
+      "sentence_id": "S10007",
       "position": 2,
       "surface": "du",
       "word_id": "W007",
@@ -342,7 +399,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10006",
+      "sentence_id": "S10007",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -350,7 +407,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10006",
+      "sentence_id": "S10007",
       "position": 4,
       "surface": "søster",
       "word_id": "W122",
@@ -358,7 +415,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10007",
+      "sentence_id": "S10008",
       "position": 1,
       "surface": "Har",
       "word_id": "W057",
@@ -366,7 +423,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10007",
+      "sentence_id": "S10008",
       "position": 2,
       "surface": "dere",
       "word_id": "W067",
@@ -374,7 +431,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10007",
+      "sentence_id": "S10008",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -382,7 +439,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10007",
+      "sentence_id": "S10008",
       "position": 4,
       "surface": "søster",
       "word_id": "W122",
@@ -390,7 +447,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10008",
+      "sentence_id": "S10009",
       "position": 1,
       "surface": "Har",
       "word_id": "W057",
@@ -398,7 +455,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10008",
+      "sentence_id": "S10009",
       "position": 2,
       "surface": "hun",
       "word_id": "W018",
@@ -406,7 +463,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10008",
+      "sentence_id": "S10009",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -414,7 +471,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10008",
+      "sentence_id": "S10009",
       "position": 4,
       "surface": "søster",
       "word_id": "W122",
@@ -422,7 +479,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10009",
+      "sentence_id": "S10010",
       "position": 1,
       "surface": "Hei",
       "word_id": "W001",
@@ -430,7 +487,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10009",
+      "sentence_id": "S10010",
       "position": 2,
       "surface": "venn",
       "word_id": "W116",
@@ -438,7 +495,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10010",
+      "sentence_id": "S10011",
       "position": 1,
       "surface": "Jeg",
       "word_id": "W006",
@@ -446,7 +503,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10010",
+      "sentence_id": "S10011",
       "position": 2,
       "surface": "har",
       "word_id": "W057",
@@ -454,7 +511,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10010",
+      "sentence_id": "S10011",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -462,7 +519,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10010",
+      "sentence_id": "S10011",
       "position": 4,
       "surface": "venn",
       "word_id": "W116",
@@ -470,7 +527,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10011",
+      "sentence_id": "S10012",
       "position": 1,
       "surface": "Det",
       "word_id": "W020",
@@ -478,7 +535,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10011",
+      "sentence_id": "S10012",
       "position": 2,
       "surface": "er",
       "word_id": "W008",
@@ -486,7 +543,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10011",
+      "sentence_id": "S10012",
       "position": 3,
       "surface": "ikke",
       "word_id": "W005",
@@ -494,7 +551,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10011",
+      "sentence_id": "S10012",
       "position": 4,
       "surface": "min",
       "word_id": "W111",
@@ -502,7 +559,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10011",
+      "sentence_id": "S10012",
       "position": 5,
       "surface": "katt",
       "word_id": "W059",
@@ -510,7 +567,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10012",
+      "sentence_id": "S10013",
       "position": 1,
       "surface": "Har",
       "word_id": "W057",
@@ -518,7 +575,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10012",
+      "sentence_id": "S10013",
       "position": 2,
       "surface": "han",
       "word_id": "W017",
@@ -526,7 +583,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10012",
+      "sentence_id": "S10013",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -534,7 +591,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S10012",
+      "sentence_id": "S10013",
       "position": 4,
       "surface": "søster",
       "word_id": "W122",
@@ -544,24 +601,24 @@
   ],
   "accepted_answers": [
     {
-      "answer_id": "A100051",
-      "sentence_id": "S10005",
+      "answer_id": "A100061",
+      "sentence_id": "S10006",
       "direction": "fr_to_en",
       "answer": "It's not mine.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A100052",
-      "sentence_id": "S10005",
+      "answer_id": "A100062",
+      "sentence_id": "S10006",
       "direction": "fr_to_en",
       "answer": "That's not mine.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A100053",
-      "sentence_id": "S10005",
+      "answer_id": "A100063",
+      "sentence_id": "S10006",
       "direction": "fr_to_en",
       "answer": "It is not mine.",
       "source": "tatoeba",

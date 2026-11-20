@@ -4,18 +4,20 @@ Proposed under the workbook's content_pull rules. Nothing here is live until Dan
 
 ## U01 Saying Hello: **være** for who you are: **jeg er**, **du er**, **han er**; **en** or **et** for a; **nei**, **ikke**
 
-4 sentences picked from 4 candidates (target 30 to 40). Grammar point in 2 (target 10). Questions for QT09: 0 (target 4).
+6 sentences picked from 6 candidates (target 30 to 40). Grammar point in 4 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): ja 0, nei 0, en 2, et 0, mann 0, kvinne 1.
+Contrast forms, sentences each (target 2): ja 0, nei 0, en 4, et 0, mann 2, kvinne 1.
 
-**Gaps (P08)**, fewer than 3 usable sentences: hei (1), hallo (0), ja (0), nei (0), ikke (0), du (1), en (2), et (0), mann (0), kvinne (1), gutt (0), jente (1), barn (0), og (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: hei (1), hallo (0), ja (0), nei (0), ikke (1), du (2), et (0), mann (2), kvinne (1), gutt (1), jente (1), barn (0), og (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S1001 | Jeg er en kvinne. | I am a woman. |  | [#10941239](https://tatoeba.org/en/sentences/show/10941239) | Mayk |
-| S1002 | Jeg er en jente. | I am a girl. |  | [#10941240](https://tatoeba.org/en/sentences/show/10941240) | Mayk |
-| S1003 | Hei, du. | Hey, you. |  | [#10940439](https://tatoeba.org/en/sentences/show/10940439) | Mayk |
-| S1004 | Jeg er. | I am. |  | [#10940586](https://tatoeba.org/en/sentences/show/10940586) | Mayk |
+| S1001 | Du er en gutt, ikke en mann. | You are a boy, not a man. |  | [#12732902](https://tatoeba.org/en/sentences/show/12732902) | augine |
+| S1002 | Jeg er en kvinne. | I am a woman. |  | [#10941239](https://tatoeba.org/en/sentences/show/10941239) | Mayk |
+| S1003 | Jeg er en mann. | I am a man. |  | [#12262306](https://tatoeba.org/en/sentences/show/12262306) | augine |
+| S1004 | Jeg er en jente. | I am a girl. |  | [#10941240](https://tatoeba.org/en/sentences/show/10941240) | Mayk |
+| S1005 | Hei, du. | Hey, you. |  | [#10940439](https://tatoeba.org/en/sentences/show/10940439) | Mayk |
+| S1006 | Jeg er. | I am. |  | [#10940586](https://tatoeba.org/en/sentences/show/10940586) | Mayk |
 
 ## U31 Asking for Help: **Jeg forstår ikke**; **saktere, takk**; **en gang til**
 
@@ -48,21 +50,24 @@ Contrast forms, sentences each (target 2): han 1, hun 0, den 0, det 1, stor 0, l
 
 ## U03 Polite Phrases: Set phrases; **takk**; **vær så snill** for please, **vær så god** for here you are; **Hvordan går det?** **Bra**
 
-7 sentences picked from 7 candidates (target 30 to 40). Grammar point in 4 (target 10). Questions for QT09: 0 (target 4).
+10 sentences picked from 10 candidates (target 30 to 40). Grammar point in 5 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): bra 1, dårlig 1, god morgen 1, god kveld 1.
+Contrast forms, sentences each (target 2): bra 2, dårlig 1, god morgen 1, god kveld 1.
 
-**Gaps (P08)**, fewer than 3 usable sentences: takk (0), vær så snill (1), vær så god (0), god morgen (1), god dag (0), god kveld (1), ha det (1), unnskyld (0), beklager (1), hvordan (0), går (0), bra (1), dårlig (1), fint (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: takk (0), vær så snill (1), vær så god (0), god morgen (1), god dag (0), god kveld (1), ha det (1), unnskyld (0), beklager (1), hvordan (0), bra (2), dårlig (1), fint (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S3001 | God kveld. | Good evening. |  | [#9295731](https://tatoeba.org/en/sentences/show/9295731) | Mayk |
-| S3002 | God morgen. | Good morning. |  | [#9295775](https://tatoeba.org/en/sentences/show/9295775) | Mayk |
-| S3003 | Ikke dårlig. | Not bad. |  | [#10940423](https://tatoeba.org/en/sentences/show/10940423) | Mayk |
-| S3004 | Det er ikke bra. | It isn't good. | It's not good. | [#10943787](https://tatoeba.org/en/sentences/show/10943787) | Mayk |
-| S3005 | Ha det! | Goodbye! | Good bye!; Good-bye! | [#2817995](https://tatoeba.org/en/sentences/show/2817995) | eirik174 |
-| S3006 | Vær så snill. | Please. |  | [#9295649](https://tatoeba.org/en/sentences/show/9295649) | Mayk |
-| S3007 | Beklager det. | Sorry about that. |  | [#13374375](https://tatoeba.org/en/sentences/show/13374375) | gnofs |
+| S3001 | Det går bra. | All right. |  | [#3551519](https://tatoeba.org/en/sentences/show/3551519) | danieljtah |
+| S3002 | God kveld. | Good evening. |  | [#9295731](https://tatoeba.org/en/sentences/show/9295731) | Mayk |
+| S3003 | God morgen. | Good morning. |  | [#9295775](https://tatoeba.org/en/sentences/show/9295775) | Mayk |
+| S3004 | Ikke dårlig. | Not bad. |  | [#10940423](https://tatoeba.org/en/sentences/show/10940423) | Mayk |
+| S3005 | Det er ikke bra. | It isn't good. | It's not good. | [#10943787](https://tatoeba.org/en/sentences/show/10943787) | Mayk |
+| S3006 | Ha det! | Goodbye! | Good bye!; Good-bye! | [#2817995](https://tatoeba.org/en/sentences/show/2817995) | eirik174 |
+| S3007 | Vær så snill. | Please. |  | [#9295649](https://tatoeba.org/en/sentences/show/9295649) | Mayk |
+| S3008 | Hun går. | She walks. |  | [#9295724](https://tatoeba.org/en/sentences/show/9295724) | Mayk |
+| S3009 | Han går. | He walks. |  | [#9295805](https://tatoeba.org/en/sentences/show/9295805) | Mayk |
+| S3010 | Beklager det. | Sorry about that. |  | [#13374375](https://tatoeba.org/en/sentences/show/13374375) | gnofs |
 
 ## U04 Food and Drink: Present is one form: **spiser**, **drikker**; **liker** for liking: **jeg liker kaffe**
 
@@ -75,15 +80,15 @@ Contrast forms, sentences each (target 2): spiser 1, drikker 0, kaffe 1, te 0.
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
 | S4001 | Jeg spiser brød. | I eat bread. | I'm eating bread.; I am eating bread. | [#4866445](https://tatoeba.org/en/sentences/show/4866445) | VegBerg |
-| S4002 | Jeg liker ikke kaffe. | I dislike coffee. | I don't like coffee. | [#2879705](https://tatoeba.org/en/sentences/show/2879705) | eirik174 |
+| S4002 | Jeg liker ikke kaffe. | I don't like coffee. | I dislike coffee. | [#2879705](https://tatoeba.org/en/sentences/show/2879705) | eirik174 |
 | S4003 | Jeg liker brød. | I like bread. |  | [#14060666](https://tatoeba.org/en/sentences/show/14060666) | Mayk |
 | S4004 | Liker du det? | Do you like it? |  | [#10940412](https://tatoeba.org/en/sentences/show/10940412) | Mayk |
 
 ## U05 Pets and Animals: **ha** for having: **jeg har**, **du har**, **han har**
 
-16 sentences picked from 16 candidates (target 30 to 40). Grammar point in 14 (target 10). Questions for QT09: 0 (target 4).
+18 sentences picked from 18 candidates (target 30 to 40). Grammar point in 16 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): har 4, er 10, hund 2, katt 0.
+Contrast forms, sentences each (target 2): har 4, er 12, hund 2, katt 0.
 
 **Gaps (P08)**, fewer than 3 usable sentences: hund (2), katt (0), hest (1), fugl (1), fisk (2), mus (0), kanin (0), dyr (1). Dan decides: drop the word, or have Claude draft sentences.
 
@@ -104,7 +109,9 @@ Contrast forms, sentences each (target 2): har 4, er 10, hund 2, katt 0.
 | S5013 | Jeg er en kvinne. | I am a woman. |  | [#10941239](https://tatoeba.org/en/sentences/show/10941239) | Mayk |
 | S5014 | Jeg er en jente. | I am a girl. |  | [#10941240](https://tatoeba.org/en/sentences/show/10941240) | Mayk |
 | S5015 | Det er ikke bra. | It isn't good. | It's not good. | [#10943787](https://tatoeba.org/en/sentences/show/10943787) | Mayk |
-| S5016 | Du er en lege. | You are a doctor. |  | [#12757654](https://tatoeba.org/en/sentences/show/12757654) | pckv |
+| S5016 | Jeg er en mann. | I am a man. |  | [#12262306](https://tatoeba.org/en/sentences/show/12262306) | augine |
+| S5017 | Du er en lege. | You are a doctor. |  | [#12757654](https://tatoeba.org/en/sentences/show/12757654) | pckv |
+| S5018 | Du er en gutt, ikke en mann. | You are a boy, not a man. |  | [#12732902](https://tatoeba.org/en/sentences/show/12732902) | augine |
 
 ## U32 Asking About Words: **Hvordan sier du…?** **Hva betyr…?** **Ordet på norsk**
 
@@ -122,23 +129,22 @@ Contrast forms, sentences each (target 2): .
 
 ## U06 More Than One: Plurals add **-er**: **hund → hunder**; some et-words do not change: **hus → hus**; **vi**, **dere**, **de**
 
-9 sentences picked from 9 candidates (target 30 to 40). Grammar point in 2 (target 10). Questions for QT09: 0 (target 4).
+8 sentences picked from 8 candidates (target 30 to 40). Grammar point in 2 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): hund 2, hunder 0, eple 0, epler 0.
 
-**Gaps (P08)**, fewer than 3 usable sentences: vi (1), dere (2), hunder (0), katter (0), bøker (0), menn (0), kvinner (0), epler (0), venner (0), mange (0), to (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: vi (1), dere (2), de (2), hunder (0), katter (0), bøker (0), menn (0), kvinner (0), epler (0), venner (0), mange (0), to (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S6001 | Er de? | They are? |  | [#10940587](https://tatoeba.org/en/sentences/show/10940587) | Mayk |
-| S6002 | Liker dere det? | Do you like it? |  | [#10940414](https://tatoeba.org/en/sentences/show/10940414) | Mayk |
-| S6003 | Ja, to. | Yes, two. |  | [#10940438](https://tatoeba.org/en/sentences/show/10940438) | Mayk |
-| S6004 | Hei, dere. | Hey, you. |  | [#10940441](https://tatoeba.org/en/sentences/show/10940441) | Mayk |
-| S6005 | De er barn. | They're children. |  | [#3518125](https://tatoeba.org/en/sentences/show/3518125) | janni |
-| S6006 | De spiser brød. | They are eating bread. |  | [#4866435](https://tatoeba.org/en/sentences/show/4866435) | VegBerg |
-| S6007 | Vi har ikke vann. | We have no water. |  | [#2875573](https://tatoeba.org/en/sentences/show/2875573) | eirik174 |
-| S6008 | Han har en hund. | He has a dog. |  | [#8593868](https://tatoeba.org/en/sentences/show/8593868) | Thanuir |
-| S6009 | Jeg har en stor hund. | I have a big dog. |  | [#2816041](https://tatoeba.org/en/sentences/show/2816041) | eirik174 |
+| S6001 | Liker dere det? | Do you like it? |  | [#10940414](https://tatoeba.org/en/sentences/show/10940414) | Mayk |
+| S6002 | Ja, to. | Yes, two. |  | [#10940438](https://tatoeba.org/en/sentences/show/10940438) | Mayk |
+| S6003 | Hei, dere. | Hey, you. |  | [#10940441](https://tatoeba.org/en/sentences/show/10940441) | Mayk |
+| S6004 | De er barn. | They're children. |  | [#3518125](https://tatoeba.org/en/sentences/show/3518125) | janni |
+| S6005 | De spiser brød. | They are eating bread. |  | [#4866435](https://tatoeba.org/en/sentences/show/4866435) | VegBerg |
+| S6006 | Vi har ikke vann. | We have no water. |  | [#2875573](https://tatoeba.org/en/sentences/show/2875573) | eirik174 |
+| S6007 | Han har en hund. | He has a dog. |  | [#8593868](https://tatoeba.org/en/sentences/show/8593868) | Thanuir |
+| S6008 | Jeg har en stor hund. | I have a big dog. |  | [#2816041](https://tatoeba.org/en/sentences/show/2816041) | eirik174 |
 
 ## U07 Describing Things: An adjective adds **-t** with an et-word: **en fin bil**, **et fint hus**; **veldig**, **også**
 
@@ -156,17 +162,15 @@ Contrast forms, sentences each (target 2): fin 0, stygg 0, gammel 1, ny 0, ung 0
 
 ## U52 Free Time: **Jeg liker å svømme**: **like å** and a verb; **spille fotball**
 
-3 sentences picked from 3 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+1 sentences picked from 1 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: musikk (0), bilde (0), fest (0), fotball (0), spill (0), svømme (0), danse (1), synge (0), lese (0), leser (0), se (0), film (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: musikk (0), bilde (0), fest (0), fotball (0), spill (0), svømme (0), danse (1), synge (0), lese (0), leser (0), se (0), film (0), å (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
 | S52001 | Han liker ikke å danse. | He doesn't like dancing. |  | [#10944341](https://tatoeba.org/en/sentences/show/10944341) | Mayk |
-| S52002 | Å nei! | Oh no! | Oh, no! | [#10940617](https://tatoeba.org/en/sentences/show/10940617) | Mayk |
-| S52003 | Å, unnskyld. | Oh, I'm sorry. |  | [#12757590](https://tatoeba.org/en/sentences/show/12757590) | pckv |
 
 ## U08 Where Things Are: **står**, **ligger** and **er** for where; **i**, **på**, **under**; **her**, **der**; **det er** for there is
 
@@ -215,11 +219,11 @@ Contrast forms, sentences each (target 2): .
 
 ## U10 Mine and Yours: Possessives: **min**, **din**, **hans**, **hennes**, **vår**; family words
 
-12 sentences picked from 12 candidates (target 30 to 40). Grammar point in 6 (target 10). Questions for QT09: 0 (target 4).
+13 sentences picked from 13 candidates (target 30 to 40). Grammar point in 6 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): min 4, din 1, hans 0, hennes 0, far 1, mor 0.
 
-**Gaps (P08)**, fewer than 3 usable sentences: din (1), hans (0), hennes (0), vår (0), venn (2), venninne (0), familie (0), far (1), mor (0), bror (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: din (1), hans (0), hennes (0), vår (1), venninne (0), familie (0), far (1), mor (0), bror (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
@@ -227,39 +231,40 @@ Contrast forms, sentences each (target 2): min 4, din 1, hans 0, hennes 0, far 1
 | S10002 | Er dette din bil? | Is this your car? |  | [#2879726](https://tatoeba.org/en/sentences/show/2879726) | eirik174 |
 | S10003 | Hei, far. | Hi, Father. |  | [#10940657](https://tatoeba.org/en/sentences/show/10940657) | Mayk |
 | S10004 | Den er min. | It's mine. |  | [#4394858](https://tatoeba.org/en/sentences/show/4394858) | beeccy |
-| S10005 | Den er ikke min. | It isn't mine. | It's not mine.; That's not mine.; It is not mine. | [#4394866](https://tatoeba.org/en/sentences/show/4394866) | beeccy |
-| S10006 | Har du en søster? | Do you have a sister? |  | [#10943239](https://tatoeba.org/en/sentences/show/10943239) | Mayk |
-| S10007 | Har dere en søster? | Do you have a sister? |  | [#10943240](https://tatoeba.org/en/sentences/show/10943240) | Mayk |
-| S10008 | Har hun en søster? | Does she have a sister? |  | [#10943242](https://tatoeba.org/en/sentences/show/10943242) | Mayk |
-| S10009 | Hei, venn! | Hi, friend! |  | [#10940627](https://tatoeba.org/en/sentences/show/10940627) | Mayk |
-| S10010 | Jeg har en venn. | I have a friend. |  | [#3775924](https://tatoeba.org/en/sentences/show/3775924) | giiraffen |
-| S10011 | Det er ikke min katt. | It's not my cat. |  | [#12576321](https://tatoeba.org/en/sentences/show/12576321) | elithyia |
-| S10012 | Har han en søster? | Does he have a sister? |  | [#10943244](https://tatoeba.org/en/sentences/show/10943244) | Mayk |
+| S10005 | Du er ikke vår venn. | You aren't our friend. |  | [#5145352](https://tatoeba.org/en/sentences/show/5145352) | sotolf |
+| S10006 | Den er ikke min. | It isn't mine. | It's not mine.; That's not mine.; It is not mine. | [#4394866](https://tatoeba.org/en/sentences/show/4394866) | beeccy |
+| S10007 | Har du en søster? | Do you have a sister? |  | [#10943239](https://tatoeba.org/en/sentences/show/10943239) | Mayk |
+| S10008 | Har dere en søster? | Do you have a sister? |  | [#10943240](https://tatoeba.org/en/sentences/show/10943240) | Mayk |
+| S10009 | Har hun en søster? | Does she have a sister? |  | [#10943242](https://tatoeba.org/en/sentences/show/10943242) | Mayk |
+| S10010 | Hei, venn! | Hi, friend! |  | [#10940627](https://tatoeba.org/en/sentences/show/10940627) | Mayk |
+| S10011 | Jeg har en venn. | I have a friend. |  | [#3775924](https://tatoeba.org/en/sentences/show/3775924) | giiraffen |
+| S10012 | Det er ikke min katt. | It's not my cat. |  | [#12576321](https://tatoeba.org/en/sentences/show/12576321) | elithyia |
+| S10013 | Har han en søster? | Does he have a sister? |  | [#10943244](https://tatoeba.org/en/sentences/show/10943244) | Mayk |
 
 ## U11 Asking Questions: Question words come first: **hvem**, **hva**, **hvor**, **når**, **hvorfor**; **fordi** answers
 
 14 sentences picked from 14 candidates (target 30 to 40). Grammar point in 13 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): hvem 5, hva 3, hvor 1, når 0, hvorfor 4, fordi 1.
+Contrast forms, sentences each (target 2): hvem 5, hva 2, hvor 1, når 1, hvorfor 3, fordi 1.
 
-**Gaps (P08)**, fewer than 3 usable sentences: hvor (1), når (0), fordi (1), hvilken (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: hva (2), hvor (1), når (1), fordi (1), hvilken (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S11001 | Hva, hvorfor? | What, why? |  | [#13374355](https://tatoeba.org/en/sentences/show/13374355) | gnofs |
-| S11002 | Hvorfor ikke? | Why not? |  | [#10940427](https://tatoeba.org/en/sentences/show/10940427) | Mayk |
-| S11003 | Hvem er det? | Who's that? | Who's this?; Who is that?; Who is it? | [#2897977](https://tatoeba.org/en/sentences/show/2897977) | al_ex_an_der |
+| S11001 | Hvorfor ikke? | Why not? |  | [#10940427](https://tatoeba.org/en/sentences/show/10940427) | Mayk |
+| S11002 | Hvem er det? | Who's that? | Who's this?; Who is that?; Who is it? | [#2897977](https://tatoeba.org/en/sentences/show/2897977) | al_ex_an_der |
+| S11003 | Når går du? | When will you leave? | What time will you leave? | [#2907040](https://tatoeba.org/en/sentences/show/2907040) | eirik174 |
 | S11004 | Hvem er han? | Who's he? | Who is he? | [#4394613](https://tatoeba.org/en/sentences/show/4394613) | beeccy |
 | S11005 | Hva liker du? | What do you like? |  | [#12757621](https://tatoeba.org/en/sentences/show/12757621) | pckv |
-| S11006 | Hvor mange barn har du? | How many children do you have? |  | [#2917863](https://tatoeba.org/en/sentences/show/2917863) | eirik174 |
-| S11007 | Det er fordi du er jente. | That's because you're a girl. |  | [#2881915](https://tatoeba.org/en/sentences/show/2881915) | eirik174 |
-| S11008 | Hvem er dere? | Who are you all? |  | [#6364554](https://tatoeba.org/en/sentences/show/6364554) | RudeGuyGames |
-| S11009 | Hei, hva er dette? | Hey, what's this? |  | [#5708347](https://tatoeba.org/en/sentences/show/5708347) | Meggie |
-| S11010 | Hvorfor er han sint? | Why is he angry? |  | [#10943398](https://tatoeba.org/en/sentences/show/10943398) | Mayk |
+| S11006 | Hei, hva er dette? | Hey, what's this? |  | [#5708347](https://tatoeba.org/en/sentences/show/5708347) | Meggie |
+| S11007 | Hvorfor er han sint? | Why is he angry? |  | [#10943398](https://tatoeba.org/en/sentences/show/10943398) | Mayk |
+| S11008 | Hvor mange barn har du? | How many children do you have? |  | [#2917863](https://tatoeba.org/en/sentences/show/2917863) | eirik174 |
+| S11009 | Det er fordi du er jente. | That's because you're a girl. |  | [#2881915](https://tatoeba.org/en/sentences/show/2881915) | eirik174 |
+| S11010 | Hvem er dere? | Who are you all? |  | [#6364554](https://tatoeba.org/en/sentences/show/6364554) | RudeGuyGames |
 | S11011 | Hvilken er din bok? | Which is your book? |  | [#2879712](https://tatoeba.org/en/sentences/show/2879712) | eirik174 |
-| S11012 | Hvem er sulten? | Who's hungry? |  | [#6455194](https://tatoeba.org/en/sentences/show/6455194) | RudeGuyGames |
-| S11013 | Hvem er der? | Who is there? |  | [#13374386](https://tatoeba.org/en/sentences/show/13374386) | gnofs |
-| S11014 | Hvorfor er du trøtt? | Why are you tired? |  | [#10958086](https://tatoeba.org/en/sentences/show/10958086) | Mayk |
+| S11012 | Hvorfor er du trøtt? | Why are you tired? |  | [#10958086](https://tatoeba.org/en/sentences/show/10958086) | Mayk |
+| S11013 | Hvem er sulten? | Who's hungry? |  | [#6455194](https://tatoeba.org/en/sentences/show/6455194) | RudeGuyGames |
+| S11014 | Hvem er der? | Who is there? |  | [#13374386](https://tatoeba.org/en/sentences/show/13374386) | gnofs |
 
 ## U53 Around Town: **Hvor er…?** **museet**, **kirka**; **med bussen**, **med toget**; **nær**, **langt**
 
@@ -301,7 +306,7 @@ Contrast forms, sentences each (target 2): rød 0, blå 0, svart 1, hvit 1.
 
 ## U14 Days and Times: Time words: **i dag**, **i morgen**, **nå**; days take no capital; **Hva er klokka?**
 
-8 sentences picked from 8 candidates (target 30 to 40). Grammar point in 2 (target 10). Questions for QT09: 0 (target 4).
+7 sentences picked from 7 candidates (target 30 to 40). Grammar point in 2 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): i dag 1, i morgen 1, dag 0, uke 0.
 
@@ -313,24 +318,25 @@ Contrast forms, sentences each (target 2): i dag 1, i morgen 1, dag 0, uke 0.
 | S14002 | I morgen? | Tomorrow? |  | [#10940343](https://tatoeba.org/en/sentences/show/10940343) | Mayk |
 | S14003 | Og nå? | And now? |  | [#10940508](https://tatoeba.org/en/sentences/show/10940508) | Mayk |
 | S14004 | Hvor er du nå? | Where are you now? |  | [#4870120](https://tatoeba.org/en/sentences/show/4870120) | pergpau |
-| S14005 | Hva har vi nå her? | What have we here? |  | [#6364609](https://tatoeba.org/en/sentences/show/6364609) | RudeGuyGames |
-| S14006 | Ikke nå! | Not now! |  | [#10940646](https://tatoeba.org/en/sentences/show/10940646) | Mayk |
-| S14007 | Jeg er syk nå. | I'm sick now. |  | [#12576327](https://tatoeba.org/en/sentences/show/12576327) | elithyia |
-| S14008 | Jeg er veldig sulten nå. | I'm very hungry now. |  | [#2941326](https://tatoeba.org/en/sentences/show/2941326) | eirik174 |
+| S14005 | Ikke nå! | Not now! |  | [#10940646](https://tatoeba.org/en/sentences/show/10940646) | Mayk |
+| S14006 | Jeg er syk nå. | I'm sick now. |  | [#12576327](https://tatoeba.org/en/sentences/show/12576327) | elithyia |
+| S14007 | Jeg er veldig sulten nå. | I'm very hungry now. |  | [#2941326](https://tatoeba.org/en/sentences/show/2941326) | eirik174 |
 
 ## U15 Going Places: **gå** for going: **jeg går**, **du går**, **vi går**; **til** for to a place
 
-3 sentences picked from 3 candidates (target 30 to 40). Grammar point in 1 (target 10). Questions for QT09: 0 (target 4).
+5 sentences picked from 5 candidates (target 30 to 40). Grammar point in 4 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): går 0, gå 1, by 0, gate 0.
+Contrast forms, sentences each (target 2): går 4, gå 0, by 0, gate 0.
 
-**Gaps (P08)**, fewer than 3 usable sentences: gå (1), til (1), park (0), skole (0), butikk (0), by (0), restaurant (1), gate (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: gå (0), til (0), park (0), skole (0), butikk (0), by (0), restaurant (1), gate (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S15001 | Gå og se hvem det er. | Go and see who it is. |  | [#2875026](https://tatoeba.org/en/sentences/show/2875026) | eirik174 |
-| S15002 | Det er en restaurant her. | There's a restaurant here. |  | [#6068398](https://tatoeba.org/en/sentences/show/6068398) | Meggie |
-| S15003 | Jeg er dårlig til å svømme. | I'm bad at swimming. |  | [#2829601](https://tatoeba.org/en/sentences/show/2829601) | eirik174 |
+| S15001 | Når går du? | When will you leave? | What time will you leave? | [#2907040](https://tatoeba.org/en/sentences/show/2907040) | eirik174 |
+| S15002 | Hun går. | She walks. |  | [#9295724](https://tatoeba.org/en/sentences/show/9295724) | Mayk |
+| S15003 | Det er en restaurant her. | There's a restaurant here. |  | [#6068398](https://tatoeba.org/en/sentences/show/6068398) | Meggie |
+| S15004 | Han går. | He walks. |  | [#9295805](https://tatoeba.org/en/sentences/show/9295805) | Mayk |
+| S15005 | Det går bra. | All right. |  | [#3551519](https://tatoeba.org/en/sentences/show/3551519) | danieljtah |
 
 ## U51 Body and Looks: **Hun har blå øyne**: **ha** for features; **lang**, **kort** add **-t** with an et-word
 

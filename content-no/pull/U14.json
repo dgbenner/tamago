@@ -1,7 +1,7 @@
 {
   "unit_id": "U14",
   "pulled_at": "2026-11-20",
-  "candidates": 8,
+  "candidates": 7,
   "sentences": [
     {
       "sentence_id": "S14001",
@@ -66,21 +66,6 @@
     {
       "sentence_id": "S14005",
       "unit_id": "U14",
-      "french": "Hva har vi nå her?",
-      "english": "What have we here?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "6364609",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "RudeGuyGames",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S14006",
-      "unit_id": "U14",
       "french": "Ikke nå!",
       "english": "Not now!",
       "pair_id": "",
@@ -94,7 +79,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S14007",
+      "sentence_id": "S14006",
       "unit_id": "U14",
       "french": "Jeg er syk nå.",
       "english": "I'm sick now.",
@@ -109,7 +94,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S14008",
+      "sentence_id": "S14007",
       "unit_id": "U14",
       "french": "Jeg er veldig sulten nå.",
       "english": "I'm very hungry now.",
@@ -216,53 +201,13 @@
     {
       "sentence_id": "S14005",
       "position": 1,
-      "surface": "Hva",
-      "word_id": "W124",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S14005",
-      "position": 2,
-      "surface": "har",
-      "word_id": "W057",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S14005",
-      "position": 3,
-      "surface": "vi",
-      "word_id": "W066",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S14005",
-      "position": 4,
-      "surface": "nå",
-      "word_id": "W150",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S14005",
-      "position": 5,
-      "surface": "her",
-      "word_id": "W094",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S14006",
-      "position": 1,
       "surface": "Ikke",
       "word_id": "W005",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S14006",
+      "sentence_id": "S14005",
       "position": 2,
       "surface": "nå",
       "word_id": "W150",
@@ -270,7 +215,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14007",
+      "sentence_id": "S14006",
       "position": 1,
       "surface": "Jeg",
       "word_id": "W006",
@@ -278,7 +223,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14007",
+      "sentence_id": "S14006",
       "position": 2,
       "surface": "er",
       "word_id": "W008",
@@ -286,7 +231,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14007",
+      "sentence_id": "S14006",
       "position": 3,
       "surface": "syk",
       "word_id": "W104",
@@ -294,7 +239,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14007",
+      "sentence_id": "S14006",
       "position": 4,
       "surface": "nå",
       "word_id": "W150",
@@ -302,7 +247,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14008",
+      "sentence_id": "S14007",
       "position": 1,
       "surface": "Jeg",
       "word_id": "W006",
@@ -310,7 +255,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14008",
+      "sentence_id": "S14007",
       "position": 2,
       "surface": "er",
       "word_id": "W008",
@@ -318,7 +263,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14008",
+      "sentence_id": "S14007",
       "position": 3,
       "surface": "veldig",
       "word_id": "W083",
@@ -326,7 +271,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14008",
+      "sentence_id": "S14007",
       "position": 4,
       "surface": "sulten",
       "word_id": "W107",
@@ -334,7 +279,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S14008",
+      "sentence_id": "S14007",
       "position": 5,
       "surface": "nå",
       "word_id": "W150",

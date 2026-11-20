@@ -423,9 +423,9 @@
     {
       "sentence_id": "S8104",
       "unit_id": "U08",
-      "french": "Jeg er i et kjøkken.",
-      "english": "I am in a kitchen.",
-      "notes": "draft: introduce i, kjøkken"
+      "french": "Det er et kjøkken her.",
+      "english": "There is a kitchen here.",
+      "notes": "draft: introduce i, kjøkken; fixed 2026-11-20 (Fable): was \"Jeg er i et kjøkken.\""
     },
     {
       "sentence_id": "S8105",
@@ -493,9 +493,9 @@
     {
       "sentence_id": "S33102",
       "unit_id": "U33",
-      "french": "Det er en ting å se.",
-      "english": "It is a thing to see.",
-      "notes": "draft: introduce ting"
+      "french": "Det er en ting.",
+      "english": "It is a thing.",
+      "notes": "draft: introduce ting; fixed 2026-11-20 (Fable): dropped \"å se\", was \"Det er en ting å se.\""
     },
     {
       "sentence_id": "S33103",
@@ -961,6 +961,20 @@
       "french": "Jeg liker å se en film.",
       "english": "I like to watch a film.",
       "notes": "draft: own-circle sentence so the word is seen in its circle (word audit)"
+    },
+    {
+      "sentence_id": "S8109",
+      "unit_id": "U08",
+      "french": "Jeg er i et rom.",
+      "english": "I am in a room.",
+      "notes": "draft: own-circle sentence after Fable fix/reject removed the word's only line (i, gå)"
+    },
+    {
+      "sentence_id": "S15106",
+      "unit_id": "U15",
+      "french": "Jeg liker å gå.",
+      "english": "I like to walk.",
+      "notes": "draft: own-circle sentence after Fable fix/reject removed the word's only line (i, gå)"
     }
   ]
 }

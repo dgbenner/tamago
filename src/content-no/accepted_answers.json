@@ -1,23 +1,23 @@
 [
   {
-    "answer_id": "A30041",
-    "sentence_id": "S3004",
+    "answer_id": "A30051",
+    "sentence_id": "S3005",
     "direction": "fr_to_en",
     "answer": "It's not good.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A30051",
-    "sentence_id": "S3005",
+    "answer_id": "A30061",
+    "sentence_id": "S3006",
     "direction": "fr_to_en",
     "answer": "Good bye!",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A30052",
-    "sentence_id": "S3005",
+    "answer_id": "A30062",
+    "sentence_id": "S3006",
     "direction": "fr_to_en",
     "answer": "Good-bye!",
     "source": "tatoeba",
@@ -43,7 +43,7 @@
     "answer_id": "A40021",
     "sentence_id": "S4002",
     "direction": "fr_to_en",
-    "answer": "I don't like coffee.",
+    "answer": "I dislike coffee.",
     "source": "tatoeba",
     "status": "live"
   },
@@ -72,26 +72,50 @@
     "status": "live"
   },
   {
-    "answer_id": "A100051",
-    "sentence_id": "S10005",
+    "answer_id": "A100061",
+    "sentence_id": "S10006",
     "direction": "fr_to_en",
     "answer": "It's not mine.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A100052",
-    "sentence_id": "S10005",
+    "answer_id": "A100062",
+    "sentence_id": "S10006",
     "direction": "fr_to_en",
     "answer": "That's not mine.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A100053",
-    "sentence_id": "S10005",
+    "answer_id": "A100063",
+    "sentence_id": "S10006",
     "direction": "fr_to_en",
     "answer": "It is not mine.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A110021",
+    "sentence_id": "S11002",
+    "direction": "fr_to_en",
+    "answer": "Who's this?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A110022",
+    "sentence_id": "S11002",
+    "direction": "fr_to_en",
+    "answer": "Who is that?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A110023",
+    "sentence_id": "S11002",
+    "direction": "fr_to_en",
+    "answer": "Who is it?",
     "source": "tatoeba",
     "status": "live"
   },
@@ -99,23 +123,7 @@
     "answer_id": "A110031",
     "sentence_id": "S11003",
     "direction": "fr_to_en",
-    "answer": "Who's this?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A110032",
-    "sentence_id": "S11003",
-    "direction": "fr_to_en",
-    "answer": "Who is that?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A110033",
-    "sentence_id": "S11003",
-    "direction": "fr_to_en",
-    "answer": "Who is it?",
+    "answer": "What time will you leave?",
     "source": "tatoeba",
     "status": "live"
   },
@@ -132,6 +140,14 @@
     "sentence_id": "S13003",
     "direction": "fr_to_en",
     "answer": "This is a very beautiful color.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A150011",
+    "sentence_id": "S15001",
+    "direction": "fr_to_en",
+    "answer": "What time will you leave?",
     "source": "tatoeba",
     "status": "live"
   },
@@ -156,14 +172,6 @@
     "sentence_id": "S32003",
     "direction": "fr_to_en",
     "answer": "He is speaking English.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A520021",
-    "sentence_id": "S52002",
-    "direction": "fr_to_en",
-    "answer": "Oh, no!",
     "source": "tatoeba",
     "status": "live"
   },
@@ -225,7 +233,7 @@
   },
   {
     "answer_id": "AE00003",
-    "sentence_id": "S14007",
+    "sentence_id": "S14006",
     "direction": "fr_to_en",
     "answer": "Now, I'm sick.",
     "source": "equivalent: order",
@@ -233,7 +241,7 @@
   },
   {
     "answer_id": "AE00004",
-    "sentence_id": "S14008",
+    "sentence_id": "S14007",
     "direction": "fr_to_en",
     "answer": "Now, I'm very hungry.",
     "source": "equivalent: order",

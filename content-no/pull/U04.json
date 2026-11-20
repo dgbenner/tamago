@@ -25,7 +25,7 @@
       "sentence_id": "S4002",
       "unit_id": "U04",
       "french": "Jeg liker ikke kaffe.",
-      "english": "I dislike coffee.",
+      "english": "I don't like coffee.",
       "pair_id": "",
       "source": "tatoeba",
       "source_id": "2879705",
@@ -35,7 +35,7 @@
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "eirik174",
       "other_english": [
-        "I don't like coffee."
+        "I dislike coffee."
       ]
     },
     {
@@ -196,7 +196,7 @@
       "answer_id": "A40021",
       "sentence_id": "S4002",
       "direction": "fr_to_en",
-      "answer": "I don't like coffee.",
+      "answer": "I dislike coffee.",
       "source": "tatoeba",
       "status": "pulled"
     }

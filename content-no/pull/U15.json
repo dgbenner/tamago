@@ -1,25 +1,42 @@
 {
   "unit_id": "U15",
   "pulled_at": "2026-11-20",
-  "candidates": 3,
+  "candidates": 5,
   "sentences": [
     {
       "sentence_id": "S15001",
       "unit_id": "U15",
-      "french": "Gå og se hvem det er.",
-      "english": "Go and see who it is.",
+      "french": "Når går du?",
+      "english": "When will you leave?",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "2875026",
+      "source_id": "2907040",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "eirik174",
-      "other_english": []
+      "other_english": [
+        "What time will you leave?"
+      ]
     },
     {
       "sentence_id": "S15002",
+      "unit_id": "U15",
+      "french": "Hun går.",
+      "english": "She walks.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9295724",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15003",
       "unit_id": "U15",
       "french": "Det er en restaurant her.",
       "english": "There's a restaurant here.",
@@ -34,18 +51,33 @@
       "other_english": []
     },
     {
-      "sentence_id": "S15003",
+      "sentence_id": "S15004",
       "unit_id": "U15",
-      "french": "Jeg er dårlig til å svømme.",
-      "english": "I'm bad at swimming.",
+      "french": "Han går.",
+      "english": "He walks.",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "2829601",
+      "source_id": "9295805",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "eirik174",
+      "source_owner": "Mayk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15005",
+      "unit_id": "U15",
+      "french": "Det går bra.",
+      "english": "All right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3551519",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danieljtah",
       "other_english": []
     }
   ],
@@ -53,53 +85,45 @@
     {
       "sentence_id": "S15001",
       "position": 1,
-      "surface": "Gå",
-      "word_id": "W158",
+      "surface": "Når",
+      "word_id": "W126",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S15001",
       "position": 2,
-      "surface": "og",
-      "word_id": "W016",
+      "surface": "går",
+      "word_id": "W041",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S15001",
       "position": 3,
-      "surface": "se",
-      "word_id": "W1025",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S15001",
-      "position": 4,
-      "surface": "hvem",
-      "word_id": "W123",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S15001",
-      "position": 5,
-      "surface": "det",
-      "word_id": "W020",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S15001",
-      "position": 6,
-      "surface": "er",
-      "word_id": "W008",
+      "surface": "du",
+      "word_id": "W007",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S15002",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
       "position": 1,
       "surface": "Det",
       "word_id": "W020",
@@ -107,7 +131,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S15002",
+      "sentence_id": "S15003",
       "position": 2,
       "surface": "er",
       "word_id": "W008",
@@ -115,7 +139,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S15002",
+      "sentence_id": "S15003",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -123,7 +147,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S15002",
+      "sentence_id": "S15003",
       "position": 4,
       "surface": "restaurant",
       "word_id": "W164",
@@ -131,7 +155,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S15002",
+      "sentence_id": "S15003",
       "position": 5,
       "surface": "her",
       "word_id": "W094",
@@ -139,54 +163,55 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S15003",
+      "sentence_id": "S15004",
       "position": 1,
-      "surface": "Jeg",
-      "word_id": "W006",
+      "surface": "Han",
+      "word_id": "W017",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S15003",
+      "sentence_id": "S15004",
       "position": 2,
-      "surface": "er",
-      "word_id": "W008",
+      "surface": "går",
+      "word_id": "W041",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S15003",
+      "sentence_id": "S15005",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
       "position": 3,
-      "surface": "dårlig",
-      "word_id": "W043",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S15003",
-      "position": 4,
-      "surface": "til",
-      "word_id": "W159",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S15003",
-      "position": 5,
-      "surface": "å",
-      "word_id": "W1027",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S15003",
-      "position": 6,
-      "surface": "svømme",
-      "word_id": "W1020",
+      "surface": "bra",
+      "word_id": "W042",
       "notes": "",
       "hint_override": ""
     }
   ],
-  "accepted_answers": [],
+  "accepted_answers": [
+    {
+      "answer_id": "A150011",
+      "sentence_id": "S15001",
+      "direction": "fr_to_en",
+      "answer": "What time will you leave?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
   "qa_answers": []
 }

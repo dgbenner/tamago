@@ -743,17 +743,17 @@
   {
     "word_id": "W046",
     "form": "drikker",
-    "lemma": "drikk",
-    "part_of_speech": "Noun",
-    "gender": "en",
-    "gloss": "inflection of drikk",
-    "gloss_full": "inflection of drikk",
-    "lemma_gloss": "a drink",
+    "lemma": "drikke",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "inflection of drikke",
+    "gloss_full": "inflection of drikke",
+    "lemma_gloss": "to drink",
     "wiktionary_url": "https://en.wiktionary.org/wiki/drikker#Norwegian Bokmål",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Verb: inflection of drikke"
+      "Noun: inflection of drikk"
     ],
     "lingua_libre": null
   },
@@ -1438,16 +1438,16 @@
     "word_id": "W090",
     "form": "i",
     "lemma": "i",
-    "part_of_speech": "Noun",
-    "gender": "en",
-    "gloss": "the letter I",
-    "gloss_full": "the letter I",
+    "part_of_speech": "Preposition",
+    "gender": "",
+    "gloss": "in, inside of",
+    "gloss_full": "in, inside of",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/i#Norwegian Bokmål",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Preposition: in, inside of"
+      "Noun: the letter I"
     ],
     "lingua_libre": null
   },
@@ -1584,15 +1584,15 @@
     "form": "rom",
     "lemma": "rom",
     "part_of_speech": "Noun",
-    "gender": "en",
-    "gloss": "rum",
-    "gloss_full": "rum",
+    "gender": "et",
+    "gloss": "room",
+    "gloss_full": "room",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/rom#Norwegian Bokmål",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Noun: room",
+      "Noun: rum",
       "Verb: inflection of romme"
     ],
     "lingua_libre": null
@@ -3004,16 +3004,16 @@
     "word_id": "W1009",
     "form": "arm",
     "lemma": "arm",
-    "part_of_speech": "Adjective",
+    "part_of_speech": "Noun",
     "gender": "",
-    "gloss": "poor",
-    "gloss_full": "poor",
+    "gloss": "an arm",
+    "gloss_full": "an arm",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/arm#Norwegian Bokmål",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Noun: an arm"
+      "Adjective: poor"
     ],
     "lingua_libre": null
   },
@@ -3237,17 +3237,17 @@
   {
     "word_id": "W1024",
     "form": "leser",
-    "lemma": "leser",
-    "part_of_speech": "Noun",
-    "gender": "en",
-    "gloss": "a reader",
-    "gloss_full": "a reader",
-    "lemma_gloss": "",
+    "lemma": "lese",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "inflection of lese",
+    "gloss_full": "inflection of lese",
+    "lemma_gloss": "to read",
     "wiktionary_url": "https://en.wiktionary.org/wiki/leser#Norwegian Bokmål",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Verb: inflection of lese"
+      "Noun: a reader"
     ],
     "lingua_libre": null
   },

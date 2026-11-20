@@ -71,7 +71,7 @@
       "sentence_id": "S9005",
       "unit_id": "U09",
       "french": "Er du ikke trist?",
-      "english": "You’re not sad?",
+      "english": "Aren't you sad?",
       "pair_id": "",
       "source": "tatoeba",
       "source_id": "10943494",
@@ -80,7 +80,9 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Mayk",
-      "other_english": []
+      "other_english": [
+        "You’re not sad?"
+      ]
     },
     {
       "sentence_id": "S9006",

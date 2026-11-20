@@ -1,25 +1,10 @@
 {
   "unit_id": "U06",
   "pulled_at": "2026-11-20",
-  "candidates": 9,
+  "candidates": 8,
   "sentences": [
     {
       "sentence_id": "S6001",
-      "unit_id": "U06",
-      "french": "Er de?",
-      "english": "They are?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10940587",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Mayk",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S6002",
       "unit_id": "U06",
       "french": "Liker dere det?",
       "english": "Do you like it?",
@@ -34,7 +19,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S6003",
+      "sentence_id": "S6002",
       "unit_id": "U06",
       "french": "Ja, to.",
       "english": "Yes, two.",
@@ -49,10 +34,10 @@
       "other_english": []
     },
     {
-      "sentence_id": "S6004",
+      "sentence_id": "S6003",
       "unit_id": "U06",
       "french": "Hei, dere.",
-      "english": "Hey, you.",
+      "english": "Hey, you all.",
       "pair_id": "",
       "source": "tatoeba",
       "source_id": "10940441",
@@ -61,10 +46,12 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Mayk",
-      "other_english": []
+      "other_english": [
+        "Hey, you."
+      ]
     },
     {
-      "sentence_id": "S6005",
+      "sentence_id": "S6004",
       "unit_id": "U06",
       "french": "De er barn.",
       "english": "They're children.",
@@ -79,7 +66,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S6006",
+      "sentence_id": "S6005",
       "unit_id": "U06",
       "french": "De spiser brød.",
       "english": "They are eating bread.",
@@ -94,7 +81,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S6007",
+      "sentence_id": "S6006",
       "unit_id": "U06",
       "french": "Vi har ikke vann.",
       "english": "We have no water.",
@@ -109,7 +96,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S6008",
+      "sentence_id": "S6007",
       "unit_id": "U06",
       "french": "Han har en hund.",
       "english": "He has a dog.",
@@ -124,7 +111,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S6009",
+      "sentence_id": "S6008",
       "unit_id": "U06",
       "french": "Jeg har en stor hund.",
       "english": "I have a big dog.",
@@ -143,29 +130,13 @@
     {
       "sentence_id": "S6001",
       "position": 1,
-      "surface": "Er",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S6001",
-      "position": 2,
-      "surface": "de",
-      "word_id": "W068",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S6002",
-      "position": 1,
       "surface": "Liker",
       "word_id": "W047",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S6002",
+      "sentence_id": "S6001",
       "position": 2,
       "surface": "dere",
       "word_id": "W067",
@@ -173,7 +144,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6002",
+      "sentence_id": "S6001",
       "position": 3,
       "surface": "det",
       "word_id": "W020",
@@ -181,7 +152,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6003",
+      "sentence_id": "S6002",
       "position": 1,
       "surface": "Ja",
       "word_id": "W003",
@@ -189,7 +160,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6003",
+      "sentence_id": "S6002",
       "position": 2,
       "surface": "to",
       "word_id": "W077",
@@ -197,7 +168,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6004",
+      "sentence_id": "S6003",
       "position": 1,
       "surface": "Hei",
       "word_id": "W001",
@@ -205,7 +176,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6004",
+      "sentence_id": "S6003",
       "position": 2,
       "surface": "dere",
       "word_id": "W067",
@@ -213,7 +184,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6005",
+      "sentence_id": "S6004",
       "position": 1,
       "surface": "De",
       "word_id": "W068",
@@ -221,7 +192,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6005",
+      "sentence_id": "S6004",
       "position": 2,
       "surface": "er",
       "word_id": "W008",
@@ -229,7 +200,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6005",
+      "sentence_id": "S6004",
       "position": 3,
       "surface": "barn",
       "word_id": "W015",
@@ -237,7 +208,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6006",
+      "sentence_id": "S6005",
       "position": 1,
       "surface": "De",
       "word_id": "W068",
@@ -245,7 +216,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6006",
+      "sentence_id": "S6005",
       "position": 2,
       "surface": "spiser",
       "word_id": "W045",
@@ -253,7 +224,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6006",
+      "sentence_id": "S6005",
       "position": 3,
       "surface": "brød",
       "word_id": "W048",
@@ -261,7 +232,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6007",
+      "sentence_id": "S6006",
       "position": 1,
       "surface": "Vi",
       "word_id": "W066",
@@ -269,7 +240,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6007",
+      "sentence_id": "S6006",
       "position": 2,
       "surface": "har",
       "word_id": "W057",
@@ -277,7 +248,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6007",
+      "sentence_id": "S6006",
       "position": 3,
       "surface": "ikke",
       "word_id": "W005",
@@ -285,7 +256,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6007",
+      "sentence_id": "S6006",
       "position": 4,
       "surface": "vann",
       "word_id": "W049",
@@ -293,7 +264,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6008",
+      "sentence_id": "S6007",
       "position": 1,
       "surface": "Han",
       "word_id": "W017",
@@ -301,7 +272,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6008",
+      "sentence_id": "S6007",
       "position": 2,
       "surface": "har",
       "word_id": "W057",
@@ -309,7 +280,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6008",
+      "sentence_id": "S6007",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -317,7 +288,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6008",
+      "sentence_id": "S6007",
       "position": 4,
       "surface": "hund",
       "word_id": "W058",
@@ -325,7 +296,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6009",
+      "sentence_id": "S6008",
       "position": 1,
       "surface": "Jeg",
       "word_id": "W006",
@@ -333,7 +304,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6009",
+      "sentence_id": "S6008",
       "position": 2,
       "surface": "har",
       "word_id": "W057",
@@ -341,7 +312,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6009",
+      "sentence_id": "S6008",
       "position": 3,
       "surface": "en",
       "word_id": "W009",
@@ -349,7 +320,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6009",
+      "sentence_id": "S6008",
       "position": 4,
       "surface": "stor",
       "word_id": "W027",
@@ -357,7 +328,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S6009",
+      "sentence_id": "S6008",
       "position": 5,
       "surface": "hund",
       "word_id": "W058",

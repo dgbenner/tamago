@@ -1,7 +1,7 @@
 [
   {
-    "answer_id": "A30041",
-    "sentence_id": "S3004",
+    "answer_id": "A30051",
+    "sentence_id": "S3005",
     "answer": "It's not good.",
     "status": "checked",
     "source": "tatoeba",
@@ -9,8 +9,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A30051",
-    "sentence_id": "S3005",
+    "answer_id": "A30061",
+    "sentence_id": "S3006",
     "answer": "Good bye!",
     "status": "checked",
     "source": "tatoeba",
@@ -18,8 +18,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A30052",
-    "sentence_id": "S3005",
+    "answer_id": "A30062",
+    "sentence_id": "S3006",
     "answer": "Good-bye!",
     "status": "checked",
     "source": "tatoeba",
@@ -47,7 +47,7 @@
   {
     "answer_id": "A40021",
     "sentence_id": "S4002",
-    "answer": "I don't like coffee.",
+    "answer": "I dislike coffee.",
     "status": "checked",
     "source": "tatoeba",
     "source_id": "2879705",
@@ -81,8 +81,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A100051",
-    "sentence_id": "S10005",
+    "answer_id": "A100061",
+    "sentence_id": "S10006",
     "answer": "It's not mine.",
     "status": "checked",
     "source": "tatoeba",
@@ -90,8 +90,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A100052",
-    "sentence_id": "S10005",
+    "answer_id": "A100062",
+    "sentence_id": "S10006",
     "answer": "That's not mine.",
     "status": "checked",
     "source": "tatoeba",
@@ -99,8 +99,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A100053",
-    "sentence_id": "S10005",
+    "answer_id": "A100063",
+    "sentence_id": "S10006",
     "answer": "It is not mine.",
     "status": "checked",
     "source": "tatoeba",
@@ -108,8 +108,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A110031",
-    "sentence_id": "S11003",
+    "answer_id": "A110021",
+    "sentence_id": "S11002",
     "answer": "Who's this?",
     "status": "checked",
     "source": "tatoeba",
@@ -117,8 +117,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A110032",
-    "sentence_id": "S11003",
+    "answer_id": "A110022",
+    "sentence_id": "S11002",
     "answer": "Who is that?",
     "status": "checked",
     "source": "tatoeba",
@@ -126,12 +126,21 @@
     "reason": ""
   },
   {
-    "answer_id": "A110033",
-    "sentence_id": "S11003",
+    "answer_id": "A110023",
+    "sentence_id": "S11002",
     "answer": "Who is it?",
     "status": "checked",
     "source": "tatoeba",
     "source_id": "2897977",
+    "reason": ""
+  },
+  {
+    "answer_id": "A110031",
+    "sentence_id": "S11003",
+    "answer": "What time will you leave?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2907040",
     "reason": ""
   },
   {
@@ -150,6 +159,15 @@
     "status": "checked",
     "source": "tatoeba",
     "source_id": "10943845",
+    "reason": ""
+  },
+  {
+    "answer_id": "A150011",
+    "sentence_id": "S15001",
+    "answer": "What time will you leave?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2907040",
     "reason": ""
   },
   {
@@ -177,15 +195,6 @@
     "status": "checked",
     "source": "tatoeba",
     "source_id": "1866243",
-    "reason": ""
-  },
-  {
-    "answer_id": "A520021",
-    "sentence_id": "S52002",
-    "answer": "Oh, no!",
-    "status": "checked",
-    "source": "tatoeba",
-    "source_id": "10940617",
     "reason": ""
   }
 ]

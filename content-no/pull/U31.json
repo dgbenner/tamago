@@ -7,7 +7,7 @@
       "sentence_id": "S31001",
       "unit_id": "U31",
       "french": "Forstår du?",
-      "english": "Understand?",
+      "english": "Do you understand?",
       "pair_id": "",
       "source": "tatoeba",
       "source_id": "10940244",
@@ -16,7 +16,9 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Mayk",
-      "other_english": []
+      "other_english": [
+        "Understand?"
+      ]
     },
     {
       "sentence_id": "S31002",
