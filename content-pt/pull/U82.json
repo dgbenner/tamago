@@ -1,0 +1,1437 @@
+{
+  "unit_id": "U82",
+  "pulled_at": "2026-11-19",
+  "candidates": 101,
+  "sentences": [
+    {
+      "sentence_id": "S82001",
+      "unit_id": "U82",
+      "french": "Você come com colher ou garfo?",
+      "english": "Do you eat it with a spoon or a fork?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10657297",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Advanced",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82002",
+      "unit_id": "U82",
+      "french": "Você tem um garfo e uma faca?",
+      "english": "Do you have a fork and a knife?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11652255",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82003",
+      "unit_id": "U82",
+      "french": "Esta carne é de frango.",
+      "english": "That meat is chicken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "419156",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82004",
+      "unit_id": "U82",
+      "french": "Esta colher serve para tomar sopa.",
+      "english": "This spoon is for soup.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6299829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82005",
+      "unit_id": "U82",
+      "french": "Você tem arroz?",
+      "english": "Do you have rice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "893819",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kazenochikara",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82006",
+      "unit_id": "U82",
+      "french": "Você come carne?",
+      "english": "Do you eat meat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2385257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Matheus",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82007",
+      "unit_id": "U82",
+      "french": "Você quer sobremesa?",
+      "english": "Do you want dessert?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6536390",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82008",
+      "unit_id": "U82",
+      "french": "Sabe cozinhar frango?",
+      "english": "Do you know how to cook chicken?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8183647",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82009",
+      "unit_id": "U82",
+      "french": "Não quer arroz?",
+      "english": "Don't you want any rice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8482250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82010",
+      "unit_id": "U82",
+      "french": "Quem gosta de feijão?",
+      "english": "Who likes beans?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2852193",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82011",
+      "unit_id": "U82",
+      "french": "A carne está boa?",
+      "english": "Is the meat good?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5021906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82012",
+      "unit_id": "U82",
+      "french": "Você não quer sopa?",
+      "english": "Don't you want soup?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6382110",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82013",
+      "unit_id": "U82",
+      "french": "Tom também quer sobremesa?",
+      "english": "Does Tom want dessert, too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8823016",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82014",
+      "unit_id": "U82",
+      "french": "A colher é pequena?",
+      "english": "Is the spoon small?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9122415",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82015",
+      "unit_id": "U82",
+      "french": "Você quer uma salada?",
+      "english": "Do you want a salad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11692593",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82016",
+      "unit_id": "U82",
+      "french": "Você gosta de arroz?",
+      "english": "Do you like rice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12325838",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Advanced",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82017",
+      "unit_id": "U82",
+      "french": "Tem frango para o jantar?",
+      "english": "Is there chicken for dinner?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1726631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82018",
+      "unit_id": "U82",
+      "french": "Quero sopa.",
+      "english": "I want soup.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4833648",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82019",
+      "unit_id": "U82",
+      "french": "Tom quer sobremesa.",
+      "english": "Tom wants dessert.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5031166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82020",
+      "unit_id": "U82",
+      "french": "Quero uma faca.",
+      "english": "I want a knife.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5595182",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82021",
+      "unit_id": "U82",
+      "french": "Gosto de feijão.",
+      "english": "I like beans.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7498989",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82022",
+      "unit_id": "U82",
+      "french": "Há uma faca aqui.",
+      "english": "There is a knife here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3605205",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82023",
+      "unit_id": "U82",
+      "french": "O prato está sujo.",
+      "english": "The plate is dirty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4819238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82024",
+      "unit_id": "U82",
+      "french": "O garfo está sujo.",
+      "english": "The fork is dirty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4819240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82025",
+      "unit_id": "U82",
+      "french": "Eu não quero feijão.",
+      "english": "I don't want any beans.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4902349",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82026",
+      "unit_id": "U82",
+      "french": "Não gosto de salada.",
+      "english": "I don't like salad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7534239",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82027",
+      "unit_id": "U82",
+      "french": "Eu não gosto de salada.",
+      "english": "I don't like salad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7534237",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82028",
+      "unit_id": "U82",
+      "french": "O senhor come carne?",
+      "english": "Do you eat meat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8079398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MacGyver",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82029",
+      "unit_id": "U82",
+      "french": "Por que você não come carne?",
+      "english": "Why don't you eat meat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5014095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S82030",
+      "unit_id": "U82",
+      "french": "Você come carne todo dia?",
+      "english": "Do you eat meat every day?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6536451",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S82001",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82001",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82001",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82001",
+      "position": 4,
+      "surface": "colher",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82001",
+      "position": 5,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82001",
+      "position": 6,
+      "surface": "garfo",
+      "word_id": "W1618",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82002",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82002",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82002",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82002",
+      "position": 4,
+      "surface": "garfo",
+      "word_id": "W1618",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82002",
+      "position": 5,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82002",
+      "position": 6,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82002",
+      "position": 7,
+      "surface": "faca",
+      "word_id": "W1619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82003",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82003",
+      "position": 2,
+      "surface": "carne",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82003",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82003",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82003",
+      "position": 5,
+      "surface": "frango",
+      "word_id": "W1622",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82004",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82004",
+      "position": 2,
+      "surface": "colher",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82004",
+      "position": 3,
+      "surface": "serve",
+      "word_id": "W725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82004",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82004",
+      "position": 5,
+      "surface": "tomar",
+      "word_id": "W1291",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82004",
+      "position": 6,
+      "surface": "sopa",
+      "word_id": "W1625",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82005",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82005",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82005",
+      "position": 3,
+      "surface": "arroz",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82006",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82006",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82006",
+      "position": 3,
+      "surface": "carne",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82007",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82007",
+      "position": 3,
+      "surface": "sobremesa",
+      "word_id": "W1626",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82008",
+      "position": 1,
+      "surface": "Sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82008",
+      "position": 2,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82008",
+      "position": 3,
+      "surface": "frango",
+      "word_id": "W1622",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82009",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82009",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82009",
+      "position": 3,
+      "surface": "arroz",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82010",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82010",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82010",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82010",
+      "position": 4,
+      "surface": "feijão",
+      "word_id": "W1627",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82011",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82011",
+      "position": 2,
+      "surface": "carne",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82011",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82011",
+      "position": 4,
+      "surface": "boa",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82012",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82012",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82012",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82012",
+      "position": 4,
+      "surface": "sopa",
+      "word_id": "W1625",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82013",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82013",
+      "position": 2,
+      "surface": "também",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82013",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82013",
+      "position": 4,
+      "surface": "sobremesa",
+      "word_id": "W1626",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82014",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82014",
+      "position": 2,
+      "surface": "colher",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82014",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82014",
+      "position": 4,
+      "surface": "pequena",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82015",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82015",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82015",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82015",
+      "position": 4,
+      "surface": "salada",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82016",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82016",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82016",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82016",
+      "position": 4,
+      "surface": "arroz",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82017",
+      "position": 1,
+      "surface": "Tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82017",
+      "position": 2,
+      "surface": "frango",
+      "word_id": "W1622",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82017",
+      "position": 3,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82017",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82017",
+      "position": 5,
+      "surface": "jantar",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82018",
+      "position": 1,
+      "surface": "Quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82018",
+      "position": 2,
+      "surface": "sopa",
+      "word_id": "W1625",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82019",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82019",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82019",
+      "position": 3,
+      "surface": "sobremesa",
+      "word_id": "W1626",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82020",
+      "position": 1,
+      "surface": "Quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82020",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82020",
+      "position": 3,
+      "surface": "faca",
+      "word_id": "W1619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82021",
+      "position": 1,
+      "surface": "Gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82021",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82021",
+      "position": 3,
+      "surface": "feijão",
+      "word_id": "W1627",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82022",
+      "position": 1,
+      "surface": "Há",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82022",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82022",
+      "position": 3,
+      "surface": "faca",
+      "word_id": "W1619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82022",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82023",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82023",
+      "position": 2,
+      "surface": "prato",
+      "word_id": "W1617",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82023",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82023",
+      "position": 4,
+      "surface": "sujo",
+      "word_id": "W1159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82024",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82024",
+      "position": 2,
+      "surface": "garfo",
+      "word_id": "W1618",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82024",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82024",
+      "position": 4,
+      "surface": "sujo",
+      "word_id": "W1159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82025",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82025",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82025",
+      "position": 3,
+      "surface": "quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82025",
+      "position": 4,
+      "surface": "feijão",
+      "word_id": "W1627",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82026",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82026",
+      "position": 2,
+      "surface": "gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82026",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82026",
+      "position": 4,
+      "surface": "salada",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82027",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82027",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82027",
+      "position": 3,
+      "surface": "gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82027",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82027",
+      "position": 5,
+      "surface": "salada",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82028",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82028",
+      "position": 2,
+      "surface": "senhor",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82028",
+      "position": 3,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82028",
+      "position": 4,
+      "surface": "carne",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82029",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82029",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82029",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82029",
+      "position": 4,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82029",
+      "position": 5,
+      "surface": "carne",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82030",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82030",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82030",
+      "position": 3,
+      "surface": "carne",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82030",
+      "position": 4,
+      "surface": "todo",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S82030",
+      "position": 5,
+      "surface": "dia",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

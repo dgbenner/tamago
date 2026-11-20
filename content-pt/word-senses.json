@@ -1206,7 +1206,9 @@
     "pos": "Noun"
   },
   "W915": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "expensive",
+    "note": "the prices circle teaches expensive, not dear (Fable, 2026-11-19)"
   },
   "W916": {
     "pos": "Adjective"
@@ -1639,7 +1641,9 @@
     "pos": "Preposition"
   },
   "W1240": {
-    "pos": "Pronoun"
+    "pos": "Pronoun",
+    "lemma": "cada",
+    "note": "its gloss \"examples of the thing\" read as a form of \"the\" (Fable, 2026-11-19)"
   },
   "W1241": {
     "pos": "Verb"
@@ -2255,7 +2259,9 @@
     "pos": "Verb"
   },
   "W1469": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to play (a musical instrument)",
+    "note": "Free Time teaches toco violão (Fable, 2026-11-19)"
   },
   "W1470": {
     "pos": "Verb"
@@ -2351,5 +2357,861 @@
   },
   "W1499": {
     "pos": "Contraction"
+  },
+  "W1601": {
+    "pos": "Verb"
+  },
+  "W1602": {
+    "pos": "Verb"
+  },
+  "W1603": {
+    "pos": "Verb"
+  },
+  "W1604": {
+    "pos": "Noun",
+    "match": "waiter"
+  },
+  "W1605": {
+    "pos": "Noun",
+    "match": "list of dishes"
+  },
+  "W1606": {
+    "pos": "Noun",
+    "match": "printed list of dishes"
+  },
+  "W1607": {
+    "pos": "Noun"
+  },
+  "W1608": {
+    "pos": "Adjective"
+  },
+  "W1609": {
+    "pos": "Noun",
+    "match": "drink"
+  },
+  "W1610": {
+    "pos": "Noun"
+  },
+  "W1611": {
+    "pos": "Verb",
+    "match": "to taste"
+  },
+  "W1612": {
+    "pos": "Noun",
+    "match": "ice cream"
+  },
+  "W1613": {
+    "pos": "Noun"
+  },
+  "W1614": {
+    "pos": "Verb"
+  },
+  "W1615": {
+    "pos": "Pronoun"
+  },
+  "W1616": {
+    "pos": "Noun"
+  },
+  "W1617": {
+    "pos": "Noun",
+    "match": "a flat dish from which food"
+  },
+  "W1618": {
+    "pos": "Noun"
+  },
+  "W1619": {
+    "pos": "Noun"
+  },
+  "W1620": {
+    "pos": "Noun"
+  },
+  "W1621": {
+    "pos": "Noun",
+    "match": "meat"
+  },
+  "W1622": {
+    "pos": "Noun",
+    "match": "poultry"
+  },
+  "W1623": {
+    "pos": "Noun"
+  },
+  "W1624": {
+    "pos": "Noun"
+  },
+  "W1625": {
+    "pos": "Noun"
+  },
+  "W1626": {
+    "pos": "Noun"
+  },
+  "W1627": {
+    "pos": "Noun"
+  },
+  "W1628": {
+    "pos": "Noun",
+    "match": "right (opposite of left)"
+  },
+  "W1629": {
+    "pos": "Noun",
+    "match": "the left side"
+  },
+  "W1630": {
+    "pos": "Adjective",
+    "match": "straight"
+  },
+  "W1631": {
+    "pos": "Verb"
+  },
+  "W1632": {
+    "pos": "Verb",
+    "match": "to turn (to change direction)"
+  },
+  "W1633": {
+    "pos": "Verb"
+  },
+  "W1634": {
+    "pos": "Verb"
+  },
+  "W1635": {
+    "pos": "Noun",
+    "match": "corner (of a street)"
+  },
+  "W1636": {
+    "pos": "Verb"
+  },
+  "W1637": {
+    "pos": "Verb"
+  },
+  "W1638": {
+    "pos": "Preposition"
+  },
+  "W1639": {
+    "pos": "Noun",
+    "match": "street sign"
+  },
+  "W1640": {
+    "pos": "Adjective"
+  },
+  "W1641": {
+    "pos": "Adjective"
+  },
+  "W1642": {
+    "pos": "Verb"
+  },
+  "W1643": {
+    "pos": "Verb"
+  },
+  "W1644": {
+    "pos": "Noun",
+    "match": "transportation"
+  },
+  "W1645": {
+    "pos": "Noun",
+    "match": "motorcycle"
+  },
+  "W1646": {
+    "pos": "Noun"
+  },
+  "W1647": {
+    "pos": "Noun"
+  },
+  "W1648": {
+    "pos": "Noun",
+    "match": "driver",
+    "exact": true
+  },
+  "W1649": {
+    "pos": "Verb",
+    "lemma_match": "to depart"
+  },
+  "W1650": {
+    "pos": "Verb",
+    "match": "to depart"
+  },
+  "W1651": {
+    "pos": "Adjective"
+  },
+  "W1652": {
+    "pos": "Noun",
+    "match": "establishment engaged"
+  },
+  "W1653": {
+    "pos": "Verb",
+    "match": "to catch, to take (a transport)"
+  },
+  "W1654": {
+    "pos": "Verb",
+    "lemma_match": "to catch, to take (a transport)"
+  },
+  "W1655": {
+    "pos": "Noun"
+  },
+  "W1656": {
+    "pos": "Noun"
+  },
+  "W1657": {
+    "pos": "Noun"
+  },
+  "W1658": {
+    "pos": "Noun"
+  },
+  "W1659": {
+    "pos": "Noun",
+    "match": "children"
+  },
+  "W1660": {
+    "pos": "Noun"
+  },
+  "W1661": {
+    "pos": "Noun"
+  },
+  "W1662": {
+    "pos": "Noun",
+    "match": "grandparents",
+    "exact": true
+  },
+  "W1663": {
+    "pos": "Noun",
+    "match": "male cousin"
+  },
+  "W1664": {
+    "pos": "Noun",
+    "match": "female cousin"
+  },
+  "W1665": {
+    "pos": "Noun"
+  },
+  "W1666": {
+    "pos": "Noun"
+  },
+  "W1667": {
+    "pos": "Noun"
+  },
+  "W1668": {
+    "pos": "Noun"
+  },
+  "W1669": {
+    "pos": "Noun"
+  },
+  "W1670": {
+    "pos": "Noun"
+  },
+  "W1671": {
+    "pos": "Noun",
+    "match": "parents"
+  },
+  "W1672": {
+    "pos": "Noun"
+  },
+  "W1673": {
+    "pos": "Noun"
+  },
+  "W1674": {
+    "pos": "Noun"
+  },
+  "W1675": {
+    "pos": "Noun",
+    "match": "bedroom"
+  },
+  "W1676": {
+    "pos": "Noun",
+    "match": "plural of quarto",
+    "lemma_match": "bedroom"
+  },
+  "W1677": {
+    "pos": "Noun",
+    "match": "living room"
+  },
+  "W1678": {
+    "pos": "Noun"
+  },
+  "W1679": {
+    "pos": "Noun"
+  },
+  "W1680": {
+    "pos": "Noun",
+    "match": "chair (item"
+  },
+  "W1681": {
+    "pos": "Noun"
+  },
+  "W1682": {
+    "pos": "Noun"
+  },
+  "W1683": {
+    "pos": "Noun",
+    "match": "shower"
+  },
+  "W1684": {
+    "pos": "Noun"
+  },
+  "W1685": {
+    "pos": "Noun",
+    "match": "sink (basin"
+  },
+  "W1686": {
+    "pos": "Noun"
+  },
+  "W1687": {
+    "pos": "Noun",
+    "match": "key (object that opens"
+  },
+  "W1688": {
+    "pos": "Noun"
+  },
+  "W1689": {
+    "pos": "Noun",
+    "match": "towel"
+  },
+  "W1690": {
+    "pos": "Noun"
+  },
+  "W1691": {
+    "pos": "Verb"
+  },
+  "W1692": {
+    "pos": "Noun"
+  },
+  "W1693": {
+    "pos": "Noun"
+  },
+  "W1694": {
+    "pos": "Noun",
+    "match": "computer"
+  },
+  "W1695": {
+    "pos": "Noun",
+    "match": "internet (an internet"
+  },
+  "W1696": {
+    "pos": "Noun",
+    "match": "office"
+  },
+  "W1697": {
+    "pos": "Noun"
+  },
+  "W1698": {
+    "pos": "Noun"
+  },
+  "W1699": {
+    "pos": "Noun"
+  },
+  "W1700": {
+    "pos": "Noun"
+  },
+  "W1701": {
+    "pos": "Noun"
+  },
+  "W1702": {
+    "pos": "Noun",
+    "match": "firefighter"
+  },
+  "W1703": {
+    "pos": "Noun",
+    "match": "police",
+    "exact": true
+  },
+  "W1704": {
+    "pos": "Noun",
+    "match": "police officer"
+  },
+  "W1705": {
+    "pos": "Noun"
+  },
+  "W1706": {
+    "pos": "Noun",
+    "match": "pharmacist"
+  },
+  "W1707": {
+    "pos": "Noun",
+    "match": "counter"
+  },
+  "W1708": {
+    "pos": "Verb"
+  },
+  "W1709": {
+    "pos": "Verb"
+  },
+  "W1710": {
+    "pos": "Adjective"
+  },
+  "W1711": {
+    "pos": "Noun"
+  },
+  "W1712": {
+    "pos": "Noun"
+  },
+  "W1713": {
+    "pos": "Verb",
+    "match": "to sign"
+  },
+  "W1714": {
+    "pos": "Verb"
+  },
+  "W1715": {
+    "pos": "Noun",
+    "match": "signature",
+    "exact": true
+  },
+  "W1716": {
+    "pos": "Noun"
+  },
+  "W1717": {
+    "pos": "Noun",
+    "match": "document"
+  },
+  "W1718": {
+    "pos": "Noun"
+  },
+  "W1719": {
+    "pos": "Noun",
+    "match": "status, condition"
+  },
+  "W1720": {
+    "pos": "Adjective"
+  },
+  "W1721": {
+    "pos": "Adjective"
+  },
+  "W1722": {
+    "pos": "Adjective"
+  },
+  "W1723": {
+    "pos": "Adjective"
+  },
+  "W1724": {
+    "pos": "Adjective"
+  },
+  "W1725": {
+    "pos": "Adjective",
+    "match": "divorced (said of two spouses"
+  },
+  "W1726": {
+    "pos": "Adjective"
+  },
+  "W1727": {
+    "pos": "Participle"
+  },
+  "W1728": {
+    "pos": "Adjective",
+    "lemma": "viúvo",
+    "note": "its gloss \"a state of widowhood\" read as a form of \"widowhood\" (Fable, 2026-11-19)"
+  },
+  "W1729": {
+    "pos": "Noun",
+    "match": "widow"
+  },
+  "W1730": {
+    "pos": "Noun"
+  },
+  "W1731": {
+    "pos": "Adjective"
+  },
+  "W1732": {
+    "pos": "Adjective"
+  },
+  "W1733": {
+    "pos": "Noun"
+  },
+  "W1734": {
+    "pos": "Noun"
+  },
+  "W1735": {
+    "pos": "Noun",
+    "match": "user (person who uses a computer"
+  },
+  "W1736": {
+    "pos": "Noun"
+  },
+  "W1737": {
+    "pos": "Noun",
+    "match": "at, the name of the symbol"
+  },
+  "W1738": {
+    "pos": "Noun"
+  },
+  "W1739": {
+    "pos": "Noun"
+  },
+  "W1740": {
+    "pos": "Noun"
+  },
+  "W1741": {
+    "pos": "Verb"
+  },
+  "W1742": {
+    "pos": "Verb"
+  },
+  "W1743": {
+    "pos": "Verb",
+    "match": "to send"
+  },
+  "W1744": {
+    "pos": "Verb",
+    "lemma_match": "to send"
+  },
+  "W1745": {
+    "pos": "Noun"
+  },
+  "W1746": {
+    "pos": "Noun",
+    "match": "stamp"
+  },
+  "W1747": {
+    "pos": "Noun",
+    "match": "call"
+  },
+  "W1748": {
+    "pos": "Noun"
+  },
+  "W1749": {
+    "pos": "Adjective"
+  },
+  "W1750": {
+    "pos": "Adjective"
+  },
+  "W1751": {
+    "pos": "Noun"
+  },
+  "W1752": {
+    "pos": "Noun"
+  },
+  "W1801": {
+    "pos": "Noun"
+  },
+  "W1802": {
+    "pos": "Noun"
+  },
+  "W1803": {
+    "pos": "Noun",
+    "match": "pasta"
+  },
+  "W1804": {
+    "pos": "Noun"
+  },
+  "W1805": {
+    "pos": "Noun",
+    "match": "pepper (spice)"
+  },
+  "W1806": {
+    "pos": "Noun",
+    "match": "plural of vegetal"
+  },
+  "W1807": {
+    "pos": "Noun"
+  },
+  "W1808": {
+    "pos": "Noun"
+  },
+  "W1809": {
+    "pos": "Noun"
+  },
+  "W1810": {
+    "pos": "Noun"
+  },
+  "W1811": {
+    "pos": "Noun"
+  },
+  "W1812": {
+    "pos": "Noun",
+    "match": "gram"
+  },
+  "W1813": {
+    "pos": "Noun",
+    "lemma_match": "gram (unit of mass)"
+  },
+  "W1814": {
+    "pos": "Noun"
+  },
+  "W1815": {
+    "pos": "Noun",
+    "match": "food, nourishment"
+  },
+  "W1816": {
+    "pos": "Verb"
+  },
+  "W1817": {
+    "pos": "Verb"
+  },
+  "W1818": {
+    "pos": "Verb"
+  },
+  "W1819": {
+    "pos": "Verb"
+  },
+  "W1820": {
+    "pos": "Verb"
+  },
+  "W1821": {
+    "pos": "Verb"
+  },
+  "W1822": {
+    "pos": "Noun"
+  },
+  "W1823": {
+    "pos": "Noun"
+  },
+  "W1824": {
+    "pos": "Noun"
+  },
+  "W1825": {
+    "pos": "Noun"
+  },
+  "W1826": {
+    "pos": "Noun"
+  },
+  "W1827": {
+    "pos": "Noun"
+  },
+  "W1828": {
+    "pos": "Noun"
+  },
+  "W1829": {
+    "pos": "Noun"
+  },
+  "W1830": {
+    "pos": "Noun"
+  },
+  "W1831": {
+    "pos": "Noun"
+  },
+  "W1832": {
+    "pos": "Noun"
+  },
+  "W1833": {
+    "pos": "Verb",
+    "match": "to turn off"
+  },
+  "W1834": {
+    "pos": "Verb",
+    "lemma_match": "to turn off"
+  },
+  "W1835": {
+    "pos": "Verb",
+    "lemma_match": "to turn off"
+  },
+  "W1836": {
+    "pos": "Noun"
+  },
+  "W1837": {
+    "pos": "Noun"
+  },
+  "W1838": {
+    "pos": "Verb"
+  },
+  "W1839": {
+    "pos": "Noun"
+  },
+  "W1840": {
+    "pos": "Noun"
+  },
+  "W1841": {
+    "pos": "Noun"
+  },
+  "W1842": {
+    "pos": "Noun"
+  },
+  "W1843": {
+    "pos": "Noun"
+  },
+  "W1844": {
+    "pos": "Noun"
+  },
+  "W1845": {
+    "pos": "Noun"
+  },
+  "W1846": {
+    "pos": "Noun"
+  },
+  "W1847": {
+    "pos": "Noun"
+  },
+  "W1848": {
+    "pos": "Adjective",
+    "match": "afflicted with the common cold"
+  },
+  "W1849": {
+    "pos": "Adjective",
+    "lemma_match": "afflicted with the common cold"
+  },
+  "W1850": {
+    "pos": "Verb"
+  },
+  "W1851": {
+    "pos": "Verb"
+  },
+  "W1852": {
+    "pos": "Noun",
+    "match": "wound"
+  },
+  "W1853": {
+    "pos": "Verb"
+  },
+  "W1854": {
+    "pos": "Verb"
+  },
+  "W1855": {
+    "pos": "Verb"
+  },
+  "W1856": {
+    "pos": "Noun",
+    "match": "clinic"
+  },
+  "W1857": {
+    "pos": "Noun"
+  },
+  "W1858": {
+    "pos": "Noun"
+  },
+  "W1859": {
+    "pos": "Noun",
+    "match": "pill"
+  },
+  "W1860": {
+    "pos": "Noun"
+  },
+  "W1861": {
+    "pos": "Noun"
+  },
+  "W1862": {
+    "pos": "Noun"
+  },
+  "W1863": {
+    "pos": "Adjective"
+  },
+  "W1864": {
+    "pos": "Verb"
+  },
+  "W1865": {
+    "pos": "Noun"
+  },
+  "W1866": {
+    "pos": "Adjective"
+  },
+  "W1867": {
+    "pos": "Adjective",
+    "match": "middle"
+  },
+  "W1868": {
+    "pos": "Adjective"
+  },
+  "W1869": {
+    "pos": "Noun"
+  },
+  "W1870": {
+    "pos": "Adjective"
+  },
+  "W1871": {
+    "pos": "Noun"
+  },
+  "W1872": {
+    "pos": "Noun"
+  },
+  "W1873": {
+    "pos": "Noun"
+  },
+  "W1874": {
+    "pos": "Noun",
+    "match": "subject"
+  },
+  "W1875": {
+    "pos": "Noun",
+    "match": "semester"
+  },
+  "W1876": {
+    "pos": "Noun"
+  },
+  "W1877": {
+    "pos": "Noun",
+    "match": "playtime"
+  },
+  "W1878": {
+    "pos": "Noun",
+    "match": "gym (sporting"
+  },
+  "W1879": {
+    "pos": "Verb",
+    "match": "to get, obtain"
+  },
+  "W1880": {
+    "pos": "Verb",
+    "lemma_match": "to get, obtain"
+  },
+  "W1881": {
+    "pos": "Noun"
+  },
+  "W1882": {
+    "pos": "Noun",
+    "match": "booking"
+  },
+  "W1883": {
+    "pos": "Adjective"
+  },
+  "W1884": {
+    "pos": "Adjective"
+  },
+  "W1885": {
+    "pos": "Noun"
+  },
+  "W1886": {
+    "pos": "Noun"
+  },
+  "W1887": {
+    "pos": "Noun"
+  },
+  "W1888": {
+    "pos": "Noun",
+    "match": "tent"
+  },
+  "W1889": {
+    "pos": "Noun"
+  },
+  "W1890": {
+    "pos": "Noun",
+    "match": "wallet"
+  },
+  "W1891": {
+    "pos": "Noun",
+    "match": "front desk"
+  },
+  "W1892": {
+    "pos": "Noun",
+    "match": "elevator"
+  },
+  "W1893": {
+    "pos": "Noun"
+  },
+  "W1894": {
+    "pos": "Noun",
+    "match": "reason"
+  },
+  "W1753": {
+    "pos": "Verb"
+  },
+  "W1754": {
+    "pos": "Verb"
+  },
+  "W1895": {
+    "pos": "Verb"
+  },
+  "W943": {
+    "pos": "Noun",
+    "match": "postcode",
+    "note": "the Brazilian CEP (Fable, 2026-11-19)"
+  },
+  "W1375": {
+    "pos": "Noun",
+    "note": "post office; mail (Fable, 2026-11-19)"
+  },
+  "W1755": {
+    "pos": "Noun",
+    "match": "conductor",
+    "note": "the bus fare collector (Fable, 2026-11-19)"
+  },
+  "W1896": {
+    "pos": "Noun",
+    "match": "accommodation",
+    "note": "Fable, 2026-11-19"
   }
 }

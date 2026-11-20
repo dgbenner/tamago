@@ -232,5 +232,113 @@
     "answer": "7",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Um café custa cinco reais.",
+    "answer": "5",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "São doze reais e cinquenta.",
+    "answer": "12,50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "O prato do dia custa vinte e cinco reais.",
+    "answer": "25",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "A conta é de quarenta e dois reais.",
+    "answer": "42",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N305",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "A farmácia fica a cem metros.",
+    "answer": "100",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N306",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "O museu fica a trezentos metros.",
+    "answer": "300",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N307",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Pegue o ônibus número oito.",
+    "answer": "8",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N308",
+    "unit_id": "U84",
+    "kind": "time",
+    "say": "O ônibus passa às sete e quinze.",
+    "answer": "7:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N309",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "Moro no número vinte e seis.",
+    "answer": "26",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N310",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "A reunião é às dez e meia.",
+    "answer": "10:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N311",
+    "unit_id": "U88",
+    "kind": "phone",
+    "say": "Meu celular é nove, oito, sete, doze, vinte, dezoito.",
+    "answer": "987 12 20 18",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N312",
+    "unit_id": "U88",
+    "kind": "date",
+    "say": "Eu nasci no dia doze de março.",
+    "answer": "12/3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

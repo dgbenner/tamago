@@ -132,7 +132,7 @@ const canDo = {
 export default {
   part: 2, wordBase: 801, vocabBase: 1101, cdBase: 301,
   slots: [{ slot_id: 'C03', part: 2, after_row: 12 }, { slot_id: 'C04', part: 2, after_row: 14 }],
-  situation, vocab, items, canDo, off: {},
+  situation, vocab, items, canDo, off: { postal: "Portugal; the course teaches CEP (Dan, 2026-11-19; Fable's review)" },
   // Added in review (2026-11-16): me chamo needs me and prices need quanto; Part 1 taught neither.
-  late: [{ unit_id: 'U41', words: ['me'] }, { unit_id: 'U48', words: ['quanto'] }],
+  late: [{ unit_id: 'U41', words: ['me'] }, { unit_id: 'U48', words: ['quanto'] }, { unit_id: 'U45', words: ['CEP'] }],
 }

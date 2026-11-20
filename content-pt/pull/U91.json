@@ -1,0 +1,1548 @@
+{
+  "unit_id": "U91",
+  "pulled_at": "2026-11-19",
+  "candidates": 80,
+  "sentences": [
+    {
+      "sentence_id": "S91001",
+      "unit_id": "U91",
+      "french": "Pimenta ou sal?",
+      "english": "Pepper or salt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11650089",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91002",
+      "unit_id": "U91",
+      "french": "Você cheira isso?",
+      "english": "Do you smell that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2574208",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91003",
+      "unit_id": "U91",
+      "french": "Quem vai cozinhar?",
+      "english": "Who'll cook?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5028351",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91004",
+      "unit_id": "U91",
+      "french": "Não cheira bem?",
+      "english": "Doesn't that smell good?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9334928",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91005",
+      "unit_id": "U91",
+      "french": "Você sabe cozinhar peixe?",
+      "english": "Do you know how to cook fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1200254",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91006",
+      "unit_id": "U91",
+      "french": "Você gosta de cozinhar?",
+      "english": "Do you like cooking?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4490805",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "Do you like to cook?"
+      ]
+    },
+    {
+      "sentence_id": "S91007",
+      "unit_id": "U91",
+      "french": "Você gosta de pimenta?",
+      "english": "Do you like pepper?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8786470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91008",
+      "unit_id": "U91",
+      "french": "Por que você não come vegetais?",
+      "english": "Why don't you eat vegetables?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "405548",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91009",
+      "unit_id": "U91",
+      "french": "Você bebe leite de vaca?",
+      "english": "Do you drink cow's milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6012216",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "neri",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91010",
+      "unit_id": "U91",
+      "french": "Você pode me passar o sal?",
+      "english": "Could you pass the salt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "869205",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Can you pass me the salt?"
+      ]
+    },
+    {
+      "sentence_id": "S91011",
+      "unit_id": "U91",
+      "french": "Que vegetais você tem no jardim?",
+      "english": "What vegetables do you have in your garden?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8329873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91012",
+      "unit_id": "U91",
+      "french": "Pode me passar o sal, por favor?",
+      "english": "Could you pass me the salt, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11759681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91013",
+      "unit_id": "U91",
+      "french": "Você não gosta de como eu cozinho?",
+      "english": "Don't you like my cooking?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6814941",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91014",
+      "unit_id": "U91",
+      "french": "Que vegetais você tem no seu jardim?",
+      "english": "What vegetables do you have in your garden?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8329872",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91015",
+      "unit_id": "U91",
+      "french": "Cozinho bem.",
+      "english": "I cook well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1729584",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91016",
+      "unit_id": "U91",
+      "french": "Cheira bem!",
+      "english": "It smells good!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11561320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91017",
+      "unit_id": "U91",
+      "french": "Eu cozinho bem.",
+      "english": "I cook well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1729585",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91018",
+      "unit_id": "U91",
+      "french": "Eu tenho uma vaca.",
+      "english": "I have a cow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2777850",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91019",
+      "unit_id": "U91",
+      "french": "Eu não quero cereal.",
+      "english": "I don't want cereal.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2881779",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91020",
+      "unit_id": "U91",
+      "french": "O porco é rosa.",
+      "english": "The pig is pink.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3076337",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91021",
+      "unit_id": "U91",
+      "french": "Tom tem uma vaca.",
+      "english": "Tom has a cow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4230454",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91022",
+      "unit_id": "U91",
+      "french": "Vou preparar um chá.",
+      "english": "I'll brew up some tea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10958096",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GuiFFI",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91023",
+      "unit_id": "U91",
+      "french": "Eu vou preparar um chá.",
+      "english": "I'll brew up some tea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2211295",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91024",
+      "unit_id": "U91",
+      "french": "Esta árvore não dá fruto.",
+      "english": "This tree bears no fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2810765",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "akilez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91025",
+      "unit_id": "U91",
+      "french": "É hora de se preparar para dormir.",
+      "english": "It's time to get ready for bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4492677",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91026",
+      "unit_id": "U91",
+      "french": "O Tom sabe cozinhar?",
+      "english": "Can Tom cook?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5152796",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91027",
+      "unit_id": "U91",
+      "french": "O que você vai cozinhar hoje?",
+      "english": "What will you cook today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3802068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Laudemilson",
+      "other_english": [
+        "What are you cooking today?"
+      ]
+    },
+    {
+      "sentence_id": "S91028",
+      "unit_id": "U91",
+      "french": "O que você quer cozinhar hoje?",
+      "english": "What do you want to cook today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5083923",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91029",
+      "unit_id": "U91",
+      "french": "Como você vai cozinhar o peixe?",
+      "english": "How are you going to cook the fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11755948",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91030",
+      "unit_id": "U91",
+      "french": "Sal, por favor.",
+      "english": "Salt, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7728442",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MacGyver",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S91001",
+      "position": 1,
+      "surface": "Pimenta",
+      "word_id": "W1805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91001",
+      "position": 2,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91001",
+      "position": 3,
+      "surface": "sal",
+      "word_id": "W1804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91002",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91002",
+      "position": 2,
+      "surface": "cheira",
+      "word_id": "W1816",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91002",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91003",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91003",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91003",
+      "position": 3,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91004",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91004",
+      "position": 2,
+      "surface": "cheira",
+      "word_id": "W1816",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91004",
+      "position": 3,
+      "surface": "bem",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91005",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91005",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91005",
+      "position": 3,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91005",
+      "position": 4,
+      "surface": "peixe",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91006",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91006",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91006",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91006",
+      "position": 4,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 4,
+      "surface": "pimenta",
+      "word_id": "W1805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 4,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 5,
+      "surface": "vegetais",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 2,
+      "surface": "bebe",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 3,
+      "surface": "leite",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 5,
+      "surface": "vaca",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 4,
+      "surface": "passar",
+      "word_id": "W1456",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 6,
+      "surface": "sal",
+      "word_id": "W1804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 2,
+      "surface": "vegetais",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 4,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 5,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 6,
+      "surface": "jardim",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 1,
+      "surface": "Pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 3,
+      "surface": "passar",
+      "word_id": "W1456",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 5,
+      "surface": "sal",
+      "word_id": "W1804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 6,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 3,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 5,
+      "surface": "como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 6,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 7,
+      "surface": "cozinho",
+      "word_id": "W1819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 2,
+      "surface": "vegetais",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 4,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 5,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 6,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 7,
+      "surface": "jardim",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91015",
+      "position": 1,
+      "surface": "Cozinho",
+      "word_id": "W1819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91015",
+      "position": 2,
+      "surface": "bem",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91016",
+      "position": 1,
+      "surface": "Cheira",
+      "word_id": "W1816",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91016",
+      "position": 2,
+      "surface": "bem",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91017",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91017",
+      "position": 2,
+      "surface": "cozinho",
+      "word_id": "W1819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91017",
+      "position": 3,
+      "surface": "bem",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 4,
+      "surface": "vaca",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 3,
+      "surface": "quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 4,
+      "surface": "cereal",
+      "word_id": "W1808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91020",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91020",
+      "position": 2,
+      "surface": "porco",
+      "word_id": "W1802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91020",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91020",
+      "position": 4,
+      "surface": "rosa",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91021",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91021",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91021",
+      "position": 4,
+      "surface": "vaca",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91022",
+      "position": 1,
+      "surface": "Vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91022",
+      "position": 2,
+      "surface": "preparar",
+      "word_id": "W1820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91022",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91022",
+      "position": 4,
+      "surface": "chá",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 2,
+      "surface": "vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 3,
+      "surface": "preparar",
+      "word_id": "W1820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 5,
+      "surface": "chá",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 2,
+      "surface": "árvore",
+      "word_id": "W1166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 4,
+      "surface": "dá",
+      "word_id": "W1437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 5,
+      "surface": "fruto",
+      "word_id": "W1810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 2,
+      "surface": "hora",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 4,
+      "surface": "se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 5,
+      "surface": "preparar",
+      "word_id": "W1820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 6,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 7,
+      "surface": "dormir",
+      "word_id": "W1289",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 3,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 4,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 4,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 5,
+      "surface": "hoje",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 4,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 5,
+      "surface": "hoje",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 4,
+      "surface": "cozinhar",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 6,
+      "surface": "peixe",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91030",
+      "position": 1,
+      "surface": "Sal",
+      "word_id": "W1804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91030",
+      "position": 2,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A910061",
+      "sentence_id": "S91006",
+      "direction": "fr_to_en",
+      "answer": "Do you like to cook?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910101",
+      "sentence_id": "S91010",
+      "direction": "fr_to_en",
+      "answer": "Can you pass me the salt?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910271",
+      "sentence_id": "S91027",
+      "direction": "fr_to_en",
+      "answer": "What are you cooking today?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
