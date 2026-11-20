@@ -13,7 +13,7 @@ const bySlug = new Map(catalog.map((e) => [e.slug, e]))
 const ROLLS = catalog.filter((e) => e.role === 'help roll').map((e) => e.slug)
 const MISO = 'miso-soup'
 
-for (const dir of ['src/content', 'src/content-es', 'src/content-de', 'src/content-it', 'src/content-pt']) {
+for (const dir of ['src/content', 'src/content-es', 'src/content-de', 'src/content-it', 'src/content-pt', 'src/content-nl', 'src/content-sv']) {
   const read = (t) => JSON.parse(readFileSync(`${dir}/${t}.json`, 'utf8'))
   const units = new Map(read('units').map((u) => [u.unit_id, u]))
   const layout = read('tree_layout').filter((t) => units.has(t.unit_id))

@@ -1,0 +1,1301 @@
+{
+  "unit_id": "U28",
+  "pulled_at": "2026-11-19",
+  "candidates": 74,
+  "sentences": [
+    {
+      "sentence_id": "S28001",
+      "unit_id": "U28",
+      "french": "Isso funciona?",
+      "english": "Does that work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2456426",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": [
+        "Does it work?"
+      ]
+    },
+    {
+      "sentence_id": "S28002",
+      "unit_id": "U28",
+      "french": "Aquilo funciona?",
+      "english": "Does that work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4834840",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28003",
+      "unit_id": "U28",
+      "french": "Como funciona?",
+      "english": "How does it work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5493364",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28004",
+      "unit_id": "U28",
+      "french": "O que eu perdi?",
+      "english": "What did I miss?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2595033",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "What have I missed now?"
+      ]
+    },
+    {
+      "sentence_id": "S28005",
+      "unit_id": "U28",
+      "french": "Quanto eu perdi?",
+      "english": "How much did I lose?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5993219",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28006",
+      "unit_id": "U28",
+      "french": "É urgente!",
+      "english": "It's urgent.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4837495",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "It's urgent!"
+      ]
+    },
+    {
+      "sentence_id": "S28007",
+      "unit_id": "U28",
+      "french": "Eu perdi.",
+      "english": "I lost.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12607733",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "laetitiamg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28008",
+      "unit_id": "U28",
+      "french": "Tom diz que é urgente.",
+      "english": "Tom says it's urgent.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4258857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28009",
+      "unit_id": "U28",
+      "french": "Acho que isso é urgente.",
+      "english": "That sounds urgent.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4681547",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "I think that's urgent.",
+        "I think that that's urgent."
+      ]
+    },
+    {
+      "sentence_id": "S28010",
+      "unit_id": "U28",
+      "french": "Como isso funciona?",
+      "english": "How does this work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1238083",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28011",
+      "unit_id": "U28",
+      "french": "Esse relógio funciona?",
+      "english": "Does that clock work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5134349",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28012",
+      "unit_id": "U28",
+      "french": "Aquele relógio funciona?",
+      "english": "Does that clock work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5134350",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28013",
+      "unit_id": "U28",
+      "french": "O relógio funciona?",
+      "english": "Does the clock work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8189161",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28014",
+      "unit_id": "U28",
+      "french": "Você sabe como funciona?",
+      "english": "Do you know how it works?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5158364",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28015",
+      "unit_id": "U28",
+      "french": "Não funciona.",
+      "english": "It doesn't work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1394310",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28016",
+      "unit_id": "U28",
+      "french": "Este funciona.",
+      "english": "This one works.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2436487",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28017",
+      "unit_id": "U28",
+      "french": "Isto funciona.",
+      "english": "This works.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4546219",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28018",
+      "unit_id": "U28",
+      "french": "Perdi meu trem.",
+      "english": "I missed my train.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "974365",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I have missed my train."
+      ]
+    },
+    {
+      "sentence_id": "S28019",
+      "unit_id": "U28",
+      "french": "Isso não funciona!",
+      "english": "This doesn't work!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "974673",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28020",
+      "unit_id": "U28",
+      "french": "Perdi meu relógio.",
+      "english": "I lost the watch.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "977813",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I lost my watch.",
+        "I've lost my watch.",
+        "I have lost my watch."
+      ]
+    },
+    {
+      "sentence_id": "S28021",
+      "unit_id": "U28",
+      "french": "Perdi meu lápis.",
+      "english": "I've lost my pencil.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1293051",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I have lost my pencil."
+      ]
+    },
+    {
+      "sentence_id": "S28022",
+      "unit_id": "U28",
+      "french": "Eu me perdi.",
+      "english": "I got lost.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5042006",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": [
+        "I lost my way."
+      ]
+    },
+    {
+      "sentence_id": "S28023",
+      "unit_id": "U28",
+      "french": "Eu perdi tudo.",
+      "english": "I lost everything.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5265662",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28024",
+      "unit_id": "U28",
+      "french": "Eu perdi de novo.",
+      "english": "I lost again.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5830905",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28025",
+      "unit_id": "U28",
+      "french": "Perdi meus amigos.",
+      "english": "I've lost my friends.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6944127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "I have lost my friends."
+      ]
+    },
+    {
+      "sentence_id": "S28026",
+      "unit_id": "U28",
+      "french": "Perdi o trem!",
+      "english": "I missed the train!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7782038",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28027",
+      "unit_id": "U28",
+      "french": "Perdi a bagagem.",
+      "english": "I lost my luggage.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8785779",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28028",
+      "unit_id": "U28",
+      "french": "Perdi minha bagagem.",
+      "english": "I lost my luggage.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8785799",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28029",
+      "unit_id": "U28",
+      "french": "Eu perdi a chave.",
+      "english": "I lost my key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "405285",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "I have lost the key."
+      ]
+    },
+    {
+      "sentence_id": "S28030",
+      "unit_id": "U28",
+      "french": "Eu perdi o trem.",
+      "english": "I missed the train.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "658091",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S28001",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28001",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28002",
+      "position": 1,
+      "surface": "Aquilo",
+      "word_id": "W1413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28002",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 3,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 1,
+      "surface": "Quanto",
+      "word_id": "W942",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 3,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 2,
+      "surface": "urgente",
+      "word_id": "W1710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 2,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 2,
+      "surface": "diz",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 5,
+      "surface": "urgente",
+      "word_id": "W1710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 1,
+      "surface": "Acho",
+      "word_id": "W1341",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 5,
+      "surface": "urgente",
+      "word_id": "W1710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 2,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 2,
+      "surface": "relógio",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 1,
+      "surface": "Aquele",
+      "word_id": "W1414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 2,
+      "surface": "relógio",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 2,
+      "surface": "relógio",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 3,
+      "surface": "como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 4,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28015",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28015",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W1238",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 1,
+      "surface": "Isto",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 1,
+      "surface": "Perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 2,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 3,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 1,
+      "surface": "Perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 2,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 3,
+      "surface": "relógio",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 1,
+      "surface": "Perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 2,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 3,
+      "surface": "lápis",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 3,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 2,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 3,
+      "surface": "tudo",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 2,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 3,
+      "surface": "de novo",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 1,
+      "surface": "Perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 2,
+      "surface": "meus",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 3,
+      "surface": "amigos",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 1,
+      "surface": "Perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 3,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 1,
+      "surface": "Perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 3,
+      "surface": "bagagem",
+      "word_id": "W1349",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 1,
+      "surface": "Perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 2,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 3,
+      "surface": "bagagem",
+      "word_id": "W1349",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 2,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 4,
+      "surface": "chave",
+      "word_id": "W1687",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 2,
+      "surface": "perdi",
+      "word_id": "W1709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 4,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A280011",
+      "sentence_id": "S28001",
+      "direction": "fr_to_en",
+      "answer": "Does it work?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280041",
+      "sentence_id": "S28004",
+      "direction": "fr_to_en",
+      "answer": "What have I missed now?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280061",
+      "sentence_id": "S28006",
+      "direction": "fr_to_en",
+      "answer": "It's urgent!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280091",
+      "sentence_id": "S28009",
+      "direction": "fr_to_en",
+      "answer": "I think that's urgent.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280092",
+      "sentence_id": "S28009",
+      "direction": "fr_to_en",
+      "answer": "I think that that's urgent.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280181",
+      "sentence_id": "S28018",
+      "direction": "fr_to_en",
+      "answer": "I have missed my train.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280201",
+      "sentence_id": "S28020",
+      "direction": "fr_to_en",
+      "answer": "I lost my watch.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280202",
+      "sentence_id": "S28020",
+      "direction": "fr_to_en",
+      "answer": "I've lost my watch.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280203",
+      "sentence_id": "S28020",
+      "direction": "fr_to_en",
+      "answer": "I have lost my watch.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280211",
+      "sentence_id": "S28021",
+      "direction": "fr_to_en",
+      "answer": "I have lost my pencil.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280221",
+      "sentence_id": "S28022",
+      "direction": "fr_to_en",
+      "answer": "I lost my way.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280251",
+      "sentence_id": "S28025",
+      "direction": "fr_to_en",
+      "answer": "I have lost my friends.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280291",
+      "sentence_id": "S28029",
+      "direction": "fr_to_en",
+      "answer": "I have lost the key.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

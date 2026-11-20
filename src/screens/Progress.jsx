@@ -75,7 +75,7 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
       {finalCheck && (
         <section className="flex flex-col gap-2">
           <h2 className="font-semibold">A1 Final Check</h2>
-          <p className="text-sm text-muted">Modeled on the {finalCheck.exam.name}, with this course's own sentences.{finalCheck.last ? ` Last taken ${finalCheck.last.date}.` : ''}</p>
+          <p className="text-sm text-muted">{finalCheck.exam ? `Modeled on the ${finalCheck.exam.name}, with` : 'The general A1 format, with'} this course's own sentences.{finalCheck.last ? ` Last taken ${finalCheck.last.date}.` : ''}</p>
           {finalCheck.last ? (
             <ul className="flex flex-col gap-1">
               {['listening', 'reading', 'writing'].map((k) => {
@@ -90,8 +90,12 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
               <li className="flex items-baseline justify-between"><span className="font-medium">{NAMES.speaking ?? 'Speaking'}</span><span className="text-sm text-muted">practised, not graded</span></li>
             </ul>
           ) : <p>Not taken yet. {finalCheck.available ? 'It\'s open: find it at the end of the last part.' : 'It opens when every unit has had its first lessons.'}</p>}
-          <a href={finalCheck.exam.samples} target="_blank" rel="noopener noreferrer" className="self-start text-sm underline underline-offset-4">Official {finalCheck.exam.name} sample papers ({finalCheck.exam.body})</a>
-          <button onClick={onExam} className="self-start text-sm underline underline-offset-4">Ready for the Real Exam?</button>
+          {finalCheck.exam && (
+            <>
+              <a href={finalCheck.exam.samples} target="_blank" rel="noopener noreferrer" className="self-start text-sm underline underline-offset-4">Official {finalCheck.exam.name} sample papers ({finalCheck.exam.body})</a>
+              <button onClick={onExam} className="self-start text-sm underline underline-offset-4">Ready for the Real Exam?</button>
+            </>
+          )}
         </section>
       )}
 

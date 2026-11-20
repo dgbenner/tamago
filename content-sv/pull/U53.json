@@ -1,0 +1,458 @@
+{
+ "unit_id": "U53",
+ "pulled_at": "2026-11-20",
+ "candidates": 10,
+ "sentences": [
+  {
+   "sentence_id": "S53001",
+   "unit_id": "U53",
+   "french": "Hur nära är de?",
+   "english": "How close are they?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "11852643",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53002",
+   "unit_id": "U53",
+   "french": "Vilken station är det här?",
+   "english": "What station is it?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2049025",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53003",
+   "unit_id": "U53",
+   "french": "Jag gillar tåg.",
+   "english": "I like trains.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3843467",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53004",
+   "unit_id": "U53",
+   "french": "De är nära.",
+   "english": "They're close.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4441892",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "richke",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53006",
+   "unit_id": "U53",
+   "french": "Jag tycker om tåg.",
+   "english": "I like trains.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3843469",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53007",
+   "unit_id": "U53",
+   "french": "Det finns en buss här.",
+   "english": "There's a bus here.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "880574",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53008",
+   "unit_id": "U53",
+   "french": "Det finns ett hotell där.",
+   "english": "There's a hotel there.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "880599",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53009",
+   "unit_id": "U53",
+   "french": "Det är en buss här.",
+   "english": "There's a bus here.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1969895",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S53010",
+   "unit_id": "U53",
+   "french": "Det finns ett hotell här.",
+   "english": "There's a hotel here.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1969929",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S53001",
+   "position": 1,
+   "surface": "Hur",
+   "word_id": "W040",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53001",
+   "position": 2,
+   "surface": "nära",
+   "word_id": "W1035",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53001",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53001",
+   "position": 4,
+   "surface": "de",
+   "word_id": "W069",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53002",
+   "position": 1,
+   "surface": "Vilken",
+   "word_id": "W131",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53002",
+   "position": 2,
+   "surface": "station",
+   "word_id": "W1028",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53002",
+   "position": 3,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53002",
+   "position": 4,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53002",
+   "position": 5,
+   "surface": "här",
+   "word_id": "W095",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53003",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53003",
+   "position": 2,
+   "surface": "gillar",
+   "word_id": "W048",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53003",
+   "position": 3,
+   "surface": "tåg",
+   "word_id": "W1030",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53004",
+   "position": 1,
+   "surface": "De",
+   "word_id": "W069",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53004",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53004",
+   "position": 3,
+   "surface": "nära",
+   "word_id": "W1035",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53006",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53006",
+   "position": 2,
+   "surface": "tycker",
+   "word_id": "W046",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53006",
+   "position": 3,
+   "surface": "om",
+   "word_id": "W047",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53006",
+   "position": 4,
+   "surface": "tåg",
+   "word_id": "W1030",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53007",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53007",
+   "position": 2,
+   "surface": "finns",
+   "word_id": "W097",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53007",
+   "position": 3,
+   "surface": "en",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53007",
+   "position": 4,
+   "surface": "buss",
+   "word_id": "W1029",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53007",
+   "position": 5,
+   "surface": "här",
+   "word_id": "W095",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53008",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53008",
+   "position": 2,
+   "surface": "finns",
+   "word_id": "W097",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53008",
+   "position": 3,
+   "surface": "ett",
+   "word_id": "W009",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53008",
+   "position": 4,
+   "surface": "hotell",
+   "word_id": "W1027",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53008",
+   "position": 5,
+   "surface": "där",
+   "word_id": "W096",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53009",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53009",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53009",
+   "position": 3,
+   "surface": "en",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53009",
+   "position": 4,
+   "surface": "buss",
+   "word_id": "W1029",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53009",
+   "position": 5,
+   "surface": "här",
+   "word_id": "W095",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53010",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53010",
+   "position": 2,
+   "surface": "finns",
+   "word_id": "W097",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53010",
+   "position": 3,
+   "surface": "ett",
+   "word_id": "W009",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53010",
+   "position": 4,
+   "surface": "hotell",
+   "word_id": "W1027",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S53010",
+   "position": 5,
+   "surface": "här",
+   "word_id": "W095",
+   "notes": "",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [],
+ "qa_answers": []
+}

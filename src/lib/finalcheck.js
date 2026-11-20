@@ -28,7 +28,15 @@ export const EXAMS = {
   pt: { name: 'ACESSO (A1)', body: 'CAPLE, Universidade de Lisboa', official: 'https://caple.letras.ulisboa.pt',
     about: 'ACESSO is the A1 exam of CAPLE, the Portuguese certification centre of the Universidade de Lisboa.',
     note: 'ACESSO is set in European Portuguese; Brazil\'s own exam, Celpe-Bras, has no A1 level. This course teaches Brazilian Portuguese.',
-    samples: 'https://caple.letras.ulisboa.pt' },
+    samples: 'https://caple.letras.ulisboa.pt',
+    format: 'Short texts to read and a form and a short message to write; then numbers, prices and short lines to listen to; then speaking.' },
+  // Dutch (2026-11-20): no general A1 exam like DELF or Goethe exists for Dutch (CNaVT starts at A2); the A1 exam is the
+  // Basic Civic Integration Exam Abroad (Dutch government, set at A1). Exam and link for Dan to confirm.
+  nl: { name: 'Basic Civic Integration Exam Abroad (A1)', body: 'Dutch government (inburgeren.nl)', official: 'https://www.inburgeren.nl/en/civic-integration-abroad/',
+    about: 'The Basic Civic Integration Exam Abroad is the Dutch government\'s exam at A1, taken before moving to the Netherlands. It tests speaking and reading Dutch, with a separate part on Dutch society.',
+    note: 'There is no general A1 Dutch exam for everyone; the CNaVT exams start at A2. This course practises the language parts only.',
+    samples: 'https://www.inburgeren.nl/en/civic-integration-abroad/',
+    format: 'Short lines to listen to and read; a form and a short message to write; then speaking.' },
 }
 
 export const PARTS = [
@@ -76,6 +84,17 @@ FORMATS.it = [
   { id: 'writing', label: 'Writing', paper: 'Produzione di testi scritti', items: [['QT15', 4, 1], ['QT16', 5, 1], ['QT12', 4, 2]] },
   { id: 'listening', label: 'Listening', paper: "Comprensione dell'ascolto", items: [['QT17', 3, 4], ['QT04', 2, 3], ['QT11', 4, 2]] },
   { id: 'speaking', label: 'Speaking', paper: 'Produzione orale', items: [['QT13', 5, 3]] },
+]
+// Brazilian Portuguese is a mock ACESSO (A1) (Dan, 2026-11-19; at the end of Part 4, the last part). CAPLE's page for
+// the exam (caple.letras.ulisboa.pt/exame/1/acesso) lists four components in this order, the first two sat together:
+// Compreensão da Leitura (20 min, 20%), Produção e Interação Escritas (20 min, 15%: filling in a form about yourself and
+// a very short informal text), Compreensão do Oral (25 min, 35%), Produção e Interação Orais (8 to 10 min, 30%, in
+// pairs with an examiner). The weights are CAPLE's; the item counts are ours, listening given a little more for its 35%.
+FORMATS.pt = [
+  { id: 'reading', label: 'Reading', paper: 'Compreensão da Leitura', items: [['QT14', 3, 4], ['QT03', 2, 2]] },
+  { id: 'writing', label: 'Writing', paper: 'Produção e Interação Escritas', items: [['QT15', 4, 1], ['QT16', 5, 1], ['QT12', 4, 2]] },
+  { id: 'listening', label: 'Listening', paper: 'Compreensão do Oral', items: [['QT17', 3, 4], ['QT04', 2, 3], ['QT11', 4, 3]] },
+  { id: 'speaking', label: 'Speaking', paper: 'Produção e Interação Orais', items: [['QT13', 5, 3]] },
 ]
 // Speaking prompts with no sentence behind them, never graded: a model answer shows after Done.
 export const SPELL_PROMPT = {

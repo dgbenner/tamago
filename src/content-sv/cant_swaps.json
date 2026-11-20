@@ -1,0 +1,158 @@
+[
+  {
+    "setting": "cant_listen_now",
+    "type": "QT04",
+    "replaced_by": "QT03",
+    "rounds": "all",
+    "notes": "",
+    "rule": {
+      "type": "QT03",
+      "variant": null,
+      "from": 1,
+      "to": 5
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT07",
+    "replaced_by": "QT06",
+    "rounds": 2,
+    "notes": "",
+    "rule": {
+      "type": "QT06",
+      "variant": null,
+      "from": 2,
+      "to": 2
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT07",
+    "replaced_by": "QT08",
+    "rounds": "3-5",
+    "notes": "",
+    "rule": {
+      "type": "QT08",
+      "variant": null,
+      "from": 3,
+      "to": 5
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT11",
+    "replaced_by": "QT12",
+    "rounds": "4-5",
+    "notes": "",
+    "rule": {
+      "type": "QT12",
+      "variant": null,
+      "from": 4,
+      "to": 5
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT09",
+    "replaced_by": "QT09 variant V0903",
+    "rounds": "3-5",
+    "notes": "question written out",
+    "rule": {
+      "type": "QT09",
+      "variant": "V0903",
+      "from": 3,
+      "to": 5
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT10",
+    "replaced_by": "QT03",
+    "rounds": 1,
+    "notes": "",
+    "rule": {
+      "type": "QT03",
+      "variant": null,
+      "from": 1,
+      "to": 1
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT10",
+    "replaced_by": "QT06",
+    "rounds": 2,
+    "notes": "",
+    "rule": {
+      "type": "QT06",
+      "variant": null,
+      "from": 2,
+      "to": 2
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT10",
+    "replaced_by": "QT08",
+    "rounds": "3-4",
+    "notes": "",
+    "rule": {
+      "type": "QT08",
+      "variant": null,
+      "from": 3,
+      "to": 4
+    }
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT13",
+    "replaced_by": "QT12",
+    "rounds": "4-5",
+    "notes": "",
+    "rule": {
+      "type": "QT12",
+      "variant": null,
+      "from": 4,
+      "to": 5
+    }
+  },
+  {
+    "setting": "cant_speak_now",
+    "type": "QT10",
+    "replaced_by": "QT04",
+    "rounds": 1,
+    "notes": "learner can still listen",
+    "rule": {
+      "type": "QT04",
+      "variant": null,
+      "from": 1,
+      "to": 1
+    }
+  },
+  {
+    "setting": "cant_speak_now",
+    "type": "QT10",
+    "replaced_by": "QT07",
+    "rounds": "2-4",
+    "notes": "",
+    "rule": {
+      "type": "QT07",
+      "variant": null,
+      "from": 2,
+      "to": 4
+    }
+  },
+  {
+    "setting": "cant_speak_now",
+    "type": "QT13",
+    "replaced_by": "QT12",
+    "rounds": "4-5",
+    "notes": "",
+    "rule": {
+      "type": "QT12",
+      "variant": null,
+      "from": 4,
+      "to": 5
+    }
+  }
+]

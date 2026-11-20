@@ -1,0 +1,1686 @@
+{
+  "unit_id": "U84",
+  "pulled_at": "2026-11-19",
+  "candidates": 92,
+  "sentences": [
+    {
+      "sentence_id": "S84001",
+      "unit_id": "U84",
+      "french": "Primeira vez?",
+      "english": "First time?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9977319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "Is this your first time?"
+      ]
+    },
+    {
+      "sentence_id": "S84002",
+      "unit_id": "U84",
+      "french": "Você parte quando?",
+      "english": "What time will you leave?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1141571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84003",
+      "unit_id": "U84",
+      "french": "Você é taxista?",
+      "english": "Are you a taxi driver?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4968670",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84004",
+      "unit_id": "U84",
+      "french": "Posso pegar essa laranja?",
+      "english": "Can I have this orange?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1070642",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84005",
+      "unit_id": "U84",
+      "french": "Vamos pegar qual ônibus?",
+      "english": "Which bus will we take?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2911766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84006",
+      "unit_id": "U84",
+      "french": "Quem é a primeira?",
+      "english": "Who's first?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4833454",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84007",
+      "unit_id": "U84",
+      "french": "Você não é taxista?",
+      "english": "Aren't you a taxi driver?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6597155",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84008",
+      "unit_id": "U84",
+      "french": "Você vai partir amanhã?",
+      "english": "Are you leaving tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8537773",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "flaviodesousa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84009",
+      "unit_id": "U84",
+      "french": "Qual trem você vai pegar?",
+      "english": "Which train are you catching?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "770775",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "What train you are going to take?"
+      ]
+    },
+    {
+      "sentence_id": "S84010",
+      "unit_id": "U84",
+      "french": "Ela é motorista de táxi?",
+      "english": "Is she a taxi driver?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "945023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84011",
+      "unit_id": "U84",
+      "french": "O Tom não é taxista, é?",
+      "english": "Tom isn't a taxi driver, is he?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5933295",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84012",
+      "unit_id": "U84",
+      "french": "Tom vai partir cedo, não vai?",
+      "english": "Tom is going to leave early, isn't he?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8808605",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84013",
+      "unit_id": "U84",
+      "french": "Esta é a moto do Tom?",
+      "english": "Is this Tom's motorcycle?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12339857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84014",
+      "unit_id": "U84",
+      "french": "Tom não é motorista de ônibus, é?",
+      "english": "Tom isn't a bus driver, is he?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4701353",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84015",
+      "unit_id": "U84",
+      "french": "Sou seu motorista.",
+      "english": "I'm your driver.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11679962",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84016",
+      "unit_id": "U84",
+      "french": "Tenho que partir agora.",
+      "english": "I must get going.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "952392",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I have to go now.",
+        "I have to leave now.",
+        "I've got to get going."
+      ]
+    },
+    {
+      "sentence_id": "S84017",
+      "unit_id": "U84",
+      "french": "Essa é a primeira vez.",
+      "english": "This is the first time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "386071",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84018",
+      "unit_id": "U84",
+      "french": "O trem parte às nove.",
+      "english": "The train leaves at nine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "868856",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84019",
+      "unit_id": "U84",
+      "french": "Ele é um mau condutor.",
+      "english": "He is a bad driver.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1304500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84020",
+      "unit_id": "U84",
+      "french": "É legal andar de moto.",
+      "english": "It's fun to ride a motorcycle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4899760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84021",
+      "unit_id": "U84",
+      "french": "Não ando mais de moto.",
+      "english": "I don't ride my motorcycle anymore.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12294320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84022",
+      "unit_id": "U84",
+      "french": "Pego o ônibus para a escola.",
+      "english": "I take the bus to school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1394487",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84023",
+      "unit_id": "U84",
+      "french": "O trem parte às seis horas.",
+      "english": "The train leaves at six o'clock.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6056628",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sergiomelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84024",
+      "unit_id": "U84",
+      "french": "Você pode vir me pegar?",
+      "english": "Can you come pick me up?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1607857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84025",
+      "unit_id": "U84",
+      "french": "Posso pegar água para você?",
+      "english": "Can I get you some water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3709939",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84026",
+      "unit_id": "U84",
+      "french": "Nós temos que pegar o ônibus?",
+      "english": "Do we have to take the bus?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "734691",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84027",
+      "unit_id": "U84",
+      "french": "Onde eu posso pegar o ônibus?",
+      "english": "Where can I catch a bus?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "770656",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84028",
+      "unit_id": "U84",
+      "french": "Ele vai conseguir pegar o trem?",
+      "english": "Will he be able to catch the train?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1275052",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84029",
+      "unit_id": "U84",
+      "french": "Você pode me pegar na estação?",
+      "english": "Can you pick me up at the station?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1359089",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84030",
+      "unit_id": "U84",
+      "french": "Como posso pegar um ônibus aqui?",
+      "english": "How can I get a bus here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4159792",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S84001",
+      "position": 1,
+      "surface": "Primeira",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84001",
+      "position": 2,
+      "surface": "vez",
+      "word_id": "W1231",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84002",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84002",
+      "position": 2,
+      "surface": "parte",
+      "word_id": "W1649",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84002",
+      "position": 3,
+      "surface": "quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 3,
+      "surface": "taxista",
+      "word_id": "W1647",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 2,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 4,
+      "surface": "laranja",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 2,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 3,
+      "surface": "qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 4,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 4,
+      "surface": "primeira",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 4,
+      "surface": "taxista",
+      "word_id": "W1647",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 3,
+      "surface": "partir",
+      "word_id": "W1650",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 4,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 1,
+      "surface": "Qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 2,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 4,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 5,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 3,
+      "surface": "motorista",
+      "word_id": "W1646",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 5,
+      "surface": "táxi",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 5,
+      "surface": "taxista",
+      "word_id": "W1647",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 6,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 3,
+      "surface": "partir",
+      "word_id": "W1650",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 4,
+      "surface": "cedo",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 5,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 6,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 4,
+      "surface": "moto",
+      "word_id": "W1645",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 5,
+      "surface": "do",
+      "word_id": "W1498",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 4,
+      "surface": "motorista",
+      "word_id": "W1646",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 6,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 7,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 2,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 3,
+      "surface": "motorista",
+      "word_id": "W1646",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 3,
+      "surface": "partir",
+      "word_id": "W1650",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 4,
+      "surface": "agora",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 1,
+      "surface": "Essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 4,
+      "surface": "primeira",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 5,
+      "surface": "vez",
+      "word_id": "W1231",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 2,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 3,
+      "surface": "parte",
+      "word_id": "W1649",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 4,
+      "surface": "às",
+      "word_id": "W1374",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 5,
+      "surface": "nove",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 4,
+      "surface": "mau",
+      "word_id": "W1154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 5,
+      "surface": "condutor",
+      "word_id": "W1648",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 2,
+      "surface": "legal",
+      "word_id": "W1019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 3,
+      "surface": "andar",
+      "word_id": "W1454",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 5,
+      "surface": "moto",
+      "word_id": "W1645",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 2,
+      "surface": "ando",
+      "word_id": "W1453",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 3,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 5,
+      "surface": "moto",
+      "word_id": "W1645",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 1,
+      "surface": "Pego",
+      "word_id": "W1654",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 3,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 5,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 6,
+      "surface": "escola",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 2,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 3,
+      "surface": "parte",
+      "word_id": "W1649",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 4,
+      "surface": "às",
+      "word_id": "W1374",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 5,
+      "surface": "seis",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 6,
+      "surface": "horas",
+      "word_id": "W184",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 3,
+      "surface": "vir",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 4,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 5,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84025",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84025",
+      "position": 2,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84025",
+      "position": 3,
+      "surface": "água",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84025",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84025",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84026",
+      "position": 1,
+      "surface": "Nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84026",
+      "position": 2,
+      "surface": "temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84026",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84026",
+      "position": 4,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84026",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84026",
+      "position": 6,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84027",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84027",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84027",
+      "position": 3,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84027",
+      "position": 4,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84027",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84027",
+      "position": 6,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84028",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84028",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84028",
+      "position": 3,
+      "surface": "conseguir",
+      "word_id": "W1445",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84028",
+      "position": 4,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84028",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84028",
+      "position": 6,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84029",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84029",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84029",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84029",
+      "position": 4,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84029",
+      "position": 5,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84029",
+      "position": 6,
+      "surface": "estação",
+      "word_id": "W1038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84030",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84030",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84030",
+      "position": 3,
+      "surface": "pegar",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84030",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84030",
+      "position": 5,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84030",
+      "position": 6,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A840011",
+      "sentence_id": "S84001",
+      "direction": "fr_to_en",
+      "answer": "Is this your first time?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A840091",
+      "sentence_id": "S84009",
+      "direction": "fr_to_en",
+      "answer": "What train you are going to take?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A840161",
+      "sentence_id": "S84016",
+      "direction": "fr_to_en",
+      "answer": "I have to go now.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A840162",
+      "sentence_id": "S84016",
+      "direction": "fr_to_en",
+      "answer": "I have to leave now.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A840163",
+      "sentence_id": "S84016",
+      "direction": "fr_to_en",
+      "answer": "I've got to get going.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

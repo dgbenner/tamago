@@ -13,6 +13,8 @@ import partsEs from '../content-es/parts.json'
 import partsDe from '../content-de/parts.json'
 import partsIt from '../content-it/parts.json'
 import partsPt from '../content-pt/parts.json'
+import partsNl from '../content-nl/parts.json'
+import partsSv from '../content-sv/parts.json'
 
 // The Developer area (Dan, 2026-11-10): everything for building and testing Tamago, out of Settings and away from the
 // learning tools. Testing controls first, then one large accordion per document: Course Snapshot (built from the
@@ -43,7 +45,7 @@ function Accordion({ title, onOpen, children }) {
   )
 }
 
-// Course Snapshot: the courses side by side, French, Spanish, German, Italian and Portuguese, from each one's shipped tables. The course not
+// Course Snapshot: the courses side by side, French, Spanish, German, Italian, Portuguese and Dutch, from each one's shipped tables. The course not
 // running is loaded only when the accordion opens.
 function CourseSnapshot({ snapshot }) {
   const [rows, setRows] = useState(null)
@@ -52,20 +54,20 @@ function CourseSnapshot({ snapshot }) {
     // Each course's lesson log on this device, for the hours estimate: the running course from its own store, the
     // other only if its database already exists here.
     const logOf = (id, db) => (running.id === id ? getAll('lessons') : lessonLogFor(db))
-    Promise.all([import('../lib/tables-fr.js'), import('../lib/tables-es.js'), import('../lib/tables-de.js'), import('../lib/tables-it.js'), import('../lib/tables-pt.js'), logOf('fr', 'tamago'), logOf('es', 'tamago-es'), logOf('de', 'tamago-de'), logOf('it', 'tamago-it'), logOf('pt', 'tamago-pt')]).then(([fr, es, de, it, pt, frLog, esLog, deLog, itLog, ptLog]) => {
-      const a = snapshotRows(fr.tables, 'French', { lessonLog: frLog }); const b = snapshotRows(es.tables, 'Spanish', { lessonLog: esLog }); const c = snapshotRows(de.tables, 'German', { lessonLog: deLog }); const d = snapshotRows(it.tables, 'Italian', { lessonLog: itLog }); const e = snapshotRows(pt.tables, 'Portuguese', { lessonLog: ptLog })
-      setRows(a.map(([label, v], i) => [label, v, b[i][1], c[i][1], d[i][1]]))
+    Promise.all([import('../lib/tables-fr.js'), import('../lib/tables-es.js'), import('../lib/tables-de.js'), import('../lib/tables-it.js'), import('../lib/tables-pt.js'), import('../lib/tables-nl.js'), import('../lib/tables-sv.js'), logOf('fr', 'tamago'), logOf('es', 'tamago-es'), logOf('de', 'tamago-de'), logOf('it', 'tamago-it'), logOf('pt', 'tamago-pt'), logOf('nl', 'tamago-nl'), logOf('sv', 'tamago-sv')]).then(([fr, es, de, it, pt, nl, sv, frLog, esLog, deLog, itLog, ptLog, nlLog, svLog]) => {
+      const a = snapshotRows(fr.tables, 'French', { lessonLog: frLog }); const b = snapshotRows(es.tables, 'Spanish', { lessonLog: esLog }); const c = snapshotRows(de.tables, 'German', { lessonLog: deLog }); const d = snapshotRows(it.tables, 'Italian', { lessonLog: itLog }); const e = snapshotRows(pt.tables, 'Portuguese', { lessonLog: ptLog }); const f = snapshotRows(nl.tables, 'Dutch', { lessonLog: nlLog }); const g = snapshotRows(sv.tables, 'Swedish', { lessonLog: svLog })
+      setRows(a.map(([label, v], i) => [label, v, b[i][1], c[i][1], d[i][1], e[i][1], f[i][1], g[i][1]]))
     })
   }
   return (
     <Accordion title="Course Snapshot" onOpen={load}>
-      <p className="mb-3 text-sm text-muted">This version, built {snapshot.built}. Workbooks: French {snapshot.workbooks.fr}, Spanish {snapshot.workbooks.es}, German {snapshot.workbooks.de}, Italian {snapshot.workbooks.it}, Portuguese {snapshot.workbooks.pt}.</p>
+      <p className="mb-3 text-sm text-muted">This version, built {snapshot.built}. Workbooks: French {snapshot.workbooks.fr}, Spanish {snapshot.workbooks.es}, German {snapshot.workbooks.de}, Italian {snapshot.workbooks.it}, Portuguese {snapshot.workbooks.pt}, Dutch {snapshot.workbooks.nl}, Swedish {snapshot.workbooks.sv}.</p>
       {!rows ? <p>Loading…</p> : (
         <div className="doc"><div className="doc-table" tabIndex={0} role="region" aria-label="Course Snapshot">
           <table>
-            <thead><tr><th scope="col"></th><th scope="col">French</th><th scope="col">Spanish</th><th scope="col">German</th><th scope="col">Italian</th><th scope="col">Portuguese</th></tr></thead>
+            <thead><tr><th scope="col"></th><th scope="col">French</th><th scope="col">Spanish</th><th scope="col">German</th><th scope="col">Italian</th><th scope="col">Portuguese</th><th scope="col">Dutch</th><th scope="col">Swedish</th></tr></thead>
             <tbody>
-              {rows.map(([label, fr, es, de, it, pt]) => <tr key={label}><th scope="row">{label}</th><td>{fr}</td><td>{es}</td><td>{de}</td><td>{it}</td><td>{pt}</td></tr>)}
+              {rows.map(([label, fr, es, de, it, pt, nl, sv]) => <tr key={label}><th scope="row">{label}</th><td>{fr}</td><td>{es}</td><td>{de}</td><td>{it}</td><td>{pt}</td><td>{nl}</td><td>{sv}</td></tr>)}
             </tbody>
           </table>
         </div></div>
@@ -131,7 +133,7 @@ const TITLES = [['model-story', 'Model Story'], ['craft-review', 'Craft Rubric']
 // Jump to Part (Dan, 2026-11-11): for each language, a button per part that marks every circle in the earlier parts
 // as round 1 complete and opens that part, as Dev: Jump Here does on the tree. Another language opens first (a
 // reload), then jumps. A part with no circles yet can't be jumped to.
-const PARTS = { fr: partsFr, es: partsEs, de: partsDe, it: partsIt, pt: partsPt }
+const PARTS = { fr: partsFr, es: partsEs, de: partsDe, it: partsIt, pt: partsPt, nl: partsNl, sv: partsSv }
 function JumpToPart({ onJumpPart }) {
   return (
     <div className="flex flex-col gap-3">

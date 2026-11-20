@@ -1,0 +1,947 @@
+{
+  "unit_id": "U01",
+  "pulled_at": "2026-11-19",
+  "candidates": 20,
+  "sentences": [
+    {
+      "sentence_id": "S1001",
+      "unit_id": "U01",
+      "french": "Ik ben een man.",
+      "english": "I'm a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "538177",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "I am a man."
+      ]
+    },
+    {
+      "sentence_id": "S1002",
+      "unit_id": "U01",
+      "french": "Ik ben een vrouw.",
+      "english": "I'm a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "821176",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "simonbr",
+      "other_english": [
+        "I am a woman."
+      ]
+    },
+    {
+      "sentence_id": "S1003",
+      "unit_id": "U01",
+      "french": "Jij bent een man.",
+      "english": "You're a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6813065",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1004",
+      "unit_id": "U01",
+      "french": "Ja en nee.",
+      "english": "Yes and no.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1021600",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1005",
+      "unit_id": "U01",
+      "french": "Je bent een vrouw.",
+      "english": "You're a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7764472",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "LinguisticFusion",
+      "other_english": [
+        "You are a woman."
+      ]
+    },
+    {
+      "sentence_id": "S1006",
+      "unit_id": "U01",
+      "french": "Ja, ik ben Anna.",
+      "english": "Yes, I am Anna.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7838456",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "RobinvanderVliet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1007",
+      "unit_id": "U01",
+      "french": "Je bent een kind.",
+      "english": "You're a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8999366",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nylez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1008",
+      "unit_id": "U01",
+      "french": "Maria is een vrouw.",
+      "english": "Mary is a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8934313",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1009",
+      "unit_id": "U01",
+      "french": "En jij?",
+      "english": "And you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7526133",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "How about you?"
+      ]
+    },
+    {
+      "sentence_id": "S1010",
+      "unit_id": "U01",
+      "french": "Nee, Tom.",
+      "english": "No, Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13001228",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1011",
+      "unit_id": "U01",
+      "french": "Ben jij Tom?",
+      "english": "Are you Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7255679",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1012",
+      "unit_id": "U01",
+      "french": "Ik ben een jongen.",
+      "english": "I'm a boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "949375",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": [
+        "I am a boy."
+      ]
+    },
+    {
+      "sentence_id": "S1013",
+      "unit_id": "U01",
+      "french": "Ik ben een kind.",
+      "english": "I'm a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6813147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "I am a child."
+      ]
+    },
+    {
+      "sentence_id": "S1014",
+      "unit_id": "U01",
+      "french": "Hallo, ik ben Tom.",
+      "english": "Hello, I'm Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9776131",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": [
+        "Hi, I'm Tom.",
+        "Hello, Tom speaking."
+      ]
+    },
+    {
+      "sentence_id": "S1015",
+      "unit_id": "U01",
+      "french": "Hoi, ik ben Tom.",
+      "english": "Hello, I'm Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9776132",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": [
+        "Hi, I'm Tom."
+      ]
+    },
+    {
+      "sentence_id": "S1016",
+      "unit_id": "U01",
+      "french": "Ja. Ik ben Tom.",
+      "english": "Yes. I am Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10014884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1017",
+      "unit_id": "U01",
+      "french": "Hallo, Maria.",
+      "english": "Hello, Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7487787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1018",
+      "unit_id": "U01",
+      "french": "Hallo, Tom!",
+      "english": "Hello, Tom!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7499616",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1019",
+      "unit_id": "U01",
+      "french": "Hoi, Maria.",
+      "english": "Hello, Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7524460",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1020",
+      "unit_id": "U01",
+      "french": "Ik ben Tom.",
+      "english": "I'm Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3274140",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": [
+        "I am Tom."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S1001",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 4,
+      "surface": "man",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 4,
+      "surface": "vrouw",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 1,
+      "surface": "Jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 2,
+      "surface": "bent",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 4,
+      "surface": "man",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 3,
+      "surface": "nee",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 2,
+      "surface": "bent",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 4,
+      "surface": "vrouw",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 2,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 3,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 4,
+      "surface": "Anna",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 2,
+      "surface": "bent",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 4,
+      "surface": "kind",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 1,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 4,
+      "surface": "vrouw",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 2,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 1,
+      "surface": "Nee",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 2,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 4,
+      "surface": "jongen",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 4,
+      "surface": "kind",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 1,
+      "surface": "Hallo",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 2,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 3,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 1,
+      "surface": "Hoi",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 2,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 3,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 2,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 3,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1017",
+      "position": 1,
+      "surface": "Hallo",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1017",
+      "position": 2,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1018",
+      "position": 1,
+      "surface": "Hallo",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1018",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 1,
+      "surface": "Hoi",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 2,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A10011",
+      "sentence_id": "S1001",
+      "direction": "fr_to_en",
+      "answer": "I am a man.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10021",
+      "sentence_id": "S1002",
+      "direction": "fr_to_en",
+      "answer": "I am a woman.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10051",
+      "sentence_id": "S1005",
+      "direction": "fr_to_en",
+      "answer": "You are a woman.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10091",
+      "sentence_id": "S1009",
+      "direction": "fr_to_en",
+      "answer": "How about you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10121",
+      "sentence_id": "S1012",
+      "direction": "fr_to_en",
+      "answer": "I am a boy.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10131",
+      "sentence_id": "S1013",
+      "direction": "fr_to_en",
+      "answer": "I am a child.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10141",
+      "sentence_id": "S1014",
+      "direction": "fr_to_en",
+      "answer": "Hi, I'm Tom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10142",
+      "sentence_id": "S1014",
+      "direction": "fr_to_en",
+      "answer": "Hello, Tom speaking.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10151",
+      "sentence_id": "S1015",
+      "direction": "fr_to_en",
+      "answer": "Hi, I'm Tom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10201",
+      "sentence_id": "S1020",
+      "direction": "fr_to_en",
+      "answer": "I am Tom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,0 +1,111 @@
+{
+ "U01": {
+  "reject": {
+   "5330162": "repeated word (Hej hej) and loose gloss (Bye)"
+  }
+ },
+ "U02": {
+  "reject": {
+   "2261331": "adjective tom reads as the name Tom; misleading"
+  }
+ },
+ "U06": {
+  "reject": {
+   "3869687": "“You’re not dogs” is odd; ni has plenty of plain lines",
+   "4317219": "idiom and repeated words (Vi är de vi är)"
+  }
+ },
+ "U08": {
+  "reject": {
+   "912732": "finns as exist, not the taught det finns = there is",
+   "2235447": "finns as exist, not the taught there is",
+   "2235448": "finns as exist, not the taught there is",
+   "5007413": "idiomatic and incomplete (Tom är inte på)",
+   "10710763": "finns as exist, not the taught there is"
+  }
+ },
+ "U15": {
+  "reject": {
+   "2015047": "till as “for”",
+   "2022947": "till as “for”",
+   "2097931": "past var + i går",
+   "2097932": "past var + i går",
+   "2205974": "idiom (Hur står det till); muddies står = stands/is located",
+   "2389834": "om as “in (time)”",
+   "3711776": "går as “is OK”",
+   "3711777": "går as “is OK”",
+   "4170143": "past var + i går",
+   "4328558": "om as “if”",
+   "12220405": "till as “another”",
+   "12249343": "till as “of”"
+  }
+ },
+ "U33": {
+  "reject": {
+   "487168": "slang English (Dunno)",
+   "2098278": "indirect-question order, past A1 Part 1",
+   "3874322": "idiom (ligga efter); muddies efter = after",
+   "11852283": "indirect-question order, past A1 Part 1"
+  }
+ },
+ "U52": {
+  "reject": {
+   "4839744": "repeated word (Titta, titta)"
+  }
+ },
+ "U53": {
+  "reject": {
+   "2738153": "idiom (that was a close call); keep nära literal",
+   "3747481": "ligger på sjukhus idiom"
+  }
+ },
+ "U04": {
+  "reject": {
+   "4327977": "“Do you drink?” means alcohol",
+   "8742124": "god on a person reads oddly; 8742126 covers it"
+  }
+ },
+ "U05": {
+  "reject": {
+   "11562970": "“I’m a fish” is a nonsense line"
+  }
+ },
+ "U07": {
+  "reject": {
+   "11188786": "“I don’t drink much” means alcohol"
+  }
+ },
+ "U09": {
+  "reject": {
+   "2022408": "“Tom likes it hot” is odd and ambiguous"
+  }
+ },
+ "U11": {
+  "reject": {
+   "1131156": "past tense var",
+   "1587330": "past tense var",
+   "1998350": "past tense var",
+   "3840620": "past tense var",
+   "4423933": "past tense var",
+   "4446570": "past tense var",
+   "4446713": "tycker alone = think",
+   "4446736": "tycker alone = think"
+  }
+ },
+ "U13": {
+  "reject": {
+   "3710525": "past tense var",
+   "3710526": "past tense var",
+   "10710890": "about a person’s race",
+   "12096990": "about a person’s race"
+  }
+ },
+ "U14": {
+  "reject": {
+   "1936173": "past tense var",
+   "1988739": "past tense var",
+   "4344169": "past tense var",
+   "6080457": "past tense var"
+  }
+ }
+}

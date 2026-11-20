@@ -1,0 +1,433 @@
+{
+ "unit_id": "U01",
+ "pulled_at": "2026-11-20",
+ "candidates": 9,
+ "sentences": [
+  {
+   "sentence_id": "S1001",
+   "unit_id": "U01",
+   "french": "Du är inte en pojke.",
+   "english": "You're not a boy.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3011695",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "ajje",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S1002",
+   "unit_id": "U01",
+   "french": "Du är inte en flicka.",
+   "english": "You aren't a girl.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3011696",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "ajje",
+   "other_english": [
+    "You're not a girl."
+   ]
+  },
+  {
+   "sentence_id": "S1003",
+   "unit_id": "U01",
+   "french": "Du är ett barn.",
+   "english": "You are a child.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10687054",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S1004",
+   "unit_id": "U01",
+   "french": "Jag är kvinna.",
+   "english": "I'm a woman.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1074252",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "ellasevia",
+   "other_english": [
+    "I am a woman."
+   ]
+  },
+  {
+   "sentence_id": "S1005",
+   "unit_id": "U01",
+   "french": "Jag är.",
+   "english": "I am.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2086326",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "freddy1",
+   "other_english": [
+    "I am!"
+   ]
+  },
+  {
+   "sentence_id": "S1006",
+   "unit_id": "U01",
+   "french": "Är inte du Tom?",
+   "english": "Aren't you Tom?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2009015",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ribon",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S1007",
+   "unit_id": "U01",
+   "french": "Jag är Tom.",
+   "english": "I'm Tom.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3344400",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Ricardo14",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S1008",
+   "unit_id": "U01",
+   "french": "Hej, Tom!",
+   "english": "Hello, Tom!",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1959732",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "herrsilen",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S1009",
+   "unit_id": "U01",
+   "french": "Du är inte Tom.",
+   "english": "You're not Tom.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10710929",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Pineapple",
+   "other_english": []
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S1001",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1001",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1001",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1001",
+   "position": 4,
+   "surface": "en",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1001",
+   "position": 5,
+   "surface": "pojke",
+   "word_id": "W012",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1002",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1002",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1002",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1002",
+   "position": 4,
+   "surface": "en",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1002",
+   "position": 5,
+   "surface": "flicka",
+   "word_id": "W013",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1003",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1003",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1003",
+   "position": 3,
+   "surface": "ett",
+   "word_id": "W009",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1003",
+   "position": 4,
+   "surface": "barn",
+   "word_id": "W014",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1004",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1004",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1004",
+   "position": 3,
+   "surface": "kvinna",
+   "word_id": "W011",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1005",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1005",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1006",
+   "position": 1,
+   "surface": "Är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1006",
+   "position": 2,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1006",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1006",
+   "position": 4,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1007",
+   "position": 1,
+   "surface": "Jag",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1007",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1007",
+   "position": 3,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1008",
+   "position": 1,
+   "surface": "Hej",
+   "word_id": "W001",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1008",
+   "position": 2,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1009",
+   "position": 1,
+   "surface": "Du",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1009",
+   "position": 2,
+   "surface": "är",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1009",
+   "position": 3,
+   "surface": "inte",
+   "word_id": "W016",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S1009",
+   "position": 4,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [
+  {
+   "answer_id": "A10021",
+   "sentence_id": "S1002",
+   "direction": "fr_to_en",
+   "answer": "You're not a girl.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A10041",
+   "sentence_id": "S1004",
+   "direction": "fr_to_en",
+   "answer": "I am a woman.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A10051",
+   "sentence_id": "S1005",
+   "direction": "fr_to_en",
+   "answer": "I am!",
+   "source": "tatoeba",
+   "status": "pulled"
+  }
+ ],
+ "qa_answers": []
+}
