@@ -1,0 +1,1412 @@
+{
+  "unit_id": "U09",
+  "pulled_at": "2026-11-19",
+  "candidates": 74,
+  "sentences": [
+    {
+      "sentence_id": "S9001",
+      "unit_id": "U09",
+      "french": "Is het koud?",
+      "english": "Is it cold?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7680528",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9002",
+      "unit_id": "U09",
+      "french": "Zijn jullie blij?",
+      "english": "Are you happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7717635",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9003",
+      "unit_id": "U09",
+      "french": "Zijn ze blij?",
+      "english": "Are they happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8704148",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9004",
+      "unit_id": "U09",
+      "french": "Is het water koud?",
+      "english": "Is the water cold?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5174313",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "RobinvanderVliet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9005",
+      "unit_id": "U09",
+      "french": "Is dat water warm?",
+      "english": "Is that water warm?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6196771",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Piet_c",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9006",
+      "unit_id": "U09",
+      "french": "Is er warm water?",
+      "english": "Is there hot water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7489262",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9007",
+      "unit_id": "U09",
+      "french": "Ik ben moe.",
+      "english": "I'm tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "384938",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "I am tired.",
+        "I'm sleepy!"
+      ]
+    },
+    {
+      "sentence_id": "S9008",
+      "unit_id": "U09",
+      "french": "Tom is moe.",
+      "english": "Tom's tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3745926",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": [
+        "Tom is tired."
+      ]
+    },
+    {
+      "sentence_id": "S9009",
+      "unit_id": "U09",
+      "french": "Heb je het koud?",
+      "english": "Are you cold?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7680511",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9010",
+      "unit_id": "U09",
+      "french": "Tom is warm.",
+      "english": "Tom is warm.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4509263",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9011",
+      "unit_id": "U09",
+      "french": "Ben je ziek?",
+      "english": "Are you sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4764939",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": [
+        "Are you ill?"
+      ]
+    },
+    {
+      "sentence_id": "S9012",
+      "unit_id": "U09",
+      "french": "Is Tom ziek?",
+      "english": "Is Tom sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7897982",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "Is Tom ill?"
+      ]
+    },
+    {
+      "sentence_id": "S9013",
+      "unit_id": "U09",
+      "french": "Ben je boos?",
+      "english": "Are you angry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8228601",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "meshbags",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9014",
+      "unit_id": "U09",
+      "french": "Is Tom boos?",
+      "english": "Is Tom mad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8700864",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ag12x",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9015",
+      "unit_id": "U09",
+      "french": "Zijn jullie boos?",
+      "english": "Are you angry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11101262",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": [
+        "Are you guys angry?"
+      ]
+    },
+    {
+      "sentence_id": "S9016",
+      "unit_id": "U09",
+      "french": "Hoe ziek is Tom?",
+      "english": "How sick is Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7327366",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9017",
+      "unit_id": "U09",
+      "french": "Ben je bang van honden?",
+      "english": "Are you scared of dogs?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9714420",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9018",
+      "unit_id": "U09",
+      "french": "Ik ben bang.",
+      "english": "I'm afraid.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3507223",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": [
+        "I'm scared.",
+        "I am afraid."
+      ]
+    },
+    {
+      "sentence_id": "S9019",
+      "unit_id": "U09",
+      "french": "Wij zijn bang.",
+      "english": "We are scared.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4329865",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9020",
+      "unit_id": "U09",
+      "french": "Je bent verdrietig.",
+      "english": "You're sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6065637",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mandalay",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9021",
+      "unit_id": "U09",
+      "french": "Ik ben blij.",
+      "english": "I'm happy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7556282",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "I am happy."
+      ]
+    },
+    {
+      "sentence_id": "S9022",
+      "unit_id": "U09",
+      "french": "Tom is verdrietig.",
+      "english": "Tom's sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7902677",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9023",
+      "unit_id": "U09",
+      "french": "Ze zijn verdrietig.",
+      "english": "They are sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7910542",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9024",
+      "unit_id": "U09",
+      "french": "Ze zijn moe.",
+      "english": "They're tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8661523",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "They are tired."
+      ]
+    },
+    {
+      "sentence_id": "S9025",
+      "unit_id": "U09",
+      "french": "Hebben jullie het koud?",
+      "english": "Are you cold?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7680513",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9026",
+      "unit_id": "U09",
+      "french": "Ben ik ziek dokter?",
+      "english": "Am I sick, Doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8157264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9027",
+      "unit_id": "U09",
+      "french": "Is je kamer koud?",
+      "english": "Is your room cold?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10639366",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rose_d",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9028",
+      "unit_id": "U09",
+      "french": "Ben je boos op Tom?",
+      "english": "Are you angry with Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1496475",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": [
+        "Are you angry at Tom?"
+      ]
+    },
+    {
+      "sentence_id": "S9029",
+      "unit_id": "U09",
+      "french": "Zijn jullie boos op Tom?",
+      "english": "Are you mad at Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4622537",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9030",
+      "unit_id": "U09",
+      "french": "Hij is ziek.",
+      "english": "He is sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "387592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "He is ill."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S9001",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 3,
+      "surface": "koud",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 3,
+      "surface": "blij",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 2,
+      "surface": "ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 3,
+      "surface": "blij",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 3,
+      "surface": "water",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 4,
+      "surface": "koud",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 3,
+      "surface": "water",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 4,
+      "surface": "warm",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 3,
+      "surface": "warm",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 4,
+      "surface": "water",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 3,
+      "surface": "moe",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 3,
+      "surface": "moe",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 1,
+      "surface": "Heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 4,
+      "surface": "koud",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 3,
+      "surface": "warm",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 3,
+      "surface": "ziek",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 3,
+      "surface": "ziek",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 3,
+      "surface": "boos",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 3,
+      "surface": "boos",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 3,
+      "surface": "boos",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 2,
+      "surface": "ziek",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 3,
+      "surface": "bang",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 4,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 5,
+      "surface": "honden",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 3,
+      "surface": "bang",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 1,
+      "surface": "Wij",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 3,
+      "surface": "bang",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 2,
+      "surface": "bent",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 3,
+      "surface": "verdrietig",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 3,
+      "surface": "blij",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 3,
+      "surface": "verdrietig",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 3,
+      "surface": "verdrietig",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 3,
+      "surface": "moe",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 1,
+      "surface": "Hebben",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 4,
+      "surface": "koud",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 2,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 3,
+      "surface": "ziek",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 4,
+      "surface": "dokter",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 3,
+      "surface": "kamer",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 4,
+      "surface": "koud",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 3,
+      "surface": "boos",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 4,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 3,
+      "surface": "boos",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 4,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 3,
+      "surface": "ziek",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A90071",
+      "sentence_id": "S9007",
+      "direction": "fr_to_en",
+      "answer": "I am tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90072",
+      "sentence_id": "S9007",
+      "direction": "fr_to_en",
+      "answer": "I'm sleepy!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90081",
+      "sentence_id": "S9008",
+      "direction": "fr_to_en",
+      "answer": "Tom is tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90111",
+      "sentence_id": "S9011",
+      "direction": "fr_to_en",
+      "answer": "Are you ill?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90121",
+      "sentence_id": "S9012",
+      "direction": "fr_to_en",
+      "answer": "Is Tom ill?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90151",
+      "sentence_id": "S9015",
+      "direction": "fr_to_en",
+      "answer": "Are you guys angry?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90181",
+      "sentence_id": "S9018",
+      "direction": "fr_to_en",
+      "answer": "I'm scared.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90182",
+      "sentence_id": "S9018",
+      "direction": "fr_to_en",
+      "answer": "I am afraid.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90211",
+      "sentence_id": "S9021",
+      "direction": "fr_to_en",
+      "answer": "I am happy.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90241",
+      "sentence_id": "S9024",
+      "direction": "fr_to_en",
+      "answer": "They are tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90281",
+      "sentence_id": "S9028",
+      "direction": "fr_to_en",
+      "answer": "Are you angry at Tom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90301",
+      "sentence_id": "S9030",
+      "direction": "fr_to_en",
+      "answer": "He is ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

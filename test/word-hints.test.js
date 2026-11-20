@@ -24,7 +24,7 @@ test('a course word keeps its own hint, never the verb\'s', () => {
 })
 
 test('every course gets verb-form hints, and the Glossary finds a verb by any form', () => {
-  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt']) {
+  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl']) {
     const t = load(dir)
     assert.ok(verbFormHints(t.words, t.conjugations).size > 10, dir)
   }

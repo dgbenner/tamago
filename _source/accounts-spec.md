@@ -162,7 +162,7 @@ create table public.profiles (
 );
 create table public.progress (
   user_id uuid not null references auth.users(id) on delete cascade,
-  course text not null check (course in ('fr', 'es', 'de', 'it', 'pt')),
+  course text not null check (course in ('fr', 'es', 'de', 'it', 'pt', 'nl')),
   snapshot jsonb not null,
   summary jsonb not null default '{}',
   saved_at timestamptz not null default now(),

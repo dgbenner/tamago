@@ -21,7 +21,7 @@ test('unknown words stay plain text, and new words are only course words not yet
   assert.ok(found.every((w) => tables.words.includes(w)))
 })
 test('every scene key word is a course word, in every course', async () => {
-  for (const [lang, dir] of [['fr', 'src/content'], ['es', 'src/content-es'], ['de', 'src/content-de'], ['it', 'src/content-it'], ['pt', 'src/content-pt']]) {
+  for (const [lang, dir] of [['fr', 'src/content'], ['es', 'src/content-es'], ['de', 'src/content-de'], ['it', 'src/content-it'], ['pt', 'src/content-pt'], ['nl', 'src/content-nl']]) {
     const t = load(dir)
     for (const s of SCENES[lang]) for (const k of s.keys) assert.ok(t.words.some((w) => w.form === k), `${lang} ${s.id}: ${k}`)
     assert.equal(HELP_PHRASES[lang].length, 6)
@@ -32,7 +32,7 @@ test('every scene key word is a course word, in every course', async () => {
 import { TALK_HELP, TASK_SCENES, helpRow, sceneFit, EXCHANGES, DAILY_CAP, talksLeft, countTalk, answerTimes } from '../src/lib/converse.js'
 import { paceNote, monthlyLimit } from '../server/converse.mjs'
 
-const COURSE_DIRS = [['fr', 'src/content'], ['es', 'src/content-es'], ['de', 'src/content-de'], ['it', 'src/content-it'], ['pt', 'src/content-pt']]
+const COURSE_DIRS = [['fr', 'src/content'], ['es', 'src/content-es'], ['de', 'src/content-de'], ['it', 'src/content-it'], ['pt', 'src/content-pt'], ['nl', 'src/content-nl']]
 test('v2: the four help phrases, one tap away and first in the row, in every course', () => {
   for (const [lang] of COURSE_DIRS) {
     assert.deepEqual(TALK_HELP[lang].map((h) => h.help), ['repeat', 'slower', 'spell', 'meaning'])
@@ -52,7 +52,7 @@ test('v2: five A1 task scenes per course; Italian and Portuguese fit what they h
     assert.ok(nobody.every((f) => !f.fits), `${lang}: nothing fits before any word is met`)
     const all = new Set(t.words.map((w) => w.word_id))
     const everyone = TASK_SCENES[lang].map((s) => sceneFit(s, t.words, all))
-    assert.ok(everyone.filter((f) => f.fits).length >= (lang === 'it' || lang === 'pt' ? 1 : 4), `${lang}: ${everyone.map((f) => f.have).join(',')}`)
+    assert.ok(everyone.filter((f) => f.fits).length >= (lang === 'it' || lang === 'pt' || lang === 'nl' ? 1 : 4), `${lang}: ${everyone.map((f) => f.have).join(',')}`)
   }
 })
 test('v2: 6 to 8 exchanges; the server is told to wrap up from 6 and close at 8', () => {

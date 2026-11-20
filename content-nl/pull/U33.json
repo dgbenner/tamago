@@ -1,0 +1,1405 @@
+{
+  "unit_id": "U33",
+  "pulled_at": "2026-11-19",
+  "candidates": 46,
+  "sentences": [
+    {
+      "sentence_id": "S33001",
+      "unit_id": "U33",
+      "french": "Het water is te heet.",
+      "english": "The water is too hot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8229183",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "meshbags",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33002",
+      "unit_id": "U33",
+      "french": "Hoe heet hij?",
+      "english": "What's his name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "378740",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "What is his name?"
+      ]
+    },
+    {
+      "sentence_id": "S33003",
+      "unit_id": "U33",
+      "french": "Hoe heet je?",
+      "english": "What's your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "406591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "What is your name?"
+      ]
+    },
+    {
+      "sentence_id": "S33004",
+      "unit_id": "U33",
+      "french": "Is dat te klein?",
+      "english": "Is that too little?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7855737",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "Is it too small?"
+      ]
+    },
+    {
+      "sentence_id": "S33005",
+      "unit_id": "U33",
+      "french": "Praat ik te veel?",
+      "english": "Do I talk too much?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13329387",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33006",
+      "unit_id": "U33",
+      "french": "Zoek jij dit woord?",
+      "english": "Are you looking for this word?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13497026",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tom9358",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33007",
+      "unit_id": "U33",
+      "french": "Zoek op.",
+      "english": "Look up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8002196",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33008",
+      "unit_id": "U33",
+      "french": "Ik zoek.",
+      "english": "I'm looking.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10849406",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33009",
+      "unit_id": "U33",
+      "french": "Zingen is zijn ding.",
+      "english": "Singing is his thing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6622978",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33010",
+      "unit_id": "U33",
+      "french": "Daar ben ik blij om.",
+      "english": "I'm happy about that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4979907",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33011",
+      "unit_id": "U33",
+      "french": "Hoe heet dit?",
+      "english": "What's this called?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6623001",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": [
+        "What is this called?",
+        "What do you call this?"
+      ]
+    },
+    {
+      "sentence_id": "S33012",
+      "unit_id": "U33",
+      "french": "Heet jij Tom?",
+      "english": "Is your name Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7314949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33013",
+      "unit_id": "U33",
+      "french": "Is het heet?",
+      "english": "Is it hot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7814702",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33014",
+      "unit_id": "U33",
+      "french": "Heeft Tom het heet?",
+      "english": "Is Tom hot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5965851",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33015",
+      "unit_id": "U33",
+      "french": "Hallo, hoe heet je?",
+      "english": "Hello, what's your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6814911",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33016",
+      "unit_id": "U33",
+      "french": "Pardon. Hoe heet je?",
+      "english": "Sorry, what's your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9512818",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nylez",
+      "other_english": [
+        "Excuse me. What's your name?"
+      ]
+    },
+    {
+      "sentence_id": "S33017",
+      "unit_id": "U33",
+      "french": "Hoe heet je hond?",
+      "english": "What do you call your dog?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12088713",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Slam4",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33018",
+      "unit_id": "U33",
+      "french": "Hoe heet het paard?",
+      "english": "What's the horse's name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12997738",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33019",
+      "unit_id": "U33",
+      "french": "Ik ben Tom. Hoe heet jij?",
+      "english": "I'm Tom. What's your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9766226",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33020",
+      "unit_id": "U33",
+      "french": "Te veel.",
+      "english": "Too much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10252849",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "spruit",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33021",
+      "unit_id": "U33",
+      "french": "Tom is heet.",
+      "english": "Tom is hot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4509264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33022",
+      "unit_id": "U33",
+      "french": "Zoek de vrouw!",
+      "english": "Look for the woman!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4754476",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33023",
+      "unit_id": "U33",
+      "french": "Ik heet Tom.",
+      "english": "My name's Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4979988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": [
+        "My name is Tom."
+      ]
+    },
+    {
+      "sentence_id": "S33024",
+      "unit_id": "U33",
+      "french": "Hij heet Tom.",
+      "english": "His name's Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8466622",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "His name is Tom."
+      ]
+    },
+    {
+      "sentence_id": "S33025",
+      "unit_id": "U33",
+      "french": "Ik heet Maria.",
+      "english": "My name is Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9827361",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33026",
+      "unit_id": "U33",
+      "french": "We hebben het heet.",
+      "english": "We're hot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "560812",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33027",
+      "unit_id": "U33",
+      "french": "Dit is te groot.",
+      "english": "This is too big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "775290",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33028",
+      "unit_id": "U33",
+      "french": "De thee is heet.",
+      "english": "The tea is hot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "940584",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33029",
+      "unit_id": "U33",
+      "french": "Ik ben te klein.",
+      "english": "I am too short.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3042848",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33030",
+      "unit_id": "U33",
+      "french": "Ze zijn te groot.",
+      "english": "They're too big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4677067",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S33001",
+      "position": 1,
+      "surface": "Het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 2,
+      "surface": "water",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 4,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 5,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 3,
+      "surface": "hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33003",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33003",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33003",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33004",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33004",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33004",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33004",
+      "position": 4,
+      "surface": "klein",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33005",
+      "position": 1,
+      "surface": "Praat",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33005",
+      "position": 2,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33005",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33005",
+      "position": 4,
+      "surface": "veel",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33006",
+      "position": 1,
+      "surface": "Zoek",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33006",
+      "position": 2,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33006",
+      "position": 3,
+      "surface": "dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33006",
+      "position": 4,
+      "surface": "woord",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33007",
+      "position": 1,
+      "surface": "Zoek",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33007",
+      "position": 2,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33008",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33008",
+      "position": 2,
+      "surface": "zoek",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33009",
+      "position": 1,
+      "surface": "Zingen",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33009",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33009",
+      "position": 3,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33009",
+      "position": 4,
+      "surface": "ding",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33010",
+      "position": 1,
+      "surface": "Daar",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33010",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33010",
+      "position": 3,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33010",
+      "position": 4,
+      "surface": "blij",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33010",
+      "position": 5,
+      "surface": "om",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33011",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33011",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33011",
+      "position": 3,
+      "surface": "dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33012",
+      "position": 1,
+      "surface": "Heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33012",
+      "position": 2,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33012",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33013",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33013",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33013",
+      "position": 3,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33014",
+      "position": 1,
+      "surface": "Heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33014",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33014",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33014",
+      "position": 4,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33015",
+      "position": 1,
+      "surface": "Hallo",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33015",
+      "position": 2,
+      "surface": "hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33015",
+      "position": 3,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33015",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33016",
+      "position": 1,
+      "surface": "Pardon",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33016",
+      "position": 2,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33016",
+      "position": 3,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33016",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33017",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33017",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33017",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33017",
+      "position": 4,
+      "surface": "hond",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33018",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33018",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33018",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33018",
+      "position": 4,
+      "surface": "paard",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33019",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33019",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33019",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33019",
+      "position": 4,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33019",
+      "position": 5,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33019",
+      "position": 6,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33020",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33020",
+      "position": 2,
+      "surface": "veel",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33021",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33021",
+      "position": 3,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33022",
+      "position": 1,
+      "surface": "Zoek",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33022",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33022",
+      "position": 3,
+      "surface": "vrouw",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33023",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33023",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33023",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33024",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33024",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33024",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33025",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33025",
+      "position": 2,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33025",
+      "position": 3,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33026",
+      "position": 1,
+      "surface": "We",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33026",
+      "position": 2,
+      "surface": "hebben",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33026",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33026",
+      "position": 4,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33027",
+      "position": 1,
+      "surface": "Dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33027",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33027",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33027",
+      "position": 4,
+      "surface": "groot",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33028",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33028",
+      "position": 2,
+      "surface": "thee",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33028",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33028",
+      "position": 4,
+      "surface": "heet",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33029",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33029",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33029",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33029",
+      "position": 4,
+      "surface": "klein",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33030",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33030",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33030",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33030",
+      "position": 4,
+      "surface": "groot",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A330021",
+      "sentence_id": "S33002",
+      "direction": "fr_to_en",
+      "answer": "What is his name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A330031",
+      "sentence_id": "S33003",
+      "direction": "fr_to_en",
+      "answer": "What is your name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A330041",
+      "sentence_id": "S33004",
+      "direction": "fr_to_en",
+      "answer": "Is it too small?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A330111",
+      "sentence_id": "S33011",
+      "direction": "fr_to_en",
+      "answer": "What is this called?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A330112",
+      "sentence_id": "S33011",
+      "direction": "fr_to_en",
+      "answer": "What do you call this?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A330161",
+      "sentence_id": "S33016",
+      "direction": "fr_to_en",
+      "answer": "Excuse me. What's your name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A330231",
+      "sentence_id": "S33023",
+      "direction": "fr_to_en",
+      "answer": "My name is Tom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A330241",
+      "sentence_id": "S33024",
+      "direction": "fr_to_en",
+      "answer": "His name is Tom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

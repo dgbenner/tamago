@@ -17,6 +17,11 @@ export const REGIONAL = {
     ['CEP', 'código postal', 'postal'], ['correio', 'correios'], ['motorista', 'condutor'], ['cobrador', 'condutor'],
     ['hospedagem', 'alojamento'], ['barraca', 'tenda'],
   ],
+  // Dutch (Dan, 2026-11-19): the course teaches "houd" (ik houd van); "hou" is the commoner standard spelling of the
+  // same form, so it is accepted too (not a typo). Same row shape; no separate headword list for Dutch.
+  nl: [
+    ['houd', 'hou'],
+  ],
 }
 // The Spain forms accepted for a course form ([] when none).
 export const twinsOf = (lang, form) => (REGIONAL[lang] ?? []).filter(([m]) => m === form).map(([, spain]) => spain)

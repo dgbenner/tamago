@@ -131,4 +131,27 @@ async function portuguese(lemma) {
   return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
 }
 
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese }[COURSE]
+// Dutch (2026-11-19): the verb page's own conjugation template ({{nl-conj-wk}} weak, {{nl-conj-st}} strong,
+// {{nl-conj-irr}} irregular). The present-tense column of the table; the course's persons are ik, jij/je,
+// hij/zij/het and the plural (wij, jullie, zij — all the infinitive). The 2nd-person cell lists the inverted
+// form after a comma (jij loopt, loop jij?): keep the first, the plain jij form.
+async function dutch(lemma) {
+  const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
+  const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
+  const template = section.match(/\{\{nl-conj[a-z-]*(?:\|[^{}]*)?\}\}/)?.[0]
+  if (!template) return null
+  const rows = tableRows(await render(lemma, template))
+  const head = rows.findIndex((row) => row.includes('present tense'))
+  if (head < 0) return null
+  const col = rows[head].indexOf('present tense')
+  const byLabel = (label) => { const row = rows.find((r) => r[0] === label); return row ? String(row[col] ?? '').split(',')[0].replace(/\s+\d+$/, '').trim() : '' }
+  const out = [
+    { person: 'ik', form: byLabel('1st person singular') },
+    { person: 'jij, je', form: byLabel('2nd person sing. ( jij )') },
+    { person: 'hij, zij, het', form: byLabel('3rd person singular') },
+    { person: 'wij, jullie, zij', form: byLabel('plural') },
+  ]
+  return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
+}
+
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch }[COURSE]
