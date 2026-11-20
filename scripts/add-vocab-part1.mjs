@@ -37,7 +37,7 @@ export const VOCAB_PART1 = {
       cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
   ],
   // Italian (2026-11-14): placed where Tatoeba has lines a learner can read by then. Free Time works from row 5 (mi
-  // piace + a verb); Around Town from row 7 (dov'è, in); body words have no readable lines before colours, possessives
+  // piace + a verb); Around Town from row 7 (dov'è, in); body words have no readable lines before colors, possessives
   // and con, so Body and Looks is last (the same finding as German).
   it: [
     { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Ha gli occhi azzurri, ha i capelli lunghi: avere with the article for features; alto, alta: adjectives agree',

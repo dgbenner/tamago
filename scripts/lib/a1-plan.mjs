@@ -21,7 +21,7 @@ export const A1_TASKS = [
   ['T13', 'Ask for help: repeat, slower, spell, how do you say'],
 ]
 
-const FIRST = { part: 1, title: 'First Steps', summary: 'Hello and goodbye, people and things, food, animals, describing, questions, numbers to ten, colours, days and going places, with asking for help.', tasks: 'T01;T13', status: 'live' }
+const FIRST = { part: 1, title: 'First Steps', summary: 'Hello and goodbye, people and things, food, animals, describing, questions, numbers to ten, colors, days and going places, with asking for help.', tasks: 'T01;T13', status: 'live' }
 const PLAN4 = [
   FIRST,
   { part: 2, title: 'Everyday Life', summary: 'Spelling and phone numbers, age, address and nationality, numbers to 100, prices and shopping.', tasks: 'T02;T03;T04', status: 'planned' },

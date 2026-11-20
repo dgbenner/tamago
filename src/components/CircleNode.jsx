@@ -1,9 +1,9 @@
 import { useRef } from 'react'
-import { IconInfo, IconLock, IconNotebookPen } from './icons.jsx'
+import { IconInfo, IconLock, IconNotebookPen } from '../screens/icons.jsx'
 
 // The new tree circle (Dan, 2026-11-10; in the lab at /lab.html, not on the live tree yet). The learner sees a circle
 // and its lessons, named by its title: no unit numbers, no rounds, no segments. The five rounds still run underneath;
-// the ring simply fills across all of a circle's lessons, whatever their number. One accent colour (--ring) for the
+// the ring simply fills across all of a circle's lessons, whatever their number. One accent color (--ring) for the
 // fill and the first-use marker.
 // Every circle has a warm off-white disc inside the ring (--disc, the same in light and dark), so the soft white edges
 // of the sushi art never show on dark; a locked circle keeps the disc faint, with the lock on it. The sushi images are
@@ -11,12 +11,17 @@ import { IconInfo, IconLock, IconNotebookPen } from './icons.jsx'
 // 78% of the circle (10% larger than the first 71%, Dan, 2026-11-11), with a 2x file for sharp screens.
 //   locked       gray, with a lock
 //   in progress  the ring fills, lessonsDone of lessonsTotal
-//   finished     a full ring; as recall drops the ring fades (faint below about 80%)
+//   finished     a full, solid ring and "Finished" (RECALL_FADE off since 2026-11-16; on, the ring fades as recall drops)
 const R = 45
 const LEN = 2 * Math.PI * R
 
+// Recall fading on the tree (Dan, 2026-11-16: off). On, a finished circle's ring fades as its recall drops and every
+// circle's line adds "Recall 72%"; off, a finished circle always shows a full, solid ring and just "Finished", and an
+// in-progress one just its lesson. The memory schedule
+// itself (src/lib/strength.js) keeps running either way: Brush-Up, reviews and Progress use it.
+export const RECALL_FADE = false
 // How strong a finished ring looks for a recall from 0 to 1: full at 90% and above, faint (0.25) at 50% and below.
-export const ringOpacity = (recall) => (recall == null ? 1 : Math.min(1, Math.max(0.25, 0.25 + ((recall - 0.5) / 0.4) * 0.75)))
+export const ringOpacity = (recall) => (!RECALL_FADE || recall == null ? 1 : Math.min(1, Math.max(0.25, 0.25 + ((recall - 0.5) / 0.4) * 0.75)))
 
 // The first-use marker, on the very first circle only: "Start Here" before any lesson, then never again (Dan,
 // 2026-11-11: "Your Progress" after the first lesson is gone).
@@ -31,9 +36,9 @@ export function circleState({ locked, lessonsDone, lessonsTotal }) {
 // A short description for screen readers and for the line under a live circle.
 export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
   if (locked) return 'Locked'
-  if (lessonsDone >= lessonsTotal) return recall == null ? 'Finished' : `Finished · Recall ${Math.round(recall * 100)}%`
+  if (lessonsDone >= lessonsTotal) return !RECALL_FADE || recall == null ? 'Finished' : `Finished · Recall ${Math.round(recall * 100)}%`
   const parts = [lessonsDone === 0 ? 'Not started' : `Lesson ${lessonsDone + 1} of ${lessonsTotal}`]
-  if (lessonsDone > 0 && recall != null) parts.push(`Recall ${Math.round(recall * 100)}%`)
+  if (RECALL_FADE && lessonsDone > 0 && recall != null) parts.push(`Recall ${Math.round(recall * 100)}%`)
   return parts.join(' · ')
 }
 
@@ -109,7 +114,7 @@ function CircleButton({ title, icon, locked = false, early = false, lessonsDone 
           ? <span className="relative text-muted [&_svg]:size-8"><IconLock /></span>
           : icon ? <img src={icon} srcSet={`${icon} 1x, ${icon.replace(/\.webp$/, '@2x.webp')} 2x`} alt="" className="relative aspect-square w-[78%] object-contain" /> : null}
         {/* badge (Brush-Up, Dan 2026-11-14): how many items wait inside, over the circle's lower right; muted like every
-            indicator, never a colour fill. The caption already says it aloud. */}
+            indicator, never a color fill. The caption already says it aloud. */}
         {badge != null && <span data-badge aria-hidden="true" className="absolute right-0 bottom-0 flex h-6 min-w-6 items-center justify-center rounded-full border-2 border-line bg-surface px-1.5 text-xs font-medium text-ink">{badge}</span>}
       </span>
       <span className={`max-w-full text-base leading-tight font-semibold break-words ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>

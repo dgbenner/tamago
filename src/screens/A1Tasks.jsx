@@ -5,7 +5,7 @@ import { requestFeedback } from '../lib/converse.js'
 import { TL, course } from '../lib/course.js'
 import { tables } from '../lib/content.js'
 import { hintPieces, verbFormHints } from '../lib/word-hints.js'
-import AudioHelp from './AudioHelp.jsx'
+import AudioHelp from '../components/AudioHelp.jsx'
 
 // The A1 task question types (A1 Complete, 2026-11-10; logic in src/lib/a1types.js). No timers; Check is the only
 // commitment; nothing here waits on the network before the learner can go on.

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useAuth } from '../lib/auth/index.js'
 import { ROLES, can } from '../lib/auth/config.js'
-import { LogoInline } from '../screens/Logo.jsx'
+import { LogoInline } from '../components/Logo.jsx'
 
 // The console (accounts layer 1, Dan, 2026-11-11; _source/accounts-spec.md), its own small app at /admin, loaded
 // without the course. Sections by role: Users (admins: invites, since sign-up is invite only; list with search,

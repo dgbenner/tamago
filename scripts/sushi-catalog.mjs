@@ -1,6 +1,6 @@
 // The sushi catalog (Dan, 2026-11-11): content/sushi-catalog.json and _source/sushi-catalog.md, from
 // scripts/lib/sushi-meta.mjs, the originals in _source/sushi-originals (also in R2, bucket tamago-sushi) and each
-// course's content/unit-icons.json. One entry per image: app file, dish, category, main colour, where it's used,
+// course's content/unit-icons.json. One entry per image: app file, dish, category, main color, where it's used,
 // duplicates. The Markdown opens with the usage rules and ends with what's short and a ChatGPT prompt for the next
 // batch. Run after assign-icons.mjs, so "where it's used" is current.
 // Usage: node scripts/sushi-catalog.mjs
@@ -16,9 +16,9 @@ const TREE = ['nigiri', 'maki', 'temaki']
 // Enough of each tree type for two neighbouring parts without a repeat: the longest run of one type in a part is 7
 // (Spanish Part 1 temaki), so 14. Misc covers two Pick Your Own nodes a part over six parts: 12.
 const TARGET = { nigiri: 14, maki: 14, temaki: 14, misc: 12 }
-const MIN_PER_COLOUR = 2 // of each calm colour (white, yellow, green, brown) per tree type
+const MIN_PER_COLOUR = 2 // of each calm color (white, yellow, green, brown) per tree type
 const CALM = ['white', 'yellow', 'green', 'brown']
-// Dishes to ask for, by category and colour, none already in the catalog.
+// Dishes to ask for, by category and color, none already in the catalog.
 const SUGGEST = {
   // Yellow nigiri beyond tamago (the logo) and uni (already a gunkan and a temaki) is rare: kazunoko is the one.
   nigiri: [['Kazunoko nigiri (herring roe)', 'yellow'], ['Avocado nigiri', 'green'], ['Okra nigiri', 'green'], ['Shiso cucumber nigiri', 'green'], ['Engawa nigiri (flounder fin)', 'white']],
@@ -63,7 +63,7 @@ const entries = META.map((m) => {
 })
 const replaced = [{ file: '/icons/sides/miso-soup.svg', by: 'miso-soup', why: 'the old placeholder miso soup, replaced by the new one (Dan, 2026-11-11)' }]
 writeFileSync(join(ROOT, 'content/sushi-catalog.json'), JSON.stringify({
-  _about: 'Every piece of Tamago food art: the app copy (WebP, 80px and @2x 160px), the untouched original in R2 (bucket tamago-sushi), dish, category, main colour, tone (red, orange and pink are red-toned), role and where it is used. Made by scripts/sushi-catalog.mjs; rules in _source/sushi-catalog.md.',
+  _about: 'Every piece of Tamago food art: the app copy (WebP, 80px and @2x 160px), the untouched original in R2 (bucket tamago-sushi), dish, category, main color, tone (red, orange and pink are red-toned), role and where it is used. Made by scripts/sushi-catalog.mjs; rules in _source/sushi-catalog.md.',
   r2_bucket: R2.bucket, replaced, images: entries,
 }, null, 2) + '\n')
 
@@ -76,7 +76,7 @@ for (const c of [...TREE, 'misc']) {
   if (have < TARGET[c]) lines.push(`${TARGET[c] - have} more images (${have} of ${TARGET[c]})`)
   if (TREE.includes(c)) {
     const red = pools[c].filter((e) => e.tone === 'red-toned').length
-    if (red > have / 2) lines.push(`too red: ${red} of ${have} are red-toned, so calm colours are needed to keep red-toned ones apart`)
+    if (red > have / 2) lines.push(`too red: ${red} of ${have} are red-toned, so calm colors are needed to keep red-toned ones apart`)
     for (const col of CALM) { const n = pools[c].filter((e) => e.color === col).length; if (n < MIN_PER_COLOUR) lines.push(`${col}: ${n} of ${MIN_PER_COLOUR}`) }
   }
   short.push({ c, have, lines })
@@ -87,8 +87,8 @@ const existing = [...new Set(entries.map((e) => e.dish.replace(/ \(.*/, '')))].s
 const prompt = [
   'Make a set of Japanese food illustrations to match the attached reference images: glossy, slightly stylised 3D food art like a premium emoji, one item per image, three-quarter view from slightly above, soft studio light, a soft shadow under the piece, no plate unless it is part of the dish, no text.',
   'Each one a PNG at 1536 x 1024 with a real transparent background (true alpha, not a painted checkerboard and not white).',
-  'Make these, one image each, with the main colour as given:',
-  ...needed.map((n) => `- ${n.d}, ${n.c}, main colour ${n.col}`),
+  'Make these, one image each, with the main color as given:',
+  ...needed.map((n) => `- ${n.d}, ${n.c}, main color ${n.col}`),
   `Do not repeat any of these existing dishes: ${existing.join(', ')}.`,
 ].join('\n')
 
@@ -102,9 +102,9 @@ md.push('## Usage rules', '',
   '- **Brush-Up** (was Catch-Up): the new miso soup.',
   '- **Checkpoints:** the flag. The tamago sushi is the logo only.',
   '- **Dessert:** not on the tree. Held for a later special use.',
-  '- **No image twice** within a part or across a part boundary (a part\'s first 6 places never use one from the last 6 of the part before), **and no two similar colours side by side.** Red, orange and pink are one tone (red-toned: tuna, salmon, shrimp), so two red-toned pieces never sit together; white, yellow, green, brown, silver and pale pink mix in between.',
+  '- **No image twice** within a part or across a part boundary (a part\'s first 6 places never use one from the last 6 of the part before), **and no two similar colors side by side.** Red, orange and pink are one tone (red-toned: tuna, salmon, shrimp), so two red-toned pieces never sit together; white, yellow, green, brown, silver and pale pink mix in between.',
   '- **Shortages:** a type with fewer images than circles borrows from the type before it at the edge of its run (easy-to-hard order kept). An image repeats only when every type is used up.',
-  '- Assignment: `COURSE=fr|es|de node scripts/assign-icons.mjs`, then import and build; test/icons.test.js fails on any repeat or colour clash. Images: `node scripts/make-icons.mjs`.', '')
+  '- Assignment: `COURSE=fr|es|de node scripts/assign-icons.mjs`, then import and build; test/icons.test.js fails on any repeat or color clash. Images: `node scripts/make-icons.mjs`.', '')
 md.push('## Duplicates', '',
   '- 16 files in the Desktop batch were the same files as the earlier glossy set; each is listed once.',
   '- The old placeholder miso soup (/icons/sides/miso-soup.svg) is replaced by the new miso soup.',
@@ -112,11 +112,11 @@ md.push('## Duplicates', '',
   ...[...new Set(entries.filter((e) => e.same_dish_as.length).map((e) => [e.slug, ...e.same_dish_as].sort().join(', ')))].map((g) => `  - ${g}`), '')
 for (const c of CATEGORIES) {
   const list = entries.filter((e) => e.category === c)
-  md.push(`## ${c[0].toUpperCase()}${c.slice(1)} (${list.length})`, '', '| Image | Dish | Colour | Used | Notes |', '| --- | --- | --- | --- | --- |')
+  md.push(`## ${c[0].toUpperCase()}${c.slice(1)} (${list.length})`, '', '| Image | Dish | Color | Used | Notes |', '| --- | --- | --- | --- | --- |')
   for (const e of list) md.push(`| ${e.file ? `\`${e.slug}\`` : `\`${e.slug}\` (no app copy)`} | ${e.dish} | ${e.color} | ${e.used.join('; ')} | ${[e.role !== 'tree' && e.role !== 'misc' ? e.role : '', e.same_dish_as.length ? `same dish as ${e.same_dish_as.join(', ')}` : '', e.note && !['logo', 'Brush-Up'].includes(e.note) && !e.note.startsWith('help roll') ? e.note : ''].filter(Boolean).join('; ')} |`)
   md.push('')
 }
-md.push('## What is short', '', `Targets: ${TREE.map((c) => `${c} ${TARGET[c]}`).join(', ')} (two neighbouring parts without a repeat), misc ${TARGET.misc}; at least ${MIN_PER_COLOUR} of each calm colour (${CALM.join(', ')}) in each tree type, and no more than half red-toned. Help rolls, the miso soup, the logo and desserts are not counted.`, '')
+md.push('## What is short', '', `Targets: ${TREE.map((c) => `${c} ${TARGET[c]}`).join(', ')} (two neighbouring parts without a repeat), misc ${TARGET.misc}; at least ${MIN_PER_COLOUR} of each calm color (${CALM.join(', ')}) in each tree type, and no more than half red-toned. Help rolls, the miso soup, the logo and desserts are not counted.`, '')
 for (const s of short) md.push(`- **${s.c}** (${s.have}: ${counts(s.c)}): ${s.lines.length ? s.lines.join('; ') : 'nothing short'}`)
 md.push('', '## Prompt for the next batch', '', 'Paste into ChatGPT with two or three current images attached as the style reference:', '', '```', prompt, '```', '')
 writeFileSync(join(ROOT, '_source/sushi-catalog.md'), md.join('\n'))

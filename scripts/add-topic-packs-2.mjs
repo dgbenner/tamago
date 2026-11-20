@@ -20,7 +20,7 @@ export const PACKS = [
   { unit_id: 'U202', topic_id: 'T23', title: 'At the Doctor', words: ['médecin', 'médecins', 'docteur', 'docteurs', 'malade', 'malades', 'hôpital', 'mal', 'infirmière', 'fièvre', 'tête', 'dentiste', 'ventre', 'gorge', 'toux', 'rhume', 'santé'] },
   { unit_id: 'U203', topic_id: 'T28', title: 'At the Cinema', words: ['film', 'films', 'cinéma', 'acteur', 'acteurs', 'actrice', 'regarde', 'regardes', 'regardent', 'histoire', 'télé', 'télévision', 'drôle', 'triste', 'billet'] },
   { unit_id: 'U204', topic_id: 'T12', title: 'Playing Soccer', words: ['football', 'ballon', 'équipe', 'joueur', 'joue', 'jouent', 'foot', 'sport', 'gagne', 'but'] },
-  { unit_id: 'U205', topic_id: 'T27', title: 'Colours and Art', words: ['art', 'tableau', 'tableaux', 'couleur', 'couleurs', 'artiste', 'artistes', 'peintre'] },
+  { unit_id: 'U205', topic_id: 'T27', title: 'Colors and Art', words: ['art', 'tableau', 'tableaux', 'couleur', 'couleurs', 'artiste', 'artistes', 'peintre'] },
   { unit_id: 'U206', topic_id: 'T10', title: 'Train Travel', words: ['train', 'trains', 'gare', 'voyage', 'voiture', 'valise'] },
   { unit_id: 'U207', topic_id: 'T26', title: 'Clothes and Shoes', words: ['robe', 'chemise', 'chapeau', 'chaussures', 'manteau', 'pantalon', 'chaussettes'] },
   { unit_id: 'U208', topic_id: 'T18', title: 'Cooking Meals', words: ['soupe', 'gâteau', 'gâteaux', 'cuisinier', 'cuisinière', 'recette', 'sel', 'poivre', 'plat', 'délicieux'] },

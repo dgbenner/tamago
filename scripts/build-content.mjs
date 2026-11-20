@@ -7,6 +7,7 @@ import { getFile } from './lib/http.mjs'
 import { normaliseFile } from './lib/loudness.mjs'
 import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 import { equivalentAnswers } from './lib/equivalents.mjs'
+import { usSpellingRows } from './lib/us-spelling.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
 // Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
 const LL = `LL-${C.linguaLibre.qid} (${C.linguaLibre.iso})`
@@ -242,6 +243,8 @@ for (const f of readdirSync(AUDIO)) if (!wanted.has(f)) rmSync(join(AUDIO, f))
 }
 rmSync(OUT, { recursive: true, force: true })
 mkdirSync(OUT, { recursive: true })
+// US spelling in every shipped string (scripts/lib/us-spelling.mjs), the accepted answers excepted (they keep both).
+for (const [name, rows] of Object.entries(tables)) if (Array.isArray(rows) && name !== 'accepted_answers') tables[name] = usSpellingRows(rows)
 for (const [name, rows] of Object.entries(tables)) writeFileSync(join(OUT, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
 if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'), { recursive: true })
 

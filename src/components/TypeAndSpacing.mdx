@@ -1,0 +1,46 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { Corners, Gaps, Heights, Lines, Paddings, TypeSizes, TypeWeights } from './docs/TypeSpacing.jsx'
+
+<Meta title="Type and Spacing" />
+
+# Type and Spacing
+
+The sizes Tamago actually uses, counted from the app's code on 2026-11-19. "Uses" is how many times each one appears across the screens and components. A design system keeps this list short on purpose: the fewer sizes, the more the screens look like one app.
+
+## The Typeface
+
+The device's own interface font (San Francisco on Apple devices, Roboto on Android, Segoe UI on Windows). No font is downloaded.
+
+The base size is **17px** on phones and from 1024 px wide, and 16px between. Every size is set in rem, a multiple of that base, so one number scales the whole app. The pixel values below are at 17px.
+
+## Text Sizes
+
+<TypeSizes />
+
+Three more sizes appear once each, written out by hand: 0.625rem and 0.6875rem (Developer labels) and 1.15rem. On desktop, lesson choices and chips are raised to 1.3rem and the lesson heading to 1.6rem in `src/index.css`.
+
+## Weights
+
+<TypeWeights />
+
+Bold (700) is never used.
+
+## Space Between Things
+
+<Gaps />
+
+## Space Inside Things
+
+<Paddings />
+
+## Corners
+
+<Corners />
+
+## Line Widths
+
+<Lines />
+
+## Heights of Things You Tap
+
+<Heights />

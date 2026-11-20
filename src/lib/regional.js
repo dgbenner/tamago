@@ -11,6 +11,12 @@ export const REGIONAL = {
     ['café', 'marrón'], ['cafés', 'marrones', 'marrón'], ['derecho', 'recto'], ['guion', 'guión'], ['video', 'vídeo'],
     ['piso', 'planta'], ['sala', 'salón'],
   ],
+  // Brazilian Portuguese (Dan, 2026-11-19; Fable's Parts 2 to 4 review): the Brazilian word is taught, Portugal's accepted;
+  // the Camões headword is the Portugal form.
+  pt: [
+    ['CEP', 'código postal', 'postal'], ['correio', 'correios'], ['motorista', 'condutor'], ['cobrador', 'condutor'],
+    ['hospedagem', 'alojamento'], ['barraca', 'tenda'],
+  ],
   // Dutch (Dan, 2026-11-19): the course teaches "houd" (ik houd van); "hou" is the commoner standard spelling of the
   // same form, so it is accepted too (not a typo). Same row shape; no separate headword list for Dutch.
   nl: [

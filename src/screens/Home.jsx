@@ -1,14 +1,20 @@
-import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { cue } from '../lib/audio.js'
-import { LogoInline, SushiMark } from './Logo.jsx'
-import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconForward, IconGear, IconRepeat, IconStudy, IconVerb } from './icons.jsx'
+import { IconBack, IconCheckered, IconComment, IconForward } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
-import { FlagRow } from './Languages.jsx'
-import CircleNode from './CircleNode.jsx'
+import { FlagRow } from '../components/FlagRow.jsx'
+import CircleNode from '../components/CircleNode.jsx'
+import NoteText from '../components/NoteText.jsx'
 import { GrammarNoteBody } from './GrammarNote.jsx'
 import { tables } from '../lib/content.js'
+import LevelLine from '../components/LevelLine.jsx'
+import { Sheet, SheetHead } from '../components/Sheet.jsx'
+import Toast from '../components/Toast.jsx'
+import { ToolPanel, ToolStrip } from '../components/ToolTile.jsx'
+import TopBar from '../components/TopBar.jsx'
+import PinnedAction from '../components/PinnedAction.jsx'
 
-// A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
+// A tree node is a circle (Circle Lab design, approved 2026-11-10; src/components/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
 // circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
 // Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
@@ -35,51 +41,6 @@ function TopicList({ topic, current, onChoose }) {
         </li>
       ))}
     </ul>
-  )
-}
-
-// A bottom sheet on a phone (a centred pop-up on wider screens). A modal dialog (WCAG 2.1.2, 2.4.3, 4.1.2): named by
-// its heading, focus moves into it, Tab stays inside, Escape closes it, and focus goes back to what opened it.
-export function Sheet({ onClose, children }) {
-  const ref = useRef(null)
-  const titleId = useId()
-  useEffect(() => {
-    const opener = document.activeElement
-    const box = ref.current
-    const focusables = () => [...box.querySelectorAll('button:not(:disabled), [href], input:not(:disabled), select, textarea, [tabindex]:not([tabindex="-1"])')]
-    ;(focusables().find((el) => !el.matches('[aria-label=Close]')) ?? focusables()[0])?.focus()
-    const onKey = (e) => {
-      if (e.key === 'Escape') { e.preventDefault(); onClose(); return }
-      if (e.key !== 'Tab') return
-      const list = focusables()
-      if (!list.length) return
-      const first = list[0]
-      const last = list.at(-1)
-      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus() }
-      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus() }
-    }
-    document.addEventListener('keydown', onKey)
-    return () => { document.removeEventListener('keydown', onKey); if (opener?.isConnected) opener.focus({ preventScroll: true }) }
-  }, [])
-  return (
-    <div className="sheet-backdrop" onClick={onClose}>
-      <section ref={ref} role="dialog" aria-modal="true" aria-labelledby={titleId} className="sheet" onClick={(e) => e.stopPropagation()}>
-        <SheetTitle.Provider value={titleId}>{children}</SheetTitle.Provider>
-      </section>
-    </div>
-  )
-}
-const SheetTitle = createContext(null)
-function SheetHead({ kicker, title, onClose }) {
-  const id = useContext(SheetTitle)
-  return (
-    <div className="flex items-start justify-between gap-3">
-      <div>
-        {kicker && <p className="text-sm text-muted">{kicker}</p>}
-        <h2 id={id} className="text-xl font-semibold">{title}</h2>
-      </div>
-      <button onClick={onClose} aria-label="Close" className="icon-btn -mr-2 -mt-2"><IconClose /></button>
-    </div>
   )
 }
 
@@ -145,14 +106,14 @@ function InfoSheet({ node, onStart, onClose }) {
         {unit.grammar_point && (
           <section className="flex flex-col gap-1">
             <h3 className="text-sm font-semibold text-muted">Grammar</h3>
-            <p>{unit.grammar_point}</p>
+            <p><NoteText inline text={unit.grammar_point} /></p>
           </section>
         )}
         {words.length > 0 && (
           <section className="flex flex-col gap-1.5">
             <h3 className="text-sm font-semibold text-muted">New Words <span className="font-normal">({words.length})</span></h3>
             <ul className="flex flex-wrap gap-x-3 gap-y-1">
-              {words.map((w) => <li key={w.word_id}><span lang={TL} className="font-medium">{w.form}</span> <span className="text-sm text-muted">{w.hint || w.gloss}</span></li>)}
+              {words.map((w) => <li key={w.word_id}><strong lang={TL} className="font-semibold">{w.form}</strong> <span className="text-sm text-muted">{w.hint || w.gloss}</span></li>)}
             </ul>
           </section>
         )}
@@ -195,11 +156,11 @@ function UnitCard({ node, inProgress, onStart, onClose, onGrammarNote, hasNote, 
         <p className="mt-2 text-muted">Words and sentences on one subject. You can switch later; each topic keeps its progress.</p>
         <TopicList topic={topic} current={topic.choosing ? null : unit.unit_id} onChoose={onChooseTopic} />
       </> : !open ? <>
-        <p className="mt-2 text-muted">{unit.grammar_point}</p>
+        <p className="mt-2 text-muted"><NoteText inline text={unit.grammar_point} /></p>
         <p className="mt-4">Locked for now. It opens when you've finished the first lessons of {lockedBy}.</p>
         <p className="mt-2 text-sm text-muted">These open in order, so each one builds on the words before it. Know some {course.name} already? The placement check in Settings can open several at once.</p>
       </> : <>
-        <p className="mt-2 text-muted">{unit.grammar_point}</p>
+        <p className="mt-2 text-muted"><NoteText inline text={unit.grammar_point} /></p>
         <p className="mt-3 text-sm text-muted">{where}</p>
         {hasNote && <button onClick={onGrammarNote} className="btn-secondary mt-4 w-full">Grammar Note</button>}
         {topic && <button onClick={() => setSwitching(true)} className="btn-secondary mt-3 w-full">Change Topic</button>}
@@ -317,7 +278,7 @@ function PartEnd({ part, onReview, onPartView, onJumpPart }) {
     <>
       {part.review && (
         <li>
-          <button onClick={onReview} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${part.review.available ? 'text-ink' : 'text-muted'}`}>
+          <button onClick={onReview} data-part-review data-early={part.review.lit === false ? '' : undefined} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${part.review.lit === false ? 'tree-early' : ''} ${part.review.available ? 'text-ink' : 'text-muted'}`}>
             <span className="[&_svg]:size-4"><IconCheckered /></span>
             Part {part.n} Review
             {part.review.done && <span className="text-right-ink">✓</span>}
@@ -397,10 +358,14 @@ function PartCarousel({ part, onJumpPart, onPartView }) {
 // Brush-Up (was Catch-Up; renamed by Dan, 2026-11-11; A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
 // its own, so no ring. No line under the title (Dan, 2026-11-11); how much is waiting is on its card, and in the
 // circle's spoken name.
-const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to brush up` : cu.done ? 'All brushed up' : 'Nothing yet')
+// The number is the misses alone (Dan, 2026-11-18): a Brush-Up gets its badge when something it covers is got wrong,
+// not for words that are merely new or seldom seen (those still come along inside it).
+const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.mistakes ? `${cu.mistakes} missed, to brush up` : cu.count ? `${cu.count} to brush up` : cu.done ? 'All brushed up' : 'Nothing yet')
 function CatchUpNode({ cu, onPick }) {
   // A full green ring once nothing is left to brush up (Dan, 2026-11-14); no ring while items wait or before any lessons.
-  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={Boolean(cu.done)} lessonsDone={cu.done ? 1 : 0} lessonsTotal={1} recall={cu.done ? 1 : null} badge={cu.available && cu.count ? cu.count : null} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
+  // Faded like a circle ahead of the learner until they reach it or start it (cu.lit; Dan, 2026-11-18); the badge shows
+  // on a faded one too.
+  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} early={cu.available && !cu.lit} ring={Boolean(cu.done)} lessonsDone={cu.done ? 1 : 0} lessonsTotal={1} recall={cu.done ? 1 : null} badge={cu.available && cu.mistakes ? cu.mistakes : null} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
 }
 function CatchUpCard({ cu, onStart, onClose }) {
   return (
@@ -424,11 +389,11 @@ function CatchUpCard({ cu, onStart, onClose }) {
 
 export function CheckpointNode({ cp, onPick }) {
   return (
-    <button onClick={() => onPick(cp)} data-live={cp.available || cp.done ? '' : undefined} className={`tree-pill ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
+    <button onClick={() => onPick(cp)} data-live={cp.available || cp.done ? '' : undefined} data-early={cp.lit === false ? '' : undefined} className={`tree-pill ${cp.lit === false ? 'tree-early' : ''} ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
       <span className="[&_svg]:size-4"><IconCheckered /></span>
       Checkpoint
       {cp.done && <span className="text-right-ink">✓</span>}
-      {/* Italic, lighter and smaller than the pill's label, same colour (Dan, 2026-11-14). */}
+      {/* Italic, lighter and smaller than the pill's label, same color (Dan, 2026-11-14). */}
       {cp.skipped && !cp.done && <span className="text-[0.6875rem] font-normal italic text-muted">Skipped</span>}
     </button>
   )
@@ -471,67 +436,10 @@ function ICanSheet({ level, onCheck, onClose }) {
   )
 }
 
-function Marker({ label }) {
-  return (
-    <li className="flex w-full items-center gap-3 text-sm text-muted" aria-label={`Level: ${label}`}>
-      <span className="h-0.5 flex-1 bg-line" />
-      <span className="italic">{label}</span>
-      <span className="h-0.5 flex-1 bg-line" />
-    </li>
-  )
-}
-
-const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, practice: IconRepeat, talk: IconComment, developer: IconCode }
 // Tools in alphabetical order, Developer (the quiet one) always last (Dan, 2026-11-11).
 const toolOrder = (tools) => [...tools.filter((t) => !t.quiet).sort((a, b) => a.label.localeCompare(b.label)), ...tools.filter((t) => t.quiet)]
 // Practice Mistakes' line: never "mistakes", nothing critical; the count changes.
 const practiceAbout = (p) => (p.mistakes ? `Strengthen ${p.mistakes} recent sticking ${p.mistakes === 1 ? 'point' : 'points'}` : p.ready ? 'Strengthen what\'s likeliest to fade' : 'Fills up after a lesson or two')
-// The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. Progress is one of them
-// (Dan, 2026-11-11: the row that held its button and the streak is gone).
-function Tools({ tools }) {
-  return (
-    // A compact single row on phones (Dan, 2026-11-15: the tiles took about a third of the screen): pills with the
-    // icon beside the label, so the tree starts higher; it still scrolls sideways when they don't all fit.
-    <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
-      {tools.map((t) => {
-        const Icon = TOOL_ICONS[t.id]
-        return (
-          // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
-          <button key={t.id} onClick={t.onOpen} data-tool={t.id} className={`flex min-h-10 shrink-0 snap-start items-center gap-1.5 rounded-full border-2 px-3 py-1 text-sm leading-none whitespace-nowrap ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
-            <span className={`[&_svg]:size-5 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
-            <span className={t.quiet ? 'dev-tiny' : ''}>{t.label}</span>
-          </button>
-        )
-      })}
-    </nav>
-  )
-}
-
-// The right-hand panel on a wide screen: each tool with a line on what it's for; a tool opens here, in place.
-function ToolMenu({ tools }) {
-  const card = (t) => {
-    const Icon = TOOL_ICONS[t.id]
-    return (
-      <button key={t.id} onClick={t.onOpen} className={`@container flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
-        <span className={`mt-0.5 shrink-0 [&_svg]:size-6 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
-        {/* Developer: tiny type at half strength, like the carousel's dev jump. */}
-        <span className="flex flex-col gap-0.5">
-          <span className={t.quiet ? 'dev-tiny font-semibold' : 'font-semibold'}>{t.label}</span>
-          <span className={`max-w-[80cqw] ${t.quiet ? 'dev-tiny' : 'text-sm text-muted'}`}>{t.about}</span>
-        </span>
-      </button>
-    )
-  }
-  return (
-    // The learning tools: every card the height of the tallest, evenly spaced; each line at most 80% of the card's
-    // width. Developer sits below, out of the matching, and stays short (Dan, 2026-11-11).
-    <nav aria-label="Tools" className="flex flex-col gap-2">
-      <div className="grid auto-rows-fr gap-2">{tools.filter((t) => !t.quiet).map(card)}</div>
-      {tools.filter((t) => t.quiet).map(card)}
-    </nav>
-  )
-}
-
 // Points: one style at every value, zero included.
 function Points({ total, today }) {
   return (
@@ -584,25 +492,13 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
           the utilities right, like a desktop site. */}
-      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(2px,env(safe-area-inset-top))] pb-0 lg:mx-0 lg:px-0 lg:pt-[2.5px]">
-        {/* The course flag (points sat here until they were hidden): opens the language pop-up. */}
-        <span className="hdr-lang flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end lg:-translate-x-[2px]">
-          {showPoints && <Points total={pointsTotal} today={pointsToday} />}
-          <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
-        </span>
-        {/* The logo reloads the app, opening screen and version name included, as on a fresh launch (Dan, 2026-11-11). */}
-        <button type="button" onClick={() => window.location.reload()} aria-label="Tamago, reload"
-          className="hdr-brand flex cursor-pointer items-center gap-2 rounded-lg lg:order-1 lg:mr-auto lg:ml-[2px] lg:gap-[3px]">
-          <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[2px]" />
-          <LogoInline className="hdr-wordmark" />
-        </button>
-        <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto lg:-ml-[1.1rem] lg:-translate-x-[2px]"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
-      </header>
+      <TopBar flag={course.flag} languageName={course.name} onLanguage={() => setLanguages(true)} onLogo={() => window.location.reload()} onSettings={onSettings}
+        start={showPoints && <Points total={pointsTotal} today={pointsToday} />} />
 
       <div className="home-path">
         <h1 className="sr-only">Tamago: your path</h1>
 
-      <Tools tools={allTools} />
+      <ToolStrip tools={allTools} />
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
@@ -617,7 +513,7 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
           const ican = i > 0 && iCan.find((lv) => lv.beforeRow === n)
           return [
             ican && <ICanNode key={`ic${i}`} level={ican} onPick={setICanPicked} />,
-            marker && <Marker key={`m${i}`} label={marker.label} />,
+            marker && <LevelLine key={`m${i}`} label={marker.label} />,
             // Responsive spacing (Dan, 2026-11-11): each circle takes an equal share up to its full size, the gap shrinks
             // with the screen, so a row of three always fits the tree, titles included.
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
@@ -634,23 +530,16 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
         {iCan.filter((lv) => lv.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((lv) => <ICanNode key={`ic-${lv.label}`} level={lv} onPick={setICanPicked} />)}
         {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
         {part && <PartEnd part={part} onReview={() => setReviewOpen(true)} onPartView={onPartView} onJumpPart={onJumpPart} />}
-        {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
+        {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <LevelLine key={m.label} label={m.label} />)}
       </ol>
 
       {/* Toasts (Dan, 2026-11-11): the last lesson's score ("8 of 9") and testing notes slide down from the top, hold,
           and slide back up by themselves; no tap. Kinds: info, success, warning, error. */}
-      <div className="toast-region" aria-live="polite">
-        {lastLine && <p key={lastLine.id} className={`toast toast-${lastLine.kind ?? 'info'}`}
-          onAnimationEnd={(e) => { if (e.animationName === 'toast-out' || e.animationName === 'toast-fade') onLastLineGone() }}>{lastLine.text}</p>}
-      </div>
+      <Toast line={lastLine} onGone={onLastLineGone} />
 
-      {/* Pinned to the bottom, with a line above, so they're always on screen. */}
-      <div className="bar-bottom -mx-4 mt-auto flex flex-col gap-3 px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]">
-        {/* Only Next Lesson is pinned; Practice Mistakes is a tool (Dan, 2026-11-11). */}
-        <div className="bottom-buttons">
-          <button onClick={() => { cue('button'); onNext() }} className="btn-submit">{nextLabel}</button>
-        </div>
-      </div>
+      {/* Pinned to the bottom, with a line above, so it's always on screen. Only Next Lesson is pinned; Practice
+          Mistakes is a tool (Dan, 2026-11-11). */}
+      <PinnedAction label={nextLabel} onClick={() => { cue('button'); onNext() }} />
 
       </div>
 
@@ -660,7 +549,7 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
             ? <div className="panel-screen">
                 {panel}
               </div>
-            : <ToolMenu tools={allTools} />}
+            : <ToolPanel tools={allTools} />}
         </aside>
       )}
 

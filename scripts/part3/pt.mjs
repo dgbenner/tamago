@@ -3,7 +3,7 @@
 // timetables (T09); announcements and simple instructions (T12); the help thread goes on (T13). Brazilian throughout:
 // você with the ele form, a gente, tomar café da manhã, ônibus, passagem; instructions in the você form (leia, escreva),
 // never the tu form. Words from the Camões A1 list (content-pt/a1-list.json) first. Vocabulary circles carry the list's
-// small words of place, colours and materials, everyday verbs, free time, and places to visit; themes stay clear of
+// small words of place, colors and materials, everyday verbs, free time, and places to visit; themes stay clear of
 // Part 4 (food and drink, directions, home, family, work, forms, messages, health). Read and Answer has three texts per
 // circle that has it. Used by scripts/add-part.mjs (COURSE=pt PART=3).
 const DRAFT = 'draft: written for Tamago, native check'
@@ -48,8 +48,8 @@ const vocab = [
   { unit_id: 'U71', order: 111.2, row: 16, after: '', title: 'Little Words',
     grammar: 'Dentro, fora, em cima, embaixo, atrás, na frente, do lado: where things are, with de before a noun; isto, aquilo, aquele; sem, entre, sobre, por, desde',
     words: ['sem', 'entre', 'ali', 'dentro', 'fora', 'cima', 'debaixo', 'embaixo', 'atrás', 'frente', 'lado', 'isto', 'aquilo', 'aquele', 'aquela', 'sobre', 'por', 'desde', 'logo', 'depressa', 'há'] },
-  { unit_id: 'U72', order: 113.2, row: 17, after: 'row 16', title: 'Colours + Materials',
-    grammar: 'Marrom, cinza, rosa: some colours never change (a camisa rosa, os sapatos cinza); de plástico, de madeira: what something is made of',
+  { unit_id: 'U72', order: 113.2, row: 17, after: 'row 16', title: 'Colors + Materials',
+    grammar: 'Marrom, cinza, rosa: some colors never change (a camisa rosa, os sapatos cinza); de plástico, de madeira: what something is made of',
     words: ['marrom', 'cinza', 'rosa', 'roxo', 'roxa', 'plástico', 'madeira', 'metal', 'vidro', 'pano', 'chove', 'chover', 'neva'] },
   { unit_id: 'U73', order: 115.2, row: 18, after: 'row 17', title: 'Doing Things',
     grammar: 'Dar: dou, dá; seguir: sigo; conseguir: consigo (I manage to); perder: perco: everyday verbs side by side',
@@ -138,7 +138,7 @@ const canDo = {
   U68: [['listening', 'Listening', 'I can understand a short announcement at a station or an airport.']],
   U69: [['reading', 'Reading', 'I can follow short, simple instructions.']],
   U71: [['reading', 'Reading', 'I can understand the small words that say where something is: in, out, behind, between.']],
-  U72: [['speaking', 'Spoken production', 'I can name colours and say what something is made of.']],
+  U72: [['speaking', 'Spoken production', 'I can name colors and say what something is made of.']],
   U73: [['speaking', 'Spoken production', 'I can say what I do with everyday verbs: give, sit, change, wash, walk.']],
   U74: [['speaking', 'Spoken production', 'I can say what I do in my free time.']],
   U75: [['reading', 'Reading', 'I can understand words for places to visit and where they are.']],
@@ -149,7 +149,7 @@ export default {
   slots: [{ slot_id: 'C05', part: 3, after_row: 17 }, { slot_id: 'C06', part: 3, after_row: 19 }],
   situation, vocab, items, canDo,
   // Added in review (2026-11-16): às for the time, do and da for where things are; the course had none of them.
-  late: [{ unit_id: 'U61', words: ['às'] }, { unit_id: 'U71', words: ['do', 'da'] }],
+  late: [{ unit_id: 'U61', words: ['às'] }, { unit_id: 'U71', words: ['do', 'da'] }, { unit_id: 'U66', words: ['correio'] }],
   // Turned off in review (2026-11-16): kept as an id, never shown.
-  off: { deixa: 'its natural lines (Deixa eu ver, Deixa isso) use the tu imperative', passado: 'every natural line needs a past tense not yet taught', passada: 'every natural line needs a past tense not yet taught' },
+  off: { correios: "Portugal; the course teaches o correio (Dan, 2026-11-19; Fable's review)", deixa: 'its natural lines (Deixa eu ver, Deixa isso) use the tu imperative', passado: 'every natural line needs a past tense not yet taught', passada: 'every natural line needs a past tense not yet taught' },
 }

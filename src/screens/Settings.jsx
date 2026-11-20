@@ -1,11 +1,11 @@
 import { play } from '../lib/audio.js'
-import Logo from './Logo.jsx'
+import Logo from '../components/Logo.jsx'
 import { IconBack, IconSpeaker } from './icons.jsx'
 import { useEffect, useState } from 'react'
 import { explainReady } from '../lib/explain.js'
 import NeedsSetup from './NeedsSetup.jsx'
 import { TL, course } from '../lib/course.js'
-import { FlagRow } from './Languages.jsx'
+import { FlagRow } from '../components/FlagRow.jsx'
 import { can } from '../lib/auth/config.js'
 
 function Segmented({ label, help, value, options, onChange }) {

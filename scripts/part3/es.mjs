@@ -55,7 +55,7 @@ const vocab = [
     grammar: 'Juego tenis, juego básquetbol (in Spain jugar a + the sport); ver la televisión, escuchar la radio; correr: corro',
     words: ['televisión', 'radio', 'revista', 'internet', 'juego', 'tenis', 'baloncesto', 'correr', 'corro', 'esquiar', 'gimnasia'] },
   { unit_id: 'U74', order: 117.2, row: 19, after: 'row 18', title: 'Looks + Character',
-    grammar: 'Ojos azules, ojos verdes: colours take -s or -es in the plural (café, cafés for brown); ser for what someone is like',
+    grammar: 'Ojos azules, ojos verdes: colors take -s or -es in the plural (café, cafés for brown); ser for what someone is like',
     words: ['marrón', 'gris', 'oscuro', 'claros', 'oscuros', 'azules', 'verdes', 'negros', 'marrones', 'bigote', 'gordo', 'gorda', 'lindo', 'linda', 'hermoso', 'hermosa', 'antipático', 'trabajador', 'sociable'] },
   { unit_id: 'U75', order: 119.2, row: 20, after: 'row 19', title: 'Places to Visit',
     grammar: 'Visitar un lugar; el centro de la ciudad; la gente takes a singular verb: la gente es simpática',

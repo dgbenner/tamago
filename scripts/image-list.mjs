@@ -181,7 +181,7 @@ const todo = rows.filter((r) => !r.note.startsWith('done'))
 const out = [
   '# Pictures for Pick the Picture',
   '',
-  `November 10, 2026. Every A1 word in French and Spanish that can be pictured (people, food, animals, objects, colours, places, weather). ${todo.length} rows still need a picture, most-used first; the ${rows.length - todo.length} already in lessons are at the end. Language says who can use the picture: Shared (any course; nearly all of them, even where only one course has the word so far), French or Spanish (food and culture items stay with their own language: croissant is French). A Spanish word on a French row uses that row's picture.`,
+  `November 10, 2026. Every A1 word in French and Spanish that can be pictured (people, food, animals, objects, colors, places, weather). ${todo.length} rows still need a picture, most-used first; the ${rows.length - todo.length} already in lessons are at the end. Language says who can use the picture: Shared (any course; nearly all of them, even where only one course has the word so far), French or Spanish (food and culture items stay with their own language: croissant is French). A Spanish word on a French row uses that row's picture.`,
   '',
   'Left out on purpose: verbs, numbers, days and times, and words a picture can’t tell apart from another in the same set (mère, père, frère, sœur, fils, parents, patron; chambre; chanson; temps, travail, animal). Size and quality adjectives need two pictures to compare, which Pick the Picture doesn’t do.',
   '',
@@ -195,7 +195,7 @@ const out = [
   '',
   '```',
   'Make an icon in exactly the same style as the attached sushi image: a single emoji-style object, softly lit and',
-  'gently glossy, with clean simple shapes, rich natural colours and a soft shadow underneath. Flat emoji style, no',
+  'gently glossy, with clean simple shapes, rich natural colors and a soft shadow underneath. Flat emoji style, no',
   'outlines, no photo realism. Square, 1024 by 1024. Plain white background, nothing else in the frame. The subject',
   'centred and filling about three quarters of the square. No text, no letters, no numbers, no logos, no brand or',
   'cartoon character. People: simple, friendly, neutral faces, plain clothes, no particular celebrity.',

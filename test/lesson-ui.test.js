@@ -50,8 +50,8 @@ test('no other question type uses bubbles', () => {
 })
 test('the logo picture is used by the logo alone', async () => {
   const { readFileSync, readdirSync } = await import('node:fs')
-  const dir = new URL('../src/screens/', import.meta.url)
-  const users = readdirSync(dir).filter((f) => /logo\.webp/.test(readFileSync(new URL(f, dir), 'utf8').replace(/\{\/\*[\s\S]*?\*\/\}/g, '')))
+  // Logo.jsx moved to src/components on the design-system branch; both folders are read (stories aside).
+  const users = ['../src/screens/', '../src/components/'].flatMap((d) => { const dir = new URL(d, import.meta.url); return readdirSync(dir).filter((f) => /\.jsx$/.test(f) && !/\.stories\.jsx$/.test(f)).filter((f) => /logo\.webp/.test(readFileSync(new URL(f, dir), 'utf8').replace(/\{\/\*[\s\S]*?\*\/\}/g, ''))) })
   assert.deepEqual(users, ['Logo.jsx'])
 })
 
@@ -119,4 +119,14 @@ test('speaker pictures are readied ahead, each once, and every one a question ca
   const rec = (speaker) => ({ type: 'QT09', sentence_id: 'S1', audio: { file: '/audio/x.m4a', speaker } })
   for (const sp of ['Aemines4', 'Lilie B. (BiblioCanet66)', 'Aemines2', 'Aemines1', 'nobody']) assert.ok(SPEAKER_IMAGES.includes(speakerFor(rec(sp))))
   for (let i = 0; i < 60; i++) assert.ok(SPEAKER_IMAGES.includes(speakerFor({ type: 'QT09', sentence_id: `S${i}`, audio: { french: 'x' } }, null)))
+})
+
+// Recall fading off on the tree (Dan, 2026-11-16): a finished circle is a full, solid ring and just "Finished"; the
+// look sits behind one switch so it can come back.
+test('a finished circle shows a full ring and "Finished", whatever its recall', () => {
+  const src = readFileSync('src/components/CircleNode.jsx', 'utf8') // moved from src/screens with the design system
+  assert.match(src, /export const RECALL_FADE = false/)
+  assert.match(src, /ringOpacity = \(recall\) => \(!RECALL_FADE \|\| recall == null \? 1/)
+  assert.match(src, /return !RECALL_FADE \|\| recall == null \? 'Finished'/)
+  assert.match(src, /if \(RECALL_FADE && lessonsDone > 0 && recall != null\) parts\.push/)
 })

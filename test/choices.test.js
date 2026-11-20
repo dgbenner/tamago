@@ -16,7 +16,7 @@ import { buildLesson, contentForUnit } from '../src/lib/lesson.js'
 import { accentKey } from '../src/lib/check.js'
 import { checkQuestion, loadCourse, seeded, treeOrder } from './lib/choices-shared.mjs'
 
-const COURSES = ['content', 'content-it'].map((dir) => ({ dir, t: loadCourse(dir) }))
+const COURSES = ['content', 'content-it', 'content-pt'].map((dir) => ({ dir, t: loadCourse(dir) }))
 
 // Forced case (Dan, 2026-11-14): with a/à, ou/où and la/là as contrast sets, the engine's favourite source of wrong
 // blank choices and chips, every French circle still never offers two forms one accent apart.
@@ -49,4 +49,19 @@ test('Italian da and dà never share a board or a set of pictures', async () => 
   const keys = q.pairs.map((p) => accentKey(p.form, 'fr'))
   assert.equal(new Set(keys).size, keys.length, `board ${q.pairs.map((p) => p.form)}`)
   assert.ok(q.pairs.length >= 4)
+})
+
+// Dan, 2026-11-19 (Fable's Portuguese review): the pairs one accent apart never share a board or a set of pictures.
+test('Portuguese dá and da, avô and avó, pais and país, porquê and porque never share a board', async () => {
+  const { makeMatchPairs } = await import('../src/lib/lesson.js')
+  const { t } = COURSES.find((x) => x.dir === 'content-pt')
+  for (const [a, b] of [['dá', 'da'], ['avô', 'avó'], ['pais', 'país'], ['porquê', 'porque']]) {
+    const wa = t.words.find((w) => w.form === a), wb = t.words.find((w) => w.form === b)
+    assert.ok(wa && wb, `the Portuguese course teaches ${a} and ${b}`)
+    const c = contentForUnit(t, wa.first_unit)
+    const others = t.words.filter((w) => w.hint && ![a, b].includes(w.form)).slice(0, 3)
+    const q = makeMatchPairs(c, [wa, wb, ...others], 1, seeded(5))
+    const keys = q.pairs.map((p) => accentKey(p.form, 'fr'))
+    assert.equal(new Set(keys).size, keys.length, `board ${q.pairs.map((p) => p.form)}`)
+  }
 })

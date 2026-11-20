@@ -1,0 +1,18 @@
+/* The app locks the page like a phone app (src/index.css: no page scroll, no text selection). Stories keep that;
+   documentation pages are for reading, so they scroll and their text can be selected. */
+html:has(#storybook-docs:not([hidden])),
+html:has(#storybook-docs:not([hidden])) body {
+  height: auto;
+  overflow: auto;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* In the app, #root fills the screen and is the one thing that scrolls (src/index.css). Storybook's root does the
+   same, so a tall story scrolls as a tall page does in the app. */
+#storybook-root {
+  position: fixed;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior: none;
+}

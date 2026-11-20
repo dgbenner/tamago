@@ -23,7 +23,7 @@
   --disc: #f6efe0;
   --focus: #1c1a17; /* the ink, so the ring is the app's own, not the browser's blue (craft review 2026-11-10) */
   --field: #979287;
-  /* Toasts (Dan, 2026-11-11): one plain colour per kind, a pale fill with dark text of the same hue. */
+  /* Toasts (Dan, 2026-11-11): one plain color per kind, a pale fill with dark text of the same hue. */
   --toast-info-bg: #e7effc; --toast-info-ink: #1d4785;
   --toast-success-bg: #e3f3e8; --toast-success-ink: #145c33;
   --toast-warning-bg: #fdf1d8; --toast-warning-ink: #7a4b00;
@@ -49,7 +49,6 @@
     --focus: #8ab4ff;
     --field: #6a6660;
     --ring: #22b573;
-  --electric: #5c9bff;
     --electric: #5c9bff;
     --toast-info-bg: #1b2a40; --toast-info-ink: #b9d2ff;
     --toast-success-bg: #15301f; --toast-success-ink: #a6e6bd;
@@ -76,6 +75,7 @@
   --focus: #8ab4ff;
   --field: #6a6660;
   --ring: #22b573;
+  --electric: #5c9bff;
   --toast-info-bg: #1b2a40; --toast-info-ink: #b9d2ff;
   --toast-success-bg: #15301f; --toast-success-ink: #a6e6bd;
   --toast-warning-bg: #3a2c10; --toast-warning-ink: #f5d38a;
@@ -177,7 +177,7 @@ button.chip-drag {
   .btn-primary {
     @apply min-h-12 rounded-xl bg-green px-4 font-semibold text-white disabled:bg-line disabled:text-muted;
   }
-  /* Yellow is the primary colour: Start or Resume on home, and Check in a lesson. */
+  /* Yellow is the primary color: Start or Resume on home, and Check in a lesson. */
   .btn-submit {
     @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:bg-line disabled:text-muted;
   }
@@ -187,7 +187,7 @@ button.chip-drag {
   .icon-btn {
     @apply inline-flex h-11 w-11 items-center justify-center rounded-xl;
   }
-  /* The border is always 4px, so a state change only recolours it and nothing moves. */
+  /* The border is always 4px, so a state change only recolors it and nothing moves. */
   .choice {
     @apply min-h-12 rounded-xl border-4 border-line bg-surface px-4 py-2.5 text-left text-lg;
   }
@@ -280,20 +280,34 @@ button.chip-drag {
     transition-duration: 30ms;
   }
   /* Opening screen (Dan, 2026-11-13): a gauze curtain over the home screen, which is already drawn underneath: the page
-     colour at --gauze opacity, with a fine woven-dot texture. Leaving, the logo and version fade in 180 ms while the
+     color at --gauze opacity, with a fine woven-dot texture. Leaving, the logo and version fade in 180 ms while the
      curtain itself is handed to the halftone canvas (Splash.jsx halftoneOut), and taps already reach the home screen. */
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center;
-    /* the page colour with a faint ink tint, so the halftone dots read against the home screen as they shrink */
-    background-color: color-mix(in srgb, color-mix(in srgb, var(--bg) 90%, var(--ink)) calc(var(--gauze, 0.84) * 100%), transparent);
   }
-  .splash::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
+  /* Two layers under the logo. The tint: the page color with a faint ink tint at --gauze, so the home screen shows
+     through, with a fine woven-dot texture (and the halftone dots read against the home screen as they shrink).
+     Coming on (Dan, 2026-11-19): the tint fades in quickly over the base, plain page color that hides the home
+     screen; then the base fades and the tree shows through. Both are opacity only, so they keep moving while the
+     home screen is still being built underneath. */
+  .splash-tint, .splash-base { position: absolute; inset: 0; pointer-events: none; }
+  .splash-base { background-color: var(--bg); opacity: 0; }
+  .splash-tint {
+    background-color: color-mix(in srgb, color-mix(in srgb, var(--bg) 90%, var(--ink)) calc(var(--gauze, 0.84) * 100%), transparent);
     background-image: radial-gradient(circle at center, color-mix(in srgb, var(--ink) 9%, transparent) 0 0.8px, transparent 1.3px);
     background-size: 5px 5px;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    /* the halftone dots bring the tint on (Splash.jsx halftoneIn); its layer shows once they cover the screen */
+    .splash:not(.splash-covered) > .splash-tint { opacity: 0; }
+    .splash-base { opacity: 1; }
+    .splash-covered > .splash-base { animation: splash-base-out 280ms ease-out both; }
+    /* leaving, the halftone canvas takes the tint over at once, so the two never stack */
+    .splash.splash-leaving > .splash-tint { transition: none; }
+  }
+  @keyframes splash-base-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
   }
   .splash-dots {
     position: absolute;
@@ -303,11 +317,10 @@ button.chip-drag {
     pointer-events: none;
   }
   .splash.splash-leaving {
-    background-color: transparent;
     pointer-events: none;
   }
-  .splash.splash-leaving::before,
   .splash.splash-leaving > :not(.splash-dots) {
+    animation: none;
     opacity: 0;
     transition: opacity 180ms ease-out;
   }
@@ -321,8 +334,37 @@ button.chip-drag {
     stroke-dashoffset: 1.01;
     animation: splash-draw 300ms linear both;
   }
+  /* The drop (Dan, 2026-11-19, after the dashboard's sushi hop, only its coming-down half): the wordmark falls from
+     above the screen soon after the curtain appears and lands with a little squash from its bottom edge, its shadow
+     growing as it nears and spreading as it lands; the sushi starts falling as the wordmark lands and does the same.
+     Off under reduced motion (everything rests in place, shadows included). */
+  .splash-shadow {
+    position: absolute;
+    left: 50%;
+    width: 70%;
+    translate: -50% 0;
+    border-radius: 9999px;
+    background: radial-gradient(closest-side, rgb(0 0 0 / 0.24), transparent); /* black in both themes (Dan, 2026-11-19) */
+    filter: blur(2px);
+    pointer-events: none;
+  }
+  .splash-shadow-wm { bottom: -0.25rem; height: 0.7rem; }
+  .splash-shadow-sushi { bottom: 4%; height: 0.6rem; width: 66%; }
+  .splash-land { transform-origin: 50% 100%; }
+  @media (prefers-reduced-motion: no-preference) {
+    .splash-fall-wm { animation: splash-fall-wm 2170ms linear -300ms both; }
+    .splash-fall-wm > .splash-land { animation: splash-squash 400ms ease-out 1570ms both; }
+    .splash-fall-wm > .splash-shadow { animation: splash-shadow-near 1870ms cubic-bezier(0.55, 0, 1, 0.45) -300ms both, splash-shadow-spread 400ms ease-out 1570ms, splash-shadow-ground-wm 2170ms linear -300ms both; }
+    .splash-fall-sushi { animation: splash-fall-sushi 1530ms linear 700ms both; }
+    .splash-fall-sushi > .splash-land { animation: splash-squash 380ms ease-out 1970ms both; }
+    .splash-fall-sushi > .splash-shadow { animation: splash-shadow-near 1270ms cubic-bezier(0.55, 0, 1, 0.45) 700ms both, splash-shadow-spread 380ms ease-out 1970ms, splash-shadow-ground-sushi 1530ms linear 700ms both; }
+    /* First launch (Dan, 2026-11-19): once the sushi is down, the flags fade up quickly in a gentle ripple, and
+       "Choose Your Language" follows just behind them. */
+    .splash-choose li { animation: splash-rise 360ms ease-out both; animation-delay: calc(1970ms - var(--since, 0ms) + var(--i, 0) * 35ms); }
+    .splash-choose h1 { animation: splash-rise 420ms ease-out calc(2270ms - var(--since, 0ms)) both; }
+  }
   /* Toasts (Dan, 2026-11-11): at the top of the screen, sliding down, held about 3 seconds, then sliding back up.
-     One container, one plain colour per kind: info, success, warning, error. */
+     One container, one plain color per kind: info, success, warning, error. */
   .toast-region {
     @apply pointer-events-none fixed inset-x-0 top-0 z-40 flex justify-center px-4 pt-[max(0.75rem,env(safe-area-inset-top))];
   }
@@ -334,7 +376,10 @@ button.chip-drag {
   .toast-success { background: var(--toast-success-bg); color: var(--toast-success-ink); border-color: color-mix(in srgb, var(--toast-success-ink) 25%, transparent); }
   .toast-warning { background: var(--toast-warning-bg); color: var(--toast-warning-ink); border-color: color-mix(in srgb, var(--toast-warning-ink) 25%, transparent); }
   /* Ahead of the learner (no locks, Dan 2026-11-15): faded and desaturated, still tappable. */
-  .circle-early .circle-disc, .circle-early > span, .part-early { opacity: 0.55; filter: saturate(0.15); }
+  .circle-early .circle-disc, .circle-early > span, .part-early, .tree-early { opacity: 0.55; filter: saturate(0.15); }
+  /* A faded Brush-Up keeps its number at full strength (Dan, 2026-11-18): the fade moves from the disc to what's in it. */
+  .circle-early .circle-disc:has(> [data-badge]) { opacity: 1; filter: none; }
+  .circle-early .circle-disc:has(> [data-badge]) > :not([data-badge]) { opacity: 0.55; filter: saturate(0.15); }
   /* A passed lesson (Dan, 2026-11-15): green with white text, larger, so it reads at a glance; #15803d on white text is
      5.0:1 (AA), the same in both themes. */
   .toast-pass { background: #15803d; color: #fff; border-color: #116b33; @apply text-base font-semibold; }
@@ -552,6 +597,51 @@ button.chip-drag {
 @keyframes splash-line-in {
   from { opacity: 0; }
 }
+@keyframes splash-rise {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+/* Falling with weight (Dan, 2026-11-19): gravity on the way down (an ease-in), the landing at the same moment as
+   before, then a small rebound, up a few pixels and down again, while the squash plays. Wordmark: lands at 1870 of
+   2170 ms; sushi: at 1270 of 1530 ms. */
+@keyframes splash-fall-wm {
+  0% { transform: translateY(-110vh); animation-timing-function: cubic-bezier(0.5, 0, 0.88, 0.5); }
+  86.2% { transform: none; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
+  93% { transform: translateY(-12px); animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
+  100% { transform: none; }
+}
+/* the shadow stays on the ground while its object rebounds (it sits inside the falling wrapper) */
+@keyframes splash-shadow-ground-wm {
+  0%, 86.2% { translate: -50% 0; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
+  93% { translate: -50% 12px; animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
+  100% { translate: -50% 0; }
+}
+@keyframes splash-shadow-ground-sushi {
+  0%, 83% { translate: -50% 0; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
+  91.5% { translate: -50% 10px; animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
+  100% { translate: -50% 0; }
+}
+@keyframes splash-fall-sushi {
+  0% { transform: translateY(-110vh); animation-timing-function: cubic-bezier(0.5, 0, 0.88, 0.5); }
+  83% { transform: none; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
+  91.5% { transform: translateY(-10px); animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
+  100% { transform: none; }
+}
+@keyframes splash-squash {
+  0% { transform: none; }
+  30% { transform: scale(1.06, 0.86); }
+  65% { transform: scale(0.98, 1.04); }
+  100% { transform: none; }
+}
+@keyframes splash-shadow-near {
+  from { transform: scale(0.2); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+@keyframes splash-shadow-spread {
+  0% { transform: none; }
+  30% { transform: scale(1.14, 1); }
+  100% { transform: none; }
+}
 @keyframes splash-draw {
   to { stroke-dashoffset: 0; }
 }
@@ -614,20 +704,32 @@ button.chip-drag {
 .circle-icons .note-icon svg { width: var(--ci-svg); height: var(--ci-svg); }
 .note-icon { transition: color 120ms ease-out, opacity 120ms ease-out, transform 120ms ease-out; }
 .carousel-arrow { transition: transform 120ms ease-out, background-color 120ms ease-out, box-shadow 120ms ease-out; }
+/* Language flags (Dan, 2026-11-19): a live course lifts and its flag grows on hover, its name darkens; a Coming Soon
+   one only brightens a little. Every flag presses in. */
+.flag-pick { transition: translate 160ms ease-out, opacity 160ms ease-out; }
+.flag-pick img { transition: transform 200ms cubic-bezier(0.2, 1.6, 0.45, 1); }
+.flag-pick span { transition: color 160ms ease-out; }
 @media (hover: hover) {
   .circle-node:not([data-state='locked']):hover .circle-disc { transform: scale(1.06); transition: transform 160ms ease-out; }
   .circle-node:not([data-state='locked']):hover .circle-track { stroke: color-mix(in srgb, var(--ring) 45%, var(--line)); transition: stroke 160ms ease-out; }
   .note-icon:hover { color: var(--electric); opacity: 1; }
   .tree-pill[data-live]:hover { border-color: var(--ring); background-color: var(--surface); }
   .carousel-arrow:not(:disabled):hover { background-color: color-mix(in srgb, var(--surface) 90%, var(--ink)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.22); }
+  .flag-pick[data-ready]:hover { translate: 0 -3px; }
+  .flag-pick[data-ready]:hover img { transform: scale(1.08); }
+  .flag-pick[data-ready]:hover span { color: var(--ink); }
+  .flag-pick:not([data-ready]):hover { opacity: 0.55; }
   .btn-submit:not(:disabled):hover { background-color: color-mix(in srgb, var(--accent) 88%, var(--ink)); }
 }
 .circle-node:not([data-state='locked']):active .circle-disc { transform: scale(0.97); transition-duration: 40ms; }
 .note-icon:active { transform: scale(0.88); color: var(--electric); opacity: 1; transition-duration: 40ms; }
 .tree-pill[data-live]:active { transform: scale(0.95); transition-duration: 40ms; }
 .carousel-arrow:not(:disabled):active { transform: scale(0.9); transition-duration: 40ms; }
+.flag-pick:active img { transform: scale(0.92); transition: transform 50ms ease-out; }
 @media (prefers-reduced-motion: reduce) {
-  .circle-node .circle-disc, .note-icon, .tree-pill, .carousel-arrow { transition: none; }
+  .circle-node .circle-disc, .note-icon, .tree-pill, .carousel-arrow, .flag-pick, .flag-pick img { transition: none; }
+  .flag-pick[data-ready]:hover { translate: none; }
+  .flag-pick:hover img, .flag-pick:active img { transform: none; }
   .circle-node:not([data-state='locked']):hover .circle-disc, .circle-node:not([data-state='locked']):active .circle-disc,
   .note-icon:active, .tree-pill[data-live]:active, .carousel-arrow:not(:disabled):active { transform: none; }
 }

@@ -107,7 +107,12 @@ async function italian(lemma) {
 
 // Brazilian Portuguese (2026-11-14): {{pt-conj}} as written on the verb's page. The course's persons: eu, você with
 // ele and ela, nós, vocês with eles and elas (no tu, no vós).
+// Impersonal verbs (Fable, 2026-11-19): chove, neva and há are the only forms a learner meets, so no table, and the
+// Glossary hint says so. The você command (vire, pare, siga: the present subjunctive's third person) joins each table
+// as its last row, so the Glossary shows it its table and the trainer asks for it.
+const PT_IMPERSONAL = new Set(['chover', 'nevar', 'haver'])
 async function portuguese(lemma) {
+  if (PT_IMPERSONAL.has(lemma)) return null
   const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
   const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
   const template = section.match(/\{\{pt-conj(?:\|[^{}]*)?\}\}/)?.[0]
@@ -118,6 +123,11 @@ async function portuguese(lemma) {
   if (at < 0 || row?.[0] !== 'Present' || row.length < 7) return null
   const cell = (i) => row[i].split(/\s*[,/]\s*/)[0].replace(/\s+\d+$/, '').trim()
   const out = [['eu', 1], ['você, ele, ela', 3], ['nós', 4], ['vocês, eles, elas', 6]].map(([person, i]) => ({ person, form: cell(i) }))
+  const sub = rows.findIndex((row) => row[0] === 'Subjunctive'), subRow = rows[sub + 1]
+  if (sub >= 0 && subRow?.[0] === 'Present' && subRow.length >= 4) {
+    const cmd = subRow[3].split(/\s*[,/]\s*/)[0].replace(/\s+\d+$/, '').trim()
+    if (cmd && !/[{}<>—]/.test(cmd)) out.push({ person: 'você (imperativo)', form: cmd })
+  }
   return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
 }
 

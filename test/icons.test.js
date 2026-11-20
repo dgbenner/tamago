@@ -1,6 +1,6 @@
 // Tree pictures (Dan, 2026-11-11), against what each course ships, in screen order (tree rows left to right, each
 // Catch-Up after its row): every picture exists and comes from the sushi catalog; no image twice in a part or across
-// a part boundary; no two similar colours side by side (red, orange and pink are one tone); help circles in the three
+// a part boundary; no two similar colors side by side (red, orange and pink are one tone); help circles in the three
 // rolls, in order, and nothing else in them; Pick Your Own wears a misc dish; no dessert and no logo on the tree.
 // Rules: _source/sushi-catalog.md, scripts/assign-icons.mjs.
 import test from 'node:test'
@@ -59,7 +59,7 @@ for (const dir of ['src/content', 'src/content-es', 'src/content-de', 'src/conte
     }
   })
 
-  test(`${dir}: no two similar colours side by side`, () => {
+  test(`${dir}: no two similar colors side by side`, () => {
     const path = parts.flat()
     for (let i = 1; i < path.length; i++) {
       const [a, b] = [bySlug.get(path[i - 1].slug), bySlug.get(path[i].slug)]

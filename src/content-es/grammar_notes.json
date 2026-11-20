@@ -1,7 +1,7 @@
 [
   {
     "unit_id": "U01",
-    "rule": "Soy is how you say who you are, and eres is how you say who someone you know well is: both are forms of ser, the verb for who or what someone is. Every noun is masculine or feminine: un goes with a masculine noun (un hombre, un niño), una with a feminine one (una mujer, una niña). To say not, put no before the verb.",
+    "rule": "**Soy** is how you say who you are. **Eres** is how you say who someone you know well is. Both are forms of **ser**, the verb for who or what someone is.\n\nEvery noun is masculine or feminine. **Un** goes with a masculine noun (**un hombre**, **un niño**), **una** with a feminine one (**una mujer**, **una niña**).\n\nTo say not, put **no** before the verb.",
     "example_sentence_ids": "S1004;S1015;S1029",
     "conjugation_lemma": "ser",
     "status": "live",
@@ -41,7 +41,7 @@
   },
   {
     "unit_id": "U02",
-    "rule": "El and la mean the: el goes with a masculine noun (el libro), la with a feminine one (la casa). Él and ella, with the accent on él, mean he and she. Es is is, the same ser as soy and eres. Este and esta point at a masculine or a feminine noun; esto and eso point at a thing you haven't named yet.",
+    "rule": "**El** and **la** mean the. **El** goes with a masculine noun (**el libro**), **la** with a feminine one (**la casa**).\n\n**Él** and **ella**, with the accent on **él**, mean he and she.\n\n**Es** is is, the same **ser** as **soy** and **eres**.\n\n**Este** and **esta** point at a masculine or a feminine noun. **Esto** and **eso** point at a thing you haven't named yet.",
     "example_sentence_ids": "S2001;S2003;S2016",
     "conjugation_lemma": "ser",
     "status": "live",
@@ -81,7 +81,7 @@
   },
   {
     "unit_id": "U03",
-    "rule": "Tú is for one person you know well; usted is for someone you don't know, or want to be polite to, and takes the same verb as él and ella: ¿Cómo estás? to a friend, ¿Cómo está usted? to a stranger. Estar says how someone is right now: estoy bien, estás bien, está mal. Greetings change with the time of day: buenos días in the morning, buenas tardes in the afternoon, buenas noches in the evening.",
+    "rule": "**Tú** is for one person you know well. **Usted** is for someone you don't know, or want to be polite to, and takes the same verb as **él** and **ella**:\n**¿Cómo estás?** (to a friend)\n**¿Cómo está usted?** (to a stranger)\n\n**Estar** says how someone is right now: **estoy bien**, **estás bien**, **está mal**.\n\nGreetings change with the time of day:\n**buenos días** (in the morning)\n**buenas tardes** (in the afternoon)\n**buenas noches** (in the evening)",
     "example_sentence_ids": "S3004;S3002;S3023",
     "conjugation_lemma": "estar",
     "status": "live",
@@ -121,7 +121,7 @@
   },
   {
     "unit_id": "U04",
-    "rule": "Comer (to eat) and beber (to drink) change their ending for each person: como, comes, come; bebo, bebes, bebe. Spanish needs no word for some: como pan is I eat bread. To say you like something, Spanish says it pleases you: me gusta el queso (I like cheese), te gusta (you like), with el or la before the thing.",
+    "rule": "**Comer** (to eat) and **beber** (to drink) change their ending for each person: **como**, **comes**, **come**; **bebo**, **bebes**, **bebe**.\n\nSpanish needs no word for some: **como pan** is I eat bread.\n\nTo say you like something, Spanish says it pleases you:\n**me gusta el queso** (I like cheese)\n**te gusta** (you like)\nPut **el** or **la** before the thing.",
     "example_sentence_ids": "S4005;S4007;S4008",
     "conjugation_lemma": "comer",
     "status": "live",
@@ -161,7 +161,7 @@
   },
   {
     "unit_id": "U05",
-    "rule": "Tener means to have: tengo (I have), tienes (you have), tiene (he, she or usted has). Spanish often drops the a after no: Tom no tiene gato. Animals are masculine or feminine like any noun: el perro, la tortuga.",
+    "rule": "**Tener** means to have: **tengo** (I have), **tienes** (you have), **tiene** (he, she or **usted** has).\n\nSpanish often drops the a after **no**: **Tom no tiene gato**.\n\nAnimals are masculine or feminine like any noun: **el perro**, **la tortuga**.",
     "example_sentence_ids": "S5004;S5002;S5027",
     "conjugation_lemma": "tener",
     "status": "live",
@@ -201,7 +201,7 @@
   },
   {
     "unit_id": "U06",
-    "rule": "For more than one, el becomes los and la becomes las; un becomes unos and una becomes unas (some). Most nouns add -s (libros, casas); a noun ending in a consonant adds -es (mujeres). Adjectives follow: grandes, pequeños. Ser has somos (we are) and son (they are, and ustedes are). In Latin America ustedes is the only you for more than one person, friends or strangers.",
+    "rule": "For more than one, **el** becomes **los** and **la** becomes **las**. **Un** becomes **unos** and **una** becomes **unas** (some).\n\nMost nouns add **-s** (**libros**, **casas**). A noun ending in a consonant adds **-es** (**mujeres**). Adjectives follow: **grandes**, **pequeños**.\n\n**Ser** has **somos** (we are) and **son** (they are, and **ustedes** are).\n\nIn Latin America **ustedes** is the only you for more than one person, friends or strangers.",
     "example_sentence_ids": "S6002;S6005;S6101",
     "conjugation_lemma": "ser",
     "status": "live",
@@ -241,7 +241,7 @@
   },
   {
     "unit_id": "U07",
-    "rule": "An adjective agrees with its noun: bueno with a masculine noun, buena with a feminine one (el libro es nuevo, la casa es nueva). An adjective ending in -e or a consonant stays the same (joven, grande). Most come after the noun: una casa nueva. Muy goes before the adjective: muy bueno. También means also or too.",
+    "rule": "An adjective agrees with its noun: **bueno** with a masculine noun, **buena** with a feminine one (**el libro es nuevo**, **la casa es nueva**). An adjective ending in **-e** or a consonant stays the same (**joven**, **grande**).\n\nMost come after the noun: **una casa nueva**.\n\n**Muy** goes before the adjective: **muy bueno**.\n\n**También** means also or too.",
     "example_sentence_ids": "S7029;S7012;S7011",
     "conjugation_lemma": "",
     "status": "live",
@@ -254,7 +254,7 @@
   },
   {
     "unit_id": "U08",
-    "rule": "Estar says where someone or something is: estoy en la cocina, Tom está aquí, están allí. Hay means there is or there are, and it says what exists, usually with un, una or no article: hay un gato en la cocina, hay pan. So: el libro está aquí (the book you know is here), but hay un libro aquí (there's a book here). Aquí is here; allí is there.",
+    "rule": "**Estar** says where someone or something is: **estoy en la cocina**, **Tom está aquí**, **están allí**.\n\n**Hay** means there is or there are. It says what exists, usually with **un**, **una** or no article: **hay un gato en la cocina**, **hay pan**.\n\nSo:\n**el libro está aquí** (the book you know is here)\nbut **hay un libro aquí** (there's a book here)\n\n**Aquí** is here; **allí** is there.",
     "example_sentence_ids": "S8013;S8002;S8030",
     "conjugation_lemma": "estar",
     "status": "live",
@@ -294,7 +294,7 @@
   },
   {
     "unit_id": "U09",
-    "rule": "Spanish has two verbs for to be. Ser says what someone or something is: a name, a job, what kind of thing (soy profesor, eres estudiante, es médico). Estar says how someone is now, or where: estoy cansado, está enferma, estás contento. A job takes no un or una after ser: soy estudiante.",
+    "rule": "Spanish has two verbs for to be.\n\n**Ser** says what someone or something is: a name, a job, what kind of thing (**soy profesor**, **eres estudiante**, **es médico**).\n\n**Estar** says how someone is now, or where: **estoy cansado**, **está enferma**, **estás contento**.\n\nA job takes no **un** or **una** after **ser**: **soy estudiante**.",
     "example_sentence_ids": "S9002;S9010;S9018",
     "conjugation_lemma": "estar",
     "status": "live",
@@ -334,7 +334,7 @@
   },
   {
     "unit_id": "U10",
-    "rule": "Mi, tu and su say whose: mi libro (my book), tu familia (your family), su casa (his, her, its, their or your house, with usted). They add -s before more than one: mis amigos, tus libros, sus perros. Tu without an accent means your; tú with one means you. De says whose with a name: la carta de mi amigo, el amigo de Tom.",
+    "rule": "**Mi**, **tu** and **su** say whose:\n**mi libro** (my book)\n**tu familia** (your family)\n**su casa** (his, her, its, their or your house, with **usted**)\n\nThey add **-s** before more than one: **mis amigos**, **tus libros**, **sus perros**.\n\n**Tu** without an accent means your; **tú** with one means you.\n\n**De** says whose with a name: **la carta de mi amigo**, **el amigo de Tom**.",
     "example_sentence_ids": "S10010;S10007;S10001",
     "conjugation_lemma": "",
     "status": "live",
@@ -347,7 +347,7 @@
   },
   {
     "unit_id": "U11",
-    "rule": "A question word carries an accent: qué (what), quién (who), dónde (where), cuál (which), por qué (why). A written question opens with ¿ and closes with ?. The answer to por qué uses porque, one word and no accent: because. De dónde asks where from: ¿De dónde eres?",
+    "rule": "A question word carries an accent: **qué** (what), **quién** (who), **dónde** (where), **cuál** (which), **por qué** (why).\n\nA written question opens with **¿** and closes with **?**.\n\nThe answer to **por qué** uses **porque**, one word and no accent: because.\n\n**De dónde** asks where from: **¿De dónde eres?**",
     "example_sentence_ids": "S11002;S11003;S11022",
     "conjugation_lemma": "",
     "status": "live",
@@ -360,7 +360,7 @@
   },
   {
     "unit_id": "U12",
-    "rule": "Numbers two to ten come before the noun and never change: dos libros, tres perros, diez amigos. Cuántos asks how many with a masculine noun, cuántas with a feminine one: ¿Cuántos libros tienes? ¿Cuántas manzanas hay? Hay, there is or there are, counts what there is: hay tres gatos.",
+    "rule": "Numbers two to ten come before the noun and never change: **dos libros**, **tres perros**, **diez amigos**.\n\n**Cuántos** asks how many with a masculine noun, **cuántas** with a feminine one:\n**¿Cuántos libros tienes?**\n**¿Cuántas manzanas hay?**\n\n**Hay**, there is or there are, counts what there is: **hay tres gatos**.",
     "example_sentence_ids": "S12009;S12007;S12004",
     "conjugation_lemma": "",
     "status": "live",
@@ -373,7 +373,7 @@
   },
   {
     "unit_id": "U13",
-    "rule": "Colours come after the noun: una casa roja, un perro negro. Most agree like any adjective: rojo and roja, negro and negra, blanco and blanca, amarillo and amarilla. Azul and verde stay the same with any noun. To ask a colour: ¿De qué color es?",
+    "rule": "Colors come after the noun: **una casa roja**, **un perro negro**.\n\nMost agree like any adjective: **rojo** and **roja**, **negro** and **negra**, **blanco** and **blanca**, **amarillo** and **amarilla**. **Azul** and **verde** stay the same with any noun.\n\nTo ask a color: **¿De qué color es?**",
     "example_sentence_ids": "S13023;S13022;S13028",
     "conjugation_lemma": "",
     "status": "live",
@@ -386,7 +386,7 @@
   },
   {
     "unit_id": "U14",
-    "rule": "Time words: hoy (today), mañana (tomorrow), ahora (now). Days of the week have no capital letter: lunes, sábado, domingo. El before a day means on that day: el domingo estoy en casa. Hoy es lunes says what day it is.",
+    "rule": "Time words: **hoy** (today), **mañana** (tomorrow), **ahora** (now).\n\nDays of the week have no capital letter: **lunes**, **sábado**, **domingo**.\n\n**El** before a day means on that day: **el domingo estoy en casa**.\n\n**Hoy es lunes** says what day it is.",
     "example_sentence_ids": "S14002;S14003;S14007",
     "conjugation_lemma": "",
     "status": "live",
@@ -399,7 +399,7 @@
   },
   {
     "unit_id": "U15",
-    "rule": "Ir means to go: voy (I go), vas (you go), va (he, she or usted goes). Where to comes after a: voy a la escuela. A and el join into al: voy al parque, not a el. Estar still says where something is: ¿Dónde está la escuela?",
+    "rule": "**Ir** means to go: **voy** (I go), **vas** (you go), **va** (he, she or **usted** goes).\n\nWhere to comes after **a**: **voy a la escuela**. **A** and **el** join into **al**: **voy al parque**, not **a el**.\n\n**Estar** still says where something is: **¿Dónde está la escuela?**",
     "example_sentence_ids": "S15003;S15006;S15024",
     "conjugation_lemma": "ir",
     "status": "live",
@@ -439,7 +439,7 @@
   },
   {
     "unit_id": "U31",
-    "rule": "Three phrases keep a conversation going when you're lost. No entiendo: I don't understand. Más despacio, por favor: more slowly, please. Repite, por favor: please repeat. Use the usted forms (hable, repita) with someone you don't know, the tú forms (habla, repite) with a friend. Otra vez is again.",
+    "rule": "Three phrases keep a conversation going when you're lost:\n**No entiendo** (I don't understand)\n**Más despacio, por favor** (more slowly, please)\n**Repite, por favor** (please repeat)\n\nUse the **usted** forms (**hable**, **repita**) with someone you don't know, the **tú** forms (**habla**, **repite**) with a friend.\n\n**Otra vez** is again.",
     "example_sentence_ids": "S31020;S31001;S31101",
     "conjugation_lemma": "",
     "status": "live",
@@ -452,7 +452,7 @@
   },
   {
     "unit_id": "U32",
-    "rule": "Two questions get you a word you don't know. ¿Qué significa …? or ¿Qué quiere decir …? asks what something means (querer decir, literally to want to say, is to mean). ¿Cómo se dice … en español? asks how to say something: se dice is one says. Español and inglés name the languages, with no capital letter.",
+    "rule": "Two questions get you a word you don't know.\n\n**¿Qué significa …?** or **¿Qué quiere decir …?** asks what something means. **Querer decir**, literally to want to say, is to mean.\n\n**¿Cómo se dice … en español?** asks how to say something. **Se dice** is one says.\n\n**Español** and **inglés** name the languages, with no capital letter.",
     "example_sentence_ids": "S32001;S32002;S32101",
     "conjugation_lemma": "",
     "status": "live",
@@ -465,7 +465,7 @@
   },
   {
     "unit_id": "U33",
-    "rule": "When the word won't come, talk around it. Busco la palabra: I'm looking for the word. Es una cosa para el agua: it's a thing for water (para is for). ¿Para qué sirve? asks what something is for; sirve para answers it. ¿Cómo se llama esto? asks what something is called. And No sé, I don't know, is always allowed.",
+    "rule": "When the word won't come, talk around it:\n**Busco la palabra** (I'm looking for the word)\n**Es una cosa para el agua** (it's a thing for water; **para** is for)\n\n**¿Para qué sirve?** asks what something is for; **sirve para** answers it.\n\n**¿Cómo se llama esto?** asks what something is called.\n\nAnd **No sé**, I don't know, is always allowed.",
     "example_sentence_ids": "S33101;S33104;S33001",
     "conjugation_lemma": "",
     "status": "live",
@@ -478,7 +478,7 @@
   },
   {
     "unit_id": "U51",
-    "rule": "Adjectives agree: él es guapo, ella es guapa; simpático, simpática. Tener for features: tengo las manos pequeñas",
+    "rule": "Adjectives agree: **él es guapo**, **ella es guapa**; **simpático**, **simpática**.\n\n**Tener** for features: **tengo las manos pequeñas**",
     "example_sentence_ids": "S51011;S51025;S51006;S51017",
     "conjugation_lemma": "",
     "status": "live",
@@ -492,7 +492,7 @@
   },
   {
     "unit_id": "U52",
-    "rule": "Me gusta + a verb: me gusta nadar, me gusta bailar. -er verbs: leo, lee; jugar: juega",
+    "rule": "**Me gusta** + a verb: **me gusta nadar**, **me gusta bailar**.\n\n**-er** verbs: **leo**, **lee**; **jugar**: **juega**",
     "example_sentence_ids": "S52011;S52020;S52013;S52017",
     "conjugation_lemma": "leer",
     "status": "live",
@@ -533,7 +533,7 @@
   },
   {
     "unit_id": "U53",
-    "rule": "En autobús, en tren, en taxi: en for how you travel; voy al cine, a la estación; con (with)",
+    "rule": "**En autobús**, **en tren**, **en taxi**: **en** for how you travel; **voy al cine**, **a la estación**; **con** (with)",
     "example_sentence_ids": "S53016;S53017;S53003;S53005",
     "conjugation_lemma": "",
     "status": "live",
@@ -547,7 +547,7 @@
   },
   {
     "unit_id": "U41",
-    "rule": "To ask a name: ¿Cómo te llamas? to a friend, ¿Cómo se llama usted? politely (usted takes the él form). Mi nombre es … and me llamo … both give your name; apellido is the last name. On meeting someone, a man says encantado and a woman says encantada.",
+    "rule": "To ask a name:\n**¿Cómo te llamas?** (to a friend)\n**¿Cómo se llama usted?** (politely; **usted** takes the **él** form)\n\n**Mi nombre es …** and **me llamo …** both give your name. **Apellido** is the last name.\n\nOn meeting someone, a man says **encantado** and a woman says **encantada**.",
     "example_sentence_ids": "S41109;S41014;S41105",
     "conjugation_lemma": "llamarse",
     "status": "live",
@@ -587,7 +587,7 @@
   },
   {
     "unit_id": "U54",
-    "rule": "Llevar is the verb for what you wear: llevo lentes, ¿llevas zapatos?, María lleva un vestido. La ropa means clothes and is always singular: ¿Dónde está mi ropa? Pantalones and zapatos come in the plural.",
+    "rule": "**Llevar** is the verb for what you wear: **llevo lentes**, **¿llevas zapatos?**, **María lleva un vestido**.\n\n**La ropa** means clothes and is always singular: **¿Dónde está mi ropa?**\n\n**Pantalones** and **zapatos** come in the plural.",
     "example_sentence_ids": "S54101;S54102;S54103",
     "conjugation_lemma": "llevar",
     "status": "live",
@@ -627,7 +627,7 @@
   },
   {
     "unit_id": "U34",
-    "rule": "To ask how a word is spelled: ¿Cómo se escribe? To ask someone to spell it: ¿Puede deletrear …? (usted) or ¿Puedes deletrear …? (tú). Poder is followed straight by the verb: puedo leer, puede escribir.",
+    "rule": "To ask how a word is spelled: **¿Cómo se escribe?**\n\nTo ask someone to spell it:\n**¿Puede deletrear …?** (**usted**)\n**¿Puedes deletrear …?** (**tú**)\n\n**Poder** is followed straight by the verb: **puedo leer**, **puede escribir**.",
     "example_sentence_ids": "S34101;S34001;S34103",
     "conjugation_lemma": "poder",
     "status": "live",
@@ -667,7 +667,7 @@
   },
   {
     "unit_id": "U42",
-    "rule": "Numbers 0 to 20: cero, uno … diez, once, doce, trece, catorce, quince, then dieciséis to diecinueve as one word each, and veinte. Phone numbers are often read in pairs: cero, once, quince. To ask for a number: ¿Cuál es tu número? (tú) or ¿Cuál es su número? (usted).",
+    "rule": "Numbers 0 to 20: **cero**, **uno** … **diez**, **once**, **doce**, **trece**, **catorce**, **quince**, then **dieciséis** to **diecinueve** as one word each, and **veinte**.\n\nPhone numbers are often read in pairs: **cero**, **once**, **quince**.\n\nTo ask for a number:\n**¿Cuál es tu número?** (**tú**)\n**¿Cuál es su número?** (**usted**)",
     "example_sentence_ids": "S42005;S42101;S42107",
     "conjugation_lemma": "",
     "status": "live",
@@ -680,7 +680,7 @@
   },
   {
     "unit_id": "U43",
-    "rule": "Spanish gives age with tener: tengo veinte años, ¿cuántos años tienes? (literally how many years do you have). ¿Cuál es tu edad? asks the same thing. On someone's birthday: ¡Feliz cumpleaños!",
+    "rule": "Spanish gives age with **tener**:\n**tengo veinte años**\n**¿cuántos años tienes?** (literally how many years do you have)\n\n**¿Cuál es tu edad?** asks the same thing.\n\nOn someone's birthday: **¡Feliz cumpleaños!**",
     "example_sentence_ids": "S43101;S43102;S43008",
     "conjugation_lemma": "tener",
     "status": "live",
@@ -720,7 +720,7 @@
   },
   {
     "unit_id": "U55",
-    "rule": "Classroom words: la clase, la pregunta, la página, el papel, el lápiz. Estudiar is a regular -ar verb (estudio, estudias, estudia); aprender is an -er verb (aprendo, aprendes). Me gusta + a verb: me gusta estudiar, me gusta aprender español.",
+    "rule": "Classroom words: **la clase**, **la pregunta**, **la página**, **el papel**, **el lápiz**.\n\n**Estudiar** is a regular **-ar** verb (**estudio**, **estudias**, **estudia**). **Aprender** is an **-er** verb (**aprendo**, **aprendes**).\n\n**Me gusta** + a verb: **me gusta estudiar**, **me gusta aprender español**.",
     "example_sentence_ids": "S55103;S55104;S55105",
     "conjugation_lemma": "estudiar",
     "status": "live",
@@ -760,7 +760,7 @@
   },
   {
     "unit_id": "U35",
-    "rule": "To check a number: ¿Puede repetir? (usted) or ¿Puedes repetir? (tú). To ask for time: Un momento, por favor, or Espera (tú). To confirm: Es correcto, or Sí, es correcto.",
+    "rule": "To check a number:\n**¿Puede repetir?** (**usted**)\n**¿Puedes repetir?** (**tú**)\n\nTo ask for time: **Un momento, por favor**, or **Espera** (**tú**).\n\nTo confirm: **Es correcto**, or **Sí, es correcto**.",
     "example_sentence_ids": "S35101;S35001;S35102",
     "conjugation_lemma": "",
     "status": "live",
@@ -773,7 +773,7 @@
   },
   {
     "unit_id": "U44",
-    "rule": "The tens: treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien. Between a ten and a unit comes y: treinta y uno, ochenta y cinco. Cien is a hundred exactly.",
+    "rule": "The tens: **treinta**, **cuarenta**, **cincuenta**, **sesenta**, **setenta**, **ochenta**, **noventa**, **cien**.\n\nBetween a ten and a unit comes **y**: **treinta y uno**, **ochenta y cinco**.\n\n**Cien** is a hundred exactly.",
     "example_sentence_ids": "S44101;S44107;S44109",
     "conjugation_lemma": "",
     "status": "live",
@@ -786,7 +786,7 @@
   },
   {
     "unit_id": "U45",
-    "rule": "Vivir is a regular -ir verb: vivo, vives, vive. Where you live takes en: vivo en un departamento. Cerca de and lejos de say how near or far: vivo lejos de aquí.",
+    "rule": "**Vivir** is a regular **-ir** verb: **vivo**, **vives**, **vive**.\n\nWhere you live takes **en**: **vivo en un departamento**.\n\n**Cerca de** and **lejos de** say how near or far: **vivo lejos de aquí**.",
     "example_sentence_ids": "S45301;S45009;S45012",
     "conjugation_lemma": "vivir",
     "status": "live",
@@ -826,7 +826,7 @@
   },
   {
     "unit_id": "U56",
-    "rule": "Ser describes what someone is like: es alto, es baja, es moreno. Adjectives agree: alto, alta; delgado, delgada. Inteligente is the same for both. Tener gives features: tiene barba, tiene el pelo largo.",
+    "rule": "**Ser** describes what someone is like: **es alto**, **es baja**, **es moreno**.\n\nAdjectives agree: **alto**, **alta**; **delgado**, **delgada**. **Inteligente** is the same for both.\n\n**Tener** gives features: **tiene barba**, **tiene el pelo largo**.",
     "example_sentence_ids": "S56102;S56104;S56106",
     "conjugation_lemma": "",
     "status": "live",
@@ -839,7 +839,7 @@
   },
   {
     "unit_id": "U46",
-    "rule": "Ser de gives where someone is from: soy de México, es de Francia. Nationalities agree: mexicano, mexicana. Languages and nationalities take no capital in Spanish: hablo francés. Hablar is a regular -ar verb: hablo, hablas, habla.",
+    "rule": "**Ser de** gives where someone is from: **soy de México**, **es de Francia**.\n\nNationalities agree: **mexicano**, **mexicana**.\n\nLanguages and nationalities take no capital in Spanish: **hablo francés**.\n\n**Hablar** is a regular **-ar** verb: **hablo**, **hablas**, **habla**.",
     "example_sentence_ids": "S46013;S46102;S46002",
     "conjugation_lemma": "hablar",
     "status": "live",
@@ -879,7 +879,7 @@
   },
   {
     "unit_id": "U47",
-    "rule": "Querer changes its stem: quiero, quieres, quiere. Quiero + a noun asks for something (quiero huevos); quiero + a verb says what you want to do (quiero comprar fruta). A quantity takes de: un kilo de manzanas.",
+    "rule": "**Querer** changes its stem: **quiero**, **quieres**, **quiere**.\n\n**Quiero** + a noun asks for something (**quiero huevos**). **Quiero** + a verb says what you want to do (**quiero comprar fruta**).\n\nA quantity takes **de**: **un kilo de manzanas**.",
     "example_sentence_ids": "S47101;S47102;S47002",
     "conjugation_lemma": "querer",
     "status": "live",
@@ -919,7 +919,7 @@
   },
   {
     "unit_id": "U57",
-    "rule": "Adjectives in -o change for a woman or a feminine noun (rápido, rápida); fácil, difícil and interesante are the same for both. Ser says what something is like (es fácil); estar says how it is now (el museo está cerrado). Tener frío is to be cold.",
+    "rule": "Adjectives in **-o** change for a woman or a feminine noun (**rápido**, **rápida**). **Fácil**, **difícil** and **interesante** are the same for both.\n\n**Ser** says what something is like (**es fácil**). **Estar** says how it is now (**el museo está cerrado**).\n\n**Tener frío** is to be cold.",
     "example_sentence_ids": "S57102;S57105;S57106",
     "conjugation_lemma": "",
     "status": "live",
@@ -932,7 +932,7 @@
   },
   {
     "unit_id": "U36",
-    "rule": "To say you understand: Comprendo. To agree: De acuerdo, or Claro (of course). To check: add ¿verdad? to the end of a sentence (hablas español, ¿verdad?). Exacto means exactly.",
+    "rule": "To say you understand: **Comprendo**.\n\nTo agree: **De acuerdo**, or **Claro** (of course).\n\nTo check, add **¿verdad?** to the end of a sentence (**hablas español, ¿verdad?**).\n\n**Exacto** means exactly.",
     "example_sentence_ids": "S36101;S36103;S36105",
     "conjugation_lemma": "",
     "status": "live",
@@ -945,7 +945,7 @@
   },
   {
     "unit_id": "U48",
-    "rule": "To ask a price: ¿Cuánto cuesta? for one thing, ¿Cuánto cuestan? for more than one (costar changes o to ue). Cuesta cien pesos. Es caro (expensive), es barato (cheap).",
+    "rule": "To ask a price:\n**¿Cuánto cuesta?** (for one thing)\n**¿Cuánto cuestan?** (for more than one)\n**Costar** changes **o** to **ue**.\n\n**Cuesta cien pesos.**\n**Es caro** (expensive), **es barato** (cheap).",
     "example_sentence_ids": "S48101;S48102;S48103",
     "conjugation_lemma": "costar",
     "status": "live",
@@ -985,7 +985,7 @@
   },
   {
     "unit_id": "U49",
-    "rule": "A container or amount takes de before what's in it: una botella de agua, un paquete de galletas, un vaso de leche. Mucho is a lot, poco is not much, bastante is enough or quite: tengo bastante dinero, hay poco pan.",
+    "rule": "A container or amount takes **de** before what's in it: **una botella de agua**, **un paquete de galletas**, **un vaso de leche**.\n\n**Mucho** is a lot, **poco** is not much, **bastante** is enough or quite: **tengo bastante dinero**, **hay poco pan**.",
     "example_sentence_ids": "S49101;S49104;S49103",
     "conjugation_lemma": "",
     "status": "live",
@@ -998,7 +998,7 @@
   },
   {
     "unit_id": "U58",
-    "rule": "Where you are takes en: en la playa, en el campo, en el bosque. Where you go takes a: voy a la playa. El campo here is the countryside; el sol, el mar, el cielo take el.",
+    "rule": "Where you are takes **en**: **en la playa**, **en el campo**, **en el bosque**.\n\nWhere you go takes **a**: **voy a la playa**.\n\n**El campo** here is the countryside. **El sol**, **el mar**, **el cielo** take **el**.",
     "example_sentence_ids": "S58101;S58010;S58103",
     "conjugation_lemma": "",
     "status": "live",
@@ -1011,7 +1011,7 @@
   },
   {
     "unit_id": "U61",
-    "rule": "¿Qué hora es? asks the time. The answer uses ser: Es la una for one o'clock, and Son las… for every other hour: Son las dos, Son las ocho. Add y for minutes past: y cuarto is a quarter past, y media is half past. For the minutes before the hour, Mexico says un cuarto para las diez, a quarter to ten. Spain says las diez menos cuarto; both are understood. De la mañana, de la tarde and de la noche say which part of the day. A las… says when something happens: La clase es a las nueve y media.",
+    "rule": "**¿Qué hora es?** asks the time. The answer uses **ser**:\n**Es la una** (one o'clock)\n**Son las…** (every other hour): **Son las dos**, **Son las ocho**\n\nAdd **y** for minutes past: **y cuarto** is a quarter past, **y media** is half past.\n\nFor the minutes before the hour, Mexico says **un cuarto para las diez**, a quarter to ten. Spain says **las diez menos cuarto**. Both are understood.\n\n**De la mañana**, **de la tarde** and **de la noche** say which part of the day.\n\n**A las…** says when something happens: **La clase es a las nueve y media**.",
     "example_sentence_ids": "S61102;S61106;S61104",
     "conjugation_lemma": "",
     "status": "live",
@@ -1024,7 +1024,7 @@
   },
   {
     "unit_id": "U71",
-    "rule": "Small words that join ideas. Pero is but, and o is or. Sin is without and entre is between or among. Antes de and después de mean before and after: antes de las ocho, después de la clase. Hasta is until: Hasta mañana. Cuándo with an accent asks a question; cuando without one joins two parts: Leo cuando estoy solo. Ya means already or now, and ya no means not anymore. Que joins two parts like that: Tom dice que no. Del is de and el together: cerca del parque.",
+    "rule": "Small words that join ideas. **Pero** is but, and **o** is or. **Sin** is without and **entre** is between or among.\n\n**Antes de** and **después de** mean before and after: **antes de las ocho**, **después de la clase**. **Hasta** is until: **Hasta mañana**.\n\n**Cuándo** with an accent asks a question. **Cuando** without one joins two parts: **Leo cuando estoy solo**.\n\n**Ya** means already or now, and **ya no** means not anymore.\n\n**Que** joins two parts like that: **Tom dice que no**.\n\n**Del** is **de** and **el** together: **cerca del parque**.",
     "example_sentence_ids": "S71023;S71009;S71105",
     "conjugation_lemma": "",
     "status": "live",
@@ -1037,7 +1037,7 @@
   },
   {
     "unit_id": "U37",
-    "rule": "When you didn't hear. No te oigo means I can't hear you; oigo is the I form of oír, to hear. ¿Qué dijiste? asks what did you say?, and ¿Perdona? or Perdona… gets a friend's attention or asks them to say it again. Lo siento means I'm sorry. Lo is it or him, and it goes before the verb: ¿Lo entiendes? ¿Lo tienes?",
+    "rule": "When you didn't hear.\n\n**No te oigo** means I can't hear you. **Oigo** is the I form of **oír**, to hear.\n\n**¿Qué dijiste?** asks what did you say?\n**¿Perdona?** or **Perdona…** gets a friend's attention or asks them to say it again.\n**Lo siento** means I'm sorry.\n\n**Lo** is it or him, and it goes before the verb: **¿Lo entiendes?** **¿Lo tienes?**",
     "example_sentence_ids": "S37012;S37008;S37019",
     "conjugation_lemma": "",
     "status": "live",
@@ -1050,7 +1050,7 @@
   },
   {
     "unit_id": "U62",
-    "rule": "The days of the week take no capital letter. El before a day means on that day: el lunes is on Monday. Los means every: los lunes is on Mondays. Todos los días is every day, and cada is each or every: cada mañana. Siempre is always, nunca is never, normalmente is usually and a veces is sometimes. Dos veces al mes is twice a month. Próximo and pasado agree with their noun: el próximo lunes, la semana pasada. Pasado mañana is the day after tomorrow.",
+    "rule": "The days of the week take no capital letter.\n\n**El** before a day means on that day: **el lunes** is on Monday. **Los** means every: **los lunes** is on Mondays.\n\n**Todos los días** is every day, and **cada** is each or every: **cada mañana**.\n\n**Siempre** is always, **nunca** is never, **normalmente** is usually and **a veces** is sometimes. **Dos veces al mes** is twice a month.\n\n**Próximo** and **pasado** agree with their noun: **el próximo lunes**, **la semana pasada**. **Pasado mañana** is the day after tomorrow.",
     "example_sentence_ids": "S62005;S62108;S62107",
     "conjugation_lemma": "",
     "status": "live",
@@ -1063,7 +1063,7 @@
   },
   {
     "unit_id": "U63",
-    "rule": "Months and seasons take no capital letter. In a month or a season is en: en julio, en invierno. A date is the number, de and the month: Hoy es cinco de marzo. Only the first of the month has its own word, primero: Hoy es primero de enero. With el, the date says when something happens: Mi cumpleaños es el dos de mayo. ¿Qué fecha es hoy? asks the date.",
+    "rule": "Months and seasons take no capital letter. In a month or a season is **en**: **en julio**, **en invierno**.\n\nA date is the number, **de** and the month: **Hoy es cinco de marzo**. Only the first of the month has its own word, **primero**: **Hoy es primero de enero**.\n\nWith **el**, the date says when something happens: **Mi cumpleaños es el dos de mayo**.\n\n**¿Qué fecha es hoy?** asks the date.",
     "example_sentence_ids": "S63028;S63026;S63118",
     "conjugation_lemma": "",
     "status": "live",
@@ -1076,7 +1076,7 @@
   },
   {
     "unit_id": "U72",
-    "rule": "Spanish talks about the weather with hacer, to do or make: Hace calor is it's hot, Hace frío is it's cold, Hace viento is it's windy, and Hace buen tiempo means the weather is good. Bueno shortens to buen before a masculine noun. ¿Qué tiempo hace? asks about the weather; tiempo also means time. Llueve is it's raining and nieva is it's snowing. For what is going to happen, use va a and the dictionary form: Va a llover, Va a nevar.",
+    "rule": "Spanish talks about the weather with **hacer**, to do or make:\n**Hace calor** (it's hot)\n**Hace frío** (it's cold)\n**Hace viento** (it's windy)\n**Hace buen tiempo** (the weather is good)\n\n**Bueno** shortens to **buen** before a masculine noun.\n\n**¿Qué tiempo hace?** asks about the weather; **tiempo** also means time.\n\n**Llueve** is it's raining and **nieva** is it's snowing.\n\nFor what is going to happen, use **va a** and the dictionary form: **Va a llover**, **Va a nevar**.",
     "example_sentence_ids": "S72001;S72011;S72105",
     "conjugation_lemma": "hacer",
     "status": "live",
@@ -1116,7 +1116,7 @@
   },
   {
     "unit_id": "U38",
-    "rule": "Ways to win a moment to think. Un segundo and Espera un segundo ask for a second. A ver… and Veamos… both mean let's see. Pues… is well…, a word to start an answer with. Pienso is I think, from pensar: Pienso en francés. Ver is to see: Quiero ver más.",
+    "rule": "Ways to win a moment to think.\n\n**Un segundo** and **Espera un segundo** ask for a second.\n**A ver…** and **Veamos…** both mean let's see.\n**Pues…** is well…, a word to start an answer with.\n\n**Pienso** is I think, from **pensar**: **Pienso en francés**.\n\n**Ver** is to see: **Quiero ver más**.",
     "example_sentence_ids": "S38010;S38023;S38009",
     "conjugation_lemma": "pensar",
     "status": "live",
@@ -1156,7 +1156,7 @@
   },
   {
     "unit_id": "U64",
-    "rule": "Making a plan. Venir, to come, is irregular: vengo, vienes, viene. Salir is to go out or to leave, and its I form is salgo. Ver, to see, has veo, ves and vemos. Nos vemos means see you, word for word we see each other: Nos vemos a las ocho. For a plan, use ir a and the dictionary form of the verb: Vamos a ir juntos, we're going to go together. ¿Vamos…? also suggests it: ¿Vamos al cine? ¿Estás libre? asks if someone is free.",
+    "rule": "Making a plan.\n\n**Venir**, to come, is irregular: **vengo**, **vienes**, **viene**. **Salir** is to go out or to leave, and its I form is **salgo**. **Ver**, to see, has **veo**, **ves** and **vemos**.\n\n**Nos vemos** means see you, word for word we see each other: **Nos vemos a las ocho**.\n\nFor a plan, use **ir a** and the dictionary form of the verb: **Vamos a ir juntos**, we're going to go together. **¿Vamos…?** also suggests it: **¿Vamos al cine?**\n\n**¿Estás libre?** asks if someone is free.",
     "example_sentence_ids": "S64013;S64108;S64001",
     "conjugation_lemma": "venir",
     "status": "live",
@@ -1196,7 +1196,7 @@
   },
   {
     "unit_id": "U65",
-    "rule": "Many verbs for the daily routine take me in the I form: me levanto is I get up, me ducho is I shower. In the dictionary they end in -se: levantarse, ducharse. Some verbs change their vowel when the stress falls on it: empezar gives empiezo and empieza, volver gives vuelvo. Hacer has the I form hago. Desayuno is both breakfast and I have breakfast. Luego means then or later: Luego vuelvo. A las… says at what time: Me levanto a las siete.",
+    "rule": "Many verbs for the daily routine take **me** in the I form: **me levanto** is I get up, **me ducho** is I shower. In the dictionary they end in **-se**: **levantarse**, **ducharse**.\n\nSome verbs change their vowel when the stress falls on it: **empezar** gives **empiezo** and **empieza**, **volver** gives **vuelvo**. **Hacer** has the I form **hago**.\n\n**Desayuno** is both breakfast and I have breakfast.\n\n**Luego** means then or later: **Luego vuelvo**.\n\n**A las…** says at what time: **Me levanto a las siete**.",
     "example_sentence_ids": "S65101;S65104;S65115",
     "conjugation_lemma": "volver",
     "status": "live",
@@ -1236,7 +1236,7 @@
   },
   {
     "unit_id": "U73",
-    "rule": "For a sport, Latin America says jugar and the sport: Juego tenis, Juego básquetbol. Spain adds a: Juego al tenis. Juego is I play; it is also the word for game. To watch television is ver la televisión, and to listen to the radio is escuchar la radio. Corro is I run, from correr. After me gusta or sé the verb stays in its dictionary form: Me gusta esquiar, Sé esquiar.",
+    "rule": "For a sport, Latin America says **jugar** and the sport: **Juego tenis**, **Juego básquetbol**. Spain adds **a**: **Juego al tenis**.\n\n**Juego** is I play; it is also the word for game.\n\nTo watch television is **ver la televisión**, and to listen to the radio is **escuchar la radio**.\n\n**Corro** is I run, from **correr**.\n\nAfter **me gusta** or **sé** the verb stays in its dictionary form: **Me gusta esquiar**, **Sé esquiar**.",
     "example_sentence_ids": "S73301;S73017;S73021",
     "conjugation_lemma": "correr",
     "status": "live",
@@ -1276,7 +1276,7 @@
   },
   {
     "unit_id": "U66",
-    "rule": "Signs say Abierto (open), Cerrado (closed), Entrada (entrance) and Salida (exit). In a sentence, abierto and cerrado agree with the noun and go with estar: El banco está abierto, La farmacia está cerrada. Abrir is to open: abre is he, she or it opens. Cerrar is to close, and its e changes to ie: cierra. Abre and cierra are also the commands to one person: Abre la puerta, Cierra la puerta. Piso is a floor of a building: el piso dos. La planta baja is the ground floor.",
+    "rule": "Signs say **Abierto** (open), **Cerrado** (closed), **Entrada** (entrance) and **Salida** (exit).\n\nIn a sentence, **abierto** and **cerrado** agree with the noun and go with **estar**: **El banco está abierto**, **La farmacia está cerrada**.\n\n**Abrir** is to open: **abre** is he, she or it opens. **Cerrar** is to close, and its **e** changes to **ie**: **cierra**.\n\n**Abre** and **cierra** are also the commands to one person: **Abre la puerta**, **Cierra la puerta**.\n\n**Piso** is a floor of a building: **el piso dos**. **La planta baja** is the ground floor.",
     "example_sentence_ids": "S66022;S66105;S66007",
     "conjugation_lemma": "cerrar",
     "status": "live",
@@ -1316,7 +1316,7 @@
   },
   {
     "unit_id": "U67",
-    "rule": "For timetables, salir is to leave and llegar is to arrive: El tren sale a las ocho, El tren llega a las diez. ¿A qué hora…? asks at what time. In Latin America a ticket is un boleto: de ida is one way, and de ida y vuelta is round trip. You travel en something: en avión, en barco, en tren. ¿Cómo llego a…? asks how to get somewhere. La parada is the stop.",
+    "rule": "For timetables, **salir** is to leave and **llegar** is to arrive: **El tren sale a las ocho**, **El tren llega a las diez**.\n\n**¿A qué hora…?** asks at what time.\n\nIn Latin America a ticket is **un boleto**: **de ida** is one way, and **de ida y vuelta** is round trip.\n\nYou travel **en** something: **en avión**, **en barco**, **en tren**.\n\n**¿Cómo llego a…?** asks how to get somewhere.\n\n**La parada** is the stop.",
     "example_sentence_ids": "S67114;S67115;S67104",
     "conjugation_lemma": "llegar",
     "status": "live",
@@ -1356,7 +1356,7 @@
   },
   {
     "unit_id": "U74",
-    "rule": "Colours and other adjectives agree in number too. Add -s after a vowel and -es after a consonant: verde, verdes; azul, azules; café, cafés. Brown is café in Mexico; marrón is used elsewhere. Ojos claros are light eyes and ojos oscuros are dark eyes. Tener describes features: Tiene ojos verdes, Tom tiene bigote. Ser says what someone is like: Es muy trabajador, No soy muy sociable. Lindo and hermoso are common in Latin America for pretty and beautiful; they end in -a with a feminine noun.",
+    "rule": "Colors and other adjectives agree in number too. Add **-s** after a vowel and **-es** after a consonant: **verde**, **verdes**; **azul**, **azules**; **café**, **cafés**.\n\nBrown is **café** in Mexico; **marrón** is used elsewhere. **Ojos claros** are light eyes and **ojos oscuros** are dark eyes.\n\n**Tener** describes features: **Tiene ojos verdes**, **Tom tiene bigote**.\n\n**Ser** says what someone is like: **Es muy trabajador**, **No soy muy sociable**.\n\n**Lindo** and **hermoso** are common in Latin America for pretty and beautiful. They end in **-a** with a feminine noun.",
     "example_sentence_ids": "S74019;S74304;S74023",
     "conjugation_lemma": "",
     "status": "live",
@@ -1369,7 +1369,7 @@
   },
   {
     "unit_id": "U39",
-    "rule": "When you aren't sure. No estoy seguro says I'm not sure; a woman says No estoy segura. Creo is I think or I believe, from creer: Eso creo is I think so, and creo que joins it to a sentence: Creo que es posible. Quizá means maybe. Es posible is it's possible. No tengo idea means I have no idea.",
+    "rule": "When you aren't sure.\n\n**No estoy seguro** says I'm not sure; a woman says **No estoy segura**.\n\n**Creo** is I think or I believe, from **creer**. **Eso creo** is I think so. **Creo que** joins it to a sentence: **Creo que es posible**.\n\n**Quizá** means maybe.\n**Es posible** is it's possible.\n**No tengo idea** means I have no idea.",
     "example_sentence_ids": "S39023;S39016;S39102",
     "conjugation_lemma": "creer",
     "status": "live",
@@ -1409,7 +1409,7 @@
   },
   {
     "unit_id": "U68",
-    "rule": "Announcements have their own words. Señores pasajeros addresses the passengers, and Atención, por favor asks them to listen. El tren tiene retraso means the train is delayed. Entrar is to go in, and No entrar on a sign means keep out. A noun ending in a consonant or a stressed vowel adds -es or -s for the plural: autobús, autobuses; taxi, taxis. Usted is used with passengers: Su pasaporte, por favor.",
+    "rule": "Announcements have their own words.\n\n**Señores pasajeros** addresses the passengers, and **Atención, por favor** asks them to listen.\n**El tren tiene retraso** means the train is delayed.\n**Entrar** is to go in, and **No entrar** on a sign means keep out.\n\nA noun ending in a consonant or a stressed vowel adds **-es** or **-s** for the plural: **autobús**, **autobuses**; **tren**, **trenes**.\n\n**Usted** is used with passengers: **Su pasaporte, por favor**.",
     "example_sentence_ids": "S68103;S68104;S68024",
     "conjugation_lemma": "",
     "status": "live",
@@ -1422,7 +1422,7 @@
   },
   {
     "unit_id": "U69",
-    "rule": "An instruction to one person you call tú uses the same form as he or she does: escucha (listen), mira (look), contesta (answer), elige (choose), abre (open), cierra (close). Mira esto means look at this. In class, en parejas is in pairs and en grupos is in groups. Vamos a and a verb says what the class is about to do: Vamos a practicar. La tarea is homework (los deberes in Spain).",
+    "rule": "An instruction to one person you call **tú** uses the same form as he or she does: **escucha** (listen), **mira** (look), **contesta** (answer), **elige** (choose), **abre** (open), **cierra** (close).\n\n**Mira esto** means look at this.\n\nIn class, **en parejas** is in pairs and **en grupos** is in groups.\n\n**Vamos a** and a verb says what the class is about to do: **Vamos a practicar**.\n\n**La tarea** is homework (**los deberes** in Spain).",
     "example_sentence_ids": "S69009;S69113;S69107",
     "conjugation_lemma": "",
     "status": "live",
@@ -1435,7 +1435,7 @@
   },
   {
     "unit_id": "U75",
-    "rule": "Words for seeing a place. Visitar is to visit: Quiero visitar la catedral. El centro is the center of town, or downtown: Vivo en el centro. Un plano is a street map. La gente, people, is singular in Spanish, so the verb is too: La gente es buena. Un turista and una turista: the word ends in -a for a man or a woman. Famoso goes before or after its noun: un monumento famoso.",
+    "rule": "Words for seeing a place.\n\n**Visitar** is to visit: **Quiero visitar la catedral**.\n**El centro** is the center of town, or downtown: **Vivo en el centro**.\n**Un plano** is a street map.\n\n**La gente**, people, is singular in Spanish, so the verb is too: **La gente es buena**.\n\n**Un turista** and **una turista**: the word ends in **-a** for a man or a woman.\n\n**Famoso** goes before or after its noun: **un monumento famoso**.",
     "example_sentence_ids": "S75109;S75116;S75018",
     "conjugation_lemma": "",
     "status": "live",
@@ -1448,7 +1448,7 @@
   },
   {
     "unit_id": "U81",
-    "rule": "Ordering a drink or a snack. ¿Qué va a tomar? asks what you'll have; tomar means to take and also to have a drink. Quisiera is the polite way to ask: Quisiera un café, I would like a coffee. Hunger and thirst use tener, to have: Tengo hambre, Tengo sed. Otro and otra mean another, with no un or una: otro café, otra cerveza. Algo is something or anything: ¿Algo más? To pay, ask for la cuenta. A waiter is un mesero (un camarero in Spain). Agua con gas is sparkling water, and sin gas is still.",
+    "rule": "Ordering a drink or a snack.\n\n**¿Qué va a tomar?** asks what you'll have. **Tomar** means to take and also to have a drink.\n\n**Quisiera** is the polite way to ask: **Quisiera un café**, I would like a coffee.\n\nHunger and thirst use **tener**, to have: **Tengo hambre**, **Tengo sed**.\n\n**Otro** and **otra** mean another, with no **un** or **una**: **otro café**, **otra cerveza**. **Algo** is something or anything: **¿Algo más?**\n\nTo pay, ask for **la cuenta**. A waiter is **un mesero** (**un camarero** in Spain).\n\n**Agua con gas** is sparkling water, and **sin gas** is still.",
     "example_sentence_ids": "S81020;S81116;S81112",
     "conjugation_lemma": "tomar",
     "status": "live",
@@ -1488,7 +1488,7 @@
   },
   {
     "unit_id": "U91",
-    "rule": "Things to carry. Llave is key and llaves is keys; nouns ending in a vowel add -s. Muchos means many and pocos means few; both agree with the noun: muchos libros, pocos amigos. Cosas is things. Una tarjeta de crédito is a credit card. Un billete is a banknote: un billete de cien pesos. Spain uses euros and céntimos; the course counts in pesos.",
+    "rule": "Things to carry.\n\n**Llave** is key and **llaves** is keys; nouns ending in a vowel add **-s**.\n\n**Muchos** means many and **pocos** means few. Both agree with the noun: **muchos libros**, **pocos amigos**.\n\n**Cosas** is things.\n**Una tarjeta de crédito** is a credit card.\n**Un billete** is a banknote: **un billete de cien pesos**.\n\nSpain uses **euros** and **céntimos**; the course counts in pesos.",
     "example_sentence_ids": "S91008;S91011;S91012",
     "conjugation_lemma": "",
     "status": "live",
@@ -1501,7 +1501,7 @@
   },
   {
     "unit_id": "U26",
-    "rule": "Getting someone's attention politely. Disculpe is for a stranger or anyone you call usted; disculpa is for a friend. Necesito is I need, and necesita is he, she or you (usted) need: Necesito ayuda. Ayuda is help, and ayudar is to help. ¿Me puedes ayudar? asks a friend for help; ¿Me puede ayudar? asks a stranger.",
+    "rule": "Getting someone's attention politely.\n\n**Disculpe** is for a stranger or anyone you call **usted**; **disculpa** is for a friend.\n\n**Necesito** is I need, and **necesita** is he, she or you (**usted**) need: **Necesito ayuda**. **Ayuda** is help, and **ayudar** is to help.\n\n**¿Me puedes ayudar?** asks a friend for help.\n**¿Me puede ayudar?** asks a stranger.",
     "example_sentence_ids": "S26002;S26007;S26012",
     "conjugation_lemma": "necesitar",
     "status": "live",
@@ -1541,7 +1541,7 @@
   },
   {
     "unit_id": "U82",
-    "rule": "A set meal has courses: de entrada (to start), the plato fuerte (main dish) and de postre (for dessert). Spain says de primer plato and de segundo. Primero shortens to primer before a masculine noun: el primer día. Pedir is to ask for or to order, and its e changes to i: pido, I order. When food tastes good, use estar with rico or rica: La sopa está muy rica. With ser, rico means rich: Es rico. ¿Qué hay de postre? asks what there is for dessert.",
+    "rule": "A set meal has courses: **de entrada** (to start), the **plato fuerte** (main dish) and **de postre** (for dessert). Spain says **de primer plato** and **de segundo**.\n\n**Primero** shortens to **primer** before a masculine noun: **el primer día**.\n\n**Pedir** is to ask for or to order, and its **e** changes to **i**: **pido**, I order.\n\nWhen food tastes good, use **estar** with **rico** or **rica**: **La sopa está muy rica**. With **ser**, **rico** means rich: **Es rico**.\n\n**¿Qué hay de postre?** asks what there is for dessert.",
     "example_sentence_ids": "S82012;S82102;S82111",
     "conjugation_lemma": "pedir",
     "status": "live",
@@ -1581,7 +1581,7 @@
   },
   {
     "unit_id": "U83",
-    "rule": "Asking the way. A la derecha is to the right and a la izquierda is to the left. Straight ahead is derecho (todo recto in Spain). Al lado de means next to, and al final de means at the end of; de and el join into del: al lado del banco. Sigue tells one person to keep going and cruza to cross; siga is the usted form. Está a cien metros says how far it is. Acá and allá are common in Latin America for here and there.",
+    "rule": "Asking the way.\n\n**A la derecha** is to the right and **a la izquierda** is to the left. Straight ahead is **derecho** (**todo recto** in Spain).\n\n**Al lado de** means next to, and **al final de** means at the end of. **De** and **el** join into **del**: **al lado del banco**.\n\n**Sigue** tells one person to keep going and **cruza** to cross; **siga** is the **usted** form.\n\n**Está a cien metros** says how far it is.\n\n**Acá** and **allá** are common in Latin America for here and there.",
     "example_sentence_ids": "S83101;S83110;S83109",
     "conjugation_lemma": "seguir",
     "status": "live",
@@ -1621,7 +1621,7 @@
   },
   {
     "unit_id": "U92",
-    "rule": "Verbs for washing and getting ready take a pronoun. In the I form it is me: me lavo, I wash (myself). In the dictionary form it is se, joined to the end: lavarse, bañarse. With parts of the body Spanish says the, not my: Me lavo las manos, I wash my hands. Bañarse is to take a bath, and also to go for a swim: bañarse en el mar.",
+    "rule": "Verbs for washing and getting ready take a pronoun. In the I form it is **me**: **me lavo**, I wash (myself). In the dictionary form it is **se**, joined to the end: **lavarse**, **bañarse**.\n\nWith parts of the body Spanish says the, not my: **Me lavo las manos**, I wash my hands.\n\n**Bañarse** is to take a bath, and also to go for a swim: **bañarse en el mar**.",
     "example_sentence_ids": "S92007;S92102;S92104",
     "conjugation_lemma": "lavarse;bañarse",
     "status": "live",
@@ -1687,7 +1687,7 @@
   },
   {
     "unit_id": "U27",
-    "rule": "When you are lost. A man says Estoy perdido and a woman Estoy perdida. No encuentro means I can't find; it comes from encontrar, to find, whose o changes to ue. Spanish has two verbs for to know. Saber is for facts and for knowing how: ¿Sabes nadar?, ¿Sabe dónde está? Conocer is for people and places: ¿Conoces a Tom?, No conozco la ciudad. A person after conocer takes a.",
+    "rule": "When you are lost.\n\nA man says **Estoy perdido** and a woman **Estoy perdida**.\n\n**No encuentro** means I can't find. It comes from **encontrar**, to find, whose **o** changes to **ue**.\n\nSpanish has two verbs for to know.\n**Saber** is for facts and for knowing how: **¿Sabes nadar?**, **¿Sabe dónde está?**\n**Conocer** is for people and places: **¿Conoces a Tom?**, **No conozco la ciudad**.\nA person after **conocer** takes **a**.",
     "example_sentence_ids": "S27016;S27018;S27010",
     "conjugation_lemma": "conocer",
     "status": "live",
@@ -1727,7 +1727,7 @@
   },
   {
     "unit_id": "U84",
-    "rule": "How you travel is en: en carro, en bicicleta, en metro. On foot is a pie, and Voy andando means I walk there. To drive is manejar (conducir in Spain): manejo, maneja. Distance takes a: Está a un kilómetro, La playa está a quince kilómetros. Al norte, al sur and al oeste say where something lies; en el norte says where you are.",
+    "rule": "How you travel is **en**: **en carro**, **en bicicleta**, **en metro**. On foot is **a pie**, and **Voy andando** means I walk there.\n\nTo drive is **manejar** (**conducir** in Spain): **manejo**, **maneja**.\n\nDistance takes **a**: **Está a un kilómetro**, **La playa está a quince kilómetros**.\n\n**Al norte**, **al sur** and **al oeste** say where something lies; **en el norte** says where you are.",
     "example_sentence_ids": "S84010;S84009;S84107",
     "conjugation_lemma": "",
     "status": "live",
@@ -1740,7 +1740,7 @@
   },
   {
     "unit_id": "U85",
-    "rule": "Most family words come in pairs, -o for a male and -a for a female: tío and tía (uncle, aunt), primo and prima (cousins), abuelo and abuela, sobrino and sobrina, nieto and nieta. The masculine plural covers both together: mis abuelos are my grandparents. Husband is marido or esposo, and wife is esposa. Novio and novia are boyfriend and girlfriend. Casado and soltero agree with the person: Estoy casada, Estoy soltero.",
+    "rule": "Most family words come in pairs, **-o** for a male and **-a** for a female: **tío** and **tía** (uncle, aunt), **primo** and **prima** (cousins), **abuelo** and **abuela**, **sobrino** and **sobrina**, **nieto** and **nieta**.\n\nThe masculine plural covers both together: **mis abuelos** are my grandparents.\n\nHusband is **marido** or **esposo**, and wife is **esposa**. **Novio** and **novia** are boyfriend and girlfriend.\n\n**Casado** and **soltero** agree with the person: **Estoy casada**, **Estoy soltero**.",
     "example_sentence_ids": "S85031;S85020;S85005",
     "conjugation_lemma": "",
     "status": "live",
@@ -1753,7 +1753,7 @@
   },
   {
     "unit_id": "U93",
-    "rule": "School and study. El colegio is school, el instituto is high school in Spain, and la universidad is college. After estudiar a subject has no el or la: Estudio matemáticas, Quiero estudiar historia. With gustar it keeps the article: Me gusta la historia. To go to a place is ir a: Voy al colegio, Voy a la biblioteca. Un director or una directora runs a school.",
+    "rule": "School and study.\n\n**El colegio** is school, **el instituto** is high school in Spain, and **la universidad** is college.\n\nAfter **estudiar** a subject has no **el** or **la**: **Estudio matemáticas**, **Quiero estudiar historia**. With **gustar** it keeps the article: **Me gusta la historia**.\n\nTo go to a place is **ir a**: **Voy al colegio**, **Voy a la biblioteca**.\n\n**Un director** or **una directora** runs a school.",
     "example_sentence_ids": "S93012;S93025;S93026",
     "conjugation_lemma": "",
     "status": "live",
@@ -1766,7 +1766,7 @@
   },
   {
     "unit_id": "U86",
-    "rule": "Describing a home. Tener says what it has: La casa tiene una terraza. Hay says what there is: ¿Cuántas habitaciones hay en tu casa? Estar says where things are: El sofá está en la sala. Una habitación is a room; the bedroom is la recámara in Mexico (el dormitorio elsewhere). A closet is un clóset and a bookcase un librero. The living room is la sala (el salón in Spain). Nouns ending in -ón or -ción lose the accent in the plural: habitación, habitaciones.",
+    "rule": "Describing a home.\n\n**Tener** says what it has: **La casa tiene una terraza**.\n**Hay** says what there is: **¿Cuántas habitaciones hay en tu casa?**\n**Estar** says where things are: **El sofá está en la sala**.\n\n**Una habitación** is a room. The bedroom is **la recámara** in Mexico (**el dormitorio** elsewhere). A closet is **un clóset** and a bookcase **un librero**. The living room is **la sala** (**el salón** in Spain).\n\nNouns ending in **-ón** or **-ción** lose the accent in the plural: **habitación**, **habitaciones**.",
     "example_sentence_ids": "S86010;S86103;S86108",
     "conjugation_lemma": "",
     "status": "live",
@@ -1779,7 +1779,7 @@
   },
   {
     "unit_id": "U87",
-    "rule": "Talking about work. ¿A qué te dedicas? asks what someone does for a living; the answer is Soy and the job, with no un or una: Soy ingeniero. Many jobs change -o to -a for a woman: abogado, abogada; enfermero, enfermera; ingeniero, ingeniera. Words in -ista stay the same: el taxista, la taxista. Me dedico a says the field you work in: Me dedico al turismo. Vender is to sell: vendo, vende. El jefe is the boss and un compañero is a colleague.",
+    "rule": "Talking about work.\n\n**¿A qué te dedicas?** asks what someone does for a living. The answer is **Soy** and the job, with no **un** or **una**: **Soy ingeniero**.\n\nMany jobs change **-o** to **-a** for a woman: **abogado**, **abogada**; **enfermero**, **enfermera**; **ingeniero**, **ingeniera**. Words in **-ista** stay the same: **el taxista**, **la taxista**.\n\n**Me dedico a** says the field you work in: **Me dedico al turismo**.\n\n**Vender** is to sell: **vendo**, **vende**.\n\n**El jefe** is the boss and **un compañero** is a colleague.",
     "example_sentence_ids": "S87006;S87019;S87020",
     "conjugation_lemma": "vender",
     "status": "live",
@@ -1819,7 +1819,7 @@
   },
   {
     "unit_id": "U94",
-    "rule": "Some pairs have their own feminine word: actor and actriz, rey and reina. El presidente can also be la presidenta. As with other jobs, there is no un or una after ser: Él es actor, Soy actriz. Un centro comercial is a shopping mall. La web is the web and una página web is a web page. Video has no accent in Latin America; Spain writes vídeo.",
+    "rule": "Some pairs have their own feminine word: **actor** and **actriz**, **rey** and **reina**. **El presidente** can also be **la presidenta**.\n\nAs with other jobs, there is no **un** or **una** after **ser**: **Él es actor**, **Soy actriz**.\n\n**Un centro comercial** is a shopping mall.\n**La web** is the web and **una página web** is a web page.\n\n**Video** has no accent in Latin America; Spain writes **vídeo**.",
     "example_sentence_ids": "S94011;S94010;S94112",
     "conjugation_lemma": "",
     "status": "live",
@@ -1832,7 +1832,7 @@
   },
   {
     "unit_id": "U28",
-    "rule": "Saying something is wrong. Tengo un problema is I have a problem; problema is masculine although it ends in -a. No funciona means it doesn't work. Está roto means it's broken, and rota with a feminine noun: La ducha está rota. ¿Qué pasa? asks what's going on. Falta says something or someone is missing: ¿Qué falta? Regular as an answer to how are you means so-so.",
+    "rule": "Saying something is wrong.\n\n**Tengo un problema** is I have a problem; **problema** is masculine although it ends in **-a**.\n\n**No funciona** means it doesn't work.\n**Está roto** means it's broken, and **rota** with a feminine noun: **La ducha está rota**.\n\n**¿Qué pasa?** asks what's going on.\n**Falta** says something or someone is missing: **¿Qué falta?**\n\n**Regular** as an answer to how are you means so-so.",
     "example_sentence_ids": "S28024;S28014;S28020",
     "conjugation_lemma": "",
     "status": "live",
@@ -1845,7 +1845,7 @@
   },
   {
     "unit_id": "U88",
-    "rule": "The words on a form: nombre (first name), apellido (last name), fecha de nacimiento (date of birth), nacionalidad, estado civil (marital status: soltero, casado, divorciado, viudo), dirección, código postal (zip code) and correo electrónico (email). Firmar is to sign and la firma is the signature. Tiene que and a verb means you have to: Tiene que firmar el formulario. An email address is read aloud with arroba for @, punto for a dot and guion for a hyphen.",
+    "rule": "The words on a form: **nombre** (first name), **apellido** (last name), **fecha de nacimiento** (date of birth), **nacionalidad**, **estado civil** (marital status: **soltero**, **casado**, **divorciado**, **viudo**), **dirección**, **código postal** (zip code) and **correo electrónico** (email).\n\n**Firmar** is to sign and **la firma** is the signature.\n\n**Tiene que** and a verb means you have to: **Tiene que firmar el formulario**.\n\nAn email address is read aloud with **arroba** for @, **punto** for a dot and **guion** for a hyphen.",
     "example_sentence_ids": "S88009;S88109;S88101",
     "conjugation_lemma": "firmar",
     "status": "live",
@@ -1885,7 +1885,7 @@
   },
   {
     "unit_id": "U89",
-    "rule": "A message or a postcard opens with Querido for a man or Querida for a woman, the name and a colon: Querida Ana: It closes with Un abrazo (a hug) for friends, or Saludos (greetings). Te before the verb means to you: Te escribo, Te mando un abrazo. Mandar is to send and recibir is to get. Hasta pronto means see you soon.",
+    "rule": "A message or a postcard opens with **Querido** for a man or **Querida** for a woman, the name and a colon: **Querida Ana:**\n\nIt closes with **Un abrazo** (a hug) for friends, or **Saludos** (greetings).\n\n**Te** before the verb means to you: **Te escribo**, **Te mando un abrazo**.\n\n**Mandar** is to send and **recibir** is to get.\n\n**Hasta pronto** means see you soon.",
     "example_sentence_ids": "S89109;S89114;S89111",
     "conjugation_lemma": "mandar",
     "status": "live",
@@ -1925,7 +1925,7 @@
   },
   {
     "unit_id": "U95",
-    "rule": "At a hotel. Una habitación doble is a double room and una habitación individual is a single. Quisiera asks politely: Quisiera una habitación doble. Con says what a room comes with: con aire acondicionado, con calefacción. Una reserva is a reservation, and la recepción is the front desk. Rentar is to rent (alquilar in Spain): Tengo que rentar un carro. La renta is the rent. In ads, exterior means facing the street, interior facing inside, and céntrico near the center.",
+    "rule": "At a hotel.\n\n**Una habitación doble** is a double room and **una habitación individual** is a single. **Quisiera** asks politely: **Quisiera una habitación doble**.\n\n**Con** says what a room comes with: **con aire acondicionado**, **con calefacción**.\n\n**Una reserva** is a reservation, and **la recepción** is the front desk.\n\n**Rentar** is to rent (**alquilar** in Spain): **Tengo que rentar un carro**. **La renta** is the rent.\n\nIn ads, **exterior** means facing the street, **interior** facing inside, and **céntrico** near the center.",
     "example_sentence_ids": "S95203;S95002;S95302",
     "conjugation_lemma": "",
     "status": "live",

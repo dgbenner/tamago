@@ -290,44 +290,14 @@
     "source_owner": "alexmarcelo"
   },
   {
-    "answer_id": "GS48128-1230311",
-    "sentence_id": "S48128",
+    "answer_id": "GS45301-11748207",
+    "sentence_id": "S45301",
     "direction": "en_to_fr",
-    "answer": "Quanto custa isso?",
+    "answer": "O que é um código postal?",
     "source": "tatoeba",
-    "source_id": "1230311",
+    "source_id": "11748207",
     "status": "checked",
-    "source_owner": "alexmarcelo"
-  },
-  {
-    "answer_id": "GS48128-1694797",
-    "sentence_id": "S48128",
-    "direction": "en_to_fr",
-    "answer": "Quanto custa isto?",
-    "source": "tatoeba",
-    "source_id": "1694797",
-    "status": "checked",
-    "source_owner": "alexmarcelo"
-  },
-  {
-    "answer_id": "GS48128-1541314",
-    "sentence_id": "S48128",
-    "direction": "en_to_fr",
-    "answer": "Quanto é?",
-    "source": "tatoeba",
-    "source_id": "1541314",
-    "status": "checked",
-    "source_owner": "alexmarcelo"
-  },
-  {
-    "answer_id": "GS48128-1232132",
-    "sentence_id": "S48128",
-    "direction": "en_to_fr",
-    "answer": "Quanto isso custa?",
-    "source": "tatoeba",
-    "source_id": "1232132",
-    "status": "checked",
-    "source_owner": "alexmarcelo"
+    "source_owner": "ajdavidl"
   },
   {
     "answer_id": "GS51105-1403909",
@@ -440,16 +410,6 @@
     "source_owner": "brauliobezerra"
   },
   {
-    "answer_id": "GS66103-2669178",
-    "sentence_id": "S66103",
-    "direction": "en_to_fr",
-    "answer": "Onde fica o correio?",
-    "source": "tatoeba",
-    "source_id": "2669178",
-    "status": "checked",
-    "source_owner": "Ricardo14"
-  },
-  {
     "answer_id": "GS66104-2416079",
     "sentence_id": "S66104",
     "direction": "en_to_fr",
@@ -530,16 +490,6 @@
     "source_owner": "Advanced"
   },
   {
-    "answer_id": "GS73129-12548256",
-    "sentence_id": "S73129",
-    "direction": "en_to_fr",
-    "answer": "Eu caminho no parque.",
-    "source": "tatoeba",
-    "source_id": "12548256",
-    "status": "checked",
-    "source_owner": "laetitiamg"
-  },
-  {
     "answer_id": "GS74101-5033616",
     "sentence_id": "S74101",
     "direction": "en_to_fr",
@@ -578,16 +528,6 @@
     "source_id": "588043",
     "status": "checked",
     "source_owner": "Shishir"
-  },
-  {
-    "answer_id": "GS74106-4866843",
-    "sentence_id": "S74106",
-    "direction": "en_to_fr",
-    "answer": "Eu toco guitarra.",
-    "source": "tatoeba",
-    "source_id": "4866843",
-    "status": "checked",
-    "source_owner": "bill"
   },
   {
     "answer_id": "GS74115-2634513",
@@ -630,6 +570,46 @@
     "source_owner": "alexmarcelo"
   },
   {
+    "answer_id": "GS84301-1304500",
+    "sentence_id": "S84301",
+    "direction": "en_to_fr",
+    "answer": "Ele é um mau condutor.",
+    "source": "tatoeba",
+    "source_id": "1304500",
+    "status": "checked",
+    "source_owner": "alexmarcelo"
+  },
+  {
+    "answer_id": "GS86113-956326",
+    "sentence_id": "S86113",
+    "direction": "en_to_fr",
+    "answer": "Esta é minha casa.",
+    "source": "tatoeba",
+    "source_id": "956326",
+    "status": "checked",
+    "source_owner": "alexmarcelo"
+  },
+  {
+    "answer_id": "GS88102-6536380",
+    "sentence_id": "S88102",
+    "direction": "en_to_fr",
+    "answer": "Posso ver a sua identificação?",
+    "source": "tatoeba",
+    "source_id": "6536380",
+    "status": "checked",
+    "source_owner": "heo598"
+  },
+  {
+    "answer_id": "GS89117-11394430",
+    "sentence_id": "S89117",
+    "direction": "en_to_fr",
+    "answer": "Beijos e abraços.",
+    "source": "tatoeba",
+    "source_id": "11394430",
+    "status": "checked",
+    "source_owner": "MrJuice"
+  },
+  {
     "answer_id": "GS9105-1734816",
     "sentence_id": "S9105",
     "direction": "en_to_fr",
@@ -638,5 +618,135 @@
     "source_id": "1734816",
     "status": "checked",
     "source_owner": "alexmarcelo"
+  },
+  {
+    "answer_id": "GS91102-5049005",
+    "sentence_id": "S91102",
+    "direction": "en_to_fr",
+    "answer": "Eu não como carne de porco.",
+    "source": "tatoeba",
+    "source_id": "5049005",
+    "status": "checked",
+    "source_owner": "bill"
+  },
+  {
+    "answer_id": "GS91126-5078946",
+    "sentence_id": "S91126",
+    "direction": "en_to_fr",
+    "answer": "A dieta é importante.",
+    "source": "tatoeba",
+    "source_id": "5078946",
+    "status": "checked",
+    "source_owner": "ajdavidl"
+  },
+  {
+    "answer_id": "GS93109-411493",
+    "sentence_id": "S93109",
+    "direction": "en_to_fr",
+    "answer": "Estou resfriado.",
+    "source": "tatoeba",
+    "source_id": "411493",
+    "status": "checked",
+    "source_owner": "brauliobezerra"
+  },
+  {
+    "answer_id": "GS93127-1902124",
+    "sentence_id": "S93127",
+    "direction": "en_to_fr",
+    "answer": "Não consigo dormir.",
+    "source": "tatoeba",
+    "source_id": "1902124",
+    "status": "checked",
+    "source_owner": "Ricardo14"
+  },
+  {
+    "answer_id": "GS93130-10198146",
+    "sentence_id": "S93130",
+    "direction": "en_to_fr",
+    "answer": "Tome esse remédio.",
+    "source": "tatoeba",
+    "source_id": "10198146",
+    "status": "checked",
+    "source_owner": "BranTheOliver"
+  },
+  {
+    "answer_id": "GS95118-5893620",
+    "sentence_id": "S95118",
+    "direction": "en_to_fr",
+    "answer": "Aproveite a sua estada.",
+    "source": "tatoeba",
+    "source_id": "5893620",
+    "status": "checked",
+    "source_owner": "bill"
+  },
+  {
+    "answer_id": "GS95126-7089879",
+    "sentence_id": "S95126",
+    "direction": "en_to_fr",
+    "answer": "Eu não sei por quê.",
+    "source": "tatoeba",
+    "source_id": "7089879",
+    "status": "checked",
+    "source_owner": "alexmarcelo"
+  },
+  {
+    "answer_id": "GS95126-1378138",
+    "sentence_id": "S95126",
+    "direction": "en_to_fr",
+    "answer": "Não sei por quê.",
+    "source": "tatoeba",
+    "source_id": "1378138",
+    "status": "checked",
+    "source_owner": "tulio"
+  },
+  {
+    "answer_id": "GS95127-3494727",
+    "sentence_id": "S95127",
+    "direction": "en_to_fr",
+    "answer": "Sabe por quê?",
+    "source": "tatoeba",
+    "source_id": "3494727",
+    "status": "checked",
+    "source_owner": "piterkeo"
+  },
+  {
+    "answer_id": "GS95127-3494728",
+    "sentence_id": "S95127",
+    "direction": "en_to_fr",
+    "answer": "Sabem por quê?",
+    "source": "tatoeba",
+    "source_id": "3494728",
+    "status": "checked",
+    "source_owner": "piterkeo"
+  },
+  {
+    "answer_id": "GS95127-3494726",
+    "sentence_id": "S95127",
+    "direction": "en_to_fr",
+    "answer": "Sabes por quê?",
+    "source": "tatoeba",
+    "source_id": "3494726",
+    "status": "checked",
+    "source_owner": "piterkeo"
+  },
+  {
+    "answer_id": "GS95127-3494724",
+    "sentence_id": "S95127",
+    "direction": "en_to_fr",
+    "answer": "Você sabe por quê?",
+    "source": "tatoeba",
+    "source_id": "3494724",
+    "status": "checked",
+    "source_owner": "piterkeo"
+  },
+  {
+    "answer_id": "GS95127-3494725",
+    "sentence_id": "S95127",
+    "direction": "en_to_fr",
+    "answer": "Vocês sabem por quê?",
+    "source": "tatoeba",
+    "source_id": "3494725",
+    "status": "checked",
+    "source_owner": "piterkeo"
   }
 ]
