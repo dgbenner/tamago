@@ -1,0 +1,161 @@
+{
+  "unit_id": "U31",
+  "pulled_at": "2026-11-20",
+  "candidates": 3,
+  "sentences": [
+    {
+      "sentence_id": "S31001",
+      "unit_id": "U31",
+      "french": "Du taler.",
+      "english": "You speak.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3217274",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "You are talking.",
+        "Thou speakest."
+      ]
+    },
+    {
+      "sentence_id": "S31002",
+      "unit_id": "U31",
+      "french": "Jeg forstår.",
+      "english": "I see.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7588726",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "M1dx",
+      "other_english": [
+        "I understand.",
+        "ic"
+      ]
+    },
+    {
+      "sentence_id": "S31003",
+      "unit_id": "U31",
+      "french": "Jeg forstår ikke.",
+      "english": "I don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "606659",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I do not understand."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S31001",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 2,
+      "surface": "taler",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 2,
+      "surface": "forstår",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 2,
+      "surface": "forstår",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A310011",
+      "sentence_id": "S31001",
+      "direction": "fr_to_en",
+      "answer": "You are talking.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310012",
+      "sentence_id": "S31001",
+      "direction": "fr_to_en",
+      "answer": "Thou speakest.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310021",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "I understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310022",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "ic",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310031",
+      "sentence_id": "S31003",
+      "direction": "fr_to_en",
+      "answer": "I do not understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

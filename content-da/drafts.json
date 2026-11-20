@@ -1,0 +1,922 @@
+{
+  "_about": "Danish drafts to cover words with few or no Tatoeba lines and to fill out the thin circles (Builder 2, 2026-11-19). All words are taught by the circle. tamago_original: a native-speaker check is needed before Phase 4.",
+  "sentences": [
+    {
+      "sentence_id": "S1101",
+      "unit_id": "U01",
+      "french": "Hej! Jeg er en dreng.",
+      "english": "Hi! I am a boy.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S1102",
+      "unit_id": "U01",
+      "french": "Goddag, jeg er en mand.",
+      "english": "Good day, I am a man.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S1103",
+      "unit_id": "U01",
+      "french": "Ja, jeg er en pige.",
+      "english": "Yes, I am a girl.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S1104",
+      "unit_id": "U01",
+      "french": "Nej, jeg er ikke en dreng.",
+      "english": "No, I am not a boy.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S1105",
+      "unit_id": "U01",
+      "french": "Et barn og en mand.",
+      "english": "A child and a man.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S1106",
+      "unit_id": "U01",
+      "french": "En pige og en dreng.",
+      "english": "A girl and a boy.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31101",
+      "unit_id": "U31",
+      "french": "Jeg forstår.",
+      "english": "I understand.",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "7588726",
+      "source_owner": "M1dx"
+    },
+    {
+      "sentence_id": "S31102",
+      "unit_id": "U31",
+      "french": "Jeg forstår ikke.",
+      "english": "I do not understand.",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "606659",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S31103",
+      "unit_id": "U31",
+      "french": "Forstår du?",
+      "english": "Do you understand?",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31104",
+      "unit_id": "U31",
+      "french": "Langsommere, tak.",
+      "english": "Slower, please.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31105",
+      "unit_id": "U31",
+      "french": "En gang til, tak.",
+      "english": "One more time, please.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31106",
+      "unit_id": "U31",
+      "french": "Gentag, tak.",
+      "english": "Repeat, please.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31107",
+      "unit_id": "U31",
+      "french": "Siger du ja?",
+      "english": "Do you say yes?",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31108",
+      "unit_id": "U31",
+      "french": "Jeg siger ja.",
+      "english": "I say yes.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31109",
+      "unit_id": "U31",
+      "french": "Taler du?",
+      "english": "Do you speak?",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31110",
+      "unit_id": "U31",
+      "french": "Jeg taler ikke.",
+      "english": "I do not speak.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S31111",
+      "unit_id": "U31",
+      "french": "Igen, tak.",
+      "english": "Again, please.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S2101",
+      "unit_id": "U02",
+      "french": "Det er en bog.",
+      "english": "It is a book.",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "1334067",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S2102",
+      "unit_id": "U02",
+      "french": "Det er et hus.",
+      "english": "It is a house.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S2103",
+      "unit_id": "U02",
+      "french": "Han er læge.",
+      "english": "He is a doctor.",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "6992286",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S2104",
+      "unit_id": "U02",
+      "french": "Hun er lærer.",
+      "english": "She is a teacher.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S2105",
+      "unit_id": "U02",
+      "french": "En lille dør.",
+      "english": "A small door.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S2106",
+      "unit_id": "U02",
+      "french": "Det er et bord.",
+      "english": "It is a table.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S2107",
+      "unit_id": "U02",
+      "french": "Den er lille.",
+      "english": "It is small.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S3101",
+      "unit_id": "U03",
+      "french": "Godmorgen!",
+      "english": "Good morning!",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "2606610",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S3102",
+      "unit_id": "U03",
+      "french": "Godaften!",
+      "english": "Good evening!",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "5634413",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S3103",
+      "unit_id": "U03",
+      "french": "Hvordan går det? Det går godt.",
+      "english": "How is it going? It is going well.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S3104",
+      "unit_id": "U03",
+      "french": "Det går dårligt.",
+      "english": "Things are going badly.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S3105",
+      "unit_id": "U03",
+      "french": "Farvel!",
+      "english": "Goodbye!",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "10102282",
+      "source_owner": "Thanuir"
+    },
+    {
+      "sentence_id": "S3106",
+      "unit_id": "U03",
+      "french": "Undskyld!",
+      "english": "Sorry!",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "4555642",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S3107",
+      "unit_id": "U03",
+      "french": "Velkommen!",
+      "english": "Welcome!",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "599545",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S3108",
+      "unit_id": "U03",
+      "french": "Tak, det er fint.",
+      "english": "Thanks, that is fine.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S4101",
+      "unit_id": "U04",
+      "french": "Jeg spiser brød.",
+      "english": "I eat bread.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S4102",
+      "unit_id": "U04",
+      "french": "Jeg kan lide ost.",
+      "english": "I like cheese.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S4103",
+      "unit_id": "U04",
+      "french": "Jeg drikker te.",
+      "english": "I drink tea.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S4104",
+      "unit_id": "U04",
+      "french": "Hun drikker vin.",
+      "english": "She drinks wine.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S4105",
+      "unit_id": "U04",
+      "french": "Kaffe er lækker.",
+      "english": "Coffee is tasty.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S5101",
+      "unit_id": "U05",
+      "french": "Jeg har en hest.",
+      "english": "I have a horse.",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "5185761",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S5102",
+      "unit_id": "U05",
+      "french": "Jeg har en fugl.",
+      "english": "I have a bird.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S5103",
+      "unit_id": "U05",
+      "french": "Jeg har en fisk.",
+      "english": "I have a fish.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S5104",
+      "unit_id": "U05",
+      "french": "Jeg har en mus.",
+      "english": "I have a mouse.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S5105",
+      "unit_id": "U05",
+      "french": "Jeg har en kanin.",
+      "english": "I have a rabbit.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S5106",
+      "unit_id": "U05",
+      "french": "En hund er et dyr.",
+      "english": "A dog is an animal.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S32101",
+      "unit_id": "U32",
+      "french": "Hvad betyder det?",
+      "english": "What does it mean?",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "623380",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S32102",
+      "unit_id": "U32",
+      "french": "Hvad betyder det ord?",
+      "english": "What does that word mean?",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S32103",
+      "unit_id": "U32",
+      "french": "Hvordan siger man det?",
+      "english": "How do you say it?",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S6101",
+      "unit_id": "U06",
+      "french": "Jeg har mange bøger.",
+      "english": "I have many books.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S6102",
+      "unit_id": "U06",
+      "french": "Vi har mange huse.",
+      "english": "We have many houses.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S6103",
+      "unit_id": "U06",
+      "french": "De er mænd.",
+      "english": "They are men.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S6104",
+      "unit_id": "U06",
+      "french": "Mange store æbler.",
+      "english": "Many big apples.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S7101",
+      "unit_id": "U07",
+      "french": "Det er en ny bil.",
+      "english": "It is a new car.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S7102",
+      "unit_id": "U07",
+      "french": "Det er en gammel cykel.",
+      "english": "It is an old bike.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S7103",
+      "unit_id": "U07",
+      "french": "Hun er ung.",
+      "english": "She is young.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S7104",
+      "unit_id": "U07",
+      "french": "Det er en grim bil.",
+      "english": "It is an ugly car.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S7105",
+      "unit_id": "U07",
+      "french": "Det er en sjov bog.",
+      "english": "It is a fun book.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S52101",
+      "unit_id": "U52",
+      "french": "Jeg kan lide musik.",
+      "english": "I like music.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S52102",
+      "unit_id": "U52",
+      "french": "Det er et billede.",
+      "english": "It is a picture.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S52103",
+      "unit_id": "U52",
+      "french": "Jeg kan lide fodbold.",
+      "english": "I like football.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S52104",
+      "unit_id": "U52",
+      "french": "Jeg kan spille fodbold.",
+      "english": "I can play football.",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "10687102",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S52105",
+      "unit_id": "U52",
+      "french": "Det er et spil.",
+      "english": "It is a game.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S52106",
+      "unit_id": "U52",
+      "french": "Jeg synger.",
+      "english": "I sing.",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "3274262",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S52107",
+      "unit_id": "U52",
+      "french": "Hun synger og danser.",
+      "english": "She sings and dances.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S52108",
+      "unit_id": "U52",
+      "french": "Det er en fest.",
+      "english": "It is a party.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S8101",
+      "unit_id": "U08",
+      "french": "En bog ligger på et bord.",
+      "english": "A book lies on a table.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S8102",
+      "unit_id": "U08",
+      "french": "En kat er under et bord.",
+      "english": "A cat is under a table.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S8103",
+      "unit_id": "U08",
+      "french": "Det er et køkken.",
+      "english": "It is a kitchen.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S8104",
+      "unit_id": "U08",
+      "french": "Det er et badeværelse.",
+      "english": "It is a bathroom.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S8105",
+      "unit_id": "U08",
+      "french": "Det er en have.",
+      "english": "It is a garden.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S8106",
+      "unit_id": "U08",
+      "french": "Det er et værelse.",
+      "english": "It is a room.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S8107",
+      "unit_id": "U08",
+      "french": "En kat ligger på en seng.",
+      "english": "A cat lies on a bed.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S9101",
+      "unit_id": "U09",
+      "french": "Jeg er glad.",
+      "english": "I am happy.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S9102",
+      "unit_id": "U09",
+      "french": "Han er trist.",
+      "english": "He is sad.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S9103",
+      "unit_id": "U09",
+      "french": "Kaffe er varm.",
+      "english": "Coffee is warm.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S9104",
+      "unit_id": "U09",
+      "french": "Te er kold.",
+      "english": "Tea is cold.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S33101",
+      "unit_id": "U33",
+      "french": "Jeg leder efter en bog.",
+      "english": "I am looking for a book.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S33102",
+      "unit_id": "U33",
+      "french": "Jeg leder efter et ord.",
+      "english": "I am looking for a word.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S33103",
+      "unit_id": "U33",
+      "french": "Det er en ting.",
+      "english": "It is a thing.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S10101",
+      "unit_id": "U10",
+      "french": "Det er dit hus.",
+      "english": "It is your house.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S10102",
+      "unit_id": "U10",
+      "french": "Hun er min veninde.",
+      "english": "She is my friend.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S11101",
+      "unit_id": "U11",
+      "french": "Hvilken bog?",
+      "english": "Which book?",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S11102",
+      "unit_id": "U11",
+      "french": "Jeg er glad, fordi jeg er her.",
+      "english": "I am happy because I am here.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53101",
+      "unit_id": "U53",
+      "french": "Det er et museum.",
+      "english": "It is a museum.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53102",
+      "unit_id": "U53",
+      "french": "Det er et hotel.",
+      "english": "It is a hotel.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53103",
+      "unit_id": "U53",
+      "french": "Det er en bus.",
+      "english": "It is a bus.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53104",
+      "unit_id": "U53",
+      "french": "Det er et tog.",
+      "english": "It is a train.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53105",
+      "unit_id": "U53",
+      "french": "Det er en taxa.",
+      "english": "It is a taxi.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53106",
+      "unit_id": "U53",
+      "french": "Det er en station.",
+      "english": "It is a station.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53107",
+      "unit_id": "U53",
+      "french": "Det er en strand.",
+      "english": "It is a beach.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53108",
+      "unit_id": "U53",
+      "french": "Det er et sygehus.",
+      "english": "It is a hospital.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53109",
+      "unit_id": "U53",
+      "french": "Det er et torv.",
+      "english": "It is a square.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53110",
+      "unit_id": "U53",
+      "french": "En station er nær.",
+      "english": "A station is near.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S53111",
+      "unit_id": "U53",
+      "french": "Er det nær? Nej, det er langt.",
+      "english": "Is it near? No, it is far.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S12101",
+      "unit_id": "U12",
+      "french": "Jeg har fem hunde.",
+      "english": "I have five dogs.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S12102",
+      "unit_id": "U12",
+      "french": "Der er seks katte.",
+      "english": "There are six cats.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S12103",
+      "unit_id": "U12",
+      "french": "Jeg har syv bøger.",
+      "english": "I have seven books.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S12104",
+      "unit_id": "U12",
+      "french": "Der er otte børn.",
+      "english": "There are eight children.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S12105",
+      "unit_id": "U12",
+      "french": "Jeg har ni æbler.",
+      "english": "I have nine apples.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S12106",
+      "unit_id": "U12",
+      "french": "Der er ti venner.",
+      "english": "There are ten friends.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S12107",
+      "unit_id": "U12",
+      "french": "Jeg er ti år.",
+      "english": "I am ten years old.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S13101",
+      "unit_id": "U13",
+      "french": "Det er en rød bil.",
+      "english": "It is a red car.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S13102",
+      "unit_id": "U13",
+      "french": "Det er en grøn cykel.",
+      "english": "It is a green bike.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S13103",
+      "unit_id": "U13",
+      "french": "Det er en gul bus.",
+      "english": "It is a yellow bus.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S13104",
+      "unit_id": "U13",
+      "french": "Det er en brun hund.",
+      "english": "It is a brown dog.",
+      "notes": "draft: Tatoeba had few lines for these words; fixed 2026-11-20 per Fable"
+    },
+    {
+      "sentence_id": "S13105",
+      "unit_id": "U13",
+      "french": "Hvilken farve?",
+      "english": "Which colour?",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S14101",
+      "unit_id": "U14",
+      "french": "I dag er en god dag.",
+      "english": "Today is a good day.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S14102",
+      "unit_id": "U14",
+      "french": "Det er en uge.",
+      "english": "It is a week.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S14103",
+      "unit_id": "U14",
+      "french": "Det er en time.",
+      "english": "It is an hour.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S14104",
+      "unit_id": "U14",
+      "french": "I dag er det søndag.",
+      "english": "Today it is Sunday.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S14105",
+      "unit_id": "U14",
+      "french": "Hvad er klokken?",
+      "english": "What time is it?",
+      "notes": "draft: Tatoeba had few lines for these words; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "618962",
+      "source_owner": "danepo"
+    },
+    {
+      "sentence_id": "S15101",
+      "unit_id": "U15",
+      "french": "Jeg går til en park.",
+      "english": "I go to a park.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S15102",
+      "unit_id": "U15",
+      "french": "Jeg går til en butik.",
+      "english": "I go to a shop.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S15103",
+      "unit_id": "U15",
+      "french": "Jeg går til en restaurant.",
+      "english": "I go to a restaurant.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S15104",
+      "unit_id": "U15",
+      "french": "Det er en stor by.",
+      "english": "It is a big city.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S15105",
+      "unit_id": "U15",
+      "french": "Det er en gade.",
+      "english": "It is a street.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51101",
+      "unit_id": "U51",
+      "french": "Jeg har en næse.",
+      "english": "I have a nose.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51102",
+      "unit_id": "U51",
+      "french": "Jeg har en mund.",
+      "english": "I have a mouth.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51103",
+      "unit_id": "U51",
+      "french": "Hun har to øjne.",
+      "english": "She has two eyes.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51104",
+      "unit_id": "U51",
+      "french": "Jeg har en hånd.",
+      "english": "I have a hand.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51105",
+      "unit_id": "U51",
+      "french": "Jeg har en fod.",
+      "english": "I have a foot.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51106",
+      "unit_id": "U51",
+      "french": "Det er et hoved.",
+      "english": "It is a head.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51107",
+      "unit_id": "U51",
+      "french": "Det er et ben.",
+      "english": "It is a leg.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51108",
+      "unit_id": "U51",
+      "french": "Jeg har en arm.",
+      "english": "I have an arm.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51109",
+      "unit_id": "U51",
+      "french": "Hun er pæn.",
+      "english": "She is pretty.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51110",
+      "unit_id": "U51",
+      "french": "Han er lang.",
+      "english": "He is tall.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    },
+    {
+      "sentence_id": "S51111",
+      "unit_id": "U51",
+      "french": "Det er et øje.",
+      "english": "It is an eye.",
+      "notes": "draft: Tatoeba had few lines for these words"
+    }
+  ]
+}

@@ -1,0 +1,1570 @@
+{
+  "unit_id": "U07",
+  "pulled_at": "2026-11-20",
+  "candidates": 58,
+  "sentences": [
+    {
+      "sentence_id": "S7001",
+      "unit_id": "U07",
+      "french": "Han er meget smuk.",
+      "english": "He is very handsome.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1826855",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7002",
+      "unit_id": "U07",
+      "french": "Hun er meget smuk.",
+      "english": "She's very pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1826859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "She is very pretty."
+      ]
+    },
+    {
+      "sentence_id": "S7003",
+      "unit_id": "U07",
+      "french": "Tom er meget gammel.",
+      "english": "Tom is very old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7005386",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7004",
+      "unit_id": "U07",
+      "french": "Tom har en ny bil.",
+      "english": "Tom has a new car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3560872",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7005",
+      "unit_id": "U07",
+      "french": "Tom har en smuk bil.",
+      "english": "Tom has a beautiful car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6961602",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7006",
+      "unit_id": "U07",
+      "french": "Den bog er meget gammel.",
+      "english": "That book is very old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4869941",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7007",
+      "unit_id": "U07",
+      "french": "Den er ny.",
+      "english": "It's new.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3559653",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "It is new."
+      ]
+    },
+    {
+      "sentence_id": "S7008",
+      "unit_id": "U07",
+      "french": "Du er ikke ung.",
+      "english": "You aren't young.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6896015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "You're not young."
+      ]
+    },
+    {
+      "sentence_id": "S7009",
+      "unit_id": "U07",
+      "french": "\"Er hun ung?\" \"Ja, det er hun.\"",
+      "english": "\"Is she young?\" \"Yes, she is.\"",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "477025",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7010",
+      "unit_id": "U07",
+      "french": "Hun er gammel.",
+      "english": "She is old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1793357",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7011",
+      "unit_id": "U07",
+      "french": "Har du bil?",
+      "english": "Do you have a car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6929824",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7012",
+      "unit_id": "U07",
+      "french": "Er jeg sjov?",
+      "english": "Am I fun?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11919815",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7013",
+      "unit_id": "U07",
+      "french": "Er han en god lærer?",
+      "english": "Is he a good teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7820609",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7014",
+      "unit_id": "U07",
+      "french": "Er Tom en god lærer?",
+      "english": "Is Tom a good teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7853782",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7015",
+      "unit_id": "U07",
+      "french": "Har du ikke en cykel?",
+      "english": "Don't you have a bicycle?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8894170",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Don't you have a bike?"
+      ]
+    },
+    {
+      "sentence_id": "S7016",
+      "unit_id": "U07",
+      "french": "Er du også en mus?",
+      "english": "Are you a mouse as well?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10572374",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7017",
+      "unit_id": "U07",
+      "french": "Også jeg er lærer.",
+      "english": "I'm a teacher, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1943449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "I am a teacher, too.",
+        "I, too, am a teacher."
+      ]
+    },
+    {
+      "sentence_id": "S7018",
+      "unit_id": "U07",
+      "french": "Jeg er også lærer.",
+      "english": "I'm a teacher, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1943571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm also a teacher.",
+        "I am a teacher, too."
+      ]
+    },
+    {
+      "sentence_id": "S7019",
+      "unit_id": "U07",
+      "french": "Jeg er ikke god.",
+      "english": "I am not good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8742137",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7020",
+      "unit_id": "U07",
+      "french": "Du er en sjov pige.",
+      "english": "You're a funny girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11919760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7021",
+      "unit_id": "U07",
+      "french": "Jeg har ikke en cykel.",
+      "english": "I don't have a bicycle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12135175",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7022",
+      "unit_id": "U07",
+      "french": "Er hun smuk?",
+      "english": "Is she beautiful?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2502591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7023",
+      "unit_id": "U07",
+      "french": "Har Tom bil?",
+      "english": "Does Tom have a car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8794901",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7024",
+      "unit_id": "U07",
+      "french": "Drikker du meget?",
+      "english": "Are you a heavy drinker?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11922824",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7025",
+      "unit_id": "U07",
+      "french": "Har du en bil?",
+      "english": "Do you have a car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6929778",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7026",
+      "unit_id": "U07",
+      "french": "Drikker du meget kaffe?",
+      "english": "Do you drink a lot of coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12307784",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7027",
+      "unit_id": "U07",
+      "french": "Er hun en smuk pige?",
+      "english": "Is she a pretty girl?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4357019",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7028",
+      "unit_id": "U07",
+      "french": "Mary er meget smuk.",
+      "english": "Mary is very pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1826949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Mary is very beautiful."
+      ]
+    },
+    {
+      "sentence_id": "S7029",
+      "unit_id": "U07",
+      "french": "Du er meget smuk.",
+      "english": "You're very beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3481895",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "You are very beautiful."
+      ]
+    },
+    {
+      "sentence_id": "S7030",
+      "unit_id": "U07",
+      "french": "Du er smuk.",
+      "english": "You're pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "654732",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "You're beautiful."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S7001",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 4,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 4,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 4,
+      "surface": "gammel",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 4,
+      "surface": "ny",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 5,
+      "surface": "bil",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 4,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 5,
+      "surface": "bil",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 1,
+      "surface": "Den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 2,
+      "surface": "bog",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 4,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 5,
+      "surface": "gammel",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7007",
+      "position": 1,
+      "surface": "Den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7007",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7007",
+      "position": 3,
+      "surface": "ny",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 4,
+      "surface": "ung",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 2,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 3,
+      "surface": "ung",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 4,
+      "surface": "Ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 5,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 6,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 7,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 3,
+      "surface": "gammel",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7011",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7011",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7011",
+      "position": 3,
+      "surface": "bil",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7012",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7012",
+      "position": 2,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7012",
+      "position": 3,
+      "surface": "sjov",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 2,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 4,
+      "surface": "god",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 5,
+      "surface": "lærer",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 4,
+      "surface": "god",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 5,
+      "surface": "lærer",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 5,
+      "surface": "cykel",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 3,
+      "surface": "også",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 5,
+      "surface": "mus",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7017",
+      "position": 1,
+      "surface": "Også",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7017",
+      "position": 2,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7017",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7017",
+      "position": 4,
+      "surface": "lærer",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7018",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7018",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7018",
+      "position": 3,
+      "surface": "også",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7018",
+      "position": 4,
+      "surface": "lærer",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 4,
+      "surface": "god",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 4,
+      "surface": "sjov",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 5,
+      "surface": "pige",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 5,
+      "surface": "cykel",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7022",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7022",
+      "position": 2,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7022",
+      "position": 3,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7023",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7023",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7023",
+      "position": 3,
+      "surface": "bil",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7024",
+      "position": 1,
+      "surface": "Drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7024",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7024",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 4,
+      "surface": "bil",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 1,
+      "surface": "Drikker",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 4,
+      "surface": "kaffe",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 2,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 4,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 5,
+      "surface": "pige",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 1,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 4,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 4,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7030",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7030",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7030",
+      "position": 3,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A70021",
+      "sentence_id": "S7002",
+      "direction": "fr_to_en",
+      "answer": "She is very pretty.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70071",
+      "sentence_id": "S7007",
+      "direction": "fr_to_en",
+      "answer": "It is new.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70081",
+      "sentence_id": "S7008",
+      "direction": "fr_to_en",
+      "answer": "You're not young.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70151",
+      "sentence_id": "S7015",
+      "direction": "fr_to_en",
+      "answer": "Don't you have a bike?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70171",
+      "sentence_id": "S7017",
+      "direction": "fr_to_en",
+      "answer": "I am a teacher, too.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70172",
+      "sentence_id": "S7017",
+      "direction": "fr_to_en",
+      "answer": "I, too, am a teacher.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70181",
+      "sentence_id": "S7018",
+      "direction": "fr_to_en",
+      "answer": "I'm also a teacher.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70182",
+      "sentence_id": "S7018",
+      "direction": "fr_to_en",
+      "answer": "I am a teacher, too.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70281",
+      "sentence_id": "S7028",
+      "direction": "fr_to_en",
+      "answer": "Mary is very beautiful.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70291",
+      "sentence_id": "S7029",
+      "direction": "fr_to_en",
+      "answer": "You are very beautiful.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70301",
+      "sentence_id": "S7030",
+      "direction": "fr_to_en",
+      "answer": "You're beautiful.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -43,6 +43,11 @@ export const COURSES = {
     id: 'sv', name: 'Swedish', workbook: '_source/tamago-sv-data-v3.xlsx',
     tatoeba: 'swe', wiktionaryCode: 'sv', wiktionarySection: 'Swedish', linguaLibre: { qid: 'Q9027', iso: 'swe' }, wikidataLanguage: 'Q9027',
   },
+  // Danish (2026-11-19, branch lang/danish): standard Danish, modern du (formal De kept out of Part 1). Its folders: content-da/…
+  da: {
+    id: 'da', name: 'Danish', workbook: '_source/tamago-da-data-v3.xlsx',
+    tatoeba: 'dan', wiktionaryCode: 'da', wiktionarySection: 'Danish', linguaLibre: { qid: 'Q9035', iso: 'dan' }, wikidataLanguage: 'Q9035',
+  },
 }
 export const C = COURSES[COURSE]
 if (!C) throw new Error(`COURSE=${COURSE}: no such course`)

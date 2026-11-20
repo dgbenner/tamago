@@ -14,5 +14,7 @@ export const NOT_BY_EAR = new Set([
   'Não, não falo inglês.', 'Não, não quero.', // Portuguese (Fable's Parts 2 to 4 review brought them in, 2026-11-19)
 ])
 // Kept: the repeat is ordinary grammar or clear by ear.
-export const FINE_BY_EAR = new Set(['Vous vous appelez comment ?', 'Bonjour, Madame. Vous vous appelez comment ?', 'Dos y dos son cuatro.', 'Andata o andata e ritorno?', 'Eu acho que vai chover logo logo.'])
+export const FINE_BY_EAR = new Set(['Vous vous appelez comment ?', 'Bonjour, Madame. Vous vous appelez comment ?', 'Dos y dos son cuatro.', 'Andata o andata e ritorno?', 'Eu acho que vai chover logo logo.',
+  'Hvordan går det? Det går godt.', // Danish: the repeat falls across the question and its answer (2026-11-20)
+])
 export const notByEar = (s) => NOT_BY_EAR.has(s?.french)

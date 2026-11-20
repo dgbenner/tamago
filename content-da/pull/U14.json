@@ -1,0 +1,1539 @@
+{
+  "unit_id": "U14",
+  "pulled_at": "2026-11-20",
+  "candidates": 33,
+  "sentences": [
+    {
+      "sentence_id": "S14001",
+      "unit_id": "U14",
+      "french": "Hvad dag er det i dag?",
+      "english": "What day is it today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10697808",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14002",
+      "unit_id": "U14",
+      "french": "I dag er en ny dag!",
+      "english": "Today is a new day!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6294328",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14003",
+      "unit_id": "U14",
+      "french": "Er det lørdag i morgen?",
+      "english": "Is tomorrow Saturday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3697866",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14004",
+      "unit_id": "U14",
+      "french": "I morgen er det søndag.",
+      "english": "Tomorrow's Sunday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "485896",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Tomorrow is Sunday.",
+        "It is Sunday tomorrow."
+      ]
+    },
+    {
+      "sentence_id": "S14005",
+      "unit_id": "U14",
+      "french": "I dag er det mandag.",
+      "english": "Today is Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "620535",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14006",
+      "unit_id": "U14",
+      "french": "I morgen er det mandag.",
+      "english": "Tomorrow is Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12277559",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14007",
+      "unit_id": "U14",
+      "french": "I dag er det lørdag.",
+      "english": "Today is Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "621780",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14008",
+      "unit_id": "U14",
+      "french": "Det er mandag i morgen.",
+      "english": "It's Monday tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12277560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14009",
+      "unit_id": "U14",
+      "french": "Og hvad nu?",
+      "english": "What now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2751854",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Balamax",
+      "other_english": [
+        "And now what?",
+        "And now, what?"
+      ]
+    },
+    {
+      "sentence_id": "S14010",
+      "unit_id": "U14",
+      "french": "Hvor er Tom nu?",
+      "english": "Where's Tom now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1788730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14011",
+      "unit_id": "U14",
+      "french": "Hvad er der nu?",
+      "english": "What is it now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2250840",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14012",
+      "unit_id": "U14",
+      "french": "Det er lørdag.",
+      "english": "It is Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "620536",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14013",
+      "unit_id": "U14",
+      "french": "Hvordan har du det i dag?",
+      "english": "How are you today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4238104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "How are you doing today?",
+        "How do you feel today?"
+      ]
+    },
+    {
+      "sentence_id": "S14014",
+      "unit_id": "U14",
+      "french": "I dag danser vi.",
+      "english": "Today we dance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13255748",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Today we're dancing."
+      ]
+    },
+    {
+      "sentence_id": "S14015",
+      "unit_id": "U14",
+      "french": "Hvor er du nu?",
+      "english": "Where are you now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2711316",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14016",
+      "unit_id": "U14",
+      "french": "Hvor er vi nu?",
+      "english": "Where are we now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4856095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14017",
+      "unit_id": "U14",
+      "french": "Hvor er I nu?",
+      "english": "Where are you guys now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4870167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14018",
+      "unit_id": "U14",
+      "french": "Er du glad nu?",
+      "english": "Are you happy now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8601328",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14019",
+      "unit_id": "U14",
+      "french": "Er du bange nu?",
+      "english": "Are you scared now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10649399",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14020",
+      "unit_id": "U14",
+      "french": "Hvor er jeg nu?",
+      "english": "Where am I now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12191582",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14021",
+      "unit_id": "U14",
+      "french": "Hvor er din far nu?",
+      "english": "Where's your father now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1940133",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14022",
+      "unit_id": "U14",
+      "french": "Det er mandag.",
+      "english": "It's Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "620557",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14023",
+      "unit_id": "U14",
+      "french": "Jeg går nu.",
+      "english": "I'll go now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2474333",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm leaving now."
+      ]
+    },
+    {
+      "sentence_id": "S14024",
+      "unit_id": "U14",
+      "french": "Jeg er glad i dag.",
+      "english": "I'm happy today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7588694",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "M1dx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14025",
+      "unit_id": "U14",
+      "french": "Jeg er syg nu.",
+      "english": "I'm sick now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12963629",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Piteris",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14026",
+      "unit_id": "U14",
+      "french": "De har nu tre børn.",
+      "english": "They now have three children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3250281",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14027",
+      "unit_id": "U14",
+      "french": "Tom er ikke her i dag.",
+      "english": "Tom isn't here today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3674078",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14028",
+      "unit_id": "U14",
+      "french": "Jeg er en mand nu.",
+      "english": "I'm a man now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5588875",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14029",
+      "unit_id": "U14",
+      "french": "Han går i seng nu.",
+      "english": "He's going to bed now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12948352",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14030",
+      "unit_id": "U14",
+      "french": "Jeg har det ikke godt i dag.",
+      "english": "I'm not feeling well today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1305218",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S14001",
+      "position": 1,
+      "surface": "Hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 2,
+      "surface": "dag",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 5,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 1,
+      "surface": "I dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 4,
+      "surface": "ny",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 5,
+      "surface": "dag",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 3,
+      "surface": "lørdag",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 4,
+      "surface": "i morgen",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 1,
+      "surface": "I morgen",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 4,
+      "surface": "søndag",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 1,
+      "surface": "I dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 4,
+      "surface": "mandag",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 1,
+      "surface": "I morgen",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 4,
+      "surface": "mandag",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 1,
+      "surface": "I dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 4,
+      "surface": "lørdag",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14008",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14008",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14008",
+      "position": 3,
+      "surface": "mandag",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14008",
+      "position": 4,
+      "surface": "i morgen",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14009",
+      "position": 1,
+      "surface": "Og",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14009",
+      "position": 2,
+      "surface": "hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14009",
+      "position": 3,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14010",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14010",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14010",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14010",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14011",
+      "position": 1,
+      "surface": "Hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14011",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14011",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W093",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14011",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14012",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14012",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14012",
+      "position": 3,
+      "surface": "lørdag",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 1,
+      "surface": "Hvordan",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 5,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14014",
+      "position": 1,
+      "surface": "I dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14014",
+      "position": 2,
+      "surface": "danser",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14014",
+      "position": 3,
+      "surface": "vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 3,
+      "surface": "vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 3,
+      "surface": "I",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14018",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14018",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14018",
+      "position": 3,
+      "surface": "glad",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14018",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14019",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14019",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14019",
+      "position": 3,
+      "surface": "bange",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14019",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14020",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14020",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14020",
+      "position": 3,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14020",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14021",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14021",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14021",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14021",
+      "position": 4,
+      "surface": "far",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14021",
+      "position": 5,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14022",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14022",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14022",
+      "position": 3,
+      "surface": "mandag",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14023",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14023",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14023",
+      "position": 3,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14024",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14024",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14024",
+      "position": 3,
+      "surface": "glad",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14024",
+      "position": 4,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14025",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14025",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14025",
+      "position": 3,
+      "surface": "syg",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14025",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14026",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14026",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14026",
+      "position": 3,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14026",
+      "position": 4,
+      "surface": "tre",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14026",
+      "position": 5,
+      "surface": "børn",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14027",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14027",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14027",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14027",
+      "position": 4,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14027",
+      "position": 5,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14028",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14028",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14028",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14028",
+      "position": 4,
+      "surface": "mand",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14028",
+      "position": 5,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14029",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14029",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14029",
+      "position": 3,
+      "surface": "i",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14029",
+      "position": 4,
+      "surface": "seng",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14029",
+      "position": 5,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14030",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14030",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14030",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14030",
+      "position": 4,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14030",
+      "position": 5,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14030",
+      "position": 6,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A140041",
+      "sentence_id": "S14004",
+      "direction": "fr_to_en",
+      "answer": "Tomorrow is Sunday.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140042",
+      "sentence_id": "S14004",
+      "direction": "fr_to_en",
+      "answer": "It is Sunday tomorrow.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140091",
+      "sentence_id": "S14009",
+      "direction": "fr_to_en",
+      "answer": "And now what?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140092",
+      "sentence_id": "S14009",
+      "direction": "fr_to_en",
+      "answer": "And now, what?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140131",
+      "sentence_id": "S14013",
+      "direction": "fr_to_en",
+      "answer": "How are you doing today?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140132",
+      "sentence_id": "S14013",
+      "direction": "fr_to_en",
+      "answer": "How do you feel today?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140141",
+      "sentence_id": "S14014",
+      "direction": "fr_to_en",
+      "answer": "Today we're dancing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140231",
+      "sentence_id": "S14023",
+      "direction": "fr_to_en",
+      "answer": "I'm leaving now.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

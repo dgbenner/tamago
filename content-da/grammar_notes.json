@@ -1,0 +1,152 @@
+{
+ "_about": "Danish grammar notes, target language between ** for bold (Dan, 2026-11-19; src/lib/note-text.js). example_sentence_ids left blank; the app shows the note text.",
+ "notes": [
+  {
+   "unit_id": "U01",
+   "rule": "**være**, to be, says who you are: **jeg er** (I am), **du er** (you are), **han er** (he is). One form of the verb serves every person.\n\nTo say a or an, Danish uses **en** with a common-gender word (**en mand**, **en kvinde**) and **et** with a neuter one (**et barn**, **et hus**). Which one a word takes is learned with the word.\n\n**ja** is yes and **nej** is no. To say not, put **ikke** after the verb: **Jeg er ikke Tom.**",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U02",
+   "rule": "**han** is he and **hun** is she. For a thing, Danish uses **den** for a common-gender word and **det** for a neuter one.\n\nA job takes no **en** or **et**: **Han er læge.** (He is a doctor.)\n\nAn adjective stands plain after **er**: **Huset er stort.** **stor** is big and **lille** is small.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U03",
+   "rule": "A few set phrases carry a lot of a first conversation.\n\n**Hvordan går det?** asks how someone is, and the answer is **Det går godt.** or just **godt**. The opposite is **dårligt**.\n\n**godmorgen** is for the morning and **godaften** for the evening. **farvel** is goodbye.\n\n**tak** is thank you; **undskyld** says sorry or excuse me; **velkommen** welcomes someone.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U04",
+   "rule": "The present tense is one form for every person: **jeg spiser**, **du spiser**, **han spiser** (eat/eats); the same with **drikker** (drink).\n\nTo say you like something, Danish uses **kan lide**: **Jeg kan lide kaffe.** (I like coffee.) **kan** means can and **lide** only works in this pair.\n\nSomething tasty is **lækker**.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U05",
+   "rule": "**have**, to have, is **har** for every person: **jeg har**, **du har**, **han har**.\n\nUse it for pets and animals: **Jeg har en hund.** (I have a dog.) **en kat** is a cat, **en fugl** a bird, **en fisk** a fish.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U06",
+   "rule": "Most plurals add **-er** (**en pige**, **to piger**) or **-e** (**et hus**, **to huse**); some change the vowel (**en mand**, **to mænd**; **et barn**, **to børn**).\n\n**vi** is we and **de** is they. The verb keeps its one form: **vi er**, **de er**, **vi har**.\n\n**mange** means many.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U07",
+   "rule": "After **er** an adjective stands plain: **Bilen er gammel.** Before a noun it adds **-e**: **en gammel bil**, and with the definite **den gamle bil**.\n\n**meget** means very and **også** means also: **Cyklen er også ny.**",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U08",
+   "rule": "To say where something is, Danish often uses **står** (stands) or **ligger** (lies), or just **er**: **Bogen ligger på bordet.**\n\n**i** is in, **på** is on, **under** is under. **her** is here and **der** is there.\n\n**der er** means there is: **Der er en kat i haven.**",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U09",
+   "rule": "Feelings take **være**: **jeg er træt** (tired), **jeg er glad** (happy), **jeg er trist** (sad), **jeg er syg** (ill).\n\nDanish also uses **være** for hungry and thirsty: **Jeg er sulten.** (I am hungry.) **Jeg er tørstig.** (I am thirsty.)",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U10",
+   "rule": "Possessives change with the word they go before: **min** and **mit** (my), **din** and **dit** (your) — **min** and **din** with a common word, **mit** and **dit** with a neuter one.\n\n**hans** is his and **hendes** is her; both stay the same. **vores** is our.\n\nFamily: **far**, **mor**, **bror**, **søster**.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U11",
+   "rule": "A question word comes first: **hvem** (who), **hvad** (what), **hvor** (where), **hvornår** (when), **hvorfor** (why), **hvilken** (which).\n\n**Hvor er du?** (Where are you?)\n\nIn an answer, **fordi** means because: **fordi jeg er træt**.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U12",
+   "rule": "The numbers one to ten: **en**, **to**, **tre**, **fire**, **fem**, **seks**, **syv**, **otte**, **ni**, **ti**.\n\n**hvor mange** asks how many.\n\nFor an age, Danish puts **år** after the number: **Jeg er syv år.**",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U13",
+   "rule": "A colour stands after **er**: **Bilen er rød.** Before a noun it adds **-t** with a neuter word (**et rødt hus**) and **-e** in the plural (**røde biler**).\n\nColours: **rød**, **blå**, **grøn**, **sort**, **hvid**, **gul**, **brun**. **farve** is colour.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U14",
+   "rule": "**i dag** is today, **i morgen** is tomorrow, **nu** is now.\n\nThe days have no capital: **mandag**, **lørdag**, **søndag**.\n\n**Hvad er klokken?** asks the time; **time** is an hour, **uge** a week.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U15",
+   "rule": "**gå**, to go, is **går** for every person: **jeg går**, **du går**, **vi går**.\n\n**til** means to a place: **Jeg går til skolen.** (I go to school.) Places: **park**, **butik**, **by**, **gade**, **restaurant**.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U31",
+   "rule": "Three ways to keep a conversation going.\n\n**Jeg forstår det ikke** means I don't understand.\n\n**langsommere** asks for slower speech: **Langsommere, tak.**\n\n**en gang til** means one more time; **gentag** asks someone to say it again. **igen** means again.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U32",
+   "rule": "To ask about a word:\n\n**Hvordan siger man…?** asks how to say something. **man** means one or you in general.\n\n**Hvad betyder…?** asks what a word means.\n\n**ordet på dansk** is the word in Danish; **engelsk** is English.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U33",
+   "rule": "When you can't find a word:\n\n**Jeg leder efter ordet…** means I'm looking for the word. **leder efter** is to look for.\n\n**det er en ting…** (it is a thing…) helps describe it.\n\n**Jeg ved det ikke** means I don't know. **hedder** is for naming: **Hvad hedder det?**",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U51",
+   "rule": "To describe a person, Danish uses **have** with the feature: **Hun har blå øjne.** (She has blue eyes.) **et øje**, two **øjne**.\n\nAn adjective adds **-t** with a neuter word and **-e** before a noun: **langt hår**, **de lange arme**. **lang** is long or tall, **kort** is short.\n\nBody words: **hånd**, **fod**, **næse**, **mund**, **hoved**, **ben**, **arm**.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U52",
+   "rule": "**Jeg kan lide musik.** says what you like.\n\nFor an activity, use the present verb: **jeg svømmer** (swim), **jeg danser** (dance), **jeg synger** (sing).\n\n**spille** is to play a game or sport: **spille fodbold**. **fest** is a party, **film** a film.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  },
+  {
+   "unit_id": "U53",
+   "rule": "**Hvor er…?** asks where a place is: **Hvor er museet?**\n\nThe definite is a suffix: **museet** (the museum), **kirken** (the church).\n\nFor how you travel, Danish uses **med**: **med bussen**, **med toget**. **nær** is near and **langt** is far.",
+   "example_sentence_ids": "",
+   "conjugation_lemma": "",
+   "status": "live"
+  }
+ ]
+}

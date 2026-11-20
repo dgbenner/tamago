@@ -159,4 +159,6 @@ async function dutch(lemma) {
 // "no table" signal check-content already handles (like the other readers when a table can't be read).
 async function swedish() { return null }
 
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish }[COURSE]
+// Danish (2026-11-19): the present tense is one form for every person (jeg er, du er, han er; jeg taler, vi taler),
+// so the course teaches no per-person verb table. No grammar note sets a conjugation_lemma; this stays null.
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish, da: async () => null }[COURSE]

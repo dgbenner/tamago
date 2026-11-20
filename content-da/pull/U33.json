@@ -1,0 +1,660 @@
+{
+ "unit_id": "U33",
+ "pulled_at": "2026-11-20",
+ "candidates": 13,
+ "sentences": [
+  {
+   "sentence_id": "S33001",
+   "unit_id": "U33",
+   "french": "Ved du ikke det?",
+   "english": "Don't you know?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8087913",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "Don't you know that?"
+   ]
+  },
+  {
+   "sentence_id": "S33002",
+   "unit_id": "U33",
+   "french": "Er det ikke Tom han hedder?",
+   "english": "Isn't his name Tom?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4858860",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S33003",
+   "unit_id": "U33",
+   "french": "Jeg ved ikke.",
+   "english": "I don't know.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "618979",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "I don't know."
+   ]
+  },
+  {
+   "sentence_id": "S33004",
+   "unit_id": "U33",
+   "french": "Jeg ved hvordan.",
+   "english": "I know how.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8730695",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S33005",
+   "unit_id": "U33",
+   "french": "Jeg hedder Tom.",
+   "english": "My name is Tom.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10257308",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S33006",
+   "unit_id": "U33",
+   "french": "Jeg hedder også Tom.",
+   "english": "My name is Tom, too.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4858837",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S33007",
+   "unit_id": "U33",
+   "french": "Det ved jeg.",
+   "english": "I know that.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10515354",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "I do know that."
+   ]
+  },
+  {
+   "sentence_id": "S33008",
+   "unit_id": "U33",
+   "french": "Han ved det.",
+   "english": "He knows it.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "10594128",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "maaster",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S33009",
+   "unit_id": "U33",
+   "french": "Det ved kvinder.",
+   "english": "Women know that.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "11577797",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "sifhg",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S33010",
+   "unit_id": "U33",
+   "french": "Det ved jeg ikke.",
+   "english": "I don't know that.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "599562",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "I don't know.",
+    "I don't know that."
+   ]
+  },
+  {
+   "sentence_id": "S33011",
+   "unit_id": "U33",
+   "french": "Jeg ved det ikke.",
+   "english": "I don't know.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1129125",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "I do not know."
+   ]
+  },
+  {
+   "sentence_id": "S33012",
+   "unit_id": "U33",
+   "french": "Han ved det ikke.",
+   "english": "He does not know.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1568821",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "Sharaf78",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S33013",
+   "unit_id": "U33",
+   "french": "Ja, jeg ved det.",
+   "english": "Yes, I know.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4440992",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "Yes, I know it."
+   ]
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S33001",
+   "position": 1,
+   "surface": "Ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33001",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33001",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33001",
+   "position": 4,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33002",
+   "position": 1,
+   "surface": "Er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33002",
+   "position": 2,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33002",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33002",
+   "position": 4,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33002",
+   "position": 5,
+   "surface": "han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33002",
+   "position": 6,
+   "surface": "hedder",
+   "word_id": "W717",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33003",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33003",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33003",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33004",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33004",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33004",
+   "position": 3,
+   "surface": "hvordan",
+   "word_id": "W035",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33005",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33005",
+   "position": 2,
+   "surface": "hedder",
+   "word_id": "W717",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33005",
+   "position": 3,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33006",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33006",
+   "position": 2,
+   "surface": "hedder",
+   "word_id": "W717",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33006",
+   "position": 3,
+   "surface": "også",
+   "word_id": "W082",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33006",
+   "position": 4,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33007",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33007",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33007",
+   "position": 3,
+   "surface": "jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33008",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33008",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33008",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33009",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33009",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33009",
+   "position": 3,
+   "surface": "kvinder",
+   "word_id": "W070",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33010",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33010",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33010",
+   "position": 3,
+   "surface": "jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33010",
+   "position": 4,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33011",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33011",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33011",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33011",
+   "position": 4,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33012",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33012",
+   "position": 2,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33012",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33012",
+   "position": 4,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33013",
+   "position": 1,
+   "surface": "Ja",
+   "word_id": "W003",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33013",
+   "position": 2,
+   "surface": "jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33013",
+   "position": 3,
+   "surface": "ved",
+   "word_id": "W715",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S33013",
+   "position": 4,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [
+  {
+   "answer_id": "A330011",
+   "sentence_id": "S33001",
+   "direction": "fr_to_en",
+   "answer": "Don't you know that?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A330031",
+   "sentence_id": "S33003",
+   "direction": "fr_to_en",
+   "answer": "I don't know.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A330071",
+   "sentence_id": "S33007",
+   "direction": "fr_to_en",
+   "answer": "I do know that.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A330101",
+   "sentence_id": "S33010",
+   "direction": "fr_to_en",
+   "answer": "I don't know.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A330102",
+   "sentence_id": "S33010",
+   "direction": "fr_to_en",
+   "answer": "I don't know that.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A330111",
+   "sentence_id": "S33011",
+   "direction": "fr_to_en",
+   "answer": "I do not know.",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A330131",
+   "sentence_id": "S33013",
+   "direction": "fr_to_en",
+   "answer": "Yes, I know it.",
+   "source": "tatoeba",
+   "status": "pulled"
+  }
+ ],
+ "qa_answers": []
+}

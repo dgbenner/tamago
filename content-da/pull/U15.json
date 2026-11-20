@@ -1,0 +1,1204 @@
+{
+ "unit_id": "U15",
+ "pulled_at": "2026-11-20",
+ "candidates": 22,
+ "sentences": [
+  {
+   "sentence_id": "S15001",
+   "unit_id": "U15",
+   "french": "Han går til skole.",
+   "english": "He walks to school.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "6606386",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "sifhg",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15002",
+   "unit_id": "U15",
+   "french": "Hvor er din skole?",
+   "english": "Where's your school?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "593641",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "Where is your school?"
+   ]
+  },
+  {
+   "sentence_id": "S15003",
+   "unit_id": "U15",
+   "french": "Hvilken by er vi i?",
+   "english": "What city are we in?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8534739",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15004",
+   "unit_id": "U15",
+   "french": "Hvor ligger din skole?",
+   "english": "Where's your school?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3744610",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "Where is your school?"
+   ]
+  },
+  {
+   "sentence_id": "S15005",
+   "unit_id": "U15",
+   "french": "Hvad er det til?",
+   "english": "What's it for?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "12392714",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": [
+    "What is it for?"
+   ]
+  },
+  {
+   "sentence_id": "S15006",
+   "unit_id": "U15",
+   "french": "Hvad er Tom god til?",
+   "english": "What's Tom good at?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "7567857",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15007",
+   "unit_id": "U15",
+   "french": "Her er butik.",
+   "english": "At this location, there is a store.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "2685264",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15008",
+   "unit_id": "U15",
+   "french": "Er Tom i skole?",
+   "english": "Is Tom at school?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8069978",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15009",
+   "unit_id": "U15",
+   "french": "Hvor går Tom i skole?",
+   "english": "Where does Tom go to school?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "12134481",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15010",
+   "unit_id": "U15",
+   "french": "Hvorfor er du ikke i skole?",
+   "english": "Why aren't you in school?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5354623",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15011",
+   "unit_id": "U15",
+   "french": "Jeg går i skole.",
+   "english": "I go to school.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "4558022",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15012",
+   "unit_id": "U15",
+   "french": "Det er en skole.",
+   "english": "That is a school.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "7267056",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15013",
+   "unit_id": "U15",
+   "french": "Tom er ikke i skole.",
+   "english": "Tom isn't at school.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "8285304",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15014",
+   "unit_id": "U15",
+   "french": "Er du bror til Mary?",
+   "english": "Are you Mary's brother?",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "7784716",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15015",
+   "unit_id": "U15",
+   "french": "Det er til Tom.",
+   "english": "It's for Tom.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3507632",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15016",
+   "unit_id": "U15",
+   "french": "Den er til Tom.",
+   "english": "It's for Tom.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3507640",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15017",
+   "unit_id": "U15",
+   "french": "Den er til min familie.",
+   "english": "It's for my family.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1945321",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15018",
+   "unit_id": "U15",
+   "french": "Tom er ikke til katte.",
+   "english": "Tom is not a cat person.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3442641",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15019",
+   "unit_id": "U15",
+   "french": "Der er ikke langt til Paris.",
+   "english": "It is not far to Paris.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "569990",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15020",
+   "unit_id": "U15",
+   "french": "Tom er far til tre børn.",
+   "english": "Tom is the father of three children.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "1939440",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15021",
+   "unit_id": "U15",
+   "french": "Jeg går ikke i skole i dag.",
+   "english": "I'm not going to school today.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "3105749",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  },
+  {
+   "sentence_id": "S15022",
+   "unit_id": "U15",
+   "french": "Jeg er ikke far til Tom.",
+   "english": "I'm not Tom's father.",
+   "pair_id": "",
+   "source": "tatoeba",
+   "source_id": "5956675",
+   "status": "pulled: awaiting approval",
+   "audio_source": "tts",
+   "max_round": 5,
+   "notes": "pulled from Tatoeba under content_pull",
+   "source_owner": "danepo",
+   "other_english": []
+  }
+ ],
+ "sentence_words": [
+  {
+   "sentence_id": "S15001",
+   "position": 1,
+   "surface": "Han",
+   "word_id": "W017",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15001",
+   "position": 2,
+   "surface": "går",
+   "word_id": "W036",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15001",
+   "position": 3,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15001",
+   "position": 4,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15002",
+   "position": 1,
+   "surface": "Hvor",
+   "word_id": "W125",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15002",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15002",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W111",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15002",
+   "position": 4,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15003",
+   "position": 1,
+   "surface": "Hvilken",
+   "word_id": "W129",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15003",
+   "position": 2,
+   "surface": "by",
+   "word_id": "W162",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15003",
+   "position": 3,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15003",
+   "position": 4,
+   "surface": "vi",
+   "word_id": "W063",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15003",
+   "position": 5,
+   "surface": "i",
+   "word_id": "W089",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15004",
+   "position": 1,
+   "surface": "Hvor",
+   "word_id": "W125",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15004",
+   "position": 2,
+   "surface": "ligger",
+   "word_id": "W088",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15004",
+   "position": 3,
+   "surface": "din",
+   "word_id": "W111",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15004",
+   "position": 4,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15005",
+   "position": 1,
+   "surface": "Hvad",
+   "word_id": "W124",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15005",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15005",
+   "position": 3,
+   "surface": "det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15005",
+   "position": 4,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15006",
+   "position": 1,
+   "surface": "Hvad",
+   "word_id": "W124",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15006",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15006",
+   "position": 3,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15006",
+   "position": 4,
+   "surface": "god",
+   "word_id": "W085",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15006",
+   "position": 5,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15007",
+   "position": 1,
+   "surface": "Her",
+   "word_id": "W092",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15007",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15007",
+   "position": 3,
+   "surface": "butik",
+   "word_id": "W161",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15008",
+   "position": 1,
+   "surface": "Er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15008",
+   "position": 2,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15008",
+   "position": 3,
+   "surface": "i",
+   "word_id": "W089",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15008",
+   "position": 4,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15009",
+   "position": 1,
+   "surface": "Hvor",
+   "word_id": "W125",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15009",
+   "position": 2,
+   "surface": "går",
+   "word_id": "W036",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15009",
+   "position": 3,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15009",
+   "position": 4,
+   "surface": "i",
+   "word_id": "W089",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15009",
+   "position": 5,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15010",
+   "position": 1,
+   "surface": "Hvorfor",
+   "word_id": "W127",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15010",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15010",
+   "position": 3,
+   "surface": "du",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15010",
+   "position": 4,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15010",
+   "position": 5,
+   "surface": "i",
+   "word_id": "W089",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15010",
+   "position": 6,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15011",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15011",
+   "position": 2,
+   "surface": "går",
+   "word_id": "W036",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15011",
+   "position": 3,
+   "surface": "i",
+   "word_id": "W089",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15011",
+   "position": 4,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15012",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15012",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15012",
+   "position": 3,
+   "surface": "en",
+   "word_id": "W009",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15012",
+   "position": 4,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15013",
+   "position": 1,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15013",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15013",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15013",
+   "position": 4,
+   "surface": "i",
+   "word_id": "W089",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15013",
+   "position": 5,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15014",
+   "position": 1,
+   "surface": "Er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15014",
+   "position": 2,
+   "surface": "du",
+   "word_id": "W007",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15014",
+   "position": 3,
+   "surface": "bror",
+   "word_id": "W121",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15014",
+   "position": 4,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15014",
+   "position": 5,
+   "surface": "Mary",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15015",
+   "position": 1,
+   "surface": "Det",
+   "word_id": "W020",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15015",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15015",
+   "position": 3,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15015",
+   "position": 4,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15016",
+   "position": 1,
+   "surface": "Den",
+   "word_id": "W019",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15016",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15016",
+   "position": 3,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15016",
+   "position": 4,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15017",
+   "position": 1,
+   "surface": "Den",
+   "word_id": "W019",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15017",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15017",
+   "position": 3,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15017",
+   "position": 4,
+   "surface": "min",
+   "word_id": "W109",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15017",
+   "position": 5,
+   "surface": "familie",
+   "word_id": "W118",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15018",
+   "position": 1,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15018",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15018",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15018",
+   "position": 4,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15018",
+   "position": 5,
+   "surface": "katte",
+   "word_id": "W066",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15019",
+   "position": 1,
+   "surface": "Der",
+   "word_id": "W093",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15019",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15019",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15019",
+   "position": 4,
+   "surface": "langt",
+   "word_id": "W1036",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15019",
+   "position": 5,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15019",
+   "position": 6,
+   "surface": "Paris",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15020",
+   "position": 1,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15020",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15020",
+   "position": 3,
+   "surface": "far",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15020",
+   "position": 4,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15020",
+   "position": 5,
+   "surface": "tre",
+   "word_id": "W131",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15020",
+   "position": 6,
+   "surface": "børn",
+   "word_id": "W071",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15021",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15021",
+   "position": 2,
+   "surface": "går",
+   "word_id": "W036",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15021",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15021",
+   "position": 4,
+   "surface": "i",
+   "word_id": "W089",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15021",
+   "position": 5,
+   "surface": "skole",
+   "word_id": "W160",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15021",
+   "position": 6,
+   "surface": "i dag",
+   "word_id": "W148",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15022",
+   "position": 1,
+   "surface": "Jeg",
+   "word_id": "W006",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15022",
+   "position": 2,
+   "surface": "er",
+   "word_id": "W008",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15022",
+   "position": 3,
+   "surface": "ikke",
+   "word_id": "W005",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15022",
+   "position": 4,
+   "surface": "far",
+   "word_id": "W119",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15022",
+   "position": 5,
+   "surface": "til",
+   "word_id": "W158",
+   "notes": "",
+   "hint_override": ""
+  },
+  {
+   "sentence_id": "S15022",
+   "position": 6,
+   "surface": "Tom",
+   "word_id": "",
+   "notes": "name",
+   "hint_override": ""
+  }
+ ],
+ "accepted_answers": [
+  {
+   "answer_id": "A150021",
+   "sentence_id": "S15002",
+   "direction": "fr_to_en",
+   "answer": "Where is your school?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A150041",
+   "sentence_id": "S15004",
+   "direction": "fr_to_en",
+   "answer": "Where is your school?",
+   "source": "tatoeba",
+   "status": "pulled"
+  },
+  {
+   "answer_id": "A150051",
+   "sentence_id": "S15005",
+   "direction": "fr_to_en",
+   "answer": "What is it for?",
+   "source": "tatoeba",
+   "status": "pulled"
+  }
+ ],
+ "qa_answers": []
+}
