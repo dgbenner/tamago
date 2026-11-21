@@ -232,5 +232,113 @@
     "answer": "7",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "En kop kaffe koster tredive kroner.",
+    "answer": "30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Det bliver femogtres kroner.",
+    "answer": "65",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Dagens ret koster hundrede og tyve kroner.",
+    "answer": "120",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Regningen er på to hundrede og fyrre kroner.",
+    "answer": "240",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N305",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Apoteket ligger hundrede meter længere fremme.",
+    "answer": "100",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N306",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Museet ligger tre hundrede meter herfra.",
+    "answer": "300",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N307",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Tag bus nummer fire.",
+    "answer": "4",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N308",
+    "unit_id": "U84",
+    "kind": "time",
+    "say": "Toget kommer kvart over syv.",
+    "answer": "7:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N309",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "Jeg bor på anden sal, i lejlighed tolv.",
+    "answer": "12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N310",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "Mødet er klokken halv elleve.",
+    "answer": "10:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N311",
+    "unit_id": "U88",
+    "kind": "phone",
+    "say": "Mit nummer er tolv, fireogtredive, seksoghalvtreds, otteoghalvfjerds.",
+    "answer": "12 34 56 78",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N312",
+    "unit_id": "U88",
+    "kind": "date",
+    "say": "Jeg er født den tolvte marts.",
+    "answer": "12/3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

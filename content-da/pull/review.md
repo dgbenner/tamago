@@ -1888,7 +1888,7 @@ Contrast forms, sentences each (target 2): .
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: åbent (0), indgang (0), udgang (0), forbudt (2), information (0), apotek (0), toilet (2), rygning (1), politi (1), lov (1), regler (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: åbent (0), indgang (0), udgang (0), forbudt (2), information (0), apotek (0), toilet (2), rygning (1), lov (1), regler (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
@@ -2198,3 +2198,702 @@ Contrast forms, sentences each (target 2): .
 | S75038 | Vi må hellere vente. | We'd better wait. |  | [#8060997](https://tatoeba.org/en/sentences/show/8060997) | danepo |
 | S75039 | Det er ikke min skyld! | It's not my fault! |  | [#618839](https://tatoeba.org/en/sentences/show/618839) | danepo |
 | S75040 | Det er ikke din skyld. | It's not your fault. |  | [#2476423](https://tatoeba.org/en/sentences/show/2476423) | danepo |
+
+## U81 At the Café: Må jeg få en kop kaffe? (may I have a cup of coffee?); en kaffe, tak; jeg vil gerne bestille; regningen, tak (the bill); værsgo (here you are)
+
+30 sentences picked from 79 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: bestille (1), kage (2), regningen (2), tjener (0), værsgo (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S81001 | Mælk? Sukker? | Milk? Sugar? |  | [#2238263](https://tatoeba.org/en/sentences/show/2238263) | danepo |
+| S81002 | Drikker du øl? | Do you drink beer? |  | [#2848406](https://tatoeba.org/en/sentences/show/2848406) | danepo |
+| S81003 | Er det chokolade? | Is that chocolate? |  | [#7281440](https://tatoeba.org/en/sentences/show/7281440) | danepo |
+| S81004 | Smager det godt? | Does it taste good? |  | [#7870342](https://tatoeba.org/en/sentences/show/7870342) | danepo |
+| S81005 | Hvem drikker øl? | Who's drinking beer? |  | [#11978045](https://tatoeba.org/en/sentences/show/11978045) | enebi |
+| S81006 | Hvem ønsker varm chokolade? | Who wants hot chocolate? |  | [#475015](https://tatoeba.org/en/sentences/show/475015) | danepo |
+| S81007 | Er dette dit øl? | Is this your beer? |  | [#1762235](https://tatoeba.org/en/sentences/show/1762235) | danepo |
+| S81008 | Hvor stor er regningen? | What does the bill come to? |  | [#7533700](https://tatoeba.org/en/sentences/show/7533700) | danepo |
+| S81009 | Kan jeg få regningen? | Bring me the bill, please. |  | [#13047099](https://tatoeba.org/en/sentences/show/13047099) | danepo |
+| S81010 | Hvor meget sukker bruger du? | How much sugar do you use? |  | [#695165](https://tatoeba.org/en/sentences/show/695165) | danepo |
+| S81011 | Hvad med en kop kaffe til? | How about another cup of coffee? |  | [#2242334](https://tatoeba.org/en/sentences/show/2242334) | danepo |
+| S81012 | Kan du virkelig ikke lide chokolade? | Do you really not like chocolate? |  | [#8591482](https://tatoeba.org/en/sentences/show/8591482) | danepo |
+| S81013 | Er du god til at lave mad? | Are you good at cooking? |  | [#8591534](https://tatoeba.org/en/sentences/show/8591534) | danepo |
+| S81014 | Hun sælger mad. | She sells food. |  | [#1908536](https://tatoeba.org/en/sentences/show/1908536) | danepo |
+| S81015 | Giv mig mad. | Feed me, please. |  | [#3244005](https://tatoeba.org/en/sentences/show/3244005) | danepo |
+| S81016 | Jeg elsker sukker. | I like sugar. |  | [#7588629](https://tatoeba.org/en/sentences/show/7588629) | M1dx |
+| S81017 | Det smager virkelig godt. | It tastes really good. | This really tastes good. | [#539196](https://tatoeba.org/en/sentences/show/539196) | danepo |
+| S81018 | Værsgo at tage plads. | Please have a seat. | Have a seat, please.; Take a seat, please. | [#1881784](https://tatoeba.org/en/sentences/show/1881784) | danepo |
+| S81019 | Disse æbler smager godt. | These apples taste good. |  | [#3567997](https://tatoeba.org/en/sentences/show/3567997) | danepo |
+| S81020 | Giv mig en kop kaffe. | Get me a cup of coffee. |  | [#1122334](https://tatoeba.org/en/sentences/show/1122334) | danepo |
+| S81021 | Jeg kan også lide kage. | I also like cake. |  | [#3263778](https://tatoeba.org/en/sentences/show/3263778) | danepo |
+| S81022 | Du drikker af min kop. | You're drinking out of my cup. |  | [#11165554](https://tatoeba.org/en/sentences/show/11165554) | danepo |
+| S81023 | "Må jeg komme ind?" "Ja, værsgo." | "May I come in?" "Yes, come on in." |  | [#476828](https://tatoeba.org/en/sentences/show/476828) | danepo |
+| S81024 | Jeg vil gerne bestille det samme. | I'd like to order the same. |  | [#5476161](https://tatoeba.org/en/sentences/show/5476161) | danepo |
+| S81025 | Mary kom med te og kage. | Mary brought tea and cake. |  | [#10748072](https://tatoeba.org/en/sentences/show/10748072) | SeaLiteral |
+| S81026 | Jeg lavede en sandwich til Tom. | I made Tom a sandwich. | I made a sandwich for Tom. | [#11190764](https://tatoeba.org/en/sentences/show/11190764) | danepo |
+| S81027 | Jeg har lavet en sandwich til Tom. | I made Tom a sandwich. | I made a sandwich for Tom. | [#11190774](https://tatoeba.org/en/sentences/show/11190774) | danepo |
+| S81028 | Tom har lavet en sandwich til Mary. | Tom made a sandwich for Mary. |  | [#11190803](https://tatoeba.org/en/sentences/show/11190803) | danepo |
+| S81029 | Hvad koster en øl? | How much is a beer? | How much is one beer?; How much does a beer cost?; What is the cost of a beer? | [#1977852](https://tatoeba.org/en/sentences/show/1977852) | marcelostockle |
+| S81030 | Er den her din øl? | Is this your beer? |  | [#1762238](https://tatoeba.org/en/sentences/show/1762238) | danepo |
+
+## U91 Ideas + Things: En grund, en slags, en del: everyday nouns; hvad slags …? (what kind of …?); en del af (a part of); sandheden (the truth); resten (the rest)
+
+40 sentences picked from 115 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: grund (2), del (0), sag (2), stedet (1), steder (2), ansigt (0), hovedet (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S91001 | Betyder sandheden noget? | Does truth matter? |  | [#7142045](https://tatoeba.org/en/sentences/show/7142045) | danepo |
+| S91002 | Siger de sandheden? | Are they telling the truth? |  | [#10755453](https://tatoeba.org/en/sentences/show/10755453) | danepo |
+| S91003 | Fortæller Tom sandheden? | Is Tom telling the truth? |  | [#12388899](https://tatoeba.org/en/sentences/show/12388899) | danepo |
+| S91004 | Hvad slags bøger har du? | What kind of books do you have? | What kind of books have you got? | [#12099053](https://tatoeba.org/en/sentences/show/12099053) | danepo |
+| S91005 | Var den fyr alene hjemme? | Was that guy home alone? |  | [#12353954](https://tatoeba.org/en/sentences/show/12353954) | danepo |
+| S91006 | Hvad er din mening om sagen? | What is your opinion on the matter? |  | [#4753063](https://tatoeba.org/en/sentences/show/4753063) | danepo |
+| S91007 | Hvad slags bil kører Tom i? | What kind of car does Tom drive? |  | [#7584915](https://tatoeba.org/en/sentences/show/7584915) | danepo |
+| S91008 | Var du nogen steder sidste weekend? | Did you go anywhere last weekend? |  | [#8766107](https://tatoeba.org/en/sentences/show/8766107) | danepo |
+| S91009 | Hvad slags æbler er de her? | What kind of apples are these? |  | [#12134586](https://tatoeba.org/en/sentences/show/12134586) | danepo |
+| S91010 | Godmorgen skat! | Good morning, sweetheart. |  | [#4701650](https://tatoeba.org/en/sentences/show/4701650) | danepo |
+| S91011 | Godaften, skat! | Good evening, darling! |  | [#8770783](https://tatoeba.org/en/sentences/show/8770783) | danepo |
+| S91012 | Giv os fred! | Give us peace! |  | [#692742](https://tatoeba.org/en/sentences/show/692742) | danepo |
+| S91013 | Kom til sagen! | Get to the point. |  | [#1987661](https://tatoeba.org/en/sentences/show/1987661) | danepo |
+| S91014 | Undskyld, min skat. | I'm sorry, my love. |  | [#2514627](https://tatoeba.org/en/sentences/show/2514627) | danepo |
+| S91015 | Vi ønsker fred. | We want peace. |  | [#6943256](https://tatoeba.org/en/sentences/show/6943256) | danepo |
+| S91016 | Det er min sag. | That's my business. |  | [#1192891](https://tatoeba.org/en/sentences/show/1192891) | danepo |
+| S91017 | Fortæl mig en historie! | Tell me a story. |  | [#1884943](https://tatoeba.org/en/sentences/show/1884943) | danepo |
+| S91018 | Det er gode nyheder. | That's great news. |  | [#3365696](https://tatoeba.org/en/sentences/show/3365696) | danepo |
+| S91019 | Fortæl os en historie! | Tell us a story! |  | [#5279360](https://tatoeba.org/en/sentences/show/5279360) | danepo |
+| S91020 | Det koster en masse. | It costs a lot. |  | [#6995876](https://tatoeba.org/en/sentences/show/6995876) | danepo |
+| S91021 | Jeg kan tage resten. | I can take the rest. |  | [#10566130](https://tatoeba.org/en/sentences/show/10566130) | danepo |
+| S91022 | Din historie er sjov. | Your story is funny. |  | [#11919751](https://tatoeba.org/en/sentences/show/11919751) | sifhg |
+| S91023 | Der sker en masse. | There's a lot going on. |  | [#12355962](https://tatoeba.org/en/sentences/show/12355962) | danepo |
+| S91024 | Jeg har en masse blomster. | I have a lot of flowers. |  | [#626470](https://tatoeba.org/en/sentences/show/626470) | danepo |
+| S91025 | Han er en sød fyr. | He's a sweet guy. |  | [#1881954](https://tatoeba.org/en/sentences/show/1881954) | danepo |
+| S91026 | Alt sker af en grund. | Everything happens for a reason. |  | [#1914525](https://tatoeba.org/en/sentences/show/1914525) | danepo |
+| S91027 | Lad mig være i fred! | Leave me alone! |  | [#2455185](https://tatoeba.org/en/sentences/show/2455185) | danepo |
+| S91028 | Tom er en flot fyr. | Tom is a handsome guy. |  | [#2466887](https://tatoeba.org/en/sentences/show/2466887) | danepo |
+| S91029 | Ingen nyheder er gode nyheder. | No news is good news. |  | [#3121052](https://tatoeba.org/en/sentences/show/3121052) | danepo |
+| S91030 | Tom havde vel en grund. | Tom must've had a reason. |  | [#3479238](https://tatoeba.org/en/sentences/show/3479238) | danepo |
+| S91031 | Jeg har ikke hele dagen. | I don't have all day. |  | [#4145088](https://tatoeba.org/en/sentences/show/4145088) | danepo |
+| S91032 | Det er ikke min sag. | It's not my business. | It's none of my business! | [#5109725](https://tatoeba.org/en/sentences/show/5109725) | danepo |
+| S91033 | Lad os komme til sagen. | Let's get to the point. | Let's cut to the chase. | [#5116241](https://tatoeba.org/en/sentences/show/5116241) | danepo |
+| S91034 | Han var velkommen alle steder. | He was welcomed everywhere. |  | [#6990034](https://tatoeba.org/en/sentences/show/6990034) | sifhg |
+| S91035 | Vi er her hele dagen. | We're here for the day. |  | [#7525344](https://tatoeba.org/en/sentences/show/7525344) | danepo |
+| S91036 | Tom var hjemme hele dagen. | Tom was at home all day. | Tom was at home the whole day. | [#7958426](https://tatoeba.org/en/sentences/show/7958426) | danepo |
+| S91037 | Jeg tager mig af resten. | I'll take care of the rest. |  | [#12362986](https://tatoeba.org/en/sentences/show/12362986) | danepo |
+| S91038 | Dette er stedet hvor Tom arbejder. | This is the place where Tom works. |  | [#3537680](https://tatoeba.org/en/sentences/show/3537680) | danepo |
+| S91039 | Jeg kan tage mig af resten. | I can take care of the rest. |  | [#12362978](https://tatoeba.org/en/sentences/show/12362978) | danepo |
+| S91040 | Jeg har meget gode nyheder til dig. | I have great news for you. |  | [#1831544](https://tatoeba.org/en/sentences/show/1831544) | danepo |
+
+## U26 Excuse Me: Undskyld, kan du hjælpe mig?; undskyld, at jeg forstyrrer; ingen årsag (you are welcome); vær sød at … (please …); det gør ikke noget (no problem)
+
+27 sentences picked from 27 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: årsag (1), forstyrre (0), naturligvis (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S26001 | Forstyrrer jeg? | Am I disturbing anything? |  | [#4289954](https://tatoeba.org/en/sentences/show/4289954) | danepo |
+| S26002 | Vær stille. | Be still. | Be quiet.; Quiet down.; Stay quiet. | [#663385](https://tatoeba.org/en/sentences/show/663385) | danepo |
+| S26003 | Ingen årsag. | You're welcome. | You are welcome.; Don't mention it. | [#7366773](https://tatoeba.org/en/sentences/show/7366773) | danepo |
+| S26004 | Vær rolig! | Be still. |  | [#7777534](https://tatoeba.org/en/sentences/show/7777534) | danepo |
+| S26005 | Vær mere stille! | Quieter! |  | [#4571768](https://tatoeba.org/en/sentences/show/4571768) | danepo |
+| S26006 | Undskyld jeg forstyrrer! | Excuse me for bothering you. |  | [#8826890](https://tatoeba.org/en/sentences/show/8826890) | danepo |
+| S26007 | Jeg vil gerne undskylde. | I'd like to apologize. |  | [#3631846](https://tatoeba.org/en/sentences/show/3631846) | danepo |
+| S26008 | Der er intet at undskylde. | There's nothing to apologize for. | There is nothing to apologize for. | [#1793842](https://tatoeba.org/en/sentences/show/1793842) | danepo |
+| S26009 | Hun kan naturligvis tale engelsk. | She can naturally speak English. |  | [#2626629](https://tatoeba.org/en/sentences/show/2626629) | danepo |
+| S26010 | Det må du meget undskylde. | I'm very sorry. |  | [#4555646](https://tatoeba.org/en/sentences/show/4555646) | danepo |
+| S26011 | Jeg håber ikke jeg forstyrrer dig. | I hope I'm not disturbing you. |  | [#2681544](https://tatoeba.org/en/sentences/show/2681544) | danepo |
+| S26012 | Vær dig selv! | Be yourself. | Be yourself! | [#5661279](https://tatoeba.org/en/sentences/show/5661279) | sifhg |
+| S26013 | Vær ikke bange! | Don't be afraid! |  | [#10649393](https://tatoeba.org/en/sentences/show/10649393) | danepo |
+| S26014 | Vær en god dreng! | Be a good boy. |  | [#2347917](https://tatoeba.org/en/sentences/show/2347917) | danepo |
+| S26015 | Vær ikke bange, Tom! | Don't be afraid, Tom. |  | [#8611233](https://tatoeba.org/en/sentences/show/8611233) | danepo |
+| S26016 | Vær stille mens vi spiser. | Be quiet while we're eating. | Be quiet while we are eating. | [#615261](https://tatoeba.org/en/sentences/show/615261) | danepo |
+| S26017 | Vær venlig at ringe igen. | Please call again. |  | [#3622679](https://tatoeba.org/en/sentences/show/3622679) | Sharaf78 |
+| S26018 | Vær venlig at gå tilbage. | Please move back. |  | [#3680431](https://tatoeba.org/en/sentences/show/3680431) | Sharaf78 |
+| S26019 | Vær venlig at forklare det. | Please explain it. |  | [#3694959](https://tatoeba.org/en/sentences/show/3694959) | Sharaf78 |
+| S26020 | Du behøver ikke undskylde, Tom. | You don't have to apologize, Tom. |  | [#6293541](https://tatoeba.org/en/sentences/show/6293541) | danepo |
+| S26021 | Vær venlig at hjælpe mig. | Please help me. |  | [#10697114](https://tatoeba.org/en/sentences/show/10697114) | danepo |
+| S26022 | Vær venlig at ringe til ham. | Please call him. |  | [#3622682](https://tatoeba.org/en/sentences/show/3622682) | Sharaf78 |
+| S26023 | Vær sød ved dem omkring dig. | Be kind to those around you. |  | [#10717416](https://tatoeba.org/en/sentences/show/10717416) | SeaLiteral |
+| S26024 | Vær venlig at vente tredive minutter. | Please wait for thirty minutes. |  | [#13054358](https://tatoeba.org/en/sentences/show/13054358) | danepo |
+| S26025 | Jeg håber ikke at jeg forstyrrer dig. | I hope I'm not disturbing you. |  | [#2681540](https://tatoeba.org/en/sentences/show/2681540) | danepo |
+| S26026 | Vær god mod dem der hader dig. | Do good to those who hate you. |  | [#3690673](https://tatoeba.org/en/sentences/show/3690673) | danepo |
+| S26027 | Vær ikke bange. Det er bare mig. | Don't be afraid. It's just me. |  | [#10660597](https://tatoeba.org/en/sentences/show/10660597) | danepo |
+
+## U82 At the Restaurant: Dagens ret (the dish of the day); kylling med ris; kniv og gaffel; et bord til to; kød, fisk eller grøntsager?
+
+30 sentences picked from 72 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: gaffel (0), kylling (1), suppe (1), dessert (2), kartofler (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S82001 | Har du ris? | Do you have rice? |  | [#1945129](https://tatoeba.org/en/sentences/show/1945129) | danepo |
+| S82002 | Er det for salt? | Is it too salty? |  | [#7343559](https://tatoeba.org/en/sentences/show/7343559) | danepo |
+| S82003 | Er den for salt? | Is it too salty? |  | [#7343569](https://tatoeba.org/en/sentences/show/7343569) | danepo |
+| S82004 | Har du en kniv? | Do you have a knife? |  | [#12260675](https://tatoeba.org/en/sentences/show/12260675) | morbrorper |
+| S82005 | Hvor fandt du denne kniv? | Where did you find this knife? |  | [#4748904](https://tatoeba.org/en/sentences/show/4748904) | Svira |
+| S82006 | Hvad passer godt til kartofler? | What goes well with potatoes? |  | [#4948469](https://tatoeba.org/en/sentences/show/4948469) | danepo |
+| S82007 | Hvor mange æg er der? | How many eggs are there? |  | [#8250881](https://tatoeba.org/en/sentences/show/8250881) | danepo |
+| S82008 | Hvor kan jeg købe æg? | Where can I buy eggs? |  | [#13079623](https://tatoeba.org/en/sentences/show/13079623) | danepo |
+| S82009 | Hvor ofte køber du æg? | How often do you buy eggs? |  | [#13079640](https://tatoeba.org/en/sentences/show/13079640) | danepo |
+| S82010 | Hun spiser ikke kød, ikke sandt? | She doesn't eat meat, does she? |  | [#1128998](https://tatoeba.org/en/sentences/show/1128998) | danepo |
+| S82011 | Kunne du tænke dig en dessert? | Would you like any dessert? |  | [#4538232](https://tatoeba.org/en/sentences/show/4538232) | danepo |
+| S82012 | Er der en kat på bordet? | Is there a cat on the table? |  | [#5410507](https://tatoeba.org/en/sentences/show/5410507) | danepo |
+| S82013 | Var der nogen, der sagde pizza? | Did someone mention pizza? |  | [#12177714](https://tatoeba.org/en/sentences/show/12177714) | danepo |
+| S82014 | De spiser kød. | They eat meat. |  | [#1764358](https://tatoeba.org/en/sentences/show/1764358) | danepo |
+| S82015 | Du har kød. | You have meat. |  | [#1764398](https://tatoeba.org/en/sentences/show/1764398) | danepo |
+| S82016 | Jeg elsker dessert. | I love dessert. |  | [#1876603](https://tatoeba.org/en/sentences/show/1876603) | danepo |
+| S82017 | Vi har ris. | We have rice. |  | [#6886021](https://tatoeba.org/en/sentences/show/6886021) | danepo |
+| S82018 | Det var pizza. | It was pizza. |  | [#8560353](https://tatoeba.org/en/sentences/show/8560353) | danepo |
+| S82019 | Jeg spiser ris. | I am eating rice. |  | [#10727608](https://tatoeba.org/en/sentences/show/10727608) | SeaLiteral |
+| S82020 | Jeg elsker suppe. | I love soup. |  | [#10913401](https://tatoeba.org/en/sentences/show/10913401) | danepo |
+| S82021 | Pengene ligger på bordet. | The money is on the table. |  | [#2445538](https://tatoeba.org/en/sentences/show/2445538) | danepo |
+| S82022 | Dette er ikke salt. | This is not salt. |  | [#3655173](https://tatoeba.org/en/sentences/show/3655173) | danepo |
+| S82023 | Vi spiser mange kartofler. | We eat a lot of potatoes. |  | [#6924196](https://tatoeba.org/en/sentences/show/6924196) | danepo |
+| S82024 | Jeg har en kniv. | I have a knife. | I've got a knife. | [#8821890](https://tatoeba.org/en/sentences/show/8821890) | danepo |
+| S82025 | Smør laver man af mælk. | Butter is made from milk. |  | [#676587](https://tatoeba.org/en/sentences/show/676587) | danepo |
+| S82026 | Smør er lavet af mælk. | Butter is made from milk. |  | [#676589](https://tatoeba.org/en/sentences/show/676589) | danepo |
+| S82027 | Han har smør og ost. | He has butter and cheese. |  | [#1764393](https://tatoeba.org/en/sentences/show/1764393) | danepo |
+| S82028 | En kat er på bordet. | A cat is on the table. |  | [#5410495](https://tatoeba.org/en/sentences/show/5410495) | danepo |
+| S82029 | Tom kan ikke lide pizza. | Tom doesn't like pizza. |  | [#7922358](https://tatoeba.org/en/sentences/show/7922358) | danepo |
+| S82030 | Nogle mennesker kan ikke lide kylling. | Some people don't like chicken. |  | [#5164683](https://tatoeba.org/en/sentences/show/5164683) | danepo |
+
+## U83 Asking the Way: Til højre, til venstre, ligeud: directions; drej til venstre ved hjørnet; gå ad den vej (go that way); hvor langt er der til byen?
+
+31 sentences picked from 98 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: højre (0), ligeud (1), bro (2), ad (1), drej (2), gaden (2), retning (2), midt (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S83001 | Drej til venstre på hjørnet. | Turn left at that corner. |  | [#13140042](https://tatoeba.org/en/sentences/show/13140042) | danepo |
+| S83002 | Fortsæt ligeud! | Keep going straight ahead! |  | [#10279653](https://tatoeba.org/en/sentences/show/10279653) | danepo |
+| S83003 | Drej til venstre. | Turn left. | Turn to the left. | [#2659695](https://tatoeba.org/en/sentences/show/2659695) | danepo |
+| S83004 | Gå ikke ned ad den vej. | Don't go down that road. |  | [#10870066](https://tatoeba.org/en/sentences/show/10870066) | danepo |
+| S83005 | Hvilken vej gik han? | Which way did he go? |  | [#12290468](https://tatoeba.org/en/sentences/show/12290468) | danepo |
+| S83006 | Hvilken vej gik hun? | Which way did she go? |  | [#12290470](https://tatoeba.org/en/sentences/show/12290470) | danepo |
+| S83007 | Hvor er der en bro? | Where's a bridge? | Where is there a bridge? | [#1863583](https://tatoeba.org/en/sentences/show/1863583) | danepo |
+| S83008 | Hvor lang er den bro? | How long is that bridge? |  | [#12476250](https://tatoeba.org/en/sentences/show/12476250) | danepo |
+| S83009 | Hvad gør han for byen? | What does he do for the city? |  | [#12868777](https://tatoeba.org/en/sentences/show/12868777) | danepo |
+| S83010 | I hvilken retning er han gået? | Which direction did he go? |  | [#2429334](https://tatoeba.org/en/sentences/show/2429334) | danepo |
+| S83011 | Kan du skrive med venstre hånd? | Can you write with your left hand? |  | [#9733550](https://tatoeba.org/en/sentences/show/9733550) | danepo |
+| S83012 | I hvilken retning er han taget hen? | Which direction did he go? | In which direction did he go? | [#2419313](https://tatoeba.org/en/sentences/show/2419313) | marcelostockle |
+| S83013 | Selvfølgelig, fortsæt! | Of course, proceed. |  | [#7271777](https://tatoeba.org/en/sentences/show/7271777) | danepo |
+| S83014 | Vejen er lang. | The way is long. | The road is long. | [#693787](https://tatoeba.org/en/sentences/show/693787) | danepo |
+| S83015 | Du kender vejen. | You know the way. |  | [#2594410](https://tatoeba.org/en/sentences/show/2594410) | danepo |
+| S83016 | Han kender vejen. | He knows the way. |  | [#2594412](https://tatoeba.org/en/sentences/show/2594412) | danepo |
+| S83017 | Stop ved hjørnet. | Stop at the corner. |  | [#11765450](https://tatoeba.org/en/sentences/show/11765450) | M1dx |
+| S83018 | Fortsæt med dit arbejde. | Carry on with your work. |  | [#695079](https://tatoeba.org/en/sentences/show/695079) | danepo |
+| S83019 | Han bor udenfor byen. | He lives outside the city. |  | [#697046](https://tatoeba.org/en/sentences/show/697046) | danepo |
+| S83020 | Han kender byen godt. | He knows the city well. |  | [#1143719](https://tatoeba.org/en/sentences/show/1143719) | danepo |
+| S83021 | Tom gik over gaden. | Tom walked across the street. |  | [#6554936](https://tatoeba.org/en/sentences/show/6554936) | danepo |
+| S83022 | Jeg elsker hende ikke længere. | I don't love her anymore. |  | [#475025](https://tatoeba.org/en/sentences/show/475025) | danepo |
+| S83023 | Han bor her ikke længere. | He no longer lives here. |  | [#498025](https://tatoeba.org/en/sentences/show/498025) | danepo |
+| S83024 | Han bor ikke her længere. | He doesn't live here anymore. | He no longer lives here.; He is no longer living here. | [#599475](https://tatoeba.org/en/sentences/show/599475) | danepo |
+| S83025 | Jeg bor midt i ingenting. | I live in the middle of nowhere. |  | [#5166927](https://tatoeba.org/en/sentences/show/5166927) | Ritte |
+| S83026 | Det er lige om hjørnet. | It's just around the corner. |  | [#7818909](https://tatoeba.org/en/sentences/show/7818909) | danepo |
+| S83027 | Jeg er midt i noget. | I'm in the middle of something. |  | [#10767570](https://tatoeba.org/en/sentences/show/10767570) | danepo |
+| S83028 | Den var otte meter lang. | It was eight meters long. | It was eight metres long. | [#11926876](https://tatoeba.org/en/sentences/show/11926876) | danepo |
+| S83029 | Det var otte meter langt. | It was eight meters long. | It was eight metres long. | [#11926878](https://tatoeba.org/en/sentences/show/11926878) | danepo |
+| S83030 | Vi kunne ikke se nogen på gaden. | We could not see anyone in the street. |  | [#594319](https://tatoeba.org/en/sentences/show/594319) | danepo |
+| S83031 | Tom er cirka en meter og firs. | Tom is approximately six feet tall. |  | [#5213701](https://tatoeba.org/en/sentences/show/5213701) | danepo |
+
+## U92 Describing Words: Hård, hårdt: the -t form after et and after det (det er hårdt); den eneste (the only one); hvert år (every year); til sidst (at last); det er fedt! (that is great)
+
+39 sentences picked from 126 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: fedt (0), fast (2), svag (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S92001 | Har du fast kæreste? | Do you have a steady girlfriend? | Do you have a steady boyfriend? | [#4145008](https://tatoeba.org/en/sentences/show/4145008) | danepo |
+| S92002 | Hvad døde Tom af? | What did Tom die of? |  | [#11962887](https://tatoeba.org/en/sentences/show/11962887) | danepo |
+| S92003 | Har du en fast kæreste? | Do you have a steady girlfriend? |  | [#4145004](https://tatoeba.org/en/sentences/show/4145004) | danepo |
+| S92004 | Er jeg på den rigtige vej? | Am I on the right road? |  | [#569983](https://tatoeba.org/en/sentences/show/569983) | danepo |
+| S92005 | Er du ved at være klar? | Are you almost ready? |  | [#3270003](https://tatoeba.org/en/sentences/show/3270003) | danepo |
+| S92006 | Hvornår havde du sidst en kæreste? | When was the last time you had a girlfriend? |  | [#3593826](https://tatoeba.org/en/sentences/show/3593826) | danepo |
+| S92007 | Er du klar til at spille? | Are you ready to play? |  | [#5324539](https://tatoeba.org/en/sentences/show/5324539) | bluedragon123 |
+| S92008 | Hvad er mest vigtig for dig? | What's most important to you? |  | [#12135306](https://tatoeba.org/en/sentences/show/12135306) | danepo |
+| S92009 | Hvor har du sidst set den? | Where did you see it last? |  | [#13249063](https://tatoeba.org/en/sentences/show/13249063) | danepo |
+| S92010 | Hvornår har du sidst set en film? | When was the last time you watched a movie? |  | [#4107758](https://tatoeba.org/en/sentences/show/4107758) | danepo |
+| S92011 | Han døde. | He died. | He breathed his last breath. | [#673684](https://tatoeba.org/en/sentences/show/673684) | bluedragon123 |
+| S92012 | Tom døde. | Tom died. |  | [#1917624](https://tatoeba.org/en/sentences/show/1917624) | danepo |
+| S92013 | Intet er parat. | There is nothing ready. |  | [#1151405](https://tatoeba.org/en/sentences/show/1151405) | danepo |
+| S92014 | Det er hårdt. | It's hard. |  | [#1568773](https://tatoeba.org/en/sentences/show/1568773) | Sharaf78 |
+| S92015 | Alt er parat. | Everything is ready. |  | [#1745476](https://tatoeba.org/en/sentences/show/1745476) | danepo |
+| S92016 | Tom er død. | Tom's dead. | Tom is dead.; Tom passed away. | [#1998573](https://tatoeba.org/en/sentences/show/1998573) | danepo |
+| S92017 | Vi blev klar. | We got ready. |  | [#3629658](https://tatoeba.org/en/sentences/show/3629658) | Sharaf78 |
+| S92018 | Tom var svag. | Tom was weak. |  | [#7200841](https://tatoeba.org/en/sentences/show/7200841) | danepo |
+| S92019 | Du er vigtig! | You're important! |  | [#7588670](https://tatoeba.org/en/sentences/show/7588670) | M1dx |
+| S92020 | Hun var død. | She was dead. |  | [#8699368](https://tatoeba.org/en/sentences/show/8699368) | sifhg |
+| S92021 | Den er vigtig. | It's important. |  | [#10352714](https://tatoeba.org/en/sentences/show/10352714) | danepo |
+| S92022 | Hun er død. | She's dead. | She is dead. | [#11790562](https://tatoeba.org/en/sentences/show/11790562) | danepo |
+| S92023 | Den er snart parat. | It will be ready soon. |  | [#498000](https://tatoeba.org/en/sentences/show/498000) | danepo |
+| S92024 | Du er den eneste. | You're the only one. | You are the only one. | [#2566266](https://tatoeba.org/en/sentences/show/2566266) | danepo |
+| S92025 | Rigtige mænd drikker te. | Real men drink tea. |  | [#2930715](https://tatoeba.org/en/sentences/show/2930715) | danepo |
+| S92026 | Jeg hørte hvert ord. | I heard every word. |  | [#4794004](https://tatoeba.org/en/sentences/show/4794004) | danepo |
+| S92027 | Det var helt normalt. | That was perfectly normal. |  | [#5683914](https://tatoeba.org/en/sentences/show/5683914) | danepo |
+| S92028 | Det er helt normalt. | It's completely normal. | That's dead normal.; It's totally normal. | [#5684417](https://tatoeba.org/en/sentences/show/5684417) | danepo |
+| S92029 | Det er ikke normalt. | It isn't usual. |  | [#11978682](https://tatoeba.org/en/sentences/show/11978682) | danepo |
+| S92030 | Mandag er en hård dag. | Monday is a hard day. |  | [#1551764](https://tatoeba.org/en/sentences/show/1551764) | bluedragon123 |
+| S92031 | Det er din eneste chance. | It's your only chance. |  | [#1558554](https://tatoeba.org/en/sentences/show/1558554) | danepo |
+| S92032 | Hun er hård ved ham. | She is hard on him. |  | [#2328511](https://tatoeba.org/en/sentences/show/2328511) | danepo |
+| S92033 | Det er deres eneste chance. | It's their only chance. |  | [#3120964](https://tatoeba.org/en/sentences/show/3120964) | danepo |
+| S92034 | Jeg har hørt hvert ord. | I heard every word. |  | [#4794002](https://tatoeba.org/en/sentences/show/4794002) | danepo |
+| S92035 | Mit rigtige navn er Tom. | My real name is Tom. |  | [#4858870](https://tatoeba.org/en/sentences/show/4858870) | danepo |
+| S92036 | Hun giver hvert barn to æbler. | She's giving each child two apples. |  | [#3568676](https://tatoeba.org/en/sentences/show/3568676) | danepo |
+| S92037 | Tom siger, han arbejder meget hårdt. | Tom says he's working very hard. |  | [#3830688](https://tatoeba.org/en/sentences/show/3830688) | Mlkragelund |
+| S92038 | Jeg har hårdt brug for hjælp. | I need urgent help. |  | [#7066072](https://tatoeba.org/en/sentences/show/7066072) | danepo |
+| S92039 | Jeg har haft en rigtig hård dag. | I've had a really tough day. |  | [#5005782](https://tatoeba.org/en/sentences/show/5005782) | Ben200 |
+
+## U27 I'm Lost: Jeg er faret vild (I am lost); kan du vise mig det på kortet?; herhen (to here), derhen (to there): kom herhen!; hvor er den nærmeste …?
+
+22 sentences picked from 22 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: kortet (1), adressen (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S27001 | Er du faret vild? | Are you lost? |  | [#671908](https://tatoeba.org/en/sentences/show/671908) | danepo |
+| S27002 | Jeg er faret vild. | I'm lost. | I've lost my way. | [#4281122](https://tatoeba.org/en/sentences/show/4281122) | danepo |
+| S27003 | Jeg er faret vild i skoven. | I've got lost in the forest. |  | [#10732396](https://tatoeba.org/en/sentences/show/10732396) | SeaLiteral |
+| S27004 | Kommer de herhen i morgen? | Are they coming here tomorrow? |  | [#2093982](https://tatoeba.org/en/sentences/show/2093982) | danepo |
+| S27005 | Kan du komme herhen? | Can you come here? |  | [#10169216](https://tatoeba.org/en/sentences/show/10169216) | danepo |
+| S27006 | Hvorfor er du kommet herhen? | Why did you come here? |  | [#695576](https://tatoeba.org/en/sentences/show/695576) | danepo |
+| S27007 | Hvor er det nærmeste hotel? | Where's the nearest hotel? |  | [#1876406](https://tatoeba.org/en/sentences/show/1876406) | danepo |
+| S27008 | Hvor er den nærmeste station? | Where's the nearest station? | Where is the nearest station? | [#3195281](https://tatoeba.org/en/sentences/show/3195281) | danepo |
+| S27009 | Behøver jeg at tage derhen? | Do I need to go there? |  | [#12126367](https://tatoeba.org/en/sentences/show/12126367) | danepo |
+| S27010 | Hvor er det nærmeste toilet? | Where's the nearest toilet? | Where is the nearest toilet? | [#12403495](https://tatoeba.org/en/sentences/show/12403495) | danepo |
+| S27011 | Gå derhen. | Go there. |  | [#7423971](https://tatoeba.org/en/sentences/show/7423971) | danepo |
+| S27012 | Her er adressen. | Here's the address. |  | [#3593513](https://tatoeba.org/en/sentences/show/3593513) | danepo |
+| S27013 | Jeg går derhen nu. | I'm going there now. |  | [#2514698](https://tatoeba.org/en/sentences/show/2514698) | danepo |
+| S27014 | Lad os få kortet frem! | Let's get the map out. |  | [#12493434](https://tatoeba.org/en/sentences/show/12493434) | danepo |
+| S27015 | Jeg har ikke adressen ved mig. | I don't have the address with me. |  | [#475011](https://tatoeba.org/en/sentences/show/475011) | danepo |
+| S27016 | Hjælp mig, jeg er faret vild! | Help me, I've lost my way. |  | [#13166765](https://tatoeba.org/en/sentences/show/13166765) | danepo |
+| S27017 | Kom herhen! | Come here! |  | [#3800574](https://tatoeba.org/en/sentences/show/3800574) | danepo |
+| S27018 | Jeg gik derhen i går. | I went there yesterday. |  | [#4847668](https://tatoeba.org/en/sentences/show/4847668) | danepo |
+| S27019 | Han går derhen hver dag. | He goes there every day. |  | [#1943556](https://tatoeba.org/en/sentences/show/1943556) | marcelostockle |
+| S27020 | Jeg kan selv køre dig derhen. | I can drive you there myself. |  | [#8070212](https://tatoeba.org/en/sentences/show/8070212) | danepo |
+| S27021 | Ja, jeg synes, du skal tage derhen. | Yes, I think you should go there. |  | [#5186811](https://tatoeba.org/en/sentences/show/5186811) | Mlkragelund |
+| S27022 | Du burde tage derhen i denne uge. | You ought to go there this week. |  | [#8610731](https://tatoeba.org/en/sentences/show/8610731) | danepo |
+
+## U84 Getting Around: Med bus, med tog, til fods: how you go; jeg tager bilen; skifte (change): du skifter på næste station; stå af (get off); hente (pick up)
+
+30 sentences picked from 80 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: skifter (1), skifte (2), stiger (2), parkere (2), hente (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S84001 | Kan hun cykle? | Can she cycle? | Can she ride a bicycle?; Can she ride a bike? | [#734509](https://tatoeba.org/en/sentences/show/734509) | danepo |
+| S84002 | Hvor ligger lufthavnen? | Where's the airport? |  | [#3746001](https://tatoeba.org/en/sentences/show/3746001) | danepo |
+| S84003 | Har du kørekort? | Do you have a driver's license? | Do you have a driving licence? | [#9843060](https://tatoeba.org/en/sentences/show/9843060) | danepo |
+| S84004 | Hvor er lufthavnen? | Where's the airport? |  | [#12412398](https://tatoeba.org/en/sentences/show/12412398) | danepo |
+| S84005 | Har du dit kørekort? | Do you have your driver's license? |  | [#562225](https://tatoeba.org/en/sentences/show/562225) | danepo |
+| S84006 | Hvor kan jeg parkere? | Where can I park? |  | [#2230314](https://tatoeba.org/en/sentences/show/2230314) | Wassim |
+| S84007 | Hvorfor skifter du tøj? | Why are you changing your clothes? |  | [#6950953](https://tatoeba.org/en/sentences/show/6950953) | danepo |
+| S84008 | Har du et kørekort? | Do you have a driver's license? | Do you have a driving licence? | [#9843059](https://tatoeba.org/en/sentences/show/9843059) | danepo |
+| S84009 | Hvor skal vi skifte? | Where do we have to change? | Where have we got to change? | [#10481062](https://tatoeba.org/en/sentences/show/10481062) | danepo |
+| S84010 | Hvordan kommer man til lufthavnen? | How can I get to the airport? |  | [#4202468](https://tatoeba.org/en/sentences/show/4202468) | danepo |
+| S84011 | Tager du toget eller bilen? | Do you go by train or by car? | Are you going by train or by car? | [#8831947](https://tatoeba.org/en/sentences/show/8831947) | danepo |
+| S84012 | Hvad er der i bilen? | What's in the car? |  | [#12556622](https://tatoeba.org/en/sentences/show/12556622) | danepo |
+| S84013 | Hvad har du i bilen? | What's in your car? |  | [#12556623](https://tatoeba.org/en/sentences/show/12556623) | danepo |
+| S84014 | Hvornår skal jeg hente dig i morgen? | When should I pick you up tomorrow? |  | [#3332452](https://tatoeba.org/en/sentences/show/3332452) | bluedragon123 |
+| S84015 | Ønsker du virkelig at gå til fods? | Do you really want to walk? |  | [#3557155](https://tatoeba.org/en/sentences/show/3557155) | danepo |
+| S84016 | Hvordan kan du skifte tøj så hurtigt? | How do you change your clothes so fast? |  | [#2502038](https://tatoeba.org/en/sentences/show/2502038) | danepo |
+| S84017 | Kommer familie eller venner og henter dig? | Will family or friends come to pick you up? |  | [#10698452](https://tatoeba.org/en/sentences/show/10698452) | danepo |
+| S84018 | Hvorfor har du brug for to cykler? | Why do you need two bicycles? |  | [#10799415](https://tatoeba.org/en/sentences/show/10799415) | danepo |
+| S84019 | Tom cykler. | Tom rides a bicycle. | Tom is riding a bicycle. | [#1742787](https://tatoeba.org/en/sentences/show/1742787) | danepo |
+| S84020 | Vi cykler. | We'll go by bike. |  | [#12723769](https://tatoeba.org/en/sentences/show/12723769) | danepo |
+| S84021 | Tom kan cykle. | Tom can ride a bicycle. |  | [#5591243](https://tatoeba.org/en/sentences/show/5591243) | danepo |
+| S84022 | Tom gik til fods. | Tom walked. |  | [#7218910](https://tatoeba.org/en/sentences/show/7218910) | danepo |
+| S84023 | Hun går til fods. | She walks. |  | [#8264718](https://tatoeba.org/en/sentences/show/8264718) | danepo |
+| S84024 | Vi henter dig. | We'll pick you up. |  | [#11948170](https://tatoeba.org/en/sentences/show/11948170) | danepo |
+| S84025 | Du kan parkere her. | You can park here. | You may park here. | [#1786689](https://tatoeba.org/en/sentences/show/1786689) | danepo |
+| S84026 | Jeg stiger af her. | I get off here. |  | [#7371776](https://tatoeba.org/en/sentences/show/7371776) | danepo |
+| S84027 | Jeg stiger ud her. | I get off here. |  | [#7371787](https://tatoeba.org/en/sentences/show/7371787) | danepo |
+| S84028 | Han kunne lide at cykle. | He enjoyed cycling. |  | [#1751604](https://tatoeba.org/en/sentences/show/1751604) | danepo |
+| S84029 | Vi kommer og henter dig. | We'll pick you up. |  | [#11948168](https://tatoeba.org/en/sentences/show/11948168) | danepo |
+| S84030 | Du behøver ikke komme og hente mig. | I don't need you to come and get me. |  | [#3574075](https://tatoeba.org/en/sentences/show/3574075) | danepo |
+
+## U85 My Family: Farfar (father's father), mormor (mother's mother): the word says whose side; min søn, min datter; de er gift; søskende (brothers and sisters)
+
+34 sentences picked from 170 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: farfar (0), mormor (0), onkel (2), bedsteforældre (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S85001 | Er din søn gift? | Is your son married? |  | [#12104834](https://tatoeba.org/en/sentences/show/12104834) | danepo |
+| S85002 | Vi er fætter og kusine. | We are cousins. |  | [#9737762](https://tatoeba.org/en/sentences/show/9737762) | danepo |
+| S85003 | Hun har en søn og en datter. | She has a son and a daughter. |  | [#1876604](https://tatoeba.org/en/sentences/show/1876604) | danepo |
+| S85004 | Vi har to døtre og to sønner. | We have got two daughters and two sons. |  | [#1945158](https://tatoeba.org/en/sentences/show/1945158) | danepo |
+| S85005 | Jeg har en fætter og en kusine. | I have two cousins. |  | [#2590991](https://tatoeba.org/en/sentences/show/2590991) | danepo |
+| S85006 | Jeg har to døtre og to sønner. | I have two daughters and two sons. |  | [#3520217](https://tatoeba.org/en/sentences/show/3520217) | danepo |
+| S85007 | Hun er hans kone, ikke hans datter. | She's his wife, not his daughter. |  | [#8696918](https://tatoeba.org/en/sentences/show/8696918) | danepo |
+| S85008 | Jeg har tre brødre og to søstre. | I have three brothers and two sisters. |  | [#10740372](https://tatoeba.org/en/sentences/show/10740372) | danepo |
+| S85009 | Tom har en masse brødre og søstre. | Tom has a lot of brothers and sisters. |  | [#10783373](https://tatoeba.org/en/sentences/show/10783373) | danepo |
+| S85010 | Er du gift? | Are you married? |  | [#1756492](https://tatoeba.org/en/sentences/show/1756492) | danepo |
+| S85011 | Arbejder din kone? | Does your wife work? |  | [#2260650](https://tatoeba.org/en/sentences/show/2260650) | danepo |
+| S85012 | Er de brødre? | Are they brothers? |  | [#3882466](https://tatoeba.org/en/sentences/show/3882466) | danepo |
+| S85013 | Har han søskende? | Does he have siblings? | Has he got siblings? | [#7300837](https://tatoeba.org/en/sentences/show/7300837) | danepo |
+| S85014 | Har hun søskende? | Does she have any brothers or sisters? |  | [#7304114](https://tatoeba.org/en/sentences/show/7304114) | danepo |
+| S85015 | Har Tom søstre? | Does Tom have any sisters? |  | [#8794906](https://tatoeba.org/en/sentences/show/8794906) | danepo |
+| S85016 | Er Tom gift? | Is Tom married? |  | [#8794914](https://tatoeba.org/en/sentences/show/8794914) | danepo |
+| S85017 | Hvor arbejder din kone? | Where does your wife work? |  | [#2260647](https://tatoeba.org/en/sentences/show/2260647) | danepo |
+| S85018 | Hvor er min søn? | Where's my son? |  | [#4461468](https://tatoeba.org/en/sentences/show/4461468) | sifhg |
+| S85019 | Er han din fætter? | Is he your cousin? |  | [#11948970](https://tatoeba.org/en/sentences/show/11948970) | danepo |
+| S85020 | Er hun din kusine? | Is she your cousin? |  | [#11948971](https://tatoeba.org/en/sentences/show/11948971) | danepo |
+| S85021 | Hvor er min datter? | Where's my daughter? | Where is my daughter? | [#12520110](https://tatoeba.org/en/sentences/show/12520110) | danepo |
+| S85022 | Hvor gammel er din onkel? | How old is your uncle? |  | [#1734113](https://tatoeba.org/en/sentences/show/1734113) | danepo |
+| S85023 | Hvor gamle er dine sønner? | How old are your sons? |  | [#10596949](https://tatoeba.org/en/sentences/show/10596949) | danepo |
+| S85024 | Hvor mange gange er Tom blevet skilt? | How many times has Tom been divorced? |  | [#6967426](https://tatoeba.org/en/sentences/show/6967426) | danepo |
+| S85025 | Tom er skilt. | Tom's divorced. | Tom is divorced. | [#4107648](https://tatoeba.org/en/sentences/show/4107648) | danepo |
+| S85026 | De er søskende. | They're siblings. | They are siblings. | [#7842574](https://tatoeba.org/en/sentences/show/7842574) | danepo |
+| S85027 | Jeg har to døtre. | I have two daughters. |  | [#615637](https://tatoeba.org/en/sentences/show/615637) | danepo |
+| S85028 | Lad os blive skilt. | Let's get divorced. |  | [#1369502](https://tatoeba.org/en/sentences/show/1369502) | danepo |
+| S85029 | Det er mine bedsteforældre. | These are my grandparents. |  | [#7031425](https://tatoeba.org/en/sentences/show/7031425) | danepo |
+| S85030 | Mary er din tante. | Mary is your aunt. |  | [#12056051](https://tatoeba.org/en/sentences/show/12056051) | danepo |
+| S85031 | Min tante gav mig blomster. | My aunt gave me flowers. |  | [#673473](https://tatoeba.org/en/sentences/show/673473) | danepo |
+| S85032 | Han bor hos sin onkel. | He's staying with his uncle. |  | [#5642651](https://tatoeba.org/en/sentences/show/5642651) | danepo |
+| S85033 | Min tante er her allerede. | My aunt is already here. |  | [#6145919](https://tatoeba.org/en/sentences/show/6145919) | danepo |
+| S85034 | Alle fire bedsteforældre til Tom lever stadig. | All four of Tom's grandparents are still living. |  | [#10503433](https://tatoeba.org/en/sentences/show/10503433) | danepo |
+
+## U93 Doing + Getting: Holde, klare, redde, vinde: everyday verbs side by side; jeg klarer det (I can manage); det handler om … (it is about …); lade (let): han lader mig køre
+
+30 sentences picked from 74 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: holde (1), holdt (2), klare (2), lader (0), slå (2), slår (0), slog (0), åbner (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S93001 | Holder bussen her? | Does the bus stop here? |  | [#3800708](https://tatoeba.org/en/sentences/show/3800708) | danepo |
+| S93002 | Holder du af musik? | Do you like music? |  | [#1143687](https://tatoeba.org/en/sentences/show/1143687) | danepo |
+| S93003 | Hvornår spiller de fodbold? | When do they play soccer? |  | [#7055446](https://tatoeba.org/en/sentences/show/7055446) | danepo |
+| S93004 | Hvor handler du ind? | Where do you go shopping? |  | [#8667231](https://tatoeba.org/en/sentences/show/8667231) | danepo |
+| S93005 | Hvem tror du, vinder? | Who do you think will win? | Who do you think'll win?; Who do you think is going to win?; Who do you think's going to win? | [#10323652](https://tatoeba.org/en/sentences/show/10323652) | danepo |
+| S93006 | Kan du redde Tom? | Can you save Tom? |  | [#10649398](https://tatoeba.org/en/sentences/show/10649398) | danepo |
+| S93007 | Kan vi redde Tom? | Can we save Tom? |  | [#10649400](https://tatoeba.org/en/sentences/show/10649400) | danepo |
+| S93008 | Hvem skal redde Tom? | Who'll save Tom? | Who will save Tom? | [#11643416](https://tatoeba.org/en/sentences/show/11643416) | danepo |
+| S93009 | Holder du af hende? | Do you care about her? |  | [#12690927](https://tatoeba.org/en/sentences/show/12690927) | danepo |
+| S93010 | Kan du klare det alene? | Can you manage alone? |  | [#7841420](https://tatoeba.org/en/sentences/show/7841420) | danepo |
+| S93011 | Det handler om dig, gør det ikke? | This is about you, isn't it? |  | [#5382162](https://tatoeba.org/en/sentences/show/5382162) | danepo |
+| S93012 | Jeg klarer dette. | I'm handling this. |  | [#3584752](https://tatoeba.org/en/sentences/show/3584752) | Sharaf78 |
+| S93013 | Vi klarer det. | We'll succeed. |  | [#4927179](https://tatoeba.org/en/sentences/show/4927179) | danepo |
+| S93014 | Han spiller musik. | He is playing music. |  | [#5300704](https://tatoeba.org/en/sentences/show/5300704) | danepo |
+| S93015 | Tom vinder sandsynligvis. | Tom will probably win. |  | [#6116660](https://tatoeba.org/en/sentences/show/6116660) | sifhg |
+| S93016 | Måske vinder Tom. | Maybe Tom will win. |  | [#6116661](https://tatoeba.org/en/sentences/show/6116661) | sifhg |
+| S93017 | Tom spiller ikke. | Tom doesn't play. |  | [#8142317](https://tatoeba.org/en/sentences/show/8142317) | danepo |
+| S93018 | Han handler alene. | He's acting alone. |  | [#13065554](https://tatoeba.org/en/sentences/show/13065554) | danepo |
+| S93019 | Han klarer sig godt. | He is doing well. |  | [#6111735](https://tatoeba.org/en/sentences/show/6111735) | danepo |
+| S93020 | Han holdt af at cykle. | He enjoyed cycling. |  | [#1751608](https://tatoeba.org/en/sentences/show/1751608) | danepo |
+| S93021 | Jeg vil holde min mund lukket. | I'll keep my mouth shut. |  | [#2350949](https://tatoeba.org/en/sentences/show/2350949) | danepo |
+| S93022 | Du burde slå dette ord op. | You should look up this word. |  | [#2628419](https://tatoeba.org/en/sentences/show/2628419) | danepo |
+| S93023 | Du bør slå dette ord op. | You should look up this word. |  | [#2628422](https://tatoeba.org/en/sentences/show/2628422) | danepo |
+| S93024 | Det nye museum åbner på mandag. | The new museum opens next Monday. |  | [#8518697](https://tatoeba.org/en/sentences/show/8518697) | danepo |
+| S93025 | Tom holdt hende tæt ind til sig. | Tom held her close to him. |  | [#6941795](https://tatoeba.org/en/sentences/show/6941795) | danepo |
+| S93026 | Jeg vil bare gerne klare mig bedre. | I just want to do better. |  | [#11874806](https://tatoeba.org/en/sentences/show/11874806) | danepo |
+| S93027 | Hvordan kan vi redde Tom? | How can we save Tom? |  | [#10649417](https://tatoeba.org/en/sentences/show/10649417) | danepo |
+| S93028 | Jeg vinder aldrig. | I never win. |  | [#6117683](https://tatoeba.org/en/sentences/show/6117683) | sifhg |
+| S93029 | Tom vinder altid. | Tom always wins. |  | [#11777465](https://tatoeba.org/en/sentences/show/11777465) | danepo |
+| S93030 | Jeg holder af foråret. | I like spring. |  | [#2311344](https://tatoeba.org/en/sentences/show/2311344) | danepo |
+
+## U86 At Home: Min lejlighed har tre værelser; stuen, soveværelset; på anden sal (on the second floor); leje (to rent): jeg lejer en lejlighed
+
+30 sentences picked from 52 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: stue (0), soveværelse (1), vindue (0), skab (1), køleskab (2), leje (2), etage (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S86001 | Hvem har en nøgle til denne lejlighed? | Who's got a key to this flat? |  | [#10326026](https://tatoeba.org/en/sentences/show/10326026) | danepo |
+| S86002 | Står vinduet åbent? | Is the window open? |  | [#5300101](https://tatoeba.org/en/sentences/show/5300101) | danepo |
+| S86003 | Er dette dit skab? | Is this your locker? |  | [#7088967](https://tatoeba.org/en/sentences/show/7088967) | danepo |
+| S86004 | Hvor er din nøgle? | Where's your key? | Where is your key? | [#7744571](https://tatoeba.org/en/sentences/show/7744571) | danepo |
+| S86005 | Hvad laver denne stol her? | What's this chair doing here? |  | [#474996](https://tatoeba.org/en/sentences/show/474996) | danepo |
+| S86006 | På hvilken etage bor du? | What floor do you live on? | Which floor do you live on? | [#606573](https://tatoeba.org/en/sentences/show/606573) | danepo |
+| S86007 | Hvor er nøglen til dette værelse? | Where is the key to this room? |  | [#2471404](https://tatoeba.org/en/sentences/show/2471404) | danepo |
+| S86008 | Du har ikke en nøgle, vel? | You don't have a key, do you? |  | [#3978677](https://tatoeba.org/en/sentences/show/3978677) | danepo |
+| S86009 | Luk vinduet. | Close the window. |  | [#685102](https://tatoeba.org/en/sentences/show/685102) | danepo |
+| S86010 | Luk venligst vinduet. | Please close the window. |  | [#4949355](https://tatoeba.org/en/sentences/show/4949355) | danepo |
+| S86011 | Jeg har nøglen. | I have the key. |  | [#6021438](https://tatoeba.org/en/sentences/show/6021438) | danepo |
+| S86012 | Huset er hans. | The house is his. |  | [#9868154](https://tatoeba.org/en/sentences/show/9868154) | danepo |
+| S86013 | Tag en stol. | Get a chair. |  | [#11917187](https://tatoeba.org/en/sentences/show/11917187) | danepo |
+| S86014 | Vores køleskab virker ikke. | Our fridge doesn't work. | Our refrigerator isn't working. | [#574023](https://tatoeba.org/en/sentences/show/574023) | danepo |
+| S86015 | Vi ses ved huset! | See you at the house! |  | [#2144417](https://tatoeba.org/en/sentences/show/2144417) | danepo |
+| S86016 | Nøglen ligger på bordet. | The key is on the table. |  | [#2445537](https://tatoeba.org/en/sentences/show/2445537) | danepo |
+| S86017 | Den væg er kold. | That wall is cold. |  | [#3611713](https://tatoeba.org/en/sentences/show/3611713) | danepo |
+| S86018 | Denne væg er kold. | This wall is cold. |  | [#3611720](https://tatoeba.org/en/sentences/show/3611720) | danepo |
+| S86019 | Det er mit soveværelse. | It is my bedroom. |  | [#4415064](https://tatoeba.org/en/sentences/show/4415064) | danepo |
+| S86020 | Jeg var i huset. | I was in the house. |  | [#6858146](https://tatoeba.org/en/sentences/show/6858146) | danepo |
+| S86021 | Dette er min lejlighed. | This is my apartment. |  | [#8361667](https://tatoeba.org/en/sentences/show/8361667) | danepo |
+| S86022 | Tom har en lejlighed. | Tom has an apartment. |  | [#12065438](https://tatoeba.org/en/sentences/show/12065438) | danepo |
+| S86023 | Den her væg er kold. | This wall is cold. |  | [#3611640](https://tatoeba.org/en/sentences/show/3611640) | danepo |
+| S86024 | De vil gerne leje cykler. | They would like to hire bicycles. |  | [#13040653](https://tatoeba.org/en/sentences/show/13040653) | danepo |
+| S86025 | Der er kun en stol tilbage. | There's just one chair left. |  | [#4292821](https://tatoeba.org/en/sentences/show/4292821) | danepo |
+| S86026 | Jeg vil gerne købe et køleskab. | I'd like to buy a refrigerator. |  | [#6904110](https://tatoeba.org/en/sentences/show/6904110) | danepo |
+| S86027 | Jeg ønsker at leje en cykel. | I want to rent a bicycle. |  | [#11165559](https://tatoeba.org/en/sentences/show/11165559) | danepo |
+| S86028 | Hun åbner vinduet. | She opens the window. | She is opening the window. | [#8720532](https://tatoeba.org/en/sentences/show/8720532) | danepo |
+| S86029 | Her er min nøgle. | Here is my key. |  | [#497874](https://tatoeba.org/en/sentences/show/497874) | danepo |
+| S86030 | Se ud ad vinduet. | Look out of the window. |  | [#4998328](https://tatoeba.org/en/sentences/show/4998328) | danepo |
+
+## U87 At Work: Jeg er sygeplejerske: no en before a job; jeg arbejder på et kontor; min chef, min kollega; et firma (a company)
+
+34 sentences picked from 65 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: chef (1), kollega (1), kolleger (1), firma (1), løn (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S87001 | Var Tom sygeplejerske? | Was Tom a nurse? |  | [#11138165](https://tatoeba.org/en/sentences/show/11138165) | danepo |
+| S87002 | Er du sygeplejerske? | Are you a nurse? |  | [#11897143](https://tatoeba.org/en/sentences/show/11897143) | danepo |
+| S87003 | Hvor er din computer? | Where's your computer? |  | [#3406866](https://tatoeba.org/en/sentences/show/3406866) | danepo |
+| S87004 | Har du en computer? | Do you own a computer? |  | [#7287655](https://tatoeba.org/en/sentences/show/7287655) | danepo |
+| S87005 | Hvad sker der på arbejdet? | What's going on at work? |  | [#4372302](https://tatoeba.org/en/sentences/show/4372302) | danepo |
+| S87006 | Hvorfor vil du gerne være sygeplejerske? | Why do you want to be a nurse? | Why do you want to become a nurse? | [#3661704](https://tatoeba.org/en/sentences/show/3661704) | danepo |
+| S87007 | Kommer han til mødet i næste uge? | Will he come to the meeting next week? |  | [#1130964](https://tatoeba.org/en/sentences/show/1130964) | danepo |
+| S87008 | Hvordan var din første dag på arbejdet? | How was your first day at work? |  | [#8172045](https://tatoeba.org/en/sentences/show/8172045) | danepo |
+| S87009 | Han har problemer. | He has problems. | He is in trouble. | [#1798671](https://tatoeba.org/en/sentences/show/1798671) | danepo |
+| S87010 | Jeg har problemer. | I've got problems. | I've got some problems. | [#1937505](https://tatoeba.org/en/sentences/show/1937505) | danepo |
+| S87011 | Vi har problemer. | We're in trouble. |  | [#2022979](https://tatoeba.org/en/sentences/show/2022979) | danepo |
+| S87012 | Find et job! | Find a job. | Find a job! | [#3629642](https://tatoeba.org/en/sentences/show/3629642) | Sharaf78 |
+| S87013 | Dette er min computer. | This is my computer. |  | [#2346876](https://tatoeba.org/en/sentences/show/2346876) | everylanguage |
+| S87014 | Jeg laver alt arbejdet. | I do all the work. |  | [#2659783](https://tatoeba.org/en/sentences/show/2659783) | danepo |
+| S87015 | Hun er på kontoret. | She is at the office. |  | [#3563727](https://tatoeba.org/en/sentences/show/3563727) | danepo |
+| S87016 | Tom ringede til kontoret. | Tom called the office. |  | [#11069609](https://tatoeba.org/en/sentences/show/11069609) | danepo |
+| S87017 | Tom er min kollega. | Tom is a colleague of mine. |  | [#12205732](https://tatoeba.org/en/sentences/show/12205732) | danepo |
+| S87018 | Han leder efter et job. | He's looking for a job. | He is looking for a job. | [#615443](https://tatoeba.org/en/sentences/show/615443) | danepo |
+| S87019 | Vi ses i morgen på kontoret. | See you tomorrow in the office. |  | [#619265](https://tatoeba.org/en/sentences/show/619265) | danepo |
+| S87020 | Han er på sit kontor. | He is at his office. |  | [#1484199](https://tatoeba.org/en/sentences/show/1484199) | danepo |
+| S87021 | Jeg venter en kunde i dag. | I'm expecting a customer today. |  | [#1945082](https://tatoeba.org/en/sentences/show/1945082) | danepo |
+| S87022 | Tom er en god kok. | Tom is a good cook. |  | [#2312530](https://tatoeba.org/en/sentences/show/2312530) | danepo |
+| S87023 | Jeg ønsker at skifte job. | I want to change jobs. |  | [#2342708](https://tatoeba.org/en/sentences/show/2342708) | danepo |
+| S87024 | Du er en god kok. | You're a good cook. | You are a good cook. | [#2724458](https://tatoeba.org/en/sentences/show/2724458) | danepo |
+| S87025 | Jeg tager ikke til mødet. | I'm not going to the meeting. |  | [#3105746](https://tatoeba.org/en/sentences/show/3105746) | danepo |
+| S87026 | Du er en god kunde. | You're a good customer. | You are a good customer. | [#3790578](https://tatoeba.org/en/sentences/show/3790578) | Sharaf78 |
+| S87027 | Tom har ikke et kontor. | Tom doesn't have an office. |  | [#5221041](https://tatoeba.org/en/sentences/show/5221041) | danepo |
+| S87028 | Jeg er min egen chef. | I'm my own boss. |  | [#5567866](https://tatoeba.org/en/sentences/show/5567866) | sifhg |
+| S87029 | Hun var den sidste kunde. | She was the last customer. |  | [#6158270](https://tatoeba.org/en/sentences/show/6158270) | danepo |
+| S87030 | Jeg arbejder for dette firma. | I work for this company. |  | [#7889366](https://tatoeba.org/en/sentences/show/7889366) | danepo |
+| S87031 | Mødet er ikke slut endnu. | The meeting isn't over yet. |  | [#10800070](https://tatoeba.org/en/sentences/show/10800070) | danepo |
+| S87032 | Jeg kommer forbi dit kontor i morgen. | I'm going to stop by your office tomorrow. |  | [#3785941](https://tatoeba.org/en/sentences/show/3785941) | Mlkragelund |
+| S87033 | Vi har en rigtig god kok. | We have a really good cook. |  | [#5279349](https://tatoeba.org/en/sentences/show/5279349) | danepo |
+| S87034 | Ingen af mine kolleger kan lide Tom. | None of my colleagues like Tom. | Neither of my colleagues likes Tom. | [#12433909](https://tatoeba.org/en/sentences/show/12433909) | danepo |
+
+## U94 Thinking + Saying: Jeg aner det ikke (I have no idea); er du enig?; jeg lover det; hvad foregår der? (what is going on?); da (when, for the past): da jeg var lille …
+
+30 sentences picked from 66 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: da (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S94001 | Hvad foregår der? | What's going on? |  | [#4372275](https://tatoeba.org/en/sentences/show/4372275) | danepo |
+| S94002 | Er det forstået? | Are we clear? |  | [#4825599](https://tatoeba.org/en/sentences/show/4825599) | danepo |
+| S94003 | Hvad foregår der udenfor? | What's going on outside? |  | [#4372303](https://tatoeba.org/en/sentences/show/4372303) | danepo |
+| S94004 | Burde Tom være bekymret? | Should Tom be worried? |  | [#4503156](https://tatoeba.org/en/sentences/show/4503156) | danepo |
+| S94005 | Burde vi være bekymret? | Should we be worried? |  | [#4503157](https://tatoeba.org/en/sentences/show/4503157) | danepo |
+| S94006 | Hvorfor er de ikke bekymret? | Why aren't they worried? |  | [#4503138](https://tatoeba.org/en/sentences/show/4503138) | danepo |
+| S94007 | Er du kommet i tvivl? | Are you having second thoughts? |  | [#12120361](https://tatoeba.org/en/sentences/show/12120361) | danepo |
+| S94008 | Har du forstået hvad han sagde? | Did you understand what he said? |  | [#663148](https://tatoeba.org/en/sentences/show/663148) | danepo |
+| S94009 | Hvad er det der virkelig foregår? | What's really going on? |  | [#4372289](https://tatoeba.org/en/sentences/show/4372289) | danepo |
+| S94010 | Uden tvivl! | Without a doubt! |  | [#4532666](https://tatoeba.org/en/sentences/show/4532666) | danepo |
+| S94011 | Jeg er enig. | Agreed. | I agree.; I'd agree.; I agree with you. | [#612504](https://tatoeba.org/en/sentences/show/612504) | danepo |
+| S94012 | De har forstået. | They understood. |  | [#3697796](https://tatoeba.org/en/sentences/show/3697796) | danepo |
+| S94013 | Det lover jeg! | I promise. | I promise! | [#4898784](https://tatoeba.org/en/sentences/show/4898784) | danepo |
+| S94014 | Aner det ikke. | No idea. |  | [#7895384](https://tatoeba.org/en/sentences/show/7895384) | danepo |
+| S94015 | Jeg aner det ikke. | I have no idea. |  | [#10281063](https://tatoeba.org/en/sentences/show/10281063) | MyWay |
+| S94016 | Jeg er enig med dig. | I agree with you. |  | [#1962534](https://tatoeba.org/en/sentences/show/1962534) | marcelostockle |
+| S94017 | Jeg er enig med ham. | I agree with him. |  | [#1962536](https://tatoeba.org/en/sentences/show/1962536) | marcelostockle |
+| S94018 | Jeg forventer at han kommer. | I expect him to come. |  | [#7816777](https://tatoeba.org/en/sentences/show/7816777) | danepo |
+| S94019 | Jeg er kommet i tvivl. | I'm having second thoughts. |  | [#12120360](https://tatoeba.org/en/sentences/show/12120360) | danepo |
+| S94020 | Han holder altid hvad han lover. | He always fulfills his promises. |  | [#1143779](https://tatoeba.org/en/sentences/show/1143779) | danepo |
+| S94021 | Jeg aner ikke, hvad der skete. | I have no idea what happened. |  | [#6142592](https://tatoeba.org/en/sentences/show/6142592) | sifhg |
+| S94022 | Jeg var tyk da jeg var yngre. | I was fat when I was younger. |  | [#2295162](https://tatoeba.org/en/sentences/show/2295162) | danepo |
+| S94023 | Jeg vil høre efter. Det lover jeg. | I'll pay attention. I promise. |  | [#4472975](https://tatoeba.org/en/sentences/show/4472975) | danepo |
+| S94024 | Jeg forventer at Tom vil gøre mere. | I expect that Tom will do more. |  | [#5287635](https://tatoeba.org/en/sentences/show/5287635) | danepo |
+| S94025 | Jeg forventer ikke at du husker det. | I don't expect you to remember. |  | [#7588263](https://tatoeba.org/en/sentences/show/7588263) | M1dx |
+| S94026 | Da var det allerede alt for sent. | By then, it was far too late. |  | [#7802869](https://tatoeba.org/en/sentences/show/7802869) | danepo |
+| S94027 | Ved du ikke hvad der foregår? | Don't you know what's happening? | Don't you know what's going on? | [#6102382](https://tatoeba.org/en/sentences/show/6102382) | danepo |
+| S94028 | Der foregår noget her. | Something's going on here. |  | [#4189465](https://tatoeba.org/en/sentences/show/4189465) | danepo |
+| S94029 | Der foregår ikke noget. | Nothing's going on. | There's nothing going on. | [#4372282](https://tatoeba.org/en/sentences/show/4372282) | danepo |
+| S94030 | Ikke alle er bekymret. | Not everyone is worried. |  | [#4503146](https://tatoeba.org/en/sentences/show/4503146) | danepo |
+
+## U28 Explaining a Problem: Den virker ikke. Den er i stykker. Der er noget galt med …; jeg har ondt i … (it hurts); ring efter en ambulance!
+
+30 sentences picked from 99 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: brand (0), skadet (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S28001 | Blev nogen skadet? | Did somebody get hurt? |  | [#2471264](https://tatoeba.org/en/sentences/show/2471264) | danepo |
+| S28002 | Hvad gik galt? | What went wrong? |  | [#5624100](https://tatoeba.org/en/sentences/show/5624100) | danepo |
+| S28003 | Er det farligt? | Is that dangerous? | Is it dangerous? | [#6839528](https://tatoeba.org/en/sentences/show/6839528) | danepo |
+| S28004 | Hvor gør det ondt? | Where is the pain? | Where does it hurt? | [#1863791](https://tatoeba.org/en/sentences/show/1863791) | danepo |
+| S28005 | Gør det her ondt? | Does this hurt? |  | [#1878334](https://tatoeba.org/en/sentences/show/1878334) | danepo |
+| S28006 | Hvad er gået galt? | What went wrong? |  | [#5624101](https://tatoeba.org/en/sentences/show/5624101) | danepo |
+| S28007 | Hvad er der galt? | What's wrong? |  | [#7008390](https://tatoeba.org/en/sentences/show/7008390) | danepo |
+| S28008 | Hvad blev der stjålet? | What was stolen? |  | [#7303708](https://tatoeba.org/en/sentences/show/7303708) | danepo |
+| S28009 | Gør det meget ondt? | Does it hurt a lot? |  | [#8591571](https://tatoeba.org/en/sentences/show/8591571) | danepo |
+| S28010 | Ringede du efter en ambulance? | Did you call an ambulance? |  | [#4836879](https://tatoeba.org/en/sentences/show/4836879) | Sharaf78 |
+| S28011 | Mener du, Tom er farlig? | Do you think Tom is dangerous? |  | [#10715502](https://tatoeba.org/en/sentences/show/10715502) | SeaLiteral |
+| S28012 | Tror du, Tom er farlig? | Do you think Tom is dangerous? |  | [#10715504](https://tatoeba.org/en/sentences/show/10715504) | SeaLiteral |
+| S28013 | Synes du, Tom er farlig? | Do you think Tom is dangerous? |  | [#10715506](https://tatoeba.org/en/sentences/show/10715506) | SeaLiteral |
+| S28014 | Skal jeg ringe efter en ambulance? | Should I call for an ambulance? |  | [#3564150](https://tatoeba.org/en/sentences/show/3564150) | danepo |
+| S28015 | Er der andre der er blevet skadet? | Did anyone else get hurt? |  | [#9817457](https://tatoeba.org/en/sentences/show/9817457) | danepo |
+| S28016 | Ring til politiet! | Call the police! |  | [#475083](https://tatoeba.org/en/sentences/show/475083) | danepo |
+| S28017 | Ring til mig! | Call me! |  | [#497883](https://tatoeba.org/en/sentences/show/497883) | danepo |
+| S28018 | Ring efter hjælp. | Call for help. |  | [#3622693](https://tatoeba.org/en/sentences/show/3622693) | Sharaf78 |
+| S28019 | Det var farligt. | It was dangerous. |  | [#10030224](https://tatoeba.org/en/sentences/show/10030224) | MyWay |
+| S28020 | Det er farligt! | That's dangerous! |  | [#10692957](https://tatoeba.org/en/sentences/show/10692957) | maaster |
+| S28021 | Mine penge blev stjålet. | My money was stolen. | I had my money stolen. | [#615508](https://tatoeba.org/en/sentences/show/615508) | danepo |
+| S28022 | Der skete en ulykke. | There was an accident. |  | [#5506344](https://tatoeba.org/en/sentences/show/5506344) | danepo |
+| S28023 | Alt er blevet stjålet. | Everything's been stolen. | Everything has been stolen. | [#6965443](https://tatoeba.org/en/sentences/show/6965443) | danepo |
+| S28024 | Denne telefon er i stykker. | This telephone is out of order. |  | [#4364047](https://tatoeba.org/en/sentences/show/4364047) | danepo |
+| S28025 | Der er sket en ulykke. | An accident has happened. | There's been an accident.; There has been an accident. | [#5506345](https://tatoeba.org/en/sentences/show/5506345) | danepo |
+| S28026 | Intet er gået i stykker. | Nothing's broken. |  | [#10602984](https://tatoeba.org/en/sentences/show/10602984) | danepo |
+| S28027 | Vi har brug for en ambulance. | We need an ambulance. |  | [#477003](https://tatoeba.org/en/sentences/show/477003) | danepo |
+| S28028 | Der er lige sket en ulykke. | An accident has just happened. |  | [#5223375](https://tatoeba.org/en/sentences/show/5223375) | danepo |
+| S28029 | Giv disse børn tre stykker hver. | Give these children three pieces each. |  | [#6867328](https://tatoeba.org/en/sentences/show/6867328) | danepo |
+| S28030 | Hvad er der galt nu? | What's wrong now? |  | [#3365571](https://tatoeba.org/en/sentences/show/3365571) | danepo |
+
+## U88 Filling In Forms: Navn, adresse, fødselsdato: the words on a form; en blanket (a form); dine oplysninger (your details); gift, ugift, skilt
+
+13 sentences picked from 13 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: blanket (0), fødselsdato (0), køn (0), statsborgerskab (0), ugift (2), oplysninger (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S88001 | Er du på alder med Tom? | Are you the same age as Tom? |  | [#7725814](https://tatoeba.org/en/sentences/show/7725814) | danepo |
+| S88002 | Tom er ugift. | Tom is unmarried. |  | [#4080429](https://tatoeba.org/en/sentences/show/4080429) | danepo |
+| S88003 | Jeg er stadig ugift. | I'm still unmarried. |  | [#11875946](https://tatoeba.org/en/sentences/show/11875946) | danepo |
+| S88004 | Han er lille af sin alder. | He's small for his age. |  | [#2476420](https://tatoeba.org/en/sentences/show/2476420) | danepo |
+| S88005 | Jeg har fået nogle nye oplysninger. | I've got some new information. |  | [#4350857](https://tatoeba.org/en/sentences/show/4350857) | danepo |
+| S88006 | Han er på alder med dig. | He's your age. |  | [#8597942](https://tatoeba.org/en/sentences/show/8597942) | danepo |
+| S88007 | Tom ser ung ud af sin alder. | Tom looks young for his age. |  | [#4099667](https://tatoeba.org/en/sentences/show/4099667) | danepo |
+| S88008 | Du er på alder med min kæreste. | You're the same age as my girlfriend. |  | [#5365448](https://tatoeba.org/en/sentences/show/5365448) | danepo |
+| S88009 | Du og jeg er på samme alder. | You and me are the same age. |  | [#5399087](https://tatoeba.org/en/sentences/show/5399087) | danepo |
+| S88010 | Tom har en søn på din alder. | Tom has a son your age. |  | [#5591332](https://tatoeba.org/en/sentences/show/5591332) | danepo |
+| S88011 | Tom ser godt ud af sin alder. | Tom looks good for his age. |  | [#7701478](https://tatoeba.org/en/sentences/show/7701478) | danepo |
+| S88012 | Han er cirka på alder med mig. | He is about my age. |  | [#10356336](https://tatoeba.org/en/sentences/show/10356336) | danepo |
+| S88013 | Jeg har en bror på din alder. | I have a brother your age. |  | [#13852698](https://tatoeba.org/en/sentences/show/13852698) | danepo |
+
+## U89 Messages + Postcards: Kære Anna, hej Erik: how a message starts; kærlig hilsen, knus: ways to end; hils … (say hello to …); send mig en sms!
+
+30 sentences picked from 52 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: kære (0), hilsen (0), kærlig (0), hilsner (2), brevet (2), postkort (0), sms (0), sende (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S89001 | Et kys eller to? | One kiss or two? |  | [#2690434](https://tatoeba.org/en/sentences/show/2690434) | danepo |
+| S89002 | Har du fået brevet? | Have you received the letter? |  | [#3123806](https://tatoeba.org/en/sentences/show/3123806) | danepo |
+| S89003 | Må jeg få et kys? | Can I get a kiss? |  | [#12270442](https://tatoeba.org/en/sentences/show/12270442) | danepo |
+| S89004 | Kan jeg få et kys? | Can I get a kiss? |  | [#12270444](https://tatoeba.org/en/sentences/show/12270444) | danepo |
+| S89005 | Hvad vil du skrive i dette brev? | What will you write in this letter? |  | [#6079114](https://tatoeba.org/en/sentences/show/6079114) | danepo |
+| S89006 | Giver du tit dine børn et knus? | Do you often hug your children? |  | [#7339836](https://tatoeba.org/en/sentences/show/7339836) | danepo |
+| S89007 | Mange hilsner. | Many greetings. |  | [#1130979](https://tatoeba.org/en/sentences/show/1130979) | danepo |
+| S89008 | Send Tom væk. | Send Tom away. |  | [#3641178](https://tatoeba.org/en/sentences/show/3641178) | Sharaf78 |
+| S89009 | Send Tom op. | Send Tom up. |  | [#3641192](https://tatoeba.org/en/sentences/show/3641192) | Sharaf78 |
+| S89010 | Hilsner fra Frankrig! | Greetings from France! |  | [#4370671](https://tatoeba.org/en/sentences/show/4370671) | danepo |
+| S89011 | Send regningen til mig. | Send the bill to me. |  | [#3396492](https://tatoeba.org/en/sentences/show/3396492) | danepo |
+| S89012 | Giv mig et knus! | Give me a hug. | Give me a hug! | [#3602036](https://tatoeba.org/en/sentences/show/3602036) | danepo |
+| S89013 | Giv mig et kram! | Hug me tight. | Give me a hug.; Give me a hug! | [#3602038](https://tatoeba.org/en/sentences/show/3602038) | danepo |
+| S89014 | Jeg skriver et brev. | I'm writing a letter. |  | [#4375738](https://tatoeba.org/en/sentences/show/4375738) | danepo |
+| S89015 | Jeg skriver ikke brevet. | I'm not writing the letter. |  | [#4375778](https://tatoeba.org/en/sentences/show/4375778) | danepo |
+| S89016 | Tom skriver et brev. | Tom is writing a letter. |  | [#6210000](https://tatoeba.org/en/sentences/show/6210000) | danepo |
+| S89017 | Jeg gav ham et knus. | I gave him a hug. |  | [#10726250](https://tatoeba.org/en/sentences/show/10726250) | SeaLiteral |
+| S89018 | Giv mig et stort kram! | Hug me tight. | Give me a big hug. | [#11843201](https://tatoeba.org/en/sentences/show/11843201) | danepo |
+| S89019 | Jeg vil sende nogle penge til Tom. | I'm going to send Tom some money. |  | [#7753412](https://tatoeba.org/en/sentences/show/7753412) | danepo |
+| S89020 | Alle har brug for et stort kram. | Everyone needs a big hug. |  | [#11843274](https://tatoeba.org/en/sentences/show/11843274) | danepo |
+| S89021 | Kan du give mig et kys? | Can you give me a kiss? |  | [#10657027](https://tatoeba.org/en/sentences/show/10657027) | danepo |
+| S89022 | Må jeg give dig et kys? | May I give you a kiss? |  | [#11994165](https://tatoeba.org/en/sentences/show/11994165) | danepo |
+| S89023 | Kys mig! | Kiss me. |  | [#7847094](https://tatoeba.org/en/sentences/show/7847094) | danepo |
+| S89024 | Kys det. | Kiss it. |  | [#9776947](https://tatoeba.org/en/sentences/show/9776947) | danepo |
+| S89025 | Kys den. | Kiss it. |  | [#9776949](https://tatoeba.org/en/sentences/show/9776949) | danepo |
+| S89026 | Kys ham. | Kiss him. |  | [#9776950](https://tatoeba.org/en/sentences/show/9776950) | danepo |
+| S89027 | Kys hende. | Kiss her. |  | [#9776952](https://tatoeba.org/en/sentences/show/9776952) | danepo |
+| S89028 | Send det til mig. | Send it to me. |  | [#3641229](https://tatoeba.org/en/sentences/show/3641229) | Sharaf78 |
+| S89029 | Send mig ikke væk. | Don't send me away. |  | [#3641326](https://tatoeba.org/en/sentences/show/3641326) | Sharaf78 |
+| S89030 | Her er dit brev. | Here is your letter. |  | [#7094942](https://tatoeba.org/en/sentences/show/7094942) | danepo |
+
+## U95 Commands: Bliv her! Pas på! Slap af!: the command is the verb's stem, verb first; skynd dig (hurry up); hold op (stop it); læg den der
+
+32 sentences picked from 90 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: læg (2), slip (2), slap (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S95001 | Hvorfor løb han væk? | Why did he run away? |  | [#1955636](https://tatoeba.org/en/sentences/show/1955636) | danepo |
+| S95002 | Må jeg se dit pas? | May I see your passport? | May I look at your passport? | [#1769432](https://tatoeba.org/en/sentences/show/1769432) | danepo |
+| S95003 | Hvornår plejer du at stå op? | What time do you usually get up? |  | [#614984](https://tatoeba.org/en/sentences/show/614984) | danepo |
+| S95004 | Har du dit pas på dig? | Do you have your passport with you? |  | [#2700818](https://tatoeba.org/en/sentences/show/2700818) | danepo |
+| S95005 | Har du dit pas på dig nu? | Do you have your passport on you now? |  | [#9788681](https://tatoeba.org/en/sentences/show/9788681) | danepo |
+| S95006 | Skynd dig! | Hurry up. | Hurry! | [#498093](https://tatoeba.org/en/sentences/show/498093) | Zylx |
+| S95007 | Han løb. | He ran. |  | [#2115365](https://tatoeba.org/en/sentences/show/2115365) | danepo |
+| S95008 | Slap af! | Cool down. | Calm down. | [#4810588](https://tatoeba.org/en/sentences/show/4810588) | danepo |
+| S95009 | Tænk selv. | Think for yourself. |  | [#6938870](https://tatoeba.org/en/sentences/show/6938870) | danepo |
+| S95010 | Spis det! | Eat it! |  | [#7069476](https://tatoeba.org/en/sentences/show/7069476) | danepo |
+| S95011 | Bliv her. | Stay here. |  | [#7287717](https://tatoeba.org/en/sentences/show/7287717) | danepo |
+| S95012 | Drik vand. | Drink water. |  | [#8269004](https://tatoeba.org/en/sentences/show/8269004) | danepo |
+| S95013 | Bliv hjemme. | Stay home. | Stay at home. | [#8624840](https://tatoeba.org/en/sentences/show/8624840) | danepo |
+| S95014 | Spis noget. | Eat something. |  | [#10673722](https://tatoeba.org/en/sentences/show/10673722) | danepo |
+| S95015 | Bliv sammen! | Stay together. | Don't separate from each other. | [#10697165](https://tatoeba.org/en/sentences/show/10697165) | danepo |
+| S95016 | Drik langsomt! | Drink slowly. |  | [#12059846](https://tatoeba.org/en/sentences/show/12059846) | danepo |
+| S95017 | Spis sne. | Eat snow. |  | [#12570119](https://tatoeba.org/en/sentences/show/12570119) | danepo |
+| S95018 | Slip mig ikke. | Don't let go of me. |  | [#2699929](https://tatoeba.org/en/sentences/show/2699929) | danepo |
+| S95019 | Løb for livet! | Run for your life! |  | [#3270029](https://tatoeba.org/en/sentences/show/3270029) | danepo |
+| S95020 | Drik din mælk. | Drink your milk. |  | [#3595869](https://tatoeba.org/en/sentences/show/3595869) | Sharaf78 |
+| S95021 | Stå tidligt op. | Get up early. |  | [#3629601](https://tatoeba.org/en/sentences/show/3629601) | Sharaf78 |
+| S95022 | Tænk over det. | Think about that. | Think about it. | [#3672169](https://tatoeba.org/en/sentences/show/3672169) | Sharaf78 |
+| S95023 | Hold det her! | Hold this. |  | [#4675592](https://tatoeba.org/en/sentences/show/4675592) | danepo |
+| S95024 | Skynd dig tilbage. | Hurry back. |  | [#4690347](https://tatoeba.org/en/sentences/show/4690347) | MatthewChriswood |
+| S95025 | Skynd dig langsomt. | Hasten slowly. |  | [#4932639](https://tatoeba.org/en/sentences/show/4932639) | Balamax |
+| S95026 | Læg ikke på! | Don't hang up. | Don't hang up! | [#12494572](https://tatoeba.org/en/sentences/show/12494572) | danepo |
+| S95027 | Slip min arm. | Let go of my arm. |  | [#12538946](https://tatoeba.org/en/sentences/show/12538946) | danepo |
+| S95028 | Stå ansigt til ansigt. | Stand face to face. |  | [#3569252](https://tatoeba.org/en/sentences/show/3569252) | danepo |
+| S95029 | Læg den på bordet. | Put it onto the table. |  | [#3687874](https://tatoeba.org/en/sentences/show/3687874) | Sharaf78 |
+| S95030 | Hold op med det! | Stop that! |  | [#8734416](https://tatoeba.org/en/sentences/show/8734416) | danepo |
+| S95031 | Hold øje med ham. | Keep an eye on him. |  | [#9836513](https://tatoeba.org/en/sentences/show/9836513) | danepo |
+| S95032 | Tænk dig om før du handler! | Think before you act. | Think before acting!; Think before you act! | [#5069940](https://tatoeba.org/en/sentences/show/5069940) | danepo |
