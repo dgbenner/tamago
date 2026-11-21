@@ -1,0 +1,1686 @@
+{
+  "unit_id": "U65",
+  "pulled_at": "2026-11-21",
+  "candidates": 162,
+  "sentences": [
+    {
+      "sentence_id": "S65001",
+      "unit_id": "U65",
+      "french": "Morgenmad, frokost eller aftensmad?",
+      "english": "Breakfast, lunch, or dinner?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12013961",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65002",
+      "unit_id": "U65",
+      "french": "Sover du?",
+      "english": "Are you sleeping?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10567079",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65003",
+      "unit_id": "U65",
+      "french": "Sover han?",
+      "english": "Is he sleeping?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10710569",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65004",
+      "unit_id": "U65",
+      "french": "Sover hun?",
+      "english": "Is she sleeping?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10710573",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65005",
+      "unit_id": "U65",
+      "french": "Arbejder du?",
+      "english": "Do you work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10826414",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": [
+        "Are you working?"
+      ]
+    },
+    {
+      "sentence_id": "S65006",
+      "unit_id": "U65",
+      "french": "Hvornår begynder foråret?",
+      "english": "When does spring begin?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5381639",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65007",
+      "unit_id": "U65",
+      "french": "Hvor begynder vi?",
+      "english": "Where do we start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7271955",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65008",
+      "unit_id": "U65",
+      "french": "Hvorfor arbejder du?",
+      "english": "Why do you work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8008576",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65009",
+      "unit_id": "U65",
+      "french": "Hvor arbejder du?",
+      "english": "Where do you work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10567446",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": [
+        "Where are you working?"
+      ]
+    },
+    {
+      "sentence_id": "S65010",
+      "unit_id": "U65",
+      "french": "Spiser du morgenmad hjemme?",
+      "english": "Do you have breakfast at home?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "476071",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Do you eat breakfast at home?"
+      ]
+    },
+    {
+      "sentence_id": "S65011",
+      "unit_id": "U65",
+      "french": "Hvad tid begynder det?",
+      "english": "What time does it start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "486761",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65012",
+      "unit_id": "U65",
+      "french": "Kan jeg sove her?",
+      "english": "Can I sleep here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1914996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65013",
+      "unit_id": "U65",
+      "french": "Hvornår spiser du morgenmad?",
+      "english": "At what time do you eat breakfast?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2527171",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65014",
+      "unit_id": "U65",
+      "french": "Kan du begynde i morgen?",
+      "english": "Can you start tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4121664",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65015",
+      "unit_id": "U65",
+      "french": "Skal du arbejde i morgen?",
+      "english": "Do you have to work tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6793284",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65016",
+      "unit_id": "U65",
+      "french": "Hvem kommer til frokost?",
+      "english": "Who's coming to lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11182086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Who is coming to lunch?"
+      ]
+    },
+    {
+      "sentence_id": "S65017",
+      "unit_id": "U65",
+      "french": "Hvornår spiser du frokost?",
+      "english": "When are you having lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12133935",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "What time are you having lunch?"
+      ]
+    },
+    {
+      "sentence_id": "S65018",
+      "unit_id": "U65",
+      "french": "Har du ikke arbejde i dag?",
+      "english": "Don't you have work today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3681871",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65019",
+      "unit_id": "U65",
+      "french": "Kan du lide dit arbejde?",
+      "english": "Do you like your work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3817399",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mlkragelund",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65020",
+      "unit_id": "U65",
+      "french": "Hvor tit tager du bad?",
+      "english": "How often do you have a shower?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12400171",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65021",
+      "unit_id": "U65",
+      "french": "Hvornår går du i bad?",
+      "english": "What time do you take a bath?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12907975",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65022",
+      "unit_id": "U65",
+      "french": "Hvor tidligt står du op om morgenen?",
+      "english": "How early do you get up in the morning?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5018808",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65023",
+      "unit_id": "U65",
+      "french": "Hvad gør du når du bliver syg?",
+      "english": "What do you do when you get sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7357952",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65024",
+      "unit_id": "U65",
+      "french": "Hun vågner.",
+      "english": "She's waking up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3777746",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mlkragelund",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65025",
+      "unit_id": "U65",
+      "french": "Han vågner.",
+      "english": "He's waking up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8802756",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65026",
+      "unit_id": "U65",
+      "french": "Lad os begynde.",
+      "english": "Let's begin.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "630467",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65027",
+      "unit_id": "U65",
+      "french": "Jeg vil sove.",
+      "english": "I want to sleep.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1484225",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65028",
+      "unit_id": "U65",
+      "french": "Jeg skal sove.",
+      "english": "I have to sleep.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1745095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65029",
+      "unit_id": "U65",
+      "french": "Tak for aftensmad.",
+      "english": "Thanks for dinner.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3652428",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65030",
+      "unit_id": "U65",
+      "french": "Jeg tager bad.",
+      "english": "I'm having a bath.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10700858",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I'm taking a bath."
+      ]
+    },
+    {
+      "sentence_id": "S65031",
+      "unit_id": "U65",
+      "french": "Jeg gav op.",
+      "english": "I gave up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10783267",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65032",
+      "unit_id": "U65",
+      "french": "Jeg vågner meget tidligt.",
+      "english": "I wake up very early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1807383",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65033",
+      "unit_id": "U65",
+      "french": "Jeg giver ikke op.",
+      "english": "I'm not giving up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2513703",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65034",
+      "unit_id": "U65",
+      "french": "Kom når du vil.",
+      "english": "Come whenever you like.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3328417",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Come whenever you want to."
+      ]
+    },
+    {
+      "sentence_id": "S65035",
+      "unit_id": "U65",
+      "french": "Du må godt begynde.",
+      "english": "You can start.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10728905",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SeaLiteral",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65036",
+      "unit_id": "U65",
+      "french": "Jeg kommer når jeg kan.",
+      "english": "I will come when I can.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "620574",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S65001",
+      "position": 1,
+      "surface": "Morgenmad",
+      "word_id": "W1401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 2,
+      "surface": "frokost",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 3,
+      "surface": "eller",
+      "word_id": "W842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 4,
+      "surface": "aftensmad",
+      "word_id": "W1403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 1,
+      "surface": "Sover",
+      "word_id": "W1399",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 1,
+      "surface": "Sover",
+      "word_id": "W1399",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 2,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 1,
+      "surface": "Sover",
+      "word_id": "W1399",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 2,
+      "surface": "hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 1,
+      "surface": "Arbejder",
+      "word_id": "W1404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 1,
+      "surface": "Hvornår",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 2,
+      "surface": "begynder",
+      "word_id": "W1406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 3,
+      "surface": "foråret",
+      "word_id": "W1363",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 2,
+      "surface": "begynder",
+      "word_id": "W1406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 3,
+      "surface": "vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 1,
+      "surface": "Hvorfor",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 2,
+      "surface": "arbejder",
+      "word_id": "W1404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 2,
+      "surface": "arbejder",
+      "word_id": "W1404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 1,
+      "surface": "Spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 3,
+      "surface": "morgenmad",
+      "word_id": "W1401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 4,
+      "surface": "hjemme",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 1,
+      "surface": "Hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 2,
+      "surface": "tid",
+      "word_id": "W1306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 3,
+      "surface": "begynder",
+      "word_id": "W1406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 2,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 3,
+      "surface": "sove",
+      "word_id": "W1400",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 4,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 1,
+      "surface": "Hvornår",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 4,
+      "surface": "morgenmad",
+      "word_id": "W1401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 3,
+      "surface": "begynde",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 4,
+      "surface": "i morgen",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 1,
+      "surface": "Skal",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 3,
+      "surface": "arbejde",
+      "word_id": "W1405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 4,
+      "surface": "i morgen",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 1,
+      "surface": "Hvem",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 2,
+      "surface": "kommer",
+      "word_id": "W916",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 3,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 4,
+      "surface": "frokost",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 1,
+      "surface": "Hvornår",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 4,
+      "surface": "frokost",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 4,
+      "surface": "arbejde",
+      "word_id": "W1405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 5,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 3,
+      "surface": "lide",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 4,
+      "surface": "dit",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 5,
+      "surface": "arbejde",
+      "word_id": "W1405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 2,
+      "surface": "tit",
+      "word_id": "W1341",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 3,
+      "surface": "tager",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 5,
+      "surface": "bad",
+      "word_id": "W1411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 1,
+      "surface": "Hvornår",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 4,
+      "surface": "i",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 5,
+      "surface": "bad",
+      "word_id": "W1411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 2,
+      "surface": "tidligt",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 3,
+      "surface": "står",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 5,
+      "surface": "op",
+      "word_id": "W1398",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 6,
+      "surface": "om",
+      "word_id": "W964",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 7,
+      "surface": "morgenen",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 1,
+      "surface": "Hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 2,
+      "surface": "gør",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 4,
+      "surface": "når",
+      "word_id": "W1410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 5,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 6,
+      "surface": "bliver",
+      "word_id": "W848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 7,
+      "surface": "syg",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 2,
+      "surface": "vågner",
+      "word_id": "W1397",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 2,
+      "surface": "vågner",
+      "word_id": "W1397",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 1,
+      "surface": "Lad",
+      "word_id": "W872",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 2,
+      "surface": "os",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 3,
+      "surface": "begynde",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 2,
+      "surface": "vil",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 3,
+      "surface": "sove",
+      "word_id": "W1400",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 2,
+      "surface": "skal",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 3,
+      "surface": "sove",
+      "word_id": "W1400",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 1,
+      "surface": "Tak",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 2,
+      "surface": "for",
+      "word_id": "W945",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 3,
+      "surface": "aftensmad",
+      "word_id": "W1403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 2,
+      "surface": "tager",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 3,
+      "surface": "bad",
+      "word_id": "W1411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 2,
+      "surface": "gav",
+      "word_id": "W1510",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W1398",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 2,
+      "surface": "vågner",
+      "word_id": "W1397",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 3,
+      "surface": "meget",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 4,
+      "surface": "tidligt",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 2,
+      "surface": "giver",
+      "word_id": "W998",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 4,
+      "surface": "op",
+      "word_id": "W1398",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 1,
+      "surface": "Kom",
+      "word_id": "W1504",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 2,
+      "surface": "når",
+      "word_id": "W1410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 4,
+      "surface": "vil",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 2,
+      "surface": "må",
+      "word_id": "W936",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 3,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 4,
+      "surface": "begynde",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 2,
+      "surface": "kommer",
+      "word_id": "W916",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 3,
+      "surface": "når",
+      "word_id": "W1410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 4,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 5,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A650051",
+      "sentence_id": "S65005",
+      "direction": "fr_to_en",
+      "answer": "Are you working?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650091",
+      "sentence_id": "S65009",
+      "direction": "fr_to_en",
+      "answer": "Where are you working?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650101",
+      "sentence_id": "S65010",
+      "direction": "fr_to_en",
+      "answer": "Do you eat breakfast at home?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650161",
+      "sentence_id": "S65016",
+      "direction": "fr_to_en",
+      "answer": "Who is coming to lunch?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650171",
+      "sentence_id": "S65017",
+      "direction": "fr_to_en",
+      "answer": "What time are you having lunch?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650301",
+      "sentence_id": "S65030",
+      "direction": "fr_to_en",
+      "answer": "I'm taking a bath.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650341",
+      "sentence_id": "S65034",
+      "direction": "fr_to_en",
+      "answer": "Come whenever you want to.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

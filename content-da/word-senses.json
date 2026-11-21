@@ -1,1635 +1,2681 @@
 {
- "_about": "Which Wiktionary (Danish) entry each word uses: part of speech, auto-derived from the first Danish entry then adjusted, plus text the definition must contain where needed.",
- "W001": {
-  "pos": "Interjection"
- },
- "W002": {
-  "pos": "Interjection"
- },
- "W003": {
-  "pos": "Interjection"
- },
- "W004": {
-  "pos": "Interjection"
- },
- "W005": {
-  "pos": "Adverb"
- },
- "W006": {
-  "pos": "Pronoun"
- },
- "W007": {
-  "pos": "Pronoun"
- },
- "W008": {
-  "pos": "Verb",
-  "lemma": "være"
- },
- "W009": {
-  "pos": "Article"
- },
- "W010": {
-  "pos": "Article"
- },
- "W011": {
-  "pos": "Noun"
- },
- "W012": {
-  "pos": "Noun"
- },
- "W013": {
-  "pos": "Noun"
- },
- "W014": {
-  "pos": "Noun"
- },
- "W015": {
-  "pos": "Noun"
- },
- "W016": {
-  "pos": "Conjunction"
- },
- "W017": {
-  "pos": "Pronoun"
- },
- "W018": {
-  "pos": "Pronoun"
- },
- "W019": {
-  "pos": "Pronoun"
- },
- "W020": {
-  "pos": "Pronoun"
- },
- "W021": {
-  "pos": "Noun"
- },
- "W022": {
-  "pos": "Noun"
- },
- "W023": {
-  "pos": "Noun"
- },
- "W024": {
-  "pos": "Noun"
- },
- "W025": {
-  "pos": "Adjective"
- },
- "W026": {
-  "pos": "Adjective"
- },
- "W027": {
-  "pos": "Adjective"
- },
- "W028": {
-  "pos": "Noun"
- },
- "W029": {
-  "pos": "Noun"
- },
- "W030": {
-  "pos": "Noun"
- },
- "W031": {
-  "pos": "Interjection"
- },
- "W032": {
-  "pos": "Interjection"
- },
- "W033": {
-  "pos": "Interjection"
- },
- "W034": {
-  "pos": "Interjection"
- },
- "W035": {
-  "pos": "Adverb"
- },
- "W036": {
-  "pos": "Verb",
-  "lemma": "gå"
- },
- "W037": {
-  "pos": "Adjective"
- },
- "W038": {
-  "pos": "Adjective"
- },
- "W039": {
-  "pos": "Adjective"
- },
- "W040": {
-  "pos": "Interjection"
- },
- "W041": {
-  "pos": "Verb",
-  "lemma": "spise"
- },
- "W042": {
-  "pos": "Verb",
-  "lemma": "drikke"
- },
- "W043": {
-  "pos": "Verb",
-  "lemma": "kunne"
- },
- "W044": {
-  "pos": "Verb"
- },
- "W045": {
-  "pos": "Noun"
- },
- "W046": {
-  "pos": "Noun"
- },
- "W047": {
-  "pos": "Noun"
- },
- "W048": {
-  "pos": "Noun"
- },
- "W049": {
-  "pos": "Noun"
- },
- "W050": {
-  "pos": "Noun"
- },
- "W051": {
-  "pos": "Noun"
- },
- "W052": {
-  "pos": "Noun"
- },
- "W053": {
-  "pos": "Adjective"
- },
- "W054": {
-  "pos": "Verb",
-  "lemma": "have"
- },
- "W055": {
-  "pos": "Noun"
- },
- "W056": {
-  "pos": "Noun"
- },
- "W057": {
-  "pos": "Noun"
- },
- "W058": {
-  "pos": "Noun"
- },
- "W059": {
-  "pos": "Noun"
- },
- "W060": {
-  "pos": "Noun"
- },
- "W061": {
-  "pos": "Noun"
- },
- "W062": {
-  "pos": "Noun"
- },
- "W063": {
-  "pos": "Pronoun"
- },
- "W064": {
-  "pos": "Pronoun"
- },
- "W065": {
-  "pos": "Noun"
- },
- "W066": {
-  "pos": "Noun"
- },
- "W067": {
-  "pos": "Noun"
- },
- "W068": {
-  "pos": "Noun"
- },
- "W069": {
-  "pos": "Noun"
- },
- "W070": {
-  "pos": "Noun"
- },
- "W071": {
-  "pos": "Noun"
- },
- "W072": {
-  "pos": "Noun"
- },
- "W073": {
-  "pos": "Noun"
- },
- "W074": {
-  "pos": "Adjective"
- },
- "W075": {
-  "pos": "Adjective"
- },
- "W076": {
-  "pos": "Adjective"
- },
- "W077": {
-  "pos": "Adjective"
- },
- "W078": {
-  "pos": "Adjective"
- },
- "W079": {
-  "pos": "Adjective"
- },
- "W080": {
-  "pos": "Adjective"
- },
- "W081": {
-  "pos": "Adverb"
- },
- "W082": {
-  "pos": "Adverb"
- },
- "W083": {
-  "pos": "Noun"
- },
- "W084": {
-  "pos": "Noun"
- },
- "W085": {
-  "pos": "Adjective"
- },
- "W086": {
-  "pos": "Adjective"
- },
- "W087": {
-  "pos": "Verb",
-  "lemma": "stå"
- },
- "W088": {
-  "pos": "Verb",
-  "lemma": "ligge"
- },
- "W089": {
-  "pos": "Preposition"
- },
- "W090": {
-  "pos": "Preposition"
- },
- "W091": {
-  "pos": "Preposition"
- },
- "W092": {
-  "pos": "Adverb"
- },
- "W093": {
-  "pos": "Adverb"
- },
- "W094": {
-  "pos": "Noun"
- },
- "W095": {
-  "pos": "Noun"
- },
- "W096": {
-  "pos": "Noun"
- },
- "W097": {
-  "pos": "Noun"
- },
- "W098": {
-  "pos": "Noun"
- },
- "W099": {
-  "pos": "Adjective"
- },
- "W100": {
-  "pos": "Adjective"
- },
- "W101": {
-  "pos": "Adjective"
- },
- "W102": {
-  "pos": "Adjective"
- },
- "W103": {
-  "pos": "Adjective"
- },
- "W104": {
-  "pos": "Adjective"
- },
- "W105": {
-  "pos": "Adjective"
- },
- "W106": {
-  "pos": "Adjective"
- },
- "W107": {
-  "pos": "Adjective"
- },
- "W108": {
-  "pos": "Adjective"
- },
- "W109": {
-  "pos": "Pronoun"
- },
- "W110": {
-  "pos": "Pronoun"
- },
- "W111": {
-  "pos": "Determiner"
- },
- "W112": {
-  "pos": "Pronoun"
- },
- "W113": {
-  "pos": "Pronoun"
- },
- "W114": {
-  "pos": "Pronoun"
- },
- "W115": {
-  "pos": "Pronoun"
- },
- "W116": {
-  "pos": "Noun"
- },
- "W117": {
-  "pos": "Noun"
- },
- "W118": {
-  "pos": "Noun"
- },
- "W119": {
-  "pos": "Noun"
- },
- "W120": {
-  "pos": "Noun"
- },
- "W121": {
-  "pos": "Noun"
- },
- "W122": {
-  "pos": "Noun"
- },
- "W123": {
-  "pos": "Pronoun"
- },
- "W124": {
-  "pos": "Pronoun"
- },
- "W125": {
-  "pos": "Adverb"
- },
- "W126": {
-  "pos": "Adverb"
- },
- "W127": {
-  "pos": "Adverb"
- },
- "W128": {
-  "pos": "Conjunction"
- },
- "W129": {
-  "pos": "Pronoun"
- },
- "W130": {
-  "pos": "Numeral"
- },
- "W131": {
-  "pos": "Numeral"
- },
- "W132": {
-  "pos": "Numeral"
- },
- "W133": {
-  "pos": "Numeral"
- },
- "W134": {
-  "pos": "Numeral"
- },
- "W135": {
-  "pos": "Numeral"
- },
- "W136": {
-  "pos": "Numeral"
- },
- "W137": {
-  "pos": "Numeral"
- },
- "W138": {
-  "pos": "Numeral"
- },
- "W139": {
-  "pos": "Noun"
- },
- "W140": {
-  "pos": "Adjective"
- },
- "W141": {
-  "pos": "Adjective"
- },
- "W142": {
-  "pos": "Adjective"
- },
- "W143": {
-  "pos": "Adjective"
- },
- "W144": {
-  "pos": "Adjective"
- },
- "W145": {
-  "pos": "Adjective"
- },
- "W146": {
-  "pos": "Adjective"
- },
- "W147": {
-  "pos": "Noun"
- },
- "W148": {
-  "pos": "Adverb"
- },
- "W149": {
-  "pos": "Adverb"
- },
- "W150": {
-  "pos": "Noun"
- },
- "W151": {
-  "pos": "Noun"
- },
- "W152": {
-  "pos": "Noun"
- },
- "W153": {
-  "pos": "Noun"
- },
- "W154": {
-  "pos": "Noun"
- },
- "W155": {
-  "pos": "Noun"
- },
- "W156": {
-  "pos": "Noun"
- },
- "W157": {
-  "pos": "Noun"
- },
- "W158": {
-  "pos": "Preposition"
- },
- "W159": {
-  "pos": "Noun"
- },
- "W160": {
-  "pos": "Noun"
- },
- "W161": {
-  "pos": "Noun"
- },
- "W162": {
-  "pos": "Noun"
- },
- "W163": {
-  "pos": "Noun"
- },
- "W164": {
-  "pos": "Noun"
- },
- "W701": {
-  "pos": "Verb",
-  "lemma": "forstå"
- },
- "W702": {
-  "via": "langsom",
-  "pos": "Adjective"
- },
- "W703": {
-  "pos": "Noun"
- },
- "W704": {
-  "pos": "Verb",
-  "lemma": "sige"
- },
- "W705": {
-  "pos": "Verb",
-  "lemma": "tale"
- },
- "W706": {
-  "via": "gentage",
-  "pos": "Verb"
- },
- "W707": {
-  "pos": "Adverb"
- },
- "W708": {
-  "pos": "Verb",
-  "lemma": "betyde"
- },
- "W709": {
-  "pos": "Pronoun"
- },
- "W710": {
-  "pos": "Noun"
- },
- "W711": {
-  "pos": "Adjective"
- },
- "W712": {
-  "pos": "Adjective"
- },
- "W713": {
-  "pos": "Verb",
-  "lemma": "lede"
- },
- "W714": {
-  "pos": "Preposition"
- },
- "W715": {
-  "pos": "Verb",
-  "lemma": "vide"
- },
- "W716": {
-  "pos": "Noun"
- },
- "W717": {
-  "pos": "Verb",
-  "lemma": "hedde"
- },
- "W1001": {
-  "pos": "Noun"
- },
- "W1002": {
-  "pos": "Noun"
- },
- "W1003": {
-  "pos": "Noun"
- },
- "W1004": {
-  "pos": "Noun"
- },
- "W1005": {
-  "pos": "Noun"
- },
- "W1006": {
-  "pos": "Noun"
- },
- "W1007": {
-  "pos": "Noun"
- },
- "W1008": {
-  "pos": "Noun"
- },
- "W1009": {
-  "pos": "Noun"
- },
- "W1010": {
-  "pos": "Adjective"
- },
- "W1011": {
-  "pos": "Adjective"
- },
- "W1012": {
-  "pos": "Adjective"
- },
- "W1013": {
-  "pos": "Adjective"
- },
- "W1014": {
-  "pos": "Noun"
- },
- "W1015": {
-  "pos": "Noun"
- },
- "W1016": {
-  "pos": "Noun"
- },
- "W1017": {
-  "pos": "Noun"
- },
- "W1018": {
-  "pos": "Noun"
- },
- "W1019": {
-  "pos": "Verb",
-  "lemma": "svømme"
- },
- "W1020": {
-  "pos": "Verb",
-  "lemma": "danse"
- },
- "W1021": {
-  "pos": "Verb",
-  "lemma": "synge"
- },
- "W1022": {
-  "pos": "Verb",
-  "lemma": "se"
- },
- "W1023": {
-  "pos": "Noun"
- },
- "W1024": {
-  "pos": "Verb"
- },
- "W1025": {
-  "pos": "Noun"
- },
- "W1026": {
-  "pos": "Noun"
- },
- "W1027": {
-  "pos": "Noun"
- },
- "W1028": {
-  "pos": "Noun"
- },
- "W1029": {
-  "pos": "Noun"
- },
- "W1030": {
-  "pos": "Noun"
- },
- "W1031": {
-  "pos": "Noun"
- },
- "W1032": {
-  "pos": "Noun"
- },
- "W1033": {
-  "pos": "Noun"
- },
- "W1034": {
-  "pos": "Noun"
- },
- "W1035": {
-  "pos": "Adjective"
- },
- "W1036": {
-  "pos": "Adjective"
- },
- "W801": {
-  "pos": "Noun"
- },
- "W802": {
-  "pos": "Noun"
- },
- "W803": {
-  "pos": "Noun"
- },
- "W804": {
-  "pos": "Verb",
-  "lemma": "kende"
- },
- "W805": {
-  "pos": "Verb",
-  "lemma": "kalde"
- },
- "W806": {
-  "pos": "Pronoun"
- },
- "W807": {
-  "pos": "Pronoun"
- },
- "W808": {
-  "pos": "Pronoun"
- },
- "W809": {
-  "pos": "Pronoun"
- },
- "W810": {
-  "pos": "Pronoun"
- },
- "W811": {
-  "pos": "Verb"
- },
- "W812": {
-  "pos": "Adjective"
- },
- "W813": {
-  "pos": "Particle"
- },
- "W814": {
-  "pos": "Verb",
-  "lemma": "skrive"
- },
- "W815": {
-  "pos": "Verb"
- },
- "W816": {
-  "pos": "Verb",
-  "lemma": "stave"
- },
- "W817": {
-  "pos": "Verb"
- },
- "W818": {
-  "pos": "Noun"
- },
- "W819": {
-  "pos": "Verb"
- },
- "W820": {
-  "pos": "Verb"
- },
- "W821": {
-  "pos": "Verb"
- },
- "W822": {
-  "pos": "Adverb"
- },
- "W823": {
-  "pos": "Adverb"
- },
- "W824": {
-  "pos": "Verb"
- },
- "W825": {
-  "pos": "Verb",
-  "match": "to speak, talk"
- },
- "W826": {
-  "pos": "Noun"
- },
- "W828": {
-  "pos": "Noun"
- },
- "W829": {
-  "pos": "Verb",
-  "lemma": "ringe"
- },
- "W830": {
-  "pos": "Verb"
- },
- "W831": {
-  "pos": "Numeral"
- },
- "W832": {
-  "pos": "Numeral"
- },
- "W833": {
-  "pos": "Numeral"
- },
- "W834": {
-  "pos": "Numeral"
- },
- "W835": {
-  "pos": "Numeral"
- },
- "W836": {
-  "pos": "Numeral"
- },
- "W837": {
-  "pos": "Numeral"
- },
- "W838": {
-  "pos": "Numeral"
- },
- "W839": {
-  "pos": "Numeral"
- },
- "W840": {
-  "pos": "Numeral"
- },
- "W841": {
-  "pos": "Numeral"
- },
- "W842": {
-  "pos": "Conjunction"
- },
- "W843": {
-  "pos": "Interjection"
- },
- "W845": {
-  "pos": "Noun"
- },
- "W846": {
-  "pos": "Interjection"
- },
- "W847": {
-  "pos": "Verb",
-  "lemma": "fylde"
- },
- "W848": {
-  "pos": "Verb",
-  "lemma": "blive"
- },
- "W849": {
-  "pos": "Verb"
- },
- "W850": {
-  "pos": "Noun"
- },
- "W851": {
-  "pos": "Verb"
- },
- "W852": {
-  "pos": "Adverb"
- },
- "W853": {
-  "pos": "Adverb"
- },
- "W854": {
-  "pos": "Adverb"
- },
- "W855": {
-  "pos": "Adverb",
-  "exact": true,
-  "match": "still"
- },
- "W856": {
-  "pos": "Adjective"
- },
- "W857": {
-  "pos": "Adjective"
- },
- "W858": {
-  "pos": "Preposition"
- },
- "W859": {
-  "pos": "Noun"
- },
- "W860": {
-  "pos": "Verb",
-  "lemma": "vente"
- },
- "W861": {
-  "pos": "Verb",
-  "lemma": "vente"
- },
- "W862": {
-  "pos": "Verb"
- },
- "W863": {
-  "pos": "Adverb"
- },
- "W864": {
-  "pos": "Verb",
-  "via": "passe",
-  "match": "true",
-  "lemma": "passe"
- },
- "W865": {
-  "pos": "Noun"
- },
- "W866": {
-  "pos": "Adjective"
- },
- "W867": {
-  "pos": "Adjective"
- },
- "W868": {
-  "pos": "Adjective"
- },
- "W869": {
-  "pos": "Adjective"
- },
- "W870": {
-  "pos": "Adverb",
-  "match": "just, merely"
- },
- "W871": {
-  "pos": "Adjective",
-  "match": "sure, certain"
- },
- "W872": {
-  "pos": "Verb",
-  "lemma": "lade"
- },
- "W873": {
-  "pos": "Verb"
- },
- "W874": {
-  "pos": "Numeral"
- },
- "W875": {
-  "pos": "Numeral"
- },
- "W876": {
-  "pos": "Numeral"
- },
- "W877": {
-  "pos": "Numeral"
- },
- "W878": {
-  "pos": "Numeral"
- },
- "W879": {
-  "pos": "Numeral"
- },
- "W880": {
-  "pos": "Numeral"
- },
- "W881": {
-  "pos": "Numeral"
- },
- "W882": {
-  "pos": "Numeral"
- },
- "W883": {
-  "pos": "Adjective"
- },
- "W884": {
-  "pos": "Adjective"
- },
- "W885": {
-  "pos": "Adjective"
- },
- "W886": {
-  "pos": "Adjective"
- },
- "W887": {
-  "pos": "Conjunction"
- },
- "W888": {
-  "pos": "Verb",
-  "lemma": "bo"
- },
- "W889": {
-  "pos": "Verb"
- },
- "W890": {
-  "pos": "Noun"
- },
- "W891": {
-  "pos": "Noun"
- },
- "W892": {
-  "pos": "Adverb"
- },
- "W893": {
-  "pos": "Adverb"
- },
- "W894": {
-  "pos": "Adverb"
- },
- "W895": {
-  "pos": "Adverb"
- },
- "W896": {
-  "pos": "Adverb"
- },
- "W897": {
-  "pos": "Preposition"
- },
- "W898": {
-  "pos": "Noun"
- },
- "W899": {
-  "pos": "Noun"
- },
- "W900": {
-  "pos": "Adjective"
- },
- "W901": {
-  "pos": "Pronoun"
- },
- "W902": {
-  "pos": "Adverb"
- },
- "W903": {
-  "pos": "Noun"
- },
- "W904": {
-  "pos": "Noun"
- },
- "W905": {
-  "pos": "Pronoun"
- },
- "W906": {
-  "pos": "Noun"
- },
- "W907": {
-  "pos": "Pronoun"
- },
- "W908": {
-  "pos": "Pronoun"
- },
- "W909": {
-  "pos": "Verb"
- },
- "W910": {
-  "pos": "Proper noun"
- },
- "W911": {
-  "pos": "Proper noun"
- },
- "W912": {
-  "pos": "Proper noun"
- },
- "W913": {
-  "pos": "Proper noun"
- },
- "W914": {
-  "pos": "Proper noun"
- },
- "W915": {
-  "pos": "Proper noun"
- },
- "W916": {
-  "pos": "Verb",
-  "lemma": "komme"
- },
- "W917": {
-  "pos": "Verb"
- },
- "W918": {
-  "pos": "Preposition"
- },
- "W919": {
-  "pos": "Adjective"
- },
- "W920": {
-  "pos": "Adjective"
- },
- "W921": {
-  "pos": "Adjective"
- },
- "W922": {
-  "pos": "Noun"
- },
- "W923": {
-  "pos": "Verb",
-  "lemma": "snakke"
- },
- "W924": {
-  "pos": "Noun"
- },
- "W925": {
-  "pos": "Noun"
- },
- "W926": {
-  "pos": "Verb",
-  "lemma": "købe"
- },
- "W927": {
-  "pos": "Verb"
- },
- "W928": {
-  "pos": "Verb",
-  "lemma": "sælge"
- },
- "W929": {
-  "pos": "Verb",
-  "lemma": "ville"
- },
- "W930": {
-  "pos": "Adverb"
- },
- "W931": {
-  "pos": "Verb",
-  "lemma": "få"
- },
- "W932": {
-  "pos": "Verb"
- },
- "W933": {
-  "pos": "Verb",
-  "lemma": "tage"
- },
- "W934": {
-  "pos": "Verb"
- },
- "W935": {
-  "pos": "Verb",
-  "lemma": "skulle"
- },
- "W936": {
-  "pos": "Verb",
-  "lemma": "måtte"
- },
- "W937": {
-  "pos": "Verb"
- },
- "W938": {
-  "pos": "Noun",
-  "via": "kilogram",
-  "lemma": "kilogram"
- },
- "W939": {
-  "pos": "Noun"
- },
- "W940": {
-  "pos": "Noun"
- },
- "W941": {
-  "pos": "Noun"
- },
- "W942": {
-  "pos": "Verb",
-  "lemma": "behøve"
- },
- "W943": {
-  "pos": "Pronoun"
- },
- "W944": {
-  "pos": "Pronoun"
- },
- "W946": {
-  "pos": "Adverb"
- },
- "W947": {
-  "pos": "Adjective",
-  "via": "klar",
-  "match": "clear",
-  "lemma": "klar"
- },
- "W948": {
-  "pos": "Adverb"
- },
- "W949": {
-  "pos": "Adverb"
- },
- "W950": {
-  "pos": "Verb",
-  "via": "mene",
-  "lemma": "mene"
- },
- "W951": {
-  "pos": "Verb",
-  "lemma": "tro"
- },
- "W952": {
-  "pos": "Verb"
- },
- "W954": {
-  "pos": "Adverb"
- },
- "W955": {
-  "pos": "Adverb"
- },
- "W956": {
-  "pos": "Adjective",
-  "match": "actually"
- },
- "W957": {
-  "pos": "Adverb"
- },
- "W958": {
-  "pos": "Adverb"
- },
- "W959": {
-  "pos": "Verb",
-  "lemma": "håbe"
- },
- "W960": {
-  "pos": "Verb",
-  "lemma": "tænke"
- },
- "W961": {
-  "pos": "Verb",
-  "lemma": "lyde"
- },
- "W962": {
-  "pos": "Adverb",
-  "match": "either"
- },
- "W963": {
-  "pos": "Conjunction"
- },
- "W964": {
-  "pos": "Preposition"
- },
- "W965": {
-  "pos": "Verb"
- },
- "W966": {
-  "pos": "Adverb"
- },
- "W967": {
-  "pos": "Verb",
-  "via": "koste",
-  "match": "cost",
-  "lemma": "koste"
- },
- "W968": {
-  "pos": "Noun"
- },
- "W969": {
-  "pos": "Noun",
-  "lemma_match": "krone, crown"
- },
- "W970": {
-  "pos": "Noun"
- },
- "W971": {
-  "pos": "Noun"
- },
- "W972": {
-  "pos": "Adjective"
- },
- "W973": {
-  "pos": "Adjective"
- },
- "W974": {
-  "pos": "Verb",
-  "lemma": "betale"
- },
- "W975": {
-  "pos": "Verb"
- },
- "W976": {
-  "pos": "Adverb"
- },
- "W945": {
-  "pos": "Preposition"
- },
- "W977": {
-  "pos": "Conjunction"
- },
- "W978": {
-  "pos": "Pronoun"
- },
- "W979": {
-  "pos": "Pronoun"
- },
- "W980": {
-  "pos": "Pronoun"
- },
- "W981": {
-  "pos": "Noun"
- },
- "W983": {
-  "pos": "Noun"
- },
- "W985": {
-  "pos": "Noun",
-  "match": "drinking vessel"
- },
- "W986": {
-  "pos": "Noun"
- },
- "W987": {
-  "pos": "Pronoun"
- },
- "W988": {
-  "pos": "Pronoun"
- },
- "W989": {
-  "pos": "Adjective"
- },
- "W990": {
-  "pos": "Pronoun"
- },
- "W991": {
-  "pos": "Pronoun"
- },
- "W992": {
-  "pos": "Pronoun"
- },
- "W993": {
-  "pos": "Pronoun"
- },
- "W994": {
-  "pos": "Pronoun"
- },
- "W995": {
-  "pos": "Preposition",
-  "exact": true,
-  "match": "of"
- },
- "W996": {
-  "pos": "Pronoun"
- },
- "W997": {
-  "pos": "Verb"
- },
- "W998": {
-  "pos": "Verb",
-  "lemma": "give"
- },
- "W999": {
-  "pos": "Noun"
- },
- "W1101": {
-  "pos": "Noun",
-  "match": "clothes"
- },
- "W1102": {
-  "pos": "Noun"
- },
- "W1104": {
-  "pos": "Noun"
- },
- "W1105": {
-  "pos": "Noun"
- },
- "W1106": {
-  "pos": "Noun"
- },
- "W1107": {
-  "pos": "Noun",
-  "match": "jersey"
- },
- "W1108": {
-  "pos": "Noun"
- },
- "W1110": {
-  "pos": "Noun"
- },
- "W1111": {
-  "pos": "Noun"
- },
- "W1112": {
-  "pos": "Noun"
- },
- "W1113": {
-  "pos": "Verb",
-  "lemma": "prøve"
- },
- "W1114": {
-  "pos": "Verb"
- },
- "W1116": {
-  "pos": "Noun"
- },
- "W1117": {
-  "pos": "Noun"
- },
- "W1118": {
-  "pos": "Verb",
-  "lemma": "spørge"
- },
- "W1119": {
-  "pos": "Verb"
- },
- "W1120": {
-  "pos": "Noun"
- },
- "W1121": {
-  "pos": "Verb",
-  "lemma": "svare"
- },
- "W1122": {
-  "pos": "Verb"
- },
- "W1124": {
-  "pos": "Noun"
- },
- "W1125": {
-  "pos": "Verb",
-  "match": "to learn"
- },
- "W1126": {
-  "pos": "Noun"
- },
- "W1128": {
-  "pos": "Verb",
-  "lemma": "gøre"
- },
- "W1129": {
-  "pos": "Verb"
- },
- "W1130": {
-  "pos": "Verb",
-  "lemma": "lave"
- },
- "W1131": {
-  "pos": "Verb"
- },
- "W1132": {
-  "pos": "Noun",
-  "match": "page"
- },
- "W1133": {
-  "pos": "Noun"
- },
- "W1134": {
-  "pos": "Verb",
-  "lemma": "lytte"
- },
- "W1135": {
-  "pos": "Verb",
-  "lemma": "bruge"
- },
- "W1136": {
-  "pos": "Verb"
- },
- "W1137": {
-  "pos": "Adjective"
- },
- "W1138": {
-  "pos": "Noun"
- },
- "W1139": {
-  "pos": "Noun"
- },
- "W1140": {
-  "pos": "Noun"
- },
- "W1141": {
-  "pos": "Verb",
-  "lemma": "huske"
- },
- "W1142": {
-  "pos": "Noun"
- },
- "W1143": {
-  "pos": "Noun"
- },
- "W1144": {
-  "pos": "Adjective",
-  "match": "fat"
- },
- "W1145": {
-  "pos": "Adjective"
- },
- "W1146": {
-  "pos": "Adjective",
-  "match": "sweet, nice"
- },
- "W1147": {
-  "pos": "Adjective"
- },
- "W1148": {
-  "pos": "Adjective"
- },
- "W1151": {
-  "pos": "Adjective"
- },
- "W1152": {
-  "pos": "Adjective",
-  "exact": true,
-  "match": "quiet"
- },
- "W1153": {
-  "pos": "Adjective"
- },
- "W1154": {
-  "pos": "Adjective"
- },
- "W1156": {
-  "pos": "Adjective"
- },
- "W1157": {
-  "pos": "Adjective"
- },
- "W1159": {
-  "pos": "Adverb",
-  "match": "rather, quite"
- },
- "W1160": {
-  "pos": "Pronoun"
- },
- "W1161": {
-  "pos": "Verb",
-  "lemma": "føle"
- },
- "W1162": {
-  "pos": "Pronoun"
- },
- "W1163": {
-  "pos": "Verb",
-  "lemma": "ligne"
- },
- "W1164": {
-  "pos": "Verb",
-  "lemma": "virke"
- },
- "W1165": {
-  "pos": "Verb",
-  "lemma": "elske"
- },
- "W1166": {
-  "pos": "Adjective"
- },
- "W1168": {
-  "pos": "Adjective"
- },
- "W1169": {
-  "pos": "Adjective",
-  "exact": true,
-  "match": "easy"
- },
- "W1171": {
-  "pos": "Adjective",
-  "lemma": "svær"
- },
- "W1172": {
-  "pos": "Adjective"
- },
- "W1173": {
-  "pos": "Adverb"
- },
- "W1174": {
-  "pos": "Adjective",
-  "via": "langsom",
-  "lemma": "langsom"
- },
- "W1176": {
-  "pos": "Adjective"
- },
- "W1177": {
-  "pos": "Adjective"
- },
- "W1178": {
-  "pos": "Adjective"
- },
- "W1179": {
-  "pos": "Adjective"
- },
- "W1180": {
-  "pos": "Adjective"
- },
- "W1181": {
-  "pos": "Adjective"
- },
- "W1182": {
-  "pos": "Adjective"
- },
- "W1183": {
-  "pos": "Pronoun"
- },
- "W1184": {
-  "pos": "Pronoun",
-  "via": "anden",
-  "lemma": "anden"
- },
- "W1185": {
-  "pos": "Pronoun"
- },
- "W1186": {
-  "pos": "Adjective"
- },
- "W1187": {
-  "pos": "Adverb"
- },
- "W1188": {
-  "pos": "Adjective"
- },
- "W1189": {
-  "pos": "Adverb"
- },
- "W1190": {
-  "pos": "Adjective"
- },
- "W1191": {
-  "pos": "Adjective"
- },
- "W1192": {
-  "pos": "Adjective"
- },
- "W1193": {
-  "pos": "Adjective",
-  "match": "plural of lille"
- },
- "W1194": {
-  "pos": "Adjective"
- },
- "W1195": {
-  "pos": "Adjective"
- },
- "W1196": {
-  "pos": "Adjective"
- },
- "W1197": {
-  "pos": "Adjective"
- },
- "W1198": {
-  "pos": "Noun"
- },
- "W1199": {
-  "pos": "Preposition"
- },
- "W1200": {
-  "pos": "Adverb"
- },
- "W1202": {
-  "pos": "Noun"
- },
- "W1204": {
-  "pos": "Noun"
- },
- "W1205": {
-  "pos": "Noun"
- },
- "W1207": {
-  "pos": "Noun"
- },
- "W1208": {
-  "pos": "Noun"
- },
- "W1209": {
-  "pos": "Noun"
- },
- "W1210": {
-  "pos": "Noun"
- },
- "W1212": {
-  "pos": "Noun"
- },
- "W1213": {
-  "pos": "Noun"
- },
- "W1215": {
-  "pos": "Noun"
- },
- "W1216": {
-  "pos": "Verb",
-  "lemma": "sidde"
- }
+  "_about": "Which Wiktionary (Danish) entry each word uses: part of speech, auto-derived from the first Danish entry then adjusted, plus text the definition must contain where needed.",
+  "W001": {
+    "pos": "Interjection"
+  },
+  "W002": {
+    "pos": "Interjection"
+  },
+  "W003": {
+    "pos": "Interjection"
+  },
+  "W004": {
+    "pos": "Interjection"
+  },
+  "W005": {
+    "pos": "Adverb"
+  },
+  "W006": {
+    "pos": "Pronoun"
+  },
+  "W007": {
+    "pos": "Pronoun"
+  },
+  "W008": {
+    "pos": "Verb",
+    "lemma": "være"
+  },
+  "W009": {
+    "pos": "Article"
+  },
+  "W010": {
+    "pos": "Article"
+  },
+  "W011": {
+    "pos": "Noun"
+  },
+  "W012": {
+    "pos": "Noun"
+  },
+  "W013": {
+    "pos": "Noun"
+  },
+  "W014": {
+    "pos": "Noun"
+  },
+  "W015": {
+    "pos": "Noun"
+  },
+  "W016": {
+    "pos": "Conjunction"
+  },
+  "W017": {
+    "pos": "Pronoun"
+  },
+  "W018": {
+    "pos": "Pronoun"
+  },
+  "W019": {
+    "pos": "Pronoun"
+  },
+  "W020": {
+    "pos": "Pronoun"
+  },
+  "W021": {
+    "pos": "Noun"
+  },
+  "W022": {
+    "pos": "Noun"
+  },
+  "W023": {
+    "pos": "Noun"
+  },
+  "W024": {
+    "pos": "Noun"
+  },
+  "W025": {
+    "pos": "Adjective"
+  },
+  "W026": {
+    "pos": "Adjective"
+  },
+  "W027": {
+    "pos": "Adjective"
+  },
+  "W028": {
+    "pos": "Noun"
+  },
+  "W029": {
+    "pos": "Noun"
+  },
+  "W030": {
+    "pos": "Noun"
+  },
+  "W031": {
+    "pos": "Interjection"
+  },
+  "W032": {
+    "pos": "Interjection"
+  },
+  "W033": {
+    "pos": "Interjection"
+  },
+  "W034": {
+    "pos": "Interjection"
+  },
+  "W035": {
+    "pos": "Adverb"
+  },
+  "W036": {
+    "pos": "Verb",
+    "lemma": "gå"
+  },
+  "W037": {
+    "pos": "Adjective"
+  },
+  "W038": {
+    "pos": "Adjective"
+  },
+  "W039": {
+    "pos": "Adjective"
+  },
+  "W040": {
+    "pos": "Interjection"
+  },
+  "W041": {
+    "pos": "Verb",
+    "lemma": "spise"
+  },
+  "W042": {
+    "pos": "Verb",
+    "lemma": "drikke"
+  },
+  "W043": {
+    "pos": "Verb",
+    "lemma": "kunne"
+  },
+  "W044": {
+    "pos": "Verb"
+  },
+  "W045": {
+    "pos": "Noun"
+  },
+  "W046": {
+    "pos": "Noun"
+  },
+  "W047": {
+    "pos": "Noun"
+  },
+  "W048": {
+    "pos": "Noun"
+  },
+  "W049": {
+    "pos": "Noun"
+  },
+  "W050": {
+    "pos": "Noun"
+  },
+  "W051": {
+    "pos": "Noun"
+  },
+  "W052": {
+    "pos": "Noun"
+  },
+  "W053": {
+    "pos": "Adjective"
+  },
+  "W054": {
+    "pos": "Verb",
+    "lemma": "have"
+  },
+  "W055": {
+    "pos": "Noun"
+  },
+  "W056": {
+    "pos": "Noun"
+  },
+  "W057": {
+    "pos": "Noun"
+  },
+  "W058": {
+    "pos": "Noun"
+  },
+  "W059": {
+    "pos": "Noun"
+  },
+  "W060": {
+    "pos": "Noun"
+  },
+  "W061": {
+    "pos": "Noun"
+  },
+  "W062": {
+    "pos": "Noun"
+  },
+  "W063": {
+    "pos": "Pronoun"
+  },
+  "W064": {
+    "pos": "Pronoun"
+  },
+  "W065": {
+    "pos": "Noun"
+  },
+  "W066": {
+    "pos": "Noun"
+  },
+  "W067": {
+    "pos": "Noun"
+  },
+  "W068": {
+    "pos": "Noun"
+  },
+  "W069": {
+    "pos": "Noun"
+  },
+  "W070": {
+    "pos": "Noun"
+  },
+  "W071": {
+    "pos": "Noun"
+  },
+  "W072": {
+    "pos": "Noun"
+  },
+  "W073": {
+    "pos": "Noun"
+  },
+  "W074": {
+    "pos": "Adjective"
+  },
+  "W075": {
+    "pos": "Adjective"
+  },
+  "W076": {
+    "pos": "Adjective"
+  },
+  "W077": {
+    "pos": "Adjective"
+  },
+  "W078": {
+    "pos": "Adjective"
+  },
+  "W079": {
+    "pos": "Adjective"
+  },
+  "W080": {
+    "pos": "Adjective"
+  },
+  "W081": {
+    "pos": "Adverb"
+  },
+  "W082": {
+    "pos": "Adverb"
+  },
+  "W083": {
+    "pos": "Noun"
+  },
+  "W084": {
+    "pos": "Noun"
+  },
+  "W085": {
+    "pos": "Adjective"
+  },
+  "W086": {
+    "pos": "Adjective"
+  },
+  "W087": {
+    "pos": "Verb",
+    "lemma": "stå"
+  },
+  "W088": {
+    "pos": "Verb",
+    "lemma": "ligge"
+  },
+  "W089": {
+    "pos": "Preposition"
+  },
+  "W090": {
+    "pos": "Preposition"
+  },
+  "W091": {
+    "pos": "Preposition"
+  },
+  "W092": {
+    "pos": "Adverb"
+  },
+  "W093": {
+    "pos": "Adverb"
+  },
+  "W094": {
+    "pos": "Noun"
+  },
+  "W095": {
+    "pos": "Noun"
+  },
+  "W096": {
+    "pos": "Noun"
+  },
+  "W097": {
+    "pos": "Noun"
+  },
+  "W098": {
+    "pos": "Noun"
+  },
+  "W099": {
+    "pos": "Adjective"
+  },
+  "W100": {
+    "pos": "Adjective"
+  },
+  "W101": {
+    "pos": "Adjective"
+  },
+  "W102": {
+    "pos": "Adjective"
+  },
+  "W103": {
+    "pos": "Adjective"
+  },
+  "W104": {
+    "pos": "Adjective"
+  },
+  "W105": {
+    "pos": "Adjective"
+  },
+  "W106": {
+    "pos": "Adjective"
+  },
+  "W107": {
+    "pos": "Adjective"
+  },
+  "W108": {
+    "pos": "Adjective"
+  },
+  "W109": {
+    "pos": "Pronoun"
+  },
+  "W110": {
+    "pos": "Pronoun"
+  },
+  "W111": {
+    "pos": "Determiner"
+  },
+  "W112": {
+    "pos": "Pronoun"
+  },
+  "W113": {
+    "pos": "Pronoun"
+  },
+  "W114": {
+    "pos": "Pronoun"
+  },
+  "W115": {
+    "pos": "Pronoun"
+  },
+  "W116": {
+    "pos": "Noun"
+  },
+  "W117": {
+    "pos": "Noun"
+  },
+  "W118": {
+    "pos": "Noun"
+  },
+  "W119": {
+    "pos": "Noun"
+  },
+  "W120": {
+    "pos": "Noun"
+  },
+  "W121": {
+    "pos": "Noun"
+  },
+  "W122": {
+    "pos": "Noun"
+  },
+  "W123": {
+    "pos": "Pronoun"
+  },
+  "W124": {
+    "pos": "Pronoun"
+  },
+  "W125": {
+    "pos": "Adverb"
+  },
+  "W126": {
+    "pos": "Adverb"
+  },
+  "W127": {
+    "pos": "Adverb"
+  },
+  "W128": {
+    "pos": "Conjunction"
+  },
+  "W129": {
+    "pos": "Pronoun"
+  },
+  "W130": {
+    "pos": "Numeral"
+  },
+  "W131": {
+    "pos": "Numeral"
+  },
+  "W132": {
+    "pos": "Numeral"
+  },
+  "W133": {
+    "pos": "Numeral"
+  },
+  "W134": {
+    "pos": "Numeral"
+  },
+  "W135": {
+    "pos": "Numeral"
+  },
+  "W136": {
+    "pos": "Numeral"
+  },
+  "W137": {
+    "pos": "Numeral"
+  },
+  "W138": {
+    "pos": "Numeral"
+  },
+  "W139": {
+    "pos": "Noun"
+  },
+  "W140": {
+    "pos": "Adjective"
+  },
+  "W141": {
+    "pos": "Adjective"
+  },
+  "W142": {
+    "pos": "Adjective"
+  },
+  "W143": {
+    "pos": "Adjective"
+  },
+  "W144": {
+    "pos": "Adjective"
+  },
+  "W145": {
+    "pos": "Adjective"
+  },
+  "W146": {
+    "pos": "Adjective"
+  },
+  "W147": {
+    "pos": "Noun"
+  },
+  "W148": {
+    "pos": "Adverb"
+  },
+  "W149": {
+    "pos": "Adverb"
+  },
+  "W150": {
+    "pos": "Noun"
+  },
+  "W151": {
+    "pos": "Noun"
+  },
+  "W152": {
+    "pos": "Noun"
+  },
+  "W153": {
+    "pos": "Noun"
+  },
+  "W154": {
+    "pos": "Noun"
+  },
+  "W155": {
+    "pos": "Noun"
+  },
+  "W156": {
+    "pos": "Noun"
+  },
+  "W157": {
+    "pos": "Noun"
+  },
+  "W158": {
+    "pos": "Preposition"
+  },
+  "W159": {
+    "pos": "Noun"
+  },
+  "W160": {
+    "pos": "Noun"
+  },
+  "W161": {
+    "pos": "Noun"
+  },
+  "W162": {
+    "pos": "Noun"
+  },
+  "W163": {
+    "pos": "Noun"
+  },
+  "W164": {
+    "pos": "Noun"
+  },
+  "W701": {
+    "pos": "Verb",
+    "lemma": "forstå"
+  },
+  "W702": {
+    "via": "langsom",
+    "pos": "Adjective"
+  },
+  "W703": {
+    "pos": "Noun"
+  },
+  "W704": {
+    "pos": "Verb",
+    "lemma": "sige"
+  },
+  "W705": {
+    "pos": "Verb",
+    "lemma": "tale"
+  },
+  "W706": {
+    "via": "gentage",
+    "pos": "Verb"
+  },
+  "W707": {
+    "pos": "Adverb"
+  },
+  "W708": {
+    "pos": "Verb",
+    "lemma": "betyde"
+  },
+  "W709": {
+    "pos": "Pronoun"
+  },
+  "W710": {
+    "pos": "Noun"
+  },
+  "W711": {
+    "pos": "Adjective"
+  },
+  "W712": {
+    "pos": "Adjective"
+  },
+  "W713": {
+    "pos": "Verb",
+    "lemma": "lede"
+  },
+  "W714": {
+    "pos": "Preposition"
+  },
+  "W715": {
+    "pos": "Verb",
+    "lemma": "vide"
+  },
+  "W716": {
+    "pos": "Noun"
+  },
+  "W717": {
+    "pos": "Verb",
+    "lemma": "hedde"
+  },
+  "W1001": {
+    "pos": "Noun"
+  },
+  "W1002": {
+    "pos": "Noun"
+  },
+  "W1003": {
+    "pos": "Noun"
+  },
+  "W1004": {
+    "pos": "Noun"
+  },
+  "W1005": {
+    "pos": "Noun"
+  },
+  "W1006": {
+    "pos": "Noun"
+  },
+  "W1007": {
+    "pos": "Noun"
+  },
+  "W1008": {
+    "pos": "Noun"
+  },
+  "W1009": {
+    "pos": "Noun"
+  },
+  "W1010": {
+    "pos": "Adjective"
+  },
+  "W1011": {
+    "pos": "Adjective"
+  },
+  "W1012": {
+    "pos": "Adjective"
+  },
+  "W1013": {
+    "pos": "Adjective"
+  },
+  "W1014": {
+    "pos": "Noun"
+  },
+  "W1015": {
+    "pos": "Noun"
+  },
+  "W1016": {
+    "pos": "Noun"
+  },
+  "W1017": {
+    "pos": "Noun"
+  },
+  "W1018": {
+    "pos": "Noun"
+  },
+  "W1019": {
+    "pos": "Verb",
+    "lemma": "svømme"
+  },
+  "W1020": {
+    "pos": "Verb",
+    "lemma": "danse"
+  },
+  "W1021": {
+    "pos": "Verb",
+    "lemma": "synge"
+  },
+  "W1022": {
+    "pos": "Verb",
+    "lemma": "se"
+  },
+  "W1023": {
+    "pos": "Noun"
+  },
+  "W1024": {
+    "pos": "Verb"
+  },
+  "W1025": {
+    "pos": "Noun"
+  },
+  "W1026": {
+    "pos": "Noun"
+  },
+  "W1027": {
+    "pos": "Noun"
+  },
+  "W1028": {
+    "pos": "Noun"
+  },
+  "W1029": {
+    "pos": "Noun"
+  },
+  "W1030": {
+    "pos": "Noun"
+  },
+  "W1031": {
+    "pos": "Noun"
+  },
+  "W1032": {
+    "pos": "Noun"
+  },
+  "W1033": {
+    "pos": "Noun"
+  },
+  "W1034": {
+    "pos": "Noun"
+  },
+  "W1035": {
+    "pos": "Adjective"
+  },
+  "W1036": {
+    "pos": "Adjective"
+  },
+  "W801": {
+    "pos": "Noun"
+  },
+  "W802": {
+    "pos": "Noun"
+  },
+  "W803": {
+    "pos": "Noun"
+  },
+  "W804": {
+    "pos": "Verb",
+    "lemma": "kende"
+  },
+  "W805": {
+    "pos": "Verb",
+    "lemma": "kalde"
+  },
+  "W806": {
+    "pos": "Pronoun"
+  },
+  "W807": {
+    "pos": "Pronoun"
+  },
+  "W808": {
+    "pos": "Pronoun"
+  },
+  "W809": {
+    "pos": "Pronoun"
+  },
+  "W810": {
+    "pos": "Pronoun"
+  },
+  "W811": {
+    "pos": "Verb"
+  },
+  "W812": {
+    "pos": "Adjective"
+  },
+  "W813": {
+    "pos": "Particle"
+  },
+  "W814": {
+    "pos": "Verb",
+    "lemma": "skrive"
+  },
+  "W815": {
+    "pos": "Verb"
+  },
+  "W816": {
+    "pos": "Verb",
+    "lemma": "stave"
+  },
+  "W817": {
+    "pos": "Verb"
+  },
+  "W818": {
+    "pos": "Noun"
+  },
+  "W819": {
+    "pos": "Verb"
+  },
+  "W820": {
+    "pos": "Verb"
+  },
+  "W821": {
+    "pos": "Verb"
+  },
+  "W822": {
+    "pos": "Adverb"
+  },
+  "W823": {
+    "pos": "Adverb"
+  },
+  "W824": {
+    "pos": "Verb"
+  },
+  "W825": {
+    "pos": "Verb",
+    "match": "to speak, talk"
+  },
+  "W826": {
+    "pos": "Noun"
+  },
+  "W828": {
+    "pos": "Noun"
+  },
+  "W829": {
+    "pos": "Verb",
+    "lemma": "ringe"
+  },
+  "W830": {
+    "pos": "Verb"
+  },
+  "W831": {
+    "pos": "Numeral"
+  },
+  "W832": {
+    "pos": "Numeral"
+  },
+  "W833": {
+    "pos": "Numeral"
+  },
+  "W834": {
+    "pos": "Numeral"
+  },
+  "W835": {
+    "pos": "Numeral"
+  },
+  "W836": {
+    "pos": "Numeral"
+  },
+  "W837": {
+    "pos": "Numeral"
+  },
+  "W838": {
+    "pos": "Numeral"
+  },
+  "W839": {
+    "pos": "Numeral"
+  },
+  "W840": {
+    "pos": "Numeral"
+  },
+  "W841": {
+    "pos": "Numeral"
+  },
+  "W842": {
+    "pos": "Conjunction"
+  },
+  "W843": {
+    "pos": "Interjection"
+  },
+  "W845": {
+    "pos": "Noun"
+  },
+  "W846": {
+    "pos": "Interjection"
+  },
+  "W847": {
+    "pos": "Verb",
+    "lemma": "fylde"
+  },
+  "W848": {
+    "pos": "Verb",
+    "lemma": "blive"
+  },
+  "W849": {
+    "pos": "Verb"
+  },
+  "W850": {
+    "pos": "Noun"
+  },
+  "W851": {
+    "pos": "Verb"
+  },
+  "W852": {
+    "pos": "Adverb"
+  },
+  "W853": {
+    "pos": "Adverb"
+  },
+  "W854": {
+    "pos": "Adverb"
+  },
+  "W855": {
+    "pos": "Adverb",
+    "exact": true,
+    "match": "still"
+  },
+  "W856": {
+    "pos": "Adjective"
+  },
+  "W857": {
+    "pos": "Adjective"
+  },
+  "W858": {
+    "pos": "Preposition"
+  },
+  "W859": {
+    "pos": "Noun"
+  },
+  "W860": {
+    "pos": "Verb",
+    "lemma": "vente"
+  },
+  "W861": {
+    "pos": "Verb",
+    "lemma": "vente"
+  },
+  "W862": {
+    "pos": "Verb"
+  },
+  "W863": {
+    "pos": "Adverb"
+  },
+  "W864": {
+    "pos": "Verb",
+    "via": "passe",
+    "match": "true",
+    "lemma": "passe"
+  },
+  "W865": {
+    "pos": "Noun"
+  },
+  "W866": {
+    "pos": "Adjective"
+  },
+  "W867": {
+    "pos": "Adjective"
+  },
+  "W868": {
+    "pos": "Adjective"
+  },
+  "W869": {
+    "pos": "Adjective"
+  },
+  "W870": {
+    "pos": "Adverb",
+    "match": "just, merely"
+  },
+  "W871": {
+    "pos": "Adjective",
+    "match": "sure, certain"
+  },
+  "W872": {
+    "pos": "Verb",
+    "lemma": "lade"
+  },
+  "W873": {
+    "pos": "Verb"
+  },
+  "W874": {
+    "pos": "Numeral"
+  },
+  "W875": {
+    "pos": "Numeral"
+  },
+  "W876": {
+    "pos": "Numeral"
+  },
+  "W877": {
+    "pos": "Numeral"
+  },
+  "W878": {
+    "pos": "Numeral"
+  },
+  "W879": {
+    "pos": "Numeral"
+  },
+  "W880": {
+    "pos": "Numeral"
+  },
+  "W881": {
+    "pos": "Numeral"
+  },
+  "W882": {
+    "pos": "Numeral"
+  },
+  "W883": {
+    "pos": "Adjective"
+  },
+  "W884": {
+    "pos": "Adjective"
+  },
+  "W885": {
+    "pos": "Adjective"
+  },
+  "W886": {
+    "pos": "Adjective"
+  },
+  "W887": {
+    "pos": "Conjunction"
+  },
+  "W888": {
+    "pos": "Verb",
+    "lemma": "bo"
+  },
+  "W889": {
+    "pos": "Verb"
+  },
+  "W890": {
+    "pos": "Noun"
+  },
+  "W891": {
+    "pos": "Noun"
+  },
+  "W892": {
+    "pos": "Adverb"
+  },
+  "W893": {
+    "pos": "Adverb"
+  },
+  "W894": {
+    "pos": "Adverb"
+  },
+  "W895": {
+    "pos": "Adverb"
+  },
+  "W896": {
+    "pos": "Adverb"
+  },
+  "W897": {
+    "pos": "Preposition"
+  },
+  "W898": {
+    "pos": "Noun"
+  },
+  "W899": {
+    "pos": "Noun"
+  },
+  "W900": {
+    "pos": "Adjective"
+  },
+  "W901": {
+    "pos": "Pronoun"
+  },
+  "W902": {
+    "pos": "Adverb"
+  },
+  "W903": {
+    "pos": "Noun"
+  },
+  "W904": {
+    "pos": "Noun"
+  },
+  "W905": {
+    "pos": "Pronoun"
+  },
+  "W906": {
+    "pos": "Noun"
+  },
+  "W907": {
+    "pos": "Pronoun"
+  },
+  "W908": {
+    "pos": "Pronoun"
+  },
+  "W909": {
+    "pos": "Verb"
+  },
+  "W910": {
+    "pos": "Proper noun"
+  },
+  "W911": {
+    "pos": "Proper noun"
+  },
+  "W912": {
+    "pos": "Proper noun"
+  },
+  "W913": {
+    "pos": "Proper noun"
+  },
+  "W914": {
+    "pos": "Proper noun"
+  },
+  "W915": {
+    "pos": "Proper noun"
+  },
+  "W916": {
+    "pos": "Verb",
+    "lemma": "komme"
+  },
+  "W917": {
+    "pos": "Verb"
+  },
+  "W918": {
+    "pos": "Preposition"
+  },
+  "W919": {
+    "pos": "Adjective"
+  },
+  "W920": {
+    "pos": "Adjective"
+  },
+  "W921": {
+    "pos": "Adjective"
+  },
+  "W922": {
+    "pos": "Noun"
+  },
+  "W923": {
+    "pos": "Verb",
+    "lemma": "snakke"
+  },
+  "W924": {
+    "pos": "Noun"
+  },
+  "W925": {
+    "pos": "Noun"
+  },
+  "W926": {
+    "pos": "Verb",
+    "lemma": "købe"
+  },
+  "W927": {
+    "pos": "Verb"
+  },
+  "W928": {
+    "pos": "Verb",
+    "lemma": "sælge"
+  },
+  "W929": {
+    "pos": "Verb",
+    "lemma": "ville"
+  },
+  "W930": {
+    "pos": "Adverb"
+  },
+  "W931": {
+    "pos": "Verb",
+    "lemma": "få"
+  },
+  "W932": {
+    "pos": "Verb"
+  },
+  "W933": {
+    "pos": "Verb",
+    "lemma": "tage"
+  },
+  "W934": {
+    "pos": "Verb"
+  },
+  "W935": {
+    "pos": "Verb",
+    "lemma": "skulle"
+  },
+  "W936": {
+    "pos": "Verb",
+    "lemma": "måtte"
+  },
+  "W937": {
+    "pos": "Verb"
+  },
+  "W938": {
+    "pos": "Noun",
+    "via": "kilogram",
+    "lemma": "kilogram"
+  },
+  "W939": {
+    "pos": "Noun"
+  },
+  "W940": {
+    "pos": "Noun"
+  },
+  "W941": {
+    "pos": "Noun"
+  },
+  "W942": {
+    "pos": "Verb",
+    "lemma": "behøve"
+  },
+  "W943": {
+    "pos": "Pronoun"
+  },
+  "W944": {
+    "pos": "Pronoun"
+  },
+  "W946": {
+    "pos": "Adverb"
+  },
+  "W947": {
+    "pos": "Adjective",
+    "via": "klar",
+    "match": "clear",
+    "lemma": "klar"
+  },
+  "W948": {
+    "pos": "Adverb"
+  },
+  "W949": {
+    "pos": "Adverb"
+  },
+  "W950": {
+    "pos": "Verb",
+    "via": "mene",
+    "lemma": "mene"
+  },
+  "W951": {
+    "pos": "Verb",
+    "lemma": "tro"
+  },
+  "W952": {
+    "pos": "Verb"
+  },
+  "W954": {
+    "pos": "Adverb"
+  },
+  "W955": {
+    "pos": "Adverb"
+  },
+  "W956": {
+    "pos": "Adjective",
+    "match": "actually"
+  },
+  "W957": {
+    "pos": "Adverb"
+  },
+  "W958": {
+    "pos": "Adverb"
+  },
+  "W959": {
+    "pos": "Verb",
+    "lemma": "håbe"
+  },
+  "W960": {
+    "pos": "Verb",
+    "lemma": "tænke"
+  },
+  "W961": {
+    "pos": "Verb",
+    "lemma": "lyde"
+  },
+  "W962": {
+    "pos": "Adverb",
+    "match": "either"
+  },
+  "W963": {
+    "pos": "Conjunction"
+  },
+  "W964": {
+    "pos": "Preposition"
+  },
+  "W965": {
+    "pos": "Verb"
+  },
+  "W966": {
+    "pos": "Adverb"
+  },
+  "W967": {
+    "pos": "Verb",
+    "via": "koste",
+    "match": "cost",
+    "lemma": "koste"
+  },
+  "W968": {
+    "pos": "Noun"
+  },
+  "W969": {
+    "pos": "Noun",
+    "lemma_match": "krone, crown"
+  },
+  "W970": {
+    "pos": "Noun"
+  },
+  "W971": {
+    "pos": "Noun"
+  },
+  "W972": {
+    "pos": "Adjective"
+  },
+  "W973": {
+    "pos": "Adjective"
+  },
+  "W974": {
+    "pos": "Verb",
+    "lemma": "betale"
+  },
+  "W975": {
+    "pos": "Verb"
+  },
+  "W976": {
+    "pos": "Adverb"
+  },
+  "W945": {
+    "pos": "Preposition"
+  },
+  "W977": {
+    "pos": "Conjunction"
+  },
+  "W978": {
+    "pos": "Pronoun"
+  },
+  "W979": {
+    "pos": "Pronoun"
+  },
+  "W980": {
+    "pos": "Pronoun"
+  },
+  "W981": {
+    "pos": "Noun"
+  },
+  "W983": {
+    "pos": "Noun"
+  },
+  "W985": {
+    "pos": "Noun",
+    "match": "drinking vessel"
+  },
+  "W986": {
+    "pos": "Noun"
+  },
+  "W987": {
+    "pos": "Pronoun"
+  },
+  "W988": {
+    "pos": "Pronoun"
+  },
+  "W989": {
+    "pos": "Adjective"
+  },
+  "W990": {
+    "pos": "Pronoun"
+  },
+  "W991": {
+    "pos": "Pronoun"
+  },
+  "W992": {
+    "pos": "Pronoun"
+  },
+  "W993": {
+    "pos": "Pronoun"
+  },
+  "W994": {
+    "pos": "Pronoun"
+  },
+  "W995": {
+    "pos": "Preposition",
+    "exact": true,
+    "match": "of"
+  },
+  "W996": {
+    "pos": "Pronoun"
+  },
+  "W997": {
+    "pos": "Verb"
+  },
+  "W998": {
+    "pos": "Verb",
+    "lemma": "give"
+  },
+  "W999": {
+    "pos": "Noun"
+  },
+  "W1101": {
+    "pos": "Noun",
+    "match": "clothes"
+  },
+  "W1102": {
+    "pos": "Noun"
+  },
+  "W1104": {
+    "pos": "Noun"
+  },
+  "W1105": {
+    "pos": "Noun"
+  },
+  "W1106": {
+    "pos": "Noun"
+  },
+  "W1107": {
+    "pos": "Noun",
+    "match": "jersey"
+  },
+  "W1108": {
+    "pos": "Noun"
+  },
+  "W1110": {
+    "pos": "Noun"
+  },
+  "W1111": {
+    "pos": "Noun"
+  },
+  "W1112": {
+    "pos": "Noun"
+  },
+  "W1113": {
+    "pos": "Verb",
+    "lemma": "prøve"
+  },
+  "W1114": {
+    "pos": "Verb"
+  },
+  "W1116": {
+    "pos": "Noun"
+  },
+  "W1117": {
+    "pos": "Noun"
+  },
+  "W1118": {
+    "pos": "Verb",
+    "lemma": "spørge"
+  },
+  "W1119": {
+    "pos": "Verb"
+  },
+  "W1120": {
+    "pos": "Noun"
+  },
+  "W1121": {
+    "pos": "Verb",
+    "lemma": "svare"
+  },
+  "W1122": {
+    "pos": "Verb"
+  },
+  "W1124": {
+    "pos": "Noun"
+  },
+  "W1125": {
+    "pos": "Verb",
+    "match": "to learn"
+  },
+  "W1126": {
+    "pos": "Noun"
+  },
+  "W1128": {
+    "pos": "Verb",
+    "lemma": "gøre"
+  },
+  "W1129": {
+    "pos": "Verb"
+  },
+  "W1130": {
+    "pos": "Verb",
+    "lemma": "lave"
+  },
+  "W1131": {
+    "pos": "Verb"
+  },
+  "W1132": {
+    "pos": "Noun",
+    "match": "page"
+  },
+  "W1133": {
+    "pos": "Noun"
+  },
+  "W1134": {
+    "pos": "Verb",
+    "lemma": "lytte"
+  },
+  "W1135": {
+    "pos": "Verb",
+    "lemma": "bruge"
+  },
+  "W1136": {
+    "pos": "Verb"
+  },
+  "W1137": {
+    "pos": "Adjective"
+  },
+  "W1138": {
+    "pos": "Noun"
+  },
+  "W1139": {
+    "pos": "Noun"
+  },
+  "W1140": {
+    "pos": "Noun"
+  },
+  "W1141": {
+    "pos": "Verb",
+    "lemma": "huske"
+  },
+  "W1142": {
+    "pos": "Noun"
+  },
+  "W1143": {
+    "pos": "Noun"
+  },
+  "W1144": {
+    "pos": "Adjective",
+    "match": "fat"
+  },
+  "W1145": {
+    "pos": "Adjective"
+  },
+  "W1146": {
+    "pos": "Adjective",
+    "match": "sweet, nice"
+  },
+  "W1147": {
+    "pos": "Adjective"
+  },
+  "W1148": {
+    "pos": "Adjective"
+  },
+  "W1151": {
+    "pos": "Adjective"
+  },
+  "W1152": {
+    "pos": "Adjective",
+    "exact": true,
+    "match": "quiet"
+  },
+  "W1153": {
+    "pos": "Adjective"
+  },
+  "W1154": {
+    "pos": "Adjective"
+  },
+  "W1156": {
+    "pos": "Adjective"
+  },
+  "W1157": {
+    "pos": "Adjective"
+  },
+  "W1159": {
+    "pos": "Adverb",
+    "match": "rather, quite"
+  },
+  "W1160": {
+    "pos": "Pronoun"
+  },
+  "W1161": {
+    "pos": "Verb",
+    "lemma": "føle"
+  },
+  "W1162": {
+    "pos": "Pronoun"
+  },
+  "W1163": {
+    "pos": "Verb",
+    "lemma": "ligne"
+  },
+  "W1164": {
+    "pos": "Verb",
+    "lemma": "virke"
+  },
+  "W1165": {
+    "pos": "Verb",
+    "lemma": "elske"
+  },
+  "W1166": {
+    "pos": "Adjective"
+  },
+  "W1168": {
+    "pos": "Adjective"
+  },
+  "W1169": {
+    "pos": "Adjective",
+    "exact": true,
+    "match": "easy"
+  },
+  "W1171": {
+    "pos": "Adjective",
+    "lemma": "svær"
+  },
+  "W1172": {
+    "pos": "Adjective"
+  },
+  "W1173": {
+    "pos": "Adverb"
+  },
+  "W1174": {
+    "pos": "Adjective",
+    "via": "langsom",
+    "lemma": "langsom"
+  },
+  "W1176": {
+    "pos": "Adjective"
+  },
+  "W1177": {
+    "pos": "Adjective"
+  },
+  "W1178": {
+    "pos": "Adjective"
+  },
+  "W1179": {
+    "pos": "Adjective"
+  },
+  "W1180": {
+    "pos": "Adjective"
+  },
+  "W1181": {
+    "pos": "Adjective"
+  },
+  "W1182": {
+    "pos": "Adjective"
+  },
+  "W1183": {
+    "pos": "Pronoun"
+  },
+  "W1184": {
+    "pos": "Pronoun",
+    "via": "anden",
+    "lemma": "anden"
+  },
+  "W1185": {
+    "pos": "Pronoun"
+  },
+  "W1186": {
+    "pos": "Adjective"
+  },
+  "W1187": {
+    "pos": "Adverb"
+  },
+  "W1188": {
+    "pos": "Adjective"
+  },
+  "W1189": {
+    "pos": "Adverb"
+  },
+  "W1190": {
+    "pos": "Adjective"
+  },
+  "W1191": {
+    "pos": "Adjective"
+  },
+  "W1192": {
+    "pos": "Adjective"
+  },
+  "W1193": {
+    "pos": "Adjective",
+    "match": "plural of lille"
+  },
+  "W1194": {
+    "pos": "Adjective"
+  },
+  "W1195": {
+    "pos": "Adjective"
+  },
+  "W1196": {
+    "pos": "Adjective"
+  },
+  "W1197": {
+    "pos": "Adjective"
+  },
+  "W1198": {
+    "pos": "Noun"
+  },
+  "W1199": {
+    "pos": "Preposition"
+  },
+  "W1200": {
+    "pos": "Adverb"
+  },
+  "W1202": {
+    "pos": "Noun"
+  },
+  "W1204": {
+    "pos": "Noun"
+  },
+  "W1205": {
+    "pos": "Noun"
+  },
+  "W1207": {
+    "pos": "Noun"
+  },
+  "W1208": {
+    "pos": "Noun"
+  },
+  "W1209": {
+    "pos": "Noun"
+  },
+  "W1210": {
+    "pos": "Noun"
+  },
+  "W1212": {
+    "pos": "Noun"
+  },
+  "W1213": {
+    "pos": "Noun"
+  },
+  "W1215": {
+    "pos": "Noun"
+  },
+  "W1216": {
+    "pos": "Verb",
+    "lemma": "sidde"
+  },
+  "W1167": {
+    "pos": "Adjective"
+  },
+  "W1301": {
+    "pos": "Adjective"
+  },
+  "W1302": {
+    "pos": "Noun",
+    "match": "quarter (one of four"
+  },
+  "W1303": {
+    "pos": "Noun"
+  },
+  "W1304": {
+    "pos": "Noun"
+  },
+  "W1305": {
+    "pos": "Noun",
+    "match": "plural indefinite of time"
+  },
+  "W1306": {
+    "pos": "Noun"
+  },
+  "W1307": {
+    "pos": "Noun"
+  },
+  "W1308": {
+    "pos": "Noun"
+  },
+  "W1309": {
+    "pos": "Noun",
+    "via": "morgen",
+    "lemma": "morgen"
+  },
+  "W1310": {
+    "pos": "Noun"
+  },
+  "W1311": {
+    "pos": "Noun"
+  },
+  "W1312": {
+    "pos": "Noun"
+  },
+  "W1313": {
+    "pos": "Noun"
+  },
+  "W1314": {
+    "pos": "Noun"
+  },
+  "W1315": {
+    "pos": "Noun"
+  },
+  "W1316": {
+    "pos": "Adjective",
+    "lemma": "tidlig"
+  },
+  "W1317": {
+    "pos": "Adjective"
+  },
+  "W1318": {
+    "pos": "Adjective"
+  },
+  "W1319": {
+    "pos": "Adjective"
+  },
+  "W1320": {
+    "pos": "Adverb"
+  },
+  "W1321": {
+    "pos": "Verb",
+    "lemma": "høre"
+  },
+  "W1322": {
+    "pos": "Verb"
+  },
+  "W1323": {
+    "pos": "Verb",
+    "match": "imperative of høre",
+    "lemma": "høre"
+  },
+  "W1324": {
+    "pos": "Verb",
+    "lemma": "høre"
+  },
+  "W1325": {
+    "pos": "Adjective"
+  },
+  "W1326": {
+    "pos": "Adverb",
+    "match": "loudly"
+  },
+  "W1327": {
+    "pos": "Adjective",
+    "via": "tydelig",
+    "lemma": "tydelig",
+    "match": "clear"
+  },
+  "W1328": {
+    "pos": "Verb",
+    "match": "present of bede",
+    "lemma": "bede"
+  },
+  "W1329": {
+    "pos": "Noun"
+  },
+  "W1330": {
+    "pos": "Noun"
+  },
+  "W1331": {
+    "pos": "Noun"
+  },
+  "W1332": {
+    "pos": "Noun"
+  },
+  "W1333": {
+    "pos": "Noun"
+  },
+  "W1334": {
+    "pos": "Noun"
+  },
+  "W1335": {
+    "pos": "Noun"
+  },
+  "W1336": {
+    "pos": "Noun"
+  },
+  "W1337": {
+    "pos": "Noun",
+    "match": "indefinite plural of gang",
+    "lemma_match": "a time"
+  },
+  "W1338": {
+    "pos": "Adverb"
+  },
+  "W1339": {
+    "pos": "Adverb"
+  },
+  "W1340": {
+    "pos": "Adverb"
+  },
+  "W1341": {
+    "pos": "Adverb"
+  },
+  "W1342": {
+    "pos": "Verb",
+    "match": "present of pleje",
+    "lemma": "pleje"
+  },
+  "W1343": {
+    "pos": "Adjective",
+    "match": "next"
+  },
+  "W1344": {
+    "pos": "Adjective"
+  },
+  "W1345": {
+    "pos": "Adverb",
+    "match": "first, firstly"
+  },
+  "W1346": {
+    "pos": "Adverb"
+  },
+  "W1347": {
+    "pos": "Preposition",
+    "match": "before"
+  },
+  "W1348": {
+    "pos": "Adverb"
+  },
+  "W1349": {
+    "pos": "Adverb"
+  },
+  "W1350": {
+    "pos": "Adverb"
+  },
+  "W1351": {
+    "pos": "Noun"
+  },
+  "W1352": {
+    "pos": "Noun"
+  },
+  "W1353": {
+    "pos": "Noun"
+  },
+  "W1354": {
+    "pos": "Noun"
+  },
+  "W1355": {
+    "pos": "Noun"
+  },
+  "W1356": {
+    "pos": "Noun"
+  },
+  "W1357": {
+    "pos": "Proper noun"
+  },
+  "W1358": {
+    "pos": "Noun"
+  },
+  "W1359": {
+    "pos": "Noun"
+  },
+  "W1360": {
+    "pos": "Noun"
+  },
+  "W1361": {
+    "pos": "Noun"
+  },
+  "W1362": {
+    "pos": "Noun"
+  },
+  "W1363": {
+    "pos": "Noun"
+  },
+  "W1364": {
+    "pos": "Noun"
+  },
+  "W1365": {
+    "pos": "Noun"
+  },
+  "W1366": {
+    "pos": "Noun"
+  },
+  "W1367": {
+    "pos": "Noun"
+  },
+  "W1368": {
+    "pos": "Noun"
+  },
+  "W1369": {
+    "pos": "Numeral"
+  },
+  "W1370": {
+    "pos": "Numeral"
+  },
+  "W1371": {
+    "pos": "Noun"
+  },
+  "W1372": {
+    "pos": "Noun"
+  },
+  "W1373": {
+    "pos": "Adjective",
+    "match": "over"
+  },
+  "W1374": {
+    "pos": "Verb"
+  },
+  "W1375": {
+    "pos": "Verb"
+  },
+  "W1376": {
+    "pos": "Adverb"
+  },
+  "W1377": {
+    "pos": "Adverb",
+    "match": "really, actually"
+  },
+  "W1378": {
+    "pos": "Interjection"
+  },
+  "W1379": {
+    "pos": "Verb"
+  },
+  "W1380": {
+    "pos": "Phrase"
+  },
+  "W1381": {
+    "pos": "Noun"
+  },
+  "W1382": {
+    "pos": "Noun"
+  },
+  "W1383": {
+    "pos": "Adjective",
+    "match": "free"
+  },
+  "W1384": {
+    "pos": "Noun"
+  },
+  "W1385": {
+    "pos": "Noun"
+  },
+  "W1386": {
+    "pos": "Noun"
+  },
+  "W1387": {
+    "pos": "Noun"
+  },
+  "W1388": {
+    "pos": "Verb",
+    "lemma": "foreslå"
+  },
+  "W1389": {
+    "pos": "Adverb"
+  },
+  "W1390": {
+    "pos": "Verb",
+    "match": "present tense of burde",
+    "lemma": "burde"
+  },
+  "W1391": {
+    "pos": "Verb"
+  },
+  "W1392": {
+    "pos": "Adjective"
+  },
+  "W1393": {
+    "pos": "Verb",
+    "lemma": "ske"
+  },
+  "W1394": {
+    "pos": "Verb",
+    "match": "to happen"
+  },
+  "W1395": {
+    "pos": "Noun"
+  },
+  "W1396": {
+    "pos": "Noun"
+  },
+  "W1397": {
+    "pos": "Verb",
+    "lemma": "vågne"
+  },
+  "W1398": {
+    "pos": "Adverb"
+  },
+  "W1399": {
+    "pos": "Verb",
+    "match": "present of sove",
+    "lemma": "sove"
+  },
+  "W1400": {
+    "pos": "Verb"
+  },
+  "W1401": {
+    "pos": "Noun"
+  },
+  "W1402": {
+    "pos": "Noun"
+  },
+  "W1403": {
+    "pos": "Noun"
+  },
+  "W1404": {
+    "pos": "Verb",
+    "match": "present of arbejde",
+    "lemma": "arbejde"
+  },
+  "W1405": {
+    "pos": "Noun"
+  },
+  "W1406": {
+    "pos": "Verb",
+    "match": "present of begynde",
+    "lemma": "begynde"
+  },
+  "W1407": {
+    "pos": "Verb"
+  },
+  "W1408": {
+    "pos": "Verb",
+    "lemma": "slutte"
+  },
+  "W1409": {
+    "pos": "Conjunction"
+  },
+  "W1410": {
+    "pos": "Conjunction"
+  },
+  "W1411": {
+    "pos": "Noun"
+  },
+  "W1412": {
+    "pos": "Noun"
+  },
+  "W1413": {
+    "pos": "Noun"
+  },
+  "W1414": {
+    "pos": "Adjective",
+    "match": "forbidden"
+  },
+  "W1415": {
+    "pos": "Noun"
+  },
+  "W1416": {
+    "pos": "Noun"
+  },
+  "W1417": {
+    "pos": "Noun"
+  },
+  "W1418": {
+    "pos": "Noun",
+    "match": "smoking"
+  },
+  "W1419": {
+    "pos": "Adjective"
+  },
+  "W1420": {
+    "pos": "Noun"
+  },
+  "W1421": {
+    "pos": "Noun"
+  },
+  "W1422": {
+    "pos": "Verb",
+    "lemma": "stoppe"
+  },
+  "W1423": {
+    "pos": "Conjunction"
+  },
+  "W1424": {
+    "pos": "Noun",
+    "match": "permission"
+  },
+  "W1425": {
+    "pos": "Noun"
+  },
+  "W1426": {
+    "pos": "Noun"
+  },
+  "W1427": {
+    "pos": "Noun"
+  },
+  "W1428": {
+    "pos": "Verb",
+    "via": "afgå",
+    "lemma": "afgå"
+  },
+  "W1429": {
+    "pos": "Adverb",
+    "match": "destination"
+  },
+  "W1430": {
+    "pos": "Noun"
+  },
+  "W1431": {
+    "pos": "Verb",
+    "match": "present tense of flyve",
+    "lemma": "flyve"
+  },
+  "W1432": {
+    "pos": "Noun"
+  },
+  "W1433": {
+    "pos": "Noun",
+    "match": "journey"
+  },
+  "W1434": {
+    "pos": "Verb",
+    "match": "present of rejse",
+    "lemma": "rejse"
+  },
+  "W1435": {
+    "pos": "Noun"
+  },
+  "W1436": {
+    "pos": "Noun"
+  },
+  "W1437": {
+    "pos": "Noun"
+  },
+  "W1438": {
+    "pos": "Verb",
+    "match": "present of køre",
+    "lemma": "køre"
+  },
+  "W1439": {
+    "pos": "Verb"
+  },
+  "W1440": {
+    "pos": "Noun"
+  },
+  "W1441": {
+    "pos": "Noun"
+  },
+  "W1442": {
+    "pos": "Noun",
+    "match": "trip"
+  },
+  "W1443": {
+    "pos": "Verb",
+    "via": "afhænge",
+    "lemma": "afhænge"
+  },
+  "W1444": {
+    "pos": "Adverb"
+  },
+  "W1445": {
+    "pos": "Adverb",
+    "match": "at all"
+  },
+  "W1446": {
+    "pos": "Adverb"
+  },
+  "W1447": {
+    "pos": "Adverb",
+    "match": "probably"
+  },
+  "W1448": {
+    "pos": "Adverb"
+  },
+  "W1449": {
+    "pos": "Adverb"
+  },
+  "W1450": {
+    "pos": "Adjective"
+  },
+  "W1451": {
+    "pos": "Noun"
+  },
+  "W1452": {
+    "pos": "Noun",
+    "via": "passager",
+    "lemma": "passager"
+  },
+  "W1453": {
+    "pos": "Verb"
+  },
+  "W1454": {
+    "pos": "Noun"
+  },
+  "W1455": {
+    "pos": "Noun"
+  },
+  "W1456": {
+    "pos": "Verb",
+    "lemma": "stoppe"
+  },
+  "W1457": {
+    "pos": "Adverb",
+    "match": "please, kindly"
+  },
+  "W1458": {
+    "pos": "Verb",
+    "match": "present of beklage",
+    "lemma": "beklage"
+  },
+  "W1459": {
+    "pos": "Adverb"
+  },
+  "W1460": {
+    "pos": "Preposition"
+  },
+  "W1461": {
+    "pos": "Preposition"
+  },
+  "W1462": {
+    "pos": "Adverb"
+  },
+  "W1463": {
+    "pos": "Verb",
+    "lemma": "kigge"
+  },
+  "W1464": {
+    "pos": "Verb",
+    "lemma": "vælge"
+  },
+  "W1465": {
+    "pos": "Verb"
+  },
+  "W1466": {
+    "pos": "Verb",
+    "match": "imperative of læse",
+    "lemma": "læse"
+  },
+  "W1467": {
+    "pos": "Verb"
+  },
+  "W1468": {
+    "pos": "Verb",
+    "match": "imperative of skrive",
+    "lemma": "skrive"
+  },
+  "W1469": {
+    "pos": "Verb",
+    "via": "lytte",
+    "lemma": "lytte"
+  },
+  "W1470": {
+    "pos": "Verb",
+    "lemma": "glemme"
+  },
+  "W1471": {
+    "pos": "Verb",
+    "lemma": "prøve"
+  },
+  "W1472": {
+    "pos": "Noun"
+  },
+  "W1473": {
+    "pos": "Noun"
+  },
+  "W1474": {
+    "pos": "Noun",
+    "via": "tekst",
+    "lemma": "tekst"
+  },
+  "W1475": {
+    "pos": "Verb",
+    "match": "imperative of vise",
+    "lemma": "vise"
+  },
+  "W1476": {
+    "pos": "Verb",
+    "match": "to show"
+  },
+  "W1477": {
+    "pos": "Verb",
+    "match": "present of vise",
+    "lemma": "vise"
+  },
+  "W1478": {
+    "pos": "Verb",
+    "lemma": "forklare"
+  },
+  "W1479": {
+    "pos": "Verb"
+  },
+  "W1480": {
+    "pos": "Verb",
+    "lemma": "fortælle"
+  },
+  "W1481": {
+    "pos": "Verb"
+  },
+  "W1482": {
+    "pos": "Verb",
+    "match": "present tense of fortælle",
+    "lemma": "fortælle"
+  },
+  "W1483": {
+    "pos": "Verb",
+    "lemma": "lukke"
+  },
+  "W1484": {
+    "pos": "Verb",
+    "match": "imperative of sætte",
+    "lemma": "sætte"
+  },
+  "W1485": {
+    "pos": "Verb"
+  },
+  "W1486": {
+    "pos": "Verb",
+    "match": "present of sætte",
+    "lemma": "sætte"
+  },
+  "W1487": {
+    "pos": "Verb",
+    "lemma": "finde"
+  },
+  "W1488": {
+    "pos": "Verb",
+    "match": "present of finde",
+    "lemma": "finde"
+  },
+  "W1489": {
+    "pos": "Verb",
+    "match": "imperative of tage",
+    "lemma": "tage"
+  },
+  "W1490": {
+    "pos": "Verb",
+    "lemma": "give"
+  },
+  "W1491": {
+    "pos": "Verb",
+    "match": "present tense of hjælpe",
+    "lemma": "hjælpe"
+  },
+  "W1492": {
+    "pos": "Noun",
+    "match": "way"
+  },
+  "W1501": {
+    "pos": "Phrase"
+  },
+  "W1502": {
+    "pos": "Verb",
+    "match": "past of være",
+    "lemma": "være"
+  },
+  "W1503": {
+    "pos": "Verb",
+    "lemma": "have"
+  },
+  "W1504": {
+    "pos": "Verb",
+    "match": "past of komme",
+    "lemma": "komme"
+  },
+  "W1505": {
+    "pos": "Verb",
+    "lemma": "gå"
+  },
+  "W1506": {
+    "pos": "Verb",
+    "lemma": "sige"
+  },
+  "W1507": {
+    "pos": "Verb",
+    "lemma": "blive"
+  },
+  "W1508": {
+    "pos": "Verb",
+    "lemma": "gøre"
+  },
+  "W1509": {
+    "pos": "Verb",
+    "lemma": "få"
+  },
+  "W1510": {
+    "pos": "Verb",
+    "lemma": "give"
+  },
+  "W1511": {
+    "pos": "Verb",
+    "lemma": "finde"
+  },
+  "W1512": {
+    "pos": "Verb",
+    "lemma": "tro"
+  },
+  "W1513": {
+    "pos": "Verb",
+    "lemma": "vide"
+  },
+  "W1514": {
+    "pos": "Verb",
+    "match": "past tense of tænke",
+    "lemma": "tænke"
+  },
+  "W1515": {
+    "pos": "Verb",
+    "lemma": "ske"
+  },
+  "W1516": {
+    "pos": "Verb",
+    "match": "past tense of tale",
+    "lemma": "tale"
+  },
+  "W1517": {
+    "pos": "Verb",
+    "match": "past tense of lave",
+    "lemma": "lave"
+  },
+  "W1518": {
+    "pos": "Verb",
+    "lemma": "ringe"
+  },
+  "W1519": {
+    "pos": "Verb",
+    "match": "past tense of fortælle",
+    "lemma": "fortælle"
+  },
+  "W1520": {
+    "pos": "Verb",
+    "lemma": "elske"
+  },
+  "W1521": {
+    "pos": "Verb",
+    "lemma": "prøve"
+  },
+  "W1522": {
+    "pos": "Noun",
+    "match": "weather"
+  },
+  "W1523": {
+    "pos": "Noun"
+  },
+  "W1524": {
+    "pos": "Noun"
+  },
+  "W1525": {
+    "pos": "Verb",
+    "lemma": "regne"
+  },
+  "W1526": {
+    "pos": "Noun"
+  },
+  "W1527": {
+    "pos": "Verb",
+    "lemma": "sne"
+  },
+  "W1528": {
+    "pos": "Verb",
+    "match": "present of blæse",
+    "lemma": "blæse"
+  },
+  "W1529": {
+    "pos": "Noun",
+    "via": "grad",
+    "lemma": "grad"
+  },
+  "W1530": {
+    "pos": "Adjective",
+    "via": "varm",
+    "lemma": "varm"
+  },
+  "W1531": {
+    "pos": "Adjective"
+  },
+  "W1532": {
+    "pos": "Noun"
+  },
+  "W1533": {
+    "pos": "Noun",
+    "match": "ice (water in frozen form)"
+  },
+  "W1534": {
+    "pos": "Verb",
+    "lemma": "være"
+  },
+  "W1535": {
+    "pos": "Verb",
+    "lemma": "se"
+  },
+  "W1536": {
+    "pos": "Verb",
+    "lemma": "sige"
+  },
+  "W1537": {
+    "pos": "Verb",
+    "lemma": "gøre"
+  },
+  "W1538": {
+    "pos": "Verb",
+    "lemma": "få"
+  },
+  "W1539": {
+    "pos": "Verb",
+    "lemma": "komme"
+  },
+  "W1540": {
+    "pos": "Verb",
+    "lemma": "gå"
+  },
+  "W1541": {
+    "pos": "Participle",
+    "lemma": "blive"
+  },
+  "W1542": {
+    "pos": "Participle",
+    "lemma": "have"
+  },
+  "W1543": {
+    "pos": "Verb",
+    "lemma": "høre"
+  },
+  "W1544": {
+    "pos": "Verb",
+    "lemma": "finde"
+  },
+  "W1545": {
+    "pos": "Verb",
+    "lemma": "lave"
+  },
+  "W1546": {
+    "pos": "Verb",
+    "match": "past participle of tage",
+    "lemma": "tage"
+  },
+  "W1547": {
+    "pos": "Verb",
+    "match": "past participle of tale",
+    "lemma": "tale"
+  },
+  "W1548": {
+    "pos": "Verb",
+    "match": "past participle of fortælle",
+    "lemma": "fortælle"
+  },
+  "W1549": {
+    "pos": "Verb",
+    "lemma": "ske"
+  },
+  "W1550": {
+    "pos": "Participle",
+    "lemma": "glemme"
+  },
+  "W1551": {
+    "pos": "Verb",
+    "lemma": "tænke"
+  },
+  "W1552": {
+    "pos": "Adverb"
+  },
+  "W1553": {
+    "pos": "Adverb"
+  },
+  "W1554": {
+    "pos": "Adverb"
+  },
+  "W1555": {
+    "pos": "Adverb"
+  },
+  "W1556": {
+    "pos": "Adverb"
+  },
+  "W1557": {
+    "pos": "Adverb"
+  },
+  "W1558": {
+    "pos": "Adverb",
+    "match": "round, around"
+  },
+  "W1559": {
+    "pos": "Adverb"
+  },
+  "W1560": {
+    "pos": "Preposition"
+  },
+  "W1561": {
+    "pos": "Adverb"
+  },
+  "W1562": {
+    "pos": "Preposition"
+  },
+  "W1563": {
+    "pos": "Preposition"
+  },
+  "W1564": {
+    "pos": "Preposition"
+  },
+  "W1565": {
+    "pos": "Adverb"
+  },
+  "W1566": {
+    "pos": "Preposition"
+  },
+  "W1567": {
+    "pos": "Adverb"
+  },
+  "W1568": {
+    "pos": "Adverb"
+  },
+  "W1569": {
+    "pos": "Pronoun"
+  },
+  "W1570": {
+    "pos": "Pronoun"
+  },
+  "W1571": {
+    "pos": "Pronoun"
+  },
+  "W1572": {
+    "pos": "Pronoun"
+  },
+  "W1573": {
+    "pos": "Pronoun"
+  },
+  "W1574": {
+    "pos": "Adjective",
+    "match": "own"
+  },
+  "W1575": {
+    "pos": "Adverb",
+    "match": "farther, further"
+  },
+  "W1576": {
+    "pos": "Adverb"
+  },
+  "W1577": {
+    "pos": "Adjective",
+    "match": "close"
+  },
+  "W1578": {
+    "pos": "Conjunction"
+  },
+  "W1579": {
+    "pos": "Pronoun"
+  },
+  "W1580": {
+    "pos": "Verb",
+    "match": "present of hade",
+    "lemma": "hade"
+  },
+  "W1581": {
+    "pos": "Verb",
+    "match": "present tense of ønske",
+    "lemma": "ønske"
+  },
+  "W1582": {
+    "pos": "Noun"
+  },
+  "W1583": {
+    "pos": "Noun"
+  },
+  "W1584": {
+    "pos": "Adjective"
+  },
+  "W1585": {
+    "pos": "Adjective"
+  },
+  "W1586": {
+    "pos": "Verb",
+    "match": "present of glæde",
+    "lemma": "glæde"
+  },
+  "W1587": {
+    "pos": "Verb",
+    "lemma": "savne"
+  },
+  "W1588": {
+    "pos": "Noun"
+  },
+  "W1589": {
+    "pos": "Adjective"
+  },
+  "W1590": {
+    "pos": "Adjective"
+  },
+  "W1591": {
+    "pos": "Noun"
+  },
+  "W1592": {
+    "pos": "Adjective"
+  },
+  "W1593": {
+    "pos": "Adverb"
+  },
+  "W1594": {
+    "pos": "Adverb"
+  },
+  "W1595": {
+    "pos": "Noun",
+    "match": "life"
+  },
+  "W1596": {
+    "pos": "Noun"
+  },
+  "W1597": {
+    "pos": "Verb",
+    "match": "present of leve",
+    "lemma": "leve"
+  },
+  "W1598": {
+    "pos": "Verb",
+    "match": "to live"
+  },
+  "W1599": {
+    "pos": "Noun"
+  }
 }

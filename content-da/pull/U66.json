@@ -1,0 +1,1560 @@
+{
+  "unit_id": "U66",
+  "pulled_at": "2026-11-21",
+  "candidates": 32,
+  "sentences": [
+    {
+      "sentence_id": "S66001",
+      "unit_id": "U66",
+      "french": "Rygning forbudt.",
+      "english": "No smoking.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2054031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66002",
+      "unit_id": "U66",
+      "french": "Er den gratis?",
+      "english": "Is it free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "584464",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66003",
+      "unit_id": "U66",
+      "french": "Er det gratis?",
+      "english": "Is it free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2055304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66004",
+      "unit_id": "U66",
+      "french": "Hvad er næste stop?",
+      "english": "What's the next stop?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8436539",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "What is the next stop?",
+        "What is the next station?"
+      ]
+    },
+    {
+      "sentence_id": "S66005",
+      "unit_id": "U66",
+      "french": "Hvem ringede til politiet?",
+      "english": "Who called the police?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10914930",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66006",
+      "unit_id": "U66",
+      "french": "Er der et toilet?",
+      "english": "Is there a toilet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12968714",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66007",
+      "unit_id": "U66",
+      "french": "Skal jeg ringe til politiet?",
+      "english": "Should I call the police?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3563862",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66008",
+      "unit_id": "U66",
+      "french": "Hvorfor gik du ikke til politiet?",
+      "english": "Why didn't you go to the police?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7081502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66009",
+      "unit_id": "U66",
+      "french": "Stop det!",
+      "english": "Stop that!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4656375",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CandyFloss",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66010",
+      "unit_id": "U66",
+      "french": "Stop ham!",
+      "english": "Stop him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4675647",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Stop him!"
+      ]
+    },
+    {
+      "sentence_id": "S66011",
+      "unit_id": "U66",
+      "french": "Det er gratis.",
+      "english": "It's free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "669150",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "That's free.",
+        "This is free.",
+        "It's for free.",
+        "It's free of charge."
+      ]
+    },
+    {
+      "sentence_id": "S66012",
+      "unit_id": "U66",
+      "french": "Hjælp! Politi! Hjælp!",
+      "english": "Help! Police! Help!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12423169",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66013",
+      "unit_id": "U66",
+      "french": "Det er ikke forbudt.",
+      "english": "It's not against the law.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5683840",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66014",
+      "unit_id": "U66",
+      "french": "Brug det andet toilet.",
+      "english": "Use the other toilet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10223183",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66015",
+      "unit_id": "U66",
+      "french": "Vent her indtil han kommer.",
+      "english": "Be waiting here until he comes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "476045",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66016",
+      "unit_id": "U66",
+      "french": "Jeg bliver her indtil han kommer.",
+      "english": "I'll stay here until he arrives.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5463200",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66017",
+      "unit_id": "U66",
+      "french": "Vi skal spørge Tom om lov.",
+      "english": "We need to ask Tom for permission.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6925064",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66018",
+      "unit_id": "U66",
+      "french": "Jeg forstår ikke disse nye regler.",
+      "english": "I don't understand these new rules.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7589020",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "M1dx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66019",
+      "unit_id": "U66",
+      "french": "Måske bliver jeg her indtil mandag.",
+      "english": "I may stay here until Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8609104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66020",
+      "unit_id": "U66",
+      "french": "Hvorfor er du ikke gået til politiet?",
+      "english": "Why haven't you gone to the police?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7081503",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66021",
+      "unit_id": "U66",
+      "french": "Politiet er her.",
+      "english": "The police are here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5198944",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66022",
+      "unit_id": "U66",
+      "french": "Alt er gratis.",
+      "english": "Everything's free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6715105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66023",
+      "unit_id": "U66",
+      "french": "Vi får den gratis.",
+      "english": "We get it for free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4338851",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66024",
+      "unit_id": "U66",
+      "french": "Vi får det gratis.",
+      "english": "We get it for free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4338858",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66025",
+      "unit_id": "U66",
+      "french": "Tom fortalte politiet alt.",
+      "english": "Tom told the police everything.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7000986",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66026",
+      "unit_id": "U66",
+      "french": "Jeg ringer til politiet.",
+      "english": "I'll call the police.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8100919",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66027",
+      "unit_id": "U66",
+      "french": "De bøger er gratis.",
+      "english": "Those books are free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11753302",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66028",
+      "unit_id": "U66",
+      "french": "Du kan få denne bog gratis.",
+      "english": "You can have this book for nothing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "621765",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66029",
+      "unit_id": "U66",
+      "french": "Tom fortalte det hele til politiet.",
+      "english": "Tom told the police everything.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7000985",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66030",
+      "unit_id": "U66",
+      "french": "Jeg bliver måske her indtil mandag.",
+      "english": "I may stay here until Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8609105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S66001",
+      "position": 1,
+      "surface": "Rygning",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 2,
+      "surface": "forbudt",
+      "word_id": "W1414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 2,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 1,
+      "surface": "Hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 3,
+      "surface": "næste",
+      "word_id": "W1343",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 4,
+      "surface": "stop",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 1,
+      "surface": "Hvem",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 2,
+      "surface": "ringede",
+      "word_id": "W1518",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 3,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 4,
+      "surface": "politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 2,
+      "surface": "der",
+      "word_id": "W093",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 4,
+      "surface": "toilet",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 1,
+      "surface": "Skal",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 2,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 3,
+      "surface": "ringe",
+      "word_id": "W830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 4,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 5,
+      "surface": "politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 1,
+      "surface": "Hvorfor",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 2,
+      "surface": "gik",
+      "word_id": "W1505",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 4,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 5,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 6,
+      "surface": "politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 1,
+      "surface": "Stop",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 1,
+      "surface": "Stop",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 2,
+      "surface": "ham",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 1,
+      "surface": "Hjælp",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 2,
+      "surface": "Politi",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 3,
+      "surface": "Hjælp",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 4,
+      "surface": "forbudt",
+      "word_id": "W1414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 1,
+      "surface": "Brug",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 3,
+      "surface": "andet",
+      "word_id": "W1184",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 4,
+      "surface": "toilet",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 1,
+      "surface": "Vent",
+      "word_id": "W860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 2,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 3,
+      "surface": "indtil",
+      "word_id": "W1423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 4,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 5,
+      "surface": "kommer",
+      "word_id": "W916",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 2,
+      "surface": "bliver",
+      "word_id": "W848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 3,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 4,
+      "surface": "indtil",
+      "word_id": "W1423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 5,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 6,
+      "surface": "kommer",
+      "word_id": "W916",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 2,
+      "surface": "skal",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 3,
+      "surface": "spørge",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 5,
+      "surface": "om",
+      "word_id": "W964",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 6,
+      "surface": "lov",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 2,
+      "surface": "forstår",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 4,
+      "surface": "disse",
+      "word_id": "W980",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 5,
+      "surface": "nye",
+      "word_id": "W1195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 6,
+      "surface": "regler",
+      "word_id": "W1425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 1,
+      "surface": "Måske",
+      "word_id": "W954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 2,
+      "surface": "bliver",
+      "word_id": "W848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 3,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 4,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 5,
+      "surface": "indtil",
+      "word_id": "W1423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 6,
+      "surface": "mandag",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 1,
+      "surface": "Hvorfor",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 4,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 5,
+      "surface": "gået",
+      "word_id": "W1540",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 6,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 7,
+      "surface": "politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 1,
+      "surface": "Politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 3,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 1,
+      "surface": "Alt",
+      "word_id": "W988",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 2,
+      "surface": "får",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 3,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 4,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 2,
+      "surface": "får",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 4,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 2,
+      "surface": "fortalte",
+      "word_id": "W1519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 3,
+      "surface": "politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 4,
+      "surface": "alt",
+      "word_id": "W988",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 2,
+      "surface": "ringer",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 3,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 4,
+      "surface": "politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 2,
+      "surface": "bøger",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 4,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 3,
+      "surface": "få",
+      "word_id": "W932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 4,
+      "surface": "denne",
+      "word_id": "W978",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 5,
+      "surface": "bog",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 6,
+      "surface": "gratis",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 2,
+      "surface": "fortalte",
+      "word_id": "W1519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 4,
+      "surface": "hele",
+      "word_id": "W989",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 5,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 6,
+      "surface": "politiet",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 2,
+      "surface": "bliver",
+      "word_id": "W848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 3,
+      "surface": "måske",
+      "word_id": "W954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 4,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 5,
+      "surface": "indtil",
+      "word_id": "W1423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 6,
+      "surface": "mandag",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A660041",
+      "sentence_id": "S66004",
+      "direction": "fr_to_en",
+      "answer": "What is the next stop?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660042",
+      "sentence_id": "S66004",
+      "direction": "fr_to_en",
+      "answer": "What is the next station?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660101",
+      "sentence_id": "S66010",
+      "direction": "fr_to_en",
+      "answer": "Stop him!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660111",
+      "sentence_id": "S66011",
+      "direction": "fr_to_en",
+      "answer": "That's free.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660112",
+      "sentence_id": "S66011",
+      "direction": "fr_to_en",
+      "answer": "This is free.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660113",
+      "sentence_id": "S66011",
+      "direction": "fr_to_en",
+      "answer": "It's for free.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660114",
+      "sentence_id": "S66011",
+      "direction": "fr_to_en",
+      "answer": "It's free of charge.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

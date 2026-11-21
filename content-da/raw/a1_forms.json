@@ -14,5 +14,21 @@
     "fields_json": "[{\"key\":\"first\",\"label\":\"Fornavn\",\"rule\":\"text\",\"answer\":\"Mette\"},{\"key\":\"last\",\"label\":\"Efternavn\",\"rule\":\"text\",\"answer\":\"Hansen\"},{\"key\":\"age\",\"label\":\"Alder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationalitet\",\"rule\":\"text\",\"answer\":\"dansk\",\"also\":[\"Dansk\",\"dansker\",\"Dansker\",\"Danmark\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrig\"},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"12 14 19 11\"}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Lars og Anna skal i biografen på lørdag klokken halv ni om aftenen. De ses på torvet.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dag\",\"rule\":\"text\",\"answer\":\"lørdag\",\"also\":[\"Lørdag\",\"på lørdag\"]},{\"key\":\"time\",\"label\":\"Tid\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"8:30\",\"20.30\",\"8.30\",\"halv ni\",\"klokken halv ni\"]},{\"key\":\"where\",\"label\":\"Hvor\",\"rule\":\"text\",\"answer\":\"på torvet\",\"also\":[\"torvet\",\"torv\",\"På torvet\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Jeg hedder Mette. Jeg spiser morgenmad klokken syv. Jeg begynder at arbejde klokken ni og slutter klokken fem.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Navn\",\"rule\":\"text\",\"answer\":\"Mette\"},{\"key\":\"breakfast\",\"label\":\"Morgenmad\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"syv\",\"klokken syv\"]},{\"key\":\"start\",\"label\":\"Begynder\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"ni\",\"klokken ni\"]},{\"key\":\"end\",\"label\":\"Slutter\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"fem\",\"klokken fem\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]
