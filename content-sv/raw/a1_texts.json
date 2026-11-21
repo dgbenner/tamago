@@ -262,5 +262,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R301",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Dagens lunch",
+    "lines": "Soppa, kyckling med ris och sallad\nEfterrätt: glass\n125 kr",
+    "questions_json": "[{\"question\":\"How much is the lunch of the day?\",\"choices\":[\"125 kronor\",\"25 kronor\",\"150 kronor\"],\"answer\":0},{\"question\":\"What is there for dessert?\",\"choices\":[\"Ice cream\",\"Cake\",\"Fruit\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R302",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Kafé Hörnet",
+    "lines": "Kaffe: 30 kr\nTe: 25 kr\nKanelbulle: 35 kr\nSmörgås: 60 kr",
+    "questions_json": "[{\"question\":\"How much is a sandwich?\",\"choices\":[\"60 kronor\",\"30 kronor\",\"35 kronor\"],\"answer\":0},{\"question\":\"What costs 25 kronor?\",\"choices\":[\"A tea\",\"A coffee\",\"A cinnamon bun\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R303",
+    "unit_id": "U82",
+    "kind": "notice",
+    "title": "Restaurang Fisken",
+    "lines": "Fisk och kött\nÖppet tisdag till söndag\nMåndag: stängt",
+    "questions_json": "[{\"question\":\"When is the restaurant closed?\",\"choices\":[\"On Mondays\",\"On Sundays\",\"On Tuesdays\"],\"answer\":0},{\"question\":\"What does the restaurant serve?\",\"choices\":[\"Fish and meat\",\"Pizza\",\"Only salads\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R304",
+    "unit_id": "U83",
+    "kind": "message",
+    "title": "Ett sms från Anna",
+    "lines": "Mitt hus ligger nära stationen.\nGå rakt fram till torget.\nMin gata är den andra till höger.",
+    "questions_json": "[{\"question\":\"Where is Anna's house?\",\"choices\":[\"Near the station\",\"Near the school\",\"In the city centre\"],\"answer\":0},{\"question\":\"Which street is hers?\",\"choices\":[\"The second on the right\",\"The first on the left\",\"The second on the left\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R305",
+    "unit_id": "U83",
+    "kind": "sign",
+    "title": "I stan",
+    "lines": "Museum: 200 m till vänster\nKyrka: rakt fram\nStation: till höger",
+    "questions_json": "[{\"question\":\"Where is the museum?\",\"choices\":[\"200 metres on the left\",\"200 metres on the right\",\"Straight on\"],\"answer\":0},{\"question\":\"Where is the station?\",\"choices\":[\"On the right\",\"On the left\",\"Straight on\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R306",
+    "unit_id": "U83",
+    "kind": "notice",
+    "title": "Hotellet",
+    "lines": "Hotellet ligger i slutet av gatan.\nFem minuter till fots till centrum\nBusshållplats framför hotellet",
+    "questions_json": "[{\"question\":\"How far is the hotel from the centre?\",\"choices\":[\"Five minutes on foot\",\"Five minutes by car\",\"Half an hour on foot\"],\"answer\":0},{\"question\":\"Where is the bus stop?\",\"choices\":[\"In front of the hotel\",\"Behind the hotel\",\"At the station\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R307",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Lägenhet att hyra",
+    "lines": "Lägenhet i centrum\nTvå sovrum, vardagsrum, kök och badrum\nMed balkong\n9 000 kr i månaden",
+    "questions_json": "[{\"question\":\"How many bedrooms does the flat have?\",\"choices\":[\"Two\",\"Three\",\"One\"],\"answer\":0},{\"question\":\"What else does it have?\",\"choices\":[\"A balcony\",\"A garden\",\"A garage\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R308",
+    "unit_id": "U86",
+    "kind": "message",
+    "title": "Ett sms från Maria",
+    "lines": "Min nya lägenhet är liten.\nDen har ett sovrum, ett vardagsrum och ett kök.\nDet finns ingen balkong.",
+    "questions_json": "[{\"question\":\"What is Maria's new flat like?\",\"choices\":[\"Small\",\"Big\",\"Old\"],\"answer\":0},{\"question\":\"What doesn't it have?\",\"choices\":[\"A balcony\",\"A kitchen\",\"A bedroom\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R309",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Rum för en student",
+    "lines": "Rum att hyra för en student\nMed säng, bord och stol\nNära universitetet",
+    "questions_json": "[{\"question\":\"Who is the room for?\",\"choices\":[\"A student\",\"A family\",\"A tourist\"],\"answer\":0},{\"question\":\"What is in the room?\",\"choices\":[\"A bed, a table and a chair\",\"A sofa and a lamp\",\"A fridge\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R310",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Lediga jobb",
+    "lines": "Restaurang söker en kock\nTisdag till lördag, 17.00 till 23.00\nRing 070 123 45 67",
+    "questions_json": "[{\"question\":\"What job is it?\",\"choices\":[\"A cook\",\"A waiter\",\"A driver\"],\"answer\":0},{\"question\":\"Which days?\",\"choices\":[\"Tuesday to Saturday\",\"Monday to Friday\",\"Every day\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R311",
+    "unit_id": "U87",
+    "kind": "message",
+    "title": "Mitt jobb",
+    "lines": "Jag är sjuksköterska och jobbar på ett sjukhus.\nJag börjar klockan sju på morgonen.\nMin chef är mycket snäll.",
+    "questions_json": "[{\"question\":\"Where does she work?\",\"choices\":[\"In a hospital\",\"In a school\",\"In a shop\"],\"answer\":0},{\"question\":\"When does she start?\",\"choices\":[\"At seven in the morning\",\"At seven in the evening\",\"At nine\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R312",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Företaget",
+    "lines": "Företag söker en chaufför\nKörkort krävs\nMåndag till fredag",
+    "questions_json": "[{\"question\":\"Who is the company looking for?\",\"choices\":[\"A driver\",\"A secretary\",\"A teacher\"],\"answer\":0},{\"question\":\"What do you need?\",\"choices\":[\"A driving licence\",\"A university degree\",\"A car\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R313",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Ett vykort från Anna",
+    "lines": "Kära Erik!\nJag är vid havet med min familj. Det är varmt och havet är underbart.\nKram, Anna",
+    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the seaside\",\"In the mountains\",\"In the city\"],\"answer\":0},{\"question\":\"What is the weather like?\",\"choices\":[\"Warm\",\"Cold\",\"Rainy\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R314",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Ett sms från Tom",
+    "lines": "Hej Maria!\nPå lördag fyller jag år. Kommer du på min fest?\nFesten är hemma hos mig, klockan åtta.\nTom",
+    "questions_json": "[{\"question\":\"Why is Tom having a party?\",\"choices\":[\"It's his birthday\",\"He has a new job\",\"It's Christmas\"],\"answer\":0},{\"question\":\"Where is the party?\",\"choices\":[\"At his home\",\"At a restaurant\",\"In the park\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R315",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "En lapp",
+    "lines": "Anna!\nJag är inte hemma. Jag är tillbaka klockan sex.\nMaten står i kylskåpet.\nErik",
+    "questions_json": "[{\"question\":\"When is Erik back?\",\"choices\":[\"At six\",\"At eight\",\"At five\"],\"answer\":0},{\"question\":\"Where is the food?\",\"choices\":[\"In the fridge\",\"At a restaurant\",\"In the oven\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

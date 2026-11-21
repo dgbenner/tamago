@@ -2095,3 +2095,599 @@ Contrast forms, sentences each (target 2): .
 | S75038 | Jag betalar på mitt eget sätt. | I'll pay my own way. |  | [#2051941](https://tatoeba.org/en/sentences/show/2051941) | herrsilen |
 | S75039 | Jag vill inte leva med dig. | I don't want to live with you. |  | [#2785098](https://tatoeba.org/en/sentences/show/2785098) | ajje |
 | S75040 | Hon är som mitt eget barn. | She is like my own child. |  | [#3677904](https://tatoeba.org/en/sentences/show/3677904) | KajsaKavat |
+
+## U81 At the Café: Jag skulle vilja ha en kaffe (I would like a coffee); kan jag få en kopp te?; notan, tack (the bill); fika: coffee and something sweet
+
+30 sentences picked from 75 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: beställer (0), kaka (1), bulle (0), smörgås (1), glass (2), notan (2), meny (2), fika (0), smakar (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S81001 | Ska vi beställa? | Shall we order? |  | [#2699340](https://tatoeba.org/en/sentences/show/2699340) | Tximist |
+| S81002 | Hur smakar det? | How does it taste? |  | [#4344081](https://tatoeba.org/en/sentences/show/4344081) | richke |
+| S81003 | Kan jag beställa nu? | Can I order now? |  | [#4320129](https://tatoeba.org/en/sentences/show/4320129) | richke |
+| S81004 | Kan vi beställa nu? | Could we order now? |  | [#4323916](https://tatoeba.org/en/sentences/show/4323916) | richke |
+| S81005 | Hur skulle det hjälpa? | How would that help? |  | [#4344216](https://tatoeba.org/en/sentences/show/4344216) | richke |
+| S81006 | Varför skulle Tom hjälpa oss? | Why would Tom help us? |  | [#2122631](https://tatoeba.org/en/sentences/show/2122631) | herrsilen |
+| S81007 | Skulle inte det vara trevligt? | Wouldn't that be nice? |  | [#3894210](https://tatoeba.org/en/sentences/show/3894210) | herrsilen |
+| S81008 | Var kan vi hitta mat? | Where can we find food? |  | [#10702223](https://tatoeba.org/en/sentences/show/10702223) | Pineapple |
+| S81009 | Var kan jag köpa mat? | Where can I buy food? |  | [#11163121](https://tatoeba.org/en/sentences/show/11163121) | Pineapple |
+| S81010 | Finns det någon mat kvar? | Is there any food left? |  | [#11164068](https://tatoeba.org/en/sentences/show/11164068) | Pineapple |
+| S81011 | Notan, tack. | The bill, please. |  | [#4039038](https://tatoeba.org/en/sentences/show/4039038) | malinef |
+| S81012 | Jag hämtar notan. | I'll get the check. |  | [#4449418](https://tatoeba.org/en/sentences/show/4449418) | richke |
+| S81013 | Ta en kaka. | Have a cookie. |  | [#4449607](https://tatoeba.org/en/sentences/show/4449607) | richke |
+| S81014 | Jag gillar socker. | I like sugar. |  | [#11061987](https://tatoeba.org/en/sentences/show/11061987) | SilasNordgren |
+| S81015 | En kopp kaffe, tack. | A cup of coffee, please. | One cup of coffee, please. | [#880564](https://tatoeba.org/en/sentences/show/880564) | herrsilen |
+| S81016 | En kopp te, tack. | A cup of tea, please. |  | [#880565](https://tatoeba.org/en/sentences/show/880565) | herrsilen |
+| S81017 | Vi har inget socker. | We have no sugar. |  | [#1403215](https://tatoeba.org/en/sentences/show/1403215) | Fargy |
+| S81018 | Jag vill ha glass. | I want ice cream. |  | [#3302540](https://tatoeba.org/en/sentences/show/3302540) | Balamax |
+| S81019 | Jag köper aldrig socker. | I never buy sugar. |  | [#4357503](https://tatoeba.org/en/sentences/show/4357503) | richke |
+| S81020 | Det är en meny. | It is a menu. |  | [#10687036](https://tatoeba.org/en/sentences/show/10687036) | Pineapple |
+| S81021 | De har en meny. | They have a menu. |  | [#10687055](https://tatoeba.org/en/sentences/show/10687055) | Pineapple |
+| S81022 | Det finns en smörgås här. | There's a sandwich here. |  | [#880584](https://tatoeba.org/en/sentences/show/880584) | herrsilen |
+| S81023 | Jag vill ha en glass. | I want an ice cream. |  | [#4157263](https://tatoeba.org/en/sentences/show/4157263) | richke |
+| S81024 | Ge mig en kopp te. | Bring me a cup of tea. |  | [#6364108](https://tatoeba.org/en/sentences/show/6364108) | SilasNordgren |
+| S81025 | Hur långt skulle Tom gå? | How far would Tom go? |  | [#4338472](https://tatoeba.org/en/sentences/show/4338472) | richke |
+| S81026 | Hur skulle det se ut? | How would that look? |  | [#4344214](https://tatoeba.org/en/sentences/show/4344214) | richke |
+| S81027 | Vad skulle Tom kunna göra? | What could Tom do? |  | [#4446640](https://tatoeba.org/en/sentences/show/4446640) | richke |
+| S81028 | Hur skulle ni göra det? | How would you do it? |  | [#9699187](https://tatoeba.org/en/sentences/show/9699187) | morbrorper |
+| S81029 | Hur skulle du göra det? | How would you do it? |  | [#9699188](https://tatoeba.org/en/sentences/show/9699188) | morbrorper |
+| S81030 | Skulle vi kunna träffas imorgon? | How about we meet tomorrow? |  | [#10163569](https://tatoeba.org/en/sentences/show/10163569) | SilasNordgren |
+
+## U91 Ideas + Things: Ett fall, en typ, ett mål: everyday abstract nouns; i så fall (in that case); på grund av (because of) waits for Thinking + Saying
+
+22 sentences picked from 22 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: fall (1), form (1), typ (2), system (1), resultat (1), situation (1), faktum (0), mål (1), grund (0), anledning (2), skäl (1), syfte (1), princip (0), punkt (0), nivå (0), mängd (0), antal (0), procent (1), betydelse (0), ansvar (0), krav (1), stöd (0), förändring (2), ändring (0), kunskap (0), handling (0), kropp (0), jord (0), gräns (0), ämne (0), område (0), gram (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S91001 | Vad är deras syfte? | What's their purpose? |  | [#3874153](https://tatoeba.org/en/sentences/show/3874153) | herrsilen |
+| S91002 | Är förändring alltid bättre? | Is change always better? |  | [#10978695](https://tatoeba.org/en/sentences/show/10978695) | Pineapple |
+| S91003 | Tror du det kommer göra någon skillnad? | Do you think it'll make a difference? |  | [#4371083](https://tatoeba.org/en/sentences/show/4371083) | richke |
+| S91004 | Förändring är viktigt. | Change is important. |  | [#5870545](https://tatoeba.org/en/sentences/show/5870545) | herrsilen |
+| S91005 | Jag har krav. | I have standards. |  | [#11913366](https://tatoeba.org/en/sentences/show/11913366) | herrsilen |
+| S91006 | Han är min typ! | He is my type! |  | [#912743](https://tatoeba.org/en/sentences/show/912743) | Tximist |
+| S91007 | Hon är min typ. | She's my type. |  | [#2008996](https://tatoeba.org/en/sentences/show/2008996) | Ribon |
+| S91008 | Jag har mina skäl. | I have my reasons. |  | [#4347981](https://tatoeba.org/en/sentences/show/4347981) | richke |
+| S91009 | Vi vill ha resultat. | We want results. |  | [#10705764](https://tatoeba.org/en/sentences/show/10705764) | Pineapple |
+| S91010 | Det är en svår situation. | It's a tough situation. |  | [#5067347](https://tatoeba.org/en/sentences/show/5067347) | elliotmarklund |
+| S91011 | Det är ingen stor skillnad. | There's not a big difference. |  | [#5104685](https://tatoeba.org/en/sentences/show/5104685) | herrsilen |
+| S91012 | Det är ett bra system. | It's a good system. |  | [#11854514](https://tatoeba.org/en/sentences/show/11854514) | Pineapple |
+| S91013 | Hans mål är att bli lärare. | His objective is to become a teacher. |  | [#424824](https://tatoeba.org/en/sentences/show/424824) | Pineapple |
+| S91014 | Jag har inget behov av dem. | I don't need them. |  | [#3684671](https://tatoeba.org/en/sentences/show/3684671) | loghaD |
+| S91015 | Vi är i behov av hjälp. | We're in need of help. |  | [#3894240](https://tatoeba.org/en/sentences/show/3894240) | herrsilen |
+| S91016 | Det skulle inte göra någon skillnad. | It wouldn't make any difference. |  | [#4194151](https://tatoeba.org/en/sentences/show/4194151) | richke |
+| S91017 | Tio procent är mer än tillräckligt. | Ten percent is more than enough. |  | [#7888966](https://tatoeba.org/en/sentences/show/7888966) | Matteusmauritz |
+| S91018 | Ge mig bara en bra anledning. | Just give me one good reason. |  | [#11068739](https://tatoeba.org/en/sentences/show/11068739) | SilasNordgren |
+| S91019 | Du är i bättre form än jag. | You're in better shape than I am. |  | [#1960468](https://tatoeba.org/en/sentences/show/1960468) | herrsilen |
+| S91020 | Du har ingen anledning att vara rädd. | You have no reason to be afraid. |  | [#3837866](https://tatoeba.org/en/sentences/show/3837866) | herrsilen |
+| S91021 | Tom är i behov av vår hjälp. | Tom is in need of our help. |  | [#4370958](https://tatoeba.org/en/sentences/show/4370958) | richke |
+| S91022 | Det skulle i så fall vara hon. | In that case it would be her. |  | [#7046291](https://tatoeba.org/en/sentences/show/7046291) | herrsilen |
+
+## U26 Excuse Me: Ursäkta, kan du hjälpa mig?; förlåt att jag stör; ingen fara (no problem); ingen orsak (you are welcome)
+
+30 sentences picked from 70 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: visst (2), störa (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S26001 | Stör jag dig? | Am I bothering you? | Am I disturbing you? | [#2039350](https://tatoeba.org/en/sentences/show/2039350) | herrsilen |
+| S26002 | Stör det dig? | Does it bother you? |  | [#4328379](https://tatoeba.org/en/sentences/show/4328379) | richke |
+| S26003 | Stör vi dig? | Are we disturbing you? |  | [#10753416](https://tatoeba.org/en/sentences/show/10753416) | Pineapple |
+| S26004 | Är du i fara? | Are you in danger? |  | [#4317333](https://tatoeba.org/en/sentences/show/4317333) | richke |
+| S26005 | Behöver jag en orsak? | Do I need a reason? |  | [#4354238](https://tatoeba.org/en/sentences/show/4354238) | richke |
+| S26006 | Är vi i fara? | Are we in danger? |  | [#10753410](https://tatoeba.org/en/sentences/show/10753410) | Pineapple |
+| S26007 | Varför sa de ingenting? | Why didn't they say something? |  | [#12347511](https://tatoeba.org/en/sentences/show/12347511) | SilasNordgren |
+| S26008 | Har du ingenting att göra? | Don't you have anything to do? |  | [#2315114](https://tatoeba.org/en/sentences/show/2315114) | Tximist |
+| S26009 | Ingen orsak. | Don't mention it. |  | [#880516](https://tatoeba.org/en/sentences/show/880516) | herrsilen |
+| S26010 | Snälla sluta! | Please stop! |  | [#2837618](https://tatoeba.org/en/sentences/show/2837618) | herrsilen |
+| S26011 | Säg ingenting! | Don't say anything! |  | [#8833841](https://tatoeba.org/en/sentences/show/8833841) | morbrorper |
+| S26012 | Snälla, förlåt mig. | Please, forgive me. |  | [#1138504](https://tatoeba.org/en/sentences/show/1138504) | arahlen |
+| S26013 | Snälla hjälp mig. | Help me, please. |  | [#1996374](https://tatoeba.org/en/sentences/show/1996374) | Ribon |
+| S26014 | Visst, jag förstår. | Of course, I understand. |  | [#4159708](https://tatoeba.org/en/sentences/show/4159708) | richke |
+| S26015 | "Tack." "Ingen orsak." | "Thanks." "You're welcome." |  | [#8834565](https://tatoeba.org/en/sentences/show/8834565) | morbrorper |
+| S26016 | Visst, varför inte. | Sure, why not? |  | [#10753364](https://tatoeba.org/en/sentences/show/10753364) | Pineapple |
+| S26017 | Jag ber om ursäkt. | I apologize. | I apologise. | [#11583035](https://tatoeba.org/en/sentences/show/11583035) | Pineapple |
+| S26018 | Det är bara en ursäkt. | That's just an excuse. |  | [#651220](https://tatoeba.org/en/sentences/show/651220) | herrsilen |
+| S26019 | Jag vill inte störa Tom. | I don't want to bother Tom. |  | [#2243476](https://tatoeba.org/en/sentences/show/2243476) | Tximist |
+| S26020 | Vi är inte i fara nu. | We're in no danger now. |  | [#1602280](https://tatoeba.org/en/sentences/show/1602280) | viorayli |
+| S26021 | Jag ber om ursäkt för det. | I apologize for it. |  | [#2673982](https://tatoeba.org/en/sentences/show/2673982) | Balamax |
+| S26022 | Jag hör ingenting. | I can't hear anything. | I don't hear a thing.; I can't hear a thing. | [#2085583](https://tatoeba.org/en/sentences/show/2085583) | herrsilen |
+| S26023 | Jag sa ingenting. | I didn't say anything. |  | [#2097303](https://tatoeba.org/en/sentences/show/2097303) | herrsilen |
+| S26024 | Tom stör Mary. | Tom is disturbing Mary. |  | [#2171250](https://tatoeba.org/en/sentences/show/2171250) | martinmartin |
+| S26025 | Vi hör ingenting. | We don't hear a thing. |  | [#3711393](https://tatoeba.org/en/sentences/show/3711393) | herrsilen |
+| S26026 | Ingenting är gratis. | Nothing is free. |  | [#4075697](https://tatoeba.org/en/sentences/show/4075697) | malinef |
+| S26027 | Jag minns ingenting. | I can't remember anything. |  | [#4163891](https://tatoeba.org/en/sentences/show/4163891) | richke |
+| S26028 | Vi gör ingenting. | We aren't doing anything. |  | [#4442571](https://tatoeba.org/en/sentences/show/4442571) | richke |
+| S26029 | Jag gillar ingenting. | I don't like anything. |  | [#5384806](https://tatoeba.org/en/sentences/show/5384806) | JanErikJ |
+| S26030 | Vänligen stör inte. | Please don't disturb. |  | [#10022412](https://tatoeba.org/en/sentences/show/10022412) | morbrorper |
+
+## U82 At the Restaurant: Förrätt, varmrätt, efterrätt: the courses; en tallrik soppa; gaffel, kniv och sked; smaklig måltid! (enjoy your meal)
+
+30 sentences picked from 32 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: tallrik (2), gaffel (1), sked (2), kyckling (2), sallad (0), efterrätt (1), potatis (1), salt (0), peppar (0), smaklig (1), måltid (2), boka (0), pizza (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S82001 | Smaklig måltid. | Enjoy your meal. |  | [#5370230](https://tatoeba.org/en/sentences/show/5370230) | Pineapple |
+| S82002 | Vi äter soppa med en sked. | We eat soup with a spoon. |  | [#10097325](https://tatoeba.org/en/sentences/show/10097325) | mrkalling |
+| S82003 | Hon gillar soppa mer än pizza. | She likes soup more than pizza. |  | [#10705712](https://tatoeba.org/en/sentences/show/10705712) | Pineapple |
+| S82004 | Äter du ris? | Do you eat rice? |  | [#6389209](https://tatoeba.org/en/sentences/show/6389209) | SilasNordgren |
+| S82005 | Har han ris? | Does he have rice? |  | [#12025365](https://tatoeba.org/en/sentences/show/12025365) | Pineapple |
+| S82006 | Vill du ha soppa? | Do you want soup? | Do you want some soup? | [#8820227](https://tatoeba.org/en/sentences/show/8820227) | herrsilen |
+| S82007 | Får jag ta din tallrik? | Can I take your plate? |  | [#12347532](https://tatoeba.org/en/sentences/show/12347532) | SilasNordgren |
+| S82008 | Äter både Tom och Mary kött? | Do Tom and Mary both eat meat? | Do both Tom and Mary eat meat? | [#11852618](https://tatoeba.org/en/sentences/show/11852618) | Pineapple |
+| S82009 | Kyckling, tack. | Chicken, please. |  | [#2059352](https://tatoeba.org/en/sentences/show/2059352) | herrsilen |
+| S82010 | Kött, tack. | Meat, please. |  | [#11905603](https://tatoeba.org/en/sentences/show/11905603) | herrsilen |
+| S82011 | Jag äter ris. | I eat rice. | I'm eating rice.; I am eating rice. | [#7720261](https://tatoeba.org/en/sentences/show/7720261) | herrsilen |
+| S82012 | Du äter kött. | You eat meat. | You are eating meat. | [#10739821](https://tatoeba.org/en/sentences/show/10739821) | Pineapple |
+| S82013 | Smakar som kyckling. | Tastes like chicken. |  | [#11057272](https://tatoeba.org/en/sentences/show/11057272) | SilasNordgren |
+| S82014 | Jag behöver en kniv. | I need a knife. |  | [#901892](https://tatoeba.org/en/sentences/show/901892) | Tximist |
+| S82015 | Ge mig en sked. | Give me a spoon. |  | [#1974577](https://tatoeba.org/en/sentences/show/1974577) | herrsilen |
+| S82016 | Vi kan beställa pizza. | We can order a pizza. |  | [#4320171](https://tatoeba.org/en/sentences/show/4320171) | richke |
+| S82017 | Ge mig din kniv. | Give me your knife. |  | [#4340004](https://tatoeba.org/en/sentences/show/4340004) | richke |
+| S82018 | Din måltid är klar. | Your meal is ready. |  | [#9571744](https://tatoeba.org/en/sentences/show/9571744) | mrkalling |
+| S82019 | Jag behöver ingen tallrik. | I don't need a plate. |  | [#11188767](https://tatoeba.org/en/sentences/show/11188767) | Pineapple |
+| S82020 | Tom vill ha efterrätt. | Tom wants dessert. |  | [#11852645](https://tatoeba.org/en/sentences/show/11852645) | Pineapple |
+| S82021 | Han äter bara potatis. | He only eats potatoes. |  | [#12026685](https://tatoeba.org/en/sentences/show/12026685) | Pineapple |
+| S82022 | Tom håller i en kniv. | Tom is holding a knife. |  | [#2132766](https://tatoeba.org/en/sentences/show/2132766) | herrsilen |
+| S82023 | Jag tror att han behöver en gaffel. | I think he needs a fork. |  | [#10660778](https://tatoeba.org/en/sentences/show/10660778) | Pineapple |
+| S82024 | Vill någon annan ha mer soppa? | Would anyone like more soup? |  | [#13488722](https://tatoeba.org/en/sentences/show/13488722) | bolehole |
+| S82025 | De äter inte kött. | They don't eat meat. |  | [#2077351](https://tatoeba.org/en/sentences/show/2077351) | Balamax |
+| S82026 | Tom äter inte kött. | Tom doesn't eat meat. |  | [#4163689](https://tatoeba.org/en/sentences/show/4163689) | richke |
+| S82027 | Ingen här äter kött. | Nobody here eats meat. |  | [#4163766](https://tatoeba.org/en/sentences/show/4163766) | richke |
+| S82028 | Jag äter mycket kött. | I eat a lot of meat. |  | [#4317004](https://tatoeba.org/en/sentences/show/4317004) | richke |
+| S82029 | Jag vill ha ris. | I want rice. |  | [#11852279](https://tatoeba.org/en/sentences/show/11852279) | Pineapple |
+| S82030 | Vi har slut på ris. | We're out of rice. |  | [#3837912](https://tatoeba.org/en/sentences/show/3837912) | herrsilen |
+
+## U83 Asking the Way: Till höger, till vänster, rakt fram: directions; sväng vänster vid hörnet; på samma sida som banken; åt vilket håll? (which way?)
+
+30 sentences picked from 66 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: höger (2), vänster (1), rakt (1), hörnet (0), bro (1), håll (1), hållet (1), sida (2), meter (0), svänger (0), fortsätt (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S83001 | Sväng vänster. | Turn left. |  | [#5893658](https://tatoeba.org/en/sentences/show/5893658) | User73201 |
+| S83002 | Sväng höger. | Turn right. |  | [#5893660](https://tatoeba.org/en/sentences/show/5893660) | User73201 |
+| S83003 | Sväng höger, sa jag. | I said turn right. |  | [#4357669](https://tatoeba.org/en/sentences/show/4357669) | richke |
+| S83004 | Jag är på väg åt det hållet. | I'm headed that way. |  | [#4449654](https://tatoeba.org/en/sentences/show/4449654) | richke |
+| S83005 | Vad heter den här gatan? | What's this street called? | What's the name of this street?; What is the name of this street? | [#928608](https://tatoeba.org/en/sentences/show/928608) | Tximist |
+| S83006 | Älskar du mig inte längre? | Aren't you in love with me anymore? |  | [#5865416](https://tatoeba.org/en/sentences/show/5865416) | herrsilen |
+| S83007 | Vilken väg ska vi ta? | Which way should we go? |  | [#6741122](https://tatoeba.org/en/sentences/show/6741122) | SilasNordgren |
+| S83008 | Är jag på rätt väg? | Am I on the right road? |  | [#9828722](https://tatoeba.org/en/sentences/show/9828722) | morbrorper |
+| S83009 | Kan du visa mig vägen? | Can you show me the way? |  | [#10661338](https://tatoeba.org/en/sentences/show/10661338) | Pineapple |
+| S83010 | Fortsätt tala. | Keep talking. |  | [#5893700](https://tatoeba.org/en/sentences/show/5893700) | User73201 |
+| S83011 | Ur vägen! | Out of my way! |  | [#11810230](https://tatoeba.org/en/sentences/show/11810230) | Pineapple |
+| S83012 | Jag är längre. | I'm taller. | I am taller. | [#1990483](https://tatoeba.org/en/sentences/show/1990483) | Ribon |
+| S83013 | Du är i vägen. | You are in my way. |  | [#1960605](https://tatoeba.org/en/sentences/show/1960605) | herrsilen |
+| S83014 | Fortsätt med ditt arbete. | Go on with your work. |  | [#4445620](https://tatoeba.org/en/sentences/show/4445620) | richke |
+| S83015 | Han dricker inte längre. | He doesn't drink anymore. |  | [#5893476](https://tatoeba.org/en/sentences/show/5893476) | herrsilen |
+| S83016 | Vi bygger en bro. | We're building a bridge. | We are building a bridge. | [#10753454](https://tatoeba.org/en/sentences/show/10753454) | Pineapple |
+| S83017 | Han är vid hennes sida. | He's at her side. |  | [#892966](https://tatoeba.org/en/sentences/show/892966) | Tximist |
+| S83018 | Jag är på din sida. | I'm on your side. |  | [#4326691](https://tatoeba.org/en/sentences/show/4326691) | herrsilen |
+| S83019 | Jag kan fortfarande gå rakt. | I can still walk straight. |  | [#11057893](https://tatoeba.org/en/sentences/show/11057893) | SilasNordgren |
+| S83020 | Hans hus ligger precis över gatan. | His house is just over the road. |  | [#2197613](https://tatoeba.org/en/sentences/show/2197613) | Tximist |
+| S83021 | På håll ser den fin ut. | From a distance it looks pretty. |  | [#3121243](https://tatoeba.org/en/sentences/show/3121243) | herrsilen |
+| S83022 | Tom bor tre hus ner på gatan. | Tom lives three houses down. |  | [#9793720](https://tatoeba.org/en/sentences/show/9793720) | bingobing5000 |
+| S83023 | Tom är på väg. | Tom is on his way. |  | [#2028878](https://tatoeba.org/en/sentences/show/2028878) | herrsilen |
+| S83024 | Ur vägen för mig. | Keep out of my way. |  | [#2046233](https://tatoeba.org/en/sentences/show/2046233) | herrsilen |
+| S83025 | Gå runt den vägen. | Go around that way. |  | [#4340406](https://tatoeba.org/en/sentences/show/4340406) | richke |
+| S83026 | Jag vet en väg. | I know a way. |  | [#4350410](https://tatoeba.org/en/sentences/show/4350410) | richke |
+| S83027 | Vi är på väg. | We're on the way. |  | [#8789803](https://tatoeba.org/en/sentences/show/8789803) | morbrorper |
+| S83028 | Gå inte över vägen. | Don't cross the road. |  | [#10686354](https://tatoeba.org/en/sentences/show/10686354) | Pineapple |
+| S83029 | De bor längre ner. | They live downstairs. |  | [#11566775](https://tatoeba.org/en/sentences/show/11566775) | morbrorper |
+| S83030 | Få dem ur vägen. | Get them out of the way. |  | [#14064510](https://tatoeba.org/en/sentences/show/14064510) | morbrorper |
+
+## U92 Describing Words: Hög, låg: the -t form after ett (ett högt hus) and -a in the plural (höga hus); vissa (some), flest (most)
+
+9 sentences picked from 9 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: hög (1), höga (1), låg (0), vissa (1), gemensam (1), allmän (0), särskild (0), enskild (0), personlig (0), övriga (0), liknande (2), riktig (1), social (0), mänsklig (1), offentlig (0), internationell (0), nationell (0), europeisk (0), amerikansk (0), ekonomisk (0), politisk (0), kristen (1), flest (0), varenda (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S92001 | Är Tom kristen? | Is Tom a Christian? |  | [#4360649](https://tatoeba.org/en/sentences/show/4360649) | richke |
+| S92002 | Hur hög är den? | How high is it? |  | [#10285600](https://tatoeba.org/en/sentences/show/10285600) | morbrorper |
+| S92003 | Är du en riktig läkare? | Are you a real doctor? |  | [#4194177](https://tatoeba.org/en/sentences/show/4194177) | richke |
+| S92004 | Jag är mänsklig. | I'm a human. |  | [#1990509](https://tatoeba.org/en/sentences/show/1990509) | herrsilen |
+| S92005 | Det är liknande. | It's similar. | It is similar. | [#2619841](https://tatoeba.org/en/sentences/show/2619841) | herrsilen |
+| S92006 | Jag har vissa krav. | I have certain standards. |  | [#11913372](https://tatoeba.org/en/sentences/show/11913372) | herrsilen |
+| S92007 | De har en gemensam hobby. | They have a common hobby. |  | [#891918](https://tatoeba.org/en/sentences/show/891918) | Tximist |
+| S92008 | Vi har mycket höga krav. | We have very high standards. |  | [#11913384](https://tatoeba.org/en/sentences/show/11913384) | herrsilen |
+| S92009 | Jag känner till ett liknande fall. | I know of one similar case. |  | [#9209601](https://tatoeba.org/en/sentences/show/9209601) | morbrorper |
+
+## U27 I'm Lost: Jag är vilse (I am lost); kan du visa mig på kartan?; hit (to here), dit (to there): kom hit!
+
+30 sentences picked from 73 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: vilse (2), karta (1), kartan (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S27001 | Är du vilse? | Are you lost? |  | [#1990596](https://tatoeba.org/en/sentences/show/1990596) | Ribon |
+| S27002 | Kommer du hit ofta? | Do you come here often? |  | [#1992175](https://tatoeba.org/en/sentences/show/1992175) | Siljan |
+| S27003 | Borde vi hjälpa dig? | Should we help you? |  | [#12347497](https://tatoeba.org/en/sentences/show/12347497) | SilasNordgren |
+| S27004 | Borde inte du gå hem? | Shouldn't you go home? |  | [#2111053](https://tatoeba.org/en/sentences/show/2111053) | herrsilen |
+| S27005 | Borde vi berätta för Tom? | Should we tell Tom? |  | [#3744439](https://tatoeba.org/en/sentences/show/3744439) | herrsilen |
+| S27006 | Vem ska du dit med? | Who are you going with? |  | [#3841124](https://tatoeba.org/en/sentences/show/3841124) | herrsilen |
+| S27007 | Ingen vill dit. | No one wants to go there. |  | [#2194923](https://tatoeba.org/en/sentences/show/2194923) | Tximist |
+| S27008 | Jag har kartan. | I have the map. |  | [#4348063](https://tatoeba.org/en/sentences/show/4348063) | richke |
+| S27009 | Gå dit nu. | Go there now. |  | [#4449499](https://tatoeba.org/en/sentences/show/4449499) | richke |
+| S27010 | Ge hit den. | Hand it to me. |  | [#8758047](https://tatoeba.org/en/sentences/show/8758047) | morbrorper |
+| S27011 | Jag kommer hit varje dag. | I come here every day. |  | [#2097295](https://tatoeba.org/en/sentences/show/2097295) | herrsilen |
+| S27012 | Jag vill köpa en karta. | I want to buy a map. |  | [#10767843](https://tatoeba.org/en/sentences/show/10767843) | Pineapple |
+| S27013 | Jag tror att vi är vilse. | I think we're lost. |  | [#3744405](https://tatoeba.org/en/sentences/show/3744405) | herrsilen |
+| S27014 | Borde vi inte gå nu? | Shouldn't we go now? |  | [#11269222](https://tatoeba.org/en/sentences/show/11269222) | Pineapple |
+| S27015 | Borde jag vänta på Tom här? | Should I wait for Tom here? |  | [#4350249](https://tatoeba.org/en/sentences/show/4350249) | herrsilen |
+| S27016 | Du borde sova. | You should sleep. |  | [#1960607](https://tatoeba.org/en/sentences/show/1960607) | herrsilen |
+| S27017 | Du borde gå. | You should go. |  | [#1991666](https://tatoeba.org/en/sentences/show/1991666) | Ribon |
+| S27018 | Jag borde gå. | I ought to go. |  | [#8952338](https://tatoeba.org/en/sentences/show/8952338) | morbrorper |
+| S27019 | Tom borde vara här. | Tom should be here. | Tom is supposed to be here. | [#2048989](https://tatoeba.org/en/sentences/show/2048989) | herrsilen |
+| S27020 | Vi borde ringa Tom. | We should call Tom. |  | [#2049011](https://tatoeba.org/en/sentences/show/2049011) | herrsilen |
+| S27021 | Ingen får gå dit. | No one is allowed to go there. |  | [#2242902](https://tatoeba.org/en/sentences/show/2242902) | Tximist |
+| S27022 | Jag kör dig dit. | I'll drive you there. |  | [#3840659](https://tatoeba.org/en/sentences/show/3840659) | herrsilen |
+| S27023 | Du borde hjälpa henne. | You should help her. | You ought to help her. | [#4171770](https://tatoeba.org/en/sentences/show/4171770) | richke |
+| S27024 | Gå tillbaka upp dit. | Get back up there. |  | [#4338797](https://tatoeba.org/en/sentences/show/4338797) | richke |
+| S27025 | Gå tillbaka in dit. | Get back in there. |  | [#4338799](https://tatoeba.org/en/sentences/show/4338799) | richke |
+| S27026 | Jag borde faktiskt gå. | I really should go. |  | [#4357586](https://tatoeba.org/en/sentences/show/4357586) | richke |
+| S27027 | Jag borde vara där. | I should be there. |  | [#4357824](https://tatoeba.org/en/sentences/show/4357824) | richke |
+| S27028 | Jag borde hjälpa Tom. | I should help Tom. |  | [#4363008](https://tatoeba.org/en/sentences/show/4363008) | richke |
+| S27029 | Jag borde gå nu. | I ought to go now. |  | [#4445642](https://tatoeba.org/en/sentences/show/4445642) | richke |
+| S27030 | Ingen går in dit. | Nobody goes in there. |  | [#4445910](https://tatoeba.org/en/sentences/show/4445910) | richke |
+
+## U84 Getting Around: Med buss, med tunnelbanan, till fots: how you go; jag tar spårvagnen; byta (change): du byter vid nästa hållplats; stiga av (get off)
+
+24 sentences picked from 24 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: spårvagn (0), tunnelbanan (1), byter (0), byta (1), till fots (2), flygplats (0), trafik (0), kö (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S84001 | Går vi till fots? | Are we going on foot? |  | [#10753452](https://tatoeba.org/en/sentences/show/10753452) | Pineapple |
+| S84002 | Får jag parkera här? | Can I park here? |  | [#4320133](https://tatoeba.org/en/sentences/show/4320133) | richke |
+| S84003 | Vilken är nästa hållplats? | What is the next station? |  | [#8436534](https://tatoeba.org/en/sentences/show/8436534) | morbrorper |
+| S84004 | Hur länge tar det till fots? | How long does it take on foot? |  | [#1402058](https://tatoeba.org/en/sentences/show/1402058) | bovoeo |
+| S84005 | Får jag se ditt körkort? | May I see your license? | Can I see your driving license?; Can I see your driver's license?; Could I see your driver's license? | [#8850911](https://tatoeba.org/en/sentences/show/8850911) | morbrorper |
+| S84006 | Stannar tunnelbanan vid nästa station? | Does the tube stop at the next station? |  | [#11061708](https://tatoeba.org/en/sentences/show/11061708) | SilasNordgren |
+| S84007 | Han stiger upp tidigt. | He's getting up early. |  | [#2242954](https://tatoeba.org/en/sentences/show/2242954) | Tximist |
+| S84008 | Han kör utan körkort. | He drives without a licence. |  | [#2321366](https://tatoeba.org/en/sentences/show/2321366) | Tximist |
+| S84009 | Jag behöver en taxi! | I need a taxi! |  | [#3933461](https://tatoeba.org/en/sentences/show/3933461) | Balamax |
+| S84010 | Du kan parkera här. | You can park here. |  | [#4335913](https://tatoeba.org/en/sentences/show/4335913) | richke |
+| S84011 | Du får parkera här. | You may park here. |  | [#4335916](https://tatoeba.org/en/sentences/show/4335916) | richke |
+| S84012 | Hon stiger upp tidigt. | She gets up early. |  | [#4406560](https://tatoeba.org/en/sentences/show/4406560) | richke |
+| S84013 | Här är mitt körkort. | Here's my drivers license. |  | [#5799681](https://tatoeba.org/en/sentences/show/5799681) | suedenjin |
+| S84014 | Tom behöver en taxi. | Tom needs a taxi. |  | [#10597343](https://tatoeba.org/en/sentences/show/10597343) | Pineapple |
+| S84015 | Det finns en hållplats här. | There's a bus stop here. |  | [#880586](https://tatoeba.org/en/sentences/show/880586) | herrsilen |
+| S84016 | Jag tar en taxi hem. | I'll take a cab home. |  | [#3838274](https://tatoeba.org/en/sentences/show/3838274) | herrsilen |
+| S84017 | Det här är din hållplats. | This is your stop. |  | [#4447213](https://tatoeba.org/en/sentences/show/4447213) | richke |
+| S84018 | Han stiger inte upp tidigt. | He does not get up early. |  | [#9815133](https://tatoeba.org/en/sentences/show/9815133) | morbrorper |
+| S84019 | Hon ska byta tåg i Stockholm. | She will change trains in Stockholm. |  | [#7046281](https://tatoeba.org/en/sentences/show/7046281) | herrsilen |
+| S84020 | En taxi står och väntar. | A cab is waiting. |  | [#4316992](https://tatoeba.org/en/sentences/show/4316992) | richke |
+| S84021 | Jag ringer en taxi åt dig. | I'll call you a cab. |  | [#2051940](https://tatoeba.org/en/sentences/show/2051940) | herrsilen |
+| S84022 | Jag behöver parkera min bil här. | I need to park my car here. |  | [#4350305](https://tatoeba.org/en/sentences/show/4350305) | herrsilen |
+| S84023 | Du har rätt. Jag tar en taxi. | You are right. I will go by taxi. |  | [#893115](https://tatoeba.org/en/sentences/show/893115) | Tximist |
+| S84024 | Jag ringer efter en taxi åt dig. | I'll call you a cab. |  | [#2051939](https://tatoeba.org/en/sentences/show/2051939) | herrsilen |
+
+## U85 My Family: Farmor (father's mother), mormor (mother's mother): the word says whose side; min son, min dotter; de är gifta; syskon (brothers and sisters)
+
+39 sentences picked from 103 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: döttrar (2), farmor (0), mormor (1), farbror (2), morbror (2), faster (0), moster (0), kusin (0), barnbarn (0), egen (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S85001 | Din son är ihop med min dotter. | Your son is dating my daughter. |  | [#3661591](https://tatoeba.org/en/sentences/show/3661591) | KajsaKavat |
+| S85002 | Jag har två bröder och två systrar. | I have two brothers and two sisters. |  | [#9087032](https://tatoeba.org/en/sentences/show/9087032) | morbrorper |
+| S85003 | Jobbar din fru? | Does your wife work? |  | [#4328447](https://tatoeba.org/en/sentences/show/4328447) | richke |
+| S85004 | Arbetar din fru? | Does your wife work? |  | [#11068735](https://tatoeba.org/en/sentences/show/11068735) | SilasNordgren |
+| S85005 | Är ni släkt? | Are you related? |  | [#11938550](https://tatoeba.org/en/sentences/show/11938550) | herrsilen |
+| S85006 | Är de släkt? | Are they related? |  | [#11938552](https://tatoeba.org/en/sentences/show/11938552) | herrsilen |
+| S85007 | Vad gör din son? | What does your son do? |  | [#1609181](https://tatoeba.org/en/sentences/show/1609181) | viorayli |
+| S85008 | Är du fortfarande gift? | Are you still married? |  | [#2090974](https://tatoeba.org/en/sentences/show/2090974) | herrsilen |
+| S85009 | Var är min son? | Where's my son? | Where is my son? | [#2093722](https://tatoeba.org/en/sentences/show/2093722) | Balamax |
+| S85010 | Var bor din morbror? | Where does your uncle live? |  | [#4075736](https://tatoeba.org/en/sentences/show/4075736) | malinef |
+| S85011 | Var bor din farbror? | Where does your uncle live? |  | [#4075739](https://tatoeba.org/en/sentences/show/4075739) | malinef |
+| S85012 | Är ni två släkt? | Are you two related? |  | [#4317372](https://tatoeba.org/en/sentences/show/4317372) | richke |
+| S85013 | Är inte ni systrar? | Aren't you sisters? |  | [#10663132](https://tatoeba.org/en/sentences/show/10663132) | Pineapple |
+| S85014 | Har du en dotter? | Do you have a daughter? |  | [#11852619](https://tatoeba.org/en/sentences/show/11852619) | Pineapple |
+| S85015 | Hur mår din fru? | How is the wife? |  | [#12108962](https://tatoeba.org/en/sentences/show/12108962) | johanrhg |
+| S85016 | Är det din egen idé? | Is that your own idea? |  | [#1125630](https://tatoeba.org/en/sentences/show/1125630) | HannesP |
+| S85017 | Hur gammal är din farfar? | How old is your grandfather? |  | [#2086342](https://tatoeba.org/en/sentences/show/2086342) | freddy1 |
+| S85018 | Hur gammal är din farbror? | How old is your uncle? |  | [#2157587](https://tatoeba.org/en/sentences/show/2157587) | freddy1 |
+| S85019 | Hur gammal är din morbror? | How old is your uncle? |  | [#2158346](https://tatoeba.org/en/sentences/show/2158346) | herrsilen |
+| S85020 | Hur många syskon har du? | How many brothers and sisters do you have? |  | [#4170158](https://tatoeba.org/en/sentences/show/4170158) | richke |
+| S85021 | Hur många syskon har Tom? | How many brothers and sisters does Tom have? |  | [#4170167](https://tatoeba.org/en/sentences/show/4170167) | richke |
+| S85022 | Hur många systrar har du? | How many sisters do you have? |  | [#10673273](https://tatoeba.org/en/sentences/show/10673273) | Pineapple |
+| S85023 | Hur många syskon har hon? | How many siblings does she have? |  | [#11562952](https://tatoeba.org/en/sentences/show/11562952) | Pineapple |
+| S85024 | Är hon din enda dotter? | Is she your only daughter? |  | [#12025386](https://tatoeba.org/en/sentences/show/12025386) | Pineapple |
+| S85025 | Hur är ditt liv som gift? | How's your married life? |  | [#2193509](https://tatoeba.org/en/sentences/show/2193509) | herrsilen |
+| S85026 | Jag har bröder. | I have brothers. |  | [#1090318](https://tatoeba.org/en/sentences/show/1090318) | megamanenm |
+| S85027 | Tom är gift. | Tom's married. | Tom is married. | [#1999912](https://tatoeba.org/en/sentences/show/1999912) | herrsilen |
+| S85028 | Jag har två bröder. | I have two brothers. | I've got two brothers. | [#498463](https://tatoeba.org/en/sentences/show/498463) | adjusting |
+| S85029 | Morfar pratar väldigt långsamt. | Grandfather speaks very slowly. | My grandfather speaks very slowly. | [#927698](https://tatoeba.org/en/sentences/show/927698) | Tximist |
+| S85030 | Farfar pratar väldigt långsamt. | Grandfather speaks very slowly. | My grandfather speaks very slowly. | [#927699](https://tatoeba.org/en/sentences/show/927699) | Tximist |
+| S85031 | Jag har två döttrar. | I have two daughters. |  | [#1433338](https://tatoeba.org/en/sentences/show/1433338) | arahlen |
+| S85032 | Vi är hans söner. | We are his sons. |  | [#1783040](https://tatoeba.org/en/sentences/show/1783040) | Amastan |
+| S85033 | Jag har två söner. | I have two sons. |  | [#3085117](https://tatoeba.org/en/sentences/show/3085117) | jeedrek |
+| S85034 | Han har fyra döttrar. | He has four daughters. |  | [#3126961](https://tatoeba.org/en/sentences/show/3126961) | herrsilen |
+| S85035 | Hon är min mormor. | She's my grandma. | She is my grandmother. | [#4404931](https://tatoeba.org/en/sentences/show/4404931) | herrsilen |
+| S85036 | Hon har sju söner. | She has seven sons. |  | [#8393502](https://tatoeba.org/en/sentences/show/8393502) | morbrorper |
+| S85037 | Min morfar är sjuk. | My grandpa is sick. |  | [#10667939](https://tatoeba.org/en/sentences/show/10667939) | Pineapple |
+| S85038 | Min farfar är sjuk. | My grandpa is sick. |  | [#10667940](https://tatoeba.org/en/sentences/show/10667940) | Pineapple |
+| S85039 | Jag gillar min morfar. | I like my grandfather. |  | [#10745842](https://tatoeba.org/en/sentences/show/10745842) | Pineapple |
+
+## U93 Society + News: Ett samhälle, en stat, ett parti: the words of the news; vi röstar i valet; jag är medlem i …
+
+30 sentences picked from 43 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: samhälle (0), stat (0), politik (0), politiker (1), parti (0), röstar (2), demokrati (1), debatt (0), diskussion (2), diskuterar (1), ekonomi (0), organisation (0), medlem (1), samarbete (0), utbildning (1), kultur (0), artikel (0), rapport (0), länk (0), makt (1), rättighet (1), utveckling (0), folk (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S93001 | Är Tom medlem? | Is Tom a member? |  | [#4441868](https://tatoeba.org/en/sentences/show/4441868) | richke |
+| S93002 | Vad är demokrati? | What's democracy? | What is democracy? | [#10711981](https://tatoeba.org/en/sentences/show/10711981) | Pineapple |
+| S93003 | Vem får rösta? | Who's allowed to vote? | Who is allowed to vote? | [#11231055](https://tatoeba.org/en/sentences/show/11231055) | Pineapple |
+| S93004 | Har vi något val? | Do we have a choice? |  | [#2049565](https://tatoeba.org/en/sentences/show/2049565) | herrsilen |
+| S93005 | Vad är ditt val? | What is your choice? |  | [#4446784](https://tatoeba.org/en/sentences/show/4446784) | richke |
+| S93006 | Vad har vi för val? | What choice do we have? |  | [#2165887](https://tatoeba.org/en/sentences/show/2165887) | herrsilen |
+| S93007 | Kan folk köpa de här? | Can people buy these? |  | [#4320659](https://tatoeba.org/en/sentences/show/4320659) | richke |
+| S93008 | Vem skulle du rösta på? | Who would you vote for? |  | [#4423975](https://tatoeba.org/en/sentences/show/4423975) | richke |
+| S93009 | Ingen kommentar. | No comment. |  | [#3009953](https://tatoeba.org/en/sentences/show/3009953) | herrsilen |
+| S93010 | Vi röstar. | We cast our ballots. |  | [#11907125](https://tatoeba.org/en/sentences/show/11907125) | herrsilen |
+| S93011 | Kunskap är makt. | Knowledge is power. |  | [#892739](https://tatoeba.org/en/sentences/show/892739) | Tximist |
+| S93012 | Vi vill rösta. | We want to vote. |  | [#2166536](https://tatoeba.org/en/sentences/show/2166536) | Balamax |
+| S93013 | Vi diskuterar det. | We're discussing that. |  | [#3874318](https://tatoeba.org/en/sentences/show/3874318) | herrsilen |
+| S93014 | Jag behöver internet. | I need Internet. |  | [#4338113](https://tatoeba.org/en/sentences/show/4338113) | richke |
+| S93015 | Mary röstar inte. | Mary doesn't vote. |  | [#10749478](https://tatoeba.org/en/sentences/show/10749478) | Pineapple |
+| S93016 | Jag är politiker. | I'm a politician. |  | [#11188768](https://tatoeba.org/en/sentences/show/11188768) | Pineapple |
+| S93017 | Utbildning är viktigt. | Education is important. |  | [#11918439](https://tatoeba.org/en/sentences/show/11918439) | herrsilen |
+| S93018 | Det är din rättighet. | It is your right. |  | [#1999676](https://tatoeba.org/en/sentences/show/1999676) | herrsilen |
+| S93019 | Jag har ingen kommentar. | I have no comment. |  | [#2280750](https://tatoeba.org/en/sentences/show/2280750) | Tximist |
+| S93020 | Jag har en kommentar. | I have a comment. |  | [#4347466](https://tatoeba.org/en/sentences/show/4347466) | richke |
+| S93021 | Det är under diskussion. | That's under discussion. |  | [#11916088](https://tatoeba.org/en/sentences/show/11916088) | herrsilen |
+| S93022 | Det finns rum för diskussion. | There's room for discussion. |  | [#4194161](https://tatoeba.org/en/sentences/show/4194161) | richke |
+| S93023 | Min mormor har inte internet. | My grandma doesn't have the internet. |  | [#10660640](https://tatoeba.org/en/sentences/show/10660640) | Pineapple |
+| S93024 | Min farmor har inte internet. | My grandma doesn't have the internet. |  | [#10660655](https://tatoeba.org/en/sentences/show/10660655) | Pineapple |
+| S93025 | Gör ditt val. | Make your choice. |  | [#1990284](https://tatoeba.org/en/sentences/show/1990284) | Ribon |
+| S93026 | Jag vill rösta. | I want to vote. |  | [#4367358](https://tatoeba.org/en/sentences/show/4367358) | richke |
+| S93027 | Rösta på oss. | Vote for us. |  | [#10019546](https://tatoeba.org/en/sentences/show/10019546) | morbrorper |
+| S93028 | Glöm inte att rösta. | Don't forget to vote. |  | [#3747803](https://tatoeba.org/en/sentences/show/3747803) | herrsilen |
+| S93029 | Ge mig ett val. | Give me a choice. |  | [#4339959](https://tatoeba.org/en/sentences/show/4339959) | richke |
+| S93030 | Du har inget val. | You don't have a choice. |  | [#4378317](https://tatoeba.org/en/sentences/show/4378317) | richke |
+
+## U86 At Home: Min lägenhet har tre rum; vardagsrummet, sovrummet; på andra våningen; hyra (to rent): jag hyr en lägenhet
+
+17 sentences picked from 17 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: vardagsrum (0), fönster (0), vägg (0), stol (2), trappa (1), hyr (0), golv (1), tak (1), soffa (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S86001 | Mitt tak är ditt golv. | My ceiling is your floor. |  | [#10663218](https://tatoeba.org/en/sentences/show/10663218) | Pineapple |
+| S86002 | Vilken våning är jag på? | What floor am I on? |  | [#4338639](https://tatoeba.org/en/sentences/show/4338639) | richke |
+| S86003 | Vilken våning bor du på? | Which floor do you live on? |  | [#7870542](https://tatoeba.org/en/sentences/show/7870542) | mr_vile |
+| S86004 | Är du i din lägenhet? | Are you in your apartment? |  | [#11907228](https://tatoeba.org/en/sentences/show/11907228) | herrsilen |
+| S86005 | Jag bor i lägenhet. | I live in an apartment. |  | [#2328174](https://tatoeba.org/en/sentences/show/2328174) | Tximist |
+| S86006 | Jag har din nyckel. | I have your key. |  | [#4348082](https://tatoeba.org/en/sentences/show/4348082) | richke |
+| S86007 | Hon behöver en nyckel. | She needs a key. |  | [#10734530](https://tatoeba.org/en/sentences/show/10734530) | Pineapple |
+| S86008 | Mitt sovrum är mörkt. | My bedroom is dark. |  | [#11916109](https://tatoeba.org/en/sentences/show/11916109) | herrsilen |
+| S86009 | Jag letar efter min nyckel. | I'm looking for my key. |  | [#891565](https://tatoeba.org/en/sentences/show/891565) | Tximist |
+| S86010 | Hon bor i en lägenhet. | She lives in an apartment. |  | [#1959967](https://tatoeba.org/en/sentences/show/1959967) | herrsilen |
+| S86011 | Det är en våning upp. | It's up one floor. |  | [#3713880](https://tatoeba.org/en/sentences/show/3713880) | herrsilen |
+| S86012 | De bor en trappa ner. | They live downstairs. |  | [#11566773](https://tatoeba.org/en/sentences/show/11566773) | morbrorper |
+| S86013 | Jag har mitt eget sovrum. | I have my own bedroom. |  | [#11916113](https://tatoeba.org/en/sentences/show/11916113) | herrsilen |
+| S86014 | Jag har mitt eget sovrum hemma. | I have my own bedroom at home. |  | [#1969013](https://tatoeba.org/en/sentences/show/1969013) | herrsilen |
+| S86015 | Jag vill ha en stor stol. | I want to have a big chair. |  | [#9086110](https://tatoeba.org/en/sentences/show/9086110) | herrsilen |
+| S86016 | En katt sover på en stol. | A cat sleeps on a chair. | A cat is sleeping on a chair. | [#10691751](https://tatoeba.org/en/sentences/show/10691751) | Pineapple |
+| S86017 | Jag bor i en lägenhet. | I live in an apartment. |  | [#2328172](https://tatoeba.org/en/sentences/show/2328172) | Tximist |
+
+## U87 At Work: Jag är sjuksköterska: no en before a job; jag jobbar på ett kontor; min chef, min kollega; ett företag (a company)
+
+27 sentences picked from 27 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: kontor (2), kollega (0), företag (0), sjuksköterska (1), kock (2), lön (2), kund (1), uppgift (0), projekt (0), grupp (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S87001 | Är inte du kock? | Aren't you a chef? |  | [#3713864](https://tatoeba.org/en/sentences/show/3713864) | herrsilen |
+| S87002 | Vad är hennes yrke? | What is her profession? |  | [#8856916](https://tatoeba.org/en/sentences/show/8856916) | morbrorper |
+| S87003 | Vad är ditt yrke? | What's your profession? | What is your profession? | [#8856918](https://tatoeba.org/en/sentences/show/8856918) | morbrorper |
+| S87004 | Är du i tjänst? | Are you on duty? |  | [#11907232](https://tatoeba.org/en/sentences/show/11907232) | herrsilen |
+| S87005 | Vad har du för yrke? | What's your profession? |  | [#8856948](https://tatoeba.org/en/sentences/show/8856948) | morbrorper |
+| S87006 | Är du i tjänst på måndag? | Are you on duty Monday? |  | [#11907233](https://tatoeba.org/en/sentences/show/11907233) | herrsilen |
+| S87007 | Hur stänger du av din dator? | How do you switch your computer off? |  | [#12097098](https://tatoeba.org/en/sentences/show/12097098) | johanrhg |
+| S87008 | Vilken grupp vill du vara med i? | Which group do you want to join? |  | [#11908626](https://tatoeba.org/en/sentences/show/11908626) | herrsilen |
+| S87009 | Jag använder dator. | I use computers. |  | [#1965097](https://tatoeba.org/en/sentences/show/1965097) | herrsilen |
+| S87010 | Hon är sjuksköterska. | She is a nurse. |  | [#1996270](https://tatoeba.org/en/sentences/show/1996270) | Ribon |
+| S87011 | Tom är chef. | Tom is the boss. |  | [#2014185](https://tatoeba.org/en/sentences/show/2014185) | herrsilen |
+| S87012 | Jag använder en dator. | I'm using a computer. |  | [#1965098](https://tatoeba.org/en/sentences/show/1965098) | herrsilen |
+| S87013 | Tom behöver en tjänst. | Tom needs a favor. |  | [#2028890](https://tatoeba.org/en/sentences/show/2028890) | herrsilen |
+| S87014 | Jag är på mitt kontor. | I'll be in my office. |  | [#2085898](https://tatoeba.org/en/sentences/show/2085898) | herrsilen |
+| S87015 | Lika lön för lika arbete. | Equal pay for equal work. |  | [#3720801](https://tatoeba.org/en/sentences/show/3720801) | herrsilen |
+| S87016 | Jag är din chef nu. | I'm your boss now. |  | [#3784435](https://tatoeba.org/en/sentences/show/3784435) | herrsilen |
+| S87017 | De är på mitt kontor. | They're in my office. |  | [#3837656](https://tatoeba.org/en/sentences/show/3837656) | herrsilen |
+| S87018 | Min chef är väldigt trevlig. | My boss is very nice. |  | [#4317420](https://tatoeba.org/en/sentences/show/4317420) | richke |
+| S87019 | Jag är bara en kund. | I'm only a customer. | I am only a customer. | [#4842969](https://tatoeba.org/en/sentences/show/4842969) | Nour |
+| S87020 | Tom är inte en bra kock. | Tom isn't a good cook. |  | [#2042046](https://tatoeba.org/en/sentences/show/2042046) | herrsilen |
+| S87021 | Tom har högre lön än Mary. | Tom gets paid more than Mary. |  | [#12100405](https://tatoeba.org/en/sentences/show/12100405) | johanrhg |
+| S87022 | Detta är min dator. | This is my computer. |  | [#2346886](https://tatoeba.org/en/sentences/show/2346886) | everylanguage |
+| S87023 | Han har ingen dator. | He doesn't have a computer. |  | [#3684663](https://tatoeba.org/en/sentences/show/3684663) | loghaD |
+| S87024 | Jag behöver en dator. | I need a computer. |  | [#4353869](https://tatoeba.org/en/sentences/show/4353869) | richke |
+| S87025 | Jag behöver en stor tjänst. | I need a huge favor. |  | [#4446136](https://tatoeba.org/en/sentences/show/4446136) | richke |
+| S87026 | Det är en gammal dator. | It's an old computer. |  | [#10712342](https://tatoeba.org/en/sentences/show/10712342) | Pineapple |
+| S87027 | Han är i tjänst i natt. | He is on night duty tonight. |  | [#490861](https://tatoeba.org/en/sentences/show/490861) | morbrorper |
+
+## U94 Thinking + Saying: Jag anser att …; det gäller alla; på grund av, trots, dock: linking words; du bör (you should)
+
+12 sentences picked from 12 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: anser (2), inser (1), finner (1), nämner (0), beskriver (0), kallar (0), gäller (2), bör (2), dock (1), däremot (0), liksom (0), nämligen (0), trots (0), så att (0), genom att (0), på grund av (0), i alla fall (0), framför allt (0), bland annat (0), dels (0), såväl (0), vidare (2), igenom (0), inom (0), inför (0), per (0), dess (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S94001 | Vad anser de? | What do they think? |  | [#4446714](https://tatoeba.org/en/sentences/show/4446714) | richke |
+| S94002 | Vad anser Tom? | What does Tom think? |  | [#4446735](https://tatoeba.org/en/sentences/show/4446735) | richke |
+| S94003 | Vad bör jag göra nu? | What should I do now? |  | [#4464056](https://tatoeba.org/en/sentences/show/4464056) | herrsilen |
+| S94004 | Kör vidare. | Drive on. |  | [#1996602](https://tatoeba.org/en/sentences/show/1996602) | herrsilen |
+| S94005 | Jag inser det nu. | I can see that now. |  | [#4320183](https://tatoeba.org/en/sentences/show/4320183) | richke |
+| S94006 | Jag måste gå vidare. | I need to move on. |  | [#4446027](https://tatoeba.org/en/sentences/show/4446027) | richke |
+| S94007 | Det gäller honom också. | That applies to him too. |  | [#4452805](https://tatoeba.org/en/sentences/show/4452805) | richke |
+| S94008 | Det gäller även honom. | That applies to him too. |  | [#4452806](https://tatoeba.org/en/sentences/show/4452806) | richke |
+| S94009 | Jag är tillbaka till dess. | I'll be back by then. |  | [#3840656](https://tatoeba.org/en/sentences/show/3840656) | herrsilen |
+| S94010 | Jag hoppas att vi finner Tom. | I hope we find Tom. |  | [#2042402](https://tatoeba.org/en/sentences/show/2042402) | herrsilen |
+| S94011 | Det är dock inte så viktigt. | However, it is not that important. |  | [#5883490](https://tatoeba.org/en/sentences/show/5883490) | herrsilen |
+| S94012 | Hon sa att hon bör göra det. | She said that she ought to do that. |  | [#9084240](https://tatoeba.org/en/sentences/show/9084240) | Gorzash |
+
+## U28 Explaining a Problem: Den fungerar inte. Den är trasig. Det är något fel på …; jag har ont i … (it hurts); ring en ambulans!
+
+30 sentences picked from 37 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: trasig (2), sönder (1), olycka (0), ambulans (1), brand (0), stulen (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S28001 | Är du skadad? | Are you hurt? |  | [#10702227](https://tatoeba.org/en/sentences/show/10702227) | Pineapple |
+| S28002 | Var gör det ont? | Where does it hurt? |  | [#1990292](https://tatoeba.org/en/sentences/show/1990292) | Ribon |
+| S28003 | Är du skadad, Tom? | Are you hurt, Tom? |  | [#4317284](https://tatoeba.org/en/sentences/show/4317284) | richke |
+| S28004 | Är du svårt skadad? | Are you badly hurt? |  | [#4317325](https://tatoeba.org/en/sentences/show/4317325) | richke |
+| S28005 | Hur ont gör det? | How bad is the pain? |  | [#4317447](https://tatoeba.org/en/sentences/show/4317447) | richke |
+| S28006 | Gör det väldigt ont? | Does it hurt much? |  | [#4328384](https://tatoeba.org/en/sentences/show/4328384) | richke |
+| S28007 | Tom är farlig. | Tom's dangerous. |  | [#2114767](https://tatoeba.org/en/sentences/show/2114767) | herrsilen |
+| S28008 | Du är farlig. | You're dangerous. |  | [#6593035](https://tatoeba.org/en/sentences/show/6593035) | loghaD |
+| S28009 | Världen är farlig. | The world is dangerous. |  | [#9828535](https://tatoeba.org/en/sentences/show/9828535) | morbrorper |
+| S28010 | Vi behöver en ambulans. | We need an ambulance. |  | [#489489](https://tatoeba.org/en/sentences/show/489489) | adjusting |
+| S28011 | Den verkar vara sönder. | It appears to be broken. |  | [#4442445](https://tatoeba.org/en/sentences/show/4442445) | richke |
+| S28012 | Den verkar vara trasig. | It appears to be broken. |  | [#4442446](https://tatoeba.org/en/sentences/show/4442446) | richke |
+| S28013 | Min dator är trasig. | My computer is broken. |  | [#10690913](https://tatoeba.org/en/sentences/show/10690913) | Pineapple |
+| S28014 | Gör det verkligen ont? | Does it really hurt? |  | [#4328391](https://tatoeba.org/en/sentences/show/4328391) | richke |
+| S28015 | Gör det fortfarande ont? | Does it still hurt? |  | [#4328395](https://tatoeba.org/en/sentences/show/4328395) | richke |
+| S28016 | Har du inte ont? | Are you not in pain? |  | [#11907314](https://tatoeba.org/en/sentences/show/11907314) | herrsilen |
+| S28017 | Hur svårt skadad är Tom? | How bad is Tom hurt? |  | [#4317448](https://tatoeba.org/en/sentences/show/4317448) | richke |
+| S28018 | Gör vänster ben fortfarande ont? | Is your left leg still hurting? |  | [#9149764](https://tatoeba.org/en/sentences/show/9149764) | morbrorper |
+| S28019 | Tom är skadad. | Tom's hurt. | Tom has been hurt. | [#2027326](https://tatoeba.org/en/sentences/show/2027326) | herrsilen |
+| S28020 | Kärlek gör ont. | Love hurts. |  | [#5893706](https://tatoeba.org/en/sentences/show/5893706) | User73201 |
+| S28021 | Det gör ont. | It hurts. |  | [#8778035](https://tatoeba.org/en/sentences/show/8778035) | morbrorper |
+| S28022 | Det gör säkert ont. | I'll bet it hurts. |  | [#3713689](https://tatoeba.org/en/sentences/show/3713689) | herrsilen |
+| S28023 | Jag har väldigt ont. | I'm in a lot of pain. |  | [#3837795](https://tatoeba.org/en/sentences/show/3837795) | herrsilen |
+| S28024 | Det gör fortfarande ont. | It still hurts. |  | [#4441860](https://tatoeba.org/en/sentences/show/4441860) | richke |
+| S28025 | Jag har inte ont. | I'm not in any pain. |  | [#4445762](https://tatoeba.org/en/sentences/show/4445762) | richke |
+| S28026 | Jag är mycket farlig. | I'm very dangerous. | I am very dangerous. | [#11588079](https://tatoeba.org/en/sentences/show/11588079) | Pineapple |
+| S28027 | Jag är väldigt farlig. | I'm very dangerous. | I am very dangerous. | [#11588080](https://tatoeba.org/en/sentences/show/11588080) | Pineapple |
+| S28028 | Det gör inte så ont. | It doesn't hurt so much. |  | [#1959980](https://tatoeba.org/en/sentences/show/1959980) | Coedwig |
+| S28029 | Jag har inte ont någonstans. | I'm not in any pain. |  | [#4445763](https://tatoeba.org/en/sentences/show/4445763) | richke |
+| S28030 | Den här vägen är farlig. | This path is dangerous. |  | [#5882475](https://tatoeba.org/en/sentences/show/5882475) | herrsilen |
+
+## U88 Filling In Forms: Namn, personnummer, adress, ort: the words on a form; fyll i blanketten; skriv under här (sign here)
+
+6 sentences picked from 6 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: blankett (0), födelsedatum (0), underskrift (0), kön (0), ort (0), personnummer (0), medborgarskap (0), ogift (1), civilstånd (0), mejl (1), uppgifter (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S88001 | Han är ogift. | He's unmarried. | He is unmarried. | [#1996360](https://tatoeba.org/en/sentences/show/1996360) | Ribon |
+| S88002 | Skriv till mig. | Write me. | Write to me. | [#1996627](https://tatoeba.org/en/sentences/show/1996627) | herrsilen |
+| S88003 | Skriv tydligt, tack. | Write clearly, please. |  | [#3889687](https://tatoeba.org/en/sentences/show/3889687) | herrsilen |
+| S88004 | Skriv ner det! | Write it down! |  | [#11199610](https://tatoeba.org/en/sentences/show/11199610) | Pineapple |
+| S88005 | Tack för ditt mejl! | Thanks for your email! |  | [#2120500](https://tatoeba.org/en/sentences/show/2120500) | freddy1 |
+| S88006 | Skriv inte så där. Skriv så här. | Don't write like that. Write like this. |  | [#9847715](https://tatoeba.org/en/sentences/show/9847715) | morbrorper |
+
+## U89 Messages + Postcards: Kära Anna, hej Erik: how a message starts; hälsningar, kram: ways to end; hälsa till … (say hello to …); ring mig!
+
+24 sentences picked from 24 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: kära (0), hälsningar (0), hälsar (0), kramar (1), sms (1), vykort (1), skicka (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S89001 | Skriver de ett brev? | Are they writing a letter? |  | [#1137705](https://tatoeba.org/en/sentences/show/1137705) | arahlen |
+| S89002 | Kan jag få en kram? | How about a hug? | Can I have a hug? | [#4343916](https://tatoeba.org/en/sentences/show/4343916) | richke |
+| S89003 | Får jag inte en kram? | Don't I get a hug? |  | [#4347347](https://tatoeba.org/en/sentences/show/4347347) | richke |
+| S89004 | Ring mig! | Call me! |  | [#5893651](https://tatoeba.org/en/sentences/show/5893651) | User73201 |
+| S89005 | Hälsa till Tom. | Tell Tom I said hi. |  | [#2046268](https://tatoeba.org/en/sentences/show/2046268) | herrsilen |
+| S89006 | Ring mig senare. | Call me later. |  | [#2315341](https://tatoeba.org/en/sentences/show/2315341) | Tximist |
+| S89007 | Tom kramar Mary. | Tom hugs Mary. |  | [#3684681](https://tatoeba.org/en/sentences/show/3684681) | loghaD |
+| S89008 | Ring honom ikväll. | Call him tonight. |  | [#5810602](https://tatoeba.org/en/sentences/show/5810602) | suedenjin |
+| S89009 | Skicka hem Tom! | Send Tom home. |  | [#12433858](https://tatoeba.org/en/sentences/show/12433858) | neximus |
+| S89010 | Jag skriver ett brev. | I write a letter. | I'm writing a letter. | [#1960456](https://tatoeba.org/en/sentences/show/1960456) | herrsilen |
+| S89011 | Jag läser ett brev. | I read a letter. |  | [#2014434](https://tatoeba.org/en/sentences/show/2014434) | herrsilen |
+| S89012 | Jag har ett meddelande. | I have an announcement. |  | [#2127962](https://tatoeba.org/en/sentences/show/2127962) | herrsilen |
+| S89013 | Hälsa henne från mig. | Tell her I said hello. |  | [#4455618](https://tatoeba.org/en/sentences/show/4455618) | richke |
+| S89014 | Jag skriver ett sms. | I am writing an SMS. |  | [#4839204](https://tatoeba.org/en/sentences/show/4839204) | richke |
+| S89015 | Ge mig en kram! | Give me a hug! |  | [#8926760](https://tatoeba.org/en/sentences/show/8926760) | morbrorper |
+| S89016 | Du har ett meddelande här. | You have a message here. |  | [#1137586](https://tatoeba.org/en/sentences/show/1137586) | arahlen |
+| S89017 | Det finns ett vykort här. | There's a postcard here. |  | [#1969921](https://tatoeba.org/en/sentences/show/1969921) | herrsilen |
+| S89018 | Hälsa till Tom från mig. | Tell Tom hi for me. |  | [#8750776](https://tatoeba.org/en/sentences/show/8750776) | morbrorper |
+| S89019 | ”Vill du lämna ett meddelande?” ”Nej, tack.” | "Do you want to leave a message?" "No, thanks." |  | [#1995490](https://tatoeba.org/en/sentences/show/1995490) | herrsilen |
+| S89020 | Han skriver ett brev. | He's writing a letter. | He writes a letter.; He is writing a letter. | [#3301109](https://tatoeba.org/en/sentences/show/3301109) | Lize |
+| S89021 | Ring mig aldrig igen. | Never call me again. |  | [#12097144](https://tatoeba.org/en/sentences/show/12097144) | johanrhg |
+| S89022 | Ring mig när du slutar! | Call me when you're done! |  | [#3889695](https://tatoeba.org/en/sentences/show/3889695) | herrsilen |
+| S89023 | Jag har ett brev från dig. | I have a letter from you. |  | [#5067351](https://tatoeba.org/en/sentences/show/5067351) | elliotmarklund |
+| S89024 | Ring mig när du kommer tillbaka. | Call me when you return. |  | [#5810610](https://tatoeba.org/en/sentences/show/5810610) | suedenjin |
+
+## U95 Doing + Getting: Äga, skapa, öka, växa: everyday verbs side by side; det sker (it happens); få tag på (get hold of)
+
+19 sentences picked from 19 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: skapar (0), ökar (0), minskar (0), växer (1), leder (0), driver (0), föra (1), kräver (0), tvingar (0), påverkar (0), utvecklar (0), deltar (0), innehåller (0), bryter (0), faller (0), vänder (0), sker (0), övar (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S95001 | Bidrar Tom? | Is Tom contributing? |  | [#10686297](https://tatoeba.org/en/sentences/show/10686297) | Pineapple |
+| S95002 | Hyr eller äger du? | Do you rent or own? |  | [#11907538](https://tatoeba.org/en/sentences/show/11907538) | herrsilen |
+| S95003 | Hur många böcker äger du? | How many books do you possess? |  | [#964406](https://tatoeba.org/en/sentences/show/964406) | herrsilen |
+| S95004 | Var får jag tag på böcker? | Where would I find books? |  | [#1137676](https://tatoeba.org/en/sentences/show/1137676) | arahlen |
+| S95005 | Du äger en bil, eller hur? | You've got a car, right? | You own a car, don't you? | [#3349215](https://tatoeba.org/en/sentences/show/3349215) | loghaD |
+| S95006 | Kan jag gå ut ett tag? | Can I go out for a bit? |  | [#9571740](https://tatoeba.org/en/sentences/show/9571740) | mrkalling |
+| S95007 | Jag bidrar. | I'm contributing. |  | [#10686288](https://tatoeba.org/en/sentences/show/10686288) | Pineapple |
+| S95008 | Vi bidrar. | We're contributing. |  | [#10686293](https://tatoeba.org/en/sentences/show/10686293) | Pineapple |
+| S95009 | Rör det inte! | Don't touch it! |  | [#1493016](https://tatoeba.org/en/sentences/show/1493016) | marco87 |
+| S95010 | Rör inte dem. | Don't touch those. |  | [#2023021](https://tatoeba.org/en/sentences/show/2023021) | herrsilen |
+| S95011 | Vänta ett tag. | Wait a bit. |  | [#3126518](https://tatoeba.org/en/sentences/show/3126518) | herrsilen |
+| S95012 | Rör mig inte. | Get off me. |  | [#3711744](https://tatoeba.org/en/sentences/show/3711744) | herrsilen |
+| S95013 | Pengar växer inte på träd. | Money doesn't grow on trees. | Money does not grow on trees. | [#3841184](https://tatoeba.org/en/sentences/show/3841184) | herrsilen |
+| S95014 | Jag kan föra hem Tom. | I can take Tom home. |  | [#4320674](https://tatoeba.org/en/sentences/show/4320674) | richke |
+| S95015 | Du bidrar. | You're contributing. |  | [#10686295](https://tatoeba.org/en/sentences/show/10686295) | Pineapple |
+| S95016 | Tom bidrar inte. | Tom isn't contributing. |  | [#10686302](https://tatoeba.org/en/sentences/show/10686302) | Pineapple |
+| S95017 | Jag äger två böcker. | I own two books. |  | [#2147543](https://tatoeba.org/en/sentences/show/2147543) | herrsilen |
+| S95018 | Ta tag i den där. | Grab that. |  | [#1996632](https://tatoeba.org/en/sentences/show/1996632) | herrsilen |
+| S95019 | Du kanske måste vänta ett tag. | You might have to wait a while. |  | [#11664315](https://tatoeba.org/en/sentences/show/11664315) | mrkalling |

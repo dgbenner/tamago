@@ -51,11 +51,12 @@ const BY_COURSE = {
   // Swedish (2026-11-21, Builder 2, Part 2 gather): the Kelly list is a lemmatised web corpus, so its core holds tagger
   // artefacts (analog, unna, å, ätt, orm, hov, kapa, beta, åta sig, te sig: headwords split off och, att, form, behov,
   // åt …), web-page leftovers and parliamentary register. Everyday words the corpus over-represents (land, fråga, krona)
-  // stay.
+  // stay. Part 4 gather (2026-11-21): som att (a tagger multiword, not a unit of its own), dom (the spoken spelling of
+  // de and dem; its noun is the court's verdict), bildning (formal cultivation, beside utbildning) and mission.
   sv: {
-    artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta', 'peng'],
-    subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg', 'kl.'],
-    register: ['regering', 'riksdag', 'kommun', 'myndighet', 'kommission', 'socialdemokrat', 'åtgärd', 'verksamhet', 'enligt', 'samt', 'därmed', 'såsom', 'utgöra', 'innebära', 'genomföra', 'anmäla'],
+    artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta', 'peng', 'som att'],
+    subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg', 'kl.', 'dom'],
+    register: ['regering', 'riksdag', 'kommun', 'myndighet', 'kommission', 'socialdemokrat', 'åtgärd', 'verksamhet', 'enligt', 'samt', 'därmed', 'såsom', 'utgöra', 'innebära', 'genomföra', 'anmäla', 'bildning', 'mission'],
     violence: ['krig', 'dö', 'död', 'slå'],
   },
 }

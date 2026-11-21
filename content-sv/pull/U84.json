@@ -1,0 +1,1320 @@
+{
+  "unit_id": "U84",
+  "pulled_at": "2026-11-21",
+  "candidates": 24,
+  "sentences": [
+    {
+      "sentence_id": "S84001",
+      "unit_id": "U84",
+      "french": "Går vi till fots?",
+      "english": "Are we going on foot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10753452",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84002",
+      "unit_id": "U84",
+      "french": "Får jag parkera här?",
+      "english": "Can I park here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4320133",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84003",
+      "unit_id": "U84",
+      "french": "Vilken är nästa hållplats?",
+      "english": "What is the next station?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8436534",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84004",
+      "unit_id": "U84",
+      "french": "Hur länge tar det till fots?",
+      "english": "How long does it take on foot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1402058",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bovoeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84005",
+      "unit_id": "U84",
+      "french": "Får jag se ditt körkort?",
+      "english": "May I see your license?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8850911",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": [
+        "Can I see your driving license?",
+        "Can I see your driver's license?",
+        "Could I see your driver's license?"
+      ]
+    },
+    {
+      "sentence_id": "S84006",
+      "unit_id": "U84",
+      "french": "Stannar tunnelbanan vid nästa station?",
+      "english": "Does the tube stop at the next station?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11061708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SilasNordgren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84007",
+      "unit_id": "U84",
+      "french": "Han stiger upp tidigt.",
+      "english": "He's getting up early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2242954",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84008",
+      "unit_id": "U84",
+      "french": "Han kör utan körkort.",
+      "english": "He drives without a licence.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2321366",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84009",
+      "unit_id": "U84",
+      "french": "Jag behöver en taxi!",
+      "english": "I need a taxi!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3933461",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Balamax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84010",
+      "unit_id": "U84",
+      "french": "Du kan parkera här.",
+      "english": "You can park here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4335913",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84011",
+      "unit_id": "U84",
+      "french": "Du får parkera här.",
+      "english": "You may park here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4335916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84012",
+      "unit_id": "U84",
+      "french": "Hon stiger upp tidigt.",
+      "english": "She gets up early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4406560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84013",
+      "unit_id": "U84",
+      "french": "Här är mitt körkort.",
+      "english": "Here's my drivers license.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5799681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "suedenjin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84014",
+      "unit_id": "U84",
+      "french": "Tom behöver en taxi.",
+      "english": "Tom needs a taxi.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10597343",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84015",
+      "unit_id": "U84",
+      "french": "Det finns en hållplats här.",
+      "english": "There's a bus stop here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "880586",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84016",
+      "unit_id": "U84",
+      "french": "Jag tar en taxi hem.",
+      "english": "I'll take a cab home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3838274",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84017",
+      "unit_id": "U84",
+      "french": "Det här är din hållplats.",
+      "english": "This is your stop.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4447213",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84018",
+      "unit_id": "U84",
+      "french": "Han stiger inte upp tidigt.",
+      "english": "He does not get up early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9815133",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84019",
+      "unit_id": "U84",
+      "french": "Hon ska byta tåg i Stockholm.",
+      "english": "She will change trains in Stockholm.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7046281",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84020",
+      "unit_id": "U84",
+      "french": "En taxi står och väntar.",
+      "english": "A cab is waiting.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4316992",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84021",
+      "unit_id": "U84",
+      "french": "Jag ringer en taxi åt dig.",
+      "english": "I'll call you a cab.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2051940",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84022",
+      "unit_id": "U84",
+      "french": "Jag behöver parkera min bil här.",
+      "english": "I need to park my car here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4350305",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84023",
+      "unit_id": "U84",
+      "french": "Du har rätt. Jag tar en taxi.",
+      "english": "You are right. I will go by taxi.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "893115",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84024",
+      "unit_id": "U84",
+      "french": "Jag ringer efter en taxi åt dig.",
+      "english": "I'll call you a cab.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2051939",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S84001",
+      "position": 1,
+      "surface": "Går",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84001",
+      "position": 2,
+      "surface": "vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84001",
+      "position": 3,
+      "surface": "till fots",
+      "word_id": "W1674",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84002",
+      "position": 1,
+      "surface": "Får",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84002",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84002",
+      "position": 3,
+      "surface": "parkera",
+      "word_id": "W1680",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84002",
+      "position": 4,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 1,
+      "surface": "Vilken",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 3,
+      "surface": "nästa",
+      "word_id": "W1241",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 4,
+      "surface": "hållplats",
+      "word_id": "W1670",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 2,
+      "surface": "länge",
+      "word_id": "W1246",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 3,
+      "surface": "tar",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 5,
+      "surface": "till fots",
+      "word_id": "W1674",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 1,
+      "surface": "Får",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 3,
+      "surface": "se",
+      "word_id": "W1181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 4,
+      "surface": "ditt",
+      "word_id": "W1388",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84005",
+      "position": 5,
+      "surface": "körkort",
+      "word_id": "W1679",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 1,
+      "surface": "Stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 2,
+      "surface": "tunnelbanan",
+      "word_id": "W1669",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 3,
+      "surface": "vid",
+      "word_id": "W1413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 4,
+      "surface": "nästa",
+      "word_id": "W1241",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 5,
+      "surface": "station",
+      "word_id": "W1028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 2,
+      "surface": "stiger",
+      "word_id": "W1673",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 3,
+      "surface": "upp",
+      "word_id": "W1305",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 4,
+      "surface": "tidigt",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 2,
+      "surface": "kör",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 3,
+      "surface": "utan",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 4,
+      "surface": "körkort",
+      "word_id": "W1679",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84009",
+      "position": 4,
+      "surface": "taxi",
+      "word_id": "W1675",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 3,
+      "surface": "parkera",
+      "word_id": "W1680",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84010",
+      "position": 4,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 2,
+      "surface": "får",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 3,
+      "surface": "parkera",
+      "word_id": "W1680",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84011",
+      "position": 4,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 1,
+      "surface": "Hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 2,
+      "surface": "stiger",
+      "word_id": "W1673",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 3,
+      "surface": "upp",
+      "word_id": "W1305",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84012",
+      "position": 4,
+      "surface": "tidigt",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 1,
+      "surface": "Här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 3,
+      "surface": "mitt",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84013",
+      "position": 4,
+      "surface": "körkort",
+      "word_id": "W1679",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84014",
+      "position": 4,
+      "surface": "taxi",
+      "word_id": "W1675",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 2,
+      "surface": "finns",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 4,
+      "surface": "hållplats",
+      "word_id": "W1670",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 5,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 2,
+      "surface": "tar",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 4,
+      "surface": "taxi",
+      "word_id": "W1675",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 5,
+      "surface": "hem",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 2,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 4,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 5,
+      "surface": "hållplats",
+      "word_id": "W1670",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 2,
+      "surface": "stiger",
+      "word_id": "W1673",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 4,
+      "surface": "upp",
+      "word_id": "W1305",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
+      "position": 5,
+      "surface": "tidigt",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 1,
+      "surface": "Hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 2,
+      "surface": "ska",
+      "word_id": "W1282",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 3,
+      "surface": "byta",
+      "word_id": "W1672",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 4,
+      "surface": "tåg",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 5,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84019",
+      "position": 6,
+      "surface": "Stockholm",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 2,
+      "surface": "taxi",
+      "word_id": "W1675",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 3,
+      "surface": "står",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 4,
+      "surface": "och",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84020",
+      "position": 5,
+      "surface": "väntar",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 2,
+      "surface": "ringer",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 4,
+      "surface": "taxi",
+      "word_id": "W1675",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 5,
+      "surface": "åt",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84021",
+      "position": 6,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 3,
+      "surface": "parkera",
+      "word_id": "W1680",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 4,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 5,
+      "surface": "bil",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84022",
+      "position": 6,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 3,
+      "surface": "rätt",
+      "word_id": "W865",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 4,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 5,
+      "surface": "tar",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 6,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84023",
+      "position": 7,
+      "surface": "taxi",
+      "word_id": "W1675",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 2,
+      "surface": "ringer",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 3,
+      "surface": "efter",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 5,
+      "surface": "taxi",
+      "word_id": "W1675",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 6,
+      "surface": "åt",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84024",
+      "position": 7,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A840051",
+      "sentence_id": "S84005",
+      "direction": "fr_to_en",
+      "answer": "Can I see your driving license?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A840052",
+      "sentence_id": "S84005",
+      "direction": "fr_to_en",
+      "answer": "Can I see your driver's license?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A840053",
+      "sentence_id": "S84005",
+      "direction": "fr_to_en",
+      "answer": "Could I see your driver's license?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

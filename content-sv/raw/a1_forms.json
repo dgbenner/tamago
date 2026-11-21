@@ -30,5 +30,29 @@
     "fields_json": "[{\"key\":\"name\",\"label\":\"Namn\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"breakfast\",\"label\":\"Frukost\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"sju\",\"klockan sju\"]},{\"key\":\"start\",\"label\":\"Börjar jobba\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"nio\",\"klockan nio\"]},{\"key\":\"end\",\"label\":\"Slutar jobba\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"fem\",\"klockan fem\"]}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Jag heter Anna Lindqvist. Jag är svensk. Jag är född den 10 april i Uppsala. Jag är gift. Jag bor på Storgatan 12 i Stockholm.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Namn\",\"rule\":\"text\",\"answer\":\"Anna Lindqvist\"},{\"key\":\"nat\",\"label\":\"Medborgarskap\",\"rule\":\"text\",\"answer\":\"svensk\",\"also\":[\"Svensk\",\"Sverige\",\"svenskt\",\"Svenskt\"]},{\"key\":\"born\",\"label\":\"Födelsedatum\",\"rule\":\"text\",\"answer\":\"10/4\",\"also\":[\"10 april\",\"10-4\",\"04-10\",\"10.4\",\"10 April\"]},{\"key\":\"place\",\"label\":\"Födelseort\",\"rule\":\"text\",\"answer\":\"Uppsala\"},{\"key\":\"civil\",\"label\":\"Civilstånd\",\"rule\":\"text\",\"answer\":\"gift\",\"also\":[\"Gift\"]},{\"key\":\"town\",\"label\":\"Ort\",\"rule\":\"text\",\"answer\":\"Stockholm\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Jag heter Erik Berg. Jag är trettio år. Jag är sjuksköterska och jobbar på ett sjukhus i Göteborg. Jag är inte gift.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Förnamn\",\"rule\":\"text\",\"answer\":\"Erik\"},{\"key\":\"last\",\"label\":\"Efternamn\",\"rule\":\"text\",\"answer\":\"Berg\"},{\"key\":\"age\",\"label\":\"Ålder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"job\",\"label\":\"Yrke\",\"rule\":\"text\",\"answer\":\"sjuksköterska\",\"also\":[\"Sjuksköterska\"]},{\"key\":\"civil\",\"label\":\"Civilstånd\",\"rule\":\"text\",\"answer\":\"ogift\",\"also\":[\"inte gift\",\"Ogift\",\"singel\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F303",
+    "unit_id": "U81",
+    "card": "På kaféet: Tom beställer en kaffe och en bulle. Maria beställer en kopp te. De betalar nittio kronor.",
+    "fields_json": "[{\"key\":\"tom\",\"label\":\"Tom\",\"rule\":\"text\",\"answer\":\"en kaffe och en bulle\",\"also\":[\"kaffe och bulle\",\"kaffe, bulle\",\"en kaffe, en bulle\",\"kaffe och en bulle\"]},{\"key\":\"maria\",\"label\":\"Maria\",\"rule\":\"text\",\"answer\":\"en kopp te\",\"also\":[\"te\",\"en te\",\"kopp te\"]},{\"key\":\"total\",\"label\":\"Totalt (kronor)\",\"rule\":\"number\",\"answer\":\"90\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

@@ -1,0 +1,1453 @@
+{
+  "unit_id": "U87",
+  "pulled_at": "2026-11-21",
+  "candidates": 27,
+  "sentences": [
+    {
+      "sentence_id": "S87001",
+      "unit_id": "U87",
+      "french": "Är inte du kock?",
+      "english": "Aren't you a chef?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3713864",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87002",
+      "unit_id": "U87",
+      "french": "Vad är hennes yrke?",
+      "english": "What is her profession?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8856916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87003",
+      "unit_id": "U87",
+      "french": "Vad är ditt yrke?",
+      "english": "What's your profession?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8856918",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": [
+        "What is your profession?"
+      ]
+    },
+    {
+      "sentence_id": "S87004",
+      "unit_id": "U87",
+      "french": "Är du i tjänst?",
+      "english": "Are you on duty?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11907232",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87005",
+      "unit_id": "U87",
+      "french": "Vad har du för yrke?",
+      "english": "What's your profession?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8856948",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87006",
+      "unit_id": "U87",
+      "french": "Är du i tjänst på måndag?",
+      "english": "Are you on duty Monday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11907233",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87007",
+      "unit_id": "U87",
+      "french": "Hur stänger du av din dator?",
+      "english": "How do you switch your computer off?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12097098",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "johanrhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87008",
+      "unit_id": "U87",
+      "french": "Vilken grupp vill du vara med i?",
+      "english": "Which group do you want to join?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11908626",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87009",
+      "unit_id": "U87",
+      "french": "Jag använder dator.",
+      "english": "I use computers.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1965097",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87010",
+      "unit_id": "U87",
+      "french": "Hon är sjuksköterska.",
+      "english": "She is a nurse.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1996270",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87011",
+      "unit_id": "U87",
+      "french": "Tom är chef.",
+      "english": "Tom is the boss.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2014185",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87012",
+      "unit_id": "U87",
+      "french": "Jag använder en dator.",
+      "english": "I'm using a computer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1965098",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87013",
+      "unit_id": "U87",
+      "french": "Tom behöver en tjänst.",
+      "english": "Tom needs a favor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2028890",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87014",
+      "unit_id": "U87",
+      "french": "Jag är på mitt kontor.",
+      "english": "I'll be in my office.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2085898",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87015",
+      "unit_id": "U87",
+      "french": "Lika lön för lika arbete.",
+      "english": "Equal pay for equal work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3720801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87016",
+      "unit_id": "U87",
+      "french": "Jag är din chef nu.",
+      "english": "I'm your boss now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3784435",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87017",
+      "unit_id": "U87",
+      "french": "De är på mitt kontor.",
+      "english": "They're in my office.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3837656",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87018",
+      "unit_id": "U87",
+      "french": "Min chef är väldigt trevlig.",
+      "english": "My boss is very nice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4317420",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87019",
+      "unit_id": "U87",
+      "french": "Jag är bara en kund.",
+      "english": "I'm only a customer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4842969",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nour",
+      "other_english": [
+        "I am only a customer."
+      ]
+    },
+    {
+      "sentence_id": "S87020",
+      "unit_id": "U87",
+      "french": "Tom är inte en bra kock.",
+      "english": "Tom isn't a good cook.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2042046",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87021",
+      "unit_id": "U87",
+      "french": "Tom har högre lön än Mary.",
+      "english": "Tom gets paid more than Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12100405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "johanrhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87022",
+      "unit_id": "U87",
+      "french": "Detta är min dator.",
+      "english": "This is my computer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2346886",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "everylanguage",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87023",
+      "unit_id": "U87",
+      "french": "Han har ingen dator.",
+      "english": "He doesn't have a computer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3684663",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "loghaD",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87024",
+      "unit_id": "U87",
+      "french": "Jag behöver en dator.",
+      "english": "I need a computer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4353869",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87025",
+      "unit_id": "U87",
+      "french": "Jag behöver en stor tjänst.",
+      "english": "I need a huge favor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4446136",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87026",
+      "unit_id": "U87",
+      "french": "Det är en gammal dator.",
+      "english": "It's an old computer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10712342",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87027",
+      "unit_id": "U87",
+      "french": "Han är i tjänst i natt.",
+      "english": "He is on night duty tonight.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "490861",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S87001",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87001",
+      "position": 2,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87001",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87001",
+      "position": 4,
+      "surface": "kock",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87002",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87002",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87002",
+      "position": 3,
+      "surface": "hennes",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87002",
+      "position": 4,
+      "surface": "yrke",
+      "word_id": "W1730",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87003",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87003",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87003",
+      "position": 3,
+      "surface": "ditt",
+      "word_id": "W1388",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87003",
+      "position": 4,
+      "surface": "yrke",
+      "word_id": "W1730",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87004",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87004",
+      "position": 3,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87004",
+      "position": 4,
+      "surface": "tjänst",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 4,
+      "surface": "för",
+      "word_id": "W970",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 5,
+      "surface": "yrke",
+      "word_id": "W1730",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 3,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 4,
+      "surface": "tjänst",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 6,
+      "surface": "måndag",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 2,
+      "surface": "stänger",
+      "word_id": "W1449",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 4,
+      "surface": "av",
+      "word_id": "W992",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 5,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 6,
+      "surface": "dator",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 1,
+      "surface": "Vilken",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 2,
+      "surface": "grupp",
+      "word_id": "W1734",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 3,
+      "surface": "vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 5,
+      "surface": "vara",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 6,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 7,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87009",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87009",
+      "position": 2,
+      "surface": "använder",
+      "word_id": "W1451",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87009",
+      "position": 3,
+      "surface": "dator",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87010",
+      "position": 1,
+      "surface": "Hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87010",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87010",
+      "position": 3,
+      "surface": "sjuksköterska",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87011",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87011",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87011",
+      "position": 3,
+      "surface": "chef",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 2,
+      "surface": "använder",
+      "word_id": "W1451",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 4,
+      "surface": "dator",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 4,
+      "surface": "tjänst",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 4,
+      "surface": "mitt",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 5,
+      "surface": "kontor",
+      "word_id": "W1721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 1,
+      "surface": "Lika",
+      "word_id": "W1191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 2,
+      "surface": "lön",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 3,
+      "surface": "för",
+      "word_id": "W970",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 4,
+      "surface": "lika",
+      "word_id": "W1191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 5,
+      "surface": "arbete",
+      "word_id": "W1315",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 4,
+      "surface": "chef",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 5,
+      "surface": "nu",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 4,
+      "surface": "mitt",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 5,
+      "surface": "kontor",
+      "word_id": "W1721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 1,
+      "surface": "Min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 2,
+      "surface": "chef",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 4,
+      "surface": "väldigt",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 5,
+      "surface": "trevlig",
+      "word_id": "W1134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87019",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87019",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87019",
+      "position": 3,
+      "surface": "bara",
+      "word_id": "W824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87019",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87019",
+      "position": 5,
+      "surface": "kund",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 5,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 6,
+      "surface": "kock",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 3,
+      "surface": "högre",
+      "word_id": "W1223",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 4,
+      "surface": "lön",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 5,
+      "surface": "än",
+      "word_id": "W883",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 6,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87022",
+      "position": 1,
+      "surface": "Detta",
+      "word_id": "W974",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87022",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87022",
+      "position": 3,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87022",
+      "position": 4,
+      "surface": "dator",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87023",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87023",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87023",
+      "position": 3,
+      "surface": "ingen",
+      "word_id": "W989",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87023",
+      "position": 4,
+      "surface": "dator",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87024",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87024",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87024",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87024",
+      "position": 4,
+      "surface": "dator",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87025",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87025",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87025",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87025",
+      "position": 4,
+      "surface": "stor",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87025",
+      "position": 5,
+      "surface": "tjänst",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 4,
+      "surface": "gammal",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 5,
+      "surface": "dator",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 3,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 4,
+      "surface": "tjänst",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 5,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 6,
+      "surface": "natt",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A870031",
+      "sentence_id": "S87003",
+      "direction": "fr_to_en",
+      "answer": "What is your profession?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A870191",
+      "sentence_id": "S87019",
+      "direction": "fr_to_en",
+      "answer": "I am only a customer.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

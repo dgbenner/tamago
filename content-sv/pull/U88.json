@@ -1,0 +1,306 @@
+{
+  "unit_id": "U88",
+  "pulled_at": "2026-11-21",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S88001",
+      "unit_id": "U88",
+      "french": "Han är ogift.",
+      "english": "He's unmarried.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1996360",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": [
+        "He is unmarried."
+      ]
+    },
+    {
+      "sentence_id": "S88002",
+      "unit_id": "U88",
+      "french": "Skriv till mig.",
+      "english": "Write me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1996627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "Write to me."
+      ]
+    },
+    {
+      "sentence_id": "S88003",
+      "unit_id": "U88",
+      "french": "Skriv tydligt, tack.",
+      "english": "Write clearly, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3889687",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88004",
+      "unit_id": "U88",
+      "french": "Skriv ner det!",
+      "english": "Write it down!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11199610",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88005",
+      "unit_id": "U88",
+      "french": "Tack för ditt mejl!",
+      "english": "Thanks for your email!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2120500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "freddy1",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88006",
+      "unit_id": "U88",
+      "french": "Skriv inte så där. Skriv så här.",
+      "english": "Don't write like that. Write like this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9847715",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S88001",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 3,
+      "surface": "ogift",
+      "word_id": "W1754",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 1,
+      "surface": "Skriv",
+      "word_id": "W1757",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 2,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 3,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 1,
+      "surface": "Skriv",
+      "word_id": "W1757",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 2,
+      "surface": "tydligt",
+      "word_id": "W1225",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 3,
+      "surface": "tack",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 1,
+      "surface": "Skriv",
+      "word_id": "W1757",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 2,
+      "surface": "ner",
+      "word_id": "W1406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 1,
+      "surface": "Tack",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 2,
+      "surface": "för",
+      "word_id": "W970",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 3,
+      "surface": "ditt",
+      "word_id": "W1388",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 4,
+      "surface": "mejl",
+      "word_id": "W1756",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 1,
+      "surface": "Skriv",
+      "word_id": "W1757",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 2,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 3,
+      "surface": "så",
+      "word_id": "W825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 4,
+      "surface": "där",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 5,
+      "surface": "Skriv",
+      "word_id": "W1757",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 6,
+      "surface": "så",
+      "word_id": "W825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 7,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A880011",
+      "sentence_id": "S88001",
+      "direction": "fr_to_en",
+      "answer": "He is unmarried.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A880021",
+      "sentence_id": "S88002",
+      "direction": "fr_to_en",
+      "answer": "Write to me.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
