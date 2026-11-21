@@ -81,3 +81,21 @@ Waiting for Dan. Everything else lives in the logs and scout files.
 - Push, merge to main, wire into the app, or run Fable. The shelf waits for review.
 - Touch a language another session already has in a worktree.
 - Definitions or conjugations from model memory.
+
+## Update, 2026-11-20 late (Dan): full A1 run, replaces gather-only
+
+Every remaining language goes all the way to A1-complete in one continuous run, one language at a time:
+1. **Gather** each missing part (as Stage 1 above, same rules; the 40% dry-source rule still holds a language).
+2. **Filter** the core list: the shared stoplist (`scripts/lib/a1-stoplist.mjs`, oaths, slurs, violence, subtitle
+   leftovers, official register) applies automatically at build; each language's own junk is added under its key and
+   what it drops is logged (`content*/a1-dropped.json` and the build output). Never stop to ask.
+3. **Wire Developer-only**: merge the language's branch into main locally (no push), approve its units, grammar notes
+   (bold-marked) and overview lines, icons, build; a new course is registered `devOnly: true`.
+4. **Audit**: the fast tests, the word audit and the every-lesson check; fix what they find.
+5. **Mock exam** at the end of the last part (`finalcheck.js` EXAMS and FORMATS, or the general format where the
+   language has no A1 exam), decided and logged.
+6. **Fable review**: queued; it runs on Fable when Fable credits return.
+
+Phases 1–5 run on Opus. Every content and build decision is made under the rules in this doc and logged in the
+check-in; stop only for money, accounts, going public, or deleting data. Pushing to the live site still waits for Dan.
+Struck (Dan): Greek, Czech, Hungarian, Finnish. Norwegian: held by the dry-source rule.
