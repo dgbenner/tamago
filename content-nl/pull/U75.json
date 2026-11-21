@@ -1,0 +1,2045 @@
+{
+  "unit_id": "U75",
+  "pulled_at": "2026-11-21",
+  "candidates": 728,
+  "sentences": [
+    {
+      "sentence_id": "S75001",
+      "unit_id": "U75",
+      "french": "Vind je dit een mooie kleur?",
+      "english": "Do you like this color?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "377210",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "Do you like this colour?"
+      ]
+    },
+    {
+      "sentence_id": "S75002",
+      "unit_id": "U75",
+      "french": "Tom is erg snel, vind je niet?",
+      "english": "Tom is really fast, isn't he?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6131336",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mandalay",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75003",
+      "unit_id": "U75",
+      "french": "Ze vinden het prachtig.",
+      "english": "They love it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8205373",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75004",
+      "unit_id": "U75",
+      "french": "Ik vind je geweldig.",
+      "english": "I think you're awesome.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10862438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75005",
+      "unit_id": "U75",
+      "french": "Tom vindt dit geweldig.",
+      "english": "Tom loves this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13001349",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75006",
+      "unit_id": "U75",
+      "french": "Ik hou erg van honden.",
+      "english": "I like dogs very much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1306349",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75007",
+      "unit_id": "U75",
+      "french": "Je gaat dit geweldig vinden.",
+      "english": "You're gonna love this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2358596",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75008",
+      "unit_id": "U75",
+      "french": "Ik hou erg van tennis.",
+      "english": "I really like tennis.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3369108",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75009",
+      "unit_id": "U75",
+      "french": "Is het liefde?",
+      "english": "Is it love?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7717579",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75010",
+      "unit_id": "U75",
+      "french": "Is dit liefde?",
+      "english": "Is this love?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7900946",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75011",
+      "unit_id": "U75",
+      "french": "Wat voel je?",
+      "english": "What do you feel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9167559",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75012",
+      "unit_id": "U75",
+      "french": "Wat vindt hij?",
+      "english": "What does he think?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9182445",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75013",
+      "unit_id": "U75",
+      "french": "Wat vindt zij?",
+      "english": "What does she think?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9182447",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75014",
+      "unit_id": "U75",
+      "french": "Wat vinden zij?",
+      "english": "What do they think?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9182450",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75015",
+      "unit_id": "U75",
+      "french": "Hou je van muziek?",
+      "english": "Do you like music?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "417311",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "Do you love music?",
+        "Are you fond of music?"
+      ]
+    },
+    {
+      "sentence_id": "S75016",
+      "unit_id": "U75",
+      "french": "Hoe voel je je?",
+      "english": "How do you feel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "944371",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "simonbr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75017",
+      "unit_id": "U75",
+      "french": "Voel je je ziek?",
+      "english": "Do you feel sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1473536",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75018",
+      "unit_id": "U75",
+      "french": "Voelen jullie je moe?",
+      "english": "Do you feel tired?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9709681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75019",
+      "unit_id": "U75",
+      "french": "Mooie dag, of niet?",
+      "english": "Beautiful day, isn't it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12497183",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tom9358",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75020",
+      "unit_id": "U75",
+      "french": "Voelen jullie je beter vandaag?",
+      "english": "Do you feel better today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8106871",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": [
+        "Are you feeling better today?",
+        "Do you feel any better today?"
+      ]
+    },
+    {
+      "sentence_id": "S75021",
+      "unit_id": "U75",
+      "french": "Welke heb je liever, thee of koffie?",
+      "english": "Which do you prefer, tea or coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1479966",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75022",
+      "unit_id": "U75",
+      "french": "Dat vind ik wel jammer.",
+      "english": "I do find that unfortunate.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6218757",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75023",
+      "unit_id": "U75",
+      "french": "Ik vind het fijn hier te werken.",
+      "english": "I like working here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4966142",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75024",
+      "unit_id": "U75",
+      "french": "Wat jammer!",
+      "english": "That's too bad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "854652",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "simonbr",
+      "other_english": [
+        "How unfortunate!",
+        "What a pity!",
+        "That is so unfortunate!"
+      ]
+    },
+    {
+      "sentence_id": "S75025",
+      "unit_id": "U75",
+      "french": "Wat fijn!",
+      "english": "Great!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8228577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "meshbags",
+      "other_english": [
+        "Wonderful!",
+        "Terrific!"
+      ]
+    },
+    {
+      "sentence_id": "S75026",
+      "unit_id": "U75",
+      "french": "Zo prachtig!",
+      "english": "So beautiful!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8686070",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75027",
+      "unit_id": "U75",
+      "french": "Mooie dag.",
+      "english": "Beautiful day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9456265",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75028",
+      "unit_id": "U75",
+      "french": "Open je hart.",
+      "english": "Open your heart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1017048",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75029",
+      "unit_id": "U75",
+      "french": "Ze zijn prachtig.",
+      "english": "They're wonderful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3167814",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": [
+        "They're lovely."
+      ]
+    },
+    {
+      "sentence_id": "S75030",
+      "unit_id": "U75",
+      "french": "Dat is jammer.",
+      "english": "That's unlucky.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7109248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "That's unfortunate.",
+        "That's too bad.",
+        "What a shame.",
+        "What a pity."
+      ]
+    },
+    {
+      "sentence_id": "S75031",
+      "unit_id": "U75",
+      "french": "Tom is fantastisch.",
+      "english": "Tom is fantastic.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7487417",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "Tom is awesome.",
+        "Tom is fabulous."
+      ]
+    },
+    {
+      "sentence_id": "S75032",
+      "unit_id": "U75",
+      "french": "Muziek is liefde.",
+      "english": "Music is love.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7610221",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75033",
+      "unit_id": "U75",
+      "french": "Een fijn weekend!",
+      "english": "Have a good weekend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8810571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "Have a good weekend!"
+      ]
+    },
+    {
+      "sentence_id": "S75034",
+      "unit_id": "U75",
+      "french": "Ze zijn fantastisch.",
+      "english": "They're fabulous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9275279",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75035",
+      "unit_id": "U75",
+      "french": "Zij zijn fantastisch.",
+      "english": "They're fantastic.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9275280",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "They're fabulous."
+      ]
+    },
+    {
+      "sentence_id": "S75036",
+      "unit_id": "U75",
+      "french": "Liever laat dan nooit!",
+      "english": "Better late than never.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3386373",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GrizaLeono",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75037",
+      "unit_id": "U75",
+      "french": "Jij hebt geen hart.",
+      "english": "You have no heart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3694628",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": [
+        "You don't have a heart."
+      ]
+    },
+    {
+      "sentence_id": "S75038",
+      "unit_id": "U75",
+      "french": "Ik blijf liever zitten.",
+      "english": "I prefer to remain seated.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3857233",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75039",
+      "unit_id": "U75",
+      "french": "Dit voelt niet goed.",
+      "english": "This feels wrong.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4979603",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75040",
+      "unit_id": "U75",
+      "french": "U heeft geen hart.",
+      "english": "You have no heart.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7935401",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": [
+        "You don't have a heart."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S75001",
+      "position": 1,
+      "surface": "Vind",
+      "word_id": "W1468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 3,
+      "surface": "dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 4,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 5,
+      "surface": "mooie",
+      "word_id": "W1482",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 6,
+      "surface": "kleur",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 3,
+      "surface": "erg",
+      "word_id": "W1483",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 4,
+      "surface": "snel",
+      "word_id": "W1149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 5,
+      "surface": "vind",
+      "word_id": "W1468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 6,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 7,
+      "surface": "niet",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 2,
+      "surface": "vinden",
+      "word_id": "W1470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 4,
+      "surface": "prachtig",
+      "word_id": "W1473",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 2,
+      "surface": "vind",
+      "word_id": "W1468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 4,
+      "surface": "geweldig",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 2,
+      "surface": "vindt",
+      "word_id": "W1469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 3,
+      "surface": "dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 4,
+      "surface": "geweldig",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 2,
+      "surface": "hou",
+      "word_id": "W1479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 3,
+      "surface": "erg",
+      "word_id": "W1483",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 4,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 5,
+      "surface": "honden",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 2,
+      "surface": "gaat",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 3,
+      "surface": "dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 4,
+      "surface": "geweldig",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 5,
+      "surface": "vinden",
+      "word_id": "W1470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 2,
+      "surface": "hou",
+      "word_id": "W1479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 3,
+      "surface": "erg",
+      "word_id": "W1483",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 4,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 5,
+      "surface": "tennis",
+      "word_id": "W1454",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 3,
+      "surface": "liefde",
+      "word_id": "W1480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 2,
+      "surface": "dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 3,
+      "surface": "liefde",
+      "word_id": "W1480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 2,
+      "surface": "voel",
+      "word_id": "W1476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 2,
+      "surface": "vindt",
+      "word_id": "W1469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 3,
+      "surface": "hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 2,
+      "surface": "vindt",
+      "word_id": "W1469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 3,
+      "surface": "zij",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 2,
+      "surface": "vinden",
+      "word_id": "W1470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 3,
+      "surface": "zij",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 1,
+      "surface": "Hou",
+      "word_id": "W1479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 3,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 4,
+      "surface": "muziek",
+      "word_id": "W1015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 2,
+      "surface": "voel",
+      "word_id": "W1476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 1,
+      "surface": "Voel",
+      "word_id": "W1476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 4,
+      "surface": "ziek",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 1,
+      "surface": "Voelen",
+      "word_id": "W1478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 4,
+      "surface": "moe",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 1,
+      "surface": "Mooie",
+      "word_id": "W1482",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 2,
+      "surface": "dag",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 3,
+      "surface": "of",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 4,
+      "surface": "niet",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 1,
+      "surface": "Voelen",
+      "word_id": "W1478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 4,
+      "surface": "beter",
+      "word_id": "W1157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 5,
+      "surface": "vandaag",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 1,
+      "surface": "Welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 2,
+      "surface": "heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 4,
+      "surface": "liever",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 5,
+      "surface": "thee",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 6,
+      "surface": "of",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 7,
+      "surface": "koffie",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 1,
+      "surface": "Dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 2,
+      "surface": "vind",
+      "word_id": "W1468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 3,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 4,
+      "surface": "wel",
+      "word_id": "W944",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 5,
+      "surface": "jammer",
+      "word_id": "W1474",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 2,
+      "surface": "vind",
+      "word_id": "W1468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 4,
+      "surface": "fijn",
+      "word_id": "W1475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 5,
+      "surface": "hier",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 6,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 7,
+      "surface": "werken",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 2,
+      "surface": "jammer",
+      "word_id": "W1474",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 2,
+      "surface": "fijn",
+      "word_id": "W1475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 1,
+      "surface": "Zo",
+      "word_id": "W1215",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 2,
+      "surface": "prachtig",
+      "word_id": "W1473",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 1,
+      "surface": "Mooie",
+      "word_id": "W1482",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 2,
+      "surface": "dag",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 1,
+      "surface": "Open",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 3,
+      "surface": "hart",
+      "word_id": "W1481",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 3,
+      "surface": "prachtig",
+      "word_id": "W1473",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 1,
+      "surface": "Dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 3,
+      "surface": "jammer",
+      "word_id": "W1474",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75031",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75031",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75031",
+      "position": 3,
+      "surface": "fantastisch",
+      "word_id": "W1472",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75032",
+      "position": 1,
+      "surface": "Muziek",
+      "word_id": "W1015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75032",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75032",
+      "position": 3,
+      "surface": "liefde",
+      "word_id": "W1480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75033",
+      "position": 1,
+      "surface": "Een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75033",
+      "position": 2,
+      "surface": "fijn",
+      "word_id": "W1475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75033",
+      "position": 3,
+      "surface": "weekend",
+      "word_id": "W1227",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75034",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75034",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75034",
+      "position": 3,
+      "surface": "fantastisch",
+      "word_id": "W1472",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75035",
+      "position": 1,
+      "surface": "Zij",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75035",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75035",
+      "position": 3,
+      "surface": "fantastisch",
+      "word_id": "W1472",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75036",
+      "position": 1,
+      "surface": "Liever",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75036",
+      "position": 2,
+      "surface": "laat",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75036",
+      "position": 3,
+      "surface": "dan",
+      "word_id": "W878",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75036",
+      "position": 4,
+      "surface": "nooit",
+      "word_id": "W1232",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75037",
+      "position": 1,
+      "surface": "Jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75037",
+      "position": 2,
+      "surface": "hebt",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75037",
+      "position": 3,
+      "surface": "geen",
+      "word_id": "W972",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75037",
+      "position": 4,
+      "surface": "hart",
+      "word_id": "W1481",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75038",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75038",
+      "position": 2,
+      "surface": "blijf",
+      "word_id": "W1450",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75038",
+      "position": 3,
+      "surface": "liever",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75038",
+      "position": 4,
+      "surface": "zitten",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75039",
+      "position": 1,
+      "surface": "Dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75039",
+      "position": 2,
+      "surface": "voelt",
+      "word_id": "W1477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75039",
+      "position": 3,
+      "surface": "niet",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75039",
+      "position": 4,
+      "surface": "goed",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75040",
+      "position": 1,
+      "surface": "U",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75040",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75040",
+      "position": 3,
+      "surface": "geen",
+      "word_id": "W972",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75040",
+      "position": 4,
+      "surface": "hart",
+      "word_id": "W1481",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A750011",
+      "sentence_id": "S75001",
+      "direction": "fr_to_en",
+      "answer": "Do you like this colour?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750151",
+      "sentence_id": "S75015",
+      "direction": "fr_to_en",
+      "answer": "Do you love music?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750152",
+      "sentence_id": "S75015",
+      "direction": "fr_to_en",
+      "answer": "Are you fond of music?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750201",
+      "sentence_id": "S75020",
+      "direction": "fr_to_en",
+      "answer": "Are you feeling better today?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750202",
+      "sentence_id": "S75020",
+      "direction": "fr_to_en",
+      "answer": "Do you feel any better today?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750241",
+      "sentence_id": "S75024",
+      "direction": "fr_to_en",
+      "answer": "How unfortunate!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750242",
+      "sentence_id": "S75024",
+      "direction": "fr_to_en",
+      "answer": "What a pity!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750243",
+      "sentence_id": "S75024",
+      "direction": "fr_to_en",
+      "answer": "That is so unfortunate!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750251",
+      "sentence_id": "S75025",
+      "direction": "fr_to_en",
+      "answer": "Wonderful!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750252",
+      "sentence_id": "S75025",
+      "direction": "fr_to_en",
+      "answer": "Terrific!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750291",
+      "sentence_id": "S75029",
+      "direction": "fr_to_en",
+      "answer": "They're lovely.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750301",
+      "sentence_id": "S75030",
+      "direction": "fr_to_en",
+      "answer": "That's unfortunate.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750302",
+      "sentence_id": "S75030",
+      "direction": "fr_to_en",
+      "answer": "That's too bad.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750303",
+      "sentence_id": "S75030",
+      "direction": "fr_to_en",
+      "answer": "What a shame.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750304",
+      "sentence_id": "S75030",
+      "direction": "fr_to_en",
+      "answer": "What a pity.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750311",
+      "sentence_id": "S75031",
+      "direction": "fr_to_en",
+      "answer": "Tom is awesome.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750312",
+      "sentence_id": "S75031",
+      "direction": "fr_to_en",
+      "answer": "Tom is fabulous.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750331",
+      "sentence_id": "S75033",
+      "direction": "fr_to_en",
+      "answer": "Have a good weekend!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750351",
+      "sentence_id": "S75035",
+      "direction": "fr_to_en",
+      "answer": "They're fabulous.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750371",
+      "sentence_id": "S75037",
+      "direction": "fr_to_en",
+      "answer": "You don't have a heart.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750401",
+      "sentence_id": "S75040",
+      "direction": "fr_to_en",
+      "answer": "You don't have a heart.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

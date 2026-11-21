@@ -14,5 +14,21 @@
     "fields_json": "[{\"key\":\"first\",\"label\":\"Voornaam\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"last\",\"label\":\"Achternaam\",\"rule\":\"text\",\"answer\":\"Bakker\"},{\"key\":\"age\",\"label\":\"Leeftijd\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationaliteit\",\"rule\":\"text\",\"answer\":\"Nederlandse\",\"also\":[\"Nederlands\",\"nederlandse\",\"nederlands\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrijk\"},{\"key\":\"tel\",\"label\":\"Telefoon\",\"rule\":\"phone\",\"answer\":\"06 12 15 19 20\"}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Jan en Anna gaan zaterdag om half negen 's avonds naar de bioscoop. Ze zien elkaar op het plein.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dag\",\"rule\":\"text\",\"answer\":\"zaterdag\",\"also\":[\"Zaterdag\",\"op zaterdag\"]},{\"key\":\"time\",\"label\":\"Tijd\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"8:30\",\"20.30\",\"8.30\",\"half negen\",\"om half negen\"]},{\"key\":\"where\",\"label\":\"Waar\",\"rule\":\"text\",\"answer\":\"op het plein\",\"also\":[\"plein\",\"het plein\",\"Op het plein\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Mijn naam is Anna. Ik ontbijt om zeven uur. Ik begin om negen uur met werken en om vijf uur ben ik klaar.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Naam\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"breakfast\",\"label\":\"Ontbijt\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"zeven\",\"om zeven uur\"]},{\"key\":\"start\",\"label\":\"Begin werk\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"negen\",\"om negen uur\"]},{\"key\":\"end\",\"label\":\"Einde werk\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"vijf\",\"om vijf uur\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

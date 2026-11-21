@@ -97,5 +97,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R201",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "De winkel",
+    "lines": "Open van maandag tot vrijdag: 9.00 tot 18.00 uur\nZaterdag: 10.00 tot 17.00 uur\nZondag: gesloten",
+    "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"Sunday\",\"Saturday\",\"Monday\"],\"answer\":0},{\"question\":\"What time does it open on Saturday?\",\"choices\":[\"10:00\",\"9:00\",\"17:00\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R202",
+    "unit_id": "U62",
+    "kind": "message",
+    "title": "Een bericht van Jan",
+    "lines": "Anna,\nzullen we woensdag naar de bioscoop gaan? Ik ben woensdag en donderdag vrij.\nOp zaterdag werk ik.\nJan",
+    "questions_json": "[{\"question\":\"When is Jan free?\",\"choices\":[\"Wednesday and Thursday\",\"Saturday\",\"Every day\"],\"answer\":0},{\"question\":\"What does Jan do on Saturday?\",\"choices\":[\"He works\",\"He goes to the cinema\",\"He stays at home\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R203",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Het museum",
+    "lines": "Het museum is op maandag gesloten.\nVoor kinderen: woensdag om 15.00 uur",
+    "questions_json": "[{\"question\":\"Which day is the museum closed?\",\"choices\":[\"Monday\",\"Wednesday\",\"Tuesday\"],\"answer\":0},{\"question\":\"When is the visit for children?\",\"choices\":[\"Wednesday at 3 pm\",\"Monday at 3 pm\",\"Wednesday at 5 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R204",
+    "unit_id": "U63",
+    "kind": "notice",
+    "title": "De vakantie",
+    "lines": "De school is gesloten van 20 december tot 5 januari.\nEerste schooldag: maandag 6 januari",
+    "questions_json": "[{\"question\":\"Which day of the week does school start again?\",\"choices\":[\"Monday\",\"Wednesday\",\"Saturday\"],\"answer\":0},{\"question\":\"When do the holidays begin?\",\"choices\":[\"20 December\",\"6 January\",\"5 January\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R205",
+    "unit_id": "U63",
+    "kind": "sign",
+    "title": "Het feest",
+    "lines": "Feest op het plein\nZaterdag 21 juni, 18.00 uur\nMuziek en dansen",
+    "questions_json": "[{\"question\":\"When is the party?\",\"choices\":[\"Saturday 21 June\",\"Sunday 21 June\",\"Saturday 21 July\"],\"answer\":0},{\"question\":\"What time does it start?\",\"choices\":[\"6 pm\",\"8 pm\",\"9 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R206",
+    "unit_id": "U63",
+    "kind": "message",
+    "title": "Een kaart van Maria",
+    "lines": "In juli gaan we naar zee.\nIn december gaan we naar de bergen.\nEn jij?",
+    "questions_json": "[{\"question\":\"Where does Maria go in July?\",\"choices\":[\"To the sea\",\"To the mountains\",\"To the city\"],\"answer\":0},{\"question\":\"When does she go to the mountains?\",\"choices\":[\"In December\",\"In July\",\"In spring\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R207",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Bij de winkel",
+    "lines": "Ingang\nOpen van 9.00 tot 19.00 uur\nOp zondag gesloten",
+    "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"On Sundays\",\"On Saturdays\",\"Every evening\"],\"answer\":0},{\"question\":\"What time does it close?\",\"choices\":[\"7 pm\",\"9 pm\",\"9 am\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R208",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Op het station",
+    "lines": "Toiletten: eerste verdieping\nApotheek: naast de uitgang\nInformatie: bij de ingang",
+    "questions_json": "[{\"question\":\"Where are the toilets?\",\"choices\":[\"On the first floor\",\"On the second floor\",\"Next to the exit\"],\"answer\":0},{\"question\":\"Where can you get information?\",\"choices\":[\"At the entrance\",\"At the chemist's\",\"On the train\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R209",
+    "unit_id": "U66",
+    "kind": "notice",
+    "title": "De bakker",
+    "lines": "Bakker Jansen\nElke dag open van 7.00 tot 18.00 uur\nVers brood om 7.00 en om 12.00 uur",
+    "questions_json": "[{\"question\":\"Is the bakery open on Sunday?\",\"choices\":[\"Yes\",\"No\",\"Only in the morning\"],\"answer\":0},{\"question\":\"When is there fresh bread?\",\"choices\":[\"At 7 am and 12 noon\",\"At 6 am only\",\"At 6 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R210",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Trein naar Utrecht",
+    "lines": "Vertrek 8.15 – aankomst 9.05\nVertrek 12.40 – aankomst 13.30\nVertrek 18.00 – aankomst 18.50",
+    "questions_json": "[{\"question\":\"When does the 12:40 train arrive?\",\"choices\":[\"13:30\",\"9:05\",\"18:50\"],\"answer\":0},{\"question\":\"What time is the first train?\",\"choices\":[\"8:15\",\"12:40\",\"18:00\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R211",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Boot naar Texel",
+    "lines": "Vertrek uit de haven: 7.00, 9.00, 11.00 uur\nZondag: elke twee uur een boot",
+    "questions_json": "[{\"question\":\"Where does the boat leave from?\",\"choices\":[\"The harbour\",\"The station\",\"The beach\"],\"answer\":0},{\"question\":\"How often is the boat on Sundays?\",\"choices\":[\"Every two hours\",\"Every hour\",\"Not at all\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R212",
+    "unit_id": "U67",
+    "kind": "message",
+    "title": "Een bericht van Tom",
+    "lines": "Ik kom om 17.30 uur aan op het station.\nMijn trein vertrekt om 15.00 uur uit Amsterdam.\nTot straks!",
+    "questions_json": "[{\"question\":\"When does Tom arrive?\",\"choices\":[\"5:30 pm\",\"3 pm\",\"7:30 pm\"],\"answer\":0},{\"question\":\"Where does his train leave from?\",\"choices\":[\"Amsterdam\",\"The airport\",\"Utrecht\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R213",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "In de les",
+    "lines": "Luister naar de tekst.\nBeantwoord de vragen.\nKies een foto.",
+    "questions_json": "[{\"question\":\"What do you do first?\",\"choices\":[\"Listen to the text\",\"Answer the questions\",\"Choose a photo\"],\"answer\":0},{\"question\":\"What do you choose?\",\"choices\":[\"A photo\",\"A book\",\"A word\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R214",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "De deur",
+    "lines": "Doe de deur dicht, alsjeblieft.\nLet op: langzaam dichtdoen.",
+    "questions_json": "[{\"question\":\"What should you do with the door?\",\"choices\":[\"Close it\",\"Leave it open\",\"Lock it\"],\"answer\":0},{\"question\":\"How should you close it?\",\"choices\":[\"Slowly\",\"Quickly\",\"With a key\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R215",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "De oefening",
+    "lines": "Kies een nummer.\nOpen het boek op die bladzijde.\nLees de tekst.",
+    "questions_json": "[{\"question\":\"What do you open?\",\"choices\":[\"The book\",\"The door\",\"The notebook\"],\"answer\":0},{\"question\":\"What do you do last?\",\"choices\":[\"Read the text\",\"Choose a number\",\"Close the book\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

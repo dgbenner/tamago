@@ -754,5 +754,887 @@
       "person": "wij, jullie, zij",
       "form": "leren"
     }
+  ],
+  "horen": [
+    {
+      "person": "ik",
+      "form": "hoor"
+    },
+    {
+      "person": "jij, je",
+      "form": "hoort"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "hoort"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "horen"
+    }
+  ],
+  "luisteren": [
+    {
+      "person": "ik",
+      "form": "luister"
+    },
+    {
+      "person": "jij, je",
+      "form": "luistert"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "luistert"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "luisteren"
+    }
+  ],
+  "verstaan": [
+    {
+      "person": "ik",
+      "form": "versta"
+    },
+    {
+      "person": "jij, je",
+      "form": "verstaat"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "verstaat"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "verstaan"
+    }
+  ],
+  "denken": [
+    {
+      "person": "ik",
+      "form": "denk"
+    },
+    {
+      "person": "jij, je",
+      "form": "denkt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "denkt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "denken"
+    }
+  ],
+  "zullen": [
+    {
+      "person": "ik",
+      "form": "zal"
+    },
+    {
+      "person": "jij, je",
+      "form": "zult"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zal"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zullen"
+    }
+  ],
+  "zien": [
+    {
+      "person": "ik",
+      "form": "zie"
+    },
+    {
+      "person": "jij, je",
+      "form": "ziet"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "ziet"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zien"
+    }
+  ],
+  "slapen": [
+    {
+      "person": "ik",
+      "form": "slaap"
+    },
+    {
+      "person": "jij, je",
+      "form": "slaapt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "slaapt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "slapen"
+    }
+  ],
+  "worden": [
+    {
+      "person": "ik",
+      "form": "word"
+    },
+    {
+      "person": "jij, je",
+      "form": "wordt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "wordt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "worden"
+    }
+  ],
+  "werken": [
+    {
+      "person": "ik",
+      "form": "werk"
+    },
+    {
+      "person": "jij, je",
+      "form": "werkt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "werkt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "werken"
+    }
+  ],
+  "beginnen": [
+    {
+      "person": "ik",
+      "form": "begin"
+    },
+    {
+      "person": "jij, je",
+      "form": "begint"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "begint"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "beginnen"
+    }
+  ],
+  "doen": [
+    {
+      "person": "ik",
+      "form": "doe"
+    },
+    {
+      "person": "jij, je",
+      "form": "doet"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "doet"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "doen"
+    }
+  ],
+  "maken": [
+    {
+      "person": "ik",
+      "form": "maak"
+    },
+    {
+      "person": "jij, je",
+      "form": "maakt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "maakt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "maken"
+    }
+  ],
+  "roken": [
+    {
+      "person": "ik",
+      "form": "rook"
+    },
+    {
+      "person": "jij, je",
+      "form": "rookt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "rookt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "roken"
+    }
+  ],
+  "parkeren": [
+    {
+      "person": "ik",
+      "form": "parkeer"
+    },
+    {
+      "person": "jij, je",
+      "form": "parkeert"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "parkeert"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "parkeren"
+    }
+  ],
+  "trekken": [
+    {
+      "person": "ik",
+      "form": "trek"
+    },
+    {
+      "person": "jij, je",
+      "form": "trekt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "trekt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "trekken"
+    }
+  ],
+  "duwen": [
+    {
+      "person": "ik",
+      "form": "duw"
+    },
+    {
+      "person": "jij, je",
+      "form": "duwt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "duwt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "duwen"
+    }
+  ],
+  "vertrekken": [
+    {
+      "person": "ik",
+      "form": "vertrek"
+    },
+    {
+      "person": "jij, je",
+      "form": "vertrekt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "vertrekt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "vertrekken"
+    }
+  ],
+  "reizen": [
+    {
+      "person": "ik",
+      "form": "reis"
+    },
+    {
+      "person": "jij, je",
+      "form": "reist"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "reist"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "reizen"
+    }
+  ],
+  "rijden": [
+    {
+      "person": "ik",
+      "form": "rij"
+    },
+    {
+      "person": "jij, je",
+      "form": "rijdt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "rijdt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "rijden"
+    }
+  ],
+  "geloven": [
+    {
+      "person": "ik",
+      "form": "geloof"
+    },
+    {
+      "person": "jij, je",
+      "form": "gelooft"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "gelooft"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "geloven"
+    }
+  ],
+  "hopen": [
+    {
+      "person": "ik",
+      "form": "hoop"
+    },
+    {
+      "person": "jij, je",
+      "form": "hoopt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "hoopt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "hopen"
+    }
+  ],
+  "letten": [
+    {
+      "person": "ik",
+      "form": "let"
+    },
+    {
+      "person": "jij, je",
+      "form": "let"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "let"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "letten"
+    }
+  ],
+  "kiezen": [
+    {
+      "person": "ik",
+      "form": "kies"
+    },
+    {
+      "person": "jij, je",
+      "form": "kiest"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "kiest"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "kiezen"
+    }
+  ],
+  "vullen": [
+    {
+      "person": "ik",
+      "form": "vul"
+    },
+    {
+      "person": "jij, je",
+      "form": "vult"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "vult"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "vullen"
+    }
+  ],
+  "zetten": [
+    {
+      "person": "ik",
+      "form": "zet"
+    },
+    {
+      "person": "jij, je",
+      "form": "zet"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zet"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zetten"
+    }
+  ],
+  "helpen": [
+    {
+      "person": "ik",
+      "form": "help"
+    },
+    {
+      "person": "jij, je",
+      "form": "helpt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "helpt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "helpen"
+    }
+  ],
+  "stoppen": [
+    {
+      "person": "ik",
+      "form": "stop"
+    },
+    {
+      "person": "jij, je",
+      "form": "stopt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "stopt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "stoppen"
+    }
+  ],
+  "vergeten": [
+    {
+      "person": "ik",
+      "form": "vergeet"
+    },
+    {
+      "person": "jij, je",
+      "form": "vergeet"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "vergeet"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "vergeten"
+    }
+  ],
+  "proberen": [
+    {
+      "person": "ik",
+      "form": "probeer"
+    },
+    {
+      "person": "jij, je",
+      "form": "probeert"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "probeert"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "proberen"
+    }
+  ],
+  "zitten": [
+    {
+      "person": "ik",
+      "form": "zit"
+    },
+    {
+      "person": "jij, je",
+      "form": "zit"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zit"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zitten"
+    }
+  ],
+  "regenen": [
+    {
+      "person": "ik",
+      "form": "regen"
+    },
+    {
+      "person": "jij, je",
+      "form": "regent"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "regent"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "regenen"
+    }
+  ],
+  "sneeuwen": [
+    {
+      "person": "ik",
+      "form": "sneeuw"
+    },
+    {
+      "person": "jij, je",
+      "form": "sneeuwt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "sneeuwt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "sneeuwen"
+    }
+  ],
+  "waaien": [
+    {
+      "person": "ik",
+      "form": "waai"
+    },
+    {
+      "person": "jij, je",
+      "form": "waait"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "waait"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "waaien"
+    }
+  ],
+  "geven": [
+    {
+      "person": "ik",
+      "form": "geef"
+    },
+    {
+      "person": "jij, je",
+      "form": "geeft"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "geeft"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "geven"
+    }
+  ],
+  "krijgen": [
+    {
+      "person": "ik",
+      "form": "krijg"
+    },
+    {
+      "person": "jij, je",
+      "form": "krijgt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "krijgt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "krijgen"
+    }
+  ],
+  "brengen": [
+    {
+      "person": "ik",
+      "form": "breng"
+    },
+    {
+      "person": "jij, je",
+      "form": "brengt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "brengt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "brengen"
+    }
+  ],
+  "halen": [
+    {
+      "person": "ik",
+      "form": "haal"
+    },
+    {
+      "person": "jij, je",
+      "form": "haalt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "haalt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "halen"
+    }
+  ],
+  "leggen": [
+    {
+      "person": "ik",
+      "form": "leg"
+    },
+    {
+      "person": "jij, je",
+      "form": "legt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "legt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "leggen"
+    }
+  ],
+  "pakken": [
+    {
+      "person": "ik",
+      "form": "pak"
+    },
+    {
+      "person": "jij, je",
+      "form": "pakt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "pakt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "pakken"
+    }
+  ],
+  "gebruiken": [
+    {
+      "person": "ik",
+      "form": "gebruik"
+    },
+    {
+      "person": "jij, je",
+      "form": "gebruikt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "gebruikt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "gebruiken"
+    }
+  ],
+  "lopen": [
+    {
+      "person": "ik",
+      "form": "loop"
+    },
+    {
+      "person": "jij, je",
+      "form": "loopt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "loopt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "lopen"
+    }
+  ],
+  "vallen": [
+    {
+      "person": "ik",
+      "form": "val"
+    },
+    {
+      "person": "jij, je",
+      "form": "valt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "valt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "vallen"
+    }
+  ],
+  "blijven": [
+    {
+      "person": "ik",
+      "form": "blijf"
+    },
+    {
+      "person": "jij, je",
+      "form": "blijft"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "blijft"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "blijven"
+    }
+  ],
+  "fietsen": [
+    {
+      "person": "ik",
+      "form": "fiets"
+    },
+    {
+      "person": "jij, je",
+      "form": "fietst"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "fietst"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "fietsen"
+    }
+  ],
+  "wandelen": [
+    {
+      "person": "ik",
+      "form": "wandel"
+    },
+    {
+      "person": "jij, je",
+      "form": "wandelt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "wandelt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "wandelen"
+    }
+  ],
+  "spelen": [
+    {
+      "person": "ik",
+      "form": "speel"
+    },
+    {
+      "person": "jij, je",
+      "form": "speelt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "speelt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "spelen"
+    }
+  ],
+  "tekenen": [
+    {
+      "person": "ik",
+      "form": "teken"
+    },
+    {
+      "person": "jij, je",
+      "form": "tekent"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "tekent"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "tekenen"
+    }
+  ],
+  "vinden": [
+    {
+      "person": "ik",
+      "form": "vind"
+    },
+    {
+      "person": "jij, je",
+      "form": "vindt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "vindt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "vinden"
+    }
+  ],
+  "voelen": [
+    {
+      "person": "ik",
+      "form": "voel"
+    },
+    {
+      "person": "jij, je",
+      "form": "voelt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "voelt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "voelen"
+    }
   ]
 }

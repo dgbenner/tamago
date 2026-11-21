@@ -1,0 +1,1442 @@
+{
+  "unit_id": "U67",
+  "pulled_at": "2026-11-21",
+  "candidates": 153,
+  "sentences": [
+    {
+      "sentence_id": "S67001",
+      "unit_id": "U67",
+      "french": "Mijn vlucht vertrekt over een uur.",
+      "english": "My flight will depart in an hour.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10647251",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rose_d",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67002",
+      "unit_id": "U67",
+      "french": "Mijn vlucht zal over een uur vertrekken.",
+      "english": "My flight will depart in an hour.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10647255",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rose_d",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67003",
+      "unit_id": "U67",
+      "french": "Rijdt u?",
+      "english": "Do you drive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6275000",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67004",
+      "unit_id": "U67",
+      "french": "Rijden jullie?",
+      "english": "Do you drive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6275004",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67005",
+      "unit_id": "U67",
+      "french": "Wie rijdt?",
+      "english": "Who's driving?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7706455",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67006",
+      "unit_id": "U67",
+      "french": "Rijdt Tom?",
+      "english": "Does Tom drive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9388665",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67007",
+      "unit_id": "U67",
+      "french": "Kan je rijden?",
+      "english": "Do you drive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6274997",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": [
+        "Can you drive?"
+      ]
+    },
+    {
+      "sentence_id": "S67008",
+      "unit_id": "U67",
+      "french": "Kan u rijden?",
+      "english": "Do you drive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6275001",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67009",
+      "unit_id": "U67",
+      "french": "Vertrekt u morgen?",
+      "english": "Are you leaving tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10677257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67010",
+      "unit_id": "U67",
+      "french": "Wanneer vertrekken we?",
+      "english": "When do we set out?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11555894",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67011",
+      "unit_id": "U67",
+      "french": "Heb je een kaartje?",
+      "english": "Do you have a ticket?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1400232",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DjWLaan",
+      "other_english": [
+        "Have you got a ticket?"
+      ]
+    },
+    {
+      "sentence_id": "S67012",
+      "unit_id": "U67",
+      "french": "Moet je vandaag vertrekken?",
+      "english": "Do you need to leave today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6841125",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67013",
+      "unit_id": "U67",
+      "french": "Wanneer kan ik reizen?",
+      "english": "When can I travel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7831465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67014",
+      "unit_id": "U67",
+      "french": "Reis je meestal alleen?",
+      "english": "Do you usually travel alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13101830",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67015",
+      "unit_id": "U67",
+      "french": "Wanneer vertrekt de volgende trein?",
+      "english": "When does the next train leave?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "712219",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67016",
+      "unit_id": "U67",
+      "french": "Hoe laat is de vlucht?",
+      "english": "What time is the flight?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5789040",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "simonbr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67017",
+      "unit_id": "U67",
+      "french": "Waar kan ik een kaartje kopen?",
+      "english": "Where can I buy a ticket?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8436497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67018",
+      "unit_id": "U67",
+      "french": "Wat voor boot wil je kopen?",
+      "english": "What kind of boat do you want to buy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10693556",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67019",
+      "unit_id": "U67",
+      "french": "Ik reis graag.",
+      "english": "I like to travel.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "839102",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": [
+        "I love to travel."
+      ]
+    },
+    {
+      "sentence_id": "S67020",
+      "unit_id": "U67",
+      "french": "Ik reis veel.",
+      "english": "I travel a lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4121577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67021",
+      "unit_id": "U67",
+      "french": "Reizen is leuk.",
+      "english": "It's fun to travel.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8836071",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67022",
+      "unit_id": "U67",
+      "french": "Uw kaartje, alstublieft.",
+      "english": "Your ticket, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8837356",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67023",
+      "unit_id": "U67",
+      "french": "Ik wil reizen.",
+      "english": "I wanna travel.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9022240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "I want to travel."
+      ]
+    },
+    {
+      "sentence_id": "S67024",
+      "unit_id": "U67",
+      "french": "Ik heb enkele boeken.",
+      "english": "I have a few books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "608740",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67025",
+      "unit_id": "U67",
+      "french": "Ze heeft enkele boeken.",
+      "english": "She has a few books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3100278",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67026",
+      "unit_id": "U67",
+      "french": "Dat is een boot.",
+      "english": "That's a boat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7717631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "That is a boat."
+      ]
+    },
+    {
+      "sentence_id": "S67027",
+      "unit_id": "U67",
+      "french": "Ik heb een boot.",
+      "english": "I have a boat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8466628",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "I've got a boat."
+      ]
+    },
+    {
+      "sentence_id": "S67028",
+      "unit_id": "U67",
+      "french": "Ik wacht op je aankomst.",
+      "english": "I await your arrival.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7041087",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67029",
+      "unit_id": "U67",
+      "french": "Geen enkele is van mij.",
+      "english": "None of them are mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10756787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S67030",
+      "unit_id": "U67",
+      "french": "Kunt u rijden?",
+      "english": "Can you drive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7814809",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S67001",
+      "position": 1,
+      "surface": "Mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67001",
+      "position": 2,
+      "surface": "vlucht",
+      "word_id": "W1339",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67001",
+      "position": 3,
+      "surface": "vertrekt",
+      "word_id": "W1323",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67001",
+      "position": 4,
+      "surface": "over",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67001",
+      "position": 5,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67001",
+      "position": 6,
+      "surface": "uur",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67002",
+      "position": 1,
+      "surface": "Mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67002",
+      "position": 2,
+      "surface": "vlucht",
+      "word_id": "W1339",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67002",
+      "position": 3,
+      "surface": "zal",
+      "word_id": "W1272",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67002",
+      "position": 4,
+      "surface": "over",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67002",
+      "position": 5,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67002",
+      "position": 6,
+      "surface": "uur",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67002",
+      "position": 7,
+      "surface": "vertrekken",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67003",
+      "position": 1,
+      "surface": "Rijdt",
+      "word_id": "W1337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67003",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67004",
+      "position": 1,
+      "surface": "Rijden",
+      "word_id": "W1338",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67004",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67005",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67005",
+      "position": 2,
+      "surface": "rijdt",
+      "word_id": "W1337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67006",
+      "position": 1,
+      "surface": "Rijdt",
+      "word_id": "W1337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67006",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67007",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67007",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67007",
+      "position": 3,
+      "surface": "rijden",
+      "word_id": "W1338",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67008",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67008",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67008",
+      "position": 3,
+      "surface": "rijden",
+      "word_id": "W1338",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67009",
+      "position": 1,
+      "surface": "Vertrekt",
+      "word_id": "W1323",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67009",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67009",
+      "position": 3,
+      "surface": "morgen",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67010",
+      "position": 1,
+      "surface": "Wanneer",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67010",
+      "position": 2,
+      "surface": "vertrekken",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67010",
+      "position": 3,
+      "surface": "we",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67011",
+      "position": 1,
+      "surface": "Heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67011",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67011",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67011",
+      "position": 4,
+      "surface": "kaartje",
+      "word_id": "W1332",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67012",
+      "position": 1,
+      "surface": "Moet",
+      "word_id": "W934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67012",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67012",
+      "position": 3,
+      "surface": "vandaag",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67012",
+      "position": 4,
+      "surface": "vertrekken",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67013",
+      "position": 1,
+      "surface": "Wanneer",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67013",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67013",
+      "position": 3,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67013",
+      "position": 4,
+      "surface": "reizen",
+      "word_id": "W1331",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67014",
+      "position": 1,
+      "surface": "Reis",
+      "word_id": "W1330",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67014",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67014",
+      "position": 3,
+      "surface": "meestal",
+      "word_id": "W1235",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67014",
+      "position": 4,
+      "surface": "alleen",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67015",
+      "position": 1,
+      "surface": "Wanneer",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67015",
+      "position": 2,
+      "surface": "vertrekt",
+      "word_id": "W1323",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67015",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67015",
+      "position": 4,
+      "surface": "volgende",
+      "word_id": "W1236",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67015",
+      "position": 5,
+      "surface": "trein",
+      "word_id": "W1032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67016",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67016",
+      "position": 2,
+      "surface": "laat",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67016",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67016",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67016",
+      "position": 5,
+      "surface": "vlucht",
+      "word_id": "W1339",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67017",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67017",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67017",
+      "position": 3,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67017",
+      "position": 4,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67017",
+      "position": 5,
+      "surface": "kaartje",
+      "word_id": "W1332",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67017",
+      "position": 6,
+      "surface": "kopen",
+      "word_id": "W919",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67018",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67018",
+      "position": 2,
+      "surface": "voor",
+      "word_id": "W955",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67018",
+      "position": 3,
+      "surface": "boot",
+      "word_id": "W1328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67018",
+      "position": 4,
+      "surface": "wil",
+      "word_id": "W920",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67018",
+      "position": 5,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67018",
+      "position": 6,
+      "surface": "kopen",
+      "word_id": "W919",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67019",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67019",
+      "position": 2,
+      "surface": "reis",
+      "word_id": "W1330",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67019",
+      "position": 3,
+      "surface": "graag",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67020",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67020",
+      "position": 2,
+      "surface": "reis",
+      "word_id": "W1330",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67020",
+      "position": 3,
+      "surface": "veel",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67021",
+      "position": 1,
+      "surface": "Reizen",
+      "word_id": "W1331",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67021",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67021",
+      "position": 3,
+      "surface": "leuk",
+      "word_id": "W101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67022",
+      "position": 1,
+      "surface": "Uw",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67022",
+      "position": 2,
+      "surface": "kaartje",
+      "word_id": "W1332",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67022",
+      "position": 3,
+      "surface": "alstublieft",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67023",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67023",
+      "position": 2,
+      "surface": "wil",
+      "word_id": "W920",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67023",
+      "position": 3,
+      "surface": "reizen",
+      "word_id": "W1331",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67024",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67024",
+      "position": 2,
+      "surface": "heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67024",
+      "position": 3,
+      "surface": "enkele",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67024",
+      "position": 4,
+      "surface": "boeken",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67025",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67025",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67025",
+      "position": 3,
+      "surface": "enkele",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67025",
+      "position": 4,
+      "surface": "boeken",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67026",
+      "position": 1,
+      "surface": "Dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67026",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67026",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67026",
+      "position": 4,
+      "surface": "boot",
+      "word_id": "W1328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67027",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67027",
+      "position": 2,
+      "surface": "heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67027",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67027",
+      "position": 4,
+      "surface": "boot",
+      "word_id": "W1328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67028",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67028",
+      "position": 2,
+      "surface": "wacht",
+      "word_id": "W860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67028",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67028",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67028",
+      "position": 5,
+      "surface": "aankomst",
+      "word_id": "W1326",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67029",
+      "position": 1,
+      "surface": "Geen",
+      "word_id": "W972",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67029",
+      "position": 2,
+      "surface": "enkele",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67029",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67029",
+      "position": 4,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67029",
+      "position": 5,
+      "surface": "mij",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67030",
+      "position": 1,
+      "surface": "Kunt",
+      "word_id": "W824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67030",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S67030",
+      "position": 3,
+      "surface": "rijden",
+      "word_id": "W1338",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A670071",
+      "sentence_id": "S67007",
+      "direction": "fr_to_en",
+      "answer": "Can you drive?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A670111",
+      "sentence_id": "S67011",
+      "direction": "fr_to_en",
+      "answer": "Have you got a ticket?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A670191",
+      "sentence_id": "S67019",
+      "direction": "fr_to_en",
+      "answer": "I love to travel.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A670231",
+      "sentence_id": "S67023",
+      "direction": "fr_to_en",
+      "answer": "I want to travel.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A670261",
+      "sentence_id": "S67026",
+      "direction": "fr_to_en",
+      "answer": "That is a boat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A670271",
+      "sentence_id": "S67027",
+      "direction": "fr_to_en",
+      "answer": "I've got a boat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
