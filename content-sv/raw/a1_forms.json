@@ -14,5 +14,21 @@
     "fields_json": "[{\"key\":\"first\",\"label\":\"Förnamn\",\"rule\":\"text\",\"answer\":\"Eva\"},{\"key\":\"last\",\"label\":\"Efternamn\",\"rule\":\"text\",\"answer\":\"Lind\"},{\"key\":\"age\",\"label\":\"Ålder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Medborgarskap\",\"rule\":\"text\",\"answer\":\"svensk\",\"also\":[\"Svensk\",\"svenska\",\"Svenska\",\"Sverige\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrike\"},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"070 524 12 19\"}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Erik och Anna ska gå på bio på lördag klockan halv nio på kvällen. De ses på torget.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dag\",\"rule\":\"text\",\"answer\":\"lördag\",\"also\":[\"Lördag\",\"på lördag\"]},{\"key\":\"time\",\"label\":\"Tid\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"8:30\",\"20.30\",\"8.30\",\"halv nio\",\"klockan halv nio\"]},{\"key\":\"where\",\"label\":\"Var\",\"rule\":\"text\",\"answer\":\"på torget\",\"also\":[\"torget\",\"torg\",\"På torget\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Jag heter Anna. Jag äter frukost klockan sju. Jag börjar jobba klockan nio och slutar klockan fem.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Namn\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"breakfast\",\"label\":\"Frukost\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"sju\",\"klockan sju\"]},{\"key\":\"start\",\"label\":\"Börjar jobba\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"nio\",\"klockan nio\"]},{\"key\":\"end\",\"label\":\"Slutar jobba\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"fem\",\"klockan fem\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

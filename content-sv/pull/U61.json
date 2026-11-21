@@ -1,0 +1,1523 @@
+{
+  "unit_id": "U61",
+  "pulled_at": "2026-11-21",
+  "candidates": 128,
+  "sentences": [
+    {
+      "sentence_id": "S61001",
+      "unit_id": "U61",
+      "french": "Vill du gå?",
+      "english": "Do you want to go?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "774788",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marloncori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61002",
+      "unit_id": "U61",
+      "french": "Kan jag gå?",
+      "english": "Can I go?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4328560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": [
+        "May I go?"
+      ]
+    },
+    {
+      "sentence_id": "S61003",
+      "unit_id": "U61",
+      "french": "Måste du gå?",
+      "english": "Do you need to go?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5265557",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "YlvaEmelia",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61004",
+      "unit_id": "U61",
+      "french": "Hur sent är det?",
+      "english": "How late is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4344806",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61005",
+      "unit_id": "U61",
+      "french": "Varför kommer du så tidigt?",
+      "english": "Why did you come early?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1141859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arahlen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61006",
+      "unit_id": "U61",
+      "french": "Var bor du just nu?",
+      "english": "Where do you live at the moment?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2193708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61007",
+      "unit_id": "U61",
+      "french": "Kan jag träffa dig senare?",
+      "english": "Can I see you later?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4357877",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61008",
+      "unit_id": "U61",
+      "french": "Vad äter du just nu?",
+      "english": "What are you eating right now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6302973",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JanErikJ",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61009",
+      "unit_id": "U61",
+      "french": "Har du tillräckligt med tid?",
+      "english": "Do you have enough time?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10689458",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61010",
+      "unit_id": "U61",
+      "french": "Kan jag ringa dig senare?",
+      "english": "Can I ring you later?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12023481",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61011",
+      "unit_id": "U61",
+      "french": "Vad gör han just nu?",
+      "english": "What does he do at the moment?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12105345",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "johanrhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61012",
+      "unit_id": "U61",
+      "french": "Har du tid att komma imorgon?",
+      "english": "Do you have time to come tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2115640",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "freddy1",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61013",
+      "unit_id": "U61",
+      "french": "Kan du hjälpa mig en minut?",
+      "english": "Will you help me for a minute?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4388061",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61014",
+      "unit_id": "U61",
+      "french": "Hur mycket mer tid vill Tom ha?",
+      "english": "How much more time does Tom want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12096976",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "johanrhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61015",
+      "unit_id": "U61",
+      "french": "Vad gör vi om han är sen?",
+      "english": "What will we do if he's late?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12110730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "johanrhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61016",
+      "unit_id": "U61",
+      "french": "För sent.",
+      "english": "Too late.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2080790",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Balamax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61017",
+      "unit_id": "U61",
+      "french": "God natt!",
+      "english": "Good night!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3742599",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61018",
+      "unit_id": "U61",
+      "french": "God eftermiddag!",
+      "english": "Good afternoon!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8441248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61019",
+      "unit_id": "U61",
+      "french": "Kanske senare.",
+      "english": "Maybe later.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8668265",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajje",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61020",
+      "unit_id": "U61",
+      "french": "Du är sen.",
+      "english": "You're late.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1990638",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": [
+        "You are late."
+      ]
+    },
+    {
+      "sentence_id": "S61021",
+      "unit_id": "U61",
+      "french": "Tom är tidig.",
+      "english": "Tom's early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2114778",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61022",
+      "unit_id": "U61",
+      "french": "Det är sent.",
+      "english": "It is late.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3882548",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61023",
+      "unit_id": "U61",
+      "french": "Jag är sen.",
+      "english": "I'm late.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4408856",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61024",
+      "unit_id": "U61",
+      "french": "Jag är lite tidig.",
+      "english": "I'm a little early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2043999",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61025",
+      "unit_id": "U61",
+      "french": "Du är tidig igen.",
+      "english": "You're early again.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3739429",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61026",
+      "unit_id": "U61",
+      "french": "Ge den en minut.",
+      "english": "Give it a minute.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4339950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61027",
+      "unit_id": "U61",
+      "french": "Ge Tom en minut.",
+      "english": "Give Tom a minute.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4340045",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61028",
+      "unit_id": "U61",
+      "french": "Ge oss tre minuter.",
+      "english": "Give us three minutes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4439858",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61029",
+      "unit_id": "U61",
+      "french": "Ge mig tre minuter.",
+      "english": "Give me three minutes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4439860",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61030",
+      "unit_id": "U61",
+      "french": "Vi har tre minuter.",
+      "english": "We have three minutes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4439861",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61031",
+      "unit_id": "U61",
+      "french": "Jag kommer hem halv tre.",
+      "english": "I'm coming home at half two.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10011118",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": [
+        "I'm coming home at half past two."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S61001",
+      "position": 1,
+      "surface": "Vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61001",
+      "position": 3,
+      "surface": "gå",
+      "word_id": "W1386",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 3,
+      "surface": "gå",
+      "word_id": "W1386",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61003",
+      "position": 1,
+      "surface": "Måste",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61003",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61003",
+      "position": 3,
+      "surface": "gå",
+      "word_id": "W1386",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 2,
+      "surface": "sent",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 1,
+      "surface": "Varför",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 2,
+      "surface": "kommer",
+      "word_id": "W913",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 4,
+      "surface": "så",
+      "word_id": "W825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 5,
+      "surface": "tidigt",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 1,
+      "surface": "Var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 2,
+      "surface": "bor",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 4,
+      "surface": "just",
+      "word_id": "W1216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 5,
+      "surface": "nu",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 3,
+      "surface": "träffa",
+      "word_id": "W944",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 4,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 5,
+      "surface": "senare",
+      "word_id": "W1214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 2,
+      "surface": "äter",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 4,
+      "surface": "just",
+      "word_id": "W1216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 5,
+      "surface": "nu",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 3,
+      "surface": "tillräckligt",
+      "word_id": "W985",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 4,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 5,
+      "surface": "tid",
+      "word_id": "W1205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 3,
+      "surface": "ringa",
+      "word_id": "W830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 4,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 5,
+      "surface": "senare",
+      "word_id": "W1214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 2,
+      "surface": "gör",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 3,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 4,
+      "surface": "just",
+      "word_id": "W1216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 5,
+      "surface": "nu",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 3,
+      "surface": "tid",
+      "word_id": "W1205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 4,
+      "surface": "att",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 5,
+      "surface": "komma",
+      "word_id": "W945",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 6,
+      "surface": "imorgon",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 3,
+      "surface": "hjälpa",
+      "word_id": "W823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 4,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 6,
+      "surface": "minut",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 2,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 3,
+      "surface": "mer",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 4,
+      "surface": "tid",
+      "word_id": "W1205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 5,
+      "surface": "vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 7,
+      "surface": "ha",
+      "word_id": "W928",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 2,
+      "surface": "gör",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 3,
+      "surface": "vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 4,
+      "surface": "om",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 5,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 6,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 7,
+      "surface": "sen",
+      "word_id": "W1213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61016",
+      "position": 1,
+      "surface": "För",
+      "word_id": "W970",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61016",
+      "position": 2,
+      "surface": "sent",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61017",
+      "position": 1,
+      "surface": "God",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61017",
+      "position": 2,
+      "surface": "natt",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61018",
+      "position": 1,
+      "surface": "God",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61018",
+      "position": 2,
+      "surface": "eftermiddag",
+      "word_id": "W1207",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61019",
+      "position": 1,
+      "surface": "Kanske",
+      "word_id": "W954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61019",
+      "position": 2,
+      "surface": "senare",
+      "word_id": "W1214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61020",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61020",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61020",
+      "position": 3,
+      "surface": "sen",
+      "word_id": "W1213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61021",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61021",
+      "position": 3,
+      "surface": "tidig",
+      "word_id": "W1211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61022",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61022",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61022",
+      "position": 3,
+      "surface": "sent",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61023",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61023",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61023",
+      "position": 3,
+      "surface": "sen",
+      "word_id": "W1213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 3,
+      "surface": "lite",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 4,
+      "surface": "tidig",
+      "word_id": "W1211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 3,
+      "surface": "tidig",
+      "word_id": "W1211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 4,
+      "surface": "igen",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 1,
+      "surface": "Ge",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 2,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 4,
+      "surface": "minut",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 1,
+      "surface": "Ge",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 4,
+      "surface": "minut",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 1,
+      "surface": "Ge",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 2,
+      "surface": "oss",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 3,
+      "surface": "tre",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 4,
+      "surface": "minuter",
+      "word_id": "W1204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 1,
+      "surface": "Ge",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 3,
+      "surface": "tre",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 4,
+      "surface": "minuter",
+      "word_id": "W1204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 3,
+      "surface": "tre",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 4,
+      "surface": "minuter",
+      "word_id": "W1204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 2,
+      "surface": "kommer",
+      "word_id": "W913",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 3,
+      "surface": "hem",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 4,
+      "surface": "halv",
+      "word_id": "W1201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 5,
+      "surface": "tre",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A610021",
+      "sentence_id": "S61002",
+      "direction": "fr_to_en",
+      "answer": "May I go?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A610201",
+      "sentence_id": "S61020",
+      "direction": "fr_to_en",
+      "answer": "You are late.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A610311",
+      "sentence_id": "S61031",
+      "direction": "fr_to_en",
+      "answer": "I'm coming home at half past two.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

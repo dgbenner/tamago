@@ -53,8 +53,8 @@ const BY_COURSE = {
   // åt …), web-page leftovers and parliamentary register. Everyday words the corpus over-represents (land, fråga, krona)
   // stay.
   sv: {
-    artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta'],
-    subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg'],
+    artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta', 'peng'],
+    subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg', 'kl.'],
     register: ['regering', 'riksdag', 'kommun', 'myndighet', 'kommission', 'socialdemokrat', 'åtgärd', 'verksamhet', 'enligt', 'samt', 'därmed', 'såsom', 'utgöra', 'innebära', 'genomföra', 'anmäla'],
     violence: ['krig', 'dö', 'död', 'slå'],
   },

@@ -1,0 +1,739 @@
+{
+  "unit_id": "U66",
+  "pulled_at": "2026-11-21",
+  "candidates": 15,
+  "sentences": [
+    {
+      "sentence_id": "S66001",
+      "unit_id": "U66",
+      "french": "Rökning förbjudet.",
+      "english": "No smoking.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3553141",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "okjhum",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66002",
+      "unit_id": "U66",
+      "french": "Rökning är förbjudet.",
+      "english": "Smoking is prohibited.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2717979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SilasNordgren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66003",
+      "unit_id": "U66",
+      "french": "Rökning är förbjudet här.",
+      "english": "Smoking is prohibited here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4350264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66004",
+      "unit_id": "U66",
+      "french": "Är det gratis?",
+      "english": "Is it free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1990468",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66005",
+      "unit_id": "U66",
+      "french": "Finns det en toalett här någonstans?",
+      "english": "Is there a toilet somewhere?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6364172",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SilasNordgren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66006",
+      "unit_id": "U66",
+      "french": "Det är gratis.",
+      "english": "It's free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1435213",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arahlen",
+      "other_english": [
+        "That's free.",
+        "It's free of charge.",
+        "It is free of charge."
+      ]
+    },
+    {
+      "sentence_id": "S66007",
+      "unit_id": "U66",
+      "french": "Tom är fri.",
+      "english": "Tom's free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2113535",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "Tom is free."
+      ]
+    },
+    {
+      "sentence_id": "S66008",
+      "unit_id": "U66",
+      "french": "Allt är gratis.",
+      "english": "Everything's free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4412074",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66009",
+      "unit_id": "U66",
+      "french": "Jag är fri.",
+      "english": "I'm free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8478996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66010",
+      "unit_id": "U66",
+      "french": "Jag måste vara fri.",
+      "english": "I've got to be free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4343510",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66011",
+      "unit_id": "U66",
+      "french": "Vi vill endast ha dig.",
+      "english": "We only want you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3712269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66012",
+      "unit_id": "U66",
+      "french": "Tom talar endast ett språk.",
+      "english": "Tom only speaks one language.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11602899",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66013",
+      "unit_id": "U66",
+      "french": "Vi får den gratis.",
+      "english": "We get it for free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4338832",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66014",
+      "unit_id": "U66",
+      "french": "De där är gratis.",
+      "english": "Those are free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4441915",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66015",
+      "unit_id": "U66",
+      "french": "Jag är fri som en fågel.",
+      "english": "I'm as free as a bird.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2140384",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "loghaD",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S66001",
+      "position": 1,
+      "surface": "Rökning",
+      "word_id": "W1333",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 2,
+      "surface": "förbjudet",
+      "word_id": "W1329",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 1,
+      "surface": "Rökning",
+      "word_id": "W1333",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 3,
+      "surface": "förbjudet",
+      "word_id": "W1329",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 1,
+      "surface": "Rökning",
+      "word_id": "W1333",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 3,
+      "surface": "förbjudet",
+      "word_id": "W1329",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 4,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 1,
+      "surface": "Finns",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 4,
+      "surface": "toalett",
+      "word_id": "W1332",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 5,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 6,
+      "surface": "någonstans",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 3,
+      "surface": "fri",
+      "word_id": "W1337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 1,
+      "surface": "Allt",
+      "word_id": "W987",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 3,
+      "surface": "fri",
+      "word_id": "W1337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 2,
+      "surface": "måste",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 3,
+      "surface": "vara",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 4,
+      "surface": "fri",
+      "word_id": "W1337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 2,
+      "surface": "vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 3,
+      "surface": "endast",
+      "word_id": "W1335",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 4,
+      "surface": "ha",
+      "word_id": "W928",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 5,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 2,
+      "surface": "talar",
+      "word_id": "W920",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 3,
+      "surface": "endast",
+      "word_id": "W1335",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 4,
+      "surface": "ett",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 5,
+      "surface": "språk",
+      "word_id": "W919",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 2,
+      "surface": "får",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 3,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 4,
+      "surface": "gratis",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 2,
+      "surface": "där",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 4,
+      "surface": "gratis",
+      "word_id": "W1334",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 3,
+      "surface": "fri",
+      "word_id": "W1337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 4,
+      "surface": "som",
+      "word_id": "W1148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 6,
+      "surface": "fågel",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A660061",
+      "sentence_id": "S66006",
+      "direction": "fr_to_en",
+      "answer": "That's free.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660062",
+      "sentence_id": "S66006",
+      "direction": "fr_to_en",
+      "answer": "It's free of charge.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660063",
+      "sentence_id": "S66006",
+      "direction": "fr_to_en",
+      "answer": "It is free of charge.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660071",
+      "sentence_id": "S66007",
+      "direction": "fr_to_en",
+      "answer": "Tom is free.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,0 +1,1528 @@
+{
+  "unit_id": "U68",
+  "pulled_at": "2026-11-21",
+  "candidates": 33,
+  "sentences": [
+    {
+      "sentence_id": "S68001",
+      "unit_id": "U68",
+      "french": "Stannar du hemma?",
+      "english": "Will you stay at home?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3829554",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "Are you staying at home?"
+      ]
+    },
+    {
+      "sentence_id": "S68002",
+      "unit_id": "U68",
+      "french": "Är tåget försenat?",
+      "english": "Has the train been delayed?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4445185",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68003",
+      "unit_id": "U68",
+      "french": "Varför stannar du här?",
+      "english": "Why do you stay here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4328364",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68004",
+      "unit_id": "U68",
+      "french": "Hur länge stannar du?",
+      "english": "How long will you be staying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10077971",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68005",
+      "unit_id": "U68",
+      "french": "Är det där mina glasögon?",
+      "english": "Are those my glasses?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4317076",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68006",
+      "unit_id": "U68",
+      "french": "Vänligen kör långsammare.",
+      "english": "Please drive slower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3453007",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mrkalling",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68007",
+      "unit_id": "U68",
+      "french": "Tåget är försenat.",
+      "english": "The train has been delayed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4445186",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68008",
+      "unit_id": "U68",
+      "french": "Jag gör mina läxor.",
+      "english": "I'm doing my homework.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2086178",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "I am doing my homework."
+      ]
+    },
+    {
+      "sentence_id": "S68009",
+      "unit_id": "U68",
+      "french": "Ge mig mina pengar.",
+      "english": "Give me my money.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4339971",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68010",
+      "unit_id": "U68",
+      "french": "Stannar du och äter middag?",
+      "english": "Are you staying for dinner?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4445155",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68011",
+      "unit_id": "U68",
+      "french": "Gör det något om jag stannar här?",
+      "english": "Do you mind if I stay here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4350252",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68012",
+      "unit_id": "U68",
+      "french": "Jag stannar här.",
+      "english": "I'll be here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1996706",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "I'm staying here."
+      ]
+    },
+    {
+      "sentence_id": "S68013",
+      "unit_id": "U68",
+      "french": "Vi stannar här.",
+      "english": "Let's stop here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2830776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68014",
+      "unit_id": "U68",
+      "french": "Jag kanske stannar.",
+      "english": "Maybe I'll stay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3712253",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68015",
+      "unit_id": "U68",
+      "french": "Kanske stannar jag.",
+      "english": "Maybe I'll stay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3712254",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68016",
+      "unit_id": "U68",
+      "french": "Tom stannar nog.",
+      "english": "Tom'll stay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4409050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68017",
+      "unit_id": "U68",
+      "french": "Jag stannar hemma.",
+      "english": "I stay home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9015029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": [
+        "I am staying home."
+      ]
+    },
+    {
+      "sentence_id": "S68018",
+      "unit_id": "U68",
+      "french": "Jag behöver mina glasögon.",
+      "english": "I need my glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4354247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68019",
+      "unit_id": "U68",
+      "french": "Mina föräldrar är där.",
+      "english": "My parents are there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4446111",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68020",
+      "unit_id": "U68",
+      "french": "Alla dessa böcker är mina.",
+      "english": "All of these books are mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "372451",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ilayde",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68021",
+      "unit_id": "U68",
+      "french": "Tåget stannar på varje station.",
+      "english": "The train stops at every station.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1959099",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68022",
+      "unit_id": "U68",
+      "french": "Det här är mina byxor.",
+      "english": "These are my pants.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2257129",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68023",
+      "unit_id": "U68",
+      "french": "Jag tror att jag stannar.",
+      "english": "I think I'll stay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3713699",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68024",
+      "unit_id": "U68",
+      "french": "Jag hittar inte mina skor.",
+      "english": "I can't find my shoes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3807148",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68025",
+      "unit_id": "U68",
+      "french": "Det där är mina skor.",
+      "english": "Those are my shoes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4370917",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68026",
+      "unit_id": "U68",
+      "french": "Mina lärare tycker om mig.",
+      "english": "My teachers like me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4446125",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68027",
+      "unit_id": "U68",
+      "french": "Jag vill ha mina pengar.",
+      "english": "I want my money.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10692754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68028",
+      "unit_id": "U68",
+      "french": "Jag letar efter mina föräldrar.",
+      "english": "I'm looking for my parents.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10702158",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S68029",
+      "unit_id": "U68",
+      "french": "Jag sjunger med mina barn.",
+      "english": "I'm singing with my children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10954619",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": [
+        "I am singing with my children."
+      ]
+    },
+    {
+      "sentence_id": "S68030",
+      "unit_id": "U68",
+      "french": "Tom stannar i tre dagar till.",
+      "english": "Tom is going to stay for another three days.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5882494",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S68001",
+      "position": 1,
+      "surface": "Stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68001",
+      "position": 3,
+      "surface": "hemma",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68002",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68002",
+      "position": 2,
+      "surface": "tåget",
+      "word_id": "W1389",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68002",
+      "position": 3,
+      "surface": "försenat",
+      "word_id": "W1361",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68003",
+      "position": 1,
+      "surface": "Varför",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68003",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68003",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68003",
+      "position": 4,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68004",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68004",
+      "position": 2,
+      "surface": "länge",
+      "word_id": "W1246",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68004",
+      "position": 3,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68004",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68005",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68005",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68005",
+      "position": 3,
+      "surface": "där",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68005",
+      "position": 4,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68005",
+      "position": 5,
+      "surface": "glasögon",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68006",
+      "position": 1,
+      "surface": "Vänligen",
+      "word_id": "W1365",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68006",
+      "position": 2,
+      "surface": "kör",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68006",
+      "position": 3,
+      "surface": "långsammare",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68007",
+      "position": 1,
+      "surface": "Tåget",
+      "word_id": "W1389",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68007",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68007",
+      "position": 3,
+      "surface": "försenat",
+      "word_id": "W1361",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68008",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68008",
+      "position": 2,
+      "surface": "gör",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68008",
+      "position": 3,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68008",
+      "position": 4,
+      "surface": "läxor",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68009",
+      "position": 1,
+      "surface": "Ge",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68009",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68009",
+      "position": 3,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68009",
+      "position": 4,
+      "surface": "pengar",
+      "word_id": "W969",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68010",
+      "position": 1,
+      "surface": "Stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68010",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68010",
+      "position": 3,
+      "surface": "och",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68010",
+      "position": 4,
+      "surface": "äter",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68010",
+      "position": 5,
+      "surface": "middag",
+      "word_id": "W1311",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68011",
+      "position": 1,
+      "surface": "Gör",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68011",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68011",
+      "position": 3,
+      "surface": "något",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68011",
+      "position": 4,
+      "surface": "om",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68011",
+      "position": 5,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68011",
+      "position": 6,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68011",
+      "position": 7,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68012",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68012",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68012",
+      "position": 3,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68013",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68013",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68013",
+      "position": 3,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68014",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68014",
+      "position": 2,
+      "surface": "kanske",
+      "word_id": "W954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68014",
+      "position": 3,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68015",
+      "position": 1,
+      "surface": "Kanske",
+      "word_id": "W954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68015",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68015",
+      "position": 3,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68016",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68016",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68016",
+      "position": 3,
+      "surface": "nog",
+      "word_id": "W1195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68017",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68017",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68017",
+      "position": 3,
+      "surface": "hemma",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68018",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68018",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68018",
+      "position": 3,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68018",
+      "position": 4,
+      "surface": "glasögon",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68019",
+      "position": 1,
+      "surface": "Mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68019",
+      "position": 2,
+      "surface": "föräldrar",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68019",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68019",
+      "position": 4,
+      "surface": "där",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68020",
+      "position": 1,
+      "surface": "Alla",
+      "word_id": "W986",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68020",
+      "position": 2,
+      "surface": "dessa",
+      "word_id": "W975",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68020",
+      "position": 3,
+      "surface": "böcker",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68020",
+      "position": 4,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68020",
+      "position": 5,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68021",
+      "position": 1,
+      "surface": "Tåget",
+      "word_id": "W1389",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68021",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68021",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68021",
+      "position": 4,
+      "surface": "varje",
+      "word_id": "W988",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68021",
+      "position": 5,
+      "surface": "station",
+      "word_id": "W1028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68022",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68022",
+      "position": 2,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68022",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68022",
+      "position": 4,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68022",
+      "position": 5,
+      "surface": "byxor",
+      "word_id": "W1102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68023",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68023",
+      "position": 2,
+      "surface": "tror",
+      "word_id": "W951",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68023",
+      "position": 3,
+      "surface": "att",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68023",
+      "position": 4,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68023",
+      "position": 5,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68024",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68024",
+      "position": 2,
+      "surface": "hittar",
+      "word_id": "W1437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68024",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68024",
+      "position": 4,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68024",
+      "position": 5,
+      "surface": "skor",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68025",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68025",
+      "position": 2,
+      "surface": "där",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68025",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68025",
+      "position": 4,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68025",
+      "position": 5,
+      "surface": "skor",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68026",
+      "position": 1,
+      "surface": "Mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68026",
+      "position": 2,
+      "surface": "lärare",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68026",
+      "position": 3,
+      "surface": "tycker",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68026",
+      "position": 4,
+      "surface": "om",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68026",
+      "position": 5,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68027",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68027",
+      "position": 2,
+      "surface": "vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68027",
+      "position": 3,
+      "surface": "ha",
+      "word_id": "W928",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68027",
+      "position": 4,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68027",
+      "position": 5,
+      "surface": "pengar",
+      "word_id": "W969",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68028",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68028",
+      "position": 2,
+      "surface": "letar",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68028",
+      "position": 3,
+      "surface": "efter",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68028",
+      "position": 4,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68028",
+      "position": 5,
+      "surface": "föräldrar",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68029",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68029",
+      "position": 2,
+      "surface": "sjunger",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68029",
+      "position": 3,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68029",
+      "position": 4,
+      "surface": "mina",
+      "word_id": "W1390",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68029",
+      "position": 5,
+      "surface": "barn",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68030",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68030",
+      "position": 2,
+      "surface": "stannar",
+      "word_id": "W1364",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68030",
+      "position": 3,
+      "surface": "i",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68030",
+      "position": 4,
+      "surface": "tre",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68030",
+      "position": 5,
+      "surface": "dagar",
+      "word_id": "W1234",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S68030",
+      "position": 6,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A680011",
+      "sentence_id": "S68001",
+      "direction": "fr_to_en",
+      "answer": "Are you staying at home?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A680081",
+      "sentence_id": "S68008",
+      "direction": "fr_to_en",
+      "answer": "I am doing my homework.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A680121",
+      "sentence_id": "S68012",
+      "direction": "fr_to_en",
+      "answer": "I'm staying here.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A680171",
+      "sentence_id": "S68017",
+      "direction": "fr_to_en",
+      "answer": "I am staying home.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A680291",
+      "sentence_id": "S68029",
+      "direction": "fr_to_en",
+      "answer": "I am singing with my children.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

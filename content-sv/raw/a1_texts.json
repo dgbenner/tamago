@@ -97,5 +97,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R201",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Affären",
+    "lines": "Öppet måndag till fredag: 9.00 till 18.00\nLördag: 10.00 till 16.00\nSöndag: stängt",
+    "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"Sunday\",\"Saturday\",\"Monday\"],\"answer\":0},{\"question\":\"What time does it open on Saturday?\",\"choices\":[\"10:00\",\"9:00\",\"16:00\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R202",
+    "unit_id": "U62",
+    "kind": "message",
+    "title": "Ett sms från Erik",
+    "lines": "Anna!\nSka vi gå på bio på onsdag? Jag är ledig på onsdag och torsdag.\nPå lördag jobbar jag.\nErik",
+    "questions_json": "[{\"question\":\"When is Erik free?\",\"choices\":[\"Wednesday and Thursday\",\"Saturday\",\"Every day\"],\"answer\":0},{\"question\":\"What does Erik do on Saturday?\",\"choices\":[\"He works\",\"He goes to the cinema\",\"He stays at home\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R203",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Museet",
+    "lines": "Museet är stängt på måndagar.\nFör barn: onsdag klockan 15.00",
+    "questions_json": "[{\"question\":\"Which day is the museum closed?\",\"choices\":[\"Monday\",\"Wednesday\",\"Tuesday\"],\"answer\":0},{\"question\":\"When is the visit for children?\",\"choices\":[\"Wednesday at 3 pm\",\"Monday at 3 pm\",\"Wednesday at 5 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R204",
+    "unit_id": "U63",
+    "kind": "notice",
+    "title": "Lov",
+    "lines": "Skolan är stängd från den 20 december till den 6 januari.\nFörsta skoldagen: tisdag den 7 januari",
+    "questions_json": "[{\"question\":\"Which day of the week does school start again?\",\"choices\":[\"Tuesday\",\"Monday\",\"Saturday\"],\"answer\":0},{\"question\":\"When do the holidays begin?\",\"choices\":[\"20 December\",\"7 January\",\"6 January\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R205",
+    "unit_id": "U63",
+    "kind": "sign",
+    "title": "Fest",
+    "lines": "Fest på torget\nLördag den 21 juni, 18.00\nMusik och dans",
+    "questions_json": "[{\"question\":\"When is the party?\",\"choices\":[\"Saturday 21 June\",\"Sunday 21 June\",\"Saturday 21 July\"],\"answer\":0},{\"question\":\"What time does it start?\",\"choices\":[\"6 pm\",\"8 pm\",\"9 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R206",
+    "unit_id": "U63",
+    "kind": "message",
+    "title": "Ett vykort från Maria",
+    "lines": "I juli åker vi till havet.\nI december åker vi till bergen.\nOch du?",
+    "questions_json": "[{\"question\":\"Where does Maria go in July?\",\"choices\":[\"To the sea\",\"To the mountains\",\"To the city\"],\"answer\":0},{\"question\":\"When does she go to the mountains?\",\"choices\":[\"In December\",\"In July\",\"In spring\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R207",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Vid affären",
+    "lines": "Ingång\nÖppet 9.00 till 19.00\nSöndag: stängt",
+    "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"On Sundays\",\"On Saturdays\",\"Every evening\"],\"answer\":0},{\"question\":\"What time does it close?\",\"choices\":[\"7 pm\",\"9 pm\",\"9 am\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R208",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "På stationen",
+    "lines": "Toalett: en trappa upp\nApotek: bredvid utgången\nInformation: vid ingången",
+    "questions_json": "[{\"question\":\"Where is the toilet?\",\"choices\":[\"One floor up\",\"Two floors up\",\"Next to the exit\"],\"answer\":0},{\"question\":\"Where can you get information?\",\"choices\":[\"At the entrance\",\"At the chemist's\",\"On the train\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R209",
+    "unit_id": "U66",
+    "kind": "notice",
+    "title": "Bageriet",
+    "lines": "Lindas bageri\nÖppet varje dag 7.00 till 18.00\nNytt bröd klockan 7.00 och 12.00",
+    "questions_json": "[{\"question\":\"Is the bakery open on Sunday?\",\"choices\":[\"Yes\",\"No\",\"Only in the morning\"],\"answer\":0},{\"question\":\"When is there fresh bread?\",\"choices\":[\"At 7 am and 12 noon\",\"At 6 am only\",\"At 6 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R210",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Tåg till Uppsala",
+    "lines": "Avgång 8.15 – ankomst 9.05\nAvgång 12.40 – ankomst 13.30\nAvgång 18.00 – ankomst 18.50",
+    "questions_json": "[{\"question\":\"When does the 12:40 train arrive?\",\"choices\":[\"13:30\",\"9:05\",\"18:50\"],\"answer\":0},{\"question\":\"What time is the first train?\",\"choices\":[\"8:15\",\"12:40\",\"18:00\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R211",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Båt till Gotland",
+    "lines": "Avgång från hamnen: 7.00, 9.00, 11.00\nSöndag: en båt varannan timme",
+    "questions_json": "[{\"question\":\"Where does the boat leave from?\",\"choices\":[\"The harbour\",\"The station\",\"The beach\"],\"answer\":0},{\"question\":\"How often is the boat on Sundays?\",\"choices\":[\"Every two hours\",\"Every hour\",\"Not at all\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R212",
+    "unit_id": "U67",
+    "kind": "message",
+    "title": "Ett sms från Tom",
+    "lines": "Jag kommer fram till stationen 17.30.\nMitt tåg avgår från Stockholm 15.00.\nVi ses!",
+    "questions_json": "[{\"question\":\"When does Tom arrive?\",\"choices\":[\"5:30 pm\",\"3 pm\",\"7:30 pm\"],\"answer\":0},{\"question\":\"Where does his train leave from?\",\"choices\":[\"Stockholm\",\"The airport\",\"Uppsala\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R213",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "På lektionen",
+    "lines": "Lyssna på texten.\nSvara på frågorna.\nVälj en bild.",
+    "questions_json": "[{\"question\":\"What do you do first?\",\"choices\":[\"Listen to the text\",\"Answer the questions\",\"Choose a picture\"],\"answer\":0},{\"question\":\"What do you choose?\",\"choices\":[\"A picture\",\"A book\",\"A word\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R214",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Dörren",
+    "lines": "Stäng dörren, tack.\nObservera: stäng långsamt.",
+    "questions_json": "[{\"question\":\"What should you do with the door?\",\"choices\":[\"Close it\",\"Leave it open\",\"Lock it\"],\"answer\":0},{\"question\":\"How should you close it?\",\"choices\":[\"Slowly\",\"Quickly\",\"With a key\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R215",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Övningen",
+    "lines": "Välj ett nummer.\nÖppna boken på den sidan.\nLäs texten.",
+    "questions_json": "[{\"question\":\"What do you open?\",\"choices\":[\"The book\",\"The door\",\"The notebook\"],\"answer\":0},{\"question\":\"What do you do last?\",\"choices\":[\"Read the text\",\"Choose a number\",\"Close the book\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]
