@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Jag heter Lars Andersson. Jag är fyrtio år. Jag bor på Storgatan tio i Göteborg.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Förnamn\",\"rule\":\"text\",\"answer\":\"Lars\"},{\"key\":\"last\",\"label\":\"Efternamn\",\"rule\":\"text\",\"answer\":\"Andersson\"},{\"key\":\"age\",\"label\":\"Ålder\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adress\",\"rule\":\"text\",\"answer\":\"Storgatan 10\",\"also\":[\"Storgatan, 10\",\"storgatan 10\",\"Storgatan tio\"]},{\"key\":\"town\",\"label\":\"Ort\",\"rule\":\"text\",\"answer\":\"Göteborg\",\"also\":[\"Goteborg\",\"göteborg\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Jag heter Eva Lind. Jag är trettio år. Jag kommer från Sverige. Jag bor i Frankrike. Mitt nummer är noll sju noll, fem två fyra, tolv, nitton.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Förnamn\",\"rule\":\"text\",\"answer\":\"Eva\"},{\"key\":\"last\",\"label\":\"Efternamn\",\"rule\":\"text\",\"answer\":\"Lind\"},{\"key\":\"age\",\"label\":\"Ålder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Medborgarskap\",\"rule\":\"text\",\"answer\":\"svensk\",\"also\":[\"Svensk\",\"svenska\",\"Svenska\",\"Sverige\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrike\"},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"070 524 12 19\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

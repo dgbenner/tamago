@@ -13,6 +13,7 @@ const REASON = {
   slur: 'slur or insult',
   violence: 'violence',
   register: 'legal, official or administrative register',
+  artefact: 'lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)',
 }
 
 // Junk in any course's list: English words and names that subtitle-based frequency lists pick up.
@@ -46,6 +47,16 @@ const BY_COURSE = {
     subtitle: ['lkke', 'a', 's', 'pa', 'kaptein', 'dollar', 'new', 'ok'],
     oath: ['faen', 'helvete', 'jævla', 'herregud', 'pokker', 'dritt', 'kjeft', 'jøss', 'gud'],
     violence: ['drepe', 'drepte', 'drept', 'dreper', 'våpen', 'blod', 'dø'],
+  },
+  // Swedish (2026-11-21, Builder 2, Part 2 gather): the Kelly list is a lemmatised web corpus, so its core holds tagger
+  // artefacts (analog, unna, å, ätt, orm, hov, kapa, beta, åta sig, te sig: headwords split off och, att, form, behov,
+  // åt …), web-page leftovers and parliamentary register. Everyday words the corpus over-represents (land, fråga, krona)
+  // stay.
+  sv: {
+    artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta'],
+    subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg'],
+    register: ['regering', 'riksdag', 'kommun', 'myndighet', 'kommission', 'socialdemokrat', 'åtgärd', 'verksamhet', 'enligt', 'samt', 'därmed', 'såsom', 'utgöra', 'innebära', 'genomföra', 'anmäla'],
+    violence: ['krig', 'dö', 'död', 'slå'],
   },
 }
 
