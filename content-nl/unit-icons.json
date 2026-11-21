@@ -1,7 +1,7 @@
 {
   "U01": {
     "group": "nigiri",
-    "file": "amaebi-nigiri-sq.webp"
+    "file": "hamachi-nigiri-sq.webp"
   },
   "U31": {
     "group": "maki",
@@ -9,19 +9,19 @@
   },
   "U02": {
     "group": "nigiri",
-    "file": "hamachi-nigiri-sq.webp"
+    "file": "aji-nigiri-sq.webp"
   },
   "U03": {
     "group": "nigiri",
-    "file": "tai-nigiri.webp"
+    "file": "maguro-nigiri-1.webp"
   },
   "U04": {
     "group": "nigiri",
-    "file": "ebi-nigiri-sq.webp"
+    "file": "anago-nigiri.webp"
   },
   "U05": {
     "group": "nigiri",
-    "file": "tako-nigiri.webp"
+    "file": "hotate-nigiri-sq.webp"
   },
   "U32": {
     "group": "maki",
@@ -33,7 +33,7 @@
   },
   "U07": {
     "group": "maki",
-    "file": "kappa-maki.webp"
+    "file": "takuan-maki.webp"
   },
   "U52": {
     "group": "maki",
@@ -41,27 +41,27 @@
   },
   "U08": {
     "group": "maki",
-    "file": "philadelphia-roll.webp"
+    "file": "uni-gunkan-sq.webp"
   },
   "U09": {
     "group": "maki",
-    "file": "uni-gunkan-sq.webp"
+    "file": "kappa-maki.webp"
   },
   "U33": {
     "group": "maki",
     "file": "tekka-maki.webp"
   },
   "U10": {
-    "group": "maki",
-    "file": "takuan-maki.webp"
+    "group": "nigiri",
+    "file": "tai-nigiri.webp"
   },
   "U11": {
     "group": "temaki",
-    "file": "salmon-temaki.webp"
+    "file": "uni-temaki.webp"
   },
   "U53": {
     "group": "temaki",
-    "file": "uni-temaki.webp"
+    "file": "salmon-temaki.webp"
   },
   "U12": {
     "group": "temaki",
@@ -73,14 +73,218 @@
   },
   "U14": {
     "group": "temaki",
-    "file": "kani-temaki.webp"
+    "file": "negitoro-temaki.webp"
   },
   "U15": {
     "group": "temaki",
-    "file": "negitoro-temaki.webp"
+    "file": "kani-temaki.webp"
   },
   "U51": {
     "group": "temaki",
+    "file": "ikura-temaki.webp"
+  },
+  "U41": {
+    "group": "nigiri",
+    "file": "unagi-nigiri.webp"
+  },
+  "U54": {
+    "group": "nigiri",
+    "file": "chutoro-nigiri-sq.webp"
+  },
+  "U34": {
+    "group": "maki",
+    "file": "california-roll.webp"
+  },
+  "U42": {
+    "group": "nigiri",
+    "file": "saba-nigiri-sq.webp"
+  },
+  "U43": {
+    "group": "nigiri",
+    "file": "salmon-mayo-nigiri.webp"
+  },
+  "U55": {
+    "group": "nigiri",
+    "file": "hirame-nigiri-sq.webp"
+  },
+  "U35": {
+    "group": "maki",
+    "file": "salmon-avocado-roll.webp"
+  },
+  "U44": {
+    "group": "maki",
+    "file": "unakyu-maki.webp"
+  },
+  "U45": {
+    "group": "maki",
+    "file": "philadelphia-roll.webp"
+  },
+  "U56": {
+    "group": "maki",
+    "file": "takuan-maki.webp"
+  },
+  "U46": {
+    "group": "maki",
+    "file": "ikura-gunkan-sq.webp"
+  },
+  "U47": {
+    "group": "temaki",
     "file": "unagi-temaki.webp"
+  },
+  "U57": {
+    "group": "temaki",
+    "file": "wakame-temaki.webp"
+  },
+  "U36": {
+    "group": "maki",
+    "file": "tekka-maki.webp"
+  },
+  "U48": {
+    "group": "temaki",
+    "file": "kani-temaki.webp"
+  },
+  "U49": {
+    "group": "temaki",
+    "file": "salmon-temaki.webp"
+  },
+  "U58": {
+    "group": "temaki",
+    "file": "hotate-temaki.webp"
+  },
+  "U61": {
+    "group": "nigiri",
+    "file": "maguro-nigiri-1.webp"
+  },
+  "U71": {
+    "group": "nigiri",
+    "file": "anago-nigiri-sq.webp"
+  },
+  "U37": {
+    "group": "maki",
+    "file": "california-roll.webp"
+  },
+  "U62": {
+    "group": "nigiri",
+    "file": "sake-nigiri-sq.webp"
+  },
+  "U63": {
+    "group": "nigiri",
+    "file": "unagi-nigiri-sq.webp"
+  },
+  "U72": {
+    "group": "nigiri",
+    "file": "aji-nigiri-sq.webp"
+  },
+  "U38": {
+    "group": "maki",
+    "file": "salmon-avocado-roll.webp"
+  },
+  "U64": {
+    "group": "maki",
+    "file": "uni-gunkan-sq.webp"
+  },
+  "U65": {
+    "group": "maki",
+    "file": "ebi-tempura-roll.webp"
+  },
+  "U73": {
+    "group": "maki",
+    "file": "negihama-maki.webp"
+  },
+  "U66": {
+    "group": "maki",
+    "file": "kappa-maki.webp"
+  },
+  "U67": {
+    "group": "temaki",
+    "file": "uni-temaki.webp"
+  },
+  "U74": {
+    "group": "temaki",
+    "file": "negitoro-temaki.webp"
+  },
+  "U39": {
+    "group": "maki",
+    "file": "tekka-maki.webp"
+  },
+  "U68": {
+    "group": "temaki",
+    "file": "kani-temaki.webp"
+  },
+  "U69": {
+    "group": "temaki",
+    "file": "ikura-temaki.webp"
+  },
+  "U75": {
+    "group": "temaki",
+    "file": "wakame-temaki.webp"
+  },
+  "U81": {
+    "group": "nigiri",
+    "file": "tako-nigiri.webp"
+  },
+  "U91": {
+    "group": "nigiri",
+    "file": "chutoro-nigiri.webp"
+  },
+  "U26": {
+    "group": "maki",
+    "file": "california-roll.webp"
+  },
+  "U82": {
+    "group": "nigiri",
+    "file": "ebi-nigiri.webp"
+  },
+  "U83": {
+    "group": "nigiri",
+    "file": "saba-nigiri-sq.webp"
+  },
+  "U92": {
+    "group": "nigiri",
+    "file": "beef-tataki-nigiri.webp"
+  },
+  "U27": {
+    "group": "maki",
+    "file": "salmon-avocado-roll.webp"
+  },
+  "U84": {
+    "group": "maki",
+    "file": "takuan-maki.webp"
+  },
+  "U85": {
+    "group": "maki",
+    "file": "ikura-gunkan-sq.webp"
+  },
+  "U93": {
+    "group": "maki",
+    "file": "unakyu-maki.webp"
+  },
+  "U86": {
+    "group": "maki",
+    "file": "philadelphia-roll.webp"
+  },
+  "U87": {
+    "group": "temaki",
+    "file": "hotate-temaki.webp"
+  },
+  "U94": {
+    "group": "temaki",
+    "file": "salmon-temaki.webp"
+  },
+  "U28": {
+    "group": "maki",
+    "file": "tekka-maki.webp"
+  },
+  "U88": {
+    "group": "temaki",
+    "file": "unagi-temaki.webp"
+  },
+  "U89": {
+    "group": "temaki",
+    "file": "kani-temaki.webp"
+  },
+  "U95": {
+    "group": "temaki",
+    "file": "uni-temaki.webp"
   }
 }

@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 2992 (2320 matched to Tatoeba, 672 Tamago originals), 0 off, 2311 awaiting a ruling. Words with Wiktionary data: 1009 of 1010. French-to-English answers: 588 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 48.
+Sentences live: 2992 (2320 matched to Tatoeba, 672 Tamago originals), 0 off, 2320 awaiting a ruling. Words with Wiktionary data: 1009 of 1010. French-to-English answers: 588 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 43.
 
 Unit 1 is approved and live.
 
@@ -4021,24 +4021,23 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S73127 | Hij valt. | He's falling. | [#7632684](https://tatoeba.org/en/sentences/show/7632684) | Micsmithel |  |  | tts |
 | S75103 | Ik kan het voelen. | I can feel it. | [#7833235](https://tatoeba.org/en/sentences/show/7833235) | MarijnKp |  |  | tts |
 | S75104 | Hij heeft een groot hart. | He has a big heart. | [#10734818](https://tatoeba.org/en/sentences/show/10734818) | megamanenm |  |  | tts |
-| S81104 | Wil je een kopje thee? | Would you like a cup of tea? | [#8625103](https://tatoeba.org/en/sentences/show/8625103) | MarijnKp | keep |  | tts |
-| S92114 | Heb je het begrepen? | Did you understand it? | [#7244236](https://tatoeba.org/en/sentences/show/7244236) | Micsmithel | keep |  | tts |
-| S93105 | Mijn tand doet pijn. | My tooth hurts. | [#7369794](https://tatoeba.org/en/sentences/show/7369794) | MarijnKp | keep |  | tts |
-| S87108 | Ik ben hier voor zaken. | I'm here on business. | [#7897876](https://tatoeba.org/en/sentences/show/7897876) | MarijnKp | keep |  | tts |
-| S87109 | Hoe gaan de zaken? | How's business? | [#4754265](https://tatoeba.org/en/sentences/show/4754265) | Raizin | keep |  | tts |
-| S87111 | Wat is je beroep? | What's your job? | [#8143555](https://tatoeba.org/en/sentences/show/8143555) | Elsofie | keep |  | tts |
-| S94101 | Hij lijkt op zijn vader. | He looks like his father. | [#8443265](https://tatoeba.org/en/sentences/show/8443265) | MarijnKp | keep |  | tts |
-| S28101 | Is alles in orde? | Is everything all right? | [#1554598](https://tatoeba.org/en/sentences/show/1554598) | Globetrotter | keep |  | tts |
-| S28103 | Alles is in orde. | Everything is all right. | [#1117488](https://tatoeba.org/en/sentences/show/1117488) | megamanenm | keep |  | tts |
+| S81104 | Wil je een kopje thee? | Would you like a cup of tea? | [#8625103](https://tatoeba.org/en/sentences/show/8625103) | MarijnKp |  |  | tts |
+| S92114 | Heb je het begrepen? | Did you understand it? | [#7244236](https://tatoeba.org/en/sentences/show/7244236) | Micsmithel |  |  | tts |
+| S93105 | Mijn tand doet pijn. | My tooth hurts. | [#7369794](https://tatoeba.org/en/sentences/show/7369794) | MarijnKp |  |  | tts |
+| S87108 | Ik ben hier voor zaken. | I'm here on business. | [#7897876](https://tatoeba.org/en/sentences/show/7897876) | MarijnKp |  |  | tts |
+| S87109 | Hoe gaan de zaken? | How's business? | [#4754265](https://tatoeba.org/en/sentences/show/4754265) | Raizin |  |  | tts |
+| S87111 | Wat is je beroep? | What's your job? | [#8143555](https://tatoeba.org/en/sentences/show/8143555) | Elsofie |  |  | tts |
+| S94101 | Hij lijkt op zijn vader. | He looks like his father. | [#8443265](https://tatoeba.org/en/sentences/show/8443265) | MarijnKp |  |  | tts |
+| S28101 | Is alles in orde? | Is everything all right? | [#1554598](https://tatoeba.org/en/sentences/show/1554598) | Globetrotter |  |  | tts |
+| S28103 | Alles is in orde. | Everything is all right. | [#1117488](https://tatoeba.org/en/sentences/show/1117488) | megamanenm |  |  | tts |
 
-## English-to-French answers generated from Tatoeba (48)
+## English-to-French answers generated from Tatoeba (43)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
 | Sentence | English | Also accepted | Tatoeba | Owner |
 | --- | --- | --- | --- | --- |
 | S11103 | When do we eat? | Wanneer zullen we eten? | [#5460013](https://tatoeba.org/en/sentences/show/5460013) | sdfke1 |
-| S28101 | Is everything all right? | Is alles goed? | [#8473407](https://tatoeba.org/en/sentences/show/8473407) | MarijnKp |
 | S3101 | Thank you, Tom. | Dank je wel, Tom. | [#11779284](https://tatoeba.org/en/sentences/show/11779284) | Ag12x |
 | S3103 | Yes, please. | Ja, graag. | [#560486](https://tatoeba.org/en/sentences/show/560486) | Citrine |
 | S31101 | I understand you. | Ik begrijp jullie. | [#8575465](https://tatoeba.org/en/sentences/show/8575465) | Micsmithel |
@@ -4069,15 +4068,11 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S81109 | How nice! | Wat leuk! | [#7550247](https://tatoeba.org/en/sentences/show/7550247) | Micsmithel |
 | S82111 | Enjoy your meal! | Eet smakelijk! | [#377965](https://tatoeba.org/en/sentences/show/377965) | Dorenda |
 | S85110 | My family is small. | Mijn familie is klein. | [#7902585](https://tatoeba.org/en/sentences/show/7902585) | MarijnKp |
-| S87111 | What's your job? | Wat is jouw baan? | [#7902370](https://tatoeba.org/en/sentences/show/7902370) | MarijnKp |
-| S87111 | What's your job? | Wat is jullie baan? | [#7902372](https://tatoeba.org/en/sentences/show/7902372) | MarijnKp |
-| S87111 | What's your job? | Wat is uw baan? | [#7902371](https://tatoeba.org/en/sentences/show/7902371) | MarijnKp |
 | S88106 | Where do you live? | Waar woon je? | [#397297](https://tatoeba.org/en/sentences/show/397297) | Dorenda |
 | S88106 | Where do you live? | Waar woon jij? | [#12499126](https://tatoeba.org/en/sentences/show/12499126) | Tom9358 |
 | S88106 | Where do you live? | Waar woont gij? | [#689600](https://tatoeba.org/en/sentences/show/689600) | martinod |
 | S88106 | Where do you live? | Waar woont u? | [#4573362](https://tatoeba.org/en/sentences/show/4573362) | Raizin |
 | S88111 | Sign here, please. | Gelieve hier te ondertekenen. | [#7745670](https://tatoeba.org/en/sentences/show/7745670) | PaulP |
-| S93105 | My tooth hurts. | Ik heb tandpijn. | [#7277375](https://tatoeba.org/en/sentences/show/7277375) | Micsmithel |
 | S93107 | Does your tooth hurt? | Heb je last van tandpijn? | [#9588916](https://tatoeba.org/en/sentences/show/9588916) | megamanenm |
 | S93110 | My teeth hurt. | Ik heb pijn aan mijn tanden. | [#13743542](https://tatoeba.org/en/sentences/show/13743542) | doemaar14 |
 | S93111 | That's not my concern. | Het is mijn zaak niet. | [#8180745](https://tatoeba.org/en/sentences/show/8180745) | Elsofie |

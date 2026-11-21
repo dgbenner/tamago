@@ -616,5 +616,1797 @@
       "S53002"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U41",
+    "rule": "**Hoe heet u?** asks a name politely:\n**Mevrouw, hoe heet u?**\n\n**U** is the polite you, said with **meneer** (sir) and **mevrouw** (madam). It takes the same verb form as **jij**: **u bent**, **kent u**. **Uw** is the polite your:\n**Wat is uw achternaam?**\n\n**Aangenaam** means nice to meet you.\n\n**Niet** comes after the verb, here at the end:\n**Ik ken hem niet.**",
+    "example_sentence_ids": "S41106;S41009;S41005",
+    "conjugation_lemma": "kennen",
+    "status": "live",
+    "examples": [
+      "S41106",
+      "S41009",
+      "S41005"
+    ],
+    "conjugations": [
+      {
+        "lemma": "kennen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "ken"
+          },
+          {
+            "person": "jij, je",
+            "form": "kent"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "kent"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "kennen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/kennen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U54",
+    "rule": "**Dragen** is to wear:\n**Ik draag schoenen.**\n**Hij draagt een hoed.**\n\n**Hebben** with **aan** at the end says the same:\n**Wat heeft Tom aan?** (what is Tom wearing)\n\n**De kleren**, clothes, takes a plural verb:\n**Waar zijn je kleren?**\n\n**Maat** is size: **Wat is uw maat?**",
+    "example_sentence_ids": "S54005;S54013;S54010",
+    "conjugation_lemma": "dragen",
+    "status": "live",
+    "examples": [
+      "S54005",
+      "S54013",
+      "S54010"
+    ],
+    "conjugations": [
+      {
+        "lemma": "dragen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "draag"
+          },
+          {
+            "person": "jij, je",
+            "form": "draagt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "draagt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "dragen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/dragen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U34",
+    "rule": "**Hoe schrijf je jouw naam?** asks how a word is written. **Kunt u dat spellen?** asks someone to spell it.\n\n**Kunnen**, can, sends the other verb to the end in its plain form:\n**Kan Tom zijn naam schrijven?**\n\n**Ik kan**, **hij kan**, **u kunt**; with **je** it is **kun je** or **kan je**:\n**Kun je zwemmen?**\n\n**Even** makes a request softer: **Laat me even kijken.**",
+    "example_sentence_ids": "S34012;S34005;S34007",
+    "conjugation_lemma": "kunnen;schrijven",
+    "status": "live",
+    "examples": [
+      "S34012",
+      "S34005",
+      "S34007"
+    ],
+    "conjugations": [
+      {
+        "lemma": "kunnen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "kan"
+          },
+          {
+            "person": "jij, je",
+            "form": "kunt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "kan"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "kunnen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/kunnen#Conjugation"
+      },
+      {
+        "lemma": "schrijven",
+        "present": [
+          {
+            "person": "ik",
+            "form": "schrijf"
+          },
+          {
+            "person": "jij, je",
+            "form": "schrijft"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "schrijft"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "schrijven"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/schrijven#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U42",
+    "rule": "**Wat is je nummer?** asks a phone number:\n**Mijn nummer is nul zes, twaalf, twintig.**\n\n**Bellen** is to call: **ik bel**, **jij belt**.\n**Bel me.** (call me)\n\nAfter **tien** come **elf** and **twaalf**, then **dertien** to **negentien**, all ending in **-tien**, and **twintig**. **Nul** is zero, and the number one is **één**, with accents:\n**Ik heb één zus.**\n\n**Of** is or: **Koffie of thee?**",
+    "example_sentence_ids": "S42103;S42009;S42001",
+    "conjugation_lemma": "bellen",
+    "status": "live",
+    "examples": [
+      "S42103",
+      "S42009",
+      "S42001"
+    ],
+    "conjugations": [
+      {
+        "lemma": "bellen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "bel"
+          },
+          {
+            "person": "jij, je",
+            "form": "belt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "belt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "bellen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/bellen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U43",
+    "rule": "**Ik ben jarig!** It's my birthday!\n**Gefeliciteerd met je verjaardag!** Happy birthday!\n\n**Wanneer ben je geboren?** asks when someone was born.\n\n**Al** is already, **pas** is only or just, and **bijna** is almost:\n**Ik ken hem al jaren.**\n**Hij is pas tien.**\n**Bijna drie.**\n\n**Ouder** and **jonger** are older and younger: **Ben je ouder of jonger?**",
+    "example_sentence_ids": "S43018;S43001;S43105",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S43018",
+      "S43001",
+      "S43105"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U55",
+    "rule": "**Leren** is to learn, and also to teach:\n**Ze leert zwemmen.** (she's learning to swim)\n**Ze leert Engels.** (she teaches English)\n\n**Vragen** is to ask: **ik vraag**, **jij vraagt**. **Een vraag** is a question and **een antwoord** an answer:\n**Heb jij een antwoord op mijn vraag?**\n\n**Heb je vragen?** Do you have any questions?",
+    "example_sentence_ids": "S55022;S55023;S55001",
+    "conjugation_lemma": "leren;vragen",
+    "status": "live",
+    "examples": [
+      "S55022",
+      "S55023",
+      "S55001"
+    ],
+    "conjugations": [
+      {
+        "lemma": "leren",
+        "present": [
+          {
+            "person": "ik",
+            "form": "leer"
+          },
+          {
+            "person": "jij, je",
+            "form": "leert"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "leert"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "leren"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/leren#Conjugation"
+      },
+      {
+        "lemma": "vragen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "vraag"
+          },
+          {
+            "person": "jij, je",
+            "form": "vraagt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "vraagt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "vragen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/vragen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U35",
+    "rule": "**Klopt dat?** asks if something is right. **Juist** is right and **fout** is wrong:\n**Is mijn antwoord juist?**\n**Is dat fout?**\n\n**Een moment!** and **Wacht even.** ask someone to wait. **Wachten op** is to wait for:\n**Op wie wacht je?**\n\n**Precies** is exactly: **Wat betekent dat precies?**",
+    "example_sentence_ids": "S35001;S35030;S35008",
+    "conjugation_lemma": "wachten",
+    "status": "live",
+    "examples": [
+      "S35001",
+      "S35030",
+      "S35008"
+    ],
+    "conjugations": [
+      {
+        "lemma": "wachten",
+        "present": [
+          {
+            "person": "ik",
+            "form": "wacht"
+          },
+          {
+            "person": "jij, je",
+            "form": "wacht"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "wacht"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "wachten"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/wachten#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U44",
+    "rule": "The tens: **dertig**, **veertig**, **vijftig**, **zestig**, **zeventig**, **tachtig**, **negentig**. Then **honderd** (a hundred), **duizend** (a thousand) and **miljoen** (a million), with no word for one in front:\n**Ik heb honderd boeken.**\n\n**Meer dan** is more than and **minder dan** less than:\n**Minder is meer.**\n\n**Ongeveer** is about: **Hij is ongeveer dertig.**",
+    "example_sentence_ids": "S44110;S44002;S44004",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S44110",
+      "S44002",
+      "S44004"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U45",
+    "rule": "**Wonen** is to live somewhere: **ik woon**, **jij woont**, **hij woont**.\n**Hij woont in een dorp.**\n\n**Bij** is at someone's place or with them:\n**Ik woon bij mijn ouders.**\n\n**Thuis** is at home: **Is hij thuis?**\n\n**Alleen** is alone and **samen** together; **buiten** is outside and **binnen** inside.",
+    "example_sentence_ids": "S45023;S45003;S45012",
+    "conjugation_lemma": "wonen",
+    "status": "live",
+    "examples": [
+      "S45023",
+      "S45003",
+      "S45012"
+    ],
+    "conjugations": [
+      {
+        "lemma": "wonen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "woon"
+          },
+          {
+            "person": "jij, je",
+            "form": "woont"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "woont"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "wonen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/wonen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U56",
+    "rule": "After the verb an adjective keeps its plain form:\n**Tom is stil.**\n**Ze is vriendelijk.**\n\nBefore a noun it takes **-e**, as in Part 1:\n**Een goede vraag.**\n**Tom heeft een kleine neus.**\n\n**Wat** or **hoe** with an adjective is an exclamation: **Wat saai!** (how boring) **Hoe grappig!** (how funny)",
+    "example_sentence_ids": "S56027;S56022;S56017",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S56027",
+      "S56022",
+      "S56017"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U46",
+    "rule": "**Komen uit** says where you are from:\n**Ik kom uit Frankrijk, en jij?**\n\n**Waar kom je vandaan?** asks it, with **vandaan** at the end.\n\n**Spreken** with a language:\n**Spreekt u Duits?**\n\nCountries and languages begin with a capital: **Nederland**, **Spanje**, **Frans**, **Engels**.",
+    "example_sentence_ids": "S46004;S46007;S46005",
+    "conjugation_lemma": "komen;spreken",
+    "status": "live",
+    "examples": [
+      "S46004",
+      "S46007",
+      "S46005"
+    ],
+    "conjugations": [
+      {
+        "lemma": "komen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "kom"
+          },
+          {
+            "person": "jij, je",
+            "form": "komt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "komt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "komen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/komen#Conjugation"
+      },
+      {
+        "lemma": "spreken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "spreek"
+          },
+          {
+            "person": "jij, je",
+            "form": "spreekt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "spreekt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "spreken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/spreken#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U47",
+    "rule": "**Willen** is to want: **ik wil**, **u wilt**, and **wil je** in a question. **Graag** makes it politer:\n**Ik wil graag iets kopen.**\n\n**Moeten** is to have to:\n**Ik moet vandaag iets kopen.**\n\n**Ik neem …** is I'll have: **Ik neem een tomaat.**\n\n**Nodig hebben**, to need, puts **nodig** near the end:\n**We hebben meer eieren nodig.**",
+    "example_sentence_ids": "S47003;S47002;S47007",
+    "conjugation_lemma": "willen;moeten;nemen",
+    "status": "live",
+    "examples": [
+      "S47003",
+      "S47002",
+      "S47007"
+    ],
+    "conjugations": [
+      {
+        "lemma": "willen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "wil"
+          },
+          {
+            "person": "jij, je",
+            "form": "wilt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "wil"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "willen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/willen#Conjugation"
+      },
+      {
+        "lemma": "moeten",
+        "present": [
+          {
+            "person": "ik",
+            "form": "moet"
+          },
+          {
+            "person": "jij, je",
+            "form": "moet"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "moet"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "moeten"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/moeten#Conjugation"
+      },
+      {
+        "lemma": "nemen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "neem"
+          },
+          {
+            "person": "jij, je",
+            "form": "neemt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "neemt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "nemen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/nemen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U57",
+    "rule": "Opposites in pairs: **makkelijk** and **moeilijk**, **open** and **dicht**, **vol** and **leeg**, **snel** and **langzaam**, **schoon** and **vies**, **licht** and **donker**.\n**Dit is makkelijk.**\n**Dit is moeilijk.**\n\n**Beter** is better: **Welke is beter?**\n\nBefore a noun they take **-e**: **nieuwe schoenen**, **een oude auto**.",
+    "example_sentence_ids": "S57027;S57028;S57003",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S57027",
+      "S57028",
+      "S57003"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U36",
+    "rule": "Short replies that check you've understood:\n**Natuurlijk!** (of course)\n**Echt?** (really?)\n**Is het duidelijk?** (is it clear?)\n**Weet je dat zeker?** (are you sure?)\n\n**Wat bedoel je?** and **Hoe bedoel je?** ask what someone means.\n\n**Wel** stresses the yes: **Dat snap ik wel.** (I do get that)\n\n**Bedankt** is thanks.",
+    "example_sentence_ids": "S36020;S36007;S36001",
+    "conjugation_lemma": "bedoelen",
+    "status": "live",
+    "examples": [
+      "S36020",
+      "S36007",
+      "S36001"
+    ],
+    "conjugations": [
+      {
+        "lemma": "bedoelen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "bedoel"
+          },
+          {
+            "person": "jij, je",
+            "form": "bedoelt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "bedoelt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "bedoelen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/bedoelen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U48",
+    "rule": "**Wat kost het?** asks the price. **Kosten** is to cost:\n**De thee kost twee euro.**\n\n**Euro** stays the same for more than one: **vijftien euro**.\n\n**Duur** is expensive and **goedkoop** cheap; **te** is too:\n**Is dat te duur voor je?**\n\n**Betalen** is to pay: **Hoeveel moet ik betalen?**\n\n**Per** is a or per: **per dag**, **per maand**.",
+    "example_sentence_ids": "S48003;S48001;S48018",
+    "conjugation_lemma": "kosten;betalen",
+    "status": "live",
+    "examples": [
+      "S48003",
+      "S48001",
+      "S48018"
+    ],
+    "conjugations": [
+      {
+        "lemma": "kosten",
+        "present": [
+          {
+            "person": "ik",
+            "form": "kost"
+          },
+          {
+            "person": "jij, je",
+            "form": "kost"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "kost"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "kosten"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/kosten#Conjugation"
+      },
+      {
+        "lemma": "betalen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "betaal"
+          },
+          {
+            "person": "jij, je",
+            "form": "betaalt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "betaalt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "betalen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/betalen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U49",
+    "rule": "A container or amount goes straight before the thing, with no word for of:\n**Wilt u een glas wijn?**\n**Ik heb drie paar schoenen.**\n\n**Geen** is not a or no, before a noun:\n**Ik heb geen tas nodig.**\n\n**Alle** is all and **elke** is every: **alle appels**, **elke dag**. **Alles** is everything: **Heb je alles?**\n\n**Genoeg** is enough and **een beetje** a little.",
+    "example_sentence_ids": "S49017;S49003;S49014",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S49017",
+      "S49003",
+      "S49014"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U58",
+    "rule": "**Aan** is by the water:\n**Ze zijn aan zee.**\n**Het dorp ligt aan een rivier.**\n\n**In** is in a place: **in het bos**. **Op** is on: **Het hotel staat op een berg.**\n\n**De zon is op.** The sun is up.",
+    "example_sentence_ids": "S58013;S58025;S58026",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S58013",
+      "S58025",
+      "S58026"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U61",
+    "rule": "**Half** counts toward the next hour:\n**Kom om half drie.** (half past two)\n\n**Kwart over** is a quarter past and **kwart voor** a quarter to:\n**Het is kwart over acht.**\n**Het is kwart voor tien.**\n\n**Om** is at a time. **In de ochtend** is in the morning, **in de middag** in the afternoon; **elke avond** is every evening.\n\n**Straks** is in a moment, **later** is later and **meteen** is at once.",
+    "example_sentence_ids": "S61024;S61101;S61102",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S61024",
+      "S61101",
+      "S61102"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U71",
+    "rule": "Where things are: **achter** (behind), **tussen** (between), **boven** (above, upstairs), **beneden** (below, downstairs):\n**Wat zit er achter de deur?**\n**Ze zitten boven.**\n\n**Weg** is away and **terug** back:\n**Wanneer kom je terug?**\n\n**Zonder** is without, **tegen** against or to (**praten tegen**), **door** through, **langs** along.\n\n**Overal**, **ergens**, **nergens**: everywhere, somewhere, nowhere.",
+    "example_sentence_ids": "S71002;S71003;S71012",
+    "conjugation_lemma": "zitten",
+    "status": "live",
+    "examples": [
+      "S71002",
+      "S71003",
+      "S71012"
+    ],
+    "conjugations": [
+      {
+        "lemma": "zitten",
+        "present": [
+          {
+            "person": "ik",
+            "form": "zit"
+          },
+          {
+            "person": "jij, je",
+            "form": "zit"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "zit"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "zitten"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/zitten#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U37",
+    "rule": "**Zei** is the past of **zeggen**:\n**Wat zei de jongen?**\n**Zei je iets?**\n\n**Horen** is to hear and **luisteren naar** to listen to:\n**Hoor je dat?**\n**Luister naar mij, oké?**\n\n**Verstaan** is to make out what's said: **Versta je Frans?**\n\n**Harder** is louder: **Praat iets harder, alsjeblieft.**",
+    "example_sentence_ids": "S37028;S37011;S37101",
+    "conjugation_lemma": "horen;verstaan",
+    "status": "live",
+    "examples": [
+      "S37028",
+      "S37011",
+      "S37101"
+    ],
+    "conjugations": [
+      {
+        "lemma": "horen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "hoor"
+          },
+          {
+            "person": "jij, je",
+            "form": "hoort"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "hoort"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "horen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/horen#Conjugation"
+      },
+      {
+        "lemma": "verstaan",
+        "present": [
+          {
+            "person": "ik",
+            "form": "versta"
+          },
+          {
+            "person": "jij, je",
+            "form": "verstaat"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "verstaat"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "verstaan"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/verstaan#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U62",
+    "rule": "**Op dinsdag** is on Tuesday:\n**Op dinsdag heb ik les.**\n\n**Tot** with a day is see you then: **Tot donderdag!** **Tot volgende week.**\n\nHow often: **altijd** (always), **vaak** (often), **soms** (sometimes), **nooit** (never):\n**Kom je hier vaak?**\n\n**Eerst** … **daarna**: first … then.\n**Sinds** is since: **Hij is sinds vorige week ziek.**",
+    "example_sentence_ids": "S62101;S62001;S62014",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S62101",
+      "S62001",
+      "S62014"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U63",
+    "rule": "**In** with a month or a season:\n**Ik ben in oktober geboren.**\n**In de zomer is het warm.**\n\n**Op** with a date: **op vijf mei**.\n\nMonths and seasons are written small: **januari**, **de lente**.\n\n**Eerste**, **tweede**, **derde**: first, second, third.\n**Engels is mijn tweede taal.**",
+    "example_sentence_ids": "S63013;S63024;S63021",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S63013",
+      "S63024",
+      "S63021"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U72",
+    "rule": "Weather verbs take **het**:\n**Het regent.**\n**Het sneeuwt.**\n**Het waait.** (it's windy)\n\n**Hoe is het weer?** asks about the weather.\n\n**Het is twintig graden.** It's twenty degrees.\n\n**Nat** is wet and **droog** dry; **zonnig** is sunny.",
+    "example_sentence_ids": "S72102;S72005;S72110",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S72102",
+      "S72005",
+      "S72110"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U38",
+    "rule": "**Denken** is to think: **ik denk**, **jij denkt**. **Denken aan** is to think about:\n**Denk je aan Tom?**\n**Wat denk je?** (what do you think?)\n\n**Dacht** is its past. **Wat dacht je van vrijdag?** means how about Friday?\n\n**Toch** at the end asks for a yes: **Frans is moeilijk, toch?**\n\n**Nou** is well or so: **Nou en?**",
+    "example_sentence_ids": "S38026;S38016;S38011",
+    "conjugation_lemma": "denken",
+    "status": "live",
+    "examples": [
+      "S38026",
+      "S38016",
+      "S38011"
+    ],
+    "conjugations": [
+      {
+        "lemma": "denken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "denk"
+          },
+          {
+            "person": "jij, je",
+            "form": "denkt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "denkt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "denken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/denken#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U64",
+    "rule": "**Zullen we** suggests something, with the other verb at the end:\n**Zullen we naar de bioscoop gaan?**\n\n**Mee** is along: **Ga je mee?** (are you coming along?)\n\n**Als** is if or when:\n**Kom met ons mee als je kunt.**\n\n**Ben je vanavond vrij?** Are you free tonight?\n**Heb je zin om mee te gaan?** Do you feel like coming along?",
+    "example_sentence_ids": "S64004;S64017;S64009",
+    "conjugation_lemma": "zullen;zien",
+    "status": "live",
+    "examples": [
+      "S64004",
+      "S64017",
+      "S64009"
+    ],
+    "conjugations": [
+      {
+        "lemma": "zullen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "zal"
+          },
+          {
+            "person": "jij, je",
+            "form": "zult"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "zal"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "zullen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/zullen#Conjugation"
+      },
+      {
+        "lemma": "zien",
+        "present": [
+          {
+            "person": "ik",
+            "form": "zie"
+          },
+          {
+            "person": "jij, je",
+            "form": "ziet"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "ziet"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "zien"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/zien#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U65",
+    "rule": "Some verbs split: the **op** of getting up goes to the end:\n**Ik sta om zeven uur op.**\n\n**Wakker worden** is to wake up: **Word wakker.**\n\n**Werken**, **doen**, **maken**: **ik werk**, **ik doe**, **ik maak**.\n**Wat doe je?**\n**Tom maakt ontbijt.**\n\n**Klaar** is ready or done: **Ben je klaar met werken?**",
+    "example_sentence_ids": "S65101;S65008;S65006",
+    "conjugation_lemma": "werken;doen;maken;worden",
+    "status": "live",
+    "examples": [
+      "S65101",
+      "S65008",
+      "S65006"
+    ],
+    "conjugations": [
+      {
+        "lemma": "werken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "werk"
+          },
+          {
+            "person": "jij, je",
+            "form": "werkt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "werkt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "werken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/werken#Conjugation"
+      },
+      {
+        "lemma": "doen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "doe"
+          },
+          {
+            "person": "jij, je",
+            "form": "doet"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "doet"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "doen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/doen#Conjugation"
+      },
+      {
+        "lemma": "maken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "maak"
+          },
+          {
+            "person": "jij, je",
+            "form": "maakt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "maakt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "maken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/maken#Conjugation"
+      },
+      {
+        "lemma": "worden",
+        "present": [
+          {
+            "person": "ik",
+            "form": "word"
+          },
+          {
+            "person": "jij, je",
+            "form": "wordt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "wordt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "worden"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/worden#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U73",
+    "rule": "Everyday verbs side by side: **geven** (give), **krijgen** (get), **brengen** (bring), **halen** (fetch):\n**Wat moet ik brengen?**\n**Hoeveel krijg ik?**\n\n**Leggen** puts something down flat and **zetten** stands it up:\n**Ik leg het boek op de tafel.**\n**Kun je de fles op de tafel zetten?**\n\n**Blijven** is to stay: **Blijf je thuis?**",
+    "example_sentence_ids": "S73017;S73114;S73111",
+    "conjugation_lemma": "geven;krijgen;brengen;halen",
+    "status": "live",
+    "examples": [
+      "S73017",
+      "S73114",
+      "S73111"
+    ],
+    "conjugations": [
+      {
+        "lemma": "geven",
+        "present": [
+          {
+            "person": "ik",
+            "form": "geef"
+          },
+          {
+            "person": "jij, je",
+            "form": "geeft"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "geeft"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "geven"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/geven#Conjugation"
+      },
+      {
+        "lemma": "krijgen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "krijg"
+          },
+          {
+            "person": "jij, je",
+            "form": "krijgt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "krijgt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "krijgen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/krijgen#Conjugation"
+      },
+      {
+        "lemma": "brengen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "breng"
+          },
+          {
+            "person": "jij, je",
+            "form": "brengt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "brengt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "brengen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/brengen#Conjugation"
+      },
+      {
+        "lemma": "halen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "haal"
+          },
+          {
+            "person": "jij, je",
+            "form": "haalt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "haalt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "halen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/halen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U66",
+    "rule": "The words on signs:\n**Verboden te roken.** (no smoking)\n**Parkeren verboden!** (no parking)\n**Trekken, niet duwen.** (pull, don't push)\n\n**Open** and **gesloten** (closed): **De bank is al gesloten.**\n\n**Gratis** is free of charge: **Is het gratis?**\n\n**Waar is de ingang?** and **Waar is de uitgang?** ask for the way in and out.",
+    "example_sentence_ids": "S66002;S66105;S66004",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S66002",
+      "S66105",
+      "S66004"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U67",
+    "rule": "**Vertrekken** is to leave:\n**Wanneer vertrekt de volgende trein?**\n\n**Een kaartje** is a ticket and **een retour** a return ticket:\n**Een retour Amsterdam, alstublieft.**\n\n**De trein staat op perron twee.** The train is at platform two.\n\n**Met het vliegtuig** is by plane: **Ik ga met het vliegtuig naar Spanje.**\n\n**Reizen** is to travel and **rijden** to drive.",
+    "example_sentence_ids": "S67015;S67112;S67117",
+    "conjugation_lemma": "vertrekken;rijden;reizen",
+    "status": "live",
+    "examples": [
+      "S67015",
+      "S67112",
+      "S67117"
+    ],
+    "conjugations": [
+      {
+        "lemma": "vertrekken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "vertrek"
+          },
+          {
+            "person": "jij, je",
+            "form": "vertrekt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "vertrekt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "vertrekken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/vertrekken#Conjugation"
+      },
+      {
+        "lemma": "rijden",
+        "present": [
+          {
+            "person": "ik",
+            "form": "rij"
+          },
+          {
+            "person": "jij, je",
+            "form": "rijdt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "rijdt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "rijden"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/rijden#Conjugation"
+      },
+      {
+        "lemma": "reizen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "reis"
+          },
+          {
+            "person": "jij, je",
+            "form": "reist"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "reist"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "reizen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/reizen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U74",
+    "rule": "**Spelen** is to play, for games, sports and instruments, with no **de** before the instrument:\n**Ze speelt piano en gitaar.**\n**Speel je tennis?**\n\n**Mijn hobby is gitaar spelen.** My hobby is playing the guitar.\n\n**Fietsen** is to cycle and **wandelen** to walk for pleasure:\n**Zullen we gaan wandelen?**",
+    "example_sentence_ids": "S74002;S74004;S74001",
+    "conjugation_lemma": "spelen",
+    "status": "live",
+    "examples": [
+      "S74002",
+      "S74004",
+      "S74001"
+    ],
+    "conjugations": [
+      {
+        "lemma": "spelen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "speel"
+          },
+          {
+            "person": "jij, je",
+            "form": "speelt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "speelt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "spelen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/spelen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U39",
+    "rule": "Answers when you're not sure:\n**Misschien.** (maybe)\n**Waarschijnlijk komt Tom.** (Tom will probably come)\n**Dat hoop ik.** (I hope so)\n\n**Is dat mogelijk?** Is that possible?\n\n**Geloven** is to believe: **Geloof je me niet?**",
+    "example_sentence_ids": "S39016;S39013;S39019",
+    "conjugation_lemma": "geloven;hopen",
+    "status": "live",
+    "examples": [
+      "S39016",
+      "S39013",
+      "S39019"
+    ],
+    "conjugations": [
+      {
+        "lemma": "geloven",
+        "present": [
+          {
+            "person": "ik",
+            "form": "geloof"
+          },
+          {
+            "person": "jij, je",
+            "form": "gelooft"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "gelooft"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "geloven"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/geloven#Conjugation"
+      },
+      {
+        "lemma": "hopen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "hoop"
+          },
+          {
+            "person": "jij, je",
+            "form": "hoopt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "hoopt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "hopen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/hopen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U68",
+    "rule": "The words of an announcement:\n**Dames en heren, let op!**\n**Aandacht alsjeblieft!**\n\n**De trein heeft vertraging.** The train is delayed.\n**Het vliegtuig heeft een uur vertraging.**\n\n**Passagiers** are passengers; **iedereen** is everyone; **helaas** is unfortunately: **Helaas niet.**",
+    "example_sentence_ids": "S68109;S68104;S68013",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S68109",
+      "S68104",
+      "S68013"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U69",
+    "rule": "An instruction starts with the verb, in its short form:\n**Kies iets.** (choose something)\n**Vergeet dat.** (forget it)\n**Vul de fles met water.**\n\n**In** at the end goes with **vullen**: **Vul uw naam en adres in.** (fill in your name and address)\n\n**Probeer** is try and **help** is help.",
+    "example_sentence_ids": "S69019;S69017;S69031",
+    "conjugation_lemma": "kiezen",
+    "status": "live",
+    "examples": [
+      "S69019",
+      "S69017",
+      "S69031"
+    ],
+    "conjugations": [
+      {
+        "lemma": "kiezen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "kies"
+          },
+          {
+            "person": "jij, je",
+            "form": "kiest"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "kiest"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "kiezen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/kiezen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U75",
+    "rule": "**Vinden** gives an opinion:\n**Ik vind je geweldig.** (I think you're great)\n**Wat vindt hij?** (what does he think?)\n\n**Houden van** is to like or love: **Ik hou erg van tennis.**\n\n**Voelen** takes **je** or **me** for how you feel:\n**Hoe voel je je?**\n\n**Liever** is rather: **Welke heb je liever, thee of koffie?**",
+    "example_sentence_ids": "S75004;S75008;S75016",
+    "conjugation_lemma": "vinden;voelen",
+    "status": "live",
+    "examples": [
+      "S75004",
+      "S75008",
+      "S75016"
+    ],
+    "conjugations": [
+      {
+        "lemma": "vinden",
+        "present": [
+          {
+            "person": "ik",
+            "form": "vind"
+          },
+          {
+            "person": "jij, je",
+            "form": "vindt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "vindt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "vinden"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/vinden#Conjugation"
+      },
+      {
+        "lemma": "voelen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "voel"
+          },
+          {
+            "person": "jij, je",
+            "form": "voelt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "voelt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "voelen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/voelen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U81",
+    "rule": "**Mag ik …?** asks politely for something:\n**Mag ik de rekening, alstublieft?**\n**Mag ik nu bestellen?**\n\n**Wilt u bestellen?** asks if you'd like to order.\n\n**-je** makes a small form: **kop** and **kopje**, both a cup:\n**Ik bestel een kopje thee.**",
+    "example_sentence_ids": "S81003;S81002;S81101",
+    "conjugation_lemma": "mogen;bestellen",
+    "status": "live",
+    "examples": [
+      "S81003",
+      "S81002",
+      "S81101"
+    ],
+    "conjugations": [
+      {
+        "lemma": "mogen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "mag"
+          },
+          {
+            "person": "jij, je",
+            "form": "mag"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "mag"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "mogen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/mogen#Conjugation"
+      },
+      {
+        "lemma": "bestellen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "bestel"
+          },
+          {
+            "person": "jij, je",
+            "form": "bestelt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "bestelt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "bestellen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/bestellen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U91",
+    "rule": "An amount goes straight before the food, with no word for of:\n**Honderd gram kaas, alstublieft.**\n**We hebben twee liter melk nodig.**\n\n**Koken** is to cook: **ik kook**, **jij kookt**.\n**Wat kook je?**\n\n**Zoet** is sweet and **zuur** sour: **Suiker is zoet.**",
+    "example_sentence_ids": "S91104;S91034;S91002",
+    "conjugation_lemma": "koken",
+    "status": "live",
+    "examples": [
+      "S91104",
+      "S91034",
+      "S91002"
+    ],
+    "conjugations": [
+      {
+        "lemma": "koken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "kook"
+          },
+          {
+            "person": "jij, je",
+            "form": "kookt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "kookt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "koken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/koken#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U26",
+    "rule": "**Excuseer** is excuse me:\n**Excuseer, mag ik door?**\n\n**Dat spijt me.** I'm sorry about that.\n\n**Heb je hulp nodig?** Do you need help?\n**Is dat een probleem?** Is that a problem?\n\n**Iemand** is someone and **niemand** no one; **niets** and **niks** are nothing:\n**Niks is gratis.**",
+    "example_sentence_ids": "S26007;S26008;S26019",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S26007",
+      "S26008",
+      "S26019"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U82",
+    "rule": "**Eet smakelijk!** Enjoy your meal!\n\nOn the table: **de vork**, **het mes**, **de lepel**, **het bord**.\n**Heb je een vork?**\n\n**Het toetje** is dessert: **Ik wil ijs als toetje.**\n\n**Te** is too: **De soep is te zout.**",
+    "example_sentence_ids": "S82020;S82103;S82107",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S82020",
+      "S82103",
+      "S82107"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U83",
+    "rule": "**Rechts**, **links**, **rechtdoor**: right, left, straight ahead.\n**Ga rechtdoor.**\n\n**Linksaf** and **rechtsaf** are turning left and right:\n**Ga hier linksaf.**\n**Ga bij het stoplicht linksaf.**\n\n**Om de hoek** is around the corner. **De derde straat rechts** is the third street on the right.",
+    "example_sentence_ids": "S83009;S83101;S83102",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S83009",
+      "S83101",
+      "S83102"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U92",
+    "rule": "For what happened, **hebben** with the past form at the end:\n**Wat heb je gedaan?**\n**Ik heb net gegeten.**\n\nComing and going take **zijn**:\n**Waar ben je geweest?**\n**Hij is net thuis gekomen.**\n\nMost past forms are **ge-** … **-d** or **-t** (**gemaakt**, **gehoord**) or **ge-** … **-en** (**gezien**, **gegeven**). **Net** is just and **eerder** before.",
+    "example_sentence_ids": "S92019;S92005;S92020",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S92019",
+      "S92005",
+      "S92020"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U27",
+    "rule": "**Verdwaald** is lost on the way:\n**Bent u verdwaald?**\n\n**Kwijt** is having lost something:\n**Ik ben alles kwijt.**\n\n**Laten zien** is to show:\n**Kun je me dat laten zien?**\n\n**Een kaart** and **een plattegrond** are maps.",
+    "example_sentence_ids": "S27001;S27012;S27016",
+    "conjugation_lemma": "laten",
+    "status": "live",
+    "examples": [
+      "S27001",
+      "S27012",
+      "S27016"
+    ],
+    "conjugations": [
+      {
+        "lemma": "laten",
+        "present": [
+          {
+            "person": "ik",
+            "form": "laat"
+          },
+          {
+            "person": "jij, je",
+            "form": "laat"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "laat"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "laten"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/laten#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U84",
+    "rule": "**Nemen** for the way you go:\n**Ik neem de tram.**\n**Met de metro** is by metro, and **lopend** is on foot:\n**Ik ga lopend naar school.**\n\nSome verbs split: **Stap uit bij de volgende halte.** (get off at the next stop)\n**Overstappen** is to change: **Moet ik overstappen?**\n\n**Waar ga je heen?** Where are you going?",
+    "example_sentence_ids": "S84101;S84019;S84001",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S84101",
+      "S84019",
+      "S84001"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U85",
+    "rule": "Family: **opa**, **oma**, **oom**, **tante**, **zoon**, **dochter**, and **broers** and **zussen**:\n**Heb je broers en zussen?**\n\n**Ben je getrouwd?** Are you married?\n\n**Een gezin** is a family at home: **Mijn gezin is klein.**\n\n**Elkaar** is each other: **Kennen we elkaar?**\n**Allemaal** is all of you: **Roken jullie allemaal?**",
+    "example_sentence_ids": "S85001;S85009;S85013",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S85001",
+      "S85009",
+      "S85013"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U93",
+    "rule": "**Ik heb pijn in mijn tand.** My tooth hurts.\n**Ik heb koorts.** I have a fever.\n**Heb je hoofdpijn?** Do you have a headache?\n\n**Ik ben vaak verkouden.** I often have a cold.\n\n**Zich zorgen maken** is to worry: **Tom maakt zich zorgen.**\n\n**Neem wat rust.** Get some rest.",
+    "example_sentence_ids": "S93106;S93018;S93003",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S93106",
+      "S93018",
+      "S93003"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U86",
+    "rule": "Rooms: **de woonkamer** (living room), **de slaapkamer** (bedroom):\n**We zitten in de woonkamer.**\n\n**Huren** is to rent and **de huur** the rent:\n**Hoeveel is de huur?**\n\n**Op welke verdieping woon jij?** What floor do you live on?\n\n**Zelf** is yourself: **Heeft Tom dat zelf gedaan?**",
+    "example_sentence_ids": "S86102;S86107;S86009",
+    "conjugation_lemma": "huren",
+    "status": "live",
+    "examples": [
+      "S86102",
+      "S86107",
+      "S86009"
+    ],
+    "conjugations": [
+      {
+        "lemma": "huren",
+        "present": [
+          {
+            "person": "ik",
+            "form": "huur"
+          },
+          {
+            "person": "jij, je",
+            "form": "huurt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "huurt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "huren"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/huren#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U87",
+    "rule": "A job after **zijn** can go without **een**:\n**Ze is verpleegkundige.**\n**Hij is agent.**\n\n**Wat is uw beroep?** asks someone's job.\n\n**Mijn baas**, **mijn collega**: **Tom is mijn collega.**\n\n**Druk bezig** is very busy: **Ik ben druk bezig.**",
+    "example_sentence_ids": "S87032;S87005;S87034",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S87032",
+      "S87005",
+      "S87034"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U94",
+    "rule": "**Vertellen** is to tell: **Vertel je de waarheid?**\n\n**Klinken** is to sound and **lijken** to seem:\n**Hoe klinkt dat?**\n**Dat lijkt me leuk.** (that sounds fun to me)\n**Hij lijkt op zijn vader.** (he looks like his father)\n\n**Want** is because, and the words after it keep their usual order:\n**Ik eet, want ik heb honger.**\n\n**Gelijk hebben** is to be right: **Je hebt helemaal gelijk.**",
+    "example_sentence_ids": "S94001;S94102;S94107",
+    "conjugation_lemma": "vertellen;klinken;lijken",
+    "status": "live",
+    "examples": [
+      "S94001",
+      "S94102",
+      "S94107"
+    ],
+    "conjugations": [
+      {
+        "lemma": "vertellen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "vertel"
+          },
+          {
+            "person": "jij, je",
+            "form": "vertelt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "vertelt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "vertellen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/vertellen#Conjugation"
+      },
+      {
+        "lemma": "klinken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "klink"
+          },
+          {
+            "person": "jij, je",
+            "form": "klinkt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "klinkt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "klinken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/klinken#Conjugation"
+      },
+      {
+        "lemma": "lijken",
+        "present": [
+          {
+            "person": "ik",
+            "form": "lijk"
+          },
+          {
+            "person": "jij, je",
+            "form": "lijkt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "lijkt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "lijken"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/lijken#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U28",
+    "rule": "**Kapot** is broken: **Is het kapot?**\n\n**Wat is er mis?** What's wrong?\n\n**Gebeuren** is to happen. What has happened takes **zijn**:\n**Wat gebeurt er?**\n**Waar is het ongeluk gebeurd?**\n\n**Zal ik een ambulance bellen?** Shall I call an ambulance?",
+    "example_sentence_ids": "S28009;S28018;S28001",
+    "conjugation_lemma": "gebeuren",
+    "status": "live",
+    "examples": [
+      "S28009",
+      "S28018",
+      "S28001"
+    ],
+    "conjugations": [
+      {
+        "lemma": "gebeuren",
+        "present": [
+          {
+            "person": "ik",
+            "form": "gebeur"
+          },
+          {
+            "person": "jij, je",
+            "form": "gebeurt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "gebeurt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "gebeuren"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/gebeuren#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U88",
+    "rule": "The words on a form: **de geboortedatum** (date of birth), **de nationaliteit**, **de woonplaats** (place you live), **de postcode**, **het geslacht** (sex), **de handtekening** (signature).\n\n**Vul** … **in** is fill in, with **in** at the end:\n**Vul uw woonplaats in.**\n\n**Teken hier!** Sign here!\n\n**Gescheiden** is divorced: **Ik ben gescheiden.**",
+    "example_sentence_ids": "S88101;S88108;S88008",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S88101",
+      "S88108",
+      "S88008"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U89",
+    "rule": "**Lieve** is dear, to people you're close to:\n**Lieve vrienden!**\n\n**Groetjes** and **groeten** are greetings at the end:\n**Groeten uit Frankrijk!**\n\n**Sturen** is to send:\n**Ik stuur je wel een brief.**\n\n**Een bericht** is a message. **Jou** is you after a word like **voor**: **Hier is een bericht voor jou.**",
+    "example_sentence_ids": "S89017;S89020;S89004",
+    "conjugation_lemma": "sturen",
+    "status": "live",
+    "examples": [
+      "S89017",
+      "S89020",
+      "S89004"
+    ],
+    "conjugations": [
+      {
+        "lemma": "sturen",
+        "present": [
+          {
+            "person": "ik",
+            "form": "stuur"
+          },
+          {
+            "person": "jij, je",
+            "form": "stuurt"
+          },
+          {
+            "person": "hij, zij, het",
+            "form": "stuurt"
+          },
+          {
+            "person": "wij, jullie, zij",
+            "form": "sturen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/sturen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U95",
+    "rule": "The simple past of **zijn** and **hebben**: **ik was**, **wij waren**; **ik had**, **wij hadden**.\n**Tom had een gelukkig leven.**\n\nMany verbs change their vowel in the past: **komen**, **kwam**; **zien**, **zag**; **geven**, **gaf**:\n**Ze kwam als laatste.**\n\n**Toen** is then, back then, and also when:\n**Ze kon lezen toen ze vier was.**",
+    "example_sentence_ids": "S95010;S95009;S95002",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S95010",
+      "S95009",
+      "S95002"
+    ],
+    "conjugations": []
   }
 ]
