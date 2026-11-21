@@ -37,6 +37,13 @@ export const EXAMS = {
     note: 'There is no general A1 Dutch exam for everyone; the CNaVT exams start at A2. This course practises the language parts only.',
     samples: 'https://www.inburgeren.nl/en/civic-integration-abroad/',
     format: 'Short texts to read first; then spoken Dutch, heard and answered; a little writing as practice, since the exam has none.' },
+  // Swedish (2026-11-21, the full A1 run): Swedex, Folkuniversitetet's exam. Its current levels start at A2 (the combined
+  // A2/B1 test); no Swedish exam is set at A1, so the note says so, as Portuguese's does for ACESSO.
+  sv: { name: 'Swedex', body: 'Folkuniversitetet', official: 'https://www.folkuniversitetet.se/in-english/swedex-swedish-examinations/about-swedex/',
+    about: 'Swedex is the Swedish language exam of Folkuniversitetet, with four modules: reading, listening, a written part and a spoken part.',
+    note: 'Swedex starts at A2, one level above where this course ends; there is no Swedish exam set at A1. The final check follows its four modules for practice.',
+    samples: 'https://www.folkuniversitetet.se/in-english/swedex-swedish-examinations/mock-exams/',
+    format: 'Short texts to read; numbers and short lines to listen to; a form and a short message to write; then speaking.' },
 }
 
 export const PARTS = [
@@ -83,6 +90,14 @@ export const FORMATS = {
     { id: 'listening', label: 'Listening', paper: 'Toets Gesproken Nederlands', items: [['QT04', 2, 3], ['QT17', 3, 3], ['QT11', 4, 2]] },
     { id: 'speaking', label: 'Speaking', paper: 'Toets Gesproken Nederlands', items: [['QT13', 5, 4]] },
     { id: 'writing', label: 'Writing', paper: 'Practice (not in the exam)', items: [['QT15', 4, 1], ['QT12', 4, 2]] },
+  ],
+  // Swedish is a mock Swedex (2026-11-21; end of Part 4): its four modules in order, reading, listening, the written part
+  // (a form and a short message, the message not scored), the spoken part (never graded). Item counts are ours.
+  sv: [
+    { id: 'reading', label: 'Reading', paper: 'Läsförståelse', items: [['QT14', 3, 4], ['QT03', 2, 2]] },
+    { id: 'listening', label: 'Listening', paper: 'Hörförståelse', items: [['QT04', 2, 3], ['QT17', 3, 4], ['QT11', 4, 2]] },
+    { id: 'writing', label: 'Writing', paper: 'Skriftlig del', items: [['QT15', 4, 1], ['QT16', 5, 1], ['QT12', 4, 2]] },
+    { id: 'speaking', label: 'Speaking', paper: 'Muntlig del', items: [['QT13', 5, 3]] },
   ],
 }
 // Italian is a mock CELI Impatto (A1) (Dan, 2026-11-16; at the end of Part 4, the last part). The Università per

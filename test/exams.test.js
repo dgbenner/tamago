@@ -100,3 +100,15 @@ test('Dutch final check: a mock Basic Civic Integration Exam Abroad, reading fir
   assert.equal(s.graded, items.filter((i) => i.part !== 'speaking' && i.type !== 'QT16').length, 'speaking never graded')
   assert.match(EXAMS.nl.format, /read/)
 })
+
+test('Swedish final check: a mock Swedex, reading, listening, writing, speaking', () => {
+  const t = load('src/content-sv')
+  const all = indexContent(t)
+  const items = finalItems(all, mainsOf(t), seeded(7), 'sv')
+  assert.deepEqual([...new Set(items.map((i) => i.part))], ['reading', 'listening', 'writing', 'speaking'])
+  assert.equal(items.length, expected('sv'))
+  const s = buildSession(all, 'final', items, { rng: seeded(7) })
+  assert.equal(s.queue.length, items.length)
+  assert.equal(s.graded, items.filter((i) => i.part !== 'speaking' && i.type !== 'QT16').length, 'speaking and the message never graded')
+  assert.match(EXAMS.sv.note, /A2/)
+})
