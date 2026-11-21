@@ -34,7 +34,7 @@ export const COURSES = {
   },
   // Dutch (2026-11-19, branch lang/dutch): standard Dutch (Netherlands), je informally and u formally. Its folders: content-nl/…
   nl: {
-    id: "nl", name: "Dutch", workbook: "_source/tamago-nl-data-v5.xlsx",
+    id: "nl", name: "Dutch", workbook: "_source/tamago-nl-data-v6.xlsx",
     tatoeba: "nld", wiktionaryCode: "nl", wiktionarySection: "Dutch", linguaLibre: { qid: "Q7411", iso: "nld" }, wikidataLanguage: "Q7411",
   },
   // Swedish (2026-11-19, branch lang/swedish): standard Swedish, du throughout (formal ni is archaic, kept out of

@@ -262,5 +262,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R301",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Dagmenu",
+    "lines": "Soep, kip met rijst en salade\nToetje: ijs\n€ 18",
+    "questions_json": "[{\"question\":\"How much is the menu of the day?\",\"choices\":[\"18 euros\",\"8 euros\",\"28 euros\"],\"answer\":0},{\"question\":\"What is there for dessert?\",\"choices\":[\"Ice cream\",\"Cake\",\"Fruit\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R302",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Café De Hoek",
+    "lines": "Koffie: € 3\nJus d'orange: € 4\nAppeltaart: € 4,50\nTosti: € 5",
+    "questions_json": "[{\"question\":\"How much is the apple pie?\",\"choices\":[\"4.50 euros\",\"3 euros\",\"5 euros\"],\"answer\":0},{\"question\":\"What costs 3 euros?\",\"choices\":[\"A coffee\",\"An orange juice\",\"A toasted sandwich\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R303",
+    "unit_id": "U82",
+    "kind": "notice",
+    "title": "Restaurant De Vis",
+    "lines": "Vis en vlees\nOpen van dinsdag tot zondag\nOp maandag gesloten",
+    "questions_json": "[{\"question\":\"When is the restaurant closed?\",\"choices\":[\"On Mondays\",\"On Sundays\",\"On Tuesdays\"],\"answer\":0},{\"question\":\"What does the restaurant serve?\",\"choices\":[\"Fish and meat\",\"Pizza\",\"Only salads\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R304",
+    "unit_id": "U83",
+    "kind": "message",
+    "title": "Een bericht van Anna",
+    "lines": "Mijn huis is dicht bij het station.\nGa rechtdoor tot het plein.\nMijn straat is de tweede rechts.",
+    "questions_json": "[{\"question\":\"Where is Anna's house?\",\"choices\":[\"Near the station\",\"Near the school\",\"In the city centre\"],\"answer\":0},{\"question\":\"Which street is hers?\",\"choices\":[\"The second on the right\",\"The first on the left\",\"The second on the left\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R305",
+    "unit_id": "U83",
+    "kind": "sign",
+    "title": "In de stad",
+    "lines": "Museum: 200 meter, links\nKerk: rechtdoor\nStation: rechts",
+    "questions_json": "[{\"question\":\"Where is the museum?\",\"choices\":[\"200 metres on the left\",\"200 metres on the right\",\"Straight on\"],\"answer\":0},{\"question\":\"Where is the station?\",\"choices\":[\"On the right\",\"On the left\",\"Straight on\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R306",
+    "unit_id": "U83",
+    "kind": "notice",
+    "title": "Het hotel",
+    "lines": "Het hotel is aan het eind van de straat.\nVijf minuten lopen naar het centrum\nBushalte voor het hotel",
+    "questions_json": "[{\"question\":\"How far is the hotel from the centre?\",\"choices\":[\"Five minutes on foot\",\"Five minutes by car\",\"Half an hour on foot\"],\"answer\":0},{\"question\":\"Where is the bus stop?\",\"choices\":[\"In front of the hotel\",\"Behind the hotel\",\"At the station\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R307",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Te huur",
+    "lines": "Appartement in het centrum\nTwee slaapkamers, woonkamer, keuken en badkamer\nMet balkon\n€ 1200 per maand",
+    "questions_json": "[{\"question\":\"How many bedrooms does the flat have?\",\"choices\":[\"Two\",\"Three\",\"One\"],\"answer\":0},{\"question\":\"What else does it have?\",\"choices\":[\"A balcony\",\"A garden\",\"A garage\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R308",
+    "unit_id": "U86",
+    "kind": "message",
+    "title": "Een bericht van Maria",
+    "lines": "Mijn nieuwe huis is klein.\nHet heeft een slaapkamer, een woonkamer en een keuken.\nEr is geen tuin.",
+    "questions_json": "[{\"question\":\"What is Maria's new house like?\",\"choices\":[\"Small\",\"Big\",\"Old\"],\"answer\":0},{\"question\":\"What doesn't it have?\",\"choices\":[\"A garden\",\"A kitchen\",\"A bedroom\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R309",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Kamer voor een student",
+    "lines": "Kamer te huur voor een student\nMet bed, tafel en stoel\nDicht bij de universiteit",
+    "questions_json": "[{\"question\":\"Who is the room for?\",\"choices\":[\"A student\",\"A family\",\"A tourist\"],\"answer\":0},{\"question\":\"Where is it?\",\"choices\":[\"Near the university\",\"Near the station\",\"In the countryside\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R310",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Vacature",
+    "lines": "Restaurant zoekt een kok\nVan dinsdag tot zaterdag, 17.00 tot 23.00 uur\nBel 06 12 20 18 09",
+    "questions_json": "[{\"question\":\"What job is it?\",\"choices\":[\"A cook\",\"A waiter\",\"A driver\"],\"answer\":0},{\"question\":\"Which days?\",\"choices\":[\"Tuesday to Saturday\",\"Monday to Friday\",\"Every day\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R311",
+    "unit_id": "U87",
+    "kind": "message",
+    "title": "Mijn werk",
+    "lines": "Ik ben verpleegkundige en ik werk in een ziekenhuis.\nIk begin om zeven uur 's ochtends.\nMijn baas is heel aardig.",
+    "questions_json": "[{\"question\":\"Where does she work?\",\"choices\":[\"In a hospital\",\"In a school\",\"In a shop\"],\"answer\":0},{\"question\":\"When does she start?\",\"choices\":[\"At seven in the morning\",\"At seven in the evening\",\"At nine\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R312",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Het bedrijf",
+    "lines": "Bedrijf zoekt een chauffeur\nMet rijbewijs\nVan maandag tot vrijdag",
+    "questions_json": "[{\"question\":\"Who is the company looking for?\",\"choices\":[\"A driver\",\"A secretary\",\"A teacher\"],\"answer\":0},{\"question\":\"What do you need?\",\"choices\":[\"A driving licence\",\"A university degree\",\"A car\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R313",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Een kaart van Anna",
+    "lines": "Lieve Jan,\nik ben met mijn familie aan zee. Het is warm en de zee is prachtig.\nGroetjes, Anna",
+    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the seaside\",\"In the mountains\",\"In the city\"],\"answer\":0},{\"question\":\"What is the weather like?\",\"choices\":[\"Warm\",\"Cold\",\"Rainy\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R314",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Een bericht van Tom",
+    "lines": "Hoi Maria,\nzaterdag ben ik jarig. Kom je naar mijn feest?\nHet is bij mij thuis, om acht uur.\nTom",
+    "questions_json": "[{\"question\":\"Why is Tom having a party?\",\"choices\":[\"It's his birthday\",\"He has a new job\",\"It's Christmas\"],\"answer\":0},{\"question\":\"Where is the party?\",\"choices\":[\"At his house\",\"At a restaurant\",\"In the park\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R315",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Een briefje",
+    "lines": "Anna,\nik ben niet thuis. Ik ben om zes uur terug.\nHet eten staat in de koelkast.\nJan",
+    "questions_json": "[{\"question\":\"When is Jan back?\",\"choices\":[\"At six\",\"At eight\",\"At five\"],\"answer\":0},{\"question\":\"Where is the food?\",\"choices\":[\"In the fridge\",\"At a restaurant\",\"In the oven\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

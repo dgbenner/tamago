@@ -1636,5 +1636,329 @@
       "person": "wij, jullie, zij",
       "form": "voelen"
     }
+  ],
+  "bestellen": [
+    {
+      "person": "ik",
+      "form": "bestel"
+    },
+    {
+      "person": "jij, je",
+      "form": "bestelt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "bestelt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "bestellen"
+    }
+  ],
+  "mogen": [
+    {
+      "person": "ik",
+      "form": "mag"
+    },
+    {
+      "person": "jij, je",
+      "form": "mag"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "mag"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "mogen"
+    }
+  ],
+  "excuseren": [
+    {
+      "person": "ik",
+      "form": "excuseer"
+    },
+    {
+      "person": "jij, je",
+      "form": "excuseert"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "excuseert"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "excuseren"
+    }
+  ],
+  "laten": [
+    {
+      "person": "ik",
+      "form": "laat"
+    },
+    {
+      "person": "jij, je",
+      "form": "laat"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "laat"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "laten"
+    }
+  ],
+  "stappen": [
+    {
+      "person": "ik",
+      "form": "stap"
+    },
+    {
+      "person": "jij, je",
+      "form": "stapt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "stapt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "stappen"
+    }
+  ],
+  "overstappen": [
+    {
+      "person": "ik",
+      "form": "stap over"
+    },
+    {
+      "person": "jij, je",
+      "form": "stapt over"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "stapt over"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "stappen over"
+    }
+  ],
+  "huren": [
+    {
+      "person": "ik",
+      "form": "huur"
+    },
+    {
+      "person": "jij, je",
+      "form": "huurt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "huurt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "huren"
+    }
+  ],
+  "hoeven": [
+    {
+      "person": "ik",
+      "form": "hoef"
+    },
+    {
+      "person": "jij, je",
+      "form": "hoeft"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "hoeft"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "hoeven"
+    }
+  ],
+  "gebeuren": [
+    {
+      "person": "ik",
+      "form": "gebeur"
+    },
+    {
+      "person": "jij, je",
+      "form": "gebeurt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "gebeurt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "gebeuren"
+    }
+  ],
+  "invullen": [
+    {
+      "person": "ik",
+      "form": "vul in"
+    },
+    {
+      "person": "jij, je",
+      "form": "vult in"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "vult in"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "vullen in"
+    }
+  ],
+  "sturen": [
+    {
+      "person": "ik",
+      "form": "stuur"
+    },
+    {
+      "person": "jij, je",
+      "form": "stuurt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "stuurt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "sturen"
+    }
+  ],
+  "koken": [
+    {
+      "person": "ik",
+      "form": "kook"
+    },
+    {
+      "person": "jij, je",
+      "form": "kookt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "kookt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "koken"
+    }
+  ],
+  "proeven": [
+    {
+      "person": "ik",
+      "form": "proef"
+    },
+    {
+      "person": "jij, je",
+      "form": "proeft"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "proeft"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "proeven"
+    }
+  ],
+  "zorgen": [
+    {
+      "person": "ik",
+      "form": "zorg"
+    },
+    {
+      "person": "jij, je",
+      "form": "zorgt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "zorgt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "zorgen"
+    }
+  ],
+  "vertellen": [
+    {
+      "person": "ik",
+      "form": "vertel"
+    },
+    {
+      "person": "jij, je",
+      "form": "vertelt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "vertelt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "vertellen"
+    }
+  ],
+  "klinken": [
+    {
+      "person": "ik",
+      "form": "klink"
+    },
+    {
+      "person": "jij, je",
+      "form": "klinkt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "klinkt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "klinken"
+    }
+  ],
+  "lijken": [
+    {
+      "person": "ik",
+      "form": "lijk"
+    },
+    {
+      "person": "jij, je",
+      "form": "lijkt"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "lijkt"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "lijken"
+    }
+  ],
+  "veranderen": [
+    {
+      "person": "ik",
+      "form": "verander"
+    },
+    {
+      "person": "jij, je",
+      "form": "verandert"
+    },
+    {
+      "person": "hij, zij, het",
+      "form": "verandert"
+    },
+    {
+      "person": "wij, jullie, zij",
+      "form": "veranderen"
+    }
   ]
 }
