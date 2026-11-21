@@ -38,8 +38,9 @@ const BY_COURSE = {
   },
   // Danish and Norwegian core lists are subtitle frequency lists too (2026-11-20, standing step): their oaths, kill words
   // and leftovers. Everyday words that subtitles over-represent but A1 needs (død, politiet, hallo) stay.
+  // Part 2 gather (2026-11-21, Builder 2): hr (the subtitle abbreviation of herr, Mr).
   da: {
-    subtitle: ['åh', 'ej', 'h', 'l', 's', 'agent', 'kaptajn', 'dollars', 'sam', 'new', 'okay', 'ok'],
+    subtitle: ['åh', 'ej', 'h', 'l', 's', 'agent', 'kaptajn', 'dollars', 'sam', 'new', 'okay', 'ok', 'hr'],
     oath: ['fanden', 'helvede', 'lort', 'pis', 'sgu', 'skide', 'kæft', 'gud'],
     violence: ['dræbe', 'dræbte', 'dræbt', 'dræber', 'ihjel', 'våben', 'blod', 'dø'],
   },

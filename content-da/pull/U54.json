@@ -1,0 +1,486 @@
+{
+  "unit_id": "U54",
+  "pulled_at": "2026-11-21",
+  "candidates": 8,
+  "sentences": [
+    {
+      "sentence_id": "S54001",
+      "unit_id": "U54",
+      "french": "Hvor er din jakke?",
+      "english": "Where's your jacket?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3695020",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": [
+        "Where is your jacket?"
+      ]
+    },
+    {
+      "sentence_id": "S54002",
+      "unit_id": "U54",
+      "french": "Har du den her i min størrelse?",
+      "english": "Do you have this in my size?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1842437",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54003",
+      "unit_id": "U54",
+      "french": "Det er din hat, er det ikke?",
+      "english": "This is your hat, isn't it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2328414",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54004",
+      "unit_id": "U54",
+      "french": "De prøver.",
+      "english": "They're trying.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7195755",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54005",
+      "unit_id": "U54",
+      "french": "Det er min jakke.",
+      "english": "That's my jacket.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3365700",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54006",
+      "unit_id": "U54",
+      "french": "Du har min skjorte på, Tom.",
+      "english": "You're wearing my shirt, Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9763071",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54007",
+      "unit_id": "U54",
+      "french": "Hun har en smuk kjole på.",
+      "english": "She's wearing a beautiful dress.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10164852",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54008",
+      "unit_id": "U54",
+      "french": "Han er en mand i en kjole.",
+      "english": "He's a man in a dress.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8289532",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Isomorph",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S54001",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 4,
+      "surface": "jakke",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 3,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 4,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 5,
+      "surface": "i",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 6,
+      "surface": "min",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 7,
+      "surface": "størrelse",
+      "word_id": "W1112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 4,
+      "surface": "hat",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 5,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 6,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 7,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 2,
+      "surface": "prøver",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 3,
+      "surface": "min",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 4,
+      "surface": "jakke",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 3,
+      "surface": "min",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 4,
+      "surface": "skjorte",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 4,
+      "surface": "smuk",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 5,
+      "surface": "kjole",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 6,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 4,
+      "surface": "mand",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 5,
+      "surface": "i",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 6,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 7,
+      "surface": "kjole",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A540011",
+      "sentence_id": "S54001",
+      "direction": "fr_to_en",
+      "answer": "Where is your jacket?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

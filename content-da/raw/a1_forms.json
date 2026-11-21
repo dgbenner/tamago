@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Jeg hedder Lars Jensen. Jeg er fyrre år. Jeg bor på Storegade ti i Aarhus.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Fornavn\",\"rule\":\"text\",\"answer\":\"Lars\"},{\"key\":\"last\",\"label\":\"Efternavn\",\"rule\":\"text\",\"answer\":\"Jensen\"},{\"key\":\"age\",\"label\":\"Alder\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adresse\",\"rule\":\"text\",\"answer\":\"Storegade 10\",\"also\":[\"Storegade, 10\",\"storegade 10\",\"Storegade ti\"]},{\"key\":\"town\",\"label\":\"By\",\"rule\":\"text\",\"answer\":\"Aarhus\",\"also\":[\"aarhus\",\"Århus\",\"århus\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Jeg hedder Mette Hansen. Jeg er tredive år. Jeg kommer fra Danmark. Jeg bor i Frankrig. Mit nummer er tolv, fjorten, nitten, elleve.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Fornavn\",\"rule\":\"text\",\"answer\":\"Mette\"},{\"key\":\"last\",\"label\":\"Efternavn\",\"rule\":\"text\",\"answer\":\"Hansen\"},{\"key\":\"age\",\"label\":\"Alder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationalitet\",\"rule\":\"text\",\"answer\":\"dansk\",\"also\":[\"Dansk\",\"dansker\",\"Dansker\",\"Danmark\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrig\"},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"12 14 19 11\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

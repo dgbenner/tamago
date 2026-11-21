@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "På torvet",
+    "lines": "Frugt og grøntsager\nÆbler: 25 kroner kiloet\nMarked: mandag og lørdag",
+    "questions_json": "[{\"question\":\"How much is a kilo of apples?\",\"choices\":[\"25 kroner\",\"15 kroner\",\"52 kroner\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Sunday\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R102",
+    "unit_id": "U47",
+    "kind": "notice",
+    "title": "Marked på torvet",
+    "lines": "Marked på torvet\nHver lørdag\nFrugt, grøntsager, brød og ost",
+    "questions_json": "[{\"question\":\"When is the market?\",\"choices\":[\"On Saturdays\",\"On Mondays\",\"Every day\"],\"answer\":0},{\"question\":\"What can you buy there?\",\"choices\":[\"Fruit, vegetables, bread and cheese\",\"Clothes and shoes\",\"Books and maps\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R103",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "En sms fra Anna",
+    "lines": "Lars!\nJeg er på torvet. Jeg køber frugt og grøntsager.\nSkal jeg købe et æble til dig?\nAnna",
+    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the market square\",\"At school\",\"In the park\"],\"answer\":0},{\"question\":\"What does she offer to buy for Lars?\",\"choices\":[\"An apple\",\"A coffee\",\"Some bread\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R104",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Priser",
+    "lines": "Brød: 30 kroner\nOst: 90 kroner\nMælk: 15 kroner\nVand: 20 kroner",
+    "questions_json": "[{\"question\":\"How much is the cheese?\",\"choices\":[\"30 kroner\",\"90 kroner\",\"15 kroner\"],\"answer\":1},{\"question\":\"What costs 30 kroner?\",\"choices\":[\"The bread\",\"The milk\",\"The water\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R105",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "På caféen",
+    "lines": "Kaffe: 35 kroner\nTe: 30 kroner\nÆblekage: 45 kroner",
+    "questions_json": "[{\"question\":\"How much is a tea?\",\"choices\":[\"30 kroner\",\"35 kroner\",\"45 kroner\"],\"answer\":0},{\"question\":\"What costs the most?\",\"choices\":[\"The apple cake\",\"The coffee\",\"The tea\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "notice",
+    "title": "Gamle bøger",
+    "lines": "Gamle bøger\nEn bog: 20 kroner\nTre bøger: 50 kroner",
+    "questions_json": "[{\"question\":\"How much is one book?\",\"choices\":[\"20 kroner\",\"30 kroner\",\"50 kroner\"],\"answer\":0},{\"question\":\"How much are three books?\",\"choices\":[\"50 kroner\",\"60 kroner\",\"20 kroner\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R107",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "En sms fra Maria",
+    "lines": "Peter!\nKan du købe en flaske mælk, en pakke kaffe og et kilo æbler?\nTak!\nMaria",
+    "questions_json": "[{\"question\":\"What does Maria want?\",\"choices\":[\"Milk, coffee and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "sign",
+    "title": "I butikken",
+    "lines": "Vand: seks flasker, 40 kroner\nChokolade: to æsker, 50 kroner",
+    "questions_json": "[{\"question\":\"How many bottles do you get for 40 kroner?\",\"choices\":[\"Six\",\"Four\",\"Two\"],\"answer\":0},{\"question\":\"What costs 50 kroner?\",\"choices\":[\"Two boxes of chocolates\",\"Six bottles of water\",\"One box of chocolates\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Til festen",
+    "lines": "Til festen:\nto flasker saftevand,\nen æske chokolade,\nmasser af frugt!",
+    "questions_json": "[{\"question\":\"How many bottles of squash?\",\"choices\":[\"Two\",\"One\",\"Three\"],\"answer\":0},{\"question\":\"What is the list for?\",\"choices\":[\"A party\",\"School\",\"A trip\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

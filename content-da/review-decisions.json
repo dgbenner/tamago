@@ -443,6 +443,66 @@
   "W1023": {
    "hint": "film, movie",
    "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+  },
+  "W845": {
+   "hint": "birthday (the birthday)",
+   "source": "definite singular of fødselsdag (birthday), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W970": {
+   "hint": "money (the money)",
+   "source": "definite plural of penge (money), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W1198": {
+   "hint": "door (the door)",
+   "source": "definite singular of dør (door), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W1202": {
+   "hint": "sea (the sea)",
+   "source": "definite singular of hav (sea; ocean), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W1205": {
+   "hint": "forest, woods (the forest)",
+   "source": "definite singular of skov (forest), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W1212": {
+   "hint": "sun (the sun)",
+   "source": "definite singular of sol (sun), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W1213": {
+   "hint": "sky (the sky)",
+   "source": "definite singular of himmel (sky), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W1215": {
+   "hint": "earth, Earth (the earth)",
+   "source": "definite singular of jord (earth, Earth), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W903": {
+   "hint": "people, human beings",
+   "source": "indefinite plural of menneske (human being; person, people), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W899": {
+   "hint": "boyfriend, girlfriend",
+   "source": "Wiktionary Danish: boyfriend or girlfriend; the pipeline reads the or-phrase as one meaning (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W828": {
+   "hint": "phone, telephone",
+   "source": "Wiktionary Danish: telephone; phone number (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W999": {
+   "hint": "place, seat, room",
+   "source": "Wiktionary Danish senses 1, 2 and 5: place, seat, room (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W802": {
+   "hint": "first name",
+   "source": "Wiktionary Danish: given name (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W941": {
+   "hint": "use, need",
+   "source": "Wiktionary Danish: use; har brug for (have use for) is how Danish says need, flagged for Fable (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+  },
+  "W986": {
+   "hint": "pair, couple",
+   "source": "Wiktionary Danish: pair; couple (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
   }
  },
  "phrases_off": {},
@@ -458,7 +518,9 @@
   "København",
   "Aarhus",
   "London",
-  "Paris"
+  "Paris",
+  "Jensen",
+  "Hansen"
  ],
  "gender": {
   "W011": "en",
@@ -544,7 +606,52 @@
   "W710": "et",
   "W716": "en",
   "W1008": "et",
-  "W094": "et"
+  "W094": "et",
+  "W801": "et",
+  "W802": "et",
+  "W803": "et",
+  "W818": "et",
+  "W826": "et",
+  "W828": "en",
+  "W859": "et",
+  "W865": "en",
+  "W890": "en",
+  "W891": "et",
+  "W899": "en",
+  "W904": "et",
+  "W906": "et",
+  "W922": "et",
+  "W924": "en",
+  "W925": "et",
+  "W939": "en",
+  "W941": "en",
+  "W968": "en",
+  "W981": "en",
+  "W983": "en",
+  "W985": "et",
+  "W986": "et",
+  "W999": "en",
+  "W1101": "et",
+  "W1104": "en",
+  "W1105": "en",
+  "W1106": "en",
+  "W1107": "en",
+  "W1108": "en",
+  "W1111": "en",
+  "W1112": "en",
+  "W1116": "en",
+  "W1117": "et",
+  "W1120": "et",
+  "W1124": "et",
+  "W1126": "en",
+  "W1133": "et",
+  "W1140": "en",
+  "W1142": "et",
+  "W1143": "en",
+  "W1204": "en",
+  "W1207": "et",
+  "W1209": "en",
+  "W1132": "en"
  },
  "accepted_additions": []
 }
