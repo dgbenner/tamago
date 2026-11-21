@@ -171,6 +171,12 @@ const off = { postnummer: NO_ENTRY, 'trots att': NO_ENTRY, 'även om': NO_ENTRY,
   // Wiktionary has massa only as a mass, not en massa (a lot of), so its hint would be wrong.
   ena: 'turned off after the pull: den ena … den andra needs andra as other, taught as second',
   massa: "turned off after the pull: Wiktionary's sense is a mass, not en massa (a lot), so the hint would mislead" }
+// Dry-source rule (Builder 1, 2026-11-21): Part 4 stood at 46% drafts, so the vocabulary circles' draft-only words were
+// turned off, least frequent Kelly rank first, until the part sat under 38%; their drafts went with them (nine drafts
+// that also carried a kept word were rewritten without it). kunskap was skipped: it takes Tatoeba's Kunskap är makt,
+// which makt needs.
+const DRY = 'turned off under the dry-source rule: only drafted lines in its circle (Part 4 at 46% drafts)'
+for (const w of ['innehåller', 'bryter', 'personlig', 'rapport', 'handling', 'kropp', 'framför allt', 'dels', 'övriga', 'ämne', 'faller', 'samarbete', 'deltar', 'gräns', 'igenom', 'ändring', 'punkt', 'enskild', 'nämner', 'jord', 'såväl', 'offentlig', 'per', 'länk', 'mängd', 'nivå', 'nämligen', 'princip', 'kultur', 'gram', 'beskriver', 'liksom', 'särskild', 'amerikansk', 'driver', 'allmän', 'trots', 'ekonomi', 'däremot', 'i alla fall', 'minskar', 'påverkar', 'tvingar', 'grund', 'organisation', 'ansvar']) off[w] = DRY
 
 export default {
   part: 4, off, wordBase: 1601, vocabBase: 1801, cdBase: 501,
