@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Jeg hedder Lars Jensen. Jeg er fyrre år. Jeg bor på Storegade ti i Aarhus.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Fornavn\",\"rule\":\"text\",\"answer\":\"Lars\"},{\"key\":\"last\",\"label\":\"Efternavn\",\"rule\":\"text\",\"answer\":\"Jensen\"},{\"key\":\"age\",\"label\":\"Alder\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adresse\",\"rule\":\"text\",\"answer\":\"Storegade 10\",\"also\":[\"Storegade, 10\",\"storegade 10\",\"Storegade ti\"]},{\"key\":\"town\",\"label\":\"By\",\"rule\":\"text\",\"answer\":\"Aarhus\",\"also\":[\"aarhus\",\"Århus\",\"århus\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Jeg hedder Mette Hansen. Jeg er tredive år. Jeg kommer fra Danmark. Jeg bor i Frankrig. Mit nummer er tolv, fjorten, nitten, elleve.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Fornavn\",\"rule\":\"text\",\"answer\":\"Mette\"},{\"key\":\"last\",\"label\":\"Efternavn\",\"rule\":\"text\",\"answer\":\"Hansen\"},{\"key\":\"age\",\"label\":\"Alder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationalitet\",\"rule\":\"text\",\"answer\":\"dansk\",\"also\":[\"Dansk\",\"dansker\",\"Dansker\",\"Danmark\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrig\"},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"12 14 19 11\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Lars og Anna skal i biografen på lørdag klokken halv ni om aftenen. De ses på torvet.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dag\",\"rule\":\"text\",\"answer\":\"lørdag\",\"also\":[\"Lørdag\",\"på lørdag\"]},{\"key\":\"time\",\"label\":\"Tid\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"8:30\",\"20.30\",\"8.30\",\"halv ni\",\"klokken halv ni\"]},{\"key\":\"where\",\"label\":\"Hvor\",\"rule\":\"text\",\"answer\":\"på torvet\",\"also\":[\"torvet\",\"torv\",\"På torvet\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Jeg hedder Mette. Jeg spiser morgenmad klokken syv. Jeg begynder at arbejde klokken ni og slutter klokken fem.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Navn\",\"rule\":\"text\",\"answer\":\"Mette\"},{\"key\":\"breakfast\",\"label\":\"Morgenmad\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"syv\",\"klokken syv\"]},{\"key\":\"start\",\"label\":\"Begynder\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"ni\",\"klokken ni\"]},{\"key\":\"end\",\"label\":\"Slutter\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"fem\",\"klokken fem\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Jeg hedder Anna Jensen. Jeg er dansk. Jeg er født den 10. april i Odense. Jeg er gift. Jeg bor på Vestergade 12 i Aarhus.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Navn\",\"rule\":\"text\",\"answer\":\"Anna Jensen\"},{\"key\":\"nat\",\"label\":\"Statsborgerskab\",\"rule\":\"text\",\"answer\":\"dansk\",\"also\":[\"Dansk\",\"Danmark\"]},{\"key\":\"born\",\"label\":\"Fødselsdato\",\"rule\":\"text\",\"answer\":\"10/4\",\"also\":[\"10. april\",\"10 april\",\"10.4\",\"10-4\",\"10/04\",\"10. April\"]},{\"key\":\"place\",\"label\":\"Fødested\",\"rule\":\"text\",\"answer\":\"Odense\"},{\"key\":\"civil\",\"label\":\"Civilstand\",\"rule\":\"text\",\"answer\":\"gift\",\"also\":[\"Gift\"]},{\"key\":\"town\",\"label\":\"By\",\"rule\":\"text\",\"answer\":\"Aarhus\",\"also\":[\"Århus\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Jeg hedder Erik Larsen. Jeg er tredive år. Jeg er sygeplejerske og arbejder på et sygehus i Aalborg. Jeg er ikke gift.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Fornavn\",\"rule\":\"text\",\"answer\":\"Erik\"},{\"key\":\"last\",\"label\":\"Efternavn\",\"rule\":\"text\",\"answer\":\"Larsen\"},{\"key\":\"age\",\"label\":\"Alder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"job\",\"label\":\"Stilling\",\"rule\":\"text\",\"answer\":\"sygeplejerske\",\"also\":[\"Sygeplejerske\"]},{\"key\":\"civil\",\"label\":\"Civilstand\",\"rule\":\"text\",\"answer\":\"ugift\",\"also\":[\"ikke gift\",\"Ugift\",\"single\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F303",
+    "unit_id": "U81",
+    "card": "På caféen: Tom bestiller en kaffe og en kage. Maria bestiller en kop te. De betaler halvfems kroner.",
+    "fields_json": "[{\"key\":\"tom\",\"label\":\"Tom\",\"rule\":\"text\",\"answer\":\"en kaffe og en kage\",\"also\":[\"kaffe og kage\",\"kaffe, kage\",\"en kaffe, en kage\",\"kaffe og en kage\"]},{\"key\":\"maria\",\"label\":\"Maria\",\"rule\":\"text\",\"answer\":\"en kop te\",\"also\":[\"te\",\"en te\",\"kop te\"]},{\"key\":\"total\",\"label\":\"I alt (kroner)\",\"rule\":\"number\",\"answer\":\"90\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

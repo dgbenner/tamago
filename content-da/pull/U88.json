@@ -1,0 +1,846 @@
+{
+  "unit_id": "U88",
+  "pulled_at": "2026-11-21",
+  "candidates": 13,
+  "sentences": [
+    {
+      "sentence_id": "S88001",
+      "unit_id": "U88",
+      "french": "Er du på alder med Tom?",
+      "english": "Are you the same age as Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7725814",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88002",
+      "unit_id": "U88",
+      "french": "Tom er ugift.",
+      "english": "Tom is unmarried.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4080429",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88003",
+      "unit_id": "U88",
+      "french": "Jeg er stadig ugift.",
+      "english": "I'm still unmarried.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11875946",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88004",
+      "unit_id": "U88",
+      "french": "Han er lille af sin alder.",
+      "english": "He's small for his age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2476420",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88005",
+      "unit_id": "U88",
+      "french": "Jeg har fået nogle nye oplysninger.",
+      "english": "I've got some new information.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4350857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88006",
+      "unit_id": "U88",
+      "french": "Han er på alder med dig.",
+      "english": "He's your age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8597942",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88007",
+      "unit_id": "U88",
+      "french": "Tom ser ung ud af sin alder.",
+      "english": "Tom looks young for his age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4099667",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88008",
+      "unit_id": "U88",
+      "french": "Du er på alder med min kæreste.",
+      "english": "You're the same age as my girlfriend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5365448",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88009",
+      "unit_id": "U88",
+      "french": "Du og jeg er på samme alder.",
+      "english": "You and me are the same age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5399087",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88010",
+      "unit_id": "U88",
+      "french": "Tom har en søn på din alder.",
+      "english": "Tom has a son your age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5591332",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88011",
+      "unit_id": "U88",
+      "french": "Tom ser godt ud af sin alder.",
+      "english": "Tom looks good for his age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7701478",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88012",
+      "unit_id": "U88",
+      "french": "Han er cirka på alder med mig.",
+      "english": "He is about my age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10356336",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88013",
+      "unit_id": "U88",
+      "french": "Jeg har en bror på din alder.",
+      "english": "I have a brother your age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13852698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S88001",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 4,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 5,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 3,
+      "surface": "ugift",
+      "word_id": "W2133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 3,
+      "surface": "stadig",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 4,
+      "surface": "ugift",
+      "word_id": "W2133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 3,
+      "surface": "lille",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 4,
+      "surface": "af",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 5,
+      "surface": "sin",
+      "word_id": "W1571",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 6,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 3,
+      "surface": "fået",
+      "word_id": "W1538",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 4,
+      "surface": "nogle",
+      "word_id": "W994",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 5,
+      "surface": "nye",
+      "word_id": "W1195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 6,
+      "surface": "oplysninger",
+      "word_id": "W2134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 4,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 5,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 6,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 2,
+      "surface": "ser",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 3,
+      "surface": "ung",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 4,
+      "surface": "ud",
+      "word_id": "W895",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 5,
+      "surface": "af",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 6,
+      "surface": "sin",
+      "word_id": "W1571",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 7,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 4,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 5,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 6,
+      "surface": "min",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 7,
+      "surface": "kæreste",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 2,
+      "surface": "og",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 3,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 4,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 6,
+      "surface": "samme",
+      "word_id": "W1182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 7,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 4,
+      "surface": "søn",
+      "word_id": "W2070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 6,
+      "surface": "din",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 7,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 2,
+      "surface": "ser",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 3,
+      "surface": "godt",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 4,
+      "surface": "ud",
+      "word_id": "W895",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 5,
+      "surface": "af",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 6,
+      "surface": "sin",
+      "word_id": "W1571",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 7,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 3,
+      "surface": "cirka",
+      "word_id": "W1462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 4,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 5,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 6,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 7,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 4,
+      "surface": "bror",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 6,
+      "surface": "din",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 7,
+      "surface": "alder",
+      "word_id": "W2135",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

@@ -1,0 +1,1853 @@
+{
+  "unit_id": "U45",
+  "pulled_at": "2026-11-21",
+  "candidates": 153,
+  "sentences": [
+    {
+      "sentence_id": "S45001",
+      "unit_id": "U45",
+      "french": "Mine forældre er ikke hjemme.",
+      "english": "My parents aren't home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3615857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "My parents are not home."
+      ]
+    },
+    {
+      "sentence_id": "S45002",
+      "unit_id": "U45",
+      "french": "Mine venner bliver alene hjemme.",
+      "english": "My friends stay at home alone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12353979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45003",
+      "unit_id": "U45",
+      "french": "Hvor er dine forældre?",
+      "english": "Where are your parents?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3969619",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45004",
+      "unit_id": "U45",
+      "french": "Hvorfor bor du alene?",
+      "english": "Why do you live alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8736856",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45005",
+      "unit_id": "U45",
+      "french": "Ved dine forældre det?",
+      "english": "Do your parents know?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10193980",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45006",
+      "unit_id": "U45",
+      "french": "Er du alene hjemme?",
+      "english": "Are you home alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12323149",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Are you alone at home?"
+      ]
+    },
+    {
+      "sentence_id": "S45007",
+      "unit_id": "U45",
+      "french": "Er det mine eller dine?",
+      "english": "Are they mine or yours?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11684124",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45008",
+      "unit_id": "U45",
+      "french": "Jeg bor hos min far.",
+      "english": "I live with my father.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9807087",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45009",
+      "unit_id": "U45",
+      "french": "Tom og hans bror bor sammen.",
+      "english": "Tom and his brother live together.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7144351",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45010",
+      "unit_id": "U45",
+      "french": "Vi har et sted at bo.",
+      "english": "We have a place to stay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12990145",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45011",
+      "unit_id": "U45",
+      "french": "Hans kæreste er yngre end ham selv.",
+      "english": "His girlfriend is younger than him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10720623",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SeaLiteral",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45012",
+      "unit_id": "U45",
+      "french": "Kan du finde det?",
+      "english": "Can you find it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3678888",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45013",
+      "unit_id": "U45",
+      "french": "Har du en kæreste?",
+      "english": "Do you have a girlfriend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4545671",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45014",
+      "unit_id": "U45",
+      "french": "Ser jeg træt ud?",
+      "english": "Do I look tired?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4929766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45015",
+      "unit_id": "U45",
+      "french": "Hvad hedder din kæreste?",
+      "english": "What's your girlfriend's name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12405556",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "What's your boyfriend's name?"
+      ]
+    },
+    {
+      "sentence_id": "S45016",
+      "unit_id": "U45",
+      "french": "Hos dig eller hos mig?",
+      "english": "Your place or mine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8329757",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45017",
+      "unit_id": "U45",
+      "french": "Hvordan ser jeg ud, Tom?",
+      "english": "How do I look, Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10724783",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45018",
+      "unit_id": "U45",
+      "french": "Hvem går Mary ud med?",
+      "english": "Who's Mary going out with?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13057553",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45019",
+      "unit_id": "U45",
+      "french": "Hvor kan jeg finde en taxa?",
+      "english": "Where can I find a taxi?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6106492",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": [
+        "Where can I find a cab?"
+      ]
+    },
+    {
+      "sentence_id": "S45020",
+      "unit_id": "U45",
+      "french": "Jeg kan ikke finde mine bukser.",
+      "english": "I can not find my pants.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5018831",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45021",
+      "unit_id": "U45",
+      "french": "Jeg bor sammen med min far.",
+      "english": "I live with my father.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9807086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "I live with my dad."
+      ]
+    },
+    {
+      "sentence_id": "S45022",
+      "unit_id": "U45",
+      "french": "Velkommen hjem.",
+      "english": "Welcome home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1944033",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45023",
+      "unit_id": "U45",
+      "french": "Vi er mennesker.",
+      "english": "We're people.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1989827",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "We are people.",
+        "We are human beings."
+      ]
+    },
+    {
+      "sentence_id": "S45024",
+      "unit_id": "U45",
+      "french": "Vi er ude!",
+      "english": "We're out!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8502754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45025",
+      "unit_id": "U45",
+      "french": "Børn er mennesker.",
+      "english": "Children are people.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12120336",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Children are human beings."
+      ]
+    },
+    {
+      "sentence_id": "S45026",
+      "unit_id": "U45",
+      "french": "De bøger er deres.",
+      "english": "Those books are theirs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "630641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45027",
+      "unit_id": "U45",
+      "french": "Mit hjem er dit.",
+      "english": "My home is yours.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1881956",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45028",
+      "unit_id": "U45",
+      "french": "Han kender mange mennesker.",
+      "english": "He knows a lot of people.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1962361",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45029",
+      "unit_id": "U45",
+      "french": "Hun er ude nu.",
+      "english": "She is out now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3105775",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45030",
+      "unit_id": "U45",
+      "french": "De spiser deres æbler.",
+      "english": "They're eating their apples.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3568230",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "They are eating their apples."
+      ]
+    },
+    {
+      "sentence_id": "S45031",
+      "unit_id": "U45",
+      "french": "Venner gør ting sammen.",
+      "english": "Friends do things together.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6058693",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sifhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45032",
+      "unit_id": "U45",
+      "french": "Det er vores land.",
+      "english": "That is our country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7585231",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "M1dx",
+      "other_english": [
+        "It is our country."
+      ]
+    },
+    {
+      "sentence_id": "S45033",
+      "unit_id": "U45",
+      "french": "Jeg er ikke mig selv.",
+      "english": "I am not myself.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7588842",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "M1dx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45034",
+      "unit_id": "U45",
+      "french": "Jeg er ikke mig selv i dag.",
+      "english": "I'm not myself today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12619914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S45001",
+      "position": 1,
+      "surface": "Mine",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 2,
+      "surface": "forældre",
+      "word_id": "W898",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 4,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 5,
+      "surface": "hjemme",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 1,
+      "surface": "Mine",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 2,
+      "surface": "venner",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 3,
+      "surface": "bliver",
+      "word_id": "W848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 4,
+      "surface": "alene",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 5,
+      "surface": "hjemme",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 3,
+      "surface": "dine",
+      "word_id": "W908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 4,
+      "surface": "forældre",
+      "word_id": "W898",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 1,
+      "surface": "Hvorfor",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 2,
+      "surface": "bor",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 4,
+      "surface": "alene",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 1,
+      "surface": "Ved",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 2,
+      "surface": "dine",
+      "word_id": "W908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 3,
+      "surface": "forældre",
+      "word_id": "W898",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 3,
+      "surface": "alene",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 4,
+      "surface": "hjemme",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 3,
+      "surface": "mine",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 4,
+      "surface": "eller",
+      "word_id": "W842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 5,
+      "surface": "dine",
+      "word_id": "W908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 2,
+      "surface": "bor",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 3,
+      "surface": "hos",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 4,
+      "surface": "min",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 5,
+      "surface": "far",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 2,
+      "surface": "og",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 3,
+      "surface": "hans",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 4,
+      "surface": "bror",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 5,
+      "surface": "bor",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 6,
+      "surface": "sammen",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 4,
+      "surface": "sted",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 5,
+      "surface": "at",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 6,
+      "surface": "bo",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 1,
+      "surface": "Hans",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 2,
+      "surface": "kæreste",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 4,
+      "surface": "yngre",
+      "word_id": "W857",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 5,
+      "surface": "end",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 6,
+      "surface": "ham",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 7,
+      "surface": "selv",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 3,
+      "surface": "finde",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 4,
+      "surface": "kæreste",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 1,
+      "surface": "Ser",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 2,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 3,
+      "surface": "træt",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 4,
+      "surface": "ud",
+      "word_id": "W895",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 1,
+      "surface": "Hvad",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 2,
+      "surface": "hedder",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 4,
+      "surface": "kæreste",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 1,
+      "surface": "Hos",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 2,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 3,
+      "surface": "eller",
+      "word_id": "W842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 4,
+      "surface": "hos",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 5,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 1,
+      "surface": "Hvordan",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 2,
+      "surface": "ser",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 3,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 4,
+      "surface": "ud",
+      "word_id": "W895",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 1,
+      "surface": "Hvem",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 2,
+      "surface": "går",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 3,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 4,
+      "surface": "ud",
+      "word_id": "W895",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 5,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 1,
+      "surface": "Hvor",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 3,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 4,
+      "surface": "finde",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 6,
+      "surface": "taxa",
+      "word_id": "W1031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 4,
+      "surface": "finde",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 5,
+      "surface": "mine",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 6,
+      "surface": "bukser",
+      "word_id": "W1102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 2,
+      "surface": "bor",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 3,
+      "surface": "sammen",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 4,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 5,
+      "surface": "min",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 6,
+      "surface": "far",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45022",
+      "position": 1,
+      "surface": "Velkommen",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45022",
+      "position": 2,
+      "surface": "hjem",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 3,
+      "surface": "mennesker",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 3,
+      "surface": "ude",
+      "word_id": "W894",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 1,
+      "surface": "Børn",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 3,
+      "surface": "mennesker",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 2,
+      "surface": "bøger",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 4,
+      "surface": "deres",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 1,
+      "surface": "Mit",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 2,
+      "surface": "hjem",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 4,
+      "surface": "dit",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 2,
+      "surface": "kender",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 3,
+      "surface": "mange",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 4,
+      "surface": "mennesker",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 1,
+      "surface": "Hun",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 3,
+      "surface": "ude",
+      "word_id": "W894",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 2,
+      "surface": "spiser",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 3,
+      "surface": "deres",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 4,
+      "surface": "æbler",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45031",
+      "position": 1,
+      "surface": "Venner",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45031",
+      "position": 2,
+      "surface": "gør",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45031",
+      "position": 3,
+      "surface": "ting",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45031",
+      "position": 4,
+      "surface": "sammen",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45032",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45032",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45032",
+      "position": 3,
+      "surface": "vores",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45032",
+      "position": 4,
+      "surface": "land",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 4,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 5,
+      "surface": "selv",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 1,
+      "surface": "Jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 4,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 5,
+      "surface": "selv",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 6,
+      "surface": "i dag",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A450011",
+      "sentence_id": "S45001",
+      "direction": "fr_to_en",
+      "answer": "My parents are not home.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450061",
+      "sentence_id": "S45006",
+      "direction": "fr_to_en",
+      "answer": "Are you alone at home?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450151",
+      "sentence_id": "S45015",
+      "direction": "fr_to_en",
+      "answer": "What's your boyfriend's name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450191",
+      "sentence_id": "S45019",
+      "direction": "fr_to_en",
+      "answer": "Where can I find a cab?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450211",
+      "sentence_id": "S45021",
+      "direction": "fr_to_en",
+      "answer": "I live with my dad.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450231",
+      "sentence_id": "S45023",
+      "direction": "fr_to_en",
+      "answer": "We are people.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450232",
+      "sentence_id": "S45023",
+      "direction": "fr_to_en",
+      "answer": "We are human beings.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450251",
+      "sentence_id": "S45025",
+      "direction": "fr_to_en",
+      "answer": "Children are human beings.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450301",
+      "sentence_id": "S45030",
+      "direction": "fr_to_en",
+      "answer": "They are eating their apples.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450321",
+      "sentence_id": "S45032",
+      "direction": "fr_to_en",
+      "answer": "It is our country.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

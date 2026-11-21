@@ -1,0 +1,1413 @@
+{
+  "unit_id": "U95",
+  "pulled_at": "2026-11-21",
+  "candidates": 90,
+  "sentences": [
+    {
+      "sentence_id": "S95001",
+      "unit_id": "U95",
+      "french": "Hvorfor løb han væk?",
+      "english": "Why did he run away?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1955636",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95002",
+      "unit_id": "U95",
+      "french": "Må jeg se dit pas?",
+      "english": "May I see your passport?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1769432",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "May I look at your passport?"
+      ]
+    },
+    {
+      "sentence_id": "S95003",
+      "unit_id": "U95",
+      "french": "Hvornår plejer du at stå op?",
+      "english": "What time do you usually get up?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "614984",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95004",
+      "unit_id": "U95",
+      "french": "Har du dit pas på dig?",
+      "english": "Do you have your passport with you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2700818",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95005",
+      "unit_id": "U95",
+      "french": "Har du dit pas på dig nu?",
+      "english": "Do you have your passport on you now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9788681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95006",
+      "unit_id": "U95",
+      "french": "Skynd dig!",
+      "english": "Hurry up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "498093",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zylx",
+      "other_english": [
+        "Hurry!"
+      ]
+    },
+    {
+      "sentence_id": "S95007",
+      "unit_id": "U95",
+      "french": "Han løb.",
+      "english": "He ran.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2115365",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95008",
+      "unit_id": "U95",
+      "french": "Slap af!",
+      "english": "Cool down.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4810588",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Calm down."
+      ]
+    },
+    {
+      "sentence_id": "S95009",
+      "unit_id": "U95",
+      "french": "Tænk selv.",
+      "english": "Think for yourself.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6938870",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95010",
+      "unit_id": "U95",
+      "french": "Spis det!",
+      "english": "Eat it!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7069476",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95011",
+      "unit_id": "U95",
+      "french": "Bliv her.",
+      "english": "Stay here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7287717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95012",
+      "unit_id": "U95",
+      "french": "Drik vand.",
+      "english": "Drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8269004",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95013",
+      "unit_id": "U95",
+      "french": "Bliv hjemme.",
+      "english": "Stay home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8624840",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Stay at home."
+      ]
+    },
+    {
+      "sentence_id": "S95014",
+      "unit_id": "U95",
+      "french": "Spis noget.",
+      "english": "Eat something.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10673722",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95015",
+      "unit_id": "U95",
+      "french": "Bliv sammen!",
+      "english": "Stay together.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10697165",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Don't separate from each other."
+      ]
+    },
+    {
+      "sentence_id": "S95016",
+      "unit_id": "U95",
+      "french": "Drik langsomt!",
+      "english": "Drink slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12059846",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95017",
+      "unit_id": "U95",
+      "french": "Spis sne.",
+      "english": "Eat snow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12570119",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95018",
+      "unit_id": "U95",
+      "french": "Slip mig ikke.",
+      "english": "Don't let go of me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2699929",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95019",
+      "unit_id": "U95",
+      "french": "Løb for livet!",
+      "english": "Run for your life!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3270029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95020",
+      "unit_id": "U95",
+      "french": "Drik din mælk.",
+      "english": "Drink your milk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3595869",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95021",
+      "unit_id": "U95",
+      "french": "Stå tidligt op.",
+      "english": "Get up early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3629601",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95022",
+      "unit_id": "U95",
+      "french": "Tænk over det.",
+      "english": "Think about that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3672169",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": [
+        "Think about it."
+      ]
+    },
+    {
+      "sentence_id": "S95023",
+      "unit_id": "U95",
+      "french": "Hold det her!",
+      "english": "Hold this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4675592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95024",
+      "unit_id": "U95",
+      "french": "Skynd dig tilbage.",
+      "english": "Hurry back.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4690347",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MatthewChriswood",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95025",
+      "unit_id": "U95",
+      "french": "Skynd dig langsomt.",
+      "english": "Hasten slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4932639",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Balamax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95026",
+      "unit_id": "U95",
+      "french": "Læg ikke på!",
+      "english": "Don't hang up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12494572",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Don't hang up!"
+      ]
+    },
+    {
+      "sentence_id": "S95027",
+      "unit_id": "U95",
+      "french": "Slip min arm.",
+      "english": "Let go of my arm.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12538946",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95028",
+      "unit_id": "U95",
+      "french": "Stå ansigt til ansigt.",
+      "english": "Stand face to face.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3569252",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95029",
+      "unit_id": "U95",
+      "french": "Læg den på bordet.",
+      "english": "Put it onto the table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3687874",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sharaf78",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95030",
+      "unit_id": "U95",
+      "french": "Hold op med det!",
+      "english": "Stop that!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8734416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95031",
+      "unit_id": "U95",
+      "french": "Hold øje med ham.",
+      "english": "Keep an eye on him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9836513",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95032",
+      "unit_id": "U95",
+      "french": "Tænk dig om før du handler!",
+      "english": "Think before you act.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5069940",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "danepo",
+      "other_english": [
+        "Think before acting!",
+        "Think before you act!"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S95001",
+      "position": 1,
+      "surface": "Hvorfor",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 2,
+      "surface": "løb",
+      "word_id": "W2261",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 3,
+      "surface": "han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 4,
+      "surface": "væk",
+      "word_id": "W1555",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 1,
+      "surface": "Må",
+      "word_id": "W936",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 2,
+      "surface": "jeg",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 3,
+      "surface": "se",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 4,
+      "surface": "dit",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 5,
+      "surface": "pas",
+      "word_id": "W2262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 1,
+      "surface": "Hvornår",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 2,
+      "surface": "plejer",
+      "word_id": "W1342",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 4,
+      "surface": "at",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 5,
+      "surface": "stå",
+      "word_id": "W2267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 6,
+      "surface": "op",
+      "word_id": "W1398",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 3,
+      "surface": "dit",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W2262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 6,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 3,
+      "surface": "dit",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W2262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 5,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 6,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 7,
+      "surface": "nu",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 1,
+      "surface": "Skynd",
+      "word_id": "W2266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 2,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 2,
+      "surface": "løb",
+      "word_id": "W2261",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 1,
+      "surface": "Slap",
+      "word_id": "W2265",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 2,
+      "surface": "af",
+      "word_id": "W995",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 1,
+      "surface": "Tænk",
+      "word_id": "W2264",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 2,
+      "surface": "selv",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 1,
+      "surface": "Spis",
+      "word_id": "W2268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 1,
+      "surface": "Bliv",
+      "word_id": "W2263",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 2,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 1,
+      "surface": "Drik",
+      "word_id": "W2269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 2,
+      "surface": "vand",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 1,
+      "surface": "Bliv",
+      "word_id": "W2263",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 2,
+      "surface": "hjemme",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 1,
+      "surface": "Spis",
+      "word_id": "W2268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 2,
+      "surface": "noget",
+      "word_id": "W943",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 1,
+      "surface": "Bliv",
+      "word_id": "W2263",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 2,
+      "surface": "sammen",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 1,
+      "surface": "Drik",
+      "word_id": "W2269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 2,
+      "surface": "langsomt",
+      "word_id": "W1174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 1,
+      "surface": "Spis",
+      "word_id": "W2268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 2,
+      "surface": "sne",
+      "word_id": "W1526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 1,
+      "surface": "Slip",
+      "word_id": "W2260",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 3,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 1,
+      "surface": "Løb",
+      "word_id": "W2261",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 2,
+      "surface": "for",
+      "word_id": "W945",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 3,
+      "surface": "livet",
+      "word_id": "W1596",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 1,
+      "surface": "Drik",
+      "word_id": "W2269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 2,
+      "surface": "din",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 3,
+      "surface": "mælk",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 1,
+      "surface": "Stå",
+      "word_id": "W2267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 2,
+      "surface": "tidligt",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W1398",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 1,
+      "surface": "Tænk",
+      "word_id": "W2264",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 2,
+      "surface": "over",
+      "word_id": "W1199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95023",
+      "position": 1,
+      "surface": "Hold",
+      "word_id": "W2258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95023",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95023",
+      "position": 3,
+      "surface": "her",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95024",
+      "position": 1,
+      "surface": "Skynd",
+      "word_id": "W2266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95024",
+      "position": 2,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95024",
+      "position": 3,
+      "surface": "tilbage",
+      "word_id": "W1554",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95025",
+      "position": 1,
+      "surface": "Skynd",
+      "word_id": "W2266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95025",
+      "position": 2,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95025",
+      "position": 3,
+      "surface": "langsomt",
+      "word_id": "W1174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95026",
+      "position": 1,
+      "surface": "Læg",
+      "word_id": "W2259",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95026",
+      "position": 2,
+      "surface": "ikke",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95026",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95027",
+      "position": 1,
+      "surface": "Slip",
+      "word_id": "W2260",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95027",
+      "position": 2,
+      "surface": "min",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95027",
+      "position": 3,
+      "surface": "arm",
+      "word_id": "W1009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95028",
+      "position": 1,
+      "surface": "Stå",
+      "word_id": "W2267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95028",
+      "position": 2,
+      "surface": "ansigt",
+      "word_id": "W2214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95028",
+      "position": 3,
+      "surface": "til",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95028",
+      "position": 4,
+      "surface": "ansigt",
+      "word_id": "W2214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95029",
+      "position": 1,
+      "surface": "Læg",
+      "word_id": "W2259",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95029",
+      "position": 2,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95029",
+      "position": 3,
+      "surface": "på",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95029",
+      "position": 4,
+      "surface": "bordet",
+      "word_id": "W2032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95030",
+      "position": 1,
+      "surface": "Hold",
+      "word_id": "W2258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95030",
+      "position": 2,
+      "surface": "op",
+      "word_id": "W1398",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95030",
+      "position": 3,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95030",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 1,
+      "surface": "Hold",
+      "word_id": "W2258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 2,
+      "surface": "øje",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 3,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 4,
+      "surface": "ham",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 1,
+      "surface": "Tænk",
+      "word_id": "W2264",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 2,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 3,
+      "surface": "om",
+      "word_id": "W964",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 4,
+      "surface": "før",
+      "word_id": "W1320",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 5,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 6,
+      "surface": "handler",
+      "word_id": "W2242",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A950021",
+      "sentence_id": "S95002",
+      "direction": "fr_to_en",
+      "answer": "May I look at your passport?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950061",
+      "sentence_id": "S95006",
+      "direction": "fr_to_en",
+      "answer": "Hurry!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950081",
+      "sentence_id": "S95008",
+      "direction": "fr_to_en",
+      "answer": "Calm down.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950131",
+      "sentence_id": "S95013",
+      "direction": "fr_to_en",
+      "answer": "Stay at home.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950151",
+      "sentence_id": "S95015",
+      "direction": "fr_to_en",
+      "answer": "Don't separate from each other.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950221",
+      "sentence_id": "S95022",
+      "direction": "fr_to_en",
+      "answer": "Think about it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950261",
+      "sentence_id": "S95026",
+      "direction": "fr_to_en",
+      "answer": "Don't hang up!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950321",
+      "sentence_id": "S95032",
+      "direction": "fr_to_en",
+      "answer": "Think before acting!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950322",
+      "sentence_id": "S95032",
+      "direction": "fr_to_en",
+      "answer": "Think before you act!",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

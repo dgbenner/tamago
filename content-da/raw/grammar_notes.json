@@ -145,5 +145,362 @@
     "example_sentence_ids": "",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U41",
+    "rule": "**Hvad er dit navn?** asks a name; **fornavn** is first name and **efternavn** last name:\n**Mit efternavn er Jensen.**\n\n**Rart at møde dig.** is nice to meet you.\n\nAfter a verb, I, you, he, she and we take another form: **mig**, **dig**, **ham**, **hende**, **os**:\n**Kender du hende?**\n**Forstår du mig?**\n\n**ikke** comes after the verb: **Hun kender os ikke.**",
+    "example_sentence_ids": "S41104;S41108;S41002",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U54",
+    "rule": "**have … på** is to be wearing; what you wear goes in between:\n**Hun har en rød trøje på.**\n**Han har en sort hat på.**\n\n**prøve** is to try on: **Kan jeg prøve den?**\n\n**tøj** is one word for all your clothes: **Hun har meget tøj.**",
+    "example_sentence_ids": "S54108;S54121;S54127",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U34",
+    "rule": "**Hvordan staver man det?** asks how a word is spelled; **Kan du stave det?** asks someone to spell it.\n\n**kan** (can) is the same for every person, and the verb after it keeps its plain form, with no **at**:\n**Kan du hjælpe mig?**\n**Hun kan tale.**\n\n**bare** is just: **Det er bare vand.**\n**så** is so: **Hvorfor er du så træt?**",
+    "example_sentence_ids": "S34102;S34010;S34019",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U42",
+    "rule": "**Hvad er dit nummer?** asks a phone number. A number is often said in pairs:\n**Mit nummer er tolv, fjorten, nitten, elleve.**\n\nEleven to twenty: **elleve**, **tolv**, **tretten**, **fjorten**, **femten**, **seksten**, **sytten**, **atten**, **nitten**, **tyve**. Zero is **nul**.\n\n**ringe til** is to call: **Kan du ringe til mig?**\n\n**eller** is or: **Stor eller lille?**",
+    "example_sentence_ids": "S42102;S42104;S42003",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U43",
+    "rule": "**Tillykke med fødselsdagen!** is happy birthday.\n\n**fylder** says the age you turn: **Han fylder tyve i dag.**\nAn age takes **gammel**: **Hun er tre måneder gammel.**\n\n**ældre** is older and **yngre** younger: **Min bror er ældre.**\n\n**allerede** (already), **næsten** (almost), **snart** (soon), **stadig** (still):\n**Han er her snart.**\n**Er du stadig syg?**",
+    "example_sentence_ids": "S43001;S43114;S43008",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U55",
+    "rule": "**lære** is to learn: **Jeg kan lide at lære dansk.**\n\n**spørge** is to ask and **svare** to answer; **et spørgsmål** is a question:\n**Jeg har et spørgsmål.**\n**Hvem kan svare?**\n\n**lave** and **gøre** both say doing:\n**Hvad laver du?**\n**Hvad kan jeg gøre?**\n\nThe verb's plain stem on its own is a command: **Svar mig.** **Hjælp mig!**",
+    "example_sentence_ids": "S55134;S55039;S55003",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U35",
+    "rule": "Phrases for checking a number or a fact:\n**Et øjeblik, tak.** (one moment, please)\n**Vent lidt!** (wait a little)\n**Lad mig se.** (let me see)\n\n**Det passer.** is that's right; **Det er forkert.** is that's wrong; **Er du sikker?** asks are you sure.\n\n**præcis** is exactly: **Klokken er præcis ti.**",
+    "example_sentence_ids": "S35106;S35004;S35105",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U44",
+    "rule": "The tens: **tredive** (30), **fyrre** (40), **halvtreds** (50), **tres** (60), **halvfjerds** (70), **firs** (80), **halvfems** (90), **hundrede** (100); **tusind** is a thousand.\n\n**end** is than:\n**Katte er mindre end hunde.**\n**Tom er ældre end mig.**\n\n**mere** is more: **Mere kaffe?** After **ikke** it is anymore: **Jeg er ikke bange mere.**\n**mest** is most: **Hvad kan du mest lide?**",
+    "example_sentence_ids": "S44001;S44009;S44121",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U45",
+    "rule": "**bo** is to live somewhere: **Mange folk bor her.**\n\n**hos** is at someone's home:\n**Jeg bor hos min far.**\n**Hos dig eller hos mig?**\n\n**hjemme** is at home; **hjem** is home after a verb of going:\n**Mine forældre er ikke hjemme.**\n**Jeg går hjem nu.**\n\n**deres** is their: **Det er deres hus.**",
+    "example_sentence_ids": "S45008;S45001;S45108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U56",
+    "rule": "Words for what people are like: **venlig** (friendly), **rolig** (calm), **stille** (quiet), **kedelig** (boring), **dygtig** (clever), **flot** (good-looking):\n**Hun er en rolig pige.**\n\n**ret** (rather) and **meget** (very) go before an adjective: **Det er ret interessant.**\n\n**ligner** is looks like and **virker** is seems:\n**Tom ligner dig.**\n**Han virker træt.**\n\n**føler sig** is to feel: **Jeg føler mig syg.** **Hun føler sig glad.**\n\n**som** is like: **Tom taler som en pige.**",
+    "example_sentence_ids": "S56001;S56015;S56025",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U46",
+    "rule": "**komme fra** says where you are from:\n**Jeg kommer fra Danmark.**\n**Hun kommer fra Frankrig.**\n\nCountries take a capital letter; languages don't: **Vi bor i Norge.** **Vi taler svensk.**\n\n**snakker** and **taler** both say speaking: **Snakker du fransk?**\n**sprog** (language) stays the same in the plural: **Hun taler tre sprog.**",
+    "example_sentence_ids": "S46101;S46022;S46025",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U47",
+    "rule": "**Jeg vil gerne …** is I would like: **Jeg vil gerne købe et kilo ost.**\n**Må jeg få …?** asks may I have: **Må jeg få noget te?**\n\n**vil**, **skal** and **må** take a plain verb after them: **Du skal gå nu.**\n\n**har brug for** is need: **Vi har brug for mælk.**\n**behøver** says it too: **Hun behøver hjælp.**\n\nAfter a weight there is no word for of: **Et kilo æbler, tak.**",
+    "example_sentence_ids": "S47109;S47004;S47115",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U57",
+    "rule": "Opposites: **åben** and **lukket**, **let** and **svært** (easy, hard), **ren** and **beskidt**, **hurtigt** and **langsomt**.\n\nAfter **det** or with an **et**-word, an adjective adds **-t**: **Det er nemt.** **Mit hus er stort.**\nIn the plural it adds **-e**: **De er unge.** **Mine bøger er nye.** **små** stays as it is: **Mine børn er små.**\n\n**for** before an adjective is too: **Det er for stort.**\n\n**bedre** is better, **den bedste** the best, **det samme** the same: **Det er ikke det samme.**",
+    "example_sentence_ids": "S57134;S57039;S57126",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U36",
+    "rule": "Short replies for checking you understood:\n**Selvfølgelig.** (of course)\n**Det er klart.** (that's clear)\n**Virkelig?** (really?)\n\n**Hvad mener du?** asks what someone means; **Hvad synes du om …?** asks what they think of something: **Hvad synes du om min nye hat?**\n\n**måske** is maybe; **heller ikke** is not either: **Jeg ved det heller ikke.**\n\n**vel** at the end asks for agreement: **Du kan ikke lide ham, vel?**",
+    "example_sentence_ids": "S36010;S36004;S36026",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U48",
+    "rule": "**Hvad koster det?** asks the price; **Det koster ti kroner.** gives it.\n\nAfter **det**, an adjective takes **-t**: **Det er dyrt.** **Det er billigt.**\n\n**denne** (this) goes with an **en**-word, **dette** with an **et**-word, and **disse** (these) with a plural:\n**Hvem er denne mand?**\n**Dette bord er dyrt.**\n**Hvem er disse mænd?**\n\n**kun** is only and **men** is but: **Tom taler kun fransk.**",
+    "example_sentence_ids": "S48104;S48021;S48013",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U49",
+    "rule": "After a quantity, Danish has no word for of:\n**En flaske vand, tak.**\n**Et glas mælk, tak.**\n**En pakke kaffe, tak.**\n\n**ingen** is nobody: **Ingen ved alt.** **intet** and **ingenting** are nothing: **Jeg har intet.** **Jeg ved ingenting!**\n\n**alle** is everyone, **alt** everything, **hver** every and **hele** all of: **Tom drikker hver dag.** **Hele Danmark kender ham.**\n\n**nogle af** is some of: **Kan jeg få nogle af disse?**",
+    "example_sentence_ids": "S49106;S49004;S49103",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U58",
+    "rule": "The is an ending on the noun: **havet** (the sea), **skoven** (the forest), **solen** (the sun), **himlen** (the sky):\n**Jeg elsker havet.**\n**Hvorfor er himlen blå?**\n\n**i** and **nær** for where: **Han bor alene i skoven.** **Hendes hus ligger nær havet.**\n\n**sidder og** + a verb says what someone is busy doing: **Jeg sidder og spiser.**",
+    "example_sentence_ids": "S58011;S58020;S58014",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U61",
+    "rule": "**Klokken er kvart over ni.** is quarter past nine; **Klokken er kvart i otte.** is quarter to eight.\n\n**halv** looks ahead to the next hour: **halv ni** is half past eight.\n\n**om morgenen** (in the morning) and **om aftenen** (in the evening): **Vi spiser om aftenen.**\n**i formiddag**, **i eftermiddag** and **i nat** are this morning, this afternoon and tonight: **Jeg kommer i eftermiddag.**\n\n**tidligt** (early), **sent** (late), **senere** (later), **før** (before): **Det er for sent.**",
+    "example_sentence_ids": "S61102;S61016;S61118",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U71",
+    "rule": "**i går** is yesterday. The past is one form for every person: **jeg var**, **du var**, **vi var**:\n**Hvor var du i går?**\n\nMany verbs change inside: **kom** (came), **gik** (went), **fik** (got), **gav** (gave), **sagde** (said):\n**Han gav mig et æble.**\n\nOthers add **-ede** or **-te**: **lavede**, **ringede**, **talte**:\n**Tom talte fransk.**\n**Hvem ringede til mig?**",
+    "example_sentence_ids": "S71001;S71102;S71033",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U37",
+    "rule": "**Hvad sagde du?** asks what someone said; **sagde** is the past of **sige**.\n\nTo ask someone to speak up:\n**Kan du tale højere?**\n**Lidt højere, tak.**\n**Jeg kan ikke høre det.**\n\n**Hør efter!** is listen; **Hører du efter?** asks are you listening.\n\n**beder om** is asks for: **Din bror beder om hjælp.**",
+    "example_sentence_ids": "S37103;S37104;S37009",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U62",
+    "rule": "Days have no capital: **Er det fredag i dag?**\n**på** says a coming day: **Hvad laver du på onsdag?**\n\n**altid** (always), **ofte** and **tit** (often), **aldrig** (never): **Hun siger altid nej.**\n\n**plejer at** is usually: **Jeg plejer at gå i seng klokken ni.**\n\n**næste uge** is next week and **sidste uge** last week; **for … siden** is ago: **Tom kom for tre dage siden.**\n\n**Først … så** is first … then: **Først spiser vi, så går vi.**",
+    "example_sentence_ids": "S62118;S62101;S62002",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U63",
+    "rule": "Months, like days, take no capital: **Det er december.**\n**i** says in a month: **Hun kom i juli.**\n\nThe seasons: **foråret** (spring), **sommeren** (summer), **efteråret** (autumn), **vinteren** (winter). **om** says in a season: **Om sommeren bor vi i Sverige.**\n\nA date takes **den** and a number for order: **Det er den første maj.** **Det er den tredje maj.**\n**Hvilken dato er det i dag?** asks the date.\n\n**ferie** is holiday: **Vi er på ferie.**",
+    "example_sentence_ids": "S63117;S63130;S63112",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U72",
+    "rule": "Weather verbs take **det**: **Det regner.** **Det sner.** **Det blæser.**\n**Det regner ikke; det sner.**\n\nAfter **det**, an adjective takes **-t**: **Det er koldt.** **Det bliver varmt.**\n\n**Hvordan er vejret?** asks about the weather: **Det er godt vejr i dag.**\n**grader** are degrees: **Det er tyve grader i dag.**",
+    "example_sentence_ids": "S72001;S72014;S72102",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U38",
+    "rule": "Phrases for when you need a moment:\n**Lad mig tænke.** (let me think)\n**Jeg kan ikke huske det.** (I can't remember)\n**Nå, hvad tror du?** (well, what do you think?)\n\n**mon** turns a question into I wonder: **Hvad mon Tom laver nu?**\n\n**egentlig** is really or actually: **Jeg ved det egentlig ikke.** **Egentlig ikke.** is not really.\n\n**gætte** is to guess: **Kan du gætte det?**",
+    "example_sentence_ids": "S38008;S38005;S38103",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U64",
+    "rule": "**Vi ses!** is see you.\n\n**Har du lyst til …?** asks do you feel like: **Har du lyst til at komme med?**\n\n**er nødt til at** is have to: **Jeg er nødt til at gå.**\n**bør** and **burde** are should: **Hvad bør jeg gøre nu?** **Du burde komme.**\n\n**Hvad foreslår du?** asks for a suggestion; **en aftale** is an appointment or a deal: **Har du en aftale?**\n\n**Vi går i biografen.** is we are going to the cinema.",
+    "example_sentence_ids": "S64112;S64040;S64021",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U65",
+    "rule": "Your day: **Jeg vågner meget tidligt.** **Hvor tidligt står du op om morgenen?** **op** after the verb says up.\n\nMeals: **morgenmad** (breakfast), **frokost** (lunch), **aftensmad** (dinner): **Hvornår spiser du frokost?**\n\n**begynder** and **slutter** for starting and finishing: **Jeg slutter klokken fire.**\n\n**mens** is while: **Han sover, mens vi arbejder.**\n**når** is when or whenever: **Kom når du vil.**",
+    "example_sentence_ids": "S65032;S65104;S65107",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U73",
+    "rule": "**har** + a past form says what has happened: **Jeg har glemt hans navn.** **Hvad har du set?**\nSome of these forms: **været** (been), **set** (seen), **gjort** (done), **sagt** (said), **fået** (got).\n\nVerbs of moving and becoming take **er**: **Er han kommet?** **Tom er blevet far.**\n\n**Har du nogensinde …?** asks have you ever: **Har du nogensinde set en ren?**\n\n**Godt gået!** is well done.",
+    "example_sentence_ids": "S73037;S73005;S73002",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U66",
+    "rule": "Words on signs: **indgang** (entrance), **udgang** (exit), **toilet**, **apotek** (pharmacy), **information**.\n\n**Rygning forbudt.** is no smoking; **forbudt** is forbidden: **Det er forbudt at gå ind her.**\n\n**åbent** says open: **Denne butik har åbent i dag.**\n\n**gratis** is free of charge: **Det er gratis.**\n\n**indtil** is until: **Vent her indtil han kommer.**\n**har lov til** is be allowed to: **Du har ikke lov til at gå ind.**",
+    "example_sentence_ids": "S66001;S66102;S66015",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U67",
+    "rule": "**Hvornår afgår toget?** and **Hvornår kører bussen?** ask when it leaves.\n**Toget kører fra spor tre.** says where from; **perron** is platform.\n\n**afgang** is departure and **ankomst** arrival: **Næste afgang er klokken ti.**\n**fremme** is there, arrived: **Vi er fremme klokken otte.**\n\n**med** says how you travel: **Jeg rejser med fly.**\n**en billet** is a ticket. **God tur!** and **God rejse!** wish a good trip.",
+    "example_sentence_ids": "S67001;S67101;S67108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U74",
+    "rule": "Little words for the way you go: **ned** (down), **tilbage** (back), **væk** (away), **rundt** (around), **videre** (on):\n**Gå væk!**\n**Hvornår er du tilbage?**\n\n**Hvor skal du hen?** asks where you are going; **hen** goes with **hvor**.\n\nWhere things are: **bag** (behind), **foran** (in front of), **udenfor** (outside): **Han gik foran mig.**\n\n**uden** (without), **gennem** (through), **mod** (towards): **Jeg drikker kaffe uden mælk.**\n\n**hinanden** is each other: **Vi elsker hinanden.**\n**sin**, **sit** and **sine** are his or her own: **Hun elsker sine børn.**",
+    "example_sentence_ids": "S74030;S74118;S74039",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U39",
+    "rule": "Words for when you are not sure:\n**Det afhænger af vejret.** (it depends on the weather)\n**Jeg kommer sandsynligvis.** (I'll probably come)\n**Han er vist syg.** (he's apparently ill)\n\n**slet ikke** is not at all: **Jeg er slet ikke sulten.**\n\n**ikke sandt?** at the end asks for agreement: **Tom taler fransk, ikke sandt?**\n\n**alligevel** is anyway: **Jeg elsker hende alligevel.**\n**Er alt i orden?** asks is everything all right.",
+    "example_sentence_ids": "S39010;S39017;S39022",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U68",
+    "rule": "Words of an announcement:\n**Mine damer og herrer, toget er forsinket.**\n**Vi beklager.** (we're sorry)\n\n**forsinket** is late: **Vores tog er forsinket.**\n**desværre** is unfortunately: **Toget er desværre forsinket.**\n\n**venligst** makes a request polite: **Vent venligst tredive minutter.**\n\n**mellem** (between), **via**, and **cirka** (about): **Tom er cirka tredive år.**",
+    "example_sentence_ids": "S68105;S68109;S68014",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U69",
+    "rule": "Instructions use the verb's stem, with the verb first:\n**Læs teksten.**\n**Vælg et svar.**\n**Lyt og svar.**\n\n**ikke** goes after the verb: **Glem os ikke!** **Læs ikke den bog!**\n\n**vis**, **fortæl** and **forklar** are show, tell and explain: **Vis mig det.** **Forklar det igen, tak.**\n\n**sæt** is put: **Sæt dit navn her.**",
+    "example_sentence_ids": "S69125;S69021;S69136",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U75",
+    "rule": "**elsker** and **hader** are love and hate: **Hader du mig?**\n\n**ked af det** is sad or sorry: **Jeg er meget ked af det.**\n**glæder mig til** is look forward to: **Jeg glæder mig til at se dig.**\n**savner** is miss: **Savner du mig?**\n\n**Det var sjovt.** is that was fun; **Jeg er ligeglad.** is I don't care.\n\n**hellere** is rather and **helst** most of all:\n**Jeg drikker hellere te.**\n**Hvad vil du helst have: te eller kaffe?**",
+    "example_sentence_ids": "S75107;S75104;S75117",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U81",
+    "rule": "**Jeg vil gerne bestille …** orders: **Jeg vil gerne bestille en kop kaffe.**\n**en kop kaffe** needs no word for of: **Giv mig en kop kaffe.**\n\n**Regningen, tak.** asks for the bill; so does **Kan jeg få regningen?**\n\n**Værsgo** is here you are: **Værsgo, her er din kaffe.**\n\n**smager** is tastes: **Det smager virkelig godt.**",
+    "example_sentence_ids": "S81104;S81101;S81108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U91",
+    "rule": "Everyday nouns: **en grund** (a reason), **en slags** (a kind), **en del** (a part), **en historie** (a story):\n**Alt sker af en grund.**\n**En del af mig er glad.**\n\n**Hvad slags …?** asks what kind: **Hvad slags bøger har du?**\n\nWith the ending for the: **sandheden** (the truth), **resten** (the rest), **stedet** (the place):\n**Siger de sandheden?**\n**Jeg kan tage resten.**\n\n**en masse** is a lot: **Det koster en masse.**",
+    "example_sentence_ids": "S91026;S91004;S91021",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U26",
+    "rule": "**Undskyld jeg forstyrrer!** is excuse me for bothering you; **Må jeg forstyrre dig et øjeblik?** asks for a moment.\n\n**Ingen årsag.** answers thanks: you're welcome.\n**Tusind tak! Ingen årsag.**\n\n**vær** is the command of **være**: **Vær ikke bange!**\n**Vær venlig at …** asks politely: **Vær venlig at hjælpe mig.**\n\n**naturligvis** is of course: **Ja, naturligvis.**",
+    "example_sentence_ids": "S26006;S26101;S26021",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U82",
+    "rule": "Ordering a dish:\n**Kylling med ris, tak.**\n**Kød med kartofler, tak.**\n\nOn the table: **en kniv**, **en gaffel**, **salt**: **Kan jeg få en gaffel?**\n\n**Hvad er der til dessert?** asks what there is for dessert.\n\n**for** before an adjective is too: **Er det for salt?**\n\n**på bordet** is on the table: **Pengene ligger på bordet.**",
+    "example_sentence_ids": "S82105;S82102;S82110",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U83",
+    "rule": "Directions: **til højre** (right), **til venstre** (left), **ligeud** (straight on):\n**Drej til højre.**\n**Gå ligeud.**\n\n**Drej til venstre på hjørnet.** is turn left at the corner; **Det er lige om hjørnet.** is it's just around the corner.\n\n**ad** is along, by way of: **Gå ad den vej.**\n\n**midt i** is in the middle of: **Vi bor midt i byen.**\n\n**ikke længere** is no longer: **Han bor ikke her længere.**",
+    "example_sentence_ids": "S83105;S83001;S83108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U92",
+    "rule": "After **det**, an adjective takes **-t**: **Det er hårdt.** Before a common-gender noun it stays plain: **Mandag er en hård dag.**\n\n**den eneste** is the only one: **Du er den eneste.** **Det er din eneste chance.**\n\n**hvert** is every with an **et**-word: **Jeg hørte hvert ord.** **Hun giver hvert barn to æbler.**\n\n**klar** and **parat** are ready: **Alt er parat.**\n\n**Det er fedt!** is that's great.",
+    "example_sentence_ids": "S92014;S92024;S92026",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U27",
+    "rule": "**Jeg er faret vild.** is I'm lost; **Er du faret vild?** asks are you lost.\n\n**Kan du vise mig det på kortet?** asks someone to show you on the map.\n\n**herhen** (to here) and **derhen** (to there) go with a verb of going: **Kom herhen!** **Jeg går derhen nu.**\n\n**Hvor er den nærmeste station?** asks for the nearest; with an **et**-word it is **det nærmeste**: **Hvor er det nærmeste toilet?**",
+    "example_sentence_ids": "S27002;S27102;S27017",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U84",
+    "rule": "How you go: **til fods** (on foot), **Vi cykler.** (we're going by bike), **Tager du toget eller bilen?**\n\n**skifte** is to change: **Hvor skal vi skifte?**\n**stiger af** is get off: **Vi stiger af ved næste station.**\n\n**hente** is to pick up: **Vi henter dig.**\n\n**kørekort** is a driving licence; **parkere** is to park: **Må jeg parkere her?**",
+    "example_sentence_ids": "S84011;S84111;S84024",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U85",
+    "rule": "The words for grandparents say whose side they are on: **farfar** is your father's father and **mormor** your mother's mother:\n**Min farfar bor i Aarhus.**\n**Min mormor bor alene.**\n\n**en søn**, **en datter**; in the plural **sønner** and **døtre**: **Vi har to døtre og to sønner.**\n\n**søskende** is brothers and sisters: **Har han søskende?**\n\n**gift** is married and **skilt** divorced: **Er du gift?**",
+    "example_sentence_ids": "S85102;S85004;S85010",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U93",
+    "rule": "**klarer** is manage: **Vi klarer det.** **Kan du klare det alene?**\n\n**holde** is to hold: **Kan du holde den?** **holder af** is like or care about: **Holder du af musik?**\n\n**lader** is let: **Han lader mig køre.**\n\n**handler om** is is about: **Det handler om dig, gør det ikke?**\n\n**slå op** is look up: **Jeg slår det op i en bog.**\n**vinder** is wins: **Tom vinder altid.**",
+    "example_sentence_ids": "S93013;S93106;S93011",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U86",
+    "rule": "Rooms: **en stue** (a living room), **et soveværelse** (a bedroom): **Min lejlighed har en lille stue.**\n\n**etage** is floor: **Jeg bor på første etage.** **Hvilken etage bor du på?**\n\nAround the home: **et vindue**, **en stol**, **et skab**, **et køleskab**, **en nøgle**: **Luk vinduet.** **Jeg har nøglen.**\n\n**leje** is to rent: **Vi ønsker at leje en lejlighed i byen.**",
+    "example_sentence_ids": "S86105;S86113;S86103",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U87",
+    "rule": "A job takes no **en**: **Er du sygeplejerske?** With an adjective it does: **Tom er en god kok.**\n\n**på kontoret** is at the office: **Hun er på kontoret.**\n\n**min chef** (my boss), **min kollega** (my colleague), plural **kolleger**: **Jeg kan lide mine kolleger.**\n\n**et firma** is a company: **Jeg arbejder i et stort firma.**\n**løn** is pay: **Min løn er ikke stor.**",
+    "example_sentence_ids": "S87002;S87015;S87108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U94",
+    "rule": "**Jeg aner det ikke.** is I have no idea.\n**Jeg er enig med dig.** is I agree with you.\n**Det lover jeg!** is I promise.\n\n**Hvad foregår der?** asks what's going on.\n\n**da** is when, for one time in the past: **Jeg havde en hund da jeg var barn.**\n\n**bekymret** is worried and **i tvivl** in doubt: **Burde vi være bekymret?**",
+    "example_sentence_ids": "S94015;S94016;S94102",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U28",
+    "rule": "**Hvad er der galt?** asks what's wrong.\n**i stykker** is broken: **Denne telefon er i stykker.**\n\n**Gør det ondt?** asks does it hurt; **Hvor gør det ondt?** asks where.\n\n**Ring efter …** is call for: **Ring efter hjælp.** **Skal jeg ringe efter en ambulance?**\n\n**Der er sket en ulykke.** is there has been an accident. **farligt** is dangerous: **Det er farligt!**",
+    "example_sentence_ids": "S28007;S28024;S28018",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U88",
+    "rule": "The words on a form: **navn**, **adresse**, **fødselsdato** (date of birth), **køn** (sex), **statsborgerskab** (citizenship):\n**Skriv din fødselsdato her.**\n\n**en blanket** is a form: **Må jeg få en blanket?**\n**dine oplysninger** are your details: **Skriv dine oplysninger her.**\n\n**gift**, **ugift** or **skilt**: **Er du gift eller ugift?**\n\n**alder** is age; **på alder med** is the same age as: **Han er på alder med dig.**",
+    "example_sentence_ids": "S88105;S88103;S88119",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U89",
+    "rule": "A message starts with **Kære**: **Kære Anna!** **Kære mor og far!**\n\nIt ends with **Kærlig hilsen** (love) or **Mange hilsner** (best wishes): **Kærlig hilsen, Anna**\n\n**et knus** and **et kram** are a hug, **et kys** a kiss: **Giv mig et knus!**\n\n**send** is the command of **sende**: **Send mig en sms.** **Send mig et postkort.**",
+    "example_sentence_ids": "S89103;S89106;S89114",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U95",
+    "rule": "A command is the verb's stem, with the verb first:\n**Bliv her.** (stay here)\n**Skynd dig!** (hurry up)\n**Slap af!** (relax)\n\n**ikke** comes after the verb: **Slip mig ikke.** **Læg ikke på!**\n\n**Hold op med det!** is stop that. **Læg den på bordet.** is put it on the table.",
+    "example_sentence_ids": "S95011;S95006;S95030",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

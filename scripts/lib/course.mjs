@@ -45,7 +45,7 @@ export const COURSES = {
   },
   // Danish (2026-11-19, branch lang/danish): standard Danish, modern du (formal De kept out of Part 1). Its folders: content-da/…
   da: {
-    id: 'da', name: 'Danish', workbook: '_source/tamago-da-data-v3.xlsx',
+    id: 'da', name: 'Danish', workbook: '_source/tamago-da-data-v7.xlsx',
     tatoeba: 'dan', wiktionaryCode: 'da', wiktionarySection: 'Danish', linguaLibre: { qid: 'Q9035', iso: 'dan' }, wikidataLanguage: 'Q9035',
   },
   // Norwegian Bokmål (2026-11-19, branch lang/norwegian): standard written Bokmål, du throughout (formal De kept out of Part 1). Its folders: content-no/…

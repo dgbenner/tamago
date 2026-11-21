@@ -1,1 +1,268 @@
-[]
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "femten",
+    "answer": "15"
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "sytten",
+    "answer": "17"
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "tolv, fjorten, nitten, elleve",
+    "answer": "12 14 19 11"
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "seksten, tyve, tretten, atten",
+    "answer": "16 20 13 18"
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Jeg er tyve år.",
+    "answer": "20"
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Hun er atten år.",
+    "answer": "18"
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "halvfjerds",
+    "answer": "70"
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "halvfems",
+    "answer": "90"
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "femogfyrre",
+    "answer": "45"
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "nioghalvfems",
+    "answer": "99"
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "tredive kroner",
+    "answer": "30"
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "ti kroner",
+    "answer": "10"
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "hundrede kroner",
+    "answer": "100"
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "halvtreds kroner",
+    "answer": "50"
+  },
+  {
+    "id": "N201",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Klokken er halv fire.",
+    "answer": "3:30"
+  },
+  {
+    "id": "N202",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Klokken er kvart over otte.",
+    "answer": "8:15"
+  },
+  {
+    "id": "N203",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Klokken er tolv.",
+    "answer": "12:00"
+  },
+  {
+    "id": "N204",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Klokken er kvart i ti.",
+    "answer": "9:45"
+  },
+  {
+    "id": "N205",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Den femte marts.",
+    "answer": "5/3"
+  },
+  {
+    "id": "N206",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Den første maj.",
+    "answer": "1/5"
+  },
+  {
+    "id": "N207",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Den femtende september.",
+    "answer": "15/9"
+  },
+  {
+    "id": "N208",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Den tredivte december.",
+    "answer": "30/12"
+  },
+  {
+    "id": "N209",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Bussen kører ti minutter over fire.",
+    "answer": "4:10"
+  },
+  {
+    "id": "N210",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Toget er fremme tyve minutter over ni.",
+    "answer": "9:20"
+  },
+  {
+    "id": "N211",
+    "unit_id": "U68",
+    "kind": "time",
+    "say": "Bussen til Odense kører klokken seks.",
+    "answer": "6:00"
+  },
+  {
+    "id": "N212",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Toget til Aarhus kører fra spor syv.",
+    "answer": "7"
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "En kop kaffe koster tredive kroner.",
+    "answer": "30"
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Det bliver femogtres kroner.",
+    "answer": "65"
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Dagens ret koster hundrede og tyve kroner.",
+    "answer": "120"
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Regningen er på to hundrede og fyrre kroner.",
+    "answer": "240"
+  },
+  {
+    "id": "N305",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Apoteket ligger hundrede meter længere fremme.",
+    "answer": "100"
+  },
+  {
+    "id": "N306",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Museet ligger tre hundrede meter herfra.",
+    "answer": "300"
+  },
+  {
+    "id": "N307",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Tag bus nummer fire.",
+    "answer": "4"
+  },
+  {
+    "id": "N308",
+    "unit_id": "U84",
+    "kind": "time",
+    "say": "Toget kommer kvart over syv.",
+    "answer": "7:15"
+  },
+  {
+    "id": "N309",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "Jeg bor på anden sal, i lejlighed tolv.",
+    "answer": "12"
+  },
+  {
+    "id": "N310",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "Mødet er klokken halv elleve.",
+    "answer": "10:30"
+  },
+  {
+    "id": "N311",
+    "unit_id": "U88",
+    "kind": "phone",
+    "say": "Mit nummer er tolv, fireogtredive, seksoghalvtreds, otteoghalvfjerds.",
+    "answer": "12 34 56 78"
+  },
+  {
+    "id": "N312",
+    "unit_id": "U88",
+    "kind": "date",
+    "say": "Jeg er født den tolvte marts.",
+    "answer": "12/3"
+  }
+]

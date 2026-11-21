@@ -1,550 +1,1509 @@
 {
- "_about": "Danish course review decisions (Dan, 2026-11-19, branch lang/danish). units: circle approvals. gender: en/et imported from a Wiktionary pass where the pipeline leaves Danish noun gender blank (build-content applies it). names: people and places allowed in sentences. sentences/cut_sentences/claude_hints/accepted_additions as the review needs.",
- "sentences": {
-  "S3007": {
-   "action": "confirm",
-   "french": "Farvel, Tom!",
-   "english_source": "Fable review pick"
-  },
-  "S5003": {
-   "action": "confirm",
-   "french": "Har du en hund?",
-   "english_source": "Fable review pick"
-  },
-  "S5017": {
-   "action": "confirm",
-   "french": "Har du det dårligt?",
-   "english_source": "Fable review pick"
-  },
-  "S5021": {
-   "action": "confirm",
-   "french": "Har du det ikke godt?",
-   "english_source": "Fable review pick"
-  },
-  "S32005": {
-   "action": "confirm",
-   "french": "Hvordan siger man ...?",
-   "english_source": "Fable review pick"
-  },
-  "S6015": {
-   "action": "confirm",
-   "french": "Har han børn?",
-   "english_source": "Fable review pick"
-  },
-  "S6028": {
-   "action": "confirm",
-   "french": "Har du en hund?",
-   "english_source": "Fable review pick"
-  },
-  "S33003": {
-   "action": "confirm",
-   "french": "Jeg ved ikke.",
-   "english_source": "Fable review pick"
-  },
-  "S33004": {
-   "action": "confirm",
-   "french": "Jeg ved hvordan.",
-   "english_source": "Fable review pick"
-  },
-  "S33010": {
-   "action": "confirm",
-   "french": "Det ved jeg ikke.",
-   "english_source": "Fable review pick"
-  },
-  "S11010": {
-   "action": "confirm",
-   "french": "Hvornår er vi der?",
-   "english_source": "Fable review pick"
-  },
-  "S11017": {
-   "action": "confirm",
-   "french": "Hvornår går du i seng?",
-   "english_source": "Fable review pick"
-  },
-  "S53005": {
-   "action": "confirm",
-   "french": "Tom går ikke i kirke.",
-   "english_source": "Fable review pick"
-  },
-  "S15009": {
-   "action": "confirm",
-   "french": "Hvor går Tom i skole?",
-   "english_source": "Fable review pick"
-  },
-  "S51004": {
-   "action": "confirm",
-   "french": "Tom er klog.",
-   "english_source": "Fable review pick"
-  }
- },
- "accepted_answers": {},
- "units": {
-  "U01": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: greetings and who you are, clean after review"
-  },
-  "U02": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: he/she, it, this/that and jobs without en/et, clean after review"
-  },
-  "U03": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: set polite phrases, clean after review"
-  },
-  "U04": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: food, drink and liking, clean after review"
-  },
-  "U05": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: animals and have, clean after review"
-  },
-  "U06": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: plurals, we/they, clean after review"
-  },
-  "U07": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: describing things, clean after review"
-  },
-  "U08": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: where things are, clean after review"
-  },
-  "U09": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: how you feel, clean after review"
-  },
-  "U10": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: mine and yours, family, clean after review"
-  },
-  "U11": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: question words, clean after review"
-  },
-  "U12": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: numbers to ten and age, clean after review"
-  },
-  "U13": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: colours, clean after review"
-  },
-  "U14": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: days and times, clean after review"
-  },
-  "U15": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: going to places, clean after review"
-  },
-  "U31": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: asking for help, clean after review"
-  },
-  "U32": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: asking about words, clean after review"
-  },
-  "U33": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: finding the word, clean after review"
-  },
-  "U51": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: body and looks, clean after review"
-  },
-  "U52": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: free time, clean after review"
-  },
-  "U53": {
-   "action": "approve",
-   "on": "2026-11-19",
-   "by": "Claude (Builder 2) under the overnight Danish build: around town, clean after review"
-  }
- },
- "cut_sentences": [
-  "S6014",
-  "S6025",
-  "S8001",
-  "S8012",
-  "S8013",
-  "S8014",
-  "S8015",
-  "S8016",
-  "S8018",
-  "S8019",
-  "S8028",
-  "S11006",
-  "S11022",
-  "S11026",
-  "S12008",
-  "S12010",
-  "S14017",
-  "S1006",
-  "S1017",
-  "S31002",
-  "S31102",
-  "S2009",
-  "S2010",
-  "S2101",
-  "S2103",
-  "S3008",
-  "S4019",
-  "S4028",
-  "S5101",
-  "S32003",
-  "S32007",
-  "S32012",
-  "S32017",
-  "S6001",
-  "S6021",
-  "S7016",
-  "S7017",
-  "S7024",
-  "S52013",
-  "S52016",
-  "S52019",
-  "S52104",
-  "S52106",
-  "S8002",
-  "S8025",
-  "S9023",
-  "S33002",
-  "S33009",
-  "S10023",
-  "S10026",
-  "S11001",
-  "S12029",
-  "S51010",
-  "S51011",
-  "S15005",
-  "S15006",
-  "S15007",
-  "S15014",
-  "S15015",
-  "S15016",
-  "S15017",
-  "S15018",
-  "S15020",
-  "S15022",
-  "S53110"
- ],
- "vocabulary_additions": [],
- "hints": {},
- "borrow": {},
- "claude_hints": {
-  "W702": {
-   "hint": "slower",
-   "source": "comparative of langsom (slow), Wiktionary Danish"
-  },
-  "W706": {
-   "hint": "repeat (say it again)",
-   "source": "imperative of gentage (to repeat), Wiktionary Danish"
-  },
-  "W036": {
-   "hint": "goes",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W041": {
-   "hint": "eat, eats",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W064": {
-   "hint": "they",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W019": {
-   "hint": "it, that",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W020": {
-   "hint": "it, that",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W109": {
-   "hint": "my",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W110": {
-   "hint": "my (with et-words)",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W111": {
-   "hint": "your",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W112": {
-   "hint": "your (with et-words)",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W113": {
-   "hint": "his",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W114": {
-   "hint": "her",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W115": {
-   "hint": "our, ours",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W074": {
-   "hint": "many",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W081": {
-   "hint": "very, much",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W150": {
-   "hint": "now",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W086": {
-   "hint": "fun, funny",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W044": {
-   "hint": "kan lide: to like",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W705": {
-   "hint": "speak, talk",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W709": {
-   "hint": "one, you (in general)",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W713": {
-   "hint": "to look for",
-   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
-  },
-  "W715": {
-   "hint": "know",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W1002": {
-   "hint": "eyes",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W1020": {
-   "hint": "dance, dances",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W1013": {
-   "hint": "clever, smart",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W1036": {
-   "hint": "far",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W703": {
-   "hint": "a time, an occasion",
-   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
-  },
-  "W129": {
-   "hint": "which",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W157": {
-   "hint": "the clock, o’clock",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W075": {
-   "hint": "big (plural)",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W065": {
-   "hint": "dogs",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W066": {
-   "hint": "cats",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W067": {
-   "hint": "books",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W068": {
-   "hint": "houses",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W069": {
-   "hint": "men",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W070": {
-   "hint": "women",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W071": {
-   "hint": "children",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W072": {
-   "hint": "apples",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W073": {
-   "hint": "friends",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W037": {
-   "hint": "good, well",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W038": {
-   "hint": "bad, badly",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W039": {
-   "hint": "fine",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W707": {
-   "hint": "again",
-   "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
-  },
-  "W1012": {
-   "hint": "pretty, nice",
-   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
-  },
-  "W1010": {
-   "hint": "long; tall (of a person)",
-   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
-  },
-  "W1023": {
-   "hint": "film, movie",
-   "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
-  }
- },
- "phrases_off": {},
- "names": [
-  "Tom",
-  "Maria",
-  "Mary",
-  "Anna",
-  "Peter",
-  "Jens",
-  "Mette",
-  "Lars",
-  "København",
-  "Aarhus",
-  "London",
-  "Paris"
- ],
- "gender": {
-  "W011": "en",
-  "W012": "en",
-  "W013": "en",
-  "W014": "en",
-  "W015": "et",
-  "W021": "en",
-  "W022": "et",
-  "W023": "en",
-  "W024": "en",
-  "W028": "en",
-  "W029": "et",
-  "W030": "en",
-  "W046": "et",
-  "W047": "en",
-  "W048": "en",
-  "W049": "et",
-  "W050": "en",
-  "W051": "en",
-  "W055": "en",
-  "W056": "en",
-  "W057": "en",
-  "W058": "en",
-  "W060": "en",
-  "W061": "en",
-  "W083": "en",
-  "W084": "en",
-  "W095": "et",
-  "W097": "et",
-  "W098": "en",
-  "W116": "en",
-  "W117": "en",
-  "W118": "en",
-  "W119": "en",
-  "W120": "en",
-  "W121": "en",
-  "W122": "en",
-  "W150": "et",
-  "W151": "en",
-  "W152": "en",
-  "W153": "en",
-  "W154": "en",
-  "W155": "en",
-  "W156": "en",
-  "W159": "en",
-  "W160": "en",
-  "W162": "en",
-  "W163": "en",
-  "W164": "en",
-  "W703": "en",
-  "W1001": "et",
-  "W1003": "en",
-  "W1004": "en",
-  "W1006": "en",
-  "W1007": "et",
-  "W1009": "en",
-  "W1014": "en",
-  "W1015": "et",
-  "W1016": "en",
-  "W1017": "en",
-  "W1018": "et",
-  "W1023": "en",
-  "W1026": "en",
-  "W1027": "et",
-  "W1028": "en",
-  "W1029": "en",
-  "W1030": "et",
-  "W1031": "en",
-  "W1032": "en",
-  "W1033": "et",
-  "W1034": "et",
-  "W052": "en",
-  "W096": "en",
-  "W147": "en",
-  "W161": "en",
-  "W1005": "en",
-  "W1025": "et",
-  "W045": "et",
-  "W059": "en",
-  "W062": "et",
-  "W139": "et",
-  "W710": "et",
-  "W716": "en",
-  "W1008": "et",
-  "W094": "et"
- },
- "accepted_additions": []
+  "_about": "Danish course review decisions (Dan, 2026-11-19, branch lang/danish). units: circle approvals. gender: en/et imported from a Wiktionary pass where the pipeline leaves Danish noun gender blank (build-content applies it). names: people and places allowed in sentences. sentences/cut_sentences/claude_hints/accepted_additions as the review needs.",
+  "sentences": {
+    "S3007": {
+      "action": "confirm",
+      "french": "Farvel, Tom!",
+      "english_source": "Fable review pick"
+    },
+    "S5003": {
+      "action": "confirm",
+      "french": "Har du en hund?",
+      "english_source": "Fable review pick"
+    },
+    "S5017": {
+      "action": "confirm",
+      "french": "Har du det dårligt?",
+      "english_source": "Fable review pick"
+    },
+    "S5021": {
+      "action": "confirm",
+      "french": "Har du det ikke godt?",
+      "english_source": "Fable review pick"
+    },
+    "S32005": {
+      "action": "confirm",
+      "french": "Hvordan siger man ...?",
+      "english_source": "Fable review pick"
+    },
+    "S6015": {
+      "action": "confirm",
+      "french": "Har han børn?",
+      "english_source": "Fable review pick"
+    },
+    "S6028": {
+      "action": "confirm",
+      "french": "Har du en hund?",
+      "english_source": "Fable review pick"
+    },
+    "S33003": {
+      "action": "confirm",
+      "french": "Jeg ved ikke.",
+      "english_source": "Fable review pick"
+    },
+    "S33004": {
+      "action": "confirm",
+      "french": "Jeg ved hvordan.",
+      "english_source": "Fable review pick"
+    },
+    "S33010": {
+      "action": "confirm",
+      "french": "Det ved jeg ikke.",
+      "english_source": "Fable review pick"
+    },
+    "S11010": {
+      "action": "confirm",
+      "french": "Hvornår er vi der?",
+      "english_source": "Fable review pick"
+    },
+    "S11017": {
+      "action": "confirm",
+      "french": "Hvornår går du i seng?",
+      "english_source": "Fable review pick"
+    },
+    "S53005": {
+      "action": "confirm",
+      "french": "Tom går ikke i kirke.",
+      "english_source": "Fable review pick"
+    },
+    "S15009": {
+      "action": "confirm",
+      "french": "Hvor går Tom i skole?",
+      "english_source": "Fable review pick"
+    },
+    "S51004": {
+      "action": "confirm",
+      "french": "Tom er klog.",
+      "english_source": "Fable review pick"
+    }
+  },
+  "accepted_answers": {},
+  "units": {
+    "U01": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: greetings and who you are, clean after review"
+    },
+    "U02": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: he/she, it, this/that and jobs without en/et, clean after review"
+    },
+    "U03": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: set polite phrases, clean after review"
+    },
+    "U04": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: food, drink and liking, clean after review"
+    },
+    "U05": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: animals and have, clean after review"
+    },
+    "U06": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: plurals, we/they, clean after review"
+    },
+    "U07": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: describing things, clean after review"
+    },
+    "U08": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: where things are, clean after review"
+    },
+    "U09": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: how you feel, clean after review"
+    },
+    "U10": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: mine and yours, family, clean after review"
+    },
+    "U11": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: question words, clean after review"
+    },
+    "U12": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: numbers to ten and age, clean after review"
+    },
+    "U13": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: colours, clean after review"
+    },
+    "U14": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: days and times, clean after review"
+    },
+    "U15": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: going to places, clean after review"
+    },
+    "U31": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: asking for help, clean after review"
+    },
+    "U32": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: asking about words, clean after review"
+    },
+    "U33": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: finding the word, clean after review"
+    },
+    "U51": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: body and looks, clean after review"
+    },
+    "U52": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: free time, clean after review"
+    },
+    "U53": {
+      "action": "approve",
+      "on": "2026-11-19",
+      "by": "Claude (Builder 2) under the overnight Danish build: around town, clean after review"
+    },
+    "U41": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U54": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U34": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U42": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U43": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U55": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U35": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U44": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U45": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U56": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U46": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U47": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U57": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U36": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U48": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U49": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U58": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U61": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U71": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U37": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U62": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U63": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U72": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U38": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U64": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U65": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U73": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U66": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U67": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U74": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U39": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U68": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U69": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U75": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U81": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U91": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U26": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U82": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U83": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U92": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U27": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U84": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U85": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U93": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U86": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U87": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U94": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U28": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U88": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U89": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    },
+    "U95": {
+      "action": "approve",
+      "on": "2026-11-21",
+      "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+    }
+  },
+  "cut_sentences": [
+    "S6014",
+    "S6025",
+    "S8001",
+    "S8012",
+    "S8013",
+    "S8014",
+    "S8015",
+    "S8016",
+    "S8018",
+    "S8019",
+    "S8028",
+    "S11006",
+    "S11022",
+    "S11026",
+    "S12008",
+    "S12010",
+    "S14017",
+    "S1006",
+    "S1017",
+    "S31002",
+    "S31102",
+    "S2009",
+    "S2010",
+    "S2101",
+    "S2103",
+    "S3008",
+    "S4019",
+    "S4028",
+    "S5101",
+    "S32003",
+    "S32007",
+    "S32012",
+    "S32017",
+    "S6001",
+    "S6021",
+    "S7016",
+    "S7017",
+    "S7024",
+    "S52013",
+    "S52016",
+    "S52019",
+    "S52104",
+    "S52106",
+    "S8002",
+    "S8025",
+    "S9023",
+    "S33002",
+    "S33009",
+    "S10023",
+    "S10026",
+    "S11001",
+    "S12029",
+    "S51010",
+    "S51011",
+    "S15005",
+    "S15006",
+    "S15007",
+    "S15014",
+    "S15015",
+    "S15016",
+    "S15017",
+    "S15018",
+    "S15020",
+    "S15022",
+    "S53110"
+  ],
+  "vocabulary_additions": [],
+  "hints": {},
+  "borrow": {},
+  "claude_hints": {
+    "W702": {
+      "hint": "slower",
+      "source": "comparative of langsom (slow), Wiktionary Danish"
+    },
+    "W706": {
+      "hint": "repeat (say it again)",
+      "source": "imperative of gentage (to repeat), Wiktionary Danish"
+    },
+    "W036": {
+      "hint": "goes",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W041": {
+      "hint": "eat, eats",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W064": {
+      "hint": "they",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W019": {
+      "hint": "it, that",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W020": {
+      "hint": "it, that",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W109": {
+      "hint": "my",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W110": {
+      "hint": "my (with et-words)",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W111": {
+      "hint": "your",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W112": {
+      "hint": "your (with et-words)",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W113": {
+      "hint": "his",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W114": {
+      "hint": "her",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W115": {
+      "hint": "our, ours",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W074": {
+      "hint": "many",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W081": {
+      "hint": "very, much",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W150": {
+      "hint": "now",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W086": {
+      "hint": "fun, funny",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W044": {
+      "hint": "kan lide: to like",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W705": {
+      "hint": "speak, talk",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W709": {
+      "hint": "one, you (in general)",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W713": {
+      "hint": "to look for",
+      "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+    },
+    "W715": {
+      "hint": "know",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W1002": {
+      "hint": "eyes",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W1020": {
+      "hint": "dance, dances",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W1013": {
+      "hint": "clever, smart",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W1036": {
+      "hint": "far",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W703": {
+      "hint": "a time, an occasion",
+      "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+    },
+    "W129": {
+      "hint": "which",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W157": {
+      "hint": "the clock, o’clock",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W075": {
+      "hint": "big (plural)",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W065": {
+      "hint": "dogs",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W066": {
+      "hint": "cats",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W067": {
+      "hint": "books",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W068": {
+      "hint": "houses",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W069": {
+      "hint": "men",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W070": {
+      "hint": "women",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W071": {
+      "hint": "children",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W072": {
+      "hint": "apples",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W073": {
+      "hint": "friends",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W037": {
+      "hint": "good, well",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W038": {
+      "hint": "bad, badly",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W039": {
+      "hint": "fine",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W707": {
+      "hint": "again",
+      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+    },
+    "W1012": {
+      "hint": "pretty, nice",
+      "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+    },
+    "W1010": {
+      "hint": "long; tall (of a person)",
+      "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+    },
+    "W1023": {
+      "hint": "film, movie",
+      "source": "Fable's Danish Part 1 review, applied by Claude (Builder 2) 2026-11-20"
+    },
+    "W845": {
+      "hint": "birthday (the birthday)",
+      "source": "definite singular of fødselsdag (birthday), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W970": {
+      "hint": "money (the money)",
+      "source": "definite plural of penge (money), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W1198": {
+      "hint": "door (the door)",
+      "source": "definite singular of dør (door), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W1202": {
+      "hint": "sea (the sea)",
+      "source": "definite singular of hav (sea; ocean), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W1205": {
+      "hint": "forest, woods (the forest)",
+      "source": "definite singular of skov (forest), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W1212": {
+      "hint": "sun (the sun)",
+      "source": "definite singular of sol (sun), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W1213": {
+      "hint": "sky (the sky)",
+      "source": "definite singular of himmel (sky), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W1215": {
+      "hint": "earth, Earth (the earth)",
+      "source": "definite singular of jord (earth, Earth), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W903": {
+      "hint": "people, human beings",
+      "source": "indefinite plural of menneske (human being; person, people), Wiktionary Danish (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W899": {
+      "hint": "boyfriend, girlfriend",
+      "source": "Wiktionary Danish: boyfriend or girlfriend; the pipeline reads the or-phrase as one meaning (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W828": {
+      "hint": "phone, telephone",
+      "source": "Wiktionary Danish: telephone; phone number (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W999": {
+      "hint": "place, seat, room",
+      "source": "Wiktionary Danish senses 1, 2 and 5: place, seat, room (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W802": {
+      "hint": "first name",
+      "source": "Wiktionary Danish: given name (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W941": {
+      "hint": "use, need",
+      "source": "Wiktionary Danish: use; har brug for (have use for) is how Danish says need, flagged for Fable (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W986": {
+      "hint": "pair, couple",
+      "source": "Wiktionary Danish: pair; couple (Claude, Builder 2, Danish Part 2 gather, 2026-11-21)"
+    },
+    "W1307": {
+      "hint": "time (the time)",
+      "source": "definite singular of tid (time), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1309": {
+      "hint": "morning (the morning)",
+      "source": "definite singular of morgen (morning), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1313": {
+      "hint": "evening (the evening)",
+      "source": "definite singular of aften (evening), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1334": {
+      "hint": "weekend (the weekend)",
+      "source": "definite singular of weekend, Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1363": {
+      "hint": "spring (the spring)",
+      "source": "definite singular of forår (spring), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1365": {
+      "hint": "summer (the summer)",
+      "source": "definite singular of sommer (summer), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1366": {
+      "hint": "autumn, fall (the autumn)",
+      "source": "definite singular of efterår (autumn, fall), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1368": {
+      "hint": "winter (the winter)",
+      "source": "definite singular of vinter (winter), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1382": {
+      "hint": "cinema, movie theater (the cinema)",
+      "source": "definite singular of biograf (movie theater), Wiktionary Danish; cinema is the British word for the same place (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1381": {
+      "hint": "cinema, movie theater",
+      "source": "Wiktionary Danish: movie theater; cinema is the British word for the same place (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1421": {
+      "hint": "police (the police)",
+      "source": "definite singular of politi (police), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1440": {
+      "hint": "train (the train)",
+      "source": "definite singular of tog (train), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1441": {
+      "hint": "bus (the bus)",
+      "source": "definite singular of bus, Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1474": {
+      "hint": "text (the text)",
+      "source": "definite singular of tekst (text), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1523": {
+      "hint": "weather (the weather)",
+      "source": "definite singular of vejr (weather), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1596": {
+      "hint": "life (the life)",
+      "source": "definite singular of liv (life), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1455": {
+      "hint": "gentlemen",
+      "source": "indefinite plural of herre (gentleman), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1454": {
+      "hint": "ladies",
+      "source": "indefinite plural of dame (lady), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1430": {
+      "hint": "plane, aeroplane, airplane",
+      "source": "Wiktionary Danish: airplane, aeroplane (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1588": {
+      "hint": "opinion; sense, meaning",
+      "source": "Wiktionary Danish senses 1 and 2: opinion; meaning (sense) (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1387": {
+      "hint": "appointment, arrangement; deal",
+      "source": "Wiktionary Danish: arrangement; agreement; deal (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1384": {
+      "hint": "wish, desire (har lyst til: feel like)",
+      "source": "Wiktionary Danish: inclination, desire, wish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1451": {
+      "hint": "order (i orden: all right)",
+      "source": "Wiktionary Danish: order, neatness (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1424": {
+      "hint": "permission; law (har lov til: may, be allowed to)",
+      "source": "Wiktionary Danish: law; permission (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1442": {
+      "hint": "trip, walk; turn",
+      "source": "Wiktionary Danish senses 5, 3 and 1: trip; walk; turn (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1392": {
+      "hint": "obliged (er nødt til: have to)",
+      "source": "Wiktionary Danish nødt til: obliged to (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1428": {
+      "hint": "departs, leaves",
+      "source": "Wiktionary Danish afgå (to take off) and afgang (departure) (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1429": {
+      "hint": "there, at the destination",
+      "source": "Wiktionary Danish adverb sense 3: at the destination of a journey (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1325": {
+      "hint": "louder; higher",
+      "source": "comparative of høj (high; tall; loud), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1305": {
+      "hint": "hours",
+      "source": "indefinite plural of time (hour), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1434": {
+      "hint": "travels",
+      "source": "present of rejse (to travel, sense 7), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1380": {
+      "hint": "see you (vi ses)",
+      "source": "Wiktionary Danish: vi ses (see you) (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1591": {
+      "hint": "luck",
+      "source": "Wiktionary Danish: luck, fortune (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1584": {
+      "hint": "fun, funny",
+      "source": "neuter singular of sjov (fun, funny), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1585": {
+      "hint": "sorry (ked af det: sorry, upset); tired (of)",
+      "source": "Wiktionary Danish: tired (of), sorry (about) (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1501": {
+      "hint": "yesterday",
+      "source": "Wiktionary Danish: i går, yesterday (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1316": {
+      "hint": "early",
+      "source": "neuter of tidlig (early), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1318": {
+      "hint": "later",
+      "source": "Wiktionary Danish: comparative of sen (late); later (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1319": {
+      "hint": "earlier",
+      "source": "comparative of tidlig (early), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1344": {
+      "hint": "last",
+      "source": "attributive of sidst (last), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1594": {
+      "hint": "most gladly (superlative of gerne)",
+      "source": "Wiktionary Danish: superlative of gerne (willingly) (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1515": {
+      "hint": "happened",
+      "source": "past tense of ske (to happen), Wiktionary Danish (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W1556": {
+      "hint": "towards (with a verb of going: gå hen)",
+      "source": "Wiktionary Danish: used with a verb for movement towards something (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)"
+    },
+    "W2006": {
+      "hint": "bill (the bill)",
+      "source": "definite singular of regning (a bill, account to be paid), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2032": {
+      "hint": "table (the table)",
+      "source": "definite singular of bord (table), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2036": {
+      "hint": "corner (the corner)",
+      "source": "definite singular of hjørne (corner), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2039": {
+      "hint": "way, road (the way)",
+      "source": "definite singular of vej (road; way), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2045": {
+      "hint": "street (the street)",
+      "source": "definite singular of gade (street), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2046": {
+      "hint": "town, city (the town)",
+      "source": "definite singular of by (town, city), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2051": {
+      "hint": "map (the map); card",
+      "source": "definite singular of kort (card; map), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2054": {
+      "hint": "address (the address)",
+      "source": "definite singular of adresse (address), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2062": {
+      "hint": "airport (the airport)",
+      "source": "definite singular of lufthavn (airport), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2065": {
+      "hint": "car (the car)",
+      "source": "definite singular of bil (car), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2087": {
+      "hint": "house (the house)",
+      "source": "definite singular of hus (house), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2092": {
+      "hint": "window (the window)",
+      "source": "definite singular of vindue (window), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2097": {
+      "hint": "key (the key)",
+      "source": "definite singular of nøgle (key), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2102": {
+      "hint": "office (the office)",
+      "source": "definite singular of kontor (office), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2111": {
+      "hint": "work (the work, at work)",
+      "source": "definite singular of arbejde (work), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2115": {
+      "hint": "meeting (the meeting)",
+      "source": "definite singular of møde (meeting), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2145": {
+      "hint": "letter (the letter)",
+      "source": "definite singular of brev (letter), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2205": {
+      "hint": "matter (the matter, the point)",
+      "source": "definite singular of sag (matter, affair), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2208": {
+      "hint": "truth (the truth)",
+      "source": "definite singular of sandhed (truth), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2209": {
+      "hint": "place (the place); i stedet for: instead of",
+      "source": "definite singular of sted (place), and i stedet for (instead of), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2211": {
+      "hint": "day (the day)",
+      "source": "definite singular of dag (day), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2215": {
+      "hint": "head (the head)",
+      "source": "definite singular of hoved (head), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2207": {
+      "hint": "rest (the rest)",
+      "source": "definite singular of rest (remnant, remainder, rest), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2035": {
+      "hint": "straight on",
+      "source": "Wiktionary Danish lige (straight) and the usage example under vigepligt: køre ligeud, go straight on (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2061": {
+      "hint": "on foot",
+      "source": "Wiktionary: Danish translation of on foot, til fods (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2050": {
+      "hint": "lost (faret vild: lost)",
+      "source": "Wiktionary: Danish translation of I'm lost, jeg er faret vild; faret is the past participle of fare (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2049": {
+      "hint": "wild; faret vild: lost",
+      "source": "Wiktionary Danish vild (wild), and the translation of lost: faret vild (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2055": {
+      "hint": "nearest",
+      "source": "Wiktionary Danish nær (near): superlative nærmest, attributive nærmeste (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2116": {
+      "hint": "pieces; i stykker: broken",
+      "source": "Wiktionary Danish stykke (piece); i stykker (broken) as a synonym under itu and in the example under stift (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2122": {
+      "hint": "pain, ache (har ondt i: it hurts)",
+      "source": "Wiktionary Danish ondt i halsen (sore throat) and the quotation jeg har ondt i maven, under bank under bordet (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2123": {
+      "hint": "wrong (noget galt: something wrong)",
+      "source": "Wiktionary Danish gal: wrong (not the right one); galt is its neuter (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2121": {
+      "hint": "dangerous",
+      "source": "neuter of farlig (dangerous), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2009": {
+      "hint": "tastes",
+      "source": "present of smage (to taste), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2067": {
+      "hint": "fetches, picks up",
+      "source": "present of hente (to fetch), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2238": {
+      "hint": "manages, copes",
+      "source": "present of klare (to manage, to cope), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2251": {
+      "hint": "promises",
+      "source": "present of love (to promise), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2252": {
+      "hint": "happens, goes on",
+      "source": "present of foregå (to happen), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2260": {
+      "hint": "let go!",
+      "source": "imperative of slippe (to let go, release), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2266": {
+      "hint": "hurry (skynd dig: hurry up)",
+      "source": "imperative of skynde (to hurry; reflexive skynde sig), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2265": {
+      "hint": "relax (slap af); let go (past of slippe)",
+      "source": "Wiktionary Danish slap (past of slippe) and the quotations slap af (relax) under vrede and ad Pommern til (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2227": {
+      "hint": "every, each",
+      "source": "Wiktionary Danish hver (every, each); hvert before a neuter noun (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2231": {
+      "hint": "normal, usual; normally",
+      "source": "Wiktionary Danish normal (ordinary, usual); normalt is its neuter (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2134": {
+      "hint": "information, details",
+      "source": "indefinite plural of oplysning (information), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2137": {
+      "hint": "dear",
+      "source": "Wiktionary Danish kær (dear); kære is its definite and plural form (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2235": {
+      "hint": "holds; stops (of a bus); holder af: likes",
+      "source": "present of holde (to hold, keep), and holde af (care for), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2236": {
+      "hint": "held, kept; holdt op: stopped",
+      "source": "past of holde (to hold, keep), and holde op (stop), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2258": {
+      "hint": "hold! keep!; hold op: stop it",
+      "source": "imperative of holde, and holde op (stop), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2243": {
+      "hint": "to hit, beat; slå op: look up",
+      "source": "Wiktionary Danish slå (to beat, hit, strike) and slå op (to look up) (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2244": {
+      "hint": "hits, beats, strikes; slår op: looks up",
+      "source": "present of slå (to beat, hit, strike), and slå op (look up), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2245": {
+      "hint": "hit, beat, struck; slog op: looked up",
+      "source": "past of slå (to beat, hit, strike), and slå op (look up), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2239": {
+      "hint": "lets",
+      "source": "present of lade (to let), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2262": {
+      "hint": "passport; pas på: look out!",
+      "source": "Wiktionary Danish pas (passport) and passe på (to watch out for) (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2261": {
+      "hint": "run!; ran",
+      "source": "imperative and past of løbe (to run), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2226": {
+      "hint": "died; dead (the dead)",
+      "source": "Wiktionary Danish døde: past of dø; plural and definite of død (dead) (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2216": {
+      "hint": "darling, honey; tax",
+      "source": "Wiktionary Danish skat: term of address for a loved one (honey, sweetie); tax (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2217": {
+      "hint": "guy",
+      "source": "Wiktionary Danish fyr: guy (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2223": {
+      "hint": "great, cool; fat",
+      "source": "Wiktionary Danish fed (fat; great, smashing, cool); fedt is its neuter (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2213": {
+      "hint": "a lot (en masse: lots)",
+      "source": "Wiktionary Danish masse: many, loads, a lot, lots (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2203": {
+      "hint": "part",
+      "source": "Wiktionary Danish del: part, portion (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2204": {
+      "hint": "matter, cause",
+      "source": "Wiktionary Danish sag: matter, affair; cause (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2007": {
+      "hint": "waiter",
+      "source": "Wiktionary Danish tjener: waiter, waitress, server (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2080": {
+      "hint": "married",
+      "source": "Wiktionary Danish gift (adjective): married (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2086": {
+      "hint": "divorced (past participle of skille)",
+      "source": "Wiktionary Danish skilt: past participle of skille (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2130": {
+      "hint": "sex, gender (on a form)",
+      "source": "Wiktionary Danish køn (noun): sex; gender (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2242": {
+      "hint": "acts; shops; handler om: is about",
+      "source": "present of handle (to act; to trade, shop), and handle om (to concern, be about), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2249": {
+      "hint": "suspects, has an idea (jeg aner det ikke: I have no idea)",
+      "source": "present of ane (to guess, suspect), Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2253": {
+      "hint": "when (in the past); then",
+      "source": "Wiktionary Danish da: conjunction when (referring to finished events); adverb then (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2040": {
+      "hint": "by, following a way (ad den vej: that way)",
+      "source": "Wiktionary Danish ad: by (following a certain route) (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2042": {
+      "hint": "turn!",
+      "source": "imperative of dreje, Wiktionary Danish (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2010": {
+      "hint": "here you are",
+      "source": "Wiktionary Danish værsgo: here you are (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W2044": {
+      "hint": "longer; further; ikke længere: no longer, anymore",
+      "source": "Wiktionary Danish længere: comparative degree of længe (adverb); anymore; comparative of lang (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    }
+  },
+  "phrases_off": {},
+  "names": [
+    "Tom",
+    "Maria",
+    "Mary",
+    "Anna",
+    "Peter",
+    "Jens",
+    "Mette",
+    "Lars",
+    "København",
+    "Aarhus",
+    "London",
+    "Paris",
+    "Jensen",
+    "Hansen"
+  ],
+  "gender": {
+    "W011": "en",
+    "W012": "en",
+    "W013": "en",
+    "W014": "en",
+    "W015": "et",
+    "W021": "en",
+    "W022": "et",
+    "W023": "en",
+    "W024": "en",
+    "W028": "en",
+    "W029": "et",
+    "W030": "en",
+    "W046": "et",
+    "W047": "en",
+    "W048": "en",
+    "W049": "et",
+    "W050": "en",
+    "W051": "en",
+    "W055": "en",
+    "W056": "en",
+    "W057": "en",
+    "W058": "en",
+    "W060": "en",
+    "W061": "en",
+    "W083": "en",
+    "W084": "en",
+    "W095": "et",
+    "W097": "et",
+    "W098": "en",
+    "W116": "en",
+    "W117": "en",
+    "W118": "en",
+    "W119": "en",
+    "W120": "en",
+    "W121": "en",
+    "W122": "en",
+    "W150": "et",
+    "W151": "en",
+    "W152": "en",
+    "W153": "en",
+    "W154": "en",
+    "W155": "en",
+    "W156": "en",
+    "W159": "en",
+    "W160": "en",
+    "W162": "en",
+    "W163": "en",
+    "W164": "en",
+    "W703": "en",
+    "W1001": "et",
+    "W1003": "en",
+    "W1004": "en",
+    "W1006": "en",
+    "W1007": "et",
+    "W1009": "en",
+    "W1014": "en",
+    "W1015": "et",
+    "W1016": "en",
+    "W1017": "en",
+    "W1018": "et",
+    "W1023": "en",
+    "W1026": "en",
+    "W1027": "et",
+    "W1028": "en",
+    "W1029": "en",
+    "W1030": "et",
+    "W1031": "en",
+    "W1032": "en",
+    "W1033": "et",
+    "W1034": "et",
+    "W052": "en",
+    "W096": "en",
+    "W147": "en",
+    "W161": "en",
+    "W1005": "en",
+    "W1025": "et",
+    "W045": "et",
+    "W059": "en",
+    "W062": "et",
+    "W139": "et",
+    "W710": "et",
+    "W716": "en",
+    "W1008": "et",
+    "W094": "et",
+    "W801": "et",
+    "W802": "et",
+    "W803": "et",
+    "W818": "et",
+    "W826": "et",
+    "W828": "en",
+    "W859": "et",
+    "W865": "en",
+    "W890": "en",
+    "W891": "et",
+    "W899": "en",
+    "W904": "et",
+    "W906": "et",
+    "W922": "et",
+    "W924": "en",
+    "W925": "et",
+    "W939": "en",
+    "W941": "en",
+    "W968": "en",
+    "W981": "en",
+    "W983": "en",
+    "W985": "et",
+    "W986": "et",
+    "W999": "en",
+    "W1101": "et",
+    "W1104": "en",
+    "W1105": "en",
+    "W1106": "en",
+    "W1107": "en",
+    "W1108": "en",
+    "W1111": "en",
+    "W1112": "en",
+    "W1116": "en",
+    "W1117": "et",
+    "W1120": "et",
+    "W1124": "et",
+    "W1126": "en",
+    "W1133": "et",
+    "W1140": "en",
+    "W1142": "et",
+    "W1143": "en",
+    "W1204": "en",
+    "W1207": "et",
+    "W1209": "en",
+    "W1132": "en",
+    "W1302": "en",
+    "W1303": "et",
+    "W1306": "en",
+    "W1310": "en",
+    "W1311": "en",
+    "W1312": "en",
+    "W1314": "en",
+    "W1315": "en",
+    "W1329": "en",
+    "W1330": "en",
+    "W1331": "en",
+    "W1332": "en",
+    "W1333": "en",
+    "W1364": "en",
+    "W1367": "en",
+    "W1371": "en",
+    "W1372": "en",
+    "W1381": "en",
+    "W1384": "en",
+    "W1385": "en",
+    "W1386": "en",
+    "W1387": "en",
+    "W1395": "en",
+    "W1396": "et",
+    "W1401": "en",
+    "W1402": "en",
+    "W1403": "en",
+    "W1405": "et",
+    "W1411": "et",
+    "W1412": "en",
+    "W1413": "en",
+    "W1415": "en",
+    "W1416": "et",
+    "W1417": "et",
+    "W1418": "en",
+    "W1420": "et",
+    "W1426": "en",
+    "W1427": "en",
+    "W1430": "et",
+    "W1432": "en",
+    "W1433": "en",
+    "W1435": "en",
+    "W1437": "et",
+    "W1451": "en",
+    "W1472": "en",
+    "W1473": "en",
+    "W1492": "en",
+    "W1522": "et",
+    "W1524": "en",
+    "W1526": "en",
+    "W1532": "et",
+    "W1533": "en",
+    "W1582": "en",
+    "W1583": "et",
+    "W1588": "en",
+    "W1591": "et",
+    "W1595": "et",
+    "W1599": "en",
+    "W1442": "en",
+    "W1436": "en",
+    "W2002": "en",
+    "W2004": "en",
+    "W2005": "en",
+    "W2007": "en",
+    "W2008": "en",
+    "W2011": "et",
+    "W2012": "en",
+    "W2013": "en",
+    "W2019": "en",
+    "W2020": "en",
+    "W2021": "et",
+    "W2022": "en",
+    "W2023": "en",
+    "W2024": "en",
+    "W2026": "en",
+    "W2028": "et",
+    "W2029": "en",
+    "W2030": "et",
+    "W2031": "et",
+    "W2037": "en",
+    "W2038": "en",
+    "W2041": "en",
+    "W2047": "en",
+    "W2063": "et",
+    "W2070": "en",
+    "W2071": "en",
+    "W2075": "en",
+    "W2076": "en",
+    "W2077": "en",
+    "W2078": "en",
+    "W2079": "en",
+    "W2081": "en",
+    "W2088": "en",
+    "W2089": "en",
+    "W2090": "et",
+    "W2091": "et",
+    "W2093": "en",
+    "W2094": "en",
+    "W2095": "et",
+    "W2096": "en",
+    "W2098": "et",
+    "W2100": "en",
+    "W2101": "et",
+    "W2103": "en",
+    "W2104": "en",
+    "W2106": "en",
+    "W2107": "et",
+    "W2108": "en",
+    "W2109": "en",
+    "W2110": "et",
+    "W2112": "en",
+    "W2113": "en",
+    "W2117": "en",
+    "W2118": "en",
+    "W2119": "en",
+    "W2127": "en",
+    "W2128": "en",
+    "W2130": "et",
+    "W2132": "et",
+    "W2135": "en",
+    "W2138": "en",
+    "W2141": "et",
+    "W2142": "et",
+    "W2143": "et",
+    "W2144": "et",
+    "W2146": "et",
+    "W2147": "en",
+    "W2201": "en",
+    "W2203": "en",
+    "W2204": "en",
+    "W2206": "en",
+    "W2212": "en",
+    "W2213": "en",
+    "W2214": "et",
+    "W2216": "en",
+    "W2217": "en",
+    "W2255": "en",
+    "W2262": "et",
+    "W2003": "et",
+    "W2202": "en",
+    "W2074": "en"
+  },
+  "accepted_additions": []
 }
