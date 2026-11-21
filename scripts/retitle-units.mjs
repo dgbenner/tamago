@@ -30,7 +30,7 @@ export const OWN = {
   pt: { 'Body and Looks': 'Body + Looks' },
   nl: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
   sv: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
-  da: { 'Body and Looks': 'Body + Looks' },
+  da: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
   no: { 'Body and Looks': 'Body + Looks' },
 }
 // French Part 2 kept its titles in the first round; since round 2 every part follows the same rules.

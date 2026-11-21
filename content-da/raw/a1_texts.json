@@ -323,7 +323,7 @@
     "unit_id": "U83",
     "kind": "notice",
     "title": "Hotellet",
-    "lines": "Hotellet ligger for enden af gaden.\nFem minutter til fods til centrum\nBusstoppested foran hotellet",
+    "lines": "Hotellet ligger for enden af gaden.\nFem minutter til fods til centrum\nBussen stopper foran hotellet",
     "questions_json": "[{\"question\":\"How far is the hotel from the centre?\",\"choices\":[\"Five minutes on foot\",\"Five minutes by car\",\"Half an hour on foot\"],\"answer\":0},{\"question\":\"Where is the bus stop?\",\"choices\":[\"In front of the hotel\",\"Behind the hotel\",\"At the station\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",

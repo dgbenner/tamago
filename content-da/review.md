@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 3025 (2353 matched to Tatoeba, 672 Tamago originals), 0 off, 2319 awaiting a ruling. Words with Wiktionary data: 1013 of 1041. French-to-English answers: 495 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 21.
+Sentences live: 3025 (2353 matched to Tatoeba, 672 Tamago originals), 0 off, 2353 awaiting a ruling. Words with Wiktionary data: 1013 of 1041. French-to-English answers: 495 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 11.
 
 Unit 1 is approved and live.
 
@@ -4060,42 +4060,42 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S75110 | Hvem som helst kan gøre det. | Anyone can do it. | [#10270763](https://tatoeba.org/en/sentences/show/10270763) | MyWay |  |  | tts |
 | S75111 | Tom kunne have været hvor som helst. | Tom could've been anywhere. | [#3577057](https://tatoeba.org/en/sentences/show/3577057) | danepo |  |  | tts |
 | S75112 | Tom har et varmt hjerte. | Tom has a warm heart. | [#5418562](https://tatoeba.org/en/sentences/show/5418562) | danepo |  |  | tts |
-| S81101 | Regningen, tak. | The bill, please. | [#3256531](https://tatoeba.org/en/sentences/show/3256531) | danepo | keep |  | tts |
-| S81102 | Klokken fem er der kaffe og kage. | There'll be coffee and cake at five. | [#6614426](https://tatoeba.org/en/sentences/show/6614426) | danepo | keep |  | tts |
-| S81103 | Tjener, tre kaffe, tak! | Waiter, three coffees, please. | [#7320896](https://tatoeba.org/en/sentences/show/7320896) | danepo | keep |  | tts |
-| S82101 | Det er for meget salt i denne suppe. | There's too much salt in this soup. | [#1863461](https://tatoeba.org/en/sentences/show/1863461) | danepo | keep |  | tts |
-| S83101 | For lang tid siden var her en bro. | A long time ago, there was a bridge here. | [#669253](https://tatoeba.org/en/sentences/show/669253) | danepo | keep |  | tts |
-| S83102 | Er det på denne side af gaden? | Is it on this side of the street? | [#2389559](https://tatoeba.org/en/sentences/show/2389559) | marcelostockle | keep |  | tts |
-| S83103 | Der er sket noget med mit højre øje. | Something has happened to my right eye. | [#10679316](https://tatoeba.org/en/sentences/show/10679316) | danepo | keep |  | tts |
-| S83104 | Sover du på din højre eller venstre side? | Do you sleep on your right side or your left? | [#10705044](https://tatoeba.org/en/sentences/show/10705044) | danepo | keep |  | tts |
-| S27101 | Adressen på denne pakke er forkert. | The address on this parcel is wrong. | [#1925872](https://tatoeba.org/en/sentences/show/1925872) | danepo | keep |  | tts |
-| S84101 | Jeg vil hente en. | I'll get one. | [#1998499](https://tatoeba.org/en/sentences/show/1998499) | danepo | keep |  | tts |
-| S84102 | Kunne du hente et glas vand til mig? | Could you bring me a glass of water? | [#8272677](https://tatoeba.org/en/sentences/show/8272677) | danepo | keep |  | tts |
-| S84103 | Vil familie eller venner komme og hente dig? | Will family or friends come to pick you up? | [#10698393](https://tatoeba.org/en/sentences/show/10698393) | danepo | keep |  | tts |
-| S84104 | Hvordan skifter jeg læge? | How do I change my GP? | [#11163262](https://tatoeba.org/en/sentences/show/11163262) | danepo | keep |  | tts |
-| S84105 | Hun skifter tit mening. | She often changes her mind. | [#4532263](https://tatoeba.org/en/sentences/show/4532263) | danepo | keep |  | tts |
-| S84106 | Hun fik Tom til at skifte mening. | She got Tom to change his mind. | [#3693230](https://tatoeba.org/en/sentences/show/3693230) | danepo | keep |  | tts |
-| S86101 | Vindue eller gang? | Window or aisle? | [#2022791](https://tatoeba.org/en/sentences/show/2022791) | danepo | keep |  | tts |
-| S86102 | Det her vindue er af træ. | This window is wooden. | [#13046338](https://tatoeba.org/en/sentences/show/13046338) | danepo | keep |  | tts |
-| S86103 | Vi ønsker at leje en lejlighed i byen. | We want to rent an apartment in the city. | [#2482895](https://tatoeba.org/en/sentences/show/2482895) | danepo | keep |  | tts |
-| S87101 | Hvad vil du bruge din første løn på? | What will you do with your first salary? | [#6144251](https://tatoeba.org/en/sentences/show/6144251) | sifhg | keep |  | tts |
-| S87102 | Tom er en af mine kolleger. | Tom is a colleague of mine. | [#12205736](https://tatoeba.org/en/sentences/show/12205736) | danepo | keep |  | tts |
-| S89101 | Hvornår blev du færdig med at skrive brevet? | When did you finish writing the letter? | [#1734020](https://tatoeba.org/en/sentences/show/1734020) | danepo | keep |  | tts |
-| S89102 | Vi vil sende en eller anden. | We'll send somebody. | [#3641242](https://tatoeba.org/en/sentences/show/3641242) | Sharaf78 | keep |  | tts |
-| S91101 | Jeg blev hjemme på grund af vejret. | I stayed home because of the weather. | [#3194094](https://tatoeba.org/en/sentences/show/3194094) | danepo | keep |  | tts |
-| S91102 | Jeg drikker kaffe i stedet for mælk. | I drink coffee instead of milk. | [#5322325](https://tatoeba.org/en/sentences/show/5322325) | danepo | keep |  | tts |
-| S91103 | Jeg tager ingen steder hen i aften. | I'm not going anywhere tonight. | [#7842222](https://tatoeba.org/en/sentences/show/7842222) | danepo | keep |  | tts |
-| S91104 | Tom havde ingen grund til at være vred. | Tom had no reason to be angry. | [#10633470](https://tatoeba.org/en/sentences/show/10633470) | danepo | keep |  | tts |
-| S91105 | Du har ingen grund til at være bange. | You have no reason to be afraid. | [#10649498](https://tatoeba.org/en/sentences/show/10649498) | danepo | keep |  | tts |
-| S92101 | Jeg kan bedre lide svag kaffe end stærk. | I like weak coffee better than strong. | [#742621](https://tatoeba.org/en/sentences/show/742621) | danepo | keep |  | tts |
-| S93101 | Hvor vil du holde ferie til næste sommer? | Where do you plan to go on vacation next summer? | [#661818](https://tatoeba.org/en/sentences/show/661818) | danepo | keep |  | tts |
-| S93102 | Tom holdt en tale på fransk. | Tom gave a speech in French. | [#2483074](https://tatoeba.org/en/sentences/show/2483074) | danepo | keep |  | tts |
-| S93103 | Jeg holdt øje med Tom. | I was watching Tom. | [#12336093](https://tatoeba.org/en/sentences/show/12336093) | danepo | keep |  | tts |
-| S95101 | Slap af, alt er i orden. | Relax, everything is alright. | [#7999461](https://tatoeba.org/en/sentences/show/7999461) | danepo | keep |  | tts |
-| S94101 | Tom elskede æbler da han var barn. | Tom loved apples when he was a kid. | [#3568867](https://tatoeba.org/en/sentences/show/3568867) | danepo | keep |  | tts |
-| S94102 | Jeg havde en hund da jeg var barn. | I had a dog when I was a kid. | [#4203941](https://tatoeba.org/en/sentences/show/4203941) | danepo | keep |  | tts |
+| S81101 | Regningen, tak. | The bill, please. | [#3256531](https://tatoeba.org/en/sentences/show/3256531) | danepo |  |  | tts |
+| S81102 | Klokken fem er der kaffe og kage. | There'll be coffee and cake at five. | [#6614426](https://tatoeba.org/en/sentences/show/6614426) | danepo |  |  | tts |
+| S81103 | Tjener, tre kaffe, tak! | Waiter, three coffees, please. | [#7320896](https://tatoeba.org/en/sentences/show/7320896) | danepo |  |  | tts |
+| S82101 | Det er for meget salt i denne suppe. | There's too much salt in this soup. | [#1863461](https://tatoeba.org/en/sentences/show/1863461) | danepo |  |  | tts |
+| S83101 | For lang tid siden var her en bro. | A long time ago, there was a bridge here. | [#669253](https://tatoeba.org/en/sentences/show/669253) | danepo |  |  | tts |
+| S83102 | Er det på denne side af gaden? | Is it on this side of the street? | [#2389559](https://tatoeba.org/en/sentences/show/2389559) | marcelostockle |  |  | tts |
+| S83103 | Der er sket noget med mit højre øje. | Something has happened to my right eye. | [#10679316](https://tatoeba.org/en/sentences/show/10679316) | danepo |  |  | tts |
+| S83104 | Sover du på din højre eller venstre side? | Do you sleep on your right side or your left? | [#10705044](https://tatoeba.org/en/sentences/show/10705044) | danepo |  |  | tts |
+| S27101 | Adressen på denne pakke er forkert. | The address on this parcel is wrong. | [#1925872](https://tatoeba.org/en/sentences/show/1925872) | danepo |  |  | tts |
+| S84101 | Jeg vil hente en. | I'll get one. | [#1998499](https://tatoeba.org/en/sentences/show/1998499) | danepo |  |  | tts |
+| S84102 | Kunne du hente et glas vand til mig? | Could you bring me a glass of water? | [#8272677](https://tatoeba.org/en/sentences/show/8272677) | danepo |  |  | tts |
+| S84103 | Vil familie eller venner komme og hente dig? | Will family or friends come to pick you up? | [#10698393](https://tatoeba.org/en/sentences/show/10698393) | danepo |  |  | tts |
+| S84104 | Hvordan skifter jeg læge? | How do I change my GP? | [#11163262](https://tatoeba.org/en/sentences/show/11163262) | danepo |  |  | tts |
+| S84105 | Hun skifter tit mening. | She often changes her mind. | [#4532263](https://tatoeba.org/en/sentences/show/4532263) | danepo |  |  | tts |
+| S84106 | Hun fik Tom til at skifte mening. | She got Tom to change his mind. | [#3693230](https://tatoeba.org/en/sentences/show/3693230) | danepo |  |  | tts |
+| S86101 | Vindue eller gang? | Window or aisle? | [#2022791](https://tatoeba.org/en/sentences/show/2022791) | danepo |  |  | tts |
+| S86102 | Det her vindue er af træ. | This window is wooden. | [#13046338](https://tatoeba.org/en/sentences/show/13046338) | danepo |  |  | tts |
+| S86103 | Vi ønsker at leje en lejlighed i byen. | We want to rent an apartment in the city. | [#2482895](https://tatoeba.org/en/sentences/show/2482895) | danepo |  |  | tts |
+| S87101 | Hvad vil du bruge din første løn på? | What will you do with your first salary? | [#6144251](https://tatoeba.org/en/sentences/show/6144251) | sifhg |  |  | tts |
+| S87102 | Tom er en af mine kolleger. | Tom is a colleague of mine. | [#12205736](https://tatoeba.org/en/sentences/show/12205736) | danepo |  |  | tts |
+| S89101 | Hvornår blev du færdig med at skrive brevet? | When did you finish writing the letter? | [#1734020](https://tatoeba.org/en/sentences/show/1734020) | danepo |  |  | tts |
+| S89102 | Vi vil sende en eller anden. | We'll send somebody. | [#3641242](https://tatoeba.org/en/sentences/show/3641242) | Sharaf78 |  |  | tts |
+| S91101 | Jeg blev hjemme på grund af vejret. | I stayed home because of the weather. | [#3194094](https://tatoeba.org/en/sentences/show/3194094) | danepo |  |  | tts |
+| S91102 | Jeg drikker kaffe i stedet for mælk. | I drink coffee instead of milk. | [#5322325](https://tatoeba.org/en/sentences/show/5322325) | danepo |  |  | tts |
+| S91103 | Jeg tager ingen steder hen i aften. | I'm not going anywhere tonight. | [#7842222](https://tatoeba.org/en/sentences/show/7842222) | danepo |  |  | tts |
+| S91104 | Tom havde ingen grund til at være vred. | Tom had no reason to be angry. | [#10633470](https://tatoeba.org/en/sentences/show/10633470) | danepo |  |  | tts |
+| S91105 | Du har ingen grund til at være bange. | You have no reason to be afraid. | [#10649498](https://tatoeba.org/en/sentences/show/10649498) | danepo |  |  | tts |
+| S92101 | Jeg kan bedre lide svag kaffe end stærk. | I like weak coffee better than strong. | [#742621](https://tatoeba.org/en/sentences/show/742621) | danepo |  |  | tts |
+| S93101 | Hvor vil du holde ferie til næste sommer? | Where do you plan to go on vacation next summer? | [#661818](https://tatoeba.org/en/sentences/show/661818) | danepo |  |  | tts |
+| S93102 | Tom holdt en tale på fransk. | Tom gave a speech in French. | [#2483074](https://tatoeba.org/en/sentences/show/2483074) | danepo |  |  | tts |
+| S93103 | Jeg holdt øje med Tom. | I was watching Tom. | [#12336093](https://tatoeba.org/en/sentences/show/12336093) | danepo |  |  | tts |
+| S95101 | Slap af, alt er i orden. | Relax, everything is alright. | [#7999461](https://tatoeba.org/en/sentences/show/7999461) | danepo |  |  | tts |
+| S94101 | Tom elskede æbler da han var barn. | Tom loved apples when he was a kid. | [#3568867](https://tatoeba.org/en/sentences/show/3568867) | danepo |  |  | tts |
+| S94102 | Jeg havde en hund da jeg var barn. | I had a dog when I was a kid. | [#4203941](https://tatoeba.org/en/sentences/show/4203941) | danepo |  |  | tts |
 
-## English-to-French answers generated from Tatoeba (21)
+## English-to-French answers generated from Tatoeba (11)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -4109,19 +4109,9 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S36124 | Of course. | Selvfølgelig. | [#5453374](https://tatoeba.org/en/sentences/show/5453374) | maaster |
 | S55127 | Can I use your phone? | Må jeg bruge din telefon? | [#6105509](https://tatoeba.org/en/sentences/show/6105509) | danepo |
 | S55127 | Can I use your phone? | Må jeg bruge jeres telefon? | [#6105510](https://tatoeba.org/en/sentences/show/6105510) | danepo |
-| S83101 | A long time ago, there was a bridge here. | For lang tid siden var der en bro her. | [#2277740](https://tatoeba.org/en/sentences/show/2277740) | danepo |
-| S83104 | Do you sleep on your right side or your left? | Sover du på din højre eller din venstre side? | [#10705041](https://tatoeba.org/en/sentences/show/10705041) | danepo |
-| S84101 | I'll get one. | Jeg henter en. | [#1998666](https://tatoeba.org/en/sentences/show/1998666) | danepo |
-| S84103 | Will family or friends come to pick you up? | Kommer familie eller venner og henter dig? | [#10698452](https://tatoeba.org/en/sentences/show/10698452) | danepo |
-| S84103 | Will family or friends come to pick you up? | Kommer familie eller venner og henter jer? | [#10698457](https://tatoeba.org/en/sentences/show/10698457) | danepo |
-| S84103 | Will family or friends come to pick you up? | Vil familie eller venner komme og hente jer? | [#10698458](https://tatoeba.org/en/sentences/show/10698458) | danepo |
-| S86101 | Window or aisle? | Vinduesplads eller gangplads? | [#2022786](https://tatoeba.org/en/sentences/show/2022786) | danepo |
 | S86114 | Which floor do you live on? | På hvilken etage bor du? | [#606573](https://tatoeba.org/en/sentences/show/606573) | danepo |
-| S87102 | Tom is a colleague of mine. | Tom er en af mine kollegaer. | [#12205734](https://tatoeba.org/en/sentences/show/12205734) | danepo |
-| S87102 | Tom is a colleague of mine. | Tom er min kollega. | [#12205732](https://tatoeba.org/en/sentences/show/12205732) | danepo |
 | S88119 | Are you married or single? | Er du gift eller enlig? | [#1747065](https://tatoeba.org/en/sentences/show/1747065) | danepo |
 | S9101 | I am happy. | Jeg er lykkelig. | [#628354](https://tatoeba.org/en/sentences/show/628354) | danepo |
-| S91101 | I stayed home because of the weather. | Jeg er blevet hjemme på grund af vejret. | [#3194109](https://tatoeba.org/en/sentences/show/3194109) | danepo |
 
 ## French feedback lines (7)
 

@@ -100,7 +100,7 @@ const texts = [
     [q('Where is Anna\'s house?', ['Near the station', 'Near the school', 'In the city centre']), q('Which street is hers?', ['The second on the right', 'The first on the left', 'The second on the left'])]),
   text('R305', 'U83', 'sign', 'I byen', ['Museum: 200 m til venstre', 'Kirke: ligeud', 'Station: til højre'],
     [q('Where is the museum?', ['200 metres on the left', '200 metres on the right', 'Straight on']), q('Where is the station?', ['On the right', 'On the left', 'Straight on'])]),
-  text('R306', 'U83', 'notice', 'Hotellet', ['Hotellet ligger for enden af gaden.', 'Fem minutter til fods til centrum', 'Busstoppested foran hotellet'],
+  text('R306', 'U83', 'notice', 'Hotellet', ['Hotellet ligger for enden af gaden.', 'Fem minutter til fods til centrum', 'Bussen stopper foran hotellet'],
     [q('How far is the hotel from the centre?', ['Five minutes on foot', 'Five minutes by car', 'Half an hour on foot']), q('Where is the bus stop?', ['In front of the hotel', 'Behind the hotel', 'At the station'])]),
   text('R307', 'U86', 'notice', 'Lejlighed til leje', ['Lejlighed i centrum', 'To soveværelser, stue, køkken og badeværelse', 'Med altan', '9.000 kr. om måneden'],
     [q('How many bedrooms does the flat have?', ['Two', 'Three', 'One']), q('What else does it have?', ['A balcony', 'A garden', 'A garage'])]),
