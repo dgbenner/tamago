@@ -197,7 +197,7 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 - **Main settings:**
   - `size`: `md` (Settings; the running course is outlined) or `lg` (the opening screen).
   - `onPick(courseId)`: called with the chosen course. Without it, a tap switches course and reloads the app.
-- **Hover and press (2026-11-19):** each flag is a `.flag-pick` button; a live course (`data-ready`) lifts 3 px on hover with its flag at 1.08 and its name in ink, a Coming Soon one brightens to 0.55, and every flag presses to 0.92. Off under reduced motion. With `size="lg"` the flags make two rows from 1024px (8 then 7), each `li` carries `--i` (its place) for the opening screen's staggered arrival; `md` keeps rows of five.
+- **Hover and press (2026-11-19; one unit since 2026-11-20):** each flag is a `.flag-pick` button, and the button itself carries the motion: a live course (`data-ready`) grows to 1.06 from its centre on hover, flag and name together, with its name in ink; every card presses to 0.94; a Coming Soon one brightens to 0.55. One transition, on the button, of transform and opacity only; the flag and the name have no transform of their own. Off under reduced motion. With `size="lg"` the flags make two rows from 1024px (8 then 7), each `li` carries `--i` (its place) for the opening screen's staggered arrival; `md` keeps rows of five.
 
 ```jsx
 <FlagRow size="lg" onPick={(id) => chooseCourse(id)} />

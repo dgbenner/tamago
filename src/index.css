@@ -704,19 +704,17 @@ button.chip-drag {
 .circle-icons .note-icon svg { width: var(--ci-svg); height: var(--ci-svg); }
 .note-icon { transition: color 120ms ease-out, opacity 120ms ease-out, transform 120ms ease-out; }
 .carousel-arrow { transition: transform 120ms ease-out, background-color 120ms ease-out, box-shadow 120ms ease-out; }
-/* Language flags (Dan, 2026-11-19): a live course lifts and its flag grows on hover, its name darkens; a Coming Soon
-   one only brightens a little. Every flag presses in. */
-.flag-pick { transition: translate 160ms ease-out, opacity 160ms ease-out; }
-.flag-pick img { transition: transform 200ms cubic-bezier(0.2, 1.6, 0.45, 1); }
-.flag-pick span { transition: color 160ms ease-out; }
+/* Language flags (Dan, 2026-11-19; one unit since 2026-11-20): the whole card, flag and name together, grows from its
+   centre on hover and presses in on a tap; the flag and the name carry no transform of their own. One transition, on
+   the card, of transform and opacity only (nothing that lays the page out again). A Coming Soon card only brightens. */
+.flag-pick { transform-origin: center; transition: transform 160ms ease-out, opacity 160ms ease-out; }
 @media (hover: hover) {
   .circle-node:not([data-state='locked']):hover .circle-disc { transform: scale(1.06); transition: transform 160ms ease-out; }
   .circle-node:not([data-state='locked']):hover .circle-track { stroke: color-mix(in srgb, var(--ring) 45%, var(--line)); transition: stroke 160ms ease-out; }
   .note-icon:hover { color: var(--electric); opacity: 1; }
   .tree-pill[data-live]:hover { border-color: var(--ring); background-color: var(--surface); }
   .carousel-arrow:not(:disabled):hover { background-color: color-mix(in srgb, var(--surface) 90%, var(--ink)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.22); }
-  .flag-pick[data-ready]:hover { translate: 0 -3px; }
-  .flag-pick[data-ready]:hover img { transform: scale(1.08); }
+  .flag-pick[data-ready]:hover { transform: scale(1.06); }
   .flag-pick[data-ready]:hover span { color: var(--ink); }
   .flag-pick:not([data-ready]):hover { opacity: 0.55; }
   .btn-submit:not(:disabled):hover { background-color: color-mix(in srgb, var(--accent) 88%, var(--ink)); }
@@ -725,11 +723,10 @@ button.chip-drag {
 .note-icon:active { transform: scale(0.88); color: var(--electric); opacity: 1; transition-duration: 40ms; }
 .tree-pill[data-live]:active { transform: scale(0.95); transition-duration: 40ms; }
 .carousel-arrow:not(:disabled):active { transform: scale(0.9); transition-duration: 40ms; }
-.flag-pick:active img { transform: scale(0.92); transition: transform 50ms ease-out; }
+.flag-pick:active { transform: scale(0.94); transition-duration: 50ms; }
 @media (prefers-reduced-motion: reduce) {
-  .circle-node .circle-disc, .note-icon, .tree-pill, .carousel-arrow, .flag-pick, .flag-pick img { transition: none; }
-  .flag-pick[data-ready]:hover { translate: none; }
-  .flag-pick:hover img, .flag-pick:active img { transform: none; }
+  .circle-node .circle-disc, .note-icon, .tree-pill, .carousel-arrow, .flag-pick { transition: none; }
+  .flag-pick:hover, .flag-pick:active { transform: none; }
   .circle-node:not([data-state='locked']):hover .circle-disc, .circle-node:not([data-state='locked']):active .circle-disc,
   .note-icon:active, .tree-pill[data-live]:active, .carousel-arrow:not(:disabled):active { transform: none; }
 }
