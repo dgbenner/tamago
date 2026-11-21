@@ -724,6 +724,9 @@ button.chip-drag {
 .tree-pill[data-live]:active { transform: scale(0.95); transition-duration: 40ms; }
 .carousel-arrow:not(:disabled):active { transform: scale(0.9); transition-duration: 40ms; }
 .flag-pick:active { transform: scale(0.94); transition-duration: 50ms; }
+/* The pressed live flag takes the picked outline at once (Dan, 2026-11-20), the same orange as the running course's. */
+.flag-pick[data-ready]:active { outline: 4px solid var(--orange); outline-offset: 2px; }
+[data-ds='flag-row'] ul:has(.flag-pick[data-ready]:active) .flag-pick[aria-pressed='true']:not(:active) { outline: none; } /* only one outlined at a time */
 @media (prefers-reduced-motion: reduce) {
   .circle-node .circle-disc, .note-icon, .tree-pill, .carousel-arrow, .flag-pick { transition: none; }
   .flag-pick:hover, .flag-pick:active { transform: none; }
