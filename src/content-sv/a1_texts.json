@@ -1,1 +1,1254 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "På torget",
+    "lines": [
+      "Frukt och grönsaker",
+      "Äpplen: 25 kronor per kilo",
+      "Marknad: måndag och lördag"
+    ],
+    "questions": [
+      {
+        "question": "How much is a kilo of apples?",
+        "choices": [
+          "25 kronor",
+          "15 kronor",
+          "52 kronor"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the market on?",
+        "choices": [
+          "Monday and Saturday",
+          "Every day",
+          "Only on Sunday"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R102",
+    "unit_id": "U47",
+    "kind": "notice",
+    "title": "Marknad på torget",
+    "lines": [
+      "Marknad på torget",
+      "Varje lördag",
+      "Frukt, grönsaker, bröd och ost"
+    ],
+    "questions": [
+      {
+        "question": "When is the market?",
+        "choices": [
+          "On Saturdays",
+          "On Mondays",
+          "Every day"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What can you buy there?",
+        "choices": [
+          "Fruit, vegetables, bread and cheese",
+          "Clothes and shoes",
+          "Books and maps"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R103",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "Ett sms från Anna",
+    "lines": [
+      "Erik!",
+      "Jag är på torget. Jag köper frukt och grönsaker.",
+      "Vill du ha ett äpple?",
+      "Anna"
+    ],
+    "questions": [
+      {
+        "question": "Where is Anna?",
+        "choices": [
+          "At the market square",
+          "At school",
+          "In the park"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does she offer Erik?",
+        "choices": [
+          "An apple",
+          "A coffee",
+          "Some bread"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R104",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Priser",
+    "lines": [
+      "Bröd: 30 kronor",
+      "Ost: 90 kronor",
+      "Mjölk: 15 kronor",
+      "Vatten: 20 kronor"
+    ],
+    "questions": [
+      {
+        "question": "How much is the cheese?",
+        "choices": [
+          "30 kronor",
+          "90 kronor",
+          "15 kronor"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What costs 30 kronor?",
+        "choices": [
+          "The bread",
+          "The milk",
+          "The water"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R105",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "På kaféet",
+    "lines": [
+      "Kaffe: 35 kronor",
+      "Te: 30 kronor",
+      "Äppelkaka: 45 kronor"
+    ],
+    "questions": [
+      {
+        "question": "How much is a tea?",
+        "choices": [
+          "30 kronor",
+          "35 kronor",
+          "45 kronor"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs the most?",
+        "choices": [
+          "The apple cake",
+          "The coffee",
+          "The tea"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "notice",
+    "title": "Gamla böcker",
+    "lines": [
+      "Gamla böcker",
+      "En bok: 20 kronor",
+      "Tre böcker: 50 kronor"
+    ],
+    "questions": [
+      {
+        "question": "How much is one book?",
+        "choices": [
+          "20 kronor",
+          "30 kronor",
+          "50 kronor"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much are three books?",
+        "choices": [
+          "50 kronor",
+          "60 kronor",
+          "20 kronor"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R107",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Ett sms från Maria",
+    "lines": [
+      "Tom!",
+      "Kan du köpa en flaska mjölk, ett paket kaffe och ett kilo äpplen?",
+      "Tack!",
+      "Maria"
+    ],
+    "questions": [
+      {
+        "question": "What does Maria want?",
+        "choices": [
+          "Milk, coffee and apples",
+          "Bread and water",
+          "Fruit and vegetables"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much milk?",
+        "choices": [
+          "One bottle",
+          "Two bottles",
+          "A kilo"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "sign",
+    "title": "I affären",
+    "lines": [
+      "Vatten: sex flaskor, 40 kronor",
+      "Choklad: två askar, 50 kronor"
+    ],
+    "questions": [
+      {
+        "question": "How many bottles do you get for 40 kronor?",
+        "choices": [
+          "Six",
+          "Four",
+          "Two"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs 50 kronor?",
+        "choices": [
+          "Two boxes of chocolates",
+          "Six bottles of water",
+          "One box of chocolates"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Till festen",
+    "lines": [
+      "Till festen:",
+      "två flaskor saft,",
+      "en ask choklad,",
+      "mycket frukt!"
+    ],
+    "questions": [
+      {
+        "question": "How many bottles of squash?",
+        "choices": [
+          "Two",
+          "One",
+          "Three"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the list for?",
+        "choices": [
+          "A party",
+          "School",
+          "A trip"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R201",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Affären",
+    "lines": [
+      "Öppet måndag till fredag: 9.00 till 18.00",
+      "Lördag: 10.00 till 16.00",
+      "Söndag: stängt"
+    ],
+    "questions": [
+      {
+        "question": "When is the shop closed?",
+        "choices": [
+          "Sunday",
+          "Saturday",
+          "Monday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it open on Saturday?",
+        "choices": [
+          "10:00",
+          "9:00",
+          "16:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R202",
+    "unit_id": "U62",
+    "kind": "message",
+    "title": "Ett sms från Erik",
+    "lines": [
+      "Anna!",
+      "Ska vi gå på bio på onsdag? Jag är ledig på onsdag och torsdag.",
+      "På lördag jobbar jag.",
+      "Erik"
+    ],
+    "questions": [
+      {
+        "question": "When is Erik free?",
+        "choices": [
+          "Wednesday and Thursday",
+          "Saturday",
+          "Every day"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does Erik do on Saturday?",
+        "choices": [
+          "He works",
+          "He goes to the cinema",
+          "He stays at home"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R203",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Museet",
+    "lines": [
+      "Museet är stängt på måndagar.",
+      "För barn: onsdag klockan 15.00"
+    ],
+    "questions": [
+      {
+        "question": "Which day is the museum closed?",
+        "choices": [
+          "Monday",
+          "Wednesday",
+          "Tuesday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the visit for children?",
+        "choices": [
+          "Wednesday at 3 pm",
+          "Monday at 3 pm",
+          "Wednesday at 5 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R204",
+    "unit_id": "U63",
+    "kind": "notice",
+    "title": "Lov",
+    "lines": [
+      "Skolan är stängd från den 20 december till den 6 januari.",
+      "Första skoldagen: tisdag den 7 januari"
+    ],
+    "questions": [
+      {
+        "question": "Which day of the week does school start again?",
+        "choices": [
+          "Tuesday",
+          "Monday",
+          "Saturday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When do the holidays begin?",
+        "choices": [
+          "20 December",
+          "7 January",
+          "6 January"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R205",
+    "unit_id": "U63",
+    "kind": "sign",
+    "title": "Fest",
+    "lines": [
+      "Fest på torget",
+      "Lördag den 21 juni, 18.00",
+      "Musik och dans"
+    ],
+    "questions": [
+      {
+        "question": "When is the party?",
+        "choices": [
+          "Saturday 21 June",
+          "Sunday 21 June",
+          "Saturday 21 July"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it start?",
+        "choices": [
+          "6 pm",
+          "8 pm",
+          "9 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R206",
+    "unit_id": "U63",
+    "kind": "message",
+    "title": "Ett vykort från Maria",
+    "lines": [
+      "I juli åker vi till havet.",
+      "I december åker vi till bergen.",
+      "Och du?"
+    ],
+    "questions": [
+      {
+        "question": "Where does Maria go in July?",
+        "choices": [
+          "To the sea",
+          "To the mountains",
+          "To the city"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When does she go to the mountains?",
+        "choices": [
+          "In December",
+          "In July",
+          "In spring"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R207",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Vid affären",
+    "lines": [
+      "Ingång",
+      "Öppet 9.00 till 19.00",
+      "Söndag: stängt"
+    ],
+    "questions": [
+      {
+        "question": "When is the shop closed?",
+        "choices": [
+          "On Sundays",
+          "On Saturdays",
+          "Every evening"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it close?",
+        "choices": [
+          "7 pm",
+          "9 pm",
+          "9 am"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R208",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "På stationen",
+    "lines": [
+      "Toalett: en trappa upp",
+      "Apotek: bredvid utgången",
+      "Information: vid ingången"
+    ],
+    "questions": [
+      {
+        "question": "Where is the toilet?",
+        "choices": [
+          "One floor up",
+          "Two floors up",
+          "Next to the exit"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where can you get information?",
+        "choices": [
+          "At the entrance",
+          "At the chemist's",
+          "On the train"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R209",
+    "unit_id": "U66",
+    "kind": "notice",
+    "title": "Bageriet",
+    "lines": [
+      "Lindas bageri",
+      "Öppet varje dag 7.00 till 18.00",
+      "Nytt bröd klockan 7.00 och 12.00"
+    ],
+    "questions": [
+      {
+        "question": "Is the bakery open on Sunday?",
+        "choices": [
+          "Yes",
+          "No",
+          "Only in the morning"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is there fresh bread?",
+        "choices": [
+          "At 7 am and 12 noon",
+          "At 6 am only",
+          "At 6 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R210",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Tåg till Uppsala",
+    "lines": [
+      "Avgång 8.15 – ankomst 9.05",
+      "Avgång 12.40 – ankomst 13.30",
+      "Avgång 18.00 – ankomst 18.50"
+    ],
+    "questions": [
+      {
+        "question": "When does the 12:40 train arrive?",
+        "choices": [
+          "13:30",
+          "9:05",
+          "18:50"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time is the first train?",
+        "choices": [
+          "8:15",
+          "12:40",
+          "18:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R211",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Båt till Gotland",
+    "lines": [
+      "Avgång från hamnen: 7.00, 9.00, 11.00",
+      "Söndag: en båt varannan timme"
+    ],
+    "questions": [
+      {
+        "question": "Where does the boat leave from?",
+        "choices": [
+          "The harbour",
+          "The station",
+          "The beach"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How often is the boat on Sundays?",
+        "choices": [
+          "Every two hours",
+          "Every hour",
+          "Not at all"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R212",
+    "unit_id": "U67",
+    "kind": "message",
+    "title": "Ett sms från Tom",
+    "lines": [
+      "Jag kommer fram till stationen 17.30.",
+      "Mitt tåg avgår från Stockholm 15.00.",
+      "Vi ses!"
+    ],
+    "questions": [
+      {
+        "question": "When does Tom arrive?",
+        "choices": [
+          "5:30 pm",
+          "3 pm",
+          "7:30 pm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where does his train leave from?",
+        "choices": [
+          "Stockholm",
+          "The airport",
+          "Uppsala"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R213",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "På lektionen",
+    "lines": [
+      "Lyssna på texten.",
+      "Svara på frågorna.",
+      "Välj en bild."
+    ],
+    "questions": [
+      {
+        "question": "What do you do first?",
+        "choices": [
+          "Listen to the text",
+          "Answer the questions",
+          "Choose a picture"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you choose?",
+        "choices": [
+          "A picture",
+          "A book",
+          "A word"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R214",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Dörren",
+    "lines": [
+      "Stäng dörren, tack.",
+      "Observera: stäng långsamt."
+    ],
+    "questions": [
+      {
+        "question": "What should you do with the door?",
+        "choices": [
+          "Close it",
+          "Leave it open",
+          "Lock it"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How should you close it?",
+        "choices": [
+          "Slowly",
+          "Quickly",
+          "With a key"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R215",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Övningen",
+    "lines": [
+      "Välj ett nummer.",
+      "Öppna boken på den sidan.",
+      "Läs texten."
+    ],
+    "questions": [
+      {
+        "question": "What do you open?",
+        "choices": [
+          "The book",
+          "The door",
+          "The notebook"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you do last?",
+        "choices": [
+          "Read the text",
+          "Choose a number",
+          "Close the book"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R301",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Dagens lunch",
+    "lines": [
+      "Soppa, kyckling med ris och sallad",
+      "Efterrätt: glass",
+      "125 kr"
+    ],
+    "questions": [
+      {
+        "question": "How much is the lunch of the day?",
+        "choices": [
+          "125 kronor",
+          "25 kronor",
+          "150 kronor"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is there for dessert?",
+        "choices": [
+          "Ice cream",
+          "Cake",
+          "Fruit"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R302",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Kafé Hörnet",
+    "lines": [
+      "Kaffe: 30 kr",
+      "Te: 25 kr",
+      "Kanelbulle: 35 kr",
+      "Smörgås: 60 kr"
+    ],
+    "questions": [
+      {
+        "question": "How much is a sandwich?",
+        "choices": [
+          "60 kronor",
+          "30 kronor",
+          "35 kronor"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs 25 kronor?",
+        "choices": [
+          "A tea",
+          "A coffee",
+          "A cinnamon bun"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R303",
+    "unit_id": "U82",
+    "kind": "notice",
+    "title": "Restaurang Fisken",
+    "lines": [
+      "Fisk och kött",
+      "Öppet tisdag till söndag",
+      "Måndag: stängt"
+    ],
+    "questions": [
+      {
+        "question": "When is the restaurant closed?",
+        "choices": [
+          "On Mondays",
+          "On Sundays",
+          "On Tuesdays"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does the restaurant serve?",
+        "choices": [
+          "Fish and meat",
+          "Pizza",
+          "Only salads"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R304",
+    "unit_id": "U83",
+    "kind": "message",
+    "title": "Ett sms från Anna",
+    "lines": [
+      "Mitt hus ligger nära stationen.",
+      "Gå rakt fram till torget.",
+      "Min gata är den andra till höger."
+    ],
+    "questions": [
+      {
+        "question": "Where is Anna's house?",
+        "choices": [
+          "Near the station",
+          "Near the school",
+          "In the city centre"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which street is hers?",
+        "choices": [
+          "The second on the right",
+          "The first on the left",
+          "The second on the left"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R305",
+    "unit_id": "U83",
+    "kind": "sign",
+    "title": "I stan",
+    "lines": [
+      "Museum: 200 m till vänster",
+      "Kyrka: rakt fram",
+      "Station: till höger"
+    ],
+    "questions": [
+      {
+        "question": "Where is the museum?",
+        "choices": [
+          "200 metres on the left",
+          "200 metres on the right",
+          "Straight on"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is the station?",
+        "choices": [
+          "On the right",
+          "On the left",
+          "Straight on"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R306",
+    "unit_id": "U83",
+    "kind": "notice",
+    "title": "Hotellet",
+    "lines": [
+      "Hotellet ligger i slutet av gatan.",
+      "Fem minuter till fots till centrum",
+      "Busshållplats framför hotellet"
+    ],
+    "questions": [
+      {
+        "question": "How far is the hotel from the centre?",
+        "choices": [
+          "Five minutes on foot",
+          "Five minutes by car",
+          "Half an hour on foot"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is the bus stop?",
+        "choices": [
+          "In front of the hotel",
+          "Behind the hotel",
+          "At the station"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R307",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Lägenhet att hyra",
+    "lines": [
+      "Lägenhet i centrum",
+      "Två sovrum, vardagsrum, kök och badrum",
+      "Med balkong",
+      "9 000 kr i månaden"
+    ],
+    "questions": [
+      {
+        "question": "How many bedrooms does the flat have?",
+        "choices": [
+          "Two",
+          "Three",
+          "One"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What else does it have?",
+        "choices": [
+          "A balcony",
+          "A garden",
+          "A garage"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R308",
+    "unit_id": "U86",
+    "kind": "message",
+    "title": "Ett sms från Maria",
+    "lines": [
+      "Min nya lägenhet är liten.",
+      "Den har ett sovrum, ett vardagsrum och ett kök.",
+      "Det finns ingen balkong."
+    ],
+    "questions": [
+      {
+        "question": "What is Maria's new flat like?",
+        "choices": [
+          "Small",
+          "Big",
+          "Old"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What doesn't it have?",
+        "choices": [
+          "A balcony",
+          "A kitchen",
+          "A bedroom"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R309",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Rum för en student",
+    "lines": [
+      "Rum att hyra för en student",
+      "Med säng, bord och stol",
+      "Nära universitetet"
+    ],
+    "questions": [
+      {
+        "question": "Who is the room for?",
+        "choices": [
+          "A student",
+          "A family",
+          "A tourist"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is in the room?",
+        "choices": [
+          "A bed, a table and a chair",
+          "A sofa and a lamp",
+          "A fridge"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R310",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Lediga jobb",
+    "lines": [
+      "Restaurang söker en kock",
+      "Tisdag till lördag, 17.00 till 23.00",
+      "Ring 070 123 45 67"
+    ],
+    "questions": [
+      {
+        "question": "What job is it?",
+        "choices": [
+          "A cook",
+          "A waiter",
+          "A driver"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which days?",
+        "choices": [
+          "Tuesday to Saturday",
+          "Monday to Friday",
+          "Every day"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R311",
+    "unit_id": "U87",
+    "kind": "message",
+    "title": "Mitt jobb",
+    "lines": [
+      "Jag är sjuksköterska och jobbar på ett sjukhus.",
+      "Jag börjar klockan sju på morgonen.",
+      "Min chef är mycket snäll."
+    ],
+    "questions": [
+      {
+        "question": "Where does she work?",
+        "choices": [
+          "In a hospital",
+          "In a school",
+          "In a shop"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When does she start?",
+        "choices": [
+          "At seven in the morning",
+          "At seven in the evening",
+          "At nine"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R312",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Företaget",
+    "lines": [
+      "Företag söker en chaufför",
+      "Körkort krävs",
+      "Måndag till fredag"
+    ],
+    "questions": [
+      {
+        "question": "Who is the company looking for?",
+        "choices": [
+          "A driver",
+          "A secretary",
+          "A teacher"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you need?",
+        "choices": [
+          "A driving licence",
+          "A university degree",
+          "A car"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R313",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Ett vykort från Anna",
+    "lines": [
+      "Kära Erik!",
+      "Jag är vid havet med min familj. Det är varmt och havet är underbart.",
+      "Kram, Anna"
+    ],
+    "questions": [
+      {
+        "question": "Where is Anna?",
+        "choices": [
+          "At the seaside",
+          "In the mountains",
+          "In the city"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the weather like?",
+        "choices": [
+          "Warm",
+          "Cold",
+          "Rainy"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R314",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Ett sms från Tom",
+    "lines": [
+      "Hej Maria!",
+      "På lördag fyller jag år. Kommer du på min fest?",
+      "Festen är hemma hos mig, klockan åtta.",
+      "Tom"
+    ],
+    "questions": [
+      {
+        "question": "Why is Tom having a party?",
+        "choices": [
+          "It's his birthday",
+          "He has a new job",
+          "It's Christmas"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is the party?",
+        "choices": [
+          "At his home",
+          "At a restaurant",
+          "In the park"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R315",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "En lapp",
+    "lines": [
+      "Anna!",
+      "Jag är inte hemma. Jag är tillbaka klockan sex.",
+      "Maten står i kylskåpet.",
+      "Erik"
+    ],
+    "questions": [
+      {
+        "question": "When is Erik back?",
+        "choices": [
+          "At six",
+          "At eight",
+          "At five"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is the food?",
+        "choices": [
+          "In the fridge",
+          "At a restaurant",
+          "In the oven"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  }
+]

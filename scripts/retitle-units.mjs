@@ -29,7 +29,7 @@ export const OWN = {
   it: { 'Body and Looks': 'Body + Looks' },
   pt: { 'Body and Looks': 'Body + Looks' },
   nl: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
-  sv: { 'Body and Looks': 'Body + Looks' },
+  sv: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
   da: { 'Body and Looks': 'Body + Looks' },
   no: { 'Body and Looks': 'Body + Looks' },
 }
