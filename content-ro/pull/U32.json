@@ -1,0 +1,58 @@
+{
+  "unit_id": "U32",
+  "pulled_at": "2026-11-21",
+  "candidates": 1,
+  "sentences": [
+    {
+      "sentence_id": "S32001",
+      "unit_id": "U32",
+      "french": "Te rog, nu spune asta.",
+      "english": "Please don't say that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5358820",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S32001",
+      "position": 1,
+      "surface": "Te rog",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 3,
+      "surface": "spune",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 4,
+      "surface": "asta",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

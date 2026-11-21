@@ -1,0 +1,793 @@
+{
+  "unit_id": "U14",
+  "pulled_at": "2026-11-21",
+  "candidates": 17,
+  "sentences": [
+    {
+      "sentence_id": "S14001",
+      "unit_id": "U14",
+      "french": "Mâine e sâmbătă?",
+      "english": "Is tomorrow Saturday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5321552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": [
+        "Will it be Saturday tomorrow?"
+      ]
+    },
+    {
+      "sentence_id": "S14002",
+      "unit_id": "U14",
+      "french": "Ce bine e azi!",
+      "english": "How fine it is today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3209190",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ijikure",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14003",
+      "unit_id": "U14",
+      "french": "Este o zi foarte tristă.",
+      "english": "This is a very sad day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9761314",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14004",
+      "unit_id": "U14",
+      "french": "Și acum?",
+      "english": "And now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3456116",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": [
+        "What now?"
+      ]
+    },
+    {
+      "sentence_id": "S14005",
+      "unit_id": "U14",
+      "french": "De ce acum?",
+      "english": "Why now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8384917",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14006",
+      "unit_id": "U14",
+      "french": "Ești obosit acum?",
+      "english": "Are you tired now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3998710",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14007",
+      "unit_id": "U14",
+      "french": "E bine luni?",
+      "english": "How about Monday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11164572",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": [
+        "Is Monday OK?"
+      ]
+    },
+    {
+      "sentence_id": "S14008",
+      "unit_id": "U14",
+      "french": "Ești obosită acum?",
+      "english": "Are you tired now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3998712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14009",
+      "unit_id": "U14",
+      "french": "Ești fericit acum?",
+      "english": "Are you happy now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5208406",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14010",
+      "unit_id": "U14",
+      "french": "Știu acum.",
+      "english": "I know now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6586039",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14011",
+      "unit_id": "U14",
+      "french": "Sunt obosit acum.",
+      "english": "I'm tired now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10134783",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14012",
+      "unit_id": "U14",
+      "french": "Sunt obosită acum.",
+      "english": "I'm tired now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10134784",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14013",
+      "unit_id": "U14",
+      "french": "Tom nu bea acum.",
+      "english": "Tom doesn't drink now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5085739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14014",
+      "unit_id": "U14",
+      "french": "Tom e aici acum.",
+      "english": "Tom is here now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12763214",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ridisegnandone",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14015",
+      "unit_id": "U14",
+      "french": "Acum ei au trei copii.",
+      "english": "Now they have three children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5141916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14016",
+      "unit_id": "U14",
+      "french": "Tom nu este foarte ocupat acum.",
+      "english": "Tom isn't really busy right now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8970842",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14017",
+      "unit_id": "U14",
+      "french": "Tom nu știe unde este acum Mary.",
+      "english": "Tom doesn't know where Mary is now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5244224",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S14001",
+      "position": 1,
+      "surface": "Mâine",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14001",
+      "position": 3,
+      "surface": "sâmbătă",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 1,
+      "surface": "Ce",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14002",
+      "position": 4,
+      "surface": "azi",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 3,
+      "surface": "zi",
+      "word_id": "W196",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 4,
+      "surface": "foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14003",
+      "position": 5,
+      "surface": "tristă",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 1,
+      "surface": "Și",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14004",
+      "position": 2,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 1,
+      "surface": "De ce",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14005",
+      "position": 2,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 1,
+      "surface": "Ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 2,
+      "surface": "obosit",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14006",
+      "position": 3,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14007",
+      "position": 3,
+      "surface": "luni",
+      "word_id": "W199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14008",
+      "position": 1,
+      "surface": "Ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14008",
+      "position": 2,
+      "surface": "obosită",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14008",
+      "position": 3,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14009",
+      "position": 1,
+      "surface": "Ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14009",
+      "position": 2,
+      "surface": "fericit",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14009",
+      "position": 3,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14010",
+      "position": 1,
+      "surface": "Știu",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14010",
+      "position": 2,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14011",
+      "position": 1,
+      "surface": "Sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14011",
+      "position": 2,
+      "surface": "obosit",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14011",
+      "position": 3,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14012",
+      "position": 1,
+      "surface": "Sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14012",
+      "position": 2,
+      "surface": "obosită",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14012",
+      "position": 3,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 3,
+      "surface": "bea",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14013",
+      "position": 4,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14014",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14014",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14014",
+      "position": 3,
+      "surface": "aici",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14014",
+      "position": 4,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 1,
+      "surface": "Acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 2,
+      "surface": "ei",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 4,
+      "surface": "trei",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14015",
+      "position": 5,
+      "surface": "copii",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 4,
+      "surface": "foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 5,
+      "surface": "ocupat",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14016",
+      "position": 6,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 3,
+      "surface": "știe",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 4,
+      "surface": "unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 5,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 6,
+      "surface": "acum",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14017",
+      "position": 7,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A140011",
+      "sentence_id": "S14001",
+      "direction": "fr_to_en",
+      "answer": "Will it be Saturday tomorrow?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140041",
+      "sentence_id": "S14004",
+      "direction": "fr_to_en",
+      "answer": "What now?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A140071",
+      "sentence_id": "S14007",
+      "direction": "fr_to_en",
+      "answer": "Is Monday OK?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

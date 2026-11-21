@@ -1,0 +1,50 @@
+{
+  "unit_id": "U13",
+  "pulled_at": "2026-11-21",
+  "candidates": 1,
+  "sentences": [
+    {
+      "sentence_id": "S13001",
+      "unit_id": "U13",
+      "french": "Bei ceai verde?",
+      "english": "Do you drink green tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13364324",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ioana_Dobre",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S13001",
+      "position": 1,
+      "surface": "Bei",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 2,
+      "surface": "ceai",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 3,
+      "surface": "verde",
+      "word_id": "W184",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

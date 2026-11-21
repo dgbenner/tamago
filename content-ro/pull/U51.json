@@ -1,0 +1,280 @@
+{
+  "unit_id": "U51",
+  "pulled_at": "2026-11-21",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S51001",
+      "unit_id": "U51",
+      "french": "Mă doare capul.",
+      "english": "My head hurts.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2536620",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ijikure",
+      "other_english": [
+        "My head aches."
+      ]
+    },
+    {
+      "sentence_id": "S51002",
+      "unit_id": "U51",
+      "french": "Mă doare.",
+      "english": "It hurts.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3713192",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51003",
+      "unit_id": "U51",
+      "french": "Am doi ochi.",
+      "english": "I have two eyes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2634552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51004",
+      "unit_id": "U51",
+      "french": "Ei nu mă plac.",
+      "english": "They don't like me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5141958",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51005",
+      "unit_id": "U51",
+      "french": "Tom are un nas mare.",
+      "english": "Tom has a large nose.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8190806",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51006",
+      "unit_id": "U51",
+      "french": "Tom nu mă place.",
+      "english": "Tom doesn't like me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5221655",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S51001",
+      "position": 1,
+      "surface": "Mă",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 2,
+      "surface": "doare",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 3,
+      "surface": "capul",
+      "word_id": "W1008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 1,
+      "surface": "Mă",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 2,
+      "surface": "doare",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 1,
+      "surface": "Am",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 2,
+      "surface": "doi",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 3,
+      "surface": "ochi",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 1,
+      "surface": "Ei",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 3,
+      "surface": "mă",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 4,
+      "surface": "plac",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 2,
+      "surface": "are",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 4,
+      "surface": "nas",
+      "word_id": "W1009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 5,
+      "surface": "mare",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 3,
+      "surface": "mă",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 4,
+      "surface": "place",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A510011",
+      "sentence_id": "S51001",
+      "direction": "fr_to_en",
+      "answer": "My head aches.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

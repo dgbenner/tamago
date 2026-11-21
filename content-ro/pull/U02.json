@@ -1,0 +1,281 @@
+{
+  "unit_id": "U02",
+  "pulled_at": "2026-11-21",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S2001",
+      "unit_id": "U02",
+      "french": "Aceasta este o carte.",
+      "english": "That's a book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3172744",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": [
+        "It is a book.",
+        "This is a book."
+      ]
+    },
+    {
+      "sentence_id": "S2002",
+      "unit_id": "U02",
+      "french": "Tu ești mic.",
+      "english": "You're small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11482008",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ridisegnandone",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2003",
+      "unit_id": "U02",
+      "french": "Nu sunt profesor.",
+      "english": "I'm not a teacher.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2639126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2004",
+      "unit_id": "U02",
+      "french": "Asta sunt eu.",
+      "english": "That's me!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4980651",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2005",
+      "unit_id": "U02",
+      "french": "Este o masă.",
+      "english": "It's a table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8862627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2006",
+      "unit_id": "U02",
+      "french": "Aceasta este o femeie.",
+      "english": "This is a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4998169",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S2001",
+      "position": 1,
+      "surface": "Aceasta",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 4,
+      "surface": "carte",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 2,
+      "surface": "ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 3,
+      "surface": "mic",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 1,
+      "surface": "Nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 2,
+      "surface": "sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 3,
+      "surface": "profesor",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 1,
+      "surface": "Asta",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 2,
+      "surface": "sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 3,
+      "surface": "eu",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 3,
+      "surface": "masă",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 1,
+      "surface": "Aceasta",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 4,
+      "surface": "femeie",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A20011",
+      "sentence_id": "S2001",
+      "direction": "fr_to_en",
+      "answer": "It is a book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20012",
+      "sentence_id": "S2001",
+      "direction": "fr_to_en",
+      "answer": "This is a book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

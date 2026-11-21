@@ -1,0 +1,124 @@
+{
+  "unit_id": "U31",
+  "pulled_at": "2026-11-21",
+  "candidates": 3,
+  "sentences": [
+    {
+      "sentence_id": "S31001",
+      "unit_id": "U31",
+      "french": "Mai încet!",
+      "english": "Quieter!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6574612",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31002",
+      "unit_id": "U31",
+      "french": "Nu înțeleg.",
+      "english": "I don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3372465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": [
+        "I do not understand.",
+        "I don't understand it."
+      ]
+    },
+    {
+      "sentence_id": "S31003",
+      "unit_id": "U31",
+      "french": "Nu înțelegi.",
+      "english": "You don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5677582",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S31001",
+      "position": 1,
+      "surface": "Mai",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 2,
+      "surface": "încet",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 1,
+      "surface": "Nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 2,
+      "surface": "înțeleg",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 1,
+      "surface": "Nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 2,
+      "surface": "înțelegi",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A310021",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "I do not understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310022",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "I don't understand it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

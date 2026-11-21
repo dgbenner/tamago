@@ -119,6 +119,16 @@ const THEMES = {
     Months: ['januar', 'februar', 'mars', 'april', 'mai', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'desember', 'måned'],
     Dates: ['dato', 'år', 'første', 'andre', 'tredje', 'bursdag', 'vår', 'sommer', 'høst', 'vinter'],
   },
+  // Romanian (2026-11-21, Builder 2): each word checked against its Wiktionary Romanian entry (2026-11-21); prices in
+  // lei (leu, lei; ban, bani), the hundred as sută (o sută).
+  ro: {
+    'Numbers to 100': ['zero', 'unu', 'doi', 'două', 'trei', 'patru', 'cinci', 'șase', 'șapte', 'opt', 'nouă', 'zece', 'unsprezece', 'doisprezece', 'treisprezece', 'paisprezece', 'cincisprezece', 'șaisprezece', 'șaptesprezece', 'optsprezece', 'nouăsprezece', 'douăzeci', 'treizeci', 'patruzeci', 'cincizeci', 'șaizeci', 'șaptezeci', 'optzeci', 'nouăzeci', 'sută'],
+    Prices: ['leu', 'lei', 'ban', 'bani', 'costa', 'preț', 'ieftin', 'scump', 'plăti'],
+    Times: ['oră', 'minut', 'jumătate', 'sfert', 'fără', 'dimineață', 'prânz', 'după-amiază', 'seară', 'noapte', 'devreme', 'târziu'],
+    Days: ['luni', 'marți', 'miercuri', 'joi', 'vineri', 'sâmbătă', 'duminică', 'weekend', 'zi', 'săptămână', 'azi', 'astăzi', 'mâine', 'ieri'],
+    Months: ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie', 'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie', 'lună'],
+    Dates: ['dată', 'an', 'primul', 'întâi', 'primăvară', 'vară', 'toamnă', 'iarnă'],
+  },
   fr: {
     'Numbers to 100': ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf', 'vingt', 'trente', 'quarante', 'cinquante', 'soixante', 'soixante-dix', 'quatre-vingts', 'quatre-vingt-dix', 'cent'],
     Prices: ['euro', 'centime', 'coûter', 'prix', 'cher', 'payer', 'argent'],

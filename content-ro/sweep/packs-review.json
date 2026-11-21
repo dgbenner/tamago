@@ -1,0 +1,87 @@
+{
+ "_about": "Romanian pull review (Builder 2, 2026-11-21). reject: Tatoeba ids turned down, with the reason; a line turned down is never proposed again in any circle. english: a better linked Tatoeba translation.",
+ "U01": {
+  "reject": {
+   "2536110": "repeated nu, nu and a clipped retort; odd for A1"
+  }
+ },
+ "U03": {
+  "reject": {
+   "2536133": "Și ce? is an idiom (so what)"
+  }
+ },
+ "U04": {
+  "reject": {
+   "2658010": "odd line (I eat a book)",
+   "8862653": "bare negative imperative (nu bea = don't drink); bea is taught as he drinks"
+  }
+ },
+ "U05": {
+  "reject": {
+   "8862593": "linked English is wrong (It's a horse for \"It isn't a horse\")"
+  }
+ },
+ "U06": {
+  "reject": {
+   "7837970": "ungrammatical (place with a plural: îmi plac merele)"
+  }
+ },
+ "U07": {
+  "reject": {
+   "8843860": "linked English is a question (I am handsome?)",
+   "13049259": "drinking a lot, adult sense",
+   "6555394": "love line (you're beautiful)",
+   "12415145": "love line (you're a beautiful woman)"
+  }
+ },
+ "U08": {
+  "reject": {
+   "5037559": "odd line (on the house, Tom)"
+  }
+ },
+ "U09": {
+  "reject": {
+   "5676455": "past tense (am obosit = I have tired), not Part 1",
+   "3415549": "formal sunteți to one person; formal address kept out",
+   "3415551": "formal sunteți to one person; formal address kept out"
+  }
+ },
+ "U11": {
+  "reject": {
+   "7581565": "odd exclamation (you know why!)",
+   "11164548": "odd fragment (you know how.)",
+   "11164549": "odd fragment (you know how.)",
+   "8384928": "odd fragment (and why that?)",
+   "4989165": "odd exclamation (you know what you know!)",
+   "2536353": "dialogue with dashes, two speakers in one line"
+  }
+ },
+ "U12": {
+  "reject": {
+   "5210515": "nouă here is new (feminine), the course teaches nouă as nine"
+  }
+ },
+ "U14": {
+  "reject": {
+   "9007330": "aproape as close in a guessing game; odd out of context"
+  }
+ },
+ "U15": {
+  "reject": {
+   "2635777": "voi here is the future auxiliary (I will go), not the pronoun",
+   "11164485": "idiom (cum merge? how goes it)",
+   "11164567": "idiom (merge luni? does Monday work)",
+   "5184379": "conditional ai vrea (would you like), not Part 1",
+   "4948753": "conditional ai vrea (would you like), not Part 1",
+   "7790791": "ei bine (well) is an idiom; ei is taught as they",
+   "7058869": "bare imperative (go to school)",
+   "13856345": "idiom (nu merge = it doesn't work)",
+   "3606843": "voi here is the future auxiliary (I will go), not the pronoun"
+  }
+ },
+ "U32": {
+  "reject": {
+   "9007322": "conditional ai spune (would you say), not Part 1"
+  }
+ }
+}

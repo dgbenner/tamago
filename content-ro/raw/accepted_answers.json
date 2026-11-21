@@ -1,0 +1,602 @@
+[
+  {
+    "answer_id": "A10031",
+    "sentence_id": "S1003",
+    "direction": "fr_to_en",
+    "answer": "I am here.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A10041",
+    "sentence_id": "S1004",
+    "direction": "fr_to_en",
+    "answer": "They're here.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A10042",
+    "sentence_id": "S1004",
+    "direction": "fr_to_en",
+    "answer": "They are here.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A10043",
+    "sentence_id": "S1004",
+    "direction": "fr_to_en",
+    "answer": "I am here.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A10071",
+    "sentence_id": "S1007",
+    "direction": "fr_to_en",
+    "answer": "I am Tom.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A20011",
+    "sentence_id": "S2001",
+    "direction": "fr_to_en",
+    "answer": "It is a book.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A20012",
+    "sentence_id": "S2001",
+    "direction": "fr_to_en",
+    "answer": "This is a book.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30021",
+    "sentence_id": "S3002",
+    "direction": "fr_to_en",
+    "answer": "I'm doing great.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30022",
+    "sentence_id": "S3002",
+    "direction": "fr_to_en",
+    "answer": "I'm perfectly fine.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30101",
+    "sentence_id": "S3010",
+    "direction": "fr_to_en",
+    "answer": "Good night!",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30121",
+    "sentence_id": "S3012",
+    "direction": "fr_to_en",
+    "answer": "Fine. And you?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30141",
+    "sentence_id": "S3014",
+    "direction": "fr_to_en",
+    "answer": "Are you OK?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30142",
+    "sentence_id": "S3014",
+    "direction": "fr_to_en",
+    "answer": "Are you alright?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30143",
+    "sentence_id": "S3014",
+    "direction": "fr_to_en",
+    "answer": "Are you all right?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30151",
+    "sentence_id": "S3015",
+    "direction": "fr_to_en",
+    "answer": "I am fine, and you?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30171",
+    "sentence_id": "S3017",
+    "direction": "fr_to_en",
+    "answer": "Tom is well.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A30172",
+    "sentence_id": "S3017",
+    "direction": "fr_to_en",
+    "answer": "Tom is OK.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A40031",
+    "sentence_id": "S4003",
+    "direction": "fr_to_en",
+    "answer": "Does he drink coffee?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A40041",
+    "sentence_id": "S4004",
+    "direction": "fr_to_en",
+    "answer": "I'm eating bread.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A40101",
+    "sentence_id": "S4010",
+    "direction": "fr_to_en",
+    "answer": "She is eating.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60031",
+    "sentence_id": "S6003",
+    "direction": "fr_to_en",
+    "answer": "I'm eating an apple.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A70081",
+    "sentence_id": "S7008",
+    "direction": "fr_to_en",
+    "answer": "You are a good boy.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A80051",
+    "sentence_id": "S8005",
+    "direction": "fr_to_en",
+    "answer": "Where does she live?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A80111",
+    "sentence_id": "S8011",
+    "direction": "fr_to_en",
+    "answer": "Where am I?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A80181",
+    "sentence_id": "S8018",
+    "direction": "fr_to_en",
+    "answer": "Where is Tom?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90021",
+    "sentence_id": "S9002",
+    "direction": "fr_to_en",
+    "answer": "I'm worn-out.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90041",
+    "sentence_id": "S9004",
+    "direction": "fr_to_en",
+    "answer": "I am very tired.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90051",
+    "sentence_id": "S9005",
+    "direction": "fr_to_en",
+    "answer": "I am very tired.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90061",
+    "sentence_id": "S9006",
+    "direction": "fr_to_en",
+    "answer": "He is tired.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90111",
+    "sentence_id": "S9011",
+    "direction": "fr_to_en",
+    "answer": "Are you ill?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90121",
+    "sentence_id": "S9012",
+    "direction": "fr_to_en",
+    "answer": "It is cold.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90141",
+    "sentence_id": "S9014",
+    "direction": "fr_to_en",
+    "answer": "I am happy.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90142",
+    "sentence_id": "S9014",
+    "direction": "fr_to_en",
+    "answer": "I feel happy.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90143",
+    "sentence_id": "S9014",
+    "direction": "fr_to_en",
+    "answer": "I'm happy!",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90151",
+    "sentence_id": "S9015",
+    "direction": "fr_to_en",
+    "answer": "I am busy.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90161",
+    "sentence_id": "S9016",
+    "direction": "fr_to_en",
+    "answer": "He is very sick.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90201",
+    "sentence_id": "S9020",
+    "direction": "fr_to_en",
+    "answer": "It's really cold.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90202",
+    "sentence_id": "S9020",
+    "direction": "fr_to_en",
+    "answer": "It is freezing cold.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90211",
+    "sentence_id": "S9021",
+    "direction": "fr_to_en",
+    "answer": "Tom is sick.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90212",
+    "sentence_id": "S9021",
+    "direction": "fr_to_en",
+    "answer": "Tom is ill.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A90291",
+    "sentence_id": "S9029",
+    "direction": "fr_to_en",
+    "answer": "He is ill.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A100071",
+    "sentence_id": "S10007",
+    "direction": "fr_to_en",
+    "answer": "You are my friend.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A100091",
+    "sentence_id": "S10009",
+    "direction": "fr_to_en",
+    "answer": "My name is Tom.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A100121",
+    "sentence_id": "S10012",
+    "direction": "fr_to_en",
+    "answer": "My brother is not busy.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A100131",
+    "sentence_id": "S10013",
+    "direction": "fr_to_en",
+    "answer": "Where is my car?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A100141",
+    "sentence_id": "S10014",
+    "direction": "fr_to_en",
+    "answer": "Where is my book?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A110071",
+    "sentence_id": "S11007",
+    "direction": "fr_to_en",
+    "answer": "I do not know.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A110072",
+    "sentence_id": "S11007",
+    "direction": "fr_to_en",
+    "answer": "I don't know!",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A110201",
+    "sentence_id": "S11020",
+    "direction": "fr_to_en",
+    "answer": "Who's ill?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A110202",
+    "sentence_id": "S11020",
+    "direction": "fr_to_en",
+    "answer": "Who is sick?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A140011",
+    "sentence_id": "S14001",
+    "direction": "fr_to_en",
+    "answer": "Will it be Saturday tomorrow?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A140041",
+    "sentence_id": "S14004",
+    "direction": "fr_to_en",
+    "answer": "What now?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A140071",
+    "sentence_id": "S14007",
+    "direction": "fr_to_en",
+    "answer": "Is Monday OK?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150111",
+    "sentence_id": "S15011",
+    "direction": "fr_to_en",
+    "answer": "Why is Tom at home?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150161",
+    "sentence_id": "S15016",
+    "direction": "fr_to_en",
+    "answer": "I live in the city.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150162",
+    "sentence_id": "S15016",
+    "direction": "fr_to_en",
+    "answer": "I live in a town.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150171",
+    "sentence_id": "S15017",
+    "direction": "fr_to_en",
+    "answer": "What a beautiful town!",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150201",
+    "sentence_id": "S15020",
+    "direction": "fr_to_en",
+    "answer": "How is it at school?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150202",
+    "sentence_id": "S15020",
+    "direction": "fr_to_en",
+    "answer": "How's it going at school?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150221",
+    "sentence_id": "S15022",
+    "direction": "fr_to_en",
+    "answer": "What would you like to eat?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150261",
+    "sentence_id": "S15026",
+    "direction": "fr_to_en",
+    "answer": "I ride the bus to school.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150301",
+    "sentence_id": "S15030",
+    "direction": "fr_to_en",
+    "answer": "I'm at home.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A150302",
+    "sentence_id": "S15030",
+    "direction": "fr_to_en",
+    "answer": "I am at home.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A310021",
+    "sentence_id": "S31002",
+    "direction": "fr_to_en",
+    "answer": "I do not understand.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A310022",
+    "sentence_id": "S31002",
+    "direction": "fr_to_en",
+    "answer": "I don't understand it.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A510011",
+    "sentence_id": "S51001",
+    "direction": "fr_to_en",
+    "answer": "My head aches.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A520031",
+    "sentence_id": "S52003",
+    "direction": "fr_to_en",
+    "answer": "I love to read books.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A520071",
+    "sentence_id": "S52007",
+    "direction": "fr_to_en",
+    "answer": "I do a lot of swimming.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A520081",
+    "sentence_id": "S52008",
+    "direction": "fr_to_en",
+    "answer": "She reads a book.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A520082",
+    "sentence_id": "S52008",
+    "direction": "fr_to_en",
+    "answer": "She is reading a book.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A530011",
+    "sentence_id": "S53001",
+    "direction": "fr_to_en",
+    "answer": "Is it far away?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A530031",
+    "sentence_id": "S53003",
+    "direction": "fr_to_en",
+    "answer": "Where is the train station?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A530061",
+    "sentence_id": "S53006",
+    "direction": "fr_to_en",
+    "answer": "He's in the hospital.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A530062",
+    "sentence_id": "S53006",
+    "direction": "fr_to_en",
+    "answer": "He is in the hospital.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A530071",
+    "sentence_id": "S53007",
+    "direction": "fr_to_en",
+    "answer": "It's not a hospital.",
+    "source": "tatoeba",
+    "status": "pulled"
+  }
+]

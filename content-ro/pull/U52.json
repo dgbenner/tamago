@@ -1,0 +1,442 @@
+{
+  "unit_id": "U52",
+  "pulled_at": "2026-11-21",
+  "candidates": 9,
+  "sentences": [
+    {
+      "sentence_id": "S52001",
+      "unit_id": "U52",
+      "french": "Ea joacă fotbal.",
+      "english": "She's playing football.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10169302",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52002",
+      "unit_id": "U52",
+      "french": "Nu-mi place să înot.",
+      "english": "I dislike swimming.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6857566",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52003",
+      "unit_id": "U52",
+      "french": "Îmi place să citesc cărți.",
+      "english": "I love reading books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4945983",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": [
+        "I love to read books."
+      ]
+    },
+    {
+      "sentence_id": "S52004",
+      "unit_id": "U52",
+      "french": "Ce să mănânc?",
+      "english": "What should I eat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7992965",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52005",
+      "unit_id": "U52",
+      "french": "Nu citesc.",
+      "english": "I do not read.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8921758",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52006",
+      "unit_id": "U52",
+      "french": "Citesc o carte.",
+      "english": "I read a book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2651096",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52007",
+      "unit_id": "U52",
+      "french": "Înot foarte mult.",
+      "english": "I swim a lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13704585",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": [
+        "I do a lot of swimming."
+      ]
+    },
+    {
+      "sentence_id": "S52008",
+      "unit_id": "U52",
+      "french": "Ea citește o carte.",
+      "english": "She's reading a book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6607650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": [
+        "She reads a book.",
+        "She is reading a book."
+      ]
+    },
+    {
+      "sentence_id": "S52009",
+      "unit_id": "U52",
+      "french": "Îmi place muzica foarte mult.",
+      "english": "I like music a lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8626104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S52001",
+      "position": 1,
+      "surface": "Ea",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 2,
+      "surface": "joacă",
+      "word_id": "W1023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 3,
+      "surface": "fotbal",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 1,
+      "surface": "Nu-mi",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 2,
+      "surface": "place",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 3,
+      "surface": "să",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 4,
+      "surface": "înot",
+      "word_id": "W1027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 1,
+      "surface": "Îmi",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 2,
+      "surface": "place",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 3,
+      "surface": "să",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 4,
+      "surface": "citesc",
+      "word_id": "W1024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 5,
+      "surface": "cărți",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 1,
+      "surface": "Ce",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 2,
+      "surface": "să",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 3,
+      "surface": "mănânc",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 1,
+      "surface": "Nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 2,
+      "surface": "citesc",
+      "word_id": "W1024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 1,
+      "surface": "Citesc",
+      "word_id": "W1024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 3,
+      "surface": "carte",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 1,
+      "surface": "Înot",
+      "word_id": "W1027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 2,
+      "surface": "foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 3,
+      "surface": "mult",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 1,
+      "surface": "Ea",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 2,
+      "surface": "citește",
+      "word_id": "W1026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 4,
+      "surface": "carte",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 1,
+      "surface": "Îmi",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 2,
+      "surface": "place",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 3,
+      "surface": "muzica",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 4,
+      "surface": "foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 5,
+      "surface": "mult",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A520031",
+      "sentence_id": "S52003",
+      "direction": "fr_to_en",
+      "answer": "I love to read books.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520071",
+      "sentence_id": "S52007",
+      "direction": "fr_to_en",
+      "answer": "I do a lot of swimming.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520081",
+      "sentence_id": "S52008",
+      "direction": "fr_to_en",
+      "answer": "She reads a book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520082",
+      "sentence_id": "S52008",
+      "direction": "fr_to_en",
+      "answer": "She is reading a book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

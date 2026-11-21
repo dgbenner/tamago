@@ -1,0 +1,121 @@
+{
+  "unit_id": "U33",
+  "pulled_at": "2026-11-21",
+  "candidates": 2,
+  "sentences": [
+    {
+      "sentence_id": "S33001",
+      "unit_id": "U33",
+      "french": "Este asta un lucru rău?",
+      "english": "Is that a bad thing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4303215",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "adikinzor",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S33002",
+      "unit_id": "U33",
+      "french": "Asta nu este pentru Tom.",
+      "english": "That isn't for Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7854042",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S33001",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 2,
+      "surface": "asta",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 4,
+      "surface": "lucru",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33001",
+      "position": 5,
+      "surface": "rău",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 1,
+      "surface": "Asta",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 4,
+      "surface": "pentru",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S33002",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

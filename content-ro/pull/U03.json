@@ -1,0 +1,769 @@
+{
+  "unit_id": "U03",
+  "pulled_at": "2026-11-21",
+  "candidates": 19,
+  "sentences": [
+    {
+      "sentence_id": "S3001",
+      "unit_id": "U03",
+      "french": "Foarte bine!",
+      "english": "Very good!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9209606",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3002",
+      "unit_id": "U03",
+      "french": "Sunt foarte bine.",
+      "english": "I'm very well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4987238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": [
+        "I'm doing great.",
+        "I'm perfectly fine."
+      ]
+    },
+    {
+      "sentence_id": "S3003",
+      "unit_id": "U03",
+      "french": "Sunt bine, mulțumesc.",
+      "english": "I am fine, thank you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8616416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3004",
+      "unit_id": "U03",
+      "french": "Bună seara!",
+      "english": "Good evening.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4948872",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3005",
+      "unit_id": "U03",
+      "french": "Mulțumesc și noapte bună!",
+      "english": "Thanks and good night!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4980605",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3006",
+      "unit_id": "U03",
+      "french": "Asta nu e foarte bine.",
+      "english": "That's just not very good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5079910",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3007",
+      "unit_id": "U03",
+      "french": "La revedere!",
+      "english": "Goodbye!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3146826",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3008",
+      "unit_id": "U03",
+      "french": "Îmi pare rău!",
+      "english": "I'm sorry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4948768",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3009",
+      "unit_id": "U03",
+      "french": "Bună dimineața!",
+      "english": "Good morning!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4948871",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3010",
+      "unit_id": "U03",
+      "french": "Noapte bună!",
+      "english": "Goodnight!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4948877",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": [
+        "Good night!"
+      ]
+    },
+    {
+      "sentence_id": "S3011",
+      "unit_id": "U03",
+      "french": "Te rog!",
+      "english": "Please!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5676526",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3012",
+      "unit_id": "U03",
+      "french": "Bine. Și tu?",
+      "english": "Good. And you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3521502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": [
+        "Fine. And you?"
+      ]
+    },
+    {
+      "sentence_id": "S3013",
+      "unit_id": "U03",
+      "french": "E Mary bine?",
+      "english": "Is Mary well?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5358876",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3014",
+      "unit_id": "U03",
+      "french": "Tu ești bine?",
+      "english": "You all right?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8992665",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "adelinaandrei",
+      "other_english": [
+        "Are you OK?",
+        "Are you alright?",
+        "Are you all right?"
+      ]
+    },
+    {
+      "sentence_id": "S3015",
+      "unit_id": "U03",
+      "french": "Sunt bine. Și tu?",
+      "english": "I'm fine, and you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3125183",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": [
+        "I am fine, and you?"
+      ]
+    },
+    {
+      "sentence_id": "S3016",
+      "unit_id": "U03",
+      "french": "Sunt bine.",
+      "english": "I'm alright.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8774105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3017",
+      "unit_id": "U03",
+      "french": "Tom este bine.",
+      "english": "Tom's well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4832023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "AlbertaJ",
+      "other_english": [
+        "Tom is well.",
+        "Tom is OK."
+      ]
+    },
+    {
+      "sentence_id": "S3018",
+      "unit_id": "U03",
+      "french": "E bine aici.",
+      "english": "It's nice here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6061191",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "viorel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S3019",
+      "unit_id": "U03",
+      "french": "Ești bine? Da, sunt.",
+      "english": "\"Are you alright?\" \"Yes, I am.\"",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8992652",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "adelinaandrei",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S3001",
+      "position": 1,
+      "surface": "Foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3001",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3002",
+      "position": 1,
+      "surface": "Sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3002",
+      "position": 2,
+      "surface": "foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3002",
+      "position": 3,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3003",
+      "position": 1,
+      "surface": "Sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3003",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3003",
+      "position": 3,
+      "surface": "mulțumesc",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3004",
+      "position": 1,
+      "surface": "Bună seara",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3005",
+      "position": 1,
+      "surface": "Mulțumesc",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3005",
+      "position": 2,
+      "surface": "și",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3005",
+      "position": 3,
+      "surface": "noapte bună",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3006",
+      "position": 1,
+      "surface": "Asta",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3006",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3006",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3006",
+      "position": 4,
+      "surface": "foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3006",
+      "position": 5,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3007",
+      "position": 1,
+      "surface": "La revedere",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3008",
+      "position": 1,
+      "surface": "Îmi pare rău",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3009",
+      "position": 1,
+      "surface": "Bună dimineața",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3010",
+      "position": 1,
+      "surface": "Noapte bună",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3011",
+      "position": 1,
+      "surface": "Te rog",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3012",
+      "position": 1,
+      "surface": "Bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3012",
+      "position": 2,
+      "surface": "Și",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3012",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3013",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3013",
+      "position": 2,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3013",
+      "position": 3,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3014",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3014",
+      "position": 2,
+      "surface": "ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3014",
+      "position": 3,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3015",
+      "position": 1,
+      "surface": "Sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3015",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3015",
+      "position": 3,
+      "surface": "Și",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3015",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3016",
+      "position": 1,
+      "surface": "Sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3016",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3017",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3017",
+      "position": 3,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3018",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3018",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3018",
+      "position": 3,
+      "surface": "aici",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3019",
+      "position": 1,
+      "surface": "Ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3019",
+      "position": 2,
+      "surface": "bine",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3019",
+      "position": 3,
+      "surface": "Da",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S3019",
+      "position": 4,
+      "surface": "sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A30021",
+      "sentence_id": "S3002",
+      "direction": "fr_to_en",
+      "answer": "I'm doing great.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30022",
+      "sentence_id": "S3002",
+      "direction": "fr_to_en",
+      "answer": "I'm perfectly fine.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30101",
+      "sentence_id": "S3010",
+      "direction": "fr_to_en",
+      "answer": "Good night!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30121",
+      "sentence_id": "S3012",
+      "direction": "fr_to_en",
+      "answer": "Fine. And you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30141",
+      "sentence_id": "S3014",
+      "direction": "fr_to_en",
+      "answer": "Are you OK?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30142",
+      "sentence_id": "S3014",
+      "direction": "fr_to_en",
+      "answer": "Are you alright?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30143",
+      "sentence_id": "S3014",
+      "direction": "fr_to_en",
+      "answer": "Are you all right?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30151",
+      "sentence_id": "S3015",
+      "direction": "fr_to_en",
+      "answer": "I am fine, and you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30171",
+      "sentence_id": "S3017",
+      "direction": "fr_to_en",
+      "answer": "Tom is well.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A30172",
+      "sentence_id": "S3017",
+      "direction": "fr_to_en",
+      "answer": "Tom is OK.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

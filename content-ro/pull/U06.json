@@ -1,0 +1,210 @@
+{
+  "unit_id": "U06",
+  "pulled_at": "2026-11-21",
+  "candidates": 4,
+  "sentences": [
+    {
+      "sentence_id": "S6001",
+      "unit_id": "U06",
+      "french": "Ei nu au copii.",
+      "english": "They have no children of their own.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7468956",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6002",
+      "unit_id": "U06",
+      "french": "Avem un câine și o pisică.",
+      "english": "We own a dog and a cat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4121525",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pilotzolee",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6003",
+      "unit_id": "U06",
+      "french": "Mănânc un măr.",
+      "english": "I eat an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2639026",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": [
+        "I'm eating an apple."
+      ]
+    },
+    {
+      "sentence_id": "S6004",
+      "unit_id": "U06",
+      "french": "Nu avem asta.",
+      "english": "We don't have that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9408717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6001",
+      "position": 1,
+      "surface": "Ei",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 4,
+      "surface": "copii",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 1,
+      "surface": "Avem",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 3,
+      "surface": "câine",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 4,
+      "surface": "și",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 6,
+      "surface": "pisică",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 1,
+      "surface": "Mănânc",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 3,
+      "surface": "măr",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 1,
+      "surface": "Nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 2,
+      "surface": "avem",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 3,
+      "surface": "asta",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A60031",
+      "sentence_id": "S6003",
+      "direction": "fr_to_en",
+      "answer": "I'm eating an apple.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

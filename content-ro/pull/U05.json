@@ -1,0 +1,261 @@
+{
+  "unit_id": "U05",
+  "pulled_at": "2026-11-21",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S5001",
+      "unit_id": "U05",
+      "french": "Nu am pisică.",
+      "english": "I don't have a cat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2634897",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5002",
+      "unit_id": "U05",
+      "french": "Am o pisică.",
+      "english": "I have a cat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2639068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5003",
+      "unit_id": "U05",
+      "french": "Mănânci pește?",
+      "english": "Do you eat fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4143847",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "AlbertaJ",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5004",
+      "unit_id": "U05",
+      "french": "Pisica este mică.",
+      "english": "The cat is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8961581",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5005",
+      "unit_id": "U05",
+      "french": "Ea are o casă.",
+      "english": "She has a house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8834356",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5006",
+      "unit_id": "U05",
+      "french": "Acesta nu este un pește.",
+      "english": "This is not a fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2639265",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S5001",
+      "position": 1,
+      "surface": "Nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5001",
+      "position": 2,
+      "surface": "am",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5001",
+      "position": 3,
+      "surface": "pisică",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5002",
+      "position": 1,
+      "surface": "Am",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5002",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5002",
+      "position": 3,
+      "surface": "pisică",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5003",
+      "position": 1,
+      "surface": "Mănânci",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5003",
+      "position": 2,
+      "surface": "pește",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5004",
+      "position": 1,
+      "surface": "Pisica",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5004",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5004",
+      "position": 3,
+      "surface": "mică",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5005",
+      "position": 1,
+      "surface": "Ea",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5005",
+      "position": 2,
+      "surface": "are",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5005",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5005",
+      "position": 4,
+      "surface": "casă",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5006",
+      "position": 1,
+      "surface": "Acesta",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5006",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5006",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5006",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5006",
+      "position": 5,
+      "surface": "pește",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

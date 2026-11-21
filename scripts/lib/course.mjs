@@ -53,6 +53,12 @@ export const COURSES = {
     id: 'no', name: 'Norwegian', workbook: '_source/tamago-no-data-v3.xlsx',
     tatoeba: 'nob', wiktionaryCode: 'no', wiktionarySection: 'Norwegian Bokmål', linguaLibre: { qid: 'Q25167', iso: 'nob' }, wikidataLanguage: 'Q25167',
   },
+  // Romanian (2026-11-21, branch content/ro-a1): standard Romanian (Romania), tu informally (dumneavoastră kept out of
+  // Part 1). Its folders: content-ro/, src/content-ro/, public/audio-ro/. Lingua Libre files are LL-Q7913 (ron).
+  ro: {
+    id: 'ro', name: 'Romanian', workbook: '_source/tamago-ro-data-v3.xlsx',
+    tatoeba: 'ron', wiktionaryCode: 'ro', wiktionarySection: 'Romanian', linguaLibre: { qid: 'Q7913', iso: 'ron' }, wikidataLanguage: 'Q7913',
+  },
 }
 export const C = COURSES[COURSE]
 if (!C) throw new Error(`COURSE=${COURSE}: no such course`)

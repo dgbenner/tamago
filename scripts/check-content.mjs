@@ -334,8 +334,9 @@ function genderFrom(section, pos, posIndex, definition) {
   }
   const fromNoun = head.match(/\{\{fr-noun\|(?:g=)?(mfbysense|mf|m|f)\b/)?.[1]
   // German and Spanish headwords (2026-11-10): {{de-noun|m,es,…}}, {{de-noun|g=n}}, {{es-noun|m}}.
-  const fromOther = head.match(/\{\{(?:de|es|it|pt)-noun\|(?:g=)?(mfbysense|mf|m|f|n)\b/)?.[1]
-  const fromHead = fromOther ?? head.match(/\{\{head\|(?:fr|es|de|it|pt)\|[^}]*\bg=(m|f|n)\b/)?.[1]
+  // Romanian (2026-11-21): {{ro-noun|f|zile}}, {{ro-noun|n|lucruri}}, gender first; a neuter is n.
+  const fromOther = head.match(/\{\{(?:de|es|it|pt|ro)-noun\|(?:g=)?(mfbysense|mf|m|f|n)\b/)?.[1]
+  const fromHead = fromOther ?? head.match(/\{\{head\|(?:fr|es|de|it|pt|ro)\|[^}]*\bg=(m|f|n)\b/)?.[1]
   const g = fromNoun ?? fromHead ?? (/^feminine\b/.test(definition) ? 'f' : /^masculine\b/.test(definition) ? 'm' : '')
   return g === 'mfbysense' || g === 'mf' ? 'm/f' : g
 }
@@ -360,7 +361,7 @@ for (const w of words) {
   // and person, and the lemma's own Wiktionary conjugation table has to list the form.
   const table = !definition && pick?.form_of ? await presentIndicative(pick.form_of) : null
   if (table?.some((t) => t.person.split(', ')[0] === pick.person && t.form === w.form)) {
-    Object.assign(row, { part_of_speech: 'Verb', lemma: pick.form_of, gloss: `${{ ich: 'first-person singular', du: 'second-person singular', er: 'third-person singular', wir: 'first-person plural', ihr: 'second-person plural' }[pick.person] ?? pick.person} present of ${pick.form_of}`, gloss_full: `present tense, ${pick.person}, in Wiktionary's conjugation of ${pick.form_of}`, status: 'checked', wiktionary_url: `https://en.wiktionary.org/wiki/${title(pick.form_of)}#${C.wiktionarySection}` })
+    Object.assign(row, { part_of_speech: 'Verb', lemma: pick.form_of, gloss: `${{ ich: 'first-person singular', du: 'second-person singular', er: 'third-person singular', wir: 'first-person plural', ihr: 'second-person plural', eu: 'first-person singular', tu: 'second-person singular', el: 'third-person singular', noi: 'first-person plural', voi: 'second-person plural', ei: 'third-person plural' }[pick.person] ?? pick.person} present of ${pick.form_of}`, gloss_full: `present tense, ${pick.person}, in Wiktionary's conjugation of ${pick.form_of}`, status: 'checked', wiktionary_url: `https://en.wiktionary.org/wiki/${title(pick.form_of)}#${C.wiktionarySection}` })
     const lemmaEntry = (await french(pick.form_of)).find((e) => e.pos === 'Verb')
     row.lemma_gloss = lemmaEntry ? shorten(lemmaEntry.definitions[0]) : ''
   } else if (!definition) {

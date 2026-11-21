@@ -2,11 +2,13 @@
 // its tree in order the way one learner would, every circle (a topic node stands for its packs), every round, the
 // app's own number of lessons per round, everything answered right. Mirrors App: seen words grow by each question's
 // segments and word_ids; the round's seen counts follow recordPass. Run from the repo root.
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { buildLesson, contentForUnit, lessonsInRound } from '../../src/lib/lesson.js'
 
 // AUDIT_COURSES=Spanish,German limits a run to those courses (2026-11-14).
-export const COURSES = [['French', 'content', 'fr'], ['Spanish', 'content-es', 'es'], ['German', 'content-de', 'de'], ['Italian', 'content-it', 'it'], ['Portuguese', 'content-pt', 'pt'], ['Dutch', 'content-nl', 'nl'], ['Swedish', 'content-sv', 'sv'], ['Danish', 'content-da', 'da'], ['Norwegian', 'content-no', 'no']].filter(([name]) => !process.env.AUDIT_COURSES || process.env.AUDIT_COURSES.split(',').includes(name))
+export const COURSES = [['French', 'content', 'fr'], ['Spanish', 'content-es', 'es'], ['German', 'content-de', 'de'], ['Italian', 'content-it', 'it'], ['Portuguese', 'content-pt', 'pt'], ['Dutch', 'content-nl', 'nl'], ['Swedish', 'content-sv', 'sv'], ['Danish', 'content-da', 'da'], ['Norwegian', 'content-no', 'no'], ['Romanian', 'content-ro', 'ro']].filter(([name]) => !process.env.AUDIT_COURSES || process.env.AUDIT_COURSES.split(',').includes(name))
+  // A course whose content isn't built yet (Romanian on its content branch, 2026-11-21) is skipped, not a crash.
+  .filter(([, dir]) => existsSync(`src/${dir}`))
 export const seeded = (seed) => { let x = seed; return () => { x = (x * 1664525 + 1013904223) % 4294967296; return x / 4294967296 } }
 export function tablesOf(dir) {
   const t = {}

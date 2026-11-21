@@ -1,0 +1,277 @@
+{
+  "unit_id": "U12",
+  "pulled_at": "2026-11-21",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S12001",
+      "unit_id": "U12",
+      "french": "Câți oameni?",
+      "english": "How many people?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11164482",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12002",
+      "unit_id": "U12",
+      "french": "Câte pisici ai?",
+      "english": "How many cats do you have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8859372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12003",
+      "unit_id": "U12",
+      "french": "Câte mere sunt acolo?",
+      "english": "How many apples are there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5349479",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12004",
+      "unit_id": "U12",
+      "french": "Am două pisici.",
+      "english": "I have two cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3081378",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12005",
+      "unit_id": "U12",
+      "french": "Tom are doi copii.",
+      "english": "Tom has two children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12782339",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ridisegnandone",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12006",
+      "unit_id": "U12",
+      "french": "Sunt trei copii în familia mea.",
+      "english": "There are three children in my family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6607640",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S12001",
+      "position": 1,
+      "surface": "Câți",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12001",
+      "position": 2,
+      "surface": "oameni",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 1,
+      "surface": "Câte",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 2,
+      "surface": "pisici",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12002",
+      "position": 3,
+      "surface": "ai",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12003",
+      "position": 1,
+      "surface": "Câte",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12003",
+      "position": 2,
+      "surface": "mere",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12003",
+      "position": 3,
+      "surface": "sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12003",
+      "position": 4,
+      "surface": "acolo",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12004",
+      "position": 1,
+      "surface": "Am",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12004",
+      "position": 2,
+      "surface": "două",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12004",
+      "position": 3,
+      "surface": "pisici",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12005",
+      "position": 2,
+      "surface": "are",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12005",
+      "position": 3,
+      "surface": "doi",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12005",
+      "position": 4,
+      "surface": "copii",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12006",
+      "position": 1,
+      "surface": "Sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12006",
+      "position": 2,
+      "surface": "trei",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12006",
+      "position": 3,
+      "surface": "copii",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12006",
+      "position": 4,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12006",
+      "position": 5,
+      "surface": "familia",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12006",
+      "position": 6,
+      "surface": "mea",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

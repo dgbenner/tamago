@@ -1,0 +1,958 @@
+{
+ "_about": "Which Wiktionary (Romanian) entry each word uses (Builder 2, 2026-11-21): part of speech and, where needed, text the definition must contain. via: a form with no Romanian entry of its own (a definite form, a feminine adjective, nu-mi, the imperative repetă) reads the entry it is a form of. form_of + person: a verb form with no page, or whose page is the infinitive's (merge, bea, spune, vrea), is checked against the lemma's own Wiktionary conjugation table.",
+ "W001": {
+  "pos": "Interjection"
+ },
+ "W002": {
+  "pos": "Interjection"
+ },
+ "W003": {
+  "pos": "Adverb"
+ },
+ "W004": {
+  "pos": "Pronoun"
+ },
+ "W005": {
+  "pos": "Pronoun"
+ },
+ "W006": {
+  "pos": "Verb"
+ },
+ "W007": {
+  "pos": "Verb"
+ },
+ "W008": {
+  "pos": "Verb"
+ },
+ "W009": {
+  "pos": "Verb",
+  "via": "este"
+ },
+ "W010": {
+  "pos": "Article"
+ },
+ "W011": {
+  "pos": "Article",
+  "match": "feminine"
+ },
+ "W012": {
+  "pos": "Noun",
+  "match": "man"
+ },
+ "W013": {
+  "pos": "Noun",
+  "match": "woman"
+ },
+ "W014": {
+  "pos": "Noun",
+  "match": "boy"
+ },
+ "W015": {
+  "pos": "Noun",
+  "match": "girl"
+ },
+ "W016": {
+  "pos": "Noun",
+  "match": "child"
+ },
+ "W017": {
+  "pos": "Conjunction",
+  "match": "and"
+ },
+ "W018": {
+  "pos": "Adverb"
+ },
+ "W019": {
+  "pos": "Pronoun",
+  "match": "he"
+ },
+ "W020": {
+  "pos": "Pronoun",
+  "match": "she"
+ },
+ "W021": {
+  "pos": "Pronoun"
+ },
+ "W022": {
+  "pos": "Pronoun"
+ },
+ "W023": {
+  "pos": "Pronoun"
+ },
+ "W024": {
+  "pos": "Noun",
+  "match": "book"
+ },
+ "W025": {
+  "pos": "Noun"
+ },
+ "W026": {
+  "pos": "Noun",
+  "match": "house"
+ },
+ "W027": {
+  "pos": "Noun",
+  "match": "definite"
+ },
+ "W028": {
+  "pos": "Noun",
+  "match": "teacher"
+ },
+ "W029": {
+  "pos": "Adjective"
+ },
+ "W030": {
+  "pos": "Adjective"
+ },
+ "W031": {
+  "pos": "Adjective"
+ },
+ "W032": {
+  "pos": "Noun"
+ },
+ "W033": {
+  "pos": "Noun",
+  "match": "table"
+ },
+ "W034": {
+  "pos": "Noun",
+  "match": "definite"
+ },
+ "W035": {
+  "pos": "Noun"
+ },
+ "W036": {
+  "pos": "Verb"
+ },
+ "W037": {
+  "pos": "Interjection"
+ },
+ "W038": {
+  "pos": "Interjection"
+ },
+ "W039": {
+  "pos": "Interjection"
+ },
+ "W040": {
+  "pos": "Interjection"
+ },
+ "W041": {
+  "pos": "Interjection"
+ },
+ "W042": {
+  "pos": "Interjection"
+ },
+ "W043": {
+  "pos": "Interjection"
+ },
+ "W044": {
+  "pos": "Interjection"
+ },
+ "W045": {
+  "pos": "Interjection"
+ },
+ "W046": {
+  "pos": "Pronoun"
+ },
+ "W047": {
+  "pos": "Verb"
+ },
+ "W048": {
+  "pos": "Adverb"
+ },
+ "W049": {
+  "pos": "Adverb"
+ },
+ "W050": {
+  "pos": "Verb"
+ },
+ "W051": {
+  "pos": "Verb"
+ },
+ "W052": {
+  "pos": "Verb"
+ },
+ "W053": {
+  "pos": "Verb"
+ },
+ "W054": {
+  "pos": "Verb"
+ },
+ "W055": {
+  "form_of": "bea",
+  "person": "el"
+ },
+ "W056": {
+  "pos": "Pronoun"
+ },
+ "W057": {
+  "pos": "Pronoun"
+ },
+ "W058": {
+  "pos": "Pronoun",
+  "via": "îmi"
+ },
+ "W059": {
+  "pos": "Verb"
+ },
+ "W060": {
+  "pos": "Verb"
+ },
+ "W061": {
+  "pos": "Noun",
+  "match": "bread"
+ },
+ "W062": {
+  "pos": "Noun",
+  "match": "water"
+ },
+ "W063": {
+  "pos": "Noun"
+ },
+ "W064": {
+  "pos": "Noun",
+  "match": "milk"
+ },
+ "W065": {
+  "pos": "Noun",
+  "match": "coffee"
+ },
+ "W066": {
+  "pos": "Noun"
+ },
+ "W067": {
+  "pos": "Noun",
+  "match": "tea",
+  "exact": true
+ },
+ "W068": {
+  "pos": "Noun",
+  "match": "tea",
+  "exact": true,
+  "via": "ceai"
+ },
+ "W069": {
+  "pos": "Preposition"
+ },
+ "W070": {
+  "pos": "Verb",
+  "match": "first-person singular present indicative of avea"
+ },
+ "W071": {
+  "pos": "Verb",
+  "match": "second-person singular present indicative of avea"
+ },
+ "W072": {
+  "pos": "Verb",
+  "match": "avea"
+ },
+ "W073": {
+  "pos": "Noun",
+  "match": "dog"
+ },
+ "W074": {
+  "pos": "Noun"
+ },
+ "W075": {
+  "pos": "Noun",
+  "match": "cat"
+ },
+ "W076": {
+  "pos": "Noun"
+ },
+ "W077": {
+  "pos": "Noun",
+  "match": "horse"
+ },
+ "W078": {
+  "pos": "Noun",
+  "match": "bird"
+ },
+ "W079": {
+  "pos": "Noun",
+  "match": "fish"
+ },
+ "W080": {
+  "pos": "Noun",
+  "match": "animal"
+ },
+ "W081": {
+  "pos": "Pronoun",
+  "match": "we"
+ },
+ "W082": {
+  "pos": "Pronoun",
+  "match": "you"
+ },
+ "W083": {
+  "pos": "Pronoun",
+  "match": "they"
+ },
+ "W084": {
+  "pos": "Pronoun"
+ },
+ "W085": {
+  "pos": "Verb"
+ },
+ "W086": {
+  "pos": "Verb"
+ },
+ "W087": {
+  "pos": "Verb"
+ },
+ "W088": {
+  "pos": "Verb"
+ },
+ "W089": {
+  "pos": "Verb",
+  "match": "third-person plural present indicative of avea"
+ },
+ "W090": {
+  "pos": "Noun"
+ },
+ "W091": {
+  "pos": "Noun"
+ },
+ "W092": {
+  "pos": "Noun",
+  "match": "plural"
+ },
+ "W093": {
+  "pos": "Noun",
+  "match": "cat",
+  "via": "pisică"
+ },
+ "W094": {
+  "pos": "Noun"
+ },
+ "W095": {
+  "pos": "Noun",
+  "match": "copil"
+ },
+ "W096": {
+  "pos": "Noun"
+ },
+ "W097": {
+  "pos": "Noun",
+  "match": "apple"
+ },
+ "W098": {
+  "pos": "Noun",
+  "match": "măr"
+ },
+ "W099": {
+  "pos": "Noun",
+  "match": "apple",
+  "via": "măr"
+ },
+ "W100": {
+  "pos": "Adjective"
+ },
+ "W101": {
+  "pos": "Adjective"
+ },
+ "W102": {
+  "pos": "Adjective"
+ },
+ "W103": {
+  "pos": "Adjective"
+ },
+ "W104": {
+  "pos": "Adjective"
+ },
+ "W105": {
+  "pos": "Adjective"
+ },
+ "W106": {
+  "pos": "Adjective",
+  "match": "bad"
+ },
+ "W107": {
+  "pos": "Adverb",
+  "match": "much"
+ },
+ "W108": {
+  "pos": "Noun",
+  "match": "car"
+ },
+ "W109": {
+  "pos": "Noun"
+ },
+ "W110": {
+  "pos": "Noun",
+  "match": "telephone"
+ },
+ "W111": {
+  "pos": "Conjunction",
+  "match": "but"
+ },
+ "W112": {
+  "pos": "Adverb"
+ },
+ "W113": {
+  "pos": "Preposition"
+ },
+ "W114": {
+  "pos": "Preposition"
+ },
+ "W115": {
+  "pos": "Preposition"
+ },
+ "W116": {
+  "pos": "Preposition"
+ },
+ "W117": {
+  "pos": "Adverb"
+ },
+ "W118": {
+  "pos": "Noun",
+  "match": "kitchen"
+ },
+ "W119": {
+  "pos": "Noun",
+  "match": "kitchen",
+  "via": "bucătărie"
+ },
+ "W120": {
+  "pos": "Noun",
+  "match": "room"
+ },
+ "W121": {
+  "pos": "Noun"
+ },
+ "W122": {
+  "pos": "Noun",
+  "match": "bed"
+ },
+ "W123": {
+  "pos": "Noun",
+  "match": "garden"
+ },
+ "W124": {
+  "form_of": "locui",
+  "person": "eu"
+ },
+ "W125": {
+  "form_of": "locui",
+  "person": "tu"
+ },
+ "W126": {
+  "form_of": "locui",
+  "person": "el"
+ },
+ "W127": {
+  "pos": "Adjective"
+ },
+ "W128": {
+  "pos": "Adjective",
+  "via": "obosit"
+ },
+ "W129": {
+  "pos": "Adjective"
+ },
+ "W130": {
+  "pos": "Adjective",
+  "via": "fericit"
+ },
+ "W131": {
+  "pos": "Adjective"
+ },
+ "W132": {
+  "pos": "Adjective",
+  "via": "trist"
+ },
+ "W133": {
+  "pos": "Adjective"
+ },
+ "W134": {
+  "pos": "Adjective",
+  "via": "bolnav"
+ },
+ "W135": {
+  "pos": "Adjective",
+  "match": "busy"
+ },
+ "W136": {
+  "pos": "Adjective",
+  "match": "busy",
+  "via": "ocupat"
+ },
+ "W137": {
+  "pos": "Contraction"
+ },
+ "W138": {
+  "pos": "Contraction"
+ },
+ "W139": {
+  "pos": "Noun",
+  "match": "hunger"
+ },
+ "W140": {
+  "pos": "Noun",
+  "match": "thirst"
+ },
+ "W141": {
+  "pos": "Noun",
+  "match": "cold"
+ },
+ "W142": {
+  "pos": "Adjective"
+ },
+ "W143": {
+  "pos": "Determiner"
+ },
+ "W144": {
+  "pos": "Determiner"
+ },
+ "W145": {
+  "pos": "Determiner"
+ },
+ "W146": {
+  "pos": "Determiner"
+ },
+ "W147": {
+  "pos": "Determiner"
+ },
+ "W148": {
+  "pos": "Determiner"
+ },
+ "W149": {
+  "pos": "Noun"
+ },
+ "W150": {
+  "pos": "Noun"
+ },
+ "W151": {
+  "pos": "Noun"
+ },
+ "W152": {
+  "pos": "Noun"
+ },
+ "W153": {
+  "pos": "Noun"
+ },
+ "W154": {
+  "pos": "Noun"
+ },
+ "W155": {
+  "pos": "Noun"
+ },
+ "W156": {
+  "pos": "Noun"
+ },
+ "W157": {
+  "pos": "Pronoun",
+  "match": "who"
+ },
+ "W158": {
+  "pos": "Adverb"
+ },
+ "W159": {
+  "pos": "Adverb"
+ },
+ "W160": {
+  "pos": "Adverb"
+ },
+ "W161": {
+  "pos": "Pronoun",
+  "match": "which"
+ },
+ "W162": {
+  "pos": "Conjunction"
+ },
+ "W163": {
+  "pos": "Verb"
+ },
+ "W164": {
+  "pos": "Verb"
+ },
+ "W165": {
+  "pos": "Verb"
+ },
+ "W166": {
+  "pos": "Numeral"
+ },
+ "W167": {
+  "pos": "Numeral"
+ },
+ "W168": {
+  "pos": "Numeral"
+ },
+ "W169": {
+  "pos": "Numeral"
+ },
+ "W170": {
+  "pos": "Numeral"
+ },
+ "W171": {
+  "pos": "Numeral"
+ },
+ "W172": {
+  "pos": "Numeral"
+ },
+ "W173": {
+  "pos": "Numeral"
+ },
+ "W174": {
+  "pos": "Numeral"
+ },
+ "W175": {
+  "pos": "Numeral"
+ },
+ "W176": {
+  "pos": "Numeral"
+ },
+ "W177": {
+  "pos": "Noun"
+ },
+ "W178": {
+  "pos": "Adjective"
+ },
+ "W179": {
+  "pos": "Adjective"
+ },
+ "W180": {
+  "pos": "Adjective"
+ },
+ "W181": {
+  "pos": "Adjective"
+ },
+ "W182": {
+  "pos": "Adjective"
+ },
+ "W183": {
+  "pos": "Adjective"
+ },
+ "W184": {
+  "pos": "Adjective"
+ },
+ "W185": {
+  "pos": "Adjective"
+ },
+ "W186": {
+  "pos": "Adjective"
+ },
+ "W187": {
+  "pos": "Adjective"
+ },
+ "W188": {
+  "pos": "Adjective"
+ },
+ "W189": {
+  "pos": "Adjective"
+ },
+ "W190": {
+  "pos": "Noun",
+  "match": "color"
+ },
+ "W191": {
+  "pos": "Noun"
+ },
+ "W192": {
+  "pos": "Adverb"
+ },
+ "W193": {
+  "pos": "Adverb"
+ },
+ "W194": {
+  "pos": "Adverb"
+ },
+ "W195": {
+  "pos": "Adverb"
+ },
+ "W196": {
+  "pos": "Noun",
+  "match": "day"
+ },
+ "W197": {
+  "pos": "Noun",
+  "match": "week"
+ },
+ "W198": {
+  "pos": "Noun"
+ },
+ "W199": {
+  "pos": "Noun",
+  "match": "Monday"
+ },
+ "W200": {
+  "pos": "Noun",
+  "match": "Friday"
+ },
+ "W201": {
+  "pos": "Noun",
+  "match": "Saturday"
+ },
+ "W202": {
+  "pos": "Noun",
+  "match": "Sunday"
+ },
+ "W203": {
+  "pos": "Adverb",
+  "match": "late"
+ },
+ "W204": {
+  "pos": "Adverb"
+ },
+ "W205": {
+  "pos": "Verb"
+ },
+ "W206": {
+  "pos": "Verb"
+ },
+ "W207": {
+  "form_of": "merge",
+  "person": "el"
+ },
+ "W208": {
+  "pos": "Verb"
+ },
+ "W209": {
+  "pos": "Preposition"
+ },
+ "W210": {
+  "pos": "Noun",
+  "match": "school"
+ },
+ "W211": {
+  "pos": "Noun",
+  "match": "park"
+ },
+ "W212": {
+  "pos": "Noun",
+  "match": "shop"
+ },
+ "W213": {
+  "pos": "Noun",
+  "match": "city"
+ },
+ "W214": {
+  "pos": "Adverb"
+ },
+ "W215": {
+  "pos": "Verb"
+ },
+ "W216": {
+  "pos": "Verb"
+ },
+ "W217": {
+  "form_of": "vrea",
+  "person": "el"
+ },
+ "W701": {
+  "pos": "Verb"
+ },
+ "W702": {
+  "pos": "Verb"
+ },
+ "W703": {
+  "pos": "Adverb"
+ },
+ "W704": {
+  "pos": "Adverb",
+  "match": "more"
+ },
+ "W705": {
+  "pos": "Verb",
+  "via": "repeta",
+  "match": "say again"
+ },
+ "W706": {
+  "pos": "Verb"
+ },
+ "W707": {
+  "pos": "Verb"
+ },
+ "W708": {
+  "pos": "Verb"
+ },
+ "W709": {
+  "pos": "Verb"
+ },
+ "W710": {
+  "pos": "Pronoun"
+ },
+ "W711": {
+  "form_of": "spune",
+  "person": "el"
+ },
+ "W712": {
+  "form_of": "însemna",
+  "person": "el"
+ },
+ "W713": {
+  "pos": "Noun",
+  "match": "word"
+ },
+ "W714": {
+  "pos": "Noun"
+ },
+ "W715": {
+  "pos": "Noun",
+  "match": "Romanian language"
+ },
+ "W716": {
+  "pos": "Noun",
+  "match": "English"
+ },
+ "W717": {
+  "pos": "Verb"
+ },
+ "W718": {
+  "pos": "Noun",
+  "match": "thing"
+ },
+ "W719": {
+  "pos": "Preposition"
+ },
+ "W720": {
+  "pos": "Verb"
+ },
+ "W1001": {
+  "pos": "Noun",
+  "match": "eye"
+ },
+ "W1002": {
+  "pos": "Noun"
+ },
+ "W1003": {
+  "pos": "Noun",
+  "match": "hair"
+ },
+ "W1004": {
+  "pos": "Noun"
+ },
+ "W1005": {
+  "pos": "Noun",
+  "match": "hand"
+ },
+ "W1006": {
+  "pos": "Noun",
+  "match": "definite"
+ },
+ "W1007": {
+  "pos": "Noun",
+  "match": "head"
+ },
+ "W1008": {
+  "pos": "Noun"
+ },
+ "W1009": {
+  "pos": "Noun",
+  "match": "nose"
+ },
+ "W1010": {
+  "pos": "Noun",
+  "match": "mouth"
+ },
+ "W1011": {
+  "pos": "Pronoun"
+ },
+ "W1012": {
+  "pos": "Verb"
+ },
+ "W1013": {
+  "pos": "Adjective"
+ },
+ "W1014": {
+  "pos": "Adjective"
+ },
+ "W1015": {
+  "pos": "Adjective"
+ },
+ "W1016": {
+  "pos": "Adjective"
+ },
+ "W1017": {
+  "pos": "Noun",
+  "match": "music"
+ },
+ "W1018": {
+  "pos": "Noun",
+  "match": "music",
+  "via": "muzică"
+ },
+ "W1019": {
+  "pos": "Noun",
+  "match": "movie"
+ },
+ "W1020": {
+  "pos": "Noun"
+ },
+ "W1021": {
+  "pos": "Noun",
+  "match": "football"
+ },
+ "W1022": {
+  "pos": "Verb"
+ },
+ "W1023": {
+  "pos": "Verb"
+ },
+ "W1024": {
+  "pos": "Verb"
+ },
+ "W1025": {
+  "pos": "Verb"
+ },
+ "W1026": {
+  "pos": "Verb"
+ },
+ "W1027": {
+  "pos": "Verb"
+ },
+ "W1028": {
+  "pos": "Verb"
+ },
+ "W1029": {
+  "pos": "Conjunction"
+ },
+ "W1030": {
+  "pos": "Noun",
+  "match": "museum"
+ },
+ "W1031": {
+  "pos": "Noun",
+  "match": "church"
+ },
+ "W1032": {
+  "pos": "Noun",
+  "match": "hotel"
+ },
+ "W1033": {
+  "pos": "Noun",
+  "match": "station"
+ },
+ "W1034": {
+  "pos": "Noun",
+  "match": "definite"
+ },
+ "W1035": {
+  "pos": "Noun",
+  "match": "bus"
+ },
+ "W1036": {
+  "pos": "Noun"
+ },
+ "W1037": {
+  "pos": "Noun",
+  "match": "train"
+ },
+ "W1038": {
+  "pos": "Noun"
+ },
+ "W1039": {
+  "pos": "Noun",
+  "match": "taxi"
+ },
+ "W1040": {
+  "pos": "Noun",
+  "match": "hospital"
+ },
+ "W1041": {
+  "pos": "Adverb"
+ },
+ "W1042": {
+  "pos": "Adverb"
+ }
+}

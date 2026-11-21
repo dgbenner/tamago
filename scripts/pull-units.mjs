@@ -51,10 +51,12 @@ const NAMES = new Set([...raw('sentence_words').filter((r) => r.notes === 'name'
 const checkedWords = JSON.parse(readFileSync(at('content/checks/words.json'), 'utf8'))
 const POS = new Map(checkedWords.map((w) => [w.word_id, w.part_of_speech]))
 // A noun's meaning in this course, from Wiktionary: the first sense, or the lemma's for a plural.
+// Romanian (2026-11-21): a definite form (mama, câinele) is a form-of entry, "definite … singular of mamă"; its meaning
+// is its lemma's gloss, as for a plural.
 const IRREGULAR = { man: 'men', woman: 'women', child: 'children', mouse: 'mice' }
 // Every alternative Wiktionary gives counts ("movie, film"; "color/colour"; "physician; doctor"), not only the first.
 const nounMeaning = new Map(checkedWords.filter((w) => w.part_of_speech === 'Noun').map((w) => {
-  const g = (/\bplural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))
+  const g = (/\bplural of /.test(w.gloss) || (COURSE === 'ro' && w.lemma_gloss && w.lemma !== w.form) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))
   // The word's hint counts too (2026-11-10: German Katze is "house cat" on Wiktionary, and the English says cat).
   const hint = String(DECISIONS.hints?.[w.word_id] ?? DECISIONS.claude_hints?.[w.word_id]?.hint ?? '').replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase()).filter((x) => /^[a-z' -]+$/.test(x))
   return [w.word_id, [...g, ...hint]]

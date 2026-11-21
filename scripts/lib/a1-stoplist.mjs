@@ -54,6 +54,18 @@ const BY_COURSE = {
   // åt …), web-page leftovers and parliamentary register. Everyday words the corpus over-represents (land, fråga, krona)
   // stay. Part 4 gather (2026-11-21): som att (a tagger multiword, not a unit of its own), dom (the spoken spelling of
   // de and dem; its noun is the court's verdict), bildning (formal cultivation, beside utbildning) and mission.
+  // Romanian (2026-11-21, Builder 2, Part 1 gather): the hermitdave list is subtitles too. Subtitle leftovers: interjections
+  // and fillers that aren't words of the language (oh, hei, uh, ah, ok, super), abbreviations (dl, dle, d-le, dna, dr,
+  // dvs), stray letters (i, s, l, m), English words and names (new, york, sam, michael, charlie, frank, george, david,
+  // mike, joe, max, tom), dolari; oaths (naiba, naibii, dracu, dracului, rahat, dumnezeu, dumnezeule, doamne);
+  // violence (ucis, ucide, omorât, omoare, omor, arma, armă, arme, sânge, moarte, moartea, mort, murit, muri, mor,
+  // război, crimă, droguri, închisoare, lovit, luptă). Everyday words subtitles over-represent (poliția, accident,
+  // pericol, iubito) stay.
+  ro: {
+    subtitle: ['oh', 'hei', 'uh', 'ah', 'ok', 'super', 'dl', 'dle', 'd-le', 'dna', 'dr', 'dvs', 'i', 's', 'l', 'm', 'new', 'york', 'sam', 'michael', 'charlie', 'frank', 'george', 'david', 'mike', 'joe', 'max', 'tom', 'dolari'],
+    oath: ['naiba', 'naibii', 'dracu', 'dracului', 'rahat', 'dumnezeu', 'dumnezeule', 'doamne'],
+    violence: ['ucis', 'ucide', 'omorât', 'omoare', 'omor', 'arma', 'armă', 'arme', 'sânge', 'moarte', 'moartea', 'mort', 'murit', 'muri', 'mor', 'război', 'crimă', 'droguri', 'închisoare', 'lovit', 'luptă'],
+  },
   sv: {
     artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta', 'peng', 'som att'],
     subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg', 'kl.', 'dom'],

@@ -59,6 +59,13 @@ export const HELP = {
     U32: { grammar: 'Hvordan sier du…? Hva betyr…? Ordet på norsk', words: ['betyr', 'ord', 'norsk', 'engelsk'], borrow: ['hva', 'på'] },
     U33: { grammar: 'Jeg leter etter ordet…; det er en ting å…; jeg vet ikke', words: ['leter', 'etter', 'ting', 'vet', 'heter'], borrow: ['å'] },
   },
+  // Romanian (2026-11-21, branch content/ro-a1): tu throughout, so repetă and vorbește are the tu imperatives; știu
+  // and cum come from main circles later in the path (U11), so U33 borrows them.
+  ro: {
+    U31: { grammar: 'Nu înțeleg; mai încet, te rog; poți repeta?', words: ['înțeleg', 'înțelegi', 'încet', 'mai', 'repetă', 'poți', 'repeta', 'vorbește', 'vorbești'], borrow: ['te rog'] },
+    U32: { grammar: 'Cum se spune…? Ce înseamnă…? Cuvântul în română', words: ['se', 'spune', 'înseamnă', 'cuvânt', 'cuvântul', 'română', 'engleză'], borrow: ['cum', 'în'] },
+    U33: { grammar: 'Caut cuvântul…; e un lucru pentru…; nu știu', words: ['caut', 'lucru', 'pentru', 'numește'], borrow: ['știu', 'cum'] },
+  },
 }
 
 // "I can" statements, written for the CEFR self-assessment grid's A1 spoken interaction row, which is this thread:
@@ -99,7 +106,7 @@ export function addHelpCircles(wb, XLSX, lang) {
 
   const words = sheet('words').filter((w) => !/^W7\d\d$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
-  const section = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', sv: 'Swedish' }[lang]
+  const section = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', sv: 'Swedish', ro: 'Romanian' }[lang]
   let n = 701
   for (const h of HELP_ROWS) for (const form of spec[h.unit_id].words) {
     if (taken.has(form)) throw new Error(`${h.unit_id}: ${form} is already in the course`)

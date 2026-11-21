@@ -108,6 +108,20 @@ export const VOCAB_PART1 = {
       words: ['museum', 'kirke', 'hotell', 'stasjon', 'buss', 'tog', 'taxi', 'strand', 'sykehus', 'torg', 'nær', 'langt'],
       cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
   ],
+  // Romanian (2026-11-21): Free Time from row 5 (îmi place să + a verb, whose first and second persons are the same
+  // forms as the present); Around Town from row 7 (unde este, cu autobuzul); body words come last, as for the others,
+  // with mă doare (my … hurts) beside the features.
+  ro: [
+    { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Are ochii mari: a avea for features, with the article; mă doare capul for what hurts; înalt, înaltă, mari: adjectives agree',
+      words: ['ochi', 'ochii', 'păr', 'părul', 'mână', 'mâna', 'cap', 'capul', 'nas', 'gură', 'mă', 'doare', 'lung', 'înalt', 'înaltă', 'mari'],
+      cando: ['speaking', 'Spoken production', 'I can describe a person simply: their hair, their eyes, what they are like.'] },
+    { unit_id: 'U52', order: 7.2, row: 5, title: 'Free Time', grammar: 'Îmi place să citesc: îmi place să and a verb; citesc, citești, citește; joc fotbal',
+      words: ['muzică', 'muzica', 'film', 'filmul', 'fotbal', 'joc', 'joacă', 'citesc', 'citești', 'citește', 'înot', 'dansez', 'să'],
+      cando: ['speaking', 'Spoken production', 'I can say what I like doing in my free time.'] },
+    { unit_id: 'U53', order: 11.2, row: 7, title: 'Around Town', grammar: 'Unde este…? gara, muzeul; cu autobuzul, cu trenul for how you travel; aproape and departe',
+      words: ['muzeu', 'biserică', 'hotel', 'gară', 'gara', 'autobuz', 'autobuzul', 'tren', 'trenul', 'taxi', 'spital', 'aproape', 'departe'],
+      cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
+  ],
 }
 export const SLOTS_PART1 = [{ slot_id: 'C01', part: 1, after_row: 5 }, { slot_id: 'C02', part: 1, after_row: 7 }]
 
@@ -140,7 +154,7 @@ if (process.argv[1] === import.meta.filename) {
   const words = sheet('words').filter((w) => !/^W1\d{3}$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
   const keys = Object.keys(words[0])
-  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', nl: 'Dutch', sv: 'Swedish', da: 'Danish', no: 'Norwegian' }[COURSE]
+  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', nl: 'Dutch', sv: 'Swedish', da: 'Danish', no: 'Norwegian', ro: 'Romanian' }[COURSE]
   let n = 1001
   for (const u of V) for (const form of u.words) {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)

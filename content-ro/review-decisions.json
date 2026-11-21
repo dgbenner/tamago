@@ -1,0 +1,54 @@
+{
+ "_about": "Romanian course review decisions (Builder 2, 2026-11-21, branch content/ro-a1; Part 1 gathered for review, no unit approvals yet). units: circle approvals (none: Dan and Fable decide). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword, taken from that headword's page (corrections need gender_corrections with a why). names: people and places allowed in sentences. sentences/cut_sentences/claude_hints/accepted_additions as the review needs.",
+ "sentences": {},
+ "accepted_answers": {},
+ "units": {},
+ "cut_sentences": {},
+ "vocabulary_additions": [],
+ "hints": {},
+ "claude_hints": {
+  "W096": {
+   "hint": "people",
+   "source": "Wiktionary, oameni: \"plural of om; people\""
+  }
+ },
+ "names": [
+  "Tom",
+  "Mary",
+  "Maria",
+  "Ana",
+  "Ion",
+  "Elena",
+  "Andrei",
+  "București",
+  "Londra",
+  "Paris"
+ ],
+ "gender": {
+  "W027": "f",
+  "W032": "f",
+  "W035": "f",
+  "W063": "f",
+  "W066": "f",
+  "W074": "m",
+  "W076": "f",
+  "W090": "m",
+  "W091": "m",
+  "W092": "f",
+  "W109": "f",
+  "W149": "f",
+  "W151": "m",
+  "W156": "n",
+  "W177": "m",
+  "W198": "f",
+  "W1002": "m",
+  "W1004": "m",
+  "W1006": "f",
+  "W1020": "n",
+  "W1034": "f",
+  "W1036": "n",
+  "W1038": "n"
+ },
+ "accepted_additions": [],
+ "_gender": "Each gender here is a definite or plural form whose Wiktionary page is a form-of entry with no gender on its headword; the gender is the one on its lemma's own Romanian headword, {{ro-noun|m|f|n…}} (casă f, ușă f, fată f, apă f, cafea f, câine m, pisică f, mașină f, mamă f, frate m, nume n, an m, săptămână f, ochi m, păr m, mână f, film n, gară f, autobuz n, tren n), read 2026-11-21."
+}

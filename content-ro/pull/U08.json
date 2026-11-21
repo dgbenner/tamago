@@ -1,0 +1,862 @@
+{
+  "unit_id": "U08",
+  "pulled_at": "2026-11-21",
+  "candidates": 20,
+  "sentences": [
+    {
+      "sentence_id": "S8001",
+      "unit_id": "U08",
+      "french": "Suntem în grădină.",
+      "english": "We're in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12840722",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8002",
+      "unit_id": "U08",
+      "french": "Eu locuiesc în București.",
+      "english": "I live in Bucharest.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2650877",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8003",
+      "unit_id": "U08",
+      "french": "Pe aici.",
+      "english": "This way.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4913526",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8004",
+      "unit_id": "U08",
+      "french": "Ei sunt în bucătărie.",
+      "english": "They are in the kitchen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5120294",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8005",
+      "unit_id": "U08",
+      "french": "Unde locuiește?",
+      "english": "Where does he live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3774294",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": [
+        "Where does she live?"
+      ]
+    },
+    {
+      "sentence_id": "S8006",
+      "unit_id": "U08",
+      "french": "Da, este acolo.",
+      "english": "Yes, it's over there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8872494",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8007",
+      "unit_id": "U08",
+      "french": "Pisica este sub masă.",
+      "english": "The cat is under the table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2639122",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8008",
+      "unit_id": "U08",
+      "french": "Cartea e pe masă.",
+      "english": "The book is on the table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4992558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8009",
+      "unit_id": "U08",
+      "french": "Pisica e sub masă.",
+      "english": "The cat is under the table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5189789",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8010",
+      "unit_id": "U08",
+      "french": "Pisica este în bucătărie.",
+      "english": "The cat is in the kitchen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9366054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8011",
+      "unit_id": "U08",
+      "french": "Unde sunt?",
+      "english": "Where are they?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3491794",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": [
+        "Where am I?"
+      ]
+    },
+    {
+      "sentence_id": "S8012",
+      "unit_id": "U08",
+      "french": "Unde ești?",
+      "english": "Where are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3582442",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8013",
+      "unit_id": "U08",
+      "french": "Acesta este un pat.",
+      "english": "This is a bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2634963",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8014",
+      "unit_id": "U08",
+      "french": "Ea locuiește cu el.",
+      "english": "She lives with him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5196787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8015",
+      "unit_id": "U08",
+      "french": "Tom nu locuiește cu Mary.",
+      "english": "Tom doesn't live with Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5245176",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8016",
+      "unit_id": "U08",
+      "french": "Ești în Paris?",
+      "english": "Are you in Paris?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10903501",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8017",
+      "unit_id": "U08",
+      "french": "Unde sunteți?",
+      "english": "Where are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5676824",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8018",
+      "unit_id": "U08",
+      "french": "Unde este Tom?",
+      "english": "Where's Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3697814",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "radubradu",
+      "other_english": [
+        "Where is Tom?"
+      ]
+    },
+    {
+      "sentence_id": "S8019",
+      "unit_id": "U08",
+      "french": "Unde este Paris?",
+      "english": "Where is Paris?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10270893",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8020",
+      "unit_id": "U08",
+      "french": "Suntem în casă.",
+      "english": "We're in the house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6732258",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S8001",
+      "position": 1,
+      "surface": "Suntem",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 2,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 3,
+      "surface": "grădină",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 2,
+      "surface": "locuiesc",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 3,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 4,
+      "surface": "București",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 1,
+      "surface": "Pe",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 2,
+      "surface": "aici",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 1,
+      "surface": "Ei",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 2,
+      "surface": "sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 3,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 4,
+      "surface": "bucătărie",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8005",
+      "position": 1,
+      "surface": "Unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8005",
+      "position": 2,
+      "surface": "locuiește",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 1,
+      "surface": "Da",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 3,
+      "surface": "acolo",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 1,
+      "surface": "Pisica",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 3,
+      "surface": "sub",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 4,
+      "surface": "masă",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8008",
+      "position": 1,
+      "surface": "Cartea",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8008",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8008",
+      "position": 3,
+      "surface": "pe",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8008",
+      "position": 4,
+      "surface": "masă",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 1,
+      "surface": "Pisica",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 3,
+      "surface": "sub",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 4,
+      "surface": "masă",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8010",
+      "position": 1,
+      "surface": "Pisica",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8010",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8010",
+      "position": 3,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8010",
+      "position": 4,
+      "surface": "bucătărie",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8011",
+      "position": 1,
+      "surface": "Unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8011",
+      "position": 2,
+      "surface": "sunt",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8012",
+      "position": 1,
+      "surface": "Unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8012",
+      "position": 2,
+      "surface": "ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 1,
+      "surface": "Acesta",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 4,
+      "surface": "pat",
+      "word_id": "W122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 1,
+      "surface": "Ea",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 2,
+      "surface": "locuiește",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 3,
+      "surface": "cu",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 3,
+      "surface": "locuiește",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 4,
+      "surface": "cu",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 5,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8016",
+      "position": 1,
+      "surface": "Ești",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8016",
+      "position": 2,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8016",
+      "position": 3,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8017",
+      "position": 1,
+      "surface": "Unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8017",
+      "position": 2,
+      "surface": "sunteți",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8018",
+      "position": 1,
+      "surface": "Unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8018",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8018",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 1,
+      "surface": "Unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 3,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8020",
+      "position": 1,
+      "surface": "Suntem",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8020",
+      "position": 2,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8020",
+      "position": 3,
+      "surface": "casă",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A80051",
+      "sentence_id": "S8005",
+      "direction": "fr_to_en",
+      "answer": "Where does she live?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80111",
+      "sentence_id": "S8011",
+      "direction": "fr_to_en",
+      "answer": "Where am I?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80181",
+      "sentence_id": "S8018",
+      "direction": "fr_to_en",
+      "answer": "Where is Tom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

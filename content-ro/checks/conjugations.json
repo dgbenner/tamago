@@ -1,0 +1,549 @@
+{
+  "fi": [
+    {
+      "person": "eu",
+      "form": "sunt"
+    },
+    {
+      "person": "tu",
+      "form": "ești"
+    },
+    {
+      "person": "el, ea",
+      "form": "este or e"
+    },
+    {
+      "person": "noi",
+      "form": "suntem"
+    },
+    {
+      "person": "voi",
+      "form": "sunteți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "sunt"
+    }
+  ],
+  "mulțumi": [
+    {
+      "person": "eu",
+      "form": "mulțumesc"
+    },
+    {
+      "person": "tu",
+      "form": "mulțumești"
+    },
+    {
+      "person": "el, ea",
+      "form": "mulțumește"
+    },
+    {
+      "person": "noi",
+      "form": "mulțumim"
+    },
+    {
+      "person": "voi",
+      "form": "mulțumiți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "mulțumesc"
+    }
+  ],
+  "face": [
+    {
+      "person": "eu",
+      "form": "fac"
+    },
+    {
+      "person": "tu",
+      "form": "faci"
+    },
+    {
+      "person": "el, ea",
+      "form": "face"
+    },
+    {
+      "person": "noi",
+      "form": "facem"
+    },
+    {
+      "person": "voi",
+      "form": "faceți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "fac"
+    }
+  ],
+  "mânca": [
+    {
+      "person": "eu",
+      "form": "mănânc"
+    },
+    {
+      "person": "tu",
+      "form": "mănânci"
+    },
+    {
+      "person": "el, ea",
+      "form": "mănâncă"
+    },
+    {
+      "person": "noi",
+      "form": "mâncăm"
+    },
+    {
+      "person": "voi",
+      "form": "mâncați"
+    },
+    {
+      "person": "ei, ele",
+      "form": "mănâncă"
+    }
+  ],
+  "bea": [
+    {
+      "person": "eu",
+      "form": "beau"
+    },
+    {
+      "person": "tu",
+      "form": "bei"
+    },
+    {
+      "person": "el, ea",
+      "form": "bea"
+    },
+    {
+      "person": "noi",
+      "form": "bem"
+    },
+    {
+      "person": "voi",
+      "form": "beți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "beau"
+    }
+  ],
+  "plăcea": [
+    {
+      "person": "eu",
+      "form": "plac"
+    },
+    {
+      "person": "tu",
+      "form": "placi"
+    },
+    {
+      "person": "el, ea",
+      "form": "place"
+    },
+    {
+      "person": "noi",
+      "form": "plăcem"
+    },
+    {
+      "person": "voi",
+      "form": "plăceți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "plac"
+    }
+  ],
+  "avea": [
+    {
+      "person": "eu",
+      "form": "am"
+    },
+    {
+      "person": "tu",
+      "form": "ai"
+    },
+    {
+      "person": "el, ea",
+      "form": "are"
+    },
+    {
+      "person": "noi",
+      "form": "avem"
+    },
+    {
+      "person": "voi",
+      "form": "aveți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "au"
+    }
+  ],
+  "locui": [
+    {
+      "person": "eu",
+      "form": "locuiesc"
+    },
+    {
+      "person": "tu",
+      "form": "locuiești"
+    },
+    {
+      "person": "el, ea",
+      "form": "locuiește"
+    },
+    {
+      "person": "noi",
+      "form": "locuim"
+    },
+    {
+      "person": "voi",
+      "form": "locuiți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "locuiesc"
+    }
+  ],
+  "ști": [
+    {
+      "person": "eu",
+      "form": "știu"
+    },
+    {
+      "person": "tu",
+      "form": "știi"
+    },
+    {
+      "person": "el, ea",
+      "form": "știe"
+    },
+    {
+      "person": "noi",
+      "form": "știm"
+    },
+    {
+      "person": "voi",
+      "form": "știți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "știu"
+    }
+  ],
+  "merge": [
+    {
+      "person": "eu",
+      "form": "merg"
+    },
+    {
+      "person": "tu",
+      "form": "mergi"
+    },
+    {
+      "person": "el, ea",
+      "form": "merge"
+    },
+    {
+      "person": "noi",
+      "form": "mergem"
+    },
+    {
+      "person": "voi",
+      "form": "mergeți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "merg"
+    }
+  ],
+  "vrea": [
+    {
+      "person": "eu",
+      "form": "vreau"
+    },
+    {
+      "person": "tu",
+      "form": "vrei"
+    },
+    {
+      "person": "el, ea",
+      "form": "vrea"
+    },
+    {
+      "person": "noi",
+      "form": "vrem"
+    },
+    {
+      "person": "voi",
+      "form": "vreți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "vor"
+    }
+  ],
+  "înțelege": [
+    {
+      "person": "eu",
+      "form": "înțeleg"
+    },
+    {
+      "person": "tu",
+      "form": "înțelegi"
+    },
+    {
+      "person": "el, ea",
+      "form": "înțelege"
+    },
+    {
+      "person": "noi",
+      "form": "înțelegem"
+    },
+    {
+      "person": "voi",
+      "form": "înțelegeți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "înțeleg"
+    }
+  ],
+  "putea": [
+    {
+      "person": "eu",
+      "form": "pot"
+    },
+    {
+      "person": "tu",
+      "form": "poți"
+    },
+    {
+      "person": "el, ea",
+      "form": "poate"
+    },
+    {
+      "person": "noi",
+      "form": "putem"
+    },
+    {
+      "person": "voi",
+      "form": "puteți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "pot"
+    }
+  ],
+  "vorbi": [
+    {
+      "person": "eu",
+      "form": "vorbesc"
+    },
+    {
+      "person": "tu",
+      "form": "vorbești"
+    },
+    {
+      "person": "el, ea",
+      "form": "vorbește"
+    },
+    {
+      "person": "noi",
+      "form": "vorbim"
+    },
+    {
+      "person": "voi",
+      "form": "vorbiți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "vorbesc"
+    }
+  ],
+  "însemna": [
+    {
+      "person": "eu",
+      "form": "însemn"
+    },
+    {
+      "person": "tu",
+      "form": "însemni"
+    },
+    {
+      "person": "el, ea",
+      "form": "înseamnă"
+    },
+    {
+      "person": "noi",
+      "form": "însemnăm"
+    },
+    {
+      "person": "voi",
+      "form": "însemnați"
+    },
+    {
+      "person": "ei, ele",
+      "form": "înseamnă"
+    }
+  ],
+  "căuta": [
+    {
+      "person": "eu",
+      "form": "caut"
+    },
+    {
+      "person": "tu",
+      "form": "cauți"
+    },
+    {
+      "person": "el, ea",
+      "form": "caută"
+    },
+    {
+      "person": "noi",
+      "form": "căutăm"
+    },
+    {
+      "person": "voi",
+      "form": "căutați"
+    },
+    {
+      "person": "ei, ele",
+      "form": "caută"
+    }
+  ],
+  "numi": [
+    {
+      "person": "eu",
+      "form": "numesc"
+    },
+    {
+      "person": "tu",
+      "form": "numești"
+    },
+    {
+      "person": "el, ea",
+      "form": "numește"
+    },
+    {
+      "person": "noi",
+      "form": "numim"
+    },
+    {
+      "person": "voi",
+      "form": "numiți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "numesc"
+    }
+  ],
+  "durea": null,
+  "juca": [
+    {
+      "person": "eu",
+      "form": "joc"
+    },
+    {
+      "person": "tu",
+      "form": "joci"
+    },
+    {
+      "person": "el, ea",
+      "form": "joacă"
+    },
+    {
+      "person": "noi",
+      "form": "jucăm"
+    },
+    {
+      "person": "voi",
+      "form": "jucați"
+    },
+    {
+      "person": "ei, ele",
+      "form": "joacă"
+    }
+  ],
+  "citi": [
+    {
+      "person": "eu",
+      "form": "citesc"
+    },
+    {
+      "person": "tu",
+      "form": "citești"
+    },
+    {
+      "person": "el, ea",
+      "form": "citește"
+    },
+    {
+      "person": "noi",
+      "form": "citim"
+    },
+    {
+      "person": "voi",
+      "form": "citiți"
+    },
+    {
+      "person": "ei, ele",
+      "form": "citesc"
+    }
+  ],
+  "înota": [
+    {
+      "person": "eu",
+      "form": "înot"
+    },
+    {
+      "person": "tu",
+      "form": "înoți"
+    },
+    {
+      "person": "el, ea",
+      "form": "înoată"
+    },
+    {
+      "person": "noi",
+      "form": "înotăm"
+    },
+    {
+      "person": "voi",
+      "form": "înotați"
+    },
+    {
+      "person": "ei, ele",
+      "form": "înoată"
+    }
+  ],
+  "dansa": [
+    {
+      "person": "eu",
+      "form": "dansez"
+    },
+    {
+      "person": "tu",
+      "form": "dansezi"
+    },
+    {
+      "person": "el, ea",
+      "form": "dansează"
+    },
+    {
+      "person": "noi",
+      "form": "dansăm"
+    },
+    {
+      "person": "voi",
+      "form": "dansați"
+    },
+    {
+      "person": "ei, ele",
+      "form": "dansează"
+    }
+  ]
+}

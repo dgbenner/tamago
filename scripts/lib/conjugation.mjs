@@ -166,4 +166,26 @@ async function swedish() { return null }
 // the same outcome as a verb whose table the other courses can't parse (null), which the pipeline already handles.
 async function norwegian() { return null }
 
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish, da: async () => null, no: norwegian }[COURSE]
+// Romanian (2026-11-21, branch content/ro-a1): the verb page's own conjugation template ({{ro-conj-a|…}},
+// {{ro-conj-i-esc}} with no parameters, rendered under the verb's own title, {{ro-conj|type=4|fi|…}} for the irregulars), as written in its Romanian section; never a bare
+// template. The table's indicative row names the persons (eu, tu, el/ea, noi, voi, ei/ele; some templates put an empty
+// cell first) and the next row is the present. A cell with two forms ("este , e") keeps both, joined by "or" as the
+// other courses' tables do. Romanian verb pages are titled by the bare infinitive (mânca, not a mânca).
+async function romanian(lemma) {
+  const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
+  const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
+  // ro-conj-aux rows (avea's am/ai/a for the past, vrea's voi/vei/va for the future) are the auxiliary, not the verb.
+  const template = section.match(/\{\{ro-conj(?!-aux)(?:-[a-z0-9-]+)?(?:\s*\|(?:[^{}]|\{\{[^{}]*\}\})*)?\}\}/)?.[0]
+  if (!template) return null
+  const rows = tableRows(await render(lemma, template))
+  const at = rows.findIndex((row) => row[0] === 'indicative' && row.includes('eu'))
+  const row = rows[at + 1]
+  if (at < 0 || row?.[0] !== 'present') return null
+  const cells = row.slice(1).map((c) => c.replace(/&#8212;|&mdash;/g, '—')).filter((c) => c !== '')
+  if (cells.length !== 6) return null
+  const form = (c) => c.split(/\s*,\s*/).map((x) => x.replace(/\s+\d+$/, '').trim()).filter(Boolean).join(' or ')
+  const out = ['eu', 'tu', 'el, ea', 'noi', 'voi', 'ei, ele'].map((person, i) => ({ person, form: form(cells[i]) }))
+  return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
+}
+
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish, da: async () => null, no: norwegian, ro: romanian }[COURSE]

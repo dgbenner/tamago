@@ -1,0 +1,436 @@
+{
+  "unit_id": "U53",
+  "pulled_at": "2026-11-21",
+  "candidates": 9,
+  "sentences": [
+    {
+      "sentence_id": "S53001",
+      "unit_id": "U53",
+      "french": "E departe?",
+      "english": "Is it far?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8573974",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": [
+        "Is it far away?"
+      ]
+    },
+    {
+      "sentence_id": "S53002",
+      "unit_id": "U53",
+      "french": "Când ai trenul?",
+      "english": "What time is your train?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6589558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53003",
+      "unit_id": "U53",
+      "french": "Unde este gara?",
+      "english": "Where's the train station?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8190801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": [
+        "Where is the train station?"
+      ]
+    },
+    {
+      "sentence_id": "S53004",
+      "unit_id": "U53",
+      "french": "Este foarte departe.",
+      "english": "It's very far away.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6581847",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53005",
+      "unit_id": "U53",
+      "french": "Tom este departe.",
+      "english": "Tom is far away.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8567537",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53006",
+      "unit_id": "U53",
+      "french": "El este în spital.",
+      "english": "He is in hospital.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8746439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": [
+        "He's in the hospital.",
+        "He is in the hospital."
+      ]
+    },
+    {
+      "sentence_id": "S53007",
+      "unit_id": "U53",
+      "french": "Nu este un spital.",
+      "english": "It isn't a hospital.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8962655",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CataG",
+      "other_english": [
+        "It's not a hospital."
+      ]
+    },
+    {
+      "sentence_id": "S53008",
+      "unit_id": "U53",
+      "french": "Tom nu este în autobuz.",
+      "english": "Tom isn't on the bus.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8979835",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "elenacristina260",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53009",
+      "unit_id": "U53",
+      "french": "El e departe.",
+      "english": "He's far away.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8585031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fathe",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S53001",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 2,
+      "surface": "departe",
+      "word_id": "W1042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 1,
+      "surface": "Când",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 3,
+      "surface": "trenul",
+      "word_id": "W1038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 1,
+      "surface": "Unde",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 3,
+      "surface": "gara",
+      "word_id": "W1034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 2,
+      "surface": "foarte",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 3,
+      "surface": "departe",
+      "word_id": "W1042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 3,
+      "surface": "departe",
+      "word_id": "W1042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 3,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 4,
+      "surface": "spital",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 1,
+      "surface": "Nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 4,
+      "surface": "spital",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 2,
+      "surface": "nu",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 4,
+      "surface": "în",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 5,
+      "surface": "autobuz",
+      "word_id": "W1035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 3,
+      "surface": "departe",
+      "word_id": "W1042",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A530011",
+      "sentence_id": "S53001",
+      "direction": "fr_to_en",
+      "answer": "Is it far away?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530031",
+      "sentence_id": "S53003",
+      "direction": "fr_to_en",
+      "answer": "Where is the train station?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530061",
+      "sentence_id": "S53006",
+      "direction": "fr_to_en",
+      "answer": "He's in the hospital.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530062",
+      "sentence_id": "S53006",
+      "direction": "fr_to_en",
+      "answer": "He is in the hospital.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530071",
+      "sentence_id": "S53007",
+      "direction": "fr_to_en",
+      "answer": "It's not a hospital.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
