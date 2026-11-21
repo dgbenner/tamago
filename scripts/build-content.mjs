@@ -8,6 +8,7 @@ import { normaliseFile } from './lib/loudness.mjs'
 import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 import { equivalentAnswers } from './lib/equivalents.mjs'
 import { usSpellingRows } from './lib/us-spelling.mjs'
+import { applyStoplist } from './lib/a1-stoplist.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
 // Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
 const LL = `LL-${C.linguaLibre.qid} (${C.linguaLibre.iso})`
@@ -205,7 +206,15 @@ tables.image_set = [IMAGE_SET]
 {
   const f = at('content/a1-list.json')
   const l = existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : null
-  tables.a1_list = l ? [{ source: l.source, license: l.license ?? '', citation: l.citation ?? '', words: l.words }] : []
+  // The shared stoplist (scripts/lib/a1-stoplist.mjs; Dan, 2026-11-20) drops oaths, slurs, violence, subtitle leftovers
+  // and official register before the list ships, so they never count toward A1; what it drops is logged, not asked.
+  const { kept, dropped } = l ? applyStoplist(C.id, l.words) : { kept: [], dropped: [] }
+  tables.a1_list = l ? [{ source: l.source, license: l.license ?? '', citation: l.citation ?? '', words: kept }] : []
+  const droppedFile = at('content/a1-dropped.json')
+  if (dropped.length) {
+    writeFileSync(droppedFile, JSON.stringify({ _about: 'Written by build-content: the A1 list words the shared stoplist (scripts/lib/a1-stoplist.mjs) leaves out of this course\'s shipped list and target. Do not edit; change the stoplist.', dropped }, null, 2) + '\n')
+    console.log(`A1 stoplist: ${dropped.length} of ${l.words.length} list words dropped (${dropped.map((d) => d.word).join(', ')})`)
+  } else if (existsSync(droppedFile)) rmSync(droppedFile)
 }
 
 // Recordings.

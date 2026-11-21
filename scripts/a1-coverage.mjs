@@ -4,6 +4,7 @@
 // dates are measured on their own. Writes nothing; prints a report.
 // Usage: COURSE=de node scripts/a1-coverage.mjs [--missing]
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
+import { stoplistFor } from './lib/a1-stoplist.mjs'
 import { at, COURSE } from './lib/course.mjs'
 import { REGIONAL as REGIONAL_TWINS } from '../src/lib/regional.js'
 
@@ -132,6 +133,10 @@ const THEMES = {
 // Kelly's legal and administrative words. Both numbers are reported: the list as written, and the target without them.
 const excludeFile = at('content/a1-exclude.json')
 const EXCLUDE = new Set(existsSync(excludeFile) ? JSON.parse(readFileSync(excludeFile, 'utf8')).words.map((x) => fold(x.word)) : [])
+// Plus the shared stoplist (scripts/lib/a1-stoplist.mjs; Dan, 2026-11-20): oaths, slurs, violence, subtitle leftovers and
+// official register never count toward the target, for every course.
+for (const w of stoplistFor(COURSE).keys()) EXCLUDE.add(fold(w))
+const hasExcluded = (ws) => ws.some((w) => EXCLUDE.has(fold(w)))
 const target = (ws) => ws.filter((w) => !EXCLUDE.has(fold(w)))
 
 const pct = (a, b) => (b ? `${Math.round((a * 100) / b)}%` : '–')
@@ -142,7 +147,7 @@ if (list) {
   console.log(`A1 list: ${list.words.length} words (${list.source.split(',')[0]})`)
   console.log(`  taught anywhere: ${all.taught} (${pct(all.taught, all.total)}); in 3+ sentences: ${all.covered} (${pct(all.covered, all.total)})`)
   console.log(`  main path only (units and help circles): taught ${path.taught} (${pct(path.taught, path.total)}); in 3+ sentences: ${path.covered} (${pct(path.covered, path.total)})`)
-  if (EXCLUDE.size) { const x = measure(target(list.words)); console.log(`  without ${list.words.length - x.total} register words: taught ${x.taught} of ${x.total} (${pct(x.taught, x.total)}); in 3+ sentences ${x.covered} (${pct(x.covered, x.total)})`) }
+  if (hasExcluded(list.words)) { const x = measure(target(list.words)); console.log(`  without ${list.words.length - x.total} stoplisted or excluded words: taught ${x.taught} of ${x.total} (${pct(x.taught, x.total)}); in 3+ sentences ${x.covered} (${pct(x.covered, x.total)})`) }
   if (hasTwins) {
     const tw = measure(list.words, { keys: byKeyTwins }), twPath = measure(list.words, { pathOnly: true, keys: byKeyTwins })
     console.log(`  with regional twins (a Mexican word counts for its Spain headword): taught ${tw.taught} (${pct(tw.taught, tw.total)}); in 3+ sentences ${tw.covered} (${pct(tw.covered, tw.total)}); main path ${twPath.taught} (${pct(twPath.taught, twPath.total)})`)
@@ -151,9 +156,9 @@ if (list) {
   if (list.core) {
     const core = measure(list.core), corePath = measure(list.core, { pathOnly: true })
     console.log(`Core: the ${list.core.length} most frequent: taught ${core.taught} (${pct(core.taught, core.total)}); in 3+ sentences ${core.covered} (${pct(core.covered, core.total)}); main path ${corePath.taught} (${pct(corePath.taught, corePath.total)})`)
-    if (EXCLUDE.size) {
+    if (hasExcluded(list.core)) {
       const x = measure(target(list.core)), xPath = measure(target(list.core), { pathOnly: true })
-      console.log(`Core target without ${list.core.length - x.total} register words (a1-exclude.json): taught ${x.taught} of ${x.total} (${pct(x.taught, x.total)}); in 3+ sentences ${x.covered} (${pct(x.covered, x.total)}); main path ${xPath.taught} (${pct(xPath.taught, xPath.total)})`)
+      console.log(`Core target without ${list.core.length - x.total} stoplisted or excluded words (a1-stoplist.mjs, a1-exclude.json): taught ${x.taught} of ${x.total} (${pct(x.taught, x.total)}); in 3+ sentences ${x.covered} (${pct(x.covered, x.total)}); main path ${xPath.taught} (${pct(xPath.taught, xPath.total)})`)
       if (process.argv.includes('--missing')) console.log(`  target missing, most frequent first: ${x.missing.join(', ')}`)
     }
     if (process.argv.includes('--missing')) console.log(`  core missing, most frequent first: ${core.missing.join(', ')}`)

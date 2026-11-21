@@ -3,9 +3,13 @@
 export const norm = (s) => String(s).replace(/[’ʼ]/g, "'").replace(/[  ]/g, ' ').replace(/\s+/g, ' ').trim()
 export const loose = (s) => norm(s).toLowerCase().replace(/[.!?¿¡…,;:"«»„“”‚‘\s]+/g, ' ').trim() // ¿ ¡ for Spanish, „ “ for German
 
+// The letters a word can hold: Western European (À-ÿ, Œœ), plus Romanian (Ăă, Șș, Țț and the older cedilla forms
+// Şş, Ţţ) and Polish (Ąą, Ćć, Ęę, Łł, Ńń, Śś, Źź, Żż), so "Mulțumesc" and "Dziękuję" stay one word (Dan, 2026-11-20).
+// Nothing else is added; no course before Romanian and Polish uses these letters.
+const L = 'A-Za-zÀ-ÖØ-öø-ÿŒœĂăȘșȚțŞşŢţĄąĆćĘęŁłŃńŚśŹźŻż'
 export function tokenize(text) {
   const out = []
-  const re = /[A-Za-zÀ-ÖØ-öø-ÿŒœ]+(?:-[A-Za-zÀ-ÖØ-öø-ÿŒœ]+)*'?/g
+  const re = new RegExp(`[${L}]+(?:-[${L}]+)*'?`, 'g')
   let m
   while ((m = re.exec(norm(text)))) out.push({ text: m[0], at: m.index })
   return out
