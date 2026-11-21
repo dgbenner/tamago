@@ -1,86 +1,506 @@
 [
   {
     "unit_id": "U01",
-    "rule": "**Jag är** says who you are; **du är** says who the other person is. Both are forms of **vara**, to be, and the form **är** stays the same: **jag är**, **du är**, **han är**.\n\nA thing is an **en** word or an **ett** word: **en man**, **ett barn**. Most words are **en** words.\n\nTo say not, put **inte** after the verb: **Jag är inte Tom.**\n\n**ja** is yes, **nej** is no."
+    "rule": "**Jag är** says who you are; **du är** says who the other person is. Both are forms of **vara**, to be, and the form **är** stays the same: **jag är**, **du är**, **han är**.\n\nA thing is an **en** word or an **ett** word: **en man**, **ett barn**. Most words are **en** words.\n\nTo say not, put **inte** after the verb: **Jag är inte Tom.**\n\n**ja** is yes, **nej** is no.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U31",
-    "rule": "To say you didn't understand: **Jag förstår inte.**\n\nTo ask for it slower: **Långsammare, tack.**\n\nTo hear it again: **En gång till.**"
+    "rule": "To say you didn't understand: **Jag förstår inte.**\n\nTo ask for it slower: **Långsammare, tack.**\n\nTo hear it again: **En gång till.**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U02",
-    "rule": "Every noun is an **en** word or an **ett** word: **en bok**, **ett hus**.\n\nTo say the, Swedish adds the ending on the word: **en bok → boken**, **ett hus → huset**.\n\n**han** is he, **hon** is she. **den** stands for an **en** word and **det** for an **ett** word."
+    "rule": "Every noun is an **en** word or an **ett** word: **en bok**, **ett hus**.\n\nTo say the, Swedish adds the ending on the word: **en bok → boken**, **ett hus → huset**.\n\n**han** is he, **hon** is she. **den** stands for an **en** word and **det** for an **ett** word.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U03",
-    "rule": "**tack** is thank you. **varsågod** is here you are, and you're welcome.\n\nTo ask how someone is: **Hur mår du?** The answer is **Bra, tack.**\n\n**god morgon** in the morning, **god dag** in the day, **god kväll** in the evening; **hej då** for goodbye."
+    "rule": "**tack** is thank you. **varsågod** is here you are, and you're welcome.\n\nTo ask how someone is: **Hur mår du?** The answer is **Bra, tack.**\n\n**god morgon** in the morning, **god dag** in the day, **god kväll** in the evening; **hej då** for goodbye.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U04",
-    "rule": "In the present the verb ends in **-r** for everyone: **jag äter**, **du äter**, **han äter**; **jag dricker**, **du dricker**.\n\nTo say you like something, use **tycker om**: **Jag tycker om kaffe.** **gillar** means the same: **Jag gillar te.**\n\nHere **god** means tasty: **Maten är god.**"
+    "rule": "In the present the verb ends in **-r** for everyone: **jag äter**, **du äter**, **han äter**; **jag dricker**, **du dricker**.\n\nTo say you like something, use **tycker om**: **Jag tycker om kaffe.** **gillar** means the same: **Jag gillar te.**\n\nHere **god** means tasty: **Maten är god.**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U05",
-    "rule": "**har** means have, and like **är** it is one form for everyone: **jag har**, **du har**, **han har**.\n\n**Jag har en hund.**\n\n**Har du en katt?**"
+    "rule": "**har** means have, and like **är** it is one form for everyone: **jag har**, **du har**, **han har**.\n\n**Jag har en hund.**\n\n**Har du en katt?**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U32",
-    "rule": "To ask for a word: **Hur säger man…?**\n\nTo ask what a word means: **Vad betyder…?**\n\nTo name the language: **ordet på svenska**, the word in Swedish; **på engelska**, in English."
+    "rule": "To ask for a word: **Hur säger man…?**\n\nTo ask what a word means: **Vad betyder…?**\n\nTo name the language: **ordet på svenska**, the word in Swedish; **på engelska**, in English.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U06",
-    "rule": "To make a plural, **en** words add **-or**, **-ar** or **-er**: **en flicka → flickor**, **en hund → hundar**, **en bok → böcker**. Many **ett** words add **-n** or stay the same: **ett äpple → äpplen**, **ett hus → hus**.\n\n**vi** is we, **ni** is you (more than one), **de** is they."
+    "rule": "To make a plural, **en** words add **-or**, **-ar** or **-er**: **en flicka → flickor**, **en hund → hundar**, **en bok → böcker**. Many **ett** words add **-n** or stay the same: **ett äpple → äpplen**, **ett hus → hus**.\n\n**vi** is we, **ni** is you (more than one), **de** is they.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U07",
-    "rule": "An adjective before an **en** word is plain; before an **ett** word it adds **-t**: **en fin bil**, **ett fint hus**.\n\n**mycket** means very: **mycket gammal**.\n\n**också** means also."
+    "rule": "An adjective before an **en** word is plain; before an **ett** word it adds **-t**: **en fin bil**, **ett fint hus**.\n\n**mycket** means very: **mycket gammal**.\n\n**också** means also.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U52",
-    "rule": "In the present these verbs end in **-r** for everyone: **jag simmar**, **du dansar**, **han sjunger**, **jag tittar**.\n\nFor a sport, use **spela**: **Jag spelar fotboll.**\n\nTo say what you like, use **tycker om** or **gillar**: **Jag tycker om musik.**"
+    "rule": "In the present these verbs end in **-r** for everyone: **jag simmar**, **du dansar**, **han sjunger**, **jag tittar**.\n\nFor a sport, use **spela**: **Jag spelar fotboll.**\n\nTo say what you like, use **tycker om** or **gillar**: **Jag tycker om musik.**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U08",
-    "rule": "To say where something is, use **står** for standing, **ligger** for lying, or **är**: **Boken ligger på bordet.**\n\n**i** in, **på** on, **under** under, **bredvid** next to; **här** here, **där** there.\n\n**det finns** means there is: **Det finns ett kök.**"
+    "rule": "To say where something is, use **står** for standing, **ligger** for lying, or **är**: **Boken ligger på bordet.**\n\n**i** in, **på** on, **under** under, **bredvid** next to; **här** here, **där** there.\n\n**det finns** means there is: **Det finns ett kök.**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U09",
-    "rule": "Feelings use **är** and an adjective: **Jag är trött.** **Jag är glad.**\n\nHungry and thirsty are adjectives too: **Jag är hungrig.** **Jag är törstig.**\n\n**kall** is cold, **varm** is warm."
+    "rule": "Feelings use **är** and an adjective: **Jag är trött.** **Jag är glad.**\n\nHungry and thirsty are adjectives too: **Jag är hungrig.** **Jag är törstig.**\n\n**kall** is cold, **varm** is warm.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U33",
-    "rule": "To say you're looking for a word: **Jag letar efter ordet…**\n\nTo describe a thing you can't name: **Det är en sak för…**, it's a thing for…\n\nTo say you don't know: **Jag vet inte.**"
+    "rule": "To say you're looking for a word: **Jag letar efter ordet…**\n\nTo describe a thing you can't name: **Det är en sak för…**, it's a thing for…\n\nTo say you don't know: **Jag vet inte.**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U10",
-    "rule": "To say mine, use **min** with an **en** word and **mitt** with an **ett** word: **min bok**, **mitt hus**. Yours is **din** and **ditt** the same way.\n\n**hans** is his, **hennes** is her; **vår** is our.\n\n**mamma** mum, **pappa** dad, **bror** brother, **syster** sister."
+    "rule": "To say mine, use **min** with an **en** word and **mitt** with an **ett** word: **min bok**, **mitt hus**. Yours is **din** and **ditt** the same way.\n\n**hans** is his, **hennes** is her; **vår** is our.\n\n**mamma** mum, **pappa** dad, **bror** brother, **syster** sister.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U11",
-    "rule": "A question word comes first: **vem** who, **vad** what, **var** where, **när** when, **varför** why, **vilken** which.\n\nTo answer why, use **eftersom**: **Jag är glad eftersom det är lördag.**"
+    "rule": "A question word comes first: **vem** who, **vad** what, **var** where, **när** when, **varför** why, **vilken** which.\n\nTo answer why, use **eftersom**: **Jag är glad eftersom det är lördag.**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U53",
-    "rule": "To ask where a place is: **Var ligger museet?**\n\nTo say how you travel, use **med**: **med bussen**, **med tåget**.\n\n**nära** is near, **långt** is far."
+    "rule": "To ask where a place is: **Var ligger museet?**\n\nTo say how you travel, use **med**: **med bussen**, **med tåget**.\n\n**nära** is near, **långt** is far.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U12",
-    "rule": "The numbers one to ten: **ett**/**en**, **två**, **tre**, **fyra**, **fem**, **sex**, **sju**, **åtta**, **nio**, **tio**.\n\nOne is **ett** with an **ett** word and **en** with an **en** word: **ett hus**, **en bok**.\n\nFor an age, add **år**: **Jag är tio år.**"
+    "rule": "The numbers one to ten: **ett**/**en**, **två**, **tre**, **fyra**, **fem**, **sex**, **sju**, **åtta**, **nio**, **tio**.\n\nOne is **ett** with an **ett** word and **en** with an **en** word: **ett hus**, **en bok**.\n\nFor an age, add **år**: **Jag är tio år.**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U13",
-    "rule": "A color after **är** is plain: **Bilen är röd.**\n\nBefore an **ett** word it adds **-t**: **ett rött hus**, **ett blått bord**.\n\n**färg** means color."
+    "rule": "A color after **är** is plain: **Bilen är röd.**\n\nBefore an **ett** word it adds **-t**: **ett rött hus**, **ett blått bord**.\n\n**färg** means color.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U14",
-    "rule": "Time words: **idag** today, **imorgon** tomorrow, **nu** now.\n\nDays of the week have no capital: **måndag**, **lördag**, **söndag**.\n\nTo ask the time: **Vad är klockan?**"
+    "rule": "Time words: **idag** today, **imorgon** tomorrow, **nu** now.\n\nDays of the week have no capital: **måndag**, **lördag**, **söndag**.\n\nTo ask the time: **Vad är klockan?**",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U15",
-    "rule": "**går** is to go on foot, **åker** is to go by bus, train or car: **Jag går till skolan.** **Jag åker till stan.**\n\nUse **till** for to a place; **från** means from."
+    "rule": "**går** is to go on foot, **åker** is to go by bus, train or car: **Jag går till skolan.** **Jag åker till stan.**\n\nUse **till** for to a place; **från** means from.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
   },
   {
     "unit_id": "U51",
-    "rule": "To describe looks, use **har**: **Hon har blå ögon.** **Han har långt hår.**\n\nAn adjective adds **-t** before an **ett** word (**långt hår**) and **-a** in the plural (**blå ögon**).\n\n**öga → ögon** is the plural of eye."
+    "rule": "To describe looks, use **har**: **Hon har blå ögon.** **Han har långt hår.**\n\nAn adjective adds **-t** before an **ett** word (**långt hår**) and **-a** in the plural (**blå ögon**).\n\n**öga → ögon** is the plural of eye.",
+    "example_sentence_ids": "",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U41",
+    "rule": "**Vad heter du i efternamn?** asks a last name; **förnamn** is first name:\n**Mitt efternamn är Andersson.**\n\n**Trevligt att träffas.** is nice to meet you.\n\nAfter a verb, I, you, he, she and we take another form: **mig**, **dig**, **honom**, **henne**, **oss**:\n**Känner du henne?**\n**Förstår du mig?**\n\n**Inte** comes after the verb: **Tom gillar inte oss.**",
+    "example_sentence_ids": "S41106;S41107;S41003",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U54",
+    "rule": "**Har på sig** is to be wearing. What you wear can come before **på sig** or after it:\n**Hon har en vit klänning på sig.**\n**Han har på sig glasögon.**\n\n**Sig** becomes **dig** for you: **Du har på dig min skjorta, Tom.**\n\n**Bär** also says wearing: **Tom bär en svart hatt.**\n\n**Kläder** (clothes) is always plural: **Hon har många kläder.**",
+    "example_sentence_ids": "S54107;S54009;S54002",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U34",
+    "rule": "**Hur stavar du det?** asks how a word is spelled; **Kan du stava det?** asks someone to spell it.\n\n**Kan** (can) is the same for every person, and the verb after it keeps its plain form, with no **att**:\n**Kan du hjälpa mig?**\n**Hon kan skriva.**\n\nElsewhere a plain verb often takes **att** (to): **Det är bra att kunna stava.**\n\n**Bara** is just: **Jag vet bara inte.**",
+    "example_sentence_ids": "S34101;S34104;S34013",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U42",
+    "rule": "Eleven to nineteen: **elva**, **tolv**, **tretton**, **fjorton**, **femton**, **sexton**, **sjutton**, **arton**, **nitton**. **Tjugo** is twenty and **noll** is zero.\n\n**Eller** is or:\n**Noll eller nio?**\n\n**Eller hur?** at the end asks for a yes, like right? or don't you?:\n**Du är ny, eller hur?**\n\n**Ringer** is calls or rings:\n**Jag ringer dig om en timme.**\n**Tom, din telefon ringer.**\n\n**Har du mitt nummer?** asks if someone has your number.",
+    "example_sentence_ids": "S42107;S42016;S42020",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U43",
+    "rule": "Age takes **är**, with **år** (years) and often **gammal** (old):\n**Han är tre månader gammal.**\n**Jag är nästan tjugo.**\n\n**Grattis på födelsedagen!** is happy birthday. **Jag fyller år** says it's my birthday, and **fyller** with a number is turns:\n**Jag fyller år idag.**\n**Hon fyller tjugo på lördag.**\n\n**Bli** is to become: **Vi blir inte yngre.**\n\n**Redan** is already, **nästan** almost and **snart** soon. **Med** is with: **Vem går du med?**",
+    "example_sentence_ids": "S43107;S43001;S43104",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U55",
+    "rule": "**Lära sig** is to learn, with **mig**, **dig** or **sig** for who learns:\n**Tom lär sig engelska.**\n**Jag tycker om att lära mig svenska.**\n\n**En fråga** is a question and **ett svar** an answer. **Fråga** is a noun and a verb:\n**Varför frågar du?**\n**Svara på min fråga.**\n\n**Gör** is does or is doing: **Vad gör du?**",
+    "example_sentence_ids": "S55021;S55001;S55107",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U35",
+    "rule": "Asking for a moment:\n**Ett ögonblick.**\n**Vänta lite nu.**\n\nChecking a number or an answer:\n**Det stämmer!** (that's right)\n**Det här stämmer inte.** (this isn't right)\n**Har jag fel?** (am I wrong?)\n\n**Du har rätt** is you're right and **han har fel** he's wrong.\n\n**Precis** is exactly: **Ja, precis.**\n\n**Väntar på** is waits for: **Vem väntar du på?**",
+    "example_sentence_ids": "S35002;S35017;S35004",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U44",
+    "rule": "The tens: **trettio**, **fyrtio**, **femtio**, **sextio**, **sjuttio**, **åttio**, **nittio**; then **hundra**, **tusen** and **en miljon**.\n\n**Än** is than, after **äldre**, **yngre**, **fler** or **mindre**:\n**Min bror är äldre än jag.**\n**Hon har fler böcker än jag.**\n\n**Fler** is more of things you count, **mer** more of an amount, and **mindre** less:\n**Mer kaffe, tack.**\n**Mindre vatten, tack.**\n\n**Ungefär** is about: **Han är ungefär fyrtio.**",
+    "example_sentence_ids": "S44101;S44017;S44124",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U45",
+    "rule": "**Bor** is lives:\n**Jag bor i en liten by.**\n**Vi bor tillsammans.**\n\n**Hemma** is at home, and **hem** is home after a verb of going:\n**Är hon hemma?**\n**Jag går hem.**\n\n**Hos** is at someone's place:\n**Jag är hos Tom.**\n**Hos dig eller hos mig?**\n\n**Ute** is outside and **inne** inside: **Vi är inne.**\n\n**Ensam** is alone: **Han bor ensam.**",
+    "example_sentence_ids": "S45019;S45022;S45027",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U56",
+    "rule": "A word for what someone is like comes after **är**:\n**Hon är lugn.**\n**Tom är vänlig.**\n\n**Ganska** (rather) and **väldigt** (very) go before it:\n**Hon är ganska söt.**\n**Det är väldigt intressant.**\n\n**Verkar** is seems: **Tom verkar trevlig.**\n\n**Som** is who or that: **Vem är det som läser?**\n\n**Saknar** is misses: **Jag saknar dig.**",
+    "example_sentence_ids": "S56001;S56109;S56009",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U46",
+    "rule": "**Kommer från** says where you're from:\n**Jag kommer från Norge.**\n**Var kommer det här ifrån?** (where is this from?)\n\n**Talar** is speaks:\n**Jag talar tyska.**\n**Hur många språk talar du?**\n\nCountries take a capital; languages and nationalities don't: **Sverige**, **svenska**, **svensk**:\n**Jag är svensk.**\n\n**I Spanien talar de spanska.** (in Spain they speak Spanish)",
+    "example_sentence_ids": "S46018;S46009;S46117",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U47",
+    "rule": "**Vill ha** is want:\n**Vill du ha en banan?**\n**Vad vill du ha?**\n\n**Får jag …?** asks may I: **Får jag ta den här?**\n\n**Måste** is have to: **Jag måste komma hem nu.**\n\n**Vill**, **måste** and **får** take a plain verb with no **att**:\n**Jag vill träffa honom.**\n**Vad vill du köpa?**\n\n**Jag tar …** is I'll take. A quantity needs no word for of: **Jag tar ett kilo äpplen.**",
+    "example_sentence_ids": "S47001;S47007;S47105",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U57",
+    "rule": "Opposites: **lätt** and **svår**, **öppen** and **stängd**, **snabbt** and **långsamt**.\n\nWith **det**, an adjective adds **-t**:\n**Den är svår.**\n**Hur svårt är det?**\n**Är det öppet nu?**\n\nThe same **-t** form says how something is done: **Tala långsamt.**\n\n**Lika … som** is as … as: **Hon är lika lång som du.**\n\n**Bättre** is better and **samma** the same: **Vi talar samma språk.**",
+    "example_sentence_ids": "S57016;S57104;S57121",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U36",
+    "rule": "Ways to say of course or sure:\n**Ja, självklart.**\n**Ja, klart!**\n**Det är säkert rätt.** (it's surely right)\n\n**Verkligen** is really: **Jag menar det verkligen.**\n\n**Förstår du vad jag menar?** asks if someone follows. **Fattar du?** is do you get it?\n\n**Tror** is think or believe: **Vad tror du?**\n\n**Alltså** is so: **Du menar alltså nej?**\n\n**Tyvärr** is unfortunately: **Nej, tyvärr.**",
+    "example_sentence_ids": "S36101;S36002;S36027",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U48",
+    "rule": "**Vad kostar det?** asks the price:\n**Det kostar tio kronor.**\n\nWith **det**, an adjective takes **-t**; with **den** it doesn't:\n**Det är dyrt.**\n**Den är mycket dyr.**\n\n**För** before an adjective is too: **Den är för dyr.**\n\n**Detta** is this, and **dessa** these: **Vad är detta?**\n\nPaying: **Jag betalar med kort.** **Jag betalar kontant.** (in cash)",
+    "example_sentence_ids": "S48008;S48105;S48108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U49",
+    "rule": "A quantity needs no word for of:\n**En flaska vatten, tack.**\n**Ett paket kaffe, tack.**\n**Vill du ha en bit ost?**\n\n**Inget** (no) goes with an **ett** word and **inga** with a plural:\n**Vi har inget te.**\n**Jag har inga pengar.**\n\n**Ingen** on its own is nobody: **Ingen vet allt.**\n\n**Alla** is all or everyone, **allt** everything, and **varje** every: **Jag simmar varje dag.**\n\n**Ge mig …** is give me: **Ge mig min väska.**",
+    "example_sentence_ids": "S49101;S49018;S49015",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U58",
+    "rule": "The ending says the: **havet** is the sea, **skogen** the forest, **solen** the sun and **himlen** the sky:\n**Jag ser havet.**\n**Himlen är blå.**\n\n**I** is in and **på** on:\n**Vi går i skogen.**\n**Solen står på himlen.**\n\n**Ser** is sees: **Ser du något?** **Vi får se.** is we'll see.",
+    "example_sentence_ids": "S58101;S58107;S58123",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U61",
+    "rule": "**Halv** counts toward the next hour:\n**Klockan är halv fyra.** (half past three)\n\n**Kvart över** is a quarter past and **kvart i** a quarter to:\n**Klockan är kvart över åtta.**\n**Klockan är kvart i tio.**\n\n**På morgonen** is in the morning. **I eftermiddag** is this afternoon, **i kväll** this evening and **i natt** tonight. **Hela dagen** is all day.\n\n**Tidigt** is early and **sent** late: **Det är för tidigt.**\n\n**Just nu** is right now, **direkt** right away and **senare** later.",
+    "example_sentence_ids": "S61103;S61104;S61105",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U71",
+    "rule": "Where things are:\n**Tom är bakom dig.**\n**Hon står framför mig.**\n**Jag väntar utanför.**\n\nAfter a verb, **in**, **ut**, **ner**, **bort** and **tillbaka** say which way:\n**Kan vi komma in?**\n**Hon går ner.**\n**När kommer du tillbaka?**\n\n**Genom** is through, **utan** without, **vid** by and **runt** around:\n**Vi går genom skogen.**\n**Jag dricker kaffe utan mjölk.**\n\n**Ihop** is together and **båda** both.",
+    "example_sentence_ids": "S71028;S71009;S71113",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U37",
+    "rule": "**Vad sa Tom?** asks what someone said. **Sa** is said:\n**Sa du något?**\n\nWhen you can't hear:\n**Kan du höra mig?**\n**Kan du tala högre?**\n**Lite högre.**\n\n**Tala tydligt!** is speak clearly.\n\n**Ber om** is asks for: **Hon ber om hjälp.**",
+    "example_sentence_ids": "S37021;S37007;S37010",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U62",
+    "rule": "Days take **på** and no capital:\n**På tisdag åker jag till Göteborg.**\n**Vad gör du på fredag?**\n\n**Igår** is yesterday: **Igår var det torsdag.**\n\nHow often: **alltid** (always), **ofta** (often), **ibland** (sometimes), **aldrig** (never):\n**Tom kommer aldrig.**\n\n**Brukar** is usually: **Han brukar komma i tid.**\n\n**Och sedan** is and then: **Vi äter och sedan går vi hem.**\n\n**Ha en bra helg!** is have a good weekend; **i helgen** is this weekend.",
+    "example_sentence_ids": "S62108;S62035;S62121",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U63",
+    "rule": "Months take **i**, and months, days and seasons have no capital:\n**Jag kommer i juli.**\n**Jag fyller år i november.**\n\nWith **-en**, a season is the: **våren**, **sommaren**, **hösten**, **vintern**. **På sommaren** is in the summer:\n**Vi är på semester på sommaren.**\n\nDates take **den** with **första**, **andra**, **tredje**:\n**Idag är det den tredje juni.**\n\n**Vad är det för datum idag?** asks the date.\n\n**Slut** is over or run out: **Vi har slut på mjölk.**",
+    "example_sentence_ids": "S63013;S63135;S63140",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U72",
+    "rule": "Weather takes **det**:\n**Det regnar.**\n**Det snöar i Paris.**\n**Det blåser idag.**\n\nWith **det**, an adjective takes **-t**:\n**Det är kallt.**\n**Det är varmt idag.**\n\nTemperature: **Det är tjugo grader.**\n\n**Väder** is an **ett** word: **Det är fint väder idag.**",
+    "example_sentence_ids": "S72010;S72024;S72109",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U38",
+    "rule": "Taking time to think:\n**Låt mig tänka en minut.**\n**Låt mig se.**\n\n**Låt** (let) takes a plain verb with no **att**.\n\n**Minns** is remember: **Minns du det?**\n\n**Jag undrar …** is I wonder: **Jag undrar varför.**\n\n**Jag antar det.** is I suppose so. **Egentligen** is actually: **Egentligen inte.**\n\n**Nå** starts a question, like well: **Nå, vad säger du?**",
+    "example_sentence_ids": "S38003;S38005;S38015",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U64",
+    "rule": "**Ska** with a plain verb is for plans and suggestions:\n**Ska vi gå på bio?**\n**Vad ska du göra ikväll?**\n\n**Vill du följa med?** asks if someone will come along; **Har du lust att följa med?** asks if they feel like it.\n\n**Vi ses.** is see you; **Var ska vi ses?** asks where to meet.\n\n**Passar det på fredag?** asks if a day suits. **Är du ledig?** asks if someone is free.",
+    "example_sentence_ids": "S64102;S64008;S64001",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U65",
+    "rule": "Your day:\n**Jag vaknar klockan sju.**\n**Jag äter frukost klockan åtta.**\n\nThe meals are **frukost**, **lunch** and **middag**; **till** says for: **Vad äter vi till middag?**\n\n**Börjar** is starts and **slutar** finishes or stops: **Jag slutar klockan fem.**\n\n**Jobbar** and **arbetar** both mean works: **Var arbetar du?**\n\n**Jag går och lägger mig.** is I'm going to bed. **Medan** is while: **Hon läser medan han sover.**\n\n**Klar** is done or ready: **Är du klar nu?**",
+    "example_sentence_ids": "S65120;S65123;S65126",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U73",
+    "rule": "Everyday verbs, one form for every person:\n**Jag hittar inte det jag vill ha.**\n**Jag hämtar den.**\n**Vi skickar det till dig.**\n**Han öppnar en flaska vin.**\n\nSome go with a little word:\n**Jag ger upp.** (I give up)\n**Håller du med?** (do you agree?)\n**Jag sätter mig.** (I sit down)\n\n**Ställer en fråga** is asks a question: **Han ställer en svår fråga.**\n\n**Vad händer?** is what's happening? **Hur fungerar det?** is how does it work?",
+    "example_sentence_ids": "S73030;S73018;S73113",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U66",
+    "rule": "Short words on a sign:\n**Ingång här.**\n**Ingen utgång.**\n**Endast kontant.** (cash only)\n**Rökning förbjudet.** (no smoking)\n\nWith **det**, **stängd** becomes **stängt**: **Det är stängt idag.**\n\n**Gratis** is free of charge: **Det är gratis.** **Fri** is free as in not held: **Jag är fri.**\n\n**Finns det en toalett här?** asks if there is one; **Var ligger ett apotek?** asks where.",
+    "example_sentence_ids": "S66106;S66119;S66101",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U67",
+    "rule": "**Avgår** is leaves and **kommer fram** is gets in:\n**Tåget avgår klockan tio.**\n**Tåget kommer fram klockan åtta.**\n\nOn a board: **avgång** (departure), **ankomst** (arrival), **spår** (track):\n**Mitt tåg går från spår fem.**\n\n**En enkel biljett, tack.** is a single ticket, please.\n\n**Reser** is travels, **flyger** flies and **kör** drives: **Han kör mycket snabbt.**\n\n**Trevlig resa!** is have a good trip.",
+    "example_sentence_ids": "S67106;S67112;S67115",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U74",
+    "rule": "**Spelar** is for games, sport and instruments:\n**Spelar du tennis?**\n**Jag spelar gitarr.**\n**Han spelar ofta piano.**\n\n**Tränar** is trains and **cyklar** cycles: **Hon cyklar varje dag.**\n\n**Jag tar en promenad.** is I'm going for a walk. **Jag tittar på tv.** is I watch TV.\n\n**Ett lag** is a team: **Mitt lag vinner.**",
+    "example_sentence_ids": "S74002;S74015;S74104",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U39",
+    "rule": "When you aren't sure:\n**Jag är inte säker.**\n**Det beror på.** (it depends)\n**Troligen inte.** (probably not)\n\n**Inte alls** is not at all: **Jag är inte alls trött.**\n\n**Naturligtvis** is of course, **ändå** anyway and **annars** otherwise:\n**Jag kommer ändå.**\n\n**Dessutom** is besides: **Dessutom är det billigt.**",
+    "example_sentence_ids": "S39023;S39101;S39008",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U68",
+    "rule": "The words of an announcement:\n**Mina damer och herrar, tåget är försenat.**\n**Alla passagerare till spår tre.**\n\n**Försenat** is delayed: **Tåget är cirka tio minuter försenat.**\n\n**Stannar** is stops or stays: **Tåget stannar på varje station.**\n\n**Mellan** is between, **via** via and **cirka** about. **Vänligen** is please, on a notice: **Vänligen vänta här.**\n\n**Mina** is my with a plural: **Jag hittar inte mina skor.**",
+    "example_sentence_ids": "S68106;S68021;S68109",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U69",
+    "rule": "An instruction is the verb's short form, first:\n**Läs det här först.**\n**Välj ett nummer.**\n**Fyll i ditt namn.**\n**Försök igen.**\n\n**Glöm inte …** is don't forget: **Glöm inte att berätta för Tom.**\n\nIn a lesson: **en övning** (an exercise), **en text**, **del två** (part two):\n**Gör övning tre.**\n\n**Till exempel** is for example. **Visa mig.** is show me.",
+    "example_sentence_ids": "S69027;S69104;S69105",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U75",
+    "rule": "**Älskar** is loves: **Älskar du mig?**\n\nFeelings about something:\n**Vad synd!** (what a shame)\n**Vilken fantastisk idé!**\n**Det är skönt att vara hemma.** (it's nice)\n\n**Hellre** is rather: **Jag väntar hellre här.**\n\n**Spelar det någon roll?** asks does it matter? **Har du råd med det?** asks can you afford it?\n\n**Eget** is own, with an **ett** word: **Jag har ett eget hus.**",
+    "example_sentence_ids": "S75018;S75031;S75124",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U81",
+    "rule": "Ordering:\n**En kopp kaffe, tack.**\n**Jag tar en kopp kaffe, tack.**\n**Kan jag få notan, tack?**\n\n**Skulle** is would, the politest way to ask:\n**Skulle jag kunna få ett glas vatten, tack?**\n\n**Beställer** is orders: **Jag beställer en kaffe och en bulle.**\n\n**Fika** is coffee or tea, usually with something sweet: **Vi tar en fika klockan tre.**",
+    "example_sentence_ids": "S81015;S81119;S81103",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U91",
+    "rule": "Everyday abstract nouns: **ett mål** (a goal), **ett skäl** (a reason), **ett resultat**, **en situation**, **en skillnad** (a difference):\n**Mitt mål är att lära mig svenska.**\n**Det är ingen stor skillnad.**\n\n**I så fall** is in that case: **I så fall är det ett bra system.**\n\n**Faktum är att …** is the fact is that. After **att**, **inte** comes before the verb:\n**Faktum är att jag inte vet.**",
+    "example_sentence_ids": "S91112;S91103;S91111",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U26",
+    "rule": "To interrupt politely:\n**Förlåt, jag vill inte störa.**\n**Stör jag dig?** (am I bothering you?)\n\n**Snälla** is please, when you ask hard: **Snälla hjälp mig.**\n\n**Ingen orsak.** answers thanks: you're welcome.\n\n**Jag ber om ursäkt.** is I apologize. **Visst** is sure: **Visst, varför inte.**\n\n**Ingenting** is nothing: **Jag hör ingenting.**",
+    "example_sentence_ids": "S26113;S26009;S26017",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U82",
+    "rule": "On the table: **en tallrik**, **en gaffel**, **en kniv**, **en sked**:\n**Kan jag få en gaffel, en kniv och en tallrik?**\n\nBooking and ordering:\n**Vi vill boka ett bord för fyra.**\n**Jag tar kyckling med potatis och sallad.**\n\n**Efterrätt** is dessert: **Vi tar glass till efterrätt.**\n\n**Smaklig måltid!** is enjoy your meal.",
+    "example_sentence_ids": "S82104;S82106;S82001",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U83",
+    "rule": "Directions:\n**Sväng vänster.**\n**Sväng höger.**\n**Gå rakt fram och sväng höger vid hörnet.**\n\n**Åt det hållet** is that way: **Det är åt fel håll.** (it's the wrong way)\n\n**På väg** is on the way: **Jag är på väg nu.** **Kan du visa mig vägen?** asks the way.\n\n**Inte längre** is no longer: **Han är inte här längre.**",
+    "example_sentence_ids": "S83001;S83108;S83115",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U92",
+    "rule": "A describing word stays plain with an **en** word and adds **-a** in the plural:\n**Det är en hög risk.**\n**Träd kan vara väldigt höga.**\n\nWords for kinds: **social**, **politisk**, **ekonomisk**, **nationell**, **internationell**, **europeisk**:\n**Paris är en europeisk stad.**\n\n**Vissa** is some and **flest** the most:\n**Vissa människor har höga krav.**\n**Vem har flest böcker?**\n\n**Varenda** is every single: **Han ringer varenda dag.**",
+    "example_sentence_ids": "S92106;S92109;S92146",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U27",
+    "rule": "**Jag är vilse.** is I'm lost. **Kan du visa mig på kartan?** asks for help on the map.\n\n**Hit** is to here and **dit** to there, after a verb of going:\n**Kommer du hit ofta?**\n**Jag vill gå dit igen.**\n\n**Borde** is should:\n**Du borde gå.**\n**Borde vi hjälpa dig?**",
+    "example_sentence_ids": "S27115;S27002;S27017",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U84",
+    "rule": "How you go: **till fots** (on foot), **tunnelbanan**, **en spårvagn**, **en taxi**:\n**Jag tar tunnelbanan eller en spårvagn.**\n**Det tar tio minuter till fots.**\n\n**Byter** is changes:\n**Var byter jag tåg?**\n**Vi byter buss vid nästa hållplats.**\n\n**Stiger upp** is gets up: **Han stiger upp klockan sju.**\n\n**Får jag parkera här?** asks if you may park.",
+    "example_sentence_ids": "S84106;S84112;S84111",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U85",
+    "rule": "The first half of the word says whose side:\n**farmor** (father's mother), **mormor** (mother's mother)\n**farbror** and **morbror** (uncles), **faster** and **moster** (aunts)\n**Min farbror och min faster bor i Norge.**\n\n**En son**, two **söner**; **en dotter**, two **döttrar**:\n**Hon har två söner och två döttrar.**\n\n**Syskon** is brothers and sisters: **Hur många syskon har du?**\n\n**Gift** is married and **släkt** related: **Är ni släkt?**",
+    "example_sentence_ids": "S85120;S85115;S85020",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U93",
+    "rule": "The words of the news: **ett samhälle** (a society), **en stat**, **politik**, **ett parti**, **en debatt**:\n**Sverige är en stat i Europa.**\n**Han är medlem i ett parti.**\n\n**Röstar på** is votes for: **Vem röstar du på?**\n\n**Ett val** is a choice: **Du har inget val.**\n\n**Folk** is people: **Det är mycket folk här.**",
+    "example_sentence_ids": "S93110;S93116;S93119",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U86",
+    "rule": "Rooms: **ett vardagsrum** (a living room), **ett sovrum** (a bedroom), **ett kök**:\n**Mitt sovrum är mörkt.**\n\n**Våning** is floor: **Vilken våning bor du på?** **En trappa upp** is one floor up.\n\n**Hyr** is rents: **Hon hyr ett rum hos en familj.**\n\n**Jag letar efter min nyckel.** is I'm looking for my key.",
+    "example_sentence_ids": "S86008;S86003;S86111",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U87",
+    "rule": "A job takes no **en** after **är**:\n**Hon är sjuksköterska.**\n**Tom är chef.**\n\n**Jobbar på** is works at, and **jobbar som** works as:\n**Min kollega och jag jobbar på ett kontor.**\n**Han jobbar som sjuksköterska.**\n\n**Min chef**, **min kollega**: **Min chef är väldigt trevlig.**\n\n**Ett företag** is a company: **Jag jobbar på ett företag i Göteborg.**",
+    "example_sentence_ids": "S87010;S87101;S87108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U94",
+    "rule": "**Anser** is thinks, for an opinion: **Jag anser att du har rätt.**\n\n**Bör** is should: **Vad bör jag göra nu?**\n\n**Det gäller alla.** is it applies to everyone.\n\nLinking words:\n**på grund av** (because of): **Tåget är försenat på grund av snö.**\n**dock** (though): **Det är dock inte lätt.**\n**så att** (so that): **Prata långsammare så att jag förstår.**\n**genom att** (by): **Jag lär mig genom att göra.**",
+    "example_sentence_ids": "S94106;S94141;S94135",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U28",
+    "rule": "When something doesn't work:\n**Min dator är trasig.**\n**Är den sönder?**\n**Min cykel är stulen.**\n\n**Det gör ont** is it hurts, and **jag har ont** I'm in pain:\n**Var gör det ont?**\n**Det gör ont i mitt ben nu.**\n\n**Är du skadad?** asks if someone is hurt.\n\nIn an emergency:\n**Det är en olycka! Kan du ringa en ambulans?**\n**Det är en brand!** (a fire)",
+    "example_sentence_ids": "S28013;S28002;S28106",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U88",
+    "rule": "The words on a form: **namn**, **födelsedatum**, **personnummer**, **kön**, **ort** (town), **civilstånd** (marital status), **medborgarskap** (citizenship).\n\n**Fyll i** is fill in and **skriv** is write:\n**Fyll i ditt födelsedatum.**\n**Skriv tydligt, tack.**\n\n**En blankett** is a form and **en underskrift** a signature: **Kan jag få en blankett?**\n\n**Uppgifter** are details: **Här är mina uppgifter.**",
+    "example_sentence_ids": "S88117;S88003;S88106",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U89",
+    "rule": "A message starts with **Kära …** (dear) or **Hej …**:\n**Kära Erik, tack för ditt vykort!**\n\nWays to end: **hälsningar** (regards), **kramar** (hugs):\n**Hälsningar, Lars**\n\n**Hälsa till …** is say hello to: **Hälsa till Tom från mig.** **Mamma hälsar.** is Mum says hello.\n\n**Ring mig!** is call me. **Ett brev**, **ett vykort**, **ett sms** and **ett meddelande** are a letter, a postcard, a text and a message.",
+    "example_sentence_ids": "S89104;S89106;S89018",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U95",
+    "rule": "Everyday verbs, one form for every person:\n**Hyr eller äger du?**\n**Barn växer snabbt.**\n**Det ökar varje år.**\n**Hon skapar musik.**\n**Vägen leder till havet.**\n\n**Det sker** is it happens: **Vad sker nu?**\n\n**Få tag på** is get hold of: **Var får jag tag på böcker?** **Ett tag** is a while: **Vänta ett tag.**",
+    "example_sentence_ids": "S95002;S95111;S95004",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

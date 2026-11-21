@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Jag heter Lars Andersson. Jag är fyrtio år. Jag bor på Storgatan tio i Göteborg.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Förnamn\",\"rule\":\"text\",\"answer\":\"Lars\"},{\"key\":\"last\",\"label\":\"Efternamn\",\"rule\":\"text\",\"answer\":\"Andersson\"},{\"key\":\"age\",\"label\":\"Ålder\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adress\",\"rule\":\"text\",\"answer\":\"Storgatan 10\",\"also\":[\"Storgatan, 10\",\"storgatan 10\",\"Storgatan tio\"]},{\"key\":\"town\",\"label\":\"Ort\",\"rule\":\"text\",\"answer\":\"Göteborg\",\"also\":[\"Goteborg\",\"göteborg\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Jag heter Eva Lind. Jag är trettio år. Jag kommer från Sverige. Jag bor i Frankrike. Mitt nummer är noll sju noll, fem två fyra, tolv, nitton.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Förnamn\",\"rule\":\"text\",\"answer\":\"Eva\"},{\"key\":\"last\",\"label\":\"Efternamn\",\"rule\":\"text\",\"answer\":\"Lind\"},{\"key\":\"age\",\"label\":\"Ålder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Medborgarskap\",\"rule\":\"text\",\"answer\":\"svensk\",\"also\":[\"Svensk\",\"svenska\",\"Svenska\",\"Sverige\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrike\"},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"070 524 12 19\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Erik och Anna ska gå på bio på lördag klockan halv nio på kvällen. De ses på torget.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dag\",\"rule\":\"text\",\"answer\":\"lördag\",\"also\":[\"Lördag\",\"på lördag\"]},{\"key\":\"time\",\"label\":\"Tid\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"8:30\",\"20.30\",\"8.30\",\"halv nio\",\"klockan halv nio\"]},{\"key\":\"where\",\"label\":\"Var\",\"rule\":\"text\",\"answer\":\"på torget\",\"also\":[\"torget\",\"torg\",\"På torget\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Jag heter Anna. Jag äter frukost klockan sju. Jag börjar jobba klockan nio och slutar klockan fem.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Namn\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"breakfast\",\"label\":\"Frukost\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"sju\",\"klockan sju\"]},{\"key\":\"start\",\"label\":\"Börjar jobba\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"nio\",\"klockan nio\"]},{\"key\":\"end\",\"label\":\"Slutar jobba\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"fem\",\"klockan fem\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Jag heter Anna Lindqvist. Jag är svensk. Jag är född den 10 april i Uppsala. Jag är gift. Jag bor på Storgatan 12 i Stockholm.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Namn\",\"rule\":\"text\",\"answer\":\"Anna Lindqvist\"},{\"key\":\"nat\",\"label\":\"Medborgarskap\",\"rule\":\"text\",\"answer\":\"svensk\",\"also\":[\"Svensk\",\"Sverige\",\"svenskt\",\"Svenskt\"]},{\"key\":\"born\",\"label\":\"Födelsedatum\",\"rule\":\"text\",\"answer\":\"10/4\",\"also\":[\"10 april\",\"10-4\",\"04-10\",\"10.4\",\"10 April\"]},{\"key\":\"place\",\"label\":\"Födelseort\",\"rule\":\"text\",\"answer\":\"Uppsala\"},{\"key\":\"civil\",\"label\":\"Civilstånd\",\"rule\":\"text\",\"answer\":\"gift\",\"also\":[\"Gift\"]},{\"key\":\"town\",\"label\":\"Ort\",\"rule\":\"text\",\"answer\":\"Stockholm\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Jag heter Erik Berg. Jag är trettio år. Jag är sjuksköterska och jobbar på ett sjukhus i Göteborg. Jag är inte gift.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Förnamn\",\"rule\":\"text\",\"answer\":\"Erik\"},{\"key\":\"last\",\"label\":\"Efternamn\",\"rule\":\"text\",\"answer\":\"Berg\"},{\"key\":\"age\",\"label\":\"Ålder\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"job\",\"label\":\"Yrke\",\"rule\":\"text\",\"answer\":\"sjuksköterska\",\"also\":[\"Sjuksköterska\"]},{\"key\":\"civil\",\"label\":\"Civilstånd\",\"rule\":\"text\",\"answer\":\"ogift\",\"also\":[\"inte gift\",\"Ogift\",\"singel\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F303",
+    "unit_id": "U81",
+    "card": "På kaféet: Tom beställer en kaffe och en bulle. Maria beställer en kopp te. De betalar nittio kronor.",
+    "fields_json": "[{\"key\":\"tom\",\"label\":\"Tom\",\"rule\":\"text\",\"answer\":\"en kaffe och en bulle\",\"also\":[\"kaffe och bulle\",\"kaffe, bulle\",\"en kaffe, en bulle\",\"kaffe och en bulle\"]},{\"key\":\"maria\",\"label\":\"Maria\",\"rule\":\"text\",\"answer\":\"en kopp te\",\"also\":[\"te\",\"en te\",\"kopp te\"]},{\"key\":\"total\",\"label\":\"Totalt (kronor)\",\"rule\":\"number\",\"answer\":\"90\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

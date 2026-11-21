@@ -1,0 +1,1418 @@
+{
+  "unit_id": "U38",
+  "pulled_at": "2026-11-21",
+  "candidates": 70,
+  "sentences": [
+    {
+      "sentence_id": "S38001",
+      "unit_id": "U38",
+      "french": "Låt mig tänka nu.",
+      "english": "Now let me think.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4445560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38002",
+      "unit_id": "U38",
+      "french": "Låt oss inte tänka så.",
+      "english": "Let's not think like that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1134742",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arahlen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38003",
+      "unit_id": "U38",
+      "french": "Låt mig tänka en minut.",
+      "english": "Let me think a minute.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2111050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38004",
+      "unit_id": "U38",
+      "french": "Jag antar att hon inte minns mig.",
+      "english": "I guess she doesn't remember me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12841550",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38005",
+      "unit_id": "U38",
+      "french": "Minns du det?",
+      "english": "Do you remember?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "372624",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ilayde",
+      "other_english": [
+        "Do you remember that?"
+      ]
+    },
+    {
+      "sentence_id": "S38006",
+      "unit_id": "U38",
+      "french": "Vad minns du?",
+      "english": "What do you remember?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2090800",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38007",
+      "unit_id": "U38",
+      "french": "Varför undrar du?",
+      "english": "Why do you ask that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4327963",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38008",
+      "unit_id": "U38",
+      "french": "Låter det mycket?",
+      "english": "Does that sound like a lot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12108999",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "johanrhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38009",
+      "unit_id": "U38",
+      "french": "Vad menar du egentligen?",
+      "english": "What do you really mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3121184",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38010",
+      "unit_id": "U38",
+      "french": "Hur gammal är du egentligen?",
+      "english": "How old are you anyway?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "742909",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "viorayli",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38011",
+      "unit_id": "U38",
+      "french": "Vad är det som låter?",
+      "english": "What is that sound?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4446782",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38012",
+      "unit_id": "U38",
+      "french": "Nå, vad tycker du om mig?",
+      "english": "Well, what do you think of me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1507222",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marco87",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38013",
+      "unit_id": "U38",
+      "french": "Nå, vad är du bra på?",
+      "english": "Well, what are you good at?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4451211",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38014",
+      "unit_id": "U38",
+      "french": "Egentligen inte.",
+      "english": "Not really.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1137704",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arahlen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38015",
+      "unit_id": "U38",
+      "french": "Jag undrar varför.",
+      "english": "I wonder why.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3436407",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Don3187",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38016",
+      "unit_id": "U38",
+      "french": "Det låter enkelt.",
+      "english": "It sounds easy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5952039",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38017",
+      "unit_id": "U38",
+      "french": "Jag antar det.",
+      "english": "I assume so.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11854524",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38018",
+      "unit_id": "U38",
+      "french": "Jag undrar var hon bor.",
+      "english": "I wonder where she lives.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11284447",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38019",
+      "unit_id": "U38",
+      "french": "Jag antar att du har rätt.",
+      "english": "I guess you're right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2085612",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "I suppose you are right."
+      ]
+    },
+    {
+      "sentence_id": "S38020",
+      "unit_id": "U38",
+      "french": "Minns du dem?",
+      "english": "Do you remember them?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4328345",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38021",
+      "unit_id": "U38",
+      "french": "Minns ni Tom?",
+      "english": "Do you guys remember Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5204055",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38022",
+      "unit_id": "U38",
+      "french": "Kan jag tänka på det?",
+      "english": "Can I think about it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2079152",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38023",
+      "unit_id": "U38",
+      "french": "Minns du vad hon sa?",
+      "english": "Do you remember what she said?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3130185",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38024",
+      "unit_id": "U38",
+      "french": "Jag minns.",
+      "english": "I remember.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4412127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38025",
+      "unit_id": "U38",
+      "french": "Låt mig betala.",
+      "english": "Let me pay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1990470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38026",
+      "unit_id": "U38",
+      "french": "Låt mig se.",
+      "english": "Let me see.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1990472",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38027",
+      "unit_id": "U38",
+      "french": "Låt mig vara!",
+      "english": "Leave me alone!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1995385",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38028",
+      "unit_id": "U38",
+      "french": "Låt det vara.",
+      "english": "Leave it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1996612",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38029",
+      "unit_id": "U38",
+      "french": "Låt den vara.",
+      "english": "Leave it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1996613",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38030",
+      "unit_id": "U38",
+      "french": "Låt mig gå!",
+      "english": "Let me go!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2242147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S38001",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38001",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38001",
+      "position": 3,
+      "surface": "tänka",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38001",
+      "position": 4,
+      "surface": "nu",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 2,
+      "surface": "oss",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 4,
+      "surface": "tänka",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 5,
+      "surface": "så",
+      "word_id": "W825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 3,
+      "surface": "tänka",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 5,
+      "surface": "minut",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 2,
+      "surface": "antar",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 3,
+      "surface": "att",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 4,
+      "surface": "hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 5,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 6,
+      "surface": "minns",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 7,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38005",
+      "position": 1,
+      "surface": "Minns",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38005",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38006",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38006",
+      "position": 2,
+      "surface": "minns",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38006",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38007",
+      "position": 1,
+      "surface": "Varför",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38007",
+      "position": 2,
+      "surface": "undrar",
+      "word_id": "W1280",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38007",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38008",
+      "position": 1,
+      "surface": "Låter",
+      "word_id": "W1275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38008",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38008",
+      "position": 3,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38009",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38009",
+      "position": 2,
+      "surface": "menar",
+      "word_id": "W950",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38009",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38009",
+      "position": 4,
+      "surface": "egentligen",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 2,
+      "surface": "gammal",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 5,
+      "surface": "egentligen",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 4,
+      "surface": "som",
+      "word_id": "W1148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 5,
+      "surface": "låter",
+      "word_id": "W1275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 1,
+      "surface": "Nå",
+      "word_id": "W1281",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 2,
+      "surface": "vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 3,
+      "surface": "tycker",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 5,
+      "surface": "om",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 6,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 1,
+      "surface": "Nå",
+      "word_id": "W1281",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 2,
+      "surface": "vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 5,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 6,
+      "surface": "på",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38014",
+      "position": 1,
+      "surface": "Egentligen",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38014",
+      "position": 2,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 2,
+      "surface": "undrar",
+      "word_id": "W1280",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 3,
+      "surface": "varför",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 2,
+      "surface": "låter",
+      "word_id": "W1275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 3,
+      "surface": "enkelt",
+      "word_id": "W1166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38017",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38017",
+      "position": 2,
+      "surface": "antar",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38017",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 2,
+      "surface": "undrar",
+      "word_id": "W1280",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 3,
+      "surface": "var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 4,
+      "surface": "hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 5,
+      "surface": "bor",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 2,
+      "surface": "antar",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 3,
+      "surface": "att",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 5,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 6,
+      "surface": "rätt",
+      "word_id": "W865",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38020",
+      "position": 1,
+      "surface": "Minns",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38020",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38020",
+      "position": 3,
+      "surface": "dem",
+      "word_id": "W993",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 1,
+      "surface": "Minns",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 2,
+      "surface": "ni",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 3,
+      "surface": "tänka",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 4,
+      "surface": "på",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 5,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38023",
+      "position": 1,
+      "surface": "Minns",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38023",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38023",
+      "position": 3,
+      "surface": "vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38023",
+      "position": 4,
+      "surface": "hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38023",
+      "position": 5,
+      "surface": "sa",
+      "word_id": "W1222",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38024",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38024",
+      "position": 2,
+      "surface": "minns",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38025",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38025",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38025",
+      "position": 3,
+      "surface": "betala",
+      "word_id": "W968",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38026",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38026",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38026",
+      "position": 3,
+      "surface": "se",
+      "word_id": "W1181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38027",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38027",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38027",
+      "position": 3,
+      "surface": "vara",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38028",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38028",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38028",
+      "position": 3,
+      "surface": "vara",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38029",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38029",
+      "position": 2,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38029",
+      "position": 3,
+      "surface": "vara",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38030",
+      "position": 1,
+      "surface": "Låt",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38030",
+      "position": 2,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38030",
+      "position": 3,
+      "surface": "gå",
+      "word_id": "W1386",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A380051",
+      "sentence_id": "S38005",
+      "direction": "fr_to_en",
+      "answer": "Do you remember that?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A380191",
+      "sentence_id": "S38019",
+      "direction": "fr_to_en",
+      "answer": "I suppose you are right.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

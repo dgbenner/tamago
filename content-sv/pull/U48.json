@@ -1,0 +1,1525 @@
+{
+  "unit_id": "U48",
+  "pulled_at": "2026-11-21",
+  "candidates": 134,
+  "sentences": [
+    {
+      "sentence_id": "S48001",
+      "unit_id": "U48",
+      "french": "Vad är detta för?",
+      "english": "What is this for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2022948",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48002",
+      "unit_id": "U48",
+      "french": "Varför behöver du dessa pengar?",
+      "english": "Why do you need this money?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2048551",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48003",
+      "unit_id": "U48",
+      "french": "Jag behöver dessa pengar.",
+      "english": "I need this money.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1964923",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48004",
+      "unit_id": "U48",
+      "french": "Detta är ganska dyrt.",
+      "english": "It's relatively expensive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2416035",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "freddy1",
+      "other_english": [
+        "This is rather expensive."
+      ]
+    },
+    {
+      "sentence_id": "S48005",
+      "unit_id": "U48",
+      "french": "Jag betalar med mitt kort.",
+      "english": "I'll pay with my card.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1462195",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48006",
+      "unit_id": "U48",
+      "french": "Detta är svårt för mig.",
+      "english": "This is difficult for me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8138380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajje",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48007",
+      "unit_id": "U48",
+      "french": "Nej. Jag vill betala kontant.",
+      "english": "No. I want to pay in cash.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11562829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48008",
+      "unit_id": "U48",
+      "french": "Vad kostar det?",
+      "english": "What does that cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "409677",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "How much will it cost?"
+      ]
+    },
+    {
+      "sentence_id": "S48009",
+      "unit_id": "U48",
+      "french": "Behöver du pengar?",
+      "english": "Do you need money?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2211147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48010",
+      "unit_id": "U48",
+      "french": "Men vad vill du?",
+      "english": "But what do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "892749",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48011",
+      "unit_id": "U48",
+      "french": "Måste jag betala dig?",
+      "english": "Do I have to pay you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2082617",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48012",
+      "unit_id": "U48",
+      "french": "Talar jag för snabbt?",
+      "english": "Am I talking too fast?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2090829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48013",
+      "unit_id": "U48",
+      "french": "Behöver jag betala dig?",
+      "english": "Do I have to pay you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3712646",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48014",
+      "unit_id": "U48",
+      "french": "Men var är vi?",
+      "english": "But where are we?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10753406",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48015",
+      "unit_id": "U48",
+      "french": "Vill du ha dessa?",
+      "english": "Do you want these?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12116147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48016",
+      "unit_id": "U48",
+      "french": "Hur mycket kostar det där?",
+      "english": "How much is that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2021554",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "That costs how much?",
+        "How much does that cost?"
+      ]
+    },
+    {
+      "sentence_id": "S48017",
+      "unit_id": "U48",
+      "french": "Jag betalar.",
+      "english": "I'll pay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1990465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48018",
+      "unit_id": "U48",
+      "french": "Det är dyrt.",
+      "english": "It's expensive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4441877",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": [
+        "That's expensive."
+      ]
+    },
+    {
+      "sentence_id": "S48019",
+      "unit_id": "U48",
+      "french": "Det är inte billigt.",
+      "english": "It isn't cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2455238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "torulf",
+      "other_english": [
+        "That's not cheap."
+      ]
+    },
+    {
+      "sentence_id": "S48020",
+      "unit_id": "U48",
+      "french": "Jag betalar Tom bra.",
+      "english": "I pay Tom well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4357547",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48021",
+      "unit_id": "U48",
+      "french": "Den är inte billig.",
+      "english": "It isn't cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4441863",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48022",
+      "unit_id": "U48",
+      "french": "Den är mycket dyr.",
+      "english": "It is very expensive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8952819",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48023",
+      "unit_id": "U48",
+      "french": "Han är duktig med kort.",
+      "english": "He's good at cards.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2030829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Lazzlo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48024",
+      "unit_id": "U48",
+      "french": "Det här är ganska dyrt.",
+      "english": "It's relatively expensive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2457024",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "This is rather expensive."
+      ]
+    },
+    {
+      "sentence_id": "S48025",
+      "unit_id": "U48",
+      "french": "Det där är inte billigt.",
+      "english": "That's not cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2458943",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48026",
+      "unit_id": "U48",
+      "french": "Det här är väldigt billigt.",
+      "english": "This is very cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4447208",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48027",
+      "unit_id": "U48",
+      "french": "Den här är väldigt billig.",
+      "english": "This is very cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4447210",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48028",
+      "unit_id": "U48",
+      "french": "Vad är detta?",
+      "english": "What's this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1991659",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ribon",
+      "other_english": [
+        "What is this?"
+      ]
+    },
+    {
+      "sentence_id": "S48029",
+      "unit_id": "U48",
+      "french": "Behöver jag detta?",
+      "english": "Do I need this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10928757",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48030",
+      "unit_id": "U48",
+      "french": "Vad är detta till?",
+      "english": "What is this for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2022949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S48001",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 3,
+      "surface": "detta",
+      "word_id": "W974",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 4,
+      "surface": "för",
+      "word_id": "W970",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 1,
+      "surface": "Varför",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 4,
+      "surface": "dessa",
+      "word_id": "W975",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 5,
+      "surface": "pengar",
+      "word_id": "W969",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 2,
+      "surface": "behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 3,
+      "surface": "dessa",
+      "word_id": "W975",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 4,
+      "surface": "pengar",
+      "word_id": "W969",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 1,
+      "surface": "Detta",
+      "word_id": "W974",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 3,
+      "surface": "ganska",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 4,
+      "surface": "dyrt",
+      "word_id": "W964",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 2,
+      "surface": "betalar",
+      "word_id": "W967",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 3,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 4,
+      "surface": "mitt",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 5,
+      "surface": "kort",
+      "word_id": "W972",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 1,
+      "surface": "Detta",
+      "word_id": "W974",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 3,
+      "surface": "svårt",
+      "word_id": "W1154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 4,
+      "surface": "för",
+      "word_id": "W970",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 5,
+      "surface": "mig",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 1,
+      "surface": "Nej",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 2,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 3,
+      "surface": "vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 4,
+      "surface": "betala",
+      "word_id": "W968",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 5,
+      "surface": "kontant",
+      "word_id": "W973",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 2,
+      "surface": "kostar",
+      "word_id": "W958",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 3,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 1,
+      "surface": "Behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 3,
+      "surface": "pengar",
+      "word_id": "W969",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 1,
+      "surface": "Men",
+      "word_id": "W971",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 2,
+      "surface": "vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 3,
+      "surface": "vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 1,
+      "surface": "Måste",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 3,
+      "surface": "betala",
+      "word_id": "W968",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 4,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 1,
+      "surface": "Talar",
+      "word_id": "W920",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 3,
+      "surface": "för",
+      "word_id": "W970",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 4,
+      "surface": "snabbt",
+      "word_id": "W1156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 1,
+      "surface": "Behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 3,
+      "surface": "betala",
+      "word_id": "W968",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 4,
+      "surface": "dig",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 1,
+      "surface": "Men",
+      "word_id": "W971",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 2,
+      "surface": "var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 4,
+      "surface": "vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 1,
+      "surface": "Vill",
+      "word_id": "W926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 3,
+      "surface": "ha",
+      "word_id": "W928",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 4,
+      "surface": "dessa",
+      "word_id": "W975",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 2,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 3,
+      "surface": "kostar",
+      "word_id": "W958",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 4,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 5,
+      "surface": "där",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 2,
+      "surface": "betalar",
+      "word_id": "W967",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48018",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48018",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48018",
+      "position": 3,
+      "surface": "dyrt",
+      "word_id": "W964",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 4,
+      "surface": "billigt",
+      "word_id": "W966",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 2,
+      "surface": "betalar",
+      "word_id": "W967",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 4,
+      "surface": "bra",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 1,
+      "surface": "Den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 3,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 4,
+      "surface": "billig",
+      "word_id": "W965",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 1,
+      "surface": "Den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 3,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 4,
+      "surface": "dyr",
+      "word_id": "W963",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 3,
+      "surface": "duktig",
+      "word_id": "W1142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 4,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 5,
+      "surface": "kort",
+      "word_id": "W972",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 2,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 4,
+      "surface": "ganska",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 5,
+      "surface": "dyrt",
+      "word_id": "W964",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 2,
+      "surface": "där",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 4,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 5,
+      "surface": "billigt",
+      "word_id": "W966",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 2,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 4,
+      "surface": "väldigt",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 5,
+      "surface": "billigt",
+      "word_id": "W966",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 1,
+      "surface": "Den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 2,
+      "surface": "här",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 4,
+      "surface": "väldigt",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 5,
+      "surface": "billig",
+      "word_id": "W965",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48028",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48028",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48028",
+      "position": 3,
+      "surface": "detta",
+      "word_id": "W974",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 1,
+      "surface": "Behöver",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 2,
+      "surface": "jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 3,
+      "surface": "detta",
+      "word_id": "W974",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48030",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48030",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48030",
+      "position": 3,
+      "surface": "detta",
+      "word_id": "W974",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48030",
+      "position": 4,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A480041",
+      "sentence_id": "S48004",
+      "direction": "fr_to_en",
+      "answer": "This is rather expensive.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480081",
+      "sentence_id": "S48008",
+      "direction": "fr_to_en",
+      "answer": "How much will it cost?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480161",
+      "sentence_id": "S48016",
+      "direction": "fr_to_en",
+      "answer": "That costs how much?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480162",
+      "sentence_id": "S48016",
+      "direction": "fr_to_en",
+      "answer": "How much does that cost?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480181",
+      "sentence_id": "S48018",
+      "direction": "fr_to_en",
+      "answer": "That's expensive.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480191",
+      "sentence_id": "S48019",
+      "direction": "fr_to_en",
+      "answer": "That's not cheap.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480241",
+      "sentence_id": "S48024",
+      "direction": "fr_to_en",
+      "answer": "This is rather expensive.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480281",
+      "sentence_id": "S48028",
+      "direction": "fr_to_en",
+      "answer": "What is this?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

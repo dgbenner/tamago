@@ -1,0 +1,461 @@
+{
+  "unit_id": "U92",
+  "pulled_at": "2026-11-21",
+  "candidates": 9,
+  "sentences": [
+    {
+      "sentence_id": "S92001",
+      "unit_id": "U92",
+      "french": "Är Tom kristen?",
+      "english": "Is Tom a Christian?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4360649",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92002",
+      "unit_id": "U92",
+      "french": "Hur hög är den?",
+      "english": "How high is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10285600",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92003",
+      "unit_id": "U92",
+      "french": "Är du en riktig läkare?",
+      "english": "Are you a real doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4194177",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92004",
+      "unit_id": "U92",
+      "french": "Jag är mänsklig.",
+      "english": "I'm a human.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1990509",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92005",
+      "unit_id": "U92",
+      "french": "Det är liknande.",
+      "english": "It's similar.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2619841",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "It is similar."
+      ]
+    },
+    {
+      "sentence_id": "S92006",
+      "unit_id": "U92",
+      "french": "Jag har vissa krav.",
+      "english": "I have certain standards.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11913372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92007",
+      "unit_id": "U92",
+      "french": "De har en gemensam hobby.",
+      "english": "They have a common hobby.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "891918",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92008",
+      "unit_id": "U92",
+      "french": "Vi har mycket höga krav.",
+      "english": "We have very high standards.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11913384",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92009",
+      "unit_id": "U92",
+      "french": "Jag känner till ett liknande fall.",
+      "english": "I know of one similar case.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9209601",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S92001",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92001",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92001",
+      "position": 3,
+      "surface": "kristen",
+      "word_id": "W1859",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92002",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92002",
+      "position": 2,
+      "surface": "hög",
+      "word_id": "W1836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92002",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92002",
+      "position": 4,
+      "surface": "den",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92003",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92003",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92003",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92003",
+      "position": 4,
+      "surface": "riktig",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92003",
+      "position": 5,
+      "surface": "läkare",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92004",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92004",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92004",
+      "position": 3,
+      "surface": "mänsklig",
+      "word_id": "W1851",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92005",
+      "position": 1,
+      "surface": "Det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92005",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92005",
+      "position": 3,
+      "surface": "liknande",
+      "word_id": "W1848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92006",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92006",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92006",
+      "position": 3,
+      "surface": "vissa",
+      "word_id": "W1840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92006",
+      "position": 4,
+      "surface": "krav",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92007",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92007",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92007",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92007",
+      "position": 4,
+      "surface": "gemensam",
+      "word_id": "W1841",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92007",
+      "position": 5,
+      "surface": "hobby",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 3,
+      "surface": "mycket",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 4,
+      "surface": "höga",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 5,
+      "surface": "krav",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92009",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92009",
+      "position": 2,
+      "surface": "känner",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92009",
+      "position": 3,
+      "surface": "till",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92009",
+      "position": 4,
+      "surface": "ett",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92009",
+      "position": 5,
+      "surface": "liknande",
+      "word_id": "W1848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92009",
+      "position": 6,
+      "surface": "fall",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A920051",
+      "sentence_id": "S92005",
+      "direction": "fr_to_en",
+      "answer": "It is similar.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

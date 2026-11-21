@@ -1,0 +1,209 @@
+{
+  "_about": "Written by build-content: the A1 list words the shared stoplist (scripts/lib/a1-stoplist.mjs) leaves out of this course's shipped list and target. Do not edit; change the stoplist.",
+  "dropped": [
+    {
+      "word": "å",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "analog",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "unna",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "te sig",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "riva",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "el",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "ro",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "lik",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "enligt",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "regering",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "kapa",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "samt",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "blogg",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "innebära",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "inlägg",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "peng",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "kl.",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "slå",
+      "reason": "violence"
+    },
+    {
+      "word": "ämna",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "beta",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "åta sig",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "krig",
+      "reason": "violence"
+    },
+    {
+      "word": "akt",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "ätt",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "verksamhet",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "kommun",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "orm",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "åtgärd",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "riksdag",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "medium",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "anmäla",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "därmed",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "etikett",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "myndighet",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "länka",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "tyda",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "genomföra",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "dom",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "såsom",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "utgöra",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "dö",
+      "reason": "violence"
+    },
+    {
+      "word": "bildning",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "mission",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "kommission",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "hov",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "död",
+      "reason": "violence"
+    },
+    {
+      "word": "luta",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "socialdemokrat",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "port",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "kommentera",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "som att",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    }
+  ]
+}

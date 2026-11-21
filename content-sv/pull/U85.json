@@ -1,0 +1,1993 @@
+{
+  "unit_id": "U85",
+  "pulled_at": "2026-11-21",
+  "candidates": 103,
+  "sentences": [
+    {
+      "sentence_id": "S85001",
+      "unit_id": "U85",
+      "french": "Din son är ihop med min dotter.",
+      "english": "Your son is dating my daughter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3661591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "KajsaKavat",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85002",
+      "unit_id": "U85",
+      "french": "Jag har två bröder och två systrar.",
+      "english": "I have two brothers and two sisters.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9087032",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85003",
+      "unit_id": "U85",
+      "french": "Jobbar din fru?",
+      "english": "Does your wife work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4328447",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85004",
+      "unit_id": "U85",
+      "french": "Arbetar din fru?",
+      "english": "Does your wife work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11068735",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SilasNordgren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85005",
+      "unit_id": "U85",
+      "french": "Är ni släkt?",
+      "english": "Are you related?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11938550",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85006",
+      "unit_id": "U85",
+      "french": "Är de släkt?",
+      "english": "Are they related?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11938552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85007",
+      "unit_id": "U85",
+      "french": "Vad gör din son?",
+      "english": "What does your son do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1609181",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "viorayli",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85008",
+      "unit_id": "U85",
+      "french": "Är du fortfarande gift?",
+      "english": "Are you still married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2090974",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85009",
+      "unit_id": "U85",
+      "french": "Var är min son?",
+      "english": "Where's my son?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2093722",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Balamax",
+      "other_english": [
+        "Where is my son?"
+      ]
+    },
+    {
+      "sentence_id": "S85010",
+      "unit_id": "U85",
+      "french": "Var bor din morbror?",
+      "english": "Where does your uncle live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4075736",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "malinef",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85011",
+      "unit_id": "U85",
+      "french": "Var bor din farbror?",
+      "english": "Where does your uncle live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4075739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "malinef",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85012",
+      "unit_id": "U85",
+      "french": "Är ni två släkt?",
+      "english": "Are you two related?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4317372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85013",
+      "unit_id": "U85",
+      "french": "Är inte ni systrar?",
+      "english": "Aren't you sisters?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10663132",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85014",
+      "unit_id": "U85",
+      "french": "Har du en dotter?",
+      "english": "Do you have a daughter?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11852619",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85015",
+      "unit_id": "U85",
+      "french": "Hur mår din fru?",
+      "english": "How is the wife?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12108962",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "johanrhg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85016",
+      "unit_id": "U85",
+      "french": "Är det din egen idé?",
+      "english": "Is that your own idea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1125630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "HannesP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85017",
+      "unit_id": "U85",
+      "french": "Hur gammal är din farfar?",
+      "english": "How old is your grandfather?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2086342",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "freddy1",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85018",
+      "unit_id": "U85",
+      "french": "Hur gammal är din farbror?",
+      "english": "How old is your uncle?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2157587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "freddy1",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85019",
+      "unit_id": "U85",
+      "french": "Hur gammal är din morbror?",
+      "english": "How old is your uncle?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2158346",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85020",
+      "unit_id": "U85",
+      "french": "Hur många syskon har du?",
+      "english": "How many brothers and sisters do you have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4170158",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85021",
+      "unit_id": "U85",
+      "french": "Hur många syskon har Tom?",
+      "english": "How many brothers and sisters does Tom have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4170167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "richke",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85022",
+      "unit_id": "U85",
+      "french": "Hur många systrar har du?",
+      "english": "How many sisters do you have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10673273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85023",
+      "unit_id": "U85",
+      "french": "Hur många syskon har hon?",
+      "english": "How many siblings does she have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11562952",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85024",
+      "unit_id": "U85",
+      "french": "Är hon din enda dotter?",
+      "english": "Is she your only daughter?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12025386",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85025",
+      "unit_id": "U85",
+      "french": "Hur är ditt liv som gift?",
+      "english": "How's your married life?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2193509",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85026",
+      "unit_id": "U85",
+      "french": "Jag har bröder.",
+      "english": "I have brothers.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1090318",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85027",
+      "unit_id": "U85",
+      "french": "Tom är gift.",
+      "english": "Tom's married.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1999912",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "Tom is married."
+      ]
+    },
+    {
+      "sentence_id": "S85028",
+      "unit_id": "U85",
+      "french": "Jag har två bröder.",
+      "english": "I have two brothers.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "498463",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "adjusting",
+      "other_english": [
+        "I've got two brothers."
+      ]
+    },
+    {
+      "sentence_id": "S85029",
+      "unit_id": "U85",
+      "french": "Morfar pratar väldigt långsamt.",
+      "english": "Grandfather speaks very slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "927698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": [
+        "My grandfather speaks very slowly."
+      ]
+    },
+    {
+      "sentence_id": "S85030",
+      "unit_id": "U85",
+      "french": "Farfar pratar väldigt långsamt.",
+      "english": "Grandfather speaks very slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "927699",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tximist",
+      "other_english": [
+        "My grandfather speaks very slowly."
+      ]
+    },
+    {
+      "sentence_id": "S85031",
+      "unit_id": "U85",
+      "french": "Jag har två döttrar.",
+      "english": "I have two daughters.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1433338",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arahlen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85032",
+      "unit_id": "U85",
+      "french": "Vi är hans söner.",
+      "english": "We are his sons.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1783040",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85033",
+      "unit_id": "U85",
+      "french": "Jag har två söner.",
+      "english": "I have two sons.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3085117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85034",
+      "unit_id": "U85",
+      "french": "Han har fyra döttrar.",
+      "english": "He has four daughters.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3126961",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85035",
+      "unit_id": "U85",
+      "french": "Hon är min mormor.",
+      "english": "She's my grandma.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4404931",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "herrsilen",
+      "other_english": [
+        "She is my grandmother."
+      ]
+    },
+    {
+      "sentence_id": "S85036",
+      "unit_id": "U85",
+      "french": "Hon har sju söner.",
+      "english": "She has seven sons.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8393502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "morbrorper",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85037",
+      "unit_id": "U85",
+      "french": "Min morfar är sjuk.",
+      "english": "My grandpa is sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10667939",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85038",
+      "unit_id": "U85",
+      "french": "Min farfar är sjuk.",
+      "english": "My grandpa is sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10667940",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85039",
+      "unit_id": "U85",
+      "french": "Jag gillar min morfar.",
+      "english": "I like my grandfather.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10745842",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pineapple",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S85001",
+      "position": 1,
+      "surface": "Din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 2,
+      "surface": "son",
+      "word_id": "W1682",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 4,
+      "surface": "ihop",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 5,
+      "surface": "med",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 6,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 7,
+      "surface": "dotter",
+      "word_id": "W1683",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 3,
+      "surface": "två",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 4,
+      "surface": "bröder",
+      "word_id": "W1698",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 5,
+      "surface": "och",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 6,
+      "surface": "två",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 7,
+      "surface": "systrar",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85003",
+      "position": 1,
+      "surface": "Jobbar",
+      "word_id": "W1312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85003",
+      "position": 2,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85003",
+      "position": 3,
+      "surface": "fru",
+      "word_id": "W1696",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85004",
+      "position": 1,
+      "surface": "Arbetar",
+      "word_id": "W1314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85004",
+      "position": 2,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85004",
+      "position": 3,
+      "surface": "fru",
+      "word_id": "W1696",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85005",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85005",
+      "position": 2,
+      "surface": "ni",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85005",
+      "position": 3,
+      "surface": "släkt",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85006",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85006",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85006",
+      "position": 3,
+      "surface": "släkt",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85007",
+      "position": 1,
+      "surface": "Vad",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85007",
+      "position": 2,
+      "surface": "gör",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85007",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85007",
+      "position": 4,
+      "surface": "son",
+      "word_id": "W1682",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85008",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85008",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85008",
+      "position": 3,
+      "surface": "fortfarande",
+      "word_id": "W1249",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85008",
+      "position": 4,
+      "surface": "gift",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 1,
+      "surface": "Var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 3,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 4,
+      "surface": "son",
+      "word_id": "W1682",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 1,
+      "surface": "Var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 2,
+      "surface": "bor",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 4,
+      "surface": "morbror",
+      "word_id": "W1691",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 1,
+      "surface": "Var",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 2,
+      "surface": "bor",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 4,
+      "surface": "farbror",
+      "word_id": "W1690",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 2,
+      "surface": "ni",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 3,
+      "surface": "två",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 4,
+      "surface": "släkt",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 2,
+      "surface": "inte",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 3,
+      "surface": "ni",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 4,
+      "surface": "systrar",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 1,
+      "surface": "Har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 4,
+      "surface": "dotter",
+      "word_id": "W1683",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 2,
+      "surface": "mår",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 4,
+      "surface": "fru",
+      "word_id": "W1696",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 2,
+      "surface": "det",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 4,
+      "surface": "egen",
+      "word_id": "W1702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 5,
+      "surface": "idé",
+      "word_id": "W1290",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 2,
+      "surface": "gammal",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 4,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 5,
+      "surface": "farfar",
+      "word_id": "W1686",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 2,
+      "surface": "gammal",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 4,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 5,
+      "surface": "farbror",
+      "word_id": "W1690",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 2,
+      "surface": "gammal",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 4,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 5,
+      "surface": "morbror",
+      "word_id": "W1691",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 2,
+      "surface": "många",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 3,
+      "surface": "syskon",
+      "word_id": "W1697",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 4,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 5,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 2,
+      "surface": "många",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 3,
+      "surface": "syskon",
+      "word_id": "W1697",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 4,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 2,
+      "surface": "många",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 3,
+      "surface": "systrar",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 4,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 5,
+      "surface": "du",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85023",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85023",
+      "position": 2,
+      "surface": "många",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85023",
+      "position": 3,
+      "surface": "syskon",
+      "word_id": "W1697",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85023",
+      "position": 4,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85023",
+      "position": 5,
+      "surface": "hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85024",
+      "position": 1,
+      "surface": "Är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85024",
+      "position": 2,
+      "surface": "hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85024",
+      "position": 3,
+      "surface": "din",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85024",
+      "position": 4,
+      "surface": "enda",
+      "word_id": "W1497",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85024",
+      "position": 5,
+      "surface": "dotter",
+      "word_id": "W1683",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 1,
+      "surface": "Hur",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 3,
+      "surface": "ditt",
+      "word_id": "W1388",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 4,
+      "surface": "liv",
+      "word_id": "W1486",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 5,
+      "surface": "som",
+      "word_id": "W1148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 6,
+      "surface": "gift",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85026",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85026",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85026",
+      "position": 3,
+      "surface": "bröder",
+      "word_id": "W1698",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85027",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85027",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85027",
+      "position": 3,
+      "surface": "gift",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85028",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85028",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85028",
+      "position": 3,
+      "surface": "två",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85028",
+      "position": 4,
+      "surface": "bröder",
+      "word_id": "W1698",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85029",
+      "position": 1,
+      "surface": "Morfar",
+      "word_id": "W1688",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85029",
+      "position": 2,
+      "surface": "pratar",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85029",
+      "position": 3,
+      "surface": "väldigt",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85029",
+      "position": 4,
+      "surface": "långsamt",
+      "word_id": "W1157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85030",
+      "position": 1,
+      "surface": "Farfar",
+      "word_id": "W1686",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85030",
+      "position": 2,
+      "surface": "pratar",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85030",
+      "position": 3,
+      "surface": "väldigt",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85030",
+      "position": 4,
+      "surface": "långsamt",
+      "word_id": "W1157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85031",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85031",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85031",
+      "position": 3,
+      "surface": "två",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85031",
+      "position": 4,
+      "surface": "döttrar",
+      "word_id": "W1685",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85032",
+      "position": 1,
+      "surface": "Vi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85032",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85032",
+      "position": 3,
+      "surface": "hans",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85032",
+      "position": 4,
+      "surface": "söner",
+      "word_id": "W1684",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 3,
+      "surface": "två",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 4,
+      "surface": "söner",
+      "word_id": "W1684",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 1,
+      "surface": "Han",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 3,
+      "surface": "fyra",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 4,
+      "surface": "döttrar",
+      "word_id": "W1685",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 1,
+      "surface": "Hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 2,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 3,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 4,
+      "surface": "mormor",
+      "word_id": "W1689",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 1,
+      "surface": "Hon",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 2,
+      "surface": "har",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 3,
+      "surface": "sju",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 4,
+      "surface": "söner",
+      "word_id": "W1684",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 1,
+      "surface": "Min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 2,
+      "surface": "morfar",
+      "word_id": "W1688",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 4,
+      "surface": "sjuk",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 1,
+      "surface": "Min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 2,
+      "surface": "farfar",
+      "word_id": "W1686",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 3,
+      "surface": "är",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 4,
+      "surface": "sjuk",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 1,
+      "surface": "Jag",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 2,
+      "surface": "gillar",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 3,
+      "surface": "min",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 4,
+      "surface": "morfar",
+      "word_id": "W1688",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A850091",
+      "sentence_id": "S85009",
+      "direction": "fr_to_en",
+      "answer": "Where is my son?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A850271",
+      "sentence_id": "S85027",
+      "direction": "fr_to_en",
+      "answer": "Tom is married.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A850281",
+      "sentence_id": "S85028",
+      "direction": "fr_to_en",
+      "answer": "I've got two brothers.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A850291",
+      "sentence_id": "S85029",
+      "direction": "fr_to_en",
+      "answer": "My grandfather speaks very slowly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A850301",
+      "sentence_id": "S85030",
+      "direction": "fr_to_en",
+      "answer": "My grandfather speaks very slowly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A850351",
+      "sentence_id": "S85035",
+      "direction": "fr_to_en",
+      "answer": "She is my grandmother.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
