@@ -1,0 +1,1909 @@
+{
+  "unit_id": "U86",
+  "pulled_at": "2026-11-21",
+  "candidates": 145,
+  "sentences": [
+    {
+      "sentence_id": "S86001",
+      "unit_id": "U86",
+      "french": "Welke verdieping?",
+      "english": "What floor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7959701",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86002",
+      "unit_id": "U86",
+      "french": "Waar is de sleutel?",
+      "english": "Where's the key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4927406",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86003",
+      "unit_id": "U86",
+      "french": "Staat het raam open?",
+      "english": "Is the window open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8574075",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86004",
+      "unit_id": "U86",
+      "french": "Kan dat raam open?",
+      "english": "Does that window open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10350992",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86005",
+      "unit_id": "U86",
+      "french": "Gaat dat raam open?",
+      "english": "Does that window open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10350993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86006",
+      "unit_id": "U86",
+      "french": "Heb je mijn sleutel?",
+      "english": "Do you have my key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13125708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86007",
+      "unit_id": "U86",
+      "french": "Heb jij mijn sleutel gezien?",
+      "english": "Have you seen my key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1354708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86008",
+      "unit_id": "U86",
+      "french": "Is dat een nieuwe lamp?",
+      "english": "Is that a new lamp?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7481451",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86009",
+      "unit_id": "U86",
+      "french": "Op welke verdieping woon jij?",
+      "english": "What floor do you live on?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8555867",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": [
+        "Which floor do you live on?"
+      ]
+    },
+    {
+      "sentence_id": "S86010",
+      "unit_id": "U86",
+      "french": "Wil je mijn slaapkamer zien?",
+      "english": "Do you want to see my bedroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10333239",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86011",
+      "unit_id": "U86",
+      "french": "Wilt u mijn slaapkamer zien?",
+      "english": "Do you want to see my bedroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10333240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86012",
+      "unit_id": "U86",
+      "french": "Willen jullie mijn slaapkamer zien?",
+      "english": "Do you want to see my bedroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10333241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86013",
+      "unit_id": "U86",
+      "french": "Heeft Tom dat zelf gedaan?",
+      "english": "Did Tom do that himself?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12330195",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86014",
+      "unit_id": "U86",
+      "french": "Waar kan ik een auto huren?",
+      "english": "Where can I rent a car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "741438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": [
+        "Where can I hire a car?"
+      ]
+    },
+    {
+      "sentence_id": "S86015",
+      "unit_id": "U86",
+      "french": "Heb je het huiswerk zelf gemaakt?",
+      "english": "Did you do the homework by yourself?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1478452",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86016",
+      "unit_id": "U86",
+      "french": "Kun je zelf je koffer dragen?",
+      "english": "Can you manage to carry the suitcase by yourself?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8395178",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86017",
+      "unit_id": "U86",
+      "french": "Wat zit er in de kast?",
+      "english": "What's in that cupboard?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11903720",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Slam4",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86018",
+      "unit_id": "U86",
+      "french": "Ga de trap op.",
+      "english": "Go up the stairs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4278526",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aubrey",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86019",
+      "unit_id": "U86",
+      "french": "De kast zit vol.",
+      "english": "The cupboard is full.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11903719",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Slam4",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86020",
+      "unit_id": "U86",
+      "french": "Doe de lamp uit.",
+      "english": "Turn off the lamp.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13525613",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ag12x",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86021",
+      "unit_id": "U86",
+      "french": "Tom staat op het dak.",
+      "english": "Tom is on the roof.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1478304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86022",
+      "unit_id": "U86",
+      "french": "Ik moet een kamer huren.",
+      "english": "I need to rent a room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2333208",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86023",
+      "unit_id": "U86",
+      "french": "We moeten de trap nemen.",
+      "english": "We have to take the stairs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4278517",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aubrey",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86024",
+      "unit_id": "U86",
+      "french": "We moeten met de trap.",
+      "english": "We have to take the stairs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4278522",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aubrey",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86025",
+      "unit_id": "U86",
+      "french": "Kom van mijn dak af!",
+      "english": "Get off of my roof.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4959267",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86026",
+      "unit_id": "U86",
+      "french": "Tom zit op de muur.",
+      "english": "Tom is sitting on the wall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5965857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86027",
+      "unit_id": "U86",
+      "french": "Ik heb een lamp nodig.",
+      "english": "I need a lamp.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7460079",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86028",
+      "unit_id": "U86",
+      "french": "Ik wil een grote stoel.",
+      "english": "I want a big chair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9313660",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nylez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86029",
+      "unit_id": "U86",
+      "french": "Ze zit op de stoel.",
+      "english": "She's sitting on the chair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10351163",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86030",
+      "unit_id": "U86",
+      "french": "Ga op de vloer zitten.",
+      "english": "Sit on the floor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10741843",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86031",
+      "unit_id": "U86",
+      "french": "Stop dat in de kast.",
+      "english": "Put that in the cupboard.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11903721",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Slam4",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86032",
+      "unit_id": "U86",
+      "french": "We willen twee fietsen huren.",
+      "english": "We want to hire two bicycles.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12307694",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86033",
+      "unit_id": "U86",
+      "french": "De stoel is erg klein.",
+      "english": "The chair is very small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13726914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86034",
+      "unit_id": "U86",
+      "french": "Ik ben op het dak.",
+      "english": "I'm on the roof.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13742820",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86035",
+      "unit_id": "U86",
+      "french": "Tom is op de derde verdieping.",
+      "english": "Tom is on the third floor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6961168",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S86001",
+      "position": 1,
+      "surface": "Welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 2,
+      "surface": "verdieping",
+      "word_id": "W1696",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 4,
+      "surface": "sleutel",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 1,
+      "surface": "Staat",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 3,
+      "surface": "raam",
+      "word_id": "W1690",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 4,
+      "surface": "open",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 1,
+      "surface": "Kan",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 3,
+      "surface": "raam",
+      "word_id": "W1690",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 4,
+      "surface": "open",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 1,
+      "surface": "Gaat",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 3,
+      "surface": "raam",
+      "word_id": "W1690",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 4,
+      "surface": "open",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 1,
+      "surface": "Heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 4,
+      "surface": "sleutel",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 1,
+      "surface": "Heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 2,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 4,
+      "surface": "sleutel",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 5,
+      "surface": "gezien",
+      "word_id": "W1818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 4,
+      "surface": "nieuwe",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 5,
+      "surface": "lamp",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 1,
+      "surface": "Op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 2,
+      "surface": "welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 3,
+      "surface": "verdieping",
+      "word_id": "W1696",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 4,
+      "surface": "woon",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 5,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 1,
+      "surface": "Wil",
+      "word_id": "W920",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 4,
+      "surface": "slaapkamer",
+      "word_id": "W1689",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 5,
+      "surface": "zien",
+      "word_id": "W1283",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 1,
+      "surface": "Wilt",
+      "word_id": "W921",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 4,
+      "surface": "slaapkamer",
+      "word_id": "W1689",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 5,
+      "surface": "zien",
+      "word_id": "W1283",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 1,
+      "surface": "Willen",
+      "word_id": "W922",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 4,
+      "surface": "slaapkamer",
+      "word_id": "W1689",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 5,
+      "surface": "zien",
+      "word_id": "W1283",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 1,
+      "surface": "Heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 3,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 4,
+      "surface": "zelf",
+      "word_id": "W1702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 5,
+      "surface": "gedaan",
+      "word_id": "W1817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 3,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 4,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 5,
+      "surface": "auto",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 6,
+      "surface": "huren",
+      "word_id": "W1698",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 1,
+      "surface": "Heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 4,
+      "surface": "huiswerk",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 5,
+      "surface": "zelf",
+      "word_id": "W1702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 6,
+      "surface": "gemaakt",
+      "word_id": "W1821",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 1,
+      "surface": "Kun",
+      "word_id": "W823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 3,
+      "surface": "zelf",
+      "word_id": "W1702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 5,
+      "surface": "koffer",
+      "word_id": "W1350",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 6,
+      "surface": "dragen",
+      "word_id": "W1112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 2,
+      "surface": "zit",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 3,
+      "surface": "er",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 4,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 6,
+      "surface": "kast",
+      "word_id": "W1693",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 1,
+      "surface": "Ga",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 3,
+      "surface": "trap",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 4,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 2,
+      "surface": "kast",
+      "word_id": "W1693",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 3,
+      "surface": "zit",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 4,
+      "surface": "vol",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 1,
+      "surface": "Doe",
+      "word_id": "W1303",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 3,
+      "surface": "lamp",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 4,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 2,
+      "surface": "staat",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 4,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 5,
+      "surface": "dak",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 2,
+      "surface": "moet",
+      "word_id": "W934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 4,
+      "surface": "kamer",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 5,
+      "surface": "huren",
+      "word_id": "W1698",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 1,
+      "surface": "We",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 2,
+      "surface": "moeten",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 4,
+      "surface": "trap",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 5,
+      "surface": "nemen",
+      "word_id": "W924",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 1,
+      "surface": "We",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 2,
+      "surface": "moeten",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 3,
+      "surface": "met",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 5,
+      "surface": "trap",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 1,
+      "surface": "Kom",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 2,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 4,
+      "surface": "dak",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 5,
+      "surface": "af",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 2,
+      "surface": "zit",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 5,
+      "surface": "muur",
+      "word_id": "W1691",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 2,
+      "surface": "heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 4,
+      "surface": "lamp",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 5,
+      "surface": "nodig",
+      "word_id": "W932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 2,
+      "surface": "wil",
+      "word_id": "W920",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 4,
+      "surface": "grote",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 5,
+      "surface": "stoel",
+      "word_id": "W1692",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 2,
+      "surface": "zit",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 5,
+      "surface": "stoel",
+      "word_id": "W1692",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 1,
+      "surface": "Ga",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 2,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 4,
+      "surface": "vloer",
+      "word_id": "W1700",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 5,
+      "surface": "zitten",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 1,
+      "surface": "Stop",
+      "word_id": "W1363",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 5,
+      "surface": "kast",
+      "word_id": "W1693",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 1,
+      "surface": "We",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 2,
+      "surface": "willen",
+      "word_id": "W922",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 3,
+      "surface": "twee",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 4,
+      "surface": "fietsen",
+      "word_id": "W1455",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 5,
+      "surface": "huren",
+      "word_id": "W1698",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 2,
+      "surface": "stoel",
+      "word_id": "W1692",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 4,
+      "surface": "erg",
+      "word_id": "W1483",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 5,
+      "surface": "klein",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86034",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86034",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86034",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86034",
+      "position": 4,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86034",
+      "position": 5,
+      "surface": "dak",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86035",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86035",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86035",
+      "position": 3,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86035",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86035",
+      "position": 5,
+      "surface": "derde",
+      "word_id": "W1261",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86035",
+      "position": 6,
+      "surface": "verdieping",
+      "word_id": "W1696",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A860091",
+      "sentence_id": "S86009",
+      "direction": "fr_to_en",
+      "answer": "Which floor do you live on?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860141",
+      "sentence_id": "S86014",
+      "direction": "fr_to_en",
+      "answer": "Where can I hire a car?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

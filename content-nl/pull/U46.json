@@ -1,0 +1,1910 @@
+{
+  "unit_id": "U46",
+  "pulled_at": "2026-11-21",
+  "candidates": 446,
+  "sentences": [
+    {
+      "sentence_id": "S46001",
+      "unit_id": "U46",
+      "french": "Kom je uit Spanje?",
+      "english": "Are you from Spain?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10089524",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46002",
+      "unit_id": "U46",
+      "french": "Komt u uit Engeland?",
+      "english": "Do you come from England?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12376768",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46003",
+      "unit_id": "U46",
+      "french": "Spreekt hij Engels, Frans of Duits?",
+      "english": "Is he speaking English, French, or German?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "702015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": [
+        "Does he speak English, French, or German?",
+        "Does he speak English, French or German?"
+      ]
+    },
+    {
+      "sentence_id": "S46004",
+      "unit_id": "U46",
+      "french": "Ik kom uit Frankrijk, en jij?",
+      "english": "I'm from France, and you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7451261",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46005",
+      "unit_id": "U46",
+      "french": "Spreekt u Duits?",
+      "english": "Do you speak German?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "560810",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46006",
+      "unit_id": "U46",
+      "french": "Spreekt u Frans?",
+      "english": "Do you speak French?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "821365",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "simonbr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46007",
+      "unit_id": "U46",
+      "french": "Waar kom je vandaan?",
+      "english": "Where are you from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "387167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "Where do you come from?",
+        "Where are you coming from?"
+      ]
+    },
+    {
+      "sentence_id": "S46008",
+      "unit_id": "U46",
+      "french": "Waar komt u vandaan?",
+      "english": "Where are you from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2965577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": [
+        "Where do you come from?"
+      ]
+    },
+    {
+      "sentence_id": "S46009",
+      "unit_id": "U46",
+      "french": "Waar komt hij vandaan?",
+      "english": "Where does he come from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6284257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46010",
+      "unit_id": "U46",
+      "french": "Wij komen uit Duitsland.",
+      "english": "We're from Germany.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7812001",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "We are from Germany."
+      ]
+    },
+    {
+      "sentence_id": "S46011",
+      "unit_id": "U46",
+      "french": "Wij komen uit Frankrijk.",
+      "english": "We're from France.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7926555",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "We are from France."
+      ]
+    },
+    {
+      "sentence_id": "S46012",
+      "unit_id": "U46",
+      "french": "Haar ouders komen uit Spanje.",
+      "english": "Her parents are from Spain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12496558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46013",
+      "unit_id": "U46",
+      "french": "Spreekt u Spaans?",
+      "english": "Do you speak Spanish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1084576",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46014",
+      "unit_id": "U46",
+      "french": "Spreekt ze Frans?",
+      "english": "Does she speak French?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8726300",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46015",
+      "unit_id": "U46",
+      "french": "Hoeveel talen spreekt u?",
+      "english": "How many languages do you speak?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "871088",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46016",
+      "unit_id": "U46",
+      "french": "Welke talen spreekt u?",
+      "english": "What languages do you speak?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7899285",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46017",
+      "unit_id": "U46",
+      "french": "Spreekt u mijn taal?",
+      "english": "Do you speak my language?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7899287",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46018",
+      "unit_id": "U46",
+      "french": "Wanneer kom je naar Nederland?",
+      "english": "When are you coming to the Netherlands?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2963894",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Globetrotter",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46019",
+      "unit_id": "U46",
+      "french": "Spreek je Spaans?",
+      "english": "Do you speak Spanish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4455901",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46020",
+      "unit_id": "U46",
+      "french": "Ben je Duits?",
+      "english": "Are you German?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7432070",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46021",
+      "unit_id": "U46",
+      "french": "Ben je Spaans?",
+      "english": "Are you from Spain?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10089525",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46022",
+      "unit_id": "U46",
+      "french": "Hoeveel talen spreek jij?",
+      "english": "How many languages do you speak?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "871093",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46023",
+      "unit_id": "U46",
+      "french": "Spreek je mijn taal?",
+      "english": "Do you speak my language?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1478238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46024",
+      "unit_id": "U46",
+      "french": "Welke taal spreek je?",
+      "english": "What language do you speak?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4811030",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mikedebie",
+      "other_english": [
+        "What language are you speaking?"
+      ]
+    },
+    {
+      "sentence_id": "S46025",
+      "unit_id": "U46",
+      "french": "Woont u in Duitsland?",
+      "english": "Do you live in Germany?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7803866",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46026",
+      "unit_id": "U46",
+      "french": "Woon je in Duitsland?",
+      "english": "Do you live in Germany?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7803867",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46027",
+      "unit_id": "U46",
+      "french": "Wanneer ga je naar Europa?",
+      "english": "When are you going to Europe?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7915937",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46028",
+      "unit_id": "U46",
+      "french": "Wanneer gaat u naar Europa?",
+      "english": "When are you going to Europe?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7915945",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46029",
+      "unit_id": "U46",
+      "french": "Wanneer gaan jullie naar Europa?",
+      "english": "When are you going to Europe?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7915946",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46030",
+      "unit_id": "U46",
+      "french": "Woont je broer in Frankrijk?",
+      "english": "Does your brother live in France?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12194562",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46031",
+      "unit_id": "U46",
+      "french": "Hij komt uit Engeland.",
+      "english": "He comes from England.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "731597",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46032",
+      "unit_id": "U46",
+      "french": "Zijn ouders komen uit Spanje.",
+      "english": "His parents are from Spain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12496559",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46033",
+      "unit_id": "U46",
+      "french": "De wereld spreekt Engels.",
+      "english": "The world speaks English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10747698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46034",
+      "unit_id": "U46",
+      "french": "Hallo wereld!",
+      "english": "Hello, world!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "399243",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46035",
+      "unit_id": "U46",
+      "french": "De wereld is groot.",
+      "english": "The world is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5460167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sdfke1",
+      "other_english": [
+        "The world is a big place."
+      ]
+    },
+    {
+      "sentence_id": "S46036",
+      "unit_id": "U46",
+      "french": "Ik woon in Nederland.",
+      "english": "I live in the Netherlands.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7320631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46037",
+      "unit_id": "U46",
+      "french": "Hij woont in Engeland.",
+      "english": "He lives in England.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7824207",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S46038",
+      "unit_id": "U46",
+      "french": "Nederland is een klein land.",
+      "english": "The Netherlands is a small country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "393873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S46001",
+      "position": 1,
+      "surface": "Kom",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46001",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46001",
+      "position": 3,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46001",
+      "position": 4,
+      "surface": "Spanje",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46002",
+      "position": 1,
+      "surface": "Komt",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46002",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46002",
+      "position": 3,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46002",
+      "position": 4,
+      "surface": "Engeland",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46003",
+      "position": 1,
+      "surface": "Spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46003",
+      "position": 2,
+      "surface": "hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46003",
+      "position": 3,
+      "surface": "Engels",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46003",
+      "position": 4,
+      "surface": "Frans",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46003",
+      "position": 5,
+      "surface": "of",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46003",
+      "position": 6,
+      "surface": "Duits",
+      "word_id": "W910",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46004",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46004",
+      "position": 2,
+      "surface": "kom",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46004",
+      "position": 3,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46004",
+      "position": 4,
+      "surface": "Frankrijk",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46004",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46004",
+      "position": 6,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46005",
+      "position": 1,
+      "surface": "Spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46005",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46005",
+      "position": 3,
+      "surface": "Duits",
+      "word_id": "W910",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46006",
+      "position": 1,
+      "surface": "Spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46006",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46006",
+      "position": 3,
+      "surface": "Frans",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46007",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46007",
+      "position": 2,
+      "surface": "kom",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46007",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46007",
+      "position": 4,
+      "surface": "vandaan",
+      "word_id": "W908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46008",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46008",
+      "position": 2,
+      "surface": "komt",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46008",
+      "position": 3,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46008",
+      "position": 4,
+      "surface": "vandaan",
+      "word_id": "W908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46009",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46009",
+      "position": 2,
+      "surface": "komt",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46009",
+      "position": 3,
+      "surface": "hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46009",
+      "position": 4,
+      "surface": "vandaan",
+      "word_id": "W908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46010",
+      "position": 1,
+      "surface": "Wij",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46010",
+      "position": 2,
+      "surface": "komen",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46010",
+      "position": 3,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46010",
+      "position": 4,
+      "surface": "Duitsland",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46011",
+      "position": 1,
+      "surface": "Wij",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46011",
+      "position": 2,
+      "surface": "komen",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46011",
+      "position": 3,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46011",
+      "position": 4,
+      "surface": "Frankrijk",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46012",
+      "position": 1,
+      "surface": "Haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46012",
+      "position": 2,
+      "surface": "ouders",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46012",
+      "position": 3,
+      "surface": "komen",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46012",
+      "position": 4,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46012",
+      "position": 5,
+      "surface": "Spanje",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46013",
+      "position": 1,
+      "surface": "Spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46013",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46013",
+      "position": 3,
+      "surface": "Spaans",
+      "word_id": "W911",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46014",
+      "position": 1,
+      "surface": "Spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46014",
+      "position": 2,
+      "surface": "ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46014",
+      "position": 3,
+      "surface": "Frans",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46015",
+      "position": 1,
+      "surface": "Hoeveel",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46015",
+      "position": 2,
+      "surface": "talen",
+      "word_id": "W913",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46015",
+      "position": 3,
+      "surface": "spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46015",
+      "position": 4,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46016",
+      "position": 1,
+      "surface": "Welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46016",
+      "position": 2,
+      "surface": "talen",
+      "word_id": "W913",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46016",
+      "position": 3,
+      "surface": "spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46016",
+      "position": 4,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46017",
+      "position": 1,
+      "surface": "Spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46017",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46017",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46017",
+      "position": 4,
+      "surface": "taal",
+      "word_id": "W912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46018",
+      "position": 1,
+      "surface": "Wanneer",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46018",
+      "position": 2,
+      "surface": "kom",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46018",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46018",
+      "position": 4,
+      "surface": "naar",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46018",
+      "position": 5,
+      "surface": "Nederland",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46019",
+      "position": 1,
+      "surface": "Spreek",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46019",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46019",
+      "position": 3,
+      "surface": "Spaans",
+      "word_id": "W911",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46020",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46020",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46020",
+      "position": 3,
+      "surface": "Duits",
+      "word_id": "W910",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46021",
+      "position": 1,
+      "surface": "Ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46021",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46021",
+      "position": 3,
+      "surface": "Spaans",
+      "word_id": "W911",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46022",
+      "position": 1,
+      "surface": "Hoeveel",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46022",
+      "position": 2,
+      "surface": "talen",
+      "word_id": "W913",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46022",
+      "position": 3,
+      "surface": "spreek",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46022",
+      "position": 4,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46023",
+      "position": 1,
+      "surface": "Spreek",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46023",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46023",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46023",
+      "position": 4,
+      "surface": "taal",
+      "word_id": "W912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46024",
+      "position": 1,
+      "surface": "Welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46024",
+      "position": 2,
+      "surface": "taal",
+      "word_id": "W912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46024",
+      "position": 3,
+      "surface": "spreek",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46024",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46025",
+      "position": 1,
+      "surface": "Woont",
+      "word_id": "W881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46025",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46025",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46025",
+      "position": 4,
+      "surface": "Duitsland",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46026",
+      "position": 1,
+      "surface": "Woon",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46026",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46026",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46026",
+      "position": 4,
+      "surface": "Duitsland",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46027",
+      "position": 1,
+      "surface": "Wanneer",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46027",
+      "position": 2,
+      "surface": "ga",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46027",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46027",
+      "position": 4,
+      "surface": "naar",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46027",
+      "position": 5,
+      "surface": "Europa",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46028",
+      "position": 1,
+      "surface": "Wanneer",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46028",
+      "position": 2,
+      "surface": "gaat",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46028",
+      "position": 3,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46028",
+      "position": 4,
+      "surface": "naar",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46028",
+      "position": 5,
+      "surface": "Europa",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46029",
+      "position": 1,
+      "surface": "Wanneer",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46029",
+      "position": 2,
+      "surface": "gaan",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46029",
+      "position": 3,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46029",
+      "position": 4,
+      "surface": "naar",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46029",
+      "position": 5,
+      "surface": "Europa",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46030",
+      "position": 1,
+      "surface": "Woont",
+      "word_id": "W881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46030",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46030",
+      "position": 3,
+      "surface": "broer",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46030",
+      "position": 4,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46030",
+      "position": 5,
+      "surface": "Frankrijk",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46031",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46031",
+      "position": 2,
+      "surface": "komt",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46031",
+      "position": 3,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46031",
+      "position": 4,
+      "surface": "Engeland",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46032",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46032",
+      "position": 2,
+      "surface": "ouders",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46032",
+      "position": 3,
+      "surface": "komen",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46032",
+      "position": 4,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46032",
+      "position": 5,
+      "surface": "Spanje",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46033",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46033",
+      "position": 2,
+      "surface": "wereld",
+      "word_id": "W915",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46033",
+      "position": 3,
+      "surface": "spreekt",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46033",
+      "position": 4,
+      "surface": "Engels",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46034",
+      "position": 1,
+      "surface": "Hallo",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46034",
+      "position": 2,
+      "surface": "wereld",
+      "word_id": "W915",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46035",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46035",
+      "position": 2,
+      "surface": "wereld",
+      "word_id": "W915",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46035",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46035",
+      "position": 4,
+      "surface": "groot",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46036",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46036",
+      "position": 2,
+      "surface": "woon",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46036",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46036",
+      "position": 4,
+      "surface": "Nederland",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46037",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46037",
+      "position": 2,
+      "surface": "woont",
+      "word_id": "W881",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46037",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46037",
+      "position": 4,
+      "surface": "Engeland",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46038",
+      "position": 1,
+      "surface": "Nederland",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46038",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46038",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46038",
+      "position": 4,
+      "surface": "klein",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S46038",
+      "position": 5,
+      "surface": "land",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A460031",
+      "sentence_id": "S46003",
+      "direction": "fr_to_en",
+      "answer": "Does he speak English, French, or German?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460032",
+      "sentence_id": "S46003",
+      "direction": "fr_to_en",
+      "answer": "Does he speak English, French or German?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460071",
+      "sentence_id": "S46007",
+      "direction": "fr_to_en",
+      "answer": "Where do you come from?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460072",
+      "sentence_id": "S46007",
+      "direction": "fr_to_en",
+      "answer": "Where are you coming from?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460081",
+      "sentence_id": "S46008",
+      "direction": "fr_to_en",
+      "answer": "Where do you come from?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460101",
+      "sentence_id": "S46010",
+      "direction": "fr_to_en",
+      "answer": "We are from Germany.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460111",
+      "sentence_id": "S46011",
+      "direction": "fr_to_en",
+      "answer": "We are from France.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460241",
+      "sentence_id": "S46024",
+      "direction": "fr_to_en",
+      "answer": "What language are you speaking?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A460351",
+      "sentence_id": "S46035",
+      "direction": "fr_to_en",
+      "answer": "The world is a big place.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

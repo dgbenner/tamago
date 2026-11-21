@@ -28,7 +28,7 @@ export const OWN = {
   de: { 'Not and None': 'Not + None', 'Wanting and Can': 'Want + Can', 'People and Feelings': 'People + Feelings' },
   it: { 'Body and Looks': 'Body + Looks' },
   pt: { 'Body and Looks': 'Body + Looks' },
-  nl: { 'Body and Looks': 'Body + Looks' },
+  nl: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
   sv: { 'Body and Looks': 'Body + Looks' },
   da: { 'Body and Looks': 'Body + Looks' },
   no: { 'Body and Looks': 'Body + Looks' },

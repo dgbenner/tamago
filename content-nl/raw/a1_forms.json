@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Mijn naam is Jan de Vries. Ik ben veertig jaar. Ik woon in de Bloemstraat, nummer tien, in Utrecht.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Voornaam\",\"rule\":\"text\",\"answer\":\"Jan\"},{\"key\":\"last\",\"label\":\"Achternaam\",\"rule\":\"text\",\"answer\":\"de Vries\",\"also\":[\"De Vries\",\"Vries\"]},{\"key\":\"age\",\"label\":\"Leeftijd\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adres\",\"rule\":\"text\",\"answer\":\"Bloemstraat 10\",\"also\":[\"Bloemstraat, 10\",\"bloemstraat 10\",\"de Bloemstraat 10\",\"Bloemstraat nummer tien\"]},{\"key\":\"town\",\"label\":\"Woonplaats\",\"rule\":\"text\",\"answer\":\"Utrecht\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Mijn naam is Anna Bakker. Ik ben dertig jaar. Ik kom uit Nederland. Ik woon in Frankrijk. Mijn nummer is nul zes, twaalf, vijftien, negentien, twintig.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Voornaam\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"last\",\"label\":\"Achternaam\",\"rule\":\"text\",\"answer\":\"Bakker\"},{\"key\":\"age\",\"label\":\"Leeftijd\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationaliteit\",\"rule\":\"text\",\"answer\":\"Nederlandse\",\"also\":[\"Nederlands\",\"nederlandse\",\"nederlands\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrijk\"},{\"key\":\"tel\",\"label\":\"Telefoon\",\"rule\":\"phone\",\"answer\":\"06 12 15 19 20\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Jan en Anna gaan zaterdag om half negen 's avonds naar de bioscoop. Ze zien elkaar op het plein.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dag\",\"rule\":\"text\",\"answer\":\"zaterdag\",\"also\":[\"Zaterdag\",\"op zaterdag\"]},{\"key\":\"time\",\"label\":\"Tijd\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"8:30\",\"20.30\",\"8.30\",\"half negen\",\"om half negen\"]},{\"key\":\"where\",\"label\":\"Waar\",\"rule\":\"text\",\"answer\":\"op het plein\",\"also\":[\"plein\",\"het plein\",\"Op het plein\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Mijn naam is Anna. Ik ontbijt om zeven uur. Ik begin om negen uur met werken en om vijf uur ben ik klaar.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Naam\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"breakfast\",\"label\":\"Ontbijt\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"zeven\",\"om zeven uur\"]},{\"key\":\"start\",\"label\":\"Begin werk\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"negen\",\"om negen uur\"]},{\"key\":\"end\",\"label\":\"Einde werk\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"vijf\",\"om vijf uur\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Mijn naam is Anna Bakker. Ik ben Nederlandse. Ik ben geboren op 10 april in Utrecht. Ik ben getrouwd. Ik woon in de Bloemstraat 12 in Amsterdam.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Naam\",\"rule\":\"text\",\"answer\":\"Anna Bakker\"},{\"key\":\"nat\",\"label\":\"Nationaliteit\",\"rule\":\"text\",\"answer\":\"Nederlandse\",\"also\":[\"Nederlands\",\"nederlandse\",\"nederlands\"]},{\"key\":\"born\",\"label\":\"Geboortedatum\",\"rule\":\"text\",\"answer\":\"10/4\",\"also\":[\"10 april\",\"10-4\",\"10-04\",\"10.4\",\"10 April\"]},{\"key\":\"place\",\"label\":\"Geboorteplaats\",\"rule\":\"text\",\"answer\":\"Utrecht\"},{\"key\":\"civil\",\"label\":\"Burgerlijke staat\",\"rule\":\"text\",\"answer\":\"getrouwd\",\"also\":[\"Getrouwd\",\"gehuwd\"]},{\"key\":\"town\",\"label\":\"Woonplaats\",\"rule\":\"text\",\"answer\":\"Amsterdam\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Mijn naam is Jan de Vries. Ik ben dertig jaar. Ik ben verpleegkundige en ik werk in een ziekenhuis in Rotterdam. Ik ben niet getrouwd.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Voornaam\",\"rule\":\"text\",\"answer\":\"Jan\"},{\"key\":\"last\",\"label\":\"Achternaam\",\"rule\":\"text\",\"answer\":\"de Vries\",\"also\":[\"De Vries\",\"Vries\"]},{\"key\":\"age\",\"label\":\"Leeftijd\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"job\",\"label\":\"Beroep\",\"rule\":\"text\",\"answer\":\"verpleegkundige\",\"also\":[\"Verpleegkundige\"]},{\"key\":\"civil\",\"label\":\"Burgerlijke staat\",\"rule\":\"text\",\"answer\":\"ongehuwd\",\"also\":[\"niet getrouwd\",\"Ongehuwd\",\"ongetrouwd\",\"alleenstaand\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F303",
+    "unit_id": "U81",
+    "card": "In het café: Tom bestelt een koffie en een stuk taart. Maria bestelt een thee. Ze betalen tien euro.",
+    "fields_json": "[{\"key\":\"tom\",\"label\":\"Tom\",\"rule\":\"text\",\"answer\":\"een koffie en een stuk taart\",\"also\":[\"koffie en taart\",\"koffie, taart\",\"een koffie, een stuk taart\",\"koffie en een stuk taart\"]},{\"key\":\"maria\",\"label\":\"Maria\",\"rule\":\"text\",\"answer\":\"een thee\",\"also\":[\"thee\"]},{\"key\":\"total\",\"label\":\"Totaal (euro)\",\"rule\":\"number\",\"answer\":\"10\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

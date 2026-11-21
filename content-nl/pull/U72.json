@@ -1,0 +1,1600 @@
+{
+  "unit_id": "U72",
+  "pulled_at": "2026-11-21",
+  "candidates": 45,
+  "sentences": [
+    {
+      "sentence_id": "S72001",
+      "unit_id": "U72",
+      "french": "Is het weer op zaterdag zonnig?",
+      "english": "Will the weather on Saturday be sunny?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3037074",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72002",
+      "unit_id": "U72",
+      "french": "De wind waait uit zee.",
+      "english": "The wind is blowing from the sea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8560215",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72003",
+      "unit_id": "U72",
+      "french": "Het weer is vandaag warm en zonnig.",
+      "english": "The weather's warm and sunny today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13667050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72004",
+      "unit_id": "U72",
+      "french": "Is dat sneeuw?",
+      "english": "Is that snow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7488126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72005",
+      "unit_id": "U72",
+      "french": "Hoe is het weer?",
+      "english": "How's the weather?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "How is the weather?",
+        "What's the weather like?",
+        "What is the weather like?"
+      ]
+    },
+    {
+      "sentence_id": "S72006",
+      "unit_id": "U72",
+      "french": "Waarom is sneeuw wit?",
+      "english": "Why is snow white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "748638",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72007",
+      "unit_id": "U72",
+      "french": "Houdt u van sneeuw?",
+      "english": "Do you like snow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7488143",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72008",
+      "unit_id": "U72",
+      "french": "Waarom is Tom nat?",
+      "english": "Why is Tom wet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7804437",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72009",
+      "unit_id": "U72",
+      "french": "Waarom ben je nat?",
+      "english": "Why are you wet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8008567",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72010",
+      "unit_id": "U72",
+      "french": "Waarom bent u nat?",
+      "english": "Why are you wet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8008568",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72011",
+      "unit_id": "U72",
+      "french": "Waar is de regen?",
+      "english": "Where is the rain?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8425150",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72012",
+      "unit_id": "U72",
+      "french": "Zijn mijn kleren al droog?",
+      "english": "Are my clothes already dry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7925213",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "Are my clothes dry yet?"
+      ]
+    },
+    {
+      "sentence_id": "S72013",
+      "unit_id": "U72",
+      "french": "Wat een wind!",
+      "english": "What a strong wind!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5476248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72014",
+      "unit_id": "U72",
+      "french": "Regen, regen, ga weg!",
+      "english": "Rain, rain go away!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "394682",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72015",
+      "unit_id": "U72",
+      "french": "Mijn mond is droog.",
+      "english": "My mouth is dry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9588974",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72016",
+      "unit_id": "U72",
+      "french": "Alles is nu droog.",
+      "english": "Everything's dry now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13604991",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72017",
+      "unit_id": "U72",
+      "french": "Er staat geen wind vandaag.",
+      "english": "There's no wind today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "597210",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72018",
+      "unit_id": "U72",
+      "french": "Duitsland is geen zonnig land.",
+      "english": "Germany is not a sunny country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7481362",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72019",
+      "unit_id": "U72",
+      "french": "Waarom zijn jullie nat?",
+      "english": "Why are you wet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8008569",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72020",
+      "unit_id": "U72",
+      "french": "Hoe is het weer daar?",
+      "english": "How's the weather there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1814504",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": [
+        "How is the weather there?"
+      ]
+    },
+    {
+      "sentence_id": "S72021",
+      "unit_id": "U72",
+      "french": "Is er veel sneeuw in uw land?",
+      "english": "Do you have much snow in your country?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1223206",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72022",
+      "unit_id": "U72",
+      "french": "Hoe is het weer in jouw land?",
+      "english": "How's the weather like in your country?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7491676",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72023",
+      "unit_id": "U72",
+      "french": "Hoe is het weer in uw land?",
+      "english": "How's the weather like in your country?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7491677",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72024",
+      "unit_id": "U72",
+      "french": "Hoe is het weer in jullie land?",
+      "english": "How's the weather like in your country?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7491678",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72025",
+      "unit_id": "U72",
+      "french": "Tom is nat.",
+      "english": "Tom is wet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6483008",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72026",
+      "unit_id": "U72",
+      "french": "Ik wil sneeuw.",
+      "english": "I want snow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7125900",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72027",
+      "unit_id": "U72",
+      "french": "Sneeuw is wit.",
+      "english": "Snow is white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7488124",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "The snow is white."
+      ]
+    },
+    {
+      "sentence_id": "S72028",
+      "unit_id": "U72",
+      "french": "Water is nat.",
+      "english": "Water is wet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7489200",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72029",
+      "unit_id": "U72",
+      "french": "Je bent nat.",
+      "english": "You're wet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8580620",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72030",
+      "unit_id": "U72",
+      "french": "De honden zijn nat.",
+      "english": "The dogs are wet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7484271",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S72001",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72001",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72001",
+      "position": 3,
+      "surface": "weer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72001",
+      "position": 4,
+      "surface": "op",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72001",
+      "position": 5,
+      "surface": "zaterdag",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72001",
+      "position": 6,
+      "surface": "zonnig",
+      "word_id": "W1426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 2,
+      "surface": "wind",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 3,
+      "surface": "waait",
+      "word_id": "W1423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 4,
+      "surface": "uit",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 5,
+      "surface": "zee",
+      "word_id": "W1160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 1,
+      "surface": "Het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 2,
+      "surface": "weer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 4,
+      "surface": "vandaag",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 5,
+      "surface": "warm",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 6,
+      "surface": "en",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 7,
+      "surface": "zonnig",
+      "word_id": "W1426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72004",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72004",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72004",
+      "position": 3,
+      "surface": "sneeuw",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72005",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72005",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72005",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72005",
+      "position": 4,
+      "surface": "weer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72006",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72006",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72006",
+      "position": 3,
+      "surface": "sneeuw",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72006",
+      "position": 4,
+      "surface": "wit",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72007",
+      "position": 1,
+      "surface": "Houdt",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72007",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72007",
+      "position": 3,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72007",
+      "position": 4,
+      "surface": "sneeuw",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72008",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72008",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72008",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72008",
+      "position": 4,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 4,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 2,
+      "surface": "bent",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 3,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 4,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 4,
+      "surface": "regen",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 2,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 3,
+      "surface": "kleren",
+      "word_id": "W1101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 4,
+      "surface": "al",
+      "word_id": "W852",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 5,
+      "surface": "droog",
+      "word_id": "W1428",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 2,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 3,
+      "surface": "wind",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 1,
+      "surface": "Regen",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 2,
+      "surface": "regen",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 3,
+      "surface": "ga",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 4,
+      "surface": "weg",
+      "word_id": "W1413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 1,
+      "surface": "Mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 2,
+      "surface": "mond",
+      "word_id": "W1006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 4,
+      "surface": "droog",
+      "word_id": "W1428",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 1,
+      "surface": "Alles",
+      "word_id": "W969",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 3,
+      "surface": "nu",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 4,
+      "surface": "droog",
+      "word_id": "W1428",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 2,
+      "surface": "staat",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 3,
+      "surface": "geen",
+      "word_id": "W972",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 4,
+      "surface": "wind",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 5,
+      "surface": "vandaag",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 1,
+      "surface": "Duitsland",
+      "word_id": "W899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 3,
+      "surface": "geen",
+      "word_id": "W972",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 4,
+      "surface": "zonnig",
+      "word_id": "W1426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 5,
+      "surface": "land",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72019",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72019",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72019",
+      "position": 3,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72019",
+      "position": 4,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 4,
+      "surface": "weer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 5,
+      "surface": "daar",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 3,
+      "surface": "veel",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 4,
+      "surface": "sneeuw",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 5,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 6,
+      "surface": "uw",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 7,
+      "surface": "land",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 4,
+      "surface": "weer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 5,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 6,
+      "surface": "jouw",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 7,
+      "surface": "land",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 4,
+      "surface": "weer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 5,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 6,
+      "surface": "uw",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 7,
+      "surface": "land",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 1,
+      "surface": "Hoe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 4,
+      "surface": "weer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 5,
+      "surface": "in",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 6,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 7,
+      "surface": "land",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 3,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 2,
+      "surface": "wil",
+      "word_id": "W920",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 3,
+      "surface": "sneeuw",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 1,
+      "surface": "Sneeuw",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 3,
+      "surface": "wit",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72028",
+      "position": 1,
+      "surface": "Water",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72028",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72028",
+      "position": 3,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72029",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72029",
+      "position": 2,
+      "surface": "bent",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72029",
+      "position": 3,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72030",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72030",
+      "position": 2,
+      "surface": "honden",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72030",
+      "position": 3,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72030",
+      "position": 4,
+      "surface": "nat",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A720051",
+      "sentence_id": "S72005",
+      "direction": "fr_to_en",
+      "answer": "How is the weather?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720052",
+      "sentence_id": "S72005",
+      "direction": "fr_to_en",
+      "answer": "What's the weather like?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720053",
+      "sentence_id": "S72005",
+      "direction": "fr_to_en",
+      "answer": "What is the weather like?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720121",
+      "sentence_id": "S72012",
+      "direction": "fr_to_en",
+      "answer": "Are my clothes dry yet?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720201",
+      "sentence_id": "S72020",
+      "direction": "fr_to_en",
+      "answer": "How is the weather there?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720271",
+      "sentence_id": "S72027",
+      "direction": "fr_to_en",
+      "answer": "The snow is white.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

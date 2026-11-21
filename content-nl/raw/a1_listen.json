@@ -1,1 +1,344 @@
-[]
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "vijftien",
+    "answer": "15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "zeventien",
+    "answer": "17",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "nul zes, twaalf, vijftien, negentien, twintig",
+    "answer": "06 12 15 19 20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "nul zes, elf, zestien, achttien, veertien",
+    "answer": "06 11 16 18 14",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Ik ben twintig jaar.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Zij is achttien jaar.",
+    "answer": "18",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "zeventig",
+    "answer": "70",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "negentig",
+    "answer": "90",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "vijfenveertig",
+    "answer": "45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "negenennegentig",
+    "answer": "99",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "dertig euro",
+    "answer": "30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "tien euro",
+    "answer": "10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "honderd euro",
+    "answer": "100",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "vijftig euro",
+    "answer": "50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N201",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Het is half vier.",
+    "answer": "3:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N202",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Het is kwart over acht.",
+    "answer": "8:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N203",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Het is twaalf uur.",
+    "answer": "12:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N204",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Het is kwart voor tien.",
+    "answer": "9:45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N205",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Vijf maart.",
+    "answer": "5/3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N206",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Eén mei.",
+    "answer": "1/5",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N207",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Vijftien september.",
+    "answer": "15/9",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N208",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Dertig december.",
+    "answer": "30/12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N209",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "De bus vertrekt om tien over vier.",
+    "answer": "4:10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N210",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "De trein komt om twintig over negen aan.",
+    "answer": "9:20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N211",
+    "unit_id": "U68",
+    "kind": "time",
+    "say": "Let op: de bus naar Utrecht vertrekt om zes uur.",
+    "answer": "6:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N212",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "De trein naar Amsterdam vertrekt van spoor zeven.",
+    "answer": "7",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Een koffie kost drie euro.",
+    "answer": "3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Dat is twaalf euro vijftig.",
+    "answer": "12,50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Het dagmenu kost vijfentwintig euro.",
+    "answer": "25",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "De rekening is tweeënveertig euro.",
+    "answer": "42",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N305",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "De apotheek is honderd meter verder.",
+    "answer": "100",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N306",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Het museum is driehonderd meter verder.",
+    "answer": "300",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N307",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Neem bus acht.",
+    "answer": "8",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N308",
+    "unit_id": "U84",
+    "kind": "time",
+    "say": "De tram komt om kwart over zeven.",
+    "answer": "7:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N309",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "Ik woon op nummer zesentwintig.",
+    "answer": "26",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N310",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "De vergadering is om half elf.",
+    "answer": "10:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N311",
+    "unit_id": "U88",
+    "kind": "phone",
+    "say": "Mijn mobiele nummer is nul zes, twaalf, twintig, achttien, negen.",
+    "answer": "06 12 20 18 09",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N312",
+    "unit_id": "U88",
+    "kind": "date",
+    "say": "Ik ben geboren op twaalf maart.",
+    "answer": "12/3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

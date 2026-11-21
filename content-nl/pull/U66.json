@@ -1,0 +1,1458 @@
+{
+  "unit_id": "U66",
+  "pulled_at": "2026-11-21",
+  "candidates": 100,
+  "sentences": [
+    {
+      "sentence_id": "S66001",
+      "unit_id": "U66",
+      "french": "Parkeren verboden!",
+      "english": "Parking prohibited!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7349041",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66002",
+      "unit_id": "U66",
+      "french": "Verboden te roken.",
+      "english": "No smoking.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2878508",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66003",
+      "unit_id": "U66",
+      "french": "Roken is verboden.",
+      "english": "Smoking is prohibited.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7673680",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66004",
+      "unit_id": "U66",
+      "french": "De bank is al gesloten.",
+      "english": "The bank has already closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8076385",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elsofie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66005",
+      "unit_id": "U66",
+      "french": "Roken jullie?",
+      "english": "Do you smoke?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "708593",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": [
+        "Do you guys smoke?"
+      ]
+    },
+    {
+      "sentence_id": "S66006",
+      "unit_id": "U66",
+      "french": "Is het gratis?",
+      "english": "Is it free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1546136",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66007",
+      "unit_id": "U66",
+      "french": "Is dit gratis?",
+      "english": "Is this free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7800810",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66008",
+      "unit_id": "U66",
+      "french": "Is het gesloten?",
+      "english": "Is it closed?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9067886",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66009",
+      "unit_id": "U66",
+      "french": "Waar is het toilet?",
+      "english": "Where's the toilet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "379482",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": [
+        "Where is the bathroom?",
+        "Where is the toilet?",
+        "Where are the toilets?"
+      ]
+    },
+    {
+      "sentence_id": "S66010",
+      "unit_id": "U66",
+      "french": "Waar is de ingang?",
+      "english": "Where's the entrance?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "702081",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": [
+        "Where is the entrance?"
+      ]
+    },
+    {
+      "sentence_id": "S66011",
+      "unit_id": "U66",
+      "french": "Waar is de bank?",
+      "english": "Where's the bank?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1046394",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": [
+        "Where is the bank?"
+      ]
+    },
+    {
+      "sentence_id": "S66012",
+      "unit_id": "U66",
+      "french": "Is de bank open?",
+      "english": "Is the bank open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1253323",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66013",
+      "unit_id": "U66",
+      "french": "Waar is de apotheek?",
+      "english": "Where's the pharmacy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6065621",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mandalay",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66014",
+      "unit_id": "U66",
+      "french": "Waar kan ik parkeren?",
+      "english": "Where can I park?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7814277",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66015",
+      "unit_id": "U66",
+      "french": "Waar ga je parkeren?",
+      "english": "Where are you parking?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10743541",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66016",
+      "unit_id": "U66",
+      "french": "Is de deur gesloten?",
+      "english": "Is the door closed?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12116666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66017",
+      "unit_id": "U66",
+      "french": "Heb je daar informatie over?",
+      "english": "Do you have any information about that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7701028",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66018",
+      "unit_id": "U66",
+      "french": "Waar is hier een apotheek?",
+      "english": "Where is there a pharmacy around here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9415050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66019",
+      "unit_id": "U66",
+      "french": "Pardon, waar is de uitgang?",
+      "english": "Excuse me, where's the exit?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10636350",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rose_d",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66020",
+      "unit_id": "U66",
+      "french": "Pardon, waar is het toilet?",
+      "english": "Excuse me, where's the toilet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10642743",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rose_d",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66021",
+      "unit_id": "U66",
+      "french": "Is er hier ergens een toilet?",
+      "english": "Is there a toilet around here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5802467",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": [
+        "Is there a toilet near here?"
+      ]
+    },
+    {
+      "sentence_id": "S66022",
+      "unit_id": "U66",
+      "french": "Wat is de naam van uw apotheek?",
+      "english": "What's the name of your pharmacy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7802673",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66023",
+      "unit_id": "U66",
+      "french": "Niet duwen!",
+      "english": "Don't push!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7962388",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66024",
+      "unit_id": "U66",
+      "french": "Alles is gratis.",
+      "english": "Everything's free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3042858",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66025",
+      "unit_id": "U66",
+      "french": "We willen informatie.",
+      "english": "We want information.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8615276",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66026",
+      "unit_id": "U66",
+      "french": "Ik heb informatie.",
+      "english": "I have information.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12982603",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66027",
+      "unit_id": "U66",
+      "french": "Ik ben een bakker.",
+      "english": "I'm a baker.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "647357",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66028",
+      "unit_id": "U66",
+      "french": "Ik zoek de ingang.",
+      "english": "I'm looking for the entrance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10839516",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66029",
+      "unit_id": "U66",
+      "french": "Dit is niet de ingang.",
+      "english": "This is not the entrance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4943432",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raizin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66030",
+      "unit_id": "U66",
+      "french": "Roken jullie niet?",
+      "english": "Don't you smoke?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7673711",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S66001",
+      "position": 1,
+      "surface": "Parkeren",
+      "word_id": "W1319",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 2,
+      "surface": "verboden",
+      "word_id": "W1312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 1,
+      "surface": "Verboden",
+      "word_id": "W1312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 3,
+      "surface": "roken",
+      "word_id": "W1318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 1,
+      "surface": "Roken",
+      "word_id": "W1318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 3,
+      "surface": "verboden",
+      "word_id": "W1312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 2,
+      "surface": "bank",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 4,
+      "surface": "al",
+      "word_id": "W852",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 5,
+      "surface": "gesloten",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 1,
+      "surface": "Roken",
+      "word_id": "W1318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1322",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 2,
+      "surface": "dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1322",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 2,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 3,
+      "surface": "gesloten",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 3,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 4,
+      "surface": "toilet",
+      "word_id": "W1317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 4,
+      "surface": "ingang",
+      "word_id": "W1310",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 4,
+      "surface": "bank",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 3,
+      "surface": "bank",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 4,
+      "surface": "open",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 4,
+      "surface": "apotheek",
+      "word_id": "W1314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 2,
+      "surface": "kan",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 3,
+      "surface": "ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 4,
+      "surface": "parkeren",
+      "word_id": "W1319",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 2,
+      "surface": "ga",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 4,
+      "surface": "parkeren",
+      "word_id": "W1319",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 3,
+      "surface": "deur",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 4,
+      "surface": "gesloten",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 1,
+      "surface": "Heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 3,
+      "surface": "daar",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 4,
+      "surface": "informatie",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 5,
+      "surface": "over",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 3,
+      "surface": "hier",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 4,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 5,
+      "surface": "apotheek",
+      "word_id": "W1314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 1,
+      "surface": "Pardon",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 2,
+      "surface": "waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 5,
+      "surface": "uitgang",
+      "word_id": "W1311",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 1,
+      "surface": "Pardon",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 2,
+      "surface": "waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 4,
+      "surface": "het",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 5,
+      "surface": "toilet",
+      "word_id": "W1317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 3,
+      "surface": "hier",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 4,
+      "surface": "ergens",
+      "word_id": "W1406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 5,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 6,
+      "surface": "toilet",
+      "word_id": "W1317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 4,
+      "surface": "naam",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 5,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 6,
+      "surface": "uw",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 7,
+      "surface": "apotheek",
+      "word_id": "W1314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 1,
+      "surface": "Niet",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 2,
+      "surface": "duwen",
+      "word_id": "W1321",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 1,
+      "surface": "Alles",
+      "word_id": "W969",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 3,
+      "surface": "gratis",
+      "word_id": "W1322",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 1,
+      "surface": "We",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 2,
+      "surface": "willen",
+      "word_id": "W922",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 3,
+      "surface": "informatie",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 2,
+      "surface": "heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 3,
+      "surface": "informatie",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 2,
+      "surface": "ben",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 4,
+      "surface": "bakker",
+      "word_id": "W1315",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 2,
+      "surface": "zoek",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 4,
+      "surface": "ingang",
+      "word_id": "W1310",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 1,
+      "surface": "Dit",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 3,
+      "surface": "niet",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 5,
+      "surface": "ingang",
+      "word_id": "W1310",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 1,
+      "surface": "Roken",
+      "word_id": "W1318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 2,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 3,
+      "surface": "niet",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A660051",
+      "sentence_id": "S66005",
+      "direction": "fr_to_en",
+      "answer": "Do you guys smoke?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660091",
+      "sentence_id": "S66009",
+      "direction": "fr_to_en",
+      "answer": "Where is the bathroom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660092",
+      "sentence_id": "S66009",
+      "direction": "fr_to_en",
+      "answer": "Where is the toilet?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660093",
+      "sentence_id": "S66009",
+      "direction": "fr_to_en",
+      "answer": "Where are the toilets?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660101",
+      "sentence_id": "S66010",
+      "direction": "fr_to_en",
+      "answer": "Where is the entrance?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660111",
+      "sentence_id": "S66011",
+      "direction": "fr_to_en",
+      "answer": "Where is the bank?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660211",
+      "sentence_id": "S66021",
+      "direction": "fr_to_en",
+      "answer": "Is there a toilet near here?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

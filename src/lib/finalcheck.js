@@ -36,7 +36,7 @@ export const EXAMS = {
     about: 'The Basic Civic Integration Exam Abroad is the Dutch government\'s exam at A1, taken before moving to the Netherlands. It tests speaking and reading Dutch, with a separate part on Dutch society.',
     note: 'There is no general A1 Dutch exam for everyone; the CNaVT exams start at A2. This course practises the language parts only.',
     samples: 'https://www.inburgeren.nl/en/civic-integration-abroad/',
-    format: 'Short lines to listen to and read; a form and a short message to write; then speaking.' },
+    format: 'Short texts to read first; then spoken Dutch, heard and answered; a little writing as practice, since the exam has none.' },
 }
 
 export const PARTS = [
@@ -73,6 +73,16 @@ export const FORMATS = {
     { id: 'reading', label: 'Reading', paper: 'Lesen', items: [['QT14', 3, 5], ['QT03', 2, 2]] },
     { id: 'writing', label: 'Writing', paper: 'Schreiben', items: [['QT15', 4, 1], ['QT16', 5, 1]] },
     { id: 'speaking', label: 'Speaking', paper: 'Sprechen', items: [['QT13', 5, 3], ['SPELL', 5, 1], ['SAY_NUMBER', 5, 1]] },
+  ],
+  // Dutch is a mock Basic Civic Integration Exam Abroad (2026-11-20, the full A1 run; end of Part 4, the last part): its
+  // two language papers, reading (Leestoets) then spoken Dutch (Toets Gesproken Nederlands: questions heard and answered),
+  // here as listening and speaking. The exam has no writing paper; a short writing section stays as practice so every
+  // course's result shows the same four skills. Item counts are ours.
+  nl: [
+    { id: 'reading', label: 'Reading', paper: 'Leestoets', items: [['QT14', 3, 4], ['QT03', 2, 3]] },
+    { id: 'listening', label: 'Listening', paper: 'Toets Gesproken Nederlands', items: [['QT04', 2, 3], ['QT17', 3, 3], ['QT11', 4, 2]] },
+    { id: 'speaking', label: 'Speaking', paper: 'Toets Gesproken Nederlands', items: [['QT13', 5, 4]] },
+    { id: 'writing', label: 'Writing', paper: 'Practice (not in the exam)', items: [['QT15', 4, 1], ['QT12', 4, 2]] },
   ],
 }
 // Italian is a mock CELI Impatto (A1) (Dan, 2026-11-16; at the end of Part 4, the last part). The Università per
