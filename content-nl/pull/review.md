@@ -2,7 +2,7 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U01 Saying Hello: zijn for who you are: ik ben, jij bent, hij is; een for a or an; nee for no, niet for not
+## U01 Say Hi: **zijn** for who you are: **ik ben**, **jij bent**, **hij is**; **een** for a or an; **nee** for no, **niet** for not
 
 20 sentences picked from 20 candidates (target 30 to 40). Grammar point in 16 (target 10). Questions for QT09: 0 (target 4).
 
@@ -33,7 +33,7 @@ Contrast forms, sentences each (target 2): ben 10, bent 3, is 1, ja 3, nee 2.
 | S1019 | Hoi, Maria. | Hello, Mary. |  | [#7524460](https://tatoeba.org/en/sentences/show/7524460) | Micsmithel |
 | S1020 | Ik ben Tom. | I'm Tom. | I am Tom. | [#3274140](https://tatoeba.org/en/sentences/show/3274140) | PaulP |
 
-## U31 Asking for Help: Ik begrijp het niet; langzamer, alsjeblieft; nog een keer
+## U31 Getting Help: **Ik begrijp het niet**; **langzamer, alsjeblieft**; **nog een keer**
 
 15 sentences picked from 15 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
@@ -59,7 +59,7 @@ Contrast forms, sentences each (target 2): .
 | S31014 | Zeg ja, alsjeblieft! | Please say ‘yes’! |  | [#13365862](https://tatoeba.org/en/sentences/show/13365862) | PaulP |
 | S31015 | Ik zeg "Ik ben Tom". | I say "I'm Tom". |  | [#4306525](https://tatoeba.org/en/sentences/show/4306525) | Aubrey |
 
-## U02 People and Things: de and het for the; hij and zij for he and she; dit and dat for this and that; a job takes no een: hij is dokter
+## U02 People + Things: **de** and **het** for the; **hij** and **zij** for he and she; **dit** and **dat** for this and that; a job takes no **een**: **hij is dokter**
 
 30 sentences picked from 56 candidates (target 30 to 40). Grammar point in 27 (target 10). Questions for QT09: 0 (target 4).
 
@@ -100,7 +100,7 @@ Contrast forms, sentences each (target 2): de 3, het 3, hij 6, zij 3, dit 6, dat
 | S2029 | Is dat een man? | Is that a man? |  | [#10882125](https://tatoeba.org/en/sentences/show/10882125) | PaulP |
 | S2030 | Hij is sterk. | He's strong. | He is powerful. | [#3042803](https://tatoeba.org/en/sentences/show/3042803) | Citrine |
 
-## U03 Polite Phrases: Set phrases; dank je for thank you; alsjeblieft for please and here you are; Hoe gaat het? and the answer goed
+## U03 Polite Phrases: Set phrases; **dank je** for thank you; **alsjeblieft** for please and here you are; **Hoe gaat het?** and the answer **goed**
 
 27 sentences picked from 27 candidates (target 30 to 40). Grammar point in 15 (target 10). Questions for QT09: 0 (target 4).
 
@@ -138,7 +138,7 @@ Contrast forms, sentences each (target 2): goed 8, slecht 3, goedemorgen 3, goed
 | S3026 | Dat is goed! | That's fine! |  | [#8663210](https://tatoeba.org/en/sentences/show/8663210) | Micsmithel |
 | S3027 | Tom is goed. | Tom is good. |  | [#9051384](https://tatoeba.org/en/sentences/show/9051384) | Micsmithel |
 
-## U04 Food and Drink: Present tense: ik eet, jij eet; ik drink, jij drinkt, hij drinkt; houden van for liking: ik houd van koffie
+## U04 Food + Drink: Present tense: **ik eet**, **jij eet**; **ik drink**, **jij drinkt**, **hij drinkt**; **houden van** for liking: **ik houd van koffie**
 
 30 sentences picked from 69 candidates (target 30 to 40). Grammar point in 18 (target 10). Questions for QT09: 0 (target 4).
 
@@ -179,7 +179,7 @@ Contrast forms, sentences each (target 2): eet 9, eten 3, drink 0, drinkt 8.
 | S4029 | Dit is eten. | This is food. |  | [#6623087](https://tatoeba.org/en/sentences/show/6623087) | Raizin |
 | S4030 | Is dat koffie? | Is that coffee? |  | [#7527353](https://tatoeba.org/en/sentences/show/7527353) | MarijnKp |
 
-## U05 Pets and Animals: hebben for having: ik heb, jij hebt, hij heeft
+## U05 Animals: **hebben** for having: **ik heb**, **jij hebt**, **hij heeft**
 
 30 sentences picked from 45 candidates (target 30 to 40). Grammar point in 21 (target 10). Questions for QT09: 0 (target 4).
 
@@ -220,7 +220,7 @@ Contrast forms, sentences each (target 2): heb 10, hebt 3, heeft 8.
 | S5029 | Tom heeft wijn. | Tom has wine. |  | [#7459772](https://tatoeba.org/en/sentences/show/7459772) | MarijnKp |
 | S5030 | Ik eet vis. | I eat fish. |  | [#7911595](https://tatoeba.org/en/sentences/show/7911595) | MarijnKp |
 
-## U32 Asking About Words: Hoe zeg je…? Wat betekent…? Het woord in het Nederlands
+## U32 Conversation Help: **Hoe zeg je…?** **Wat betekent…?** **Het woord in het Nederlands**
 
 20 sentences picked from 20 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
@@ -251,7 +251,7 @@ Every new word is in at least 3 sentences.
 | S32019 | Ik ben leraar Nederlands. | I'm a Dutch teacher. |  | [#9756104](https://tatoeba.org/en/sentences/show/9756104) | MarijnKp |
 | S32020 | "Ben je Nederlands?" "Ja dat ben ik." | "Are you Dutch?" "Yes, I am." |  | [#7431408](https://tatoeba.org/en/sentences/show/7431408) | MarijnKp |
 
-## U06 More Than One: Plurals add -en or -s; all plurals take de; wij zijn, jullie zijn, zij zijn; wij hebben, zij hebben
+## U06 Plurals: Plurals add **-en** or **-s**; all plurals take **de**; **wij zijn**, **jullie zijn**, **zij zijn**; **wij hebben**, **zij hebben**
 
 30 sentences picked from 131 candidates (target 30 to 40). Grammar point in 16 (target 10). Questions for QT09: 0 (target 4).
 
@@ -292,7 +292,7 @@ Contrast forms, sentences each (target 2): hond 2, honden 3, appel 2, appels 3, 
 | S6029 | Hebben jullie een kind? | Do you have a child? |  | [#7910696](https://tatoeba.org/en/sentences/show/7910696) | MarijnKp |
 | S6030 | Hebben jullie een boek? | Do you have a book? |  | [#7910705](https://tatoeba.org/en/sentences/show/7910705) | MarijnKp |
 
-## U07 Describing Things: An adjective before a noun adds -e: een mooie auto, but een mooi huis (a het-word with een); heel for very, ook for also
+## U07 Describing Things: An adjective before a noun adds **-e**: **een mooie auto**, but **een mooi huis** (a **het**-word with **een**); **heel** for very, **ook** for also
 
 30 sentences picked from 97 candidates (target 30 to 40). Grammar point in 19 (target 10). Questions for QT09: 0 (target 4).
 
@@ -333,7 +333,7 @@ Every new word is in at least 3 sentences.
 | S7029 | Zijn jullie nieuw? | Are you new? |  | [#11326793](https://tatoeba.org/en/sentences/show/11326793) | PaulP |
 | S7030 | Hoe oud is Tom? | How old is Tom? |  | [#4618730](https://tatoeba.org/en/sentences/show/4618730) | simonbr |
 
-## U52 Free Time: Ik houd van zwemmen: houden van and a verb; ik lees, hij leest; voetbal spelen
+## U52 Free Time: **Ik houd van zwemmen**: **houden van** and a verb; **ik lees**, **hij leest**; **voetbal spelen**
 
 30 sentences picked from 34 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
@@ -374,7 +374,7 @@ Contrast forms, sentences each (target 2): .
 | S52029 | Ze houdt van zingen. | She loves singing. | She likes to sing. | [#5135344](https://tatoeba.org/en/sentences/show/5135344) | Raizin |
 | S52030 | Ik lees zijn boek. | I read his book. | I am reading his book. | [#6588662](https://tatoeba.org/en/sentences/show/6588662) | martinod |
 
-## U08 Where Things Are: staat, ligt and is for where something is; in, op, onder for in, on, under; hier and daar; er is for there is
+## U08 Where Things Are: **staat**, **ligt** and **is** for where something is; **in**, **op**, **onder** for in, on, under; **hier** and **daar**; **er is** for there is
 
 30 sentences picked from 130 candidates (target 30 to 40). Grammar point in 19 (target 10). Questions for QT09: 0 (target 4).
 
@@ -415,7 +415,7 @@ Contrast forms, sentences each (target 2): hier 3, daar 3, op 3, onder 2, in 8.
 | S8029 | Zijn er kinderen? | Are there kids? |  | [#8396745](https://tatoeba.org/en/sentences/show/8396745) | Elsofie |
 | S8030 | Is Tom er? | Is Tom there? |  | [#9259364](https://tatoeba.org/en/sentences/show/9259364) | Micsmithel |
 
-## U09 How You Feel: zijn for feelings: ik ben moe, ik ben blij; honger, dorst and koud take hebben: ik heb honger, ik heb het koud
+## U09 How You Feel: **zijn** for feelings: **ik ben moe**, **ik ben blij**; **honger**, **dorst** and **koud** take **hebben**: **ik heb honger**, **ik heb het koud**
 
 30 sentences picked from 74 candidates (target 30 to 40). Grammar point in 14 (target 10). Questions for QT09: 0 (target 4).
 
@@ -456,7 +456,7 @@ Contrast forms, sentences each (target 2): moe 3, blij 3, honger 0, dorst 0, kou
 | S9029 | Zijn jullie boos op Tom? | Are you mad at Tom? |  | [#4622537](https://tatoeba.org/en/sentences/show/4622537) | Raizin |
 | S9030 | Hij is ziek. | He is sick. | He is ill. | [#387592](https://tatoeba.org/en/sentences/show/387592) | Dorenda |
 
-## U33 Finding the Word: Ik zoek het woord…; het is een ding om te…; ik weet het niet
+## U33 Finding the Word: **Ik zoek het woord…**; **het is een ding om te…**; **ik weet het niet**
 
 30 sentences picked from 46 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
@@ -497,7 +497,7 @@ Contrast forms, sentences each (target 2): .
 | S33029 | Ik ben te klein. | I am too short. |  | [#3042848](https://tatoeba.org/en/sentences/show/3042848) | Citrine |
 | S33030 | Ze zijn te groot. | They're too big. |  | [#4677067](https://tatoeba.org/en/sentences/show/4677067) | doemaar14 |
 
-## U10 Mine and Yours: Possessives: mijn, jouw (je), zijn (his), haar (her); ons and onze for our; family words
+## U10 Mine + Yours: Possessives: **mijn**, **jouw** (**je**), **zijn** (his), **haar** (her); **ons** and **onze** for our; family words
 
 30 sentences picked from 205 candidates (target 30 to 40). Grammar point in 21 (target 10). Questions for QT09: 0 (target 4).
 
@@ -538,7 +538,7 @@ Contrast forms, sentences each (target 2): mijn 5, jouw 10, haar 3, vader 8, moe
 | S10029 | Is zijn vader leraar? | Is his father a teacher? |  | [#439364](https://tatoeba.org/en/sentences/show/439364) | koosscharroo |
 | S10030 | Ben ik de vader? | Am I the father? |  | [#1673512](https://tatoeba.org/en/sentences/show/1673512) | martinod |
 
-## U11 Asking Questions: Question words come first: wie, wat, waar, wanneer, waarom, welke; omdat in the answer
+## U11 Asking Questions: Question words come first: **wie**, **wat**, **waar**, **wanneer**, **waarom**, **welke**; **omdat** in the answer
 
 30 sentences picked from 174 candidates (target 30 to 40). Grammar point in 27 (target 10). Questions for QT09: 0 (target 4).
 
@@ -579,7 +579,7 @@ Contrast forms, sentences each (target 2): wie 6, wat 10, waar 7, wanneer 1, waa
 | S11029 | Wat eet hij? | What is he eating? |  | [#6117310](https://tatoeba.org/en/sentences/show/6117310) | Raizin |
 | S11030 | Waar zijn jullie? | Where are you? | Where are you guys? | [#6621707](https://tatoeba.org/en/sentences/show/6621707) | Raizin |
 
-## U53 Around Town: Waar is…? Het museum, de kerk; met de bus, met de trein for how you travel; dichtbij and ver
+## U53 Around Town: **Waar is…?** **Het museum**, **de kerk**; **met de bus**, **met de trein** for how you travel; **dichtbij** and **ver**
 
 30 sentences picked from 41 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
@@ -620,7 +620,7 @@ Contrast forms, sentences each (target 2): .
 | S53029 | Daar gaat onze bus. | There goes our bus. |  | [#8997105](https://tatoeba.org/en/sentences/show/8997105) | Nylez |
 | S53030 | Dat is onze bus. | That's our bus. |  | [#10677881](https://tatoeba.org/en/sentences/show/10677881) | rose_d |
 
-## U12 Counting to Ten: Numbers one to ten; hoeveel for how many; … jaar for an age
+## U12 Intro to Numbers: Numbers one to ten; **hoeveel** for how many; … **jaar** for an age
 
 30 sentences picked from 83 candidates (target 30 to 40). Grammar point in 21 (target 10). Questions for QT09: 0 (target 4).
 
@@ -661,7 +661,7 @@ Contrast forms, sentences each (target 2): twee 3, drie 3, hoeveel 12, veel 3.
 | S12029 | Hoeveel katten zijn er in dit huis? | How many cats are there in this house? |  | [#1217407](https://tatoeba.org/en/sentences/show/1217407) | martinod |
 | S12030 | Heb je veel familie? | Do you have a lot of relatives? |  | [#5117247](https://tatoeba.org/en/sentences/show/5117247) | PaulP |
 
-## U13 Naming Colours: A colour after de or het: de auto is rood; before a noun it adds -e: een rode auto; kleur for colour
+## U13 Colors: A colour after **de** or **het**: **de auto is rood**; before a noun it adds **-e**: **een rode auto**; **kleur** for colour
 
 30 sentences picked from 75 candidates (target 30 to 40). Grammar point in 18 (target 10). Questions for QT09: 0 (target 4).
 
@@ -702,7 +702,7 @@ Contrast forms, sentences each (target 2): rood 7, blauw 4, zwart 3, wit 4.
 | S13029 | Honden zijn wit. | Dogs are white. |  | [#7447162](https://tatoeba.org/en/sentences/show/7447162) | MarijnKp |
 | S13030 | Zij zijn rood. | They're red. |  | [#7488184](https://tatoeba.org/en/sentences/show/7488184) | MarijnKp |
 
-## U14 Days and Times: Time words: vandaag, morgen, nu; days of the week have no capital; Hoe laat is het? for the time
+## U14 Time: Time words: **vandaag**, **morgen**, **nu**; days of the week have no capital; **Hoe laat is het?** for the time
 
 30 sentences picked from 72 candidates (target 30 to 40). Grammar point in 13 (target 10). Questions for QT09: 0 (target 4).
 
@@ -743,7 +743,7 @@ Contrast forms, sentences each (target 2): vandaag 9, morgen 3, dag 2, week 0.
 | S14029 | Ben je hier maandag? | Will you be here Monday? | Will you be here on Monday? | [#10891134](https://tatoeba.org/en/sentences/show/10891134) | megamanenm |
 | S14030 | En wat hebben we vandaag? | What are we having today? |  | [#4722745](https://tatoeba.org/en/sentences/show/4722745) | OpenSystemenHOGent |
 
-## U15 Going Places: gaan for going: ik ga, jij gaat, wij gaan; naar for to a place
+## U15 Going Places: **gaan** for going: **ik ga**, **jij gaat**, **wij gaan**; **naar** for to a place
 
 30 sentences picked from 80 candidates (target 30 to 40). Grammar point in 29 (target 10). Questions for QT09: 0 (target 4).
 
@@ -784,7 +784,7 @@ Contrast forms, sentences each (target 2): ga 19, gaat 4, gaan 7.
 | S15029 | Ik ga naar bed. | I'm going to bed. | I'm going to go to bed. | [#8012123](https://tatoeba.org/en/sentences/show/8012123) | Elsofie |
 | S15030 | Ik ga naar Parijs. | I'm going to Paris. |  | [#8466717](https://tatoeba.org/en/sentences/show/8466717) | MarijnKp |
 
-## U51 Body and Looks: Zij heeft blauwe ogen: hebben with the article for features; lang, kort: adjectives add -e before a noun
+## U51 Body + Looks: **Zij heeft blauwe ogen**: **hebben** with the article for features; **lang**, **kort**: adjectives add **-e** before a noun
 
 30 sentences picked from 75 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
@@ -824,3 +824,739 @@ Contrast forms, sentences each (target 2): .
 | S51028 | Ik ben lang. | I'm tall. | I am tall. | [#4945034](https://tatoeba.org/en/sentences/show/4945034) | Raizin |
 | S51029 | Maria is blond. | Mary is blonde. |  | [#6087450](https://tatoeba.org/en/sentences/show/6087450) | Mandalay |
 | S51030 | Tom is slim. | Tom's smart. | Tom is smart.; Tom is clever. | [#6577296](https://tatoeba.org/en/sentences/show/6577296) | Ag12x |
+
+## U41 Your Name, Please: Hoe heet je? to a friend, Hoe heet u? politely: u, the polite you, takes the same verb form as jij after it (u bent, u heeft or u hebt); mijn naam is …; aangenaam; niet comes after the verb (ik ken hem niet)
+
+30 sentences picked from 549 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: voornaam (1), achternaam (1), mevrouw (0), aangenaam (0), welkom (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S41001 | Kent u me? | Do you know me? |  | [#6813054](https://tatoeba.org/en/sentences/show/6813054) | Micsmithel |
+| S41002 | Kent u hem? | Do you know him? |  | [#7922210](https://tatoeba.org/en/sentences/show/7922210) | Elsofie |
+| S41003 | Kent u mij? | Do you know me? |  | [#8180794](https://tatoeba.org/en/sentences/show/8180794) | Raizin |
+| S41004 | Uw naam, alstublieft! | Your name, please! |  | [#7956284](https://tatoeba.org/en/sentences/show/7956284) | Elsofie |
+| S41005 | Ik ken hem niet. | I don't know him. |  | [#752983](https://tatoeba.org/en/sentences/show/752983) | Citrine |
+| S41006 | We kennen hem niet. | We don't know him. | We do not know him. | [#1132413](https://tatoeba.org/en/sentences/show/1132413) | megamanenm |
+| S41007 | Ik ken zijn naam niet. | I don't know his name. |  | [#723082](https://tatoeba.org/en/sentences/show/723082) | martinod |
+| S41008 | Ken je me? | Do you know me? |  | [#3610850](https://tatoeba.org/en/sentences/show/3610850) | PaulP |
+| S41009 | Wat is uw achternaam? | What is your surname? |  | [#4671760](https://tatoeba.org/en/sentences/show/4671760) | doemaar14 |
+| S41010 | Is dat uw naam? | Is that your name? |  | [#6770161](https://tatoeba.org/en/sentences/show/6770161) | martinod |
+| S41011 | Hoe kennen jullie me? | How do you know me? |  | [#8436077](https://tatoeba.org/en/sentences/show/8436077) | MarijnKp |
+| S41012 | Kent ze mij? | Does she know me? |  | [#7701184](https://tatoeba.org/en/sentences/show/7701184) | MarijnKp |
+| S41013 | Kennen jullie hem? | Do you guys know him? |  | [#7918777](https://tatoeba.org/en/sentences/show/7918777) | PaulP |
+| S41014 | Kent hij mij? | Does he know me? |  | [#8175592](https://tatoeba.org/en/sentences/show/8175592) | Elsofie |
+| S41015 | Is dit uw hond, meneer? | Is this your dog, sir? |  | [#8236971](https://tatoeba.org/en/sentences/show/8236971) | meshbags |
+| S41016 | Hoe oud bent u nu, meneer? | How old are you now, sir? |  | [#8665939](https://tatoeba.org/en/sentences/show/8665939) | MarijnKp |
+| S41017 | Waar bent u naar op zoek, meneer? | What are you looking for, sir? |  | [#10640977](https://tatoeba.org/en/sentences/show/10640977) | rose_d |
+| S41018 | Wat is je voornaam? | What's your first name? | What is your first name? | [#4550023](https://tatoeba.org/en/sentences/show/4550023) | PaulP |
+| S41019 | Ga alstublieft niet. | Please don't go. |  | [#6800144](https://tatoeba.org/en/sentences/show/6800144) | Ag12x |
+| S41020 | Thee, alstublieft. | Tea, please. |  | [#7499191](https://tatoeba.org/en/sentences/show/7499191) | MarijnKp |
+| S41021 | Welkom in ons restaurant! | Welcome to our restaurant! |  | [#1343506](https://tatoeba.org/en/sentences/show/1343506) | Citrine |
+| S41022 | Welkom in ons hotel. | Welcome to our hotel. |  | [#12094358](https://tatoeba.org/en/sentences/show/12094358) | purple_ice |
+| S41023 | Kent hij me niet? | Doesn't he know me? |  | [#5339719](https://tatoeba.org/en/sentences/show/5339719) | LinguisticFusion |
+| S41024 | Hoe kent u me? | How do you know me? |  | [#8436076](https://tatoeba.org/en/sentences/show/8436076) | MarijnKp |
+| S41025 | Dit is mijn vriend. Kent u hem? | He's my friend. Do you know him? |  | [#5462724](https://tatoeba.org/en/sentences/show/5462724) | sdfke1 |
+| S41026 | Kent ze u? | Does she know you? |  | [#668019](https://tatoeba.org/en/sentences/show/668019) | martinod |
+| S41027 | Kent u Tom? | Do you know Tom? |  | [#7901039](https://tatoeba.org/en/sentences/show/7901039) | MarijnKp |
+| S41028 | Ken je mij? | Do you know me? |  | [#8180793](https://tatoeba.org/en/sentences/show/8180793) | Raizin |
+| S41029 | Begrijpt u me? | Do you understand me? |  | [#8470291](https://tatoeba.org/en/sentences/show/8470291) | MarijnKp |
+| S41030 | Ken je hem? | Do you know him? |  | [#8609028](https://tatoeba.org/en/sentences/show/8609028) | Micsmithel |
+
+## U54 Clothes: Ik draag …: dragen for what you wear; ik heb een jas aan (I have a coat on); de kleren (always plural)
+
+30 sentences picked from 55 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: kleren (2), broek (0), rok (2), trui (2), bril (0), dragen (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S54001 | Tom draagt een trui onder zijn jas. | Tom is wearing a sweater under his coat. |  | [#11086859](https://tatoeba.org/en/sentences/show/11086859) | doemaar14 |
+| S54002 | Waarom draag jij mijn jurk? | Why are you wearing my dress? |  | [#4171418](https://tatoeba.org/en/sentences/show/4171418) | erikv |
+| S54003 | Waarom heb je mijn jas aan? | Why are you wearing my coat? |  | [#11044495](https://tatoeba.org/en/sentences/show/11044495) | marijke84 |
+| S54004 | Waarom draag je je hoed niet? | Why aren't you wearing your hat? |  | [#12500485](https://tatoeba.org/en/sentences/show/12500485) | PaulP |
+| S54005 | Ik draag schoenen. | I'm wearing shoes. |  | [#7611590](https://tatoeba.org/en/sentences/show/7611590) | MarijnKp |
+| S54006 | Hij draagt een hoed. | He's wearing a hat. | He has a hat on.; He is wearing a hat. | [#450319](https://tatoeba.org/en/sentences/show/450319) | Citrine |
+| S54007 | Ze draagt een hoed. | She's wearing a hat. | She is wearing a hat. | [#628092](https://tatoeba.org/en/sentences/show/628092) | PaulP |
+| S54008 | Houd je schoenen aan. | Keep your shoes on. |  | [#9755107](https://tatoeba.org/en/sentences/show/9755107) | megamanenm |
+| S54009 | Weet u uw maat? | Do you know your size? |  | [#395345](https://tatoeba.org/en/sentences/show/395345) | Dorenda |
+| S54010 | Waar zijn je kleren? | Where are your clothes? |  | [#3219470](https://tatoeba.org/en/sentences/show/3219470) | PaulP |
+| S54011 | Waar zijn uw kleren? | Where are your clothes? |  | [#3219473](https://tatoeba.org/en/sentences/show/3219473) | PaulP |
+| S54012 | Wat ga je dragen? | What will you wear? |  | [#3693868](https://tatoeba.org/en/sentences/show/3693868) | PaulP |
+| S54013 | Wat heeft Tom aan? | What's Tom wearing? | What does Tom have on? | [#4722914](https://tatoeba.org/en/sentences/show/4722914) | OpenSystemenHOGent |
+| S54014 | Zijn je schoenen nieuw? | Are your shoes new? |  | [#5117275](https://tatoeba.org/en/sentences/show/5117275) | PaulP |
+| S54015 | Waar is mijn jas? | Where's my coat? |  | [#5332372](https://tatoeba.org/en/sentences/show/5332372) | PaulP |
+| S54016 | Wat is uw maat? | What is your size? |  | [#10846747](https://tatoeba.org/en/sentences/show/10846747) | megamanenm |
+| S54017 | Weet u welke maat u hebt? | Do you know your size? |  | [#395348](https://tatoeba.org/en/sentences/show/395348) | Dorenda |
+| S54018 | De jurk is groen. | The dress is green. |  | [#3175098](https://tatoeba.org/en/sentences/show/3175098) | PaulP |
+| S54019 | Haar jurk is lang. | Her dress is long. |  | [#7675319](https://tatoeba.org/en/sentences/show/7675319) | martinod |
+| S54020 | De rok is groen. | The skirt is green. |  | [#7913823](https://tatoeba.org/en/sentences/show/7913823) | MarijnKp |
+| S54021 | Haar trui is blauw. | Her sweater is blue. |  | [#9683493](https://tatoeba.org/en/sentences/show/9683493) | Nylez |
+| S54022 | Mijn rok is te lang. | My skirt is too long. |  | [#1033908](https://tatoeba.org/en/sentences/show/1033908) | martinod |
+| S54023 | Waar is je hoed? | Where's your hat? |  | [#3873364](https://tatoeba.org/en/sentences/show/3873364) | PaulP |
+| S54024 | Waar is mijn hoed? | Where's my hat? |  | [#7459960](https://tatoeba.org/en/sentences/show/7459960) | MarijnKp |
+| S54025 | Is dat mijn hoed? | Is that my hat? |  | [#7459963](https://tatoeba.org/en/sentences/show/7459963) | MarijnKp |
+| S54026 | Waar zijn mijn schoenen? | Where are my shoes? |  | [#7478950](https://tatoeba.org/en/sentences/show/7478950) | MarijnKp |
+| S54027 | Waar zijn de schoenen? | Where are the shoes? | Where're the shoes? | [#12947758](https://tatoeba.org/en/sentences/show/12947758) | MarijnKp |
+| S54028 | Welke kleur heeft jouw jas? | What color is your coat? | What colour is your coat? | [#9061094](https://tatoeba.org/en/sentences/show/9061094) | MarijnKp |
+| S54029 | Welke kleur heeft jullie jas? | What color is your coat? | What colour is your coat? | [#9061166](https://tatoeba.org/en/sentences/show/9061166) | MarijnKp |
+| S54030 | Welke schoenen zijn van Tom? | Which pair of shoes is Tom's? |  | [#10731358](https://tatoeba.org/en/sentences/show/10731358) | megamanenm |
+
+## U34 Spelling It Out: Hoe schrijf je dat? Kun je dat spellen?: kunnen + a verb at the end; ik kan, jij kunt (kun je …? in a question), hij kan
+
+30 sentences picked from 156 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: letter (0), spellen (2), even (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S34001 | Kunt u schrijven? | Can you write? |  | [#4980873](https://tatoeba.org/en/sentences/show/4980873) | Akem_20 |
+| S34002 | Kan je dat spellen, alsjeblieft? | Could you spell it, please? |  | [#3244702](https://tatoeba.org/en/sentences/show/3244702) | PaulP |
+| S34003 | Kunt u dat spellen, alstublieft? | Could you spell it, please? |  | [#3244703](https://tatoeba.org/en/sentences/show/3244703) | PaulP |
+| S34004 | Kun je lezen en schrijven? | Do you know how to read and write? |  | [#6703308](https://tatoeba.org/en/sentences/show/6703308) | Micsmithel |
+| S34005 | Kan Tom zijn naam schrijven? | Can Tom write his name? | Is Tom able to write his name? | [#9766560](https://tatoeba.org/en/sentences/show/9766560) | Raizin |
+| S34006 | Kan dat? | Is that possible? |  | [#7284606](https://tatoeba.org/en/sentences/show/7284606) | Micsmithel |
+| S34007 | Kun je zwemmen? | Can you swim? |  | [#4144404](https://tatoeba.org/en/sentences/show/4144404) | simonbr |
+| S34008 | Wanneer schrijf je? | When do you write? |  | [#8570041](https://tatoeba.org/en/sentences/show/8570041) | Micsmithel |
+| S34009 | Kun je dansen? | Can you dance? | Do you know how to dance? | [#8656723](https://tatoeba.org/en/sentences/show/8656723) | Micsmithel |
+| S34010 | Waar schrijft u? | Where do you write? |  | [#8774635](https://tatoeba.org/en/sentences/show/8774635) | Micsmithel |
+| S34011 | Kunt u lezen? | Can you read? | Do you know how to read? | [#9414981](https://tatoeba.org/en/sentences/show/9414981) | MarijnKp |
+| S34012 | Hoe schrijf je jouw naam? | How do you write your name? |  | [#9331423](https://tatoeba.org/en/sentences/show/9331423) | megamanenm |
+| S34013 | Jij schrijft. | You write. | You're writing.; You are writing. | [#760076](https://tatoeba.org/en/sentences/show/760076) | martinod |
+| S34014 | Schrijf me! | Write me. | Write to me. | [#7484979](https://tatoeba.org/en/sentences/show/7484979) | Micsmithel |
+| S34015 | Tom schrijft. | Tom writes. |  | [#7491854](https://tatoeba.org/en/sentences/show/7491854) | MarijnKp |
+| S34016 | Laat me even kijken. | Let me see. | Let me have a look.; Let me take a look. | [#4516611](https://tatoeba.org/en/sentences/show/4516611) | Raizin |
+| S34017 | Laat Tom hier even naar kijken. | Let Tom take a look at it. |  | [#11624383](https://tatoeba.org/en/sentences/show/11624383) | martinod |
+| S34018 | Kan ik? | Can I? | May I? | [#7833043](https://tatoeba.org/en/sentences/show/7833043) | MarijnKp |
+| S34019 | Hoe kan dat? | How come? | How's that possible?; How is that possible? | [#7349113](https://tatoeba.org/en/sentences/show/7349113) | MarijnKp |
+| S34020 | Kan ik gaan? | Can I go? |  | [#7788951](https://tatoeba.org/en/sentences/show/7788951) | MarijnKp |
+| S34021 | Kan ik zingen? | Can I sing? |  | [#7833084](https://tatoeba.org/en/sentences/show/7833084) | MarijnKp |
+| S34022 | Schrijven jullie graag? | Do you guys like writing? |  | [#7918784](https://tatoeba.org/en/sentences/show/7918784) | PaulP |
+| S34023 | Kan je Engels? | You know English? |  | [#8596068](https://tatoeba.org/en/sentences/show/8596068) | Micsmithel |
+| S34024 | Kan je lezen? | Can you read? | Do you know how to read? | [#9061182](https://tatoeba.org/en/sentences/show/9061182) | MarijnKp |
+| S34025 | Kan Tom zwemmen? | Can Tom swim? |  | [#9705282](https://tatoeba.org/en/sentences/show/9705282) | Nylez |
+| S34026 | Kun je dat? | Can you do that? |  | [#11751893](https://tatoeba.org/en/sentences/show/11751893) | Ag12x |
+| S34027 | Kan Tom zingen? | Can Tom sing? |  | [#12982473](https://tatoeba.org/en/sentences/show/12982473) | MarijnKp |
+| S34028 | Kan ik dit eten? | Can I eat this? | May I eat this? | [#375889](https://tatoeba.org/en/sentences/show/375889) | megamanenm |
+| S34029 | Kan je ver kijken? | Can you see far? |  | [#3175152](https://tatoeba.org/en/sentences/show/3175152) | PaulP |
+| S34030 | Wat kan ik eten? | What can I eat? |  | [#7911617](https://tatoeba.org/en/sentences/show/7911617) | MarijnKp |
+
+## U42 Phone Numbers: Numbers 0 to 20; mijn nummer is …; bellen: ik bel, jij belt; elf to negentien; of (or)
+
+31 sentences picked from 78 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: nummer (0), bellen (2), nul (0), elf (0), dertien (2), veertien (2), vijftien (0), zestien (1), zeventien (0), achttien (2), negentien (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S42001 | Koffie of thee? | Coffee or tea? |  | [#1089842](https://tatoeba.org/en/sentences/show/1089842) | LaraCroft |
+| S42002 | Jij of ik? | You or I? |  | [#2358364](https://tatoeba.org/en/sentences/show/2358364) | Citrine |
+| S42003 | Wie belt er? | Who's calling? |  | [#7985040](https://tatoeba.org/en/sentences/show/7985040) | Micsmithel |
+| S42004 | Groot of klein? | Large or small? |  | [#8757562](https://tatoeba.org/en/sentences/show/8757562) | Micsmithel |
+| S42005 | Is hier een telefoon? | Is there a telephone here? |  | [#7314959](https://tatoeba.org/en/sentences/show/7314959) | MarijnKp |
+| S42006 | Heeft u een telefoon? | Do you have a telephone? |  | [#9241957](https://tatoeba.org/en/sentences/show/9241957) | LinguisticFusion |
+| S42007 | Heb jij een telefoon? | Do you have a telephone? |  | [#13492650](https://tatoeba.org/en/sentences/show/13492650) | PaulP |
+| S42008 | Waarom bel je ze niet op? | Why don't you give them a call? |  | [#10359117](https://tatoeba.org/en/sentences/show/10359117) | doemaar14 |
+| S42009 | Bel me. | Call me. |  | [#3162446](https://tatoeba.org/en/sentences/show/3162446) | PaulP |
+| S42010 | Bel Tom. | Call Tom. |  | [#7533015](https://tatoeba.org/en/sentences/show/7533015) | MarijnKp |
+| S42011 | Ik ben achttien. | I'm eighteen. |  | [#4538098](https://tatoeba.org/en/sentences/show/4538098) | Raizin |
+| S42012 | Ze belt aan. | She rings the doorbell. |  | [#12496642](https://tatoeba.org/en/sentences/show/12496642) | megamanenm |
+| S42013 | Ik heb één zus. | I have one sister. |  | [#1480369](https://tatoeba.org/en/sentences/show/1480369) | Citrine |
+| S42014 | Ze heeft twintig kinderen. | She has twenty children. |  | [#3691242](https://tatoeba.org/en/sentences/show/3691242) | PaulP |
+| S42015 | Ik heb één broer. | I have one brother. |  | [#6140181](https://tatoeba.org/en/sentences/show/6140181) | PaulP |
+| S42016 | Tom heeft één broer. | Tom has one brother. |  | [#7499850](https://tatoeba.org/en/sentences/show/7499850) | MarijnKp |
+| S42017 | Ik ben twaalf jaar. | I'm twelve years old. |  | [#8301341](https://tatoeba.org/en/sentences/show/8301341) | Elsofie |
+| S42018 | Hij heeft twaalf kinderen. | He has twelve children. |  | [#9666775](https://tatoeba.org/en/sentences/show/9666775) | MarijnKp |
+| S42019 | Zijn moeder belt je. | His mother is calling you. |  | [#9715001](https://tatoeba.org/en/sentences/show/9715001) | MarijnKp |
+| S42020 | Ik ga ze bellen. | I'll call them. |  | [#9721593](https://tatoeba.org/en/sentences/show/9721593) | megamanenm |
+| S42021 | Ik ben zestien jaar oud. | I am sixteen years old. |  | [#1051049](https://tatoeba.org/en/sentences/show/1051049) | martinod |
+| S42022 | Ik ben twaalf jaar oud. | I'm twelve years old. | I am twelve years old. | [#4353208](https://tatoeba.org/en/sentences/show/4353208) | martinod |
+| S42023 | Twee keer zeven is veertien. | Two times seven is fourteen. |  | [#4759286](https://tatoeba.org/en/sentences/show/4759286) | Raizin |
+| S42024 | Vier keer vijf is twintig. | Four times five is twenty. |  | [#4759289](https://tatoeba.org/en/sentences/show/4759289) | Raizin |
+| S42025 | Zes keer drie is achttien. | Six times three is eighteen. | Six times three equals eighteen. | [#4759296](https://tatoeba.org/en/sentences/show/4759296) | Raizin |
+| S42026 | Ik ben veertien jaar oud. | I am 14 years old. | I'm fourteen years old.; I am fourteen years old. | [#6813064](https://tatoeba.org/en/sentences/show/6813064) | Micsmithel |
+| S42027 | Zij is twintig jaar oud. | She is twenty years old. |  | [#7913790](https://tatoeba.org/en/sentences/show/7913790) | MarijnKp |
+| S42028 | Tom is dertien jaar oud. | Tom is thirteen years old. |  | [#7913793](https://tatoeba.org/en/sentences/show/7913793) | MarijnKp |
+| S42029 | Ik ben negentien jaar oud. | I am 19 years old. | I am nineteen years old. | [#10603621](https://tatoeba.org/en/sentences/show/10603621) | MarijnKp |
+| S42030 | Tom is nu dertien jaar oud. | Tom is now 13 years old. | Tom is now thirteen years old. | [#7913780](https://tatoeba.org/en/sentences/show/7913780) | MarijnKp |
+| S42031 | Zeg me wanneer je me gaat bellen. | Tell me when you'll call me. |  | [#7281493](https://tatoeba.org/en/sentences/show/7281493) | FreekVerkerk |
+
+## U43 Age + Birthdays: Ik ben … jaar (oud): zijn for age; hoe oud ben je?; gefeliciteerd!; ik ben jarig (it is my birthday); al, pas, bijna
+
+30 sentences picked from 138 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: gefeliciteerd (2), maand (0), pas (0), jonger (2), baby (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S43001 | Gefeliciteerd met je verjaardag! | Happy birthday! | Happy birthday to you! | [#379392](https://tatoeba.org/en/sentences/show/379392) | Dorenda |
+| S43002 | Ben je ouder of jonger? | Are you older or younger? |  | [#12450339](https://tatoeba.org/en/sentences/show/12450339) | PaulP |
+| S43003 | Bent u ouder of jonger? | Are you older or younger? |  | [#12450340](https://tatoeba.org/en/sentences/show/12450340) | PaulP |
+| S43004 | Je kent haar al jaren. | You've known her for years. |  | [#8744012](https://tatoeba.org/en/sentences/show/8744012) | MarijnKp |
+| S43005 | We kennen haar al jaren. | We've known her for years. | We have known her for years. | [#9118276](https://tatoeba.org/en/sentences/show/9118276) | Nylez |
+| S43006 | Ik ken hem al jaren. | I've known him for years. | I have known him for years. | [#9939529](https://tatoeba.org/en/sentences/show/9939529) | Nylez |
+| S43007 | Wanneer bent u geboren? | When were you born? |  | [#379677](https://tatoeba.org/en/sentences/show/379677) | Dorenda |
+| S43008 | Wanneer ben je geboren? | When were you born? |  | [#379678](https://tatoeba.org/en/sentences/show/379678) | Dorenda |
+| S43009 | Wanneer zijn jullie geboren? | When were you born? |  | [#379679](https://tatoeba.org/en/sentences/show/379679) | Dorenda |
+| S43010 | Wanneer is uw verjaardag? | When's your birthday? |  | [#997449](https://tatoeba.org/en/sentences/show/997449) | martinod |
+| S43011 | Wanneer is zijn verjaardag? | When is his birthday? |  | [#5171572](https://tatoeba.org/en/sentences/show/5171572) | Rosemarie |
+| S43012 | Met wie ben je? | Who are you with? |  | [#5426870](https://tatoeba.org/en/sentences/show/5426870) | PaulP |
+| S43013 | Met wie praat ik? | Who am I talking with? | Who am I speaking to?; With whom am I speaking? | [#7906344](https://tatoeba.org/en/sentences/show/7906344) | MarijnKp |
+| S43014 | Wie is er jarig? | Whose birthday is it? |  | [#10626795](https://tatoeba.org/en/sentences/show/10626795) | megamanenm |
+| S43015 | Hoeveel maanden gaan er in een jaar? | How many months are there in a year? |  | [#8537943](https://tatoeba.org/en/sentences/show/8537943) | simonbr |
+| S43016 | Bijna drie. | Almost three. | Nearly three. | [#714160](https://tatoeba.org/en/sentences/show/714160) | martinod |
+| S43017 | Gefeliciteerd mijn vriend! | Happy birthday, my friend! |  | [#7547694](https://tatoeba.org/en/sentences/show/7547694) | MarijnKp |
+| S43018 | Ik ben jarig! | It's my birthday! |  | [#9031603](https://tatoeba.org/en/sentences/show/9031603) | Micsmithel |
+| S43019 | Tom is ouder. | Tom's older. | Tom is older. | [#9275055](https://tatoeba.org/en/sentences/show/9275055) | Micsmithel |
+| S43020 | Vandaag ben ik jarig. | Today is my birthday. |  | [#1305166](https://tatoeba.org/en/sentences/show/1305166) | Citrine |
+| S43021 | We zijn er bijna. | We're almost there. | We are almost there. | [#7469458](https://tatoeba.org/en/sentences/show/7469458) | megamanenm |
+| S43022 | Dit is bijna nieuw. | This is almost new. |  | [#8803182](https://tatoeba.org/en/sentences/show/8803182) | MarijnKp |
+| S43023 | Een jaar heeft twaalf maanden. | A year has twelve months. | One year has twelve months. | [#815485](https://tatoeba.org/en/sentences/show/815485) | simonbr |
+| S43024 | Hij is achttien maanden oud. | He is eighteen months old. |  | [#6041676](https://tatoeba.org/en/sentences/show/6041676) | Mandalay |
+| S43025 | Onze baby praat nog niet. | Our baby isn't talking yet. |  | [#12120816](https://tatoeba.org/en/sentences/show/12120816) | megamanenm |
+| S43026 | Waar is hij geboren? | Where was he born? |  | [#397251](https://tatoeba.org/en/sentences/show/397251) | Dorenda |
+| S43027 | Waar ben je geboren? | Where were you born? |  | [#448577](https://tatoeba.org/en/sentences/show/448577) | koosscharroo |
+| S43028 | Wanneer is zij geboren? | When was she born? |  | [#814072](https://tatoeba.org/en/sentences/show/814072) | simonbr |
+| S43029 | Waar is Tom geboren? | Where was Tom born? |  | [#1294001](https://tatoeba.org/en/sentences/show/1294001) | martinod |
+| S43030 | Heeft u al kinderen? | Do you have children already? |  | [#1358534](https://tatoeba.org/en/sentences/show/1358534) | Citrine |
+
+## U55 In Class: Ik leer Nederlands: leren is to learn and to teach; een vraag, een antwoord; vragen (to ask): ik vraag, jij vraagt
+
+30 sentences picked from 119 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: les (0), klas (0), pen (0), student (0), examen (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S55001 | Heb jij een antwoord op mijn vraag? | Do you have an answer to my question? |  | [#8228649](https://tatoeba.org/en/sentences/show/8228649) | meshbags |
+| S55002 | Nog vragen? | Anymore questions? |  | [#10005792](https://tatoeba.org/en/sentences/show/10005792) | Micsmithel |
+| S55003 | Heb je vragen? | Do you have any questions? |  | [#6572938](https://tatoeba.org/en/sentences/show/6572938) | Ag12x |
+| S55004 | Zijn er vragen? | Any questions? | Are there any questions? | [#7530250](https://tatoeba.org/en/sentences/show/7530250) | Micsmithel |
+| S55005 | Heb je huiswerk? | Do you have homework? |  | [#7694726](https://tatoeba.org/en/sentences/show/7694726) | MarijnKp |
+| S55006 | Wat leer je? | What do you learn? | What are you learning? | [#8699307](https://tatoeba.org/en/sentences/show/8699307) | Micsmithel |
+| S55007 | Heb je een potlood? | Do you have a pencil? | Have you got a pencil? | [#395249](https://tatoeba.org/en/sentences/show/395249) | Dorenda |
+| S55008 | Weet je het antwoord? | You know the answer? | Do you know the answer? | [#402478](https://tatoeba.org/en/sentences/show/402478) | Dorenda |
+| S55009 | Is dit jouw potlood? | Is this your pencil? | Is this pencil yours? | [#7455570](https://tatoeba.org/en/sentences/show/7455570) | MarijnKp |
+| S55010 | Waar is mijn potlood? | Where is my pencil? |  | [#7455585](https://tatoeba.org/en/sentences/show/7455585) | MarijnKp |
+| S55011 | Is dit jouw huiswerk? | Is this your homework? |  | [#7694724](https://tatoeba.org/en/sentences/show/7694724) | MarijnKp |
+| S55012 | Waar is jouw huiswerk? | Where is your homework? |  | [#7694728](https://tatoeba.org/en/sentences/show/7694728) | MarijnKp |
+| S55013 | Waarom antwoord je niet? | Why don't you answer? |  | [#7814644](https://tatoeba.org/en/sentences/show/7814644) | MarijnKp |
+| S55014 | Ga je Engels leren? | Are you going to learn English? |  | [#8579625](https://tatoeba.org/en/sentences/show/8579625) | Micsmithel |
+| S55015 | Hoe leer je Nederlands? | How do you learn Dutch? | How do you teach Dutch? | [#9321359](https://tatoeba.org/en/sentences/show/9321359) | megamanenm |
+| S55016 | Wanneer heb je leren zwemmen? | When did you learn to swim? |  | [#1478032](https://tatoeba.org/en/sentences/show/1478032) | Citrine |
+| S55017 | Wie heeft je leren zwemmen? | Who taught you to swim? |  | [#12330021](https://tatoeba.org/en/sentences/show/12330021) | doemaar14 |
+| S55018 | Ik leer. | I learn. | I'm learning. | [#7451602](https://tatoeba.org/en/sentences/show/7451602) | MarijnKp |
+| S55019 | Tom leert. | Tom is learning. |  | [#8229187](https://tatoeba.org/en/sentences/show/8229187) | meshbags |
+| S55020 | Een vraag. | One question. |  | [#8683443](https://tatoeba.org/en/sentences/show/8683443) | Micsmithel |
+| S55021 | Wat een vraag! | What a question! |  | [#8671806](https://tatoeba.org/en/sentences/show/8671806) | Micsmithel |
+| S55022 | Ze leert zwemmen. | She's learning to swim. |  | [#8726666](https://tatoeba.org/en/sentences/show/8726666) | Micsmithel |
+| S55023 | Ze leert Engels. | She teaches English. |  | [#8757782](https://tatoeba.org/en/sentences/show/8757782) | Micsmithel |
+| S55024 | Dit is papier. | This is paper. |  | [#13975621](https://tatoeba.org/en/sentences/show/13975621) | 12882 |
+| S55025 | Het papier is wit. | The paper is white. |  | [#1306774](https://tatoeba.org/en/sentences/show/1306774) | martinod |
+| S55026 | Dit papier is wit. | This paper is white. |  | [#9074521](https://tatoeba.org/en/sentences/show/9074521) | MarijnKp |
+| S55027 | Morgen heb ik een examen. | I have an exam tomorrow. |  | [#8064312](https://tatoeba.org/en/sentences/show/8064312) | Elsofie |
+| S55028 | Ik heb zaterdag een examen. | On Saturday I'm having an exam. |  | [#12068551](https://tatoeba.org/en/sentences/show/12068551) | PaulP |
+| S55029 | Waarom vragen jullie? | Why are you asking? |  | [#7804409](https://tatoeba.org/en/sentences/show/7804409) | MarijnKp |
+| S55030 | Heeft u vragen? | Do you have any questions? |  | [#9766105](https://tatoeba.org/en/sentences/show/9766105) | Raizin |
+
+## U35 Checking Numbers: Een moment. Wacht even. Klopt dat? Dat is fout.
+
+30 sentences picked from 94 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: moment (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S35001 | Klopt dat? | Is that right? | Is that correct? | [#6275327](https://tatoeba.org/en/sentences/show/6275327) | megamanenm |
+| S35002 | Oké. Waar? | Fine. Where? |  | [#9091490](https://tatoeba.org/en/sentences/show/9091490) | Micsmithel |
+| S35003 | Klopt dat, meneer? | Is that correct, sir? |  | [#6153328](https://tatoeba.org/en/sentences/show/6153328) | RobinvanderVliet |
+| S35004 | Klopt dit antwoord? | Is that answer right? |  | [#8836104](https://tatoeba.org/en/sentences/show/8836104) | Micsmithel |
+| S35005 | Is dat juist? | Is that correct? |  | [#9411778](https://tatoeba.org/en/sentences/show/9411778) | Micsmithel |
+| S35006 | Welke is juist? | Which is correct? |  | [#10064586](https://tatoeba.org/en/sentences/show/10064586) | Micsmithel |
+| S35007 | Is dat fout? | Is that wrong? |  | [#13034230](https://tatoeba.org/en/sentences/show/13034230) | MarijnKp |
+| S35008 | Is mijn antwoord juist? | Is my answer correct? |  | [#409611](https://tatoeba.org/en/sentences/show/409611) | Dorenda |
+| S35009 | Op wie wacht je? | Who are you waiting for? |  | [#3528658](https://tatoeba.org/en/sentences/show/3528658) | vvv123 |
+| S35010 | Heb ik het fout? | Am I wrong? |  | [#4516357](https://tatoeba.org/en/sentences/show/4516357) | Raizin |
+| S35011 | Waar wacht je op? | What're you waiting for? | What are you waiting for? | [#7303704](https://tatoeba.org/en/sentences/show/7303704) | MarijnKp |
+| S35012 | Waar wacht u op? | What're you waiting for? | What are you waiting for? | [#7303707](https://tatoeba.org/en/sentences/show/7303707) | MarijnKp |
+| S35013 | Waar is de fout? | Where's the mistake? | Where is the mistake? | [#9067025](https://tatoeba.org/en/sentences/show/9067025) | MarijnKp |
+| S35014 | Wat betekent dat precies? | What exactly does that mean? |  | [#9773636](https://tatoeba.org/en/sentences/show/9773636) | Raizin |
+| S35015 | Waar zijn we precies? | Where exactly are we? | Where are we exactly? | [#9851084](https://tatoeba.org/en/sentences/show/9851084) | Nylez |
+| S35016 | Waar is je huis precies? | Where exactly is your house? |  | [#8445180](https://tatoeba.org/en/sentences/show/8445180) | doemaar14 |
+| S35017 | Waar ben je nu op dit moment? | Where are you at the moment? |  | [#6015616](https://tatoeba.org/en/sentences/show/6015616) | Ag12x |
+| S35018 | Een moment! | Just a moment. |  | [#7550252](https://tatoeba.org/en/sentences/show/7550252) | Micsmithel |
+| S35019 | Oké. Sorry. | Okay. Sorry. |  | [#7706460](https://tatoeba.org/en/sentences/show/7706460) | Micsmithel |
+| S35020 | Ik ben oké. | I'm OK. | I am okay. | [#7899053](https://tatoeba.org/en/sentences/show/7899053) | MarijnKp |
+| S35021 | Wacht je op me? | Are you waiting for me? |  | [#12340254](https://tatoeba.org/en/sentences/show/12340254) | doemaar14 |
+| S35022 | Wacht even! Wat is dat? | Wait, what is this? |  | [#7694819](https://tatoeba.org/en/sentences/show/7694819) | Micsmithel |
+| S35023 | Hoe is dat jouw fout? | How's that your fault? | How is that your fault? | [#10634774](https://tatoeba.org/en/sentences/show/10634774) | rose_d |
+| S35024 | Hoe weet je dat dat klopt? | How do you know that's true? | How do you know that that's true? | [#12332733](https://tatoeba.org/en/sentences/show/12332733) | megamanenm |
+| S35025 | Waar ben je precies naar op zoek? | What exactly are you looking for? |  | [#3068520](https://tatoeba.org/en/sentences/show/3068520) | Citrine |
+| S35026 | Weet jij waar Tom op ons wacht? | Do you know where Tom is waiting for us? |  | [#7535497](https://tatoeba.org/en/sentences/show/7535497) | MarijnKp |
+| S35027 | Weet u waar Tom op ons wacht? | Do you know where Tom is waiting for us? |  | [#7535500](https://tatoeba.org/en/sentences/show/7535500) | MarijnKp |
+| S35028 | Mijn fout! | My bad! | My mistake! | [#1142762](https://tatoeba.org/en/sentences/show/1142762) | martinod |
+| S35029 | Zij wacht. | She's waiting. | She is waiting. | [#3524331](https://tatoeba.org/en/sentences/show/3524331) | PaulP |
+| S35030 | Wacht even. | Hold on. | Wait a while.; Wait a bit.; Wait a moment.; Wait a second. | [#6290564](https://tatoeba.org/en/sentences/show/6290564) | megamanenm |
+
+## U44 Numbers to 100: Tens to 100: dertig … negentig, honderd; eenentwintig, tweeëntwintig: the unit first, then en, then the ten, all one word; meer dan, minder dan
+
+30 sentences picked from 135 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: zestig (2), zeventig (0), tachtig (0), negentig (1), honderd (1), duizend (0), miljoen (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S44001 | Hij heeft niet meer dan honderd boeken. | He has no more than one hundred books. |  | [#2819193](https://tatoeba.org/en/sentences/show/2819193) | martinod |
+| S44002 | Minder is meer. | Less is more. |  | [#9713610](https://tatoeba.org/en/sentences/show/9713610) | Nylez |
+| S44003 | Meer dan u! | More than you! |  | [#9728692](https://tatoeba.org/en/sentences/show/9728692) | Micsmithel |
+| S44004 | Hij is ongeveer dertig. | He is about thirty. |  | [#1539689](https://tatoeba.org/en/sentences/show/1539689) | Globetrotter |
+| S44005 | We hebben minder dan drie uur. | We have less than three hours. |  | [#3626114](https://tatoeba.org/en/sentences/show/3626114) | PaulP |
+| S44006 | Hij is ongeveer zestig jaar oud. | He is around sixty years old. |  | [#7913798](https://tatoeba.org/en/sentences/show/7913798) | MarijnKp |
+| S44007 | Tom is ongeveer dertig jaar oud. | Tom is about thirty years old. | Tom is around thirty years old. | [#7913804](https://tatoeba.org/en/sentences/show/7913804) | MarijnKp |
+| S44008 | Ik heb er ongeveer dertig van. | I have around thirty of them. |  | [#9870496](https://tatoeba.org/en/sentences/show/9870496) | Nylez |
+| S44009 | Ik heb er minder dan vijftien. | I have less than fifteen. |  | [#12561846](https://tatoeba.org/en/sentences/show/12561846) | PaulP |
+| S44010 | Ik ben veertig. | I'm forty years old. |  | [#3610828](https://tatoeba.org/en/sentences/show/3610828) | PaulP |
+| S44011 | Er zijn veertig huizen. | There are forty houses. |  | [#7321321](https://tatoeba.org/en/sentences/show/7321321) | MarijnKp |
+| S44012 | Ze is veertig jaar oud. | She is forty years old. |  | [#4570005](https://tatoeba.org/en/sentences/show/4570005) | lonepawn |
+| S44013 | Hij is negentig jaar oud. | He's ninety years old. |  | [#8764076](https://tatoeba.org/en/sentences/show/8764076) | handstands |
+| S44014 | Mijn vader is vijftig jaar oud. | My father is fifty years old. |  | [#1814616](https://tatoeba.org/en/sentences/show/1814616) | martinod |
+| S44015 | Onze school is vijftig jaar oud. | Our school is fifty years old. |  | [#5889472](https://tatoeba.org/en/sentences/show/5889472) | martinod |
+| S44016 | Mijn moeder is vijftig jaar oud. | My mother is fifty years old. |  | [#7913774](https://tatoeba.org/en/sentences/show/7913774) | MarijnKp |
+| S44017 | Ze is bijna zestig jaar oud. | She is almost sixty years old. |  | [#7913796](https://tatoeba.org/en/sentences/show/7913796) | MarijnKp |
+| S44018 | En dan? | And so? | And then? | [#659416](https://tatoeba.org/en/sentences/show/659416) | martinod |
+| S44019 | Meer koffie? | More coffee? |  | [#7527341](https://tatoeba.org/en/sentences/show/7527341) | MarijnKp |
+| S44020 | Waarom dan? | Why so? |  | [#7804132](https://tatoeba.org/en/sentences/show/7804132) | MarijnKp |
+| S44021 | Jij dan? | How about you? |  | [#8227909](https://tatoeba.org/en/sentences/show/8227909) | meshbags |
+| S44022 | Wie dan? | Then who? |  | [#8615236](https://tatoeba.org/en/sentences/show/8615236) | Micsmithel |
+| S44023 | Hoe laat ongeveer? | About what time? |  | [#3173141](https://tatoeba.org/en/sentences/show/3173141) | PaulP |
+| S44024 | En ik dan? | What about me? |  | [#8721969](https://tatoeba.org/en/sentences/show/8721969) | Micsmithel |
+| S44025 | Ga je dan niet? | Won't you go? |  | [#503493](https://tatoeba.org/en/sentences/show/503493) | Dorenda |
+| S44026 | Is er nog meer? | Is there more? |  | [#8698047](https://tatoeba.org/en/sentences/show/8698047) | Micsmithel |
+| S44027 | Heeft u er meer? | Do you have any more of those? |  | [#13802754](https://tatoeba.org/en/sentences/show/13802754) | doemaar14 |
+| S44028 | Heb je er meer? | Do you have any more of those? |  | [#13802756](https://tatoeba.org/en/sentences/show/13802756) | doemaar14 |
+| S44029 | En wie ben jij dan? | And just who might you be? |  | [#4218584](https://tatoeba.org/en/sentences/show/4218584) | megamanenm |
+| S44030 | Hoe oud ben je dan? | Well, how old are you? |  | [#8466618](https://tatoeba.org/en/sentences/show/8466618) | MarijnKp |
+
+## U45 Where You Live: Ik woon in Utrecht: wonen; ik woon, jij woont; bij (at someone's house): ik woon bij mijn ouders; thuis (at home)
+
+30 sentences picked from 323 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: buurt (2), plaats (1), mensen (0), hun (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S45001 | Mary woont nog bij haar ouders thuis. | Mary is still living at home with her parents. |  | [#1483614](https://tatoeba.org/en/sentences/show/1483614) | Citrine |
+| S45002 | Woon je bij je ouders? | Do you live with your parents? |  | [#5965816](https://tatoeba.org/en/sentences/show/5965816) | Raizin |
+| S45003 | Ik woon bij mijn ouders. | I live with my parents. | I'm living with my parents. | [#418790](https://tatoeba.org/en/sentences/show/418790) | Dorenda |
+| S45004 | Woon je alleen? | Do you live alone? |  | [#4919785](https://tatoeba.org/en/sentences/show/4919785) | Raizin |
+| S45005 | Wonen jullie alleen? | Do you live alone? |  | [#4919786](https://tatoeba.org/en/sentences/show/4919786) | Raizin |
+| S45006 | Waarom woont u alleen? | Why do you live alone? |  | [#10658069](https://tatoeba.org/en/sentences/show/10658069) | rose_d |
+| S45007 | Met wie woont u samen? | Who do you live with? |  | [#7268261](https://tatoeba.org/en/sentences/show/7268261) | Micsmithel |
+| S45008 | Mijn ouders wonen buiten de stad. | My parents live outside the city. |  | [#10737113](https://tatoeba.org/en/sentences/show/10737113) | megamanenm |
+| S45009 | We wonen samen. | We live together. |  | [#7900656](https://tatoeba.org/en/sentences/show/7900656) | MarijnKp |
+| S45010 | Ze zijn niet buiten. Ze zijn binnen. | They aren't outside. They are inside. |  | [#12496550](https://tatoeba.org/en/sentences/show/12496550) | megamanenm |
+| S45011 | Met wie woon je samen? | Who do you live with? |  | [#7268258](https://tatoeba.org/en/sentences/show/7268258) | Micsmithel |
+| S45012 | Is hij thuis? | Is he at home? |  | [#6131439](https://tatoeba.org/en/sentences/show/6131439) | Mandalay |
+| S45013 | Wie is thuis? | Who's at home? |  | [#7598801](https://tatoeba.org/en/sentences/show/7598801) | MarijnKp |
+| S45014 | Hoe heet dit dorp? | What's the name of this village? | What is the name of this village? | [#7548845](https://tatoeba.org/en/sentences/show/7548845) | MarijnKp |
+| S45015 | Wat is jouw adres? | What is your address? |  | [#7898265](https://tatoeba.org/en/sentences/show/7898265) | MarijnKp |
+| S45016 | Wat is jullie adres? | What is your address? |  | [#7898266](https://tatoeba.org/en/sentences/show/7898266) | MarijnKp |
+| S45017 | Wat is uw adres? | What is your address? |  | [#7898267](https://tatoeba.org/en/sentences/show/7898267) | MarijnKp |
+| S45018 | Houdt u van uw land? | Do you love your country? |  | [#7481250](https://tatoeba.org/en/sentences/show/7481250) | MarijnKp |
+| S45019 | Houdt u van dit land? | Do you like this country? | Do you love this country? | [#7481333](https://tatoeba.org/en/sentences/show/7481333) | MarijnKp |
+| S45020 | Wie is daar nu binnen? | Who's in there now? |  | [#10664083](https://tatoeba.org/en/sentences/show/10664083) | rose_d |
+| S45021 | Waarom ga je niet in mijn plaats? | Why don't you go in my place? |  | [#702375](https://tatoeba.org/en/sentences/show/702375) | LaraCroft |
+| S45022 | Is dat een land of een stad? | Is that a country or a city? |  | [#9609093](https://tatoeba.org/en/sentences/show/9609093) | Nylez |
+| S45023 | Hij woont in een dorp. | He lives in a village. |  | [#378732](https://tatoeba.org/en/sentences/show/378732) | Dorenda |
+| S45024 | Hij woont buiten de stad. | He lives outside the city. |  | [#6101251](https://tatoeba.org/en/sentences/show/6101251) | Raizin |
+| S45025 | Ze woont in het dorp. | She lives in the village. |  | [#6101512](https://tatoeba.org/en/sentences/show/6101512) | Raizin |
+| S45026 | Hij woont niet in mijn buurt. | He doesn't live in my neighborhood. |  | [#1552215](https://tatoeba.org/en/sentences/show/1552215) | Globetrotter |
+| S45027 | Laat me binnen. | Let me in. |  | [#3534679](https://tatoeba.org/en/sentences/show/3534679) | PaulP |
+| S45028 | Ze eten hun appels. | They're eating their apples. | They are eating their apples. | [#5046946](https://tatoeba.org/en/sentences/show/5046946) | LinguisticFusion |
+| S45029 | Zingen is hun ding. | Singing is their thing. |  | [#6622981](https://tatoeba.org/en/sentences/show/6622981) | Raizin |
+| S45030 | Dit is onze buurt. | This is our neighborhood. |  | [#9712069](https://tatoeba.org/en/sentences/show/9712069) | MarijnKp |
+
+## U56 What People Are Like: Hij is aardig, een aardige man: an adjective takes -e before a de-word, and before a het-word after de, het or dit; een klein kind
+
+40 sentences picked from 179 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: kleine (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S56001 | Maria is aardig en lief. | Mary is kind and sweet. |  | [#7907322](https://tatoeba.org/en/sentences/show/7907322) | MarijnKp |
+| S56002 | Ben je gek? | Are you stupid? | Are you mad?; Are you crazy?; Are you nuts?; Are you kidding? | [#1118279](https://tatoeba.org/en/sentences/show/1118279) | megamanenm |
+| S56003 | Is Tom gelukkig? | Is Tom happy? |  | [#4036624](https://tatoeba.org/en/sentences/show/4036624) | lonepawn |
+| S56004 | Ben ik dik? | Am I fat? |  | [#4448113](https://tatoeba.org/en/sentences/show/4448113) | PaulP |
+| S56005 | Zijn jullie gelukkig? | Are you happy? | Are you guys happy? | [#5993439](https://tatoeba.org/en/sentences/show/5993439) | doemaar14 |
+| S56006 | Zijn jullie gek? | Are you nuts? |  | [#7485004](https://tatoeba.org/en/sentences/show/7485004) | Micsmithel |
+| S56007 | Is Tom gek? | Is Tom nuts? |  | [#7532888](https://tatoeba.org/en/sentences/show/7532888) | MarijnKp |
+| S56008 | Bent u gelukkig? | Are you happy? |  | [#7717633](https://tatoeba.org/en/sentences/show/7717633) | MarijnKp |
+| S56009 | Is dat eerlijk? | Is that fair? |  | [#10634669](https://tatoeba.org/en/sentences/show/10634669) | rose_d |
+| S56010 | Is Tom vriendelijk? | Is Tom kind? |  | [#11899768](https://tatoeba.org/en/sentences/show/11899768) | purple_ice |
+| S56011 | Ben ik een goede leraar? | Am I a good teacher? |  | [#7799445](https://tatoeba.org/en/sentences/show/7799445) | MarijnKp |
+| S56012 | Rustig aan! | Relax. | Slow down! | [#3037259](https://tatoeba.org/en/sentences/show/3037259) | Citrine |
+| S56013 | Rustig, rustig! | Relax. |  | [#3086497](https://tatoeba.org/en/sentences/show/3086497) | martinod |
+| S56014 | Wat lief! | How cute! | How sweet! | [#7980953](https://tatoeba.org/en/sentences/show/7980953) | Micsmithel |
+| S56015 | Hoe lief! | How sweet! |  | [#7980954](https://tatoeba.org/en/sentences/show/7980954) | Micsmithel |
+| S56016 | Hoe rustig! | How peaceful! |  | [#7980973](https://tatoeba.org/en/sentences/show/7980973) | Micsmithel |
+| S56017 | Wat saai! | How boring! |  | [#8575437](https://tatoeba.org/en/sentences/show/8575437) | Micsmithel |
+| S56018 | Heel grappig! | Funny! |  | [#8683318](https://tatoeba.org/en/sentences/show/8683318) | Micsmithel |
+| S56019 | Antwoord eerlijk. | Answer honestly. |  | [#10026186](https://tatoeba.org/en/sentences/show/10026186) | Micsmithel |
+| S56020 | Hoe grappig! | How funny! |  | [#11759567](https://tatoeba.org/en/sentences/show/11759567) | Slam4 |
+| S56021 | Ze is vriendelijk. | She's nice. | She is kind. | [#1051150](https://tatoeba.org/en/sentences/show/1051150) | martinod |
+| S56022 | Een goede vraag. | A good question. |  | [#1497247](https://tatoeba.org/en/sentences/show/1497247) | Citrine |
+| S56023 | Hij is vriendelijk. | He's friendly. | He is kind.; He is nice. | [#2768781](https://tatoeba.org/en/sentences/show/2768781) | martinod |
+| S56024 | Ik ben saai. | I'm boring. | I am boring. | [#3669226](https://tatoeba.org/en/sentences/show/3669226) | PaulP |
+| S56025 | U bent grappig. | You're funny. | You are funny. | [#4640507](https://tatoeba.org/en/sentences/show/4640507) | LinguisticFusion |
+| S56026 | Muziek is saai. | Music is boring. |  | [#6104001](https://tatoeba.org/en/sentences/show/6104001) | Raizin |
+| S56027 | Tom is stil. | Tom is quiet. | Tom is being quiet. | [#6275223](https://tatoeba.org/en/sentences/show/6275223) | megamanenm |
+| S56028 | Jij bent dun. | You are thin. |  | [#7344354](https://tatoeba.org/en/sentences/show/7344354) | MarijnKp |
+| S56029 | Tom is dun. | Tom is thin. | Tom is slim. | [#7468366](https://tatoeba.org/en/sentences/show/7468366) | Micsmithel |
+| S56030 | Tom is dik. | Tom's fat. | Tom is fat. | [#7902632](https://tatoeba.org/en/sentences/show/7902632) | MarijnKp |
+| S56031 | Hij is aardig. | He is kind. |  | [#8192493](https://tatoeba.org/en/sentences/show/8192493) | Elsofie |
+| S56032 | Ze is stil. | She is quiet. |  | [#8473412](https://tatoeba.org/en/sentences/show/8473412) | MarijnKp |
+| S56033 | Ik ben stil. | I'm quiet. | I am silent. | [#8572917](https://tatoeba.org/en/sentences/show/8572917) | Micsmithel |
+| S56034 | Ze is aardig. | She's nice. |  | [#8572943](https://tatoeba.org/en/sentences/show/8572943) | Micsmithel |
+| S56035 | Ze zijn dun. | They are thin. |  | [#8800641](https://tatoeba.org/en/sentences/show/8800641) | MarijnKp |
+| S56036 | Ik ben eerlijk. | I'm honest. | I'm fair. | [#9428074](https://tatoeba.org/en/sentences/show/9428074) | Micsmithel |
+| S56037 | Ze zijn dik. | They're fat. |  | [#10090438](https://tatoeba.org/en/sentences/show/10090438) | Micsmithel |
+| S56038 | Wij zijn goede vrienden. | We are good friends. |  | [#418831](https://tatoeba.org/en/sentences/show/418831) | Dorenda |
+| S56039 | Ik heb kleine ogen. | I have small eyes. |  | [#7996192](https://tatoeba.org/en/sentences/show/7996192) | slashslasher |
+| S56040 | Tom heeft een kleine neus. | Tom has a small nose. |  | [#8438654](https://tatoeba.org/en/sentences/show/8438654) | doemaar14 |
+
+## U46 Countries + Languages: Ik kom uit Nederland: komen uit for where you are from; ik kom, jij komt; waar kom je vandaan?; languages and countries take a capital
+
+38 sentences picked from 446 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: België (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S46001 | Kom je uit Spanje? | Are you from Spain? |  | [#10089524](https://tatoeba.org/en/sentences/show/10089524) | Raizin |
+| S46002 | Komt u uit Engeland? | Do you come from England? |  | [#12376768](https://tatoeba.org/en/sentences/show/12376768) | megamanenm |
+| S46003 | Spreekt hij Engels, Frans of Duits? | Is he speaking English, French, or German? | Does he speak English, French, or German?; Does he speak English, French or German? | [#702015](https://tatoeba.org/en/sentences/show/702015) | martinod |
+| S46004 | Ik kom uit Frankrijk, en jij? | I'm from France, and you? |  | [#7451261](https://tatoeba.org/en/sentences/show/7451261) | MarijnKp |
+| S46005 | Spreekt u Duits? | Do you speak German? |  | [#560810](https://tatoeba.org/en/sentences/show/560810) | Dorenda |
+| S46006 | Spreekt u Frans? | Do you speak French? |  | [#821365](https://tatoeba.org/en/sentences/show/821365) | simonbr |
+| S46007 | Waar kom je vandaan? | Where are you from? | Where do you come from?; Where are you coming from? | [#387167](https://tatoeba.org/en/sentences/show/387167) | Dorenda |
+| S46008 | Waar komt u vandaan? | Where are you from? | Where do you come from? | [#2965577](https://tatoeba.org/en/sentences/show/2965577) | megamanenm |
+| S46009 | Waar komt hij vandaan? | Where does he come from? |  | [#6284257](https://tatoeba.org/en/sentences/show/6284257) | megamanenm |
+| S46010 | Wij komen uit Duitsland. | We're from Germany. | We are from Germany. | [#7812001](https://tatoeba.org/en/sentences/show/7812001) | MarijnKp |
+| S46011 | Wij komen uit Frankrijk. | We're from France. | We are from France. | [#7926555](https://tatoeba.org/en/sentences/show/7926555) | MarijnKp |
+| S46012 | Haar ouders komen uit Spanje. | Her parents are from Spain. |  | [#12496558](https://tatoeba.org/en/sentences/show/12496558) | megamanenm |
+| S46013 | Spreekt u Spaans? | Do you speak Spanish? |  | [#1084576](https://tatoeba.org/en/sentences/show/1084576) | Citrine |
+| S46014 | Spreekt ze Frans? | Does she speak French? |  | [#8726300](https://tatoeba.org/en/sentences/show/8726300) | Micsmithel |
+| S46015 | Hoeveel talen spreekt u? | How many languages do you speak? |  | [#871088](https://tatoeba.org/en/sentences/show/871088) | Citrine |
+| S46016 | Welke talen spreekt u? | What languages do you speak? |  | [#7899285](https://tatoeba.org/en/sentences/show/7899285) | MarijnKp |
+| S46017 | Spreekt u mijn taal? | Do you speak my language? |  | [#7899287](https://tatoeba.org/en/sentences/show/7899287) | MarijnKp |
+| S46018 | Wanneer kom je naar Nederland? | When are you coming to the Netherlands? |  | [#2963894](https://tatoeba.org/en/sentences/show/2963894) | Globetrotter |
+| S46019 | Spreek je Spaans? | Do you speak Spanish? |  | [#4455901](https://tatoeba.org/en/sentences/show/4455901) | PaulP |
+| S46020 | Ben je Duits? | Are you German? |  | [#7432070](https://tatoeba.org/en/sentences/show/7432070) | MarijnKp |
+| S46021 | Ben je Spaans? | Are you from Spain? |  | [#10089525](https://tatoeba.org/en/sentences/show/10089525) | Raizin |
+| S46022 | Hoeveel talen spreek jij? | How many languages do you speak? |  | [#871093](https://tatoeba.org/en/sentences/show/871093) | Citrine |
+| S46023 | Spreek je mijn taal? | Do you speak my language? |  | [#1478238](https://tatoeba.org/en/sentences/show/1478238) | Citrine |
+| S46024 | Welke taal spreek je? | What language do you speak? | What language are you speaking? | [#4811030](https://tatoeba.org/en/sentences/show/4811030) | Mikedebie |
+| S46025 | Woont u in Duitsland? | Do you live in Germany? |  | [#7803866](https://tatoeba.org/en/sentences/show/7803866) | MarijnKp |
+| S46026 | Woon je in Duitsland? | Do you live in Germany? |  | [#7803867](https://tatoeba.org/en/sentences/show/7803867) | MarijnKp |
+| S46027 | Wanneer ga je naar Europa? | When are you going to Europe? |  | [#7915937](https://tatoeba.org/en/sentences/show/7915937) | Elsofie |
+| S46028 | Wanneer gaat u naar Europa? | When are you going to Europe? |  | [#7915945](https://tatoeba.org/en/sentences/show/7915945) | MarijnKp |
+| S46029 | Wanneer gaan jullie naar Europa? | When are you going to Europe? |  | [#7915946](https://tatoeba.org/en/sentences/show/7915946) | MarijnKp |
+| S46030 | Woont je broer in Frankrijk? | Does your brother live in France? |  | [#12194562](https://tatoeba.org/en/sentences/show/12194562) | PaulP |
+| S46031 | Hij komt uit Engeland. | He comes from England. |  | [#731597](https://tatoeba.org/en/sentences/show/731597) | martinod |
+| S46032 | Zijn ouders komen uit Spanje. | His parents are from Spain. |  | [#12496559](https://tatoeba.org/en/sentences/show/12496559) | megamanenm |
+| S46033 | De wereld spreekt Engels. | The world speaks English. |  | [#10747698](https://tatoeba.org/en/sentences/show/10747698) | megamanenm |
+| S46034 | Hallo wereld! | Hello, world! |  | [#399243](https://tatoeba.org/en/sentences/show/399243) | Dorenda |
+| S46035 | De wereld is groot. | The world is big. | The world is a big place. | [#5460167](https://tatoeba.org/en/sentences/show/5460167) | sdfke1 |
+| S46036 | Ik woon in Nederland. | I live in the Netherlands. |  | [#7320631](https://tatoeba.org/en/sentences/show/7320631) | MarijnKp |
+| S46037 | Hij woont in Engeland. | He lives in England. |  | [#7824207](https://tatoeba.org/en/sentences/show/7824207) | PaulP |
+| S46038 | Nederland is een klein land. | The Netherlands is a small country. |  | [#393873](https://tatoeba.org/en/sentences/show/393873) | Dorenda |
+
+## U47 At the Market: Ik wil …, ik wil graag … (politer): willen; ik wil, jij wilt (wil je …?); ik moet … (I have to): moeten; ik neem …; een kilo …
+
+40 sentences picked from 714 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: markt (0), supermarkt (2), koop (1), kilo (0), groente (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S47001 | Wil je iets kopen? | Do you want to buy something? |  | [#10658096](https://tatoeba.org/en/sentences/show/10658096) | rose_d |
+| S47002 | Ik moet vandaag iets kopen. | I need to buy something today. |  | [#9806611](https://tatoeba.org/en/sentences/show/9806611) | Raizin |
+| S47003 | Ik wil graag iets kopen. | I'd like to buy something. |  | [#12292157](https://tatoeba.org/en/sentences/show/12292157) | PaulP |
+| S47004 | Wil je een banaan? | Would you like a banana? |  | [#3959174](https://tatoeba.org/en/sentences/show/3959174) | lonepawn |
+| S47005 | Of moet je de bus nemen? | Or do you have to take the bus? |  | [#1565968](https://tatoeba.org/en/sentences/show/1565968) | Globetrotter |
+| S47006 | Ik neem een tomaat. | I'll have a tomato. |  | [#6058397](https://tatoeba.org/en/sentences/show/6058397) | Mandalay |
+| S47007 | We hebben meer eieren nodig. | We need more eggs. |  | [#10649725](https://tatoeba.org/en/sentences/show/10649725) | rose_d |
+| S47008 | Wilt u iets? | Do you want anything? |  | [#8435457](https://tatoeba.org/en/sentences/show/8435457) | MarijnKp |
+| S47009 | Willen jullie iets? | Do you want anything? |  | [#8435458](https://tatoeba.org/en/sentences/show/8435458) | MarijnKp |
+| S47010 | Hebben jullie iets nodig? | Do you need anything? | Do you guys need anything? | [#7918703](https://tatoeba.org/en/sentences/show/7918703) | PaulP |
+| S47011 | Willen jullie nog iets? | Do any of you guys want anything else? |  | [#7924884](https://tatoeba.org/en/sentences/show/7924884) | PaulP |
+| S47012 | Heb je iets nodig? | Do you need anything? |  | [#8443210](https://tatoeba.org/en/sentences/show/8443210) | MarijnKp |
+| S47013 | Wilt u iets om te eten? | Do you want something to eat? | Do you want to eat something?; Do you want anything to eat?; Do you want to eat anything?; Would you like to eat something? | [#3600831](https://tatoeba.org/en/sentences/show/3600831) | PaulP |
+| S47014 | Wat moet je nog meer kopen? | What else do you need to buy? |  | [#8589434](https://tatoeba.org/en/sentences/show/8589434) | Elsofie |
+| S47015 | Is er iets dat je wilt vragen? | Is there something you want to ask? |  | [#3493043](https://tatoeba.org/en/sentences/show/3493043) | megamanenm |
+| S47016 | Willen jullie een huis kopen in Duitsland? | Do you want to buy a house in Germany? |  | [#9467581](https://tatoeba.org/en/sentences/show/9467581) | Nylez |
+| S47017 | Hoeveel eieren? | How many eggs? |  | [#7928015](https://tatoeba.org/en/sentences/show/7928015) | MarijnKp |
+| S47018 | Heb je eieren? | Do you have eggs? |  | [#3240986](https://tatoeba.org/en/sentences/show/3240986) | PaulP |
+| S47019 | Neem je dat? | Will you take that? |  | [#4218455](https://tatoeba.org/en/sentences/show/4218455) | megamanenm |
+| S47020 | Wat neem je? | What are you getting? | What are you ordering? | [#10365226](https://tatoeba.org/en/sentences/show/10365226) | doemaar14 |
+| S47021 | Nemen we een taxi? | Shall we take a taxi? |  | [#3245722](https://tatoeba.org/en/sentences/show/3245722) | PaulP |
+| S47022 | Wat ga je nemen? | What will you have? | What are you getting? | [#9480725](https://tatoeba.org/en/sentences/show/9480725) | Nylez |
+| S47023 | Hoe laat moeten we er zijn? | What time should we be there? |  | [#9748921](https://tatoeba.org/en/sentences/show/9748921) | megamanenm |
+| S47024 | Hij wil fruit. | He wants fruit. |  | [#7481408](https://tatoeba.org/en/sentences/show/7481408) | MarijnKp |
+| S47025 | Tom wil fruit. | Tom wants fruit. |  | [#7481412](https://tatoeba.org/en/sentences/show/7481412) | MarijnKp |
+| S47026 | We moeten nog veel kopen. | We have many purchases to make. |  | [#10790197](https://tatoeba.org/en/sentences/show/10790197) | megamanenm |
+| S47027 | We moeten er één kopen. | We need to buy one. |  | [#11529522](https://tatoeba.org/en/sentences/show/11529522) | megamanenm |
+| S47028 | Eet fruit! | Eat fruit! | Eat fruits! | [#7481399](https://tatoeba.org/en/sentences/show/7481399) | MarijnKp |
+| S47029 | Eet veel groente. | Eat a lot of vegetables. |  | [#8699222](https://tatoeba.org/en/sentences/show/8699222) | Micsmithel |
+| S47030 | Ik koop brood. | I'm buying bread. |  | [#8996990](https://tatoeba.org/en/sentences/show/8996990) | Nylez |
+| S47031 | Eet meer groente. | Eat more vegetables. |  | [#12506673](https://tatoeba.org/en/sentences/show/12506673) | Tom9358 |
+| S47032 | Een banaan is geel. | A banana is yellow. |  | [#3375541](https://tatoeba.org/en/sentences/show/3375541) | PaulP |
+| S47033 | Ik eet een banaan. | I eat a banana. | I'm eating a banana.; I am eating a banana. | [#3959147](https://tatoeba.org/en/sentences/show/3959147) | lonepawn |
+| S47034 | Maria eet een tomaat. | Mary eats a tomato. |  | [#7916048](https://tatoeba.org/en/sentences/show/7916048) | MarijnKp |
+| S47035 | Hij eet een tomaat. | He's eating a tomato. |  | [#7916056](https://tatoeba.org/en/sentences/show/7916056) | MarijnKp |
+| S47036 | Ik heb een ei. | I have an egg. |  | [#7928041](https://tatoeba.org/en/sentences/show/7928041) | MarijnKp |
+| S47037 | Dit is een ei. | This is an egg. |  | [#7928049](https://tatoeba.org/en/sentences/show/7928049) | MarijnKp |
+| S47038 | Wat een grote supermarkt! | What a big supermarket! |  | [#8228082](https://tatoeba.org/en/sentences/show/8228082) | meshbags |
+| S47039 | Ik eet een ei. | I'm eating an egg. |  | [#13975627](https://tatoeba.org/en/sentences/show/13975627) | 12882 |
+| S47040 | We hebben een grote supermarkt. | We have a big supermarket. |  | [#5128761](https://tatoeba.org/en/sentences/show/5128761) | PaulP |
+
+## U57 Opposites: Makkelijk, moeilijk; open, dicht; te (too) before an adjective: te moeilijk; beter (better), best (best)
+
+40 sentences picked from 258 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: dicht (2), leeg (0), licht (0), donker (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S57001 | Jullie zijn snel, wij zijn langzaam. | You are fast, we are slow. |  | [#11904175](https://tatoeba.org/en/sentences/show/11904175) | PaulP |
+| S57002 | Hoe belangrijk? | How important? |  | [#7632695](https://tatoeba.org/en/sentences/show/7632695) | Micsmithel |
+| S57003 | Welke is beter? | Which is better? |  | [#4229540](https://tatoeba.org/en/sentences/show/4229540) | Trebalor |
+| S57004 | Is dat belangrijk? | Is that important? |  | [#7549384](https://tatoeba.org/en/sentences/show/7549384) | Raizin |
+| S57005 | Is het belangrijk? | Is it important? |  | [#7897977](https://tatoeba.org/en/sentences/show/7897977) | MarijnKp |
+| S57006 | Is het schoon? | Is it clean? |  | [#8436605](https://tatoeba.org/en/sentences/show/8436605) | Elsofie |
+| S57007 | Is dat beter? | Is that better? |  | [#8671964](https://tatoeba.org/en/sentences/show/8671964) | Micsmithel |
+| S57008 | Zijn jullie open? | Are you open? |  | [#13453233](https://tatoeba.org/en/sentences/show/13453233) | PaulP |
+| S57009 | Bent u open? | Are you open? |  | [#13453235](https://tatoeba.org/en/sentences/show/13453235) | PaulP |
+| S57010 | Heb je nieuwe schoenen? | Do you have new shoes? |  | [#6885221](https://tatoeba.org/en/sentences/show/6885221) | PaulP |
+| S57011 | Wanneer gaat het open? | When does it open? |  | [#7980036](https://tatoeba.org/en/sentences/show/7980036) | Elsofie |
+| S57012 | Is de badkamer schoon? | Is the bathroom clean? |  | [#8704119](https://tatoeba.org/en/sentences/show/8704119) | Ag12x |
+| S57013 | Is dat niet beter? | Isn't that better? |  | [#9050562](https://tatoeba.org/en/sentences/show/9050562) | MarijnKp |
+| S57014 | Hoe zwaar ben je? | How heavy are you? |  | [#10649691](https://tatoeba.org/en/sentences/show/10649691) | rose_d |
+| S57015 | Hoe zwaar bent u? | How heavy are you? |  | [#10649692](https://tatoeba.org/en/sentences/show/10649692) | rose_d |
+| S57016 | Hoe laat gaat hij dicht? | What time does it close? | At what time does it close? | [#4559199](https://tatoeba.org/en/sentences/show/4559199) | Raizin |
+| S57017 | Waarom is de tafel vies? | Why is the table dirty? |  | [#9483837](https://tatoeba.org/en/sentences/show/9483837) | Nylez |
+| S57018 | Is dit de nieuwe film? | Is this the new film? |  | [#13624690](https://tatoeba.org/en/sentences/show/13624690) | doemaar14 |
+| S57019 | Hoe snel heb je het nodig? | How soon do you need it? |  | [#10568782](https://tatoeba.org/en/sentences/show/10568782) | Ag12x |
+| S57020 | Waarom wil ze een oude auto hebben? | Why does she want an old car? |  | [#7468488](https://tatoeba.org/en/sentences/show/7468488) | Micsmithel |
+| S57021 | Is het makkelijk om daar te komen? | Is it easy to get there? |  | [#7548838](https://tatoeba.org/en/sentences/show/7548838) | MarijnKp |
+| S57022 | Ben je blij met je nieuwe auto? | Are you happy with your new car? |  | [#7548949](https://tatoeba.org/en/sentences/show/7548949) | MarijnKp |
+| S57023 | Is het moeilijk om Frans te leren? | Is French hard to learn? | Is it hard to learn French?; Is it difficult to learn French? | [#7814298](https://tatoeba.org/en/sentences/show/7814298) | MarijnKp |
+| S57024 | Kom snel! | Come quick! |  | [#377940](https://tatoeba.org/en/sentences/show/377940) | Dorenda |
+| S57025 | Spreek langzaam! | Speak slowly! |  | [#3661263](https://tatoeba.org/en/sentences/show/3661263) | Globetrotter |
+| S57026 | Ga langzaam. | Go slow. | Walk slowly. | [#7268061](https://tatoeba.org/en/sentences/show/7268061) | Micsmithel |
+| S57027 | Dit is makkelijk. | This is easy. |  | [#869092](https://tatoeba.org/en/sentences/show/869092) | Citrine |
+| S57028 | Dit is moeilijk. | This is hard. | This is difficult. | [#869096](https://tatoeba.org/en/sentences/show/869096) | Citrine |
+| S57029 | Frans is moeilijk. | French is difficult. |  | [#4782231](https://tatoeba.org/en/sentences/show/4782231) | Raizin |
+| S57030 | Spaans is makkelijk. | Spanish is easy. |  | [#7481417](https://tatoeba.org/en/sentences/show/7481417) | MarijnKp |
+| S57031 | Water is zwaar. | Water is heavy. |  | [#7489204](https://tatoeba.org/en/sentences/show/7489204) | MarijnKp |
+| S57032 | Ik ben vol. | I'm full. | I am full. | [#7536584](https://tatoeba.org/en/sentences/show/7536584) | MarijnKp |
+| S57033 | Ik ben vies. | I'm dirty. |  | [#7611544](https://tatoeba.org/en/sentences/show/7611544) | MarijnKp |
+| S57034 | Hallo, oude vriend! | Hello, old friend! | Greetings, old friend! | [#8982865](https://tatoeba.org/en/sentences/show/8982865) | Micsmithel |
+| S57035 | We zijn schoon. | We're clean. |  | [#9164178](https://tatoeba.org/en/sentences/show/9164178) | Nylez |
+| S57036 | Hij is vol. | It's full. |  | [#10107934](https://tatoeba.org/en/sentences/show/10107934) | Raizin |
+| S57037 | We zijn oude vrienden. | We're old friends. |  | [#685719](https://tatoeba.org/en/sentences/show/685719) | martinod |
+| S57038 | De deur is dicht. | The door is closed. |  | [#1480626](https://tatoeba.org/en/sentences/show/1480626) | Citrine |
+| S57039 | Het kind is vies. | The child is dirty. |  | [#1540418](https://tatoeba.org/en/sentences/show/1540418) | Globetrotter |
+| S57040 | Het restaurant is vol. | The restaurant is full. |  | [#3800205](https://tatoeba.org/en/sentences/show/3800205) | PaulP |
+
+## U36 Checking You Understood: Natuurlijk. Duidelijk. Echt? Zeker. Wat bedoel je? Bedankt!
+
+30 sentences picked from 177 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: dus (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S36001 | Dat snap ik wel. | I get that. | I can see that. | [#11556149](https://tatoeba.org/en/sentences/show/11556149) | megamanenm |
+| S36002 | Dat snap ik niet echt. | I don't really understand that. |  | [#11508006](https://tatoeba.org/en/sentences/show/11508006) | megamanenm |
+| S36003 | Wat? Echt? | What? Seriously? |  | [#808061](https://tatoeba.org/en/sentences/show/808061) | martinod |
+| S36004 | Echt? Waarom? | Really? Why? |  | [#839994](https://tatoeba.org/en/sentences/show/839994) | martinod |
+| S36005 | Snap je? | Understand? | Do you understand?; Do you get it? | [#7632713](https://tatoeba.org/en/sentences/show/7632713) | Micsmithel |
+| S36006 | Is het duidelijk? | Is it clear? |  | [#5965761](https://tatoeba.org/en/sentences/show/5965761) | Raizin |
+| S36007 | Hoe bedoel je? | What do you mean? |  | [#6130649](https://tatoeba.org/en/sentences/show/6130649) | Ag12x |
+| S36008 | Ben ik duidelijk? | Am I clear? |  | [#6161743](https://tatoeba.org/en/sentences/show/6161743) | martinod |
+| S36009 | Is dat wel goed? | Is that okay? |  | [#386478](https://tatoeba.org/en/sentences/show/386478) | Dorenda |
+| S36010 | Weet u dat zeker? | Are you sure? | Are you positive?; Are you sure about that? | [#963036](https://tatoeba.org/en/sentences/show/963036) | simonbr |
+| S36011 | Wat bedoel je precies? | What exactly do you mean? |  | [#3068519](https://tatoeba.org/en/sentences/show/3068519) | Citrine |
+| S36012 | Weet je dat zeker? | Are you sure about that? |  | [#9669072](https://tatoeba.org/en/sentences/show/9669072) | MarijnKp |
+| S36013 | Ben je er zeker van? | Are you sure about that? | Do you know that for sure? | [#7466045](https://tatoeba.org/en/sentences/show/7466045) | megamanenm |
+| S36014 | Is dat wel een woord? | Is that even a word? |  | [#9127366](https://tatoeba.org/en/sentences/show/9127366) | megamanenm |
+| S36015 | Begrijp je wat ik bedoel? | Do you understand what I mean? |  | [#9677040](https://tatoeba.org/en/sentences/show/9677040) | megamanenm |
+| S36016 | Nee, bedankt. | No, thanks. | No, thank you. | [#397066](https://tatoeba.org/en/sentences/show/397066) | Dorenda |
+| S36017 | Spreek duidelijk. | Speak clearly. |  | [#698231](https://tatoeba.org/en/sentences/show/698231) | martinod |
+| S36018 | Natuurlijk niet! | Of course not! |  | [#4722958](https://tatoeba.org/en/sentences/show/4722958) | OpenSystemenHOGent |
+| S36019 | Bedankt, vrienden. | Thank you, my friends. |  | [#6116723](https://tatoeba.org/en/sentences/show/6116723) | Mandalay |
+| S36020 | Ja, natuurlijk! | Yes, of course! |  | [#7632658](https://tatoeba.org/en/sentences/show/7632658) | Micsmithel |
+| S36021 | Ja. Bedankt. | Yes. Thanks. |  | [#12947748](https://tatoeba.org/en/sentences/show/12947748) | MarijnKp |
+| S36022 | Natuurlijk ga ik. | Of course I'll go. | Of course I will go. | [#409704](https://tatoeba.org/en/sentences/show/409704) | Dorenda |
+| S36023 | Dus dat is waarom! | So that's why! |  | [#7804291](https://tatoeba.org/en/sentences/show/7804291) | MarijnKp |
+| S36024 | Je bent moe, dus ga naar bed. | You're sleepy, so go to bed. |  | [#4640000](https://tatoeba.org/en/sentences/show/4640000) | LinguisticFusion |
+| S36025 | Echt waar? | Really? | Oh, really?; You don't say. | [#4491454](https://tatoeba.org/en/sentences/show/4491454) | Raizin |
+| S36026 | Komt hij echt? | Is he really coming? |  | [#4654741](https://tatoeba.org/en/sentences/show/4654741) | doemaar14 |
+| S36027 | Komt Tom echt? | Is Tom really coming? |  | [#10790091](https://tatoeba.org/en/sentences/show/10790091) | megamanenm |
+| S36028 | Wil je echt gaan? | Do you really want to go? |  | [#6841152](https://tatoeba.org/en/sentences/show/6841152) | Micsmithel |
+| S36029 | Kun je dat echt? | Can you really? |  | [#7204051](https://tatoeba.org/en/sentences/show/7204051) | Micsmithel |
+| S36030 | Kunt u dat echt? | Can you really? |  | [#7204052](https://tatoeba.org/en/sentences/show/7204052) | Micsmithel |
+
+## U48 How Much Is It?: Wat kost het? Het kost … euro; kosten for more than one; het is duur, het is goedkoop; te duur (too dear)
+
+30 sentences picked from 316 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: prijs (0), cent (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S48001 | Is dat te duur voor je? | Is that too expensive for you? |  | [#13667170](https://tatoeba.org/en/sentences/show/13667170) | doemaar14 |
+| S48002 | Is dat te duur voor u? | Is that too expensive for you? |  | [#13667171](https://tatoeba.org/en/sentences/show/13667171) | doemaar14 |
+| S48003 | De thee kost twee euro. | The tea costs two euros. |  | [#1552148](https://tatoeba.org/en/sentences/show/1552148) | Citrine |
+| S48004 | We hebben maar twee dollar. | We have only two dollars. |  | [#5098138](https://tatoeba.org/en/sentences/show/5098138) | Nienkiepinkie |
+| S48005 | Ik betaal daar niet voor. | I won't pay for that. |  | [#7455919](https://tatoeba.org/en/sentences/show/7455919) | MarijnKp |
+| S48006 | De jurk kost vijftien euro. | The dress costs fifteen euros. |  | [#7495730](https://tatoeba.org/en/sentences/show/7495730) | MarijnKp |
+| S48007 | Het boek kost vijf dollar. | The book costs five dollars. |  | [#8310825](https://tatoeba.org/en/sentences/show/8310825) | PaulP |
+| S48008 | Dat gaat je veel geld kosten. | That will cost you a lot of money. | That's going to cost you a lot of money. | [#8227995](https://tatoeba.org/en/sentences/show/8227995) | meshbags |
+| S48009 | Betaal jij? | You paying? | Are you paying? | [#6058389](https://tatoeba.org/en/sentences/show/6058389) | Mandalay |
+| S48010 | Betaal je? | You paying? | Are you paying? | [#7485563](https://tatoeba.org/en/sentences/show/7485563) | Micsmithel |
+| S48011 | Maar waarom? | But why? | But to what end? | [#7627643](https://tatoeba.org/en/sentences/show/7627643) | Micsmithel |
+| S48012 | Te veel geld? | Too much money? |  | [#702134](https://tatoeba.org/en/sentences/show/702134) | martinod |
+| S48013 | Hoeveel betalen jullie? | How much are you guys paying? |  | [#4040583](https://tatoeba.org/en/sentences/show/4040583) | lonepawn |
+| S48014 | Wil je geld? | Do you want money? |  | [#8575446](https://tatoeba.org/en/sentences/show/8575446) | Micsmithel |
+| S48015 | Is het restaurant duur? | Is the restaurant expensive? |  | [#7694868](https://tatoeba.org/en/sentences/show/7694868) | MarijnKp |
+| S48016 | Maar wat wil je? | But what do you want? |  | [#7980003](https://tatoeba.org/en/sentences/show/7980003) | Elsofie |
+| S48017 | Moet ik je betalen? | Do I have to pay you? |  | [#8386629](https://tatoeba.org/en/sentences/show/8386629) | Elsofie |
+| S48018 | Hoeveel moet ik betalen? | How much do I need to pay? |  | [#9480540](https://tatoeba.org/en/sentences/show/9480540) | Nylez |
+| S48019 | Hoeveel gaat me dat kosten? | How much is that going to cost me? |  | [#7961789](https://tatoeba.org/en/sentences/show/7961789) | Micsmithel |
+| S48020 | Hoeveel is dat in dollar? | How much is that in dollars? |  | [#8285569](https://tatoeba.org/en/sentences/show/8285569) | martinod |
+| S48021 | Hoeveel gaat dat me kosten? | How much will it cost me? | How much is that going to cost me? | [#9082933](https://tatoeba.org/en/sentences/show/9082933) | doemaar14 |
+| S48022 | Hoeveel boeken lees je per maand? | How many books do you read a month? |  | [#448600](https://tatoeba.org/en/sentences/show/448600) | koosscharroo |
+| S48023 | Hoeveel water drink je per dag? | How much water do you drink a day? |  | [#9085131](https://tatoeba.org/en/sentences/show/9085131) | doemaar14 |
+| S48024 | Hoeveel keer per dag eet je? | How many times a day do you eat? | How many times do you eat in a day? | [#12906008](https://tatoeba.org/en/sentences/show/12906008) | PaulP |
+| S48025 | Dit is goedkoop. | This is cheap. |  | [#9411557](https://tatoeba.org/en/sentences/show/9411557) | Micsmithel |
+| S48026 | Dat is goedkoop. | That's cheap. |  | [#13757712](https://tatoeba.org/en/sentences/show/13757712) | kroeckx |
+| S48027 | Ons eten is goedkoop. | Our food is cheap. |  | [#580761](https://tatoeba.org/en/sentences/show/580761) | Dorenda |
+| S48028 | Dat is dan samen drie euro. | That'll be three euros. |  | [#3344996](https://tatoeba.org/en/sentences/show/3344996) | PaulP |
+| S48029 | Voor u? | For you? |  | [#8917789](https://tatoeba.org/en/sentences/show/8917789) | Micsmithel |
+| S48030 | Voor jullie? | For you? |  | [#8917791](https://tatoeba.org/en/sentences/show/8917791) | Micsmithel |
+
+## U49 Bottles + Bags: Een fles water, een kilo appels: no van after a quantity; geen (not a, no) before a noun, niet before the rest; alle, elke
+
+30 sentences picked from 349 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: pak (0), doos (2), zak (0), beetje (2), elk (1), stuk (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S49001 | Fles of glas? | Bottle or glass? |  | [#7802315](https://tatoeba.org/en/sentences/show/7802315) | MarijnKp |
+| S49002 | De fles is van glas. | The bottle is made of glass. |  | [#783448](https://tatoeba.org/en/sentences/show/783448) | martinod |
+| S49003 | Ik heb geen tas nodig. | I don't need a bag. |  | [#12236496](https://tatoeba.org/en/sentences/show/12236496) | Ag12x |
+| S49004 | Er is geen wijn in de fles. | There's no wine in the bottle. |  | [#13156524](https://tatoeba.org/en/sentences/show/13156524) | PaulP |
+| S49005 | Alles goed? | All good? | What's up?; Everything okay? | [#5421537](https://tatoeba.org/en/sentences/show/5421537) | Raizin |
+| S49006 | Geen vragen? | No questions? |  | [#12947746](https://tatoeba.org/en/sentences/show/12947746) | MarijnKp |
+| S49007 | Is dat alles? | Is that all? |  | [#780104](https://tatoeba.org/en/sentences/show/780104) | martinod |
+| S49008 | Heb je alles? | Do you have everything? | Did you get everything? | [#1540414](https://tatoeba.org/en/sentences/show/1540414) | Globetrotter |
+| S49009 | Is dit genoeg geld? | Is this enough money? |  | [#1478331](https://tatoeba.org/en/sentences/show/1478331) | Citrine |
+| S49010 | Is dit jouw tas? | Is this your bag? |  | [#6275177](https://tatoeba.org/en/sentences/show/6275177) | megamanenm |
+| S49011 | Is dit uw tas? | Is this your bag? |  | [#6275178](https://tatoeba.org/en/sentences/show/6275178) | megamanenm |
+| S49012 | Heb je genoeg papier? | Do you have enough paper? |  | [#10638378](https://tatoeba.org/en/sentences/show/10638378) | rose_d |
+| S49013 | Zijn alle appels rood? | Are all apples red? |  | [#13033830](https://tatoeba.org/en/sentences/show/13033830) | crispydrone |
+| S49014 | Spreek je elke dag Frans? | Do you speak French every day? |  | [#8473449](https://tatoeba.org/en/sentences/show/8473449) | MarijnKp |
+| S49015 | Spreekt u elke dag Frans? | Do you speak French every day? |  | [#8473450](https://tatoeba.org/en/sentences/show/8473450) | MarijnKp |
+| S49016 | Leer je elke dag Frans? | Do you study French every day? |  | [#9806834](https://tatoeba.org/en/sentences/show/9806834) | Raizin |
+| S49017 | Wilt u een glas wijn? | Would you like a glass of wine? |  | [#10636497](https://tatoeba.org/en/sentences/show/10636497) | rose_d |
+| S49018 | Wat is de naam van dat stuk? | What's the name of that piece? |  | [#3062074](https://tatoeba.org/en/sentences/show/3062074) | Citrine |
+| S49019 | Is het warm genoeg om te zwemmen? | Is it warm enough to go swimming? |  | [#9423936](https://tatoeba.org/en/sentences/show/9423936) | MarijnKp |
+| S49020 | Alle appels zijn rood. | All apples are red. | All the apples are red. | [#1529552](https://tatoeba.org/en/sentences/show/1529552) | Citrine |
+| S49021 | Ik ga elk jaar. | I go every year. |  | [#7788940](https://tatoeba.org/en/sentences/show/7788940) | MarijnKp |
+| S49022 | De doos is leeg. | The box is empty. |  | [#10224932](https://tatoeba.org/en/sentences/show/10224932) | megamanenm |
+| S49023 | Nog een klein beetje. | Just a little more. |  | [#10839497](https://tatoeba.org/en/sentences/show/10839497) | doemaar14 |
+| S49024 | Maria heeft alle boeken. | Mary has all the books. |  | [#11085437](https://tatoeba.org/en/sentences/show/11085437) | doemaar14 |
+| S49025 | Ja, een klein beetje. | Yes, a little bit. |  | [#12994096](https://tatoeba.org/en/sentences/show/12994096) | MarijnKp |
+| S49026 | De doos is bijna leeg. | The box is almost empty. |  | [#769906](https://tatoeba.org/en/sentences/show/769906) | martinod |
+| S49027 | Ik heb drie paar schoenen. | I have three pairs of shoes. |  | [#12340394](https://tatoeba.org/en/sentences/show/12340394) | doemaar14 |
+| S49028 | Tom draagt een paar nieuwe schoenen. | Tom is wearing a new pair of shoes. |  | [#8616589](https://tatoeba.org/en/sentences/show/8616589) | Elsofie |
+| S49029 | Ik moet een paar schoenen kopen. | I must buy a pair of shoes. |  | [#10334911](https://tatoeba.org/en/sentences/show/10334911) | doemaar14 |
+| S49030 | Is alles daar? | Is everything there? | Is it all there? | [#5313062](https://tatoeba.org/en/sentences/show/5313062) | Fireblade75 |
+
+## U58 Outdoors: Aan zee, in het bos, op de berg: aan, in and op for places; de zon, de lucht
+
+30 sentences picked from 90 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: berg (2), lucht (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S58001 | Het bos staat vol bomen. | The forest is full of trees. |  | [#1114627](https://tatoeba.org/en/sentences/show/1114627) | martinod |
+| S58002 | Waar is de boom? | Where is the tree? |  | [#2171840](https://tatoeba.org/en/sentences/show/2171840) | martinod |
+| S58003 | Hoeveel bloemen koop je? | How many flowers do you buy? | How many flowers are you buying? | [#3652431](https://tatoeba.org/en/sentences/show/3652431) | PaulP |
+| S58004 | Welke bloem is blauw? | What flower is blue? | Which flower is blue? | [#5462381](https://tatoeba.org/en/sentences/show/5462381) | sdfke1 |
+| S58005 | Is dit een bloem? | Is this a flower? |  | [#7432045](https://tatoeba.org/en/sentences/show/7432045) | MarijnKp |
+| S58006 | Waar is de zon? | Where is the sun? |  | [#7499053](https://tatoeba.org/en/sentences/show/7499053) | MarijnKp |
+| S58007 | Waarom is gras groen? | Why is grass green? |  | [#9209584](https://tatoeba.org/en/sentences/show/9209584) | MarijnKp |
+| S58008 | Wat voor bomen zijn dat? | What kind of trees are those? |  | [#10341977](https://tatoeba.org/en/sentences/show/10341977) | doemaar14 |
+| S58009 | Wat zijn dat voor bomen? | What kind of trees are those? |  | [#10341978](https://tatoeba.org/en/sentences/show/10341978) | doemaar14 |
+| S58010 | Is de zon al op? | Is the sun up yet? |  | [#10655020](https://tatoeba.org/en/sentences/show/10655020) | rose_d |
+| S58011 | Waar zijn de bloemen voor? | What are the flowers for? |  | [#11759335](https://tatoeba.org/en/sentences/show/11759335) | Slam4 |
+| S58012 | Bloemen zijn geel. | Flowers are yellow. |  | [#7459894](https://tatoeba.org/en/sentences/show/7459894) | MarijnKp |
+| S58013 | Ze zijn aan zee. | They are at the sea. |  | [#3152964](https://tatoeba.org/en/sentences/show/3152964) | martinod |
+| S58014 | De zon is op. | The sun is up. |  | [#4516726](https://tatoeba.org/en/sentences/show/4516726) | Raizin |
+| S58015 | Dit is een boom. | That's a tree. | This is a tree. | [#7076850](https://tatoeba.org/en/sentences/show/7076850) | Micsmithel |
+| S58016 | De bloem is rood. | The flower is red. |  | [#7344359](https://tatoeba.org/en/sentences/show/7344359) | MarijnKp |
+| S58017 | De zee is blauw. | The sea is blue. |  | [#7489099](https://tatoeba.org/en/sentences/show/7489099) | MarijnKp |
+| S58018 | De zee is groen. | The sea is green. |  | [#7489100](https://tatoeba.org/en/sentences/show/7489100) | MarijnKp |
+| S58019 | Ik heb lucht nodig. | I need air. |  | [#7523221](https://tatoeba.org/en/sentences/show/7523221) | MarijnKp |
+| S58020 | De boom is groen. | The tree is green. |  | [#7557468](https://tatoeba.org/en/sentences/show/7557468) | MarijnKp |
+| S58021 | Het gras is geel. | The grass is yellow. |  | [#7770054](https://tatoeba.org/en/sentences/show/7770054) | MarijnKp |
+| S58022 | De berg is groen. | The mountain is green. |  | [#7913821](https://tatoeba.org/en/sentences/show/7913821) | MarijnKp |
+| S58023 | Het gras is groen. | Grass is green. | The grass is green. | [#7913829](https://tatoeba.org/en/sentences/show/7913829) | MarijnKp |
+| S58024 | Het bos is klein. | The forest is small. |  | [#9031828](https://tatoeba.org/en/sentences/show/9031828) | Micsmithel |
+| S58025 | Hij is in het bos. | He's in the forest. |  | [#5932616](https://tatoeba.org/en/sentences/show/5932616) | Raizin |
+| S58026 | Het hotel staat op een berg. | The hotel stands on a hill. |  | [#685757](https://tatoeba.org/en/sentences/show/685757) | martinod |
+| S58027 | Het dorp ligt aan een rivier. | The village lies by a river. |  | [#7321313](https://tatoeba.org/en/sentences/show/7321313) | MarijnKp |
+| S58028 | Ik ga zwemmen in de rivier. | I'm going for a swim in the river. |  | [#8229185](https://tatoeba.org/en/sentences/show/8229185) | meshbags |
+| S58029 | Zijn huis staat aan een rivier. | His house is by a river. |  | [#10018931](https://tatoeba.org/en/sentences/show/10018931) | Nylez |
+| S58030 | Zijn er veel bomen in het park? | Are there many trees in the park? |  | [#6085619](https://tatoeba.org/en/sentences/show/6085619) | Raizin |

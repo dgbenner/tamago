@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Mijn naam is Jan de Vries. Ik ben veertig jaar. Ik woon in de Bloemstraat, nummer tien, in Utrecht.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Voornaam\",\"rule\":\"text\",\"answer\":\"Jan\"},{\"key\":\"last\",\"label\":\"Achternaam\",\"rule\":\"text\",\"answer\":\"de Vries\",\"also\":[\"De Vries\",\"Vries\"]},{\"key\":\"age\",\"label\":\"Leeftijd\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adres\",\"rule\":\"text\",\"answer\":\"Bloemstraat 10\",\"also\":[\"Bloemstraat, 10\",\"bloemstraat 10\",\"de Bloemstraat 10\",\"Bloemstraat nummer tien\"]},{\"key\":\"town\",\"label\":\"Woonplaats\",\"rule\":\"text\",\"answer\":\"Utrecht\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Mijn naam is Anna Bakker. Ik ben dertig jaar. Ik kom uit Nederland. Ik woon in Frankrijk. Mijn nummer is nul zes, twaalf, vijftien, negentien, twintig.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Voornaam\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"last\",\"label\":\"Achternaam\",\"rule\":\"text\",\"answer\":\"Bakker\"},{\"key\":\"age\",\"label\":\"Leeftijd\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationaliteit\",\"rule\":\"text\",\"answer\":\"Nederlandse\",\"also\":[\"Nederlands\",\"nederlandse\",\"nederlands\"]},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Frankrijk\"},{\"key\":\"tel\",\"label\":\"Telefoon\",\"rule\":\"phone\",\"answer\":\"06 12 15 19 20\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

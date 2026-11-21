@@ -1,0 +1,1595 @@
+{
+  "unit_id": "U54",
+  "pulled_at": "2026-11-21",
+  "candidates": 55,
+  "sentences": [
+    {
+      "sentence_id": "S54001",
+      "unit_id": "U54",
+      "french": "Tom draagt een trui onder zijn jas.",
+      "english": "Tom is wearing a sweater under his coat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11086859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "doemaar14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54002",
+      "unit_id": "U54",
+      "french": "Waarom draag jij mijn jurk?",
+      "english": "Why are you wearing my dress?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4171418",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "erikv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54003",
+      "unit_id": "U54",
+      "french": "Waarom heb je mijn jas aan?",
+      "english": "Why are you wearing my coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11044495",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marijke84",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54004",
+      "unit_id": "U54",
+      "french": "Waarom draag je je hoed niet?",
+      "english": "Why aren't you wearing your hat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12500485",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54005",
+      "unit_id": "U54",
+      "french": "Ik draag schoenen.",
+      "english": "I'm wearing shoes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7611590",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54006",
+      "unit_id": "U54",
+      "french": "Hij draagt een hoed.",
+      "english": "He's wearing a hat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "450319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Citrine",
+      "other_english": [
+        "He has a hat on.",
+        "He is wearing a hat."
+      ]
+    },
+    {
+      "sentence_id": "S54007",
+      "unit_id": "U54",
+      "french": "Ze draagt een hoed.",
+      "english": "She's wearing a hat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "628092",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": [
+        "She is wearing a hat."
+      ]
+    },
+    {
+      "sentence_id": "S54008",
+      "unit_id": "U54",
+      "french": "Houd je schoenen aan.",
+      "english": "Keep your shoes on.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9755107",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54009",
+      "unit_id": "U54",
+      "french": "Weet u uw maat?",
+      "english": "Do you know your size?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "395345",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54010",
+      "unit_id": "U54",
+      "french": "Waar zijn je kleren?",
+      "english": "Where are your clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3219470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54011",
+      "unit_id": "U54",
+      "french": "Waar zijn uw kleren?",
+      "english": "Where are your clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3219473",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54012",
+      "unit_id": "U54",
+      "french": "Wat ga je dragen?",
+      "english": "What will you wear?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3693868",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54013",
+      "unit_id": "U54",
+      "french": "Wat heeft Tom aan?",
+      "english": "What's Tom wearing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4722914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "OpenSystemenHOGent",
+      "other_english": [
+        "What does Tom have on?"
+      ]
+    },
+    {
+      "sentence_id": "S54014",
+      "unit_id": "U54",
+      "french": "Zijn je schoenen nieuw?",
+      "english": "Are your shoes new?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5117275",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54015",
+      "unit_id": "U54",
+      "french": "Waar is mijn jas?",
+      "english": "Where's my coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5332372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54016",
+      "unit_id": "U54",
+      "french": "Wat is uw maat?",
+      "english": "What is your size?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10846747",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54017",
+      "unit_id": "U54",
+      "french": "Weet u welke maat u hebt?",
+      "english": "Do you know your size?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "395348",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorenda",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54018",
+      "unit_id": "U54",
+      "french": "De jurk is groen.",
+      "english": "The dress is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3175098",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54019",
+      "unit_id": "U54",
+      "french": "Haar jurk is lang.",
+      "english": "Her dress is long.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7675319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54020",
+      "unit_id": "U54",
+      "french": "De rok is groen.",
+      "english": "The skirt is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7913823",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54021",
+      "unit_id": "U54",
+      "french": "Haar trui is blauw.",
+      "english": "Her sweater is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9683493",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nylez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54022",
+      "unit_id": "U54",
+      "french": "Mijn rok is te lang.",
+      "english": "My skirt is too long.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1033908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martinod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54023",
+      "unit_id": "U54",
+      "french": "Waar is je hoed?",
+      "english": "Where's your hat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3873364",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PaulP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54024",
+      "unit_id": "U54",
+      "french": "Waar is mijn hoed?",
+      "english": "Where's my hat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7459960",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54025",
+      "unit_id": "U54",
+      "french": "Is dat mijn hoed?",
+      "english": "Is that my hat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7459963",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54026",
+      "unit_id": "U54",
+      "french": "Waar zijn mijn schoenen?",
+      "english": "Where are my shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7478950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54027",
+      "unit_id": "U54",
+      "french": "Waar zijn de schoenen?",
+      "english": "Where are the shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12947758",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "Where're the shoes?"
+      ]
+    },
+    {
+      "sentence_id": "S54028",
+      "unit_id": "U54",
+      "french": "Welke kleur heeft jouw jas?",
+      "english": "What color is your coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9061094",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "What colour is your coat?"
+      ]
+    },
+    {
+      "sentence_id": "S54029",
+      "unit_id": "U54",
+      "french": "Welke kleur heeft jullie jas?",
+      "english": "What color is your coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9061166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarijnKp",
+      "other_english": [
+        "What colour is your coat?"
+      ]
+    },
+    {
+      "sentence_id": "S54030",
+      "unit_id": "U54",
+      "french": "Welke schoenen zijn van Tom?",
+      "english": "Which pair of shoes is Tom's?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10731358",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "megamanenm",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S54001",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 2,
+      "surface": "draagt",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 4,
+      "surface": "trui",
+      "word_id": "W1107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 5,
+      "surface": "onder",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 6,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 7,
+      "surface": "jas",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 2,
+      "surface": "draag",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 3,
+      "surface": "jij",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 4,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 5,
+      "surface": "jurk",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 2,
+      "surface": "heb",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 4,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 5,
+      "surface": "jas",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 6,
+      "surface": "aan",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 1,
+      "surface": "Waarom",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 2,
+      "surface": "draag",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 5,
+      "surface": "hoed",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 6,
+      "surface": "niet",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 1,
+      "surface": "Ik",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 2,
+      "surface": "draag",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 3,
+      "surface": "schoenen",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 1,
+      "surface": "Hij",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 2,
+      "surface": "draagt",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 4,
+      "surface": "hoed",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 1,
+      "surface": "Ze",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 2,
+      "surface": "draagt",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 3,
+      "surface": "een",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 4,
+      "surface": "hoed",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 1,
+      "surface": "Houd",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 3,
+      "surface": "schoenen",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 4,
+      "surface": "aan",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 1,
+      "surface": "Weet",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 3,
+      "surface": "uw",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 4,
+      "surface": "maat",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 4,
+      "surface": "kleren",
+      "word_id": "W1101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 3,
+      "surface": "uw",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 4,
+      "surface": "kleren",
+      "word_id": "W1101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 2,
+      "surface": "ga",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 4,
+      "surface": "dragen",
+      "word_id": "W1112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 2,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 4,
+      "surface": "aan",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 1,
+      "surface": "Zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 3,
+      "surface": "schoenen",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 4,
+      "surface": "nieuw",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 4,
+      "surface": "jas",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 1,
+      "surface": "Wat",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 3,
+      "surface": "uw",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 4,
+      "surface": "maat",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 1,
+      "surface": "Weet",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 2,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 3,
+      "surface": "welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 4,
+      "surface": "maat",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 5,
+      "surface": "u",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 6,
+      "surface": "hebt",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 2,
+      "surface": "jurk",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 4,
+      "surface": "groen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 1,
+      "surface": "Haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 2,
+      "surface": "jurk",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 4,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 2,
+      "surface": "rok",
+      "word_id": "W1103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 4,
+      "surface": "groen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 1,
+      "surface": "Haar",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 2,
+      "surface": "trui",
+      "word_id": "W1107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 4,
+      "surface": "blauw",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 1,
+      "surface": "Mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 2,
+      "surface": "rok",
+      "word_id": "W1103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 3,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 4,
+      "surface": "te",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 5,
+      "surface": "lang",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 4,
+      "surface": "hoed",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 2,
+      "surface": "is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 4,
+      "surface": "hoed",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 1,
+      "surface": "Is",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 2,
+      "surface": "dat",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 4,
+      "surface": "hoed",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 3,
+      "surface": "mijn",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 4,
+      "surface": "schoenen",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 1,
+      "surface": "Waar",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 2,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 4,
+      "surface": "schoenen",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54028",
+      "position": 1,
+      "surface": "Welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54028",
+      "position": 2,
+      "surface": "kleur",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54028",
+      "position": 3,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54028",
+      "position": 4,
+      "surface": "jouw",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54028",
+      "position": 5,
+      "surface": "jas",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 1,
+      "surface": "Welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 2,
+      "surface": "kleur",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 3,
+      "surface": "heeft",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 4,
+      "surface": "jullie",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 5,
+      "surface": "jas",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54030",
+      "position": 1,
+      "surface": "Welke",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54030",
+      "position": 2,
+      "surface": "schoenen",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54030",
+      "position": 3,
+      "surface": "zijn",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54030",
+      "position": 4,
+      "surface": "van",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54030",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A540061",
+      "sentence_id": "S54006",
+      "direction": "fr_to_en",
+      "answer": "He has a hat on.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540062",
+      "sentence_id": "S54006",
+      "direction": "fr_to_en",
+      "answer": "He is wearing a hat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540071",
+      "sentence_id": "S54007",
+      "direction": "fr_to_en",
+      "answer": "She is wearing a hat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540131",
+      "sentence_id": "S54013",
+      "direction": "fr_to_en",
+      "answer": "What does Tom have on?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540271",
+      "sentence_id": "S54027",
+      "direction": "fr_to_en",
+      "answer": "Where're the shoes?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540281",
+      "sentence_id": "S54028",
+      "direction": "fr_to_en",
+      "answer": "What colour is your coat?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540291",
+      "sentence_id": "S54029",
+      "direction": "fr_to_en",
+      "answer": "What colour is your coat?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

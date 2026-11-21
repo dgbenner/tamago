@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "Op de markt",
+    "lines": "Groente en fruit\nAppels: 2 euro per kilo\nMarkt: maandag en zaterdag",
+    "questions_json": "[{\"question\":\"How much is a kilo of apples?\",\"choices\":[\"2 euros\",\"12 euros\",\"20 euros\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Sunday\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R102",
+    "unit_id": "U47",
+    "kind": "notice",
+    "title": "Markt op het plein",
+    "lines": "Markt op het plein\nElke woensdag\nFruit, groente, brood en kaas",
+    "questions_json": "[{\"question\":\"When is the market?\",\"choices\":[\"On Wednesdays\",\"On Mondays\",\"Every day\"],\"answer\":0},{\"question\":\"What can you buy there?\",\"choices\":[\"Fruit, vegetables, bread and cheese\",\"Clothes and shoes\",\"Books and maps\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R103",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "Een bericht van Anna",
+    "lines": "Jan,\nik ben op de markt. Ik koop fruit en groente.\nWil je een appel?\nAnna",
+    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the market\",\"At school\",\"In the park\"],\"answer\":0},{\"question\":\"What does she offer Jan?\",\"choices\":[\"An apple\",\"A coffee\",\"Some bread\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R104",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "De prijzen",
+    "lines": "Brood: 2 euro\nKaas: 15 euro\nMelk: 1 euro\nWater: 3 euro",
+    "questions_json": "[{\"question\":\"How much is the cheese?\",\"choices\":[\"5 euros\",\"15 euros\",\"2 euros\"],\"answer\":1},{\"question\":\"What costs 2 euros?\",\"choices\":[\"The bread\",\"The milk\",\"The water\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R105",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "In het café",
+    "lines": "Koffie: 3 euro\nThee: 2 euro\nAppeltaart: 4 euro",
+    "questions_json": "[{\"question\":\"How much is a tea?\",\"choices\":[\"2 euros\",\"3 euros\",\"4 euros\"],\"answer\":0},{\"question\":\"What costs the most?\",\"choices\":[\"The apple pie\",\"The coffee\",\"The tea\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "notice",
+    "title": "Oude boeken",
+    "lines": "Oude boeken\nEén boek: 5 euro\nDrie boeken: 12 euro",
+    "questions_json": "[{\"question\":\"How much is one book?\",\"choices\":[\"5 euros\",\"3 euros\",\"12 euros\"],\"answer\":0},{\"question\":\"How much are three books?\",\"choices\":[\"12 euros\",\"15 euros\",\"10 euros\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R107",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Een bericht van Maria",
+    "lines": "Tom,\nkun je een fles melk, een pak koffie en een kilo appels kopen?\nBedankt!\nMaria",
+    "questions_json": "[{\"question\":\"What does Maria want?\",\"choices\":[\"Milk, coffee and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "sign",
+    "title": "In de supermarkt",
+    "lines": "Water: zes flessen, 3 euro\nChocolade: twee dozen, 5 euro",
+    "questions_json": "[{\"question\":\"How many bottles do you get for 3 euros?\",\"choices\":[\"Six\",\"Three\",\"Two\"],\"answer\":0},{\"question\":\"What costs 5 euros?\",\"choices\":[\"Two boxes of chocolate\",\"Six bottles of water\",\"One box of chocolate\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Voor het feest",
+    "lines": "Voor het feest:\ntwee flessen sap,\neen doos chocolade,\nveel fruit!",
+    "questions_json": "[{\"question\":\"How many bottles of juice?\",\"choices\":[\"Two\",\"One\",\"Three\"],\"answer\":0},{\"question\":\"What is the list for?\",\"choices\":[\"A party\",\"School\",\"A trip\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]
