@@ -10,17 +10,14 @@ export const COURSES = [
   // Italian and Brazilian Portuguese: public since 2026-11-16 (Dan approved; Developer only until then).
   { id: 'it', name: 'Italian', sample: 'mela, formaggio, gatto…', lang: 'it', voice: ['it-IT', 'it'], db: 'tamago-it', flag: '/flags/it.webp', ready: true },
   { id: 'pt', name: 'Portuguese', sample: 'maçã, queijo, gato…', lang: 'pt-BR', voice: ['pt-BR', 'pt'], db: 'tamago-pt', flag: '/flags/pt.webp', ready: true }, // Brazilian Portuguese
-  // Dutch (Dan, 2026-11-20): Part 1 only, so Developer only for now (devOnly: ready while Developer is on).
-  { id: 'nl', name: 'Dutch', sample: 'appel, kaas, kat…', lang: 'nl', voice: ['nl-NL', 'nl'], db: 'tamago-nl', flag: '/flags/nl.webp', ready: false, devOnly: true },
-  // Polish (2026-11-22): A1 complete (four parts), Developer only until Dan makes it public, like Dutch.
-  { id: 'pl', name: 'Polish', sample: 'jabłko, ser, kot…', lang: 'pl', voice: ['pl-PL', 'pl'], db: 'tamago-pl', flag: '/flags/pl.webp', ready: false, devOnly: true },
-  // Danish (Dan, 2026-11-20): Part 1 only, so Developer only for now, like Dutch.
-  { id: 'da', name: 'Danish', sample: 'æble, ost, kat…', lang: 'da', voice: ['da-DK', 'da'], db: 'tamago-da', flag: '/flags/da.webp', ready: false, devOnly: true },
-  // Swedish (Dan, 2026-11-20): Part 1 only, so Developer only for now, like Dutch.
-  { id: 'sv', name: 'Swedish', sample: 'äpple, ost, katt…', lang: 'sv', voice: ['sv-SE', 'sv'], db: 'tamago-sv', flag: '/flags/sv.webp', ready: false, devOnly: true },
+  // Dutch, Polish, Danish and Swedish: A1 complete, Fable-reviewed, public since 2026-11-22 (Dan approved; Developer only until then).
+  { id: 'nl', name: 'Dutch', sample: 'appel, kaas, kat…', lang: 'nl', voice: ['nl-NL', 'nl'], db: 'tamago-nl', flag: '/flags/nl.webp', ready: true },
+  { id: 'pl', name: 'Polish', sample: 'jabłko, ser, kot…', lang: 'pl', voice: ['pl-PL', 'pl'], db: 'tamago-pl', flag: '/flags/pl.webp', ready: true },
+  { id: 'da', name: 'Danish', sample: 'æble, ost, kat…', lang: 'da', voice: ['da-DK', 'da'], db: 'tamago-da', flag: '/flags/da.webp', ready: true },
+  { id: 'sv', name: 'Swedish', sample: 'äpple, ost, katt…', lang: 'sv', voice: ['sv-SE', 'sv'], db: 'tamago-sv', flag: '/flags/sv.webp', ready: true },
 ]
-// The picker shows only the nine committed courses (Dan, 2026-11-22): the five public ones and the four Developer-only
-// ones above. The Coming Soon flags (Romanian, Finnish, Czech, Hungarian, Greek) are gone from it; their flag pictures
+// The picker shows only the nine committed courses (Dan, 2026-11-22): all nine public (Dutch, Swedish, Danish and Polish
+// since 2026-11-22). The Coming Soon flags (Romanian, Finnish, Czech, Hungarian, Greek) are gone from it; their flag pictures
 // stay in public/flags and Romanian's content stays on its branch (content/ro-a1). Norwegian is parked, not deleted: it
 // is out of COURSES, so no picker, Developer list, voice lab or Conversations list offers it and a device that had it
 // saved opens French, but its content (content-no, src/content-no), its tables (main.jsx, tables-no.js), its tests and

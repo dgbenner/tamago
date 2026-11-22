@@ -1,6 +1,6 @@
 # Tamago
 
-A small language-learning web app for English speakers: French, Latin American Spanish and German, from first words to CEFR A1. It installs to your phone's home screen and works offline. It has no account and no ads, and none of the usual game rewards: no hearts, gems or streak pressure.
+A small language-learning web app for English speakers, in nine languages: French, Latin American Spanish, German, Italian, Brazilian Portuguese, Dutch, Swedish, Danish and Polish, each from first words to CEFR A1. It installs to your phone's home screen and works offline. It has no account and no ads, and none of the usual game rewards: no hearts, gems or streak pressure.
 
 **Live:** https://tamago-83f.pages.dev
 
@@ -18,7 +18,8 @@ A small language-learning web app for English speakers: French, Latin American S
 - **Native recordings** from [Lingua Libre](https://lingualibre.org) where they exist, and the device's voice elsewhere.
 - **Asking for help.** Three help circles in each course teach the phrases that keep a conversation going: "I don't understand", "slower, please", "what does … mean?", "I'm looking for the word…".
 - **Conversations.** Short scenes with Claude, spoken or typed, and a conversation partner in Self-Study. Claude speaks a little above the learner's level on purpose, so asking for help is the practice. Never graded.
-- **An A1 final check** for each course, modeled on the format of the DELF A1, DELE A1 and Goethe-Zertifikat A1: Start Deutsch 1. It uses only the course's own sentences.
+- **An A1 final check** for each course, a mock exam modeled on that language's official A1 exam: DELF A1, DELE A1, Goethe-Zertifikat A1: Start Deutsch 1, CELI Impatto, ACESSO, the Dutch Basic Civic Integration Exam Abroad, Swedex (which starts at A2) and the Polish state certificate at A1. Danish has no A1 exam, so its check uses a general A1 format. Every check uses only the course's own sentences.
+- **What's still unchecked.** Some sentences in every course were written for Tamago where Tatoeba had too few; they are marked in the app. In the four newest courses (Dutch, Swedish, Danish, Polish) these make up about a quarter to a third of the sentences, and no native speaker has checked them yet.
 - **Accessible.** Built to WCAG 2.2 AA: every question type works with the keyboard alone, and it supports screen readers and reduced motion.
 
 ## Stack
@@ -32,7 +33,7 @@ A small language-learning web app for English speakers: French, Latin American S
 npm install
 npm run dev        # the app at http://localhost:5173
 npm test           # unit tests against the real content
-npm run content    # import, check and build the French content (COURSE=es or COURSE=de for the others)
+npm run content    # import, check and build the French content (COURSE=es, de, it, pt, nl, sv, da or pl for the others)
 ```
 
 ## How it was built
@@ -59,6 +60,10 @@ The **code** is under the [MIT License](LICENSE). The **content** keeps its own 
 | French A1 word list (headwords only, to measure coverage) | [FLELex](https://cental.uclouvain.be/cefrlex/flelex/), CEFRLex project, CENTAL, UCLouvain (François, Gala, Watrin and Fairon, LREC 2014) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | German A1 word list (headwords only, to measure coverage) | Goethe-Institut, Start Deutsch 1 Wortliste | © Goethe-Institut; headwords only, for reference |
 | Spanish A1 word list (words only, to measure coverage) | Instituto Cervantes, Plan curricular (PCIC), A1 notions | © Instituto Cervantes; words only, for reference |
+| Italian and Polish A1 word lists (headwords only, to measure coverage) | [Kelly project](https://ssharoff.github.io/kelly/) (Keywords for Language Learning for Young and adults alike) | [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) |
+| Swedish A1 word list (headwords only, to measure coverage) | [Swedish Kelly list](https://spraakbanken.gu.se/en/resources/kelly), Språkbanken Text, University of Gothenburg | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Portuguese A1 word list (headwords only, to measure coverage) | Camões, I.P., [Referencial Camões PLE](https://www.instituto-camoes.pt/activity/centro-virtual/referencial-camoes-ple) (2017), level A1 | © Camões, I.P.; headwords only, for reference |
+| Dutch and Danish A1 word lists (headwords only, to measure coverage) | [FrequencyWords](https://github.com/hermitdave/FrequencyWords) (OpenSubtitles 2018), as a stand-in where no official A1 list is open | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | CEFR self-assessment grid (`_source/reference/`) | Council of Europe, via Europass | © Council of Europe, included for reference only |
 
-Tamago is an independent project, not affiliated with Tatoeba, Wiktionary, Lingua Libre, the Council of Europe or the bodies behind the DELF, DELE and Goethe exams.
+Tamago is an independent project, not affiliated with Tatoeba, Wiktionary, Lingua Libre, the Council of Europe or the bodies behind the exams its final checks are modeled on.
