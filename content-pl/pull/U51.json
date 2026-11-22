@@ -1,0 +1,1339 @@
+{
+  "unit_id": "U51",
+  "pulled_at": "2026-11-21",
+  "candidates": 80,
+  "sentences": [
+    {
+      "sentence_id": "S51001",
+      "unit_id": "U51",
+      "french": "Boli mnie głowa.",
+      "english": "My head hurts.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "349454",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51002",
+      "unit_id": "U51",
+      "french": "Oczy mnie bolą.",
+      "english": "My eyes hurt.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "564775",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51003",
+      "unit_id": "U51",
+      "french": "Głowa mnie boli.",
+      "english": "My head hurts.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "856052",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "My head aches."
+      ]
+    },
+    {
+      "sentence_id": "S51004",
+      "unit_id": "U51",
+      "french": "Boli głowa?",
+      "english": "Does your head hurt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "959015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51005",
+      "unit_id": "U51",
+      "french": "Bolą mnie oczy.",
+      "english": "My eyes hurt.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8608489",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "My eyes are sore."
+      ]
+    },
+    {
+      "sentence_id": "S51006",
+      "unit_id": "U51",
+      "french": "Mam krótkie włosy.",
+      "english": "I have short hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10736610",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51007",
+      "unit_id": "U51",
+      "french": "Mam krótkie nogi.",
+      "english": "I have short legs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10736611",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51008",
+      "unit_id": "U51",
+      "french": "Ona ma długie włosy.",
+      "english": "She has long hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "367312",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "She's got long hair.",
+        "She has got long hair."
+      ]
+    },
+    {
+      "sentence_id": "S51009",
+      "unit_id": "U51",
+      "french": "Maria ma długie włosy.",
+      "english": "Maria has long hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "550643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51010",
+      "unit_id": "U51",
+      "french": "On ma długie nogi.",
+      "english": "He has long legs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3230747",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kobalt",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51011",
+      "unit_id": "U51",
+      "french": "Jesteś na mnie zły?",
+      "english": "You're mad at me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6554207",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "Are you angry with me?"
+      ]
+    },
+    {
+      "sentence_id": "S51012",
+      "unit_id": "U51",
+      "french": "Dlaczego jesteś na mnie zła?",
+      "english": "Why are you angry with me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6554214",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "Why are you mad at me?"
+      ]
+    },
+    {
+      "sentence_id": "S51013",
+      "unit_id": "U51",
+      "french": "Dlaczego jesteś na mnie zły?",
+      "english": "Why are you mad at me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10568083",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "antio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51014",
+      "unit_id": "U51",
+      "french": "Jesteś zły?",
+      "english": "Are you angry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "975963",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51015",
+      "unit_id": "U51",
+      "french": "Jesteś zła?",
+      "english": "Are you angry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1086488",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hebrajska",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51016",
+      "unit_id": "U51",
+      "french": "Jak wysoki jesteś?",
+      "english": "How tall are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10545340",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51017",
+      "unit_id": "U51",
+      "french": "Czy jesteś niski?",
+      "english": "Are you short?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10736602",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51018",
+      "unit_id": "U51",
+      "french": "Czy on jest wysoki?",
+      "english": "Is he tall?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10565760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51019",
+      "unit_id": "U51",
+      "french": "Jak wysoki jest twój brat?",
+      "english": "How tall is your brother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "580593",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51020",
+      "unit_id": "U51",
+      "french": "Ona ma krótkie włosy.",
+      "english": "She has short hair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "591383",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "buari",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51021",
+      "unit_id": "U51",
+      "french": "Jest na mnie zła.",
+      "english": "She is angry with me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "826327",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51022",
+      "unit_id": "U51",
+      "french": "Moja siostra ma długie nogi.",
+      "english": "My sister has long legs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6554264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51023",
+      "unit_id": "U51",
+      "french": "Jestem wysoka.",
+      "english": "I am tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11335502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51024",
+      "unit_id": "U51",
+      "french": "Nie jest wysoka.",
+      "english": "She is not tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "357830",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51025",
+      "unit_id": "U51",
+      "french": "Mary jest wysoka.",
+      "english": "Mary is tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "553541",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51026",
+      "unit_id": "U51",
+      "french": "Mam dobre oczy.",
+      "english": "I have good eyes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3423571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51027",
+      "unit_id": "U51",
+      "french": "Jestem bardzo niski.",
+      "english": "I'm very short.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3857199",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51028",
+      "unit_id": "U51",
+      "french": "Tom jest niski.",
+      "english": "Tom is short.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10736552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51029",
+      "unit_id": "U51",
+      "french": "Mam bardzo mały nos.",
+      "english": "I have a very small nose.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5187732",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tomash",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S51030",
+      "unit_id": "U51",
+      "french": "Gdzie boli?",
+      "english": "Where is the pain?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "559984",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "Where does it hurt?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S51001",
+      "position": 1,
+      "surface": "Boli",
+      "word_id": "W1009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 2,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51001",
+      "position": 3,
+      "surface": "głowa",
+      "word_id": "W1005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 1,
+      "surface": "Oczy",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 2,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51002",
+      "position": 3,
+      "surface": "bolą",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 1,
+      "surface": "Głowa",
+      "word_id": "W1005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 2,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51003",
+      "position": 3,
+      "surface": "boli",
+      "word_id": "W1009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 1,
+      "surface": "Boli",
+      "word_id": "W1009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51004",
+      "position": 2,
+      "surface": "głowa",
+      "word_id": "W1005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 1,
+      "surface": "Bolą",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 2,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51005",
+      "position": 3,
+      "surface": "oczy",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 1,
+      "surface": "Mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 2,
+      "surface": "krótkie",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51006",
+      "position": 3,
+      "surface": "włosy",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 1,
+      "surface": "Mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 2,
+      "surface": "krótkie",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51007",
+      "position": 3,
+      "surface": "nogi",
+      "word_id": "W1008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 3,
+      "surface": "długie",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51008",
+      "position": 4,
+      "surface": "włosy",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 1,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 3,
+      "surface": "długie",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51009",
+      "position": 4,
+      "surface": "włosy",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 3,
+      "surface": "długie",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51010",
+      "position": 4,
+      "surface": "nogi",
+      "word_id": "W1008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51011",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51011",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51011",
+      "position": 3,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51011",
+      "position": 4,
+      "surface": "zły",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51012",
+      "position": 1,
+      "surface": "Dlaczego",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51012",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51012",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51012",
+      "position": 4,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51012",
+      "position": 5,
+      "surface": "zła",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 1,
+      "surface": "Dlaczego",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 4,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51013",
+      "position": 5,
+      "surface": "zły",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51014",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51014",
+      "position": 2,
+      "surface": "zły",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51015",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51015",
+      "position": 2,
+      "surface": "zła",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51016",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51016",
+      "position": 2,
+      "surface": "wysoki",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51016",
+      "position": 3,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51017",
+      "position": 3,
+      "surface": "niski",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 2,
+      "surface": "on",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51018",
+      "position": 4,
+      "surface": "wysoki",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 2,
+      "surface": "wysoki",
+      "word_id": "W1014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 4,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51019",
+      "position": 5,
+      "surface": "brat",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 3,
+      "surface": "krótkie",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51020",
+      "position": 4,
+      "surface": "włosy",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51021",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51021",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51021",
+      "position": 3,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51021",
+      "position": 4,
+      "surface": "zła",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 1,
+      "surface": "Moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 2,
+      "surface": "siostra",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 4,
+      "surface": "długie",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51022",
+      "position": 5,
+      "surface": "nogi",
+      "word_id": "W1008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51023",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51023",
+      "position": 2,
+      "surface": "wysoka",
+      "word_id": "W1015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51024",
+      "position": 3,
+      "surface": "wysoka",
+      "word_id": "W1015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 1,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51025",
+      "position": 3,
+      "surface": "wysoka",
+      "word_id": "W1015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51026",
+      "position": 1,
+      "surface": "Mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51026",
+      "position": 2,
+      "surface": "dobre",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51026",
+      "position": 3,
+      "surface": "oczy",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51027",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51027",
+      "position": 2,
+      "surface": "bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51027",
+      "position": 3,
+      "surface": "niski",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51028",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51028",
+      "position": 3,
+      "surface": "niski",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51029",
+      "position": 1,
+      "surface": "Mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51029",
+      "position": 2,
+      "surface": "bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51029",
+      "position": 3,
+      "surface": "mały",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51029",
+      "position": 4,
+      "surface": "nos",
+      "word_id": "W1006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51030",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S51030",
+      "position": 2,
+      "surface": "boli",
+      "word_id": "W1009",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A510031",
+      "sentence_id": "S51003",
+      "direction": "fr_to_en",
+      "answer": "My head aches.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510051",
+      "sentence_id": "S51005",
+      "direction": "fr_to_en",
+      "answer": "My eyes are sore.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510081",
+      "sentence_id": "S51008",
+      "direction": "fr_to_en",
+      "answer": "She's got long hair.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510082",
+      "sentence_id": "S51008",
+      "direction": "fr_to_en",
+      "answer": "She has got long hair.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510111",
+      "sentence_id": "S51011",
+      "direction": "fr_to_en",
+      "answer": "Are you angry with me?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510121",
+      "sentence_id": "S51012",
+      "direction": "fr_to_en",
+      "answer": "Why are you mad at me?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A510301",
+      "sentence_id": "S51030",
+      "direction": "fr_to_en",
+      "answer": "Where does it hurt?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

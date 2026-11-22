@@ -1,0 +1,1144 @@
+{
+  "unit_id": "U04",
+  "pulled_at": "2026-11-21",
+  "candidates": 67,
+  "sentences": [
+    {
+      "sentence_id": "S4001",
+      "unit_id": "U04",
+      "french": "Pijesz herbatę czy kawę?",
+      "english": "Do you drink tea or coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3414186",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4002",
+      "unit_id": "U04",
+      "french": "Piję kawę.",
+      "english": "I drink coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1000606",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I'm drinking the coffee."
+      ]
+    },
+    {
+      "sentence_id": "S4003",
+      "unit_id": "U04",
+      "french": "Piję wodę.",
+      "english": "I drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8707064",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": [
+        "I drink the water."
+      ]
+    },
+    {
+      "sentence_id": "S4004",
+      "unit_id": "U04",
+      "french": "Dziewczyna pije herbatę.",
+      "english": "The girl drinks tea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2736478",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4005",
+      "unit_id": "U04",
+      "french": "On pije wodę.",
+      "english": "He drinks water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8765642",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4006",
+      "unit_id": "U04",
+      "french": "Co jesz?",
+      "english": "What are you eating?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8444316",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4007",
+      "unit_id": "U04",
+      "french": "Jem jabłko.",
+      "english": "I eat an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2146132",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4008",
+      "unit_id": "U04",
+      "french": "Jem ser.",
+      "english": "I eat cheese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3031846",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": [
+        "I'm eating cheese."
+      ]
+    },
+    {
+      "sentence_id": "S4009",
+      "unit_id": "U04",
+      "french": "Lubię mleko i chleb.",
+      "english": "I like milk and bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3009592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4010",
+      "unit_id": "U04",
+      "french": "Pijesz kawę?",
+      "english": "Do you drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "568698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4011",
+      "unit_id": "U04",
+      "french": "Pijesz herbatę.",
+      "english": "You drink tea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2739737",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4012",
+      "unit_id": "U04",
+      "french": "Co lubisz?",
+      "english": "What are you fond of?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "657381",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4013",
+      "unit_id": "U04",
+      "french": "Co je Tom?",
+      "english": "What's Tom eating?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10542177",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4014",
+      "unit_id": "U04",
+      "french": "Lubię lody.",
+      "english": "I love ice cream.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1611632",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4015",
+      "unit_id": "U04",
+      "french": "Piję mleko.",
+      "english": "I drink milk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3535913",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "I am drinking milk."
+      ]
+    },
+    {
+      "sentence_id": "S4016",
+      "unit_id": "U04",
+      "french": "Lubię jeść.",
+      "english": "I like to eat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7164583",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4017",
+      "unit_id": "U04",
+      "french": "Lubi lody.",
+      "english": "He likes ice cream.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7184994",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4018",
+      "unit_id": "U04",
+      "french": "Dużo jem.",
+      "english": "I eat a lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10566465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4019",
+      "unit_id": "U04",
+      "french": "On dużo je.",
+      "english": "He eats a lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "356422",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4020",
+      "unit_id": "U04",
+      "french": "Ona lubi lody.",
+      "english": "She likes ice cream.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "366520",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4021",
+      "unit_id": "U04",
+      "french": "On je jabłko.",
+      "english": "He's eating an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "557012",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4022",
+      "unit_id": "U04",
+      "french": "Tom dużo pije.",
+      "english": "Tom is a heavy drinker.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6554167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4023",
+      "unit_id": "U04",
+      "french": "Mary bardzo lubi mleko.",
+      "english": "Mary likes milk very much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "608259",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4024",
+      "unit_id": "U04",
+      "french": "\"Kawa?\" \"Tak proszę.\"",
+      "english": "\"Coffee?\" \"Yes, please.\"",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10202776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Marlena",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4025",
+      "unit_id": "U04",
+      "french": "Lubisz kawę?",
+      "english": "Do you like coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3435391",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4026",
+      "unit_id": "U04",
+      "french": "Ona je jabłko.",
+      "english": "She's eating an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "563956",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4027",
+      "unit_id": "U04",
+      "french": "Kobieta je chleb.",
+      "english": "The woman is eating bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9679482",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tomo77",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4028",
+      "unit_id": "U04",
+      "french": "Ty pijesz wodę.",
+      "english": "You drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10495015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shounen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4029",
+      "unit_id": "U04",
+      "french": "Ona je chleb.",
+      "english": "She's eating bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10584479",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "She eats bread."
+      ]
+    },
+    {
+      "sentence_id": "S4030",
+      "unit_id": "U04",
+      "french": "Co on lubi?",
+      "english": "What does he like?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12888725",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Stanislawspruss",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S4001",
+      "position": 1,
+      "surface": "Pijesz",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 2,
+      "surface": "herbatę",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 3,
+      "surface": "czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 4,
+      "surface": "kawę",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 1,
+      "surface": "Piję",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 2,
+      "surface": "kawę",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 1,
+      "surface": "Piję",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 2,
+      "surface": "wodę",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 1,
+      "surface": "Dziewczyna",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 2,
+      "surface": "pije",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 3,
+      "surface": "herbatę",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 2,
+      "surface": "pije",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 3,
+      "surface": "wodę",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 2,
+      "surface": "jesz",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 1,
+      "surface": "Jem",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 2,
+      "surface": "jabłko",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 1,
+      "surface": "Jem",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 2,
+      "surface": "ser",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 1,
+      "surface": "Lubię",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 2,
+      "surface": "mleko",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 3,
+      "surface": "i",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 4,
+      "surface": "chleb",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 1,
+      "surface": "Pijesz",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 2,
+      "surface": "kawę",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 1,
+      "surface": "Pijesz",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 2,
+      "surface": "herbatę",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 2,
+      "surface": "lubisz",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 1,
+      "surface": "Lubię",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 2,
+      "surface": "lody",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 1,
+      "surface": "Piję",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 2,
+      "surface": "mleko",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 1,
+      "surface": "Lubię",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 2,
+      "surface": "jeść",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 1,
+      "surface": "Lubi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 2,
+      "surface": "lody",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 1,
+      "surface": "Dużo",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 2,
+      "surface": "jem",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 2,
+      "surface": "dużo",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 3,
+      "surface": "je",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 2,
+      "surface": "lubi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 3,
+      "surface": "lody",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 3,
+      "surface": "jabłko",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 2,
+      "surface": "dużo",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 3,
+      "surface": "pije",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 1,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 2,
+      "surface": "bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 3,
+      "surface": "lubi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 4,
+      "surface": "mleko",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 1,
+      "surface": "Kawa",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 2,
+      "surface": "Tak",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 3,
+      "surface": "proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 1,
+      "surface": "Lubisz",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 2,
+      "surface": "kawę",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 3,
+      "surface": "jabłko",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 1,
+      "surface": "Kobieta",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 3,
+      "surface": "chleb",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 1,
+      "surface": "Ty",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 2,
+      "surface": "pijesz",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 3,
+      "surface": "wodę",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 3,
+      "surface": "chleb",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 2,
+      "surface": "on",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 3,
+      "surface": "lubi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A40021",
+      "sentence_id": "S4002",
+      "direction": "fr_to_en",
+      "answer": "I'm drinking the coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40031",
+      "sentence_id": "S4003",
+      "direction": "fr_to_en",
+      "answer": "I drink the water.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40081",
+      "sentence_id": "S4008",
+      "direction": "fr_to_en",
+      "answer": "I'm eating cheese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40151",
+      "sentence_id": "S4015",
+      "direction": "fr_to_en",
+      "answer": "I am drinking milk.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40291",
+      "sentence_id": "S4029",
+      "direction": "fr_to_en",
+      "answer": "She eats bread.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -119,6 +119,16 @@ const THEMES = {
     Months: ['januar', 'februar', 'mars', 'april', 'mai', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'desember', 'måned'],
     Dates: ['dato', 'år', 'første', 'andre', 'tredje', 'bursdag', 'vår', 'sommer', 'høst', 'vinter'],
   },
+  // Polish (2026-11-21, Builder 2): headwords as the Kelly list writes them, each checked against its Wiktionary Polish
+  // entry (2026-11-21); prices in złoty and grosz.
+  pl: {
+    'Numbers to 100': ['zero', 'jeden', 'dwa', 'trzy', 'cztery', 'pięć', 'sześć', 'siedem', 'osiem', 'dziewięć', 'dziesięć', 'jedenaście', 'dwanaście', 'trzynaście', 'czternaście', 'piętnaście', 'szesnaście', 'siedemnaście', 'osiemnaście', 'dziewiętnaście', 'dwadzieścia', 'trzydzieści', 'czterdzieści', 'pięćdziesiąt', 'sześćdziesiąt', 'siedemdziesiąt', 'osiemdziesiąt', 'dziewięćdziesiąt', 'sto'],
+    Prices: ['złoty', 'grosz', 'kosztować', 'cena', 'tani', 'drogi', 'płacić', 'pieniądze'],
+    Times: ['godzina', 'minuta', 'pół', 'kwadrans', 'rano', 'południe', 'popołudnie', 'wieczór', 'noc', 'wcześnie', 'późno'],
+    Days: ['poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota', 'niedziela', 'weekend', 'dzień', 'tydzień', 'dzisiaj', 'dziś', 'jutro', 'wczoraj'],
+    Months: ['styczeń', 'luty', 'marzec', 'kwiecień', 'maj', 'czerwiec', 'lipiec', 'sierpień', 'wrzesień', 'październik', 'listopad', 'grudzień', 'miesiąc'],
+    Dates: ['data', 'rok', 'pierwszy', 'wiosna', 'lato', 'jesień', 'zima'],
+  },
   fr: {
     'Numbers to 100': ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf', 'vingt', 'trente', 'quarante', 'cinquante', 'soixante', 'soixante-dix', 'quatre-vingts', 'quatre-vingt-dix', 'cent'],
     Prices: ['euro', 'centime', 'coûter', 'prix', 'cher', 'payer', 'argent'],

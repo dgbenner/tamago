@@ -332,6 +332,15 @@ function genderFrom(section, pos, posIndex, definition) {
     if (/\{\{nb-noun(-(?:m|c|mu|f)\w*|\b)/.test(head) || /\{\{head\|nb\|noun[^}]*\bg=[mf]\b/.test(head)) return 'en'
     return ''
   }
+  // Polish (2026-11-21, branch content/pl-a1): a lemma's {{pl-noun|m-anml|…}} or a form's {{pl-head|noun form|kot|g=m-anml}},
+  // or {{head|pl|noun form|g=n}}, gender first (a second one after a comma, pies m-anml,m-pr as cop, is another sense). Masculine shows its animacy,
+  // which decides the accusative (mam kota, mam psa but mam telefon): "m, personal", "m, animate", "m, inanimate";
+  // f and n as they are; plural-only nouns "pl, virile" (ludzie) or "pl" (drzwi). A plural form's -p suffix is dropped.
+  if (C.id === 'pl') {
+    const g = head.match(/\{\{pl-noun\|(?:g=)?([a-z-]+)/)?.[1] ?? head.match(/\{\{(?:pl-head|head\|pl)\|noun(?: form)?\|[^}]*\bg=([a-z-]+)/)?.[1] ?? ''
+    const PL = { 'm-pr': 'm, personal', 'm-anml': 'm, animate', 'm-an': 'm, animate', 'm-in': 'm, inanimate', f: 'f', n: 'n', 'vr-p': 'pl, virile', 'm-pr-p': 'pl, virile', 'nv-p': 'pl' }
+    return PL[g] ?? PL[g.replace(/-p$/, '')] ?? ''
+  }
   const fromNoun = head.match(/\{\{fr-noun\|(?:g=)?(mfbysense|mf|m|f)\b/)?.[1]
   // German and Spanish headwords (2026-11-10): {{de-noun|m,es,…}}, {{de-noun|g=n}}, {{es-noun|m}}.
   const fromOther = head.match(/\{\{(?:de|es|it|pt)-noun\|(?:g=)?(mfbysense|mf|m|f|n)\b/)?.[1]
@@ -360,7 +369,7 @@ for (const w of words) {
   // and person, and the lemma's own Wiktionary conjugation table has to list the form.
   const table = !definition && pick?.form_of ? await presentIndicative(pick.form_of) : null
   if (table?.some((t) => t.person.split(', ')[0] === pick.person && t.form === w.form)) {
-    Object.assign(row, { part_of_speech: 'Verb', lemma: pick.form_of, gloss: `${{ ich: 'first-person singular', du: 'second-person singular', er: 'third-person singular', wir: 'first-person plural', ihr: 'second-person plural' }[pick.person] ?? pick.person} present of ${pick.form_of}`, gloss_full: `present tense, ${pick.person}, in Wiktionary's conjugation of ${pick.form_of}`, status: 'checked', wiktionary_url: `https://en.wiktionary.org/wiki/${title(pick.form_of)}#${C.wiktionarySection}` })
+    Object.assign(row, { part_of_speech: 'Verb', lemma: pick.form_of, gloss: `${{ ich: 'first-person singular', du: 'second-person singular', er: 'third-person singular', wir: 'first-person plural', ihr: 'second-person plural', ja: 'first-person singular', ty: 'second-person singular', on: 'third-person singular', my: 'first-person plural', wy: 'second-person plural', oni: 'third-person plural' }[pick.person] ?? pick.person} present of ${pick.form_of}`, gloss_full: `present tense, ${pick.person}, in Wiktionary's conjugation of ${pick.form_of}`, status: 'checked', wiktionary_url: `https://en.wiktionary.org/wiki/${title(pick.form_of)}#${C.wiktionarySection}` })
     const lemmaEntry = (await french(pick.form_of)).find((e) => e.pos === 'Verb')
     row.lemma_gloss = lemmaEntry ? shorten(lemmaEntry.definitions[0]) : ''
   } else if (!definition) {
@@ -469,7 +478,7 @@ save('generated_answers', generatedAnswers)
 // Every verb lemma in the course (for the conjugation trainer), plus the grammar notes' lemmas.
 // Every infinitive the course teaches gets a table (Dan, 2026-11-15): -ar for Spanish and Portuguese, -en and -n for
 // German, beside -er, -ir and -re; grammar notes name only the verbs they teach (conjugation_lemma).
-const verbLemmas = wordChecks.filter((w) => w.status === 'checked' && w.part_of_speech === 'Verb' && w.lemma && w.lemma !== w.form || (w.part_of_speech === 'Verb' && /er$|ir$|ír$|re$|ar$|n$|[aeií]rse$/.test(w.lemma))).map((w) => w.lemma)
+const verbLemmas = wordChecks.filter((w) => w.status === 'checked' && w.part_of_speech === 'Verb' && w.lemma && w.lemma !== w.form || (w.part_of_speech === 'Verb' && /er$|ir$|ír$|re$|ar$|n$|[aeií]rse$|ć$/.test(w.lemma))).map((w) => w.lemma)
 const lemmas = [...new Set([...(raw('grammar_notes') ?? []).flatMap((n) => String(n.conjugation_lemma).split(';').map((x) => x.trim()).filter(Boolean)), ...verbLemmas])]
 const conjugations = {}
 for (const l of lemmas) conjugations[l] = await presentIndicative(l)

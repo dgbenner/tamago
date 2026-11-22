@@ -1,0 +1,452 @@
+{
+ "_about": "Polish course review decisions (Builder 2, 2026-11-21, branch content/pl-a1; Part 1 gathered for review, no unit approvals yet). units: circle approvals (none: Dan and Fable decide). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword (corrections need gender_corrections with a why). names: people and places allowed in sentences, in the nominative only (Toma, Tomowi are other cases and are not names here). sentences/cut_sentences/claude_hints/accepted_additions as the review needs.",
+ "sentences": {},
+ "accepted_answers": {},
+ "units": {},
+ "cut_sentences": {},
+ "vocabulary_additions": [],
+ "hints": {},
+ "claude_hints": {
+  "W001": {
+   "hint": "hi; bye (informal)",
+   "source": "Wiktionary, cześć: \"Form of greeting or farewell used with someone with which one is on a first-name basis with or on informal, familiar terms with; hi; hello; bye\""
+  },
+  "W003": {
+   "hint": "no, not",
+   "source": "Wiktionary, nie: \"negation particle; no, not\""
+  },
+  "W004": {
+   "hint": "I",
+   "source": "Wiktionary, ja: \"first-person pronoun; I\""
+  },
+  "W006": {
+   "hint": "to be (być)",
+   "source": "Wiktionary, jestem: \"first-person singular present of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W007": {
+   "hint": "to be (być)",
+   "source": "Wiktionary, jesteś: \"second-person singular present of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W008": {
+   "hint": "to be (być)",
+   "source": "Wiktionary, jest: \"third-person singular present indicative of być; is\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W100": {
+   "hint": "to be (być)",
+   "source": "Wiktionary, jesteśmy: \"first-person plural present of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W101": {
+   "hint": "to be (być)",
+   "source": "Wiktionary, jesteście: \"second-person plural present of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W102": {
+   "hint": "to be (być)",
+   "source": "Wiktionary, są: \"third-person plural present of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W009": {
+   "hint": "this, it",
+   "source": "Wiktionary, to: \"used to point to the object to which the sentence refers\""
+  },
+  "W014": {
+   "hint": "question word for a yes-no question",
+   "source": "Wiktionary, czy: \"interrogative particle: introduces a yes-no question, often omitted; whether\""
+  },
+  "W016": {
+   "hint": "he, it",
+   "source": "Wiktionary, on: \"he , it\""
+  },
+  "W028": {
+   "hint": "table",
+   "source": "Wiktionary, stół: \"table (furniture with a top surface to accommodate a variety of uses) table (item of furniture with a flat top surface raised above the ground, usually on one or more legs) table (food and decorations on such an item) table (furniture or item used for games)\""
+  },
+  "W037": {
+   "hint": "window",
+   "source": "Wiktionary, okno: \"window (opening, usually covered by one or more panes of clear glass, to allow light and air from outside to enter a building) window (shutter, casement, sash with its fittings, or other framework, which closes a window opening) window (glass or pane of a window opening) window (any free place that allows light to pass through and allows one to see something or look inside something) window (opening, usually covered by glass, in a shop which allows people to view the shop and its products from outside; a shop window) window (rectangular area on a computer terminal or screen containing some kind of user interface, displaying the output of and allowing input for one of a number of simultaneously running computer processes) window (ventilation hole pierced in a coal wall between excavations) window (opening of an animal's dwelling hole)\""
+  },
+  "W039": {
+   "hint": "please",
+   "source": "Wiktionary, proszę: \"please! used to make a polite request\""
+  },
+  "W058": {
+   "hint": "what",
+   "source": "Wiktionary, co: \"interrogative pronoun; what\""
+  },
+  "W065": {
+   "hint": "to like (lubić)",
+   "source": "Wiktionary, lubię: \"first-person singular present of lubić\", form of lubić: \"to like to like [with infinitive ‘to do what’]\""
+  },
+  "W066": {
+   "hint": "to like (lubić)",
+   "source": "Wiktionary, lubisz: \"second-person singular present of lubić\", form of lubić: \"to like to like [with infinitive ‘to do what’]\""
+  },
+  "W067": {
+   "hint": "to like (lubić)",
+   "source": "Wiktionary, lubi: \"third-person singular present of lubić\", form of lubić: \"to like to like [with infinitive ‘to do what’]\""
+  },
+  "W070": {
+   "hint": "water",
+   "source": "Wiktionary, woda: \"water (clear liquid essential for life) synonym of uryna\""
+  },
+  "W071": {
+   "hint": "water (woda)",
+   "source": "Wiktionary, wodę: \"accusative singular of woda\", form of woda: \"water synonym of uryna\""
+  },
+  "W072": {
+   "hint": "coffee",
+   "source": "Wiktionary, kawa: \"coffee (beverage made by infusing the beans of the coffee plant in hot water) coffee (serving of this beverage) coffee (act of drinking this beverage)\""
+  },
+  "W074": {
+   "hint": "tea",
+   "source": "Wiktionary, herbata: \"tea, tea plant (Camellia sinensis)\""
+  },
+  "W075": {
+   "hint": "tea (herbata)",
+   "source": "Wiktionary, herbatę: \"accusative singular of herbata\", form of herbata: \"tea, tea plant\""
+  },
+  "W088": {
+   "hint": "horse",
+   "source": "Wiktionary, koń: \"horse (hoofed mammal, Equus ferus caballus, often used throughout history for riding and draft work) knight (chess piece, often in the shape of a horse's head, that is moved two squares in one direction and one at right angles to that direction in a single move, leaping over any intervening pieces)\""
+  },
+  "W097": {
+   "hint": "you (plural)",
+   "source": "Wiktionary, wy: \"plural second person pronoun; you\""
+  },
+  "W109": {
+   "hint": "people",
+   "source": "Wiktionary, ludzie: \"Suppletive plural of człowiek; people\", form of człowiek: \"man, human, human being; person\""
+  },
+  "W115": {
+   "hint": "good",
+   "source": "Wiktionary, dobry: \"good (consistent with moral principles, worthy of imitation) good (kind, nice, willing to help) [with dla (+ genitive) ‘for whom’] good (hard-working; tending to carry out one's duties) good (of a living thing or its parts; functioning) good (having a high quality or skill at) [with z (+ genitive) or w (+ locative) ‘at what’] good (kind, fair, just) good (having a high social hierarchical position) good (in close relations) good (healthy) synonym of bogaty (“rich”)\""
+  },
+  "W116": {
+   "hint": "good (dobry)",
+   "source": "Wiktionary, dobra: \"nominative/vocative feminine singular of dobry\", form of dobry: \"good good [with dla ‘for whom’] good good good [with z or w ‘at what’] good good good good synonym of bogaty\""
+  },
+  "W117": {
+   "hint": "good (dobry)",
+   "source": "Wiktionary, dobre: \"inflection of dobry: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of dobry: \"good good [with dla ‘for whom’] good good good [with z or w ‘at what’] good good good good synonym of bogaty\""
+  },
+  "W132": {
+   "hint": "truth",
+   "source": "Wiktionary, prawda: \"truth (that which is concordant with reality) [with o (+ locative) ‘about whom/what’]\""
+  },
+  "W142": {
+   "hint": "kitchen",
+   "source": "Wiktionary, kuchnia: \"kitchen (room or area for preparing food) kitchen (furniture and equipment in such a room) kitchen (people working in such a room)\""
+  },
+  "W148": {
+   "hint": "far",
+   "source": "Wiktionary, daleko: \"far (at a great distance) [ with genitive ‘from whom’]\""
+  },
+  "W155": {
+   "hint": "ill, sick",
+   "source": "Wiktionary, chory: \"ill, sick (unwell in terms of health or physical condition) [with na (+ accusative) ‘with what’]\""
+  },
+  "W156": {
+   "hint": "ill, sick (chory)",
+   "source": "Wiktionary, chora: \"nominative/vocative feminine singular of chory\", form of chory: \"ill, sick [with na ‘with what’]\""
+  },
+  "W159": {
+   "hint": "hungry",
+   "source": "Wiktionary, głodny: \"hungry (feeling the need to eat) [ with genitive ‘for what’]\""
+  },
+  "W160": {
+   "hint": "hungry (głodny)",
+   "source": "Wiktionary, głodna: \"nominative/vocative feminine singular of głodny\", form of głodny: \"hungry [ with genitive ‘for what’]\""
+  },
+  "W165": {
+   "hint": "my, mine",
+   "source": "Wiktionary, mój: \"first person possessive pronoun; my, mine\""
+  },
+  "W166": {
+   "hint": "my (mój)",
+   "source": "Wiktionary, moja: \"nominative/vocative feminine singular of mój\", form of mój: \"first person possessive pronoun; my, mine\""
+  },
+  "W167": {
+   "hint": "my (mój)",
+   "source": "Wiktionary, moje: \"inflection of mój: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of mój: \"first person possessive pronoun; my, mine\""
+  },
+  "W168": {
+   "hint": "your, yours",
+   "source": "Wiktionary, twój: \"singular second person possessive pronoun; your, yours; thy, thine\""
+  },
+  "W169": {
+   "hint": "your (twój)",
+   "source": "Wiktionary, twoja: \"nominative/vocative feminine singular of twój\", form of twój: \"singular second person possessive pronoun; your, yours; thy, thine\""
+  },
+  "W170": {
+   "hint": "your (twój)",
+   "source": "Wiktionary, twoje: \"inflection of twój: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of twój: \"singular second person possessive pronoun; your, yours; thy, thine\""
+  },
+  "W171": {
+   "hint": "our",
+   "source": "Wiktionary, nasz: \"first person plural possessive pronoun; our\""
+  },
+  "W172": {
+   "hint": "our (nasz)",
+   "source": "Wiktionary, nasza: \"nominative/vocative feminine singular of nasz\", form of nasz: \"first person plural possessive pronoun; our\""
+  },
+  "W173": {
+   "hint": "mum, mom",
+   "source": "Wiktionary, mama: \"mum, mom, mother synonym of mamka (“wetnurse”) synonym of piastunka (“nurse, caregiver”)\""
+  },
+  "W176": {
+   "hint": "sister",
+   "source": "Wiktionary, siostra: \"sister sister-in-law; sister of one's wife\""
+  },
+  "W179": {
+   "hint": "family",
+   "source": "Wiktionary, rodzina: \"family (parents and children together) synonym of krewny / pokrewieństwo\""
+  },
+  "W188": {
+   "hint": "which",
+   "source": "Wiktionary, który: \"interrogative pronoun, referring to a number of choices; what, which one\""
+  },
+  "W189": {
+   "hint": "which (który)",
+   "source": "Wiktionary, która: \"nominative/vocative feminine singular of który\", form of który: \"interrogative pronoun, referring to a number of choices; what, which one\""
+  },
+  "W191": {
+   "hint": "that (joins a clause)",
+   "source": "Wiktionary, że: \"introduces a subordinate clause; that\""
+  },
+  "W192": {
+   "hint": "to know (wiedzieć)",
+   "source": "Wiktionary, wiem: \"first-person singular present of wiedzieć\", form of wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
+  },
+  "W193": {
+   "hint": "to know (wiedzieć)",
+   "source": "Wiktionary, wiesz: \"second-person singular present of wiedzieć\", form of wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
+  },
+  "W194": {
+   "hint": "to know (wiedzieć)",
+   "source": "Wiktionary, wie: \"third-person singular present of wiedzieć\", form of wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
+  },
+  "W199": {
+   "hint": "someone, somebody",
+   "source": "Wiktionary, ktoś: \"indeterminate personal pronoun; someone, somebody\""
+  },
+  "W213": {
+   "hint": "how much, how many",
+   "source": "Wiktionary, ile: \"denotes amount; how much, how many\""
+  },
+  "W217": {
+   "hint": "second",
+   "source": "Wiktionary, drugi: \"second (following after the first one) second (next to the first in value, power, excellence, dignity, or rank) the other (second of two) the other (opposite) second (being of the same kind as one that has preceded; another) second (able to replace something else) some, certain, a; others (undetermined)\""
+  },
+  "W230": {
+   "hint": "what, what kind of",
+   "source": "Wiktionary, jaki: \"introduces a question about a trait; what, what... like\""
+  },
+  "W231": {
+   "hint": "what, what kind of (jaki)",
+   "source": "Wiktionary, jaka: \"nominative/vocative feminine singular of jaki\", form of jaki: \"introduces a question about a trait; what, what... like\""
+  },
+  "W233": {
+   "hint": "flower",
+   "source": "Wiktionary, kwiat: \"flower (reproductive structure in angiosperms (flowering plants), often conspicuously colorful and typically including sepals, petals, and either or both stamens and/or a pistil) flower (colorful, conspicuous structure associated with angiosperms, frequently scented and attracting various insects, and which may or may not be used for sexual reproduction) flower (plant that bears flowers, especially a plant that is small and lacks wood)\""
+  },
+  "W239": {
+   "hint": "month",
+   "source": "Wiktionary, miesiąc: \"month (one of twelve divisions of a year) used after the name of a month\""
+  },
+  "W255": {
+   "hint": "to work (pracować)",
+   "source": "Wiktionary, pracuję: \"first-person singular present of pracować\", form of pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [with na ‘for what’]\""
+  },
+  "W256": {
+   "hint": "to work (pracować)",
+   "source": "Wiktionary, pracuje: \"third-person singular present of pracować\", form of pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [with na ‘for what’]\""
+  },
+  "W257": {
+   "hint": "to work (pracować)",
+   "source": "Wiktionary, pracujesz: \"second-person singular present of pracować\", form of pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [with na ‘for what’]\""
+  },
+  "W265": {
+   "hint": "to want (chcieć)",
+   "source": "Wiktionary, chcę: \"first-person singular present of chcieć\", form of chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do something’]\""
+  },
+  "W266": {
+   "hint": "to want (chcieć)",
+   "source": "Wiktionary, chcesz: \"second-person singular present of chcieć\", form of chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do something’]\""
+  },
+  "W267": {
+   "hint": "to want (chcieć)",
+   "source": "Wiktionary, chce: \"third-person singular present of chcieć\", form of chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do something’]\""
+  },
+  "W273": {
+   "hint": "school",
+   "source": "Wiktionary, szkoła: \"school (educational institution) school (establishment)\""
+  },
+  "W275": {
+   "hint": "on, onto",
+   "source": "Wiktionary, na: \"denotes superessive position; on [with locative]\""
+  },
+  "W701": {
+   "hint": "to understand (rozumieć)",
+   "source": "Wiktionary, rozumiem: \"first-person singular present of rozumieć\", form of rozumieć: \"to understand [with accusative; or with dative ‘what’]\""
+  },
+  "W702": {
+   "hint": "to understand (rozumieć)",
+   "source": "Wiktionary, rozumiesz: \"second-person singular present of rozumieć\", form of rozumieć: \"to understand [with accusative; or with dative ‘what’]\""
+  },
+  "W703": {
+   "hint": "more slowly (comparative of wolno)",
+   "source": "Wiktionary, wolniej: \"comparative degree of wolno\""
+  },
+  "W705": {
+   "hint": "louder (comparative of głośno)",
+   "source": "Wiktionary, głośniej: \"comparative degree of głośno\""
+  },
+  "W709": {
+   "hint": "to speak, to say (mówić)",
+   "source": "Wiktionary, mów: \"second-person singular imperative of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+  },
+  "W710": {
+   "hint": "to speak, to say (mówić)",
+   "source": "Wiktionary, mówisz: \"second-person singular present of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+  },
+  "W713": {
+   "hint": "to speak, to say (mówić)",
+   "source": "Wiktionary, mówi: \"third-person singular present of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+  },
+  "W714": {
+   "hint": "to speak, to say (mówić)",
+   "source": "Wiktionary, mówię: \"first-person singular present of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+  },
+  "W715": {
+   "hint": "to speak, to say",
+   "source": "Wiktionary, mówić: \"to say, to tell (to vocalize using words) [with do (+ genitive) or dative ‘to whom’, along with o (+ locative) ‘about what’; or with na (+ accusative) ‘to whom’]\""
+  },
+  "W711": {
+   "hint": "still, yet",
+   "source": "Wiktionary, jeszcze: \"yet (used with negated verbs)\""
+  },
+  "W712": {
+   "hint": "time, once",
+   "source": "Wiktionary, raz: \"time (instance, occurrence)\""
+  },
+  "W722": {
+   "hint": "in English",
+   "source": "Wiktionary, po angielsku: \"Used other than figuratively or idiomatically: see po,‎ angielski; in English, the English way\""
+  },
+  "W724": {
+   "hint": "to look for (szukać)",
+   "source": "Wiktionary, szukam: \"first-person singular present of szukać\", form of szukać: \"to look for, to seek, to search [with genitive or accusative or za]\""
+  },
+  "W726": {
+   "hint": "something",
+   "source": "Wiktionary, coś: \"something something (uncertain or unspecified thing) something (thing that is superlative or notable in some way) something (thing that is separate from something else)\""
+  },
+  "W727": {
+   "hint": "to remember (pamiętać)",
+   "source": "Wiktionary, pamiętam: \"first-person singular present of pamiętać\", form of pamiętać: \"to remember [with o ‘about whom/what’]\""
+  },
+  "W728": {
+   "hint": "to remember (pamiętać)",
+   "source": "Wiktionary, pamiętasz: \"second-person singular present of pamiętać\", form of pamiętać: \"to remember [with o ‘about whom/what’]\""
+  },
+  "W1017": {
+   "hint": "angry; bad",
+   "source": "Wiktionary, zły: \"angry, mad (displaying or feeling anger) [with na (+ accusative) ‘at whom/what’]\""
+  },
+  "W1018": {
+   "hint": "angry; bad (zły)",
+   "source": "Wiktionary, zła: \"nominative/vocative feminine singular of zły\", form of zły: \"angry, mad [with na ‘at whom/what’]\""
+  },
+  "W1022": {
+   "hint": "to read (czytać)",
+   "source": "Wiktionary, czytam: \"first-person singular present of czytać\", form of czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
+  },
+  "W1023": {
+   "hint": "to read (czytać)",
+   "source": "Wiktionary, czytasz: \"second-person singular present of czytać\", form of czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
+  },
+  "W1024": {
+   "hint": "to read (czytać)",
+   "source": "Wiktionary, czyta: \"third-person singular present of czytać\", form of czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
+  },
+  "W1031": {
+   "hint": "to read",
+   "source": "Wiktionary, czytać: \"to read (to look at and interpret letters and symbols that are written) [with dative ‘to whom’ and o (+ locative) ‘about whom/what’]\""
+  },
+  "W1032": {
+   "hint": "to play",
+   "source": "Wiktionary, grać: \"to play (to participate in a game) [with w (+ accusative) ‘what game’, along with z (+ instrumental) or przeciw (+ dative) ‘with/against whom’, along with o (+ accusative) ‘for what’; or with instrumental ‘cards’; or with na (+ accusative) ‘for whom/what’]\""
+  },
+  "W1028": {
+   "hint": "piłka nożna, football (nożny)",
+   "source": "Wiktionary, nożną: \"accusative/instrumental feminine singular of nożny\", form of nożny: \"leg\""
+  },
+  "W1049": {
+   "hint": "street",
+   "source": "Wiktionary, ulica: \"street (road between houses) street (people on a street) feed road (road in the field that takes cattle to pasture) house road (narrow road in a village transverse to the main road along with the houses located along it) path in a park or garden\""
+  },
+  "W1051": {
+   "hint": "post office, post",
+   "source": "Wiktionary, poczta: \"post (institution dealing with the transport and delivery of correspondence and parcels) post office (building of such an institution) post; post office (people working in such an institution or building)\""
+  },
+  "W1008": {
+   "hint": "legs, feet (noga)",
+   "source": "Wiktionary, nogi: \"inflection of noga: nominative/accusative/vocative plural genitive singular\", form of noga: \"leg foot\""
+  },
+  "W1016": {
+   "hint": "short, low",
+   "source": "Wiktionary, niski: \"low, short (situated close to, or even below, the ground; not high or lofty)\""
+  },
+  "W046": {
+   "hint": "oneself, self",
+   "source": "Wiktionary, się: \"reflexive pronoun; oneself, self\""
+  },
+  "W1011": {
+   "hint": "me (ja)",
+   "source": "Wiktionary, mnie: \"genitive/dative/accusative/locative singular of ja\", form of ja: \"first-person pronoun; I\""
+  },
+  "W214": {
+   "hint": "years (rok)",
+   "source": "Wiktionary, lat: \"genitive plural of rok\", form of rok: \"year\""
+  },
+  "W178": {
+   "hint": "name",
+   "source": "Wiktionary, imię: \"name; given name (name chosen for a child by its parents) name (designation given to an animal, plant or other object) name (name given to an institution, place or cultural or sports event in honor of a famous and distinguished person or group of people or a historical event)\", form of people"
+  },
+  "W049": {
+   "hint": "to call, to name (nazywać)",
+   "source": "Wiktionary, nazywam: \"first-person singular present of nazywać\", form of nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
+  },
+  "W050": {
+   "hint": "to call, to name (nazywać)",
+   "source": "Wiktionary, nazywasz: \"second-person singular present of nazywać\", form of nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
+  },
+  "W051": {
+   "hint": "to call, to name (nazywać)",
+   "source": "Wiktionary, nazywa: \"third-person singular present of nazywać\", form of nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
+  },
+  "W002": {
+   "hint": "yes; so, like this",
+   "source": "Wiktionary, tak: Particle \"yes; certainly, of course\"; Adverb \"like this; so (in this way)\""
+  }
+ },
+ "names": [
+  "Tom",
+  "Mary",
+  "John",
+  "Maria",
+  "Anna",
+  "Marek",
+  "Piotr",
+  "Kasia",
+  "Warszawa",
+  "Kraków"
+ ],
+ "gender": {
+  "W107": "m, animate",
+  "W111": "n",
+  "W1004": "f",
+  "W1038": "f"
+ },
+ "accepted_additions": [],
+ "_gender": "Each gender here is a case or plural form whose Wiktionary entry ({{pl-head|noun form|…}}) carries no gender; it is the one on its lemma's own Polish headword, {{pl-noun|…}}: koty from kot (m-anml), jabłka from jabłko (n), ręce from ręka (f), książkę from książka (f), read 2026-11-21. Masculine nouns show their animacy (m, personal; m, animate; m, inanimate), which decides the accusative.",
+ "_claude_hints": "Short hints where Wiktionary's first definition is long, merges several senses, or carries a usage bracket ([with instrumental]); each hint is taken from the cited Wiktionary definition of the word or its lemma."
+}

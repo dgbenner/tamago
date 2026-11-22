@@ -1,0 +1,311 @@
+{
+ "_about": "Polish pull review (Builder 2, 2026-11-21). reject: Tatoeba ids turned down, with the reason; a line turned down is never proposed again in any circle. english: a better linked Tatoeba translation. Read for other senses, formal address, case forms not yet taught (a locative or instrumental hidden in a form that looks like a taught one), idioms and odd lines. tak keeps both its Wiktionary senses in its hint (yes; so, like this), so tak-as-so lines stay.",
+ "U01": {
+  "reject": {
+   "349996": "kto as anybody (Jest tam kto?): another sense of kto, taught as who",
+   "712435": "kto as anybody (Jest tu kto?): another sense of kto",
+   "831694": "idiom (Tak jest! = Yes, sir!)",
+   "1002840": "linked English is wrong (That isn't how I feel)",
+   "8773771": "linked English is wrong (Tom is here, for tam)"
+  }
+ },
+ "U31": {
+  "reject": {
+   "3897252": "linked English is wrong (here yet, for jeszcze = still)"
+  }
+ },
+ "U02": {
+  "reject": {
+   "528048": "ungrammatical (no verb: Ona tylko dziecko)",
+   "532862": "linked English does not match (No I'm not; you are!)",
+   "5651982": "linked English is broken (That a boy!)",
+   "13306658": "tylko nie as not … too; the English (Nooo) is odd"
+  }
+ },
+ "U03": {
+  "reject": {
+   "527794": "odd word order (Źle czuję się)",
+   "6304270": "linked English does not match the Polish",
+   "10568250": "idiom (Jak to? = How come?)"
+  }
+ },
+ "U04": {
+  "reject": {
+   "356920": "odd line (Jest kawa i kawa)"
+  }
+ },
+ "U06": {
+  "reject": {
+   "404516": "linked English is wrong (an apple, for jabłka)",
+   "4438811": "idiom (Proszę, proszę = well, well)",
+   "11731054": "odd line (Co to to nie my)"
+  }
+ },
+ "U07": {
+  "reject": {
+   "5927583": "stara as the verb starać się (tries), not old",
+   "6160164": "stara as the verb starać się (tries), not old",
+   "9684438": "Sami is a name here, read as sami (alone)",
+   "12359744": "odd fragment (Taki jak?)"
+  }
+ },
+ "U52": {
+  "reject": {
+   "6553830": "odd line (Ja w nic nie gram)"
+  }
+ },
+ "U08": {
+  "reject": {
+   "5336764": "linked English is odd (How have you lived?)"
+  },
+  "english": {
+   "410073": "He doesn't live here any more."
+  }
+ },
+ "U09": {
+  "reject": {
+   "13335643": "co as why (colloquial), not what"
+  }
+ },
+ "U33": {
+  "reject": {
+   "10475090": "idiom (Coś tu nie gra = something's wrong; gra as plays)",
+   "10627026": "je as them (pronoun), taught as eats"
+  }
+ },
+ "U11": {
+  "reject": {
+   "6603256": "name written in lower case (tom)"
+  }
+ },
+ "U53": {
+  "reject": {
+   "10706682": "w muzeum is a locative (in the museum); locative waits for a later part"
+  }
+ },
+ "U12": {
+  "reject": {
+   "961495": "ma as should (Ile ma jeść), another sense of mieć"
+  }
+ },
+ "U13": {
+  "reject": {
+   "6313961": "near duplicate of Nie jest czarna?",
+   "6313962": "near duplicate of Nie jest czarny?"
+  }
+ },
+ "U14": {
+  "reject": {
+   "3009469": "idiom (Jak tam? = how are things)"
+  }
+ },
+ "U15": {
+  "reject": {
+   "357874": "może as maybe; taught as can (móc)",
+   "366547": "może as maybe; taught as can (móc)",
+   "403747": "może as maybe; taught as can (móc)",
+   "547313": "może as maybe; taught as can (móc)",
+   "548033": "może as maybe; taught as can (móc)",
+   "560542": "może as maybe; taught as can (móc)",
+   "565284": "może as maybe; taught as can (móc)",
+   "569869": "może as maybe; taught as can (móc)",
+   "572894": "może as maybe; taught as can (móc)",
+   "582646": "może as maybe; taught as can (móc)",
+   "587037": "może as maybe; taught as can (móc)",
+   "608221": "może as maybe; taught as can (móc)",
+   "624746": "może as maybe; taught as can (móc)",
+   "744034": "może as maybe; taught as can (móc)",
+   "919258": "może as maybe; taught as can (móc)",
+   "957020": "może as maybe; taught as can (móc)",
+   "959566": "może as maybe; taught as can (móc)",
+   "960961": "może as maybe; taught as can (móc)",
+   "970752": "może as maybe; taught as can (móc)",
+   "991323": "może as maybe; taught as can (móc)",
+   "998757": "może as maybe; taught as can (móc)",
+   "1000978": "może as maybe; taught as can (móc)",
+   "2809465": "może as maybe; taught as can (móc)",
+   "3019551": "może as maybe; taught as can (móc)",
+   "3032323": "może as maybe; taught as can (móc)",
+   "3034045": "może as maybe; taught as can (móc)",
+   "3046740": "może as maybe; taught as can (móc)",
+   "3064067": "może as maybe; taught as can (móc)",
+   "3111566": "może as maybe; taught as can (móc)",
+   "3125602": "może as maybe; taught as can (móc)",
+   "3125603": "może as maybe; taught as can (móc)",
+   "3125606": "może as maybe; taught as can (móc)",
+   "3418089": "może as maybe; taught as can (móc)",
+   "3421465": "może as maybe; taught as can (móc)",
+   "3421777": "może as maybe; taught as can (móc)",
+   "3423587": "może as maybe; taught as can (móc)",
+   "3433050": "może as maybe; taught as can (móc)",
+   "3435330": "może as maybe; taught as can (móc)",
+   "3502796": "może as maybe; taught as can (móc)",
+   "3502797": "może as maybe; taught as can (móc)",
+   "3502799": "może as maybe; taught as can (móc)",
+   "3502800": "może as maybe; taught as can (móc)",
+   "3502802": "może as maybe; taught as can (móc)",
+   "3579168": "może as maybe; taught as can (móc)",
+   "3579256": "może as maybe; taught as can (móc)",
+   "3579257": "może as maybe; taught as can (móc)",
+   "3579329": "może as maybe; taught as can (móc)",
+   "3579330": "może as maybe; taught as can (móc)",
+   "3604024": "może as maybe; taught as can (móc)",
+   "3604026": "może as maybe; taught as can (móc)",
+   "3604028": "może as maybe; taught as can (móc)",
+   "3604029": "może as maybe; taught as can (móc)",
+   "3604174": "może as maybe; taught as can (móc)",
+   "3631687": "może as maybe; taught as can (móc)",
+   "3631689": "może as maybe; taught as can (móc)",
+   "3634694": "może as maybe; taught as can (móc)",
+   "3665199": "może as maybe; taught as can (móc)",
+   "3677185": "może as maybe; taught as can (móc)",
+   "3680557": "może as maybe; taught as can (móc)",
+   "3695890": "może as maybe; taught as can (móc)",
+   "3718772": "może as maybe; taught as can (móc)",
+   "3729537": "może as maybe; taught as can (móc)",
+   "3734785": "może as maybe; taught as can (móc)",
+   "3738600": "może as maybe; taught as can (móc)",
+   "3741254": "może as maybe; taught as can (móc)",
+   "3772092": "może as maybe; taught as can (móc)",
+   "3778914": "może as maybe; taught as can (móc)",
+   "3779740": "może as maybe; taught as can (móc)",
+   "3780243": "może as maybe; taught as can (móc)",
+   "3781628": "może as maybe; taught as can (móc)",
+   "3782971": "może as maybe; taught as can (móc)",
+   "3787924": "może as maybe; taught as can (móc)",
+   "3788697": "może as maybe; taught as can (móc)",
+   "3835951": "może as maybe; taught as can (móc)",
+   "3850583": "może as maybe; taught as can (móc)",
+   "3851829": "może as maybe; taught as can (móc)",
+   "3856178": "może as maybe; taught as can (móc)",
+   "3857523": "może as maybe; taught as can (móc)",
+   "3857524": "może as maybe; taught as can (móc)",
+   "3857525": "może as maybe; taught as can (móc)",
+   "3857528": "może as maybe; taught as can (móc)",
+   "3857529": "może as maybe; taught as can (móc)",
+   "3859059": "może as maybe; taught as can (móc)",
+   "3945951": "może as maybe; taught as can (móc)",
+   "3951084": "może as maybe; taught as can (móc)",
+   "3951086": "może as maybe; taught as can (móc)",
+   "3951087": "może as maybe; taught as can (móc)",
+   "3992198": "może as maybe; taught as can (móc)",
+   "3992200": "może as maybe; taught as can (móc)",
+   "4017745": "może as maybe; taught as can (móc)",
+   "4051539": "może as maybe; taught as can (móc)",
+   "4099653": "może as maybe; taught as can (móc)",
+   "4101645": "może as maybe; taught as can (móc)",
+   "4115166": "może as maybe; taught as can (móc)",
+   "4127514": "może as maybe; taught as can (móc)",
+   "4228806": "może as maybe; taught as can (móc)",
+   "4269710": "może as maybe; taught as can (móc)",
+   "4408577": "może as maybe; taught as can (móc)",
+   "4441323": "może as maybe; taught as can (móc)",
+   "4482512": "może as maybe; taught as can (móc)",
+   "4546878": "może as maybe; taught as can (móc)",
+   "4546985": "może as maybe; taught as can (móc)",
+   "4546987": "może as maybe; taught as can (móc)",
+   "4558179": "może as maybe; taught as can (móc)",
+   "4558204": "może as maybe; taught as can (móc)",
+   "4573289": "może as maybe; taught as can (móc)",
+   "4706811": "może as maybe; taught as can (móc)",
+   "4795934": "może as maybe; taught as can (móc)",
+   "4828032": "może as maybe; taught as can (móc)",
+   "4831266": "może as maybe; taught as can (móc)",
+   "4837679": "może as maybe; taught as can (móc)",
+   "4849824": "może as maybe; taught as can (móc)",
+   "4869511": "może as maybe; taught as can (móc)",
+   "4881978": "może as maybe; taught as can (móc)",
+   "4882015": "może as maybe; taught as can (móc)",
+   "4940358": "może as maybe; taught as can (móc)",
+   "4953035": "może as maybe; taught as can (móc)",
+   "4953257": "może as maybe; taught as can (móc)",
+   "5113722": "może as maybe; taught as can (móc)",
+   "5187941": "może as maybe; taught as can (móc)",
+   "5188495": "może as maybe; taught as can (móc)",
+   "5221682": "może as maybe; taught as can (móc)",
+   "5221802": "może as maybe; taught as can (móc)",
+   "5227618": "może as maybe; taught as can (móc)",
+   "5727975": "może as maybe; taught as can (móc)",
+   "5737276": "może as maybe; taught as can (móc)",
+   "5985115": "może as maybe; taught as can (móc)",
+   "6030320": "może as maybe; taught as can (móc)",
+   "6030405": "może as maybe; taught as can (móc)",
+   "6157244": "może as maybe; taught as can (móc)",
+   "6157252": "może as maybe; taught as can (móc)",
+   "6157256": "może as maybe; taught as can (móc)",
+   "6157266": "może as maybe; taught as can (móc)",
+   "6157272": "może as maybe; taught as can (móc)",
+   "6157274": "może as maybe; taught as can (móc)",
+   "6157375": "może as maybe; taught as can (móc)",
+   "6160159": "może as maybe; taught as can (móc)",
+   "6160714": "może as maybe; taught as can (móc)",
+   "6305536": "może as maybe; taught as can (móc)",
+   "6306739": "może as maybe; taught as can (móc)",
+   "6306824": "może as maybe; taught as can (móc)",
+   "6320702": "może as maybe; taught as can (móc)",
+   "6360084": "może as maybe; taught as can (móc)",
+   "6392720": "może as maybe; taught as can (móc)",
+   "6406173": "może as maybe; taught as can (móc)",
+   "6441647": "może as maybe; taught as can (móc)",
+   "6553905": "może as maybe; taught as can (móc)",
+   "6554300": "może as maybe; taught as can (móc)",
+   "6554355": "może as maybe; taught as can (móc)",
+   "6602676": "może as maybe; taught as can (móc)",
+   "7960532": "może as maybe; taught as can (móc)",
+   "7960533": "może as maybe; taught as can (móc)",
+   "7962561": "może as maybe; taught as can (móc)",
+   "7969956": "może as maybe; taught as can (móc)",
+   "8178492": "może as maybe; taught as can (móc)",
+   "8178493": "może as maybe; taught as can (móc)",
+   "8178495": "może as maybe; taught as can (móc)",
+   "8213703": "może as maybe; taught as can (móc)",
+   "8496110": "może as maybe; taught as can (móc)",
+   "8525057": "może as maybe; taught as can (móc)",
+   "8525117": "może as maybe; taught as can (móc)",
+   "8708089": "może as maybe; taught as can (móc)",
+   "9684316": "może as maybe; taught as can (móc)",
+   "9686180": "może as maybe; taught as can (móc)",
+   "9686268": "może as maybe; taught as can (móc)",
+   "9686428": "może as maybe; taught as can (móc)",
+   "10200755": "może as maybe; taught as can (móc)",
+   "10493890": "może as maybe; taught as can (móc)",
+   "10561302": "może as maybe; taught as can (móc)",
+   "10567261": "może as maybe; taught as can (móc)",
+   "10567262": "może as maybe; taught as can (móc)",
+   "10570177": "może as maybe; taught as can (móc)",
+   "10600342": "może as maybe; taught as can (móc)",
+   "10667919": "może as maybe; taught as can (móc)",
+   "10668714": "może as maybe; taught as can (móc)",
+   "10799430": "może as maybe; taught as can (móc)",
+   "12044086": "może as maybe; taught as can (móc)",
+   "12053422": "może as maybe; taught as can (móc)",
+   "12058228": "może as maybe; taught as can (móc)",
+   "12060479": "może as maybe; taught as can (móc)",
+   "12061985": "może as maybe; taught as can (móc)",
+   "12069011": "może as maybe; taught as can (móc)",
+   "12069033": "może as maybe; taught as can (móc)",
+   "12203724": "może as maybe; taught as can (móc)",
+   "12239950": "może as maybe; taught as can (móc)",
+   "12454121": "może as maybe; taught as can (móc)",
+   "12454244": "może as maybe; taught as can (móc)",
+   "12454451": "może as maybe; taught as can (móc)",
+   "12454513": "może as maybe; taught as can (móc)",
+   "12502512": "może as maybe; taught as can (móc)",
+   "12681808": "może as maybe; taught as can (móc)",
+   "12955573": "może as maybe; taught as can (móc)",
+   "12955575": "może as maybe; taught as can (móc)",
+   "13045950": "może as maybe; taught as can (móc)",
+   "13081852": "może as maybe; taught as can (móc)",
+   "13335633": "może as maybe; taught as can (móc)",
+   "13338545": "może as maybe; taught as can (móc)",
+   "13339606": "może as maybe; taught as can (móc)",
+   "13783752": "może as maybe; taught as can (móc)"
+  }
+ },
+ "U51": {
+  "reject": {
+   "3655381": "w ręce is a locative (in your hand)",
+   "10565686": "odd line (Mam oczy = I have eyes)"
+  }
+ }
+}

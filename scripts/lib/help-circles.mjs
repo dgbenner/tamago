@@ -59,6 +59,13 @@ export const HELP = {
     U32: { grammar: 'Hvordan sier du…? Hva betyr…? Ordet på norsk', words: ['betyr', 'ord', 'norsk', 'engelsk'], borrow: ['hva', 'på'] },
     U33: { grammar: 'Jeg leter etter ordet…; det er en ting å…; jeg vet ikke', words: ['leter', 'etter', 'ting', 'vet', 'heter'], borrow: ['å'] },
   },
+  // Polish (2026-11-21, branch content/pl-a1): ty throughout, so powtórz and mów are the ty imperatives and możesz the
+  // ty form; proszę comes from U03, later in the path than U31, so U31 borrows it; wiem comes from U11, after U33.
+  pl: {
+    U31: { grammar: 'Nie rozumiem; wolniej, proszę; możesz powtórzyć?', words: ['rozumiem', 'rozumiesz', 'wolniej', 'powoli', 'głośniej', 'powtórz', 'możesz', 'powtórzyć', 'mów', 'mówisz', 'jeszcze', 'raz'], borrow: ['proszę'] },
+    U32: { grammar: 'Jak się mówi …? Co znaczy …? po polsku, po angielsku', words: ['mówi', 'mówię', 'mówić', 'znaczy', 'oznacza', 'słowo', 'pytanie', 'język', 'po polsku', 'po angielsku', 'szybko'], borrow: [] },
+    U33: { grammar: 'Szukam …; to jest coś …; nie pamiętam; nie wiem', words: ['szukam', 'rzecz', 'coś', 'pamiętam', 'pamiętasz'], borrow: ['wiem'] },
+  },
 }
 
 // "I can" statements, written for the CEFR self-assessment grid's A1 spoken interaction row, which is this thread:
@@ -99,7 +106,7 @@ export function addHelpCircles(wb, XLSX, lang) {
 
   const words = sheet('words').filter((w) => !/^W7\d\d$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
-  const section = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', sv: 'Swedish' }[lang]
+  const section = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', sv: 'Swedish', pl: 'Polish' }[lang]
   let n = 701
   for (const h of HELP_ROWS) for (const form of spec[h.unit_id].words) {
     if (taken.has(form)) throw new Error(`${h.unit_id}: ${form} is already in the course`)

@@ -53,6 +53,13 @@ export const COURSES = {
     id: 'no', name: 'Norwegian', workbook: '_source/tamago-no-data-v3.xlsx',
     tatoeba: 'nob', wiktionaryCode: 'no', wiktionarySection: 'Norwegian Bokmål', linguaLibre: { qid: 'Q25167', iso: 'nob' }, wikidataLanguage: 'Q25167',
   },
+  // Polish (2026-11-21, branch content/pl-a1): standard Polish, ty informally (Pan and Pani, the formal you, kept out of
+  // Part 1 except as a fixed phrase). Its folders: content-pl/, src/content-pl/, public/audio-pl/. Lingua Libre files are
+  // LL-Q809 (pol).
+  pl: {
+    id: 'pl', name: 'Polish', workbook: '_source/tamago-pl-data-v3.xlsx',
+    tatoeba: 'pol', wiktionaryCode: 'pl', wiktionarySection: 'Polish', linguaLibre: { qid: 'Q809', iso: 'pol' }, wikidataLanguage: 'Q809',
+  },
 }
 export const C = COURSES[COURSE]
 if (!C) throw new Error(`COURSE=${COURSE}: no such course`)

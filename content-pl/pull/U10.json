@@ -1,0 +1,1883 @@
+{
+  "unit_id": "U10",
+  "pulled_at": "2026-11-21",
+  "candidates": 138,
+  "sentences": [
+    {
+      "sentence_id": "S10001",
+      "unit_id": "U10",
+      "french": "Gdzie moja mama?",
+      "english": "Where's my mum?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10570294",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10002",
+      "unit_id": "U10",
+      "french": "Gdzie jest mój tata?",
+      "english": "Where is my dad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "642688",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10003",
+      "unit_id": "U10",
+      "french": "Gdzie jest moja mama?",
+      "english": "Where's my mom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3872107",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": [
+        "Where's my mum?"
+      ]
+    },
+    {
+      "sentence_id": "S10004",
+      "unit_id": "U10",
+      "french": "To twój pies. Gdzie jest mój?",
+      "english": "Here is your dog. Where is mine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "353185",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "This dog is yours. Where is mine?"
+      ]
+    },
+    {
+      "sentence_id": "S10005",
+      "unit_id": "U10",
+      "french": "Jak twoja żona?",
+      "english": "How is your wife doing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2120193",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10006",
+      "unit_id": "U10",
+      "french": "Gdzie jest twój ojciec?",
+      "english": "Where is your father?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "355870",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10007",
+      "unit_id": "U10",
+      "french": "Czy to twoja siostra?",
+      "english": "Is she your sister?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "366030",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10008",
+      "unit_id": "U10",
+      "french": "Czy to twoja żona?",
+      "english": "Is that your wife?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3749827",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10009",
+      "unit_id": "U10",
+      "french": "Gdzie jest moja matka?",
+      "english": "Where's my mother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3872106",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10010",
+      "unit_id": "U10",
+      "french": "Gdzie jest mój mąż?",
+      "english": "Where's my husband?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4931196",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10011",
+      "unit_id": "U10",
+      "french": "Twoje imię?",
+      "english": "Your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12888800",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Stanislawspruss",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10012",
+      "unit_id": "U10",
+      "french": "Czy to twoje imię?",
+      "english": "Is this your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12189851",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10013",
+      "unit_id": "U10",
+      "french": "Jak się ma twój ojciec?",
+      "english": "How's your father?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3582005",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cvbge",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10014",
+      "unit_id": "U10",
+      "french": "To nasz ojciec.",
+      "english": "That is our father.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "704006",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10015",
+      "unit_id": "U10",
+      "french": "Tom to moje imię.",
+      "english": "Tom is my name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3996299",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10016",
+      "unit_id": "U10",
+      "french": "To, co jest moje, jest twoje.",
+      "english": "What's mine's yours.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10236953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zakid",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10017",
+      "unit_id": "U10",
+      "french": "To jest twoja córka?",
+      "english": "Is this your daughter?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3940179",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10018",
+      "unit_id": "U10",
+      "french": "Czy to twoja mama?",
+      "english": "Is that your mum?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7184634",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10019",
+      "unit_id": "U10",
+      "french": "Gdzie jest moja żona?",
+      "english": "Where's my wife?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8743650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10020",
+      "unit_id": "U10",
+      "french": "Gdzie jest twoja matka?",
+      "english": "Where is your mother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8774127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10021",
+      "unit_id": "U10",
+      "french": "Gdzie jest mój syn?",
+      "english": "Where's my son?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8774130",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10022",
+      "unit_id": "U10",
+      "french": "Gdzie jest twoja córka?",
+      "english": "Where's your daughter?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11573211",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10023",
+      "unit_id": "U10",
+      "french": "Gdzie mieszka twoja rodzina?",
+      "english": "Where does your family live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11752754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10024",
+      "unit_id": "U10",
+      "french": "Jak się ma Twoja matka?",
+      "english": "How is your mother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "534069",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10025",
+      "unit_id": "U10",
+      "french": "Czy jest tutaj twoja siostra?",
+      "english": "Is your sister here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3629649",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10026",
+      "unit_id": "U10",
+      "french": "Czy twój brat jest tutaj?",
+      "english": "Is your brother here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4927579",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10027",
+      "unit_id": "U10",
+      "french": "Czy Tom to twój mąż?",
+      "english": "Is Tom your husband?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6441658",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10028",
+      "unit_id": "U10",
+      "french": "Czy jest tam twoja siostra?",
+      "english": "Is your sister there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6553712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10029",
+      "unit_id": "U10",
+      "french": "Gdzie są moje pieniądze?",
+      "english": "Where's my money?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2556122",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10030",
+      "unit_id": "U10",
+      "french": "To mój przyjaciel.",
+      "english": "This is my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "928019",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10031",
+      "unit_id": "U10",
+      "french": "To moja córka.",
+      "english": "This is my daughter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695764",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10032",
+      "unit_id": "U10",
+      "french": "To mój mąż.",
+      "english": "That's my husband.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695765",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "This is my husband."
+      ]
+    },
+    {
+      "sentence_id": "S10033",
+      "unit_id": "U10",
+      "french": "To mój brat.",
+      "english": "This is my brother.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695799",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10034",
+      "unit_id": "U10",
+      "french": "To jest mój brat.",
+      "english": "This is my brother.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3085205",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10035",
+      "unit_id": "U10",
+      "french": "To jest moja rodzina.",
+      "english": "This is my family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3942972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10036",
+      "unit_id": "U10",
+      "french": "Moja rodzina jest mała.",
+      "english": "My family is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4716859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "screen69",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10037",
+      "unit_id": "U10",
+      "french": "Mój przyjaciel nie gra w tenisa.",
+      "english": "My friend doesn't play tennis.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "623358",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10038",
+      "unit_id": "U10",
+      "french": "To nasz samochód.",
+      "english": "It's our car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5088033",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nautilius87",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10039",
+      "unit_id": "U10",
+      "french": "To nasz dom.",
+      "english": "That's our house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10542825",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S10001",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 2,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 3,
+      "surface": "mama",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 3,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 4,
+      "surface": "tata",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 3,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 4,
+      "surface": "mama",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 2,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 3,
+      "surface": "pies",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 4,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 5,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 6,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 2,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 3,
+      "surface": "żona",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 4,
+      "surface": "ojciec",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 4,
+      "surface": "siostra",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 4,
+      "surface": "żona",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 3,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 4,
+      "surface": "matka",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 3,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 4,
+      "surface": "mąż",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 1,
+      "surface": "Twoje",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 2,
+      "surface": "imię",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 3,
+      "surface": "twoje",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 4,
+      "surface": "imię",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 4,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 5,
+      "surface": "ojciec",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 2,
+      "surface": "nasz",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 3,
+      "surface": "ojciec",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 3,
+      "surface": "moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 4,
+      "surface": "imię",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 2,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 4,
+      "surface": "moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 5,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 6,
+      "surface": "twoje",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 4,
+      "surface": "córka",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 4,
+      "surface": "mama",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 3,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 4,
+      "surface": "żona",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 4,
+      "surface": "matka",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 3,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 4,
+      "surface": "syn",
+      "word_id": "W184",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 4,
+      "surface": "córka",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 2,
+      "surface": "mieszka",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 4,
+      "surface": "rodzina",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 4,
+      "surface": "Twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 5,
+      "surface": "matka",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 3,
+      "surface": "tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 4,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 5,
+      "surface": "siostra",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 2,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 3,
+      "surface": "brat",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 4,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 5,
+      "surface": "tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 4,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 5,
+      "surface": "mąż",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 3,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 4,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 5,
+      "surface": "siostra",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 2,
+      "surface": "są",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 3,
+      "surface": "moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 4,
+      "surface": "pieniądze",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 2,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 3,
+      "surface": "przyjaciel",
+      "word_id": "W177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10031",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10031",
+      "position": 2,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10031",
+      "position": 3,
+      "surface": "córka",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10032",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10032",
+      "position": 2,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10032",
+      "position": 3,
+      "surface": "mąż",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10033",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10033",
+      "position": 2,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10033",
+      "position": 3,
+      "surface": "brat",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10034",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10034",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10034",
+      "position": 3,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10034",
+      "position": 4,
+      "surface": "brat",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10035",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10035",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10035",
+      "position": 3,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10035",
+      "position": 4,
+      "surface": "rodzina",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10036",
+      "position": 1,
+      "surface": "Moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10036",
+      "position": 2,
+      "surface": "rodzina",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10036",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10036",
+      "position": 4,
+      "surface": "mała",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10037",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10037",
+      "position": 2,
+      "surface": "przyjaciel",
+      "word_id": "W177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10037",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10037",
+      "position": 4,
+      "surface": "gra",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10037",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10037",
+      "position": 6,
+      "surface": "tenisa",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10038",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10038",
+      "position": 2,
+      "surface": "nasz",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10038",
+      "position": 3,
+      "surface": "samochód",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10039",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10039",
+      "position": 2,
+      "surface": "nasz",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10039",
+      "position": 3,
+      "surface": "dom",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A100031",
+      "sentence_id": "S10003",
+      "direction": "fr_to_en",
+      "answer": "Where's my mum?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100041",
+      "sentence_id": "S10004",
+      "direction": "fr_to_en",
+      "answer": "This dog is yours. Where is mine?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100321",
+      "sentence_id": "S10032",
+      "direction": "fr_to_en",
+      "answer": "This is my husband.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
