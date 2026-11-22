@@ -25,32 +25,6 @@
       "form": "są"
     }
   ],
-  "mieć": [
-    {
-      "person": "ja",
-      "form": "mam"
-    },
-    {
-      "person": "ty",
-      "form": "masz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "ma"
-    },
-    {
-      "person": "my",
-      "form": "mamy"
-    },
-    {
-      "person": "wy",
-      "form": "macie"
-    },
-    {
-      "person": "oni, one",
-      "form": "mają"
-    }
-  ],
   "nazywać": [
     {
       "person": "ja",
@@ -75,32 +49,6 @@
     {
       "person": "oni, one",
       "form": "nazywają"
-    }
-  ],
-  "czuć": [
-    {
-      "person": "ja",
-      "form": "czuję"
-    },
-    {
-      "person": "ty",
-      "form": "czujesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "czuje"
-    },
-    {
-      "person": "my",
-      "form": "czujemy"
-    },
-    {
-      "person": "wy",
-      "form": "czujecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "czują"
     }
   ],
   "jeść": [
@@ -181,6 +129,32 @@
       "form": "lubią"
     }
   ],
+  "mieć": [
+    {
+      "person": "ja",
+      "form": "mam"
+    },
+    {
+      "person": "ty",
+      "form": "masz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "ma"
+    },
+    {
+      "person": "my",
+      "form": "mamy"
+    },
+    {
+      "person": "wy",
+      "form": "macie"
+    },
+    {
+      "person": "oni, one",
+      "form": "mają"
+    }
+  ],
   "mieszkać": [
     {
       "person": "ja",
@@ -257,32 +231,6 @@
     {
       "person": "oni, one",
       "form": "robią"
-    }
-  ],
-  "kosztować": [
-    {
-      "person": "ja",
-      "form": "kosztuję"
-    },
-    {
-      "person": "ty",
-      "form": "kosztujesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "kosztuje"
-    },
-    {
-      "person": "my",
-      "form": "kosztujemy"
-    },
-    {
-      "person": "wy",
-      "form": "kosztujecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "kosztują"
     }
   ],
   "pracować": [
@@ -415,58 +363,6 @@
       "form": "muszą"
     }
   ],
-  "spać": [
-    {
-      "person": "ja",
-      "form": "śpię"
-    },
-    {
-      "person": "ty",
-      "form": "śpisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "śpi"
-    },
-    {
-      "person": "my",
-      "form": "śpimy"
-    },
-    {
-      "person": "wy",
-      "form": "śpicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "śpią"
-    }
-  ],
-  "jechać": [
-    {
-      "person": "ja",
-      "form": "jadę"
-    },
-    {
-      "person": "ty",
-      "form": "jedziesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "jedzie"
-    },
-    {
-      "person": "my",
-      "form": "jedziemy"
-    },
-    {
-      "person": "wy",
-      "form": "jedziecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "jadą"
-    }
-  ],
   "rozumieć": [
     {
       "person": "ja",
@@ -493,7 +389,6 @@
       "form": "rozumieją"
     }
   ],
-  "powtórzyć": null,
   "mówić": [
     {
       "person": "ja",
@@ -544,32 +439,6 @@
     {
       "person": "oni, one",
       "form": "znaczą"
-    }
-  ],
-  "oznaczać": [
-    {
-      "person": "ja",
-      "form": "oznaczam"
-    },
-    {
-      "person": "ty",
-      "form": "oznaczasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "oznacza"
-    },
-    {
-      "person": "my",
-      "form": "oznaczamy"
-    },
-    {
-      "person": "wy",
-      "form": "oznaczacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "oznaczają"
     }
   ],
   "szukać": [
@@ -650,6 +519,32 @@
       "form": "bolą"
     }
   ],
+  "umieć": [
+    {
+      "person": "ja",
+      "form": "umiem"
+    },
+    {
+      "person": "ty",
+      "form": "umiesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "umie"
+    },
+    {
+      "person": "my",
+      "form": "umiemy"
+    },
+    {
+      "person": "wy",
+      "form": "umiecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "umieją"
+    }
+  ],
   "grać": [
     {
       "person": "ja",
@@ -702,84 +597,6 @@
       "form": "czytają"
     }
   ],
-  "pływać": [
-    {
-      "person": "ja",
-      "form": "pływam"
-    },
-    {
-      "person": "ty",
-      "form": "pływasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "pływa"
-    },
-    {
-      "person": "my",
-      "form": "pływamy"
-    },
-    {
-      "person": "wy",
-      "form": "pływacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "pływają"
-    }
-  ],
-  "tańczyć": [
-    {
-      "person": "ja",
-      "form": "tańczę"
-    },
-    {
-      "person": "ty",
-      "form": "tańczysz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "tańczy"
-    },
-    {
-      "person": "my",
-      "form": "tańczymy"
-    },
-    {
-      "person": "wy",
-      "form": "tańczycie"
-    },
-    {
-      "person": "oni, one",
-      "form": "tańczą"
-    }
-  ],
-  "umieć": [
-    {
-      "person": "ja",
-      "form": "umiem"
-    },
-    {
-      "person": "ty",
-      "form": "umiesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "umie"
-    },
-    {
-      "person": "my",
-      "form": "umiemy"
-    },
-    {
-      "person": "wy",
-      "form": "umiecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "umieją"
-    }
-  ],
   "znać": [
     {
       "person": "ja",
@@ -806,7 +623,6 @@
       "form": "znają"
     }
   ],
-  "poznać": null,
   "pisać": [
     {
       "person": "ja",
@@ -833,10 +649,32 @@
       "form": "piszą"
     }
   ],
-  "napisać": null,
-  "przeliterować": null,
-  "powiedzieć": null,
-  "zapisać": null,
+  "nosić": [
+    {
+      "person": "ja",
+      "form": "noszę"
+    },
+    {
+      "person": "ty",
+      "form": "nosisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "nosi"
+    },
+    {
+      "person": "my",
+      "form": "nosimy"
+    },
+    {
+      "person": "wy",
+      "form": "nosicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "noszą"
+    }
+  ],
   "dzwonić": [
     {
       "person": "ja",
@@ -863,7 +701,6 @@
       "form": "dzwonią"
     }
   ],
-  "zadzwonić": null,
   "słyszeć": [
     {
       "person": "ja",
@@ -916,33 +753,58 @@
       "form": "czekają"
     }
   ],
-  "zgadzać": [
+  "pytać": [
     {
       "person": "ja",
-      "form": "zgadzam"
+      "form": "pytam"
     },
     {
       "person": "ty",
-      "form": "zgadzasz"
+      "form": "pytasz"
     },
     {
       "person": "on, ona, ono",
-      "form": "zgadza"
+      "form": "pyta"
     },
     {
       "person": "my",
-      "form": "zgadzamy"
+      "form": "pytamy"
     },
     {
       "person": "wy",
-      "form": "zgadzacie"
+      "form": "pytacie"
     },
     {
       "person": "oni, one",
-      "form": "zgadzają"
+      "form": "pytają"
     }
   ],
-  "zobaczyć": null,
+  "słuchać": [
+    {
+      "person": "ja",
+      "form": "słucham"
+    },
+    {
+      "person": "ty",
+      "form": "słuchasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "słucha"
+    },
+    {
+      "person": "my",
+      "form": "słuchamy"
+    },
+    {
+      "person": "wy",
+      "form": "słuchacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "słuchają"
+    }
+  ],
   "liczyć": [
     {
       "person": "ja",
@@ -1021,7 +883,84 @@
       "form": "wracają"
     }
   ],
-  "pochodzić": null,
+  "myśleć": [
+    {
+      "person": "ja",
+      "form": "myślę"
+    },
+    {
+      "person": "ty",
+      "form": "myślisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "myśli"
+    },
+    {
+      "person": "my",
+      "form": "myślimy"
+    },
+    {
+      "person": "wy",
+      "form": "myślicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "myślą"
+    }
+  ],
+  "kochać": [
+    {
+      "person": "ja",
+      "form": "kocham"
+    },
+    {
+      "person": "ty",
+      "form": "kochasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "kocha"
+    },
+    {
+      "person": "my",
+      "form": "kochamy"
+    },
+    {
+      "person": "wy",
+      "form": "kochacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "kochają"
+    }
+  ],
+  "wyglądać": [
+    {
+      "person": "ja",
+      "form": "wyglądam"
+    },
+    {
+      "person": "ty",
+      "form": "wyglądasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "wygląda"
+    },
+    {
+      "person": "my",
+      "form": "wyglądamy"
+    },
+    {
+      "person": "wy",
+      "form": "wyglądacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "wyglądają"
+    }
+  ],
   "uczyć": [
     {
       "person": "ja",
@@ -1074,8 +1013,6 @@
       "form": "kupują"
     }
   ],
-  "kupić": null,
-  "poprosić": null,
   "potrzebować": [
     {
       "person": "ja",
@@ -1102,33 +1039,6 @@
       "form": "potrzebują"
     }
   ],
-  "brać": [
-    {
-      "person": "ja",
-      "form": "biorę"
-    },
-    {
-      "person": "ty",
-      "form": "bierzesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "bierze"
-    },
-    {
-      "person": "my",
-      "form": "bierzemy"
-    },
-    {
-      "person": "wy",
-      "form": "bierzecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "biorą"
-    }
-  ],
-  "zrobić": null,
   "wierzyć": [
     {
       "person": "ja",
@@ -1153,32 +1063,6 @@
     {
       "person": "oni, one",
       "form": "wierzą"
-    }
-  ],
-  "uważać": [
-    {
-      "person": "ja",
-      "form": "uważam"
-    },
-    {
-      "person": "ty",
-      "form": "uważasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "uważa"
-    },
-    {
-      "person": "my",
-      "form": "uważamy"
-    },
-    {
-      "person": "wy",
-      "form": "uważacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "uważają"
     }
   ],
   "płacić": [
@@ -1207,318 +1091,30 @@
       "form": "płacą"
     }
   ],
-  "zapłacić": null,
-  "nosić": [
+  "kosztować": [
     {
       "person": "ja",
-      "form": "noszę"
+      "form": "kosztuję"
     },
     {
       "person": "ty",
-      "form": "nosisz"
+      "form": "kosztujesz"
     },
     {
       "person": "on, ona, ono",
-      "form": "nosi"
+      "form": "kosztuje"
     },
     {
       "person": "my",
-      "form": "nosimy"
+      "form": "kosztujemy"
     },
     {
       "person": "wy",
-      "form": "nosicie"
+      "form": "kosztujecie"
     },
     {
       "person": "oni, one",
-      "form": "noszą"
-    }
-  ],
-  "pytać": [
-    {
-      "person": "ja",
-      "form": "pytam"
-    },
-    {
-      "person": "ty",
-      "form": "pytasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "pyta"
-    },
-    {
-      "person": "my",
-      "form": "pytamy"
-    },
-    {
-      "person": "wy",
-      "form": "pytacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "pytają"
-    }
-  ],
-  "odpowiadać": [
-    {
-      "person": "ja",
-      "form": "odpowiadam"
-    },
-    {
-      "person": "ty",
-      "form": "odpowiadasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "odpowiada"
-    },
-    {
-      "person": "my",
-      "form": "odpowiadamy"
-    },
-    {
-      "person": "wy",
-      "form": "odpowiadacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "odpowiadają"
-    }
-  ],
-  "słuchać": [
-    {
-      "person": "ja",
-      "form": "słucham"
-    },
-    {
-      "person": "ty",
-      "form": "słuchasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "słucha"
-    },
-    {
-      "person": "my",
-      "form": "słuchamy"
-    },
-    {
-      "person": "wy",
-      "form": "słuchacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "słuchają"
-    }
-  ],
-  "używać": [
-    {
-      "person": "ja",
-      "form": "używam"
-    },
-    {
-      "person": "ty",
-      "form": "używasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "używa"
-    },
-    {
-      "person": "my",
-      "form": "używamy"
-    },
-    {
-      "person": "wy",
-      "form": "używacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "używają"
-    }
-  ],
-  "rozmawiać": [
-    {
-      "person": "ja",
-      "form": "rozmawiam"
-    },
-    {
-      "person": "ty",
-      "form": "rozmawiasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "rozmawia"
-    },
-    {
-      "person": "my",
-      "form": "rozmawiamy"
-    },
-    {
-      "person": "wy",
-      "form": "rozmawiacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "rozmawiają"
-    }
-  ],
-  "potrafić": [
-    {
-      "person": "ja",
-      "form": "potrafię"
-    },
-    {
-      "person": "ty",
-      "form": "potrafisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "potrafi"
-    },
-    {
-      "person": "my",
-      "form": "potrafimy"
-    },
-    {
-      "person": "wy",
-      "form": "potraficie"
-    },
-    {
-      "person": "oni, one",
-      "form": "potrafią"
-    }
-  ],
-  "wyglądać": [
-    {
-      "person": "ja",
-      "form": "wyglądam"
-    },
-    {
-      "person": "ty",
-      "form": "wyglądasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "wygląda"
-    },
-    {
-      "person": "my",
-      "form": "wyglądamy"
-    },
-    {
-      "person": "wy",
-      "form": "wyglądacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "wyglądają"
-    }
-  ],
-  "kochać": [
-    {
-      "person": "ja",
-      "form": "kocham"
-    },
-    {
-      "person": "ty",
-      "form": "kochasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "kocha"
-    },
-    {
-      "person": "my",
-      "form": "kochamy"
-    },
-    {
-      "person": "wy",
-      "form": "kochacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "kochają"
-    }
-  ],
-  "myśleć": [
-    {
-      "person": "ja",
-      "form": "myślę"
-    },
-    {
-      "person": "ty",
-      "form": "myślisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "myśli"
-    },
-    {
-      "person": "my",
-      "form": "myślimy"
-    },
-    {
-      "person": "wy",
-      "form": "myślicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "myślą"
-    }
-  ],
-  "siedzieć": [
-    {
-      "person": "ja",
-      "form": "siedzę"
-    },
-    {
-      "person": "ty",
-      "form": "siedzisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "siedzi"
-    },
-    {
-      "person": "my",
-      "form": "siedzimy"
-    },
-    {
-      "person": "wy",
-      "form": "siedzicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "siedzą"
-    }
-  ],
-  "stać": null,
-  "chodzić": [
-    {
-      "person": "ja",
-      "form": "chodzę"
-    },
-    {
-      "person": "ty",
-      "form": "chodzisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "chodzi"
-    },
-    {
-      "person": "my",
-      "form": "chodzimy"
-    },
-    {
-      "person": "wy",
-      "form": "chodzicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "chodzą"
+      "form": "kosztują"
     }
   ],
   "widzieć": [
@@ -1547,10 +1143,110 @@
       "form": "widzą"
     }
   ],
-  "zrozumieć": null,
-  "słychać": null,
-  "usłyszeć": null,
-  "pomyśleć": null,
+  "chodzić": [
+    {
+      "person": "ja",
+      "form": "chodzę"
+    },
+    {
+      "person": "ty",
+      "form": "chodzisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "chodzi"
+    },
+    {
+      "person": "my",
+      "form": "chodzimy"
+    },
+    {
+      "person": "wy",
+      "form": "chodzicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "chodzą"
+    }
+  ],
+  "siedzieć": [
+    {
+      "person": "ja",
+      "form": "siedzę"
+    },
+    {
+      "person": "ty",
+      "form": "siedzisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "siedzi"
+    },
+    {
+      "person": "my",
+      "form": "siedzimy"
+    },
+    {
+      "person": "wy",
+      "form": "siedzicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "siedzą"
+    }
+  ],
+  "padać": [
+    {
+      "person": "ja",
+      "form": "padam"
+    },
+    {
+      "person": "ty",
+      "form": "padasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "pada"
+    },
+    {
+      "person": "my",
+      "form": "padamy"
+    },
+    {
+      "person": "wy",
+      "form": "padacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "padają"
+    }
+  ],
+  "wiać": [
+    {
+      "person": "ja",
+      "form": "wieję"
+    },
+    {
+      "person": "ty",
+      "form": "wiejesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "wieje"
+    },
+    {
+      "person": "my",
+      "form": "wiejemy"
+    },
+    {
+      "person": "wy",
+      "form": "wiejecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "wieją"
+    }
+  ],
   "zastanawiać": [
     {
       "person": "ja",
@@ -1577,36 +1273,6 @@
       "form": "zastanawiają"
     }
   ],
-  "zastanowić": null,
-  "poczekać": null,
-  "spotkać": null,
-  "spotykać": [
-    {
-      "person": "ja",
-      "form": "spotykam"
-    },
-    {
-      "person": "ty",
-      "form": "spotykasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "spotyka"
-    },
-    {
-      "person": "my",
-      "form": "spotykamy"
-    },
-    {
-      "person": "wy",
-      "form": "spotykacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "spotykają"
-    }
-  ],
-  "pójść": null,
   "wstawać": [
     {
       "person": "ja",
@@ -1631,58 +1297,6 @@
     {
       "person": "oni, one",
       "form": "wstają"
-    }
-  ],
-  "budzić": [
-    {
-      "person": "ja",
-      "form": "budzę"
-    },
-    {
-      "person": "ty",
-      "form": "budzisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "budzi"
-    },
-    {
-      "person": "my",
-      "form": "budzimy"
-    },
-    {
-      "person": "wy",
-      "form": "budzicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "budzą"
-    }
-  ],
-  "myć": [
-    {
-      "person": "ja",
-      "form": "myję"
-    },
-    {
-      "person": "ty",
-      "form": "myjesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "myje"
-    },
-    {
-      "person": "my",
-      "form": "myjemy"
-    },
-    {
-      "person": "wy",
-      "form": "myjecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "myją"
     }
   ],
   "kończyć": [
@@ -1711,56 +1325,108 @@
       "form": "kończą"
     }
   ],
-  "palić": [
+  "dawać": [
     {
       "person": "ja",
-      "form": "palę"
+      "form": "daję"
     },
     {
       "person": "ty",
-      "form": "palisz"
+      "form": "dajesz"
     },
     {
       "person": "on, ona, ono",
-      "form": "pali"
+      "form": "daje"
     },
     {
       "person": "my",
-      "form": "palimy"
+      "form": "dajemy"
     },
     {
       "person": "wy",
-      "form": "palicie"
+      "form": "dajecie"
     },
     {
       "person": "oni, one",
-      "form": "palą"
+      "form": "dają"
     }
   ],
-  "dotykać": [
+  "trwać": [
     {
       "person": "ja",
-      "form": "dotykam"
+      "form": "trwam"
     },
     {
       "person": "ty",
-      "form": "dotykasz"
+      "form": "trwasz"
     },
     {
       "person": "on, ona, ono",
-      "form": "dotyka"
+      "form": "trwa"
     },
     {
       "person": "my",
-      "form": "dotykamy"
+      "form": "trwamy"
     },
     {
       "person": "wy",
-      "form": "dotykacie"
+      "form": "trwacie"
     },
     {
       "person": "oni, one",
-      "form": "dotykają"
+      "form": "trwają"
+    }
+  ],
+  "działać": [
+    {
+      "person": "ja",
+      "form": "działam"
+    },
+    {
+      "person": "ty",
+      "form": "działasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "działa"
+    },
+    {
+      "person": "my",
+      "form": "działamy"
+    },
+    {
+      "person": "wy",
+      "form": "działacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "działają"
+    }
+  ],
+  "jechać": [
+    {
+      "person": "ja",
+      "form": "jadę"
+    },
+    {
+      "person": "ty",
+      "form": "jedziesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "jedzie"
+    },
+    {
+      "person": "my",
+      "form": "jedziemy"
+    },
+    {
+      "person": "wy",
+      "form": "jedziecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "jadą"
     }
   ],
   "lecieć": [
@@ -1787,32 +1453,6 @@
     {
       "person": "oni, one",
       "form": "lecą"
-    }
-  ],
-  "latać": [
-    {
-      "person": "ja",
-      "form": "latam"
-    },
-    {
-      "person": "ty",
-      "form": "latasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "lata"
-    },
-    {
-      "person": "my",
-      "form": "latamy"
-    },
-    {
-      "person": "wy",
-      "form": "latacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "latają"
     }
   ],
   "odjeżdżać": [
@@ -1893,32 +1533,6 @@
       "form": "zależą"
     }
   ],
-  "wydawać": [
-    {
-      "person": "ja",
-      "form": "wydaję"
-    },
-    {
-      "person": "ty",
-      "form": "wydajesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "wydaje"
-    },
-    {
-      "person": "my",
-      "form": "wydajemy"
-    },
-    {
-      "person": "wy",
-      "form": "wydajecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "wydają"
-    }
-  ],
   "sądzić": [
     {
       "person": "ja",
@@ -1945,8 +1559,6 @@
       "form": "sądzą"
     }
   ],
-  "przyjechać": null,
-  "odjechać": null,
   "prosić": [
     {
       "person": "ja",
@@ -1999,6 +1611,862 @@
       "form": "przepraszają"
     }
   ],
+  "interesować": [
+    {
+      "person": "ja",
+      "form": "interesuję"
+    },
+    {
+      "person": "ty",
+      "form": "interesujesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "interesuje"
+    },
+    {
+      "person": "my",
+      "form": "interesujemy"
+    },
+    {
+      "person": "wy",
+      "form": "interesujecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "interesują"
+    }
+  ],
+  "uwielbiać": [
+    {
+      "person": "ja",
+      "form": "uwielbiam"
+    },
+    {
+      "person": "ty",
+      "form": "uwielbiasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "uwielbia"
+    },
+    {
+      "person": "my",
+      "form": "uwielbiamy"
+    },
+    {
+      "person": "wy",
+      "form": "uwielbiacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "uwielbiają"
+    }
+  ],
+  "woleć": [
+    {
+      "person": "ja",
+      "form": "wolę"
+    },
+    {
+      "person": "ty",
+      "form": "wolisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "woli"
+    },
+    {
+      "person": "my",
+      "form": "wolimy"
+    },
+    {
+      "person": "wy",
+      "form": "wolicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "wolą"
+    }
+  ],
+  "bać": [
+    {
+      "person": "ja",
+      "form": "boję"
+    },
+    {
+      "person": "ty",
+      "form": "boisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "boi"
+    },
+    {
+      "person": "my",
+      "form": "boimy"
+    },
+    {
+      "person": "wy",
+      "form": "boicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "boją"
+    }
+  ],
+  "przeszkadzać": [
+    {
+      "person": "ja",
+      "form": "przeszkadzam"
+    },
+    {
+      "person": "ty",
+      "form": "przeszkadzasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "przeszkadza"
+    },
+    {
+      "person": "my",
+      "form": "przeszkadzamy"
+    },
+    {
+      "person": "wy",
+      "form": "przeszkadzacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "przeszkadzają"
+    }
+  ],
+  "smakować": [
+    {
+      "person": "ja",
+      "form": "smakuję"
+    },
+    {
+      "person": "ty",
+      "form": "smakujesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "smakuje"
+    },
+    {
+      "person": "my",
+      "form": "smakujemy"
+    },
+    {
+      "person": "wy",
+      "form": "smakujecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "smakują"
+    }
+  ],
+  "należeć": [
+    {
+      "person": "ja",
+      "form": "należę"
+    },
+    {
+      "person": "ty",
+      "form": "należysz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "należy"
+    },
+    {
+      "person": "my",
+      "form": "należymy"
+    },
+    {
+      "person": "wy",
+      "form": "należycie"
+    },
+    {
+      "person": "oni, one",
+      "form": "należą"
+    }
+  ],
+  "wymagać": [
+    {
+      "person": "ja",
+      "form": "wymagam"
+    },
+    {
+      "person": "ty",
+      "form": "wymagasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "wymaga"
+    },
+    {
+      "person": "my",
+      "form": "wymagamy"
+    },
+    {
+      "person": "wy",
+      "form": "wymagacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "wymagają"
+    }
+  ],
+  "istnieć": [
+    {
+      "person": "ja",
+      "form": "istnieję"
+    },
+    {
+      "person": "ty",
+      "form": "istniejesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "istnieje"
+    },
+    {
+      "person": "my",
+      "form": "istniejemy"
+    },
+    {
+      "person": "wy",
+      "form": "istniejecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "istnieją"
+    }
+  ],
+  "wynajmować": [
+    {
+      "person": "ja",
+      "form": "wynajmuję"
+    },
+    {
+      "person": "ty",
+      "form": "wynajmujesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "wynajmuje"
+    },
+    {
+      "person": "my",
+      "form": "wynajmujemy"
+    },
+    {
+      "person": "wy",
+      "form": "wynajmujecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "wynajmują"
+    }
+  ],
+  "pozdrawiać": [
+    {
+      "person": "ja",
+      "form": "pozdrawiam"
+    },
+    {
+      "person": "ty",
+      "form": "pozdrawiasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "pozdrawia"
+    },
+    {
+      "person": "my",
+      "form": "pozdrawiamy"
+    },
+    {
+      "person": "wy",
+      "form": "pozdrawiacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "pozdrawiają"
+    }
+  ],
+  "całować": [
+    {
+      "person": "ja",
+      "form": "całuję"
+    },
+    {
+      "person": "ty",
+      "form": "całujesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "całuje"
+    },
+    {
+      "person": "my",
+      "form": "całujemy"
+    },
+    {
+      "person": "wy",
+      "form": "całujecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "całują"
+    }
+  ],
+  "tęsknić": [
+    {
+      "person": "ja",
+      "form": "tęsknię"
+    },
+    {
+      "person": "ty",
+      "form": "tęsknisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "tęskni"
+    },
+    {
+      "person": "my",
+      "form": "tęsknimy"
+    },
+    {
+      "person": "wy",
+      "form": "tęsknicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "tęsknią"
+    }
+  ],
+  "czuć": [
+    {
+      "person": "ja",
+      "form": "czuję"
+    },
+    {
+      "person": "ty",
+      "form": "czujesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "czuje"
+    },
+    {
+      "person": "my",
+      "form": "czujemy"
+    },
+    {
+      "person": "wy",
+      "form": "czujecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "czują"
+    }
+  ],
+  "spać": [
+    {
+      "person": "ja",
+      "form": "śpię"
+    },
+    {
+      "person": "ty",
+      "form": "śpisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "śpi"
+    },
+    {
+      "person": "my",
+      "form": "śpimy"
+    },
+    {
+      "person": "wy",
+      "form": "śpicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "śpią"
+    }
+  ],
+  "powtórzyć": null,
+  "oznaczać": [
+    {
+      "person": "ja",
+      "form": "oznaczam"
+    },
+    {
+      "person": "ty",
+      "form": "oznaczasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "oznacza"
+    },
+    {
+      "person": "my",
+      "form": "oznaczamy"
+    },
+    {
+      "person": "wy",
+      "form": "oznaczacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "oznaczają"
+    }
+  ],
+  "pływać": [
+    {
+      "person": "ja",
+      "form": "pływam"
+    },
+    {
+      "person": "ty",
+      "form": "pływasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "pływa"
+    },
+    {
+      "person": "my",
+      "form": "pływamy"
+    },
+    {
+      "person": "wy",
+      "form": "pływacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "pływają"
+    }
+  ],
+  "tańczyć": [
+    {
+      "person": "ja",
+      "form": "tańczę"
+    },
+    {
+      "person": "ty",
+      "form": "tańczysz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "tańczy"
+    },
+    {
+      "person": "my",
+      "form": "tańczymy"
+    },
+    {
+      "person": "wy",
+      "form": "tańczycie"
+    },
+    {
+      "person": "oni, one",
+      "form": "tańczą"
+    }
+  ],
+  "poznać": null,
+  "napisać": null,
+  "przeliterować": null,
+  "powiedzieć": null,
+  "zapisać": null,
+  "zadzwonić": null,
+  "zgadzać": [
+    {
+      "person": "ja",
+      "form": "zgadzam"
+    },
+    {
+      "person": "ty",
+      "form": "zgadzasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "zgadza"
+    },
+    {
+      "person": "my",
+      "form": "zgadzamy"
+    },
+    {
+      "person": "wy",
+      "form": "zgadzacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "zgadzają"
+    }
+  ],
+  "zobaczyć": null,
+  "pochodzić": null,
+  "kupić": null,
+  "poprosić": null,
+  "brać": [
+    {
+      "person": "ja",
+      "form": "biorę"
+    },
+    {
+      "person": "ty",
+      "form": "bierzesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "bierze"
+    },
+    {
+      "person": "my",
+      "form": "bierzemy"
+    },
+    {
+      "person": "wy",
+      "form": "bierzecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "biorą"
+    }
+  ],
+  "zrobić": null,
+  "uważać": [
+    {
+      "person": "ja",
+      "form": "uważam"
+    },
+    {
+      "person": "ty",
+      "form": "uważasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "uważa"
+    },
+    {
+      "person": "my",
+      "form": "uważamy"
+    },
+    {
+      "person": "wy",
+      "form": "uważacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "uważają"
+    }
+  ],
+  "zapłacić": null,
+  "odpowiadać": [
+    {
+      "person": "ja",
+      "form": "odpowiadam"
+    },
+    {
+      "person": "ty",
+      "form": "odpowiadasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "odpowiada"
+    },
+    {
+      "person": "my",
+      "form": "odpowiadamy"
+    },
+    {
+      "person": "wy",
+      "form": "odpowiadacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "odpowiadają"
+    }
+  ],
+  "używać": [
+    {
+      "person": "ja",
+      "form": "używam"
+    },
+    {
+      "person": "ty",
+      "form": "używasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "używa"
+    },
+    {
+      "person": "my",
+      "form": "używamy"
+    },
+    {
+      "person": "wy",
+      "form": "używacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "używają"
+    }
+  ],
+  "rozmawiać": [
+    {
+      "person": "ja",
+      "form": "rozmawiam"
+    },
+    {
+      "person": "ty",
+      "form": "rozmawiasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "rozmawia"
+    },
+    {
+      "person": "my",
+      "form": "rozmawiamy"
+    },
+    {
+      "person": "wy",
+      "form": "rozmawiacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "rozmawiają"
+    }
+  ],
+  "potrafić": [
+    {
+      "person": "ja",
+      "form": "potrafię"
+    },
+    {
+      "person": "ty",
+      "form": "potrafisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "potrafi"
+    },
+    {
+      "person": "my",
+      "form": "potrafimy"
+    },
+    {
+      "person": "wy",
+      "form": "potraficie"
+    },
+    {
+      "person": "oni, one",
+      "form": "potrafią"
+    }
+  ],
+  "stać": null,
+  "zrozumieć": null,
+  "słychać": null,
+  "usłyszeć": null,
+  "pomyśleć": null,
+  "zastanowić": null,
+  "poczekać": null,
+  "spotkać": null,
+  "spotykać": [
+    {
+      "person": "ja",
+      "form": "spotykam"
+    },
+    {
+      "person": "ty",
+      "form": "spotykasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "spotyka"
+    },
+    {
+      "person": "my",
+      "form": "spotykamy"
+    },
+    {
+      "person": "wy",
+      "form": "spotykacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "spotykają"
+    }
+  ],
+  "pójść": null,
+  "budzić": [
+    {
+      "person": "ja",
+      "form": "budzę"
+    },
+    {
+      "person": "ty",
+      "form": "budzisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "budzi"
+    },
+    {
+      "person": "my",
+      "form": "budzimy"
+    },
+    {
+      "person": "wy",
+      "form": "budzicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "budzą"
+    }
+  ],
+  "myć": [
+    {
+      "person": "ja",
+      "form": "myję"
+    },
+    {
+      "person": "ty",
+      "form": "myjesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "myje"
+    },
+    {
+      "person": "my",
+      "form": "myjemy"
+    },
+    {
+      "person": "wy",
+      "form": "myjecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "myją"
+    }
+  ],
+  "palić": [
+    {
+      "person": "ja",
+      "form": "palę"
+    },
+    {
+      "person": "ty",
+      "form": "palisz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "pali"
+    },
+    {
+      "person": "my",
+      "form": "palimy"
+    },
+    {
+      "person": "wy",
+      "form": "palicie"
+    },
+    {
+      "person": "oni, one",
+      "form": "palą"
+    }
+  ],
+  "dotykać": [
+    {
+      "person": "ja",
+      "form": "dotykam"
+    },
+    {
+      "person": "ty",
+      "form": "dotykasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "dotyka"
+    },
+    {
+      "person": "my",
+      "form": "dotykamy"
+    },
+    {
+      "person": "wy",
+      "form": "dotykacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "dotykają"
+    }
+  ],
+  "latać": [
+    {
+      "person": "ja",
+      "form": "latam"
+    },
+    {
+      "person": "ty",
+      "form": "latasz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "lata"
+    },
+    {
+      "person": "my",
+      "form": "latamy"
+    },
+    {
+      "person": "wy",
+      "form": "latacie"
+    },
+    {
+      "person": "oni, one",
+      "form": "latają"
+    }
+  ],
+  "wydawać": [
+    {
+      "person": "ja",
+      "form": "wydaję"
+    },
+    {
+      "person": "ty",
+      "form": "wydajesz"
+    },
+    {
+      "person": "on, ona, ono",
+      "form": "wydaje"
+    },
+    {
+      "person": "my",
+      "form": "wydajemy"
+    },
+    {
+      "person": "wy",
+      "form": "wydajecie"
+    },
+    {
+      "person": "oni, one",
+      "form": "wydają"
+    }
+  ],
+  "przyjechać": null,
+  "odjechać": null,
   "zatrzymywać": [
     {
       "person": "ja",
@@ -2043,85 +2511,7 @@
   "zacząć": null,
   "znaleźć": null,
   "zostać": null,
-  "padać": [
-    {
-      "person": "ja",
-      "form": "padam"
-    },
-    {
-      "person": "ty",
-      "form": "padasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "pada"
-    },
-    {
-      "person": "my",
-      "form": "padamy"
-    },
-    {
-      "person": "wy",
-      "form": "padacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "padają"
-    }
-  ],
-  "wiać": [
-    {
-      "person": "ja",
-      "form": "wieję"
-    },
-    {
-      "person": "ty",
-      "form": "wiejesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "wieje"
-    },
-    {
-      "person": "my",
-      "form": "wiejemy"
-    },
-    {
-      "person": "wy",
-      "form": "wiejecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "wieją"
-    }
-  ],
   "dać": null,
-  "dawać": [
-    {
-      "person": "ja",
-      "form": "daję"
-    },
-    {
-      "person": "ty",
-      "form": "dajesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "daje"
-    },
-    {
-      "person": "my",
-      "form": "dajemy"
-    },
-    {
-      "person": "wy",
-      "form": "dajecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "dają"
-    }
-  ],
   "wziąć": null,
   "zaczynać": [
     {
@@ -2178,113 +2568,9 @@
     }
   ],
   "spróbować": null,
-  "trwać": [
-    {
-      "person": "ja",
-      "form": "trwam"
-    },
-    {
-      "person": "ty",
-      "form": "trwasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "trwa"
-    },
-    {
-      "person": "my",
-      "form": "trwamy"
-    },
-    {
-      "person": "wy",
-      "form": "trwacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "trwają"
-    }
-  ],
-  "działać": [
-    {
-      "person": "ja",
-      "form": "działam"
-    },
-    {
-      "person": "ty",
-      "form": "działasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "działa"
-    },
-    {
-      "person": "my",
-      "form": "działamy"
-    },
-    {
-      "person": "wy",
-      "form": "działacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "działają"
-    }
-  ],
   "zostawić": null,
   "naprawić": null,
   "wystarczyć": null,
-  "interesować": [
-    {
-      "person": "ja",
-      "form": "interesuję"
-    },
-    {
-      "person": "ty",
-      "form": "interesujesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "interesuje"
-    },
-    {
-      "person": "my",
-      "form": "interesujemy"
-    },
-    {
-      "person": "wy",
-      "form": "interesujecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "interesują"
-    }
-  ],
-  "uwielbiać": [
-    {
-      "person": "ja",
-      "form": "uwielbiam"
-    },
-    {
-      "person": "ty",
-      "form": "uwielbiasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "uwielbia"
-    },
-    {
-      "person": "my",
-      "form": "uwielbiamy"
-    },
-    {
-      "person": "wy",
-      "form": "uwielbiacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "uwielbiają"
-    }
-  ],
   "nienawidzić": [
     {
       "person": "ja",
@@ -2361,58 +2647,6 @@
     {
       "person": "oni, one",
       "form": "cieszą"
-    }
-  ],
-  "bać": [
-    {
-      "person": "ja",
-      "form": "boję"
-    },
-    {
-      "person": "ty",
-      "form": "boisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "boi"
-    },
-    {
-      "person": "my",
-      "form": "boimy"
-    },
-    {
-      "person": "wy",
-      "form": "boicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "boją"
-    }
-  ],
-  "woleć": [
-    {
-      "person": "ja",
-      "form": "wolę"
-    },
-    {
-      "person": "ty",
-      "form": "wolisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "woli"
-    },
-    {
-      "person": "my",
-      "form": "wolimy"
-    },
-    {
-      "person": "wy",
-      "form": "wolicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "wolą"
     }
   ],
   "prowadzić": [
@@ -2497,58 +2731,6 @@
     }
   ],
   "napić": null,
-  "przeszkadzać": [
-    {
-      "person": "ja",
-      "form": "przeszkadzam"
-    },
-    {
-      "person": "ty",
-      "form": "przeszkadzasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "przeszkadza"
-    },
-    {
-      "person": "my",
-      "form": "przeszkadzamy"
-    },
-    {
-      "person": "wy",
-      "form": "przeszkadzacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "przeszkadzają"
-    }
-  ],
-  "smakować": [
-    {
-      "person": "ja",
-      "form": "smakuję"
-    },
-    {
-      "person": "ty",
-      "form": "smakujesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "smakuje"
-    },
-    {
-      "person": "my",
-      "form": "smakujemy"
-    },
-    {
-      "person": "wy",
-      "form": "smakujecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "smakują"
-    }
-  ],
   "zjeść": null,
   "skręcić": null,
   "zgubić": null,
@@ -2632,32 +2814,6 @@
       "form": "jeżdżą"
     }
   ],
-  "wynajmować": [
-    {
-      "person": "ja",
-      "form": "wynajmuję"
-    },
-    {
-      "person": "ty",
-      "form": "wynajmujesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "wynajmuje"
-    },
-    {
-      "person": "my",
-      "form": "wynajmujemy"
-    },
-    {
-      "person": "wy",
-      "form": "wynajmujecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "wynajmują"
-    }
-  ],
   "sprzątać": [
     {
       "person": "ja",
@@ -2715,163 +2871,7 @@
   "wypełnić": null,
   "podpisać": null,
   "urodzić": null,
-  "pozdrawiać": [
-    {
-      "person": "ja",
-      "form": "pozdrawiam"
-    },
-    {
-      "person": "ty",
-      "form": "pozdrawiasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "pozdrawia"
-    },
-    {
-      "person": "my",
-      "form": "pozdrawiamy"
-    },
-    {
-      "person": "wy",
-      "form": "pozdrawiacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "pozdrawiają"
-    }
-  ],
-  "całować": [
-    {
-      "person": "ja",
-      "form": "całuję"
-    },
-    {
-      "person": "ty",
-      "form": "całujesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "całuje"
-    },
-    {
-      "person": "my",
-      "form": "całujemy"
-    },
-    {
-      "person": "wy",
-      "form": "całujecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "całują"
-    }
-  ],
   "wysłać": null,
-  "tęsknić": [
-    {
-      "person": "ja",
-      "form": "tęsknię"
-    },
-    {
-      "person": "ty",
-      "form": "tęsknisz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "tęskni"
-    },
-    {
-      "person": "my",
-      "form": "tęsknimy"
-    },
-    {
-      "person": "wy",
-      "form": "tęsknicie"
-    },
-    {
-      "person": "oni, one",
-      "form": "tęsknią"
-    }
-  ],
-  "należeć": [
-    {
-      "person": "ja",
-      "form": "należę"
-    },
-    {
-      "person": "ty",
-      "form": "należysz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "należy"
-    },
-    {
-      "person": "my",
-      "form": "należymy"
-    },
-    {
-      "person": "wy",
-      "form": "należycie"
-    },
-    {
-      "person": "oni, one",
-      "form": "należą"
-    }
-  ],
-  "istnieć": [
-    {
-      "person": "ja",
-      "form": "istnieję"
-    },
-    {
-      "person": "ty",
-      "form": "istniejesz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "istnieje"
-    },
-    {
-      "person": "my",
-      "form": "istniejemy"
-    },
-    {
-      "person": "wy",
-      "form": "istniejecie"
-    },
-    {
-      "person": "oni, one",
-      "form": "istnieją"
-    }
-  ],
-  "wymagać": [
-    {
-      "person": "ja",
-      "form": "wymagam"
-    },
-    {
-      "person": "ty",
-      "form": "wymagasz"
-    },
-    {
-      "person": "on, ona, ono",
-      "form": "wymaga"
-    },
-    {
-      "person": "my",
-      "form": "wymagamy"
-    },
-    {
-      "person": "wy",
-      "form": "wymagacie"
-    },
-    {
-      "person": "oni, one",
-      "form": "wymagają"
-    }
-  ],
   "wykonać": null,
   "wykonywać": [
     {

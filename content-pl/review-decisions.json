@@ -1,6 +1,17 @@
 {
- "_about": "Polish course review decisions (Builder 2, 2026-11-21, branch content/pl-a1; Part 1 gathered for review). units: circle approvals (all 72 approved 2026-11-22 for Developer-only wiring, Fable review pending). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword (corrections need gender_corrections with a why). names: people and places allowed in sentences, in the nominative only (Toma, Tomowi are other cases and are not names here). sentences/cut_sentences/claude_hints/accepted_additions as the review needs. Part 3 (2026-11-21, gathered for review): claude_hints for its 429 words from the cited Wiktionary definitions; gender for 26 case forms; names unchanged. Part 4 (2026-11-22, gathered for review): claude_hints for its 335 live words (and około, revived) from the cited Wiktionary definitions; gender for its case forms from their lemma's headword; names unchanged.",
- "sentences": {},
+ "_about": "Polish course review decisions (Builder 2, 2026-11-21, branch content/pl-a1; Part 1 gathered for review). units: circle approvals (all 72 approved 2026-11-22 for Developer-only wiring, Fable review pending). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword (corrections need gender_corrections with a why). names: people and places allowed in sentences, in the nominative only (Toma, Tomowi are other cases and are not names here). sentences/cut_sentences/claude_hints/accepted_additions as the review needs. Part 3 (2026-11-21, gathered for review): claude_hints for its 429 words from the cited Wiktionary definitions; gender for 26 case forms; names unchanged. Part 4 (2026-11-22, gathered for review): claude_hints for its 335 live words (and około, revived) from the cited Wiktionary definitions; gender for its case forms from their lemma's headword; names unchanged. Phase 6 (2026-11-22): Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md) applied with Dan's calls by scripts/review/pl-phase6.mjs (formal pan/pani from U41, Toma and Tomem as words, the Bóg lines cut, the exam note); cut_answers holds generated answers that use a word the circle has not taught (scripts/review/pl-answer-scope.mjs).",
+ "sentences": {
+  "S4014": {
+   "action": "confirm",
+   "french": "Lubię lody.",
+   "english_source": "Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 11: lubię is like (kocham is love); Tatoeba links only \"I love ice cream.\""
+  },
+  "S4022": {
+   "action": "confirm",
+   "french": "Tom dużo pije.",
+   "english_source": "Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 11: Tatoeba links only \"Tom is a heavy drinker.\""
+  }
+ },
  "accepted_answers": {},
  "units": {
   "U01": {
@@ -367,7 +378,21 @@
  "cut_sentences": [
   "S48002",
   "S48033",
-  "S48034"
+  "S48034",
+  "S56003",
+  "S56010",
+  "S87021",
+  "S94209",
+  "S75035",
+  "S75040",
+  "S81023",
+  "S95001",
+  "S95002",
+  "S95003",
+  "S95006",
+  "S95007",
+  "S95008",
+  "S15025"
  ],
  "vocabulary_additions": [],
  "hints": {},
@@ -385,28 +410,34 @@
    "source": "Wiktionary, ja: \"first-person pronoun; I\""
   },
   "W006": {
-   "hint": "to be (być)",
-   "source": "Wiktionary, jestem: \"first-person singular present of być\", form of być: \"to be [with nominative or instrumental]\""
+   "hint": "I am (być)",
+   "was": "to be (być)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jestem \"first-person singular present of być\"; English from być: \"to be [with nominative or instrumental]\""
   },
   "W007": {
-   "hint": "to be (być)",
-   "source": "Wiktionary, jesteś: \"second-person singular present of być\", form of być: \"to be [with nominative or instrumental]\""
+   "hint": "you are (być)",
+   "was": "to be (być)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jesteś \"second-person singular present of być\"; English from być: \"to be [with nominative or instrumental]\""
   },
   "W008": {
-   "hint": "to be (być)",
-   "source": "Wiktionary, jest: \"third-person singular present indicative of być; is\", form of być: \"to be [with nominative or instrumental]\""
+   "hint": "is (być)",
+   "was": "to be (być)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jest \"third-person singular present indicative of być; is\"; English from być: \"to be [with nominative or instrumental]\""
   },
   "W100": {
-   "hint": "to be (być)",
-   "source": "Wiktionary, jesteśmy: \"first-person plural present of być\", form of być: \"to be [with nominative or instrumental]\""
+   "hint": "we are (być)",
+   "was": "to be (być)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jesteśmy \"first-person plural present of być\"; English from być: \"to be [with nominative or instrumental]\""
   },
   "W101": {
-   "hint": "to be (być)",
-   "source": "Wiktionary, jesteście: \"second-person plural present of być\", form of być: \"to be [with nominative or instrumental]\""
+   "hint": "you all are (być)",
+   "was": "to be (być)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jesteście \"second-person plural present of być\"; English from być: \"to be [with nominative or instrumental]\""
   },
   "W102": {
-   "hint": "to be (być)",
-   "source": "Wiktionary, są: \"third-person plural present of być\", form of być: \"to be [with nominative or instrumental]\""
+   "hint": "they are (być)",
+   "was": "to be (być)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): są \"third-person plural present of być\"; English from być: \"to be [with nominative or instrumental]\""
   },
   "W009": {
    "hint": "this, it",
@@ -437,16 +468,19 @@
    "source": "Wiktionary, co: \"interrogative pronoun; what\""
   },
   "W065": {
-   "hint": "to like (lubić)",
-   "source": "Wiktionary, lubię: \"first-person singular present of lubić\", form of lubić: \"to like to like [with infinitive ‘to do what’]\""
+   "hint": "I like (lubić)",
+   "was": "to like (lubić)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): lubię \"first-person singular present of lubić\"; English from lubić: \"to like to like [with infinitive ‘to do what’]\""
   },
   "W066": {
-   "hint": "to like (lubić)",
-   "source": "Wiktionary, lubisz: \"second-person singular present of lubić\", form of lubić: \"to like to like [with infinitive ‘to do what’]\""
+   "hint": "you like (lubić)",
+   "was": "to like (lubić)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): lubisz \"second-person singular present of lubić\"; English from lubić: \"to like to like [with infinitive ‘to do what’]\""
   },
   "W067": {
-   "hint": "to like (lubić)",
-   "source": "Wiktionary, lubi: \"third-person singular present of lubić\", form of lubić: \"to like to like [with infinitive ‘to do what’]\""
+   "hint": "likes (lubić)",
+   "was": "to like (lubić)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): lubi \"third-person singular present of lubić\"; English from lubić: \"to like to like [with infinitive ‘to do what’]\""
   },
   "W070": {
    "hint": "water",
@@ -577,16 +611,19 @@
    "source": "Wiktionary, że: \"introduces a subordinate clause; that\""
   },
   "W192": {
-   "hint": "to know (wiedzieć)",
-   "source": "Wiktionary, wiem: \"first-person singular present of wiedzieć\", form of wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
+   "hint": "I know (wiedzieć)",
+   "was": "to know (wiedzieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): wiem \"first-person singular present of wiedzieć\"; English from wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
   },
   "W193": {
-   "hint": "to know (wiedzieć)",
-   "source": "Wiktionary, wiesz: \"second-person singular present of wiedzieć\", form of wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
+   "hint": "you know (wiedzieć)",
+   "was": "to know (wiedzieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): wiesz \"second-person singular present of wiedzieć\"; English from wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
   },
   "W194": {
-   "hint": "to know (wiedzieć)",
-   "source": "Wiktionary, wie: \"third-person singular present of wiedzieć\", form of wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
+   "hint": "knows (wiedzieć)",
+   "was": "to know (wiedzieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): wie \"third-person singular present of wiedzieć\"; English from wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
   },
   "W199": {
    "hint": "someone, somebody",
@@ -617,28 +654,34 @@
    "source": "Wiktionary, miesiąc: \"month (one of twelve divisions of a year) used after the name of a month\""
   },
   "W255": {
-   "hint": "to work (pracować)",
-   "source": "Wiktionary, pracuję: \"first-person singular present of pracować\", form of pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [with na ‘for what’]\""
+   "hint": "I work (pracować)",
+   "was": "to work (pracować)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): pracuję \"first-person singular present of pracować\"; English from pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [wit\""
   },
   "W256": {
-   "hint": "to work (pracować)",
-   "source": "Wiktionary, pracuje: \"third-person singular present of pracować\", form of pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [with na ‘for what’]\""
+   "hint": "works, works  to work for  to work for (pracować)",
+   "was": "to work (pracować)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): pracuje \"third-person singular present of pracować\"; English from pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [wit\""
   },
   "W257": {
-   "hint": "to work (pracować)",
-   "source": "Wiktionary, pracujesz: \"second-person singular present of pracować\", form of pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [with na ‘for what’]\""
+   "hint": "you work (pracować)",
+   "was": "to work (pracować)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): pracujesz \"second-person singular present of pracować\"; English from pracować: \"to work [with przy ‘at what’] to work for [with dla ‘for whom’] to work for [wit\""
   },
   "W265": {
-   "hint": "to want (chcieć)",
-   "source": "Wiktionary, chcę: \"first-person singular present of chcieć\", form of chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do something’]\""
+   "hint": "I want (chcieć)",
+   "was": "to want (chcieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): chcę \"first-person singular present of chcieć\"; English from chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do s\""
   },
   "W266": {
-   "hint": "to want (chcieć)",
-   "source": "Wiktionary, chcesz: \"second-person singular present of chcieć\", form of chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do something’]\""
+   "hint": "you want (chcieć)",
+   "was": "to want (chcieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): chcesz \"second-person singular present of chcieć\"; English from chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do s\""
   },
   "W267": {
-   "hint": "to want (chcieć)",
-   "source": "Wiktionary, chce: \"third-person singular present of chcieć\", form of chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do something’]\""
+   "hint": "wants (chcieć)",
+   "was": "to want (chcieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): chce \"third-person singular present of chcieć\"; English from chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do s\""
   },
   "W273": {
    "hint": "school",
@@ -649,12 +692,14 @@
    "source": "Wiktionary, na: \"denotes superessive position; on [with locative]\""
   },
   "W701": {
-   "hint": "to understand (rozumieć)",
-   "source": "Wiktionary, rozumiem: \"first-person singular present of rozumieć\", form of rozumieć: \"to understand [with accusative; or with dative ‘what’]\""
+   "hint": "I understand (rozumieć)",
+   "was": "to understand (rozumieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): rozumiem \"first-person singular present of rozumieć\"; English from rozumieć: \"to understand [with accusative; or with dative ‘what’]\""
   },
   "W702": {
-   "hint": "to understand (rozumieć)",
-   "source": "Wiktionary, rozumiesz: \"second-person singular present of rozumieć\", form of rozumieć: \"to understand [with accusative; or with dative ‘what’]\""
+   "hint": "you understand (rozumieć)",
+   "was": "to understand (rozumieć)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): rozumiesz \"second-person singular present of rozumieć\"; English from rozumieć: \"to understand [with accusative; or with dative ‘what’]\""
   },
   "W703": {
    "hint": "more slowly (comparative of wolno)",
@@ -665,20 +710,24 @@
    "source": "Wiktionary, głośniej: \"comparative degree of głośno\""
   },
   "W709": {
-   "hint": "to speak, to say (mówić)",
-   "source": "Wiktionary, mów: \"second-person singular imperative of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+   "hint": "speak!, say! (mówić)",
+   "was": "to speak, to say (mówić)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mów \"second-person singular imperative of mówić\"; English from mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with\""
   },
   "W710": {
-   "hint": "to speak, to say (mówić)",
-   "source": "Wiktionary, mówisz: \"second-person singular present of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+   "hint": "you speak, you say (mówić)",
+   "was": "to speak, to say (mówić)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mówisz \"second-person singular present of mówić\"; English from mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with\""
   },
   "W713": {
-   "hint": "to speak, to say (mówić)",
-   "source": "Wiktionary, mówi: \"third-person singular present of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+   "hint": "speaks, says (mówić)",
+   "was": "to speak, to say (mówić)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mówi \"third-person singular present of mówić\"; English from mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with\""
   },
   "W714": {
-   "hint": "to speak, to say (mówić)",
-   "source": "Wiktionary, mówię: \"first-person singular present of mówić\", form of mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with na ‘to whom’]\""
+   "hint": "I speak, I say (mówić)",
+   "was": "to speak, to say (mówić)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mówię \"first-person singular present of mówić\"; English from mówić: \"to say, to tell [with do or dative ‘to whom’, along with o ‘about what’; or with\""
   },
   "W715": {
    "hint": "to speak, to say",
@@ -697,20 +746,23 @@
    "source": "Wiktionary, po angielsku: \"Used other than figuratively or idiomatically: see po,‎ angielski; in English, the English way\""
   },
   "W724": {
-   "hint": "to look for (szukać)",
-   "source": "Wiktionary, szukam: \"first-person singular present of szukać\", form of szukać: \"to look for, to seek, to search [with genitive or accusative or za]\""
+   "hint": "I look for (szukać)",
+   "was": "to look for (szukać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): szukam \"first-person singular present of szukać\"; English from szukać: \"to look for, to seek, to search [with genitive or accusative or za]\""
   },
   "W726": {
    "hint": "something",
    "source": "Wiktionary, coś: \"something something (uncertain or unspecified thing) something (thing that is superlative or notable in some way) something (thing that is separate from something else)\""
   },
   "W727": {
-   "hint": "to remember (pamiętać)",
-   "source": "Wiktionary, pamiętam: \"first-person singular present of pamiętać\", form of pamiętać: \"to remember [with o ‘about whom/what’]\""
+   "hint": "I remember (pamiętać)",
+   "was": "to remember (pamiętać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): pamiętam \"first-person singular present of pamiętać\"; English from pamiętać: \"to remember [with o ‘about whom/what’]\""
   },
   "W728": {
-   "hint": "to remember (pamiętać)",
-   "source": "Wiktionary, pamiętasz: \"second-person singular present of pamiętać\", form of pamiętać: \"to remember [with o ‘about whom/what’]\""
+   "hint": "you remember (pamiętać)",
+   "was": "to remember (pamiętać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): pamiętasz \"second-person singular present of pamiętać\"; English from pamiętać: \"to remember [with o ‘about whom/what’]\""
   },
   "W1017": {
    "hint": "angry; bad",
@@ -721,16 +773,19 @@
    "source": "Wiktionary, zła: \"nominative/vocative feminine singular of zły\", form of zły: \"angry, mad [with na ‘at whom/what’]\""
   },
   "W1022": {
-   "hint": "to read (czytać)",
-   "source": "Wiktionary, czytam: \"first-person singular present of czytać\", form of czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
+   "hint": "I read (czytać)",
+   "was": "to read (czytać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): czytam \"first-person singular present of czytać\"; English from czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
   },
   "W1023": {
-   "hint": "to read (czytać)",
-   "source": "Wiktionary, czytasz: \"second-person singular present of czytać\", form of czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
+   "hint": "you read (czytać)",
+   "was": "to read (czytać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): czytasz \"second-person singular present of czytać\"; English from czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
   },
   "W1024": {
-   "hint": "to read (czytać)",
-   "source": "Wiktionary, czyta: \"third-person singular present of czytać\", form of czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
+   "hint": "reads (czytać)",
+   "was": "to read (czytać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): czyta \"third-person singular present of czytać\"; English from czytać: \"to read [with dative ‘to whom’ and o ‘about whom/what’]\""
   },
   "W1031": {
    "hint": "to read",
@@ -777,16 +832,19 @@
    "source": "Wiktionary, imię: \"name; given name (name chosen for a child by its parents) name (designation given to an animal, plant or other object) name (name given to an institution, place or cultural or sports event in honor of a famous and distinguished person or group of people or a historical event)\", form of people"
   },
   "W049": {
-   "hint": "to call, to name (nazywać)",
-   "source": "Wiktionary, nazywam: \"first-person singular present of nazywać\", form of nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
+   "hint": "I call, I name (nazywać; nazywam się: my name is)",
+   "was": "to call, to name (nazywać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): nazywam \"first-person singular present of nazywać\"; English from nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
   },
   "W050": {
-   "hint": "to call, to name (nazywać)",
-   "source": "Wiktionary, nazywasz: \"second-person singular present of nazywać\", form of nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
+   "hint": "you call, you name (nazywać; nazywasz się: your name is)",
+   "was": "to call, to name (nazywać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): nazywasz \"second-person singular present of nazywać\"; English from nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
   },
   "W051": {
-   "hint": "to call, to name (nazywać)",
-   "source": "Wiktionary, nazywa: \"third-person singular present of nazywać\", form of nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
+   "hint": "calls, names (nazywać; nazywa się: his/her name is)",
+   "was": "to call, to name (nazywać)",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): nazywa \"third-person singular present of nazywać\"; English from nazywać: \"to call, to name [with instrumental or nominative ‘what name’]\""
   },
   "W002": {
    "hint": "yes; so, like this",
@@ -3638,7 +3696,7 @@
   },
   "W2145": {
    "hint": "blows (wieje wiatr: the wind is blowing; wiać)",
-   "source": "Wiktionary, wieje: \"third-person singular present of wiać (“to scram”)\""
+   "source": "Wiktionary, wiać: \"to blow (to produce an air current)\"; wieje is its third-person singular present in the {{pl-conj}} table"
   },
   "W2146": {
    "hint": "warm",
@@ -4833,12 +4891,12 @@
    "source": "Wiktionary, kontakt: \"contact (establishment of communication) [with z (+ instrumental) ‘with whom’]\""
   },
   "W2568": {
-   "hint": "man, gentleman (ten pan)",
-   "source": "Wiktionary, pan: \"gentleman, man (specific male person, especially one unknown to the speaker)\""
+   "hint": "you (polite, to a man; takes the he/she verb form); man, gentleman (ten pan)",
+   "source": "Wiktionary, pan: Pronoun \"you polite second person m-personal nominative, it takes verbs as third-person sg form\"; Noun \"gentleman, man\""
   },
   "W2569": {
-   "hint": "woman, lady (ta pani)",
-   "source": "Wiktionary, pani: \"female equivalent of pan (“woman”) (specific female person, especially one unknown to the speaker) female equivalent of pan (“Mrs; miss”) (title before a last name) female equivalent of pan (“mistress, lady”) (person with power over something) female equivalent of pan (“madam”) (rich, well-presenting person) female equivalent of pan (“lady”) (master of a house) female equivalent of pan (“teacher”)\""
+   "hint": "you (polite, to a woman; takes the he/she verb form); woman, lady (ta pani)",
+   "source": "Wiktionary, pani: Pronoun \"female equivalent of pan (“you”) (polite second person f nominative, it takes verbs as third-person sg form)\""
   },
   "W2571": {
    "hint": "happened (co się stało?; stać się)",
@@ -4973,8 +5031,8 @@
    "source": "Wiktionary, e-mail: \"e-mail (message)\""
   },
   "W2604": {
-   "hint": "dear, darling (to a man)",
-   "source": "Wiktionary, kochany: \"loved one, love\""
+   "hint": "dear, beloved (kochany brat); darling (as a name)",
+   "source": "Wiktionary, kochany: Participle \"passive adjectival participle of kochać\", declined as an adjective; Noun \"loved one, love\" (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 4)"
   },
   "W2605": {
    "hint": "dear, darling (to a woman)",
@@ -5555,6 +5613,231 @@
   "W2854": {
    "hint": "million",
    "source": "Wiktionary, milion: \"million (10)\""
+  },
+  "W2624": {
+   "hint": "you (polite, to a man: object form, znam pana); your (pana komputer)",
+   "source": "Wiktionary, pana: Pronoun \"genitive/accusative singular of pan (“you (polite)”)\""
+  },
+  "W1782": {
+   "hint": "Tom (object form: znasz Toma?; Tom's: pies Toma)",
+   "source": "Tom, genitive and accusative, as Tatoeba's checked lines use it (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), Dan's call 2; a name has no Wiktionary entry)"
+  },
+  "W2075": {
+   "hint": "Tom (with z: z Tomem)",
+   "source": "Tom, instrumental, as Tatoeba's checked lines use it (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), Dan's call 2; a name has no Wiktionary entry)"
+  },
+  "W269": {
+   "hint": "he/she can (móc); maybe (być może)",
+   "source": "Wiktionary, może: Verb \"third-person singular present of móc\", Particle \"maybe, perhaps\" (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 2)"
+  },
+  "W1532": {
+   "hint": "number",
+   "source": "Wiktionary, numer: \"number (indicating the position of something in a list or sequence)\" (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 3)"
+  },
+  "W047": {
+   "hint": "you have (mieć)",
+   "was": "to have",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): masz \"second-person singular present of mieć\"; English from mieć: \"to have\""
+  },
+  "W052": {
+   "hint": "you feel, you sense (czuć)",
+   "was": "to feel, to sense",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): czujesz \"second-person singular present of czuć\"; English from czuć: \"to feel, to sense\""
+  },
+  "W053": {
+   "hint": "I feel (czuć)",
+   "was": "to feel",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): czuć's {{pl-conj}} table, ja row czuję; English from czuć: \"to feel\""
+  },
+  "W059": {
+   "hint": "I eat (jeść)",
+   "was": "to eat",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jem \"first-person singular present of jeść\"; English from jeść: \"to eat\""
+  },
+  "W060": {
+   "hint": "you eat (jeść)",
+   "was": "to eat",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jesz \"second-person singular present of jeść\"; English from jeść: \"to eat\""
+  },
+  "W061": {
+   "hint": "eats (jeść)",
+   "was": "to eat",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): je \"third-person singular present of jeść\"; English from jeść: \"to eat\""
+  },
+  "W062": {
+   "hint": "I drink (pić)",
+   "was": "to drink",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): piję \"first-person singular present of pić\"; English from pić: \"to drink\""
+  },
+  "W063": {
+   "hint": "you drink (pić)",
+   "was": "to drink",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): pijesz \"second-person singular present of pić\"; English from pić: \"to drink\""
+  },
+  "W064": {
+   "hint": "drinks (pić)",
+   "was": "to drink",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): pije \"third-person singular present of pić\"; English from pić: \"to drink\""
+  },
+  "W082": {
+   "hint": "I have (mieć)",
+   "was": "to have",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mam \"first-person singular present of mieć\"; English from mieć: \"to have\""
+  },
+  "W083": {
+   "hint": "has (mieć)",
+   "was": "to have",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): ma \"third-person singular present of mieć\"; English from mieć: \"to have\""
+  },
+  "W103": {
+   "hint": "we have (mieć)",
+   "was": "to have",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mamy \"first-person plural present of mieć\"; English from mieć: \"to have\""
+  },
+  "W104": {
+   "hint": "you all have (mieć)",
+   "was": "to have",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): macie \"second-person plural present of mieć\"; English from mieć: \"to have\""
+  },
+  "W105": {
+   "hint": "they have (mieć)",
+   "was": "to have",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mają \"third-person plural present of mieć\"; English from mieć: \"to have\""
+  },
+  "W139": {
+   "hint": "I live, I reside (mieszkać)",
+   "was": "to live, to reside",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mieszkam \"first-person singular present of mieszkać\"; English from mieszkać: \"to live, to reside\""
+  },
+  "W140": {
+   "hint": "you live, you reside (mieszkać)",
+   "was": "to live, to reside",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mieszkasz \"second-person singular present of mieszkać\"; English from mieszkać: \"to live, to reside\""
+  },
+  "W141": {
+   "hint": "lives, resides (mieszkać)",
+   "was": "to live, to reside",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mieszka \"third-person singular present of mieszkać\"; English from mieszkać: \"to live, to reside\""
+  },
+  "W195": {
+   "hint": "I make (robić)",
+   "was": "to make",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): robić's {{pl-conj}} table, ja row robię; English from robić: \"to make\""
+  },
+  "W196": {
+   "hint": "you make (robić)",
+   "was": "to make",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): robić's {{pl-conj}} table, ty row robisz; English from robić: \"to make\""
+  },
+  "W197": {
+   "hint": "makes (robić)",
+   "was": "to make",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): robić's {{pl-conj}} table, on row robi; English from robić: \"to make\""
+  },
+  "W215": {
+   "hint": "costs (kosztować)",
+   "was": "to cost",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): kosztować's {{pl-conj}} table, on row kosztuje; English from kosztować: \"to cost\""
+  },
+  "W259": {
+   "hint": "I go (iść)",
+   "was": "to go",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): idę \"first-person singular present of iść\"; English from iść: \"to go; to walk\""
+  },
+  "W260": {
+   "hint": "you go (iść)",
+   "was": "to go",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): iść's {{pl-conj}} table, ty row idziesz; English from iść: \"to go\""
+  },
+  "W261": {
+   "hint": "goes (iść)",
+   "was": "to go",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): iść's {{pl-conj}} table, on row idzie; English from iść: \"to go\""
+  },
+  "W262": {
+   "hint": "we go (iść)",
+   "was": "to go",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): iść's {{pl-conj}} table, my row idziemy; English from iść: \"to go\""
+  },
+  "W268": {
+   "hint": "I can (móc)",
+   "was": "to be able",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): mogę \"first-person singular present of móc\"; English from móc: \"to be able; can; may, might expressing lack of something blocking action\""
+  },
+  "W270": {
+   "hint": "I have to, I need to (musieć)",
+   "was": "to have to, to need to, must",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): muszę \"first-person singular present of musieć\"; English from musieć: \"to have to, to need to, must\""
+  },
+  "W271": {
+   "hint": "you have to, you need to (musieć)",
+   "was": "to have to, to need to, must",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): musisz \"second-person singular present of musieć\"; English from musieć: \"to have to, to need to, must\""
+  },
+  "W276": {
+   "hint": "I go, I ride (jechać)",
+   "was": "to go",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): jechać's {{pl-conj}} table, ja row jadę; English from jechać: \"to go\""
+  },
+  "W706": {
+   "hint": "repeat! (powtórzyć)",
+   "was": "to repeat",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): powtórz \"second-person singular imperative of powtórzyć\"; English from powtórzyć: \"to repeat\""
+  },
+  "W707": {
+   "hint": "you can (móc)",
+   "was": "to be able",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): możesz \"second-person singular present of móc\"; English from móc: \"to be able; can; may, might expressing lack of something blocking action\""
+  },
+  "W716": {
+   "hint": "means (znaczyć)",
+   "was": "to mean",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): znaczy \"third-person singular present of znaczyć\"; English from znaczyć: \"to mean\""
+  },
+  "W717": {
+   "hint": "signifies (oznaczać)",
+   "was": "to signify",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): oznaczać's {{pl-conj}} table, on row oznacza; English from oznaczać: \"to signify\""
+  },
+  "W1009": {
+   "hint": "hurts (boleć)",
+   "was": "to hurt",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): boleć's {{pl-conj}} table, on row boli; English from boleć: \"to hurt\""
+  },
+  "W1010": {
+   "hint": "they hurt (boleć)",
+   "was": "to hurt",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): boleć's {{pl-conj}} table, oni row bolą; English from boleć: \"to hurt\""
+  },
+  "W1019": {
+   "hint": "I play (grać)",
+   "was": "to play",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): grać's {{pl-conj}} table, ja row gram; English from grać: \"to play\""
+  },
+  "W1020": {
+   "hint": "you play (grać)",
+   "was": "to play",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): grać's {{pl-conj}} table, ty row grasz; English from grać: \"to play\""
+  },
+  "W1021": {
+   "hint": "plays (grać)",
+   "was": "to play",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): grać's {{pl-conj}} table, on row gra; English from grać: \"to play\""
+  },
+  "W1035": {
+   "hint": "I can, I know how (umieć)",
+   "was": "to be able to",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): umiem \"first-person singular present of umieć\"; English from umieć: \"to be able to; can, to know how [with infinitive ‘to do what’]\""
+  },
+  "W1036": {
+   "hint": "you can, you know how (umieć)",
+   "was": "to be able to",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): umiesz \"second-person singular present of umieć\"; English from umieć: \"to be able to; can, to know how [with infinitive ‘to do what’]\""
+  },
+  "W1037": {
+   "hint": "can (umieć)",
+   "was": "to be able to",
+   "source": "built from Wiktionary (scripts/review/pl-verb-hints.mjs): umie \"third-person singular present of umieć\"; English from umieć: \"to be able to; can, to know how [with infinitive ‘to do what’]\""
   }
  },
  "names": [
@@ -5625,10 +5908,61 @@
   "W2705": "f",
   "W2706": "f",
   "W2716": "f",
-  "W2819": "m, inanimate"
+  "W2819": "m, inanimate",
+  "W1533": "m, inanimate",
+  "W1591": "m, inanimate",
+  "W1613": "n",
+  "W1618": "f",
+  "W1624": "m, personal",
+  "W1682": "m, inanimate",
+  "W1716": "f",
+  "W1717": "f",
+  "W1749": "m, inanimate",
+  "W1753": "f",
+  "W1754": "f",
+  "W1755": "f",
+  "W1762": "m, inanimate",
+  "W1764": "f",
+  "W1765": "f",
+  "W1781": "m, inanimate",
+  "W1105": "f",
+  "W1118": "f",
+  "W1120": "f",
+  "W1121": "f",
+  "W1122": "f",
+  "W1245": "f",
+  "W1249": "n"
  },
  "accepted_additions": [],
- "_gender": "Each gender here is a case or plural form whose Wiktionary entry ({{pl-head|noun form|…}}) carries no gender; it is the one on its lemma's own Polish headword, {{pl-noun|…}}: koty from kot (m-anml), jabłka from jabłko (n), ręce from ręka (f), książkę from książka (f), read 2026-11-21. Masculine nouns show their animacy (m, personal; m, animate; m, inanimate), which decides the accusative. Part 3 (2026-11-21): the same for its case forms, from each lemma's {{pl-noun|…}}: minuta, godzina, sobota, środa, rodzina, przyszłość, kolacja, nauczycielka, stacja, muzyka (f); tydzień, początek, samochód, peron, dworzec, kierunek, stół, sport (m-in); przyjaciel, nauczyciel (m-pr); kino (n); lekarka, firma, sytuacja (f); profesor, dyrektor (m-pr). Part 4 (2026-11-22): the same for its case forms, from each lemma's {{pl-noun|…}}: piwa, biurze (n); kanapkę, kanapki, chwilę, zupę, drogę, drodze, taksówką, mężatką, łazience, pielęgniarką, wiadomości, zmiany, formie, szans (f); problemu, pokoju, kłopoty, dokumenty, ogóle (m-in); kurczaka, ziemniaki (m-anml); syna (m-pr).",
+ "_gender": "Each gender here is a case or plural form whose Wiktionary entry ({{pl-head|noun form|…}}) carries no gender; it is the one on its lemma's own Polish headword, {{pl-noun|…}}: koty from kot (m-anml), jabłka from jabłko (n), ręce from ręka (f), książkę from książka (f), read 2026-11-21. Masculine nouns show their animacy (m, personal; m, animate; m, inanimate), which decides the accusative. Part 3 (2026-11-21): the same for its case forms, from each lemma's {{pl-noun|…}}: minuta, godzina, sobota, środa, rodzina, przyszłość, kolacja, nauczycielka, stacja, muzyka (f); tydzień, początek, samochód, peron, dworzec, kierunek, stół, sport (m-in); przyjaciel, nauczyciel (m-pr); kino (n); lekarka, firma, sytuacja (f); profesor, dyrektor (m-pr). Part 4 (2026-11-22): the same for its case forms, from each lemma's {{pl-noun|…}}: piwa, biurze (n); kanapkę, kanapki, chwilę, zupę, drogę, drodze, taksówką, mężatką, łazience, pielęgniarką, wiadomości, zmiany, formie, szans (f); problemu, pokoju, kłopoty, dokumenty, ogóle (m-in); kurczaka, ziemniaki (m-anml); syna (m-pr). Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 5: 23 case forms take their lemma's gender from its {{pl-noun}} headword (telefon, porządek, miasto, ulica, rodzic, owoc, racja, nadzieja, pieniądz, butelka, woda, chleb, szklanka, filiżanka, czas, kurtka, lekcja, klasa, szkoła, góra, drzewo).",
  "_claude_hints": "Short hints where Wiktionary's first definition is long, merges several senses, or carries a usage bracket ([with instrumental]); each hint is taken from the cited Wiktionary definition of the word or its lemma.",
- "_cut_sentences": "2026-11-22: U48's three tę lines, so tę (moved to U65 in workbook v7) is not introduced beside te: Match Pairs folds accents, and tę was first met by ear (the word-order sweep's 'first met without its meaning')."
+ "_cut_sentences": "2026-11-22: U48's three tę lines, so tę (moved to U65 in workbook v7) is not introduced beside te: Match Pairs folds accents, and tę was first met by ear (the word-order sweep's 'first met without its meaning'). Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md): S56003 (verdict 8, register: one of five stupid lines); S56010 (verdict 8, register); S87021 (verdict 8, register); S94209 (verdict 8, register); S75035 (verdict 9, register: hate line); S75040 (verdict 9, register); S81023 (verdict 9, register); S95001 (Dan's call 3: the six Bóg lines); S95002 (Dan's call 3); S95003 (Dan's call 3); S95006 (Dan's call 3); S95007 (Dan's call 3); S95008 (Dan's call 3); S15025 (verdict 11: ma na imię before U41; brought into U41).",
+ "generated_off": {
+  "GS10105-531786": "\"Tom jest moim przyjacielem.\" for S10105 (U10): moim is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS13105-10566149": "\"To jest zielone.\" for S13105 (U13): zielone is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS13108-10566149": "\"To jest zielone.\" for S13108 (U13): zielone is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS13112-8753528": "\"Jest białe.\" for S13112 (U13): białe is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS14114-4451410": "\"Jutro będzie niedziela.\" for S14114 (U14): będzie is taught in U72 (Fable's phase 6 review, verdict 13)",
+  "GS2118-551692": "\"Tom jest studentem.\" for S2118 (U02): studentem is taught in U65 (Fable's phase 6 review, verdict 13)",
+  "GS2121-12824929": "\"To są drzwi.\" for S2121 (U02): są is taught in U06 (Fable's phase 6 review, verdict 13)",
+  "GS35116-1614928": "\"Nie mam pewności.\" for S35116 (U35): pewności is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS35117-1614928": "\"Nie mam pewności.\" for S35117 (U35): pewności is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS36109-3430004": "\"Trudno w to uwierzyć.\" for S36109 (U36): uwierzyć is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS53104-569901": "\"Gdzie jest stacja?\" for S53104 (U53): stacja is taught in U67 (Fable's phase 6 review, verdict 13)",
+  "GS56105-2365518": "\"Ona jest interesującą kobietą.\" for S56105 (U56): interesującą is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS56109-550653": "\"On jest dobrą osobą.\" for S56109 (U56): dobrą is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS56115-905944": "\"Masz czerwoną twarz.\" for S56115 (U56): czerwoną is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS57106-10624695": "\"Autobus jest pełen.\" for S57106 (U57): pełen is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS6107-531002": "\"Czy jesteś zajęty?\" for S6107 (U06): zajęty is taught in U09 (Fable's phase 6 review, verdict 13)",
+  "GS63170-3285682": "\"Jaka jest dzisiejsza data?\" for S63170 (U63): dzisiejsza is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS65122-4558072": "\"Kto jest twoim ojcem?\" for S65122 (U65): twoim is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS67102-4101582": "\"Jeżdżę do pracy autobusem.\" for S67102 (U67): Jeżdżę is taught in U84 (Fable's phase 6 review, verdict 13)",
+  "GS68127-8213717": "\"Proszę zaczekać.\" for S68127 (U68): zaczekać is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS68129-3785115": "\"Mogę was o coś spytać?\" for S68129 (U68): was is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS72112-535161": "\"Dzisiaj jest pochmurno.\" for S72112 (U72): pochmurno is not a course word (Fable's phase 6 review, verdict 13)",
+  "GS73111-2120078": "\"Pokaż mi.\" for S73111 (U73): mi is taught in U26 (Fable's phase 6 review, verdict 13)",
+  "GS73123-3851745": "\"Nie musisz mi dziękować.\" for S73123 (U73): mi is taught in U26 (Fable's phase 6 review, verdict 13)",
+  "GS75131-8721600": "\"Mój stan zdrowia jest dobry.\" for S75131 (U75): stan is taught in U88 (Fable's phase 6 review, verdict 13)",
+  "GS91138-919776": "\"Wiedza to potęga.\" for S91138 (U91): potęga is not a course word (Fable's phase 6 review, verdict 13)"
+ }
 }

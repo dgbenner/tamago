@@ -154,7 +154,7 @@ tables.accepted_answers = [
     return [{ ...a, status: 'live' }]
   }),
   // A generated answer a review left out (2026-11-22, phase 6), e.g. one with a word its circle has not taught:
-  // decisions.cut_answers (a list of answer ids; Swedish, Danish) or decisions.generated_off (answer id to why; Dutch).
+  // decisions.cut_answers (a list of answer ids; Swedish) or decisions.generated_off (answer id to why; Dutch, Danish, Polish).
   // A course with neither ships every generated answer as before.
   ...generated.filter((g) => live.has(g.sentence_id) && !cutAnswers.has(g.answer_id) && !decisions.generated_off?.[g.answer_id]).map((g) => ({ ...g, status: 'live' })),
 ]

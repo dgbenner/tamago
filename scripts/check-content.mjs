@@ -369,7 +369,11 @@ for (const w of words) {
   // A form Wiktionary's page files under another verb (trinkst sits under triften there): the pick names the lemma
   // and person, and the lemma's own Wiktionary conjugation table has to list the form.
   const table = !definition && pick?.form_of ? await presentIndicative(pick.form_of) : null
-  if (table?.some((t) => t.person.split(', ')[0] === pick.person && t.form === w.form)) {
+  // A case form of an allowed name (Polish Toma, Tomem; Dan, 2026-11-22): names have no entry of their own on Wiktionary,
+  // so the pick names the name and the case, and the row points at the name. Only a pick with `name` takes this branch.
+  if (pick?.name && (decisions.names ?? []).includes(pick.name)) {
+    Object.assign(row, { part_of_speech: 'Proper noun', lemma: pick.name, gloss: `${pick.name} (${pick.case})`, gloss_full: `${pick.case} of the name ${pick.name}, as Tatoeba's checked lines use it (a name has no Wiktionary entry of its own)`, status: 'checked' })
+  } else if (table?.some((t) => t.person.split(', ')[0] === pick.person && t.form === w.form)) {
     Object.assign(row, { part_of_speech: 'Verb', lemma: pick.form_of, gloss: `${{ ich: 'first-person singular', du: 'second-person singular', er: 'third-person singular', wir: 'first-person plural', ihr: 'second-person plural', ja: 'first-person singular', ty: 'second-person singular', on: 'third-person singular', my: 'first-person plural', wy: 'second-person plural', oni: 'third-person plural' }[pick.person] ?? pick.person} present of ${pick.form_of}`, gloss_full: `present tense, ${pick.person}, in Wiktionary's conjugation of ${pick.form_of}`, status: 'checked', wiktionary_url: `https://en.wiktionary.org/wiki/${title(pick.form_of)}#${C.wiktionarySection}` })
     const lemmaEntry = (await french(pick.form_of)).find((e) => e.pos === 'Verb')
     row.lemma_gloss = lemmaEntry ? shorten(lemmaEntry.definitions[0]) : ''

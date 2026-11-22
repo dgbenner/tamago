@@ -6,16 +6,16 @@
     "title": "Na rynku",
     "lines": [
       "Owoce i warzywa",
-      "Jabłka: pięć złotych za kilo",
+      "Jabłka, ser i chleb",
       "Rynek: poniedziałek i sobota"
     ],
     "questions": [
       {
-        "question": "How much is a kilo of apples?",
+        "question": "Which fruit is on the sign?",
         "choices": [
-          "5 złotych",
-          "15 złotych",
-          "50 złotych"
+          "Apples",
+          "Pears",
+          "Bananas"
         ],
         "answer": 0
       },
@@ -165,9 +165,9 @@
     "id": "R106",
     "unit_id": "U48",
     "kind": "notice",
-    "title": "Stare książki",
+    "title": "Tanie książki",
     "lines": [
-      "Stare książki",
+      "Tanie książki",
       "Jedna książka: dziesięć złotych",
       "Trzy książki: dwadzieścia złotych"
     ],
@@ -777,7 +777,7 @@
       "Zupa i sałatka",
       "Ryż i ziemniaki",
       "Deser: lody",
-      "35 zł"
+      "35 złotych"
     ],
     "questions": [
       {
@@ -807,10 +807,10 @@
     "kind": "menu",
     "title": "Kawiarnia",
     "lines": [
-      "Kawa: 12 zł",
-      "Herbata: 9 zł",
-      "Ciasto: 15 zł",
-      "Kanapki: 14 zł"
+      "Kawa: 12 złotych",
+      "Herbata: 9 złotych",
+      "Ciasto: 15 złotych",
+      "Kanapki: 14 złotych"
     ],
     "questions": [
       {
@@ -904,7 +904,7 @@
     "kind": "sign",
     "title": "W mieście",
     "lines": [
-      "Muzeum: 200 m w lewo",
+      "Muzeum: 200 metrów w lewo",
       "Kościół: prosto",
       "Dworzec: w prawo"
     ],
@@ -938,7 +938,7 @@
     "lines": [
       "Hotel jest w centrum.",
       "Dworzec: dziesięć minut pieszo.",
-      "Przystanek jest przed hotelem."
+      "Przystanek jest blisko."
     ],
     "questions": [
       {
@@ -953,8 +953,8 @@
       {
         "question": "Where is the bus stop?",
         "choices": [
-          "In front of the hotel",
-          "Behind the hotel",
+          "Nearby",
+          "Far away",
           "At the station"
         ],
         "answer": 0
@@ -971,7 +971,7 @@
       "Mieszkanie w centrum",
       "Sypialnia, salon, kuchnia i łazienka",
       "Mieszkanie ma balkon.",
-      "2500 zł"
+      "2500 złotych"
     ],
     "questions": [
       {
@@ -1031,19 +1031,19 @@
     "id": "R309",
     "unit_id": "U86",
     "kind": "notice",
-    "title": "Pokój dla studenta",
+    "title": "Pokój",
     "lines": [
-      "Pokój dla studenta",
+      "Pokój w centrum",
       "Łóżko, stół, krzesło i szafa",
       "Uniwersytet jest blisko."
     ],
     "questions": [
       {
-        "question": "Who is the room for?",
+        "question": "What is near the room?",
         "choices": [
-          "A student",
-          "A family",
-          "A tourist"
+          "The university",
+          "The station",
+          "The sea"
         ],
         "answer": 0
       },
@@ -1067,7 +1067,7 @@
     "lines": [
       "Praca: kucharz",
       "Wtorek – sobota, 17:00 – 23:00",
-      "Tel. 501 234 567"
+      "Telefon: 501 234 567"
     ],
     "questions": [
       {
@@ -1097,17 +1097,17 @@
     "kind": "message",
     "title": "Moja praca",
     "lines": [
-      "Jestem pielęgniarką i pracuję w szpitalu.",
+      "Jestem pielęgniarką.",
       "Zaczynam pracę o siódmej rano.",
       "Mój szef jest bardzo miły."
     ],
     "questions": [
       {
-        "question": "Where does she work?",
+        "question": "What is her job?",
         "choices": [
-          "In a hospital",
-          "In a school",
-          "In a shop"
+          "A nurse",
+          "A teacher",
+          "A doctor"
         ],
         "answer": 0
       },

@@ -67,11 +67,18 @@ const BY_COURSE = {
   // officialese verbs and connectives with no A1 line on Tatoeba (dokonać carry out, uzyskać obtain, stwierdzić state,
   // określić and określony determine, zgodnie in accordance, poprzez by means of) and legal register (prawny, sąd as a
   // court, wniosek as an application, zakład as an establishment), as Italian's nonché, mediante and effettuare.
+  // U95 prune (2026-11-22, Dan's call, as Swedish Part 4's newsroom tail): U95 Society + News is the Kelly newsroom and
+  // report tail (społeczeństwo, naród, wolność, organizacja, związek as union, rozwój, środowisko, ochrona, akcja,
+  // kwestia, badanie as research, warunek, udział, bezpieczeństwo; współpraca, produkcja, wzrost, umowa, służba already
+  // off). Those with only drafted lines are off (scripts/review/pl-u95-prune.mjs, workbook v9); bezpieczeństwo keeps its
+  // Tatoeba line and stays taught. Everyday ciało, milion and interes still count. v2: U95 needs a source beyond Tatoeba.
   pl: {
     register: ['państwo', 'państwowy', 'rząd', 'ustawa', 'komisja', 'minister', 'ministerstwo', 'prezydent', 'premier', 'unia', 'senator', 'Senat', 'sejm', 'poseł',
       'parlament', 'partia', 'polityczny', 'polityk', 'wyborczy', 'społeczny', 'europejski', 'administracja', 'budżet', 'podatek', 'przepis', 'poprawka',
       'posiedzenie', 'komitet', 'urząd', 'instytucja', 'władza', 'gospodarczy', 'gospodarka', 'finansowy', 'działalność', 'realizacja', 'dotyczyć', 'stanowić', 'ów', 'prenumerata',
-      'dokonać', 'uzyskać', 'stwierdzić', 'określić', 'określony', 'zgodnie', 'poprzez', 'prawny', 'sąd', 'wniosek', 'zakład'],
+      'dokonać', 'uzyskać', 'stwierdzić', 'określić', 'określony', 'zgodnie', 'poprzez', 'prawny', 'sąd', 'wniosek', 'zakład',
+      'społeczeństwo', 'naród', 'organizacja', 'związek', 'wolność', 'bezpieczeństwo', 'ochrona', 'akcja', 'kwestia', 'środowisko', 'badanie', 'rozwój',
+      'warunek', 'udział', 'współpraca', 'produkcja', 'wzrost', 'umowa', 'służba'],
     artefact: ['lato', 'były', 'proca', 'mus', 'wieko', 'rana', 'gen', 'nim'],
     subtitle: ['dr'],
     violence: ['wojna', 'śmierć', 'walka', 'ofiara', 'żołnierz', 'armia', 'wojskowy'],

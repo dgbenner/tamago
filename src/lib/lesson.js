@@ -440,14 +440,16 @@ export function lessonScope(c, known, round, { early = false } = {}) {
   const usedHere = early ? new Set(c.sentences.flatMap((s) => (c.swBySentence.get(s.sentence_id) ?? []).map((r) => r.word_id).filter(Boolean))) : null
   const toIntroduce = (id) => listed(id) && (ownWord(c, id) || (order.get(c.wordById.get(id).first_unit) ?? Infinity) > mine || pack.has(c.wordById.get(id).first_unit) || Boolean(usedHere?.has(id)))
   // Two new words with one meaning (bleu and bleue) can't share a board, so the second waits for the next lesson.
+  // Nor can two one accent apart (Polish daje and daję, 2026-11-22): makeMatchPairs keeps only the first on a board, and
+  // the other was then met first in a sentence, unintroduced.
   const newWords = []
-  const meanings = new Set()
+  const meanings = new Set(), forms = new Set()
   for (const id of c.wordOrder) {
     if (newWords.length >= MAX_NEW_WORDS) break
     if (!toIntroduce(id) || known.has(id)) continue
-    const m = hintCore(c.wordById.get(id).hint)
-    if (meanings.has(m)) continue
-    meanings.add(m); newWords.push(id)
+    const m = hintCore(c.wordById.get(id).hint), f = accentKey(c.wordById.get(id).form, 'fr')
+    if (meanings.has(m) || forms.has(f)) continue
+    meanings.add(m); forms.add(f); newWords.push(id)
   }
   const allowed = new Set([...known, ...c.wordOrder.filter((id) => !toIntroduce(id)), ...newWords])
   const sentences = c.sentences.filter((s) => s.max_round >= round && (c.swBySentence.get(s.sentence_id) ?? []).every((r) => !r.word_id || c.wordById.has(r.word_id)) && wordIds(c, s).every((id) => allowed.has(id)))
