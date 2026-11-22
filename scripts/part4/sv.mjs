@@ -178,6 +178,11 @@ const off = { postnummer: NO_ENTRY, 'trots att': NO_ENTRY, 'även om': NO_ENTRY,
 const DRY = 'turned off under the dry-source rule: only drafted lines in its circle (Part 4 at 46% drafts)'
 for (const w of ['innehåller', 'bryter', 'personlig', 'rapport', 'handling', 'kropp', 'framför allt', 'dels', 'övriga', 'ämne', 'faller', 'samarbete', 'deltar', 'gräns', 'igenom', 'ändring', 'punkt', 'enskild', 'nämner', 'jord', 'såväl', 'offentlig', 'per', 'länk', 'mängd', 'nivå', 'nämligen', 'princip', 'kultur', 'gram', 'beskriver', 'liksom', 'särskild', 'amerikansk', 'driver', 'allmän', 'trots', 'ekonomi', 'däremot', 'i alla fall', 'minskar', 'påverkar', 'tvingar', 'grund', 'organisation', 'ansvar']) off[w] = DRY
 
+// Phase 6 (2026-11-22, Dan's call on Fable's review; scripts/review/sv-phase6.mjs, workbook v8): the Kelly newsroom tail
+// is stoplisted (a1-stoplist.mjs, sv register), and the stoplisted words whose lines were drafts only are off.
+const PHASE6 = "turned off in phase 6: Kelly newsroom word, stoplisted (register), its lines were drafts only (Dan's call on Fable's Swedish phase 6 review (2026-11-22))"
+for (const w of ['stöd', 'antal', 'social', 'nationell', 'internationell', 'europeisk', 'ekonomisk', 'politisk', 'samhälle', 'stat', 'politik', 'politiker', 'parti', 'debatt', 'utveckling', 'sker', 'kräver', 'utvecklar']) off[w] = PHASE6
+
 export default {
   part: 4, off, wordBase: 1601, vocabBase: 1801, cdBase: 501,
   slots: [{ slot_id: 'C07', part: 4, after_row: 22 }, { slot_id: 'C08', part: 4, after_row: 24 }],

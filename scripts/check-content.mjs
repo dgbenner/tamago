@@ -377,9 +377,16 @@ for (const w of words) {
     row.flag_reason = entries.length ? 'sense_not_found' : 'no_french_entry'
   } else {
     row.part_of_speech = entry.pos
+    // file_as (2026-11-22, Swedish skönt): Wiktionary sometimes puts a form under the wrong heading while its head
+    // template names the real part of speech (===Noun=== over {{head|sv|adjective form}}); the pick files it as that,
+    // and only when the page's own head template says so.
+    if (pick?.file_as) {
+      if (!new RegExp(`\\{\\{head\\|[^|}]+\\|${pick.file_as.toLowerCase()} form`).test(section)) throw new Error(`${w.word_id} ${w.form}: file_as ${pick.file_as}, but no "${pick.file_as.toLowerCase()} form" head template on the page`)
+      row.part_of_speech = pick.file_as
+    }
     row.gloss_full = definition
     const posIndex = entries.filter((e) => e.pos === entry.pos).indexOf(entry)
-    row.gender = ['Noun', 'Article'].includes(entry.pos) ? genderFrom(section, entry.pos, posIndex, definition) : ''
+    row.gender = ['Noun', 'Article'].includes(row.part_of_speech) ? genderFrom(section, entry.pos, posIndex, definition) : ''
     // Form-of entries name their lemma: "first-person ... of être", "feminine singular of un (“a / an”)".
     // The "of" must come after the person or number ("back (of a person)" is a gloss, not a form of "a").
     // A pick may name the lemma outright (`lemma`), for a gloss whose "of" reads as a form-of (Portuguese cada "examples of the

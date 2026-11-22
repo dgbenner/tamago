@@ -69,6 +69,7 @@ const approved = (unitId) => decisions.units?.[unitId]?.action === 'approve'
 // can't read; say so rather than crash on it).
 if (decisions.cut_sentences != null && !Array.isArray(decisions.cut_sentences)) throw new Error('review-decisions.json cut_sentences must be a list of sentence ids')
 const cut = new Set(decisions.cut_sentences ?? [])
+const cutAnswers = new Set(decisions.cut_answers ?? [])
 // The native-speaker check (Phase 4): verdicts, fixes and recordings from scripts/import-native-check.mjs.
 const NATIVE = existsSync(at('content/native-check.json')) ? JSON.parse(readFileSync(at('content/native-check.json'), 'utf8')) : { checks: [], results: {} }
 const nativeLicensed = NATIVE.checks.some((c) => c.license_agreed)
@@ -152,9 +153,10 @@ tables.accepted_answers = [
     if (c?.status !== 'checked') { bad.push(`${a.answer_id} "${a.answer}" live in the workbook, check says ${c?.status}`); return [] }
     return [{ ...a, status: 'live' }]
   }),
-  // decisions.generated_off (answer id to why; Dutch, 2026-11-22): a generated answer a review left out, e.g. one with
-  // a word its circle has not taught. A course without the key ships every generated answer as before.
-  ...generated.filter((g) => live.has(g.sentence_id) && !decisions.generated_off?.[g.answer_id]).map((g) => ({ ...g, status: 'live' })),
+  // A generated answer a review left out (2026-11-22, phase 6), e.g. one with a word its circle has not taught:
+  // decisions.cut_answers (a list of answer ids; Swedish, Danish) or decisions.generated_off (answer id to why; Dutch).
+  // A course with neither ships every generated answer as before.
+  ...generated.filter((g) => live.has(g.sentence_id) && !cutAnswers.has(g.answer_id) && !decisions.generated_off?.[g.answer_id]).map((g) => ({ ...g, status: 'live' })),
 ]
 
 // Equivalent answers (Dan, 2026-11-15; scripts/lib/equivalents.mjs): Tatoeba's other English for the line, safe

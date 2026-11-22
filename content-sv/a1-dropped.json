@@ -2,6 +2,10 @@
   "_about": "Written by build-content: the A1 list words the shared stoplist (scripts/lib/a1-stoplist.mjs) leaves out of this course's shipped list and target. Do not edit; change the stoplist.",
   "dropped": [
     {
+      "word": "dess",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "å",
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
     },
@@ -12,6 +16,10 @@
     {
       "word": "unna",
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "finna",
+      "reason": "legal, official or administrative register"
     },
     {
       "word": "te sig",
@@ -38,7 +46,19 @@
       "reason": "legal, official or administrative register"
     },
     {
+      "word": "dock",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "regering",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "antal",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "anse",
       "reason": "legal, official or administrative register"
     },
     {
@@ -54,7 +74,23 @@
       "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
     },
     {
+      "word": "gälla",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "samhälle",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "stat",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "innebära",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "politisk",
       "reason": "legal, official or administrative register"
     },
     {
@@ -62,8 +98,32 @@
       "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
     },
     {
+      "word": "politik",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "peng",
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "ske",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "parti",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "kräva",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "utveckling",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "ekonomisk",
+      "reason": "legal, official or administrative register"
     },
     {
       "word": "kl.",
@@ -94,6 +154,10 @@
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
     },
     {
+      "word": "procent",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "ätt",
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
     },
@@ -102,7 +166,31 @@
       "reason": "legal, official or administrative register"
     },
     {
+      "word": "stöd",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "kommun",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "resultat",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "utveckla",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "föra",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "debatt",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "europeisk",
       "reason": "legal, official or administrative register"
     },
     {
@@ -110,7 +198,23 @@
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
     },
     {
+      "word": "makt",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "social",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "system",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "åtgärd",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "krav",
       "reason": "legal, official or administrative register"
     },
     {
@@ -118,11 +222,27 @@
       "reason": "legal, official or administrative register"
     },
     {
+      "word": "internationell",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "nationell",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "medium",
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
     },
     {
+      "word": "organisation",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "anmäla",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "rättighet",
       "reason": "legal, official or administrative register"
     },
     {
@@ -134,7 +254,23 @@
       "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
     },
     {
+      "word": "däremot",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "ekonomi",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "faktum",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "myndighet",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "allmän",
       "reason": "legal, official or administrative register"
     },
     {
@@ -144,6 +280,10 @@
     {
       "word": "tyda",
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "särskild",
+      "reason": "legal, official or administrative register"
     },
     {
       "word": "genomföra",
@@ -158,7 +298,31 @@
       "reason": "legal, official or administrative register"
     },
     {
+      "word": "syfte",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "princip",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "utgöra",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "politiker",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "nivå",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "betydelse",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "kristen",
       "reason": "legal, official or administrative register"
     },
     {
@@ -167,6 +331,22 @@
     },
     {
       "word": "bildning",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "offentlig",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "såväl",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "demokrati",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "enskild",
       "reason": "legal, official or administrative register"
     },
     {
@@ -182,6 +362,10 @@
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
     },
     {
+      "word": "bidra",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "död",
       "reason": "violence"
     },
@@ -194,8 +378,20 @@
       "reason": "legal, official or administrative register"
     },
     {
+      "word": "övrig",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "dels",
+      "reason": "legal, official or administrative register"
+    },
+    {
       "word": "port",
       "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "handling",
+      "reason": "legal, official or administrative register"
     },
     {
       "word": "kommentera",
