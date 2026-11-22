@@ -7,7 +7,7 @@ import { getFile } from './lib/http.mjs'
 import { normaliseFile } from './lib/loudness.mjs'
 import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 import { equivalentAnswers } from './lib/equivalents.mjs'
-import { usSpellingRows } from './lib/us-spelling.mjs'
+import { usSpellingTable } from './lib/us-spelling.mjs'
 import { bareFormOf } from './lib/form-of.mjs'
 import { applyStoplist } from './lib/a1-stoplist.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
@@ -272,8 +272,9 @@ for (const f of readdirSync(AUDIO)) if (!wanted.has(f)) rmSync(join(AUDIO, f))
 }
 rmSync(OUT, { recursive: true, force: true })
 mkdirSync(OUT, { recursive: true })
-// US spelling in every shipped string (scripts/lib/us-spelling.mjs), the accepted answers excepted (they keep both).
-for (const [name, rows] of Object.entries(tables)) if (Array.isArray(rows) && name !== 'accepted_answers') tables[name] = usSpellingRows(rows)
+// US spelling in the shipped English (scripts/lib/us-spelling.mjs: its English fields, never the course language), the
+// accepted answers excepted (they keep both).
+for (const [name, rows] of Object.entries(tables)) if (Array.isArray(rows) && name !== 'accepted_answers') tables[name] = usSpellingTable(name, rows)
 for (const [name, rows] of Object.entries(tables)) writeFileSync(join(OUT, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
 if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'), { recursive: true })
 
