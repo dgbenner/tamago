@@ -3,56 +3,56 @@
     "id": "R101",
     "unit_id": "U47",
     "kind": "sign",
-    "title": "På torvet",
-    "lines": "Frugt og grøntsager\nÆbler: 25 kroner kiloet\nMarked: mandag og lørdag",
+    "title": "Marked",
+    "lines": "Frugt og grøntsager\nEt kilo æbler: 25\nMarked: mandag og lørdag",
     "questions_json": "[{\"question\":\"How much is a kilo of apples?\",\"choices\":[\"25 kroner\",\"15 kroner\",\"52 kroner\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Sunday\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"På torvet: Frugt og grøntsager / Æbler: 25 kroner kiloet / Marked: mandag og lørdag\""
   },
   {
     "id": "R102",
     "unit_id": "U47",
     "kind": "notice",
-    "title": "Marked på torvet",
-    "lines": "Marked på torvet\nHver lørdag\nFrugt, grøntsager, brød og ost",
-    "questions_json": "[{\"question\":\"When is the market?\",\"choices\":[\"On Saturdays\",\"On Mondays\",\"Every day\"],\"answer\":0},{\"question\":\"What can you buy there?\",\"choices\":[\"Fruit, vegetables, bread and cheese\",\"Clothes and shoes\",\"Books and maps\"],\"answer\":0}]",
+    "title": "Marked",
+    "lines": "Lørdag: marked\nFrugt, grøntsager, brød og ost",
+    "questions_json": "[{\"question\":\"When is the market?\",\"choices\":[\"On Saturday\",\"On Monday\",\"Every day\"],\"answer\":0},{\"question\":\"What can you buy there?\",\"choices\":[\"Fruit, vegetables, bread and cheese\",\"Clothes and shoes\",\"Books and maps\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Marked på torvet: Marked på torvet / Hver lørdag / Frugt, grøntsager, brød og ost\""
   },
   {
     "id": "R103",
     "unit_id": "U47",
     "kind": "message",
-    "title": "En sms fra Anna",
-    "lines": "Lars!\nJeg er på torvet. Jeg køber frugt og grøntsager.\nSkal jeg købe et æble til dig?\nAnna",
-    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the market square\",\"At school\",\"In the park\"],\"answer\":0},{\"question\":\"What does she offer to buy for Lars?\",\"choices\":[\"An apple\",\"A coffee\",\"Some bread\"],\"answer\":0}]",
+    "title": "Fra Anna",
+    "lines": "Lars!\nJeg er på et marked. Jeg køber frugt og grøntsager.\nSkal jeg købe et æble til dig?\nAnna",
+    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At a market\",\"At school\",\"In the park\"],\"answer\":0},{\"question\":\"What does she offer to buy for Lars?\",\"choices\":[\"An apple\",\"A coffee\",\"Some bread\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En sms fra Anna: Lars! / Jeg er på torvet. Jeg køber frugt og grøntsager. / Skal jeg købe et æble til dig? / Anna\""
   },
   {
     "id": "R104",
     "unit_id": "U48",
     "kind": "menu",
-    "title": "Priser",
+    "title": "Hvad koster det?",
     "lines": "Brød: 30 kroner\nOst: 90 kroner\nMælk: 15 kroner\nVand: 20 kroner",
     "questions_json": "[{\"question\":\"How much is the cheese?\",\"choices\":[\"30 kroner\",\"90 kroner\",\"15 kroner\"],\"answer\":1},{\"question\":\"What costs 30 kroner?\",\"choices\":[\"The bread\",\"The milk\",\"The water\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Priser: Brød: 30 kroner / Ost: 90 kroner / Mælk: 15 kroner / Vand: 20 kroner\""
   },
   {
     "id": "R105",
     "unit_id": "U48",
     "kind": "menu",
-    "title": "På caféen",
-    "lines": "Kaffe: 35 kroner\nTe: 30 kroner\nÆblekage: 45 kroner",
-    "questions_json": "[{\"question\":\"How much is a tea?\",\"choices\":[\"30 kroner\",\"35 kroner\",\"45 kroner\"],\"answer\":0},{\"question\":\"What costs the most?\",\"choices\":[\"The apple cake\",\"The coffee\",\"The tea\"],\"answer\":0}]",
+    "title": "Kaffe og te",
+    "lines": "Kaffe: 35 kroner\nTe: 30 kroner\nBrød med ost: 45 kroner",
+    "questions_json": "[{\"question\":\"How much is a tea?\",\"choices\":[\"30 kroner\",\"35 kroner\",\"45 kroner\"],\"answer\":0},{\"question\":\"What costs the most?\",\"choices\":[\"The bread with cheese\",\"The coffee\",\"The tea\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"På caféen: Kaffe: 35 kroner / Te: 30 kroner / Æblekage: 45 kroner\""
   },
   {
     "id": "R106",
@@ -69,133 +69,133 @@
     "id": "R107",
     "unit_id": "U49",
     "kind": "message",
-    "title": "En sms fra Maria",
+    "title": "Fra Maria",
     "lines": "Peter!\nKan du købe en flaske mælk, en pakke kaffe og et kilo æbler?\nTak!\nMaria",
     "questions_json": "[{\"question\":\"What does Maria want?\",\"choices\":[\"Milk, coffee and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En sms fra Maria: Peter! / Kan du købe en flaske mælk, en pakke kaffe og et kilo æbler? / Tak! / Maria\""
   },
   {
     "id": "R108",
     "unit_id": "U49",
     "kind": "sign",
-    "title": "I butikken",
-    "lines": "Vand: seks flasker, 40 kroner\nChokolade: to æsker, 50 kroner",
-    "questions_json": "[{\"question\":\"How many bottles do you get for 40 kroner?\",\"choices\":[\"Six\",\"Four\",\"Two\"],\"answer\":0},{\"question\":\"What costs 50 kroner?\",\"choices\":[\"Two boxes of chocolates\",\"Six bottles of water\",\"One box of chocolates\"],\"answer\":0}]",
+    "title": "I en butik",
+    "lines": "Mælk: en flaske, 15 kroner\nKaffe: en pakke, 50 kroner",
+    "questions_json": "[{\"question\":\"How much is a bottle of milk?\",\"choices\":[\"15 kroner\",\"50 kroner\",\"40 kroner\"],\"answer\":0},{\"question\":\"What costs 50 kroner?\",\"choices\":[\"A pack of coffee\",\"A bottle of milk\",\"A glass of water\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"I butikken: Vand: seks flasker, 40 kroner / Chokolade: to æsker, 50 kroner\""
   },
   {
     "id": "R109",
     "unit_id": "U49",
     "kind": "message",
-    "title": "Til festen",
-    "lines": "Til festen:\nto flasker saftevand,\nen æske chokolade,\nmasser af frugt!",
-    "questions_json": "[{\"question\":\"How many bottles of squash?\",\"choices\":[\"Two\",\"One\",\"Three\"],\"answer\":0},{\"question\":\"What is the list for?\",\"choices\":[\"A party\",\"School\",\"A trip\"],\"answer\":0}]",
+    "title": "Til en fest",
+    "lines": "en flaske vin,\nen pakke kaffe,\net kilo æbler,\nbrød og ost!",
+    "questions_json": "[{\"question\":\"What is there one bottle of?\",\"choices\":[\"Wine\",\"Milk\",\"Water\"],\"answer\":0},{\"question\":\"What is the list for?\",\"choices\":[\"A party\",\"School\",\"A trip\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Til festen: Til festen: / to flasker saftevand, / en æske chokolade, / masser af frugt!\""
   },
   {
     "id": "R201",
     "unit_id": "U62",
     "kind": "notice",
-    "title": "Butikken",
-    "lines": "Åbent mandag til fredag: 9.00 til 18.00\nLørdag: 10.00 til 16.00\nSøndag: lukket",
+    "title": "Butik",
+    "lines": "Mandag til fredag: 9.00 til 18.00\nLørdag: 10.00 til 16.00\nSøndag: lukket",
     "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"Sunday\",\"Saturday\",\"Monday\"],\"answer\":0},{\"question\":\"What time does it open on Saturday?\",\"choices\":[\"10:00\",\"9:00\",\"16:00\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Butikken: Åbent mandag til fredag: 9.00 til 18.00 / Lørdag: 10.00 til 16.00 / Søndag: lukket\""
   },
   {
     "id": "R202",
     "unit_id": "U62",
     "kind": "message",
-    "title": "En sms fra Lars",
-    "lines": "Anna!\nSkal vi i biografen på onsdag? Jeg har fri onsdag og torsdag.\nPå lørdag arbejder jeg.\nLars",
-    "questions_json": "[{\"question\":\"When is Lars free?\",\"choices\":[\"Wednesday and Thursday\",\"Saturday\",\"Every day\"],\"answer\":0},{\"question\":\"What does Lars do on Saturday?\",\"choices\":[\"He works\",\"He goes to the cinema\",\"He stays at home\"],\"answer\":0}]",
+    "title": "Fra Lars",
+    "lines": "Anna!\nSkal vi se en film på onsdag? Jeg er hjemme onsdag og torsdag.\nPå lørdag skal jeg til København.\nLars",
+    "questions_json": "[{\"question\":\"When is Lars at home?\",\"choices\":[\"Wednesday and Thursday\",\"Saturday\",\"Every day\"],\"answer\":0},{\"question\":\"Where is Lars going on Saturday?\",\"choices\":[\"To Copenhagen\",\"To the cinema\",\"To the market\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En sms fra Lars: Anna! / Skal vi i biografen på onsdag? Jeg har fri onsdag og torsdag. / På lørdag arbejder jeg. / Lars\""
   },
   {
     "id": "R203",
     "unit_id": "U62",
     "kind": "notice",
-    "title": "Museet",
-    "lines": "Museet er lukket om mandagen.\nFor børn: onsdag klokken 15.00",
+    "title": "Museum",
+    "lines": "Museum: lukket mandag\nFor børn: onsdag klokken 15.00",
     "questions_json": "[{\"question\":\"Which day is the museum closed?\",\"choices\":[\"Monday\",\"Wednesday\",\"Tuesday\"],\"answer\":0},{\"question\":\"When is the visit for children?\",\"choices\":[\"Wednesday at 3 pm\",\"Monday at 3 pm\",\"Wednesday at 5 pm\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Museet: Museet er lukket om mandagen. / For børn: onsdag klokken 15.00\""
   },
   {
     "id": "R204",
     "unit_id": "U63",
     "kind": "notice",
     "title": "Ferie",
-    "lines": "Skolen er lukket fra den 20. december til den 6. januar.\nFørste skoledag: tirsdag den 7. januar",
+    "lines": "Skole: lukket fra den 20. december til den 6. januar\nSkole igen: tirsdag den 7. januar",
     "questions_json": "[{\"question\":\"Which day of the week does school start again?\",\"choices\":[\"Tuesday\",\"Monday\",\"Saturday\"],\"answer\":0},{\"question\":\"When do the holidays begin?\",\"choices\":[\"20 December\",\"7 January\",\"6 January\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Ferie: Skolen er lukket fra den 20. december til den 6. januar. / Første skoledag: tirsdag den 7. januar\""
   },
   {
     "id": "R205",
     "unit_id": "U63",
     "kind": "sign",
     "title": "Fest",
-    "lines": "Fest på torvet\nLørdag den 21. juni, 18.00\nMusik og dans",
+    "lines": "Stor fest!\nLørdag den 21. juni, 18.00\nMusik og sjov",
     "questions_json": "[{\"question\":\"When is the party?\",\"choices\":[\"Saturday 21 June\",\"Sunday 21 June\",\"Saturday 21 July\"],\"answer\":0},{\"question\":\"What time does it start?\",\"choices\":[\"6 pm\",\"8 pm\",\"9 pm\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Fest: Fest på torvet / Lørdag den 21. juni, 18.00 / Musik og dans\""
   },
   {
     "id": "R206",
     "unit_id": "U63",
     "kind": "message",
-    "title": "Et postkort fra Mette",
+    "title": "Fra Mette",
     "lines": "I juli tager vi til havet.\nI december tager vi til Norge.\nOg du?",
     "questions_json": "[{\"question\":\"Where does Mette go in July?\",\"choices\":[\"To the sea\",\"To Norway\",\"To the city\"],\"answer\":0},{\"question\":\"When does she go to Norway?\",\"choices\":[\"In December\",\"In July\",\"In spring\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Et postkort fra Mette: I juli tager vi til havet. / I december tager vi til Norge. / Og du?\""
   },
   {
     "id": "R207",
     "unit_id": "U66",
     "kind": "sign",
-    "title": "Ved butikken",
+    "title": "Butik",
     "lines": "Indgang\nÅbent 9.00 til 19.00\nSøndag: lukket",
     "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"On Sundays\",\"On Saturdays\",\"Every evening\"],\"answer\":0},{\"question\":\"What time does it close?\",\"choices\":[\"7 pm\",\"9 pm\",\"9 am\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Ved butikken: Indgang / Åbent 9.00 til 19.00 / Søndag: lukket\""
   },
   {
     "id": "R208",
     "unit_id": "U66",
     "kind": "sign",
-    "title": "På stationen",
-    "lines": "Toilet: en etage op\nApotek: ved siden af udgangen\nInformation: ved indgangen",
-    "questions_json": "[{\"question\":\"Where is the toilet?\",\"choices\":[\"One floor up\",\"Two floors up\",\"Next to the exit\"],\"answer\":0},{\"question\":\"Where can you get information?\",\"choices\":[\"At the entrance\",\"At the chemist's\",\"On the train\"],\"answer\":0}]",
+    "title": "Station",
+    "lines": "Toilet: ved udgang B\nApotek: ved udgang B\nInformation: ved indgang A",
+    "questions_json": "[{\"question\":\"Where is the toilet?\",\"choices\":[\"At exit B\",\"At entrance A\",\"On the train\"],\"answer\":0},{\"question\":\"Where can you get information?\",\"choices\":[\"At entrance A\",\"At the pharmacy\",\"On the train\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"På stationen: Toilet: en etage op / Apotek: ved siden af udgangen / Information: ved indgangen\""
   },
   {
     "id": "R209",
     "unit_id": "U66",
     "kind": "notice",
-    "title": "Bageren",
-    "lines": "Mettes bageri\nÅbent hver dag 7.00 til 18.00\nNyt brød klokken 7.00 og 12.00",
-    "questions_json": "[{\"question\":\"Is the bakery open on Sunday?\",\"choices\":[\"Yes\",\"No\",\"Only in the morning\"],\"answer\":0},{\"question\":\"When is there fresh bread?\",\"choices\":[\"At 7 am and 12 noon\",\"At 6 am only\",\"At 6 pm\"],\"answer\":0}]",
+    "title": "Mettes butik",
+    "lines": "Brød og kaffe\nÅbent hver dag 7.00 til 18.00\nNyt brød klokken 7.00 og 12.00",
+    "questions_json": "[{\"question\":\"Is the shop open on Sunday?\",\"choices\":[\"Yes\",\"No\",\"Only in the morning\"],\"answer\":0},{\"question\":\"When is there fresh bread?\",\"choices\":[\"At 7 am and 12 noon\",\"At 6 am only\",\"At 6 pm\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Bageren: Mettes bageri / Åbent hver dag 7.00 til 18.00 / Nyt brød klokken 7.00 og 12.00\""
   },
   {
     "id": "R210",
@@ -213,165 +213,165 @@
     "unit_id": "U67",
     "kind": "timetable",
     "title": "Båd til Bornholm",
-    "lines": "Afgang fra havnen: 7.00, 9.00, 11.00\nSøndag: en båd hver anden time",
-    "questions_json": "[{\"question\":\"Where does the boat leave from?\",\"choices\":[\"The harbour\",\"The station\",\"The beach\"],\"answer\":0},{\"question\":\"How often is the boat on Sundays?\",\"choices\":[\"Every two hours\",\"Every hour\",\"Not at all\"],\"answer\":0}]",
+    "lines": "Afgang: 7.00, 9.00, 11.00\nSøndag: en båd hver anden time",
+    "questions_json": "[{\"question\":\"What time is the first boat?\",\"choices\":[\"7:00\",\"9:00\",\"11:00\"],\"answer\":0},{\"question\":\"How often is the boat on Sundays?\",\"choices\":[\"Every two hours\",\"Every hour\",\"Not at all\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Båd til Bornholm: Afgang fra havnen: 7.00, 9.00, 11.00 / Søndag: en båd hver anden time\""
   },
   {
     "id": "R212",
     "unit_id": "U67",
     "kind": "message",
-    "title": "En sms fra Peter",
-    "lines": "Jeg er fremme på stationen 17.30.\nMit tog kører fra København 15.00.\nVi ses!",
-    "questions_json": "[{\"question\":\"When does Peter arrive?\",\"choices\":[\"5:30 pm\",\"3 pm\",\"7:30 pm\"],\"answer\":0},{\"question\":\"Where does his train leave from?\",\"choices\":[\"Copenhagen\",\"The airport\",\"Aarhus\"],\"answer\":0}]",
+    "title": "Fra Peter",
+    "lines": "Jeg er fremme i Aarhus 17.30.\nMit tog kører fra København 15.00.\nVi ses!",
+    "questions_json": "[{\"question\":\"When does Peter arrive?\",\"choices\":[\"5:30 pm\",\"3 pm\",\"7:30 pm\"],\"answer\":0},{\"question\":\"Where does his train leave from?\",\"choices\":[\"Copenhagen\",\"The airport\",\"Odense\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En sms fra Peter: Jeg er fremme på stationen 17.30. / Mit tog kører fra København 15.00. / Vi ses!\""
   },
   {
     "id": "R213",
     "unit_id": "U69",
     "kind": "notice",
-    "title": "I timen",
-    "lines": "Lyt til teksten.\nSvar på spørgsmålene.\nVælg et billede.",
-    "questions_json": "[{\"question\":\"What do you do first?\",\"choices\":[\"Listen to the text\",\"Answer the questions\",\"Choose a picture\"],\"answer\":0},{\"question\":\"What do you choose?\",\"choices\":[\"A picture\",\"A book\",\"A word\"],\"answer\":0}]",
+    "title": "Øvelse",
+    "lines": "Lyt til teksten.\nSvar på et spørgsmål.\nVælg et billede.",
+    "questions_json": "[{\"question\":\"What do you do first?\",\"choices\":[\"Listen to the text\",\"Answer a question\",\"Choose a picture\"],\"answer\":0},{\"question\":\"What do you choose?\",\"choices\":[\"A picture\",\"A book\",\"A word\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"I timen: Lyt til teksten. / Svar på spørgsmålene. / Vælg et billede.\""
   },
   {
     "id": "R214",
     "unit_id": "U69",
     "kind": "notice",
     "title": "Døren",
-    "lines": "Luk døren, tak.\nHusk: luk den langsomt.",
+    "lines": "Luk døren.\nLuk den langsomt, tak.",
     "questions_json": "[{\"question\":\"What should you do with the door?\",\"choices\":[\"Close it\",\"Leave it open\",\"Lock it\"],\"answer\":0},{\"question\":\"How should you close it?\",\"choices\":[\"Slowly\",\"Quickly\",\"With a key\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Døren: Luk døren, tak. / Husk: luk den langsomt.\""
   },
   {
     "id": "R215",
     "unit_id": "U69",
     "kind": "notice",
-    "title": "Øvelsen",
-    "lines": "Vælg et nummer.\nFind siden i bogen.\nLæs teksten.",
+    "title": "Øvelse",
+    "lines": "Vælg et nummer.\nFind siden i din bog.\nLæs teksten.",
     "questions_json": "[{\"question\":\"What do you look for in the book?\",\"choices\":[\"The page\",\"The door\",\"A picture\"],\"answer\":0},{\"question\":\"What do you do last?\",\"choices\":[\"Read the text\",\"Choose a number\",\"Close the book\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Øvelsen: Vælg et nummer. / Find siden i bogen. / Læs teksten.\""
   },
   {
     "id": "R301",
     "unit_id": "U82",
     "kind": "menu",
-    "title": "Dagens ret",
-    "lines": "Suppe, kylling med ris og salat\nDessert: is\n125 kr.",
-    "questions_json": "[{\"question\":\"How much is the dish of the day?\",\"choices\":[\"125 kroner\",\"25 kroner\",\"150 kroner\"],\"answer\":0},{\"question\":\"What is there for dessert?\",\"choices\":[\"Ice cream\",\"Cake\",\"Fruit\"],\"answer\":0}]",
+    "title": "Restaurant",
+    "lines": "I dag: suppe, kylling med ris\nDessert: is\n125 kroner",
+    "questions_json": "[{\"question\":\"How much is today's meal?\",\"choices\":[\"125 kroner\",\"25 kroner\",\"150 kroner\"],\"answer\":0},{\"question\":\"What is there for dessert?\",\"choices\":[\"Ice cream\",\"Cake\",\"Fruit\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Dagens ret: Suppe, kylling med ris og salat / Dessert: is / 125 kr.\""
   },
   {
     "id": "R302",
     "unit_id": "U82",
     "kind": "menu",
-    "title": "Café Hjørnet",
-    "lines": "Kaffe: 30 kr.\nTe: 25 kr.\nWienerbrød: 35 kr.\nSandwich: 60 kr.",
-    "questions_json": "[{\"question\":\"How much is a sandwich?\",\"choices\":[\"60 kroner\",\"30 kroner\",\"35 kroner\"],\"answer\":0},{\"question\":\"What costs 25 kroner?\",\"choices\":[\"A tea\",\"A coffee\",\"A Danish pastry\"],\"answer\":0}]",
+    "title": "Kaffe og kage",
+    "lines": "Kaffe: 30 kroner\nTe: 25 kroner\nKage: 35 kroner\nSandwich: 60 kroner",
+    "questions_json": "[{\"question\":\"How much is a sandwich?\",\"choices\":[\"60 kroner\",\"30 kroner\",\"35 kroner\"],\"answer\":0},{\"question\":\"What costs 25 kroner?\",\"choices\":[\"A tea\",\"A coffee\",\"A cake\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Café Hjørnet: Kaffe: 30 kr. / Te: 25 kr. / Wienerbrød: 35 kr. / Sandwich: 60 kr.\""
   },
   {
     "id": "R303",
     "unit_id": "U82",
     "kind": "notice",
-    "title": "Restaurant Fisken",
+    "title": "Restaurant",
     "lines": "Fisk og kød\nÅbent tirsdag til søndag\nMandag: lukket",
     "questions_json": "[{\"question\":\"When is the restaurant closed?\",\"choices\":[\"On Mondays\",\"On Sundays\",\"On Tuesdays\"],\"answer\":0},{\"question\":\"What does the restaurant serve?\",\"choices\":[\"Fish and meat\",\"Pizza\",\"Only salads\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Restaurant Fisken: Fisk og kød / Åbent tirsdag til søndag / Mandag: lukket\""
   },
   {
     "id": "R304",
     "unit_id": "U83",
     "kind": "message",
-    "title": "En sms fra Anna",
-    "lines": "Mit hus ligger tæt på stationen.\nGå ligeud til torvet.\nMin gade er den anden til højre.",
-    "questions_json": "[{\"question\":\"Where is Anna's house?\",\"choices\":[\"Near the station\",\"Near the school\",\"In the city centre\"],\"answer\":0},{\"question\":\"Which street is hers?\",\"choices\":[\"The second on the right\",\"The first on the left\",\"The second on the left\"],\"answer\":0}]",
+    "title": "Fra Anna",
+    "lines": "Mit hus ligger midt i byen.\nGå ligeud til hjørnet.\nMin gade er den anden til højre.",
+    "questions_json": "[{\"question\":\"Where is Anna's house?\",\"choices\":[\"In the middle of town\",\"Near the school\",\"By the sea\"],\"answer\":0},{\"question\":\"Which street is hers?\",\"choices\":[\"The second on the right\",\"The first on the left\",\"The second on the left\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En sms fra Anna: Mit hus ligger tæt på stationen. / Gå ligeud til torvet. / Min gade er den anden til højre.\""
   },
   {
     "id": "R305",
     "unit_id": "U83",
     "kind": "sign",
     "title": "I byen",
-    "lines": "Museum: 200 m til venstre\nKirke: ligeud\nStation: til højre",
-    "questions_json": "[{\"question\":\"Where is the museum?\",\"choices\":[\"200 metres on the left\",\"200 metres on the right\",\"Straight on\"],\"answer\":0},{\"question\":\"Where is the station?\",\"choices\":[\"On the right\",\"On the left\",\"Straight on\"],\"answer\":0}]",
+    "lines": "Museum: 200 meter til venstre\nKirke: ligeud\nStation: til højre",
+    "questions_json": "[{\"question\":\"Where is the museum?\",\"choices\":[\"200 meters on the left\",\"200 meters on the right\",\"Straight on\"],\"answer\":0},{\"question\":\"Where is the station?\",\"choices\":[\"On the right\",\"On the left\",\"Straight on\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"I byen: Museum: 200 m til venstre / Kirke: ligeud / Station: til højre\""
   },
   {
     "id": "R306",
     "unit_id": "U83",
     "kind": "notice",
-    "title": "Hotellet",
-    "lines": "Hotellet ligger for enden af gaden.\nFem minutter til fods til centrum\nBussen stopper foran hotellet",
-    "questions_json": "[{\"question\":\"How far is the hotel from the centre?\",\"choices\":[\"Five minutes on foot\",\"Five minutes by car\",\"Half an hour on foot\"],\"answer\":0},{\"question\":\"Where is the bus stop?\",\"choices\":[\"In front of the hotel\",\"Behind the hotel\",\"At the station\"],\"answer\":0}]",
+    "title": "Hotel Danmark",
+    "lines": "Hotel Danmark ligger midt i byen.\nFem minutter fra havet\nBussen stopper lige foran",
+    "questions_json": "[{\"question\":\"How far is the hotel from the sea?\",\"choices\":[\"Five minutes\",\"Fifteen minutes\",\"Half an hour\"],\"answer\":0},{\"question\":\"Where does the bus stop?\",\"choices\":[\"In front of the hotel\",\"Behind the hotel\",\"At the station\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Hotellet: Hotellet ligger for enden af gaden. / Fem minutter til fods til centrum / Bussen stopper foran hotellet\""
   },
   {
     "id": "R307",
     "unit_id": "U86",
     "kind": "notice",
     "title": "Lejlighed til leje",
-    "lines": "Lejlighed i centrum\nTo soveværelser, stue, køkken og badeværelse\nMed altan\n9.000 kr. om måneden",
-    "questions_json": "[{\"question\":\"How many bedrooms does the flat have?\",\"choices\":[\"Two\",\"Three\",\"One\"],\"answer\":0},{\"question\":\"What else does it have?\",\"choices\":[\"A balcony\",\"A garden\",\"A garage\"],\"answer\":0}]",
+    "lines": "Lejlighed midt i byen\nEt soveværelse, stue, køkken og badeværelse\nMed have\nLeje: 9.000 kroner",
+    "questions_json": "[{\"question\":\"How many bedrooms does the apartment have?\",\"choices\":[\"One\",\"Two\",\"Three\"],\"answer\":0},{\"question\":\"What else does it have?\",\"choices\":[\"A garden\",\"A balcony\",\"A garage\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Lejlighed til leje: Lejlighed i centrum / To soveværelser, stue, køkken og badeværelse / Med altan / 9.000 kr. om måneden\""
   },
   {
     "id": "R308",
     "unit_id": "U86",
     "kind": "message",
-    "title": "En sms fra Maria",
-    "lines": "Min nye lejlighed er lille.\nDen har et soveværelse, en stue og et køkken.\nDer er ingen altan.",
-    "questions_json": "[{\"question\":\"What is Maria's new flat like?\",\"choices\":[\"Small\",\"Big\",\"Old\"],\"answer\":0},{\"question\":\"What doesn't it have?\",\"choices\":[\"A balcony\",\"A kitchen\",\"A bedroom\"],\"answer\":0}]",
+    "title": "Fra Maria",
+    "lines": "Min nye lejlighed er lille.\nDen har et soveværelse, en stue og et køkken.\nDer er ingen have.",
+    "questions_json": "[{\"question\":\"What is Maria's new apartment like?\",\"choices\":[\"Small\",\"Big\",\"Old\"],\"answer\":0},{\"question\":\"What doesn't it have?\",\"choices\":[\"A garden\",\"A kitchen\",\"A bedroom\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En sms fra Maria: Min nye lejlighed er lille. / Den har et soveværelse, en stue og et køkken. / Der er ingen altan.\""
   },
   {
     "id": "R309",
     "unit_id": "U86",
     "kind": "notice",
-    "title": "Værelse til en studerende",
-    "lines": "Værelse til leje for en studerende\nMed seng, bord og stol\nTæt på universitetet",
-    "questions_json": "[{\"question\":\"Who is the room for?\",\"choices\":[\"A student\",\"A family\",\"A tourist\"],\"answer\":0},{\"question\":\"What is in the room?\",\"choices\":[\"A bed, a table and a chair\",\"A sofa and a lamp\",\"A fridge\"],\"answer\":0}]",
+    "title": "Værelse til leje",
+    "lines": "Et værelse med seng, bord og stol\nTæt på en skole\nLeje: 3.000 kroner",
+    "questions_json": "[{\"question\":\"What is in the room?\",\"choices\":[\"A bed, a table and a chair\",\"A sofa and a lamp\",\"A fridge\"],\"answer\":0},{\"question\":\"Where is the room?\",\"choices\":[\"Near a school\",\"Near the sea\",\"In the forest\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Værelse til en studerende: Værelse til leje for en studerende / Med seng, bord og stol / Tæt på universitetet\""
   },
   {
     "id": "R310",
     "unit_id": "U87",
     "kind": "notice",
-    "title": "Ledige job",
-    "lines": "Restaurant søger en kok\nTirsdag til lørdag, 17.00 til 23.00\nRing 12 34 56 78",
+    "title": "Job",
+    "lines": "Kok til restaurant\nTirsdag til lørdag, 17.00 til 23.00\nTelefon: 12 34 56 78",
     "questions_json": "[{\"question\":\"What job is it?\",\"choices\":[\"A cook\",\"A waiter\",\"A driver\"],\"answer\":0},{\"question\":\"Which days?\",\"choices\":[\"Tuesday to Saturday\",\"Monday to Friday\",\"Every day\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Ledige job: Restaurant søger en kok / Tirsdag til lørdag, 17.00 til 23.00 / Ring 12 34 56 78\""
   },
   {
     "id": "R311",
@@ -388,44 +388,44 @@
     "id": "R312",
     "unit_id": "U87",
     "kind": "notice",
-    "title": "Firmaet",
-    "lines": "Firma søger en chauffør\nKørekort er et krav\nMandag til fredag",
-    "questions_json": "[{\"question\":\"Who is the company looking for?\",\"choices\":[\"A driver\",\"A secretary\",\"A teacher\"],\"answer\":0},{\"question\":\"What do you need?\",\"choices\":[\"A driving licence\",\"A university degree\",\"A car\"],\"answer\":0}]",
+    "title": "Job",
+    "lines": "Job i et firma\nDu skal have kørekort\nMandag til fredag",
+    "questions_json": "[{\"question\":\"Where is the job?\",\"choices\":[\"In a company\",\"In a school\",\"In a shop\"],\"answer\":0},{\"question\":\"What do you need?\",\"choices\":[\"A driver's license\",\"A university degree\",\"A car\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Firmaet: Firma søger en chauffør / Kørekort er et krav / Mandag til fredag\""
   },
   {
     "id": "R313",
     "unit_id": "U89",
     "kind": "message",
     "title": "Et postkort fra Anna",
-    "lines": "Kære Erik!\nJeg er ved havet med min familie. Det er varmt, og havet er dejligt.\nKærlig hilsen, Anna",
+    "lines": "Kære Peter!\nJeg er ved havet med min familie. Det er varmt, og havet er fantastisk.\nKærlig hilsen, Anna",
     "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the seaside\",\"In the mountains\",\"In the city\"],\"answer\":0},{\"question\":\"What is the weather like?\",\"choices\":[\"Warm\",\"Cold\",\"Rainy\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"Et postkort fra Anna: Kære Erik! / Jeg er ved havet med min familie. Det er varmt, og havet er dejligt. / Kærlig hilsen, Anna\""
   },
   {
     "id": "R314",
     "unit_id": "U89",
     "kind": "message",
-    "title": "En sms fra Tom",
-    "lines": "Hej Maria!\nPå lørdag har jeg fødselsdag. Kommer du til min fest?\nFesten er hjemme hos mig klokken otte.\nTom",
+    "title": "Fra Tom",
+    "lines": "Hej Maria!\nPå lørdag fylder jeg 30. Kommer du til min fest?\nDen er hjemme hos mig klokken otte.\nTom",
     "questions_json": "[{\"question\":\"Why is Tom having a party?\",\"choices\":[\"It's his birthday\",\"He has a new job\",\"It's Christmas\"],\"answer\":0},{\"question\":\"Where is the party?\",\"choices\":[\"At his home\",\"At a restaurant\",\"In the park\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En sms fra Tom: Hej Maria! / På lørdag har jeg fødselsdag. Kommer du til min fest? / Festen er hjemme hos mig klokken otte. / Tom\""
   },
   {
     "id": "R315",
     "unit_id": "U89",
     "kind": "message",
-    "title": "En seddel",
-    "lines": "Anna!\nJeg er ikke hjemme. Jeg er tilbage klokken seks.\nMaden står i køleskabet.\nErik",
-    "questions_json": "[{\"question\":\"When is Erik back?\",\"choices\":[\"At six\",\"At eight\",\"At five\"],\"answer\":0},{\"question\":\"Where is the food?\",\"choices\":[\"In the fridge\",\"At a restaurant\",\"In the oven\"],\"answer\":0}]",
+    "title": "Til Anna",
+    "lines": "Anna!\nJeg er ikke hjemme. Jeg er tilbage klokken seks.\nDer er mad på bordet.\nPeter",
+    "questions_json": "[{\"question\":\"When is Peter back?\",\"choices\":[\"At six\",\"At eight\",\"At five\"],\"answer\":0},{\"question\":\"Where is the food?\",\"choices\":[\"On the table\",\"At a restaurant\",\"In the fridge\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded 2026-11-22 into taught words (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22); was \"En seddel: Anna! / Jeg er ikke hjemme. Jeg er tilbage klokken seks. / Maden står i køleskabet. / Erik\""
   }
 ]

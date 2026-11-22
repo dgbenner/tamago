@@ -425,7 +425,14 @@
       "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
     }
   },
-  "cut_sentences": [],
+  "cut_sentences": [
+    "S56002",
+    "S75009",
+    "S75010",
+    "S87017",
+    "S93111",
+    "S95123"
+  ],
   "vocabulary_additions": [],
   "hints": {},
   "borrow": {},
@@ -546,6 +553,42 @@
     "W178": {
       "hint": "school",
       "source": "Fable review 2026-11-19 (sense fix)"
+    },
+    "W1605": {
+      "hint": "a cup (small), diminutive of kop",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary kopje: diminutive of kop; kop: cup (for drinking)"
+    },
+    "W1613": {
+      "hint": "a drink",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary drankje: a beverage"
+    },
+    "W1332": {
+      "hint": "a ticket",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary kaartje: ticket, especially a train ticket"
+    },
+    "W1112": {
+      "hint": "to wear; to carry",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary dragen: to carry; to wear (clothes); its lines are mostly wear"
+    },
+    "W1111": {
+      "hint": "wears; carries (dragen)",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary dragen: to carry; to wear (clothes); its lines are mostly wear"
+    },
+    "W1338": {
+      "hint": "to drive; to ride",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary rijden: to ride; to drive; its lines are drive"
+    },
+    "W1337": {
+      "hint": "drives; rides (rijden)",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary rijden: to ride; to drive; its lines are drive"
+    },
+    "W1719": {
+      "hint": "hard (werkt hard); loud; fast",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary hard: adjective hard, loud, fast; adverb fast, very, loudly; its lines are werkt hard"
+    },
+    "W1740": {
+      "hint": "to sign; to draw (tekenen)",
+      "source": "Fable's Dutch phase 6 review (2026-11-21), verdicts 1, 2 and 13 (2026-11-22): Wiktionary tekenen: to draw; to sign (write a signature); U88 teaches it as sign"
     }
   },
   "phrases_off": {},
@@ -914,6 +957,49 @@
     "W1878": "de",
     "W1883": "het",
     "W1916": "het",
-    "W1610": "de"
-  }
+    "W1610": "de",
+    "W1605": "het",
+    "W1613": "het",
+    "W1332": "het"
+  },
+  "cut_reasons": {
+    "S56002": "Dan's call (2026-11-22): register, \"Ben je gek?\" (Fable: the English \"Are you stupid?\" is an insult the Dutch is not)",
+    "S75009": "Dan's call (2026-11-22) and Fable's Dutch phase 6 review (2026-11-21): a love line, cut in every earlier pass",
+    "S75010": "Dan's call (2026-11-22) and Fable's Dutch phase 6 review (2026-11-21): a love line, cut in every earlier pass",
+    "S87017": "Fable's Dutch phase 6 review (2026-11-21): \"een boer\" contradicts U87's note (no een before a job)",
+    "S93111": "Fable's Dutch phase 6 review (2026-11-21): idiom (\"not my concern\")",
+    "S95123": "Fable's Dutch phase 6 review (2026-11-21): was as \"wash\" in U95, where was is taught as the past of zijn"
+  },
+  "gender_notes": {
+    "W1605": "Dan's call (2026-11-22): Wiktionary's headword gives the diminutive n (nl-noun-dim), so het; reverses the Part 4 call that left diminutives without a gender",
+    "W1613": "Dan's call (2026-11-22): Wiktionary's headword gives the diminutive n (nl-noun-dim), so het; reverses the Part 4 call that left diminutives without a gender",
+    "W1332": "Dan's call (2026-11-22): Wiktionary's headword gives the diminutive n (nl-noun-dim), so het; reverses the Part 4 call that left diminutives without a gender"
+  },
+  "generated_off": {
+    "GS11103-5460013": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: zullen (U64)",
+    "GS3101-11779284": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: wel (U36)",
+    "GS31101-8575465": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: jullie (U06)",
+    "GS31109-387597": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: kunt (U34), u and alstublieft (U41), spreken (not a course word)",
+    "GS31109-4271120": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: trager: Belgian Dutch; the course is Netherlands Dutch",
+    "GS31109-481102": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: spreekt (U46), u and alstublieft (U41)",
+    "GS3111-514767": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: Excuseer: Belgian Dutch; the course is Netherlands Dutch",
+    "GS3111-4558027": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: spijt (U26), me (U41)",
+    "GS3111-7344340": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: mijn (U10), excuses (not a course word)",
+    "GS4103-659477": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: hou (U75)",
+    "GS4103-4654636": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: lust (not a course word)",
+    "GS4104-5460243": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: hou (U75)",
+    "GS53112-12997914": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: gearriveerd (not a course word)",
+    "GS55109-3214656": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: balpen, bureau (not course words)",
+    "GS64107-9341669": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: zo'n (not a course word)",
+    "GS65102-4660585": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: begint (not a course word)",
+    "GS72108-2782050": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: winderig (not a course word)",
+    "GS73125-378004": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: lopend (U84)",
+    "GS8104-803547": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: zit (U71)",
+    "GS88106-689600": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: gij: Belgian Dutch; the course is Netherlands Dutch",
+    "GS88111-7745670": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: Gelieve, ondertekenen (not course words; Gelieve is Belgian register)",
+    "GS93107-9588916": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: last, tandpijn (not course words)",
+    "GS93111-8180745": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: zaak (not a course word)",
+    "GS94104-6116987": "Fable's Dutch phase 6 review (2026-11-21), Appendix B (2026-11-22): untaught by its circle: Jazeker: Belgian Dutch; the course is Netherlands Dutch"
+  },
+  "_generated_off": "Generated en_to_fr answers (checks/generated_answers.json) build-content leaves out: answer id to why. Accepted answers use only words the course has taught (Dan, 2026-11-22)."
 }

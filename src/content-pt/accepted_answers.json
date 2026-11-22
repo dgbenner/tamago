@@ -5897,6 +5897,22 @@
   },
   {
     "answer_id": "AE00165",
+    "sentence_id": "S67024",
+    "direction": "fr_to_en",
+    "answer": "The airplane is at the airport.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00166",
+    "sentence_id": "S67025",
+    "direction": "fr_to_en",
+    "answer": "He is afraid to fly in an aeroplane.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00167",
     "sentence_id": "S69015",
     "direction": "en_to_fr",
     "answer": "Ouça agora.",
@@ -5904,7 +5920,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00166",
+    "answer_id": "AE00168",
     "sentence_id": "S71038",
     "direction": "fr_to_en",
     "answer": "I'm broke.",
@@ -5912,7 +5928,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00167",
+    "answer_id": "AE00169",
     "sentence_id": "S72010",
     "direction": "fr_to_en",
     "answer": "Is this colour brown?",
@@ -5920,7 +5936,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00168",
+    "answer_id": "AE00170",
     "sentence_id": "S72016",
     "direction": "fr_to_en",
     "answer": "The car is gray.",
@@ -5928,7 +5944,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00169",
+    "answer_id": "AE00171",
     "sentence_id": "S72018",
     "direction": "fr_to_en",
     "answer": "The mouse is gray.",
@@ -5936,7 +5952,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00170",
+    "answer_id": "AE00172",
     "sentence_id": "S72023",
     "direction": "fr_to_en",
     "answer": "This pencil isn't grey.",
@@ -5944,7 +5960,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00171",
+    "answer_id": "AE00173",
     "sentence_id": "S72023",
     "direction": "fr_to_en",
     "answer": "This pencil is not gray.",
@@ -5952,7 +5968,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00172",
+    "answer_id": "AE00174",
     "sentence_id": "S72028",
     "direction": "fr_to_en",
     "answer": "Today, it's raining.",
@@ -5960,7 +5976,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00173",
+    "answer_id": "AE00175",
     "sentence_id": "S72028",
     "direction": "en_to_fr",
     "answer": "Chove hoje.",
@@ -5968,7 +5984,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00174",
+    "answer_id": "AE00176",
     "sentence_id": "S74033",
     "direction": "fr_to_en",
     "answer": "Every day, I run.",
@@ -5976,7 +5992,15 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00175",
+    "answer_id": "AE00177",
+    "sentence_id": "S75018",
+    "direction": "fr_to_en",
+    "answer": "It's fifty kilometres to Paris.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00178",
     "sentence_id": "S75022",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I have a friend coming over to visit.",
@@ -5984,7 +6008,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00176",
+    "answer_id": "AE00179",
     "sentence_id": "S75022",
     "direction": "en_to_fr",
     "answer": "Recebo a visita de um amigo amanhã.",
@@ -5992,7 +6016,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00177",
+    "answer_id": "AE00180",
     "sentence_id": "S75030",
     "direction": "fr_to_en",
     "answer": "Tomorrow, we'll visit Tom.",
@@ -6000,7 +6024,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00178",
+    "answer_id": "AE00181",
     "sentence_id": "S75030",
     "direction": "en_to_fr",
     "answer": "Amanhã, nós vamos visitar Tom.",
@@ -6008,7 +6032,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00179",
+    "answer_id": "AE00182",
     "sentence_id": "S84016",
     "direction": "fr_to_en",
     "answer": "Now, I have to go.",
@@ -6016,7 +6040,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00180",
+    "answer_id": "AE00183",
     "sentence_id": "S84016",
     "direction": "fr_to_en",
     "answer": "Now, I have to leave.",
@@ -6024,7 +6048,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00181",
+    "answer_id": "AE00184",
     "sentence_id": "S84016",
     "direction": "en_to_fr",
     "answer": "Agora, tenho que partir.",
@@ -6032,7 +6056,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00182",
+    "answer_id": "AE00185",
     "sentence_id": "S86018",
     "direction": "fr_to_en",
     "answer": "How many rooms does she have in her flat?",
@@ -6040,7 +6064,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00183",
+    "answer_id": "AE00186",
     "sentence_id": "S87003",
     "direction": "fr_to_en",
     "answer": "Are you a policeman?",
@@ -6048,7 +6072,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00184",
+    "answer_id": "AE00187",
     "sentence_id": "S87028",
     "direction": "fr_to_en",
     "answer": "I'm scared of dentists.",
@@ -6056,7 +6080,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00185",
+    "answer_id": "AE00188",
     "sentence_id": "S88018",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I'll sign it.",
@@ -6064,7 +6088,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00186",
+    "answer_id": "AE00189",
     "sentence_id": "S88018",
     "direction": "en_to_fr",
     "answer": "Amanhã, vou assinar.",
@@ -6072,7 +6096,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00187",
+    "answer_id": "AE00190",
     "sentence_id": "S88023",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I'll sign it.",
@@ -6080,7 +6104,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00188",
+    "answer_id": "AE00191",
     "sentence_id": "S88023",
     "direction": "en_to_fr",
     "answer": "Amanhã, eu vou assinar.",
@@ -6088,7 +6112,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00189",
+    "answer_id": "AE00192",
     "sentence_id": "S89007",
     "direction": "fr_to_en",
     "answer": "Honey, are you okay?",
@@ -6096,7 +6120,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00190",
+    "answer_id": "AE00193",
     "sentence_id": "S92017",
     "direction": "fr_to_en",
     "answer": "It's rubbish.",
@@ -6104,7 +6128,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00191",
+    "answer_id": "AE00194",
     "sentence_id": "S92017",
     "direction": "fr_to_en",
     "answer": "That's rubbish.",
@@ -6112,7 +6136,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00192",
+    "answer_id": "AE00195",
     "sentence_id": "S92019",
     "direction": "fr_to_en",
     "answer": "That's garbage.",
@@ -6120,7 +6144,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00193",
+    "answer_id": "AE00196",
     "sentence_id": "S92019",
     "direction": "fr_to_en",
     "answer": "This is rubbish.",
@@ -6128,7 +6152,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00194",
+    "answer_id": "AE00197",
     "sentence_id": "S92021",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I'm going shopping.",
@@ -6136,7 +6160,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00195",
+    "answer_id": "AE00198",
     "sentence_id": "S92021",
     "direction": "en_to_fr",
     "answer": "Vou fazer compras amanhã.",
@@ -6144,7 +6168,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00196",
+    "answer_id": "AE00199",
     "sentence_id": "S92024",
     "direction": "fr_to_en",
     "answer": "The radio is too loud.",
@@ -6152,7 +6176,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00197",
+    "answer_id": "AE00200",
     "sentence_id": "S92026",
     "direction": "fr_to_en",
     "answer": "There's rubbish everywhere.",
@@ -6160,7 +6184,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00198",
+    "answer_id": "AE00201",
     "sentence_id": "S94017",
     "direction": "fr_to_en",
     "answer": "When do I have to take out the rubbish?",
@@ -6168,7 +6192,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00199",
+    "answer_id": "AE00202",
     "sentence_id": "S94024",
     "direction": "fr_to_en",
     "answer": "Tom is an undergraduate.",
@@ -6176,7 +6200,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00200",
+    "answer_id": "AE00203",
     "sentence_id": "S94027",
     "direction": "fr_to_en",
     "answer": "I have to take out the rubbish.",
@@ -6184,7 +6208,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00201",
+    "answer_id": "AE00204",
     "sentence_id": "S94030",
     "direction": "en_to_fr",
     "answer": "Amanhã, também vou para a universidade.",
@@ -6192,7 +6216,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00202",
+    "answer_id": "AE00205",
     "sentence_id": "S95001",
     "direction": "fr_to_en",
     "answer": "Where is the lift?",
@@ -6200,7 +6224,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00203",
+    "answer_id": "AE00206",
     "sentence_id": "S95004",
     "direction": "fr_to_en",
     "answer": "Do you have a lift?",
@@ -6208,7 +6232,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00204",
+    "answer_id": "AE00207",
     "sentence_id": "S95005",
     "direction": "fr_to_en",
     "answer": "Do you have a lift?",
@@ -6216,7 +6240,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00205",
+    "answer_id": "AE00208",
     "sentence_id": "S95012",
     "direction": "fr_to_en",
     "answer": "Do you have a lift in your house?",
@@ -6224,7 +6248,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00206",
+    "answer_id": "AE00209",
     "sentence_id": "S95013",
     "direction": "fr_to_en",
     "answer": "There's no lift.",
@@ -6232,7 +6256,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00207",
+    "answer_id": "AE00210",
     "sentence_id": "S95016",
     "direction": "fr_to_en",
     "answer": "Let's take the lift.",
@@ -6240,7 +6264,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00208",
+    "answer_id": "AE00211",
     "sentence_id": "S3110",
     "direction": "fr_to_en",
     "answer": "I'm sorry.",
@@ -6248,7 +6272,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00209",
+    "answer_id": "AE00212",
     "sentence_id": "S3110",
     "direction": "fr_to_en",
     "answer": "Excuse me.",
@@ -6256,7 +6280,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00210",
+    "answer_id": "AE00213",
     "sentence_id": "S3116",
     "direction": "fr_to_en",
     "answer": "I'm fine, what about you?",
@@ -6264,7 +6288,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00211",
+    "answer_id": "AE00214",
     "sentence_id": "S3116",
     "direction": "fr_to_en",
     "answer": "I'm fine, how about you?",
@@ -6272,7 +6296,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00212",
+    "answer_id": "AE00215",
     "sentence_id": "S52102",
     "direction": "fr_to_en",
     "answer": "Here is the party.",
@@ -6280,7 +6304,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00213",
+    "answer_id": "AE00216",
     "sentence_id": "S9101",
     "direction": "fr_to_en",
     "answer": "I am tired.",
@@ -6288,7 +6312,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00214",
+    "answer_id": "AE00217",
     "sentence_id": "S9106",
     "direction": "fr_to_en",
     "answer": "I'm happy.",
@@ -6296,7 +6320,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00215",
+    "answer_id": "AE00218",
     "sentence_id": "S10103",
     "direction": "fr_to_en",
     "answer": "My father is a doctor.",
@@ -6304,7 +6328,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00216",
+    "answer_id": "AE00219",
     "sentence_id": "S10105",
     "direction": "fr_to_en",
     "answer": "Here are my friends.",
@@ -6312,7 +6336,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00217",
+    "answer_id": "AE00220",
     "sentence_id": "S53107",
     "direction": "fr_to_en",
     "answer": "I've got a bike.",
@@ -6320,7 +6344,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00218",
+    "answer_id": "AE00221",
     "sentence_id": "S12108",
     "direction": "fr_to_en",
     "answer": "He keeps two cats.",
@@ -6328,7 +6352,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00219",
+    "answer_id": "AE00222",
     "sentence_id": "S14101",
     "direction": "fr_to_en",
     "answer": "I'm at home this week.",
@@ -6336,7 +6360,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00220",
+    "answer_id": "AE00223",
     "sentence_id": "S14102",
     "direction": "fr_to_en",
     "answer": "This week, I'm tired.",
@@ -6344,7 +6368,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00221",
+    "answer_id": "AE00224",
     "sentence_id": "S14105",
     "direction": "fr_to_en",
     "answer": "It is ten o'clock.",
@@ -6352,7 +6376,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00222",
+    "answer_id": "AE00225",
     "sentence_id": "S51102",
     "direction": "fr_to_en",
     "answer": "I've got a headache.",
@@ -6360,7 +6384,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00223",
+    "answer_id": "AE00226",
     "sentence_id": "S51102",
     "direction": "fr_to_en",
     "answer": "My head hurts.",
@@ -6368,7 +6392,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00224",
+    "answer_id": "AE00227",
     "sentence_id": "S51103",
     "direction": "fr_to_en",
     "answer": "Have you got a headache?",
@@ -6376,7 +6400,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00225",
+    "answer_id": "AE00228",
     "sentence_id": "S31201",
     "direction": "fr_to_en",
     "answer": "I don't get it.",
@@ -6384,7 +6408,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00226",
+    "answer_id": "AE00229",
     "sentence_id": "S31201",
     "direction": "fr_to_en",
     "answer": "I do not understand.",
@@ -6392,7 +6416,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00227",
+    "answer_id": "AE00230",
     "sentence_id": "S2201",
     "direction": "fr_to_en",
     "answer": "I'm a teacher.",
@@ -6400,7 +6424,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00228",
+    "answer_id": "AE00231",
     "sentence_id": "S2201",
     "direction": "fr_to_en",
     "answer": "I am a professor.",
@@ -6408,7 +6432,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00229",
+    "answer_id": "AE00232",
     "sentence_id": "S2201",
     "direction": "fr_to_en",
     "answer": "I'm a professor.",
@@ -6416,7 +6440,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00230",
+    "answer_id": "AE00233",
     "sentence_id": "S2202",
     "direction": "fr_to_en",
     "answer": "She's strong.",
@@ -6424,7 +6448,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00231",
+    "answer_id": "AE00234",
     "sentence_id": "S3204",
     "direction": "fr_to_en",
     "answer": "How is this teacher?",
@@ -6432,7 +6456,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00232",
+    "answer_id": "AE00235",
     "sentence_id": "S3207",
     "direction": "fr_to_en",
     "answer": "Here is the man.",
@@ -6440,7 +6464,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00233",
+    "answer_id": "AE00236",
     "sentence_id": "S5203",
     "direction": "fr_to_en",
     "answer": "That's not a cat. It's a dog.",
@@ -6448,7 +6472,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00234",
+    "answer_id": "AE00237",
     "sentence_id": "S6202",
     "direction": "fr_to_en",
     "answer": "He does not like us.",
@@ -6456,7 +6480,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00235",
+    "answer_id": "AE00238",
     "sentence_id": "S7208",
     "direction": "fr_to_en",
     "answer": "Tom doesn't own a car.",
@@ -6464,7 +6488,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00236",
+    "answer_id": "AE00239",
     "sentence_id": "S7209",
     "direction": "fr_to_en",
     "answer": "You're very pretty.",
@@ -6472,7 +6496,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00237",
+    "answer_id": "AE00240",
     "sentence_id": "S7209",
     "direction": "fr_to_en",
     "answer": "You're very beautiful.",
@@ -6480,7 +6504,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00238",
+    "answer_id": "AE00241",
     "sentence_id": "S52202",
     "direction": "fr_to_en",
     "answer": "He is very fond of music.",
@@ -6488,7 +6512,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00239",
+    "answer_id": "AE00242",
     "sentence_id": "S52203",
     "direction": "fr_to_en",
     "answer": "Do you want to dance?",
@@ -6496,7 +6520,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00240",
+    "answer_id": "AE00243",
     "sentence_id": "S8204",
     "direction": "fr_to_en",
     "answer": "They're here.",
@@ -6504,7 +6528,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00241",
+    "answer_id": "AE00244",
     "sentence_id": "S8204",
     "direction": "fr_to_en",
     "answer": "Here they are.",
@@ -6512,7 +6536,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00242",
+    "answer_id": "AE00245",
     "sentence_id": "S9201",
     "direction": "fr_to_en",
     "answer": "Aren't you tired?",
@@ -6520,7 +6544,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00243",
+    "answer_id": "AE00246",
     "sentence_id": "S9203",
     "direction": "fr_to_en",
     "answer": "I'm no longer hungry.",
@@ -6528,7 +6552,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00244",
+    "answer_id": "AE00247",
     "sentence_id": "S9203",
     "direction": "fr_to_en",
     "answer": "I am no longer hungry.",
@@ -6536,7 +6560,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00245",
+    "answer_id": "AE00248",
     "sentence_id": "S9204",
     "direction": "fr_to_en",
     "answer": "I'm happy.",
@@ -6544,7 +6568,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00246",
+    "answer_id": "AE00249",
     "sentence_id": "S9206",
     "direction": "fr_to_en",
     "answer": "It's chilly.",
@@ -6552,7 +6576,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00247",
+    "answer_id": "AE00250",
     "sentence_id": "S9206",
     "direction": "fr_to_en",
     "answer": "It is cold.",
@@ -6560,7 +6584,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00248",
+    "answer_id": "AE00251",
     "sentence_id": "S9210",
     "direction": "fr_to_en",
     "answer": "You're afraid?",
@@ -6568,7 +6592,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00249",
+    "answer_id": "AE00252",
     "sentence_id": "S9213",
     "direction": "fr_to_en",
     "answer": "You are afraid.",
@@ -6576,7 +6600,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00250",
+    "answer_id": "AE00253",
     "sentence_id": "S9215",
     "direction": "fr_to_en",
     "answer": "Is everybody all right?",
@@ -6584,7 +6608,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00251",
+    "answer_id": "AE00254",
     "sentence_id": "S9215",
     "direction": "fr_to_en",
     "answer": "Are you doing okay?",
@@ -6592,7 +6616,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00252",
+    "answer_id": "AE00255",
     "sentence_id": "S33201",
     "direction": "fr_to_en",
     "answer": "I don't know how to dance.",
@@ -6600,7 +6624,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00253",
+    "answer_id": "AE00256",
     "sentence_id": "S33202",
     "direction": "fr_to_en",
     "answer": "What is your name?",
@@ -6608,7 +6632,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00254",
+    "answer_id": "AE00257",
     "sentence_id": "S33202",
     "direction": "fr_to_en",
     "answer": "What's his name?",
@@ -6616,7 +6640,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00255",
+    "answer_id": "AE00258",
     "sentence_id": "S33205",
     "direction": "fr_to_en",
     "answer": "You don't know?",
@@ -6624,7 +6648,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00256",
+    "answer_id": "AE00259",
     "sentence_id": "S10202",
     "direction": "fr_to_en",
     "answer": "I don't know what his name is.",
@@ -6632,7 +6656,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00257",
+    "answer_id": "AE00260",
     "sentence_id": "S10203",
     "direction": "fr_to_en",
     "answer": "I don't know what his name is.",
@@ -6640,7 +6664,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00258",
+    "answer_id": "AE00261",
     "sentence_id": "S10204",
     "direction": "fr_to_en",
     "answer": "His English is really good.",
@@ -6648,7 +6672,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00259",
+    "answer_id": "AE00262",
     "sentence_id": "S10206",
     "direction": "fr_to_en",
     "answer": "I like it very much.",
@@ -6656,7 +6680,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00260",
+    "answer_id": "AE00263",
     "sentence_id": "S10207",
     "direction": "fr_to_en",
     "answer": "My father has a lot of books.",
@@ -6664,7 +6688,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00261",
+    "answer_id": "AE00264",
     "sentence_id": "S10209",
     "direction": "fr_to_en",
     "answer": "My father doesn't like football.",
@@ -6672,7 +6696,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00262",
+    "answer_id": "AE00265",
     "sentence_id": "S10209",
     "direction": "fr_to_en",
     "answer": "My dad doesn't like soccer.",
@@ -6680,7 +6704,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00263",
+    "answer_id": "AE00266",
     "sentence_id": "S10209",
     "direction": "fr_to_en",
     "answer": "My dad doesn't like football.",
@@ -6688,7 +6712,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00264",
+    "answer_id": "AE00267",
     "sentence_id": "S10210",
     "direction": "fr_to_en",
     "answer": "He is her friend.",
@@ -6696,7 +6720,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00265",
+    "answer_id": "AE00268",
     "sentence_id": "S10211",
     "direction": "fr_to_en",
     "answer": "The dog is his.",
@@ -6704,7 +6728,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00266",
+    "answer_id": "AE00269",
     "sentence_id": "S11205",
     "direction": "fr_to_en",
     "answer": "What does that mean?",
@@ -6712,7 +6736,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00267",
+    "answer_id": "AE00270",
     "sentence_id": "S11205",
     "direction": "fr_to_en",
     "answer": "What's the meaning of that?",
@@ -6720,7 +6744,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00268",
+    "answer_id": "AE00271",
     "sentence_id": "S11206",
     "direction": "fr_to_en",
     "answer": "What's this stuff?",
@@ -6728,7 +6752,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00269",
+    "answer_id": "AE00272",
     "sentence_id": "S11206",
     "direction": "fr_to_en",
     "answer": "What's that?",
@@ -6736,7 +6760,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00270",
+    "answer_id": "AE00273",
     "sentence_id": "S11206",
     "direction": "fr_to_en",
     "answer": "What is that?",
@@ -6744,7 +6768,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00271",
+    "answer_id": "AE00274",
     "sentence_id": "S11206",
     "direction": "fr_to_en",
     "answer": "What's this thing?",
@@ -6752,7 +6776,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00272",
+    "answer_id": "AE00275",
     "sentence_id": "S11207",
     "direction": "fr_to_en",
     "answer": "What's your name?",
@@ -6760,7 +6784,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00273",
+    "answer_id": "AE00276",
     "sentence_id": "S11209",
     "direction": "fr_to_en",
     "answer": "What does that mean?",
@@ -6768,7 +6792,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00274",
+    "answer_id": "AE00277",
     "sentence_id": "S53203",
     "direction": "fr_to_en",
     "answer": "Tom isn't in the hospital.",
@@ -6776,7 +6800,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00275",
+    "answer_id": "AE00278",
     "sentence_id": "S14201",
     "direction": "fr_to_en",
     "answer": "What is the time now?",
@@ -6784,7 +6808,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00276",
+    "answer_id": "AE00279",
     "sentence_id": "S14201",
     "direction": "fr_to_en",
     "answer": "What's the time now?",
@@ -6792,7 +6816,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00277",
+    "answer_id": "AE00280",
     "sentence_id": "S14201",
     "direction": "fr_to_en",
     "answer": "What time is it?",
@@ -6800,7 +6824,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00278",
+    "answer_id": "AE00281",
     "sentence_id": "S14202",
     "direction": "fr_to_en",
     "answer": "What date is today?",
@@ -6808,7 +6832,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00279",
+    "answer_id": "AE00282",
     "sentence_id": "S14203",
     "direction": "fr_to_en",
     "answer": "Now, she is in her hotel.",
@@ -6816,7 +6840,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00280",
+    "answer_id": "AE00283",
     "sentence_id": "S14203",
     "direction": "en_to_fr",
     "answer": "Agora, ela está em seu hotel.",
@@ -6824,7 +6848,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00281",
+    "answer_id": "AE00284",
     "sentence_id": "S14204",
     "direction": "en_to_fr",
     "answer": "O dia está ótimo hoje.",
@@ -6832,7 +6856,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00282",
+    "answer_id": "AE00285",
     "sentence_id": "S14205",
     "direction": "fr_to_en",
     "answer": "It's very hot today.",
@@ -6840,7 +6864,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00283",
+    "answer_id": "AE00286",
     "sentence_id": "S14205",
     "direction": "fr_to_en",
     "answer": "Today, it is very hot.",
@@ -6848,7 +6872,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00284",
+    "answer_id": "AE00287",
     "sentence_id": "S14205",
     "direction": "fr_to_en",
     "answer": "Today, it's very hot.",
@@ -6856,7 +6880,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00285",
+    "answer_id": "AE00288",
     "sentence_id": "S14205",
     "direction": "en_to_fr",
     "answer": "Está muito calor hoje.",
@@ -6864,7 +6888,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00286",
+    "answer_id": "AE00289",
     "sentence_id": "S14206",
     "direction": "fr_to_en",
     "answer": "Now, I'm not tired right.",
@@ -6872,7 +6896,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00287",
+    "answer_id": "AE00290",
     "sentence_id": "S14208",
     "direction": "en_to_fr",
     "answer": "Agora, eu não sei onde ele está.",
@@ -6880,7 +6904,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00288",
+    "answer_id": "AE00291",
     "sentence_id": "S14210",
     "direction": "en_to_fr",
     "answer": "É um novo dia hoje!",
@@ -6888,7 +6912,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00289",
+    "answer_id": "AE00292",
     "sentence_id": "S15204",
     "direction": "fr_to_en",
     "answer": "On Sunday, I'm going.",
@@ -6896,7 +6920,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00290",
+    "answer_id": "AE00293",
     "sentence_id": "S15206",
     "direction": "fr_to_en",
     "answer": "On Sunday, I go to church.",
@@ -6904,7 +6928,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00291",
+    "answer_id": "AE00294",
     "sentence_id": "S15208",
     "direction": "fr_to_en",
     "answer": "Tomorrow, we're going dancing.",
@@ -6912,7 +6936,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00292",
+    "answer_id": "AE00295",
     "sentence_id": "S15208",
     "direction": "en_to_fr",
     "answer": "Amanhã, nós vamos dançar.",
@@ -6920,7 +6944,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00293",
+    "answer_id": "AE00296",
     "sentence_id": "S15209",
     "direction": "fr_to_en",
     "answer": "Today, we're going dancing.",
@@ -6928,7 +6952,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00294",
+    "answer_id": "AE00297",
     "sentence_id": "S15209",
     "direction": "fr_to_en",
     "answer": "We are going dancing today.",
@@ -6936,7 +6960,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00295",
+    "answer_id": "AE00298",
     "sentence_id": "S15209",
     "direction": "fr_to_en",
     "answer": "We're going dancing today.",
@@ -6944,7 +6968,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00296",
+    "answer_id": "AE00299",
     "sentence_id": "S15209",
     "direction": "en_to_fr",
     "answer": "Nós vamos dançar hoje.",
@@ -6952,7 +6976,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00297",
+    "answer_id": "AE00300",
     "sentence_id": "S15211",
     "direction": "fr_to_en",
     "answer": "Now, I am going to church.",
@@ -6960,7 +6984,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00298",
+    "answer_id": "AE00301",
     "sentence_id": "S15211",
     "direction": "en_to_fr",
     "answer": "Vou para a igreja agora.",
@@ -6968,7 +6992,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00299",
+    "answer_id": "AE00302",
     "sentence_id": "S15212",
     "direction": "fr_to_en",
     "answer": "On Monday, we'll talk with him.",
@@ -6976,7 +7000,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00300",
+    "answer_id": "AE00303",
     "sentence_id": "S15214",
     "direction": "fr_to_en",
     "answer": "We're going to the beach.",
@@ -6984,7 +7008,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00301",
+    "answer_id": "AE00304",
     "sentence_id": "S51203",
     "direction": "fr_to_en",
     "answer": "He's a tall boy.",
@@ -6992,7 +7016,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00302",
+    "answer_id": "AE00305",
     "sentence_id": "S51205",
     "direction": "fr_to_en",
     "answer": "I'm taller than he is.",
@@ -7000,7 +7024,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00303",
+    "answer_id": "AE00306",
     "sentence_id": "S36102",
     "direction": "fr_to_en",
     "answer": "Tomorrow, okay?",
@@ -7008,7 +7032,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00304",
+    "answer_id": "AE00307",
     "sentence_id": "S41108",
     "direction": "fr_to_en",
     "answer": "My name's Tom.",
@@ -7016,7 +7040,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00305",
+    "answer_id": "AE00308",
     "sentence_id": "S42101",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I'll phone.",
@@ -7024,7 +7048,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00306",
+    "answer_id": "AE00309",
     "sentence_id": "S42101",
     "direction": "en_to_fr",
     "answer": "Amanhã, vou telefonar.",
@@ -7032,7 +7056,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00307",
+    "answer_id": "AE00310",
     "sentence_id": "S43101",
     "direction": "fr_to_en",
     "answer": "What is your age?",
@@ -7040,7 +7064,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00308",
+    "answer_id": "AE00311",
     "sentence_id": "S43101",
     "direction": "fr_to_en",
     "answer": "What's your age?",
@@ -7048,7 +7072,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00309",
+    "answer_id": "AE00312",
     "sentence_id": "S43106",
     "direction": "fr_to_en",
     "answer": "Today, the baby is going to be born.",
@@ -7056,7 +7080,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00310",
+    "answer_id": "AE00313",
     "sentence_id": "S43106",
     "direction": "en_to_fr",
     "answer": "Hoje, a criança vai nascer.",
@@ -7064,7 +7088,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00311",
+    "answer_id": "AE00314",
     "sentence_id": "S43108",
     "direction": "fr_to_en",
     "answer": "Tomorrow, it's going to be born.",
@@ -7072,7 +7096,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00312",
+    "answer_id": "AE00315",
     "sentence_id": "S43108",
     "direction": "en_to_fr",
     "answer": "Amanhã, vai nascer.",
@@ -7080,7 +7104,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00313",
+    "answer_id": "AE00316",
     "sentence_id": "S45103",
     "direction": "fr_to_en",
     "answer": "The store is on the avenue.",
@@ -7088,7 +7112,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00314",
+    "answer_id": "AE00317",
     "sentence_id": "S48105",
     "direction": "fr_to_en",
     "answer": "How much will it be?",
@@ -7096,7 +7120,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00315",
+    "answer_id": "AE00318",
     "sentence_id": "S48105",
     "direction": "fr_to_en",
     "answer": "What'll it cost?",
@@ -7104,7 +7128,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00316",
+    "answer_id": "AE00319",
     "sentence_id": "S48117",
     "direction": "fr_to_en",
     "answer": "The store is expensive.",
@@ -7112,7 +7136,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00317",
+    "answer_id": "AE00320",
     "sentence_id": "S48120",
     "direction": "fr_to_en",
     "answer": "The store is cheap.",
@@ -7120,7 +7144,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00318",
+    "answer_id": "AE00321",
     "sentence_id": "S48126",
     "direction": "fr_to_en",
     "answer": "Check, please.",
@@ -7128,7 +7152,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00319",
+    "answer_id": "AE00322",
     "sentence_id": "S48126",
     "direction": "fr_to_en",
     "answer": "The bill, please.",
@@ -7136,7 +7160,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00320",
+    "answer_id": "AE00323",
     "sentence_id": "S48126",
     "direction": "fr_to_en",
     "answer": "Could I have the bill, please?",
@@ -7144,7 +7168,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00321",
+    "answer_id": "AE00324",
     "sentence_id": "S48126",
     "direction": "fr_to_en",
     "answer": "Waiter, the bill please.",
@@ -7152,7 +7176,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00322",
+    "answer_id": "AE00325",
     "sentence_id": "S48126",
     "direction": "fr_to_en",
     "answer": "May I have the check, please?",
@@ -7160,7 +7184,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00323",
+    "answer_id": "AE00326",
     "sentence_id": "S48126",
     "direction": "fr_to_en",
     "answer": "Could I have the check?",
@@ -7168,7 +7192,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00324",
+    "answer_id": "AE00327",
     "sentence_id": "S48128",
     "direction": "fr_to_en",
     "answer": "How much does it cost?",
@@ -7176,7 +7200,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00325",
+    "answer_id": "AE00328",
     "sentence_id": "S48128",
     "direction": "fr_to_en",
     "answer": "What does it cost?",
@@ -7184,7 +7208,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00326",
+    "answer_id": "AE00329",
     "sentence_id": "S48128",
     "direction": "fr_to_en",
     "answer": "How much does this cost?",
@@ -7192,7 +7216,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00327",
+    "answer_id": "AE00330",
     "sentence_id": "S48128",
     "direction": "fr_to_en",
     "answer": "How much does that cost?",
@@ -7200,7 +7224,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00328",
+    "answer_id": "AE00331",
     "sentence_id": "S49103",
     "direction": "fr_to_en",
     "answer": "Every day, I read.",
@@ -7208,7 +7232,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00329",
+    "answer_id": "AE00332",
     "sentence_id": "S49104",
     "direction": "fr_to_en",
     "answer": "Every day, she sings.",
@@ -7216,7 +7240,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00330",
+    "answer_id": "AE00333",
     "sentence_id": "S54104",
     "direction": "fr_to_en",
     "answer": "The pants are blue.",
@@ -7224,7 +7248,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00331",
+    "answer_id": "AE00334",
     "sentence_id": "S54105",
     "direction": "fr_to_en",
     "answer": "Where are the pants?",
@@ -7232,7 +7256,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00332",
+    "answer_id": "AE00335",
     "sentence_id": "S55110",
     "direction": "fr_to_en",
     "answer": "Today, I have an exam.",
@@ -7240,7 +7264,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00333",
+    "answer_id": "AE00336",
     "sentence_id": "S55110",
     "direction": "en_to_fr",
     "answer": "Hoje, tenho um exame.",
@@ -7248,7 +7272,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00334",
+    "answer_id": "AE00337",
     "sentence_id": "S39103",
     "direction": "fr_to_en",
     "answer": "I am sure.",
@@ -7256,7 +7280,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00335",
+    "answer_id": "AE00338",
     "sentence_id": "S39103",
     "direction": "fr_to_en",
     "answer": "I'm certain.",
@@ -7264,7 +7288,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00336",
+    "answer_id": "AE00339",
     "sentence_id": "S61102",
     "direction": "fr_to_en",
     "answer": "Now, it's noon.",
@@ -7272,7 +7296,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00337",
+    "answer_id": "AE00340",
     "sentence_id": "S61102",
     "direction": "en_to_fr",
     "answer": "É meio-dia agora.",
@@ -7280,7 +7304,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00338",
+    "answer_id": "AE00341",
     "sentence_id": "S62101",
     "direction": "fr_to_en",
     "answer": "I study on Monday.",
@@ -7288,7 +7312,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00339",
+    "answer_id": "AE00342",
     "sentence_id": "S62102",
     "direction": "fr_to_en",
     "answer": "On Monday, I go to school.",
@@ -7296,7 +7320,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00340",
+    "answer_id": "AE00343",
     "sentence_id": "S62104",
     "direction": "fr_to_en",
     "answer": "I swim on Tuesday.",
@@ -7304,7 +7328,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00341",
+    "answer_id": "AE00344",
     "sentence_id": "S62107",
     "direction": "fr_to_en",
     "answer": "I read on Wednesday.",
@@ -7312,7 +7336,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00342",
+    "answer_id": "AE00345",
     "sentence_id": "S62110",
     "direction": "fr_to_en",
     "answer": "I sing on Thursday.",
@@ -7320,7 +7344,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00343",
+    "answer_id": "AE00346",
     "sentence_id": "S62113",
     "direction": "fr_to_en",
     "answer": "We're going to the beach on Friday.",
@@ -7328,7 +7352,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00344",
+    "answer_id": "AE00347",
     "sentence_id": "S62117",
     "direction": "fr_to_en",
     "answer": "Every day, I swim.",
@@ -7336,7 +7360,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00345",
+    "answer_id": "AE00348",
     "sentence_id": "S62118",
     "direction": "fr_to_en",
     "answer": "Every day, she reads.",
@@ -7344,7 +7368,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00346",
+    "answer_id": "AE00349",
     "sentence_id": "S62119",
     "direction": "fr_to_en",
     "answer": "There are seven days in a week.",
@@ -7352,7 +7376,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00347",
+    "answer_id": "AE00350",
     "sentence_id": "S62119",
     "direction": "fr_to_en",
     "answer": "In one week there are seven days.",
@@ -7360,7 +7384,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00348",
+    "answer_id": "AE00351",
     "sentence_id": "S62123",
     "direction": "fr_to_en",
     "answer": "On Saturday, I usually swim.",
@@ -7368,7 +7392,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00349",
+    "answer_id": "AE00352",
     "sentence_id": "S62124",
     "direction": "fr_to_en",
     "answer": "At night, I usually read.",
@@ -7376,7 +7400,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00350",
+    "answer_id": "AE00353",
     "sentence_id": "S62124",
     "direction": "en_to_fr",
     "answer": "À noite, eu costumo ler.",
@@ -7384,7 +7408,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00351",
+    "answer_id": "AE00354",
     "sentence_id": "S62125",
     "direction": "fr_to_en",
     "answer": "In the morning, I usually read.",
@@ -7392,7 +7416,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00352",
+    "answer_id": "AE00355",
     "sentence_id": "S62125",
     "direction": "en_to_fr",
     "answer": "De manhã, costumo ler.",
@@ -7400,7 +7424,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00353",
+    "answer_id": "AE00356",
     "sentence_id": "S64102",
     "direction": "fr_to_en",
     "answer": "Shall we watch a movie today?",
@@ -7408,7 +7432,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00354",
+    "answer_id": "AE00357",
     "sentence_id": "S64103",
     "direction": "fr_to_en",
     "answer": "Tomorrow, we'll see you.",
@@ -7416,7 +7440,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00355",
+    "answer_id": "AE00358",
     "sentence_id": "S64103",
     "direction": "en_to_fr",
     "answer": "Amanhã, nós vemos você.",
@@ -7424,7 +7448,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00356",
+    "answer_id": "AE00359",
     "sentence_id": "S64105",
     "direction": "fr_to_en",
     "answer": "Tomorrow, we're coming.",
@@ -7432,7 +7456,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00357",
+    "answer_id": "AE00360",
     "sentence_id": "S64105",
     "direction": "en_to_fr",
     "answer": "Amanhã, a gente vem.",
@@ -7440,7 +7464,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00358",
+    "answer_id": "AE00361",
     "sentence_id": "S64110",
     "direction": "fr_to_en",
     "answer": "The theatre is nearby.",
@@ -7448,7 +7472,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00359",
+    "answer_id": "AE00362",
     "sentence_id": "S65103",
     "direction": "fr_to_en",
     "answer": "In the morning, I wake up.",
@@ -7456,7 +7480,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00360",
+    "answer_id": "AE00363",
     "sentence_id": "S65111",
     "direction": "fr_to_en",
     "answer": "Now, I'm going to get up.",
@@ -7464,7 +7488,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00361",
+    "answer_id": "AE00364",
     "sentence_id": "S65111",
     "direction": "en_to_fr",
     "answer": "Agora, vou levantar.",
@@ -7472,7 +7496,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00362",
+    "answer_id": "AE00365",
     "sentence_id": "S65114",
     "direction": "fr_to_en",
     "answer": "At night, I go to bed.",
@@ -7480,7 +7504,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00363",
+    "answer_id": "AE00366",
     "sentence_id": "S65114",
     "direction": "en_to_fr",
     "answer": "À noite, eu me deito.",
@@ -7488,7 +7512,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00364",
+    "answer_id": "AE00367",
     "sentence_id": "S65115",
     "direction": "fr_to_en",
     "answer": "Now, I'm going to lie down.",
@@ -7496,7 +7520,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00365",
+    "answer_id": "AE00368",
     "sentence_id": "S65115",
     "direction": "en_to_fr",
     "answer": "Agora, vou deitar.",
@@ -7504,7 +7528,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00366",
+    "answer_id": "AE00369",
     "sentence_id": "S65128",
     "direction": "fr_to_en",
     "answer": "Now, I want to have a snack.",
@@ -7512,7 +7536,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00367",
+    "answer_id": "AE00370",
     "sentence_id": "S65128",
     "direction": "en_to_fr",
     "answer": "Agora, quero lanchar.",
@@ -7520,7 +7544,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00368",
+    "answer_id": "AE00371",
     "sentence_id": "S65132",
     "direction": "fr_to_en",
     "answer": "Today, I'm finishing the book.",
@@ -7528,7 +7552,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00369",
+    "answer_id": "AE00372",
     "sentence_id": "S65132",
     "direction": "en_to_fr",
     "answer": "Hoje, acabo o livro.",
@@ -7536,7 +7560,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00370",
+    "answer_id": "AE00373",
     "sentence_id": "S66101",
     "direction": "fr_to_en",
     "answer": "Here is the entrance.",
@@ -7544,7 +7568,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00371",
+    "answer_id": "AE00374",
     "sentence_id": "S66102",
     "direction": "fr_to_en",
     "answer": "Where's the entrance?",
@@ -7552,7 +7576,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00372",
+    "answer_id": "AE00375",
     "sentence_id": "S66103",
     "direction": "fr_to_en",
     "answer": "Where is the post office?",
@@ -7560,7 +7584,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00373",
+    "answer_id": "AE00376",
     "sentence_id": "S66105",
     "direction": "fr_to_en",
     "answer": "Here is the post office.",
@@ -7568,7 +7592,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00374",
+    "answer_id": "AE00377",
     "sentence_id": "S67101",
     "direction": "fr_to_en",
     "answer": "What's the bus schedule?",
@@ -7576,7 +7600,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00375",
+    "answer_id": "AE00378",
     "sentence_id": "S67102",
     "direction": "fr_to_en",
     "answer": "The schedule is at the station.",
@@ -7584,7 +7608,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00376",
+    "answer_id": "AE00379",
     "sentence_id": "S67103",
     "direction": "fr_to_en",
     "answer": "Do you have the schedule?",
@@ -7592,7 +7616,15 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00377",
+    "answer_id": "AE00380",
+    "sentence_id": "S67111",
+    "direction": "fr_to_en",
+    "answer": "Where is the harbor?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00381",
     "sentence_id": "S68103",
     "direction": "fr_to_en",
     "answer": "Here are the passengers.",
@@ -7600,7 +7632,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00378",
+    "answer_id": "AE00382",
     "sentence_id": "S71107",
     "direction": "fr_to_en",
     "answer": "The store is next to the bank.",
@@ -7608,7 +7640,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00379",
+    "answer_id": "AE00383",
     "sentence_id": "S71109",
     "direction": "fr_to_en",
     "answer": "I've lived here since I was a child.",
@@ -7616,7 +7648,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00380",
+    "answer_id": "AE00384",
     "sentence_id": "S73108",
     "direction": "fr_to_en",
     "answer": "Every day, I change my shirt.",
@@ -7624,7 +7656,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00381",
+    "answer_id": "AE00385",
     "sentence_id": "S73137",
     "direction": "fr_to_en",
     "answer": "On Saturday, I get money.",
@@ -7632,7 +7664,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00382",
+    "answer_id": "AE00386",
     "sentence_id": "S74107",
     "direction": "fr_to_en",
     "answer": "At night, I play the guitar.",
@@ -7640,7 +7672,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00383",
+    "answer_id": "AE00387",
     "sentence_id": "S74107",
     "direction": "en_to_fr",
     "answer": "À noite, toco violão.",
@@ -7648,7 +7680,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00384",
+    "answer_id": "AE00388",
     "sentence_id": "S74109",
     "direction": "fr_to_en",
     "answer": "Can you play guitar?",
@@ -7656,7 +7688,95 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00385",
+    "answer_id": "AE00389",
+    "sentence_id": "S75115",
+    "direction": "fr_to_en",
+    "answer": "It's one kilometre.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00390",
+    "sentence_id": "S75116",
+    "direction": "fr_to_en",
+    "answer": "It's a kilometre away.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00391",
+    "sentence_id": "S75117",
+    "direction": "fr_to_en",
+    "answer": "I live a kilometre from the school.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00392",
+    "sentence_id": "S75118",
+    "direction": "fr_to_en",
+    "answer": "It's ten kilometres.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00393",
+    "sentence_id": "S75119",
+    "direction": "fr_to_en",
+    "answer": "It's five kilometres away.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00394",
+    "sentence_id": "S75120",
+    "direction": "fr_to_en",
+    "answer": "It's one metre.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00395",
+    "sentence_id": "S75121",
+    "direction": "fr_to_en",
+    "answer": "The table is one metre long.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00396",
+    "sentence_id": "S75122",
+    "direction": "fr_to_en",
+    "answer": "She's one metre sixty tall.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00397",
+    "sentence_id": "S75123",
+    "direction": "fr_to_en",
+    "answer": "It's a hundred metres away.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00398",
+    "sentence_id": "S75124",
+    "direction": "fr_to_en",
+    "answer": "It's twenty metres.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00399",
+    "sentence_id": "S75125",
+    "direction": "fr_to_en",
+    "answer": "The river is fifty metres away.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00400",
     "sentence_id": "S26102",
     "direction": "fr_to_en",
     "answer": "No prob.",
@@ -7664,7 +7784,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00386",
+    "answer_id": "AE00401",
     "sentence_id": "S28105",
     "direction": "fr_to_en",
     "answer": "Here is the ambulance.",
@@ -7672,7 +7792,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00387",
+    "answer_id": "AE00402",
     "sentence_id": "S28106",
     "direction": "fr_to_en",
     "answer": "Now, the ambulance is coming.",
@@ -7680,7 +7800,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00388",
+    "answer_id": "AE00403",
     "sentence_id": "S28106",
     "direction": "en_to_fr",
     "answer": "Agora, a ambulância vem.",
@@ -7688,7 +7808,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00389",
+    "answer_id": "AE00404",
     "sentence_id": "S83101",
     "direction": "fr_to_en",
     "answer": "Go straight on.",
@@ -7696,7 +7816,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00390",
+    "answer_id": "AE00405",
     "sentence_id": "S85102",
     "direction": "fr_to_en",
     "answer": "Here are my grandparents.",
@@ -7704,7 +7824,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00391",
+    "answer_id": "AE00406",
     "sentence_id": "S87103",
     "direction": "fr_to_en",
     "answer": "Here are the police.",
@@ -7712,7 +7832,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00392",
+    "answer_id": "AE00407",
     "sentence_id": "S88116",
     "direction": "fr_to_en",
     "answer": "I'm unmarried.",
@@ -7720,7 +7840,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00393",
+    "answer_id": "AE00408",
     "sentence_id": "S89104",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I'll send the letter.",
@@ -7728,7 +7848,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00394",
+    "answer_id": "AE00409",
     "sentence_id": "S89104",
     "direction": "en_to_fr",
     "answer": "Amanhã, envio a carta.",
@@ -7736,7 +7856,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00395",
+    "answer_id": "AE00410",
     "sentence_id": "S89105",
     "direction": "fr_to_en",
     "answer": "Every day, I send an email.",
@@ -7744,7 +7864,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00396",
+    "answer_id": "AE00411",
     "sentence_id": "S89108",
     "direction": "fr_to_en",
     "answer": "Today, I'm sending the letter.",
@@ -7752,7 +7872,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00397",
+    "answer_id": "AE00412",
     "sentence_id": "S89108",
     "direction": "en_to_fr",
     "answer": "Hoje, mando a carta.",
@@ -7760,7 +7880,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00398",
+    "answer_id": "AE00413",
     "sentence_id": "S91107",
     "direction": "fr_to_en",
     "answer": "Every day, I eat vegetables.",
@@ -7768,7 +7888,31 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00399",
+    "answer_id": "AE00414",
+    "sentence_id": "S91117",
+    "direction": "fr_to_en",
+    "answer": "I want a litre of milk.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00415",
+    "sentence_id": "S91118",
+    "direction": "fr_to_en",
+    "answer": "A litre of water, please.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00416",
+    "sentence_id": "S91119",
+    "direction": "fr_to_en",
+    "answer": "How much is a litre of juice?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00417",
     "sentence_id": "S91132",
     "direction": "fr_to_en",
     "answer": "Every day, I make lunch.",
@@ -7776,7 +7920,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00400",
+    "answer_id": "AE00418",
     "sentence_id": "S92114",
     "direction": "fr_to_en",
     "answer": "I'm going to turn off my mobile phone.",
@@ -7784,7 +7928,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00401",
+    "answer_id": "AE00419",
     "sentence_id": "S93104",
     "direction": "fr_to_en",
     "answer": "I've got a toothache.",
@@ -7792,7 +7936,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00402",
+    "answer_id": "AE00420",
     "sentence_id": "S93111",
     "direction": "fr_to_en",
     "answer": "Today, Ana has a cold.",
@@ -7800,7 +7944,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00403",
+    "answer_id": "AE00421",
     "sentence_id": "S93111",
     "direction": "en_to_fr",
     "answer": "Hoje, a Ana está resfriada.",
@@ -7808,7 +7952,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00404",
+    "answer_id": "AE00422",
     "sentence_id": "S93116",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I'm going to the clinic.",
@@ -7816,7 +7960,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00405",
+    "answer_id": "AE00423",
     "sentence_id": "S93116",
     "direction": "en_to_fr",
     "answer": "Amanhã, vou à clínica.",
@@ -7824,7 +7968,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00406",
+    "answer_id": "AE00424",
     "sentence_id": "S93122",
     "direction": "fr_to_en",
     "answer": "In the morning, I take a pill.",
@@ -7832,7 +7976,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00407",
+    "answer_id": "AE00425",
     "sentence_id": "S93122",
     "direction": "en_to_fr",
     "answer": "De manhã, tomo um comprimido.",
@@ -7840,7 +7984,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00408",
+    "answer_id": "AE00426",
     "sentence_id": "S94128",
     "direction": "en_to_fr",
     "answer": "Hoje, tem jogo no ginásio.",
@@ -7848,7 +7992,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00409",
+    "answer_id": "AE00427",
     "sentence_id": "S94132",
     "direction": "fr_to_en",
     "answer": "In the morning, I take out the trash.",
@@ -7856,7 +8000,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00410",
+    "answer_id": "AE00428",
     "sentence_id": "S94132",
     "direction": "fr_to_en",
     "answer": "I take out the rubbish in the morning.",
@@ -7864,7 +8008,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00411",
+    "answer_id": "AE00429",
     "sentence_id": "S94132",
     "direction": "fr_to_en",
     "answer": "In the morning, I take out the rubbish.",
@@ -7872,7 +8016,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00412",
+    "answer_id": "AE00430",
     "sentence_id": "S94132",
     "direction": "en_to_fr",
     "answer": "De manhã, eu tiro o lixo.",
@@ -7880,7 +8024,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00413",
+    "answer_id": "AE00431",
     "sentence_id": "S34203",
     "direction": "fr_to_en",
     "answer": "I can not.",
@@ -7888,7 +8032,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00414",
+    "answer_id": "AE00432",
     "sentence_id": "S34208",
     "direction": "fr_to_en",
     "answer": "Can I speak to Tom?",
@@ -7896,7 +8040,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00415",
+    "answer_id": "AE00433",
     "sentence_id": "S34208",
     "direction": "fr_to_en",
     "answer": "May I talk to Tom?",
@@ -7904,7 +8048,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00416",
+    "answer_id": "AE00434",
     "sentence_id": "S34208",
     "direction": "fr_to_en",
     "answer": "May I speak with Tom?",
@@ -7912,7 +8056,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00417",
+    "answer_id": "AE00435",
     "sentence_id": "S34208",
     "direction": "fr_to_en",
     "answer": "Can I speak with Tom?",
@@ -7920,7 +8064,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00418",
+    "answer_id": "AE00436",
     "sentence_id": "S42202",
     "direction": "fr_to_en",
     "answer": "Do you have a mobile phone?",
@@ -7928,7 +8072,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00419",
+    "answer_id": "AE00437",
     "sentence_id": "S42203",
     "direction": "fr_to_en",
     "answer": "She's seventeen.",
@@ -7936,7 +8080,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00420",
+    "answer_id": "AE00438",
     "sentence_id": "S42203",
     "direction": "fr_to_en",
     "answer": "She is aged seventeen.",
@@ -7944,7 +8088,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00421",
+    "answer_id": "AE00439",
     "sentence_id": "S55201",
     "direction": "fr_to_en",
     "answer": "Today, we have an examination in English.",
@@ -7952,7 +8096,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00422",
+    "answer_id": "AE00440",
     "sentence_id": "S55201",
     "direction": "en_to_fr",
     "answer": "Temos exame de inglês hoje.",
@@ -7960,7 +8104,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00423",
+    "answer_id": "AE00441",
     "sentence_id": "S55202",
     "direction": "fr_to_en",
     "answer": "Today, we have no class.",
@@ -7968,7 +8112,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00424",
+    "answer_id": "AE00442",
     "sentence_id": "S55207",
     "direction": "fr_to_en",
     "answer": "Could I use your pencil?",
@@ -7976,7 +8120,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00425",
+    "answer_id": "AE00443",
     "sentence_id": "S55214",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I have to study.",
@@ -7984,7 +8128,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00426",
+    "answer_id": "AE00444",
     "sentence_id": "S55214",
     "direction": "en_to_fr",
     "answer": "Amanhã, tenho que estudar.",
@@ -7992,7 +8136,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00427",
+    "answer_id": "AE00445",
     "sentence_id": "S35203",
     "direction": "fr_to_en",
     "answer": "I know that I am wrong.",
@@ -8000,7 +8144,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00428",
+    "answer_id": "AE00446",
     "sentence_id": "S45204",
     "direction": "fr_to_en",
     "answer": "Which country are you from?",
@@ -8008,7 +8152,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00429",
+    "answer_id": "AE00447",
     "sentence_id": "S45206",
     "direction": "fr_to_en",
     "answer": "This is where I live.",
@@ -8016,7 +8160,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00430",
+    "answer_id": "AE00448",
     "sentence_id": "S56205",
     "direction": "fr_to_en",
     "answer": "Tom's interesting.",
@@ -8024,7 +8168,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00431",
+    "answer_id": "AE00449",
     "sentence_id": "S47204",
     "direction": "fr_to_en",
     "answer": "I need more.",
@@ -8032,7 +8176,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00432",
+    "answer_id": "AE00450",
     "sentence_id": "S47206",
     "direction": "fr_to_en",
     "answer": "I don't want this.",
@@ -8040,7 +8184,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00433",
+    "answer_id": "AE00451",
     "sentence_id": "S47207",
     "direction": "fr_to_en",
     "answer": "I want to talk with him.",
@@ -8048,7 +8192,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00434",
+    "answer_id": "AE00452",
     "sentence_id": "S57201",
     "direction": "fr_to_en",
     "answer": "Today, it's very hot.",
@@ -8056,7 +8200,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00435",
+    "answer_id": "AE00453",
     "sentence_id": "S57201",
     "direction": "en_to_fr",
     "answer": "Está muito quente hoje.",
@@ -8064,7 +8208,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00436",
+    "answer_id": "AE00454",
     "sentence_id": "S57202",
     "direction": "fr_to_en",
     "answer": "It's not easy for him to learn English.",
@@ -8072,7 +8216,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00437",
+    "answer_id": "AE00455",
     "sentence_id": "S57207",
     "direction": "fr_to_en",
     "answer": "There's no hot water.",
@@ -8080,7 +8224,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00438",
+    "answer_id": "AE00456",
     "sentence_id": "S57209",
     "direction": "fr_to_en",
     "answer": "Tom is weak.",
@@ -8088,7 +8232,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00439",
+    "answer_id": "AE00457",
     "sentence_id": "S48203",
     "direction": "fr_to_en",
     "answer": "What's the price?",
@@ -8096,7 +8240,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00440",
+    "answer_id": "AE00458",
     "sentence_id": "S48203",
     "direction": "fr_to_en",
     "answer": "What's the price tagged on it?",
@@ -8104,7 +8248,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00441",
+    "answer_id": "AE00459",
     "sentence_id": "S61201",
     "direction": "fr_to_en",
     "answer": "We don't have too much time.",
@@ -8112,7 +8256,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00442",
+    "answer_id": "AE00460",
     "sentence_id": "S61201",
     "direction": "fr_to_en",
     "answer": "We're running out of time.",
@@ -8120,7 +8264,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00443",
+    "answer_id": "AE00461",
     "sentence_id": "S71202",
     "direction": "fr_to_en",
     "answer": "What is it?",
@@ -8128,7 +8272,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00444",
+    "answer_id": "AE00462",
     "sentence_id": "S71202",
     "direction": "fr_to_en",
     "answer": "What's this?",
@@ -8136,7 +8280,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00445",
+    "answer_id": "AE00463",
     "sentence_id": "S71204",
     "direction": "fr_to_en",
     "answer": "There is a book on the desk.",
@@ -8144,7 +8288,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00446",
+    "answer_id": "AE00464",
     "sentence_id": "S71205",
     "direction": "fr_to_en",
     "answer": "I like the colour orange.",
@@ -8152,7 +8296,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00447",
+    "answer_id": "AE00465",
     "sentence_id": "S71210",
     "direction": "fr_to_en",
     "answer": "What is that over there?",
@@ -8160,7 +8304,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00448",
+    "answer_id": "AE00466",
     "sentence_id": "S71213",
     "direction": "fr_to_en",
     "answer": "We're from France.",
@@ -8168,7 +8312,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00449",
+    "answer_id": "AE00467",
     "sentence_id": "S71214",
     "direction": "fr_to_en",
     "answer": "Tom doesn't want to talk about this.",
@@ -8176,7 +8320,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00450",
+    "answer_id": "AE00468",
     "sentence_id": "S71214",
     "direction": "fr_to_en",
     "answer": "Tom doesn't want to talk about that.",
@@ -8184,7 +8328,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00451",
+    "answer_id": "AE00469",
     "sentence_id": "S71216",
     "direction": "fr_to_en",
     "answer": "Today, it's Tom's birthday!",
@@ -8192,7 +8336,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00452",
+    "answer_id": "AE00470",
     "sentence_id": "S71216",
     "direction": "en_to_fr",
     "answer": "É o aniversário do Tom hoje!",
@@ -8200,7 +8344,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00453",
+    "answer_id": "AE00471",
     "sentence_id": "S71221",
     "direction": "fr_to_en",
     "answer": "There's a park near my house.",
@@ -8208,7 +8352,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00454",
+    "answer_id": "AE00472",
     "sentence_id": "S62203",
     "direction": "fr_to_en",
     "answer": "Who is this lady?",
@@ -8216,7 +8360,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00455",
+    "answer_id": "AE00473",
     "sentence_id": "S62205",
     "direction": "fr_to_en",
     "answer": "This tea tastes good.",
@@ -8224,7 +8368,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00456",
+    "answer_id": "AE00474",
     "sentence_id": "S62208",
     "direction": "fr_to_en",
     "answer": "This is a very good tea.",
@@ -8232,7 +8376,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00457",
+    "answer_id": "AE00475",
     "sentence_id": "S62212",
     "direction": "fr_to_en",
     "answer": "The bicycle is mine.",
@@ -8240,7 +8384,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00458",
+    "answer_id": "AE00476",
     "sentence_id": "S62215",
     "direction": "fr_to_en",
     "answer": "I always feel hungry.",
@@ -8248,7 +8392,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00459",
+    "answer_id": "AE00477",
     "sentence_id": "S62217",
     "direction": "fr_to_en",
     "answer": "This tree is more than a century old.",
@@ -8256,7 +8400,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00460",
+    "answer_id": "AE00478",
     "sentence_id": "S62219",
     "direction": "fr_to_en",
     "answer": "What color is this fish?",
@@ -8264,7 +8408,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00461",
+    "answer_id": "AE00479",
     "sentence_id": "S62220",
     "direction": "fr_to_en",
     "answer": "This tree is very tall.",
@@ -8272,7 +8416,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00462",
+    "answer_id": "AE00480",
     "sentence_id": "S72201",
     "direction": "fr_to_en",
     "answer": "I don't know if it'll rain tomorrow.",
@@ -8280,7 +8424,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00463",
+    "answer_id": "AE00481",
     "sentence_id": "S72201",
     "direction": "fr_to_en",
     "answer": "I don't know if it will rain tomorrow.",
@@ -8288,7 +8432,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00464",
+    "answer_id": "AE00482",
     "sentence_id": "S72201",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I do not know if it will rain.",
@@ -8296,7 +8440,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00465",
+    "answer_id": "AE00483",
     "sentence_id": "S72201",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I don't know if it'll rain.",
@@ -8304,7 +8448,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00466",
+    "answer_id": "AE00484",
     "sentence_id": "S72201",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I don't know if it will rain.",
@@ -8312,7 +8456,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00467",
+    "answer_id": "AE00485",
     "sentence_id": "S72202",
     "direction": "fr_to_en",
     "answer": "Tomorrow, I can't tell if it will be raining.",
@@ -8320,7 +8464,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00468",
+    "answer_id": "AE00486",
     "sentence_id": "S38202",
     "direction": "fr_to_en",
     "answer": "Later, I'll look at that.",
@@ -8328,7 +8472,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00469",
+    "answer_id": "AE00487",
     "sentence_id": "S64203",
     "direction": "fr_to_en",
     "answer": "Where are you from?",
@@ -8336,7 +8480,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00470",
+    "answer_id": "AE00488",
     "sentence_id": "S64207",
     "direction": "fr_to_en",
     "answer": "I'm going to watch a film.",
@@ -8344,7 +8488,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00471",
+    "answer_id": "AE00489",
     "sentence_id": "S64210",
     "direction": "fr_to_en",
     "answer": "Today, he isn't coming.",
@@ -8352,7 +8496,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00472",
+    "answer_id": "AE00490",
     "sentence_id": "S64210",
     "direction": "en_to_fr",
     "answer": "Hoje, ele não vem.",
@@ -8360,7 +8504,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00473",
+    "answer_id": "AE00491",
     "sentence_id": "S64211",
     "direction": "fr_to_en",
     "answer": "It's a new film theater.",
@@ -8368,7 +8512,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00474",
+    "answer_id": "AE00492",
     "sentence_id": "S64211",
     "direction": "fr_to_en",
     "answer": "It's a new movie theatre.",
@@ -8376,7 +8520,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00475",
+    "answer_id": "AE00493",
     "sentence_id": "S64215",
     "direction": "fr_to_en",
     "answer": "This is a very interesting movie.",
@@ -8384,7 +8528,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00476",
+    "answer_id": "AE00494",
     "sentence_id": "S64217",
     "direction": "en_to_fr",
     "answer": "Agora, vamos sair do carro.",
@@ -8392,7 +8536,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00477",
+    "answer_id": "AE00495",
     "sentence_id": "S65202",
     "direction": "fr_to_en",
     "answer": "I am working.",
@@ -8400,7 +8544,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00478",
+    "answer_id": "AE00496",
     "sentence_id": "S65204",
     "direction": "fr_to_en",
     "answer": "What are you going to do?",
@@ -8408,7 +8552,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00479",
+    "answer_id": "AE00497",
     "sentence_id": "S65204",
     "direction": "fr_to_en",
     "answer": "What'll you do?",
@@ -8416,7 +8560,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00480",
+    "answer_id": "AE00498",
     "sentence_id": "S65204",
     "direction": "fr_to_en",
     "answer": "What're you going to do?",
@@ -8424,7 +8568,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00481",
+    "answer_id": "AE00499",
     "sentence_id": "S65209",
     "direction": "fr_to_en",
     "answer": "Tomorrow, he is going to start.",
@@ -8432,7 +8576,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00482",
+    "answer_id": "AE00500",
     "sentence_id": "S65209",
     "direction": "en_to_fr",
     "answer": "Amanhã, ele vai começar.",
@@ -8440,7 +8584,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00483",
+    "answer_id": "AE00501",
     "sentence_id": "S65212",
     "direction": "fr_to_en",
     "answer": "At night, I go to bed late.",
@@ -8448,7 +8592,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00484",
+    "answer_id": "AE00502",
     "sentence_id": "S65220",
     "direction": "fr_to_en",
     "answer": "I can't do this anymore.",
@@ -8456,7 +8600,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00485",
+    "answer_id": "AE00503",
     "sentence_id": "S73203",
     "direction": "fr_to_en",
     "answer": "You'll miss the train.",
@@ -8464,7 +8608,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00486",
+    "answer_id": "AE00504",
     "sentence_id": "S73203",
     "direction": "fr_to_en",
     "answer": "You're going to miss the train.",
@@ -8472,7 +8616,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00487",
+    "answer_id": "AE00505",
     "sentence_id": "S73205",
     "direction": "fr_to_en",
     "answer": "This afternoon, she is going to wash the bike.",
@@ -8480,7 +8624,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00488",
+    "answer_id": "AE00506",
     "sentence_id": "S66201",
     "direction": "fr_to_en",
     "answer": "Can you open the door?",
@@ -8488,7 +8632,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00489",
+    "answer_id": "AE00507",
     "sentence_id": "S66202",
     "direction": "fr_to_en",
     "answer": "I cannot open it!",
@@ -8496,7 +8640,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00490",
+    "answer_id": "AE00508",
     "sentence_id": "S66203",
     "direction": "fr_to_en",
     "answer": "This shop closes at nine.",
@@ -8504,7 +8648,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00491",
+    "answer_id": "AE00509",
     "sentence_id": "S66206",
     "direction": "fr_to_en",
     "answer": "The shop is open.",
@@ -8512,7 +8656,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00492",
+    "answer_id": "AE00510",
     "sentence_id": "S66207",
     "direction": "fr_to_en",
     "answer": "When does the shop open?",
@@ -8520,7 +8664,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00493",
+    "answer_id": "AE00511",
     "sentence_id": "S39204",
     "direction": "fr_to_en",
     "answer": "I think that Tom likes Mary.",
@@ -8528,7 +8672,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00494",
+    "answer_id": "AE00512",
     "sentence_id": "S39206",
     "direction": "fr_to_en",
     "answer": "Perhaps it'll snow tomorrow.",
@@ -8536,7 +8680,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00495",
+    "answer_id": "AE00513",
     "sentence_id": "S39206",
     "direction": "en_to_fr",
     "answer": "Amanhã, talvez neve.",
@@ -8544,7 +8688,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00496",
+    "answer_id": "AE00514",
     "sentence_id": "S69204",
     "direction": "fr_to_en",
     "answer": "Please speak up.",
@@ -8552,7 +8696,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00497",
+    "answer_id": "AE00515",
     "sentence_id": "S69207",
     "direction": "fr_to_en",
     "answer": "Shut the book.",
@@ -8560,7 +8704,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00498",
+    "answer_id": "AE00516",
     "sentence_id": "S81201",
     "direction": "fr_to_en",
     "answer": "There's no food left.",
@@ -8568,7 +8712,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00499",
+    "answer_id": "AE00517",
     "sentence_id": "S26204",
     "direction": "fr_to_en",
     "answer": "Can you give me a hand with this table?",
@@ -8576,7 +8720,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00500",
+    "answer_id": "AE00518",
     "sentence_id": "S26205",
     "direction": "fr_to_en",
     "answer": "There's no problem.",
@@ -8584,7 +8728,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00501",
+    "answer_id": "AE00519",
     "sentence_id": "S26208",
     "direction": "fr_to_en",
     "answer": "Someone's at the door.",
@@ -8592,7 +8736,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00502",
+    "answer_id": "AE00520",
     "sentence_id": "S26210",
     "direction": "fr_to_en",
     "answer": "Can someone open the door, please?",
@@ -8600,7 +8744,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00503",
+    "answer_id": "AE00521",
     "sentence_id": "S84201",
     "direction": "fr_to_en",
     "answer": "When will you leave?",
@@ -8608,7 +8752,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00504",
+    "answer_id": "AE00522",
     "sentence_id": "S84201",
     "direction": "fr_to_en",
     "answer": "When are you off?",
@@ -8616,7 +8760,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00505",
+    "answer_id": "AE00523",
     "sentence_id": "S84202",
     "direction": "fr_to_en",
     "answer": "This isn't the first time.",
@@ -8624,7 +8768,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00506",
+    "answer_id": "AE00524",
     "sentence_id": "S84204",
     "direction": "fr_to_en",
     "answer": "Today, I think I'll leave early.",
@@ -8632,7 +8776,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00507",
+    "answer_id": "AE00525",
     "sentence_id": "S84204",
     "direction": "en_to_fr",
     "answer": "Hoje, acho que vou partir cedo.",
@@ -8640,7 +8784,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00508",
+    "answer_id": "AE00526",
     "sentence_id": "S85201",
     "direction": "en_to_fr",
     "answer": "Hoje, é o aniversário da minha avó.",
@@ -8648,7 +8792,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00509",
+    "answer_id": "AE00527",
     "sentence_id": "S85213",
     "direction": "fr_to_en",
     "answer": "I think she has two children.",
@@ -8656,7 +8800,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00510",
+    "answer_id": "AE00528",
     "sentence_id": "S85214",
     "direction": "fr_to_en",
     "answer": "I think he has two children.",
@@ -8664,7 +8808,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00511",
+    "answer_id": "AE00529",
     "sentence_id": "S93201",
     "direction": "fr_to_en",
     "answer": "At night, he sits up till late.",
@@ -8672,7 +8816,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00512",
+    "answer_id": "AE00530",
     "sentence_id": "S93202",
     "direction": "fr_to_en",
     "answer": "Today, I feel bad.",
@@ -8680,7 +8824,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00513",
+    "answer_id": "AE00531",
     "sentence_id": "S93202",
     "direction": "en_to_fr",
     "answer": "Hoje, me sinto mal.",
@@ -8688,7 +8832,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00514",
+    "answer_id": "AE00532",
     "sentence_id": "S93206",
     "direction": "fr_to_en",
     "answer": "Now, I feel stronger.",
@@ -8696,7 +8840,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00515",
+    "answer_id": "AE00533",
     "sentence_id": "S93206",
     "direction": "en_to_fr",
     "answer": "Me sinto mais forte agora.",
@@ -8704,7 +8848,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00516",
+    "answer_id": "AE00534",
     "sentence_id": "S28201",
     "direction": "fr_to_en",
     "answer": "I lost my key.",
@@ -8712,7 +8856,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00517",
+    "answer_id": "AE00535",
     "sentence_id": "S28201",
     "direction": "fr_to_en",
     "answer": "I've lost my key.",
@@ -8720,7 +8864,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00518",
+    "answer_id": "AE00536",
     "sentence_id": "S28202",
     "direction": "fr_to_en",
     "answer": "I got lost in the woods.",
@@ -8728,7 +8872,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00519",
+    "answer_id": "AE00537",
     "sentence_id": "S88201",
     "direction": "fr_to_en",
     "answer": "I'm married.",
@@ -8736,7 +8880,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00520",
+    "answer_id": "AE00538",
     "sentence_id": "S88202",
     "direction": "fr_to_en",
     "answer": "I'm married and I have a daughter.",
@@ -8744,7 +8888,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00521",
+    "answer_id": "AE00539",
     "sentence_id": "S88206",
     "direction": "fr_to_en",
     "answer": "Now, Tom is married.",
@@ -8752,7 +8896,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00522",
+    "answer_id": "AE00540",
     "sentence_id": "S88206",
     "direction": "en_to_fr",
     "answer": "Agora, o Tom é casado.",
@@ -8760,7 +8904,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00523",
+    "answer_id": "AE00541",
     "sentence_id": "S95201",
     "direction": "fr_to_en",
     "answer": "I've lost my wallet.",
@@ -8768,7 +8912,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00524",
+    "answer_id": "AE00542",
     "sentence_id": "S95202",
     "direction": "fr_to_en",
     "answer": "Is there a lift?",

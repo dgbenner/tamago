@@ -730,7 +730,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W089 | Auto | Auto | Noun | n | car | checked |
 | W090 | kein | kein | Pronoun |  | no; not a; not one; not any | checked |
 | W091 | keine | keine | Pronoun |  | feminine nominative/accusative of kein | checked |
-| W092 | keinen | keinen | Pronoun |  | accusative masculine of kein | checked |
+| W092 | keinen | keinen | Pronoun |  | accusative masculine of kein (keinen: no; not a; not one; not any) | checked |
 | W093 | Zeit | Zeit | Noun | f | time | checked |
 | W094 | Geld | Geld | Noun | n | money | checked |
 | W095 | Problem | Problem | Noun | n | problem | checked |
@@ -763,7 +763,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W122 | acht | acht | Numeral |  | eight | checked |
 | W123 | neun | neun | Numeral |  | nine | checked |
 | W124 | zehn | zehn | Numeral |  | ten | checked |
-| W125 | wie viele | wie viele | Determiner |  | form of wie viel | checked |
+| W125 | wie viele | wie viele | Determiner |  | form of wie viel (wie viele: how much; how many) | checked |
 | W126 | gibt | geben | Verb |  | third-person singular present of geben (geben: Used to indicate that something exists. Usually translated as there is/are or there exist [with accusative]) | checked |
 | W127 | rot | rot | Adjective |  | red | checked |
 | W128 | blau | blau | Adjective |  | blue | checked |
@@ -857,7 +857,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W607 | Boot | Boot | Noun | n | boat | checked |
 | W701 | verstehe | verstehen | Verb |  | inflection of verstehen: first-person singular present singular imperative (verstehen: to understand to hear and interpret) | checked |
 | W702 | verstehst | verstehen | Verb |  | second-person singular present of verstehen (verstehen: to understand to hear and interpret) | checked |
-| W703 | langsamer | langsamer | Adjective |  | comparative degree of langsam | checked |
+| W703 | langsamer | langsamer | Adjective |  | comparative degree of langsam (langsamer: slow) | checked |
 | W704 | noch einmal | noch einmal | Adverb |  | one more time, again | checked |
 | W705 | sprich | sprechen | Verb |  | singular imperative of sprechen (sprechen: to speak) | checked |
 | W706 | wiederholen | wiederholen | Verb |  | to repeat | checked |
@@ -950,7 +950,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W829 | Alter | Alter | Noun | n | age, old age | checked |
 | W830 | Geburtstag | Geburtstag | Noun | m | birthday | checked |
 | W831 | Monate | Monat | Noun |  | nominative/accusative/genitive plural of Monat (Monat: month) | checked |
-| W832 | geboren | geboren | Participle |  | past participle of gebären | checked |
+| W832 | geboren | gebären | Participle |  | past participle of gebären (gebären: to give birth; referring to labour, or to labour and pregnancy as a whole) | checked |
 | W833 | Moment | Moment | Noun | m | moment | checked |
 | W834 | Augenblick | Augenblick | Noun | m | moment, instant, blink of an eye | checked |
 | W835 | richtig | richtig | Adjective |  | correct, accurate, right | checked |
@@ -998,7 +998,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W877 | brauche | brauchen | Verb |  | inflection of brauchen: first-person singular present first/third-person singular subjunctive I singular imperative (brauchen: to need, to be in need of, to require [with accusative or genitive ‘something/someone’]) | checked |
 | W878 | genau | genau | Adverb |  | just, exactly | checked |
 | W879 | klar | klar | Interjection |  | okay!; sure!; all right!; spontaneous agreement to a proposition | checked |
-| W880 | verstanden | verstanden | Participle |  | past participle of verstehen | checked |
+| W880 | verstanden | verstehen | Participle |  | past participle of verstehen (verstehen: to understand to hear and interpret) | checked |
 | W881 | stimmt | stimmen | Verb |  | third-person singular present of stimmen (stimmen: to be right, to be correct, to be proper, to be true) | checked |
 | W882 | kostet | kosten | Verb |  | inflection of kosten: third-person singular present second-person plural present second-person plural subjunctive I plural imperative (kosten: to cost [with accusative or dative]) | checked |
 | W883 | kosten | kosten | Verb |  | to cost [with accusative or dative] | checked |
@@ -1123,7 +1123,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1215 | gerade | gerade | Adverb |  | now | checked |
 | W1216 | gleich | gleich | Adverb |  | in a moment | checked |
 | W1217 | entschuldigen | entschuldigen | Verb |  | to excuse | checked |
-| W1218 | gehört | gehört | Participle |  | past participle of hören | checked |
+| W1218 | gehört | hören | Participle |  | past participle of hören (hören: to hear) | checked |
 | W1219 | sagen | sagen | Verb |  | to say | checked |
 | W1220 | Dienstag | Dienstag | Noun | m | Tuesday | checked |
 | W1221 | Mittwoch | Mittwoch | Noun | m | Wednesday | checked |
@@ -1132,7 +1132,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1224 | Wochenende | Wochenende | Noun | n | weekend | checked |
 | W1225 | gestern | gestern | Adverb |  | yesterday | checked |
 | W1226 | nächste | nah | Adjective |  | inflection of nah: strong/mixed nominative/accusative feminine singular superlative degree strong nominative/accusative plural superlative degree weak nominative all-gender singular superlative degree weak accusative feminine/neuter singular superlative degree (nah: near , close, nearby) | checked |
-| W1227 | nächsten | nächsten | Adjective |  | superlative degree of nah | checked |
+| W1227 | nächsten | nächsten | Adjective |  | superlative degree of nah (nächsten: near , close, nearby) | checked |
 | W1228 | letzte | letzte | Adjective |  | last | checked |
 | W1229 | letzten | letzter | Adjective |  | inflection of letzter: strong genitive masculine/neuter singular weak/mixed genitive/dative all-gender singular strong/weak/mixed accusative masculine singular strong dative plural weak/mixed all-case plural (letzter: inflection of letzte: strong/mixed nominative masculine singular strong genitive/dative feminine singular strong genitive plural) | checked |
 | W1230 | jeden | jeder | Pronoun |  | inflection of jeder: strong/mixed accusative masculine singular mixed genitive/dative all-gender singular (jeder: each) | checked |
@@ -1398,7 +1398,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1655 | laufen | laufen | Verb |  | to walk; to jog; to run | checked |
 | W1656 | läuft | laufen | Verb |  | third-person singular present of laufen 'to run' (laufen: to walk; to jog; to run) | checked |
 | W1657 | zu Fuß | zu Fuß | Adverb |  | on foot, afoot | checked |
-| W1658 | Lkw | Lkw | Noun | m | alternative spelling of LKW | checked |
+| W1658 | Lkw | Lkw | Noun | m | alternative spelling of LKW (Lkw: initialism of Lastkraftwagen) | checked |
 | W1659 | Geschwister | Geschwister | Noun | n | sibling | checked |
 | W1660 | Großeltern | Großeltern | Noun |  | grandparents | checked |
 | W1661 | Oma | Oma | Noun | f | grandma, granny, nan | checked |
@@ -1475,7 +1475,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1732 | Grüße | Gruß | Noun |  | nominative/accusative/genitive plural of Gruß (Gruß: greeting) | checked |
 | W1733 | herzlich | herzlich | Adjective |  | warm, warmhearted, friendly, affectionate, cordial | checked |
 | W1734 | liebe | lieb | Adjective |  | inflection of lieb: strong/mixed nominative/accusative feminine singular strong nominative/accusative plural weak nominative all-gender singular weak accusative feminine/neuter singular (lieb: lovable; dear; darling; sweet; good-hearted; kind) | checked |
-| W1735 | lieber | lieber | Adjective |  | comparative degree of lieb | checked |
+| W1735 | lieber | lieber | Adjective |  | comparative degree of lieb (lieber: lovable; dear; darling; sweet; good-hearted; kind) | checked |
 | W1736 | Glückwunsch | Glückwunsch | Noun | m | congratulation | checked |
 | W1737 | gratulieren | gratulieren | Verb |  | to congratulate [with dative ‘someone’ and zu ‘on an occasion, e.g. a birthday’] | checked |
 | W1738 | gratuliere | gratulieren | Verb |  | inflection of gratulieren: first-person singular present first/third-person singular subjunctive I singular imperative (gratulieren: to congratulate [with dative ‘someone’ and zu ‘on an occasion, e.g. a birthday’]) | checked |
@@ -1560,7 +1560,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1863 | andere | anderer | Adjective |  | inflection of anderer: strong/mixed nominative/accusative feminine singular strong nominative/accusative plural weak nominative all-gender singular weak accusative feminine/neuter singular (anderer: other, different) | checked |
 | W1864 | diese | dieser | Pronoun |  | nominative feminine singular of dieser; "this" (dieser: this one, this) | checked |
 | W1865 | dieser | dieser | Pronoun |  | this one, this | checked |
-| W1866 | meisten | meisten | Adjective |  | superlative degree of viel | checked |
+| W1866 | meisten | meisten | Adjective |  | superlative degree of viel (meisten: much, a lot) | checked |
 | W1867 | eilig | eilig | Adjective |  | speedy, hasty | checked |
 | W1868 | sich | sich | Pronoun |  | Reflexive pronoun of the third person singular or plural: herself, himself, itself, oneself, themselves | checked |
 | W1869 | kümmern | kümmern | Verb |  | to take care, to look after [with um ‘of something/someone’] | checked |

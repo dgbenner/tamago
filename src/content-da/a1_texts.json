@@ -3,10 +3,10 @@
     "id": "R101",
     "unit_id": "U47",
     "kind": "sign",
-    "title": "På torvet",
+    "title": "Marked",
     "lines": [
       "Frugt og grøntsager",
-      "Æbler: 25 kroner kiloet",
+      "Et kilo æbler: 25",
       "Marked: mandag og lørdag"
     ],
     "questions": [
@@ -35,18 +35,17 @@
     "id": "R102",
     "unit_id": "U47",
     "kind": "notice",
-    "title": "Marked på torvet",
+    "title": "Marked",
     "lines": [
-      "Marked på torvet",
-      "Hver lørdag",
+      "Lørdag: marked",
       "Frugt, grøntsager, brød og ost"
     ],
     "questions": [
       {
         "question": "When is the market?",
         "choices": [
-          "On Saturdays",
-          "On Mondays",
+          "On Saturday",
+          "On Monday",
           "Every day"
         ],
         "answer": 0
@@ -67,10 +66,10 @@
     "id": "R103",
     "unit_id": "U47",
     "kind": "message",
-    "title": "En sms fra Anna",
+    "title": "Fra Anna",
     "lines": [
       "Lars!",
-      "Jeg er på torvet. Jeg køber frugt og grøntsager.",
+      "Jeg er på et marked. Jeg køber frugt og grøntsager.",
       "Skal jeg købe et æble til dig?",
       "Anna"
     ],
@@ -78,7 +77,7 @@
       {
         "question": "Where is Anna?",
         "choices": [
-          "At the market square",
+          "At a market",
           "At school",
           "In the park"
         ],
@@ -100,7 +99,7 @@
     "id": "R104",
     "unit_id": "U48",
     "kind": "menu",
-    "title": "Priser",
+    "title": "Hvad koster det?",
     "lines": [
       "Brød: 30 kroner",
       "Ost: 90 kroner",
@@ -133,11 +132,11 @@
     "id": "R105",
     "unit_id": "U48",
     "kind": "menu",
-    "title": "På caféen",
+    "title": "Kaffe og te",
     "lines": [
       "Kaffe: 35 kroner",
       "Te: 30 kroner",
-      "Æblekage: 45 kroner"
+      "Brød med ost: 45 kroner"
     ],
     "questions": [
       {
@@ -152,7 +151,7 @@
       {
         "question": "What costs the most?",
         "choices": [
-          "The apple cake",
+          "The bread with cheese",
           "The coffee",
           "The tea"
         ],
@@ -197,7 +196,7 @@
     "id": "R107",
     "unit_id": "U49",
     "kind": "message",
-    "title": "En sms fra Maria",
+    "title": "Fra Maria",
     "lines": [
       "Peter!",
       "Kan du købe en flaske mælk, en pakke kaffe og et kilo æbler?",
@@ -230,27 +229,27 @@
     "id": "R108",
     "unit_id": "U49",
     "kind": "sign",
-    "title": "I butikken",
+    "title": "I en butik",
     "lines": [
-      "Vand: seks flasker, 40 kroner",
-      "Chokolade: to æsker, 50 kroner"
+      "Mælk: en flaske, 15 kroner",
+      "Kaffe: en pakke, 50 kroner"
     ],
     "questions": [
       {
-        "question": "How many bottles do you get for 40 kroner?",
+        "question": "How much is a bottle of milk?",
         "choices": [
-          "Six",
-          "Four",
-          "Two"
+          "15 kroner",
+          "50 kroner",
+          "40 kroner"
         ],
         "answer": 0
       },
       {
         "question": "What costs 50 kroner?",
         "choices": [
-          "Two boxes of chocolates",
-          "Six bottles of water",
-          "One box of chocolates"
+          "A pack of coffee",
+          "A bottle of milk",
+          "A glass of water"
         ],
         "answer": 0
       }
@@ -261,20 +260,20 @@
     "id": "R109",
     "unit_id": "U49",
     "kind": "message",
-    "title": "Til festen",
+    "title": "Til en fest",
     "lines": [
-      "Til festen:",
-      "to flasker saftevand,",
-      "en æske chokolade,",
-      "masser af frugt!"
+      "en flaske vin,",
+      "en pakke kaffe,",
+      "et kilo æbler,",
+      "brød og ost!"
     ],
     "questions": [
       {
-        "question": "How many bottles of squash?",
+        "question": "What is there one bottle of?",
         "choices": [
-          "Two",
-          "One",
-          "Three"
+          "Wine",
+          "Milk",
+          "Water"
         ],
         "answer": 0
       },
@@ -294,9 +293,9 @@
     "id": "R201",
     "unit_id": "U62",
     "kind": "notice",
-    "title": "Butikken",
+    "title": "Butik",
     "lines": [
-      "Åbent mandag til fredag: 9.00 til 18.00",
+      "Mandag til fredag: 9.00 til 18.00",
       "Lørdag: 10.00 til 16.00",
       "Søndag: lukket"
     ],
@@ -326,16 +325,16 @@
     "id": "R202",
     "unit_id": "U62",
     "kind": "message",
-    "title": "En sms fra Lars",
+    "title": "Fra Lars",
     "lines": [
       "Anna!",
-      "Skal vi i biografen på onsdag? Jeg har fri onsdag og torsdag.",
-      "På lørdag arbejder jeg.",
+      "Skal vi se en film på onsdag? Jeg er hjemme onsdag og torsdag.",
+      "På lørdag skal jeg til København.",
       "Lars"
     ],
     "questions": [
       {
-        "question": "When is Lars free?",
+        "question": "When is Lars at home?",
         "choices": [
           "Wednesday and Thursday",
           "Saturday",
@@ -344,11 +343,11 @@
         "answer": 0
       },
       {
-        "question": "What does Lars do on Saturday?",
+        "question": "Where is Lars going on Saturday?",
         "choices": [
-          "He works",
-          "He goes to the cinema",
-          "He stays at home"
+          "To Copenhagen",
+          "To the cinema",
+          "To the market"
         ],
         "answer": 0
       }
@@ -359,9 +358,9 @@
     "id": "R203",
     "unit_id": "U62",
     "kind": "notice",
-    "title": "Museet",
+    "title": "Museum",
     "lines": [
-      "Museet er lukket om mandagen.",
+      "Museum: lukket mandag",
       "For børn: onsdag klokken 15.00"
     ],
     "questions": [
@@ -392,8 +391,8 @@
     "kind": "notice",
     "title": "Ferie",
     "lines": [
-      "Skolen er lukket fra den 20. december til den 6. januar.",
-      "Første skoledag: tirsdag den 7. januar"
+      "Skole: lukket fra den 20. december til den 6. januar",
+      "Skole igen: tirsdag den 7. januar"
     ],
     "questions": [
       {
@@ -423,9 +422,9 @@
     "kind": "sign",
     "title": "Fest",
     "lines": [
-      "Fest på torvet",
+      "Stor fest!",
       "Lørdag den 21. juni, 18.00",
-      "Musik og dans"
+      "Musik og sjov"
     ],
     "questions": [
       {
@@ -453,7 +452,7 @@
     "id": "R206",
     "unit_id": "U63",
     "kind": "message",
-    "title": "Et postkort fra Mette",
+    "title": "Fra Mette",
     "lines": [
       "I juli tager vi til havet.",
       "I december tager vi til Norge.",
@@ -485,7 +484,7 @@
     "id": "R207",
     "unit_id": "U66",
     "kind": "sign",
-    "title": "Ved butikken",
+    "title": "Butik",
     "lines": [
       "Indgang",
       "Åbent 9.00 til 19.00",
@@ -517,27 +516,27 @@
     "id": "R208",
     "unit_id": "U66",
     "kind": "sign",
-    "title": "På stationen",
+    "title": "Station",
     "lines": [
-      "Toilet: en etage op",
-      "Apotek: ved siden af udgangen",
-      "Information: ved indgangen"
+      "Toilet: ved udgang B",
+      "Apotek: ved udgang B",
+      "Information: ved indgang A"
     ],
     "questions": [
       {
         "question": "Where is the toilet?",
         "choices": [
-          "One floor up",
-          "Two floors up",
-          "Next to the exit"
+          "At exit B",
+          "At entrance A",
+          "On the train"
         ],
         "answer": 0
       },
       {
         "question": "Where can you get information?",
         "choices": [
-          "At the entrance",
-          "At the chemist's",
+          "At entrance A",
+          "At the pharmacy",
           "On the train"
         ],
         "answer": 0
@@ -549,15 +548,15 @@
     "id": "R209",
     "unit_id": "U66",
     "kind": "notice",
-    "title": "Bageren",
+    "title": "Mettes butik",
     "lines": [
-      "Mettes bageri",
+      "Brød og kaffe",
       "Åbent hver dag 7.00 til 18.00",
       "Nyt brød klokken 7.00 og 12.00"
     ],
     "questions": [
       {
-        "question": "Is the bakery open on Sunday?",
+        "question": "Is the shop open on Sunday?",
         "choices": [
           "Yes",
           "No",
@@ -615,16 +614,16 @@
     "kind": "timetable",
     "title": "Båd til Bornholm",
     "lines": [
-      "Afgang fra havnen: 7.00, 9.00, 11.00",
+      "Afgang: 7.00, 9.00, 11.00",
       "Søndag: en båd hver anden time"
     ],
     "questions": [
       {
-        "question": "Where does the boat leave from?",
+        "question": "What time is the first boat?",
         "choices": [
-          "The harbour",
-          "The station",
-          "The beach"
+          "7:00",
+          "9:00",
+          "11:00"
         ],
         "answer": 0
       },
@@ -644,9 +643,9 @@
     "id": "R212",
     "unit_id": "U67",
     "kind": "message",
-    "title": "En sms fra Peter",
+    "title": "Fra Peter",
     "lines": [
-      "Jeg er fremme på stationen 17.30.",
+      "Jeg er fremme i Aarhus 17.30.",
       "Mit tog kører fra København 15.00.",
       "Vi ses!"
     ],
@@ -665,7 +664,7 @@
         "choices": [
           "Copenhagen",
           "The airport",
-          "Aarhus"
+          "Odense"
         ],
         "answer": 0
       }
@@ -676,10 +675,10 @@
     "id": "R213",
     "unit_id": "U69",
     "kind": "notice",
-    "title": "I timen",
+    "title": "Øvelse",
     "lines": [
       "Lyt til teksten.",
-      "Svar på spørgsmålene.",
+      "Svar på et spørgsmål.",
       "Vælg et billede."
     ],
     "questions": [
@@ -687,7 +686,7 @@
         "question": "What do you do first?",
         "choices": [
           "Listen to the text",
-          "Answer the questions",
+          "Answer a question",
           "Choose a picture"
         ],
         "answer": 0
@@ -710,8 +709,8 @@
     "kind": "notice",
     "title": "Døren",
     "lines": [
-      "Luk døren, tak.",
-      "Husk: luk den langsomt."
+      "Luk døren.",
+      "Luk den langsomt, tak."
     ],
     "questions": [
       {
@@ -739,10 +738,10 @@
     "id": "R215",
     "unit_id": "U69",
     "kind": "notice",
-    "title": "Øvelsen",
+    "title": "Øvelse",
     "lines": [
       "Vælg et nummer.",
-      "Find siden i bogen.",
+      "Find siden i din bog.",
       "Læs teksten."
     ],
     "questions": [
@@ -771,15 +770,15 @@
     "id": "R301",
     "unit_id": "U82",
     "kind": "menu",
-    "title": "Dagens ret",
+    "title": "Restaurant",
     "lines": [
-      "Suppe, kylling med ris og salat",
+      "I dag: suppe, kylling med ris",
       "Dessert: is",
-      "125 kr."
+      "125 kroner"
     ],
     "questions": [
       {
-        "question": "How much is the dish of the day?",
+        "question": "How much is today's meal?",
         "choices": [
           "125 kroner",
           "25 kroner",
@@ -803,12 +802,12 @@
     "id": "R302",
     "unit_id": "U82",
     "kind": "menu",
-    "title": "Café Hjørnet",
+    "title": "Kaffe og kage",
     "lines": [
-      "Kaffe: 30 kr.",
-      "Te: 25 kr.",
-      "Wienerbrød: 35 kr.",
-      "Sandwich: 60 kr."
+      "Kaffe: 30 kroner",
+      "Te: 25 kroner",
+      "Kage: 35 kroner",
+      "Sandwich: 60 kroner"
     ],
     "questions": [
       {
@@ -825,7 +824,7 @@
         "choices": [
           "A tea",
           "A coffee",
-          "A Danish pastry"
+          "A cake"
         ],
         "answer": 0
       }
@@ -836,7 +835,7 @@
     "id": "R303",
     "unit_id": "U82",
     "kind": "notice",
-    "title": "Restaurant Fisken",
+    "title": "Restaurant",
     "lines": [
       "Fisk og kød",
       "Åbent tirsdag til søndag",
@@ -868,19 +867,19 @@
     "id": "R304",
     "unit_id": "U83",
     "kind": "message",
-    "title": "En sms fra Anna",
+    "title": "Fra Anna",
     "lines": [
-      "Mit hus ligger tæt på stationen.",
-      "Gå ligeud til torvet.",
+      "Mit hus ligger midt i byen.",
+      "Gå ligeud til hjørnet.",
       "Min gade er den anden til højre."
     ],
     "questions": [
       {
         "question": "Where is Anna's house?",
         "choices": [
-          "Near the station",
+          "In the middle of town",
           "Near the school",
-          "In the city centre"
+          "By the sea"
         ],
         "answer": 0
       },
@@ -902,7 +901,7 @@
     "kind": "sign",
     "title": "I byen",
     "lines": [
-      "Museum: 200 m til venstre",
+      "Museum: 200 meter til venstre",
       "Kirke: ligeud",
       "Station: til højre"
     ],
@@ -910,8 +909,8 @@
       {
         "question": "Where is the museum?",
         "choices": [
-          "200 metres on the left",
-          "200 metres on the right",
+          "200 meters on the left",
+          "200 meters on the right",
           "Straight on"
         ],
         "answer": 0
@@ -932,24 +931,24 @@
     "id": "R306",
     "unit_id": "U83",
     "kind": "notice",
-    "title": "Hotellet",
+    "title": "Hotel Danmark",
     "lines": [
-      "Hotellet ligger for enden af gaden.",
-      "Fem minutter til fods til centrum",
-      "Bussen stopper foran hotellet"
+      "Hotel Danmark ligger midt i byen.",
+      "Fem minutter fra havet",
+      "Bussen stopper lige foran"
     ],
     "questions": [
       {
-        "question": "How far is the hotel from the centre?",
+        "question": "How far is the hotel from the sea?",
         "choices": [
-          "Five minutes on foot",
-          "Five minutes by car",
-          "Half an hour on foot"
+          "Five minutes",
+          "Fifteen minutes",
+          "Half an hour"
         ],
         "answer": 0
       },
       {
-        "question": "Where is the bus stop?",
+        "question": "Where does the bus stop?",
         "choices": [
           "In front of the hotel",
           "Behind the hotel",
@@ -966,26 +965,26 @@
     "kind": "notice",
     "title": "Lejlighed til leje",
     "lines": [
-      "Lejlighed i centrum",
-      "To soveværelser, stue, køkken og badeværelse",
-      "Med altan",
-      "9.000 kr. om måneden"
+      "Lejlighed midt i byen",
+      "Et soveværelse, stue, køkken og badeværelse",
+      "Med have",
+      "Leje: 9.000 kroner"
     ],
     "questions": [
       {
-        "question": "How many bedrooms does the flat have?",
+        "question": "How many bedrooms does the apartment have?",
         "choices": [
+          "One",
           "Two",
-          "Three",
-          "One"
+          "Three"
         ],
         "answer": 0
       },
       {
         "question": "What else does it have?",
         "choices": [
-          "A balcony",
           "A garden",
+          "A balcony",
           "A garage"
         ],
         "answer": 0
@@ -997,15 +996,15 @@
     "id": "R308",
     "unit_id": "U86",
     "kind": "message",
-    "title": "En sms fra Maria",
+    "title": "Fra Maria",
     "lines": [
       "Min nye lejlighed er lille.",
       "Den har et soveværelse, en stue og et køkken.",
-      "Der er ingen altan."
+      "Der er ingen have."
     ],
     "questions": [
       {
-        "question": "What is Maria's new flat like?",
+        "question": "What is Maria's new apartment like?",
         "choices": [
           "Small",
           "Big",
@@ -1016,7 +1015,7 @@
       {
         "question": "What doesn't it have?",
         "choices": [
-          "A balcony",
+          "A garden",
           "A kitchen",
           "A bedroom"
         ],
@@ -1029,28 +1028,28 @@
     "id": "R309",
     "unit_id": "U86",
     "kind": "notice",
-    "title": "Værelse til en studerende",
+    "title": "Værelse til leje",
     "lines": [
-      "Værelse til leje for en studerende",
-      "Med seng, bord og stol",
-      "Tæt på universitetet"
+      "Et værelse med seng, bord og stol",
+      "Tæt på en skole",
+      "Leje: 3.000 kroner"
     ],
     "questions": [
-      {
-        "question": "Who is the room for?",
-        "choices": [
-          "A student",
-          "A family",
-          "A tourist"
-        ],
-        "answer": 0
-      },
       {
         "question": "What is in the room?",
         "choices": [
           "A bed, a table and a chair",
           "A sofa and a lamp",
           "A fridge"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is the room?",
+        "choices": [
+          "Near a school",
+          "Near the sea",
+          "In the forest"
         ],
         "answer": 0
       }
@@ -1061,11 +1060,11 @@
     "id": "R310",
     "unit_id": "U87",
     "kind": "notice",
-    "title": "Ledige job",
+    "title": "Job",
     "lines": [
-      "Restaurant søger en kok",
+      "Kok til restaurant",
       "Tirsdag til lørdag, 17.00 til 23.00",
-      "Ring 12 34 56 78"
+      "Telefon: 12 34 56 78"
     ],
     "questions": [
       {
@@ -1125,26 +1124,26 @@
     "id": "R312",
     "unit_id": "U87",
     "kind": "notice",
-    "title": "Firmaet",
+    "title": "Job",
     "lines": [
-      "Firma søger en chauffør",
-      "Kørekort er et krav",
+      "Job i et firma",
+      "Du skal have kørekort",
       "Mandag til fredag"
     ],
     "questions": [
       {
-        "question": "Who is the company looking for?",
+        "question": "Where is the job?",
         "choices": [
-          "A driver",
-          "A secretary",
-          "A teacher"
+          "In a company",
+          "In a school",
+          "In a shop"
         ],
         "answer": 0
       },
       {
         "question": "What do you need?",
         "choices": [
-          "A driving licence",
+          "A driver's license",
           "A university degree",
           "A car"
         ],
@@ -1159,8 +1158,8 @@
     "kind": "message",
     "title": "Et postkort fra Anna",
     "lines": [
-      "Kære Erik!",
-      "Jeg er ved havet med min familie. Det er varmt, og havet er dejligt.",
+      "Kære Peter!",
+      "Jeg er ved havet med min familie. Det er varmt, og havet er fantastisk.",
       "Kærlig hilsen, Anna"
     ],
     "questions": [
@@ -1189,11 +1188,11 @@
     "id": "R314",
     "unit_id": "U89",
     "kind": "message",
-    "title": "En sms fra Tom",
+    "title": "Fra Tom",
     "lines": [
       "Hej Maria!",
-      "På lørdag har jeg fødselsdag. Kommer du til min fest?",
-      "Festen er hjemme hos mig klokken otte.",
+      "På lørdag fylder jeg 30. Kommer du til min fest?",
+      "Den er hjemme hos mig klokken otte.",
       "Tom"
     ],
     "questions": [
@@ -1222,16 +1221,16 @@
     "id": "R315",
     "unit_id": "U89",
     "kind": "message",
-    "title": "En seddel",
+    "title": "Til Anna",
     "lines": [
       "Anna!",
       "Jeg er ikke hjemme. Jeg er tilbage klokken seks.",
-      "Maden står i køleskabet.",
-      "Erik"
+      "Der er mad på bordet.",
+      "Peter"
     ],
     "questions": [
       {
-        "question": "When is Erik back?",
+        "question": "When is Peter back?",
         "choices": [
           "At six",
           "At eight",
@@ -1242,9 +1241,9 @@
       {
         "question": "Where is the food?",
         "choices": [
-          "In the fridge",
+          "On the table",
           "At a restaurant",
-          "In the oven"
+          "In the fridge"
         ],
         "answer": 0
       }

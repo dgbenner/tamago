@@ -1912,9 +1912,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W276 | jadę | jechać | Verb |  | to go | checked |
 | W701 | rozumiem | rozumieć | Verb |  | first-person singular present of rozumieć (rozumieć: to understand [with accusative; or with dative ‘what’]) | checked |
 | W702 | rozumiesz | rozumieć | Verb |  | second-person singular present of rozumieć (rozumieć: to understand [with accusative; or with dative ‘what’]) | checked |
-| W703 | wolniej | wolniej | Adverb |  | comparative degree of wolno | checked |
+| W703 | wolniej | wolniej | Adverb |  | comparative degree of wolno (wolniej: slowly) | checked |
 | W704 | powoli | powoli | Adverb |  | slowly | checked |
-| W705 | głośniej | głośniej | Adverb |  | comparative degree of głośno | checked |
+| W705 | głośniej | głośniej | Adverb |  | comparative degree of głośno (głośniej: loudly) | checked |
 | W706 | powtórz | powtórzyć | Verb |  | second-person singular imperative of powtórzyć (powtórzyć: to repeat) | checked |
 | W707 | możesz | móc | Verb |  | second-person singular present of móc (móc: to be able; can; may, might expressing lack of something blocking action) | checked |
 | W708 | powtórzyć | powtórzyć | Verb |  | to repeat | checked |
@@ -2061,9 +2061,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1567 | prawie | prawie | Particle |  | almost | checked |
 | W1568 | młody | młody | Adjective |  | young | checked |
 | W1569 | młoda | młody | Adjective |  | nominative/vocative feminine singular of młody (młody: young) | checked |
-| W1570 | starszy | starszy | Adjective |  | comparative degree of stary | checked |
+| W1570 | starszy | starszy | Adjective |  | comparative degree of stary (starszy: old) | checked |
 | W1571 | starsza | starszy | Adjective |  | feminine nominative/vocative singular of starszy (starszy: comparative degree of stary) | checked |
-| W1572 | młodszy | młodszy | Adjective |  | comparative degree of młody | checked |
+| W1572 | młodszy | młodszy | Adjective |  | comparative degree of młody (młodszy: young) | checked |
 | W1573 | młodsza | młodszy | Adjective |  | nominative/vocative feminine singular of młodszy (młodszy: comparative degree of młody) | checked |
 | W1574 | niż | niż | Conjunction |  | used in comparisons, to introduce the basis of comparison; than | checked |
 | W1575 | dopiero | dopiero | Particle |  | barely, scarcely, just | checked |
@@ -2391,7 +2391,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1216 | brudne | brudny | Adjective |  | inflection of brudny: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural (brudny: dirty) | checked |
 | W1217 | ważne | ważny | Adjective |  | inflection of ważny: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural (ważny: important) | checked |
 | W1218 | lepszy | lepszy | Adjective |  | comparative degree of dobry; better | checked |
-| W1219 | lepiej | lepiej | Adverb |  | comparative degree of dobrze | checked |
+| W1219 | lepiej | lepiej | Adverb |  | comparative degree of dobrze (lepiej: well) | checked |
 | W1220 | najlepszy | najlepszy | Adjective |  | superlative degree of dobry; best | checked |
 | W1221 | samo | sam | Adjective |  | nominative/accusative/vocative neuter singular of sam (sam: alone) | checked |
 | W1222 | prosty | prosty | Adjective |  | simple simple | checked |
@@ -2409,7 +2409,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1234 | długo | długo | Adverb |  | long | checked |
 | W1235 | wielki | wielki | Adjective |  | great, large | checked |
 | W1236 | różne | różny | Adjective |  | inflection of różny: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural (różny: various different [with od ‘from whom/what’]) | checked |
-| W1237 | większy | większy | Adjective |  | comparative degree of wielki | checked |
+| W1237 | większy | większy | Adjective |  | comparative degree of wielki (większy: great, large) | checked |
 | W1238 | prawdziwy | prawdziwy | Adjective |  | true | checked |
 | W1239 | zupełnie | zupełnie | Adverb |  | completely, absolutely, entirely, totally | checked |
 | W1240 | morze | morze | Noun | n | sea | checked |
@@ -2448,7 +2448,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1273 | zimno | zimno | Adverb |  | cold | checked |
 | W1274 | droga | droga | Noun | f | road road, way; path; directions | checked |
 | W1275 | ziemia | ziemia | Noun | f | earth | checked |
-| W1276 | dalej | dalej | Adverb |  | comparative degree of daleko | checked |
+| W1276 | dalej | dalej | Adverb |  | comparative degree of daleko (dalej: far [ with genitive ‘from whom’]) | checked |
 | W1277 | światło | światło | Noun | n | light | checked |
 | W1801 | której | który | Pronoun |  | genitive/dative/locative feminine singular of który (który: interrogative pronoun, referring to a number of choices; what, which one) | checked |
 | W1802 | pierwsza | pierwsza | Noun | f | one o'clock | checked |
@@ -2479,7 +2479,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1827 | nocy | noc | Noun | f | inflection of noc: genitive singular/plural dative/locative/vocative singular (noc: night, nighttime) | checked |
 | W1828 | później | później | Adverb |  | later, next, afterwards, after | checked |
 | W1829 | wcześniej | wcześniej | Adverb |  | formerly, before | checked |
-| W1830 | zegarek | zegarek | Noun | m, inanimate | diminutive of zegar | checked |
+| W1830 | zegarek | zegarek | Noun | m, inanimate | diminutive of zegar (zegarek: clock) | checked |
 | W1831 | spóźniony | spóźniony | Adjective |  | late | checked |
 | W1832 | spóźniona | spóźniony | Adjective |  | nominative/vocative feminine singular of spóźniony (spóźniony: late) | checked |
 | W1833 | powiedziałeś | powiedzieć | Verb |  | second-person singular masculine past of powiedzieć (powiedzieć: to speak, to talk [with do or dative ‘ whom’, along with o ‘about what’]) | checked |
@@ -2547,7 +2547,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1895 | przecież | przecież | Particle |  | used to state that something is obvious, but; after all | checked |
 | W1896 | jednak | jednak | Conjunction |  | however | checked |
 | W1897 | myśl | myśl | Noun | f | thought [with o ‘about what’] | checked |
-| W1898 | ze | ze | Preposition |  | alternative form of z | checked |
+| W1898 | ze | ze | Preposition |  | alternative form of z (ze: denotes delative movement; off of) | checked |
 | W1899 | mną | ja | Pronoun |  | instrumental singular of ja (ja: first-person pronoun; I) | checked |
 | W1900 | tobą | ty | Pronoun |  | instrumental singular of ty (ty: you) | checked |
 | W1901 | nami | my | Pronoun |  | instrumental plural of my (my: we; first person plural) | checked |
@@ -2684,7 +2684,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2032 | zapomnij | zapomnieć | Verb |  | second-person singular imperative of zapomnieć (zapomnieć: to forget [with genitive or accusative ‘whom/what’; or with o ‘about whom/what’; or with w ‘what’]) | checked |
 | W2033 | pamiętaj | pamiętać | Verb |  | second-person singular imperative of pamiętać (pamiętać: to remember [with o ‘about whom/what’]) | checked |
 | W2034 | ćwiczenie | ćwiczenie | Noun | n | exercise | checked |
-| W2035 | obrazek | obrazek | Noun | m, inanimate | diminutive of obraz | checked |
+| W2035 | obrazek | obrazek | Noun | m, inanimate | diminutive of obraz (obrazek: image) | checked |
 | W2036 | stronie | strona | Noun | f | dative/locative singular of strona (strona: page) | checked |
 | W2037 | poprawną | poprawny | Adjective |  | accusative/instrumental feminine singular of poprawny (poprawny: right, correct) | checked |
 | W2038 | odpowiedzieć | odpowiedzieć | Verb |  | to answer; to reply; to respond [with dative ‘to someone’; or with na ‘to what’] | checked |
@@ -2830,7 +2830,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2204 | łóżkiem | łóżko | Noun | n | instrumental singular of łóżko (łóżko: bed) | checked |
 | W2205 | sklepem | sklep | Noun | m, inanimate | instrumental singular of sklep (sklep: shop, store) | checked |
 | W2206 | nim | on | Pronoun |  | instrumental/locative singular of on (on: he , it) | checked |
-| W2207 | nią | nią | Pronoun |  | instrumental of ona | checked |
+| W2207 | nią | nią | Pronoun |  | instrumental of ona (nią: she, it) | checked |
 | W2208 | interesuję | interesować | Verb |  | first-person singular present of interesować (interesować: to interest) | checked |
 | W2209 | interesujesz | interesować | Verb |  | second-person singular present of interesować (interesować: to interest) | checked |
 | W2210 | interesuje | interesować | Verb |  | third-person singular present of interesować (interesować: to interest) | checked |
@@ -2929,7 +2929,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2448 | nóż | nóż | Noun | m, inanimate | knife | checked |
 | W2449 | widelec | widelec | Noun | m, inanimate | fork | checked |
 | W2450 | łyżka | łyżka | Noun | f | spoon | checked |
-| W2451 | stolik | stolik | Noun | m, inanimate | diminutive of stół | checked |
+| W2451 | stolik | stolik | Noun | m, inanimate | diminutive of stół (stolik: table table table table) | checked |
 | W2452 | menu | menu | Noun | n | menu, bill of fare | checked |
 | W2453 | zjeść | zjeść | Verb |  | to eat; to eat up | checked |
 | W2454 | jajka | jajko | Noun | n | inflection of jajko: nominative/accusative/vocative plural genitive singular (jajko: egg) | checked |
@@ -3157,7 +3157,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2753 | specjalny | specjalny | Adjective |  | special | checked |
 | W2754 | specjalnego | specjalny | Adjective |  | inflection of specjalny: genitive masculine/neuter singular animate accusative masculine singular (specjalny: special) | checked |
 | W2755 | odpowiedni | odpowiedni | Adjective |  | suitable, appropriate, proper, adequate, relevant [with do ‘to what’; or with dative or dla ‘for what’] | checked |
-| W2756 | dalszy | dalszy | Adjective |  | comparative degree of daleki | checked |
+| W2756 | dalszy | dalszy | Adjective |  | comparative degree of daleki (dalszy: far, distant) | checked |
 | W2757 | narodowy | narodowy | Adjective |  | national | checked |
 | W2758 | międzynarodowy | międzynarodowy | Adjective |  | international | checked |
 | W2759 | światowy | światowy | Adjective |  | world; global; worldwide | flagged: sense_not_picked |
@@ -3227,7 +3227,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2823 | czemu | czemu | Pronoun |  | why | checked |
 | W2824 | całkiem | całkiem | Adverb |  | quite, pretty | checked |
 | W2825 | ciągle | ciągle | Adverb |  | still | checked |
-| W2826 | bardziej | bardziej | Adverb |  | comparative degree of bardzo | checked |
+| W2826 | bardziej | bardziej | Adverb |  | comparative degree of bardzo (bardziej: very) | checked |
 | W2827 | społeczeństwo | społeczeństwo | Noun | n | society, community | checked |
 | W2828 | naród | naród | Noun | m, inanimate | nation | checked |
 | W2829 | organizacja | organizacja | Noun | f | organization | checked |

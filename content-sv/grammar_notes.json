@@ -423,7 +423,7 @@
     },
     {
       "unit_id": "U92",
-      "rule": "A describing word stays plain with an **en** word and adds **-a** in the plural:\n**Det är en hög risk.**\n**Träd kan vara väldigt höga.**\n\nWords for kinds: **social**, **politisk**, **ekonomisk**, **nationell**, **internationell**, **europeisk**:\n**Paris är en europeisk stad.**\n\n**Vissa** is some and **flest** the most:\n**Vissa människor har höga krav.**\n**Vem har flest böcker?**\n\n**Varenda** is every single: **Han ringer varenda dag.**",
+      "rule": "A describing word stays plain with an **en** word and adds **-a** in the plural:\n**Det är en hög risk.**\n**Träd kan vara väldigt höga.**\n\n**Riktig** is real, **liknande** similar and **gemensam** shared:\n**Det är en riktig vän.**\n\n**Vissa** is some and **flest** the most:\n**Vissa människor har höga krav.**\n**Vem har flest böcker?**\n\n**Varenda** is every single: **Han ringer varenda dag.**",
       "example_sentence_ids": "S92106;S92109;S92146",
       "conjugation_lemma": "",
       "status": "live"
@@ -451,8 +451,8 @@
     },
     {
       "unit_id": "U93",
-      "rule": "The words of the news: **ett samhälle** (a society), **en stat**, **politik**, **ett parti**, **en debatt**:\n**Sverige är en stat i Europa.**\n**Han är medlem i ett parti.**\n\n**Röstar på** is votes for: **Vem röstar du på?**\n\n**Ett val** is a choice: **Du har inget val.**\n\n**Folk** is people: **Det är mycket folk här.**",
-      "example_sentence_ids": "S93110;S93116;S93119",
+      "rule": "The words of the news: **demokrati**, **makt** (power), **en rättighet** (a right), **en artikel**:\n**Sverige är en demokrati.**\n**Medlem** is member: **Är du medlem?**\n\n**Röstar på** is votes for: **Vem röstar du på?**\n\n**Ett val** is a choice: **Du har inget val.**\n\n**Folk** is people: **Det är mycket folk här.**",
+      "example_sentence_ids": "S93108;S93116;S93119",
       "conjugation_lemma": "",
       "status": "live"
     },
@@ -500,7 +500,7 @@
     },
     {
       "unit_id": "U95",
-      "rule": "Everyday verbs, one form for every person:\n**Hyr eller äger du?**\n**Barn växer snabbt.**\n**Det ökar varje år.**\n**Hon skapar musik.**\n**Vägen leder till havet.**\n\n**Det sker** is it happens: **Vad sker nu?**\n\n**Få tag på** is get hold of: **Var får jag tag på böcker?** **Ett tag** is a while: **Vänta ett tag.**",
+      "rule": "Everyday verbs, one form for every person:\n**Hyr eller äger du?**\n**Barn växer snabbt.**\n**Det ökar varje år.**\n**Hon skapar musik.**\n**Vägen leder till havet.**\n\n**Få tag på** is get hold of: **Var får jag tag på böcker?** **Ett tag** is a while: **Vänta ett tag.**",
       "example_sentence_ids": "S95002;S95111;S95004",
       "conjugation_lemma": "",
       "status": "live"

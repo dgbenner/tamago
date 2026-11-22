@@ -950,7 +950,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W118 | mis | mi | Determiner |  | plural of mi (mi: apocopic form of mío, my) | checked |
 | W119 | tu | tu | Determiner |  | apocopic form of tuyo, your | checked |
 | W120 | tus | tu | Determiner |  | plural of tu (tu: apocopic form of tuyo, your) | checked |
-| W121 | su | su | Determiner |  | apocopic form of suyo | checked |
+| W121 | su | su | Determiner |  | apocopic form of suyo (su: his, hers, its, to her) | checked |
 | W122 | sus | su | Determiner |  | plural of su; one's, his, her, its, their (with plural possessee) (su: apocopic form of suyo) | checked |
 | W123 | de | de | Preposition |  | of; 's; used after the thing owned and before the owner | checked |
 | W124 | amigo | amigo | Noun | m | friend | checked |
@@ -1472,7 +1472,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1421 | nieva | nevar | Verb |  | inflection of nevar: third-person singular present indicative second-person singular imperative (nevar: to snow) | checked |
 | W1422 | nevar | nevar | Verb |  | to snow | checked |
 | W1423 | viento | viento | Noun | m | wind | checked |
-| W1424 | buen | buen | Adjective |  | apocopic form of bueno | checked |
+| W1424 | buen | buen | Adjective |  | apocopic form of bueno (buen: good) | checked |
 | W1425 | nieve | nieve | Noun | f | snow | checked |
 | W1426 | lluvia | lluvia | Noun | f | rain | checked |
 | W1427 | televisión | televisión | Noun | f | television | checked |
@@ -1548,7 +1548,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1623 | necesito | necesitar | Verb |  | first-person singular present indicative of necesitar (necesitar: to need) | checked |
 | W1624 | necesita | necesitar | Verb |  | inflection of necesitar: third-person singular present indicative second-person singular imperative (necesitar: to need) | checked |
 | W1625 | menú | menú | Noun | m | menu | checked |
-| W1626 | primer | primer | Adjective |  | apocopic form of primero | checked |
+| W1626 | primer | primer | Adjective |  | apocopic form of primero (primer: first, first up) | checked |
 | W1627 | plato | plato | Noun | m | plate; dish | checked |
 | W1628 | postre | postre | Noun | m | dessert; sweet | checked |
 | W1629 | sopa | sopa | Noun | f | soup | checked |
@@ -1588,7 +1588,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1663 | conducir | conducir | Verb |  | to drive; to conduct | checked |
 | W1664 | conduce | conducir | Verb |  | inflection of conducir: third-person singular present indicative second-person singular imperative (conducir: to drive; to conduct) | checked |
 | W1665 | manejar | manejar | Verb |  | to drive | checked |
-| W1666 | andando | andando | Verb |  | gerund of andar | checked |
+| W1666 | andando | andando | Verb |  | gerund of andar (andando: to walk, to go) | checked |
 | W1667 | bicicleta | bicicleta | Noun | f | bicycle, pushbike, cycle | checked |
 | W1668 | kilómetro | kilómetro | Noun | m | kilometre; kilometer | checked |
 | W1669 | kilómetros | kilómetro | Noun | m | plural of kilómetro (kilómetro: kilometre; kilometer) | checked |
@@ -1655,7 +1655,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1730 | falta | faltar | Verb |  | inflection of faltar: third-person singular present indicative second-person singular imperative (faltar: to be lacking, to lack, to not have [with a ‘someone’]) | checked |
 | W1731 | pasa | pasar | Verb |  | inflection of pasar: third-person singular present indicative second-person singular imperative (pasar: to pass, to hand, to slip) | checked |
 | W1732 | regular | regular | Adjective |  | regular, steady, even | checked |
-| W1733 | okay | okay | Interjection |  | alternative form of OK | checked |
+| W1733 | okay | okay | Interjection |  | alternative form of OK (okay: OK) | checked |
 | W1734 | formulario | formulario | Noun | m | form | checked |
 | W1735 | firmar | firmar | Verb |  | to sign | checked |
 | W1736 | firma | firma | Noun | f | signature | checked |

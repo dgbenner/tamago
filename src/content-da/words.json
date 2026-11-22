@@ -156,7 +156,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of være",
-    "hint": "present of være",
+    "hint": "to be (present of være)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U01",
     "needs_image": "no",
@@ -165,7 +165,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present of være",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be"
   },
   {
     "word_id": "W009",
@@ -737,7 +737,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present of gå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to go"
   },
   {
     "word_id": "W037",
@@ -832,7 +832,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present of spise",
-    "lemma_gloss": ""
+    "lemma_gloss": "to eat"
   },
   {
     "word_id": "W042",
@@ -842,7 +842,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of drikke",
-    "hint": "present of drikke",
+    "hint": "drink (present of drikke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U04",
     "needs_image": "no",
@@ -851,7 +851,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present of drikke",
-    "lemma_gloss": ""
+    "lemma_gloss": "drink"
   },
   {
     "word_id": "W043",
@@ -861,8 +861,8 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of kunne",
-    "hint": "present of kunne",
-    "hint_source": "Wiktionary (built)",
+    "hint": "can (kan lide: to like)",
+    "hint_source": "Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22, verdict 2 (Dan's call 3): kan is the present of kunne, can; Wiktionary Danish",
     "first_unit": "U04",
     "needs_image": "no",
     "image_file": "",
@@ -870,7 +870,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present of kunne",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be able, can"
   },
   {
     "word_id": "W044",
@@ -879,7 +879,7 @@
     "lemma": "lide",
     "part_of_speech": "Verb",
     "gender": "",
-    "gloss": "suffer",
+    "gloss": "to like",
     "hint": "kan lide: to like",
     "hint_source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary",
     "first_unit": "U04",
@@ -888,7 +888,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/lide#Danish",
     "status": "pull from Wiktionary",
     "notes": "",
-    "gloss_full": "suffer",
+    "gloss_full": "to like",
     "lemma_gloss": ""
   },
   {
@@ -1086,7 +1086,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present active of have",
-    "hint": "present active of have",
+    "hint": "to have (present active of have)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U05",
     "needs_image": "no",
@@ -1095,7 +1095,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present active of have",
-    "lemma_gloss": ""
+    "lemma_gloss": "to have; to have got"
   },
   {
     "word_id": "W055",
@@ -1300,8 +1300,8 @@
     "part_of_speech": "Pronoun",
     "gender": "",
     "gloss": "they",
-    "hint": "they",
-    "hint_source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary",
+    "hint": "they; the, those (before a plural)",
+    "hint_source": "Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22, verdict 6: Wiktionary Danish de, pronoun they and plural definite article",
     "first_unit": "U06",
     "needs_image": "no",
     "image_file": "",
@@ -1518,7 +1518,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "definite of stor",
-    "lemma_gloss": ""
+    "lemma_gloss": "large"
   },
   {
     "word_id": "W076",
@@ -1745,7 +1745,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of stå",
-    "hint": "present of stå",
+    "hint": "to stand (present of stå)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U08",
     "needs_image": "no",
@@ -1754,7 +1754,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present of stå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to stand"
   },
   {
     "word_id": "W088",
@@ -1764,7 +1764,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of ligge",
-    "hint": "present of ligge",
+    "hint": "to lie (present of ligge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U08",
     "needs_image": "no",
@@ -1773,7 +1773,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "present of ligge",
-    "lemma_gloss": ""
+    "lemma_gloss": "to lie"
   },
   {
     "word_id": "W089",
@@ -2229,7 +2229,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "neuter singular of din",
-    "lemma_gloss": ""
+    "lemma_gloss": "your, thy"
   },
   {
     "word_id": "W113",
@@ -2248,7 +2248,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "genitive of han (“his”)",
-    "lemma_gloss": ""
+    "lemma_gloss": "he"
   },
   {
     "word_id": "W114",
@@ -3198,8 +3198,8 @@
     "part_of_speech": "Preposition",
     "gender": "",
     "gloss": "to, towards",
-    "hint": "to, towards",
-    "hint_source": "Wiktionary (built)",
+    "hint": "to; for (til dig); of (far til)",
+    "hint_source": "Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22, verdict 6: Wiktionary Danish til; 19 lines use it as for or of",
     "first_unit": "U15",
     "needs_image": "no",
     "image_file": "",
@@ -3331,7 +3331,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of forstå",
-    "hint": "present of forstå",
+    "hint": "to understand (present of forstå)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U31",
     "needs_image": "no",
@@ -3340,7 +3340,7 @@
     "status": "pull from Wiktionary",
     "notes": "help circle word",
     "gloss_full": "present of forstå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to understand"
   },
   {
     "word_id": "W702",
@@ -3388,7 +3388,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of sige",
-    "hint": "present of sige",
+    "hint": "to say (present of sige)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U31",
     "needs_image": "no",
@@ -3397,7 +3397,7 @@
     "status": "pull from Wiktionary",
     "notes": "help circle word",
     "gloss_full": "present of sige",
-    "lemma_gloss": ""
+    "lemma_gloss": "to say"
   },
   {
     "word_id": "W705",
@@ -3416,7 +3416,7 @@
     "status": "pull from Wiktionary",
     "notes": "help circle word",
     "gloss_full": "present of tale",
-    "lemma_gloss": ""
+    "lemma_gloss": "to make a speech"
   },
   {
     "word_id": "W706",
@@ -3464,7 +3464,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of betyde",
-    "hint": "present of betyde",
+    "hint": "to mean (present of betyde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U32",
     "needs_image": "no",
@@ -3473,7 +3473,7 @@
     "status": "pull from Wiktionary",
     "notes": "help circle word",
     "gloss_full": "present of betyde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to mean"
   },
   {
     "word_id": "W709",
@@ -3568,7 +3568,7 @@
     "status": "pull from Wiktionary",
     "notes": "help circle word",
     "gloss_full": "present of lede",
-    "lemma_gloss": ""
+    "lemma_gloss": "to manage, run"
   },
   {
     "word_id": "W714",
@@ -3606,7 +3606,7 @@
     "status": "pull from Wiktionary",
     "notes": "help circle word",
     "gloss_full": "present of vide",
-    "lemma_gloss": ""
+    "lemma_gloss": "to know"
   },
   {
     "word_id": "W716",
@@ -3635,7 +3635,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of hedde",
-    "hint": "present of hedde",
+    "hint": "to be called (present of hedde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U33",
     "needs_image": "no",
@@ -3644,7 +3644,7 @@
     "status": "pull from Wiktionary",
     "notes": "help circle word",
     "gloss_full": "present of hedde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be called"
   },
   {
     "word_id": "W1001",
@@ -4004,7 +4004,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of svømme",
-    "hint": "present of svømme",
+    "hint": "to swim (present of svømme)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U52",
     "needs_image": "no",
@@ -4013,7 +4013,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 1 vocabulary circle word",
     "gloss_full": "present of svømme",
-    "lemma_gloss": ""
+    "lemma_gloss": "to swim"
   },
   {
     "word_id": "W1020",
@@ -4032,7 +4032,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 1 vocabulary circle word",
     "gloss_full": "present of danse",
-    "lemma_gloss": ""
+    "lemma_gloss": "to dance"
   },
   {
     "word_id": "W1021",
@@ -4042,7 +4042,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of synge",
-    "hint": "present of synge",
+    "hint": "sing (present of synge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U52",
     "needs_image": "no",
@@ -4051,7 +4051,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 1 vocabulary circle word",
     "gloss_full": "present of synge",
-    "lemma_gloss": ""
+    "lemma_gloss": "sing"
   },
   {
     "word_id": "W1022",
@@ -4061,7 +4061,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of se",
-    "hint": "present of se",
+    "hint": "to see (present of se)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U52",
     "needs_image": "no",
@@ -4070,7 +4070,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 1 vocabulary circle word",
     "gloss_full": "present of se",
-    "lemma_gloss": ""
+    "lemma_gloss": "to see"
   },
   {
     "word_id": "W1023",
@@ -4403,7 +4403,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of kende",
-    "hint": "present of kende",
+    "hint": "know (present of kende)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U41",
     "needs_image": "no",
@@ -4412,7 +4412,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of kende",
-    "lemma_gloss": ""
+    "lemma_gloss": "know"
   },
   {
     "word_id": "W805",
@@ -4422,7 +4422,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of kalde",
-    "hint": "present of kalde",
+    "hint": "to call, to refer to (present of kalde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U41",
     "needs_image": "no",
@@ -4431,7 +4431,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of kalde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to call, to refer to"
   },
   {
     "word_id": "W806",
@@ -4593,7 +4593,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of skrive",
-    "hint": "present of skrive",
+    "hint": "to write (present of skrive)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U34",
     "needs_image": "no",
@@ -4602,7 +4602,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of skrive",
-    "lemma_gloss": ""
+    "lemma_gloss": "to write"
   },
   {
     "word_id": "W815",
@@ -4631,7 +4631,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of stave",
-    "hint": "present of stave",
+    "hint": "to spell (present of stave)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U34",
     "needs_image": "no",
@@ -4640,7 +4640,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of stave",
-    "lemma_gloss": ""
+    "lemma_gloss": "to spell"
   },
   {
     "word_id": "W817",
@@ -4859,7 +4859,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of ringe",
-    "hint": "present of ringe",
+    "hint": "To call, to telephone (present of ringe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U42",
     "needs_image": "no",
@@ -4868,7 +4868,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of ringe",
-    "lemma_gloss": ""
+    "lemma_gloss": "To call, to telephone"
   },
   {
     "word_id": "W830",
@@ -5190,7 +5190,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of fylde",
-    "hint": "present of fylde",
+    "hint": "to fill (present of fylde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U43",
     "needs_image": "no",
@@ -5199,7 +5199,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of fylde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to fill"
   },
   {
     "word_id": "W848",
@@ -5209,7 +5209,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present active of blive",
-    "hint": "present active of blive",
+    "hint": "to become (present active of blive)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U43",
     "needs_image": "no",
@@ -5218,7 +5218,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present active of blive",
-    "lemma_gloss": ""
+    "lemma_gloss": "to become"
   },
   {
     "word_id": "W849",
@@ -5266,7 +5266,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of føde",
-    "hint": "past participle of føde",
+    "hint": "to bear, give birth (past participle of føde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U43",
     "needs_image": "no",
@@ -5275,7 +5275,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "past participle of føde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to bear, give birth"
   },
   {
     "word_id": "W852",
@@ -5361,7 +5361,7 @@
     "part_of_speech": "Adjective",
     "gender": "",
     "gloss": "comparative degree of gammel",
-    "hint": "comparative degree of gammel",
+    "hint": "old (comparative degree of gammel)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U43",
     "needs_image": "no",
@@ -5370,7 +5370,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "comparative degree of gammel",
-    "lemma_gloss": ""
+    "lemma_gloss": "old"
   },
   {
     "word_id": "W857",
@@ -5380,7 +5380,7 @@
     "part_of_speech": "Adjective",
     "gender": "",
     "gloss": "comparative degree of ung",
-    "hint": "comparative degree of ung",
+    "hint": "young (comparative degree of ung)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U43",
     "needs_image": "no",
@@ -5389,7 +5389,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "comparative degree of ung",
-    "lemma_gloss": ""
+    "lemma_gloss": "young"
   },
   {
     "word_id": "W858",
@@ -5437,7 +5437,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of vente",
-    "hint": "imperative of vente",
+    "hint": "wait (imperative of vente)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U35",
     "needs_image": "no",
@@ -5446,7 +5446,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "imperative of vente",
-    "lemma_gloss": ""
+    "lemma_gloss": "wait"
   },
   {
     "word_id": "W861",
@@ -5456,7 +5456,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of vente",
-    "hint": "present of vente",
+    "hint": "wait (present of vente)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U35",
     "needs_image": "no",
@@ -5465,7 +5465,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of vente",
-    "lemma_gloss": ""
+    "lemma_gloss": "wait"
   },
   {
     "word_id": "W862",
@@ -5665,7 +5665,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of lade",
-    "hint": "imperative of lade",
+    "hint": "let (imperative of lade)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U35",
     "needs_image": "no",
@@ -5674,7 +5674,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "imperative of lade",
-    "lemma_gloss": ""
+    "lemma_gloss": "let"
   },
   {
     "word_id": "W873",
@@ -5931,7 +5931,7 @@
     "part_of_speech": "Adjective",
     "gender": "",
     "gloss": "comparative degree of lille",
-    "hint": "comparative degree of lille",
+    "hint": "small, little, slight (comparative degree of lille)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U44",
     "needs_image": "no",
@@ -5940,7 +5940,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "comparative degree of lille",
-    "lemma_gloss": ""
+    "lemma_gloss": "small, little, slight"
   },
   {
     "word_id": "W887",
@@ -5969,7 +5969,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of bo",
-    "hint": "present of bo",
+    "hint": "to live, reside, dwell (present of bo)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U45",
     "needs_image": "no",
@@ -5978,7 +5978,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of bo",
-    "lemma_gloss": ""
+    "lemma_gloss": "to live, reside, dwell"
   },
   {
     "word_id": "W889",
@@ -6349,7 +6349,7 @@
     "part_of_speech": "Pronoun",
     "gender": "",
     "gloss": "plural of din",
-    "hint": "plural of din",
+    "hint": "your, thy (din)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U45",
     "needs_image": "no",
@@ -6358,7 +6358,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "plural of din",
-    "lemma_gloss": ""
+    "lemma_gloss": "your, thy"
   },
   {
     "word_id": "W909",
@@ -6501,7 +6501,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of komme",
-    "hint": "present of komme",
+    "hint": "to come (present of komme)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U46",
     "needs_image": "no",
@@ -6510,7 +6510,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of komme",
-    "lemma_gloss": ""
+    "lemma_gloss": "to come"
   },
   {
     "word_id": "W917",
@@ -6642,7 +6642,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of snakke",
-    "hint": "present of snakke",
+    "hint": "to talk, speak (present of snakke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U46",
     "needs_image": "no",
@@ -6651,7 +6651,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of snakke",
-    "lemma_gloss": ""
+    "lemma_gloss": "to talk, speak"
   },
   {
     "word_id": "W924",
@@ -6699,7 +6699,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of købe",
-    "hint": "present of købe",
+    "hint": "buy (present of købe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -6708,7 +6708,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of købe",
-    "lemma_gloss": ""
+    "lemma_gloss": "buy"
   },
   {
     "word_id": "W927",
@@ -6737,7 +6737,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of sælge",
-    "hint": "present of sælge",
+    "hint": "to sell (present of sælge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -6746,7 +6746,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of sælge",
-    "lemma_gloss": ""
+    "lemma_gloss": "to sell"
   },
   {
     "word_id": "W929",
@@ -6756,7 +6756,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of ville",
-    "hint": "present of ville",
+    "hint": "to want to, be willing to (present of ville)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -6765,7 +6765,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of ville",
-    "lemma_gloss": ""
+    "lemma_gloss": "to want to, be willing to"
   },
   {
     "word_id": "W930",
@@ -6794,7 +6794,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of få",
-    "hint": "present tense of få",
+    "hint": "to get (present tense of få)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -6803,7 +6803,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present tense of få",
-    "lemma_gloss": ""
+    "lemma_gloss": "to get"
   },
   {
     "word_id": "W932",
@@ -6832,7 +6832,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of tage",
-    "hint": "present of tage",
+    "hint": "to take, get, pick up (present of tage)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -6841,7 +6841,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of tage",
-    "lemma_gloss": ""
+    "lemma_gloss": "to take, get, pick up"
   },
   {
     "word_id": "W934",
@@ -6870,7 +6870,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of skulle",
-    "hint": "present tense of skulle",
+    "hint": "have to, must (present tense of skulle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -6879,7 +6879,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present tense of skulle",
-    "lemma_gloss": ""
+    "lemma_gloss": "have to, must"
   },
   {
     "word_id": "W936",
@@ -6889,7 +6889,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of måtte",
-    "hint": "present of måtte",
+    "hint": "must, have to, got to (present of måtte)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -6898,7 +6898,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of måtte",
-    "lemma_gloss": ""
+    "lemma_gloss": "must, have to, got to"
   },
   {
     "word_id": "W937",
@@ -7003,7 +7003,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of behøve",
-    "hint": "present of behøve",
+    "hint": "to need (present of behøve)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U47",
     "needs_image": "no",
@@ -7012,7 +7012,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of behøve",
-    "lemma_gloss": ""
+    "lemma_gloss": "to need"
   },
   {
     "word_id": "W943",
@@ -7174,7 +7174,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of tro",
-    "hint": "present of tro",
+    "hint": "to believe (present of tro)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U36",
     "needs_image": "no",
@@ -7183,7 +7183,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of tro",
-    "lemma_gloss": ""
+    "lemma_gloss": "to believe"
   },
   {
     "word_id": "W952",
@@ -7307,7 +7307,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of håbe",
-    "hint": "present of håbe",
+    "hint": "to hope (present of håbe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U36",
     "needs_image": "no",
@@ -7316,7 +7316,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of håbe",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hope"
   },
   {
     "word_id": "W960",
@@ -7326,7 +7326,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of tænke",
-    "hint": "present of tænke",
+    "hint": "to think (present of tænke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U36",
     "needs_image": "no",
@@ -7335,7 +7335,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of tænke",
-    "lemma_gloss": ""
+    "lemma_gloss": "to think"
   },
   {
     "word_id": "W961",
@@ -7345,7 +7345,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of lyde",
-    "hint": "present of lyde",
+    "hint": "to sound, to be realized (present of lyde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U36",
     "needs_image": "no",
@@ -7354,7 +7354,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of lyde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to sound, to be realized"
   },
   {
     "word_id": "W962",
@@ -7592,7 +7592,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of betale",
-    "hint": "present of betale",
+    "hint": "to pay (present of betale)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U48",
     "needs_image": "no",
@@ -7601,7 +7601,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of betale",
-    "lemma_gloss": ""
+    "lemma_gloss": "to pay"
   },
   {
     "word_id": "W975",
@@ -8010,7 +8010,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of give",
-    "hint": "present of give",
+    "hint": "to give (present of give)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U49",
     "needs_image": "no",
@@ -8019,7 +8019,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
     "gloss_full": "present of give",
-    "lemma_gloss": ""
+    "lemma_gloss": "to give"
   },
   {
     "word_id": "W999",
@@ -8238,7 +8238,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of prøve",
-    "hint": "present of prøve",
+    "hint": "to try (present of prøve)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U54",
     "needs_image": "no",
@@ -8247,7 +8247,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of prøve",
-    "lemma_gloss": ""
+    "lemma_gloss": "to try"
   },
   {
     "word_id": "W1114",
@@ -8314,7 +8314,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of spørge",
-    "hint": "present of spørge",
+    "hint": "to ask, inquire (present of spørge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U55",
     "needs_image": "no",
@@ -8323,7 +8323,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of spørge",
-    "lemma_gloss": ""
+    "lemma_gloss": "to ask, inquire"
   },
   {
     "word_id": "W1119",
@@ -8371,7 +8371,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of svare",
-    "hint": "present of svare",
+    "hint": "to answer, reply, respond (present of svare)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U55",
     "needs_image": "no",
@@ -8380,7 +8380,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of svare",
-    "lemma_gloss": ""
+    "lemma_gloss": "to answer, reply, respond"
   },
   {
     "word_id": "W1122",
@@ -8466,7 +8466,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of gøre",
-    "hint": "present of gøre",
+    "hint": "to do, perform, execute (present of gøre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U55",
     "needs_image": "no",
@@ -8475,7 +8475,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of gøre (“to do”)",
-    "lemma_gloss": ""
+    "lemma_gloss": "to do, perform, execute"
   },
   {
     "word_id": "W1129",
@@ -8504,7 +8504,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of lave",
-    "hint": "present tense of lave",
+    "hint": "to make, create, construct, produce (present tense of lave)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U55",
     "needs_image": "no",
@@ -8513,7 +8513,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present tense of lave",
-    "lemma_gloss": ""
+    "lemma_gloss": "to make, create, construct, produce"
   },
   {
     "word_id": "W1131",
@@ -8580,7 +8580,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of lytte",
-    "hint": "present of lytte",
+    "hint": "to listen (present of lytte)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U55",
     "needs_image": "no",
@@ -8589,7 +8589,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of lytte",
-    "lemma_gloss": ""
+    "lemma_gloss": "to listen"
   },
   {
     "word_id": "W1135",
@@ -8599,7 +8599,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of bruge",
-    "hint": "present tense of bruge",
+    "hint": "to use (present tense of bruge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U55",
     "needs_image": "no",
@@ -8608,7 +8608,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present tense of bruge",
-    "lemma_gloss": ""
+    "lemma_gloss": "to use"
   },
   {
     "word_id": "W1136",
@@ -8713,7 +8713,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of huske",
-    "hint": "present of huske",
+    "hint": "to remember (present of huske)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U55",
     "needs_image": "no",
@@ -8722,7 +8722,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of huske",
-    "lemma_gloss": ""
+    "lemma_gloss": "to remember"
   },
   {
     "word_id": "W1142",
@@ -9017,7 +9017,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of føle",
-    "hint": "present of føle",
+    "hint": "to feel, sense (present of føle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U56",
     "needs_image": "no",
@@ -9026,7 +9026,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of føle",
-    "lemma_gloss": ""
+    "lemma_gloss": "to feel, sense"
   },
   {
     "word_id": "W1162",
@@ -9055,7 +9055,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of ligne",
-    "hint": "present of ligne",
+    "hint": "resemble, look like (present of ligne)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U56",
     "needs_image": "no",
@@ -9064,7 +9064,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of ligne",
-    "lemma_gloss": ""
+    "lemma_gloss": "resemble, look like"
   },
   {
     "word_id": "W1164",
@@ -9074,7 +9074,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of virke",
-    "hint": "present of virke",
+    "hint": "function properly (present of virke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U56",
     "needs_image": "no",
@@ -9083,7 +9083,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of virke",
-    "lemma_gloss": ""
+    "lemma_gloss": "function properly"
   },
   {
     "word_id": "W1165",
@@ -9093,7 +9093,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of elske",
-    "hint": "present of elske",
+    "hint": "to love (present of elske)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U56",
     "needs_image": "no",
@@ -9102,7 +9102,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of elske",
-    "lemma_gloss": ""
+    "lemma_gloss": "to love"
   },
   {
     "word_id": "W1166",
@@ -9188,7 +9188,7 @@
     "part_of_speech": "Adjective",
     "gender": "",
     "gloss": "neuter of svær",
-    "hint": "neuter of svær",
+    "hint": "difficult, hard, stiff, tough (neuter of svær)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U57",
     "needs_image": "no",
@@ -9197,7 +9197,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "neuter of svær",
-    "lemma_gloss": ""
+    "lemma_gloss": "difficult, hard, stiff, tough"
   },
   {
     "word_id": "W1172",
@@ -9937,7 +9937,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of sidde",
-    "hint": "present of sidde",
+    "hint": "to sit (present of sidde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U58",
     "needs_image": "no",
@@ -9946,7 +9946,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "present of sidde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to sit"
   },
   {
     "word_id": "W1301",
@@ -10087,7 +10087,7 @@
     "form": "morgen",
     "lemma": "morgen",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "morning",
     "hint": "morning",
     "hint_source": "Wiktionary (built)",
@@ -10250,7 +10250,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "neuter of tidlig",
-    "lemma_gloss": ""
+    "lemma_gloss": "early"
   },
   {
     "word_id": "W1317",
@@ -10288,7 +10288,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "comparative degree of sen",
-    "lemma_gloss": ""
+    "lemma_gloss": "late"
   },
   {
     "word_id": "W1319",
@@ -10307,7 +10307,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "comparative degree of tidlig",
-    "lemma_gloss": ""
+    "lemma_gloss": "early"
   },
   {
     "word_id": "W1320",
@@ -10336,7 +10336,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of høre",
-    "hint": "present of høre",
+    "hint": "to hear (present of høre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U37",
     "needs_image": "no",
@@ -10345,7 +10345,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of høre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hear"
   },
   {
     "word_id": "W1322",
@@ -10374,7 +10374,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of høre",
-    "hint": "imperative of høre",
+    "hint": "to hear (imperative of høre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U37",
     "needs_image": "no",
@@ -10383,7 +10383,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of høre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hear"
   },
   {
     "word_id": "W1324",
@@ -10393,7 +10393,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of høre",
-    "hint": "past of høre",
+    "hint": "to hear (past of høre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U37",
     "needs_image": "no",
@@ -10402,7 +10402,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "past of høre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hear"
   },
   {
     "word_id": "W1325",
@@ -10421,7 +10421,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "comparative degree of høj",
-    "lemma_gloss": ""
+    "lemma_gloss": "high"
   },
   {
     "word_id": "W1326",
@@ -10469,7 +10469,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of bede",
-    "hint": "present of bede",
+    "hint": "to ask, request (present of bede)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U37",
     "needs_image": "no",
@@ -10478,7 +10478,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of bede",
-    "lemma_gloss": ""
+    "lemma_gloss": "to ask, request"
   },
   {
     "word_id": "W1329",
@@ -10759,7 +10759,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of pleje",
-    "hint": "present of pleje",
+    "hint": "use to, used to (present of pleje)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U62",
     "needs_image": "no",
@@ -10768,7 +10768,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of pleje",
-    "lemma_gloss": ""
+    "lemma_gloss": "use to, used to"
   },
   {
     "word_id": "W1343",
@@ -10806,7 +10806,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "attributive of sidst",
-    "lemma_gloss": ""
+    "lemma_gloss": "last"
   },
   {
     "word_id": "W1345",
@@ -10928,7 +10928,7 @@
     "form": "januar",
     "lemma": "januar",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "January",
     "hint": "January",
     "hint_source": "Wiktionary (built)",
@@ -10955,7 +10955,7 @@
     "form": "februar",
     "lemma": "februar",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "February",
     "hint": "February",
     "hint_source": "Wiktionary (built)",
@@ -10982,7 +10982,7 @@
     "form": "marts",
     "lemma": "marts",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "March",
     "hint": "March",
     "hint_source": "Wiktionary (built)",
@@ -11009,7 +11009,7 @@
     "form": "april",
     "lemma": "april",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "April",
     "hint": "April",
     "hint_source": "Wiktionary (built)",
@@ -11036,7 +11036,7 @@
     "form": "maj",
     "lemma": "maj",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "May",
     "hint": "May",
     "hint_source": "Wiktionary (built)",
@@ -11063,7 +11063,7 @@
     "form": "juni",
     "lemma": "juni",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "June",
     "hint": "June",
     "hint_source": "Wiktionary (built)",
@@ -11090,7 +11090,7 @@
     "form": "juli",
     "lemma": "juli",
     "part_of_speech": "Proper noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "July",
     "hint": "July",
     "hint_source": "Wiktionary (built)",
@@ -11117,7 +11117,7 @@
     "form": "august",
     "lemma": "august",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "August",
     "hint": "August",
     "hint_source": "Wiktionary (built)",
@@ -11144,7 +11144,7 @@
     "form": "september",
     "lemma": "september",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "September",
     "hint": "September",
     "hint_source": "Wiktionary (built)",
@@ -11171,7 +11171,7 @@
     "form": "oktober",
     "lemma": "oktober",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "October",
     "hint": "October",
     "hint_source": "Wiktionary (built)",
@@ -11198,7 +11198,7 @@
     "form": "november",
     "lemma": "november",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "November",
     "hint": "November",
     "hint_source": "Wiktionary (built)",
@@ -11225,7 +11225,7 @@
     "form": "december",
     "lemma": "december",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "December",
     "hint": "December",
     "hint_source": "Wiktionary (built)",
@@ -11594,7 +11594,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "abbreviation of vi ses (“see you”)",
-    "lemma_gloss": ""
+    "lemma_gloss": "see you"
   },
   {
     "word_id": "W1381",
@@ -11737,7 +11737,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of foreslå",
-    "hint": "present of foreslå",
+    "hint": "suggest (present of foreslå)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U64",
     "needs_image": "no",
@@ -11746,7 +11746,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of foreslå",
-    "lemma_gloss": ""
+    "lemma_gloss": "suggest"
   },
   {
     "word_id": "W1389",
@@ -11775,7 +11775,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of burde",
-    "hint": "present tense of burde",
+    "hint": "ought (present tense of burde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U64",
     "needs_image": "no",
@@ -11784,7 +11784,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present tense of burde",
-    "lemma_gloss": ""
+    "lemma_gloss": "ought"
   },
   {
     "word_id": "W1391",
@@ -11832,8 +11832,8 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of ske",
-    "hint": "present of ske",
-    "hint_source": "Wiktionary (built)",
+    "hint": "happens (present of ske)",
+    "hint_source": "Wrap-up pass (2026-11-22): the built form-of hint took Wiktionary's first sense of the lemma; this picks the sense the course's lines use. Wiktionary: ske, to happen, occur",
     "first_unit": "U64",
     "needs_image": "no",
     "image_file": "",
@@ -11841,7 +11841,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of ske",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be"
   },
   {
     "word_id": "W1394",
@@ -11908,7 +11908,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of vågne",
-    "hint": "present of vågne",
+    "hint": "to awake, to wake (present of vågne)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U65",
     "needs_image": "no",
@@ -11917,7 +11917,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of vågne",
-    "lemma_gloss": ""
+    "lemma_gloss": "to awake, to wake"
   },
   {
     "word_id": "W1398",
@@ -11935,7 +11935,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/op#Danish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
-    "gloss_full": "up (away from earth’s centre)",
+    "gloss_full": "up (away from earth’s center)",
     "lemma_gloss": ""
   },
   {
@@ -11946,7 +11946,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of sove",
-    "hint": "present of sove",
+    "hint": "to sleep (present of sove)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U65",
     "needs_image": "no",
@@ -11955,7 +11955,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of sove",
-    "lemma_gloss": ""
+    "lemma_gloss": "to sleep"
   },
   {
     "word_id": "W1400",
@@ -12041,7 +12041,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of arbejde",
-    "hint": "present of arbejde",
+    "hint": "to work (present of arbejde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U65",
     "needs_image": "no",
@@ -12050,7 +12050,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of arbejde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to work"
   },
   {
     "word_id": "W1405",
@@ -12079,7 +12079,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of begynde",
-    "hint": "present of begynde",
+    "hint": "to start, begin, commence, open (present of begynde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U65",
     "needs_image": "no",
@@ -12088,7 +12088,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of begynde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to start, begin, commence, open"
   },
   {
     "word_id": "W1407",
@@ -12117,7 +12117,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of slutte",
-    "hint": "present of slutte",
+    "hint": "to end, to finish (present of slutte)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U65",
     "needs_image": "no",
@@ -12126,7 +12126,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of slutte",
-    "lemma_gloss": ""
+    "lemma_gloss": "to end, to finish"
   },
   {
     "word_id": "W1409",
@@ -12372,7 +12372,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of stoppe",
-    "hint": "imperative of stoppe",
+    "hint": "to stop, halt (imperative of stoppe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U66",
     "needs_image": "no",
@@ -12381,7 +12381,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of stoppe",
-    "lemma_gloss": ""
+    "lemma_gloss": "to stop, halt"
   },
   {
     "word_id": "W1423",
@@ -12408,7 +12408,7 @@
     "form": "lov",
     "lemma": "lov",
     "part_of_speech": "Noun",
-    "gender": "",
+    "gender": "en",
     "gloss": "permission",
     "hint": "permission; law (har lov til: may, be allowed to)",
     "hint_source": "Wiktionary Danish: law; permission (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)",
@@ -12523,8 +12523,8 @@
     "lemma": "fly",
     "part_of_speech": "Noun",
     "gender": "et",
-    "gloss": "airplane, aeroplane",
-    "hint": "plane, aeroplane, airplane",
+    "gloss": "airplane",
+    "hint": "plane, airplane",
     "hint_source": "Wiktionary Danish: airplane, aeroplane (Claude, Builder 2, Danish Part 3 gather, 2026-11-21)",
     "first_unit": "U67",
     "needs_image": "no",
@@ -12532,7 +12532,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/fly#Danish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
-    "gloss_full": "airplane, aeroplane",
+    "gloss_full": "airplane",
     "lemma_gloss": ""
   },
   {
@@ -12543,7 +12543,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of flyve",
-    "hint": "present tense of flyve",
+    "hint": "to fly (present tense of flyve)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U67",
     "needs_image": "no",
@@ -12552,7 +12552,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present tense of flyve",
-    "lemma_gloss": ""
+    "lemma_gloss": "to fly"
   },
   {
     "word_id": "W1432",
@@ -12609,7 +12609,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of rejse",
-    "lemma_gloss": ""
+    "lemma_gloss": "rise"
   },
   {
     "word_id": "W1435",
@@ -12676,7 +12676,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of køre",
-    "hint": "present of køre",
+    "hint": "to drive (present of køre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U67",
     "needs_image": "no",
@@ -12685,7 +12685,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of køre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to drive"
   },
   {
     "word_id": "W1439",
@@ -12961,7 +12961,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of forsinke",
-    "hint": "past participle of forsinke",
+    "hint": "to delay (past participle of forsinke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U68",
     "needs_image": "no",
@@ -12970,7 +12970,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "past participle of forsinke",
-    "lemma_gloss": ""
+    "lemma_gloss": "to delay; to hold up"
   },
   {
     "word_id": "W1454",
@@ -13018,7 +13018,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of stoppe",
-    "hint": "present of stoppe",
+    "hint": "to stop, halt (present of stoppe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U68",
     "needs_image": "no",
@@ -13027,7 +13027,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of stoppe",
-    "lemma_gloss": ""
+    "lemma_gloss": "to stop, halt"
   },
   {
     "word_id": "W1457",
@@ -13056,7 +13056,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of beklage",
-    "hint": "present of beklage",
+    "hint": "apologize for (present of beklage)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U68",
     "needs_image": "no",
@@ -13065,7 +13065,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of beklage",
-    "lemma_gloss": ""
+    "lemma_gloss": "apologize for"
   },
   {
     "word_id": "W1459",
@@ -13151,7 +13151,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of kigge",
-    "hint": "imperative of kigge",
+    "hint": "to look (imperative of kigge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13160,7 +13160,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of kigge",
-    "lemma_gloss": ""
+    "lemma_gloss": "to look"
   },
   {
     "word_id": "W1464",
@@ -13170,7 +13170,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of vælge",
-    "hint": "imperative of vælge",
+    "hint": "to choose (imperative of vælge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13179,7 +13179,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of vælge",
-    "lemma_gloss": ""
+    "lemma_gloss": "to choose"
   },
   {
     "word_id": "W1465",
@@ -13208,7 +13208,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of læse",
-    "hint": "imperative of læse",
+    "hint": "to read (imperative of læse)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13217,7 +13217,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of læse",
-    "lemma_gloss": ""
+    "lemma_gloss": "to read"
   },
   {
     "word_id": "W1467",
@@ -13246,7 +13246,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of skrive",
-    "hint": "imperative of skrive",
+    "hint": "to write (imperative of skrive)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13255,7 +13255,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of skrive",
-    "lemma_gloss": ""
+    "lemma_gloss": "to write"
   },
   {
     "word_id": "W1469",
@@ -13284,7 +13284,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of glemme",
-    "hint": "imperative of glemme",
+    "hint": "to forget (imperative of glemme)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13293,7 +13293,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of glemme",
-    "lemma_gloss": ""
+    "lemma_gloss": "to forget"
   },
   {
     "word_id": "W1471",
@@ -13303,7 +13303,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of prøve",
-    "hint": "imperative of prøve",
+    "hint": "to try (imperative of prøve)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13312,7 +13312,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of prøve",
-    "lemma_gloss": ""
+    "lemma_gloss": "to try"
   },
   {
     "word_id": "W1472",
@@ -13379,7 +13379,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of vise",
-    "hint": "imperative of vise",
+    "hint": "to show (imperative of vise)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13388,7 +13388,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of vise",
-    "lemma_gloss": ""
+    "lemma_gloss": "to show"
   },
   {
     "word_id": "W1476",
@@ -13417,7 +13417,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of vise",
-    "hint": "present of vise",
+    "hint": "to show (present of vise)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13426,7 +13426,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of vise",
-    "lemma_gloss": ""
+    "lemma_gloss": "to show"
   },
   {
     "word_id": "W1478",
@@ -13436,7 +13436,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of forklare",
-    "hint": "imperative of forklare",
+    "hint": "to explain (imperative of forklare)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13445,7 +13445,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of forklare",
-    "lemma_gloss": ""
+    "lemma_gloss": "to explain"
   },
   {
     "word_id": "W1479",
@@ -13474,7 +13474,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of fortælle",
-    "hint": "imperative of fortælle",
+    "hint": "to tell, to report (imperative of fortælle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13483,7 +13483,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of fortælle",
-    "lemma_gloss": ""
+    "lemma_gloss": "to tell, to report"
   },
   {
     "word_id": "W1481",
@@ -13512,7 +13512,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of fortælle",
-    "hint": "present tense of fortælle",
+    "hint": "to tell, to report (present tense of fortælle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13521,7 +13521,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present tense of fortælle",
-    "lemma_gloss": ""
+    "lemma_gloss": "to tell, to report"
   },
   {
     "word_id": "W1483",
@@ -13531,7 +13531,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of lukke",
-    "hint": "imperative of lukke",
+    "hint": "to close (imperative of lukke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13540,7 +13540,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of lukke",
-    "lemma_gloss": ""
+    "lemma_gloss": "to close"
   },
   {
     "word_id": "W1484",
@@ -13550,7 +13550,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of sætte",
-    "hint": "imperative of sætte",
+    "hint": "to put, place, set (imperative of sætte)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13559,7 +13559,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of sætte",
-    "lemma_gloss": ""
+    "lemma_gloss": "to put, place, set"
   },
   {
     "word_id": "W1485",
@@ -13588,7 +13588,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of sætte",
-    "hint": "present of sætte",
+    "hint": "to put, place, set (present of sætte)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13597,7 +13597,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of sætte",
-    "lemma_gloss": ""
+    "lemma_gloss": "to put, place, set"
   },
   {
     "word_id": "W1487",
@@ -13607,7 +13607,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of finde",
-    "hint": "imperative of finde",
+    "hint": "to find (imperative of finde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13616,7 +13616,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of finde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to find"
   },
   {
     "word_id": "W1488",
@@ -13626,7 +13626,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of finde",
-    "hint": "present of finde",
+    "hint": "to find (present of finde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13635,7 +13635,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present of finde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to find"
   },
   {
     "word_id": "W1489",
@@ -13645,7 +13645,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of tage",
-    "hint": "imperative of tage",
+    "hint": "to take, get, pick up (imperative of tage)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13654,7 +13654,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of tage",
-    "lemma_gloss": ""
+    "lemma_gloss": "to take, get, pick up"
   },
   {
     "word_id": "W1490",
@@ -13664,7 +13664,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of give",
-    "hint": "imperative of give",
+    "hint": "to give (imperative of give)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13673,7 +13673,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "imperative of give",
-    "lemma_gloss": ""
+    "lemma_gloss": "to give"
   },
   {
     "word_id": "W1491",
@@ -13683,7 +13683,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of hjælpe",
-    "hint": "present tense of hjælpe",
+    "hint": "to help (present tense of hjælpe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U69",
     "needs_image": "no",
@@ -13692,7 +13692,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word",
     "gloss_full": "present tense of hjælpe",
-    "lemma_gloss": ""
+    "lemma_gloss": "to help"
   },
   {
     "word_id": "W1492",
@@ -13740,7 +13740,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of være",
-    "hint": "past of være",
+    "hint": "to be (past of være)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13749,7 +13749,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of være",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be"
   },
   {
     "word_id": "W1503",
@@ -13759,7 +13759,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past active of have",
-    "hint": "past active of have",
+    "hint": "to have (past active of have)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13768,7 +13768,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past active of have",
-    "lemma_gloss": ""
+    "lemma_gloss": "to have; to have got"
   },
   {
     "word_id": "W1504",
@@ -13778,7 +13778,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of komme",
-    "hint": "past of komme",
+    "hint": "to come (past of komme)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13787,7 +13787,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of komme",
-    "lemma_gloss": ""
+    "lemma_gloss": "to come"
   },
   {
     "word_id": "W1505",
@@ -13797,7 +13797,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of gå",
-    "hint": "past of gå",
+    "hint": "to go (past of gå)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13806,7 +13806,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of gå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to go"
   },
   {
     "word_id": "W1506",
@@ -13816,7 +13816,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of sige",
-    "hint": "past tense of sige",
+    "hint": "to say (past tense of sige)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13825,7 +13825,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of sige",
-    "lemma_gloss": ""
+    "lemma_gloss": "to say"
   },
   {
     "word_id": "W1507",
@@ -13835,7 +13835,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past active of blive",
-    "hint": "past active of blive",
+    "hint": "to become (past active of blive)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13844,7 +13844,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past active of blive",
-    "lemma_gloss": ""
+    "lemma_gloss": "to become"
   },
   {
     "word_id": "W1508",
@@ -13854,7 +13854,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of gøre",
-    "hint": "past of gøre",
+    "hint": "to do, perform, execute (past of gøre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13863,7 +13863,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of gøre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to do, perform, execute"
   },
   {
     "word_id": "W1509",
@@ -13873,7 +13873,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of få",
-    "hint": "past of få",
+    "hint": "to get (past of få)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13882,7 +13882,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of få",
-    "lemma_gloss": ""
+    "lemma_gloss": "to get"
   },
   {
     "word_id": "W1510",
@@ -13892,7 +13892,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of give",
-    "hint": "past tense of give",
+    "hint": "to give (past tense of give)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13901,7 +13901,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of give",
-    "lemma_gloss": ""
+    "lemma_gloss": "to give"
   },
   {
     "word_id": "W1511",
@@ -13911,7 +13911,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of finde",
-    "hint": "past of finde",
+    "hint": "to find (past of finde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13920,7 +13920,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of finde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to find"
   },
   {
     "word_id": "W1512",
@@ -13930,7 +13930,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of tro",
-    "hint": "past tense of tro",
+    "hint": "to believe (past tense of tro)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13939,7 +13939,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of tro",
-    "lemma_gloss": ""
+    "lemma_gloss": "to believe"
   },
   {
     "word_id": "W1513",
@@ -13949,7 +13949,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of vide",
-    "hint": "past of vide",
+    "hint": "to know (past of vide)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13958,7 +13958,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of vide",
-    "lemma_gloss": ""
+    "lemma_gloss": "to know"
   },
   {
     "word_id": "W1514",
@@ -13968,7 +13968,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of tænke",
-    "hint": "past tense of tænke",
+    "hint": "to think (past tense of tænke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -13977,7 +13977,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of tænke",
-    "lemma_gloss": ""
+    "lemma_gloss": "to think"
   },
   {
     "word_id": "W1515",
@@ -14006,8 +14006,8 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of tale",
-    "hint": "past tense of tale",
-    "hint_source": "Wiktionary (built)",
+    "hint": "spoke, talked (past tense of tale)",
+    "hint_source": "Wrap-up pass (2026-11-22): the built form-of hint took Wiktionary's first sense of the lemma; this picks the sense the course's lines use. Wiktionary: tale, to speak, talk",
     "first_unit": "U71",
     "needs_image": "no",
     "image_file": "",
@@ -14015,7 +14015,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of tale",
-    "lemma_gloss": ""
+    "lemma_gloss": "to make a speech"
   },
   {
     "word_id": "W1517",
@@ -14025,7 +14025,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of lave",
-    "hint": "past tense of lave",
+    "hint": "to make, create, construct, produce (past tense of lave)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -14034,7 +14034,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of lave",
-    "lemma_gloss": ""
+    "lemma_gloss": "to make, create, construct, produce"
   },
   {
     "word_id": "W1518",
@@ -14044,7 +14044,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of ringe",
-    "hint": "past of ringe",
+    "hint": "To call, to telephone (past of ringe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -14053,7 +14053,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of ringe",
-    "lemma_gloss": ""
+    "lemma_gloss": "To call, to telephone"
   },
   {
     "word_id": "W1519",
@@ -14063,7 +14063,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of fortælle",
-    "hint": "past tense of fortælle",
+    "hint": "to tell, to report (past tense of fortælle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -14072,7 +14072,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of fortælle",
-    "lemma_gloss": ""
+    "lemma_gloss": "to tell, to report"
   },
   {
     "word_id": "W1520",
@@ -14082,7 +14082,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past tense of elske",
-    "hint": "past tense of elske",
+    "hint": "to love (past tense of elske)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -14091,7 +14091,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past tense of elske",
-    "lemma_gloss": ""
+    "lemma_gloss": "to love"
   },
   {
     "word_id": "W1521",
@@ -14101,7 +14101,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past of prøve",
-    "hint": "past of prøve",
+    "hint": "to try (past of prøve)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U71",
     "needs_image": "no",
@@ -14110,7 +14110,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past of prøve",
-    "lemma_gloss": ""
+    "lemma_gloss": "to try"
   },
   {
     "word_id": "W1522",
@@ -14185,7 +14185,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of regne",
-    "hint": "present of regne",
+    "hint": "to rain (present of regne)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U72",
     "needs_image": "no",
@@ -14194,7 +14194,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "present of regne",
-    "lemma_gloss": ""
+    "lemma_gloss": "to rain"
   },
   {
     "word_id": "W1526",
@@ -14231,7 +14231,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of sne",
-    "hint": "present of sne",
+    "hint": "to snow (present of sne)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U72",
     "needs_image": "no",
@@ -14240,7 +14240,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "present of sne",
-    "lemma_gloss": ""
+    "lemma_gloss": "to snow"
   },
   {
     "word_id": "W1528",
@@ -14250,7 +14250,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of blæse",
-    "hint": "present of blæse",
+    "hint": "to blow (present of blæse)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U72",
     "needs_image": "no",
@@ -14259,7 +14259,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "present of blæse",
-    "lemma_gloss": ""
+    "lemma_gloss": "to blow"
   },
   {
     "word_id": "W1529",
@@ -14364,7 +14364,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of være",
-    "hint": "past participle of være",
+    "hint": "to be (past participle of være)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14373,7 +14373,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of være",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be"
   },
   {
     "word_id": "W1535",
@@ -14383,7 +14383,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of se",
-    "hint": "past participle of se",
+    "hint": "to see (past participle of se)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14392,7 +14392,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of se",
-    "lemma_gloss": ""
+    "lemma_gloss": "to see"
   },
   {
     "word_id": "W1536",
@@ -14402,7 +14402,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of sige",
-    "hint": "past participle of sige",
+    "hint": "to say (past participle of sige)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14411,7 +14411,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of sige",
-    "lemma_gloss": ""
+    "lemma_gloss": "to say"
   },
   {
     "word_id": "W1537",
@@ -14421,7 +14421,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of gøre",
-    "hint": "past participle of gøre",
+    "hint": "to do, perform, execute (past participle of gøre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14430,7 +14430,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of gøre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to do, perform, execute"
   },
   {
     "word_id": "W1538",
@@ -14440,7 +14440,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of få",
-    "hint": "past participle of få",
+    "hint": "to get (past participle of få)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14449,7 +14449,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of få",
-    "lemma_gloss": ""
+    "lemma_gloss": "to get"
   },
   {
     "word_id": "W1539",
@@ -14459,7 +14459,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of komme",
-    "hint": "past participle of komme",
+    "hint": "to come (past participle of komme)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14468,7 +14468,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of komme",
-    "lemma_gloss": ""
+    "lemma_gloss": "to come"
   },
   {
     "word_id": "W1540",
@@ -14478,7 +14478,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of gå",
-    "hint": "past participle of gå",
+    "hint": "to go (past participle of gå)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14487,7 +14487,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of gå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to go"
   },
   {
     "word_id": "W1541",
@@ -14497,7 +14497,7 @@
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of blive",
-    "hint": "past participle of blive",
+    "hint": "to become (past participle of blive)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14506,7 +14506,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of blive",
-    "lemma_gloss": ""
+    "lemma_gloss": "to become"
   },
   {
     "word_id": "W1542",
@@ -14516,7 +14516,7 @@
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of have",
-    "hint": "past participle of have",
+    "hint": "to have (past participle of have)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14525,7 +14525,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of have",
-    "lemma_gloss": ""
+    "lemma_gloss": "to have; to have got"
   },
   {
     "word_id": "W1543",
@@ -14535,7 +14535,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of høre",
-    "hint": "past participle of høre",
+    "hint": "to hear (past participle of høre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14544,7 +14544,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of høre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hear"
   },
   {
     "word_id": "W1544",
@@ -14554,7 +14554,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle neuter of finde",
-    "hint": "past participle neuter of finde",
+    "hint": "to find (past participle neuter of finde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14563,7 +14563,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle neuter of finde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to find"
   },
   {
     "word_id": "W1545",
@@ -14573,7 +14573,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of lave",
-    "hint": "past participle of lave",
+    "hint": "to make, create, construct, produce (past participle of lave)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14582,7 +14582,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of lave",
-    "lemma_gloss": ""
+    "lemma_gloss": "to make, create, construct, produce"
   },
   {
     "word_id": "W1546",
@@ -14592,7 +14592,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of tage",
-    "hint": "past participle of tage",
+    "hint": "to take, get, pick up (past participle of tage)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14601,7 +14601,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of tage (“to take”)",
-    "lemma_gloss": ""
+    "lemma_gloss": "to take, get, pick up"
   },
   {
     "word_id": "W1547",
@@ -14611,8 +14611,8 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of tale",
-    "hint": "past participle of tale",
-    "hint_source": "Wiktionary (built)",
+    "hint": "spoken, talked (past participle of tale)",
+    "hint_source": "Wrap-up pass (2026-11-22): the built form-of hint took Wiktionary's first sense of the lemma; this picks the sense the course's lines use. Wiktionary: tale, to speak, talk",
     "first_unit": "U73",
     "needs_image": "no",
     "image_file": "",
@@ -14620,7 +14620,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of tale",
-    "lemma_gloss": ""
+    "lemma_gloss": "to make a speech"
   },
   {
     "word_id": "W1548",
@@ -14630,7 +14630,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of fortælle",
-    "hint": "past participle of fortælle",
+    "hint": "to tell, to report (past participle of fortælle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14639,7 +14639,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of fortælle",
-    "lemma_gloss": ""
+    "lemma_gloss": "to tell, to report"
   },
   {
     "word_id": "W1549",
@@ -14649,8 +14649,8 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of ske",
-    "hint": "past participle of ske",
-    "hint_source": "Wiktionary (built)",
+    "hint": "happened (past participle of ske)",
+    "hint_source": "Wrap-up pass (2026-11-22): the built form-of hint took Wiktionary's first sense of the lemma; this picks the sense the course's lines use. Wiktionary: ske, to happen, occur",
     "first_unit": "U73",
     "needs_image": "no",
     "image_file": "",
@@ -14658,7 +14658,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of ske",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be"
   },
   {
     "word_id": "W1550",
@@ -14668,7 +14668,7 @@
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of glemme",
-    "hint": "past participle of glemme",
+    "hint": "to forget (past participle of glemme)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14677,7 +14677,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of glemme",
-    "lemma_gloss": ""
+    "lemma_gloss": "to forget"
   },
   {
     "word_id": "W1551",
@@ -14687,7 +14687,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of tænke",
-    "hint": "past participle of tænke",
+    "hint": "to think (past participle of tænke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U73",
     "needs_image": "no",
@@ -14696,7 +14696,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "past participle of tænke",
-    "lemma_gloss": ""
+    "lemma_gloss": "to think"
   },
   {
     "word_id": "W1552",
@@ -14934,7 +14934,7 @@
     "part_of_speech": "Preposition",
     "gender": "",
     "gloss": "alternative form of gennem",
-    "hint": "alternative form of gennem",
+    "hint": "through (alternative form of gennem)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U74",
     "needs_image": "no",
@@ -14943,7 +14943,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "alternative form of gennem",
-    "lemma_gloss": ""
+    "lemma_gloss": "through"
   },
   {
     "word_id": "W1565",
@@ -15231,25 +15231,6 @@
     "lemma_gloss": "what, which, the"
   },
   {
-    "word_id": "W1580",
-    "lang_id": "da",
-    "form": "hader",
-    "lemma": "hade",
-    "part_of_speech": "Verb",
-    "gender": "",
-    "gloss": "present of hade",
-    "hint": "present of hade",
-    "hint_source": "Wiktionary (built)",
-    "first_unit": "U75",
-    "needs_image": "no",
-    "image_file": "",
-    "wiktionary_url": "https://en.wiktionary.org/wiki/hader#Danish",
-    "status": "pull from Wiktionary",
-    "notes": "A1 Part 3 vocabulary circle word",
-    "gloss_full": "present of hade",
-    "lemma_gloss": ""
-  },
-  {
     "word_id": "W1581",
     "lang_id": "da",
     "form": "ønsker",
@@ -15257,7 +15238,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present tense of ønske",
-    "hint": "present tense of ønske",
+    "hint": "to wish (present tense of ønske)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U75",
     "needs_image": "no",
@@ -15266,7 +15247,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "present tense of ønske",
-    "lemma_gloss": ""
+    "lemma_gloss": "to wish"
   },
   {
     "word_id": "W1582",
@@ -15368,7 +15349,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of glæde",
-    "hint": "present of glæde",
+    "hint": "look forward to (present of glæde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U75",
     "needs_image": "no",
@@ -15377,7 +15358,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "present of glæde",
-    "lemma_gloss": ""
+    "lemma_gloss": "look forward to"
   },
   {
     "word_id": "W1587",
@@ -15387,7 +15368,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of savne",
-    "hint": "present of savne",
+    "hint": "to miss (present of savne)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U75",
     "needs_image": "no",
@@ -15396,7 +15377,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "present of savne",
-    "lemma_gloss": ""
+    "lemma_gloss": "to miss"
   },
   {
     "word_id": "W1588",
@@ -15529,7 +15510,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "superlative degree of gerne (“willingly”)",
-    "lemma_gloss": ""
+    "lemma_gloss": "with pleasure; gladly, willingly, readily"
   },
   {
     "word_id": "W1595",
@@ -15577,7 +15558,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of leve",
-    "hint": "present of leve",
+    "hint": "to live, be alive (present of leve)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U75",
     "needs_image": "no",
@@ -15586,7 +15567,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word",
     "gloss_full": "present of leve",
-    "lemma_gloss": ""
+    "lemma_gloss": "to live, be alive"
   },
   {
     "word_id": "W1598",
@@ -15881,7 +15862,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of forstyrre",
-    "hint": "present of forstyrre",
+    "hint": "to disturb, upset, disrupt (present of forstyrre)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U26",
     "needs_image": "no",
@@ -15890,7 +15871,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "present of forstyrre",
-    "lemma_gloss": ""
+    "lemma_gloss": "to disturb, upset, disrupt"
   },
   {
     "word_id": "W2015",
@@ -15919,7 +15900,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of være",
-    "hint": "imperative of være",
+    "hint": "to be (imperative of være)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U26",
     "needs_image": "no",
@@ -15928,7 +15909,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "imperative of være (“to be”)",
-    "lemma_gloss": ""
+    "lemma_gloss": "to be"
   },
   {
     "word_id": "W2017",
@@ -16382,8 +16363,8 @@
     "lemma": "meter",
     "part_of_speech": "Noun",
     "gender": "en",
-    "gloss": "a metre, or meter",
-    "hint": "a metre, or meter",
+    "gloss": "a meter, or meter",
+    "hint": "a meter, or meter",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U83",
     "needs_image": "no",
@@ -16391,7 +16372,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/meter#Danish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
-    "gloss_full": "a metre, or meter (US) (SI unit of measurement)",
+    "gloss_full": "a meter, or meter (US) (SI unit of measurement)",
     "lemma_gloss": ""
   },
   {
@@ -16411,7 +16392,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "imperative of dreje",
-    "lemma_gloss": ""
+    "lemma_gloss": "to turn"
   },
   {
     "word_id": "W2043",
@@ -16421,7 +16402,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of fortsætte",
-    "hint": "imperative of fortsætte",
+    "hint": "to continue (imperative of fortsætte)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U83",
     "needs_image": "no",
@@ -16430,7 +16411,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "imperative of fortsætte",
-    "lemma_gloss": ""
+    "lemma_gloss": "to continue"
   },
   {
     "word_id": "W2044",
@@ -16449,7 +16430,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "comparative degree of længe",
-    "lemma_gloss": ""
+    "lemma_gloss": "long"
   },
   {
     "word_id": "W2045",
@@ -16515,8 +16496,8 @@
     "lemma": "midt",
     "part_of_speech": "Adverb",
     "gender": "",
-    "gloss": "in the middle/centre",
-    "hint": "in the middle/centre",
+    "gloss": "in the middle/center",
+    "hint": "in the middle/center",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U83",
     "needs_image": "no",
@@ -16524,7 +16505,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/midt#Danish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
-    "gloss_full": "in the middle/centre",
+    "gloss_full": "in the middle/center",
     "lemma_gloss": ""
   },
   {
@@ -16563,7 +16544,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "past participle of fare",
-    "lemma_gloss": ""
+    "lemma_gloss": "to rush, run"
   },
   {
     "word_id": "W2051",
@@ -16668,7 +16649,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of skifte",
-    "hint": "present of skifte",
+    "hint": "to change (present of skifte)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U84",
     "needs_image": "no",
@@ -16677,7 +16658,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "present of skifte",
-    "lemma_gloss": ""
+    "lemma_gloss": "to change"
   },
   {
     "word_id": "W2059",
@@ -16706,7 +16687,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of stige",
-    "hint": "present of stige",
+    "hint": "rise (present of stige)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U84",
     "needs_image": "no",
@@ -16715,7 +16696,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "present of stige",
-    "lemma_gloss": ""
+    "lemma_gloss": "rise"
   },
   {
     "word_id": "W2061",
@@ -16762,8 +16743,8 @@
     "lemma": "kørekort",
     "part_of_speech": "Noun",
     "gender": "et",
-    "gloss": "driving licence, driver's license",
-    "hint": "driving licence, driver's license",
+    "gloss": "driving license, driver's license",
+    "hint": "driving license, driver's license",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U84",
     "needs_image": "no",
@@ -16771,7 +16752,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/k%C3%B8rekort#Danish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
-    "gloss_full": "driving licence, driver's license",
+    "gloss_full": "driving license, driver's license",
     "lemma_gloss": ""
   },
   {
@@ -16858,7 +16839,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of cykle",
-    "hint": "present of cykle",
+    "hint": "to cycle, to ride a bicycle (present of cykle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U84",
     "needs_image": "no",
@@ -16867,7 +16848,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "present of cykle",
-    "lemma_gloss": ""
+    "lemma_gloss": "to cycle, to ride a bicycle"
   },
   {
     "word_id": "W2069",
@@ -17209,7 +17190,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "past participle of skille",
-    "lemma_gloss": ""
+    "lemma_gloss": "to separate"
   },
   {
     "word_id": "W2087",
@@ -17465,8 +17446,8 @@
     "lemma": "etage",
     "part_of_speech": "Noun",
     "gender": "en",
-    "gloss": "storey, story, floor",
-    "hint": "storey, story, floor",
+    "gloss": "story, floor",
+    "hint": "story, floor",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U86",
     "needs_image": "no",
@@ -17474,7 +17455,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/etage#Danish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
-    "gloss_full": "storey, story, floor",
+    "gloss_full": "story, floor",
     "lemma_gloss": ""
   },
   {
@@ -17922,7 +17903,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of stjæle",
-    "hint": "past participle of stjæle",
+    "hint": "to steal (past participle of stjæle)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U28",
     "needs_image": "no",
@@ -17931,7 +17912,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "past participle of stjæle",
-    "lemma_gloss": ""
+    "lemma_gloss": "to steal"
   },
   {
     "word_id": "W2125",
@@ -17941,7 +17922,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of skade",
-    "hint": "past participle of skade",
+    "hint": "to harm, damage (past participle of skade)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U28",
     "needs_image": "no",
@@ -17950,7 +17931,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "past participle of skade",
-    "lemma_gloss": ""
+    "lemma_gloss": "to harm, damage"
   },
   {
     "word_id": "W2126",
@@ -17960,7 +17941,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of ringe",
-    "hint": "imperative of ringe",
+    "hint": "To call, to telephone (imperative of ringe)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U28",
     "needs_image": "no",
@@ -17969,7 +17950,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "imperative of ringe",
-    "lemma_gloss": ""
+    "lemma_gloss": "To call, to telephone"
   },
   {
     "word_id": "W2127",
@@ -18329,7 +18310,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of sende",
-    "hint": "imperative of sende",
+    "hint": "to send (imperative of sende)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U89",
     "needs_image": "no",
@@ -18338,7 +18319,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 word",
     "gloss_full": "imperative of sende",
-    "lemma_gloss": ""
+    "lemma_gloss": "to send"
   },
   {
     "word_id": "W2149",
@@ -18816,44 +18797,6 @@
     "lemma_gloss": ""
   },
   {
-    "word_id": "W2225",
-    "lang_id": "da",
-    "form": "død",
-    "lemma": "død",
-    "part_of_speech": "Adjective",
-    "gender": "",
-    "gloss": "dead, inanimate",
-    "hint": "dead, inanimate",
-    "hint_source": "Wiktionary (built)",
-    "first_unit": "U92",
-    "needs_image": "no",
-    "image_file": "",
-    "wiktionary_url": "https://en.wiktionary.org/wiki/d%C3%B8d#Danish",
-    "status": "pull from Wiktionary",
-    "notes": "A1 Part 4 vocabulary circle word",
-    "gloss_full": "dead, inanimate",
-    "lemma_gloss": ""
-  },
-  {
-    "word_id": "W2226",
-    "lang_id": "da",
-    "form": "døde",
-    "lemma": "dø",
-    "part_of_speech": "Verb",
-    "gender": "",
-    "gloss": "past of dø",
-    "hint": "died; dead (the dead)",
-    "hint_source": "Wiktionary Danish døde: past of dø; plural and definite of død (dead) (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)",
-    "first_unit": "U92",
-    "needs_image": "no",
-    "image_file": "",
-    "wiktionary_url": "https://en.wiktionary.org/wiki/d%C3%B8de#Danish",
-    "status": "pull from Wiktionary",
-    "notes": "A1 Part 4 vocabulary circle word",
-    "gloss_full": "past of dø",
-    "lemma_gloss": ""
-  },
-  {
     "word_id": "W2227",
     "lang_id": "da",
     "form": "hvert",
@@ -19022,7 +18965,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present tense of holde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hold"
   },
   {
     "word_id": "W2236",
@@ -19041,7 +18984,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "past tense of holde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hold"
   },
   {
     "word_id": "W2237",
@@ -19098,7 +19041,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present tense of lade",
-    "lemma_gloss": ""
+    "lemma_gloss": "barn"
   },
   {
     "word_id": "W2240",
@@ -19127,7 +19070,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of spille",
-    "hint": "present of spille",
+    "hint": "to play (present of spille)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U93",
     "needs_image": "no",
@@ -19136,7 +19079,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present of spille",
-    "lemma_gloss": ""
+    "lemma_gloss": "to play"
   },
   {
     "word_id": "W2242",
@@ -19155,7 +19098,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present of handle",
-    "lemma_gloss": ""
+    "lemma_gloss": "act"
   },
   {
     "word_id": "W2243",
@@ -19193,7 +19136,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present tense of slå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to beat, hit, knock"
   },
   {
     "word_id": "W2245",
@@ -19212,7 +19155,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "past tense of slå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to beat, hit, knock"
   },
   {
     "word_id": "W2246",
@@ -19222,7 +19165,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of vinde",
-    "hint": "present of vinde",
+    "hint": "win (present of vinde)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U93",
     "needs_image": "no",
@@ -19231,7 +19174,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present of vinde",
-    "lemma_gloss": ""
+    "lemma_gloss": "win"
   },
   {
     "word_id": "W2247",
@@ -19241,7 +19184,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of åbne",
-    "hint": "present of åbne",
+    "hint": "to open (present of åbne)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U93",
     "needs_image": "no",
@@ -19250,7 +19193,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present of åbne",
-    "lemma_gloss": ""
+    "lemma_gloss": "to open"
   },
   {
     "word_id": "W2249",
@@ -19269,7 +19212,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present of ane",
-    "lemma_gloss": ""
+    "lemma_gloss": "guess"
   },
   {
     "word_id": "W2250",
@@ -19279,7 +19222,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "past participle of forstå",
-    "hint": "past participle of forstå",
+    "hint": "to understand (past participle of forstå)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U94",
     "needs_image": "no",
@@ -19288,7 +19231,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "past participle of forstå",
-    "lemma_gloss": ""
+    "lemma_gloss": "to understand"
   },
   {
     "word_id": "W2251",
@@ -19412,7 +19355,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "present of forvente",
-    "hint": "present of forvente",
+    "hint": "to expect (present of forvente)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U94",
     "needs_image": "no",
@@ -19421,7 +19364,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "present of forvente",
-    "lemma_gloss": ""
+    "lemma_gloss": "to expect"
   },
   {
     "word_id": "W2258",
@@ -19440,7 +19383,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "imperative of holde",
-    "lemma_gloss": ""
+    "lemma_gloss": "to hold"
   },
   {
     "word_id": "W2259",
@@ -19450,7 +19393,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of lægge",
-    "hint": "imperative of lægge",
+    "hint": "to lay (imperative of lægge)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U95",
     "needs_image": "no",
@@ -19459,7 +19402,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "imperative of lægge",
-    "lemma_gloss": ""
+    "lemma_gloss": "to lay"
   },
   {
     "word_id": "W2260",
@@ -19497,7 +19440,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "imperative of løbe",
-    "lemma_gloss": ""
+    "lemma_gloss": "to run"
   },
   {
     "word_id": "W2262",
@@ -19526,7 +19469,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "active imperative of blive",
-    "hint": "active imperative of blive",
+    "hint": "to become (active imperative of blive)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U95",
     "needs_image": "no",
@@ -19535,7 +19478,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "active imperative of blive",
-    "lemma_gloss": ""
+    "lemma_gloss": "to become"
   },
   {
     "word_id": "W2264",
@@ -19545,7 +19488,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of tænke",
-    "hint": "imperative of tænke",
+    "hint": "to think (imperative of tænke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U95",
     "needs_image": "no",
@@ -19554,7 +19497,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "imperative of tænke",
-    "lemma_gloss": ""
+    "lemma_gloss": "to think"
   },
   {
     "word_id": "W2265",
@@ -19573,7 +19516,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "past of slippe",
-    "lemma_gloss": ""
+    "lemma_gloss": "to let go, release, drop"
   },
   {
     "word_id": "W2266",
@@ -19621,7 +19564,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of spise",
-    "hint": "imperative of spise",
+    "hint": "to eat (imperative of spise)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U95",
     "needs_image": "no",
@@ -19630,7 +19573,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "imperative of spise",
-    "lemma_gloss": ""
+    "lemma_gloss": "to eat"
   },
   {
     "word_id": "W2269",
@@ -19640,7 +19583,7 @@
     "part_of_speech": "Verb",
     "gender": "",
     "gloss": "imperative of drikke",
-    "hint": "imperative of drikke",
+    "hint": "drink (imperative of drikke)",
     "hint_source": "Wiktionary (built)",
     "first_unit": "U95",
     "needs_image": "no",
@@ -19649,6 +19592,6 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word",
     "gloss_full": "imperative of drikke",
-    "lemma_gloss": ""
+    "lemma_gloss": "drink"
   }
 ]

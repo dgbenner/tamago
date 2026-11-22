@@ -41269,8 +41269,8 @@
   {
     "sentence_id": "S67105",
     "unit_id": "U67",
-    "french": "Toget har ankomst klokken fem.",
-    "english": "The train arrives at five o'clock.",
+    "french": "Ankomst: klokken fem.",
+    "english": "Arrival: five o'clock.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -41278,7 +41278,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-22 (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22, verdict 8: \"har ankomst\" is not idiomatic); was \"Toget har ankomst klokken fem.\""
   },
   {
     "sentence_id": "S67106",
@@ -44701,5 +44701,61 @@
     "audio_source": "tts",
     "max_round": 5,
     "notes": "draft: Tatoeba had too few checked sentences for this word"
+  },
+  {
+    "sentence_id": "S42128",
+    "unit_id": "U42",
+    "french": "Mit nummer er nul tolv tyve.",
+    "english": "My number is zero twelve twenty.",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "live: native check before Phase 4",
+    "origin": "draft",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "draft 2026-11-22: nul kept at three lines in its first circle after the phase 6 cuts (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22)"
+  },
+  {
+    "sentence_id": "S87112",
+    "unit_id": "U87",
+    "french": "Hans løn er god.",
+    "english": "His salary is good.",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "live: native check before Phase 4",
+    "origin": "draft",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "draft 2026-11-22: løn kept at three lines in its first circle after the phase 6 cuts (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22)"
+  },
+  {
+    "sentence_id": "S91117",
+    "unit_id": "U91",
+    "french": "Det er en stor del af mit liv.",
+    "english": "It's a big part of my life.",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "live: native check before Phase 4",
+    "origin": "draft",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "draft 2026-11-22: del kept at three lines in its first circle after the phase 6 cuts (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22)"
+  },
+  {
+    "sentence_id": "S91118",
+    "unit_id": "U91",
+    "french": "Han har briller på hovedet.",
+    "english": "He has glasses on his head.",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "live: native check before Phase 4",
+    "origin": "draft",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "draft 2026-11-22: hovedet kept at three lines in its first circle after the phase 6 cuts (Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22)"
   }
 ]
