@@ -271,6 +271,19 @@ button.chip-drag {
       padding-bottom: 0;
     }
   }
+  /* iPad in landscape is wide enough to hit the desktop rule above, but it is a touch device where the Check row
+     belongs pinned to the bottom as on a phone (Dan, 2026-11-22). Re-pin it only for a coarse pointer in landscape,
+     which leaves desktop (a fine pointer) and iPad held upright static. Kept in @layer components so the unlayered
+     short-screen rule (max-height: 520px) still unpins it when a focused field needs the room. Continue is the
+     fixed answer bar, already pinned everywhere; typing questions use .check-row alone and stay by the field. */
+  @media (min-width: 768px) and (orientation: landscape) and (pointer: coarse) {
+    .action-row {
+      position: sticky;
+      bottom: 0;
+      margin-top: auto;
+      padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+    }
+  }
   /* Grows while pressed, then snaps back. */
   .btn-primary, .btn-submit, .btn-secondary, .choice, .chip {
     transition: transform 120ms ease-out, background-color 120ms ease-out;

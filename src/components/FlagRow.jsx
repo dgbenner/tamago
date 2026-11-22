@@ -39,6 +39,13 @@ export function FlagRow({ size = 'md', onPick }) {
                 className={`flag-pick flex w-full flex-col items-center gap-1 rounded-2xl p-1.5 ${c.ready ? '' : 'opacity-35 grayscale'} ${marked ? 'outline-4 outline-offset-2 outline-orange' : ''}`}>
                 <img src={c.flag} alt="" className={`aspect-square w-full ${px} object-contain`} />
                 <span className={`whitespace-nowrap text-xs sm:text-sm ${marked || (current && !picked) ? 'font-semibold' : 'text-muted'}`}>{c.name}</span>
+                {/* Level and circle count under the name (Dan, 2026-11-22): small, italic and muted so it doesn't
+                    compete with the name (the section-divider look). From the course's own data (course.js c.stats,
+                    built in vite.config.js), so it stays right as courses grow; "A1" today, "A1–A2" once a course
+                    spans levels. Developer-only courses show it only in Developer mode (then c.ready is true). */}
+                {c.stats && (!c.devOnly || c.ready) && (
+                  <span className="text-xs italic leading-tight text-muted">{c.stats.level} · {c.stats.circles} circles</span>
+                )}
               </button>
             </li>
           )
