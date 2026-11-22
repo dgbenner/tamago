@@ -76,10 +76,22 @@ const BY_COURSE = {
     subtitle: ['dr'],
     violence: ['wojna', 'śmierć', 'walka', 'ofiara', 'żołnierz', 'armia', 'wojskowy'],
   },
+  // Swedish phase 6 (2026-11-22, Dan's call on Fable's review): the Kelly newsroom and officialese tail of Part 4's
+  // vocabulary circles U91 to U95, as Italian's register words were: abstract nouns of news and reports (system,
+  // resultat, faktum, procent, krav, stöd, samhälle, stat, parti, demokrati, makt, rättighet, utveckling …), the
+  // adjectives of politics and economics (social, nationell, europeisk, ekonomisk, politisk, kristen …) and written
+  // register verbs and connectives (anse, gälla, finna, ske, kräva, föra, bidra, dock, dess, såväl, däremot). The
+  // everyday core of those circles (mål, skäl, anledning, skillnad, behov, område, kunskap, hög, låg, riktig, vissa,
+  // val, rösta, medlem, utbildning, inse, leda, skapa, öka …) still counts. Stoplisted words with Tatoeba lines stay
+  // taught; those with only drafted lines are off (part4/sv.mjs, workbook v8).
   sv: {
     artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta', 'peng', 'som att'],
     subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg', 'kl.', 'dom'],
-    register: ['regering', 'riksdag', 'kommun', 'myndighet', 'kommission', 'socialdemokrat', 'åtgärd', 'verksamhet', 'enligt', 'samt', 'därmed', 'såsom', 'utgöra', 'innebära', 'genomföra', 'anmäla', 'bildning', 'mission'],
+    register: ['regering', 'riksdag', 'kommun', 'myndighet', 'kommission', 'socialdemokrat', 'åtgärd', 'verksamhet', 'enligt', 'samt', 'därmed', 'såsom', 'utgöra', 'innebära', 'genomföra', 'anmäla', 'bildning', 'mission',
+      'system', 'resultat', 'faktum', 'syfte', 'procent', 'betydelse', 'krav', 'stöd', 'antal', 'princip', 'nivå', 'handling',
+      'social', 'nationell', 'internationell', 'europeisk', 'ekonomisk', 'politisk', 'kristen', 'offentlig', 'enskild', 'allmän', 'särskild', 'övrig',
+      'samhälle', 'stat', 'politik', 'politiker', 'parti', 'demokrati', 'debatt', 'makt', 'rättighet', 'utveckling', 'ekonomi', 'organisation',
+      'anse', 'gälla', 'finna', 'dock', 'dess', 'såväl', 'dels', 'däremot', 'ske', 'kräva', 'utveckla', 'föra', 'bidra'],
     violence: ['krig', 'dö', 'död', 'slå'],
   },
 }

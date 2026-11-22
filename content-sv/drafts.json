@@ -1458,9 +1458,9 @@
     {
       "sentence_id": "S44121",
       "unit_id": "U44",
-      "french": "Stockholm har en miljon hus.",
-      "english": "Stockholm has a million houses.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "En miljon är mycket.",
+      "english": "A million is a lot.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Stockholm har en miljon hus. | Stockholm has a million houses.\""
     },
     {
       "sentence_id": "S44122",
@@ -7832,9 +7832,9 @@
     {
       "sentence_id": "S86104",
       "unit_id": "U86",
-      "french": "Mitt kök har två fönster och ett kallt golv.",
-      "english": "My kitchen has two windows and a cold floor.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Mitt kök har två fönster.",
+      "english": "My kitchen has two windows.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Mitt kök har två fönster och ett kallt golv. | My kitchen has two windows and a cold floor.\""
     },
     {
       "sentence_id": "S86105",
@@ -7867,16 +7867,16 @@
     {
       "sentence_id": "S86109",
       "unit_id": "U86",
-      "french": "Jag bor en trappa upp, och jag hyr min lägenhet.",
-      "english": "I live one floor up, and I rent my flat.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Jag hyr en lägenhet en trappa upp.",
+      "english": "I rent a flat one floor up.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Jag bor en trappa upp, och jag hyr min lägenhet. | I live one floor up, and I rent my flat.\""
     },
     {
       "sentence_id": "S86110",
       "unit_id": "U86",
-      "french": "Vi har en gammal trappa och ett svart tak.",
-      "english": "We have an old staircase and a black roof.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Mitt hus har ett svart tak.",
+      "english": "My house has a black roof.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Vi har en gammal trappa och ett svart tak. | We have an old staircase and a black roof.\""
     },
     {
       "sentence_id": "S86111",
@@ -8411,27 +8411,6 @@
       "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten 2026-11-21: nivå turned off (dry-source rule)"
     },
     {
-      "sentence_id": "S91131",
-      "unit_id": "U91",
-      "french": "Ett antal människor väntar.",
-      "english": "A number of people are waiting.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S91132",
-      "unit_id": "U91",
-      "french": "Det finns ett antal problem.",
-      "english": "There are a number of problems.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S91133",
-      "unit_id": "U91",
-      "french": "Ett antal barn är här.",
-      "english": "A number of children are here.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
       "sentence_id": "S91134",
       "unit_id": "U91",
       "french": "Det kostar tio procent mer.",
@@ -8467,25 +8446,11 @@
       "notes": "draft: Tatoeba had too few checked sentences for this word"
     },
     {
-      "sentence_id": "S91144",
-      "unit_id": "U91",
-      "french": "Tack för ditt stöd.",
-      "english": "Thanks for your support.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
       "sentence_id": "S91145",
       "unit_id": "U91",
-      "french": "Jag behöver stöd och kunskap.",
-      "english": "I need support and knowledge.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S91146",
-      "unit_id": "U91",
-      "french": "Du har mitt stöd.",
-      "english": "You have my support.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Jag behöver tid och kunskap.",
+      "english": "I need time and knowledge.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Jag behöver stöd och kunskap. | I need support and knowledge.\""
     },
     {
       "sentence_id": "S91147",
@@ -8528,34 +8493,6 @@
       "french": "Det är av stor betydelse.",
       "english": "It's of great importance.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92101",
-      "unit_id": "U92",
-      "french": "Det är en politisk och ekonomisk fråga.",
-      "english": "It's a political and economic question.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92102",
-      "unit_id": "U92",
-      "french": "Det är en nationell och internationell fråga.",
-      "english": "It's a national and international question.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92103",
-      "unit_id": "U92",
-      "french": "Det är en social fråga.",
-      "english": "It's a social question.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten 2026-11-21: personlig turned off (dry-source rule)"
-    },
-    {
-      "sentence_id": "S92104",
-      "unit_id": "U92",
-      "french": "Det är en hög risk, inte en låg risk.",
-      "english": "It's a high risk, not a low risk.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten 2026-11-21: nivå turned off (dry-source rule)"
     },
     {
       "sentence_id": "S92105",
@@ -8623,22 +8560,15 @@
     {
       "sentence_id": "S92126",
       "unit_id": "U92",
-      "french": "Det är en riktig vän och en social person.",
-      "english": "That's a real friend and a sociable person.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Det är en riktig vän.",
+      "english": "That's a real friend.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Det är en riktig vän och en social person. | That's a real friend and a sociable person.\""
     },
     {
       "sentence_id": "S92127",
       "unit_id": "U92",
       "french": "Det är ingen riktig lösning.",
       "english": "It's not a real solution.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92128",
-      "unit_id": "U92",
-      "french": "Han är väldigt social.",
-      "english": "He's very sociable.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
     },
     {
@@ -8649,74 +8579,11 @@
       "notes": "draft: Tatoeba had too few checked sentences for this word"
     },
     {
-      "sentence_id": "S92130",
-      "unit_id": "U92",
-      "french": "Kärlek är mänsklig.",
-      "english": "Love is human.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92134",
-      "unit_id": "U92",
-      "french": "Det är en internationell skola med en europeisk lärare.",
-      "english": "It's an international school with a European teacher.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92135",
-      "unit_id": "U92",
-      "french": "Hon har en internationell familj.",
-      "english": "She has an international family.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92136",
-      "unit_id": "U92",
-      "french": "Vi har en nationell och ekonomisk plan.",
-      "english": "We have a national and economic plan.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92137",
-      "unit_id": "U92",
-      "french": "Fotboll är en nationell sport i Sverige.",
-      "english": "Football is a national sport in Sweden.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92138",
-      "unit_id": "U92",
-      "french": "Paris är en europeisk stad.",
-      "english": "Paris is a European city.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
       "sentence_id": "S92139",
       "unit_id": "U92",
-      "french": "Min familj är europeisk och kristen.",
-      "english": "My family is European and Christian.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92142",
-      "unit_id": "U92",
-      "french": "Det är en ekonomisk risk.",
-      "english": "It's an economic risk.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92143",
-      "unit_id": "U92",
-      "french": "Han har en politisk åsikt.",
-      "english": "He has a political opinion.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S92144",
-      "unit_id": "U92",
-      "french": "Det är en politisk lösning.",
-      "english": "It's a political solution.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Min familj är kristen.",
+      "english": "My family is Christian.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Min familj är europeisk och kristen. | My family is European and Christian.\""
     },
     {
       "sentence_id": "S92145",
@@ -8768,88 +8635,32 @@
       "notes": "draft: Tatoeba had too few checked sentences for this word"
     },
     {
-      "sentence_id": "S93107",
-      "unit_id": "U93",
-      "french": "Ett samhälle behöver regler och en stat.",
-      "english": "A society needs rules and a state.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
       "sentence_id": "S93108",
       "unit_id": "U93",
-      "french": "Sverige är ett öppet samhälle och en demokrati.",
-      "english": "Sweden is an open society and a democracy.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Sverige är en demokrati.",
+      "english": "Sweden is a democracy.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Sverige är ett öppet samhälle och en demokrati. | Sweden is an open society and a democracy.\""
     },
     {
       "sentence_id": "S93109",
       "unit_id": "U93",
-      "french": "Utbildning är bra för ett samhälle.",
-      "english": "Education is good for a society.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93110",
-      "unit_id": "U93",
-      "french": "Sverige är en stat i Europa.",
-      "english": "Sweden is a state in Europe.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93111",
-      "unit_id": "U93",
-      "french": "Det är en liten stat.",
-      "english": "It's a small state.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93112",
-      "unit_id": "U93",
-      "french": "Jag gillar inte politik.",
-      "english": "I don't like politics.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Utbildning är bra för alla.",
+      "english": "Education is good for everyone.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Utbildning är bra för ett samhälle. | Education is good for a society.\""
     },
     {
       "sentence_id": "S93113",
       "unit_id": "U93",
-      "french": "Vi diskuterar politik.",
-      "english": "We're discussing politics.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten 2026-11-21: ekonomi turned off (dry-source rule)"
-    },
-    {
-      "sentence_id": "S93114",
-      "unit_id": "U93",
-      "french": "Politik är svårt för en politiker.",
-      "english": "Politics is hard for a politician.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93115",
-      "unit_id": "U93",
-      "french": "Min pappa är politiker.",
-      "english": "My father is a politician.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Vi diskuterar en plan.",
+      "english": "We're discussing a plan.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten 2026-11-21: ekonomi turned off (dry-source rule); rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Vi diskuterar politik. | We're discussing politics.\""
     },
     {
       "sentence_id": "S93116",
       "unit_id": "U93",
-      "french": "Han är medlem i ett parti.",
-      "english": "He's a member of a party.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93117",
-      "unit_id": "U93",
-      "french": "Jag röstar på samma parti.",
-      "english": "I vote for the same party.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93118",
-      "unit_id": "U93",
-      "french": "Han har ett eget parti.",
-      "english": "He has his own party.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Är du medlem?",
+      "english": "Are you a member?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Han är medlem i ett parti. | He's a member of a party.\""
     },
     {
       "sentence_id": "S93119",
@@ -8868,23 +8679,9 @@
     {
       "sentence_id": "S93121",
       "unit_id": "U93",
-      "french": "Det är en intressant debatt och en bra diskussion.",
-      "english": "It's an interesting debate and a good discussion.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93122",
-      "unit_id": "U93",
-      "french": "Vi tittar på en debatt på tv.",
-      "english": "We're watching a debate on TV.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93123",
-      "unit_id": "U93",
-      "french": "Ikväll är det debatt på tv.",
-      "english": "There's a debate on TV tonight.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Det är en intressant diskussion.",
+      "english": "It's an interesting discussion.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Det är en intressant debatt och en bra diskussion. | It's an interesting debate and a good discussion.\""
     },
     {
       "sentence_id": "S93124",
@@ -8954,27 +8751,6 @@
       "unit_id": "U93",
       "french": "Utbildning är en rättighet.",
       "english": "Education is a right.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93148",
-      "unit_id": "U93",
-      "french": "Det är en bra utveckling.",
-      "english": "It's a good development.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93149",
-      "unit_id": "U93",
-      "french": "Vi ser en positiv utveckling.",
-      "english": "We see a positive development.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S93150",
-      "unit_id": "U93",
-      "french": "Utveckling tar tid.",
-      "english": "Development takes time.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
     },
     {
@@ -9177,8 +8953,8 @@
       "sentence_id": "S94165",
       "unit_id": "U94",
       "french": "Hon är glad inför sommaren.",
-      "english": "She's looking forward to the summer.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "english": "She is happy about the coming summer.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Hon är glad inför sommaren. | She's looking forward to the summer.\""
     },
     {
       "sentence_id": "S94169",
@@ -9253,9 +9029,9 @@
     {
       "sentence_id": "S95113",
       "unit_id": "U95",
-      "french": "Hon leder ett parti.",
-      "english": "She leads a party.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Hon leder en grupp.",
+      "english": "She leads a group.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; rewritten without a word now off 2026-11-22 (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)); was \"Hon leder ett parti. | She leads a party.\""
     },
     {
       "sentence_id": "S95114",
@@ -9286,48 +9062,6 @@
       "notes": "draft: Tatoeba had too few checked sentences for this word"
     },
     {
-      "sentence_id": "S95121",
-      "unit_id": "U95",
-      "french": "Det kräver tid.",
-      "english": "It takes time.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95122",
-      "unit_id": "U95",
-      "french": "Det kräver mycket arbete.",
-      "english": "It takes a lot of work.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95123",
-      "unit_id": "U95",
-      "french": "Hon kräver svar.",
-      "english": "She demands an answer.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95130",
-      "unit_id": "U95",
-      "french": "Hon utvecklar en idé.",
-      "english": "She's developing an idea.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95131",
-      "unit_id": "U95",
-      "french": "Barn utvecklar språk snabbt.",
-      "english": "Children develop language fast.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95132",
-      "unit_id": "U95",
-      "french": "Vi utvecklar en plan.",
-      "english": "We're developing a plan.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
       "sentence_id": "S95145",
       "unit_id": "U95",
       "french": "Vi vänder tillbaka.",
@@ -9346,27 +9080,6 @@
       "unit_id": "U95",
       "french": "Han vänder hem.",
       "english": "He turns for home.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95148",
-      "unit_id": "U95",
-      "french": "Det sker varje dag.",
-      "english": "It happens every day.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95149",
-      "unit_id": "U95",
-      "french": "Vad sker nu?",
-      "english": "What happens now?",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S95150",
-      "unit_id": "U95",
-      "french": "Allt sker snabbt.",
-      "english": "Everything happens fast.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
     },
     {
@@ -9389,6 +9102,41 @@
       "french": "Vi övar svenska tillsammans.",
       "english": "We practise Swedish together.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S86116",
+      "unit_id": "U86",
+      "french": "Mitt badrum har ett varmt golv.",
+      "english": "My bathroom has a warm floor.",
+      "notes": "draft: golv keeps three lines after S86104 lost \"ett kallt golv\" (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)), native check"
+    },
+    {
+      "sentence_id": "S86117",
+      "unit_id": "U86",
+      "french": "Det är en lång trappa.",
+      "english": "It's a long staircase.",
+      "notes": "draft: trappa keeps three lines after S86110 lost its staircase (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)), native check"
+    },
+    {
+      "sentence_id": "S92152",
+      "unit_id": "U92",
+      "french": "Min hund är nästan mänsklig.",
+      "english": "My dog is almost human.",
+      "notes": "draft: mänsklig keeps three lines after S92130 (cut) (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)), native check"
+    },
+    {
+      "sentence_id": "S92153",
+      "unit_id": "U92",
+      "french": "Det är en hög bro.",
+      "english": "It's a high bridge.",
+      "notes": "draft: hög keeps three lines after S92104 (cut) (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)), native check"
+    },
+    {
+      "sentence_id": "S92154",
+      "unit_id": "U92",
+      "french": "Solen är låg.",
+      "english": "The sun is low.",
+      "notes": "draft: låg keeps three lines after S92104 (cut) (Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md)), native check"
     }
   ],
   "qa_answers": []

@@ -34,13 +34,13 @@ export const COURSES = {
   },
   // Dutch (2026-11-19, branch lang/dutch): standard Dutch (Netherlands), je informally and u formally. Its folders: content-nl/…
   nl: {
-    id: "nl", name: "Dutch", workbook: "_source/tamago-nl-data-v7.xlsx",
+    id: "nl", name: "Dutch", workbook: "_source/tamago-nl-data-v8.xlsx",
     tatoeba: "nld", wiktionaryCode: "nl", wiktionarySection: "Dutch", linguaLibre: { qid: "Q7411", iso: "nld" }, wikidataLanguage: "Q7411",
   },
   // Swedish (2026-11-19, branch lang/swedish): standard Swedish, du throughout (formal ni is archaic, kept out of
   // Part 1). Its folders: content-sv/, src/content-sv/, public/audio-sv/.
   sv: {
-    id: 'sv', name: 'Swedish', workbook: '_source/tamago-sv-data-v7.xlsx',
+    id: 'sv', name: 'Swedish', workbook: '_source/tamago-sv-data-v8.xlsx',
     tatoeba: 'swe', wiktionaryCode: 'sv', wiktionarySection: 'Swedish', linguaLibre: { qid: 'Q9027', iso: 'swe' }, wikidataLanguage: 'Q9027',
   },
   // Danish (2026-11-19, branch lang/danish): standard Danish, modern du (formal De kept out of Part 1). Its folders: content-da/…

@@ -7,7 +7,8 @@ import { getFile } from './lib/http.mjs'
 import { normaliseFile } from './lib/loudness.mjs'
 import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 import { equivalentAnswers } from './lib/equivalents.mjs'
-import { usSpellingRows } from './lib/us-spelling.mjs'
+import { usSpellingTable } from './lib/us-spelling.mjs'
+import { bareFormOf } from './lib/form-of.mjs'
 import { applyStoplist } from './lib/a1-stoplist.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
 // Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
@@ -68,6 +69,7 @@ const approved = (unitId) => decisions.units?.[unitId]?.action === 'approve'
 // can't read; say so rather than crash on it).
 if (decisions.cut_sentences != null && !Array.isArray(decisions.cut_sentences)) throw new Error('review-decisions.json cut_sentences must be a list of sentence ids')
 const cut = new Set(decisions.cut_sentences ?? [])
+const cutAnswers = new Set(decisions.cut_answers ?? [])
 // The native-speaker check (Phase 4): verdicts, fixes and recordings from scripts/import-native-check.mjs.
 const NATIVE = existsSync(at('content/native-check.json')) ? JSON.parse(readFileSync(at('content/native-check.json'), 'utf8')) : { checks: [], results: {} }
 const nativeLicensed = NATIVE.checks.some((c) => c.license_agreed)
@@ -104,6 +106,13 @@ const unitOpen = (id) => tables.units.some((u) => u.unit_id === id && (isLive(u)
 const hintFrom = (c) => {
   const short = (g) => String(g).split(/[;(]/)[0].replace(/^(feminine|plural|apocopic form) of [^:]+: /, '').trim()
   if (/\b(person|plural|singular|inflection) /.test(c.gloss) && c.lemma_gloss) return `${short(c.lemma_gloss)} (${c.lemma})`
+  // A bare form-of label the rule above leaves alone gets its word's meaning first: "can (present of kunne)"
+  // (scripts/lib/form-of.mjs, 2026-11-22).
+  // A gloss that carries its meaning after the label ("comparative degree of goed; better") uses that meaning.
+  const [head, ...rest] = String(c.gloss).split(';')
+  const bare = bareFormOf(c.gloss) ?? bareFormOf(head)
+  const meaning = c.lemma_gloss || rest.join(';').trim()
+  if (bare && meaning) return `${short(meaning)} (${bare.label})`
   return short(c.gloss)
 }
 tables.words = raw('words').flatMap((w) => {
@@ -144,9 +153,10 @@ tables.accepted_answers = [
     if (c?.status !== 'checked') { bad.push(`${a.answer_id} "${a.answer}" live in the workbook, check says ${c?.status}`); return [] }
     return [{ ...a, status: 'live' }]
   }),
-  // decisions.generated_off (answer id to why; Dutch, 2026-11-22): a generated answer a review left out, e.g. one with
-  // a word its circle has not taught. A course without the key ships every generated answer as before.
-  ...generated.filter((g) => live.has(g.sentence_id) && !decisions.generated_off?.[g.answer_id]).map((g) => ({ ...g, status: 'live' })),
+  // A generated answer a review left out (2026-11-22, phase 6), e.g. one with a word its circle has not taught:
+  // decisions.cut_answers (a list of answer ids; Swedish, Danish) or decisions.generated_off (answer id to why; Dutch).
+  // A course with neither ships every generated answer as before.
+  ...generated.filter((g) => live.has(g.sentence_id) && !cutAnswers.has(g.answer_id) && !decisions.generated_off?.[g.answer_id]).map((g) => ({ ...g, status: 'live' })),
 ]
 
 // Equivalent answers (Dan, 2026-11-15; scripts/lib/equivalents.mjs): Tatoeba's other English for the line, safe
@@ -266,8 +276,9 @@ for (const f of readdirSync(AUDIO)) if (!wanted.has(f)) rmSync(join(AUDIO, f))
 }
 rmSync(OUT, { recursive: true, force: true })
 mkdirSync(OUT, { recursive: true })
-// US spelling in every shipped string (scripts/lib/us-spelling.mjs), the accepted answers excepted (they keep both).
-for (const [name, rows] of Object.entries(tables)) if (Array.isArray(rows) && name !== 'accepted_answers') tables[name] = usSpellingRows(rows)
+// US spelling in the shipped English (scripts/lib/us-spelling.mjs: its English fields, never the course language), the
+// accepted answers excepted (they keep both).
+for (const [name, rows] of Object.entries(tables)) if (Array.isArray(rows) && name !== 'accepted_answers') tables[name] = usSpellingTable(name, rows)
 for (const [name, rows] of Object.entries(tables)) writeFileSync(join(OUT, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
 if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'), { recursive: true })
 

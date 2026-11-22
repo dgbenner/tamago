@@ -3,10 +3,10 @@
     "id": "R101",
     "unit_id": "U47",
     "kind": "sign",
-    "title": "På torget",
+    "title": "Marknad",
     "lines": [
       "Frukt och grönsaker",
-      "Äpplen: 25 kronor per kilo",
+      "Äpplen, ett kilo: 25:-",
       "Marknad: måndag och lördag"
     ],
     "questions": [
@@ -35,18 +35,17 @@
     "id": "R102",
     "unit_id": "U47",
     "kind": "notice",
-    "title": "Marknad på torget",
+    "title": "Marknad",
     "lines": [
-      "Marknad på torget",
-      "Varje lördag",
+      "Marknad på lördag",
       "Frukt, grönsaker, bröd och ost"
     ],
     "questions": [
       {
         "question": "When is the market?",
         "choices": [
-          "On Saturdays",
-          "On Mondays",
+          "On Saturday",
+          "On Monday",
           "Every day"
         ],
         "answer": 0
@@ -67,10 +66,10 @@
     "id": "R103",
     "unit_id": "U47",
     "kind": "message",
-    "title": "Ett sms från Anna",
+    "title": "Från Anna",
     "lines": [
       "Erik!",
-      "Jag är på torget. Jag köper frukt och grönsaker.",
+      "Jag är på en marknad. Jag köper frukt och grönsaker.",
       "Vill du ha ett äpple?",
       "Anna"
     ],
@@ -78,7 +77,7 @@
       {
         "question": "Where is Anna?",
         "choices": [
-          "At the market square",
+          "At a market",
           "At school",
           "In the park"
         ],
@@ -100,7 +99,7 @@
     "id": "R104",
     "unit_id": "U48",
     "kind": "menu",
-    "title": "Priser",
+    "title": "Pris",
     "lines": [
       "Bröd: 30 kronor",
       "Ost: 90 kronor",
@@ -133,11 +132,11 @@
     "id": "R105",
     "unit_id": "U48",
     "kind": "menu",
-    "title": "På kaféet",
+    "title": "Kaffe och te",
     "lines": [
       "Kaffe: 35 kronor",
       "Te: 30 kronor",
-      "Äppelkaka: 45 kronor"
+      "Bröd med ost: 45 kronor"
     ],
     "questions": [
       {
@@ -152,7 +151,7 @@
       {
         "question": "What costs the most?",
         "choices": [
-          "The apple cake",
+          "The bread with cheese",
           "The coffee",
           "The tea"
         ],
@@ -165,9 +164,8 @@
     "id": "R106",
     "unit_id": "U48",
     "kind": "notice",
-    "title": "Gamla böcker",
+    "title": "Böcker",
     "lines": [
-      "Gamla böcker",
       "En bok: 20 kronor",
       "Tre böcker: 50 kronor"
     ],
@@ -197,7 +195,7 @@
     "id": "R107",
     "unit_id": "U49",
     "kind": "message",
-    "title": "Ett sms från Maria",
+    "title": "Från Maria",
     "lines": [
       "Tom!",
       "Kan du köpa en flaska mjölk, ett paket kaffe och ett kilo äpplen?",
@@ -230,27 +228,27 @@
     "id": "R108",
     "unit_id": "U49",
     "kind": "sign",
-    "title": "I affären",
+    "title": "Idag",
     "lines": [
-      "Vatten: sex flaskor, 40 kronor",
-      "Choklad: två askar, 50 kronor"
+      "En flaska vatten: 10 kronor",
+      "Ett paket kaffe: 50 kronor"
     ],
     "questions": [
       {
-        "question": "How many bottles do you get for 40 kronor?",
+        "question": "How much is a bottle of water?",
         "choices": [
-          "Six",
-          "Four",
-          "Two"
+          "10 kronor",
+          "40 kronor",
+          "50 kronor"
         ],
         "answer": 0
       },
       {
         "question": "What costs 50 kronor?",
         "choices": [
-          "Two boxes of chocolates",
-          "Six bottles of water",
-          "One box of chocolates"
+          "A packet of coffee",
+          "A bottle of water",
+          "A kilo of apples"
         ],
         "answer": 0
       }
@@ -261,16 +259,15 @@
     "id": "R109",
     "unit_id": "U49",
     "kind": "message",
-    "title": "Till festen",
+    "title": "Till en fest",
     "lines": [
-      "Till festen:",
-      "två flaskor saft,",
-      "en ask choklad,",
+      "två paket kaffe,",
+      "en påse äpplen,",
       "mycket frukt!"
     ],
     "questions": [
       {
-        "question": "How many bottles of squash?",
+        "question": "How many packets of coffee?",
         "choices": [
           "Two",
           "One",
@@ -294,11 +291,11 @@
     "id": "R201",
     "unit_id": "U62",
     "kind": "notice",
-    "title": "Affären",
+    "title": "Öppet",
     "lines": [
       "Öppet måndag till fredag: 9.00 till 18.00",
       "Lördag: 10.00 till 16.00",
-      "Söndag: stängt"
+      "Söndag: inte öppet"
     ],
     "questions": [
       {
@@ -326,16 +323,16 @@
     "id": "R202",
     "unit_id": "U62",
     "kind": "message",
-    "title": "Ett sms från Erik",
+    "title": "Från Erik",
     "lines": [
       "Anna!",
-      "Ska vi gå på bio på onsdag? Jag är ledig på onsdag och torsdag.",
-      "På lördag jobbar jag.",
+      "Kan du komma på onsdag? Jag är hemma på onsdag och torsdag.",
+      "På lördag är jag inte hemma.",
       "Erik"
     ],
     "questions": [
       {
-        "question": "When is Erik free?",
+        "question": "When is Erik at home?",
         "choices": [
           "Wednesday and Thursday",
           "Saturday",
@@ -344,11 +341,11 @@
         "answer": 0
       },
       {
-        "question": "What does Erik do on Saturday?",
+        "question": "What does Erik say about Saturday?",
         "choices": [
-          "He works",
-          "He goes to the cinema",
-          "He stays at home"
+          "He isn't at home",
+          "He's at the cinema",
+          "He's free"
         ],
         "answer": 0
       }
@@ -359,9 +356,9 @@
     "id": "R203",
     "unit_id": "U62",
     "kind": "notice",
-    "title": "Museet",
+    "title": "Museum",
     "lines": [
-      "Museet är stängt på måndagar.",
+      "Inte öppet på måndag.",
       "För barn: onsdag klockan 15.00"
     ],
     "questions": [
@@ -390,10 +387,10 @@
     "id": "R204",
     "unit_id": "U63",
     "kind": "notice",
-    "title": "Lov",
+    "title": "Skola",
     "lines": [
-      "Skolan är stängd från den 20 december till den 6 januari.",
-      "Första skoldagen: tisdag den 7 januari"
+      "Ingen skola från den 20 december till den 6 januari.",
+      "Skola igen: tisdag den 7 januari"
     ],
     "questions": [
       {
@@ -423,9 +420,9 @@
     "kind": "sign",
     "title": "Fest",
     "lines": [
-      "Fest på torget",
+      "Fest i Uppsala",
       "Lördag den 21 juni, 18.00",
-      "Musik och dans"
+      "Musik! Vi dansar och sjunger."
     ],
     "questions": [
       {
@@ -453,10 +450,10 @@
     "id": "R206",
     "unit_id": "U63",
     "kind": "message",
-    "title": "Ett vykort från Maria",
+    "title": "Från Maria",
     "lines": [
       "I juli åker vi till havet.",
-      "I december åker vi till bergen.",
+      "I december är vi hemma.",
       "Och du?"
     ],
     "questions": [
@@ -470,11 +467,11 @@
         "answer": 0
       },
       {
-        "question": "When does she go to the mountains?",
+        "question": "Where is Maria in December?",
         "choices": [
-          "In December",
-          "In July",
-          "In spring"
+          "At home",
+          "At the sea",
+          "In the mountains"
         ],
         "answer": 0
       }
@@ -485,9 +482,8 @@
     "id": "R207",
     "unit_id": "U66",
     "kind": "sign",
-    "title": "Vid affären",
+    "title": "Ingång",
     "lines": [
-      "Ingång",
       "Öppet 9.00 till 19.00",
       "Söndag: stängt"
     ],
@@ -517,28 +513,27 @@
     "id": "R208",
     "unit_id": "U66",
     "kind": "sign",
-    "title": "På stationen",
+    "title": "Station",
     "lines": [
-      "Toalett: en trappa upp",
-      "Apotek: bredvid utgången",
-      "Information: vid ingången"
+      "Toalett och apotek: vid utgång 2",
+      "Information: vid ingång 1"
     ],
     "questions": [
       {
-        "question": "Where is the toilet?",
+        "question": "Where are the toilet and the pharmacy?",
         "choices": [
-          "One floor up",
-          "Two floors up",
-          "Next to the exit"
+          "By exit 2",
+          "By entrance 1",
+          "On the train"
         ],
         "answer": 0
       },
       {
         "question": "Where can you get information?",
         "choices": [
-          "At the entrance",
-          "At the chemist's",
-          "On the train"
+          "By entrance 1",
+          "By exit 2",
+          "At the pharmacy"
         ],
         "answer": 0
       }
@@ -549,15 +544,14 @@
     "id": "R209",
     "unit_id": "U66",
     "kind": "notice",
-    "title": "Bageriet",
+    "title": "Bröd",
     "lines": [
-      "Lindas bageri",
       "Öppet varje dag 7.00 till 18.00",
-      "Nytt bröd klockan 7.00 och 12.00"
+      "Varmt bröd klockan 7.00 och 12.00"
     ],
     "questions": [
       {
-        "question": "Is the bakery open on Sunday?",
+        "question": "Is it open on Sunday?",
         "choices": [
           "Yes",
           "No",
@@ -566,7 +560,7 @@
         "answer": 0
       },
       {
-        "question": "When is there fresh bread?",
+        "question": "When is there warm bread?",
         "choices": [
           "At 7 am and 12 noon",
           "At 6 am only",
@@ -615,25 +609,25 @@
     "kind": "timetable",
     "title": "Båt till Gotland",
     "lines": [
-      "Avgång från hamnen: 7.00, 9.00, 11.00",
-      "Söndag: en båt varannan timme"
+      "Avgång: 7.00, 9.00, 11.00",
+      "Söndag: en båt klockan 10.00 och en klockan 16.00"
     ],
     "questions": [
       {
-        "question": "Where does the boat leave from?",
+        "question": "What time is the first boat?",
         "choices": [
-          "The harbour",
-          "The station",
-          "The beach"
+          "7:00",
+          "9:00",
+          "11:00"
         ],
         "answer": 0
       },
       {
-        "question": "How often is the boat on Sundays?",
+        "question": "How many boats are there on Sunday?",
         "choices": [
-          "Every two hours",
-          "Every hour",
-          "Not at all"
+          "Two",
+          "Three",
+          "One"
         ],
         "answer": 0
       }
@@ -644,9 +638,9 @@
     "id": "R212",
     "unit_id": "U67",
     "kind": "message",
-    "title": "Ett sms från Tom",
+    "title": "Från Tom",
     "lines": [
-      "Jag kommer fram till stationen 17.30.",
+      "Jag kommer fram klockan 17.30.",
       "Mitt tåg avgår från Stockholm 15.00.",
       "Vi ses!"
     ],
@@ -676,19 +670,18 @@
     "id": "R213",
     "unit_id": "U69",
     "kind": "notice",
-    "title": "På lektionen",
+    "title": "Lektion",
     "lines": [
-      "Lyssna på texten.",
-      "Svara på frågorna.",
-      "Välj en bild."
+      "Läs en text.",
+      "Välj sedan en bild."
     ],
     "questions": [
       {
         "question": "What do you do first?",
         "choices": [
-          "Listen to the text",
-          "Answer the questions",
-          "Choose a picture"
+          "Read a text",
+          "Choose a picture",
+          "Answer the questions"
         ],
         "answer": 0
       },
@@ -708,27 +701,27 @@
     "id": "R214",
     "unit_id": "U69",
     "kind": "notice",
-    "title": "Dörren",
+    "title": "Glöm inte!",
     "lines": [
-      "Stäng dörren, tack.",
-      "Observera: stäng långsamt."
+      "Läs långsamt.",
+      "Glöm inte din bok."
     ],
     "questions": [
       {
-        "question": "What should you do with the door?",
+        "question": "How should you read?",
         "choices": [
-          "Close it",
-          "Leave it open",
-          "Lock it"
+          "Slowly",
+          "Quickly",
+          "With a friend"
         ],
         "answer": 0
       },
       {
-        "question": "How should you close it?",
+        "question": "What shouldn't you forget?",
         "choices": [
-          "Slowly",
-          "Quickly",
-          "With a key"
+          "Your book",
+          "Your key",
+          "Your phone"
         ],
         "answer": 0
       }
@@ -739,26 +732,26 @@
     "id": "R215",
     "unit_id": "U69",
     "kind": "notice",
-    "title": "Övningen",
+    "title": "Övning",
     "lines": [
       "Välj ett nummer.",
-      "Öppna boken på den sidan.",
-      "Läs texten."
+      "Titta i din bok.",
+      "Läs en text."
     ],
     "questions": [
       {
-        "question": "What do you open?",
+        "question": "Where do you look?",
         "choices": [
-          "The book",
-          "The door",
-          "The notebook"
+          "In your book",
+          "At the door",
+          "In the notebook"
         ],
         "answer": 0
       },
       {
         "question": "What do you do last?",
         "choices": [
-          "Read the text",
+          "Read a text",
           "Choose a number",
           "Close the book"
         ],
@@ -771,11 +764,11 @@
     "id": "R301",
     "unit_id": "U82",
     "kind": "menu",
-    "title": "Dagens lunch",
+    "title": "Lunch",
     "lines": [
       "Soppa, kyckling med ris och sallad",
       "Efterrätt: glass",
-      "125 kr"
+      "125 kronor"
     ],
     "questions": [
       {
@@ -803,12 +796,12 @@
     "id": "R302",
     "unit_id": "U82",
     "kind": "menu",
-    "title": "Kafé Hörnet",
+    "title": "Fika",
     "lines": [
-      "Kaffe: 30 kr",
-      "Te: 25 kr",
-      "Kanelbulle: 35 kr",
-      "Smörgås: 60 kr"
+      "Kaffe: 30 kronor",
+      "Te: 25 kronor",
+      "Bulle: 35 kronor",
+      "Smörgås: 60 kronor"
     ],
     "questions": [
       {
@@ -825,7 +818,7 @@
         "choices": [
           "A tea",
           "A coffee",
-          "A cinnamon bun"
+          "A bun"
         ],
         "answer": 0
       }
@@ -836,7 +829,7 @@
     "id": "R303",
     "unit_id": "U82",
     "kind": "notice",
-    "title": "Restaurang Fisken",
+    "title": "Restaurang",
     "lines": [
       "Fisk och kött",
       "Öppet tisdag till söndag",
@@ -868,19 +861,19 @@
     "id": "R304",
     "unit_id": "U83",
     "kind": "message",
-    "title": "Ett sms från Anna",
+    "title": "Från Anna",
     "lines": [
-      "Mitt hus ligger nära stationen.",
-      "Gå rakt fram till torget.",
-      "Min gata är den andra till höger."
+      "Mitt hus ligger nära en kyrka.",
+      "Gå rakt fram.",
+      "Mitt hus ligger på den andra gatan till höger."
     ],
     "questions": [
       {
         "question": "Where is Anna's house?",
         "choices": [
-          "Near the station",
-          "Near the school",
-          "In the city centre"
+          "Near a church",
+          "Near a school",
+          "In the city center"
         ],
         "answer": 0
       },
@@ -900,9 +893,9 @@
     "id": "R305",
     "unit_id": "U83",
     "kind": "sign",
-    "title": "I stan",
+    "title": "Höger eller vänster?",
     "lines": [
-      "Museum: 200 m till vänster",
+      "Museum: 200 meter till vänster",
       "Kyrka: rakt fram",
       "Station: till höger"
     ],
@@ -910,8 +903,8 @@
       {
         "question": "Where is the museum?",
         "choices": [
-          "200 metres on the left",
-          "200 metres on the right",
+          "200 meters on the left",
+          "200 meters on the right",
           "Straight on"
         ],
         "answer": 0
@@ -932,28 +925,27 @@
     "id": "R306",
     "unit_id": "U83",
     "kind": "notice",
-    "title": "Hotellet",
+    "title": "Hotell",
     "lines": [
-      "Hotellet ligger i slutet av gatan.",
-      "Fem minuter till fots till centrum",
-      "Busshållplats framför hotellet"
+      "Hotell: 300 meter rakt fram, till höger",
+      "Buss 4: vid hörnet"
     ],
     "questions": [
       {
-        "question": "How far is the hotel from the centre?",
+        "question": "Where is the hotel?",
         "choices": [
-          "Five minutes on foot",
-          "Five minutes by car",
-          "Half an hour on foot"
+          "300 meters straight on, on the right",
+          "300 meters on the left",
+          "Next to the station"
         ],
         "answer": 0
       },
       {
-        "question": "Where is the bus stop?",
+        "question": "Where do you take bus 4?",
         "choices": [
+          "At the corner",
           "In front of the hotel",
-          "Behind the hotel",
-          "At the station"
+          "At the bridge"
         ],
         "answer": 0
       }
@@ -964,16 +956,15 @@
     "id": "R307",
     "unit_id": "U86",
     "kind": "notice",
-    "title": "Lägenhet att hyra",
+    "title": "Lägenhet",
     "lines": [
-      "Lägenhet i centrum",
+      "Lägenhet på våning tre",
       "Två sovrum, vardagsrum, kök och badrum",
-      "Med balkong",
-      "9 000 kr i månaden"
+      "9 000 kronor varje månad"
     ],
     "questions": [
       {
-        "question": "How many bedrooms does the flat have?",
+        "question": "How many bedrooms does the apartment have?",
         "choices": [
           "Two",
           "Three",
@@ -982,11 +973,11 @@
         "answer": 0
       },
       {
-        "question": "What else does it have?",
+        "question": "Which floor is it on?",
         "choices": [
-          "A balcony",
-          "A garden",
-          "A garage"
+          "The third",
+          "The second",
+          "The first"
         ],
         "answer": 0
       }
@@ -997,15 +988,15 @@
     "id": "R308",
     "unit_id": "U86",
     "kind": "message",
-    "title": "Ett sms från Maria",
+    "title": "Från Maria",
     "lines": [
-      "Min nya lägenhet är liten.",
+      "Min lägenhet är ny och liten.",
       "Den har ett sovrum, ett vardagsrum och ett kök.",
-      "Det finns ingen balkong."
+      "Det finns ingen soffa."
     ],
     "questions": [
       {
-        "question": "What is Maria's new flat like?",
+        "question": "What is Maria's new apartment like?",
         "choices": [
           "Small",
           "Big",
@@ -1016,7 +1007,7 @@
       {
         "question": "What doesn't it have?",
         "choices": [
-          "A balcony",
+          "A sofa",
           "A kitchen",
           "A bedroom"
         ],
@@ -1029,19 +1020,19 @@
     "id": "R309",
     "unit_id": "U86",
     "kind": "notice",
-    "title": "Rum för en student",
+    "title": "Rum",
     "lines": [
-      "Rum att hyra för en student",
+      "Rum: 3 000 kronor varje månad",
       "Med säng, bord och stol",
-      "Nära universitetet"
+      "Nära en skola"
     ],
     "questions": [
       {
-        "question": "Who is the room for?",
+        "question": "How much is the room?",
         "choices": [
-          "A student",
-          "A family",
-          "A tourist"
+          "3,000 kronor a month",
+          "300 kronor a month",
+          "3,000 kronor a week"
         ],
         "answer": 0
       },
@@ -1061,11 +1052,11 @@
     "id": "R310",
     "unit_id": "U87",
     "kind": "notice",
-    "title": "Lediga jobb",
+    "title": "Jobb",
     "lines": [
       "Restaurang söker en kock",
       "Tisdag till lördag, 17.00 till 23.00",
-      "Ring 070 123 45 67"
+      "Telefon: 070 123 45 67"
     ],
     "questions": [
       {
@@ -1125,26 +1116,26 @@
     "id": "R312",
     "unit_id": "U87",
     "kind": "notice",
-    "title": "Företaget",
+    "title": "Företag",
     "lines": [
-      "Företag söker en chaufför",
-      "Körkort krävs",
-      "Måndag till fredag"
+      "Vi kör taxi i Uppsala.",
+      "Vi söker en kollega.",
+      "Du behöver körkort."
     ],
     "questions": [
       {
-        "question": "Who is the company looking for?",
+        "question": "What does the company do?",
         "choices": [
-          "A driver",
-          "A secretary",
-          "A teacher"
+          "It drives taxis",
+          "It sells cars",
+          "It cleans offices"
         ],
         "answer": 0
       },
       {
         "question": "What do you need?",
         "choices": [
-          "A driving licence",
+          "A driver's license",
           "A university degree",
           "A car"
         ],
@@ -1160,7 +1151,7 @@
     "title": "Ett vykort från Anna",
     "lines": [
       "Kära Erik!",
-      "Jag är vid havet med min familj. Det är varmt och havet är underbart.",
+      "Jag är vid havet med min familj. Det är varmt och skönt.",
       "Kram, Anna"
     ],
     "questions": [
@@ -1193,7 +1184,7 @@
     "lines": [
       "Hej Maria!",
       "På lördag fyller jag år. Kommer du på min fest?",
-      "Festen är hemma hos mig, klockan åtta.",
+      "Vi ses hemma hos mig, klockan åtta.",
       "Tom"
     ],
     "questions": [
@@ -1222,11 +1213,11 @@
     "id": "R315",
     "unit_id": "U89",
     "kind": "message",
-    "title": "En lapp",
+    "title": "Till Anna",
     "lines": [
       "Anna!",
       "Jag är inte hemma. Jag är tillbaka klockan sex.",
-      "Maten står i kylskåpet.",
+      "Det finns soppa och bröd.",
       "Erik"
     ],
     "questions": [
@@ -1240,11 +1231,11 @@
         "answer": 0
       },
       {
-        "question": "Where is the food?",
+        "question": "What is there to eat?",
         "choices": [
-          "In the fridge",
-          "At a restaurant",
-          "In the oven"
+          "Soup and bread",
+          "Pizza",
+          "Chicken and rice"
         ],
         "answer": 0
       }

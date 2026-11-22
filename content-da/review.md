@@ -704,7 +704,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W005 | ikke | ikke | Adverb |  | not | checked |
 | W006 | jeg | jeg | Pronoun |  | I | checked |
 | W007 | du | du | Pronoun |  | thou, you | checked |
-| W008 | er | være | Verb |  | present of være | checked |
+| W008 | er | være | Verb |  | present of være (være: to be) | checked |
 | W009 | en | en | Article |  | a, an | checked |
 | W010 | et | et | Article |  | a, an | checked |
 | W011 | mand | mand | Noun |  | man | checked |
@@ -732,14 +732,14 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W033 | farvel | farvel | Interjection |  | goodbye, farewell | checked |
 | W034 | undskyld | undskyld | Interjection |  | sorry | checked |
 | W035 | hvordan | hvordan | Adverb |  | how | checked |
-| W036 | går | gå | Verb |  | present of gå | checked |
+| W036 | går | gå | Verb |  | present of gå (gå: to go) | checked |
 | W037 | godt | god | Adjective |  | neuter singular of god (god: good) | checked |
 | W038 | dårligt | dårlig | Adjective |  | neuter singular of dårlig (dårlig: bad, unwell, poor) | checked |
 | W039 | fint | fin | Adjective |  | neuter singular of fin (fin: fine) | checked |
 | W040 | velkommen | velkommen | Interjection |  | welcome | checked |
-| W041 | spiser | spise | Verb |  | present of spise | checked |
-| W042 | drikker | drikke | Verb |  | present of drikke | checked |
-| W043 | kan | kunne | Verb |  | present of kunne | checked |
+| W041 | spiser | spise | Verb |  | present of spise (spise: to eat) | checked |
+| W042 | drikker | drikke | Verb |  | present of drikke (drikke: drink) | checked |
+| W043 | kan | kunne | Verb |  | present of kunne (kunne: to be able, can) | checked |
 | W044 | lide | lide | Verb |  | to like | checked |
 | W045 | brød | brød | Noun |  | bread | checked |
 | W046 | vand | vand | Noun |  | water | checked |
@@ -750,7 +750,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W051 | te | te | Noun |  | tea | checked |
 | W052 | vin | vin | Noun |  | wine | checked |
 | W053 | lækker | lækker | Adjective |  | delicious | checked |
-| W054 | har | have | Verb |  | present active of have | checked |
+| W054 | har | have | Verb |  | present active of have (have: to have; to have got) | checked |
 | W055 | hund | hund | Noun |  | dog | checked |
 | W056 | kat | kat | Noun |  | cat | checked |
 | W057 | hest | hest | Noun |  | horse | checked |
@@ -771,7 +771,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W072 | æbler | æble | Noun |  | indefinite plural of æble (æble: An apple) | checked |
 | W073 | venner | ven | Noun |  | indefinite plural of ven (ven: friend) | checked |
 | W074 | mange | mangen | Adjective |  | plural of mangen (mangen: : many) | checked |
-| W075 | store | store | Adjective |  | definite of stor | checked |
+| W075 | store | store | Adjective |  | definite of stor (store: large) | checked |
 | W076 | smuk | smuk | Adjective |  | beautiful, handsome, good-looking | checked |
 | W077 | grim | grim | Adjective |  | ugly, unsightly | checked |
 | W078 | gammel | gammel | Adjective |  | old | checked |
@@ -783,8 +783,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W084 | cykel | cykel | Noun |  | bicycle, bike | checked |
 | W085 | god | god | Adjective |  | good | checked |
 | W086 | sjov | sjov | Adjective |  | funny | checked |
-| W087 | står | stå | Verb |  | present of stå | checked |
-| W088 | ligger | ligge | Verb |  | present of ligge | checked |
+| W087 | står | stå | Verb |  | present of stå (stå: to stand) | checked |
+| W088 | ligger | ligge | Verb |  | present of ligge (ligge: to lie) | checked |
 | W089 | i | i | Preposition |  | in, inside | checked |
 | W090 | på | på | Preposition |  | on, upon | checked |
 | W091 | under | under | Preposition |  | under | checked |
@@ -808,8 +808,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W109 | min | min | Pronoun |  | mine 1.st person singular possessive pronoun | checked |
 | W110 | mit | min | Pronoun |  | neuter singular of min (min: mine 1.st person singular possessive pronoun) | checked |
 | W111 | din | din | Determiner |  | your, thy | checked |
-| W112 | dit | din | Pronoun |  | neuter singular of din | checked |
-| W113 | hans | hans | Pronoun |  | genitive of han | checked |
+| W112 | dit | din | Pronoun |  | neuter singular of din (din: your, thy) | checked |
+| W113 | hans | hans | Pronoun |  | genitive of han (hans: he) | checked |
 | W114 | hendes | hendes | Pronoun |  | possessive of hun, meaning her | checked |
 | W115 | vores | vores | Pronoun |  | our, ours | checked |
 | W116 | ven | ven | Noun |  | friend | checked |
@@ -861,23 +861,23 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W162 | by | by | Noun |  | town, city | checked |
 | W163 | restaurant | restaurant | Noun |  | restaurant | checked |
 | W164 | gade | gade | Noun |  | street | checked |
-| W701 | forstår | forstå | Verb |  | present of forstå | checked |
+| W701 | forstår | forstå | Verb |  | present of forstå (forstå: to understand) | checked |
 | W702 | langsommere | langsommere | Adjective |  | slow | checked |
 | W703 | gang | gang | Noun |  | the act of walking, a walk | checked |
-| W704 | siger | sige | Verb |  | present of sige | checked |
-| W705 | taler | tale | Verb |  | present of tale | checked |
+| W704 | siger | sige | Verb |  | present of sige (sige: to say) | checked |
+| W705 | taler | tale | Verb |  | present of tale (tale: to make a speech) | checked |
 | W706 | gentag | gentag | Verb |  | to repeat | checked |
 | W707 | igen | igen | Adverb |  | again | checked |
-| W708 | betyder | betyde | Verb |  | present of betyde | checked |
+| W708 | betyder | betyde | Verb |  | present of betyde (betyde: to mean) | checked |
 | W709 | man | man | Pronoun |  | you, one, they, people | checked |
 | W710 | ord | ord | Noun |  | word | checked |
 | W711 | dansk | dansk | Adjective |  | Danish | checked |
 | W712 | engelsk | engelsk | Adjective |  | English | checked |
-| W713 | leder | lede | Verb |  | present of lede | checked |
+| W713 | leder | lede | Verb |  | present of lede (lede: to manage, run) | checked |
 | W714 | efter | efter | Preposition |  | after, subsequent | checked |
-| W715 | ved | vide | Verb |  | present of vide | checked |
+| W715 | ved | vide | Verb |  | present of vide (vide: to know) | checked |
 | W716 | ting | ting | Noun |  | thing | checked |
-| W717 | hedder | hedde | Verb |  | present of hedde | checked |
+| W717 | hedder | hedde | Verb |  | present of hedde (hedde: to be called) | checked |
 | W1001 | øje | øje | Noun |  | eye | checked |
 | W1002 | øjne | øje | Noun |  | indefinite plural of øje (øje: eye) | checked |
 | W1003 | hånd | hånd | Noun |  | hand | checked |
@@ -896,10 +896,10 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1016 | fest | fest | Noun |  | party | checked |
 | W1017 | fodbold | fodbold | Noun |  | football: the sport association football; soccer | checked |
 | W1018 | spil | spil | Noun |  | A game. | checked |
-| W1019 | svømmer | svømme | Verb |  | present of svømme | checked |
-| W1020 | danser | danse | Verb |  | present of danse | checked |
-| W1021 | synger | synge | Verb |  | present of synge | checked |
-| W1022 | ser | se | Verb |  | present of se | checked |
+| W1019 | svømmer | svømme | Verb |  | present of svømme (svømme: to swim) | checked |
+| W1020 | danser | danse | Verb |  | present of danse (danse: to dance) | checked |
+| W1021 | synger | synge | Verb |  | present of synge (synge: sing) | checked |
+| W1022 | ser | se | Verb |  | present of se (se: to see) | checked |
 | W1023 | film | film | Noun |  | a movie, a film, motion picture | checked |
 | W1024 | spille | spille | Verb |  | to play | checked |
 | W1025 | museum | museum | Noun |  | museum | checked |
@@ -917,8 +917,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W801 | navn | navn | Noun |  | name | checked |
 | W802 | fornavn | fornavn | Noun |  | given name | checked |
 | W803 | efternavn | efternavn | Noun |  | surname, last name, family name | checked |
-| W804 | kender | kende | Verb |  | present of kende | checked |
-| W805 | kalder | kalde | Verb |  | present of kalde | checked |
+| W804 | kender | kende | Verb |  | present of kende (kende: know) | checked |
+| W805 | kalder | kalde | Verb |  | present of kalde (kalde: to call, to refer to) | checked |
 | W806 | mig | mig | Pronoun |  | first person singular accusative personal pronoun; me | checked |
 | W807 | dig | dig | Pronoun |  | you | checked |
 | W808 | ham | ham | Pronoun |  | him: objective of han | checked |
@@ -927,9 +927,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W811 | møde | møde | Verb |  | to meet, encounter | checked |
 | W812 | rart | rar | Adjective |  | neuter singular of rar (rar: pleasant) | checked |
 | W813 | at | at | Particle |  | to | checked |
-| W814 | skriver | skrive | Verb |  | present of skrive | checked |
+| W814 | skriver | skrive | Verb |  | present of skrive (skrive: to write) | checked |
 | W815 | skrive | skrive | Verb |  | to write | checked |
-| W816 | staver | stave | Verb |  | present of stave | checked |
+| W816 | staver | stave | Verb |  | present of stave (stave: to spell) | checked |
 | W817 | stave | stave | Verb |  | to spell | checked |
 | W818 | bogstav | bogstav | Noun |  | letter | checked |
 | W819 | kunne | kunne | Verb |  | to be able, can | checked |
@@ -942,7 +942,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W826 | nummer | nummer | Noun |  | number | checked |
 | W827 | nummeret | nummeret |  |  |  | flagged: no_french_entry |
 | W828 | telefon | telefon | Noun |  | telephone | checked |
-| W829 | ringer | ringe | Verb |  | present of ringe | checked |
+| W829 | ringer | ringe | Verb |  | present of ringe (ringe: To call, to telephone) | checked |
 | W830 | ringe | ringe | Verb |  | To call, to telephone | checked |
 | W831 | nul | nul | Numeral |  | zero | checked |
 | W832 | elleve | elleve | Numeral |  | eleven | checked |
@@ -960,21 +960,21 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W844 | fødselsdag | fødselsdag | Noun |  | birthday | flagged: sense_not_picked |
 | W845 | fødselsdagen | fødselsdag | Noun |  | definite singular of fødselsdag (fødselsdag: birthday) | checked |
 | W846 | tillykke | tillykke | Interjection |  | congratulations | checked |
-| W847 | fylder | fylde | Verb |  | present of fylde | checked |
-| W848 | bliver | blive | Verb |  | present active of blive | checked |
+| W847 | fylder | fylde | Verb |  | present of fylde (fylde: to fill) | checked |
+| W848 | bliver | blive | Verb |  | present active of blive (blive: to become) | checked |
 | W849 | blive | blive | Verb |  | to become | checked |
 | W850 | måneder | måned | Noun |  | indefinite plural of måned (måned: month) | checked |
-| W851 | født | føde | Verb |  | past participle of føde | checked |
+| W851 | født | føde | Verb |  | past participle of føde (føde: to bear, give birth) | checked |
 | W852 | allerede | allerede | Adverb |  | already | checked |
 | W853 | næsten | næsten | Adverb |  | nearly | checked |
 | W854 | snart | snart | Adverb |  | soon | checked |
 | W855 | stadig | stadig | Adverb |  | still | checked |
-| W856 | ældre | ældre | Adjective |  | comparative degree of gammel | checked |
-| W857 | yngre | yngre | Adjective |  | comparative degree of ung | checked |
+| W856 | ældre | ældre | Adjective |  | comparative degree of gammel (ældre: old) | checked |
+| W857 | yngre | yngre | Adjective |  | comparative degree of ung (yngre: young) | checked |
 | W858 | med | med | Preposition |  | with | checked |
 | W859 | øjeblik | øjeblik | Noun |  | blink of an eye, moment | checked |
-| W860 | vent | vente | Verb |  | imperative of vente | checked |
-| W861 | venter | vente | Verb |  | present of vente | checked |
+| W860 | vent | vente | Verb |  | imperative of vente (vente: wait) | checked |
+| W861 | venter | vente | Verb |  | present of vente (vente: wait) | checked |
 | W862 | vente | vente | Verb |  | wait | checked |
 | W863 | lidt | lidt | Adverb |  | a little, slightly | checked |
 | W864 | passer | passe | Verb |  | to be true | checked |
@@ -985,7 +985,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W869 | forkert | forkert | Adjective |  | wrong | checked |
 | W870 | lige | lige | Adverb |  | just, merely, simply | checked |
 | W871 | sikker | sikker | Adjective |  | sure, certain | checked |
-| W872 | lad | lade | Verb |  | imperative of lade | checked |
+| W872 | lad | lade | Verb |  | imperative of lade (lade: let) | checked |
 | W873 | se | se | Verb |  | to see | checked |
 | W874 | tredive | tredive | Numeral |  | thirty | checked |
 | W875 | fyrre | fyrre | Numeral |  | forty | checked |
@@ -999,9 +999,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W883 | mere | mere | Adjective |  | more; to a higher degree | checked |
 | W884 | flere | flere | Adjective |  | more | checked |
 | W885 | mest | mest | Adjective |  | most; to the highest degree | checked |
-| W886 | mindre | mindre | Adjective |  | comparative degree of lille | checked |
+| W886 | mindre | mindre | Adjective |  | comparative degree of lille (mindre: small, little, slight) | checked |
 | W887 | end | end | Conjunction |  | than | checked |
-| W888 | bor | bo | Verb |  | present of bo | checked |
+| W888 | bor | bo | Verb |  | present of bo (bo: to live, reside, dwell) | checked |
 | W889 | bo | bo | Verb |  | to live, reside, dwell | checked |
 | W890 | adresse | adresse | Noun |  | address, abbreviated adr. | checked |
 | W891 | land | land | Noun |  | country | checked |
@@ -1021,7 +1021,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W905 | deres | deres | Pronoun |  | their | checked |
 | W906 | sted | sted | Noun |  | place | checked |
 | W907 | mine | min | Pronoun |  | plural of min (min: mine 1.st person singular possessive pronoun) | checked |
-| W908 | dine | din | Pronoun |  | plural of din | checked |
+| W908 | dine | din | Pronoun |  | plural of din (din: your, thy) | checked |
 | W909 | finde | finde | Verb |  | to find | checked |
 | W910 | Danmark | Danmark | Proper noun |  | Denmark | checked |
 | W911 | Sverige | Sverige | Proper noun |  | Sweden | checked |
@@ -1029,33 +1029,33 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W913 | Tyskland | Tyskland | Proper noun |  | Germany | checked |
 | W914 | Frankrig | Frankrig | Proper noun |  | France | checked |
 | W915 | England | England | Proper noun |  | England | checked |
-| W916 | kommer | komme | Verb |  | present of komme | checked |
+| W916 | kommer | komme | Verb |  | present of komme (komme: to come) | checked |
 | W917 | komme | komme | Verb |  | to come | checked |
 | W918 | fra | fra | Preposition |  | from | checked |
 | W919 | svensk | svensk | Adjective |  | Swedish | checked |
 | W920 | tysk | tysk | Adjective |  | German | checked |
 | W921 | fransk | fransk | Adjective |  | French | checked |
 | W922 | sprog | sprog | Noun |  | language | checked |
-| W923 | snakker | snakke | Verb |  | present of snakke | checked |
+| W923 | snakker | snakke | Verb |  | present of snakke (snakke: to talk, speak) | checked |
 | W924 | verden | verden | Noun |  | world | checked |
 | W925 | marked | marked | Noun |  | market | checked |
-| W926 | køber | købe | Verb |  | present of købe | checked |
+| W926 | køber | købe | Verb |  | present of købe (købe: buy) | checked |
 | W927 | købe | købe | Verb |  | buy | checked |
-| W928 | sælger | sælge | Verb |  | present of sælge | checked |
-| W929 | vil | ville | Verb |  | present of ville | checked |
+| W928 | sælger | sælge | Verb |  | present of sælge (sælge: to sell) | checked |
+| W929 | vil | ville | Verb |  | present of ville (ville: to want to, be willing to) | checked |
 | W930 | gerne | gerne | Adverb |  | with pleasure; gladly, willingly, readily | checked |
-| W931 | får | få | Verb |  | present tense of få | checked |
+| W931 | får | få | Verb |  | present tense of få (få: to get) | checked |
 | W932 | få | få | Verb |  | to get | checked |
-| W933 | tager | tage | Verb |  | present of tage | checked |
+| W933 | tager | tage | Verb |  | present of tage (tage: to take, get, pick up) | checked |
 | W934 | tage | tage | Verb |  | to take, get, pick up | checked |
-| W935 | skal | skulle | Verb |  | present tense of skulle | checked |
-| W936 | må | måtte | Verb |  | present of måtte | checked |
+| W935 | skal | skulle | Verb |  | present tense of skulle (skulle: have to, must) | checked |
+| W936 | må | måtte | Verb |  | present of måtte (måtte: must, have to, got to) | checked |
 | W937 | gå | gå | Verb |  | to go | checked |
 | W938 | kilo | kilogram | Noun |  | kilogram | checked |
 | W939 | frugt | frugt | Noun |  | fruit | checked |
 | W940 | grøntsager | grøntsag | Noun |  | indefinite plural of grøntsag (grøntsag: vegetable) | checked |
 | W941 | brug | brug | Noun |  | use, application | checked |
-| W942 | behøver | behøve | Verb |  | present of behøve | checked |
+| W942 | behøver | behøve | Verb |  | present of behøve (behøve: to need) | checked |
 | W943 | noget | nogen | Pronoun |  | neuter singular of nogen (nogen: some) | checked |
 | W944 | nogen | nogen | Pronoun |  | some | checked |
 | W945 | for | for | Preposition |  | for | checked |
@@ -1064,7 +1064,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W948 | virkelig | virkelig | Adverb |  | really, truly | checked |
 | W949 | sikkert | sikkert | Adverb |  | probably | checked |
 | W950 | mener | mene | Verb |  | to mean | checked |
-| W951 | tror | tro | Verb |  | present of tro | checked |
+| W951 | tror | tro | Verb |  | present of tro (tro: to believe) | checked |
 | W952 | synes | synes | Verb |  | to think | checked |
 | W953 | altså | altså |  |  |  | flagged: no_french_entry |
 | W954 | måske | måske | Adverb |  | perhaps, possibly, maybe | checked |
@@ -1072,9 +1072,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W956 | faktisk | faktisk | Adjective |  | actually, as a matter of fact, in fact, really | checked |
 | W957 | nok | nok | Adverb |  | enough | checked |
 | W958 | vel | vel | Adverb |  | well | checked |
-| W959 | håber | håbe | Verb |  | present of håbe | checked |
-| W960 | tænker | tænke | Verb |  | present of tænke | checked |
-| W961 | lyder | lyde | Verb |  | present of lyde | checked |
+| W959 | håber | håbe | Verb |  | present of håbe (håbe: to hope) | checked |
+| W960 | tænker | tænke | Verb |  | present of tænke (tænke: to think) | checked |
+| W961 | lyder | lyde | Verb |  | present of lyde (lyde: to sound, to be realized) | checked |
 | W962 | heller | heller | Adverb |  | either | checked |
 | W963 | hvis | hvis | Conjunction |  | if | checked |
 | W964 | om | om | Preposition |  | about | checked |
@@ -1087,7 +1087,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W971 | penge | penge | Noun |  | money | checked |
 | W972 | dyrt | dyr | Adjective |  | neuter singular of dyr (dyr: expensive) | checked |
 | W973 | billigt | billig | Adjective |  | neuter singular of billig (billig: cheap) | checked |
-| W974 | betaler | betale | Verb |  | present of betale | checked |
+| W974 | betaler | betale | Verb |  | present of betale (betale: to pay) | checked |
 | W975 | betale | betale | Verb |  | to pay | checked |
 | W976 | kun | kun | Adverb |  | only | checked |
 | W977 | men | men | Conjunction |  | but | checked |
@@ -1111,7 +1111,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W995 | af | af | Preposition |  | of | checked |
 | W996 | dem | dem | Pronoun |  | them | checked |
 | W997 | give | give | Verb |  | to give | checked |
-| W998 | giver | give | Verb |  | present of give | checked |
+| W998 | giver | give | Verb |  | present of give (give: to give) | checked |
 | W999 | plads | plads | Noun |  | place | checked |
 | W1101 | tøj | tøj | Noun |  | cloth, clothes, clothing | checked |
 | W1102 | bukser | bukser | Noun |  | trousers, pants | checked |
@@ -1125,35 +1125,35 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1110 | briller | brille | Noun |  | indefinite plural of brille (brille: glasses, spectacles) | checked |
 | W1111 | skjorte | skjorte | Noun |  | shirt | checked |
 | W1112 | størrelse | størrelse | Noun |  | size | checked |
-| W1113 | prøver | prøve | Verb |  | present of prøve | checked |
+| W1113 | prøver | prøve | Verb |  | present of prøve (prøve: to try) | checked |
 | W1114 | prøve | prøve | Verb |  | to try | checked |
 | W1115 | lektion | lektion | Noun |  | lesson | flagged: sense_not_picked |
 | W1116 | klasse | klasse | Noun |  | class | checked |
 | W1117 | spørgsmål | spørgsmål | Noun |  | question | checked |
-| W1118 | spørger | spørge | Verb |  | present of spørge | checked |
+| W1118 | spørger | spørge | Verb |  | present of spørge (spørge: to ask, inquire) | checked |
 | W1119 | spørge | spørge | Verb |  | to ask, inquire | checked |
 | W1120 | svar | svar | Noun |  | answer | checked |
-| W1121 | svarer | svare | Verb |  | present of svare | checked |
+| W1121 | svarer | svare | Verb |  | present of svare (svare: to answer, reply, respond) | checked |
 | W1122 | svare | svare | Verb |  | to answer, reply, respond | checked |
 | W1123 | blyant | blyant |  |  |  | flagged: no_french_entry |
 | W1124 | papir | papir | Noun |  | paper | checked |
 | W1125 | lære | lære | Verb |  | to learn | checked |
 | W1126 | elev | elev | Noun |  | pupil, student | checked |
 | W1127 | lektier | lektier |  |  |  | flagged: no_french_entry |
-| W1128 | gør | gøre | Verb |  | present of gøre | checked |
+| W1128 | gør | gøre | Verb |  | present of gøre (gøre: to do, perform, execute) | checked |
 | W1129 | gøre | gøre | Verb |  | to do, perform, execute | checked |
-| W1130 | laver | lave | Verb |  | present tense of lave | checked |
+| W1130 | laver | lave | Verb |  | present tense of lave (lave: to make, create, construct, produce) | checked |
 | W1131 | lave | lave | Verb |  | to make, create, construct, produce | checked |
 | W1132 | side | side | Noun |  | page; one surface of a sheet of paper. | checked |
 | W1133 | eksempel | eksempel | Noun |  | example | checked |
-| W1134 | lytter | lytte | Verb |  | present of lytte | checked |
-| W1135 | bruger | bruge | Verb |  | present tense of bruge | checked |
+| W1134 | lytter | lytte | Verb |  | present of lytte (lytte: to listen) | checked |
+| W1135 | bruger | bruge | Verb |  | present tense of bruge (bruge: to use) | checked |
 | W1136 | bruge | bruge | Verb |  | to use | checked |
 | W1137 | færdig | færdig | Adjective |  | finished, completed | checked |
 | W1138 | piger | pige | Noun |  | indefinite plural of pige (pige: girl) | checked |
 | W1139 | drenge | dreng | Noun |  | indefinite plural of dreng (dreng: boy, lad) | checked |
 | W1140 | besked | besked | Noun |  | message | checked |
-| W1141 | husker | huske | Verb |  | present of huske | checked |
+| W1141 | husker | huske | Verb |  | present of huske (huske: to remember) | checked |
 | W1142 | problem | problem | Noun |  | problem | checked |
 | W1143 | hjælp | hjælp | Noun |  | help, assistance, rescue, support, aid | checked |
 | W1144 | tyk | tyk | Adjective |  | stout, big, fat, plumb, chubby, tubby | checked |
@@ -1173,17 +1173,17 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1158 | person | person | Noun |  | person | flagged: sense_not_picked |
 | W1159 | ret | ret | Adverb |  | rather, quite | checked |
 | W1160 | som | som | Pronoun |  | who, which, that | checked |
-| W1161 | føler | føle | Verb |  | present of føle | checked |
+| W1161 | føler | føle | Verb |  | present of føle (føle: to feel, sense) | checked |
 | W1162 | sig | sig | Pronoun |  | third-person pronoun | checked |
-| W1163 | ligner | ligne | Verb |  | present of ligne | checked |
-| W1164 | virker | virke | Verb |  | present of virke | checked |
-| W1165 | elsker | elske | Verb |  | present of elske | checked |
+| W1163 | ligner | ligne | Verb |  | present of ligne (ligne: resemble, look like) | checked |
+| W1164 | virker | virke | Verb |  | present of virke (virke: function properly) | checked |
+| W1165 | elsker | elske | Verb |  | present of elske (elske: to love) | checked |
 | W1166 | åben | åben | Adjective |  | open | checked |
 | W1167 | åbent | åben | Adjective |  | neuter singular of åben (åben: open) | checked |
 | W1168 | lukket | lukket | Adjective |  | closed | checked |
 | W1169 | let | let | Adjective |  | easy | checked |
 | W1170 | svær | svær | Noun |  | rind | flagged: sense_not_picked |
-| W1171 | svært | svær | Adjective |  | neuter of svær | checked |
+| W1171 | svært | svær | Adjective |  | neuter of svær (svær: difficult, hard, stiff, tough) | checked |
 | W1172 | fuld | fuld | Adjective |  | full | checked |
 | W1173 | hurtigt | hurtigt | Adverb |  | rapidly, expeditiously | checked |
 | W1174 | langsomt | langsom | Adjective |  | slow | checked |
@@ -1228,7 +1228,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1213 | himlen | himmel | Noun |  | definite singular of himmel (himmel: sky) | checked |
 | W1214 | græs | græs | Noun |  | grass | flagged: sense_not_picked |
 | W1215 | jorden | jord | Noun |  | definite singular of jord (jord: earth, Earth) | checked |
-| W1216 | sidder | sidde | Verb |  | present of sidde | checked |
+| W1216 | sidder | sidde | Verb |  | present of sidde (sidde: to sit) | checked |
 | W1301 | halv | halv | Adjective |  | half | checked |
 | W1302 | kvart | kvart | Noun |  | quarter | checked |
 | W1303 | minut | minut | Noun |  | minute | checked |
@@ -1244,19 +1244,19 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1313 | aftenen | aften | Noun |  | definite singular of aften (aften: evening) | checked |
 | W1314 | nat | nat | Noun |  | night | checked |
 | W1315 | midnat | midnat | Noun |  | midnight | checked |
-| W1316 | tidligt | tidlig | Adjective |  | neuter of tidlig | checked |
+| W1316 | tidligt | tidlig | Adjective |  | neuter of tidlig (tidlig: early) | checked |
 | W1317 | sent | sen | Adjective |  | neuter singular of sen (sen: late) | checked |
-| W1318 | senere | senere | Adjective |  | comparative degree of sen | checked |
-| W1319 | tidligere | tidligere | Adjective |  | comparative degree of tidlig | checked |
+| W1318 | senere | senere | Adjective |  | comparative degree of sen (senere: late) | checked |
+| W1319 | tidligere | tidligere | Adjective |  | comparative degree of tidlig (tidligere: early) | checked |
 | W1320 | før | før | Adverb |  | before, prior, sooner | checked |
-| W1321 | hører | høre | Verb |  | present of høre | checked |
+| W1321 | hører | høre | Verb |  | present of høre (høre: to hear) | checked |
 | W1322 | høre | høre | Verb |  | to hear | checked |
-| W1323 | hør | høre | Verb |  | imperative of høre | checked |
-| W1324 | hørte | høre | Verb |  | past of høre | checked |
-| W1325 | højere | højere | Adjective |  | comparative degree of høj | checked |
+| W1323 | hør | høre | Verb |  | imperative of høre (høre: to hear) | checked |
+| W1324 | hørte | høre | Verb |  | past of høre (høre: to hear) | checked |
+| W1325 | højere | højere | Adjective |  | comparative degree of høj (højere: high) | checked |
 | W1326 | højt | højt | Adverb |  | loudly | checked |
 | W1327 | tydeligt | tydelig | Adjective |  | clear, evident, obvious | checked |
-| W1328 | beder | bede | Verb |  | present of bede | checked |
+| W1328 | beder | bede | Verb |  | present of bede (bede: to ask, request) | checked |
 | W1329 | tirsdag | tirsdag | Noun |  | Tuesday | checked |
 | W1330 | onsdag | onsdag | Noun |  | Wednesday | checked |
 | W1331 | torsdag | torsdag | Noun |  | Thursday | checked |
@@ -1270,9 +1270,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1339 | aldrig | aldrig | Adverb |  | never | checked |
 | W1340 | ofte | ofte | Adverb |  | often, frequently | checked |
 | W1341 | tit | tit | Adverb |  | often | checked |
-| W1342 | plejer | pleje | Verb |  | present of pleje | checked |
+| W1342 | plejer | pleje | Verb |  | present of pleje (pleje: use to, used to) | checked |
 | W1343 | næste | næste | Adjective |  | next | checked |
-| W1344 | sidste | sidste | Adjective |  | attributive of sidst | checked |
+| W1344 | sidste | sidste | Adjective |  | attributive of sidst (sidste: last) | checked |
 | W1345 | først | først | Adverb |  | first, firstly | checked |
 | W1346 | siden | siden | Adverb |  | since, later, afterwards, in the time since then | checked |
 | W1347 | inden | inden | Preposition |  | before | checked |
@@ -1308,7 +1308,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1377 | egentlig | egentlig | Adverb |  | really, actually | checked |
 | W1378 | nå | nå | Interjection |  | oh | checked |
 | W1379 | gætte | gætte | Verb |  | to guess, surmise | checked |
-| W1380 | ses | ses | Phrase |  | abbreviation of vi ses | checked |
+| W1380 | ses | ses | Phrase |  | abbreviation of vi ses (ses: see you) | checked |
 | W1381 | biograf | biograf | Noun |  | movie theater | checked |
 | W1382 | biografen | biograf | Noun |  | definite singular of biograf (biograf: movie theater) | checked |
 | W1383 | fri | fri | Adjective |  | free | checked |
@@ -1316,27 +1316,27 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1385 | idé | idé | Noun |  | idea | checked |
 | W1386 | plan | plan | Noun |  | a plan | checked |
 | W1387 | aftale | aftale | Noun |  | arrangement | checked |
-| W1388 | foreslår | foreslå | Verb |  | present of foreslå | checked |
+| W1388 | foreslår | foreslå | Verb |  | present of foreslå (foreslå: suggest) | checked |
 | W1389 | derfor | derfor | Adverb |  | therefore | checked |
-| W1390 | bør | burde | Verb |  | present tense of burde | checked |
+| W1390 | bør | burde | Verb |  | present tense of burde (burde: ought) | checked |
 | W1391 | burde | burde | Verb |  | ought | checked |
 | W1392 | nødt | nødt | Adjective |  | see nødt til | checked |
-| W1393 | sker | ske | Verb |  | present of ske | checked |
+| W1393 | sker | ske | Verb |  | present of ske (ske: to be) | checked |
 | W1394 | ske | ske | Verb |  | to happen, occur | checked |
 | W1395 | chance | chance | Noun |  | chance | checked |
 | W1396 | valg | valg | Noun |  | choice | checked |
-| W1397 | vågner | vågne | Verb |  | present of vågne | checked |
+| W1397 | vågner | vågne | Verb |  | present of vågne (vågne: to awake, to wake) | checked |
 | W1398 | op | op | Adverb |  | up | checked |
-| W1399 | sover | sove | Verb |  | present of sove | checked |
+| W1399 | sover | sove | Verb |  | present of sove (sove: to sleep) | checked |
 | W1400 | sove | sove | Verb |  | to sleep | checked |
 | W1401 | morgenmad | morgenmad | Noun |  | breakfast | checked |
 | W1402 | frokost | frokost | Noun |  | lunch | checked |
 | W1403 | aftensmad | aftensmad | Noun |  | supper, dinner, evening meal | checked |
-| W1404 | arbejder | arbejde | Verb |  | present of arbejde | checked |
+| W1404 | arbejder | arbejde | Verb |  | present of arbejde (arbejde: to work) | checked |
 | W1405 | arbejde | arbejde | Noun |  | work | checked |
-| W1406 | begynder | begynde | Verb |  | present of begynde | checked |
+| W1406 | begynder | begynde | Verb |  | present of begynde (begynde: to start, begin, commence, open) | checked |
 | W1407 | begynde | begynde | Verb |  | to start, begin, commence, open | checked |
-| W1408 | slutter | slutte | Verb |  | present of slutte | checked |
+| W1408 | slutter | slutte | Verb |  | present of slutte (slutte: to end, to finish) | checked |
 | W1409 | mens | mens | Conjunction |  | while, when | checked |
 | W1410 | når | når | Conjunction |  | when | checked |
 | W1411 | bad | bad | Noun |  | bath, shower, swim | checked |
@@ -1350,7 +1350,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1419 | gratis | gratis | Adjective |  | gratis, free | checked |
 | W1420 | politi | politi | Noun |  | police | checked |
 | W1421 | politiet | politi | Noun |  | definite singular of politi (politi: police) | checked |
-| W1422 | stop | stoppe | Verb |  | imperative of stoppe | checked |
+| W1422 | stop | stoppe | Verb |  | imperative of stoppe (stoppe: to stop, halt) | checked |
 | W1423 | indtil | indtil | Conjunction |  | until, till | checked |
 | W1424 | lov | lov | Noun |  | permission | checked |
 | W1425 | regler | regel | Noun |  | indefinite plural of regel (regel: rule) | checked |
@@ -1359,14 +1359,14 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1428 | afgår | afgå | Verb |  | To take off | checked |
 | W1429 | fremme | fremme | Adverb |  | at a place that is the destination of a journey or shipment | checked |
 | W1430 | fly | fly | Noun |  | airplane, aeroplane | checked |
-| W1431 | flyver | flyve | Verb |  | present tense of flyve | checked |
+| W1431 | flyver | flyve | Verb |  | present tense of flyve (flyve: to fly) | checked |
 | W1432 | båd | båd | Noun |  | boat | checked |
 | W1433 | rejse | rejse | Noun |  | journey | checked |
-| W1434 | rejser | rejse | Verb |  | present of rejse | checked |
+| W1434 | rejser | rejse | Verb |  | present of rejse (rejse: rise) | checked |
 | W1435 | billet | billet | Noun |  | ticket | checked |
 | W1436 | perron | perron | Noun |  | platform | checked |
 | W1437 | spor | spor | Noun |  | track | checked |
-| W1438 | kører | køre | Verb |  | present of køre | checked |
+| W1438 | kører | køre | Verb |  | present of køre (køre: to drive) | checked |
 | W1439 | køre | køre | Verb |  | to drive | checked |
 | W1440 | toget | tog | Noun |  | definite singular of tog (tog: train) | checked |
 | W1441 | bussen | bus | Noun |  | definite singular of bus (bus: bus, coach) | checked |
@@ -1381,97 +1381,97 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1450 | sandt | sand | Adjective |  | neuter singular of sand (sand: true) | checked |
 | W1451 | orden | orden | Noun |  | order, neatness | checked |
 | W1452 | passagerer | passager | Noun |  | passenger | checked |
-| W1453 | forsinket | forsinke | Verb |  | past participle of forsinke | checked |
+| W1453 | forsinket | forsinke | Verb |  | past participle of forsinke (forsinke: to delay; to hold up) | checked |
 | W1454 | damer | dame | Noun |  | indefinite plural of dame (dame: lady, woman) | checked |
 | W1455 | herrer | herre | Noun |  | indefinite plural of herre (herre: gentleman) | checked |
-| W1456 | stopper | stoppe | Verb |  | present of stoppe | checked |
+| W1456 | stopper | stoppe | Verb |  | present of stoppe (stoppe: to stop, halt) | checked |
 | W1457 | venligst | venligst | Adverb |  | please, kindly | checked |
-| W1458 | beklager | beklage | Verb |  | present of beklage | checked |
+| W1458 | beklager | beklage | Verb |  | present of beklage (beklage: apologize for) | checked |
 | W1459 | desværre | desværre | Adverb |  | regrettably, unfortunately | checked |
 | W1460 | mellem | mellem | Preposition |  | between | checked |
 | W1461 | via | via | Preposition |  | via; by way of; passing through. | checked |
 | W1462 | cirka | cirka | Adverb |  | circa, approximately | checked |
-| W1463 | kig | kigge | Verb |  | imperative of kigge | checked |
-| W1464 | vælg | vælge | Verb |  | imperative of vælge | checked |
+| W1463 | kig | kigge | Verb |  | imperative of kigge (kigge: to look) | checked |
+| W1464 | vælg | vælge | Verb |  | imperative of vælge (vælge: to choose) | checked |
 | W1465 | vælge | vælge | Verb |  | to choose | checked |
-| W1466 | læs | læse | Verb |  | imperative of læse | checked |
+| W1466 | læs | læse | Verb |  | imperative of læse (læse: to read) | checked |
 | W1467 | læse | læse | Verb |  | to read | checked |
-| W1468 | skriv | skrive | Verb |  | imperative of skrive | checked |
+| W1468 | skriv | skrive | Verb |  | imperative of skrive (skrive: to write) | checked |
 | W1469 | lyt | lytte | Verb |  | to listen | checked |
-| W1470 | glem | glemme | Verb |  | imperative of glemme | checked |
-| W1471 | prøv | prøve | Verb |  | imperative of prøve | checked |
+| W1470 | glem | glemme | Verb |  | imperative of glemme (glemme: to forget) | checked |
+| W1471 | prøv | prøve | Verb |  | imperative of prøve (prøve: to try) | checked |
 | W1472 | øvelse | øvelse | Noun |  | exercise | checked |
 | W1473 | tekst | tekst | Noun |  | a text | checked |
 | W1474 | teksten | tekst | Noun |  | a text | checked |
-| W1475 | vis | vise | Verb |  | imperative of vise | checked |
+| W1475 | vis | vise | Verb |  | imperative of vise (vise: to show) | checked |
 | W1476 | vise | vise | Verb |  | to show | checked |
-| W1477 | viser | vise | Verb |  | present of vise | checked |
-| W1478 | forklar | forklare | Verb |  | imperative of forklare | checked |
+| W1477 | viser | vise | Verb |  | present of vise (vise: to show) | checked |
+| W1478 | forklar | forklare | Verb |  | imperative of forklare (forklare: to explain) | checked |
 | W1479 | forklare | forklare | Verb |  | to explain | checked |
-| W1480 | fortæl | fortælle | Verb |  | imperative of fortælle | checked |
+| W1480 | fortæl | fortælle | Verb |  | imperative of fortælle (fortælle: to tell, to report) | checked |
 | W1481 | fortælle | fortælle | Verb |  | to tell, to report | checked |
-| W1482 | fortæller | fortælle | Verb |  | present tense of fortælle | checked |
-| W1483 | luk | lukke | Verb |  | imperative of lukke | checked |
-| W1484 | sæt | sætte | Verb |  | imperative of sætte | checked |
+| W1482 | fortæller | fortælle | Verb |  | present tense of fortælle (fortælle: to tell, to report) | checked |
+| W1483 | luk | lukke | Verb |  | imperative of lukke (lukke: to close) | checked |
+| W1484 | sæt | sætte | Verb |  | imperative of sætte (sætte: to put, place, set) | checked |
 | W1485 | sætte | sætte | Verb |  | to put, place, set | checked |
-| W1486 | sætter | sætte | Verb |  | present of sætte | checked |
-| W1487 | find | finde | Verb |  | imperative of finde | checked |
-| W1488 | finder | finde | Verb |  | present of finde | checked |
-| W1489 | tag | tage | Verb |  | imperative of tage | checked |
-| W1490 | giv | give | Verb |  | imperative of give | checked |
-| W1491 | hjælper | hjælpe | Verb |  | present tense of hjælpe | checked |
+| W1486 | sætter | sætte | Verb |  | present of sætte (sætte: to put, place, set) | checked |
+| W1487 | find | finde | Verb |  | imperative of finde (finde: to find) | checked |
+| W1488 | finder | finde | Verb |  | present of finde (finde: to find) | checked |
+| W1489 | tag | tage | Verb |  | imperative of tage (tage: to take, get, pick up) | checked |
+| W1490 | giv | give | Verb |  | imperative of give (give: to give) | checked |
+| W1491 | hjælper | hjælpe | Verb |  | present tense of hjælpe (hjælpe: to help) | checked |
 | W1492 | måde | måde | Noun |  | method, way | checked |
 | W1501 | i går | i går | Phrase |  | yesterday | checked |
-| W1502 | var | være | Verb |  | past of være | checked |
-| W1503 | havde | have | Verb |  | past active of have | checked |
-| W1504 | kom | komme | Verb |  | past of komme | checked |
-| W1505 | gik | gå | Verb |  | past of gå | checked |
-| W1506 | sagde | sige | Verb |  | past tense of sige | checked |
-| W1507 | blev | blive | Verb |  | past active of blive | checked |
-| W1508 | gjorde | gøre | Verb |  | past of gøre | checked |
-| W1509 | fik | få | Verb |  | past of få | checked |
-| W1510 | gav | give | Verb |  | past tense of give | checked |
-| W1511 | fandt | finde | Verb |  | past of finde | checked |
-| W1512 | troede | tro | Verb |  | past tense of tro | checked |
-| W1513 | vidste | vide | Verb |  | past of vide | checked |
-| W1514 | tænkte | tænke | Verb |  | past tense of tænke | checked |
+| W1502 | var | være | Verb |  | past of være (være: to be) | checked |
+| W1503 | havde | have | Verb |  | past active of have (have: to have; to have got) | checked |
+| W1504 | kom | komme | Verb |  | past of komme (komme: to come) | checked |
+| W1505 | gik | gå | Verb |  | past of gå (gå: to go) | checked |
+| W1506 | sagde | sige | Verb |  | past tense of sige (sige: to say) | checked |
+| W1507 | blev | blive | Verb |  | past active of blive (blive: to become) | checked |
+| W1508 | gjorde | gøre | Verb |  | past of gøre (gøre: to do, perform, execute) | checked |
+| W1509 | fik | få | Verb |  | past of få (få: to get) | checked |
+| W1510 | gav | give | Verb |  | past tense of give (give: to give) | checked |
+| W1511 | fandt | finde | Verb |  | past of finde (finde: to find) | checked |
+| W1512 | troede | tro | Verb |  | past tense of tro (tro: to believe) | checked |
+| W1513 | vidste | vide | Verb |  | past of vide (vide: to know) | checked |
+| W1514 | tænkte | tænke | Verb |  | past tense of tænke (tænke: to think) | checked |
 | W1515 | skete | ske | Verb |  | inflection of ske: past tense past participle plural/definite singular | checked |
-| W1516 | talte | tale | Verb |  | past tense of tale | checked |
-| W1517 | lavede | lave | Verb |  | past tense of lave | checked |
-| W1518 | ringede | ringe | Verb |  | past of ringe | checked |
-| W1519 | fortalte | fortælle | Verb |  | past tense of fortælle | checked |
-| W1520 | elskede | elske | Verb |  | past tense of elske | checked |
-| W1521 | prøvede | prøve | Verb |  | past of prøve | checked |
+| W1516 | talte | tale | Verb |  | past tense of tale (tale: to make a speech) | checked |
+| W1517 | lavede | lave | Verb |  | past tense of lave (lave: to make, create, construct, produce) | checked |
+| W1518 | ringede | ringe | Verb |  | past of ringe (ringe: To call, to telephone) | checked |
+| W1519 | fortalte | fortælle | Verb |  | past tense of fortælle (fortælle: to tell, to report) | checked |
+| W1520 | elskede | elske | Verb |  | past tense of elske (elske: to love) | checked |
+| W1521 | prøvede | prøve | Verb |  | past of prøve (prøve: to try) | checked |
 | W1522 | vejr | vejr | Noun |  | weather | checked |
 | W1523 | vejret | vejr | Noun |  | definite singular of vejr (vejr: weather) | checked |
 | W1524 | regn | regn | Noun |  | rain | checked |
-| W1525 | regner | regne | Verb |  | present of regne | checked |
+| W1525 | regner | regne | Verb |  | present of regne (regne: to rain) | checked |
 | W1526 | sne | sne | Noun |  | snow | checked |
-| W1527 | sner | sne | Verb |  | present of sne | checked |
-| W1528 | blæser | blæse | Verb |  | present of blæse | checked |
+| W1527 | sner | sne | Verb |  | present of sne (sne: to snow) | checked |
+| W1528 | blæser | blæse | Verb |  | present of blæse (blæse: to blow) | checked |
 | W1529 | grader | grad | Noun |  | degree | checked |
 | W1530 | varmt | varm | Adjective |  | warm, hot | checked |
 | W1531 | koldt | kold | Adjective |  | neuter singular of kold (kold: cold) | checked |
 | W1532 | solskin | solskin | Noun |  | sunshine | checked |
 | W1533 | is | is | Noun |  | ice | checked |
-| W1534 | været | være | Verb |  | past participle of være | checked |
-| W1535 | set | se | Verb |  | past participle of se | checked |
-| W1536 | sagt | sige | Verb |  | past participle of sige | checked |
-| W1537 | gjort | gøre | Verb |  | past participle of gøre | checked |
-| W1538 | fået | få | Verb |  | past participle of få | checked |
-| W1539 | kommet | komme | Verb |  | past participle of komme | checked |
-| W1540 | gået | gå | Verb |  | past participle of gå | checked |
-| W1541 | blevet | blive | Participle |  | past participle of blive | checked |
-| W1542 | haft | have | Participle |  | past participle of have | checked |
-| W1543 | hørt | høre | Verb |  | past participle of høre | checked |
-| W1544 | fundet | finde | Verb |  | past participle neuter of finde | checked |
-| W1545 | lavet | lave | Verb |  | past participle of lave | checked |
-| W1546 | taget | tage | Verb |  | past participle of tage | checked |
-| W1547 | talt | tale | Verb |  | past participle of tale | checked |
-| W1548 | fortalt | fortælle | Verb |  | past participle of fortælle | checked |
-| W1549 | sket | ske | Verb |  | past participle of ske | checked |
-| W1550 | glemt | glemme | Participle |  | past participle of glemme | checked |
-| W1551 | tænkt | tænke | Verb |  | past participle of tænke | checked |
+| W1534 | været | være | Verb |  | past participle of være (være: to be) | checked |
+| W1535 | set | se | Verb |  | past participle of se (se: to see) | checked |
+| W1536 | sagt | sige | Verb |  | past participle of sige (sige: to say) | checked |
+| W1537 | gjort | gøre | Verb |  | past participle of gøre (gøre: to do, perform, execute) | checked |
+| W1538 | fået | få | Verb |  | past participle of få (få: to get) | checked |
+| W1539 | kommet | komme | Verb |  | past participle of komme (komme: to come) | checked |
+| W1540 | gået | gå | Verb |  | past participle of gå (gå: to go) | checked |
+| W1541 | blevet | blive | Participle |  | past participle of blive (blive: to become) | checked |
+| W1542 | haft | have | Participle |  | past participle of have (have: to have; to have got) | checked |
+| W1543 | hørt | høre | Verb |  | past participle of høre (høre: to hear) | checked |
+| W1544 | fundet | finde | Verb |  | past participle neuter of finde (finde: to find) | checked |
+| W1545 | lavet | lave | Verb |  | past participle of lave (lave: to make, create, construct, produce) | checked |
+| W1546 | taget | tage | Verb |  | past participle of tage (tage: to take, get, pick up) | checked |
+| W1547 | talt | tale | Verb |  | past participle of tale (tale: to make a speech) | checked |
+| W1548 | fortalt | fortælle | Verb |  | past participle of fortælle (fortælle: to tell, to report) | checked |
+| W1549 | sket | ske | Verb |  | past participle of ske (ske: to be) | checked |
+| W1550 | glemt | glemme | Participle |  | past participle of glemme (glemme: to forget) | checked |
+| W1551 | tænkt | tænke | Verb |  | past participle of tænke (tænke: to think) | checked |
 | W1552 | nogensinde | nogensinde | Adverb |  | ever, at some time | checked |
 | W1553 | ned | ned | Adverb |  | down, downwards | checked |
 | W1554 | tilbage | tilbage | Adverb |  | back | checked |
@@ -1484,7 +1484,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1561 | imod | imod | Adverb |  | against | checked |
 | W1562 | uden | uden | Preposition |  | without | checked |
 | W1563 | gennem | gennem | Preposition |  | through | checked |
-| W1564 | igennem | igennem | Preposition |  | alternative form of gennem | checked |
+| W1564 | igennem | igennem | Preposition |  | alternative form of gennem (igennem: through) | checked |
 | W1565 | omkring | omkring | Adverb |  | about | checked |
 | W1566 | bag | bag | Preposition |  | behind | checked |
 | W1567 | foran | foran | Adverb |  | ahead, in front | checked |
@@ -1500,24 +1500,24 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1577 | tæt | tæt | Adjective |  | close | checked |
 | W1578 | ligesom | ligesom | Conjunction |  | as, like | checked |
 | W1579 | hvilket | hvilken | Pronoun |  | neuter singular of hvilken (hvilken: what, which, the) | checked |
-| W1580 | hader | hade | Verb |  | present of hade | checked |
-| W1581 | ønsker | ønske | Verb |  | present tense of ønske | checked |
+| W1580 | hader | hade | Verb |  | present of hade (hade: to hate) | checked |
+| W1581 | ønsker | ønske | Verb |  | present tense of ønske (ønske: to wish) | checked |
 | W1582 | kærlighed | kærlighed | Noun |  | love, affection | checked |
 | W1583 | hjerte | hjerte | Noun |  | heart | checked |
 | W1584 | sjovt | sjov | Adjective |  | neuter singular of sjov (sjov: funny) | checked |
 | W1585 | ked | ked | Adjective |  | tired, sorry. | checked |
-| W1586 | glæder | glæde | Verb |  | present of glæde | checked |
-| W1587 | savner | savne | Verb |  | present of savne | checked |
+| W1586 | glæder | glæde | Verb |  | present of glæde (glæde: look forward to) | checked |
+| W1587 | savner | savne | Verb |  | present of savne (savne: to miss) | checked |
 | W1588 | mening | mening | Noun |  | an opinion | checked |
 | W1589 | ligeglad | ligeglad | Adjective |  | indifferent | checked |
 | W1590 | fantastisk | fantastisk | Adjective |  | incredible, amazing, fantastic | checked |
 | W1591 | held | held | Noun |  | luck, fortune | checked |
 | W1592 | værre | værre | Adjective |  | worse | checked |
 | W1593 | hellere | hellere | Adverb |  | rather | checked |
-| W1594 | helst | helst | Adverb |  | superlative degree of gerne | checked |
+| W1594 | helst | helst | Adverb |  | superlative degree of gerne (helst: with pleasure; gladly, willingly, readily) | checked |
 | W1595 | liv | liv | Noun |  | life | checked |
 | W1596 | livet | liv | Noun |  | definite singular of liv (liv: life) | checked |
-| W1597 | lever | leve | Verb |  | present of leve | checked |
+| W1597 | lever | leve | Verb |  | present of leve (leve: to live, be alive) | checked |
 | W1598 | leve | leve | Verb |  | to live, be alive | checked |
 | W1599 | skyld | skyld | Noun |  | blame, guilt | checked |
 | W2001 | bestille | bestille | Verb |  | to order | checked |
@@ -1533,9 +1533,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2011 | øl | øl | Noun |  | beer | checked |
 | W2012 | chokolade | chokolade | Noun |  | chocolate | checked |
 | W2013 | årsag | årsag | Noun |  | cause, reason | checked |
-| W2014 | forstyrrer | forstyrre | Verb |  | present of forstyrre | checked |
+| W2014 | forstyrrer | forstyrre | Verb |  | present of forstyrre (forstyrre: to disturb, upset, disrupt) | checked |
 | W2015 | forstyrre | forstyrre | Verb |  | to disturb, upset, disrupt | checked |
-| W2016 | vær | være | Verb |  | imperative of være | checked |
+| W2016 | vær | være | Verb |  | imperative of være (være: to be) | checked |
 | W2017 | naturligvis | naturligvis | Adverb |  | of course | checked |
 | W2018 | undskylde | undskylde | Verb |  | to excuse | checked |
 | W2019 | kniv | kniv | Noun |  | knife | checked |
@@ -1561,15 +1561,15 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2039 | vejen | vej | Noun |  | definite singular of vej (vej: road) | checked |
 | W2040 | ad | ad | Preposition |  | by | checked |
 | W2041 | meter | meter | Noun |  | a metre, or meter | checked |
-| W2042 | drej | dreje | Verb |  | imperative of dreje | checked |
-| W2043 | fortsæt | fortsætte | Verb |  | imperative of fortsætte | checked |
-| W2044 | længere | længere | Adverb |  | comparative degree of længe | checked |
+| W2042 | drej | dreje | Verb |  | imperative of dreje (dreje: to turn) | checked |
+| W2043 | fortsæt | fortsætte | Verb |  | imperative of fortsætte (fortsætte: to continue) | checked |
+| W2044 | længere | længere | Adverb |  | comparative degree of længe (længere: long) | checked |
 | W2045 | gaden | gade | Noun |  | definite singular of gade (gade: street) | checked |
 | W2046 | byen | by | Noun |  | definite singular of by (by: town, city) | checked |
 | W2047 | retning | retning | Noun |  | direction | checked |
 | W2048 | midt | midt | Adverb |  | in the middle/centre | checked |
 | W2049 | vild | vild | Adjective |  | wild | checked |
-| W2050 | faret | fare | Verb |  | past participle of fare | checked |
+| W2050 | faret | fare | Verb |  | past participle of fare (fare: to rush, run) | checked |
 | W2051 | kortet | kort | Noun |  | definite singular of kort (kort: card) | checked |
 | W2052 | herhen | herhen | Adverb |  | here, over here | checked |
 | W2053 | derhen | derhen | Adverb |  | there; thither; to that place | checked |
@@ -1577,9 +1577,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2055 | nærmeste | nær | Adjective |  | near | checked |
 | W2056 | metroen | metroen |  |  |  | flagged: no_french_entry |
 | W2057 | stoppested | stoppested |  |  |  | flagged: no_french_entry |
-| W2058 | skifter | skifte | Verb |  | present of skifte | checked |
+| W2058 | skifter | skifte | Verb |  | present of skifte (skifte: to change) | checked |
 | W2059 | skifte | skifte | Verb |  | to change | checked |
-| W2060 | stiger | stige | Verb |  | present of stige | checked |
+| W2060 | stiger | stige | Verb |  | present of stige (stige: rise) | checked |
 | W2061 | til fods | fod | Noun |  | foot | checked |
 | W2062 | lufthavnen | lufthavn | Noun |  | definite singular of lufthavn (lufthavn: An airport) | checked |
 | W2063 | kørekort | kørekort | Noun |  | driving licence, driver's license | checked |
@@ -1587,7 +1587,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2065 | bilen | bil | Noun |  | definite singular of bil (bil: car, automobile) | checked |
 | W2066 | hente | hente | Verb |  | to fetch, retrieve | checked |
 | W2067 | henter | hente | Verb |  | to fetch, retrieve | checked |
-| W2068 | cykler | cykle | Verb |  | present of cykle | checked |
+| W2068 | cykler | cykle | Verb |  | present of cykle (cykle: to cycle, to ride a bicycle) | checked |
 | W2069 | cykle | cykle | Verb |  | to cycle, to ride a bicycle | checked |
 | W2070 | søn | søn | Noun |  | son | checked |
 | W2071 | datter | datter | Noun |  | daughter | checked |
@@ -1605,7 +1605,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2083 | brødre | bror | Noun |  | indefinite plural of bror (bror: brother) | checked |
 | W2084 | søstre | søster | Noun |  | indefinite plural of søster (søster: sister) | checked |
 | W2085 | bedsteforældre | bedsteforælder | Noun |  | indefinite plural of bedsteforælder (bedsteforælder: grandparent) | checked |
-| W2086 | skilt | skille | Verb |  | past participle of skille | checked |
+| W2086 | skilt | skille | Verb |  | past participle of skille (skille: to separate) | checked |
 | W2087 | huset | hus | Noun |  | definite neuter singular of hus (hus: house) | checked |
 | W2088 | lejlighed | lejlighed | Noun |  | apartment, flat | checked |
 | W2089 | stue | stue | Noun |  | living room | checked |
@@ -1643,9 +1643,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2121 | farligt | farlig | Adjective |  | dangerous | checked |
 | W2122 | ondt | ond | Adjective |  | neuter singular of ond (ond: evil) | checked |
 | W2123 | galt | gal | Adjective |  | wrong | checked |
-| W2124 | stjålet | stjæle | Verb |  | past participle of stjæle | checked |
-| W2125 | skadet | skade | Verb |  | past participle of skade | checked |
-| W2126 | ring | ringe | Verb |  | imperative of ringe | checked |
+| W2124 | stjålet | stjæle | Verb |  | past participle of stjæle (stjæle: to steal) | checked |
+| W2125 | skadet | skade | Verb |  | past participle of skade (skade: to harm, damage) | checked |
+| W2126 | ring | ringe | Verb |  | imperative of ringe (ringe: To call, to telephone) | checked |
 | W2127 | blanket | blanket | Noun |  | form | checked |
 | W2128 | fødselsdato | fødselsdato | Noun |  | date of birth, birthdate | checked |
 | W2129 | underskrift | underskrift |  |  |  | flagged: no_french_entry |
@@ -1667,7 +1667,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2145 | brevet | brev | Noun |  | definite singular of brev (brev: letter) | checked |
 | W2146 | postkort | postkort | Noun |  | postcard | checked |
 | W2147 | sms | sms | Noun |  | text message sent by a cell phone | checked |
-| W2148 | send | sende | Verb |  | imperative of sende | checked |
+| W2148 | send | sende | Verb |  | imperative of sende (sende: to send) | checked |
 | W2149 | sende | sende | Verb |  | to send | checked |
 | W2201 | grund | grund | Noun |  | reason | checked |
 | W2202 | slags | slags | Noun |  | kind, sort, type | checked |
@@ -1694,7 +1694,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2223 | fedt | fed | Adjective |  | neuter singular of fed (fed: fat, obese) | checked |
 | W2224 | fast | fast | Adjective |  | firm | checked |
 | W2225 | død | død | Adjective |  | dead, inanimate | checked |
-| W2226 | døde | dø | Verb |  | past of dø | checked |
+| W2226 | døde | dø | Verb |  | past of dø (dø: to die) | checked |
 | W2227 | hvert | hver | Pronoun |  | every, each | checked |
 | W2228 | sidst | sidst | Adverb |  | last | checked |
 | W2229 | klar | klar | Adjective |  | ready | checked |
@@ -1703,41 +1703,41 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2232 | vigtig | vigtig | Adjective |  | important | checked |
 | W2233 | svag | svag | Adjective |  | weak | checked |
 | W2234 | holde | holde | Verb |  | to hold | checked |
-| W2235 | holder | holde | Verb |  | present tense of holde | checked |
-| W2236 | holdt | holde | Verb |  | past tense of holde | checked |
+| W2235 | holder | holde | Verb |  | present tense of holde (holde: to hold) | checked |
+| W2236 | holdt | holde | Verb |  | past tense of holde (holde: to hold) | checked |
 | W2237 | klare | klare | Verb |  | to manage, to handle, to cope | checked |
 | W2238 | klarer | klare | Verb |  | to manage, to handle, to cope | checked |
-| W2239 | lader | lade | Noun |  | present tense of lade | checked |
+| W2239 | lader | lade | Noun |  | present tense of lade (lade: barn) | checked |
 | W2240 | redde | redde | Verb |  | to save, rescue | checked |
-| W2241 | spiller | spille | Verb |  | present of spille | checked |
-| W2242 | handler | handle | Verb |  | present of handle | checked |
+| W2241 | spiller | spille | Verb |  | present of spille (spille: to play) | checked |
+| W2242 | handler | handle | Verb |  | present of handle (handle: act) | checked |
 | W2243 | slå | slå | Verb |  | to beat, hit, knock | checked |
-| W2244 | slår | slå | Verb |  | present tense of slå | checked |
-| W2245 | slog | slå | Verb |  | past tense of slå | checked |
-| W2246 | vinder | vinde | Verb |  | present of vinde | checked |
-| W2247 | åbner | åbne | Verb |  | present of åbne | checked |
+| W2244 | slår | slå | Verb |  | present tense of slå (slå: to beat, hit, knock) | checked |
+| W2245 | slog | slå | Verb |  | past tense of slå (slå: to beat, hit, knock) | checked |
+| W2246 | vinder | vinde | Verb |  | present of vinde (vinde: win) | checked |
+| W2247 | åbner | åbne | Verb |  | present of åbne (åbne: to open) | checked |
 | W2248 | fat | fat |  |  |  | flagged: no_french_entry |
-| W2249 | aner | ane | Verb |  | present of ane | checked |
-| W2250 | forstået | forstå | Verb |  | past participle of forstå | checked |
+| W2249 | aner | ane | Verb |  | present of ane (ane: guess) | checked |
+| W2250 | forstået | forstå | Verb |  | past participle of forstå (forstå: to understand) | checked |
 | W2251 | lover | love | Verb |  | to promise | checked |
 | W2252 | foregår | foregå | Verb |  | to happen, to transpire | checked |
 | W2253 | da | da | Conjunction |  | when | checked |
 | W2254 | enig | enig | Adjective |  | united | checked |
 | W2255 | tvivl | tvivl | Noun |  | doubt | checked |
 | W2256 | bekymret | bekymret | Adjective |  | worried | checked |
-| W2257 | forventer | forvente | Verb |  | present of forvente | checked |
-| W2258 | hold | holde | Verb |  | imperative of holde | checked |
-| W2259 | læg | lægge | Verb |  | imperative of lægge | checked |
+| W2257 | forventer | forvente | Verb |  | present of forvente (forvente: to expect) | checked |
+| W2258 | hold | holde | Verb |  | imperative of holde (holde: to hold) | checked |
+| W2259 | læg | lægge | Verb |  | imperative of lægge (lægge: to lay) | checked |
 | W2260 | slip | slippe | Verb |  | to let go, release, drop | checked |
-| W2261 | løb | løbe | Verb |  | imperative of løbe | checked |
+| W2261 | løb | løbe | Verb |  | imperative of løbe (løbe: to run) | checked |
 | W2262 | pas | pas | Noun |  | passport | checked |
-| W2263 | bliv | blive | Verb |  | active imperative of blive | checked |
-| W2264 | tænk | tænke | Verb |  | imperative of tænke | checked |
-| W2265 | slap | slippe | Verb |  | past of slippe | checked |
+| W2263 | bliv | blive | Verb |  | active imperative of blive (blive: to become) | checked |
+| W2264 | tænk | tænke | Verb |  | imperative of tænke (tænke: to think) | checked |
+| W2265 | slap | slippe | Verb |  | past of slippe (slippe: to let go, release, drop) | checked |
 | W2266 | skynd | skynde | Verb |  | to rush, hurry | checked |
 | W2267 | stå | stå | Verb |  | to stand | checked |
-| W2268 | spis | spise | Verb |  | imperative of spise | checked |
-| W2269 | drik | drikke | Verb |  | imperative of drikke | checked |
+| W2268 | spis | spise | Verb |  | imperative of spise (spise: to eat) | checked |
+| W2269 | drik | drikke | Verb |  | imperative of drikke (drikke: drink) | checked |
 
 ## Matched to Tatoeba (2353)
 
