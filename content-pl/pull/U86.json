@@ -1,0 +1,1678 @@
+{
+  "unit_id": "U86",
+  "pulled_at": "2026-11-22",
+  "candidates": 77,
+  "sentences": [
+    {
+      "sentence_id": "S86001",
+      "unit_id": "U86",
+      "french": "Tylko ja mam klucz do tego pokoju.",
+      "english": "I'm the only one with a key to this room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3655048",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86002",
+      "unit_id": "U86",
+      "french": "Potrzebujesz klucz?",
+      "english": "Do you need a key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6460712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86003",
+      "unit_id": "U86",
+      "french": "Gdzie jest łazienka?",
+      "english": "Where's the bathroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "922411",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Where is the bathroom?"
+      ]
+    },
+    {
+      "sentence_id": "S86004",
+      "unit_id": "U86",
+      "french": "Gdzie masz klucze?",
+      "english": "Where are your keys?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3960483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86005",
+      "unit_id": "U86",
+      "french": "Gdzie są moje klucze?",
+      "english": "Where are my keys?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "951379",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86006",
+      "unit_id": "U86",
+      "french": "Gdzie są twoje klucze?",
+      "english": "Where are your keys?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2145301",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86007",
+      "unit_id": "U86",
+      "french": "Który to jest klucz?",
+      "english": "Which key is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3865974",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86008",
+      "unit_id": "U86",
+      "french": "Ile kosztuje ta lampa?",
+      "english": "How much does that lamp cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5956200",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "stagos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86009",
+      "unit_id": "U86",
+      "french": "Co jest w ogrodzie?",
+      "english": "What is in the garden?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8761273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86010",
+      "unit_id": "U86",
+      "french": "Ktoś był w tym pokoju?",
+      "english": "Was anyone in the room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6554065",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86011",
+      "unit_id": "U86",
+      "french": "Czy jest jeszcze kawa w kuchni?",
+      "english": "Is there any coffee left in the kitchen?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3363174",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86012",
+      "unit_id": "U86",
+      "french": "Co Tom robi w jego pokoju?",
+      "english": "What's Tom doing in his room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3677196",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86013",
+      "unit_id": "U86",
+      "french": "Jest coś do picia w lodówce?",
+      "english": "Is there anything to drink in the fridge?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3851395",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86014",
+      "unit_id": "U86",
+      "french": "Właśnie sprzątam.",
+      "english": "I'm just cleaning up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7725982",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qmak",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86015",
+      "unit_id": "U86",
+      "french": "Chcę krzesło.",
+      "english": "I want a chair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8769130",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86016",
+      "unit_id": "U86",
+      "french": "Są schody.",
+      "english": "There are stairs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12213552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86017",
+      "unit_id": "U86",
+      "french": "Jest w kuchni.",
+      "english": "He's in the kitchen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2103204",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": [
+        "It is in the kitchen."
+      ]
+    },
+    {
+      "sentence_id": "S86018",
+      "unit_id": "U86",
+      "french": "Byłem w łazience.",
+      "english": "I was in the bathroom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9052689",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86019",
+      "unit_id": "U86",
+      "french": "Jestem w kuchni.",
+      "english": "I'm in the kitchen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10571055",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "I am in the kitchen."
+      ]
+    },
+    {
+      "sentence_id": "S86020",
+      "unit_id": "U86",
+      "french": "Balkon jest mały.",
+      "english": "The balcony is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12225653",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86021",
+      "unit_id": "U86",
+      "french": "To jest krzesło.",
+      "english": "It's a chair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12824971",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JimiYoru",
+      "other_english": [
+        "This is a chair."
+      ]
+    },
+    {
+      "sentence_id": "S86022",
+      "unit_id": "U86",
+      "french": "Nie działa nasza lodówka.",
+      "english": "Our refrigerator isn't working.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "591117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "buari",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86023",
+      "unit_id": "U86",
+      "french": "W lodówce jest mleko.",
+      "english": "There's milk in the refrigerator.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3430562",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": [
+        "There is milk in the fridge.",
+        "There is milk in the refrigerator."
+      ]
+    },
+    {
+      "sentence_id": "S86024",
+      "unit_id": "U86",
+      "french": "Łazienka jest teraz zajęta.",
+      "english": "The bathroom is occupied now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3962258",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86025",
+      "unit_id": "U86",
+      "french": "To jest moje krzesło.",
+      "english": "That's my chair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4111336",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86026",
+      "unit_id": "U86",
+      "french": "Ktoś jest w łazience.",
+      "english": "Someone's in the bathroom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12678481",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JimiYoru",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86027",
+      "unit_id": "U86",
+      "french": "W ogrodzie są piękne kwiaty.",
+      "english": "There are pretty flowers in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "366135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "There are beautiful flowers in the garden."
+      ]
+    },
+    {
+      "sentence_id": "S86028",
+      "unit_id": "U86",
+      "french": "Mój ojciec jest w ogrodzie.",
+      "english": "My father's in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "973072",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86029",
+      "unit_id": "U86",
+      "french": "W lodówce jest trochę mleka.",
+      "english": "There's some milk in the fridge.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3931560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": [
+        "There is some milk in the fridge."
+      ]
+    },
+    {
+      "sentence_id": "S86030",
+      "unit_id": "U86",
+      "french": "Światło w łazience nie działa.",
+      "english": "The lights in the bathroom aren't working.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5487899",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rubber_duck",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86031",
+      "unit_id": "U86",
+      "french": "Moje mieszkanie ma duży salon.",
+      "english": "My flat has a big living room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6533105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "My flat has a large living room."
+      ]
+    },
+    {
+      "sentence_id": "S86032",
+      "unit_id": "U86",
+      "french": "Moje mieszkanie ma wielki salon.",
+      "english": "My flat has a big living room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6533106",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "My flat has a large living room."
+      ]
+    },
+    {
+      "sentence_id": "S86033",
+      "unit_id": "U86",
+      "french": "Mój dom ma niebieski dach.",
+      "english": "My house has a blue roof.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9319155",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "digitcrusher",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S86001",
+      "position": 1,
+      "surface": "Tylko",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 2,
+      "surface": "ja",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 3,
+      "surface": "mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 4,
+      "surface": "klucz",
+      "word_id": "W2536",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 5,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 6,
+      "surface": "tego",
+      "word_id": "W1700",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 7,
+      "surface": "pokoju",
+      "word_id": "W2526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 1,
+      "surface": "Potrzebujesz",
+      "word_id": "W1689",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 2,
+      "surface": "klucz",
+      "word_id": "W2536",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 3,
+      "surface": "łazienka",
+      "word_id": "W2528",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 2,
+      "surface": "masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 3,
+      "surface": "klucze",
+      "word_id": "W2537",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 2,
+      "surface": "są",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 3,
+      "surface": "moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 4,
+      "surface": "klucze",
+      "word_id": "W2537",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 2,
+      "surface": "są",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 3,
+      "surface": "twoje",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 4,
+      "surface": "klucze",
+      "word_id": "W2537",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 1,
+      "surface": "Który",
+      "word_id": "W188",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 4,
+      "surface": "klucz",
+      "word_id": "W2536",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 1,
+      "surface": "Ile",
+      "word_id": "W213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 2,
+      "surface": "kosztuje",
+      "word_id": "W215",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 3,
+      "surface": "ta",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 4,
+      "surface": "lampa",
+      "word_id": "W2543",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 4,
+      "surface": "ogrodzie",
+      "word_id": "W2549",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 1,
+      "surface": "Ktoś",
+      "word_id": "W199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 2,
+      "surface": "był",
+      "word_id": "W2103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 4,
+      "surface": "tym",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 5,
+      "surface": "pokoju",
+      "word_id": "W2526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 3,
+      "surface": "jeszcze",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 4,
+      "surface": "kawa",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 6,
+      "surface": "kuchni",
+      "word_id": "W2527",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 3,
+      "surface": "robi",
+      "word_id": "W197",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 5,
+      "surface": "jego",
+      "word_id": "W1510",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 6,
+      "surface": "pokoju",
+      "word_id": "W2526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 3,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 4,
+      "surface": "picia",
+      "word_id": "W2421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 6,
+      "surface": "lodówce",
+      "word_id": "W2545",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 1,
+      "surface": "Właśnie",
+      "word_id": "W1638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 2,
+      "surface": "sprzątam",
+      "word_id": "W2548",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 1,
+      "surface": "Chcę",
+      "word_id": "W265",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 2,
+      "surface": "krzesło",
+      "word_id": "W2541",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 1,
+      "surface": "Są",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 2,
+      "surface": "schody",
+      "word_id": "W2535",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 3,
+      "surface": "kuchni",
+      "word_id": "W2527",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 1,
+      "surface": "Byłem",
+      "word_id": "W2106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 3,
+      "surface": "łazience",
+      "word_id": "W2529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 3,
+      "surface": "kuchni",
+      "word_id": "W2527",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 1,
+      "surface": "Balkon",
+      "word_id": "W2546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 3,
+      "surface": "mały",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 3,
+      "surface": "krzesło",
+      "word_id": "W2541",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 2,
+      "surface": "działa",
+      "word_id": "W2179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 3,
+      "surface": "nasza",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 4,
+      "surface": "lodówka",
+      "word_id": "W2544",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 1,
+      "surface": "W",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 2,
+      "surface": "lodówce",
+      "word_id": "W2545",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 4,
+      "surface": "mleko",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 1,
+      "surface": "Łazienka",
+      "word_id": "W2528",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 3,
+      "surface": "teraz",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 4,
+      "surface": "zajęta",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 3,
+      "surface": "moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 4,
+      "surface": "krzesło",
+      "word_id": "W2541",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 1,
+      "surface": "Ktoś",
+      "word_id": "W199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 4,
+      "surface": "łazience",
+      "word_id": "W2529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 1,
+      "surface": "W",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 2,
+      "surface": "ogrodzie",
+      "word_id": "W2549",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 3,
+      "surface": "są",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 4,
+      "surface": "piękne",
+      "word_id": "W1116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 5,
+      "surface": "kwiaty",
+      "word_id": "W1250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 2,
+      "surface": "ojciec",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 5,
+      "surface": "ogrodzie",
+      "word_id": "W2549",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 1,
+      "surface": "W",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 2,
+      "surface": "lodówce",
+      "word_id": "W2545",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 4,
+      "surface": "trochę",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 5,
+      "surface": "mleka",
+      "word_id": "W1758",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 1,
+      "surface": "Światło",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 3,
+      "surface": "łazience",
+      "word_id": "W2529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 4,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 5,
+      "surface": "działa",
+      "word_id": "W2179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 1,
+      "surface": "Moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 2,
+      "surface": "mieszkanie",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 4,
+      "surface": "duży",
+      "word_id": "W032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86031",
+      "position": 5,
+      "surface": "salon",
+      "word_id": "W2531",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 1,
+      "surface": "Moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 2,
+      "surface": "mieszkanie",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 4,
+      "surface": "wielki",
+      "word_id": "W1235",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86032",
+      "position": 5,
+      "surface": "salon",
+      "word_id": "W2531",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 2,
+      "surface": "dom",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 4,
+      "surface": "niebieski",
+      "word_id": "W220",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86033",
+      "position": 5,
+      "surface": "dach",
+      "word_id": "W2540",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A860031",
+      "sentence_id": "S86003",
+      "direction": "fr_to_en",
+      "answer": "Where is the bathroom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860171",
+      "sentence_id": "S86017",
+      "direction": "fr_to_en",
+      "answer": "It is in the kitchen.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860191",
+      "sentence_id": "S86019",
+      "direction": "fr_to_en",
+      "answer": "I am in the kitchen.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860211",
+      "sentence_id": "S86021",
+      "direction": "fr_to_en",
+      "answer": "This is a chair.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860231",
+      "sentence_id": "S86023",
+      "direction": "fr_to_en",
+      "answer": "There is milk in the fridge.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860232",
+      "sentence_id": "S86023",
+      "direction": "fr_to_en",
+      "answer": "There is milk in the refrigerator.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860271",
+      "sentence_id": "S86027",
+      "direction": "fr_to_en",
+      "answer": "There are beautiful flowers in the garden.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860291",
+      "sentence_id": "S86029",
+      "direction": "fr_to_en",
+      "answer": "There is some milk in the fridge.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860311",
+      "sentence_id": "S86031",
+      "direction": "fr_to_en",
+      "answer": "My flat has a large living room.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860321",
+      "sentence_id": "S86032",
+      "direction": "fr_to_en",
+      "answer": "My flat has a large living room.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

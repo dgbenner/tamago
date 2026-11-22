@@ -1,0 +1,1622 @@
+{
+  "unit_id": "U81",
+  "pulled_at": "2026-11-22",
+  "candidates": 89,
+  "sentences": [
+    {
+      "sentence_id": "S81001",
+      "unit_id": "U81",
+      "french": "Mleko? Cukier?",
+      "english": "Milk? Sugar?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1002952",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Any milk or sugar?"
+      ]
+    },
+    {
+      "sentence_id": "S81002",
+      "unit_id": "U81",
+      "french": "Lubisz ciasto?",
+      "english": "Do you like cake?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5961800",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "stagos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81003",
+      "unit_id": "U81",
+      "french": "Pijesz piwo?",
+      "english": "Do you drink beer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8911785",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81004",
+      "unit_id": "U81",
+      "french": "Lubisz sok?",
+      "english": "Do you like juice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10570150",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81005",
+      "unit_id": "U81",
+      "french": "Gdzie jest kawiarnia?",
+      "english": "Where is the coffee shop?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "631091",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81006",
+      "unit_id": "U81",
+      "french": "Ile kosztuje ciasto?",
+      "english": "How much does the cake cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4328143",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rudzielec",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81007",
+      "unit_id": "U81",
+      "french": "Co do picia?",
+      "english": "What to drink?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6322208",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81008",
+      "unit_id": "U81",
+      "french": "Chcesz coś do picia?",
+      "english": "Want a drink?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "352981",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Do you want something to drink?",
+        "Would you like something to drink?"
+      ]
+    },
+    {
+      "sentence_id": "S81009",
+      "unit_id": "U81",
+      "french": "Mogę prosić o cukier?",
+      "english": "Can I have the sugar, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "354025",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81010",
+      "unit_id": "U81",
+      "french": "Przepraszam, gdzie jest kawiarnia?",
+      "english": "Excuse me, where is the café?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "403198",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81011",
+      "unit_id": "U81",
+      "french": "Ile kosztuje butelka piwa?",
+      "english": "How much does a bottle of beer cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4482457",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Detharon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81012",
+      "unit_id": "U81",
+      "french": "Chcesz napić się kawy?",
+      "english": "Do you want to drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5336497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81013",
+      "unit_id": "U81",
+      "french": "Czy to jest ciasto?",
+      "english": "Is that cake?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5961808",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "stagos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81014",
+      "unit_id": "U81",
+      "french": "Kto chce jeszcze kawałek ciasta?",
+      "english": "Who wants another piece of cake?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3682226",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Siganiv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81015",
+      "unit_id": "U81",
+      "french": "Jaki jest twój ulubiony napój?",
+      "english": "What's your favorite drink?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4091082",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": [
+        "What's your favourite drink?",
+        "What's your favorite beverage?"
+      ]
+    },
+    {
+      "sentence_id": "S81016",
+      "unit_id": "U81",
+      "french": "Czy mogę prosić o rachunek?",
+      "english": "Could I have the bill, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4829492",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81017",
+      "unit_id": "U81",
+      "french": "Czy jest tu coś do picia?",
+      "english": "Is there anything to drink here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5147978",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tomash",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81018",
+      "unit_id": "U81",
+      "french": "Poproszę rachunek.",
+      "english": "The bill, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "349380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81019",
+      "unit_id": "U81",
+      "french": "Piję piwo.",
+      "english": "I drink beer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2374404",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81020",
+      "unit_id": "U81",
+      "french": "Poproszę piwo.",
+      "english": "A beer, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2810149",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81021",
+      "unit_id": "U81",
+      "french": "Mamy wino.",
+      "english": "We have wine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2967739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mateusz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81022",
+      "unit_id": "U81",
+      "french": "Kupiłem kanapkę.",
+      "english": "I bought a sandwich.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4493141",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81023",
+      "unit_id": "U81",
+      "french": "Nienawidzę ciasta.",
+      "english": "I hate cake.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5961803",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "stagos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81024",
+      "unit_id": "U81",
+      "french": "Proszę zamówić.",
+      "english": "Order, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6320810",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81025",
+      "unit_id": "U81",
+      "french": "Potrzebny kelner.",
+      "english": "Waiter needed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6320829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81026",
+      "unit_id": "U81",
+      "french": "Lubię kanapki.",
+      "english": "I like sandwiches.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10168043",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Relinger",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81027",
+      "unit_id": "U81",
+      "french": "Rachunek, proszę.",
+      "english": "Bill, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10542197",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "The check, please."
+      ]
+    },
+    {
+      "sentence_id": "S81028",
+      "unit_id": "U81",
+      "french": "Spróbuj ciasta.",
+      "english": "Try the cake.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10598441",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81029",
+      "unit_id": "U81",
+      "french": "Robię kanapkę.",
+      "english": "I am making a sandwich.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12888789",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Stanislawspruss",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81030",
+      "unit_id": "U81",
+      "french": "Poproszę dwa piwa.",
+      "english": "Two beers, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "531497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81031",
+      "unit_id": "U81",
+      "french": "Proszę dwa piwa.",
+      "english": "Two beers, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "567122",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81032",
+      "unit_id": "U81",
+      "french": "Nie powinieneś pić.",
+      "english": "You shouldn't be drinking.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3520318",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81033",
+      "unit_id": "U81",
+      "french": "Koń chce pić.",
+      "english": "The horse is thirsty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3584651",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cvbge",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81034",
+      "unit_id": "U81",
+      "french": "Oni mają cukier.",
+      "english": "They have sugar.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3649403",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81035",
+      "unit_id": "U81",
+      "french": "Tom je kanapkę.",
+      "english": "Tom is eating a sandwich.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3685397",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81036",
+      "unit_id": "U81",
+      "french": "Proszę się napić.",
+      "english": "Please have a drink.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3856878",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81037",
+      "unit_id": "U81",
+      "french": "Czas się napić.",
+      "english": "Now is the time to drink.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4410235",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Baakamono",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81038",
+      "unit_id": "U81",
+      "french": "Tom zrobił kanapki.",
+      "english": "Tom made some sandwiches.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4491119",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81039",
+      "unit_id": "U81",
+      "french": "Tom lubi wino.",
+      "english": "Tom likes wine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6157333",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S81040",
+      "unit_id": "U81",
+      "french": "Musisz pić wodę.",
+      "english": "You have to drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10495058",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shounen",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S81001",
+      "position": 1,
+      "surface": "Mleko",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81001",
+      "position": 2,
+      "surface": "Cukier",
+      "word_id": "W2407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81002",
+      "position": 1,
+      "surface": "Lubisz",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81002",
+      "position": 2,
+      "surface": "ciasto",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81003",
+      "position": 1,
+      "surface": "Pijesz",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81003",
+      "position": 2,
+      "surface": "piwo",
+      "word_id": "W2411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81004",
+      "position": 1,
+      "surface": "Lubisz",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81004",
+      "position": 2,
+      "surface": "sok",
+      "word_id": "W2410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81005",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81005",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81005",
+      "position": 3,
+      "surface": "kawiarnia",
+      "word_id": "W2401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81006",
+      "position": 1,
+      "surface": "Ile",
+      "word_id": "W213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81006",
+      "position": 2,
+      "surface": "kosztuje",
+      "word_id": "W215",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81006",
+      "position": 3,
+      "surface": "ciasto",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81007",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81007",
+      "position": 2,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81007",
+      "position": 3,
+      "surface": "picia",
+      "word_id": "W2421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81008",
+      "position": 1,
+      "surface": "Chcesz",
+      "word_id": "W266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81008",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81008",
+      "position": 3,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81008",
+      "position": 4,
+      "surface": "picia",
+      "word_id": "W2421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81009",
+      "position": 1,
+      "surface": "Mogę",
+      "word_id": "W268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81009",
+      "position": 2,
+      "surface": "prosić",
+      "word_id": "W2015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81009",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81009",
+      "position": 4,
+      "surface": "cukier",
+      "word_id": "W2407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81010",
+      "position": 1,
+      "surface": "Przepraszam",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81010",
+      "position": 2,
+      "surface": "gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81010",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81010",
+      "position": 4,
+      "surface": "kawiarnia",
+      "word_id": "W2401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81011",
+      "position": 1,
+      "surface": "Ile",
+      "word_id": "W213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81011",
+      "position": 2,
+      "surface": "kosztuje",
+      "word_id": "W215",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81011",
+      "position": 3,
+      "surface": "butelka",
+      "word_id": "W1752",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81011",
+      "position": 4,
+      "surface": "piwa",
+      "word_id": "W2412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81012",
+      "position": 1,
+      "surface": "Chcesz",
+      "word_id": "W266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81012",
+      "position": 2,
+      "surface": "napić",
+      "word_id": "W2422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81012",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81012",
+      "position": 4,
+      "surface": "kawy",
+      "word_id": "W1756",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81013",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81013",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81013",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81013",
+      "position": 4,
+      "surface": "ciasto",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81014",
+      "position": 1,
+      "surface": "Kto",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81014",
+      "position": 2,
+      "surface": "chce",
+      "word_id": "W267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81014",
+      "position": 3,
+      "surface": "jeszcze",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81014",
+      "position": 4,
+      "surface": "kawałek",
+      "word_id": "W1763",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81014",
+      "position": 5,
+      "surface": "ciasta",
+      "word_id": "W2406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81015",
+      "position": 1,
+      "surface": "Jaki",
+      "word_id": "W230",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81015",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81015",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81015",
+      "position": 4,
+      "surface": "ulubiony",
+      "word_id": "W232",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81015",
+      "position": 5,
+      "surface": "napój",
+      "word_id": "W2414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81016",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81016",
+      "position": 2,
+      "surface": "mogę",
+      "word_id": "W268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81016",
+      "position": 3,
+      "surface": "prosić",
+      "word_id": "W2015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81016",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81016",
+      "position": 5,
+      "surface": "rachunek",
+      "word_id": "W2417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81017",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81017",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81017",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81017",
+      "position": 4,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81017",
+      "position": 5,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81017",
+      "position": 6,
+      "surface": "picia",
+      "word_id": "W2421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81018",
+      "position": 1,
+      "surface": "Poproszę",
+      "word_id": "W1687",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81018",
+      "position": 2,
+      "surface": "rachunek",
+      "word_id": "W2417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81019",
+      "position": 1,
+      "surface": "Piję",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81019",
+      "position": 2,
+      "surface": "piwo",
+      "word_id": "W2411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81020",
+      "position": 1,
+      "surface": "Poproszę",
+      "word_id": "W1687",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81020",
+      "position": 2,
+      "surface": "piwo",
+      "word_id": "W2411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81021",
+      "position": 1,
+      "surface": "Mamy",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81021",
+      "position": 2,
+      "surface": "wino",
+      "word_id": "W2413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81022",
+      "position": 1,
+      "surface": "Kupiłem",
+      "word_id": "W2131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81022",
+      "position": 2,
+      "surface": "kanapkę",
+      "word_id": "W2415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81023",
+      "position": 1,
+      "surface": "Nienawidzę",
+      "word_id": "W2218",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81023",
+      "position": 2,
+      "surface": "ciasta",
+      "word_id": "W2406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81024",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81024",
+      "position": 2,
+      "surface": "zamówić",
+      "word_id": "W2418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81025",
+      "position": 1,
+      "surface": "Potrzebny",
+      "word_id": "W1691",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81025",
+      "position": 2,
+      "surface": "kelner",
+      "word_id": "W2403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81026",
+      "position": 1,
+      "surface": "Lubię",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81026",
+      "position": 2,
+      "surface": "kanapki",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81027",
+      "position": 1,
+      "surface": "Rachunek",
+      "word_id": "W2417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81027",
+      "position": 2,
+      "surface": "proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81028",
+      "position": 1,
+      "surface": "Spróbuj",
+      "word_id": "W2173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81028",
+      "position": 2,
+      "surface": "ciasta",
+      "word_id": "W2406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81029",
+      "position": 1,
+      "surface": "Robię",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81029",
+      "position": 2,
+      "surface": "kanapkę",
+      "word_id": "W2415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81030",
+      "position": 1,
+      "surface": "Poproszę",
+      "word_id": "W1687",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81030",
+      "position": 2,
+      "surface": "dwa",
+      "word_id": "W203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81030",
+      "position": 3,
+      "surface": "piwa",
+      "word_id": "W2412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81031",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81031",
+      "position": 2,
+      "surface": "dwa",
+      "word_id": "W203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81031",
+      "position": 3,
+      "surface": "piwa",
+      "word_id": "W2412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81032",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81032",
+      "position": 2,
+      "surface": "powinieneś",
+      "word_id": "W2045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81032",
+      "position": 3,
+      "surface": "pić",
+      "word_id": "W2420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81033",
+      "position": 1,
+      "surface": "Koń",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81033",
+      "position": 2,
+      "surface": "chce",
+      "word_id": "W267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81033",
+      "position": 3,
+      "surface": "pić",
+      "word_id": "W2420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81034",
+      "position": 1,
+      "surface": "Oni",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81034",
+      "position": 2,
+      "surface": "mają",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81034",
+      "position": 3,
+      "surface": "cukier",
+      "word_id": "W2407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81035",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81035",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81035",
+      "position": 3,
+      "surface": "kanapkę",
+      "word_id": "W2415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81036",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81036",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81036",
+      "position": 3,
+      "surface": "napić",
+      "word_id": "W2422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81037",
+      "position": 1,
+      "surface": "Czas",
+      "word_id": "W1780",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81037",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81037",
+      "position": 3,
+      "surface": "napić",
+      "word_id": "W2422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81038",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81038",
+      "position": 2,
+      "surface": "zrobił",
+      "word_id": "W2115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81038",
+      "position": 3,
+      "surface": "kanapki",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81039",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81039",
+      "position": 2,
+      "surface": "lubi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81039",
+      "position": 3,
+      "surface": "wino",
+      "word_id": "W2413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81040",
+      "position": 1,
+      "surface": "Musisz",
+      "word_id": "W271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81040",
+      "position": 2,
+      "surface": "pić",
+      "word_id": "W2420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S81040",
+      "position": 3,
+      "surface": "wodę",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A810011",
+      "sentence_id": "S81001",
+      "direction": "fr_to_en",
+      "answer": "Any milk or sugar?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A810081",
+      "sentence_id": "S81008",
+      "direction": "fr_to_en",
+      "answer": "Do you want something to drink?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A810082",
+      "sentence_id": "S81008",
+      "direction": "fr_to_en",
+      "answer": "Would you like something to drink?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A810151",
+      "sentence_id": "S81015",
+      "direction": "fr_to_en",
+      "answer": "What's your favourite drink?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A810152",
+      "sentence_id": "S81015",
+      "direction": "fr_to_en",
+      "answer": "What's your favorite beverage?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A810271",
+      "sentence_id": "S81027",
+      "direction": "fr_to_en",
+      "answer": "The check, please.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

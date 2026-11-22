@@ -262,5 +262,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R301",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Obiad dnia",
+    "lines": "Zupa i sałatka\nRyż i ziemniaki\nDeser: lody\n35 zł",
+    "questions_json": "[{\"question\":\"How much is the lunch of the day?\",\"choices\":[\"35 złoty\",\"25 złoty\",\"53 złoty\"],\"answer\":0},{\"question\":\"What is there for dessert?\",\"choices\":[\"Ice cream\",\"Cake\",\"Fruit\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R302",
+    "unit_id": "U81",
+    "kind": "menu",
+    "title": "Kawiarnia",
+    "lines": "Kawa: 12 zł\nHerbata: 9 zł\nCiasto: 15 zł\nKanapki: 14 zł",
+    "questions_json": "[{\"question\":\"How much are the sandwiches?\",\"choices\":[\"14 złoty\",\"12 złoty\",\"15 złoty\"],\"answer\":0},{\"question\":\"What costs 9 złoty?\",\"choices\":[\"A tea\",\"A coffee\",\"A piece of cake\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R303",
+    "unit_id": "U82",
+    "kind": "notice",
+    "title": "Restauracja Ryba",
+    "lines": "Ryby i mięso\nOtwarte: wtorek – niedziela\nPoniedziałek: zamknięte",
+    "questions_json": "[{\"question\":\"When is the restaurant closed?\",\"choices\":[\"On Mondays\",\"On Sundays\",\"On Tuesdays\"],\"answer\":0},{\"question\":\"What does the restaurant serve?\",\"choices\":[\"Fish and meat\",\"Pizza\",\"Only salads\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R304",
+    "unit_id": "U83",
+    "kind": "message",
+    "title": "Wiadomość od Anny",
+    "lines": "Mój dom jest blisko rynku.\nIdź prosto do rogu.\nMoja ulica jest druga w prawo.",
+    "questions_json": "[{\"question\":\"Where is Anna's house?\",\"choices\":[\"Near the market square\",\"Near the school\",\"In the city centre\"],\"answer\":0},{\"question\":\"Which street is hers?\",\"choices\":[\"The second on the right\",\"The first on the left\",\"The second on the left\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R305",
+    "unit_id": "U83",
+    "kind": "sign",
+    "title": "W mieście",
+    "lines": "Muzeum: 200 m w lewo\nKościół: prosto\nDworzec: w prawo",
+    "questions_json": "[{\"question\":\"Where is the museum?\",\"choices\":[\"200 metres on the left\",\"200 metres on the right\",\"Straight on\"],\"answer\":0},{\"question\":\"Where is the station?\",\"choices\":[\"On the right\",\"On the left\",\"Straight on\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R306",
+    "unit_id": "U84",
+    "kind": "notice",
+    "title": "Hotel",
+    "lines": "Hotel jest w centrum.\nDworzec: dziesięć minut pieszo.\nPrzystanek jest przed hotelem.",
+    "questions_json": "[{\"question\":\"How far is the station?\",\"choices\":[\"Ten minutes on foot\",\"Ten minutes by car\",\"Half an hour on foot\"],\"answer\":0},{\"question\":\"Where is the bus stop?\",\"choices\":[\"In front of the hotel\",\"Behind the hotel\",\"At the station\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R307",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Mieszkanie",
+    "lines": "Mieszkanie w centrum\nSypialnia, salon, kuchnia i łazienka\nMieszkanie ma balkon.\n2500 zł",
+    "questions_json": "[{\"question\":\"Where is the flat?\",\"choices\":[\"In the centre\",\"Near the sea\",\"In the country\"],\"answer\":0},{\"question\":\"What else does it have?\",\"choices\":[\"A balcony\",\"A garden\",\"A garage\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R308",
+    "unit_id": "U86",
+    "kind": "message",
+    "title": "Wiadomość od Marii",
+    "lines": "Moje nowe mieszkanie jest małe.\nJest tam sypialnia, salon i kuchnia.\nŁazienka jest bardzo mała.",
+    "questions_json": "[{\"question\":\"What is Maria's new flat like?\",\"choices\":[\"Small\",\"Big\",\"Old\"],\"answer\":0},{\"question\":\"What is very small?\",\"choices\":[\"The bathroom\",\"The kitchen\",\"The bedroom\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R309",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Pokój dla studenta",
+    "lines": "Pokój dla studenta\nŁóżko, stół, krzesło i szafa\nUniwersytet jest blisko.",
+    "questions_json": "[{\"question\":\"Who is the room for?\",\"choices\":[\"A student\",\"A family\",\"A tourist\"],\"answer\":0},{\"question\":\"What is in the room?\",\"choices\":[\"A bed, a table, a chair and a wardrobe\",\"A sofa and a lamp\",\"A fridge\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R310",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Praca",
+    "lines": "Praca: kucharz\nWtorek – sobota, 17:00 – 23:00\nTel. 501 234 567",
+    "questions_json": "[{\"question\":\"What job is it?\",\"choices\":[\"A cook\",\"A waiter\",\"A driver\"],\"answer\":0},{\"question\":\"Which days?\",\"choices\":[\"Tuesday to Saturday\",\"Monday to Friday\",\"Every day\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R311",
+    "unit_id": "U87",
+    "kind": "message",
+    "title": "Moja praca",
+    "lines": "Jestem pielęgniarką i pracuję w szpitalu.\nZaczynam pracę o siódmej rano.\nMój szef jest bardzo miły.",
+    "questions_json": "[{\"question\":\"Where does she work?\",\"choices\":[\"In a hospital\",\"In a school\",\"In a shop\"],\"answer\":0},{\"question\":\"When does she start?\",\"choices\":[\"At seven in the morning\",\"At seven in the evening\",\"At nine\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R312",
+    "unit_id": "U87",
+    "kind": "notice",
+    "title": "Firma",
+    "lines": "Praca: kierowca\nPrawo jazdy: tak\nPoniedziałek – piątek",
+    "questions_json": "[{\"question\":\"Who is the company looking for?\",\"choices\":[\"A driver\",\"A secretary\",\"A teacher\"],\"answer\":0},{\"question\":\"What do you need?\",\"choices\":[\"A driving licence\",\"A university degree\",\"A car\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R313",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Pocztówka od Anny",
+    "lines": "Cześć!\nJestem z rodziną na plaży. Jest ciepło i morze jest piękne.\nCałuję, Anna",
+    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the seaside\",\"In the mountains\",\"In the city\"],\"answer\":0},{\"question\":\"What is the weather like?\",\"choices\":[\"Warm\",\"Cold\",\"Rainy\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R314",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Wiadomość od Toma",
+    "lines": "Cześć Maria!\nW sobotę mam urodziny. Chcesz przyjść?\nSpotykamy się u mnie o ósmej.\nTom",
+    "questions_json": "[{\"question\":\"Why is Tom having a party?\",\"choices\":[\"It's his birthday\",\"He has a new job\",\"It's Christmas\"],\"answer\":0},{\"question\":\"Where is the party?\",\"choices\":[\"At his home\",\"At a restaurant\",\"In the park\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R315",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Kartka",
+    "lines": "Anna!\nNie ma mnie w domu. Wrócę o szóstej.\nJedzenie jest w lodówce.\nMarek",
+    "questions_json": "[{\"question\":\"When is Marek back?\",\"choices\":[\"At six\",\"At eight\",\"At five\"],\"answer\":0},{\"question\":\"Where is the food?\",\"choices\":[\"In the fridge\",\"At a restaurant\",\"In the oven\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

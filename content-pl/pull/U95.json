@@ -1,0 +1,344 @@
+{
+  "unit_id": "U95",
+  "pulled_at": "2026-11-22",
+  "candidates": 8,
+  "sentences": [
+    {
+      "sentence_id": "S95001",
+      "unit_id": "U95",
+      "french": "Czy Bóg istnieje?",
+      "english": "Does God exist?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4046787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "warszk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95002",
+      "unit_id": "U95",
+      "french": "Bóg istnieje.",
+      "english": "God exists.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "547708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "A God exists."
+      ]
+    },
+    {
+      "sentence_id": "S95003",
+      "unit_id": "U95",
+      "french": "Bóg wie.",
+      "english": "God knows.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6160762",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "Allah knows."
+      ]
+    },
+    {
+      "sentence_id": "S95004",
+      "unit_id": "U95",
+      "french": "Bezpieczeństwo jest ważne.",
+      "english": "Safety is important.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10602144",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95005",
+      "unit_id": "U95",
+      "french": "To nie twój interes.",
+      "english": "It's none of your business.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "357754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95006",
+      "unit_id": "U95",
+      "french": "Bóg jest dobry.",
+      "english": "God is good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2186107",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95007",
+      "unit_id": "U95",
+      "french": "Bóg cię kocha.",
+      "english": "God loves you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2742858",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95008",
+      "unit_id": "U95",
+      "french": "Tylko Bóg to wie.",
+      "english": "Only God knows.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11181521",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Milenka",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S95001",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 2,
+      "surface": "Bóg",
+      "word_id": "W2846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 3,
+      "surface": "istnieje",
+      "word_id": "W2765",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 1,
+      "surface": "Bóg",
+      "word_id": "W2846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 2,
+      "surface": "istnieje",
+      "word_id": "W2765",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 1,
+      "surface": "Bóg",
+      "word_id": "W2846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 2,
+      "surface": "wie",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 1,
+      "surface": "Bezpieczeństwo",
+      "word_id": "W2832",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 3,
+      "surface": "ważne",
+      "word_id": "W1217",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 4,
+      "surface": "interes",
+      "word_id": "W2835",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 1,
+      "surface": "Bóg",
+      "word_id": "W2846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 3,
+      "surface": "dobry",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 1,
+      "surface": "Bóg",
+      "word_id": "W2846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 2,
+      "surface": "cię",
+      "word_id": "W1506",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 3,
+      "surface": "kocha",
+      "word_id": "W1184",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 1,
+      "surface": "Tylko",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 2,
+      "surface": "Bóg",
+      "word_id": "W2846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 4,
+      "surface": "wie",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A950021",
+      "sentence_id": "S95002",
+      "direction": "fr_to_en",
+      "answer": "A God exists.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950031",
+      "sentence_id": "S95003",
+      "direction": "fr_to_en",
+      "answer": "Allah knows.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
