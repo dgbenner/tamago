@@ -581,7 +581,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S14965 |  | Un manteau est un vêtement. | A coat is a piece of clothing. | tts |
 | S14966 |  | Quel vêtement est le plus joli ? | Which piece of clothing is the prettiest? | tts |
 | S14967 |  | Mon pantalon est noir. | My trousers are black. | tts |
-| S14968 |  | Le rouge est ma couleur. | Red is my colour. | tts |
+| S14968 |  | Le rouge est ma couleur. | Red is my color. | tts |
 | S14661 |  | Excusez mon retard. | Sorry I'm late. | tts |
 | S14662 |  | Vous m'excusez une minute ? | Will you excuse me for a minute? | tts |
 | S13862 |  | Je voudrais voir le menu. | I'd like to see the menu. | tts |
@@ -1224,7 +1224,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W830 | âge | âge | Noun | m | age | checked |
 | W831 | ans | an | Noun | m | plural of an (an: year) | checked |
 | W832 | anniversaire | anniversaire | Noun | m | birthday | checked |
-| W833 | né | né | Participle |  | past participle of naître | checked |
+| W833 | né | naître | Participle |  | past participle of naître (naître: to be born) | checked |
 | W834 | née | né | Participle |  | feminine singular of né ("to be born") (né: past participle of naître) | checked |
 | W835 | mois | mois | Noun | m | month | checked |
 | W836 | année | année | Noun | f | year | checked |
@@ -1277,7 +1277,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W883 | légumes | légume | Noun | m | plural of légume (légume: vegetable) | checked |
 | W884 | fruit | fruit | Noun | m | fruit | checked |
 | W885 | d'accord | d'accord | Interjection |  | sure!, OK!, of course!, naturally! | checked |
-| W886 | compris | compris | Participle |  | past participle of comprendre | checked |
+| W886 | compris | comprendre | Participle |  | past participle of comprendre (comprendre: to understand, comprehend) | checked |
 | W887 | exactement | exactement | Adverb |  | exactly, quite | checked |
 | W888 | vrai | vrai | Adjective |  | true | checked |
 | W889 | prix | prix | Noun | m | price | checked |
@@ -1387,7 +1387,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1209 | après-midi | après-midi | Noun | m/f | afternoon | checked |
 | W1210 | nuit | nuit | Noun | f | night | checked |
 | W1211 | entends | entendre | Verb |  | inflection of entendre: first/second-person singular present indicative second-person singular imperative (entendre: to hear) | checked |
-| W1212 | entendu | entendu | Participle |  | past participle of entendre | checked |
+| W1212 | entendu | entendre | Participle |  | past participle of entendre (entendre: to hear) | checked |
 | W1213 | quoi | quoi | Pronoun |  | what | checked |
 | W1214 | désolé | désolé | Adjective |  | sorry; apologetic | checked |
 | W1215 | désolée | désolé | Participle |  | feminine singular of désolé (désolé: sorry; apologetic) | checked |
@@ -1620,7 +1620,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1670 | avion | avion | Noun | m | aeroplane | checked |
 | W1671 | aéroport | aéroport | Noun | m | airport | checked |
 | W1672 | voyager | voyager | Verb |  | to travel, to voyage | checked |
-| W1673 | meilleur | meilleur | Adjective |  | comparative degree of bon | checked |
+| W1673 | meilleur | meilleur | Adjective |  | comparative degree of bon (meilleur: good) | checked |
 | W1674 | différent | différent | Adjective |  | different | checked |
 | W1675 | important | important | Adjective |  | important | checked |
 | W1676 | nouveau | nouveau | Adjective |  | new, novel | checked |
@@ -1724,7 +1724,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2041 | réunion | réunion | Noun | f | meeting | checked |
 | W2042 | entreprise | entreprise | Noun | f | company, business | checked |
 | W2043 | parce | parce | Preposition |  | only used in parce que | checked |
-| W2044 | qu' | qu' | Conjunction |  | apocopic form of que | checked |
+| W2044 | qu' | qu' | Conjunction |  | apocopic form of que (qu': that) | checked |
 | W2045 | dis | dire | Verb |  | inflection of dire: first/second-person singular present indicative first/second-person singular past historic second-person singular imperative (dire: to say, to tell) | checked |
 | W2046 | exemple | exemple | Noun | m | example | checked |
 | W2047 | phrase | phrase | Noun | f | sentence | checked |
@@ -1827,7 +1827,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2418 | peinture | peinture | Noun | f | painting | checked |
 | W2419 | fin | fin | Noun | f | end, close, finish | checked |
 | W2420 | début | début | Noun | m | start, beginning | checked |
-| W2421 | jusqu' | jusqu' | Adverb |  | apocopic form of jusque | checked |
+| W2421 | jusqu' | jusqu' | Adverb |  | apocopic form of jusque (jusqu': until, up to) | checked |
 | W2422 | objet | objet | Noun | m | thing, object | checked |
 | W2423 | bruit | bruit | Noun | m | a noise | checked |
 | W2424 | interdit | interdit | Adjective |  | forbidden, prohibited, off-limits | checked |
@@ -1927,7 +1927,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W2636 | habille | habiller | Verb |  | inflection of habiller: first/third-person singular present indicative/subjunctive second-person singular imperative (habiller: to dress) | checked |
 | W2637 | habiller | habiller | Verb |  | to get dressed | checked |
 | W2638 | respecte | respecter | Verb |  | inflection of respecter: first/third-person singular present indicative/subjunctive second-person singular imperative (respecter: to respect) | checked |
-| W2639 | situé | situé | Participle |  | past participle of situer | checked |
+| W2639 | situé | situer | Participle |  | past participle of situer (situer: to locate) | checked |
 | W2640 | bord | bord | Noun | m | border, edge, limit; boundary | checked |
 | W2641 | affaires | affaire | Noun | f | plural of affaire (affaire: business; matter; affair) | checked |
 
@@ -4800,7 +4800,7 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S81213 | C'est un bon vin. | It's a good wine. | [#11931536](https://tatoeba.org/en/sentences/show/11931536) | LdjuherTaqvaylit | confirm |  | tts |
 | S91201 | Jolie robe. | Nice dress. | [#1328962](https://tatoeba.org/en/sentences/show/1328962) | Scott | confirm |  | tts |
 | S91202 | Tu es une jolie fille. | You are a pretty girl. | [#932958](https://tatoeba.org/en/sentences/show/932958) | Scott | confirm |  | tts |
-| S91203 | Sa couleur est le rouge. | Its colour is red. | [#2161113](https://tatoeba.org/en/sentences/show/2161113) | sixtynine | confirm | Fable review pick | tts |
+| S91203 | Sa couleur est le rouge. | Its color is red. | [#2161113](https://tatoeba.org/en/sentences/show/2161113) | sixtynine | confirm | Fable review pick | tts |
 | S91204 | J'aime la couleur blanche. | I like the color white. | [#8236579](https://tatoeba.org/en/sentences/show/8236579) | josivangoncalves | confirm |  | tts |
 | S91205 | Il achète un vieux chapeau. | He's buying an old hat. | [#477667](https://tatoeba.org/en/sentences/show/477667) | mamat | confirm | Fable review pick | tts |
 | S91206 | J'ai un joli cadeau pour toi. | I have a nice present to give you. | [#549439](https://tatoeba.org/en/sentences/show/549439) | Scott | confirm |  | tts |
@@ -4811,8 +4811,8 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S91211 | Ma vieille robe est bleue. | My old dress is blue. | [#2758386](https://tatoeba.org/en/sentences/show/2758386) | bleton | confirm |  | tts |
 | S91212 | Je pense que tu es jolie. | I think you're pretty. | [#3527406](https://tatoeba.org/en/sentences/show/3527406) | maydoo | confirm |  | tts |
 | S91213 | Où est ton chapeau ? | Where's your hat? | [#3873370](https://tatoeba.org/en/sentences/show/3873370) | maydoo | confirm |  | tts |
-| S91214 | De quelle couleur est la pomme ? | What colour is the apple? | [#8361899](https://tatoeba.org/en/sentences/show/8361899) | Adelpa | confirm |  | tts |
-| S91215 | De quelle couleur sont tes yeux ? | What colour are your eyes? | [#8806527](https://tatoeba.org/en/sentences/show/8806527) | Adelpa | confirm |  | tts |
+| S91214 | De quelle couleur est la pomme ? | What color is the apple? | [#8361899](https://tatoeba.org/en/sentences/show/8361899) | Adelpa | confirm |  | tts |
+| S91215 | De quelle couleur sont tes yeux ? | What color are your eyes? | [#8806527](https://tatoeba.org/en/sentences/show/8806527) | Adelpa | confirm |  | tts |
 | S91216 | Je mets mes chaussures. | I'm putting on my shoes. | [#10108306](https://tatoeba.org/en/sentences/show/10108306) | JumJum | confirm |  | tts |
 | S91217 | La robe bleue est à elle. | The blue dress is hers. | [#11146617](https://tatoeba.org/en/sentences/show/11146617) | carlosalberto | confirm |  | tts |
 | S91218 | Je lui montre la chemise. | I show him the shirt. | [#11153751](https://tatoeba.org/en/sentences/show/11153751) | carlosalberto | confirm |  | tts |

@@ -6,6 +6,7 @@ import { join } from 'node:path'
 import { getJson } from './lib/http.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
 import { presentIndicative } from './lib/conjugation.mjs'
+import { bareFormOf } from './lib/form-of.mjs'
 import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 // Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
 const LL = `LL-${C.linguaLibre.qid} (${C.linguaLibre.iso})`
@@ -404,6 +405,24 @@ for (const w of words) {
       // on the A1 list (Dan, 2026-11-16); the gloss stays as it was.
       const part = definition.match(/^(?:past |present )?participle of ([\p{L}'-]+)/u)
       if (part) row.lemma = part[1]
+    }
+    // A bare form-of label ("present of kunne", "comparative degree of oud"; Fable, 2026-11-21, every course): the
+    // named word's own entry gives the meaning, its first gloss under the same part of speech (a participle's under
+    // Verb), else its first entry's, skipping glosses that are form-of labels themselves; lemma_match picks a sense as
+    // above. row.lemma is left as it was (a comparative still counts as itself on the A1 list). build-content makes
+    // the hint "can (present of kunne)" (scripts/lib/form-of.mjs).
+    const bare = !row.lemma_gloss && bareFormOf(row.gloss)
+    if (bare) {
+      if (bare.gloss) row.lemma_gloss = shorten(bare.gloss)
+      else {
+        const lemmaEntries = await french(bare.lemma)
+        const wantPos = entry.pos === 'Participle' ? 'Verb' : entry.pos
+        const ordered = [...lemmaEntries.filter((e) => e.pos === wantPos), ...lemmaEntries.filter((e) => e.pos !== wantPos)]
+        const lemmaFits = (d) => (pick?.lemma_exact ? d === pick.lemma_match : d.includes(pick.lemma_match))
+        const defs = ordered.flatMap((e) => e.definitions).filter((d) => !bareFormOf(d) && (!pick?.lemma_match || lemmaFits(d)))
+        if (pick?.lemma_match && !defs.length) throw new Error(`${w.word_id} ${w.form}: no ${bare.lemma} sense with "${pick.lemma_match}"`)
+        row.lemma_gloss = defs[0] ? shorten(defs[0]) : ''
+      }
     }
     row.status = 'checked'
     if (!pick) { row.status = 'flagged'; row.flag_reason = 'sense_not_picked' }
