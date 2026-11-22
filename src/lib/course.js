@@ -36,6 +36,12 @@ const KEY = 'tamago-course'
 const devOn = () => { try { return (JSON.parse(localStorage.getItem('tamago-settings') ?? 'null')?.developer ?? 'on') !== 'off' } catch { return true } }
 for (const c of COURSES) if (c.devOnly) c.ready = devOn()
 
+// The picker's sublabel reads each course's CEFR level and circle count (vite __COURSE_STATS__, built from each
+// course's units.json; see vite.config.js). typeof-guarded so this module still loads outside Vite (tests, tooling):
+// null then, and null for any course with no stats, in which case FlagRow shows no sublabel.
+const COURSE_STATS = typeof __COURSE_STATS__ !== 'undefined' ? __COURSE_STATS__ : {}
+for (const c of COURSES) c.stats = COURSE_STATS[c.id] ?? null
+
 const read = (store, key) => { try { return store.getItem(key) } catch { return null } }
 const write = (store, key, value) => { try { store.setItem(key, value) } catch { /* private mode: this launch only */ } }
 

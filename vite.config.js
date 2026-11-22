@@ -92,9 +92,24 @@ function statCounter() {
 // Each course's current workbook version, from scripts/lib/course.mjs (French tamago-data-vN, Spanish tamago-es-data-vN).
 const COURSE_FILE = readFileSync('scripts/lib/course.mjs', 'utf8')
 const WORKBOOKS = { fr: COURSE_FILE.match(/tamago-data-(v\d+)\.xlsx/)?.[1] ?? '', es: COURSE_FILE.match(/tamago-es-data-(v\d+)\.xlsx/)?.[1] ?? '', de: COURSE_FILE.match(/tamago-de-data-(v\d+)\.xlsx/)?.[1] ?? '', it: COURSE_FILE.match(/tamago-it-data-(v\d+)\.xlsx/)?.[1] ?? '', pt: COURSE_FILE.match(/tamago-pt-data-(v\d+)\.xlsx/)?.[1] ?? '', nl: COURSE_FILE.match(/tamago-nl-data-(v\d+)\.xlsx/)?.[1] ?? '', pl: COURSE_FILE.match(/tamago-pl-data-(v\d+)\.xlsx/)?.[1] ?? '', no: COURSE_FILE.match(/tamago-no-data-(v\d+)\.xlsx/)?.[1] ?? '', da: COURSE_FILE.match(/tamago-da-data-(v\d+)\.xlsx/)?.[1] ?? '', sv: COURSE_FILE.match(/tamago-sv-data-(v\d+)\.xlsx/)?.[1] ?? '' }
+
+// For the language picker's sublabel (Dan, 2026-11-22): each course's CEFR level span and its circle count, read from
+// the course's own units.json at build time so the label stays right as courses grow (a circle is a live unit; the
+// shipped tree shows only live units). One level reads "A1" today; a course spanning levels would read "A1–A2". The
+// picker reads __COURSE_STATS__[id]; a course with no content dir maps to null. Same build-time route as __WORKBOOKS__.
+const COURSE_DIRS = { fr: 'src/content', es: 'src/content-es', de: 'src/content-de', it: 'src/content-it', pt: 'src/content-pt', nl: 'src/content-nl', pl: 'src/content-pl', no: 'src/content-no', da: 'src/content-da', sv: 'src/content-sv' }
+const courseStats = () => Object.fromEntries(Object.entries(COURSE_DIRS).map(([id, dir]) => {
+  try {
+    const units = JSON.parse(readFileSync(join(dir, 'units.json'), 'utf8')).filter((u) => u.status === 'live')
+    const levels = [...new Set(units.map((u) => u.cefr).filter(Boolean))].sort()
+    const level = levels.length === 0 ? '' : levels.length === 1 ? levels[0] : `${levels[0]}–${levels[levels.length - 1]}`
+    return [id, { level, circles: units.length }]
+  } catch { return [id, null] }
+}))
+const COURSE_STATS = courseStats()
 export default defineConfig({
   build: { rollupOptions: { input: LAB_PAGES } },
   plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), soundLab(), statCounter()],
   // Which site this build is for (Cloudflare Pages sets CF_PAGES_BRANCH): main is the stable site, dev the working one.
-  define: { __BUILD_TIME__: JSON.stringify(new Date().toISOString()), __WORKBOOKS__: JSON.stringify(WORKBOOKS), __DEPLOY_BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH ?? '') },
+  define: { __BUILD_TIME__: JSON.stringify(new Date().toISOString()), __WORKBOOKS__: JSON.stringify(WORKBOOKS), __COURSE_STATS__: JSON.stringify(COURSE_STATS), __DEPLOY_BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH ?? '') },
 })
