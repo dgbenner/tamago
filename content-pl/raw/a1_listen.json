@@ -124,5 +124,95 @@
     "answer": "50",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N201",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest wpół do czwartej.",
+    "answer": "3:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N202",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest kwadrans po ósmej.",
+    "answer": "8:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N203",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest dwunasta.",
+    "answer": "12:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N204",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest za kwadrans dziesiąta.",
+    "answer": "9:45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N205",
+    "unit_id": "U65",
+    "kind": "time",
+    "say": "Wstaję o siódmej.",
+    "answer": "7:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N206",
+    "unit_id": "U65",
+    "kind": "time",
+    "say": "Kończę pracę o szóstej.",
+    "answer": "6:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N207",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Autobus odjeżdża o dziesiątej.",
+    "answer": "10:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N208",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Pociąg przyjeżdża o dwunastej.",
+    "answer": "12:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N209",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Pociąg odjeżdża z peronu numer pięć.",
+    "answer": "5",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N210",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Samolot jest opóźniony o dwadzieścia minut.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

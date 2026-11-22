@@ -1140,7 +1140,7 @@ Contrast forms, sentences each (target 2): .
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: czterdzieści (0), pięćdziesiąt (0), sześćdziesiąt (1), siedemdziesiąt (0), osiemdziesiąt (1), dziewięćdziesiąt (0), tysiąc (0), liczba (1), liczysz (0), liczyć (2), kilka (0), około (0), trzeci (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: czterdzieści (0), pięćdziesiąt (0), sześćdziesiąt (1), siedemdziesiąt (0), osiemdziesiąt (1), dziewięćdziesiąt (0), tysiąc (0), liczba (1), liczysz (0), liczyć (2), kilka (0), trzeci (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
@@ -1624,3 +1624,702 @@ Contrast forms, sentences each (target 2): .
 | S58038 | Bardzo lubi kwiaty. | She is very fond of flowers. |  | [#12069056](https://tatoeba.org/en/sentences/show/12069056) | jimbojim |
 | S58039 | Jest trochę dalej. | It's a bit further away. |  | [#12189079](https://tatoeba.org/en/sentences/show/12189079) | polski_ren |
 | S58040 | Jestem na plaży. | I'm at the beach. |  | [#13051107](https://tatoeba.org/en/sentences/show/13051107) | Stanislawspruss |
+
+## U61 What Time Is It?: Która jest godzina? Jest ósma: the hour is a feminine ordinal (godzina is understood): pierwsza, druga, trzecia … dwunasta; o której? o ósmej (at eight: the -ej form after o); wpół do czwartej is 3:30 (half to the next hour); kwadrans po ósmej (8:15), za kwadrans dziesiąta (9:45); pół godziny, pięć minut (the genitive plural after five); w nocy
+
+30 sentences picked from 39 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: pierwsza (0), druga (0), trzecia (1), czwarta (0), piąta (0), szósta (1), siódma (0), ósma (0), dziewiąta (0), dziesiąta (0), jedenasta (0), dwunasta (0), trzeciej (0), czwartej (0), ósmej (1), wpół (0), kwadrans (0), pół (1), minuta (0), minut (0), południe (0), północ (2), noc (0), zegarek (0), spóźniona (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S61001 | Czekam na autobus od pół godziny. | I've been waiting for the bus for half an hour. |  | [#5201411](https://tatoeba.org/en/sentences/show/5201411) | krzysiek |
+| S61002 | O której? | What time? | At what time? | [#4947505](https://tatoeba.org/en/sentences/show/4947505) | MarekMazurkiewicz |
+| S61003 | Nie jesteś spóźniony? | Aren't you late? |  | [#3664647](https://tatoeba.org/en/sentences/show/3664647) | jeedrek |
+| S61004 | Dlaczego jesteś wcześniej? | Why are you early? |  | [#6441735](https://tatoeba.org/en/sentences/show/6441735) | arie |
+| S61005 | Na ile nocy? | For how many nights? |  | [#8631914](https://tatoeba.org/en/sentences/show/8631914) | nusia2302 |
+| S61006 | O której chodzisz spać? | When do you go to sleep? | What time do you go to bed? | [#641239](https://tatoeba.org/en/sentences/show/641239) | Bilberry |
+| S61007 | Chcesz to zrobić później? | Do you want to do this later? |  | [#3954759](https://tatoeba.org/en/sentences/show/3954759) | jeedrek |
+| S61008 | Czy mogę zapłacić później? | Can I pay later? |  | [#8763708](https://tatoeba.org/en/sentences/show/8763708) | nusia2302 |
+| S61009 | Naprawdę chcesz czekać dwie godziny? | Do you really want to wait for two hours? |  | [#6155117](https://tatoeba.org/en/sentences/show/6155117) | arie |
+| S61010 | W której klasie jest twoja siostra? | Which class is your sister in? |  | [#972920](https://tatoeba.org/en/sentences/show/972920) | zipangu |
+| S61011 | Jestem spóźniony. | I'm late. |  | [#5662097](https://tatoeba.org/en/sentences/show/5662097) | machmet |
+| S61012 | Jesteś spóźniony. | You're late. | You are late. | [#10593308](https://tatoeba.org/en/sentences/show/10593308) | tokzyk |
+| S61013 | Jesteś spóźniona. | You're late. | You are late. | [#10593309](https://tatoeba.org/en/sentences/show/10593309) | tokzyk |
+| S61014 | Mam godzinę. | I have an hour. |  | [#12202609](https://tatoeba.org/en/sentences/show/12202609) | MarekMazurkiewicz |
+| S61015 | Jest prawie szósta. | It's almost six o'clock. | It's nearly six o'clock. | [#567485](https://tatoeba.org/en/sentences/show/567485) | Bilberry |
+| S61016 | Mamy trzy godziny. | We have three hours. | We've got three hours. | [#3756978](https://tatoeba.org/en/sentences/show/3756978) | jeedrek |
+| S61017 | Mamy tylko godzinę. | We've only got an hour. |  | [#3756995](https://tatoeba.org/en/sentences/show/3756995) | jeedrek |
+| S61018 | Jesteśmy tutaj godzinę. | We've been here an hour. |  | [#3756996](https://tatoeba.org/en/sentences/show/3756996) | jeedrek |
+| S61019 | Jest już północ. | It's midnight already. |  | [#5868614](https://tatoeba.org/en/sentences/show/5868614) | BeataB |
+| S61020 | Jest prawie trzecia. | It's almost three o'clock. |  | [#10558088](https://tatoeba.org/en/sentences/show/10558088) | tokzyk |
+| S61021 | Zadzwoń do mnie później. | Call me later. |  | [#351517](https://tatoeba.org/en/sentences/show/351517) | zipangu |
+| S61022 | Tu jest prawie północ. | It's almost midnight here. |  | [#792489](https://tatoeba.org/en/sentences/show/792489) | zipangu |
+| S61023 | Chodzi spać o ósmej. | He goes to bed at eight o'clock. |  | [#5528811](https://tatoeba.org/en/sentences/show/5528811) | arie |
+| S61024 | Nie piję tyle co wcześniej. | I don't drink as much as I used to. |  | [#12188760](https://tatoeba.org/en/sentences/show/12188760) | polski_ren |
+| S61025 | Nigdy nie jem w nocy. | I never eat at night. |  | [#12963617](https://tatoeba.org/en/sentences/show/12963617) | Piteris |
+| S61026 | Tom uczy się tylko w nocy. | Tom does all of his studying at night. |  | [#3051256](https://tatoeba.org/en/sentences/show/3051256) | jeedrek |
+| S61027 | Muszę iść dzisiaj do domu trochę wcześniej. | I need to go home a little early today. |  | [#13338543](https://tatoeba.org/en/sentences/show/13338543) | Radek |
+| S61028 | Już jestem spóźniony. | I'm already late. | I am already late. | [#973157](https://tatoeba.org/en/sentences/show/973157) | zipangu |
+| S61029 | Mamy jeszcze godzinę. | We've got an hour left. |  | [#3817539](https://tatoeba.org/en/sentences/show/3817539) | liori |
+| S61030 | Jestem trochę spóźniony. | I'm a bit late. |  | [#4828179](https://tatoeba.org/en/sentences/show/4828179) | jeedrek |
+
+## U71 Yesterday: Wczoraj byłem w domu: the past tense. być: byłem (I was, said by a man), byłam (by a woman), byłeś, byłaś (you were), był (he was), była (she was), było (it was), byliśmy (we were); the same endings on other verbs: miałem, zrobiłam, powiedział, poszła; poszedł and przyszedł are irregular
+
+40 sentences picked from 727 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: byłem (2), byłam (0), byliśmy (0), miał (0), miała (0), miałem (1), miałam (0), zrobiła (1), zrobiłam (0), powiedział (2), powiedziała (2), powiedziałem (0), poszła (0), poszedłem (1), widział (2), widziałem (0), myślałam (0), kupił (0), kupiłem (0), chciałem (1), zaczął (1), znalazłem (0), został (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S71001 | Gdzie byłeś wczoraj? | Where were you yesterday? | Where have you been yesterday? | [#595893](https://tatoeba.org/en/sentences/show/595893) | buari |
+| S71002 | Gdzie byłaś wczoraj? | Where were you yesterday? |  | [#595894](https://tatoeba.org/en/sentences/show/595894) | buari |
+| S71003 | Czy to mógł być on? | Could it have been him? |  | [#5097492](https://tatoeba.org/en/sentences/show/5097492) | lumberpack |
+| S71004 | Czy Tom mógł tam być? | Could Tom have been there? |  | [#8178489](https://tatoeba.org/en/sentences/show/8178489) | arie |
+| S71005 | Wczoraj byłem chory. | I was ill yesterday. | Yesterday I was ill. | [#354017](https://tatoeba.org/en/sentences/show/354017) | zipangu |
+| S71006 | Byłem młody, chciałem żyć. | I was young and wanted to live. |  | [#659732](https://tatoeba.org/en/sentences/show/659732) | zipangu |
+| S71007 | Myślałem, że byłeś szczęśliwy. | I thought you were happy. |  | [#2005846](https://tatoeba.org/en/sentences/show/2005846) | Dominika |
+| S71008 | Powiedziała, że był przystojny. | She said that he was handsome. |  | [#2148293](https://tatoeba.org/en/sentences/show/2148293) | jeedrek |
+| S71009 | Tom zaczął być zmęczony. | Tom began to feel tired. |  | [#3671859](https://tatoeba.org/en/sentences/show/3671859) | jeedrek |
+| S71010 | Nie wiedziałem że była chora. | I didn't know she was ill. |  | [#1360007](https://tatoeba.org/en/sentences/show/1360007) | starzykj |
+| S71011 | Był zmęczony, więc poszedł spać. | He was tired so he went to bed. |  | [#1637741](https://tatoeba.org/en/sentences/show/1637741) | Siganiv |
+| S71012 | Nie wiedziałem, że byłeś zajęty. | I didn't know you were busy. |  | [#4412211](https://tatoeba.org/en/sentences/show/4412211) | Baakamono |
+| S71013 | Nie wiedziałem, że byłaś zajęta. | I didn't know you were busy. |  | [#4412213](https://tatoeba.org/en/sentences/show/4412213) | Baakamono |
+| S71014 | Tom zrobił wszystko co mógł. | Tom did the best he could do. |  | [#6156527](https://tatoeba.org/en/sentences/show/6156527) | arie |
+| S71015 | Myślałem, że tak właśnie było. | I thought that that was the case. |  | [#7960777](https://tatoeba.org/en/sentences/show/7960777) | arie |
+| S71016 | Myślałem, że to była butelka. | I thought it was a bottle. | I thought that it was a bottle. | [#10642948](https://tatoeba.org/en/sentences/show/10642948) | tokzyk |
+| S71017 | Był zmęczony, więc poszedł wcześniej spać. | He was tired, so he went to bed early. |  | [#603470](https://tatoeba.org/en/sentences/show/603470) | buari |
+| S71018 | Zrobiłem już wszystko, co miałem zrobić. | I have already done all my tasks. |  | [#837059](https://tatoeba.org/en/sentences/show/837059) | zipangu |
+| S71019 | Było późno, więc poszedłem do domu. | It was late, so I went home. |  | [#3945300](https://tatoeba.org/en/sentences/show/3945300) | jeedrek |
+| S71020 | Zrobiłem to, co trzeba było zrobić. | I did what had to be done. |  | [#10571441](https://tatoeba.org/en/sentences/show/10571441) | tokzyk |
+| S71021 | Gdzie byłaś? | Where were you? | Where have you been? | [#1665928](https://tatoeba.org/en/sentences/show/1665928) | Mateusz |
+| S71022 | Kiedy poszedł? | When did he go? |  | [#5493371](https://tatoeba.org/en/sentences/show/5493371) | rubber_duck |
+| S71023 | Tom został? | Did Tom stay? |  | [#5510857](https://tatoeba.org/en/sentences/show/5510857) | rubber_duck |
+| S71024 | Przyszedł ktoś? | Did anyone come? |  | [#6541893](https://tatoeba.org/en/sentences/show/6541893) | arie |
+| S71025 | Kto został? | Who stayed? |  | [#8496096](https://tatoeba.org/en/sentences/show/8496096) | nusia2302 |
+| S71026 | Co ona powiedziała? | What did she say? |  | [#558241](https://tatoeba.org/en/sentences/show/558241) | Bilberry |
+| S71027 | Kto to zrobił? | Who did it? |  | [#925818](https://tatoeba.org/en/sentences/show/925818) | zipangu |
+| S71028 | Co zrobił dzisiaj? | What did he do today? |  | [#2108477](https://tatoeba.org/en/sentences/show/2108477) | liori |
+| S71029 | Co zrobiła dzisiaj? | What did she do today? |  | [#2108478](https://tatoeba.org/en/sentences/show/2108478) | liori |
+| S71030 | Dlaczego Tom wrócił? | Why did Tom come back? |  | [#3649939](https://tatoeba.org/en/sentences/show/3649939) | liori |
+| S71031 | Dlaczego Tom przyszedł? | Why did Tom come? |  | [#3749822](https://tatoeba.org/en/sentences/show/3749822) | gin |
+| S71032 | Kto mnie widział? | Who saw me? |  | [#3887862](https://tatoeba.org/en/sentences/show/3887862) | gin |
+| S71033 | Co on powiedział? | What did he say? |  | [#6373405](https://tatoeba.org/en/sentences/show/6373405) | mojeanin |
+| S71034 | Co powiedział lekarz? | What did the doctor say? |  | [#6554262](https://tatoeba.org/en/sentences/show/6554262) | arie |
+| S71035 | Czy Tom wrócił? | Has Tom returned? |  | [#8792006](https://tatoeba.org/en/sentences/show/8792006) | nusia2302 |
+| S71036 | Kogo widział Tom? | Who did Tom see? |  | [#10168015](https://tatoeba.org/en/sentences/show/10168015) | Relinger |
+| S71037 | Kiedy to zrobiłem? | When did I do that? |  | [#12188895](https://tatoeba.org/en/sentences/show/12188895) | polski_ren |
+| S71038 | Jak długo była chora? | How long has she been ill? |  | [#353179](https://tatoeba.org/en/sentences/show/353179) | zipangu |
+| S71039 | Czy on już przyszedł? | Has he come yet? |  | [#814571](https://tatoeba.org/en/sentences/show/814571) | zipangu |
+| S71040 | Czy on już wrócił? | Is he back already? | Has he returned yet? | [#3375162](https://tatoeba.org/en/sentences/show/3375162) | konrad509 |
+
+## U37 Didn't Catch That: Co powiedziałeś? Co powiedziałaś? (the past: -łeś to a man, -łaś to a woman); Nie zrozumiałem, nie zrozumiałam; Nie słyszę cię. Możesz mówić głośniej?; słabo cię słyszę; nic nie słychać
+
+30 sentences picked from 61 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: cicho (1), słabo (1), słychać (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S37001 | Co powiedziałaś? | What did you say? |  | [#568112](https://tatoeba.org/en/sentences/show/568112) | Bilberry |
+| S37002 | Co powiedziałeś? | What did you say? |  | [#591382](https://tatoeba.org/en/sentences/show/591382) | buari |
+| S37003 | Powiedziałeś coś? | Did you say something? | Did you say owt? | [#959527](https://tatoeba.org/en/sentences/show/959527) | zipangu |
+| S37004 | Znowu ty? | You again? |  | [#7818307](https://tatoeba.org/en/sentences/show/7818307) | Hanyel |
+| S37005 | Dobrze to zrozumiałem? | Did I understand that correctly? |  | [#4104436](https://tatoeba.org/en/sentences/show/4104436) | Ceresnya |
+| S37006 | Dlaczego to powiedziałeś? | Why did you say that? | Why would you say that? | [#5535824](https://tatoeba.org/en/sentences/show/5535824) | machmet |
+| S37007 | Dlaczego to powiedziałaś? | Why did you say that? |  | [#5535827](https://tatoeba.org/en/sentences/show/5535827) | machmet |
+| S37008 | Czy to chcesz usłyszeć? | Is that what you want to hear? |  | [#4241835](https://tatoeba.org/en/sentences/show/4241835) | jeedrek |
+| S37009 | Dlaczego mówisz tak głośno? | Why are you speaking so loudly? |  | [#9686503](https://tatoeba.org/en/sentences/show/9686503) | aurchykr |
+| S37010 | Kto chce znowu iść? | Who wants to go again? |  | [#10202769](https://tatoeba.org/en/sentences/show/10202769) | Marlena |
+| S37011 | Nie możesz tego zrozumieć? | Can't you understand? |  | [#10529989](https://tatoeba.org/en/sentences/show/10529989) | Shounen |
+| S37012 | Zrozumiałam Cię. | I did understand you. |  | [#5441516](https://tatoeba.org/en/sentences/show/5441516) | pixelka |
+| S37013 | Zrozumiałem to. | I've got that. | I understood that. | [#8652380](https://tatoeba.org/en/sentences/show/8652380) | nusia2302 |
+| S37014 | Mów cicho. | Speak quietly. |  | [#10595038](https://tatoeba.org/en/sentences/show/10595038) | polski_ren |
+| S37015 | Źle zrozumiałem. | I misunderstood. |  | [#10599075](https://tatoeba.org/en/sentences/show/10599075) | polski_ren |
+| S37016 | Proszę mówić głośno. | Please speak in a loud voice. |  | [#352662](https://tatoeba.org/en/sentences/show/352662) | zipangu |
+| S37017 | Jest za głośno. | It's too loud. |  | [#567482](https://tatoeba.org/en/sentences/show/567482) | Bilberry |
+| S37018 | Chcę usłyszeć więcej. | I want to hear more. |  | [#2493117](https://tatoeba.org/en/sentences/show/2493117) | Pompon |
+| S37019 | Znowu to zrobiła. | She did it again. |  | [#3433006](https://tatoeba.org/en/sentences/show/3433006) | konrad509 |
+| S37020 | Nic nie zrozumiałam. | I didn't understand anything. |  | [#12963110](https://tatoeba.org/en/sentences/show/12963110) | MarekMazurkiewicz |
+| S37021 | Już to powiedziałaś. | You've already said that. |  | [#13680817](https://tatoeba.org/en/sentences/show/13680817) | mx31 |
+| S37022 | Ona ma spokojny głos. | She has a calm voice. |  | [#982468](https://tatoeba.org/en/sentences/show/982468) | zipangu |
+| S37023 | Masz naprawdę dobry głos. | You have a really nice voice. |  | [#3969911](https://tatoeba.org/en/sentences/show/3969911) | jeedrek |
+| S37024 | Nie mogę jej zrozumieć. | I can't understand her. |  | [#6305764](https://tatoeba.org/en/sentences/show/6305764) | fau |
+| S37025 | Nadal słyszę twój głos. | I can still hear your voice. |  | [#8178421](https://tatoeba.org/en/sentences/show/8178421) | arie |
+| S37026 | On mógł cię źle zrozumieć. | He may have misunderstood you. |  | [#572883](https://tatoeba.org/en/sentences/show/572883) | Bilberry |
+| S37027 | Ja też nic nie zrozumiałam. | I, too, didn't understand anything. | I didn't understand anything, either. | [#4738829](https://tatoeba.org/en/sentences/show/4738829) | MarekMazurkiewicz |
+| S37028 | To wszystko co chciałem usłyszeć. | That's all I needed to hear. |  | [#5437328](https://tatoeba.org/en/sentences/show/5437328) | pixelka |
+| S37029 | Niestety słabo mówię po francusku. | Unfortunately, I hardly speak any French. |  | [#10463769](https://tatoeba.org/en/sentences/show/10463769) | Shounen |
+| S37030 | Czy powiedziałeś "trzy"? | Did you say three? |  | [#10604984](https://tatoeba.org/en/sentences/show/10604984) | polski_ren |
+
+## U62 Days of the Week: W poniedziałek, w sobotę, w niedzielę (w with the accusative for on a day); zwykle, często, czasami, rzadko, nigdy; dwa razy w tygodniu; w przyszłym tygodniu, w zeszłym tygodniu (the locative); najpierw … potem; wtedy (then), gdy (when)
+
+34 sentences picked from 72 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: środę (0), weekend (2), pojutrze (1), przedwczoraj (0), przyszłym (0), najpierw (1), potem (2), gdy (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S62001 | Ile jest dni w tygodniu? | How many days are there in a week? |  | [#3427692](https://tatoeba.org/en/sentences/show/3427692) | konrad509 |
+| S62002 | Kupiłem to w zeszłym tygodniu. | I bought it last week. |  | [#3502766](https://tatoeba.org/en/sentences/show/3502766) | jeedrek |
+| S62003 | To było w zeszłym tygodniu. | That was last week. |  | [#7891192](https://tatoeba.org/en/sentences/show/7891192) | maria_lysik |
+| S62004 | A potem? | And afterward? |  | [#6160722](https://tatoeba.org/en/sentences/show/6160722) | arie |
+| S62005 | A wtedy? | And then? |  | [#12202524](https://tatoeba.org/en/sentences/show/12202524) | polski_ren |
+| S62006 | I wtedy? | And then? |  | [#12202525](https://tatoeba.org/en/sentences/show/12202525) | polski_ren |
+| S62007 | Co robisz w niedzielę? | What do you do on Sunday? |  | [#3926288](https://tatoeba.org/en/sentences/show/3926288) | jeedrek |
+| S62008 | Masz coś w ten weekend? | Do you have anything on for this weekend? |  | [#3125652](https://tatoeba.org/en/sentences/show/3125652) | jeedrek |
+| S62009 | Pamiętasz kiedy cię ostatnio widziałem? | Do you remember when I saw you last? |  | [#3298936](https://tatoeba.org/en/sentences/show/3298936) | jeedrek |
+| S62010 | Możesz powtórzyć, ile razy tu byłeś? | Could you please tell me again how many times you've been here? |  | [#959250](https://tatoeba.org/en/sentences/show/959250) | zipangu |
+| S62011 | Czy muszę wszystko mówić dwa razy? | Do I have to say everything twice? |  | [#5138558](https://tatoeba.org/en/sentences/show/5138558) | Tomash |
+| S62012 | Czy jesteś zwykle wieczorem w domu? | Are you usually at home in the evening? |  | [#6031070](https://tatoeba.org/en/sentences/show/6031070) | BeataB |
+| S62013 | Widziałem ją w zeszłym tygodniu. | I saw her last week. |  | [#8761231](https://tatoeba.org/en/sentences/show/8761231) | nusia2302 |
+| S62014 | Rzadko go widzę. | I rarely see him. |  | [#5161941](https://tatoeba.org/en/sentences/show/5161941) | MarekMazurkiewicz |
+| S62015 | Wtedy byłem szczęśliwy. | I was happy then. |  | [#6603113](https://tatoeba.org/en/sentences/show/6603113) | princes21 |
+| S62016 | Pojutrze jest wtorek. | The day after tomorrow is Tuesday. |  | [#7891131](https://tatoeba.org/en/sentences/show/7891131) | maria_lysik |
+| S62017 | Wrócił dwa dni później. | He came back two days after. |  | [#354057](https://tatoeba.org/en/sentences/show/354057) | zipangu |
+| S62018 | Rzadko pisze do rodziców. | He hardly ever writes to his parents. |  | [#405567](https://tatoeba.org/en/sentences/show/405567) | zipangu |
+| S62019 | Kot ma dwadzieścia dni. | The cat is twenty days old. |  | [#524338](https://tatoeba.org/en/sentences/show/524338) | Wimmer |
+| S62020 | Byłem tam wiele razy. | I went there many times. |  | [#614559](https://tatoeba.org/en/sentences/show/614559) | Bilberry |
+| S62021 | W sobotę jestem zajęty. | I'm busy on Saturday. |  | [#4785665](https://tatoeba.org/en/sentences/show/4785665) | jeedrek |
+| S62022 | Bardzo rzadko go widzę. | I see him very rarely. |  | [#5183888](https://tatoeba.org/en/sentences/show/5183888) | Katubeltza |
+| S62023 | Pracuję nawet w niedzielę. | I work even on Sunday. |  | [#10548471](https://tatoeba.org/en/sentences/show/10548471) | tokzyk |
+| S62024 | To samo co zwykle. | Same as usual. |  | [#10558000](https://tatoeba.org/en/sentences/show/10558000) | tokzyk |
+| S62025 | To nie jest weekend. | It's not the weekend. |  | [#12999774](https://tatoeba.org/en/sentences/show/12999774) | fosforos |
+| S62026 | On ostatnio za dużo pije. | He's been drinking too much lately. |  | [#823269](https://tatoeba.org/en/sentences/show/823269) | zipangu |
+| S62027 | Nie wiem, co zrobić najpierw. | I don't know what to do first. |  | [#3289661](https://tatoeba.org/en/sentences/show/3289661) | Hikaru |
+| S62028 | Sklep jest zamknięty w niedzielę. | The shop is closed on Sunday. |  | [#3571172](https://tatoeba.org/en/sentences/show/3571172) | Siganiv |
+| S62029 | Możemy iść potem na zakupy. | We can go shopping later. |  | [#3844188](https://tatoeba.org/en/sentences/show/3844188) | jeedrek |
+| S62030 | Idę w sobotę do szkoły. | I go to school on Saturday. |  | [#4101535](https://tatoeba.org/en/sentences/show/4101535) | jeedrek |
+| S62031 | Zwykle jesteśmy w domu wieczorem. | We are usually at home in the evening. |  | [#6031012](https://tatoeba.org/en/sentences/show/6031012) | BeataB |
+| S62032 | Mój tata jest wolny w sobotę. | My dad's free on Saturday. |  | [#1119095](https://tatoeba.org/en/sentences/show/1119095) | hebrajska |
+| S62033 | Ostatnio Tom dużo gra w tenisa. | Tom has been playing tennis a lot recently. |  | [#7166502](https://tatoeba.org/en/sentences/show/7166502) | arie |
+| S62034 | Nie lubię, gdy ludzie o mnie mówią. | I don't like people talking about me. |  | [#4101476](https://tatoeba.org/en/sentences/show/4101476) | jeedrek |
+
+## U63 Months + Seasons: W maju, w lipcu, we wrześniu: the months in the locative, after w (no capital); wiosna, lato, jesień, zima: na wiosnę, w lecie, na jesieni, w zimie; pora roku (a season); na początku (at the start)
+
+14 sentences picked from 14 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: styczniu (0), lutym (0), marcu (0), kwietniu (0), maju (0), czerwcu (0), lipcu (0), sierpniu (2), wrześniu (0), październiku (1), listopadzie (1), grudniu (0), wiosna (0), lato (1), jesień (0), zima (0), wiosnę (1), lecie (0), jesieni (0), zimie (0), początku (0), wakacje (0), święta (0), data (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S63001 | Pora spać. | Time for bed. |  | [#4930737](https://tatoeba.org/en/sentences/show/4930737) | magadi |
+| S63002 | Lubię wiosnę. | I like spring. |  | [#10598243](https://tatoeba.org/en/sentences/show/10598243) | polski_ren |
+| S63003 | Już pora. | It's time. |  | [#12691798](https://tatoeba.org/en/sentences/show/12691798) | JimiYoru |
+| S63004 | Jest pora spać. | It's time to sleep. |  | [#5698752](https://tatoeba.org/en/sentences/show/5698752) | CarloLardini |
+| S63005 | Jest prawie lato. | It's almost summer. |  | [#8763771](https://tatoeba.org/en/sentences/show/8763771) | nusia2302 |
+| S63006 | Jestem tu od roku. | I've been here for a year. |  | [#10667548](https://tatoeba.org/en/sentences/show/10667548) | igxr |
+| S63007 | Moje urodziny są w listopadzie. | My birthday is in November. |  | [#354067](https://tatoeba.org/en/sentences/show/354067) | zipangu |
+| S63008 | W sierpniu nie ma lekcji. | There are no lessons in August. |  | [#3497240](https://tatoeba.org/en/sentences/show/3497240) | nusia2302 |
+| S63009 | W sierpniu nie ma szkoły. | There is no school during August. |  | [#3930138](https://tatoeba.org/en/sentences/show/3930138) | jeedrek |
+| S63010 | Tom ma urodziny w październiku. | Tom has a birthday in October. |  | [#5283027](https://tatoeba.org/en/sentences/show/5283027) | Tomash |
+| S63011 | Kupiłem to w zeszłym roku. | I bought that last year. |  | [#8761248](https://tatoeba.org/en/sentences/show/8761248) | nusia2302 |
+| S63012 | Tom zrobił to w zeszłym roku. | Tom did that last year. |  | [#3032342](https://tatoeba.org/en/sentences/show/3032342) | jeedrek |
+| S63013 | Tom kupuje nowy dom w przyszłym roku. | Tom is buying a new house next year. |  | [#3655366](https://tatoeba.org/en/sentences/show/3655366) | jeedrek |
+| S63014 | Tom miał długie włosy w zeszłym roku. | Tom had long hair last year. |  | [#8761255](https://tatoeba.org/en/sentences/show/8761255) | nusia2302 |
+
+## U72 The Weather: Jaka jest pogoda? Pada deszcz, pada śnieg, wieje wiatr; jest ciepło, jest zimno, jest gorąco (an adverb after jest); jutro będzie ciepło (będzie: it will be, the future of być); dwadzieścia stopni (the genitive plural)
+
+30 sentences picked from 126 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: deszcz (1), wiatr (2), wieje (2), chłodno (0), słonecznie (0), stopni (0), burza (1), parasol (2), chmury (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S72001 | Będzie dzisiaj padać śnieg. | It'll snow today. |  | [#593297](https://tatoeba.org/en/sentences/show/593297) | buari |
+| S72002 | Jutro będzie padać deszcz. | It'll rain tomorrow. | It's going to rain tomorrow. | [#4749239](https://tatoeba.org/en/sentences/show/4749239) | argentynka |
+| S72003 | Jak gorąco będzie? | How hot will it get? |  | [#12097182](https://tatoeba.org/en/sentences/show/12097182) | jimbojim |
+| S72004 | Wiatr wieje. | The wind blows. | The wind is blowing. | [#758419](https://tatoeba.org/en/sentences/show/758419) | zipangu |
+| S72005 | Może padać śnieg. | It may snow. |  | [#349427](https://tatoeba.org/en/sentences/show/349427) | zipangu |
+| S72006 | U nas w styczniu pada śnieg. | We have snow in January. | Where I live, we have snow in January. | [#348744](https://tatoeba.org/en/sentences/show/348744) | zipangu |
+| S72007 | Jaka będzie jutro pogoda? | What'll the weather be like tomorrow? | What will the weather be like tomorrow?; What's the weather going to be like tomorrow? | [#3006278](https://tatoeba.org/en/sentences/show/3006278) | jeedrek |
+| S72008 | Jaka jutro będzie pogoda? | What's the weather tomorrow? |  | [#3414036](https://tatoeba.org/en/sentences/show/3414036) | Joni |
+| S72009 | Jaka pogoda? | How is the weather? | What's the weather like? | [#348794](https://tatoeba.org/en/sentences/show/348794) | zipangu |
+| S72010 | Czy jest gorąco? | Is it hot? |  | [#6320879](https://tatoeba.org/en/sentences/show/6320879) | arie |
+| S72011 | Codziennie jest tak gorąco? | Is it this hot every day? |  | [#2979417](https://tatoeba.org/en/sentences/show/2979417) | jeedrek |
+| S72012 | Ile kosztuje ten parasol? | How much is this umbrella? |  | [#5398123](https://tatoeba.org/en/sentences/show/5398123) | Annika |
+| S72013 | Czy w Niemczech dużo pada? | Does it rain much in Germany? |  | [#6160004](https://tatoeba.org/en/sentences/show/6160004) | arie |
+| S72014 | Będzie burza. | There's going to be a storm. |  | [#3761558](https://tatoeba.org/en/sentences/show/3761558) | jeedrek |
+| S72015 | Tam, gdzie mieszkam, w styczniu pada śnieg. | Where I live, we have snow in January. |  | [#967652](https://tatoeba.org/en/sentences/show/967652) | zipangu |
+| S72016 | Jest ciepło. | It is warm. |  | [#3285580](https://tatoeba.org/en/sentences/show/3285580) | jeedrek |
+| S72017 | Jaki silny wiatr! | What a strong wind! |  | [#562934](https://tatoeba.org/en/sentences/show/562934) | Bilberry |
+| S72018 | Cały dzień wieje. | It's been really windy all day. |  | [#13335606](https://tatoeba.org/en/sentences/show/13335606) | Radek |
+| S72019 | Jest dość ciepło dzisiaj. | It's fairly warm today. |  | [#563980](https://tatoeba.org/en/sentences/show/563980) | Bilberry |
+| S72020 | Dziś jest bardzo ciepło. | It's very warm today. |  | [#4466053](https://tatoeba.org/en/sentences/show/4466053) | MarekMazurkiewicz |
+| S72021 | Tom nie wie gdzie jest jego parasol. | Tom doesn't know where his umbrella is. |  | [#4116090](https://tatoeba.org/en/sentences/show/4116090) | konrad509 |
+| S72022 | Czy jutro będzie padać? | Will it rain tomorrow? | Is it going to rain tomorrow? | [#354001](https://tatoeba.org/en/sentences/show/354001) | zipangu |
+| S72023 | Myślisz, że będzie dziś padać? | Do you think it'll rain today? |  | [#2784830](https://tatoeba.org/en/sentences/show/2784830) | Pompon |
+| S72024 | Myślisz, że będzie dzisiaj padać? | Do you think it'll rain today? |  | [#2784833](https://tatoeba.org/en/sentences/show/2784833) | Pompon |
+| S72025 | Lubisz śnieg? | Do you like snow? |  | [#742422](https://tatoeba.org/en/sentences/show/742422) | zipangu |
+| S72026 | Ona też będzie? | Will she be there too? |  | [#358845](https://tatoeba.org/en/sentences/show/358845) | zipangu |
+| S72027 | Jaka jest pogoda? | How is the weather? | What's the weather like? | [#2826506](https://tatoeba.org/en/sentences/show/2826506) | MarekMazurkiewicz |
+| S72028 | Kto będzie następny? | Who'll come next? |  | [#12454160](https://tatoeba.org/en/sentences/show/12454160) | Wojtanex |
+| S72029 | Jaka jest tam pogoda? | How's the weather there? | What's the weather like there? | [#440334](https://tatoeba.org/en/sentences/show/440334) | zipangu |
+| S72030 | Jaka jest dzisiaj pogoda? | How is the weather today? | What is the weather like today? | [#3665335](https://tatoeba.org/en/sentences/show/3665335) | jeedrek |
+
+## U38 Thinking It Over: Niech pomyślę (let me think: a fixed phrase, as niech zobaczę). Zastanawiam się. Muszę się zastanowić. Poczekaj. Właściwie … No cóż. Przecież …, jednak …
+
+30 sentences picked from 32 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: pomyślę (1), zastanowić (0), cóż (1), przecież (0), jednak (2), myśl (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S38001 | Co ona właściwie powiedziała? | What did she actually say? |  | [#3298896](https://tatoeba.org/en/sentences/show/3298896) | jeedrek |
+| S38002 | Poczekaj chwileczkę. | Wait just a moment. |  | [#558251](https://tatoeba.org/en/sentences/show/558251) | Bilberry |
+| S38003 | Poczekaj tutaj. | Wait here. |  | [#3127363](https://tatoeba.org/en/sentences/show/3127363) | jeedrek |
+| S38004 | No cóż. | Oh well. |  | [#6160774](https://tatoeba.org/en/sentences/show/6160774) | arie |
+| S38005 | Niech pomyślę. | Let me think. |  | [#9845786](https://tatoeba.org/en/sentences/show/9845786) | Cezrun64 |
+| S38006 | Poczekaj, proszę. | Hold on, please. |  | [#10542410](https://tatoeba.org/en/sentences/show/10542410) | tokzyk |
+| S38007 | Jednak miał rację. | He was right after all. |  | [#6320690](https://tatoeba.org/en/sentences/show/6320690) | arie |
+| S38008 | A jednak nie przyszedł. | He didn't come after all. |  | [#706784](https://tatoeba.org/en/sentences/show/706784) | zipangu |
+| S38009 | Właściwie nie jestem pewien. | I'm not sure actually. |  | [#6371846](https://tatoeba.org/en/sentences/show/6371846) | mojeanin |
+| S38010 | Zastanawiam się, gdzie są wszyscy. | I wonder where everyone is. |  | [#3884258](https://tatoeba.org/en/sentences/show/3884258) | jeedrek |
+| S38011 | Zastanawiam się, kto to był. | I wonder who it was. |  | [#3941194](https://tatoeba.org/en/sentences/show/3941194) | jeedrek |
+| S38012 | Zastanawiam się, co będzie dalej. | I wonder what comes next. |  | [#12453684](https://tatoeba.org/en/sentences/show/12453684) | Wojtanex |
+| S38013 | Właściwie nigdy tu wcześniej nie byłem. | I've never actually been here before. |  | [#3298943](https://tatoeba.org/en/sentences/show/3298943) | jeedrek |
+| S38014 | Proszę poczekaj tutaj. | Please wait here. |  | [#8768778](https://tatoeba.org/en/sentences/show/8768778) | nusia2302 |
+| S38015 | Poczekaj, proszę, pół godziny. | Please wait half an hour. |  | [#3658050](https://tatoeba.org/en/sentences/show/3658050) | Siganiv |
+| S38016 | Zastanawiam się, jaka jutro będzie pogoda. | I wonder what the weather will be tomorrow. |  | [#3006289](https://tatoeba.org/en/sentences/show/3006289) | jeedrek |
+| S38017 | Zastanawiam się, czy Tom tam będzie. | I wonder if Tom will be there. |  | [#3677222](https://tatoeba.org/en/sentences/show/3677222) | Katubeltza |
+| S38018 | Zastanawiam się, czy ona tam będzie. | I wonder if she'll be there. |  | [#3677226](https://tatoeba.org/en/sentences/show/3677226) | Katubeltza |
+| S38019 | Zastanawiam się, kto to wszystko zrobił. | I wonder who made all this. |  | [#3884255](https://tatoeba.org/en/sentences/show/3884255) | jeedrek |
+| S38020 | Zastanawiam się, czy Tom lubi niebieski. | I wonder if Tom likes blue. |  | [#3884262](https://tatoeba.org/en/sentences/show/3884262) | jeedrek |
+| S38021 | Zastanawiam się, czy Tom zna Mary. | I wonder if Tom knows Mary. |  | [#3884263](https://tatoeba.org/en/sentences/show/3884263) | jeedrek |
+| S38022 | Zastanawiam się, co Tom tutaj robi. | I wonder what Tom is doing here. |  | [#4051536](https://tatoeba.org/en/sentences/show/4051536) | jeedrek |
+| S38023 | Zastanawiam się czy Tom już przyszedł. | I wonder if Tom has shown up yet. | I wonder whether Tom has shown up yet. | [#6404050](https://tatoeba.org/en/sentences/show/6404050) | arie |
+| S38024 | Zastanawiam się, dlaczego Tom jest zajęty. | I wonder why Tom is so busy. |  | [#6602657](https://tatoeba.org/en/sentences/show/6602657) | princes21 |
+| S38025 | Zastanawiam się, dlaczego musimy to zrobić. | I wonder why we have to do this. |  | [#12454170](https://tatoeba.org/en/sentences/show/12454170) | Wojtanex |
+| S38026 | Zastanawiam się, czy czasem o mnie myślisz. | I wonder if you ever think of me. |  | [#972622](https://tatoeba.org/en/sentences/show/972622) | zipangu |
+| S38027 | Zastanawiam się dlaczego Tom dzisiaj przyszedł tutaj. | I wonder why Tom came here today. |  | [#3529749](https://tatoeba.org/en/sentences/show/3529749) | Bilberry |
+| S38028 | Zastanawiam się, co Tom o tym myśli. | I wonder what Tom thinks about this. |  | [#4950464](https://tatoeba.org/en/sentences/show/4950464) | aleksandraeska |
+| S38029 | Zastanawiam się, czy Tom naprawdę tam będzie. | I wonder if Tom will really be there. |  | [#6602978](https://tatoeba.org/en/sentences/show/6602978) | princes21 |
+| S38030 | Zastanawiam się czy Tom lubi to robić. | I wonder if Tom enjoys doing that. |  | [#7183372](https://tatoeba.org/en/sentences/show/7183372) | arie |
+
+## U64 Making Plans: Brings in the instrumental after z (with): ja, ze mną; ty, z tobą; my, z nami; kolega, z kolegą; rodzina, z rodziną; będę, będziesz, będziemy (the future of być); chodźmy! (let's go); idziemy do kina? (the genitive after do); spotkajmy się
+
+40 sentences picked from 224 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: kolegą (0), przyjacielem (2), rodziną (0), plany (1), spotkanie (2), spotkajmy (0), spotykamy (1), teatr (0), teatru (0), chętnie (2), decyzja (0), wieczór (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S64001 | Chodź ze mną. | Come with me. |  | [#8608728](https://tatoeba.org/en/sentences/show/8608728) | arie |
+| S64002 | Idziemy do kina. Chodź z nami. | We're going to the cinema. Come with us. |  | [#529616](https://tatoeba.org/en/sentences/show/529616) | orzechowski |
+| S64003 | Jesteś ze mną? | Are you with me? |  | [#5489611](https://tatoeba.org/en/sentences/show/5489611) | rubber_duck |
+| S64004 | Jesteście ze mną? | Are you with me? |  | [#5489612](https://tatoeba.org/en/sentences/show/5489612) | rubber_duck |
+| S64005 | Chodź z nami. | Come with us. | Come along with us. | [#551865](https://tatoeba.org/en/sentences/show/551865) | Bilberry |
+| S64006 | Chodźmy do kina. | Let's go to the cinema. |  | [#8836362](https://tatoeba.org/en/sentences/show/8836362) | digitcrusher |
+| S64007 | Chcę pójść z tobą, Tom. | I want to go with you, Tom. |  | [#4408621](https://tatoeba.org/en/sentences/show/4408621) | Baakamono |
+| S64008 | Nie mogę dziś z tobą pójść. | I can't come with you today. |  | [#4287076](https://tatoeba.org/en/sentences/show/4287076) | Pompon |
+| S64009 | Tom chce się z tobą spotkać. | Tom wants a meeting with you. |  | [#4922225](https://tatoeba.org/en/sentences/show/4922225) | jeedrek |
+| S64010 | Czy chcesz pójść? | Do you want to go? |  | [#584640](https://tatoeba.org/en/sentences/show/584640) | Bilberry |
+| S64011 | Jaki mamy plan? | What's our plan? |  | [#3051160](https://tatoeba.org/en/sentences/show/3051160) | jeedrek |
+| S64012 | Co będziemy jeść? | What are we going to eat? |  | [#3416290](https://tatoeba.org/en/sentences/show/3416290) | konrad509 |
+| S64013 | Idziesz z nami? | Are you going with us? |  | [#6306784](https://tatoeba.org/en/sentences/show/6306784) | fau |
+| S64014 | Kiedy będziemy jeść? | When are we going to eat? |  | [#6316746](https://tatoeba.org/en/sentences/show/6316746) | qmak |
+| S64015 | Co będziesz miał? | What will you have? |  | [#6369807](https://tatoeba.org/en/sentences/show/6369807) | nusia2302 |
+| S64016 | Kiedy będziesz wolny? | When will you be free? |  | [#10547719](https://tatoeba.org/en/sentences/show/10547719) | tokzyk |
+| S64017 | Kiedy będę wolny? | When will I be free? |  | [#12860240](https://tatoeba.org/en/sentences/show/12860240) | JimiYoru |
+| S64018 | Gdzie możemy się spotkać? | Where can we meet? |  | [#3749526](https://tatoeba.org/en/sentences/show/3749526) | gin |
+| S64019 | O czym będziesz pisać? | What'll you write about? |  | [#12454015](https://tatoeba.org/en/sentences/show/12454015) | Wojtanex |
+| S64020 | Jaki jest plan na dziś? | What's today's plan? |  | [#4828173](https://tatoeba.org/en/sentences/show/4828173) | jeedrek |
+| S64021 | Czy chcesz iść do kina? | Do you want to go to the cinema? |  | [#4917536](https://tatoeba.org/en/sentences/show/4917536) | MarekMazurkiewicz |
+| S64022 | No więc, co będziemy robić? | Well, what are we going to do? |  | [#13046002](https://tatoeba.org/en/sentences/show/13046002) | katix824 |
+| S64023 | Tom bardzo chce się z tobą spotkać. | Tom very much wants to meet you. |  | [#3985863](https://tatoeba.org/en/sentences/show/3985863) | jeedrek |
+| S64024 | Dobra, chodźmy. | Okay, let's go. | Alright, let's go. | [#363075](https://tatoeba.org/en/sentences/show/363075) | zipangu |
+| S64025 | Chodźmy już. | Let's go now. |  | [#531073](https://tatoeba.org/en/sentences/show/531073) | cps |
+| S64026 | Tak, chętnie. | Yes, gladly. |  | [#606068](https://tatoeba.org/en/sentences/show/606068) | zipangu |
+| S64027 | Był wieczór. | It was evening. |  | [#822160](https://tatoeba.org/en/sentences/show/822160) | zipangu |
+| S64028 | Mam plan. | I have a plan. | I've got a plan. | [#3031578](https://tatoeba.org/en/sentences/show/3031578) | jeedrek |
+| S64029 | Mam plany. | I have plans. |  | [#3615730](https://tatoeba.org/en/sentences/show/3615730) | Siganiv |
+| S64030 | Będę tutaj. | I'll be over here. |  | [#3713600](https://tatoeba.org/en/sentences/show/3713600) | jeedrek |
+| S64031 | Będę czekać. | I will wait. |  | [#3838827](https://tatoeba.org/en/sentences/show/3838827) | jeedrek |
+| S64032 | Jasne, chętnie. | Sure, gladly. |  | [#4889611](https://tatoeba.org/en/sentences/show/4889611) | BeataB |
+| S64033 | Czasami spotykamy ich. | We sometimes meet them. |  | [#550356](https://tatoeba.org/en/sentences/show/550356) | Bilberry |
+| S64034 | Spotkanie jest jutro. | The meeting is tomorrow. |  | [#2611907](https://tatoeba.org/en/sentences/show/2611907) | Martka |
+| S64035 | Mam dziś spotkanie. | I have a meeting today. |  | [#3717950](https://tatoeba.org/en/sentences/show/3717950) | jeedrek |
+| S64036 | Tom jest przyjacielem. | Tom is a friend. |  | [#4735522](https://tatoeba.org/en/sentences/show/4735522) | BeataB |
+| S64037 | Jest jego przyjacielem. | He's his friend. |  | [#7185121](https://tatoeba.org/en/sentences/show/7185121) | arie |
+| S64038 | Nie mam przyszłości. | I have no future. |  | [#8766281](https://tatoeba.org/en/sentences/show/8766281) | nusia2302 |
+| S64039 | Nie mamy przyszłości. | We have no future. |  | [#10618877](https://tatoeba.org/en/sentences/show/10618877) | polski_ren |
+| S64040 | Myślałem o przyszłości. | I thought about the future. |  | [#10618884](https://tatoeba.org/en/sentences/show/10618884) | polski_ren |
+
+## U65 My Day: Wstaję o siódmej: o and the hour's -ej form; śniadanie, obiad, kolacja; kończę pracę o piątej; być with the instrumental for a job: jestem nauczycielem, ona jest lekarzem, kim jesteś? (kim: the instrumental of kto); pracuję jako … (as)
+
+34 sentences picked from 100 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: wstajesz (1), wstawać (2), budzę (0), kolacja (0), prysznic (2), zęby (0), kończę (0), kończyć (0), jako (0), kim (0), nauczycielką (0), studentką (0), siódmej (0), szóstej (0), dziewiątej (1), piątej (0), pracę (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S65001 | Jesteś tu nauczycielem czy studentem? | Are you a teacher here or a student? |  | [#352979](https://tatoeba.org/en/sentences/show/352979) | zipangu |
+| S65002 | Jestem nauczycielem, nie lekarzem. | I'm a teacher, not a doctor. |  | [#12905165](https://tatoeba.org/en/sentences/show/12905165) | Stanislawspruss |
+| S65003 | Jesteś studentem? | Are you a student? |  | [#352928](https://tatoeba.org/en/sentences/show/352928) | zipangu |
+| S65004 | Jesz obiad? | Are you eating lunch? |  | [#8770769](https://tatoeba.org/en/sentences/show/8770769) | nusia2302 |
+| S65005 | O której wstajesz? | When do you get up? | What time do you wake up? | [#545054](https://tatoeba.org/en/sentences/show/545054) | Bilberry |
+| S65006 | Gdzie mój obiad? | Where's my lunch? |  | [#9663595](https://tatoeba.org/en/sentences/show/9663595) | mojeanin |
+| S65007 | Co chcesz na obiad? | What do you want for lunch? |  | [#356427](https://tatoeba.org/en/sentences/show/356427) | zipangu |
+| S65008 | Co masz na śniadanie? | What do you have for breakfast? |  | [#3926293](https://tatoeba.org/en/sentences/show/3926293) | jeedrek |
+| S65009 | Jesz śniadanie w domu? | Do you have breakfast at home? |  | [#4413924](https://tatoeba.org/en/sentences/show/4413924) | Baakamono |
+| S65010 | O której jest śniadanie? | What time is breakfast? |  | [#8784623](https://tatoeba.org/en/sentences/show/8784623) | nusia2302 |
+| S65011 | Czy ona jest lekarzem? | Is she a doctor? |  | [#10593830](https://tatoeba.org/en/sentences/show/10593830) | tokzyk |
+| S65012 | Czy twój ojciec jest nauczycielem? | Is your father a teacher? |  | [#365248](https://tatoeba.org/en/sentences/show/365248) | zipangu |
+| S65013 | Czy twój ojciec jest lekarzem? | Is your father a doctor? |  | [#6554257](https://tatoeba.org/en/sentences/show/6554257) | arie |
+| S65014 | Jak długo Tom jest tutaj studentem? | How long has Tom been a student here? |  | [#4816730](https://tatoeba.org/en/sentences/show/4816730) | jeedrek |
+| S65015 | Czas wstawać. | It's time to get up. | It's time to wake up. | [#626050](https://tatoeba.org/en/sentences/show/626050) | Bilberry |
+| S65016 | Zrobiłem kolację. | I made supper. |  | [#2482544](https://tatoeba.org/en/sentences/show/2482544) | zipangu |
+| S65017 | Pora wstawać. | It's time to get up. |  | [#4917222](https://tatoeba.org/en/sentences/show/4917222) | kleklekle |
+| S65018 | Myję się. | I wash myself. |  | [#6320867](https://tatoeba.org/en/sentences/show/6320867) | arie |
+| S65019 | Wstaję wcześnie. | I get up early. |  | [#11135176](https://tatoeba.org/en/sentences/show/11135176) | MarekMazurkiewicz |
+| S65020 | Jutro wstaję wcześnie. | I'm getting up early tomorrow. | I will get up early tomorrow. | [#354005](https://tatoeba.org/en/sentences/show/354005) | zipangu |
+| S65021 | Czas na kolację. | It's supper time. |  | [#356048](https://tatoeba.org/en/sentences/show/356048) | zipangu |
+| S65022 | Zawsze wstaję wcześnie. | I always get up early. |  | [#3587118](https://tatoeba.org/en/sentences/show/3587118) | cvbge |
+| S65023 | Myję włosy codziennie. | I wash my hair every day. |  | [#3614729](https://tatoeba.org/en/sentences/show/3614729) | cvbge |
+| S65024 | Właśnie biorę prysznic. | I'm taking a shower right now. |  | [#4144964](https://tatoeba.org/en/sentences/show/4144964) | xilv |
+| S65025 | Czas się kończy. | Time is running out. |  | [#5414492](https://tatoeba.org/en/sentences/show/5414492) | Tomash |
+| S65026 | Zrobiłem kolację wczoraj wieczorem. | I cooked supper last night. |  | [#579970](https://tatoeba.org/en/sentences/show/579970) | Bilberry |
+| S65027 | Myję twarz codziennie rano. | I wash my face every morning. |  | [#3160884](https://tatoeba.org/en/sentences/show/3160884) | jeedrek |
+| S65028 | Mój czas się kończy. | My time is running out. |  | [#5414494](https://tatoeba.org/en/sentences/show/5414494) | Tomash |
+| S65029 | Tom wstaje wcześnie rano. | Tom gets up early in the morning. |  | [#6030198](https://tatoeba.org/en/sentences/show/6030198) | BeataB |
+| S65030 | Zwykle wieczorem biorę prysznic. | I usually take a shower in the evening. |  | [#6030988](https://tatoeba.org/en/sentences/show/6030988) | BeataB |
+| S65031 | Moja matka wstaje wcześnie rano. | My mother gets up early. |  | [#593288](https://tatoeba.org/en/sentences/show/593288) | buari |
+| S65032 | Moja mama wstaje wcześnie rano. | My mom gets up early every morning. |  | [#753885](https://tatoeba.org/en/sentences/show/753885) | zipangu |
+| S65033 | Tom nigdy niczego nie kończy. | Tom never finishes anything. |  | [#10546220](https://tatoeba.org/en/sentences/show/10546220) | tokzyk |
+| S65034 | Zadzwoń do mnie jutro rano o dziewiątej. | Phone me tomorrow at nine o'clock. | Ring me tomorrow at nine o'clock. | [#631905](https://tatoeba.org/en/sentences/show/631905) | Bilberry |
+
+## U73 Doing Things: Verbs in pairs: daję (I give, I am giving) beside dać (to give, once), after chcę, muszę, mogę; the command: daj, weź, pokaż, spróbuj, zostań, przyjdź; to trwa długo; to nie działa; wystarczy
+
+40 sentences picked from 252 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: daj (0), daję (0), dajesz (0), daje (0), dać (0), weź (1), wziąć (2), zaczynam (1), zacząć (2), pokaż (0), pokazać (0), zmienić (2), próbuję (1), próbujesz (1), próbuje (1), próbować (0), spróbuj (1), spróbować (1), trwa (2), wrócić (2), przyjdź (1), zostań (0), zostaw (2), wystarczy (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S73001 | Spróbuj to znaleźć. | Try to find it. |  | [#6740467](https://tatoeba.org/en/sentences/show/6740467) | nusia2302 |
+| S73002 | Przyjdź i weź to. | Come and get it. |  | [#6602835](https://tatoeba.org/en/sentences/show/6602835) | princes21 |
+| S73003 | Chcesz spróbować? | Do you want to try? |  | [#7465205](https://tatoeba.org/en/sentences/show/7465205) | qmak |
+| S73004 | Co próbujesz zrobić? | What are you trying to do? |  | [#362393](https://tatoeba.org/en/sentences/show/362393) | zipangu |
+| S73005 | Możesz otworzyć drzwi? | Can you open the door? |  | [#362559](https://tatoeba.org/en/sentences/show/362559) | zipangu |
+| S73006 | Czy możesz przyjść? | Can you come? |  | [#567476](https://tatoeba.org/en/sentences/show/567476) | Bilberry |
+| S73007 | Możesz to naprawić? | Can you repair it? |  | [#3587293](https://tatoeba.org/en/sentences/show/3587293) | cvbge |
+| S73008 | Mogę przyjść później? | Can I come over later? |  | [#3682511](https://tatoeba.org/en/sentences/show/3682511) | jeedrek |
+| S73009 | Chcesz się zmienić? | Do you want to change? |  | [#3741217](https://tatoeba.org/en/sentences/show/3741217) | konrad509 |
+| S73010 | Jak działa komputer? | How does a computer work? |  | [#3780245](https://tatoeba.org/en/sentences/show/3780245) | jeedrek |
+| S73011 | Możesz to otworzyć? | Can you open it? |  | [#4401213](https://tatoeba.org/en/sentences/show/4401213) | Baakamono |
+| S73012 | Kiedy on zaczyna? | When does he start? |  | [#4899804](https://tatoeba.org/en/sentences/show/4899804) | MarekMazurkiewicz |
+| S73013 | Umiesz to naprawić? | Can you repair this? |  | [#5727901](https://tatoeba.org/en/sentences/show/5727901) | jeedrek |
+| S73014 | Kiedy się zaczyna? | When does it start? | What time does it start? | [#6542021](https://tatoeba.org/en/sentences/show/6542021) | arie |
+| S73015 | Czy teraz działa? | Does it work now? |  | [#7929205](https://tatoeba.org/en/sentences/show/7929205) | qmak |
+| S73016 | Czy to działa? | Does that work? |  | [#8749634](https://tatoeba.org/en/sentences/show/8749634) | nusia2302 |
+| S73017 | Od czego zacząć? | How do I get started? |  | [#10453249](https://tatoeba.org/en/sentences/show/10453249) | Shounen |
+| S73018 | Masz gdzie zostać? | Do you have somewhere to stay? |  | [#10582402](https://tatoeba.org/en/sentences/show/10582402) | polski_ren |
+| S73019 | Będziesz mógł jutro przyjść? | Will you be able to come tomorrow? |  | [#524674](https://tatoeba.org/en/sentences/show/524674) | pavpi |
+| S73020 | Czy możesz to znaleźć? | Can you find it? |  | [#565987](https://tatoeba.org/en/sentences/show/565987) | Bilberry |
+| S73021 | Czy możesz to naprawić? | Can you get it repaired? |  | [#589388](https://tatoeba.org/en/sentences/show/589388) | Bilberry |
+| S73022 | Mam zostać czy iść? | Should I stay or should I go? |  | [#3514215](https://tatoeba.org/en/sentences/show/3514215) | Bilberry |
+| S73023 | Czy możemy zmienić temat? | Can we change the subject, please? | Is it OK if we change the subject? | [#4258286](https://tatoeba.org/en/sentences/show/4258286) | liori |
+| S73024 | Kiedy zaczyna się gra? | When does the game start? |  | [#4730595](https://tatoeba.org/en/sentences/show/4730595) | BeataB |
+| S73025 | Możemy wrócić do domu? | Can we go back home? |  | [#4788988](https://tatoeba.org/en/sentences/show/4788988) | Chemiczny_Bogdan |
+| S73026 | Co próbuje powiedzieć Tom? | What is Tom trying to say? |  | [#5522825](https://tatoeba.org/en/sentences/show/5522825) | rubber_duck |
+| S73027 | Jak szybko możesz zacząć? | How soon can you start? |  | [#6097990](https://tatoeba.org/en/sentences/show/6097990) | almer |
+| S73028 | Jak długo to trwa? | How long does it take? |  | [#6313128](https://tatoeba.org/en/sentences/show/6313128) | arie |
+| S73029 | Ile trwa ten film? | How long is this movie? |  | [#6554147](https://tatoeba.org/en/sentences/show/6554147) | arie |
+| S73030 | Gdzie mogę znaleźć książki? | Where would I find books? |  | [#6554338](https://tatoeba.org/en/sentences/show/6554338) | arie |
+| S73031 | Przepraszam, mogę otworzyć okno? | Excuse me, may I open the window? |  | [#12564191](https://tatoeba.org/en/sentences/show/12564191) | JimiYoru |
+| S73032 | Naprawdę możemy wziąć te wszystkie? | Can we really have all of these? |  | [#3649516](https://tatoeba.org/en/sentences/show/3649516) | jeedrek |
+| S73033 | Naprawdę mogę wziąć te wszystkie? | Can I really have all of these? |  | [#3649518](https://tatoeba.org/en/sentences/show/3649518) | jeedrek |
+| S73034 | Jak długo musimy tu zostać? | How long do we have to stay here? | How long have we got to stay here? | [#6137552](https://tatoeba.org/en/sentences/show/6137552) | Krzysztof92 |
+| S73035 | Dlaczego Tom nie chce wrócić? | Why won't Tom come back? |  | [#12574223](https://tatoeba.org/en/sentences/show/12574223) | katix824 |
+| S73036 | Zaczynam jutro. | I start tomorrow. |  | [#353997](https://tatoeba.org/en/sentences/show/353997) | zipangu |
+| S73037 | To wystarczy. | That's enough. | That'll do.; That will do.; That does it. | [#357397](https://tatoeba.org/en/sentences/show/357397) | zipangu |
+| S73038 | Próbuję spać. | I'm trying to sleep. |  | [#531583](https://tatoeba.org/en/sentences/show/531583) | orzechowski |
+| S73039 | Zostaw mnie. | Leave me. |  | [#557726](https://tatoeba.org/en/sentences/show/557726) | orzechowski |
+| S73040 | Zostaw to! | Leave it! |  | [#898747](https://tatoeba.org/en/sentences/show/898747) | zipangu |
+
+## U66 Signs + Notices: Wejście, wyjście; czynne, nieczynne (open, closed, on a shop or office); uwaga! (attention); zakaz palenia (palenia: the genitive of palenie); nie palić, nie dotykać: nie with an infinitive on a notice; wstęp wolny
+
+13 sentences picked from 13 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: wejście (1), wyjście (1), uwaga (0), zakaz (0), palenia (0), apteka (0), informacja (0), kasa (0), czynne (0), nieczynne (0), wstęp (1), dotykać (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S66001 | Gdzie jest toaleta? | Where's the toilet? | Where's the loo?; Where is the toilet? | [#732023](https://tatoeba.org/en/sentences/show/732023) | zipangu |
+| S66002 | Jest tam gdzieś toaleta? | Is there a toilet somewhere? |  | [#6553716](https://tatoeba.org/en/sentences/show/6553716) | arie |
+| S66003 | Dlaczego jest tu policja? | Why are the police here? |  | [#6554247](https://tatoeba.org/en/sentences/show/6554247) | arie |
+| S66004 | Gdzie jest wejście do muzeum? | Where's the entrance to the museum? |  | [#382540](https://tatoeba.org/en/sentences/show/382540) | esperanto |
+| S66005 | Policja jest tutaj. | The police are here. |  | [#3853031](https://tatoeba.org/en/sentences/show/3853031) | liori |
+| S66006 | Toaleta jest tam. | The toilet is there. | The toilet is over there. | [#10695815](https://tatoeba.org/en/sentences/show/10695815) | tokzyk |
+| S66007 | Wstęp jest wolny. | Entry is free. |  | [#12260903](https://tatoeba.org/en/sentences/show/12260903) | polski_ren |
+| S66008 | Proszę tu nie palić. | Please don't smoke here. |  | [#742377](https://tatoeba.org/en/sentences/show/742377) | zipangu |
+| S66009 | Musimy znaleźć wyjście stąd. | We've got to find a way out of here. |  | [#3757017](https://tatoeba.org/en/sentences/show/3757017) | jeedrek |
+| S66010 | Nie mogę palić. Jestem chory. | I cannot smoke. I am sick. |  | [#3004507](https://tatoeba.org/en/sentences/show/3004507) | jeedrek |
+| S66011 | Policja chce ze mną rozmawiać. | The police want to talk to me. |  | [#4241842](https://tatoeba.org/en/sentences/show/4241842) | jeedrek |
+| S66012 | Proszę nie palić za dużo. | Please don't smoke too much. |  | [#8745947](https://tatoeba.org/en/sentences/show/8745947) | Tadeusz |
+| S66013 | Nawet nie wiem jak palić. | I don't even know how to smoke. |  | [#12955527](https://tatoeba.org/en/sentences/show/12955527) | Stanislawspruss |
+
+## U67 Timetables: Jadę autobusem, pociągiem, samochodem: the instrumental for how you travel; lecę samolotem; pociąg odjeżdża o dziesiątej i przyjeżdża o dwunastej; odjazd, przyjazd; bilet, na dworcu, na przystanku (the locative)
+
+32 sentences picked from 43 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: autobusem (1), pociągiem (1), samochodem (1), rowerem (2), samolotem (0), samolot (1), tramwaj (0), tramwajem (0), lecę (0), lecieć (0), przyjeżdża (1), odjazd (0), przyjazd (1), stacja (0), stacji (0), przystanek (1), przystanku (0), peron (0), peronu (0), dworcu (0), podróż (1), dziesiątej (1), jedenastej (0), dwunastej (0), drugiej (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S67001 | Chcę jechać pociągiem. | I want to go by train. |  | [#9686910](https://tatoeba.org/en/sentences/show/9686910) | aurchykr |
+| S67002 | Jedziemy do domu samochodem. | We're going home by car. |  | [#6160247](https://tatoeba.org/en/sentences/show/6160247) | arie |
+| S67003 | On jedzie do szkoły autobusem. | He is going to school on a bus. |  | [#525651](https://tatoeba.org/en/sentences/show/525651) | Wimmer |
+| S67004 | Dokąd jedziesz? | Where are you headed for? |  | [#6554339](https://tatoeba.org/en/sentences/show/6554339) | arie |
+| S67005 | A kiedy jedziesz? | And when are you going? |  | [#3238106](https://tatoeba.org/en/sentences/show/3238106) | jeedrek |
+| S67006 | Gdzie jest przystanek? | Where's the bus stop? |  | [#5287404](https://tatoeba.org/en/sentences/show/5287404) | tykzz |
+| S67007 | Ile kosztuje bilet? | How much is the ticket? |  | [#8765547](https://tatoeba.org/en/sentences/show/8765547) | nusia2302 |
+| S67008 | Dokąd jedzie ten pociąg? | Where's this train going? | Where is this train going?; Where does this train go?; Where is this train bound?; Where's this train bound for? | [#363691](https://tatoeba.org/en/sentences/show/363691) | zipangu |
+| S67009 | Kiedy jedziesz do Japonii? | When will you go to Japan? |  | [#6157968](https://tatoeba.org/en/sentences/show/6157968) | arie |
+| S67010 | Kiedy odjeżdża następny pociąg? | When does the next train leave? |  | [#8534090](https://tatoeba.org/en/sentences/show/8534090) | nusia2302 |
+| S67011 | O której odjeżdża pociąg? | What time does the train leave? |  | [#12193780](https://tatoeba.org/en/sentences/show/12193780) | polski_ren |
+| S67012 | Jak szybko jedzie ten pociąg? | How fast is that train going? | How fast does this train run? | [#368432](https://tatoeba.org/en/sentences/show/368432) | zipangu |
+| S67013 | Widziałem samolot. | I saw an airplane. | I saw an aeroplane. | [#359287](https://tatoeba.org/en/sentences/show/359287) | zipangu |
+| S67014 | Bilety, proszę. | Tickets, please. | Let me check your ticket. | [#601592](https://tatoeba.org/en/sentences/show/601592) | Bilberry |
+| S67015 | Bilet proszę. | Ticket, please. |  | [#5627114](https://tatoeba.org/en/sentences/show/5627114) | machmet |
+| S67016 | Potrafię latać. | I can fly. |  | [#10598240](https://tatoeba.org/en/sentences/show/10598240) | polski_ren |
+| S67017 | Pociąg zaraz odjeżdża. | The train will depart soon. |  | [#900941](https://tatoeba.org/en/sentences/show/900941) | zipangu |
+| S67018 | Tak, możemy jechać. | Yes, we can go. |  | [#919790](https://tatoeba.org/en/sentences/show/919790) | zipangu |
+| S67019 | Nie umiem latać. | I can't fly. |  | [#956981](https://tatoeba.org/en/sentences/show/956981) | zipangu |
+| S67020 | Kupiłem już bilet. | I've already bought my ticket. |  | [#975035](https://tatoeba.org/en/sentences/show/975035) | zipangu |
+| S67021 | Jedziemy w góry. | We're going to the mountains. | We are going to the mountains. | [#1171242](https://tatoeba.org/en/sentences/show/1171242) | sam |
+| S67022 | Mam trzy bilety. | I've got three tickets. |  | [#2467074](https://tatoeba.org/en/sentences/show/2467074) | Siganiv |
+| S67023 | Życie to podróż. | Life is a journey. |  | [#3783024](https://tatoeba.org/en/sentences/show/3783024) | Siganiv |
+| S67024 | Ptak może latać. | A bird can fly. |  | [#4916666](https://tatoeba.org/en/sentences/show/4916666) | annikki |
+| S67025 | Mam twoje bilety. | I have your tickets. |  | [#5528890](https://tatoeba.org/en/sentences/show/5528890) | arie |
+| S67026 | Już jest po dziesiątej. | It's already past ten o'clock. |  | [#592018](https://tatoeba.org/en/sentences/show/592018) | Bilberry |
+| S67027 | Jadę rowerem do pracy. | I bike to work. |  | [#2831850](https://tatoeba.org/en/sentences/show/2831850) | MarekMazurkiewicz |
+| S67028 | Jedziemy tam za tydzień. | We're going there next week. |  | [#4940364](https://tatoeba.org/en/sentences/show/4940364) | aleksandraeska |
+| S67029 | Muszę tam jutro jechać. | I'll have to go there tomorrow. |  | [#6314024](https://tatoeba.org/en/sentences/show/6314024) | arie |
+| S67030 | Jadę do pracy rowerem. | I'm going to work by bicycle. |  | [#12152769](https://tatoeba.org/en/sentences/show/12152769) | mwgamera |
+| S67031 | Czekam na twój przyjazd. | I await your arrival. |  | [#12359825](https://tatoeba.org/en/sentences/show/12359825) | arie |
+| S67032 | Myślę, że przyjeżdża jutro. | I believe he is coming tomorrow. |  | [#13225392](https://tatoeba.org/en/sentences/show/13225392) | katix824 |
+
+## U74 Little Words: Przed, za, pod, nad, między with the instrumental for where something is: przed domem, pod stołem, nad oknem; przy with the locative (przy stole); naprzeciwko and wokół with the genitive; z nim, z nią; coraz, aż, oba, inaczej
+
+30 sentences picked from 57 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: przed (2), nad (2), między (0), przy (1), wokół (0), poza (0), coraz (0), oba (2), obie (2), domem (1), stołem (0), stole (0), oknem (0), łóżkiem (2), sklepem (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S74001 | Ogród jest przed domem. | The garden is in front of the house. |  | [#751724](https://tatoeba.org/en/sentences/show/751724) | zipangu |
+| S74002 | Pod łóżkiem jest kot. | There is a cat under the bed. |  | [#2186538](https://tatoeba.org/en/sentences/show/2186538) | Martka |
+| S74003 | Tutaj jest kot pod łóżkiem. | There is a cat under the bed. |  | [#524523](https://tatoeba.org/en/sentences/show/524523) | pavpi |
+| S74004 | Dlaczego nie oba? | Why not both? |  | [#10623474](https://tatoeba.org/en/sentences/show/10623474) | polski_ren |
+| S74005 | Można to powiedzieć inaczej? | Can it be put differently? | Can it be phrased another way? | [#351396](https://tatoeba.org/en/sentences/show/351396) | zipangu |
+| S74006 | Co o nim wiesz? | What do you know about him? |  | [#3926301](https://tatoeba.org/en/sentences/show/3926301) | jeedrek |
+| S74007 | Czy ona mieszka naprzeciwko? | Does she live opposite? |  | [#6627164](https://tatoeba.org/en/sentences/show/6627164) | qmak |
+| S74008 | Kto mieszka pod tobą? | Who lives underneath you? |  | [#12229035](https://tatoeba.org/en/sentences/show/12229035) | polski_ren |
+| S74009 | Mam z nim iść? | Do you want me to go with him? |  | [#13335520](https://tatoeba.org/en/sentences/show/13335520) | Radek |
+| S74010 | Kiedy możesz się z nim spotkać? | When is it possible for you to meet him? |  | [#357695](https://tatoeba.org/en/sentences/show/357695) | zipangu |
+| S74011 | Lubię oba. | I like both. |  | [#8760743](https://tatoeba.org/en/sentences/show/8760743) | nusia2302 |
+| S74012 | Lubię obie. | I like both. |  | [#8760744](https://tatoeba.org/en/sentences/show/8760744) | nusia2302 |
+| S74013 | Wtedy było inaczej. | Back then it was different. |  | [#4869560](https://tatoeba.org/en/sentences/show/4869560) | Rudzielec |
+| S74014 | Teraz jest inaczej. | Matters are different now. |  | [#7960860](https://tatoeba.org/en/sentences/show/7960860) | arie |
+| S74015 | Nadal nad tym pracuję. | I'm still working on that. |  | [#3718698](https://tatoeba.org/en/sentences/show/3718698) | jeedrek |
+| S74016 | Tom mieszka naprzeciwko Mary. | Tom lives across the street from Mary. |  | [#3887781](https://tatoeba.org/en/sentences/show/3887781) | jeedrek |
+| S74017 | Tom mieszka przy plaży. | Tom lives near the beach. |  | [#3926555](https://tatoeba.org/en/sentences/show/3926555) | jeedrek |
+| S74018 | Tom jest z nią. | Tom is with her. |  | [#4736674](https://tatoeba.org/en/sentences/show/4736674) | BeataB |
+| S74019 | Tom lubi je obie. | Tom likes them both. |  | [#6157377](https://tatoeba.org/en/sentences/show/6157377) | arie |
+| S74020 | On z nią pracuje. | He works with her. |  | [#10168023](https://tatoeba.org/en/sentences/show/10168023) | Relinger |
+| S74021 | Nie jest z nią. | He isn't with her. |  | [#12054996](https://tatoeba.org/en/sentences/show/12054996) | jimbojim |
+| S74022 | Naprzeciwko mnie jest żółty samochód. | There's a yellow car in front of me. |  | [#3933287](https://tatoeba.org/en/sentences/show/3933287) | jeedrek |
+| S74023 | Nie jest aż tak gorąco. | It's really not that hot. |  | [#4017733](https://tatoeba.org/en/sentences/show/4017733) | jeedrek |
+| S74024 | Tom pracuje teraz nad tym. | Tom is working on it now. |  | [#7929202](https://tatoeba.org/en/sentences/show/7929202) | qmak |
+| S74025 | Nie będzie aż tak źle. | It isn't going to be that bad. |  | [#10543149](https://tatoeba.org/en/sentences/show/10543149) | tokzyk |
+| S74026 | Musisz tu siedzieć aż do piątej. | You have to sit here until five o'clock. |  | [#1133649](https://tatoeba.org/en/sentences/show/1133649) | zipangu |
+| S74027 | Ktoś już tu przed nami był. | Someone has been here before us. |  | [#12077630](https://tatoeba.org/en/sentences/show/12077630) | jimbojim |
+| S74028 | Co tak naprawdę myślisz o nim? | What do you really think of him? |  | [#988677](https://tatoeba.org/en/sentences/show/988677) | liori |
+| S74029 | Jestem z nim. | I'm with him. |  | [#3853007](https://tatoeba.org/en/sentences/show/3853007) | liori |
+| S74030 | Tu jest inaczej. | It's different here. |  | [#12069031](https://tatoeba.org/en/sentences/show/12069031) | jimbojim |
+
+## U39 Not Sure: Być może. To zależy. Prawdopodobnie. Nie jestem pewien. Wydaje mi się, że … (it seems to me: a fixed phrase; mi is the dative of ja). Sądzę, że … Chociaż …
+
+24 sentences picked from 24 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: być może (1), sądzisz (2), chociaż (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S39001 | Czy sądzisz, że urodziny są ważne? | Do you feel birthdays are important? |  | [#959547](https://tatoeba.org/en/sentences/show/959547) | zipangu |
+| S39002 | Czy sądzisz, że wciąż ją kocham? | Do you think I still love her? |  | [#4328090](https://tatoeba.org/en/sentences/show/4328090) | Rudzielec |
+| S39003 | Nie sądzę. | I don't think so. |  | [#356025](https://tatoeba.org/en/sentences/show/356025) | zipangu |
+| S39004 | Tak sądzę. | I do think so. |  | [#521187](https://tatoeba.org/en/sentences/show/521187) | zipangu |
+| S39005 | To zależy. | It depends. |  | [#814630](https://tatoeba.org/en/sentences/show/814630) | zipangu |
+| S39006 | Prawdopodobnie będzie padać. | It'll probably rain. | It will probably rain. | [#4516501](https://tatoeba.org/en/sentences/show/4516501) | eraxis |
+| S39007 | Prawdopodobnie masz rację. | You are very likely right. |  | [#5369969](https://tatoeba.org/en/sentences/show/5369969) | Mateon1 |
+| S39008 | Wydaje mi się, że tak. | Seems so to me. |  | [#5516891](https://tatoeba.org/en/sentences/show/5516891) | lato365 |
+| S39009 | Tom prawdopodobnie wie. | Tom probably knows. |  | [#10593566](https://tatoeba.org/en/sentences/show/10593566) | tokzyk |
+| S39010 | To zależy od ciebie. | It's up to you. | That depends on you.; It depends on you.; This depends on you.; It is up to you. | [#566490](https://tatoeba.org/en/sentences/show/566490) | Bilberry |
+| S39011 | Wydaje mi się, że go znam. | I think I know him. |  | [#3093094](https://tatoeba.org/en/sentences/show/3093094) | jeedrek |
+| S39012 | Wszystko zależy od pieniędzy. | Everything depends on money. |  | [#5221445](https://tatoeba.org/en/sentences/show/5221445) | Tomash |
+| S39013 | Wydaje mi się, że mówią po francusku. | I guess they speak French. |  | [#2342746](https://tatoeba.org/en/sentences/show/2342746) | jeedrek |
+| S39014 | Być może mam coś dla ciebie. | I may have something for you. |  | [#2482539](https://tatoeba.org/en/sentences/show/2482539) | zipangu |
+| S39015 | Nie sądzę, że to dobry pomysł. | I don't think that's a good idea. |  | [#951240](https://tatoeba.org/en/sentences/show/951240) | zipangu |
+| S39016 | Chociaż jest bardzo stary, jest silny. | Although he is very old, he is strong. |  | [#3002153](https://tatoeba.org/en/sentences/show/3002153) | jeedrek |
+| S39017 | Prawdopodobnie znowu będzie padać. | It is likely to rain again. |  | [#3869253](https://tatoeba.org/en/sentences/show/3869253) | jeedrek |
+| S39018 | Wszystko zależy od tego. | Everything depends on it. |  | [#5221447](https://tatoeba.org/en/sentences/show/5221447) | Tomash |
+| S39019 | Cena zależy od Ciebie. | The price is up to you. |  | [#10542176](https://tatoeba.org/en/sentences/show/10542176) | tokzyk |
+| S39020 | Wydaje mi się, że Tom cię lubi. | I think Tom likes you. |  | [#3038607](https://tatoeba.org/en/sentences/show/3038607) | jeedrek |
+| S39021 | Prawdopodobnie dzisiaj będzie padać deszcz. | It'll probably rain today. |  | [#10755555](https://tatoeba.org/en/sentences/show/10755555) | Wojtek |
+| S39022 | Wszystko zależy tylko od ciebie. | It all depends solely on you. |  | [#12450213](https://tatoeba.org/en/sentences/show/12450213) | polski_ren |
+| S39023 | Tom prawdopodobnie nie zrobił tego sam. | Tom probably didn't do that by himself. |  | [#9684326](https://tatoeba.org/en/sentences/show/9684326) | aurchykr |
+| S39024 | Prawdopodobnie jestem w tym lepszy niż ty. | I'm probably better at doing that than you are. |  | [#12454113](https://tatoeba.org/en/sentences/show/12454113) | Wojtanex |
+
+## U68 Announcements: Uwaga, pasażerowie: the words of an announcement; pociąg jest opóźniony; pociąg przyjedzie na peron drugi (przyjedzie: it will arrive); w kierunku (towards, with the genitive); prosimy (we ask), przepraszamy (we apologise); podczas (during)
+
+11 sentences picked from 11 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: pasażerowie (0), pasażerów (0), opóźniony (0), opóźnienie (0), odjedzie (0), tor (0), kierunku (0), prosimy (0), prosić (1), przepraszamy (1), zatrzymuje (1), podczas (0), lot (1), odwołany (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S68001 | Lot został odwołany. | The flight was canceled. | The flight was cancelled. | [#6547849](https://tatoeba.org/en/sentences/show/6547849) | arie |
+| S68002 | Czy Tom powiedział kiedy przyjedzie? | Did Tom say when he'd come? |  | [#10542008](https://tatoeba.org/en/sentences/show/10542008) | tokzyk |
+| S68003 | Czy można prosić o szklankę wody? | May I have a glass of water, please? |  | [#880615](https://tatoeba.org/en/sentences/show/880615) | zipangu |
+| S68004 | Pociąg zaraz przyjedzie. | The train is about to arrive. |  | [#4099661](https://tatoeba.org/en/sentences/show/4099661) | konrad509 |
+| S68005 | Ona przyjedzie późno. | She'll be arriving late. |  | [#13782793](https://tatoeba.org/en/sentences/show/13782793) | Just_Balls |
+| S68006 | Nikt Cię nie zatrzymuje. | No one's stopping you. |  | [#3739641](https://tatoeba.org/en/sentences/show/3739641) | konrad509 |
+| S68007 | Przepraszamy, ten numer jest zajęty. | The number is unfortunately busy. |  | [#6306789](https://tatoeba.org/en/sentences/show/6306789) | fau |
+| S68008 | On chyba nie przyjedzie. | He probably won't come. |  | [#933381](https://tatoeba.org/en/sentences/show/933381) | zipangu |
+| S68009 | Myślę, że pociąg zaraz przyjedzie. | I think the train will arrive soon. | I think the train will soon be here.; I think the train will be here soon. | [#362488](https://tatoeba.org/en/sentences/show/362488) | zipangu |
+| S68010 | Mam nadzieję, że John przyjedzie. | I hope that John comes. |  | [#601593](https://tatoeba.org/en/sentences/show/601593) | Bilberry |
+| S68011 | Nie mogę powiedzieć, kto przyjedzie pierwszy. | I can't tell who will arrive first. |  | [#1189092](https://tatoeba.org/en/sentences/show/1189092) | hebrajska |
+
+## U69 Instructions: Przeczytaj tekst. Wybierz poprawną odpowiedź. Napisz zdanie.: the command (przeczytaj, napisz, wybierz, odpowiedz), with the verb first; nie zapomnij …; pamiętaj
+
+40 sentences picked from 74 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: napisz (2), zaznacz (0), uzupełnij (1), pamiętaj (1), ćwiczenie (0), obrazek (0), stronie (1), poprawną (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S69001 | Przeczytaj i odpowiedz. | Read and reply. |  | [#3152114](https://tatoeba.org/en/sentences/show/3152114) | jeedrek |
+| S69002 | Wybierz poprawną odpowiedź. | Choose the correct answer. |  | [#9678514](https://tatoeba.org/en/sentences/show/9678514) | mojeanin |
+| S69003 | Kto może wybrać? | Who can choose? |  | [#3897309](https://tatoeba.org/en/sentences/show/3897309) | jeedrek |
+| S69004 | Na której stronie? | What page? |  | [#12652558](https://tatoeba.org/en/sentences/show/12652558) | JimiYoru |
+| S69005 | Czy muszę odpowiedzieć po angielsku? | Do I have to answer in English? |  | [#653702](https://tatoeba.org/en/sentences/show/653702) | Bilberry |
+| S69006 | Nie rozumiem tego słowa. Masz słownik? | I can't understand this word. Do you have a dictionary? |  | [#12045105](https://tatoeba.org/en/sentences/show/12045105) | jimbojim |
+| S69007 | Czy ktoś może odpowiedzieć na moje pytanie? | Can anyone answer my question? |  | [#589408](https://tatoeba.org/en/sentences/show/589408) | Bilberry |
+| S69008 | Otwórz oczy. | Open your eyes. |  | [#359961](https://tatoeba.org/en/sentences/show/359961) | zipangu |
+| S69009 | Zamknij drzwi. | Close the door. | Shut the door. | [#558249](https://tatoeba.org/en/sentences/show/558249) | Bilberry |
+| S69010 | Zamknij okno. | Close the window. | Shut the window. | [#742713](https://tatoeba.org/en/sentences/show/742713) | zipangu |
+| S69011 | Otwórz okno. | Open the window. |  | [#968967](https://tatoeba.org/en/sentences/show/968967) | zipangu |
+| S69012 | Nie zapomnij. | Don't forget. |  | [#1844956](https://tatoeba.org/en/sentences/show/1844956) | zipangu |
+| S69013 | Uzupełnij zdanie. | Complete the sentence. |  | [#2140630](https://tatoeba.org/en/sentences/show/2140630) | Hikaru |
+| S69014 | Musisz wybrać. | You need to make a choice. |  | [#3939810](https://tatoeba.org/en/sentences/show/3939810) | kobalt |
+| S69015 | Wybierz słowo. | Choose a word. |  | [#5437995](https://tatoeba.org/en/sentences/show/5437995) | pixelka |
+| S69016 | Sprawdź to. | Check that. | Check this. | [#5651992](https://tatoeba.org/en/sentences/show/5651992) | machmet |
+| S69017 | Posłuchaj tego! | Listen to this! |  | [#5652010](https://tatoeba.org/en/sentences/show/5652010) | machmet |
+| S69018 | Otwórz drzwi. | Open the door. |  | [#6602603](https://tatoeba.org/en/sentences/show/6602603) | princes21 |
+| S69019 | Napisz coś. | Write something. |  | [#7818306](https://tatoeba.org/en/sentences/show/7818306) | Hanyel |
+| S69020 | Wybierz coś. | Choose something. |  | [#7977898](https://tatoeba.org/en/sentences/show/7977898) | qmak |
+| S69021 | Spójrz tam. | Look there. |  | [#8617214](https://tatoeba.org/en/sentences/show/8617214) | arie |
+| S69022 | Posłuchaj mnie. | Listen to me. |  | [#11570607](https://tatoeba.org/en/sentences/show/11570607) | tokzyk |
+| S69023 | Proszę, odpowiedz. | Please reply. |  | [#12202522](https://tatoeba.org/en/sentences/show/12202522) | polski_ren |
+| S69024 | Odpowiedz na pytanie. | Answer the question. |  | [#349045](https://tatoeba.org/en/sentences/show/349045) | zipangu |
+| S69025 | Zamknij drzwi, proszę. | Close the door, please. | Please shut the door. | [#547737](https://tatoeba.org/en/sentences/show/547737) | Bilberry |
+| S69026 | Napisz do mnie. | Write me. | Text me. | [#629817](https://tatoeba.org/en/sentences/show/629817) | zipangu |
+| S69027 | Przeczytaj tę książkę. | Read this book. |  | [#1637738](https://tatoeba.org/en/sentences/show/1637738) | Siganiv |
+| S69028 | Spójrz na nas. | Look at us. |  | [#2874438](https://tatoeba.org/en/sentences/show/2874438) | MarekMazurkiewicz |
+| S69029 | Proszę, posłuchaj nas. | Please listen to us. |  | [#5437874](https://tatoeba.org/en/sentences/show/5437874) | pixelka |
+| S69030 | Zapomnij o tym! | Forget it. | Forget it! | [#5627127](https://tatoeba.org/en/sentences/show/5627127) | machmet |
+| S69031 | Przeczytaj to wieczorem! | Read this in the evening. | Read this in the evening! | [#6030844](https://tatoeba.org/en/sentences/show/6030844) | BeataB |
+| S69032 | Zapomnij o nim. | Forget him. |  | [#6160715](https://tatoeba.org/en/sentences/show/6160715) | arie |
+| S69033 | Spójrz na to. | Look at it. | Look at this stuff. | [#6304213](https://tatoeba.org/en/sentences/show/6304213) | arie |
+| S69034 | Proszę wybrać jeden. | Choose one. |  | [#8617167](https://tatoeba.org/en/sentences/show/8617167) | arie |
+| S69035 | Sprawdź to teraz. | Check it now. |  | [#8716627](https://tatoeba.org/en/sentences/show/8716627) | gryzus24 |
+| S69036 | Sprawdź to proszę. | Check it, please. |  | [#10202750](https://tatoeba.org/en/sentences/show/10202750) | Marlena |
+| S69037 | Słowa są ważne. | Words are important. |  | [#10755552](https://tatoeba.org/en/sentences/show/10755552) | Wojtek |
+| S69038 | Musisz szybko odpowiedzieć. | You must respond quickly. |  | [#12188666](https://tatoeba.org/en/sentences/show/12188666) | polski_ren |
+| S69039 | Nie powiedział ani słowa. | He didn't say a word. |  | [#493074](https://tatoeba.org/en/sentences/show/493074) | zipangu |
+| S69040 | Pamiętaj, to nie jest gra. | Remember that this isn't a game. |  | [#10558484](https://tatoeba.org/en/sentences/show/10558484) | antio |
+
+## U75 Likes + Feelings: Interesuję się muzyką: interesować się takes the instrumental; uwielbiam, nienawidzę; podoba mi się (I like it: a fixed phrase; mi is the dative of ja); cieszę się, boję się; wolę (I prefer); mam ochotę na … (I feel like); szkoda
+
+40 sentences picked from 155 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: interesuję (0), interesujesz (1), interesuje (2), muzyką (0), sportem (1), historią (0), uwielbiasz (1), nienawidzę (2), boi (2), wolisz (1), woli (0), ochotę (0), szkoda (2), zadowolona (1), szczęście (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S75001 | Tom uwielbia sport. | Tom loves sport. |  | [#8774064](https://tatoeba.org/en/sentences/show/8774064) | nusia2302 |
+| S75002 | Sport nie interesuje mnie. | Sport doesn't interest me. |  | [#4466227](https://tatoeba.org/en/sentences/show/4466227) | MarekMazurkiewicz |
+| S75003 | Tom bardzo interesuje się sportem. | Tom is very interested in sports. |  | [#7164840](https://tatoeba.org/en/sentences/show/7164840) | arie |
+| S75004 | Lubisz sport? | Do you like sports? | Do you like sport? | [#3041416](https://tatoeba.org/en/sentences/show/3041416) | jeedrek |
+| S75005 | Boisz się? | Are you scared? |  | [#3657565](https://tatoeba.org/en/sentences/show/3657565) | Siganiv |
+| S75006 | Który wolisz? | Which one do you prefer? |  | [#4748403](https://tatoeba.org/en/sentences/show/4748403) | AgnieszkaC |
+| S75007 | Czym się interesujesz? | What are you interested in? |  | [#360256](https://tatoeba.org/en/sentences/show/360256) | zipangu |
+| S75008 | Jesteś teraz zadowolony? | Are you satisfied now? |  | [#973069](https://tatoeba.org/en/sentences/show/973069) | zipangu |
+| S75009 | Boisz się tego? | Are you afraid of that? |  | [#3637461](https://tatoeba.org/en/sentences/show/3637461) | Katubeltza |
+| S75010 | Nie boisz się? | Aren't you afraid? |  | [#3664665](https://tatoeba.org/en/sentences/show/3664665) | jeedrek |
+| S75011 | Nie jesteś zadowolony? | Aren't you glad? | Aren't you pleased?; Aren't you satisfied? | [#4816980](https://tatoeba.org/en/sentences/show/4816980) | jeedrek |
+| S75012 | Czego boi się Tom? | What's Tom afraid of? |  | [#3637524](https://tatoeba.org/en/sentences/show/3637524) | Katubeltza |
+| S75013 | Uwielbiasz ten dom, no nie? | You love that house, don't you? |  | [#3079744](https://tatoeba.org/en/sentences/show/3079744) | jeedrek |
+| S75014 | Myślisz, że się tego boję? | Do you think that scares me? |  | [#13336022](https://tatoeba.org/en/sentences/show/13336022) | Radek |
+| S75015 | Jestem zadowolony. | I'm satisfied. |  | [#358761](https://tatoeba.org/en/sentences/show/358761) | zipangu |
+| S75016 | Jaka szkoda... | What a pity! |  | [#361696](https://tatoeba.org/en/sentences/show/361696) | zipangu |
+| S75017 | Wolę kawę. | I prefer coffee. |  | [#529944](https://tatoeba.org/en/sentences/show/529944) | zipangu |
+| S75018 | To szkoda. | That's a shame. |  | [#555263](https://tatoeba.org/en/sentences/show/555263) | Bilberry |
+| S75019 | Uwielbiam jabłka. | I love apples. |  | [#555374](https://tatoeba.org/en/sentences/show/555374) | zipangu |
+| S75020 | Świetnie wyglądasz. | You look great. |  | [#2810134](https://tatoeba.org/en/sentences/show/2810134) | Ceresnya |
+| S75021 | Boję się. | I'm afraid. | I'm scared.; I'm frightened.; I am afraid.; I am scared. | [#3085210](https://tatoeba.org/en/sentences/show/3085210) | jeedrek |
+| S75022 | Wolę czytać. | I prefer reading. | I prefer to read. | [#3421660](https://tatoeba.org/en/sentences/show/3421660) | konrad509 |
+| S75023 | Podoba mi się nauczyciel. | I like the teacher. |  | [#3581991](https://tatoeba.org/en/sentences/show/3581991) | cvbge |
+| S75024 | Uwielbiam uczyć. | I love teaching. |  | [#3979019](https://tatoeba.org/en/sentences/show/3979019) | jeedrek |
+| S75025 | Cieszę się. | I'm glad. |  | [#4889614](https://tatoeba.org/en/sentences/show/4889614) | BeataB |
+| S75026 | Uwielbiam książki. | I love books. |  | [#5315943](https://tatoeba.org/en/sentences/show/5315943) | Martka |
+| S75027 | To świetnie. | That's great. |  | [#6320914](https://tatoeba.org/en/sentences/show/6320914) | arie |
+| S75028 | Będzie świetnie. | This'll be great. |  | [#8213714](https://tatoeba.org/en/sentences/show/8213714) | arie |
+| S75029 | Wolę czarny. | I prefer black. |  | [#10584469](https://tatoeba.org/en/sentences/show/10584469) | tokzyk |
+| S75030 | Podoba mi się twój samochód. | I like your car. |  | [#565997](https://tatoeba.org/en/sentences/show/565997) | Bilberry |
+| S75031 | Podoba mi się, jak wyglądasz. | I like the way you look. |  | [#966948](https://tatoeba.org/en/sentences/show/966948) | zipangu |
+| S75032 | Tom boi się. | Tom's afraid. | Tom is afraid. | [#2809470](https://tatoeba.org/en/sentences/show/2809470) | Ceresnya |
+| S75033 | Tom uwielbia książki. | Tom loves books. |  | [#3590170](https://tatoeba.org/en/sentences/show/3590170) | cvbge |
+| S75034 | On go uwielbia. | He adores him. |  | [#3695601](https://tatoeba.org/en/sentences/show/3695601) | jeedrek |
+| S75035 | Nienawidzę tego robić! | I hate doing this stuff! |  | [#4438929](https://tatoeba.org/en/sentences/show/4438929) | Luanne |
+| S75036 | Jak się cieszę! | How glad I am! |  | [#4889634](https://tatoeba.org/en/sentences/show/4889634) | BeataB |
+| S75037 | Tak się cieszę. | I'm so glad. |  | [#4889635](https://tatoeba.org/en/sentences/show/4889635) | BeataB |
+| S75038 | Trochę się boję. | I am a little scared. |  | [#5138889](https://tatoeba.org/en/sentences/show/5138889) | Tomash |
+| S75039 | Nie jestem zadowolona. | I'm not satisfied. |  | [#10623495](https://tatoeba.org/en/sentences/show/10623495) | polski_ren |
+| S75040 | Naprawdę tego nienawidzę. | I really do hate it. |  | [#12453854](https://tatoeba.org/en/sentences/show/12453854) | Wojtanex |

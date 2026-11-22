@@ -57,7 +57,7 @@ export const COURSES = {
   // Part 1 except as a fixed phrase). Its folders: content-pl/, src/content-pl/, public/audio-pl/. Lingua Libre files are
   // LL-Q809 (pol).
   pl: {
-    id: 'pl', name: 'Polish', workbook: '_source/tamago-pl-data-v4.xlsx',
+    id: 'pl', name: 'Polish', workbook: '_source/tamago-pl-data-v5.xlsx',
     tatoeba: 'pol', wiktionaryCode: 'pl', wiktionarySection: 'Polish', linguaLibre: { qid: 'Q809', iso: 'pol' }, wikidataLanguage: 'Q809',
   },
 }

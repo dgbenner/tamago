@@ -1,0 +1,1562 @@
+{
+  "unit_id": "U65",
+  "pulled_at": "2026-11-22",
+  "candidates": 100,
+  "sentences": [
+    {
+      "sentence_id": "S65001",
+      "unit_id": "U65",
+      "french": "Jesteś tu nauczycielem czy studentem?",
+      "english": "Are you a teacher here or a student?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "352979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65002",
+      "unit_id": "U65",
+      "french": "Jestem nauczycielem, nie lekarzem.",
+      "english": "I'm a teacher, not a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12905165",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Stanislawspruss",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65003",
+      "unit_id": "U65",
+      "french": "Jesteś studentem?",
+      "english": "Are you a student?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "352928",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65004",
+      "unit_id": "U65",
+      "french": "Jesz obiad?",
+      "english": "Are you eating lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8770769",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65005",
+      "unit_id": "U65",
+      "french": "O której wstajesz?",
+      "english": "When do you get up?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "545054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "What time do you wake up?"
+      ]
+    },
+    {
+      "sentence_id": "S65006",
+      "unit_id": "U65",
+      "french": "Gdzie mój obiad?",
+      "english": "Where's my lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9663595",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65007",
+      "unit_id": "U65",
+      "french": "Co chcesz na obiad?",
+      "english": "What do you want for lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "356427",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65008",
+      "unit_id": "U65",
+      "french": "Co masz na śniadanie?",
+      "english": "What do you have for breakfast?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3926293",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65009",
+      "unit_id": "U65",
+      "french": "Jesz śniadanie w domu?",
+      "english": "Do you have breakfast at home?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4413924",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Baakamono",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65010",
+      "unit_id": "U65",
+      "french": "O której jest śniadanie?",
+      "english": "What time is breakfast?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8784623",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65011",
+      "unit_id": "U65",
+      "french": "Czy ona jest lekarzem?",
+      "english": "Is she a doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10593830",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65012",
+      "unit_id": "U65",
+      "french": "Czy twój ojciec jest nauczycielem?",
+      "english": "Is your father a teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "365248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65013",
+      "unit_id": "U65",
+      "french": "Czy twój ojciec jest lekarzem?",
+      "english": "Is your father a doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6554257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65014",
+      "unit_id": "U65",
+      "french": "Jak długo Tom jest tutaj studentem?",
+      "english": "How long has Tom been a student here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4816730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65015",
+      "unit_id": "U65",
+      "french": "Czas wstawać.",
+      "english": "It's time to get up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "626050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "It's time to wake up."
+      ]
+    },
+    {
+      "sentence_id": "S65016",
+      "unit_id": "U65",
+      "french": "Zrobiłem kolację.",
+      "english": "I made supper.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2482544",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65017",
+      "unit_id": "U65",
+      "french": "Pora wstawać.",
+      "english": "It's time to get up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4917222",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kleklekle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65018",
+      "unit_id": "U65",
+      "french": "Myję się.",
+      "english": "I wash myself.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6320867",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65019",
+      "unit_id": "U65",
+      "french": "Wstaję wcześnie.",
+      "english": "I get up early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11135176",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65020",
+      "unit_id": "U65",
+      "french": "Jutro wstaję wcześnie.",
+      "english": "I'm getting up early tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "354005",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I will get up early tomorrow."
+      ]
+    },
+    {
+      "sentence_id": "S65021",
+      "unit_id": "U65",
+      "french": "Czas na kolację.",
+      "english": "It's supper time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "356048",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65022",
+      "unit_id": "U65",
+      "french": "Zawsze wstaję wcześnie.",
+      "english": "I always get up early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3587118",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cvbge",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65023",
+      "unit_id": "U65",
+      "french": "Myję włosy codziennie.",
+      "english": "I wash my hair every day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3614729",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cvbge",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65024",
+      "unit_id": "U65",
+      "french": "Właśnie biorę prysznic.",
+      "english": "I'm taking a shower right now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4144964",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "xilv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65025",
+      "unit_id": "U65",
+      "french": "Czas się kończy.",
+      "english": "Time is running out.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5414492",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tomash",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65026",
+      "unit_id": "U65",
+      "french": "Zrobiłem kolację wczoraj wieczorem.",
+      "english": "I cooked supper last night.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "579970",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65027",
+      "unit_id": "U65",
+      "french": "Myję twarz codziennie rano.",
+      "english": "I wash my face every morning.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3160884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65028",
+      "unit_id": "U65",
+      "french": "Mój czas się kończy.",
+      "english": "My time is running out.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5414494",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tomash",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65029",
+      "unit_id": "U65",
+      "french": "Tom wstaje wcześnie rano.",
+      "english": "Tom gets up early in the morning.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6030198",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BeataB",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65030",
+      "unit_id": "U65",
+      "french": "Zwykle wieczorem biorę prysznic.",
+      "english": "I usually take a shower in the evening.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6030988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BeataB",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65031",
+      "unit_id": "U65",
+      "french": "Moja matka wstaje wcześnie rano.",
+      "english": "My mother gets up early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "593288",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "buari",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65032",
+      "unit_id": "U65",
+      "french": "Moja mama wstaje wcześnie rano.",
+      "english": "My mom gets up early every morning.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "753885",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65033",
+      "unit_id": "U65",
+      "french": "Tom nigdy niczego nie kończy.",
+      "english": "Tom never finishes anything.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10546220",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65034",
+      "unit_id": "U65",
+      "french": "Zadzwoń do mnie jutro rano o dziewiątej.",
+      "english": "Phone me tomorrow at nine o'clock.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "631905",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "Ring me tomorrow at nine o'clock."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S65001",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 3,
+      "surface": "nauczycielem",
+      "word_id": "W1941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 4,
+      "surface": "czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 5,
+      "surface": "studentem",
+      "word_id": "W1944",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 2,
+      "surface": "nauczycielem",
+      "word_id": "W1941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 4,
+      "surface": "lekarzem",
+      "word_id": "W1943",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 2,
+      "surface": "studentem",
+      "word_id": "W1944",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 1,
+      "surface": "Jesz",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 2,
+      "surface": "obiad",
+      "word_id": "W1930",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 2,
+      "surface": "której",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 3,
+      "surface": "wstajesz",
+      "word_id": "W1925",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 2,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 3,
+      "surface": "obiad",
+      "word_id": "W1930",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 2,
+      "surface": "chcesz",
+      "word_id": "W266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 4,
+      "surface": "obiad",
+      "word_id": "W1930",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 2,
+      "surface": "masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 4,
+      "surface": "śniadanie",
+      "word_id": "W1929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 1,
+      "surface": "Jesz",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 2,
+      "surface": "śniadanie",
+      "word_id": "W1929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 4,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 2,
+      "surface": "której",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 4,
+      "surface": "śniadanie",
+      "word_id": "W1929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 2,
+      "surface": "ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 4,
+      "surface": "lekarzem",
+      "word_id": "W1943",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 2,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 3,
+      "surface": "ojciec",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 4,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 5,
+      "surface": "nauczycielem",
+      "word_id": "W1941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 2,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 3,
+      "surface": "ojciec",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 4,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 5,
+      "surface": "lekarzem",
+      "word_id": "W1943",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 2,
+      "surface": "długo",
+      "word_id": "W1234",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 4,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 5,
+      "surface": "tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 6,
+      "surface": "studentem",
+      "word_id": "W1944",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 1,
+      "surface": "Czas",
+      "word_id": "W1780",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 2,
+      "surface": "wstawać",
+      "word_id": "W1927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 1,
+      "surface": "Zrobiłem",
+      "word_id": "W2117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 2,
+      "surface": "kolację",
+      "word_id": "W1932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 1,
+      "surface": "Pora",
+      "word_id": "W1883",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 2,
+      "surface": "wstawać",
+      "word_id": "W1927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 1,
+      "surface": "Myję",
+      "word_id": "W1934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 1,
+      "surface": "Wstaję",
+      "word_id": "W1924",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 2,
+      "surface": "wcześnie",
+      "word_id": "W249",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 1,
+      "surface": "Jutro",
+      "word_id": "W236",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 2,
+      "surface": "wstaję",
+      "word_id": "W1924",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 3,
+      "surface": "wcześnie",
+      "word_id": "W249",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 1,
+      "surface": "Czas",
+      "word_id": "W1780",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 3,
+      "surface": "kolację",
+      "word_id": "W1932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 1,
+      "surface": "Zawsze",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 2,
+      "surface": "wstaję",
+      "word_id": "W1924",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 3,
+      "surface": "wcześnie",
+      "word_id": "W249",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 1,
+      "surface": "Myję",
+      "word_id": "W1934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 2,
+      "surface": "włosy",
+      "word_id": "W1002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 3,
+      "surface": "codziennie",
+      "word_id": "W1635",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 1,
+      "surface": "Właśnie",
+      "word_id": "W1638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 2,
+      "surface": "biorę",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 3,
+      "surface": "prysznic",
+      "word_id": "W1933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 1,
+      "surface": "Czas",
+      "word_id": "W1780",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 3,
+      "surface": "kończy",
+      "word_id": "W1937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 1,
+      "surface": "Zrobiłem",
+      "word_id": "W2117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 2,
+      "surface": "kolację",
+      "word_id": "W1932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 3,
+      "surface": "wczoraj",
+      "word_id": "W2101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 4,
+      "surface": "wieczorem",
+      "word_id": "W251",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 1,
+      "surface": "Myję",
+      "word_id": "W1934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 2,
+      "surface": "twarz",
+      "word_id": "W1196",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 3,
+      "surface": "codziennie",
+      "word_id": "W1635",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 4,
+      "surface": "rano",
+      "word_id": "W250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 2,
+      "surface": "czas",
+      "word_id": "W1780",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 4,
+      "surface": "kończy",
+      "word_id": "W1937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 2,
+      "surface": "wstaje",
+      "word_id": "W1926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 3,
+      "surface": "wcześnie",
+      "word_id": "W249",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 4,
+      "surface": "rano",
+      "word_id": "W250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 1,
+      "surface": "Zwykle",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 2,
+      "surface": "wieczorem",
+      "word_id": "W251",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 3,
+      "surface": "biorę",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 4,
+      "surface": "prysznic",
+      "word_id": "W1933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 1,
+      "surface": "Moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 2,
+      "surface": "matka",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 3,
+      "surface": "wstaje",
+      "word_id": "W1926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 4,
+      "surface": "wcześnie",
+      "word_id": "W249",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 5,
+      "surface": "rano",
+      "word_id": "W250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 1,
+      "surface": "Moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 2,
+      "surface": "mama",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 3,
+      "surface": "wstaje",
+      "word_id": "W1926",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 4,
+      "surface": "wcześnie",
+      "word_id": "W249",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 5,
+      "surface": "rano",
+      "word_id": "W250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 2,
+      "surface": "nigdy",
+      "word_id": "W253",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 3,
+      "surface": "niczego",
+      "word_id": "W1779",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 4,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 5,
+      "surface": "kończy",
+      "word_id": "W1937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 1,
+      "surface": "Zadzwoń",
+      "word_id": "W1549",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 2,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 3,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 4,
+      "surface": "jutro",
+      "word_id": "W236",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 5,
+      "surface": "rano",
+      "word_id": "W250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 6,
+      "surface": "o",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 7,
+      "surface": "dziewiątej",
+      "word_id": "W1948",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A650051",
+      "sentence_id": "S65005",
+      "direction": "fr_to_en",
+      "answer": "What time do you wake up?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650151",
+      "sentence_id": "S65015",
+      "direction": "fr_to_en",
+      "answer": "It's time to wake up.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650201",
+      "sentence_id": "S65020",
+      "direction": "fr_to_en",
+      "answer": "I will get up early tomorrow.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650341",
+      "sentence_id": "S65034",
+      "direction": "fr_to_en",
+      "answer": "Ring me tomorrow at nine o'clock.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

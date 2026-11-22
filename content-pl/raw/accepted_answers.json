@@ -928,6 +928,86 @@
     "status": "pulled"
   },
   {
+    "answer_id": "A370031",
+    "sentence_id": "S37003",
+    "direction": "fr_to_en",
+    "answer": "Did you say owt?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A370061",
+    "sentence_id": "S37006",
+    "direction": "fr_to_en",
+    "answer": "Why would you say that?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A370131",
+    "sentence_id": "S37013",
+    "direction": "fr_to_en",
+    "answer": "I understood that.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A370271",
+    "sentence_id": "S37027",
+    "direction": "fr_to_en",
+    "answer": "I didn't understand anything, either.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A380231",
+    "sentence_id": "S38023",
+    "direction": "fr_to_en",
+    "answer": "I wonder whether Tom has shown up yet.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A390061",
+    "sentence_id": "S39006",
+    "direction": "fr_to_en",
+    "answer": "It will probably rain.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A390101",
+    "sentence_id": "S39010",
+    "direction": "fr_to_en",
+    "answer": "That depends on you.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A390102",
+    "sentence_id": "S39010",
+    "direction": "fr_to_en",
+    "answer": "It depends on you.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A390103",
+    "sentence_id": "S39010",
+    "direction": "fr_to_en",
+    "answer": "This depends on you.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A390104",
+    "sentence_id": "S39010",
+    "direction": "fr_to_en",
+    "answer": "It is up to you.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
     "answer_id": "A410181",
     "sentence_id": "S41018",
     "direction": "fr_to_en",
@@ -1572,6 +1652,542 @@
     "sentence_id": "S58025",
     "direction": "fr_to_en",
     "answer": "It is good to see you.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A610021",
+    "sentence_id": "S61002",
+    "direction": "fr_to_en",
+    "answer": "At what time?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A610061",
+    "sentence_id": "S61006",
+    "direction": "fr_to_en",
+    "answer": "What time do you go to bed?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A610121",
+    "sentence_id": "S61012",
+    "direction": "fr_to_en",
+    "answer": "You are late.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A610131",
+    "sentence_id": "S61013",
+    "direction": "fr_to_en",
+    "answer": "You are late.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A610151",
+    "sentence_id": "S61015",
+    "direction": "fr_to_en",
+    "answer": "It's nearly six o'clock.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A610161",
+    "sentence_id": "S61016",
+    "direction": "fr_to_en",
+    "answer": "We've got three hours.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A610281",
+    "sentence_id": "S61028",
+    "direction": "fr_to_en",
+    "answer": "I am already late.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A640051",
+    "sentence_id": "S64005",
+    "direction": "fr_to_en",
+    "answer": "Come along with us.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A640241",
+    "sentence_id": "S64024",
+    "direction": "fr_to_en",
+    "answer": "Alright, let's go.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A640281",
+    "sentence_id": "S64028",
+    "direction": "fr_to_en",
+    "answer": "I've got a plan.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A650051",
+    "sentence_id": "S65005",
+    "direction": "fr_to_en",
+    "answer": "What time do you wake up?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A650151",
+    "sentence_id": "S65015",
+    "direction": "fr_to_en",
+    "answer": "It's time to wake up.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A650201",
+    "sentence_id": "S65020",
+    "direction": "fr_to_en",
+    "answer": "I will get up early tomorrow.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A650341",
+    "sentence_id": "S65034",
+    "direction": "fr_to_en",
+    "answer": "Ring me tomorrow at nine o'clock.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A660011",
+    "sentence_id": "S66001",
+    "direction": "fr_to_en",
+    "answer": "Where's the loo?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A660012",
+    "sentence_id": "S66001",
+    "direction": "fr_to_en",
+    "answer": "Where is the toilet?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A660061",
+    "sentence_id": "S66006",
+    "direction": "fr_to_en",
+    "answer": "The toilet is over there.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670081",
+    "sentence_id": "S67008",
+    "direction": "fr_to_en",
+    "answer": "Where is this train going?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670082",
+    "sentence_id": "S67008",
+    "direction": "fr_to_en",
+    "answer": "Where does this train go?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670083",
+    "sentence_id": "S67008",
+    "direction": "fr_to_en",
+    "answer": "Where is this train bound?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670084",
+    "sentence_id": "S67008",
+    "direction": "fr_to_en",
+    "answer": "Where's this train bound for?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670121",
+    "sentence_id": "S67012",
+    "direction": "fr_to_en",
+    "answer": "How fast does this train run?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670131",
+    "sentence_id": "S67013",
+    "direction": "fr_to_en",
+    "answer": "I saw an aeroplane.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670141",
+    "sentence_id": "S67014",
+    "direction": "fr_to_en",
+    "answer": "Let me check your ticket.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A670211",
+    "sentence_id": "S67021",
+    "direction": "fr_to_en",
+    "answer": "We are going to the mountains.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A680011",
+    "sentence_id": "S68001",
+    "direction": "fr_to_en",
+    "answer": "The flight was cancelled.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A680091",
+    "sentence_id": "S68009",
+    "direction": "fr_to_en",
+    "answer": "I think the train will soon be here.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A680092",
+    "sentence_id": "S68009",
+    "direction": "fr_to_en",
+    "answer": "I think the train will be here soon.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690091",
+    "sentence_id": "S69009",
+    "direction": "fr_to_en",
+    "answer": "Shut the door.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690101",
+    "sentence_id": "S69010",
+    "direction": "fr_to_en",
+    "answer": "Shut the window.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690161",
+    "sentence_id": "S69016",
+    "direction": "fr_to_en",
+    "answer": "Check this.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690251",
+    "sentence_id": "S69025",
+    "direction": "fr_to_en",
+    "answer": "Please shut the door.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690261",
+    "sentence_id": "S69026",
+    "direction": "fr_to_en",
+    "answer": "Text me.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690301",
+    "sentence_id": "S69030",
+    "direction": "fr_to_en",
+    "answer": "Forget it!",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690311",
+    "sentence_id": "S69031",
+    "direction": "fr_to_en",
+    "answer": "Read this in the evening!",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A690331",
+    "sentence_id": "S69033",
+    "direction": "fr_to_en",
+    "answer": "Look at this stuff.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A710011",
+    "sentence_id": "S71001",
+    "direction": "fr_to_en",
+    "answer": "Where have you been yesterday?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A710051",
+    "sentence_id": "S71005",
+    "direction": "fr_to_en",
+    "answer": "Yesterday I was ill.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A710161",
+    "sentence_id": "S71016",
+    "direction": "fr_to_en",
+    "answer": "I thought that it was a bottle.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A710211",
+    "sentence_id": "S71021",
+    "direction": "fr_to_en",
+    "answer": "Where have you been?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A710401",
+    "sentence_id": "S71040",
+    "direction": "fr_to_en",
+    "answer": "Has he returned yet?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720021",
+    "sentence_id": "S72002",
+    "direction": "fr_to_en",
+    "answer": "It's going to rain tomorrow.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720041",
+    "sentence_id": "S72004",
+    "direction": "fr_to_en",
+    "answer": "The wind is blowing.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720061",
+    "sentence_id": "S72006",
+    "direction": "fr_to_en",
+    "answer": "Where I live, we have snow in January.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720071",
+    "sentence_id": "S72007",
+    "direction": "fr_to_en",
+    "answer": "What will the weather be like tomorrow?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720072",
+    "sentence_id": "S72007",
+    "direction": "fr_to_en",
+    "answer": "What's the weather going to be like tomorrow?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720091",
+    "sentence_id": "S72009",
+    "direction": "fr_to_en",
+    "answer": "What's the weather like?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720221",
+    "sentence_id": "S72022",
+    "direction": "fr_to_en",
+    "answer": "Is it going to rain tomorrow?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720271",
+    "sentence_id": "S72027",
+    "direction": "fr_to_en",
+    "answer": "What's the weather like?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720291",
+    "sentence_id": "S72029",
+    "direction": "fr_to_en",
+    "answer": "What's the weather like there?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A720301",
+    "sentence_id": "S72030",
+    "direction": "fr_to_en",
+    "answer": "What is the weather like today?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A730141",
+    "sentence_id": "S73014",
+    "direction": "fr_to_en",
+    "answer": "What time does it start?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A730231",
+    "sentence_id": "S73023",
+    "direction": "fr_to_en",
+    "answer": "Is it OK if we change the subject?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A730341",
+    "sentence_id": "S73034",
+    "direction": "fr_to_en",
+    "answer": "How long have we got to stay here?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A730371",
+    "sentence_id": "S73037",
+    "direction": "fr_to_en",
+    "answer": "That'll do.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A730372",
+    "sentence_id": "S73037",
+    "direction": "fr_to_en",
+    "answer": "That will do.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A730373",
+    "sentence_id": "S73037",
+    "direction": "fr_to_en",
+    "answer": "That does it.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A740051",
+    "sentence_id": "S74005",
+    "direction": "fr_to_en",
+    "answer": "Can it be phrased another way?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750041",
+    "sentence_id": "S75004",
+    "direction": "fr_to_en",
+    "answer": "Do you like sport?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750111",
+    "sentence_id": "S75011",
+    "direction": "fr_to_en",
+    "answer": "Aren't you pleased?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750112",
+    "sentence_id": "S75011",
+    "direction": "fr_to_en",
+    "answer": "Aren't you satisfied?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750211",
+    "sentence_id": "S75021",
+    "direction": "fr_to_en",
+    "answer": "I'm scared.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750212",
+    "sentence_id": "S75021",
+    "direction": "fr_to_en",
+    "answer": "I'm frightened.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750213",
+    "sentence_id": "S75021",
+    "direction": "fr_to_en",
+    "answer": "I am afraid.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750214",
+    "sentence_id": "S75021",
+    "direction": "fr_to_en",
+    "answer": "I am scared.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750221",
+    "sentence_id": "S75022",
+    "direction": "fr_to_en",
+    "answer": "I prefer to read.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A750321",
+    "sentence_id": "S75032",
+    "direction": "fr_to_en",
+    "answer": "Tom is afraid.",
     "source": "tatoeba",
     "status": "pulled"
   }

@@ -1,5 +1,5 @@
 {
- "_about": "Polish course review decisions (Builder 2, 2026-11-21, branch content/pl-a1; Part 1 gathered for review, no unit approvals yet). units: circle approvals (none: Dan and Fable decide). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword (corrections need gender_corrections with a why). names: people and places allowed in sentences, in the nominative only (Toma, Tomowi are other cases and are not names here). sentences/cut_sentences/claude_hints/accepted_additions as the review needs.",
+ "_about": "Polish course review decisions (Builder 2, 2026-11-21, branch content/pl-a1; Part 1 gathered for review, no unit approvals yet). units: circle approvals (none: Dan and Fable decide). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword (corrections need gender_corrections with a why). names: people and places allowed in sentences, in the nominative only (Toma, Tomowi are other cases and are not names here). sentences/cut_sentences/claude_hints/accepted_additions as the review needs. Part 3 (2026-11-21, gathered for review): claude_hints for its 429 words from the cited Wiktionary definitions; gender for 26 case forms; names unchanged.",
  "sentences": {},
  "accepted_answers": {},
  "units": {},
@@ -2134,6 +2134,1722 @@
   "W1277": {
    "hint": "light",
    "source": "Wiktionary, światło: \"light (illumination)\""
+  },
+  "W1801": {
+   "hint": "which (o której? at what time?; który)",
+   "source": "Wiktionary, której: \"genitive/dative/locative feminine singular of który\", form of który: \"interrogative pronoun, referring to a number of choices; what, which one\""
+  },
+  "W1802": {
+   "hint": "one o'clock",
+   "source": "Wiktionary, pierwsza: \"one o'clock (start of the second hour of the day; 1:00 a.m. (01:00))\""
+  },
+  "W1803": {
+   "hint": "two o'clock",
+   "source": "Wiktionary, druga: \"two o'clock (start of the third hour of the day; 2:00 a.m. (02:00))\""
+  },
+  "W1804": {
+   "hint": "three o'clock",
+   "source": "Wiktionary, trzecia: \"three o'clock (start of the fourth hour of the day; 3:00 a.m. (03:00))\""
+  },
+  "W1805": {
+   "hint": "four o'clock",
+   "source": "Wiktionary, czwarta: \"four o'clock (start of the fifth hour of the day; 4:00 a.m. (04:00))\""
+  },
+  "W1806": {
+   "hint": "five o'clock",
+   "source": "Wiktionary, piąta: \"five o'clock (start of the sixth hour of the day; 5:00 a.m. (05:00))\""
+  },
+  "W1807": {
+   "hint": "six o'clock",
+   "source": "Wiktionary, szósta: \"six o'clock (start of the seventh hour of the day; 6:00 a.m. (06:00))\""
+  },
+  "W1808": {
+   "hint": "seven o'clock",
+   "source": "Wiktionary, siódma: \"seven o'clock (start of the eighth hour of the day; 7:00 a.m. (07:00))\""
+  },
+  "W1809": {
+   "hint": "eight o'clock",
+   "source": "Wiktionary, ósma: \"eight o'clock (start of the ninth hour of the day; 8:00 a.m. (08:00))\""
+  },
+  "W1810": {
+   "hint": "nine o'clock",
+   "source": "Wiktionary, dziewiąta: \"nine o'clock (start of the tenth hour of the day; 9:00 a.m. (09:00))\""
+  },
+  "W1811": {
+   "hint": "ten o'clock",
+   "source": "Wiktionary, dziesiąta: \"ten o'clock (start of the eleventh hour of the day; 10:00 a.m. (10:00))\""
+  },
+  "W1812": {
+   "hint": "eleven o'clock",
+   "source": "Wiktionary, jedenasta: \"eleven o'clock (start of the twelfth hour of the day; 11:00 a.m. (11:00))\""
+  },
+  "W1813": {
+   "hint": "twelve o'clock",
+   "source": "Wiktionary, dwunasta: \"twelve o'clock (start of the thirteenth hour of the day; 12:00 p.m. (12:00))\""
+  },
+  "W1814": {
+   "hint": "three o'clock (o trzeciej: at three; trzecia)",
+   "source": "Wiktionary, trzeciej: \"genitive/dative/locative singular of trzecia\", form of trzecia: \"three o'clock\""
+  },
+  "W1815": {
+   "hint": "four o'clock (o czwartej: at four; czwarta)",
+   "source": "Wiktionary, czwartej: \"genitive/dative/locative singular of czwarta\", form of czwarta: \"four o'clock\""
+  },
+  "W1816": {
+   "hint": "eight o'clock (o ósmej: at eight; ósma)",
+   "source": "Wiktionary, ósmej: \"genitive/dative/locative singular of ósma\", form of ósma: \"eight o'clock\""
+  },
+  "W1817": {
+   "hint": "half (wpół do czwartej: half past three)",
+   "source": "Wiktionary, wpół: \"in half (into two halves)\""
+  },
+  "W1818": {
+   "hint": "quarter of an hour",
+   "source": "Wiktionary, kwadrans: \"quarter of an hour\""
+  },
+  "W1819": {
+   "hint": "half",
+   "source": "Wiktionary, pół: \"half (one of two)\""
+  },
+  "W1820": {
+   "hint": "minute",
+   "source": "Wiktionary, minuta: \"minute (unit of time equal to sixty seconds) minute (short moment)\""
+  },
+  "W1821": {
+   "hint": "minutes (minuta; after five and up)",
+   "source": "Wiktionary, minut: \"genitive plural of minuta\", form of minuta: \"minute minute\""
+  },
+  "W1822": {
+   "hint": "hours; of an hour (godzina)",
+   "source": "Wiktionary, godziny: \"inflection of godzina: nominative/accusative/vocative plural genitive singular\", form of godzina: \"hour\""
+  },
+  "W1823": {
+   "hint": "hour (godzina; object form)",
+   "source": "Wiktionary, godzinę: \"accusative singular of godzina\", form of godzina: \"hour\""
+  },
+  "W1824": {
+   "hint": "noon, midday",
+   "source": "Wiktionary, południe: \"noon; midday (time of day when the Sun seems to reach its highest point in the sky; mean time of solar noon, marked as twelve o'clock on most clocks)\""
+  },
+  "W1825": {
+   "hint": "midnight",
+   "source": "Wiktionary, północ: \"midnight\""
+  },
+  "W1826": {
+   "hint": "night",
+   "source": "Wiktionary, noc: \"night, nighttime (period of time from sundown to sunup)\""
+  },
+  "W1827": {
+   "hint": "night (noc; w nocy: at night)",
+   "source": "Wiktionary, nocy: \"inflection of noc: genitive singular/plural dative/locative/vocative singular\", form of noc: \"night, nighttime\""
+  },
+  "W1828": {
+   "hint": "later",
+   "source": "Wiktionary, później: \"later, next, afterwards, after\""
+  },
+  "W1829": {
+   "hint": "earlier, before",
+   "source": "Wiktionary, wcześniej: \"formerly, before\""
+  },
+  "W1830": {
+   "hint": "watch (a small clock)",
+   "source": "Wiktionary, zegarek: \"diminutive of zegar\""
+  },
+  "W1831": {
+   "hint": "late (said of a man)",
+   "source": "Wiktionary, spóźniony: \"late (not arriving until after an expected time)\""
+  },
+  "W1832": {
+   "hint": "late (said of a woman)",
+   "source": "Wiktionary, spóźniona: \"nominative/vocative feminine singular of spóźniony\", form of spóźniony: \"late\""
+  },
+  "W1833": {
+   "hint": "you said (to a man; powiedzieć)",
+   "source": "Wiktionary, powiedziałeś: \"second-person singular masculine past of powiedzieć\", form of powiedzieć: \"to speak, to talk [with do or dative ‘ whom’, along with o ‘about what’]\""
+  },
+  "W1834": {
+   "hint": "you said (to a woman; powiedzieć)",
+   "source": "Wiktionary, powiedziałaś: \"second-person singular feminine past of powiedzieć\", form of powiedzieć: \"to speak, to talk [with do or dative ‘ whom’, along with o ‘about what’]\""
+  },
+  "W1835": {
+   "hint": "I understood (said by a man; zrozumieć)",
+   "source": "Wiktionary, zrozumiałem: \"first-person singular masculine past of zrozumieć\", form of zrozumieć: \"to understand; to realize\""
+  },
+  "W1836": {
+   "hint": "I understood (said by a woman; zrozumieć)",
+   "source": "Wiktionary, zrozumiałam: \"first-person singular feminine past of zrozumieć\", form of zrozumieć: \"to understand; to realize\""
+  },
+  "W1837": {
+   "hint": "to understand",
+   "source": "Wiktionary, zrozumieć: \"to understand; to realize (to begin to grasp a concept fully in one's mind)\""
+  },
+  "W1838": {
+   "hint": "voice",
+   "source": "Wiktionary, głos: \"voice (sound uttered by the mouth)\""
+  },
+  "W1839": {
+   "hint": "quietly",
+   "source": "Wiktionary, cicho: \"quietly, silently\""
+  },
+  "W1840": {
+   "hint": "loudly",
+   "source": "Wiktionary, głośno: \"loudly\""
+  },
+  "W1841": {
+   "hint": "again",
+   "source": "Wiktionary, znowu: \"again, anew, once more\""
+  },
+  "W1842": {
+   "hint": "weakly, poorly",
+   "source": "Wiktionary, słabo: \"weakly, poorly\""
+  },
+  "W1843": {
+   "hint": "can be heard",
+   "source": "Wiktionary, słychać: \"to be able to be heard, to be audible\""
+  },
+  "W1844": {
+   "hint": "to hear",
+   "source": "Wiktionary, usłyszeć: \"to hear\""
+  },
+  "W1845": {
+   "hint": "Saturday (w sobotę: on Saturday; sobota)",
+   "source": "Wiktionary, sobotę: \"accusative singular of sobota\", form of sobota: \"Saturday\""
+  },
+  "W1846": {
+   "hint": "Sunday (w niedzielę: on Sunday; niedziela)",
+   "source": "Wiktionary, niedzielę: \"accusative singular of niedziela\", form of niedziela: \"Sunday\""
+  },
+  "W1847": {
+   "hint": "Wednesday (w środę: on Wednesday; środa)",
+   "source": "Wiktionary, środę: \"accusative singular of środa\", form of środa: \"Wednesday\""
+  },
+  "W1848": {
+   "hint": "weekend",
+   "source": "Wiktionary, weekend: \"weekend (break in the working week)\""
+  },
+  "W1849": {
+   "hint": "usually, as a rule",
+   "source": "Wiktionary, zwykle: \"as a rule, at large, commonly, generally, in general, mostly, usually\""
+  },
+  "W1850": {
+   "hint": "rarely, seldom",
+   "source": "Wiktionary, rzadko: \"rarely, seldom\""
+  },
+  "W1851": {
+   "hint": "the day after tomorrow",
+   "source": "Wiktionary, pojutrze: \"day after tomorrow, overmorrow\""
+  },
+  "W1852": {
+   "hint": "the day before yesterday",
+   "source": "Wiktionary, przedwczoraj: \"day before yesterday, ereyesterday\""
+  },
+  "W1853": {
+   "hint": "times (dwa razy: twice)",
+   "source": "Wiktionary, razy: \"times (multiplied by)\""
+  },
+  "W1854": {
+   "hint": "week (w tygodniu: in the week; tydzień)",
+   "source": "Wiktionary, tygodniu: \"locative/vocative singular of tydzień\", form of tydzień: \"week\""
+  },
+  "W1855": {
+   "hint": "next (w przyszłym tygodniu: next week; przyszły)",
+   "source": "Wiktionary, przyszłym: \"inflection of przyszły: dative plural instrumental/locative masculine/neuter singular\", form of przyszły: \"future\""
+  },
+  "W1856": {
+   "hint": "last (w zeszłym tygodniu: last week; zeszły)",
+   "source": "Wiktionary, zeszłym: \"inflection of zeszły: dative plural instrumental/locative masculine/neuter singular\", form of zeszły: \"last\""
+  },
+  "W1857": {
+   "hint": "lately, recently",
+   "source": "Wiktionary, ostatnio: \"lately, recently, the other day\""
+  },
+  "W1858": {
+   "hint": "first, first of all",
+   "source": "Wiktionary, najpierw: \"first, firstly, first of all (before anything else)\""
+  },
+  "W1859": {
+   "hint": "then, afterwards",
+   "source": "Wiktionary, potem: \"then, later, afterwards\""
+  },
+  "W1860": {
+   "hint": "then, back then",
+   "source": "Wiktionary, wtedy: \"back then, then (at that time)\""
+  },
+  "W1861": {
+   "hint": "when",
+   "source": "Wiktionary, gdy: \"when, as\""
+  },
+  "W1862": {
+   "hint": "days (dzień)",
+   "source": "Wiktionary, dni: \"nominative/genitive/accusative/vocative plural of dzień\", form of dzień: \"day; daytime\""
+  },
+  "W1863": {
+   "hint": "January (w styczniu: in January)",
+   "source": "Wiktionary, styczniu: \"locative/vocative singular of styczeń\", form of styczeń: \"January\""
+  },
+  "W1864": {
+   "hint": "February (w lutym: in February)",
+   "source": "Wiktionary, lutym: \"inflection of luty: dative plural instrumental/locative singular\", form of luty: \"February\""
+  },
+  "W1865": {
+   "hint": "March (w marcu: in March)",
+   "source": "Wiktionary, marcu: \"locative/vocative singular of marzec\", form of marzec: \"March\""
+  },
+  "W1866": {
+   "hint": "April (w kwietniu: in April)",
+   "source": "Wiktionary, kwietniu: \"locative/vocative singular of kwiecień\", form of kwiecień: \"April\""
+  },
+  "W1867": {
+   "hint": "May (w maju: in May)",
+   "source": "Wiktionary, maju: \"locative/vocative singular of maj\", form of maj: \"May\""
+  },
+  "W1868": {
+   "hint": "June (w czerwcu: in June)",
+   "source": "Wiktionary, czerwcu: \"locative/vocative singular of czerwiec (“June”)\""
+  },
+  "W1869": {
+   "hint": "July (w lipcu: in July)",
+   "source": "Wiktionary, lipcu: \"locative/vocative singular of lipiec\", form of lipiec: \"July\""
+  },
+  "W1870": {
+   "hint": "August (w sierpniu: in August)",
+   "source": "Wiktionary, sierpniu: \"locative/vocative singular of sierpień\", form of sierpień: \"August\""
+  },
+  "W1871": {
+   "hint": "September (we wrześniu: in September)",
+   "source": "Wiktionary, wrześniu: \"locative/vocative singular of wrzesień\", form of wrzesień: \"September\""
+  },
+  "W1872": {
+   "hint": "October (w październiku: in October)",
+   "source": "Wiktionary, październiku: \"locative/vocative singular of październik\", form of październik: \"October\""
+  },
+  "W1873": {
+   "hint": "November (w listopadzie: in November)",
+   "source": "Wiktionary, listopadzie: \"locative/vocative singular of listopad\", form of listopad: \"November\""
+  },
+  "W1874": {
+   "hint": "December (w grudniu: in December)",
+   "source": "Wiktionary, grudniu: \"locative/vocative singular of grudzień\", form of grudzień: \"December\""
+  },
+  "W1875": {
+   "hint": "spring",
+   "source": "Wiktionary, wiosna: \"spring (season)\""
+  },
+  "W1876": {
+   "hint": "summer",
+   "source": "Wiktionary, lato: \"summer (hottest season of the year)\""
+  },
+  "W1877": {
+   "hint": "autumn",
+   "source": "Wiktionary, jesień: \"autumn (traditionally the third of the four seasons, when deciduous trees lose their leaves; typically regarded as being from September 24 to December 22 in parts of the Northern Hemisphere, and the months of March, April and May in the Southern Hemisphere)\""
+  },
+  "W1878": {
+   "hint": "winter",
+   "source": "Wiktionary, zima: \"winter\""
+  },
+  "W1879": {
+   "hint": "spring (na wiosnę: in spring; wiosna)",
+   "source": "Wiktionary, wiosnę: \"accusative singular of wiosna\", form of wiosna: \"spring\""
+  },
+  "W1880": {
+   "hint": "summer (w lecie: in summer; lato)",
+   "source": "Wiktionary, lecie: \"locative singular of lato\", form of lato: \"summer\""
+  },
+  "W1881": {
+   "hint": "autumn (na jesieni: in autumn; jesień)",
+   "source": "Wiktionary, jesieni: \"inflection of jesień: genitive singular/plural dative/locative/vocative singular\", form of jesień: \"autumn\""
+  },
+  "W1882": {
+   "hint": "winter (w zimie: in winter; zima)",
+   "source": "Wiktionary, zimie: \"dative/locative singular of zima\", form of zima: \"winter\""
+  },
+  "W1883": {
+   "hint": "time (pora roku: season)",
+   "source": "Wiktionary, pora: \"time\""
+  },
+  "W1884": {
+   "hint": "year (rok; w tym roku, pora roku)",
+   "source": "Wiktionary, roku: \"genitive/locative/vocative singular of rok\", form of rok: \"year\""
+  },
+  "W1885": {
+   "hint": "beginning (na początku: at the start; początek)",
+   "source": "Wiktionary, początku: \"genitive/locative/vocative singular of początek\", form of początek: \"beginning\""
+  },
+  "W1886": {
+   "hint": "summer holidays",
+   "source": "Wiktionary, wakacje: \"summer school break in Poland, between late June and September 1\""
+  },
+  "W1887": {
+   "hint": "holidays (święto)",
+   "source": "Wiktionary, święta: \"inflection of święto: nominative/accusative/vocative plural genitive singular\", form of święto: \"holiday\""
+  },
+  "W1888": {
+   "hint": "date",
+   "source": "Wiktionary, data: \"date (point of time at which event takes place; a specific day)\""
+  },
+  "W1889": {
+   "hint": "I'll think (niech pomyślę: let me think; pomyśleć)",
+   "source": "Wiktionary, pomyślę: \"first-person singular future of pomyśleć\", form of pomyśleć: \"to think [with nad ‘of/about/over something’]\""
+  },
+  "W1890": {
+   "hint": "I wonder (zastanawiam się; zastanawiać się)",
+   "source": "Wiktionary, zastanawiam: \"first-person singular present of zastanawiać się\", form of zastanawiać: \"to wonder; to think idly about something\""
+  },
+  "W1891": {
+   "hint": "to think over (zastanowić się)",
+   "source": "Wiktionary, zastanowić: \"to wonder; to think idly about something\""
+  },
+  "W1892": {
+   "hint": "actually, in fact",
+   "source": "Wiktionary, właściwie: \"emphasize particle; actually; in fact, well; really\""
+  },
+  "W1893": {
+   "hint": "well...",
+   "source": "Wiktionary, cóż: \"well...\""
+  },
+  "W1894": {
+   "hint": "wait! (poczekać)",
+   "source": "Wiktionary, poczekaj: \"second-person singular imperative of poczekać\", form of poczekać: \"to wait [with na]\""
+  },
+  "W1895": {
+   "hint": "after all, but",
+   "source": "Wiktionary, przecież: \"used to state that something is obvious, but; after all\""
+  },
+  "W1896": {
+   "hint": "however; after all",
+   "source": "Wiktionary, jednak: \"however\""
+  },
+  "W1897": {
+   "hint": "thought",
+   "source": "Wiktionary, myśl: \"thought (representation created in the mind) [with o (+ locative) ‘about what’]\""
+  },
+  "W1898": {
+   "hint": "with (before some consonants: ze mną)",
+   "source": "Wiktionary, ze: \"alternative form of z\""
+  },
+  "W1899": {
+   "hint": "me (ze mną: with me; ja)",
+   "source": "Wiktionary, mną: \"instrumental singular of ja\", form of ja: \"first-person pronoun; I\""
+  },
+  "W1900": {
+   "hint": "you (z tobą: with you; ty)",
+   "source": "Wiktionary, tobą: \"instrumental singular of ty\", form of ty: \"you\""
+  },
+  "W1901": {
+   "hint": "us (z nami: with us; my)",
+   "source": "Wiktionary, nami: \"instrumental plural of my\", form of my: \"we; first person plural\""
+  },
+  "W1902": {
+   "hint": "friend (z kolegą: with a friend; kolega)",
+   "source": "Wiktionary, kolegą: \"instrumental singular of kolega\", form of kolega: \"companion friend, buddy, pal, mate colleague\""
+  },
+  "W1903": {
+   "hint": "friend (z przyjacielem: with a friend; przyjaciel)",
+   "source": "Wiktionary, przyjacielem: \"instrumental singular of przyjaciel\", form of przyjaciel: \"friend; best friend, bosom friend, close friend\""
+  },
+  "W1904": {
+   "hint": "family (z rodziną: with the family; rodzina)",
+   "source": "Wiktionary, rodziną: \"instrumental singular of rodzina\", form of rodzina: \"family synonym of krewny / pokrewieństwo\""
+  },
+  "W1905": {
+   "hint": "I will be (być)",
+   "source": "Wiktionary, będę: \"first-person singular future of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W1906": {
+   "hint": "you will be (być)",
+   "source": "Wiktionary, będziesz: \"second-person singular future of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W1907": {
+   "hint": "we will be (być)",
+   "source": "Wiktionary, będziemy: \"first-person plural future of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W1908": {
+   "hint": "plan",
+   "source": "Wiktionary, plan: \"plan (a set of intended actions, usually mutually related, through which one expects to achieve a goal) [with żeby (+ past-tense clause or infinitive) ‘to do what’]\""
+  },
+  "W1909": {
+   "hint": "plans (plan)",
+   "source": "Wiktionary, plany: \"nominative/accusative/vocative plural of plan\", form of plan: \"plan [with żeby ‘to do what’]\""
+  },
+  "W1910": {
+   "hint": "meeting",
+   "source": "Wiktionary, spotkanie: \"meeting (act of persons or things that meet) [with z (+ instrumental) ‘with whom’]\""
+  },
+  "W1911": {
+   "hint": "to meet",
+   "source": "Wiktionary, spotkać: \"to meet (to come to the same place as someone) to meet (to become acquainted with someone or something) to meet (to confirm the existence of someone or something)\""
+  },
+  "W1912": {
+   "hint": "let's meet (spotkajmy się; spotkać)",
+   "source": "Wiktionary, spotkajmy: \"first-person plural imperative of spotkać\", form of spotkać: \"to meet to meet to meet\""
+  },
+  "W1913": {
+   "hint": "we meet (spotykamy się; spotykać)",
+   "source": "Wiktionary, spotykamy: \"first-person plural present of spotykać\", form of spotykać: \"to meet to meet to meet\""
+  },
+  "W1914": {
+   "hint": "cinema (do kina: to the cinema; kino)",
+   "source": "Wiktionary, kina: \"inflection of kino: nominative/accusative/vocative plural genitive singular\", form of kino: \"cinema, movie theater\""
+  },
+  "W1915": {
+   "hint": "theatre",
+   "source": "Wiktionary, teatr: \"theater (institution that performs various spectacles)\""
+  },
+  "W1916": {
+   "hint": "theatre (do teatru: to the theatre; teatr)",
+   "source": "Wiktionary, teatru: \"genitive singular of teatr\", form of teatr: \"theater\""
+  },
+  "W1917": {
+   "hint": "gladly",
+   "source": "Wiktionary, chętnie: \"gladly\""
+  },
+  "W1918": {
+   "hint": "come! (chodzić)",
+   "source": "Wiktionary, chodź: \"second-person singular imperative of chodzić (“to walk”)\""
+  },
+  "W1919": {
+   "hint": "let's go (chodzić)",
+   "source": "Wiktionary, chodźmy: \"first-person plural imperative of chodzić (“to walk”)\""
+  },
+  "W1920": {
+   "hint": "to go",
+   "source": "Wiktionary, pójść: \"to go; to walk\""
+  },
+  "W1921": {
+   "hint": "decision",
+   "source": "Wiktionary, decyzja: \"decision (choice or judgement)\""
+  },
+  "W1922": {
+   "hint": "evening",
+   "source": "Wiktionary, wieczór: \"evening (time of day before night)\""
+  },
+  "W1923": {
+   "hint": "future (w przyszłości: in the future; przyszłość)",
+   "source": "Wiktionary, przyszłości: \"genitive/dative/locative/vocative singular of przyszłość\", form of przyszłość: \"future\""
+  },
+  "W1924": {
+   "hint": "I get up (wstawać)",
+   "source": "Wiktionary, wstaję: \"first-person singular present of wstawać\", form of wstawać: \"to get up\""
+  },
+  "W1925": {
+   "hint": "you get up (wstawać)",
+   "source": "Wiktionary, wstajesz: \"second-person singular present of wstawać\", form of wstawać: \"to get up\""
+  },
+  "W1926": {
+   "hint": "gets up (wstawać)",
+   "source": "Wiktionary, wstaje: \"third-person singular present of wstawać\", form of wstawać: \"to get up\""
+  },
+  "W1927": {
+   "hint": "to get up",
+   "source": "Wiktionary, wstawać: \"to get up (to rise from bed)\""
+  },
+  "W1928": {
+   "hint": "I wake (budzę się: I wake up; budzić)",
+   "source": "Wiktionary, budzę: \"first-person singular present of budzić\", form of budzić: \"to awaken, to wake, to wake up, to stir [with z ‘from what’; or with instrumental ‘with what’]\""
+  },
+  "W1929": {
+   "hint": "breakfast",
+   "source": "Wiktionary, śniadanie: \"breakfast (first meal of the day)\""
+  },
+  "W1930": {
+   "hint": "dinner, lunch (the main meal)",
+   "source": "Wiktionary, obiad: \"dinner, lunch (meal usually eaten around 1 or 2 p.m., and sometimes stretching as late as 4 or 5 p.m.)\""
+  },
+  "W1931": {
+   "hint": "supper",
+   "source": "Wiktionary, kolacja: \"supper (any meal eaten in the evening)\""
+  },
+  "W1932": {
+   "hint": "supper (kolacja; object form)",
+   "source": "Wiktionary, kolację: \"accusative singular of kolacja\", form of kolacja: \"supper\""
+  },
+  "W1933": {
+   "hint": "shower",
+   "source": "Wiktionary, prysznic: \"shower, shower bath (device for bathing by which water is made to fall on the body from a height, either from a tank or by the action of a pump)\""
+  },
+  "W1934": {
+   "hint": "I wash, I brush (myć)",
+   "source": "Wiktionary, myję: \"first-person singular present of myć\", form of myć: \"to wash; to brush; to scrub; to clean [with instrumental ‘with what’; or with w ‘in what’; or with pod ‘in what liquid’; or with dative ‘for whom/what’]\""
+  },
+  "W1935": {
+   "hint": "teeth (ząb)",
+   "source": "Wiktionary, zęby: \"nominative/accusative/vocative plural of ząb (“tooth”)\""
+  },
+  "W1936": {
+   "hint": "I finish (kończyć)",
+   "source": "Wiktionary, kończę: \"first-person singular present of kończyć\", form of kończyć: \"to end, to finish\""
+  },
+  "W1937": {
+   "hint": "finishes (kończyć)",
+   "source": "Wiktionary, kończy: \"third-person singular present of kończyć\", form of kończyć: \"to end, to finish\""
+  },
+  "W1938": {
+   "hint": "to finish, to end",
+   "source": "Wiktionary, kończyć: \"to end, to finish\""
+  },
+  "W1939": {
+   "hint": "as",
+   "source": "Wiktionary, jako: \"as (in the role of; by way of) [with nominative]\""
+  },
+  "W1940": {
+   "hint": "who (kim jesteś?; kto)",
+   "source": "Wiktionary, kim: \"instrumental/locative singular of kto\", form of kto: \"someone\""
+  },
+  "W1941": {
+   "hint": "teacher (jestem nauczycielem; nauczyciel)",
+   "source": "Wiktionary, nauczycielem: \"instrumental singular of nauczyciel\", form of nauczyciel: \"teacher\""
+  },
+  "W1942": {
+   "hint": "teacher, a woman (jest nauczycielką; nauczycielka)",
+   "source": "Wiktionary, nauczycielką: \"instrumental singular of nauczycielka\", form of nauczycielka: \"female equivalent of nauczyciel\""
+  },
+  "W1943": {
+   "hint": "doctor (jest lekarzem; lekarz)",
+   "source": "Wiktionary, lekarzem: \"instrumental singular of lekarz\", form of lekarz: \"doctor; physician, medical doctor\""
+  },
+  "W1944": {
+   "hint": "student (jestem studentem; student)",
+   "source": "Wiktionary, studentem: \"instrumental singular of student\", form of student: \"student, university student\""
+  },
+  "W1945": {
+   "hint": "student, a woman (jestem studentką; studentka)",
+   "source": "Wiktionary, studentką: \"instrumental singular of studentka\", form of studentka: \"female equivalent of student\""
+  },
+  "W1946": {
+   "hint": "seven o'clock (o siódmej: at seven; siódma)",
+   "source": "Wiktionary, siódmej: \"genitive/dative/locative singular of siódma\", form of siódma: \"seven o'clock\""
+  },
+  "W1947": {
+   "hint": "six o'clock (o szóstej: at six; szósta)",
+   "source": "Wiktionary, szóstej: \"genitive/dative/locative singular of szósta\", form of szósta: \"six o'clock\""
+  },
+  "W1948": {
+   "hint": "nine o'clock (o dziewiątej: at nine; dziewiąta)",
+   "source": "Wiktionary, dziewiątej: \"genitive/dative/locative singular of dziewiąta\", form of dziewiąta: \"nine o'clock\""
+  },
+  "W1949": {
+   "hint": "five o'clock (o piątej: at five; piąta)",
+   "source": "Wiktionary, piątej: \"genitive/dative/locative singular of piąta\", form of piąta: \"five o'clock\""
+  },
+  "W1950": {
+   "hint": "work (praca; object form)",
+   "source": "Wiktionary, pracę: \"accusative singular of praca\", form of praca: \"work\""
+  },
+  "W1951": {
+   "hint": "entrance, way in",
+   "source": "Wiktionary, wejście: \"entrance, entry, way in\""
+  },
+  "W1952": {
+   "hint": "exit, way out",
+   "source": "Wiktionary, wyjście: \"exit, way out\""
+  },
+  "W1953": {
+   "hint": "attention!, watch out!",
+   "source": "Wiktionary, uwaga: \"attention (concentration on something)\""
+  },
+  "W1954": {
+   "hint": "ban, prohibition",
+   "source": "Wiktionary, zakaz: \"prohibition, ban\""
+  },
+  "W1955": {
+   "hint": "smoking (zakaz palenia: no smoking; palenie)",
+   "source": "Wiktionary, palenia: \"genitive singular of palenie\", form of palenie: \"verbal noun of palić\""
+  },
+  "W1956": {
+   "hint": "to smoke",
+   "source": "Wiktionary, palić: \"to smoke (to inhale and exhale the smoke from a burning cigarette, cigar, pipe, etc.)\""
+  },
+  "W1957": {
+   "hint": "toilet",
+   "source": "Wiktionary, toaleta: \"toilet, lavatory, loo\""
+  },
+  "W1958": {
+   "hint": "chemist's, pharmacy",
+   "source": "Wiktionary, apteka: \"pharmacy (place where prescription drugs are dispensed)\""
+  },
+  "W1959": {
+   "hint": "police",
+   "source": "Wiktionary, policja: \"police (public agency charged with enforcing laws and maintaining public order, usually being granted special privileges to do so)\""
+  },
+  "W1960": {
+   "hint": "information",
+   "source": "Wiktionary, informacja: \"information (communicable knowledge)\""
+  },
+  "W1961": {
+   "hint": "cash desk, ticket office",
+   "source": "Wiktionary, kasa: \"cash desk; checkout\""
+  },
+  "W1962": {
+   "hint": "open (of a shop or office; czynny)",
+   "source": "Wiktionary, czynne: \"inflection of czynny: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of czynny: \"open\""
+  },
+  "W1963": {
+   "hint": "closed, out of order (nieczynny)",
+   "source": "Wiktionary, nieczynne: \"inflection of nieczynny: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of nieczynny: \"inactive; closed; out of order\""
+  },
+  "W1964": {
+   "hint": "entry, admission",
+   "source": "Wiktionary, wstęp: \"entry, admission, admittance (permission to enter)\""
+  },
+  "W1965": {
+   "hint": "to touch",
+   "source": "Wiktionary, dotykać: \"to touch (make physical contact with)\""
+  },
+  "W1966": {
+   "hint": "by bus (autobus)",
+   "source": "Wiktionary, autobusem: \"instrumental singular of autobus\", form of autobus: \"bus\""
+  },
+  "W1967": {
+   "hint": "by train (pociąg)",
+   "source": "Wiktionary, pociągiem: \"instrumental singular of pociąg\", form of pociąg: \"train\""
+  },
+  "W1968": {
+   "hint": "by car (samochód)",
+   "source": "Wiktionary, samochodem: \"instrumental singular of samochód\", form of samochód: \"car, automobile\""
+  },
+  "W1969": {
+   "hint": "by bike (rower)",
+   "source": "Wiktionary, rowerem: \"instrumental singular of rower\", form of rower: \"bicycle, bike\""
+  },
+  "W1970": {
+   "hint": "by plane (samolot)",
+   "source": "Wiktionary, samolotem: \"instrumental singular of samolot (“aeroplane”)\""
+  },
+  "W1971": {
+   "hint": "plane",
+   "source": "Wiktionary, samolot: \"aeroplane, airplane (powered aircraft)\""
+  },
+  "W1972": {
+   "hint": "tram",
+   "source": "Wiktionary, tramwaj: \"tram, streetcar\""
+  },
+  "W1973": {
+   "hint": "by tram (tramwaj)",
+   "source": "Wiktionary, tramwajem: \"instrumental singular of tramwaj\", form of tramwaj: \"tram, streetcar\""
+  },
+  "W1974": {
+   "hint": "you go, you ride (jechać)",
+   "source": "Wiktionary, jedziesz: \"second-person singular present of jechać\", form of jechać: \"to go; to ride; to take; to drive [with do ‘to where’ and instrumental ‘ what conveyance’] to go\""
+  },
+  "W1975": {
+   "hint": "goes, rides (jechać)",
+   "source": "Wiktionary, jedzie: \"third-person singular present of jechać (“to go”)\""
+  },
+  "W1976": {
+   "hint": "we go, we ride (jechać)",
+   "source": "Wiktionary, jedziemy: \"first-person plural present of jechać (“to go”)\""
+  },
+  "W1977": {
+   "hint": "to go (by bus, car, train), to ride",
+   "source": "Wiktionary, jechać: \"to go; to ride; to take; to drive (to commute by vehicle) [with do (+ genitive) ‘to where’ and instrumental ‘(by) what conveyance’] to go (to locomote)\""
+  },
+  "W1978": {
+   "hint": "I fly (lecieć)",
+   "source": "Wiktionary, lecę: \"first-person singular present of lecieć\", form of lecieć: \"to fly to fly [with instrumental ‘with what’; or with na ‘on what’]\""
+  },
+  "W1979": {
+   "hint": "to fly",
+   "source": "Wiktionary, lecieć: \"to fly (to move in the air) to fly (to move in the air using some vehicle, e.g. an airplane) [with instrumental ‘with what’; or with na (+ locative) ‘on what’]\""
+  },
+  "W1980": {
+   "hint": "to fly (often, in general)",
+   "source": "Wiktionary, latać: \"to fly (to move in the air) to fly (to move in the air using some vehicle, e.g. an airplane) [with instrumental ‘with what’; or with na (+ locative) ‘on what’]\""
+  },
+  "W1981": {
+   "hint": "leaves, departs (odjeżdżać)",
+   "source": "Wiktionary, odjeżdża: \"third-person singular present of odjeżdżać\", form of odjeżdżać: \"to depart, to head off, to leave\""
+  },
+  "W1982": {
+   "hint": "arrives, comes (przyjeżdżać)",
+   "source": "Wiktionary, przyjeżdża: \"third-person singular present of przyjeżdżać\", form of przyjeżdżać: \"to come\""
+  },
+  "W1983": {
+   "hint": "departure",
+   "source": "Wiktionary, odjazd: \"departure (of a vehicle)\""
+  },
+  "W1984": {
+   "hint": "arrival",
+   "source": "Wiktionary, przyjazd: \"arrival (of a bus or train)\""
+  },
+  "W1985": {
+   "hint": "ticket",
+   "source": "Wiktionary, bilet: \"ticket (pass entitling the holder to admission to a show, concert, etc.) [with do (+ genitive) or na (+ accusative) ‘to what’, along with za (+ accusative) or po (+ accusative) ‘for how much’]\""
+  },
+  "W1986": {
+   "hint": "tickets (bilet)",
+   "source": "Wiktionary, bilety: \"nominative/accusative/vocative plural of bilet\", form of bilet: \"ticket [with do or na ‘to what’, along with za or po ‘for how much’]\""
+  },
+  "W1987": {
+   "hint": "station",
+   "source": "Wiktionary, stacja: \"station (place of stopping for transportation) station (place used for broadcasting radio or television; the broadcasting entity itself) station (unit dealing with a particular activity) station (any of the Stations of the Cross)\""
+  },
+  "W1988": {
+   "hint": "station (na stacji: at the station; stacja)",
+   "source": "Wiktionary, stacji: \"inflection of stacja: genitive singular/plural dative/locative singular\", form of stacja: \"station station station station\""
+  },
+  "W1989": {
+   "hint": "stop (bus or tram stop)",
+   "source": "Wiktionary, przystanek: \"stop (usually marked place where buses, trams, or trains halt to let passengers get on and off, usually smaller than a station)\""
+  },
+  "W1990": {
+   "hint": "stop (na przystanku: at the stop; przystanek)",
+   "source": "Wiktionary, przystanku: \"genitive/locative/vocative singular of przystanek\", form of przystanek: \"stop\""
+  },
+  "W1991": {
+   "hint": "platform",
+   "source": "Wiktionary, peron: \"platform (raised structure or other area alongside rails or a driveway alongside which vehicles stop to take in and discharge passengers)\""
+  },
+  "W1992": {
+   "hint": "platform (z peronu: from the platform; peron)",
+   "source": "Wiktionary, peronu: \"genitive singular of peron\", form of peron: \"platform\""
+  },
+  "W1993": {
+   "hint": "station (na dworcu: at the station; dworzec)",
+   "source": "Wiktionary, dworcu: \"locative/vocative singular of dworzec\", form of dworzec: \"station\""
+  },
+  "W1994": {
+   "hint": "journey, travel",
+   "source": "Wiktionary, podróż: \"travel (act of traveling) [with z (+ genitive) ‘from where’ and do (+ genitive) ‘to where’ and instrumental ‘by means of what’ and po (+ locative) ‘around what’]\""
+  },
+  "W1995": {
+   "hint": "ten o'clock (o dziesiątej: at ten; dziesiąta)",
+   "source": "Wiktionary, dziesiątej: \"genitive/dative/locative singular of dziesiąta\", form of dziesiąta: \"ten o'clock\""
+  },
+  "W1996": {
+   "hint": "eleven o'clock (o jedenastej: at eleven; jedenasta)",
+   "source": "Wiktionary, jedenastej: \"genitive/dative/locative singular of jedenasta\", form of jedenasta: \"eleven o'clock\""
+  },
+  "W1997": {
+   "hint": "twelve o'clock (o dwunastej: at twelve; dwunasta)",
+   "source": "Wiktionary, dwunastej: \"genitive/dative/locative singular of dwunasta\", form of dwunasta: \"twelve o'clock\""
+  },
+  "W1998": {
+   "hint": "two o'clock (o drugiej: at two; druga)",
+   "source": "Wiktionary, drugiej: \"genitive/dative/locative singular of druga\", form of druga: \"two o'clock\""
+  },
+  "W1999": {
+   "hint": "maybe, perhaps",
+   "source": "Wiktionary, być może: \"maybe, perhaps\""
+  },
+  "W2000": {
+   "hint": "depends (to zależy; zależeć)",
+   "source": "Wiktionary, zależy: \"third-person singular present of zależeć (“to depend”)\""
+  },
+  "W2001": {
+   "hint": "probably",
+   "source": "Wiktionary, prawdopodobnie: \"probably\""
+  },
+  "W2002": {
+   "hint": "it seems to me (wydawać się)",
+   "source": "Wiktionary, wydaje mi się: \"third-person singular present of wydawać\", form of wydawać: \"to seem, to appear [with dative ‘to what/whom’, along with instrumental ‘as what/whom’ or infinitive ‘to do what’]\""
+  },
+  "W2003": {
+   "hint": "I think, I believe (sądzić)",
+   "source": "Wiktionary, sądzę: \"first-person singular present of sądzić\", form of sądzić: \"to judge; to try [with za ‘for what’] to judge, to deem\""
+  },
+  "W2004": {
+   "hint": "you think (sądzić)",
+   "source": "Wiktionary, sądzisz: \"second-person singular present of sądzić\", form of sądzić: \"to judge; to try [with za ‘for what’] to judge, to deem\""
+  },
+  "W2005": {
+   "hint": "although",
+   "source": "Wiktionary, chociaż: \"although, though\""
+  },
+  "W2006": {
+   "hint": "passengers (pasażer)",
+   "source": "Wiktionary, pasażerowie: \"nominative/vocative plural of pasażer\", form of pasażer: \"passenger\""
+  },
+  "W2007": {
+   "hint": "passengers (pasażer; after many, object form)",
+   "source": "Wiktionary, pasażerów: \"genitive/accusative plural of pasażer\", form of pasażer: \"passenger\""
+  },
+  "W2008": {
+   "hint": "delayed (opóźnić)",
+   "source": "Wiktionary, opóźniony: \"passive adjectival participle of opóźnić\""
+  },
+  "W2009": {
+   "hint": "delay",
+   "source": "Wiktionary, opóźnienie: \"delay, lag (period of time before an event occurs)\""
+  },
+  "W2010": {
+   "hint": "will arrive, will come (przyjechać)",
+   "source": "Wiktionary, przyjedzie: \"third-person singular future of przyjechać\", form of przyjechać: \"to come\""
+  },
+  "W2011": {
+   "hint": "will leave, will depart (odjechać)",
+   "source": "Wiktionary, odjedzie: \"third-person singular future of odjechać\", form of odjechać: \"to depart, to head off, to leave\""
+  },
+  "W2012": {
+   "hint": "track",
+   "source": "Wiktionary, tor: \"track, course, path\""
+  },
+  "W2013": {
+   "hint": "direction (w kierunku: towards; kierunek)",
+   "source": "Wiktionary, kierunku: \"genitive/locative/vocative singular of kierunek\", form of kierunek: \"direction\""
+  },
+  "W2014": {
+   "hint": "we ask, please (prosić)",
+   "source": "Wiktionary, prosimy: \"first-person plural present of prosić (“to ask for”)\""
+  },
+  "W2015": {
+   "hint": "to ask for",
+   "source": "Wiktionary, prosić: \"to ask for, to request [with o (+ accusative) or accusative or genitive ‘(for) what’; or with infinitive or żeby (+ past-tense clause) ‘to do what’]\""
+  },
+  "W2016": {
+   "hint": "we apologise (przepraszać)",
+   "source": "Wiktionary, przepraszamy: \"first-person plural present of przepraszać\", form of przepraszać: \"to apologize to, to be sorry [with za ‘for what’]\""
+  },
+  "W2017": {
+   "hint": "stops (zatrzymuje się; zatrzymywać)",
+   "source": "Wiktionary, zatrzymuje: \"third-person singular present of zatrzymywać\", form of zatrzymywać: \"to stop, to halt\""
+  },
+  "W2018": {
+   "hint": "during",
+   "source": "Wiktionary, podczas: \"during (at the same time of) [with genitive]\""
+  },
+  "W2019": {
+   "hint": "flight",
+   "source": "Wiktionary, lot: \"flight (act of flying)\""
+  },
+  "W2020": {
+   "hint": "cancelled (odwołać)",
+   "source": "Wiktionary, odwołany: \"passive adjectival participle of odwołać\""
+  },
+  "W2021": {
+   "hint": "read! (przeczytać)",
+   "source": "Wiktionary, przeczytaj: \"second-person singular imperative of przeczytać\", form of przeczytać: \"to read; to read up\""
+  },
+  "W2022": {
+   "hint": "write! (napisać)",
+   "source": "Wiktionary, napisz: \"second-person singular imperative of napisać\", form of napisać: \"to write [with instrumental ‘with what’ and na ‘on what’]\""
+  },
+  "W2023": {
+   "hint": "listen! (posłuchać)",
+   "source": "Wiktionary, posłuchaj: \"second-person singular imperative of posłuchać\", form of posłuchać: \"to listen to, to listen up\""
+  },
+  "W2024": {
+   "hint": "choose! (wybrać)",
+   "source": "Wiktionary, wybierz: \"second-person singular imperative of wybrać\", form of wybrać: \"to choose\""
+  },
+  "W2025": {
+   "hint": "answer! (odpowiedzieć)",
+   "source": "Wiktionary, odpowiedz: \"second-person singular imperative of odpowiedzieć\", form of odpowiedzieć: \"to answer; to reply; to respond [with dative ‘to someone’; or with na ‘to what’]\""
+  },
+  "W2026": {
+   "hint": "close! (zamknąć)",
+   "source": "Wiktionary, zamknij: \"second-person singular imperative of zamknąć\", form of zamknąć: \"to close, to lock, to shut\""
+  },
+  "W2027": {
+   "hint": "open! (otworzyć)",
+   "source": "Wiktionary, otwórz: \"second-person singular imperative of otworzyć\", form of otworzyć: \"to open [with instrumental ‘with what’]\""
+  },
+  "W2028": {
+   "hint": "look! (spojrzeć)",
+   "source": "Wiktionary, spójrz: \"second-person singular imperative of spojrzeć\", form of spojrzeć: \"to look, to look at [with na ‘at whom/what’], [with w ‘into/at what’], [with po ‘around what’]\""
+  },
+  "W2029": {
+   "hint": "check! (sprawdzić)",
+   "source": "Wiktionary, sprawdź: \"second-person singular imperative of sprawdzić\", form of sprawdzić: \"to check, to check up\""
+  },
+  "W2030": {
+   "hint": "mark! (zaznaczyć)",
+   "source": "Wiktionary, zaznacz: \"second-person singular imperative of zaznaczyć\", form of zaznaczyć: \"to mark, to indicate\""
+  },
+  "W2031": {
+   "hint": "complete!, fill in! (uzupełnić)",
+   "source": "Wiktionary, uzupełnij: \"second-person singular imperative of uzupełnić\", form of uzupełnić: \"to supplement, to top up\""
+  },
+  "W2032": {
+   "hint": "forget! (nie zapomnij: don't forget; zapomnieć)",
+   "source": "Wiktionary, zapomnij: \"second-person singular imperative of zapomnieć\", form of zapomnieć: \"to forget [with genitive or accusative ‘whom/what’; or with o ‘about whom/what’; or with w ‘what’]\""
+  },
+  "W2033": {
+   "hint": "remember! (pamiętać)",
+   "source": "Wiktionary, pamiętaj: \"second-person singular imperative of pamiętać\", form of pamiętać: \"to remember [with o ‘about whom/what’]\""
+  },
+  "W2034": {
+   "hint": "exercise",
+   "source": "Wiktionary, ćwiczenie: \"exercise (any activity designed to develop or hone a skill or ability)\""
+  },
+  "W2035": {
+   "hint": "picture (a small image)",
+   "source": "Wiktionary, obrazek: \"diminutive of obraz\""
+  },
+  "W2036": {
+   "hint": "page (na stronie: on the page; strona)",
+   "source": "Wiktionary, stronie: \"dative/locative singular of strona\", form of strona: \"page\""
+  },
+  "W2037": {
+   "hint": "correct (poprawny)",
+   "source": "Wiktionary, poprawną: \"accusative/instrumental feminine singular of poprawny\", form of poprawny: \"right, correct\""
+  },
+  "W2038": {
+   "hint": "to answer",
+   "source": "Wiktionary, odpowiedzieć: \"to answer; to reply; to respond (to respond, either verbally or in written text) [with dative ‘to someone’; or with na (+ accusative) ‘to what (that person said)’]\""
+  },
+  "W2039": {
+   "hint": "to choose",
+   "source": "Wiktionary, wybrać: \"to choose\""
+  },
+  "W2040": {
+   "hint": "words (słowo)",
+   "source": "Wiktionary, słowa: \"inflection of słowo: nominative/accusative/vocative plural genitive singular\", form of słowo: \"word\""
+  },
+  "W2101": {
+   "hint": "yesterday",
+   "source": "Wiktionary, wczoraj: \"yesterday (on the previous day)\""
+  },
+  "W2102": {
+   "hint": "to be",
+   "source": "Wiktionary, być: \"to be (used to indicate sameness or membership in a class) [with nominative or instrumental]\""
+  },
+  "W2103": {
+   "hint": "he was, it was (być)",
+   "source": "Wiktionary, był: \"third-person singular masculine past of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2104": {
+   "hint": "she was, it was (być)",
+   "source": "Wiktionary, była: \"third-person singular feminine past of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2105": {
+   "hint": "it was (być)",
+   "source": "Wiktionary, było: \"it was (third-person singular neuter past of być)\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2106": {
+   "hint": "I was (said by a man; być)",
+   "source": "Wiktionary, byłem: \"first-person singular masculine past of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2107": {
+   "hint": "I was (said by a woman; być)",
+   "source": "Wiktionary, byłam: \"first-person singular feminine past of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2108": {
+   "hint": "you were (to a man; być)",
+   "source": "Wiktionary, byłeś: \"second-person singular masculine past of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2109": {
+   "hint": "you were (to a woman; być)",
+   "source": "Wiktionary, byłaś: \"second-person singular feminine past of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2110": {
+   "hint": "we were (być)",
+   "source": "Wiktionary, byliśmy: \"first-person plural virile past of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2111": {
+   "hint": "he had (mieć)",
+   "source": "Wiktionary, miał: \"third-person singular masculine past of mieć\", form of mieć: \"to have\""
+  },
+  "W2112": {
+   "hint": "she had (mieć)",
+   "source": "Wiktionary, miała: \"third-person singular feminine past of mieć\", form of mieć: \"to have\""
+  },
+  "W2113": {
+   "hint": "I had (said by a man; mieć)",
+   "source": "Wiktionary, miałem: \"first-person singular masculine past of mieć\", form of mieć: \"to have\""
+  },
+  "W2114": {
+   "hint": "I had (said by a woman; mieć)",
+   "source": "Wiktionary, miałam: \"first-person singular feminine past of mieć\", form of mieć: \"to have\""
+  },
+  "W2115": {
+   "hint": "he did, he made (zrobić)",
+   "source": "Wiktionary, zrobił: \"third-person singular masculine past of zrobić\", form of zrobić: \"to make to do\""
+  },
+  "W2116": {
+   "hint": "she did, she made (zrobić)",
+   "source": "Wiktionary, zrobiła: \"third-person singular feminine past of zrobić\", form of zrobić: \"to make to do\""
+  },
+  "W2117": {
+   "hint": "I did, I made (said by a man; zrobić)",
+   "source": "Wiktionary, zrobiłem: \"first-person singular masculine past of zrobić\", form of zrobić: \"to make to do\""
+  },
+  "W2118": {
+   "hint": "I did, I made (said by a woman; zrobić)",
+   "source": "Wiktionary, zrobiłam: \"first-person singular feminine past of zrobić\", form of zrobić: \"to make to do\""
+  },
+  "W2119": {
+   "hint": "he said (powiedzieć)",
+   "source": "Wiktionary, powiedział: \"third-person singular masculine past of powiedzieć\", form of powiedzieć: \"to speak, to talk [with do or dative ‘ whom’, along with o ‘about what’]\""
+  },
+  "W2120": {
+   "hint": "she said (powiedzieć)",
+   "source": "Wiktionary, powiedziała: \"third-person singular feminine past of powiedzieć\", form of powiedzieć: \"to speak, to talk [with do or dative ‘ whom’, along with o ‘about what’]\""
+  },
+  "W2121": {
+   "hint": "I said (said by a man; powiedzieć)",
+   "source": "Wiktionary, powiedziałem: \"first-person singular masculine past of powiedzieć\", form of powiedzieć: \"to speak, to talk [with do or dative ‘ whom’, along with o ‘about what’]\""
+  },
+  "W2122": {
+   "hint": "he went (pójść)",
+   "source": "Wiktionary, poszedł: \"third-person singular masculine past of pójść (“to go”)\""
+  },
+  "W2123": {
+   "hint": "she went (pójść)",
+   "source": "Wiktionary, poszła: \"third-person singular feminine past of pójść (“to go”)\""
+  },
+  "W2124": {
+   "hint": "I went (said by a man; pójść)",
+   "source": "Wiktionary, poszedłem: \"first-person singular masculine past of pójść (“to go”)\""
+  },
+  "W2125": {
+   "hint": "he saw (widzieć)",
+   "source": "Wiktionary, widział: \"third-person singular masculine past of widzieć\", form of widzieć: \"to see\""
+  },
+  "W2126": {
+   "hint": "I saw (said by a man; widzieć)",
+   "source": "Wiktionary, widziałem: \"first-person singular masculine past of widzieć\", form of widzieć: \"to see\""
+  },
+  "W2127": {
+   "hint": "I knew (said by a man; wiedzieć)",
+   "source": "Wiktionary, wiedziałem: \"first-person singular masculine past of wiedzieć\", form of wiedzieć: \"to know [with o ‘about something’ and po ‘from what’]\""
+  },
+  "W2128": {
+   "hint": "I thought (said by a man; myśleć)",
+   "source": "Wiktionary, myślałem: \"first-person singular masculine past of myśleć\", form of myśleć: \"to think [with o or nad ‘of/about something’]\""
+  },
+  "W2129": {
+   "hint": "I thought (said by a woman; myśleć)",
+   "source": "Wiktionary, myślałam: \"first-person singular feminine past of myśleć\", form of myśleć: \"to think [with o or nad ‘of/about something’]\""
+  },
+  "W2130": {
+   "hint": "he bought (kupić)",
+   "source": "Wiktionary, kupił: \"third-person singular masculine past of kupić\", form of kupić: \"to buy\""
+  },
+  "W2131": {
+   "hint": "I bought (said by a man; kupić)",
+   "source": "Wiktionary, kupiłem: \"first-person singular masculine past of kupić\", form of kupić: \"to buy\""
+  },
+  "W2132": {
+   "hint": "I wanted (said by a man; chcieć)",
+   "source": "Wiktionary, chciałem: \"first-person singular masculine past of chcieć\", form of chcieć: \"to want [with accusative or genitive ‘something’, along with infinitive ‘to do something’]\""
+  },
+  "W2133": {
+   "hint": "he came back (wrócić)",
+   "source": "Wiktionary, wrócił: \"third-person singular masculine past of wrócić\", form of wrócić: \"to come back, to go back, to return [with po ‘for what’]\""
+  },
+  "W2134": {
+   "hint": "he came (przyjść)",
+   "source": "Wiktionary, przyszedł: \"third-person singular masculine past of przyjść (“to come”)\""
+  },
+  "W2135": {
+   "hint": "he started (zacząć)",
+   "source": "Wiktionary, zaczął: \"third-person singular masculine past of zacząć\", form of zacząć: \"to start, to begin [with infinitive ‘to do what’]\""
+  },
+  "W2136": {
+   "hint": "I found (said by a man; znaleźć)",
+   "source": "Wiktionary, znalazłem: \"first-person singular masculine past of znaleźć\", form of znaleźć: \"to find\""
+  },
+  "W2137": {
+   "hint": "he stayed (zostać)",
+   "source": "Wiktionary, został: \"third-person singular masculine past of zostać\", form of zostać: \"to stay, to remain\""
+  },
+  "W2138": {
+   "hint": "he could (móc)",
+   "source": "Wiktionary, mógł: \"third-person singular masculine past of móc\", form of móc: \"to be able; can; may, might expressing lack of something blocking action\""
+  },
+  "W2139": {
+   "hint": "weather",
+   "source": "Wiktionary, pogoda: \"weather (atmospheric conditions at a specific time and place)\""
+  },
+  "W2140": {
+   "hint": "rain",
+   "source": "Wiktionary, deszcz: \"rain (condensed water falling from a cloud)\""
+  },
+  "W2141": {
+   "hint": "falls (pada deszcz: it is raining; padać)",
+   "source": "Wiktionary, pada: \"third-person singular present of padać\", form of padać: \"to fall\""
+  },
+  "W2142": {
+   "hint": "to fall",
+   "source": "Wiktionary, padać: \"to fall (to move downwards under the effect of gravity)\""
+  },
+  "W2143": {
+   "hint": "snow",
+   "source": "Wiktionary, śnieg: \"snow (frozen, crystalline state of water that falls as precipitation)\""
+  },
+  "W2144": {
+   "hint": "wind",
+   "source": "Wiktionary, wiatr: \"wind (real or perceived movement of atmospheric air usually caused by convection or differences in air pressure)\""
+  },
+  "W2145": {
+   "hint": "blows (wieje wiatr: the wind is blowing; wiać)",
+   "source": "Wiktionary, wieje: \"third-person singular present of wiać (“to scram”)\""
+  },
+  "W2146": {
+   "hint": "warm",
+   "source": "Wiktionary, ciepło: \"warm, warmly\""
+  },
+  "W2147": {
+   "hint": "hot",
+   "source": "Wiktionary, gorąco: \"hot, hotly\""
+  },
+  "W2148": {
+   "hint": "cool",
+   "source": "Wiktionary, chłodno: \"cool (having a slightly low temperature)\""
+  },
+  "W2149": {
+   "hint": "sunny",
+   "source": "Wiktionary, słonecznie: \"sunly, sunnily; in a sunny manner\""
+  },
+  "W2150": {
+   "hint": "degrees (stopień; after five and up)",
+   "source": "Wiktionary, stopni: \"genitive plural of stopień\", form of stopień: \"degree, rank, level\""
+  },
+  "W2151": {
+   "hint": "storm",
+   "source": "Wiktionary, burza: \"storm, in particular thunderstorm\""
+  },
+  "W2152": {
+   "hint": "will be (być)",
+   "source": "Wiktionary, będzie: \"third-person singular future of być\", form of być: \"to be [with nominative or instrumental]\""
+  },
+  "W2153": {
+   "hint": "umbrella",
+   "source": "Wiktionary, parasol: \"umbrella (used to protect against the sun or rain)\""
+  },
+  "W2154": {
+   "hint": "clouds (chmura)",
+   "source": "Wiktionary, chmury: \"inflection of chmura: nominative/accusative/vocative plural genitive singular\", form of chmura: \"cloud\""
+  },
+  "W2155": {
+   "hint": "give! (dać)",
+   "source": "Wiktionary, daj: \"second-person singular imperative of dać (“to give”)\""
+  },
+  "W2156": {
+   "hint": "I give (dawać)",
+   "source": "Wiktionary, daję: \"first-person singular present of dawać\", form of dawać: \"to give [with dative ‘to whom’]\""
+  },
+  "W2157": {
+   "hint": "you give (dawać)",
+   "source": "Wiktionary, dajesz: \"second-person singular present of dawać\", form of dawać: \"to give [with dative ‘to whom’]\""
+  },
+  "W2158": {
+   "hint": "gives (dawać)",
+   "source": "Wiktionary, daje: \"third-person singular present of dawać\", form of dawać: \"to give [with dative ‘to whom’]\""
+  },
+  "W2159": {
+   "hint": "to give",
+   "source": "Wiktionary, dać: \"to give (to transfer one's possession or holding of (something) to (someone)) [with dative ‘to whom’]\""
+  },
+  "W2160": {
+   "hint": "take! (wziąć)",
+   "source": "Wiktionary, weź: \"second-person singular imperative of wziąć (“to take”)\""
+  },
+  "W2161": {
+   "hint": "to take",
+   "source": "Wiktionary, wziąć: \"to take (to grab with the hands) [with instrumental ‘with what’; or with za (+ accusative) ‘by what part’] to take (grabbing with one's hands, to place somewhere) to take in (to agree to take care of) to take (to allow to join) to take (to ensure that one has something with them when they depart) to take, to charge (to ask for or demand a certain amount of money for something) [with za (+ accusative) ‘for what’] to take (to have temporarily, e.g. a room at a hotel) to take (to hire a particular person for a job or task) to take; to get (to gain from a particular source, e.g. a resource)\""
+  },
+  "W2162": {
+   "hint": "to find",
+   "source": "Wiktionary, znaleźć: \"to find (to determine the location of a person or thing)\""
+  },
+  "W2163": {
+   "hint": "I start (zaczynać)",
+   "source": "Wiktionary, zaczynam: \"first-person singular present of zaczynać\", form of zaczynać: \"to start, to begin [with infinitive ‘to do what’]\""
+  },
+  "W2164": {
+   "hint": "starts (zaczynać)",
+   "source": "Wiktionary, zaczyna: \"third-person singular present of zaczynać\", form of zaczynać: \"to start, to begin [with infinitive ‘to do what’]\""
+  },
+  "W2165": {
+   "hint": "to start, to begin",
+   "source": "Wiktionary, zacząć: \"to start, to begin (to do something previously not done) [with infinitive ‘to do what’]\""
+  },
+  "W2166": {
+   "hint": "show! (pokazać)",
+   "source": "Wiktionary, pokaż: \"second-person singular imperative of pokazać (“to show off”)\""
+  },
+  "W2167": {
+   "hint": "to show",
+   "source": "Wiktionary, pokazać: \"to show; to point (to display, to have somebody see (something); sometimes with a gesture or one's finger, etc.) [with dative ‘to whom’ or accusative ‘what’ or na (+ accusative) ‘at what’, along with instrumental ‘with what’]\""
+  },
+  "W2168": {
+   "hint": "to change",
+   "source": "Wiktionary, zmienić: \"to change (to cause to be different) to change; to exchange (to break a banknote or coin) to change (to replace something or someone with something or something)\""
+  },
+  "W2169": {
+   "hint": "I try (próbować)",
+   "source": "Wiktionary, próbuję: \"first-person singular present of próbować\", form of próbować: \"to try [with infinitive ‘to do what’; or with genitive ‘what’]\""
+  },
+  "W2170": {
+   "hint": "you try (próbować)",
+   "source": "Wiktionary, próbujesz: \"second-person singular present of próbować\", form of próbować: \"to try [with infinitive ‘to do what’; or with genitive ‘what’]\""
+  },
+  "W2171": {
+   "hint": "tries (próbować)",
+   "source": "Wiktionary, próbuje: \"third-person singular present of próbować\", form of próbować: \"to try [with infinitive ‘to do what’; or with genitive ‘what’]\""
+  },
+  "W2172": {
+   "hint": "to try",
+   "source": "Wiktionary, próbować: \"to try (to attempt to do or achieve something) [with infinitive ‘to do what’; or with genitive ‘what’]\""
+  },
+  "W2173": {
+   "hint": "try! (spróbować)",
+   "source": "Wiktionary, spróbuj: \"second-person singular imperative of spróbować\", form of spróbować: \"to try [with infinitive ‘to do what’; or with genitive ‘what’]\""
+  },
+  "W2174": {
+   "hint": "to try",
+   "source": "Wiktionary, spróbować: \"to try (to attempt to do or achieve something) [with infinitive ‘to do what’; or with genitive ‘what’]\""
+  },
+  "W2175": {
+   "hint": "lasts, takes (time) (trwać)",
+   "source": "Wiktionary, trwa: \"third-person singular present of trwać\", form of trwać: \"to last\""
+  },
+  "W2176": {
+   "hint": "to come back, to go back",
+   "source": "Wiktionary, wrócić: \"to come back, to go back, to return (to come or go back) [with po (+ accusative) ‘for what’]\""
+  },
+  "W2177": {
+   "hint": "to come",
+   "source": "Wiktionary, przyjść: \"to come (to arrive by moving on foot) to come, to arrive to come (to arrive at a place to do the typical things one would do at that place, either once or for a while) [with infinitive ‘to do what’] to come (to be delivered to the intended addressee or place) to come (to arrive at a place to pick up or drop off passengers) to reach a border or boundary in time to get (to acquire a specific mental or physical condition) [with do (+ genitive) ‘(int) what’]\""
+  },
+  "W2178": {
+   "hint": "come! (przyjść)",
+   "source": "Wiktionary, przyjdź: \"second-person singular imperative of przyjść (“to come”)\""
+  },
+  "W2179": {
+   "hint": "works (to nie działa: it doesn't work; działać)",
+   "source": "Wiktionary, działa: \"third-person singular present of działać\", form of działać: \"to act\""
+  },
+  "W2180": {
+   "hint": "to stay",
+   "source": "Wiktionary, zostać: \"to stay, to remain (to not leave)\""
+  },
+  "W2181": {
+   "hint": "stay! (zostać)",
+   "source": "Wiktionary, zostań: \"second-person singular imperative of zostać\", form of zostać: \"to stay, to remain\""
+  },
+  "W2182": {
+   "hint": "leave! (zostawić)",
+   "source": "Wiktionary, zostaw: \"second-person singular imperative of zostawić\", form of zostawić: \"to leave\""
+  },
+  "W2183": {
+   "hint": "to open",
+   "source": "Wiktionary, otworzyć: \"to open (to make the inside of something accessible or allow for passage by moving from a shut position) [with instrumental ‘with what’]\""
+  },
+  "W2184": {
+   "hint": "to repair, to mend",
+   "source": "Wiktionary, naprawić: \"to repair, to mend\""
+  },
+  "W2185": {
+   "hint": "is enough (wystarczyć)",
+   "source": "Wiktionary, wystarczy: \"third-person singular future of wystarczyć\", form of wystarczyć: \"to suffice, to be enough, to do [with genitive ‘enough of what’; in addition, with dative ‘for whom’; or with na or do ‘for what’; or with żeby or infinitive ‘to do what’]\""
+  },
+  "W2186": {
+   "hint": "in front of, before",
+   "source": "Wiktionary, przed: \"denotes location; before, in front of; ahead of [with instrumental]\""
+  },
+  "W2187": {
+   "hint": "under",
+   "source": "Wiktionary, pod: \"denotes location; under, underneath [with instrumental]\""
+  },
+  "W2188": {
+   "hint": "above, over",
+   "source": "Wiktionary, nad: \"denotes location; above, over [with instrumental]\""
+  },
+  "W2189": {
+   "hint": "between",
+   "source": "Wiktionary, między: \"[with instrumental] denotes location; between\""
+  },
+  "W2190": {
+   "hint": "at, by, next to",
+   "source": "Wiktionary, przy: \"by, at, next to, near\""
+  },
+  "W2191": {
+   "hint": "opposite",
+   "source": "Wiktionary, naprzeciwko: \"opposite, vis-à-vis [with genitive]\""
+  },
+  "W2192": {
+   "hint": "around",
+   "source": "Wiktionary, wokół: \"around [with genitive]\""
+  },
+  "W2193": {
+   "hint": "outside, beyond",
+   "source": "Wiktionary, poza: \"denotes an area not within; beyond, out of, outside of [with instrumental]\""
+  },
+  "W2194": {
+   "hint": "among",
+   "source": "Wiktionary, wśród: \"denotes location of being surrounded; among\""
+  },
+  "W2195": {
+   "hint": "until (aż do); as much as",
+   "source": "Wiktionary, aż: \"until\""
+  },
+  "W2196": {
+   "hint": "more and more (coraz lepiej: better and better)",
+   "source": "Wiktionary, coraz: \"used with comparatives to show a growing rate of change; more and more, increasingly, ever\""
+  },
+  "W2197": {
+   "hint": "both",
+   "source": "Wiktionary, oba: \"both\""
+  },
+  "W2198": {
+   "hint": "both (with women or feminine nouns; oba)",
+   "source": "Wiktionary, obie: \"nominative/accusative/vocative feminine plural of oba\", form of oba: \"both\""
+  },
+  "W2199": {
+   "hint": "differently, otherwise",
+   "source": "Wiktionary, inaczej: \"differently, otherwise (in another way)\""
+  },
+  "W2200": {
+   "hint": "house (przed domem: in front of the house; dom)",
+   "source": "Wiktionary, domem: \"instrumental singular of dom\", form of dom: \"house\""
+  },
+  "W2201": {
+   "hint": "table (pod stołem: under the table; stół)",
+   "source": "Wiktionary, stołem: \"instrumental singular of stół\", form of stół: \"table table table table\""
+  },
+  "W2202": {
+   "hint": "table (przy stole: at the table; stół)",
+   "source": "Wiktionary, stole: \"locative/vocative singular of stół\", form of stół: \"table table table table\""
+  },
+  "W2203": {
+   "hint": "window (pod oknem: under the window; okno)",
+   "source": "Wiktionary, oknem: \"instrumental singular of okno\", form of okno: \"window window window window window window window window\""
+  },
+  "W2204": {
+   "hint": "bed (pod łóżkiem: under the bed; łóżko)",
+   "source": "Wiktionary, łóżkiem: \"instrumental singular of łóżko\", form of łóżko: \"bed\""
+  },
+  "W2205": {
+   "hint": "shop (przed sklepem: in front of the shop; sklep)",
+   "source": "Wiktionary, sklepem: \"instrumental singular of sklep\", form of sklep: \"shop, store\""
+  },
+  "W2206": {
+   "hint": "him (z nim: with him; on)",
+   "source": "Wiktionary, nim: \"instrumental/locative singular of on\", form of on: \"he , it\""
+  },
+  "W2207": {
+   "hint": "her (z nią: with her; ona)",
+   "source": "Wiktionary, nią: \"instrumental of ona\""
+  },
+  "W2208": {
+   "hint": "I interest (interesuję się: I am interested in; interesować)",
+   "source": "Wiktionary, interesuję: \"first-person singular present of interesować\", form of interesować: \"to interest\""
+  },
+  "W2209": {
+   "hint": "you interest (interesujesz się: you are interested in; interesować)",
+   "source": "Wiktionary, interesujesz: \"second-person singular present of interesować\", form of interesować: \"to interest\""
+  },
+  "W2210": {
+   "hint": "interests (interesuje się: is interested in; interesować)",
+   "source": "Wiktionary, interesuje: \"third-person singular present of interesować\", form of interesować: \"to interest\""
+  },
+  "W2211": {
+   "hint": "music (interesuję się muzyką; muzyka)",
+   "source": "Wiktionary, muzyką: \"instrumental singular of muzyka\", form of muzyka: \"music\""
+  },
+  "W2212": {
+   "hint": "sport (interesuję się sportem; sport)",
+   "source": "Wiktionary, sportem: \"instrumental singular of sport\", form of sport: \"sport\""
+  },
+  "W2213": {
+   "hint": "history (interesuję się historią; historia)",
+   "source": "Wiktionary, historią: \"instrumental singular of historia\", form of historia: \"history\""
+  },
+  "W2214": {
+   "hint": "sport",
+   "source": "Wiktionary, sport: \"sport\""
+  },
+  "W2215": {
+   "hint": "I love, I like very much (uwielbiać)",
+   "source": "Wiktionary, uwielbiam: \"first-person singular present of uwielbiać\", form of uwielbiać: \"to like very much\""
+  },
+  "W2216": {
+   "hint": "you love (uwielbiać)",
+   "source": "Wiktionary, uwielbiasz: \"second-person singular present of uwielbiać\", form of uwielbiać: \"to like very much\""
+  },
+  "W2217": {
+   "hint": "loves (uwielbiać)",
+   "source": "Wiktionary, uwielbia: \"third-person singular present of uwielbiać\", form of uwielbiać: \"to like very much\""
+  },
+  "W2218": {
+   "hint": "I hate (nienawidzić)",
+   "source": "Wiktionary, nienawidzę: \"first-person singular present of nienawidzić\", form of nienawidzić: \"to hate [with genitive ‘something’; or with infinitive ‘doing something’]\""
+  },
+  "W2219": {
+   "hint": "I like it (podobać się)",
+   "source": "Wiktionary, podoba mi się: \"third-person singular present of podobać\", form of podobać: \"to appeal, to be likeable [with dative]\""
+  },
+  "W2220": {
+   "hint": "I am glad (cieszę się; cieszyć)",
+   "source": "Wiktionary, cieszę: \"first-person singular present of cieszyć\", form of cieszyć: \"to gratify, to gladden, to please [with instrumental ‘with what’]\""
+  },
+  "W2221": {
+   "hint": "I am afraid (boję się; bać)",
+   "source": "Wiktionary, boję: \"first-person singular present of bać\", form of bać: \"to fear, to be afraid [with genitive ‘of what’ or infinitive ‘to do what’]\""
+  },
+  "W2222": {
+   "hint": "you are afraid (boisz się; bać)",
+   "source": "Wiktionary, boisz: \"second-person singular present of bać\", form of bać: \"to fear, to be afraid [with genitive ‘of what’ or infinitive ‘to do what’]\""
+  },
+  "W2223": {
+   "hint": "is afraid (boi się; bać)",
+   "source": "Wiktionary, boi: \"third-person singular present of bać\", form of bać: \"to fear, to be afraid [with genitive ‘of what’ or infinitive ‘to do what’]\""
+  },
+  "W2224": {
+   "hint": "I prefer (woleć)",
+   "source": "Wiktionary, wolę: \"first-person singular present of woleć\", form of woleć: \"to prefer [with od or niż ‘over whom/what’]\""
+  },
+  "W2225": {
+   "hint": "you prefer (woleć)",
+   "source": "Wiktionary, wolisz: \"second-person singular present of woleć\", form of woleć: \"to prefer [with od or niż ‘over whom/what’]\""
+  },
+  "W2226": {
+   "hint": "prefers (woleć)",
+   "source": "Wiktionary, woli: \"third-person singular present of woleć\", form of woleć: \"to prefer [with od or niż ‘over whom/what’]\""
+  },
+  "W2227": {
+   "hint": "desire (mam ochotę na: I feel like; ochota)",
+   "source": "Wiktionary, ochotę: \"accusative singular of ochota\", form of ochota: \"desire, will, willingness\""
+  },
+  "W2228": {
+   "hint": "pity, shame (szkoda!: what a pity)",
+   "source": "Wiktionary, szkoda: \"used to express regret or disappointment; pity, shame\""
+  },
+  "W2229": {
+   "hint": "great, very well",
+   "source": "Wiktionary, świetnie: \"very well, great, excellently\""
+  },
+  "W2230": {
+   "hint": "pleased, satisfied (said of a man)",
+   "source": "Wiktionary, zadowolony: \"content, satisfied\""
+  },
+  "W2231": {
+   "hint": "pleased, satisfied (said of a woman)",
+   "source": "Wiktionary, zadowolona: \"nominative/vocative feminine singular of zadowolony (“satisfied”)\""
+  },
+  "W2232": {
+   "hint": "happiness; luck",
+   "source": "Wiktionary, szczęście: \"happiness (emotion of being happy; joy)\""
+  },
+  "W2041": {
+   "hint": "currently, at present",
+   "source": "Wiktionary, obecnie: \"currently (this very moment in time)\""
+  },
+  "W2042": {
+   "hint": "next, another",
+   "source": "Wiktionary, kolejny: \"successive, consecutive, succeeding, next, subsequent (coming next in a sequence)\""
+  },
+  "W2043": {
+   "hint": "chance, coincidence; case",
+   "source": "Wiktionary, przypadek: \"chance, accident; coincidence (situation which occurred that could not have been predicted)\""
+  },
+  "W2044": {
+   "hint": "fact",
+   "source": "Wiktionary, fakt: \"fact (something which is real; something actual as opposed to invented)\""
+  },
+  "W2045": {
+   "hint": "you should (to a man; powinien)",
+   "source": "Wiktionary, powinieneś: \"second-person singular masculine present of powinien\", form of powinien: \"ought; should\""
+  },
+  "W2046": {
+   "hint": "I should (said by a man; powinien)",
+   "source": "Wiktionary, powinienem: \"first-person singular masculine present of powinien\", form of powinien: \"ought; should\""
+  },
+  "W2047": {
+   "hint": "we should (powinien)",
+   "source": "Wiktionary, powinniśmy: \"first-person plural virile present of powinien\", form of powinien: \"ought; should\""
+  },
+  "W2048": {
+   "hint": "he should",
+   "source": "Wiktionary, powinien: \"ought; should (indicating duty or obligation)\""
+  },
+  "W2049": {
+   "hint": "so that, in order to",
+   "source": "Wiktionary, żeby: \"creates a subordinate clause expressing desire or wish; to, so that, for that, in order to [with past-tense clause]\""
+  },
+  "W2050": {
+   "hint": "occasion, opportunity",
+   "source": "Wiktionary, okazja: \"chance, occasion, opportunity (chance for advancement, progress or profit) [with infinitive or żeby (+ infinitive or past-tense clause) ‘to do what’; or with do (+ genitive) ‘for what’]\""
+  },
+  "W2051": {
+   "hint": "choice",
+   "source": "Wiktionary, wybór: \"choice (act of choosing; option; a decision; an opportunity to choose or select something) [with genitive ‘of what’; or with spośród (+ genitive) ‘from among what’; or with między (+ instrumental) ‘between what’]\""
+  },
+  "W2052": {
+   "hint": "goal, aim",
+   "source": "Wiktionary, cel: \"goal, aim, objective, target (that which one attempts to achieve) target (butt or mark to shoot at, as for practice, or to test the accuracy of a firearm, or the force of a projectile) target, aim (person or object that is the focus of one's actions) goal, aim, objective; destination (place where one would like to go)\""
+  },
+  "W2053": {
+   "hint": "possibility",
+   "source": "Wiktionary, możliwość: \"possibility (fact that something can happen) [with infinitive ‘to do what’]\""
+  },
+  "W2054": {
+   "hint": "doctor (a woman)",
+   "source": "Wiktionary, lekarka: \"female equivalent of lekarz (“physician, medical doctor”)\""
+  },
+  "W2055": {
+   "hint": "doctor, a woman (jest lekarką; lekarka)",
+   "source": "Wiktionary, lekarką: \"instrumental singular of lekarka\", form of lekarka: \"female equivalent of lekarz\""
+  },
+  "W2056": {
+   "hint": "professor (jest profesorem; profesor)",
+   "source": "Wiktionary, profesorem: \"instrumental singular of profesor\", form of profesor: \"professor\""
+  },
+  "W2057": {
+   "hint": "director, head (jest dyrektorem; dyrektor)",
+   "source": "Wiktionary, dyrektorem: \"instrumental singular of dyrektor\", form of dyrektor: \"director director\""
+  },
+  "W2058": {
+   "hint": "company, firm (w firmie: at the company; firma)",
+   "source": "Wiktionary, firmie: \"dative/locative singular of firma\", form of firma: \"company\""
+  },
+  "W2059": {
+   "hint": "to prepare, to get ready",
+   "source": "Wiktionary, przygotować: \"to prepare\""
+  },
+  "W2060": {
+   "hint": "a Pole (jestem Polakiem: I am Polish, said by a man; Polak)",
+   "source": "Wiktionary, Polakiem: \"instrumental singular of Polak (“Pole”)\""
+  },
+  "W2061": {
+   "hint": "a Pole, a woman (jestem Polką: I am Polish, said by a woman; Polka)",
+   "source": "Wiktionary, Polką: \"instrumental singular of Polka\", form of Polka: \"Polish woman\""
+  },
+  "W2062": {
+   "hint": "project",
+   "source": "Wiktionary, projekt: \"design (plan for the structure and functions of an artifact, building or system)\""
+  },
+  "W2063": {
+   "hint": "way, manner",
+   "source": "Wiktionary, sposób: \"way; how (method or manner of doing something)\""
+  },
+  "W2064": {
+   "hint": "part",
+   "source": "Wiktionary, część: \"part, piece (fraction of a whole)\""
+  },
+  "W2065": {
+   "hint": "kind, sort",
+   "source": "Wiktionary, rodzaj: \"kind, type\""
+  },
+  "W2066": {
+   "hint": "article",
+   "source": "Wiktionary, artykuł: \"article, paper (published text in a newspaper or journal) article (part of a law) article, merchandise (object of sale)\""
+  },
+  "W2067": {
+   "hint": "picture, painting",
+   "source": "Wiktionary, obraz: \"image (artistic creation)\""
+  },
+  "W2068": {
+   "hint": "result",
+   "source": "Wiktionary, wynik: \"result, outcome, effect (that which comes from particular actions, event, or process)\""
+  },
+  "W2069": {
+   "hint": "matter, business",
+   "source": "Wiktionary, sprawa: \"issue, affair, matter, business, thing (something which needs to be taken care of or resolved, or area of interest)\""
+  },
+  "W2070": {
+   "hint": "right; law",
+   "source": "Wiktionary, prawo: \"law (body of binding rules and regulations, customs and standards established in a community by its legislative and judicial authorities)\""
+  },
+  "W2071": {
+   "hint": "situation",
+   "source": "Wiktionary, sytuacja: \"situation (combination of circumstances at a given moment) [with w (+ locative) ‘in what’]\""
+  },
+  "W2072": {
+   "hint": "situation (od sytuacji: on the situation; sytuacja)",
+   "source": "Wiktionary, sytuacji: \"inflection of sytuacja: genitive singular/plural dative/locative singular\", form of sytuacja: \"situation [with w ‘in what’]\""
+  },
+  "W2073": {
+   "hint": "reason",
+   "source": "Wiktionary, powód: \"cause, reason [with do (+ genitive) ‘for what’; or with żeby (+ past-tense clause or infinitive) or infinitive ‘to do what’]\""
+  },
+  "W2074": {
+   "hint": "reason (z powodu: because of; powód)",
+   "source": "Wiktionary, powodu: \"genitive singular of powód (“reason”)\""
+  },
+  "W2233": {
+   "hint": "to lead, to drive, to run",
+   "source": "Wiktionary, prowadzić: \"to lead (to guide a person or animal)\""
+  },
+  "W2234": {
+   "hint": "leads, drives, runs (prowadzić)",
+   "source": "Wiktionary, prowadzi: \"third-person singular present of prowadzić\", form of prowadzić: \"to lead\""
+  },
+  "W2235": {
+   "hint": "to take (time, a place); to take up",
+   "source": "Wiktionary, zająć: \"to occupy, to take up (to physically fill an entire area entirely)\""
+  },
+  "W2236": {
+   "hint": "to add",
+   "source": "Wiktionary, dodać: \"to add (to take the sum) [with do (+ genitive) ‘to what’]\""
+  },
+  "W2237": {
+   "hint": "to thank",
+   "source": "Wiktionary, dziękować: \"to thank (to express gratitude or appreciation toward) [with dative ‘whom’ and za (+ accusative) ‘for what’ and instrumental ‘with what’; or with z (+ genitive) ‘for what’]\""
+  },
+  "W2238": {
+   "hint": "one's own (his, her, my, your own)",
+   "source": "Wiktionary, swój: \"reflexive-possessive pronoun one's own; my, his, her, its, our, your, their\""
+  },
+  "W2239": {
+   "hint": "one's own (swój)",
+   "source": "Wiktionary, swoje: \"inflection of swój: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of swój: \"reflexive-possessive pronoun one's own; my, his, her, its, our, your, their\""
+  },
+  "W2240": {
+   "hint": "one's own (swój; object form)",
+   "source": "Wiktionary, swoją: \"accusative/instrumental feminine singular of swój\", form of swój: \"reflexive-possessive pronoun one's own; my, his, her, its, our, your, their\""
+  },
+  "W2241": {
+   "hint": "some, a certain",
+   "source": "Wiktionary, jakiś: \"some; unspecified member of the category described by the following word\""
+  },
+  "W2242": {
+   "hint": "some (jakiś)",
+   "source": "Wiktionary, jakieś: \"inflection of jakiś: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of jakiś: \"some; unspecified member of the category described by the following word\""
+  },
+  "W2243": {
+   "hint": "because",
+   "source": "Wiktionary, ponieważ: \"because, for\""
+  },
+  "W2244": {
+   "hint": "if",
+   "source": "Wiktionary, jeżeli: \"synonym of jeśli (“if”)\""
+  },
+  "W2245": {
+   "hint": "so that, in order to",
+   "source": "Wiktionary, aby: \"to, in order to, so that (connects sentences either to express the goal of a speaker, when the speaker wishes to communicate a command or wish) [with past-tense clause ‘to do what’]\""
+  },
+  "W2246": {
+   "hint": "over, more than",
+   "source": "Wiktionary, ponad: \"over, more than\""
+  },
+  "W2247": {
+   "hint": "despite, in spite of",
+   "source": "Wiktionary, mimo: \"despite, in spite of [with genitive or accusative]\""
+  },
+  "W2248": {
+   "hint": "own (własny)",
+   "source": "Wiktionary, własne: \"inflection of własny: nominative/accusative/vocative neuter singular nonvirile nominative/accusative/vocative plural\", form of własny: \"own\""
+  },
+  "W2249": {
+   "hint": "health",
+   "source": "Wiktionary, zdrowie: \"health (physical condition) health (state of being free from physical or psychological disease, illness, or malfunction; wellness)\""
+  },
+  "W2250": {
+   "hint": "sense, meaning",
+   "source": "Wiktionary, sens: \"sense (meaning, reason, or value of something)\""
+  },
+  "W2251": {
+   "hint": "sense (to nie ma sensu: it makes no sense; sens)",
+   "source": "Wiktionary, sensu: \"genitive singular of sens\", form of sens: \"sense\""
+  },
+  "W2252": {
+   "hint": "culture",
+   "source": "Wiktionary, kultura: \"culture (the arts, customs, lifestyles, background, and habits that characterize humankind, or a particular society or nation)\""
+  },
+  "W2253": {
+   "hint": "culture (interesuję się kulturą; kultura)",
+   "source": "Wiktionary, kulturą: \"instrumental singular of kultura\", form of kultura: \"culture\""
+  },
+  "W2254": {
+   "hint": "art",
+   "source": "Wiktionary, sztuka: \"art (conscious production or arrangement of sounds, colours, forms, movements, or other elements in a manner that affects the senses and emotions, usually specifically the production of the beautiful in a graphic or plastic medium) art (subject at school teaching how to create such arrangements) art (skill that is attained by study, practice, or observation) art; stunt (action requiring such skill) play (theatrical piece featuring actors)\""
+  },
+  "W2255": {
+   "hint": "art (interesuję się sztuką; sztuka)",
+   "source": "Wiktionary, sztuką: \"instrumental singular of sztuka\", form of sztuka: \"art art art art; stunt play\""
   }
  },
  "names": [
@@ -2154,9 +3870,35 @@
   "W107": "m, animate",
   "W111": "n",
   "W1004": "f",
-  "W1038": "f"
+  "W1038": "f",
+  "W1821": "f",
+  "W1823": "f",
+  "W1845": "f",
+  "W1847": "f",
+  "W1854": "m, inanimate",
+  "W1885": "m, inanimate",
+  "W1903": "m, personal",
+  "W1904": "f",
+  "W1914": "n",
+  "W1923": "f",
+  "W1932": "f",
+  "W1941": "m, personal",
+  "W1942": "f",
+  "W1968": "m, inanimate",
+  "W1988": "f",
+  "W1992": "m, inanimate",
+  "W1993": "m, inanimate",
+  "W2013": "m, inanimate",
+  "W2201": "m, inanimate",
+  "W2211": "f",
+  "W2212": "m, inanimate",
+  "W2055": "f",
+  "W2056": "m, personal",
+  "W2057": "m, personal",
+  "W2058": "f",
+  "W2072": "f"
  },
  "accepted_additions": [],
- "_gender": "Each gender here is a case or plural form whose Wiktionary entry ({{pl-head|noun form|…}}) carries no gender; it is the one on its lemma's own Polish headword, {{pl-noun|…}}: koty from kot (m-anml), jabłka from jabłko (n), ręce from ręka (f), książkę from książka (f), read 2026-11-21. Masculine nouns show their animacy (m, personal; m, animate; m, inanimate), which decides the accusative.",
+ "_gender": "Each gender here is a case or plural form whose Wiktionary entry ({{pl-head|noun form|…}}) carries no gender; it is the one on its lemma's own Polish headword, {{pl-noun|…}}: koty from kot (m-anml), jabłka from jabłko (n), ręce from ręka (f), książkę from książka (f), read 2026-11-21. Masculine nouns show their animacy (m, personal; m, animate; m, inanimate), which decides the accusative. Part 3 (2026-11-21): the same for its case forms, from each lemma's {{pl-noun|…}}: minuta, godzina, sobota, środa, rodzina, przyszłość, kolacja, nauczycielka, stacja, muzyka (f); tydzień, początek, samochód, peron, dworzec, kierunek, stół, sport (m-in); przyjaciel, nauczyciel (m-pr); kino (n); lekarka, firma, sytuacja (f); profesor, dyrektor (m-pr).",
  "_claude_hints": "Short hints where Wiktionary's first definition is long, merges several senses, or carries a usage bracket ([with instrumental]); each hint is taken from the cited Wiktionary definition of the word or its lemma."
 }

@@ -1,5 +1,5 @@
 {
- "_about": "Polish pull review (Builder 2, 2026-11-21). reject: Tatoeba ids turned down, with the reason; a line turned down is never proposed again in any circle. english: a better linked Tatoeba translation. Read for other senses, formal address, case forms not yet taught (a locative or instrumental hidden in a form that looks like a taught one), idioms and odd lines. tak keeps both its Wiktionary senses in its hint (yes; so, like this), so tak-as-so lines stay. Part 2 (2026-11-21): also the dative hidden in jej (powiedz jej, wierzysz jej) and czym as an instrumental, drogi as the genitive of droga (road), zobaczę outside niech zobaczę, stać as afford, chodzi o, liczę się.",
+ "_about": "Polish pull review (Builder 2, 2026-11-21). reject: Tatoeba ids turned down, with the reason; a line turned down is never proposed again in any circle. english: a better linked Tatoeba translation. Read for other senses, formal address, case forms not yet taught (a locative or instrumental hidden in a form that looks like a taught one), idioms and odd lines. tak keeps both its Wiktionary senses in its hint (yes; so, like this), so tak-as-so lines stay. Part 2 (2026-11-21): also the dative hidden in jej (powiedz jej, wierzysz jej) and czym as an instrumental, drogi as the genitive of droga (road), zobaczę outside niech zobaczę, stać as afford, chodzi o, liczę się. Part 3 (2026-11-21): also co as every (co roku, co noc), wolno as allowed, myśl as the command, jak tam and co za, the dative jej, and nad with the accusative.",
  "U01": {
   "reject": {
    "349996": "kto as anybody (Jest tam kto?): another sense of kto, taught as who",
@@ -443,6 +443,142 @@
    "10578981": "stać as to afford, another sense",
    "10624150": "rozumieć przez (to mean by), another sense",
    "13684052": "chodzi o (it is about), another sense of chodzić"
+  }
+ },
+ "U61": {
+  "reject": {
+   "3706568": "co as every (co noc): another sense of co, taught as what",
+   "10168024": "linked English is loose (a few minutes after three, for pięć po trzeciej)",
+   "11318524": "idiom (co za, what a)"
+  }
+ },
+ "U71": {
+  "reject": {
+   "3051098": "jak as when: another sense of jak",
+   "3807909": "miał as was supposed to: another sense of mieć",
+   "5837045": "miałem as was I supposed to: another sense of mieć",
+   "6603001": "tom in lower case",
+   "10574124": "odd line (Kto co widział?)"
+  }
+ },
+ "U37": {
+  "reject": {
+   "5665016": "ungrammatical (Jesteś głośno)",
+   "7610596": "linked English is loose (gotta)",
+   "9188074": "dative jej (powiedziałeś jej)",
+   "9188075": "dative jej (powiedziałaś jej)",
+   "12454149": "confusing line, and the English does not match"
+  }
+ },
+ "U62": {
+  "reject": {
+   "539306": "idiom (to co zwykle, the usual stuff)",
+   "13788700": "idiom (gdy tylko, as soon as)"
+  }
+ },
+ "U63": {
+  "reject": {
+   "527756": "co as every (co roku)",
+   "961502": "idiom (jak tam, how was)",
+   "5966741": "co as every (co roku)",
+   "10607477": "co as every (co roku)"
+  }
+ },
+ "U72": {
+  "reject": {
+   "354020": "linked English is wrong (hot, for ciepło)",
+   "705256": "odd line (No i gdzie jest deszcz?)",
+   "6030207": "linked English is wrong (very cold, for chłodno)",
+   "6402916": "idiom (ale as how: Ale wieje!)",
+   "12069051": "linked English is loose (Which do you think would be best?)"
+  }
+ },
+ "U38": {
+  "reject": {
+   "368929": "idiom (cóż to za, what a)",
+   "559995": "myśl as the command think!, taught as the noun thought",
+   "2947630": "myśl as the command think!, taught as the noun thought",
+   "3334682": "myśl as the command think!, taught as the noun thought",
+   "5225312": "idiom (cóż za, what a)",
+   "6602668": "tom in lower case",
+   "7970814": "myśl as the command think!",
+   "11573516": "idiom (co za, what a)"
+  }
+ },
+ "U64": {
+  "reject": {
+   "3750186": "awkward line (spotkanie się ze mną)",
+   "4124397": "idiom (jak tam, how was)"
+  }
+ },
+ "U65": {
+  "reject": {
+   "357206": "co as every (co rano)",
+   "6030139": "odd line (Mamy pracę rano)",
+   "6534020": "idiom (jako drugi, came second)"
+  }
+ },
+ "U73": {
+  "reject": {
+   "3637514": "idiom (od nowa, again)",
+   "6159355": "linked English does not match (Wasn't it enough?)"
+  }
+ },
+ "U66": {
+  "reject": {
+   "359252": "wolno as allowed: another sense of wolno, taught as slowly"
+  }
+ },
+ "U67": {
+  "reject": {
+   "957138": "linked English is loose (seriously thinking about going)",
+   "957163": "linked English is loose (seriously thinking about not going)",
+   "6553980": "idiom (muszę już lecieć, I have to run)",
+   "7610591": "idiom (muszę lecieć, I must dash)",
+   "10585978": "linked English is loose (I want to drive)",
+   "12202530": "linked English is loose (Gotta go)"
+  }
+ },
+ "U74": {
+  "reject": {
+   "359828": "wolno as allowed: another sense of wolno",
+   "817868": "idiom (pójść za, to follow)",
+   "3038362": "odd line (Jest z nami coraz lepiej)",
+   "3284065": "nad with the accusative for where to (nad jezioro), not taught",
+   "3926572": "idiom (poza tym, by the way)",
+   "5665207": "idiom (przed czasem, early)",
+   "10573317": "suggestive line (Zrobił to z nią)",
+   "12567429": "idiom (co z nią będzie, what will happen to her)"
+  }
+ },
+ "U39": {
+  "reject": {
+   "3433001": "dark line (probably dead)"
+  }
+ },
+ "U68": {
+  "reject": {
+   "3785062": "idiom (po mnie przyjedzie, pick me up)",
+   "10699221": "idiom (po ciebie przyjedzie, come for you)"
+  }
+ },
+ "U69": {
+  "reject": {
+   "524093": "rude (zamknij się, shut up)",
+   "2120183": "rude (zamknij się, shut up)",
+   "4408589": "linked English is wrong (Unlock it)",
+   "5636911": "odd line (Zapomnij Tom)",
+   "5636940": "odd line, no comma before the name (Odpowiedz Tom)",
+   "5652466": "rude (zamknij się, shut up)"
+  }
+ },
+ "U75": {
+  "reject": {
+   "827298": "harsh line (I hate you)",
+   "5585013": "linked English is loose (attracted to)",
+   "8116581": "dark line (I hate children)",
+   "8608819": "linked English is loose (She appeals to me)",
+   "10566432": "harsh line (I hate them)"
   }
  }
 }
