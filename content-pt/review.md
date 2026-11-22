@@ -1041,7 +1041,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W152 | porque | porque | Conjunction |  | because | checked |
 | W153 | qual | qual | Determiner |  | which | checked |
 | W154 | dois | dois | Numeral |  | two | checked |
-| W155 | duas | duas | Numeral |  | feminine of dois | checked |
+| W155 | duas | duas | Numeral |  | feminine of dois (duas: two) | checked |
 | W156 | três | três | Numeral |  | three | checked |
 | W157 | quatro | quatro | Numeral |  | four | checked |
 | W158 | cinco | cinco | Numeral |  | five | checked |
@@ -1104,7 +1104,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W717 | palavra | palavra | Noun | f | word unit of language | checked |
 | W718 | português | português | Noun | m | Portuguese language | checked |
 | W719 | inglês | inglês | Noun | m | English language | checked |
-| W720 | procurando | procurando | Verb |  | gerund of procurar | checked |
+| W720 | procurando | procurando | Verb |  | gerund of procurar (procurando: to search; to seek; to look for [with direct object or por ‘for something’]) | checked |
 | W721 | sei | saber | Verb |  | first-person singular present indicative of saber (saber: to know to be aware, to know [with direct object ‘a fact’ or que ‘that ...’ or indirect question]) | checked |
 | W722 | sabe | saber | Verb |  | inflection of saber: third-person singular present indicative second-person singular imperative (saber: to know to be aware, to know [with direct object ‘a fact’ or que ‘that ...’ or indirect question]) | checked |
 | W723 | coisa | coisa | Noun | f | thing | checked |
@@ -1341,7 +1341,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1136 | baixa | baixo | Adjective |  | feminine singular of baixo (baixo: low) | checked |
 | W1137 | moreno | moreno | Adjective |  | dark-haired | checked |
 | W1138 | morena | moreno | Adjective |  | feminine singular of moreno (moreno: dark-haired) | checked |
-| W1139 | loiro | loiro | Adjective |  | alternative form of louro | checked |
+| W1139 | loiro | loiro | Adjective |  | alternative form of louro (loiro: blonde/blond) | checked |
 | W1140 | loira | loiro | Adjective |  | feminine singular of loiro (loiro: alternative form of louro) | checked |
 | W1141 | ruivo | ruivo | Adjective |  | auburn, ginger, red-haired | checked |
 | W1142 | simpático | simpático | Adjective |  | nice, pleasant, likable | checked |
@@ -1784,7 +1784,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1733 | gênero | gênero | Noun | m | Brazilian Portuguese standard spelling of género | checked |
 | W1734 | cidadão | cidadão | Noun | m | citizen member of a State resident of a city | checked |
 | W1735 | usuário | usuário | Noun | m | user | checked |
-| W1736 | email | email | Noun | m | alternative spelling of e-mail | checked |
+| W1736 | email | email | Noun | m | alternative spelling of e-mail (email: e-mail) | checked |
 | W1737 | arroba | arroba | Noun | f | at, the name of the symbol @ | checked |
 | W1738 | carta | carta | Noun | f | letter | checked |
 | W1739 | mensagem | mensagem | Noun | f | message | checked |

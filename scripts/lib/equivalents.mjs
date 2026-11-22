@@ -9,6 +9,7 @@
 //   4. course order: the same time-phrase move in the course language (French, Spanish, Italian, Portuguese; not
 //      German, whose verb moves with it).
 // Each new row says which of these made it (source). Nothing already accepted, in other words or punctuation, is added.
+import { UK_US } from './us-spelling.mjs'
 const NAMES = 'Paul|Marie|Mary|Tom|Léa|Sophie|Marc|Julie|Anna|Ken|Pierre|Jean|John|Maria|Ana|Pedro|Juan|Carlos|Luca|Marco|Giulia|Anna'
 const key = (t) => String(t).toLowerCase().normalize('NFC').replace(/[’ʼ]/g, "'").replace(/[^\p{L}\p{N}' ]+/gu, ' ').replace(/\s+/g, ' ').trim()
 const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1)
@@ -52,7 +53,11 @@ const SPELLING = [['movie', 'film'], ['movies', 'films'], ['mom', 'mum'], ['apar
   ['store', 'shop'], ['stores', 'shops'], ['pants', 'trousers'], ['cell phone', 'mobile phone'], ['cellphone', 'mobile'], ['elevator', 'lift'],
   ['soccer', 'football'], ['cookie', 'biscuit'], ['cookies', 'biscuits'], ['candy', 'sweets'], ['garbage', 'rubbish'], ['trash', 'rubbish'],
   ['sidewalk', 'pavement'], ['color', 'colour'], ['colors', 'colours'], ['favorite', 'favourite'], ['neighbor', 'neighbour'], ['center', 'centre'],
-  ['theater', 'theatre'], ['gray', 'grey'], ['traveling', 'travelling'], ['okay', 'OK'], ['math', 'maths'], ['schedule', 'timetable']]
+  ['theater', 'theatre'], ['gray', 'grey'], ['traveling', 'travelling'], ['okay', 'OK'], ['math', 'maths'], ['schedule', 'timetable'],
+  // Every UK spelling the shipped English is respelled from (scripts/lib/us-spelling.mjs, 2026-11-22), so the shown US
+  // line and its UK original are both accepted. Not the US words with a second meaning (check, story, tire, stories,
+  // checks, tires), which would add a UK spelling where it is wrong.
+  ...UK_US.filter(([, us]) => !/^(check|checks|story|stories|tire|tires)$/.test(us)).map(([uk, us]) => [us, uk])].filter(([us, uk], i, all) => all.findIndex(([a, b]) => a === us && b === uk) === i)
 // a / an follows the new word (a flat, an apartment).
 const article = (t) => t.replace(/\b(a|an|A|An) ([\p{L}]+)/gu, (m, art, w) => { const an = /^[aeiou]/i.test(w) && !/^(uni|use|one|eu)/i.test(w); const base = an ? 'an' : 'a'; return `${art[0] === 'A' ? cap(base) : base} ${w}` })
 function spellings(t) {
