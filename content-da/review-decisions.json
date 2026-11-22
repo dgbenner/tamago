@@ -505,7 +505,22 @@
     "S15018",
     "S15020",
     "S15022",
-    "S53110"
+    "S53110",
+    "S75008",
+    "S75009",
+    "S75011",
+    "S26026",
+    "S92002",
+    "S92011",
+    "S92012",
+    "S92016",
+    "S92020",
+    "S92022",
+    "S42112",
+    "S87110",
+    "S91107",
+    "S91116",
+    "S66012"
   ],
   "vocabulary_additions": [],
   "hints": {},
@@ -528,8 +543,8 @@
       "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
     },
     "W064": {
-      "hint": "they",
-      "source": "Claude (Builder 2), Danish build 2026-11-19: clearer learner gloss, checked against Wiktionary"
+      "hint": "they; the, those (before a plural)",
+      "source": "Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22, verdict 6: Wiktionary Danish de, pronoun they and plural definite article"
     },
     "W019": {
       "hint": "it, that",
@@ -1214,6 +1229,14 @@
     "W2044": {
       "hint": "longer; further; ikke længere: no longer, anymore",
       "source": "Wiktionary Danish længere: comparative degree of længe (adverb); anymore; comparative of lang (Claude, Builder 2, Danish Part 4 gather, 2026-11-21)"
+    },
+    "W043": {
+      "hint": "can (kan lide: to like)",
+      "source": "Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22, verdict 2 (Dan's call 3): kan is the present of kunne, can; Wiktionary Danish"
+    },
+    "W158": {
+      "hint": "to; for (til dig); of (far til)",
+      "source": "Fable's Danish phase 6 review (2026-11-21; _review/danish-phase6-review.md), applied 2026-11-22, verdict 6: Wiktionary Danish til; 19 lines use it as for or of"
     }
   },
   "phrases_off": {},
@@ -1231,7 +1254,9 @@
     "London",
     "Paris",
     "Jensen",
-    "Hansen"
+    "Hansen",
+    "Odense",
+    "Bornholm"
   ],
   "gender": {
     "W011": "en",
@@ -1503,7 +1528,30 @@
     "W2262": "et",
     "W2003": "et",
     "W2202": "en",
-    "W2074": "en"
+    "W2074": "en",
+    "W1308": "en",
+    "W1424": "en",
+    "W1351": "en",
+    "W1352": "en",
+    "W1353": "en",
+    "W1354": "en",
+    "W1355": "en",
+    "W1356": "en",
+    "W1357": "en",
+    "W1358": "en",
+    "W1359": "en",
+    "W1360": "en",
+    "W1361": "en",
+    "W1362": "en"
   },
-  "accepted_additions": []
+  "accepted_additions": [],
+  "generated_off": {
+    "GS28104-10698229": "skade is not a course word (Fable's Danish phase 6 review, verdict 10, Appendix B; 2026-11-22)",
+    "GS28104-10698230": "såret is not a course word (Fable's Danish phase 6 review, verdict 10, Appendix B; 2026-11-22)",
+    "GS36124-6934711": "manglede is not a course word (Fable's Danish phase 6 review, verdict 10, Appendix B; 2026-11-22)",
+    "GS55127-6105509": "Må as Fable listed it (Appendix B: må→U47 for a U55 sentence's answer); cut with its pair (Fable's Danish phase 6 review, verdict 10, Appendix B; 2026-11-22)",
+    "GS55127-6105510": "jeres is not a course word (Fable's Danish phase 6 review, verdict 10, Appendix B; 2026-11-22)",
+    "GS88119-1747065": "enlig is not a course word (Fable's Danish phase 6 review, verdict 10, Appendix B; 2026-11-22)",
+    "GS9101-628354": "lykkelig is taught in U56, after U01 (Fable's Danish phase 6 review, verdict 10, Appendix B; 2026-11-22)"
+  }
 }

@@ -144,7 +144,9 @@ tables.accepted_answers = [
     if (c?.status !== 'checked') { bad.push(`${a.answer_id} "${a.answer}" live in the workbook, check says ${c?.status}`); return [] }
     return [{ ...a, status: 'live' }]
   }),
-  ...generated.filter((g) => live.has(g.sentence_id)).map((g) => ({ ...g, status: 'live' })),
+  // decisions.generated_off (answer id to why; Dutch, 2026-11-22): a generated answer a review left out, e.g. one with
+  // a word its circle has not taught. A course without the key ships every generated answer as before.
+  ...generated.filter((g) => live.has(g.sentence_id) && !decisions.generated_off?.[g.answer_id]).map((g) => ({ ...g, status: 'live' })),
 ]
 
 // Equivalent answers (Dan, 2026-11-15; scripts/lib/equivalents.mjs): Tatoeba's other English for the line, safe

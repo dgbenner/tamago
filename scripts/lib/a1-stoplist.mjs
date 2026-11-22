@@ -37,12 +37,14 @@ const BY_COURSE = {
     violence: ['vermoord', 'vermoorden', 'doden', 'moord', 'bloed', 'schiet', 'sterven', 'oorlog', 'wapen'],
   },
   // Danish and Norwegian core lists are subtitle frequency lists too (2026-11-20, standing step): their oaths, kill words
-  // and leftovers. Everyday words that subtitles over-represent but A1 needs (død, politiet, hallo) stay.
+  // and leftovers. Everyday words that subtitles over-represent but A1 needs (politiet, hallo) stay.
   // Part 2 gather (2026-11-21, Builder 2): hr (the subtitle abbreviation of herr, Mr).
   da: {
     subtitle: ['åh', 'ej', 'h', 'l', 's', 'agent', 'kaptajn', 'dollars', 'sam', 'new', 'okay', 'ok', 'hr'],
     oath: ['fanden', 'helvede', 'lort', 'pis', 'sgu', 'skide', 'kæft', 'gud'],
-    violence: ['dræbe', 'dræbte', 'dræbt', 'dræber', 'ihjel', 'våben', 'blod', 'dø'],
+    // Phase 6 (2026-11-22, Dan's call on Fable's review): død, døde, døden and hade, hader with their death and hate lines cut;
+    // hate is filed under violence, the nearest kind.
+    violence: ['dræbe', 'dræbte', 'dræbt', 'dræber', 'ihjel', 'våben', 'blod', 'dø', 'død', 'døde', 'døden', 'hade', 'hader'],
   },
   no: {
     subtitle: ['lkke', 'a', 's', 'pa', 'kaptein', 'dollar', 'new', 'ok'],
