@@ -1,5 +1,5 @@
 {
- "_about": "Polish pull review (Builder 2, 2026-11-21). reject: Tatoeba ids turned down, with the reason; a line turned down is never proposed again in any circle. english: a better linked Tatoeba translation. Read for other senses, formal address, case forms not yet taught (a locative or instrumental hidden in a form that looks like a taught one), idioms and odd lines. tak keeps both its Wiktionary senses in its hint (yes; so, like this), so tak-as-so lines stay.",
+ "_about": "Polish pull review (Builder 2, 2026-11-21). reject: Tatoeba ids turned down, with the reason; a line turned down is never proposed again in any circle. english: a better linked Tatoeba translation. Read for other senses, formal address, case forms not yet taught (a locative or instrumental hidden in a form that looks like a taught one), idioms and odd lines. tak keeps both its Wiktionary senses in its hint (yes; so, like this), so tak-as-so lines stay. Part 2 (2026-11-21): also the dative hidden in jej (powiedz jej, wierzysz jej) and czym as an instrumental, drogi as the genitive of droga (road), zobaczę outside niech zobaczę, stać as afford, chodzi o, liczę się.",
  "U01": {
   "reject": {
    "349996": "kto as anybody (Jest tam kto?): another sense of kto, taught as who",
@@ -306,6 +306,143 @@
   "reject": {
    "3655381": "w ręce is a locative (in your hand)",
    "10565686": "odd line (Mam oczy = I have eyes)"
+  }
+ },
+ "U41": {
+  "reject": {
+   "3943049": "jej here is the dative (to her), a case Part 2 keeps out",
+   "12469871": "idiom (Proszę, proszę = well, well, well)"
+  }
+ },
+ "U54": {
+  "reject": {
+   "6554026": "linked English is loose (Don't you just love it?)"
+  }
+ },
+ "U34": {
+  "reject": {
+   "4313776": "jej here is the dative (to her), a case Part 2 keeps out",
+   "4410211": "jej here is the dative (to her), a case Part 2 keeps out",
+   "4410212": "jej here is the dative (to her), a case Part 2 keeps out",
+   "5659903": "linked English is wrong (Say please for Proszę powiedz)",
+   "5960540": "jej here is the dative (to her), a case Part 2 keeps out",
+   "7970901": "jej here is the dative (to her), a case Part 2 keeps out",
+   "9686290": "jej here is the dative (to her), a case Part 2 keeps out"
+  }
+ },
+ "U43": {
+  "reject": {
+   "6160742": "linked English is wrong (Almost three)",
+   "13692420": "idiom (A to dopiero = well I never)",
+   "13789318": "odd line (a doctor four years old)"
+  }
+ },
+ "U55": {
+  "reject": {
+   "541494": "ungrammatical (używać takes the genitive: mojego)",
+   "10559679": "ungrammatical (używać takes the genitive: tego)"
+  }
+ },
+ "U35": {
+  "reject": {
+   "1611390": "zobaczę as a plain future, outside the fixed niech zobaczę",
+   "7303725": "oath (A niech to!)",
+   "12959974": "zobaczę as a plain future, outside the fixed niech zobaczę"
+  }
+ },
+ "U44": {
+  "reject": {
+   "3488572": "linked English is loose (I got your back)",
+   "12360247": "another sense of liczyć (liczę się = I matter)"
+  }
+ },
+ "U45": {
+  "reject": {
+   "355670": "another sense of żyć (makes a good living)",
+   "3127373": "dark line (I don't want to live)",
+   "3522528": "linked English is loose (We're partners)",
+   "10566192": "dark line (He is dead)",
+   "10616783": "dark line (The bird is dead)",
+   "11615912": "dark line (Tom isn't alive)",
+   "12470107": "dark line (Tom could be dead)"
+  }
+ },
+ "U56": {
+  "reject": {
+   "510139": "czym here is the instrumental (czym jest = what is), kept out of Part 2",
+   "1660212": "linked English is loose (I'm cool)",
+   "6305757": "odd line (Miłość kocha miłość)"
+  }
+ },
+ "U46": {
+  "reject": {
+   "3857520": "race line, left out",
+   "3926303": "po co (what for), another sense of po",
+   "13020747": "odd line (Do you love learning French?)"
+  }
+ },
+ "U47": {
+  "reject": {
+   "3623287": "linked English is odd (a tom cat)",
+   "5837068": "linked English is wrong (on the market)",
+   "10584439": "idiom (nie kupuję tego = I don't believe that)",
+   "11610900": "idiom (ma to, co trzeba)",
+   "11614323": "idiom (masz to, co trzeba = what it takes)"
+  }
+ },
+ "U57": {
+  "reject": {
+   "4148621": "linked English is loose (probably)",
+   "4735501": "wielki as great (person), another sense; odd line",
+   "5837042": "odd line and English",
+   "8617416": "idiom (Mówi się trudno = tough luck)",
+   "11749613": "idiom (Mam tak samo = same here)"
+  }
+ },
+ "U36": {
+  "reject": {
+   "964934": "jej here is the dative (to her), a case Part 2 keeps out",
+   "1002841": "linked English is wrong (That isn't how I feel)",
+   "1765005": "z tym here is the instrumental, kept out of Part 2",
+   "6554003": "idiom (nie zgadzam się na to = I won't stand for this)",
+   "6554024": "linked English is loose (Don't you just love it?)",
+   "10668150": "dobra as okay, another sense of dobry",
+   "12453683": "jej here is the dative (to her), a case Part 2 keeps out",
+   "12470407": "z tym here is the instrumental, kept out of Part 2",
+   "13781280": "near-duplicate of 13662111"
+  }
+ },
+ "U48": {
+  "reject": {
+   "652431": "idiom in the English (There's no free lunch)",
+   "1609647": "drogi here is the genitive of droga (road)",
+   "3049291": "dark line (Life is cheap)",
+   "3898940": "drogi here is the genitive of droga (road)",
+   "8620874": "drogi here is the genitive of droga (road)",
+   "10573447": "drogi here is the genitive of droga (road), not expensive",
+   "11581678": "drogi here is the plural of droga (roads), not expensive"
+  }
+ },
+ "U49": {
+  "reject": {
+   "1587856": "no capital or full stop",
+   "4359804": "je here is the pronoun them, not eats (the course's je)",
+   "11533010": "je here is the pronoun them, not eats"
+  }
+ },
+ "U58": {
+  "reject": {
+   "365452": "stać as a train stopping; English reads stop",
+   "975021": "dalej as still, another sense",
+   "982558": "stać as to afford, another sense",
+   "3749810": "dalej as still, another sense",
+   "4438992": "stać as to afford, another sense",
+   "5369943": "dalej as still, another sense",
+   "6155061": "stać as to be capable, another sense",
+   "9686630": "linked English is wrong",
+   "10578981": "stać as to afford, another sense",
+   "10624150": "rozumieć przez (to mean by), another sense",
+   "13684052": "chodzi o (it is about), another sense of chodzić"
   }
  }
 }

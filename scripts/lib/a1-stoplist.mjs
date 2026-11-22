@@ -58,14 +58,15 @@ const BY_COURSE = {
   // parliamentary, legal and official register (państwo as the state, rząd, ustawa, sejm, poseł, podatek …) and a few
   // headwords the tagger made from other words: lato (summer) is counted from lat, the genitive of rok (years); były
   // (former) from był, the past of być; proca (sling) from praca; mus (necessity) from musieć; wieko (lid) from wiek;
-  // rana (wound) from rano (morning); gen from the abbreviation gen. (general); dr is an abbreviation. Violence: wojna,
+  // rana (wound) from rano (morning); gen from the abbreviation gen. (general); dr is an abbreviation; nim (Part 2,
+  // 2026-11-21) is the instrumental or locative of on (z nim, o nim), a form listed as a headword. Violence: wojna,
   // śmierć, walka, ofiara, żołnierz, armia, wojskowy. Everyday words the corpus over-represents (sprawa, strona,
   // prawo, pan) stay, as do religious words (bóg, ksiądz) and Żyd, a plain noun, not a slur.
   pl: {
     register: ['państwo', 'państwowy', 'rząd', 'ustawa', 'komisja', 'minister', 'ministerstwo', 'prezydent', 'premier', 'unia', 'senator', 'Senat', 'sejm', 'poseł',
       'parlament', 'partia', 'polityczny', 'polityk', 'wyborczy', 'społeczny', 'europejski', 'administracja', 'budżet', 'podatek', 'przepis', 'poprawka',
       'posiedzenie', 'komitet', 'urząd', 'instytucja', 'władza', 'gospodarczy', 'gospodarka', 'finansowy', 'działalność', 'realizacja', 'dotyczyć', 'stanowić', 'ów', 'prenumerata'],
-    artefact: ['lato', 'były', 'proca', 'mus', 'wieko', 'rana', 'gen'],
+    artefact: ['lato', 'były', 'proca', 'mus', 'wieko', 'rana', 'gen', 'nim'],
     subtitle: ['dr'],
     violence: ['wojna', 'śmierć', 'walka', 'ofiara', 'żołnierz', 'armia', 'wojskowy'],
   },

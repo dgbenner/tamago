@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "Na rynku",
+    "lines": "Owoce i warzywa\nJabłka: pięć złotych za kilo\nRynek: poniedziałek i sobota",
+    "questions_json": "[{\"question\":\"How much is a kilo of apples?\",\"choices\":[\"5 złotych\",\"15 złotych\",\"50 złotych\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Sunday\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R102",
+    "unit_id": "U47",
+    "kind": "notice",
+    "title": "Rynek w mieście",
+    "lines": "Rynek w mieście\nSobota i niedziela\nOwoce, warzywa, chleb i ser",
+    "questions_json": "[{\"question\":\"When is the market?\",\"choices\":[\"On Saturday and Sunday\",\"On Monday\",\"Every day\"],\"answer\":0},{\"question\":\"What can you buy there?\",\"choices\":[\"Fruit, vegetables, bread and cheese\",\"Clothes and shoes\",\"Books and maps\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R103",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "Anna pisze",
+    "lines": "Piotr!\nJestem na rynku. Kupuję owoce i warzywa.\nChcesz jabłko?\nAnna",
+    "questions_json": "[{\"question\":\"Where is Anna?\",\"choices\":[\"At the market\",\"At school\",\"In the park\"],\"answer\":0},{\"question\":\"What does she offer Piotr?\",\"choices\":[\"An apple\",\"A coffee\",\"Some bread\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R104",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Ceny",
+    "lines": "Chleb: pięć złotych\nSer: dwadzieścia złotych\nMleko: cztery złote\nWoda: dwa złote",
+    "questions_json": "[{\"question\":\"How much is the cheese?\",\"choices\":[\"5 złotych\",\"20 złotych\",\"4 złote\"],\"answer\":1},{\"question\":\"What costs 5 złotych?\",\"choices\":[\"The bread\",\"The milk\",\"The water\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R105",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Kawa i herbata",
+    "lines": "Kawa: dwanaście złotych\nHerbata: dziesięć złotych\nLody: piętnaście złotych",
+    "questions_json": "[{\"question\":\"How much is a tea?\",\"choices\":[\"10 złotych\",\"12 złotych\",\"15 złotych\"],\"answer\":0},{\"question\":\"What costs the most?\",\"choices\":[\"The ice cream\",\"The coffee\",\"The tea\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "notice",
+    "title": "Stare książki",
+    "lines": "Stare książki\nJedna książka: dziesięć złotych\nTrzy książki: dwadzieścia złotych",
+    "questions_json": "[{\"question\":\"How much is one book?\",\"choices\":[\"10 złotych\",\"20 złotych\",\"30 złotych\"],\"answer\":0},{\"question\":\"How much are three books?\",\"choices\":[\"20 złotych\",\"30 złotych\",\"10 złotych\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R107",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Maria pisze",
+    "lines": "Piotr!\nMożesz kupić butelkę mleka, trochę sera i kilo jabłek?\nDziękuję!\nMaria",
+    "questions_json": "[{\"question\":\"What does Maria want?\",\"choices\":[\"Milk, cheese and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "sign",
+    "title": "W sklepie",
+    "lines": "Woda: dwie butelki, pięć złotych\nKawa: kilo, czterdzieści złotych",
+    "questions_json": "[{\"question\":\"How much are two bottles of water?\",\"choices\":[\"5 złotych\",\"4 złote\",\"40 złotych\"],\"answer\":0},{\"question\":\"What costs 40 złotych?\",\"choices\":[\"A kilo of coffee\",\"Two bottles of water\",\"A bottle of juice\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Na urodziny",
+    "lines": "Na urodziny:\ndwie butelki soku,\ntrochę sera,\nkilo jabłek!",
+    "questions_json": "[{\"question\":\"How many bottles of juice?\",\"choices\":[\"Two\",\"One\",\"Three\"],\"answer\":0},{\"question\":\"What is the list for?\",\"choices\":[\"A birthday\",\"School\",\"A trip\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Nazywam się Piotr Nowak. Mam czterdzieści lat. Mieszkam w Warszawie. Mój adres to ulica Zielona dziesięć.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Imię\",\"rule\":\"text\",\"answer\":\"Piotr\"},{\"key\":\"last\",\"label\":\"Nazwisko\",\"rule\":\"text\",\"answer\":\"Nowak\"},{\"key\":\"age\",\"label\":\"Wiek\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adres\",\"rule\":\"text\",\"answer\":\"ulica Zielona 10\",\"also\":[\"Zielona 10\",\"ul. Zielona 10\",\"Ulica Zielona 10\",\"ulica Zielona dziesięć\",\"zielona 10\"]},{\"key\":\"town\",\"label\":\"Miasto\",\"rule\":\"text\",\"answer\":\"Warszawa\",\"also\":[\"warszawa\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Nazywam się Anna Kowalska. Mam trzydzieści lat. Jestem z Polski. Mieszkam we Francji. Mój numer telefonu to sześć zero jeden, dwa trzy cztery, pięć sześć siedem.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Imię\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"last\",\"label\":\"Nazwisko\",\"rule\":\"text\",\"answer\":\"Kowalska\"},{\"key\":\"age\",\"label\":\"Wiek\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Narodowość\",\"rule\":\"text\",\"answer\":\"polska\",\"also\":[\"Polska\",\"Polka\",\"polka\",\"polskie\"]},{\"key\":\"country\",\"label\":\"Kraj\",\"rule\":\"text\",\"answer\":\"Francja\",\"also\":[\"francja\"]},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"601 234 567\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

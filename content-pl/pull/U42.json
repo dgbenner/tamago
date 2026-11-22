@@ -1,0 +1,1462 @@
+{
+  "unit_id": "U42",
+  "pulled_at": "2026-11-22",
+  "candidates": 63,
+  "sentences": [
+    {
+      "sentence_id": "S42001",
+      "unit_id": "U42",
+      "french": "Jaki jest twój nowy numer telefonu?",
+      "english": "What's your new telephone number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4834436",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42002",
+      "unit_id": "U42",
+      "french": "Zadzwoń do mnie.",
+      "english": "Call me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "919928",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42003",
+      "unit_id": "U42",
+      "french": "Zadzwoń do nas.",
+      "english": "Call us.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5627272",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42004",
+      "unit_id": "U42",
+      "french": "To mój numer telefonu.",
+      "english": "Here's my telephone number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "361076",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42005",
+      "unit_id": "U42",
+      "french": "Zadzwoń do mnie jutro.",
+      "english": "Call me tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2429809",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Chemiczny_Bogdan",
+      "other_english": [
+        "Ring me tomorrow.",
+        "Give me a ring tomorrow."
+      ]
+    },
+    {
+      "sentence_id": "S42006",
+      "unit_id": "U42",
+      "french": "Słyszysz coś?",
+      "english": "Do you hear something?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "959571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42007",
+      "unit_id": "U42",
+      "french": "Słyszysz mnie?",
+      "english": "Can you hear me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3446219",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Hikaru",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42008",
+      "unit_id": "U42",
+      "french": "Słyszysz to?",
+      "english": "Do you hear that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5698799",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "CarloLardini",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42009",
+      "unit_id": "U42",
+      "french": "Co słyszę?",
+      "english": "What do I hear?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6157931",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42010",
+      "unit_id": "U42",
+      "french": "Halo, jesteś jeszcze?",
+      "english": "Hello, are you still there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "349022",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42011",
+      "unit_id": "U42",
+      "french": "Czekasz na coś?",
+      "english": "Are you waiting for something?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3438237",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42012",
+      "unit_id": "U42",
+      "french": "Na co czekasz?",
+      "english": "What are you waiting for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3729474",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42013",
+      "unit_id": "U42",
+      "french": "Czekasz na autobus?",
+      "english": "Are you waiting for a bus?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11749857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42014",
+      "unit_id": "U42",
+      "french": "Czy ktoś mnie słyszy?",
+      "english": "Can anybody hear me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3460664",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "LunaVulpo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42015",
+      "unit_id": "U42",
+      "french": "Na co Tom czeka?",
+      "english": "What's Tom waiting for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3637499",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42016",
+      "unit_id": "U42",
+      "french": "Halo, jest tam ktoś?",
+      "english": "Hello, is anyone there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11731000",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42017",
+      "unit_id": "U42",
+      "french": "Czy ktoś jeszcze to słyszy?",
+      "english": "Does anyone else hear that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5221609",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42018",
+      "unit_id": "U42",
+      "french": "Tom dzwoni do Mary.",
+      "english": "Tom is calling Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12359936",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42019",
+      "unit_id": "U42",
+      "french": "Ona często do mnie dzwoni.",
+      "english": "She calls me often.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3434740",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42020",
+      "unit_id": "U42",
+      "french": "On często do mnie dzwoni.",
+      "english": "He calls me often.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3649616",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Siganiv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42021",
+      "unit_id": "U42",
+      "french": "Słyszę coś.",
+      "english": "I hear something.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "635807",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I can hear something."
+      ]
+    },
+    {
+      "sentence_id": "S42022",
+      "unit_id": "U42",
+      "french": "Coś słyszę.",
+      "english": "I hear something.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "830497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I can hear something."
+      ]
+    },
+    {
+      "sentence_id": "S42023",
+      "unit_id": "U42",
+      "french": "Proszę czekać.",
+      "english": "Please wait.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5659932",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42024",
+      "unit_id": "U42",
+      "french": "Muszę czekać.",
+      "english": "I have to wait.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8522529",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42025",
+      "unit_id": "U42",
+      "french": "Czekam na pociąg.",
+      "english": "I'm waiting for the train.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "705304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I'm waiting for a train."
+      ]
+    },
+    {
+      "sentence_id": "S42026",
+      "unit_id": "U42",
+      "french": "Nie mogę czekać.",
+      "english": "I can't wait.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3680466",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42027",
+      "unit_id": "U42",
+      "french": "Mam osiemnaście lat.",
+      "english": "I am eighteen years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5996236",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42028",
+      "unit_id": "U42",
+      "french": "Numer jest zajęty.",
+      "english": "The number is engaged.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7463015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qmak",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42029",
+      "unit_id": "U42",
+      "french": "Na nikogo nie czekam.",
+      "english": "I'm not waiting for anyone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "822191",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42030",
+      "unit_id": "U42",
+      "french": "Tom czeka na Mary.",
+      "english": "Tom is waiting for Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3472124",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42031",
+      "unit_id": "U42",
+      "french": "Nikt nas nie słyszy.",
+      "english": "Nobody can hear us.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7164579",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "No one can hear us."
+      ]
+    },
+    {
+      "sentence_id": "S42032",
+      "unit_id": "U42",
+      "french": "Tom na ciebie czeka.",
+      "english": "Tom's waiting for you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7185119",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42033",
+      "unit_id": "U42",
+      "french": "Mój przyjaciel ma siedemnaście lat.",
+      "english": "My friend is seventeen years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "357886",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S42001",
+      "position": 1,
+      "surface": "Jaki",
+      "word_id": "W230",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 4,
+      "surface": "nowy",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 5,
+      "surface": "numer",
+      "word_id": "W1532",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 6,
+      "surface": "telefonu",
+      "word_id": "W1533",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 1,
+      "surface": "Zadzwoń",
+      "word_id": "W1549",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 2,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 3,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 1,
+      "surface": "Zadzwoń",
+      "word_id": "W1549",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 2,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 3,
+      "surface": "nas",
+      "word_id": "W1513",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 2,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 3,
+      "surface": "numer",
+      "word_id": "W1532",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 4,
+      "surface": "telefonu",
+      "word_id": "W1533",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 1,
+      "surface": "Zadzwoń",
+      "word_id": "W1549",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 2,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 3,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 4,
+      "surface": "jutro",
+      "word_id": "W236",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 1,
+      "surface": "Słyszysz",
+      "word_id": "W1555",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 1,
+      "surface": "Słyszysz",
+      "word_id": "W1555",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 2,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 1,
+      "surface": "Słyszysz",
+      "word_id": "W1555",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 2,
+      "surface": "słyszę",
+      "word_id": "W1554",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 1,
+      "surface": "Halo",
+      "word_id": "W1552",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 3,
+      "surface": "jeszcze",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 1,
+      "surface": "Czekasz",
+      "word_id": "W1559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 3,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 1,
+      "surface": "Na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 2,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 3,
+      "surface": "czekasz",
+      "word_id": "W1559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 1,
+      "surface": "Czekasz",
+      "word_id": "W1559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 3,
+      "surface": "autobus",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 2,
+      "surface": "ktoś",
+      "word_id": "W199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 3,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 4,
+      "surface": "słyszy",
+      "word_id": "W1556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 1,
+      "surface": "Na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 2,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 4,
+      "surface": "czeka",
+      "word_id": "W1560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 1,
+      "surface": "Halo",
+      "word_id": "W1552",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 3,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 4,
+      "surface": "ktoś",
+      "word_id": "W199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 2,
+      "surface": "ktoś",
+      "word_id": "W199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 3,
+      "surface": "jeszcze",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 4,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 5,
+      "surface": "słyszy",
+      "word_id": "W1556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 2,
+      "surface": "dzwoni",
+      "word_id": "W1547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 3,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 4,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 2,
+      "surface": "często",
+      "word_id": "W252",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 3,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 4,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 5,
+      "surface": "dzwoni",
+      "word_id": "W1547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 2,
+      "surface": "często",
+      "word_id": "W252",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 3,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 4,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 5,
+      "surface": "dzwoni",
+      "word_id": "W1547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 1,
+      "surface": "Słyszę",
+      "word_id": "W1554",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 1,
+      "surface": "Coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 2,
+      "surface": "słyszę",
+      "word_id": "W1554",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 2,
+      "surface": "czekać",
+      "word_id": "W1561",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 1,
+      "surface": "Muszę",
+      "word_id": "W270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 2,
+      "surface": "czekać",
+      "word_id": "W1561",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 1,
+      "surface": "Czekam",
+      "word_id": "W1558",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 3,
+      "surface": "pociąg",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 2,
+      "surface": "mogę",
+      "word_id": "W268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 3,
+      "surface": "czekać",
+      "word_id": "W1561",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 1,
+      "surface": "Mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 2,
+      "surface": "osiemnaście",
+      "word_id": "W1542",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 3,
+      "surface": "lat",
+      "word_id": "W214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 1,
+      "surface": "Numer",
+      "word_id": "W1532",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 3,
+      "surface": "zajęty",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 1,
+      "surface": "Na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 2,
+      "surface": "nikogo",
+      "word_id": "W1515",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 4,
+      "surface": "czekam",
+      "word_id": "W1558",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 2,
+      "surface": "czeka",
+      "word_id": "W1560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 4,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42031",
+      "position": 1,
+      "surface": "Nikt",
+      "word_id": "W200",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42031",
+      "position": 2,
+      "surface": "nas",
+      "word_id": "W1513",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42031",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42031",
+      "position": 4,
+      "surface": "słyszy",
+      "word_id": "W1556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42032",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42032",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42032",
+      "position": 3,
+      "surface": "ciebie",
+      "word_id": "W1507",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42032",
+      "position": 4,
+      "surface": "czeka",
+      "word_id": "W1560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42033",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42033",
+      "position": 2,
+      "surface": "przyjaciel",
+      "word_id": "W177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42033",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42033",
+      "position": 4,
+      "surface": "siedemnaście",
+      "word_id": "W1541",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42033",
+      "position": 5,
+      "surface": "lat",
+      "word_id": "W214",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A420051",
+      "sentence_id": "S42005",
+      "direction": "fr_to_en",
+      "answer": "Ring me tomorrow.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420052",
+      "sentence_id": "S42005",
+      "direction": "fr_to_en",
+      "answer": "Give me a ring tomorrow.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420211",
+      "sentence_id": "S42021",
+      "direction": "fr_to_en",
+      "answer": "I can hear something.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420221",
+      "sentence_id": "S42022",
+      "direction": "fr_to_en",
+      "answer": "I can hear something.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420251",
+      "sentence_id": "S42025",
+      "direction": "fr_to_en",
+      "answer": "I'm waiting for a train.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420311",
+      "sentence_id": "S42031",
+      "direction": "fr_to_en",
+      "answer": "No one can hear us.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
