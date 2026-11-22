@@ -1048,14 +1048,14 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W038 | förlåt | förlåt | Interjection |  | I'm sorry | checked |
 | W039 | ursäkta | ursäkta | Interjection |  | excuse me!, pardon, I'm sorry! | checked |
 | W040 | hur | hur | Adverb |  | how | checked |
-| W041 | mår | må | Verb |  | present indicative of må | checked |
+| W041 | mår | må | Verb |  | present indicative of må (må: may) | checked |
 | W042 | bra | bra | Adjective |  | good | checked |
 | W043 | dålig | dålig | Adjective |  | bad | checked |
-| W044 | äter | äta | Verb |  | present indicative of äta | checked |
-| W045 | dricker | dricka | Verb |  | present indicative of dricka | checked |
-| W046 | tycker | tycka | Verb |  | present indicative of tycka | checked |
+| W044 | äter | äta | Verb |  | present indicative of äta (äta: to eat) | checked |
+| W045 | dricker | dricka | Verb |  | present indicative of dricka (dricka: to drink to drink) | checked |
+| W046 | tycker | tycka | Verb |  | present indicative of tycka (tycka: to be of the opinion, to think) | checked |
 | W047 | om | om | Conjunction |  | if | checked |
-| W048 | gillar | gilla | Verb |  | present indicative of gilla | checked |
+| W048 | gillar | gilla | Verb |  | present indicative of gilla (gilla: to like) | checked |
 | W049 | bröd | bröd | Noun |  | bread | checked |
 | W050 | vatten | vatten | Noun |  | water | checked |
 | W051 | mjölk | mjölk | Noun |  | milk | checked |
@@ -1065,7 +1065,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W055 | te | te | Noun |  | tea | checked |
 | W056 | vin | vin | Noun |  | wine | checked |
 | W057 | god | god | Adjective |  | good, morally commendable | checked |
-| W058 | har | ha | Verb |  | present indicative of ha | checked |
+| W058 | har | ha | Verb |  | present indicative of ha (ha: To have; to possess, or to have as a property; to come into possession of something concrete or abstract.) | checked |
 | W059 | hund | hund | Noun |  | a dog, a hound | checked |
 | W060 | katt | katt | Noun |  | a cat | checked |
 | W061 | häst | häst | Noun |  | a horse; a large mammal, Equus caballus | checked |
@@ -1096,15 +1096,15 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W086 | cykel | cykel | Noun |  | a bicycle, a bike | checked |
 | W087 | rolig | rolig | Adjective |  | funny, fun | checked |
 | W088 | snäll | snäll | Adjective |  | kind, nice | checked |
-| W089 | står | stå | Verb |  | present indicative of stå | checked |
-| W090 | ligger | ligga | Verb |  | present indicative of ligga | checked |
+| W089 | står | stå | Verb |  | present indicative of stå (stå: stand; be in an upright position) | checked |
+| W090 | ligger | ligga | Verb |  | present indicative of ligga (ligga: to lie; be in a horizontal position) | checked |
 | W091 | i | i | Preposition |  | in; located inside | checked |
 | W092 | på | på | Preposition |  | on, on top of; touching from above | checked |
 | W093 | under | under | Preposition |  | under; below; beneath | checked |
 | W094 | bredvid | bredvid | Preposition |  | next to, beside | checked |
 | W095 | här | här | Adverb |  | here; at this time or at this place | checked |
 | W096 | där | där | Adverb |  | there; at that place | checked |
-| W097 | finns | finnas | Verb |  | present indicative of finnas | checked |
+| W097 | finns | finnas | Verb |  | present indicative of finnas (finnas: to exist; to be) | checked |
 | W098 | kök | kök | Noun |  | a kitchen | checked |
 | W099 | badrum | badrum | Noun |  | a bathroom | checked |
 | W100 | trädgård | trädgård | Noun |  | a garden | checked |
@@ -1158,7 +1158,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W148 | brun | brun | Adjective |  | brown | checked |
 | W149 | färg | färg | Noun |  | colour; the spectral composition of visible light | checked |
 | W150 | idag | idag | Adverb |  | today | checked |
-| W151 | imorgon | imorgon | Adverb |  | alternative spelling of i morgon | checked |
+| W151 | imorgon | imorgon | Adverb |  | alternative spelling of i morgon (imorgon: tomorrow) | checked |
 | W152 | nu | nu | Adverb |  | now | checked |
 | W153 | dag | dag | Noun |  | a day | checked |
 | W154 | vecka | vecka | Noun |  | a week, a period of 7 days. | checked |
@@ -1167,8 +1167,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W157 | lördag | lördag | Noun |  | Saturday | checked |
 | W158 | söndag | söndag | Noun |  | Sunday | checked |
 | W159 | klockan | klocka | Noun |  | definite singular of klocka (klocka: clock, watch; an instrument used to measure or keep track of time) | checked |
-| W160 | går | gå | Verb |  | present indicative of gå | checked |
-| W161 | åker | åka | Verb |  | present indicative of åka | checked |
+| W160 | går | gå | Verb |  | present indicative of gå (gå: to walk) | checked |
+| W161 | åker | åka | Verb |  | present indicative of åka (åka: to go by using something more or other than the human or animal body, for example a vehicle, skis, or skates; to go, to ride, etc.) | checked |
 | W162 | till | till | Preposition |  | to | checked |
 | W163 | från | från | Preposition |  | from | checked |
 | W164 | park | park | Noun |  | a park | checked |
@@ -1177,26 +1177,26 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W167 | stad | stad | Noun |  | a city, a town | checked |
 | W168 | restaurang | restaurang | Noun |  | a restaurant | checked |
 | W169 | gata | gata | Noun |  | a street | checked |
-| W701 | förstår | förstå | Verb |  | present indicative of förstå | checked |
-| W702 | långsammare | långsammare | Adjective |  | comparative degree of långsam | checked |
+| W701 | förstår | förstå | Verb |  | present indicative of förstå (förstå: to understand) | checked |
+| W702 | långsammare | långsammare | Adjective |  | comparative degree of långsam (långsammare: slow) | checked |
 | W703 | gång | gång | Noun |  | the continuous running of something, such as a machinery or time | checked |
-| W704 | säg | säga | Verb |  | imperative of säga | checked |
+| W704 | säg | säga | Verb |  | imperative of säga (säga: to say) | checked |
 | W705 | prata | prata | Verb |  | to talk, to speak | checked |
-| W706 | pratar | prata | Verb |  | present indicative of prata | checked |
+| W706 | pratar | prata | Verb |  | present indicative of prata (prata: to talk, to speak) | checked |
 | W707 | upprepa | upprepa | Verb |  | to repeat | checked |
 | W708 | igen | igen | Adverb |  | again | checked |
-| W709 | säger | säga | Verb |  | present indicative of säga | checked |
-| W710 | betyder | betyda | Verb |  | present indicative of betyda | checked |
+| W709 | säger | säga | Verb |  | present indicative of säga (säga: to say) | checked |
+| W710 | betyder | betyda | Verb |  | present indicative of betyda (betyda: to mean) | checked |
 | W711 | ord | ord | Noun |  | a word | checked |
 | W712 | ordet | ord | Noun |  | definite singular of ord (ord: a word) | checked |
 | W713 | svenska | svenska | Noun |  | Swedish | checked |
 | W714 | engelska | engelska | Noun |  | English | checked |
-| W715 | letar | leta | Verb |  | present indicative of leta | checked |
+| W715 | letar | leta | Verb |  | present indicative of leta (leta: search; look throughout for something) | checked |
 | W716 | efter | efter | Preposition |  | after; subsequent; later in time than or later in a sequence than | checked |
 | W717 | vet | veta | Verb |  | present of veta; know, knows | checked |
 | W718 | sak | sak | Noun |  | a thing | checked |
-| W719 | heter | heta | Verb |  | present indicative of heta | checked |
-| W720 | kallas | kallas | Verb |  | passive infinitive of kalla | checked |
+| W719 | heter | heta | Verb |  | present indicative of heta (heta: to be called; to have as one's name, to hight) | checked |
+| W720 | kallas | kallas | Verb |  | passive infinitive of kalla (kallas: to call, denote, refer to; to give as a name) | checked |
 | W1001 | hår | hår | Noun |  | hair | checked |
 | W1002 | öga | öga | Noun |  | eye eyeball | checked |
 | W1003 | ögon | öga | Noun |  | indefinite plural of öga (öga: eye eyeball) | checked |
@@ -1214,12 +1214,12 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1015 | fest | fest | Noun |  | a party a celebration | checked |
 | W1016 | fotboll | fotboll | Noun |  | soccer , football ; a team sport | checked |
 | W1017 | spel | entertainment | Noun |  | a play, a game; a person's or animal's happy, joyous movement or entertainment; activity for amusement only; a pursuit or activity with rules performed either alone or with others, for the purpose of entertainment | checked |
-| W1018 | spelar | spela | Verb |  | present indicative of spela | checked |
-| W1019 | simmar | simma | Verb |  | present indicative of simma | checked |
-| W1020 | dansar | dansa | Verb |  | present indicative of dansa | checked |
-| W1021 | sjunger | sjunga | Verb |  | present indicative of sjunga | checked |
-| W1022 | läser | läsa | Verb |  | present indicative of läsa | checked |
-| W1023 | tittar | titta | Verb |  | present indicative of titta | checked |
+| W1018 | spelar | spela | Verb |  | present indicative of spela (spela: to play; a game, a tune, a melody, an instrument or a role) | checked |
+| W1019 | simmar | simma | Verb |  | present indicative of simma (simma: to swim) | checked |
+| W1020 | dansar | dansa | Verb |  | present indicative of dansa (dansa: to dance) | checked |
+| W1021 | sjunger | sjunga | Verb |  | present indicative of sjunga (sjunga: to sing) | checked |
+| W1022 | läser | läsa | Verb |  | present indicative of läsa (läsa: to read) | checked |
+| W1023 | tittar | titta | Verb |  | present indicative of titta (titta: to look; keep one's eyes open as to be able to see) | checked |
 | W1024 | film | film | Noun |  | film; a thin layer | checked |
 | W1025 | museum | museum | Noun |  | a museum | checked |
 | W1026 | kyrka | kyrka | Noun |  | a church | checked |
@@ -1237,7 +1237,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W802 | namnet | namn | Noun |  | definite singular of namn (namn: name) | checked |
 | W803 | förnamn | förnamn | Noun |  | first name, given name | checked |
 | W804 | efternamn | efternamn | Noun |  | surname, family name | checked |
-| W805 | känner | känna | Verb |  | present indicative of känna | checked |
+| W805 | känner | känna | Verb |  | present indicative of känna (känna: to feel, to sense) | checked |
 | W806 | mig | mig | Pronoun |  | me | checked |
 | W807 | dig | dig | Pronoun |  | you | checked |
 | W808 | honom | honom | Pronoun |  | him; oblique of han | checked |
@@ -1247,12 +1247,12 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W812 | trevligt | trevlig | Adjective |  | indefinite neuter singular of trevlig (trevlig: nice and pleasant towards others, personable) | checked |
 | W813 | att | att | Particle |  | Used to indicate the infinitive form of a verb; compare English to. | checked |
 | W814 | välkommen | välkommen | Adjective |  | welcome | checked |
-| W815 | skriver | skriva | Verb |  | present indicative of skriva | checked |
+| W815 | skriver | skriva | Verb |  | present indicative of skriva (skriva: to write, to type, to copy; to put letters and digits on a surface, using a pen or typewriter) | checked |
 | W816 | skriva | skriva | Verb |  | to write, to type, to copy; to put letters and digits on a surface, using a pen or typewriter | checked |
-| W817 | stavar | stava | Verb |  | present indicative of stava | checked |
+| W817 | stavar | stava | Verb |  | present indicative of stava (stava: to spell) | checked |
 | W818 | stava | stava | Verb |  | to spell | checked |
 | W819 | bokstav | bokstav | Noun |  | letter of the alphabet | checked |
-| W820 | kan | kunna | Verb |  | present of kunna | checked |
+| W820 | kan | kunna | Verb |  | present of kunna (kunna: "to can", to be able to) | checked |
 | W821 | kunna | kunna | Verb |  | "to can", to be able to | checked |
 | W822 | vara | vara | Verb |  | to be to occupy a place, to be | checked |
 | W823 | hjälpa | hjälpa | Verb |  | to help; give aid or assistance to | checked |
@@ -1261,7 +1261,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W826 | nummer | nummer | Noun |  | a number | checked |
 | W827 | numret | nummer | Noun |  | definite singular of nummer (nummer: a number) | checked |
 | W828 | telefon | telefon | Noun |  | a phone, a telephone | checked |
-| W829 | ringer | ringa | Verb |  | present indicative of ringa | checked |
+| W829 | ringer | ringa | Verb |  | present indicative of ringa (ringa: to ring; to make a bell produce a sound) | checked |
 | W830 | ringa | ringa | Verb |  | to ring; to telephone someone | checked |
 | W831 | noll | noll | Numeral |  | zero | checked |
 | W832 | elva | elva | Numeral |  | eleven | checked |
@@ -1278,8 +1278,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W843 | födelsedag | födelsedag | Noun |  | a birthday | checked |
 | W844 | födelsedagen | födelsedag | Noun |  | definite singular of födelsedag (födelsedag: a birthday) | checked |
 | W845 | grattis | grattis | Interjection |  | congratulations; congrats | checked |
-| W846 | fyller | fylla | Verb |  | present indicative of fylla | checked |
-| W847 | blir | bli | Verb |  | present indicative of bli | checked |
+| W846 | fyller | fylla | Verb |  | present indicative of fylla (fylla: to fill, to make full) | checked |
+| W847 | blir | bli | Verb |  | present indicative of bli (bli: to become) | checked |
 | W848 | bli | bli | Verb |  | to become | checked |
 | W849 | månad | månad | Noun |  | a month | checked |
 | W850 | månader | månad | Noun |  | indefinite plural of månad (månad: a month) | checked |
@@ -1287,15 +1287,15 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W852 | redan | redan | Adverb |  | already | checked |
 | W853 | nästan | nästan | Adverb |  | almost | checked |
 | W854 | snart | snart | Adverb |  | soon; within a short time | checked |
-| W855 | äldre | äldre | Adjective |  | comparative degree of gammal | checked |
-| W856 | yngre | yngre | Adjective |  | comparative degree of ung | checked |
+| W855 | äldre | äldre | Adjective |  | comparative degree of gammal (äldre: old) | checked |
+| W856 | yngre | yngre | Adjective |  | comparative degree of ung (yngre: young) | checked |
 | W857 | bebis | bebis | Noun |  | a baby | checked |
 | W858 | med | med | Preposition |  | with, together with, in the company of | checked |
 | W859 | ögonblick | ögonblick | Noun |  | a moment, an instant, a blink of an eye | checked |
 | W860 | vänta | vänta | Verb |  | to wait [with på ‘for’] | checked |
-| W861 | väntar | vänta | Verb |  | present indicative of vänta | checked |
+| W861 | väntar | vänta | Verb |  | present indicative of vänta (vänta: to wait [with på ‘for’]) | checked |
 | W862 | lite | lite | Adverb |  | a little, to a small extent; somewhat | checked |
-| W863 | stämmer | stämma | Verb |  | present indicative of stämma | checked |
+| W863 | stämmer | stämma | Verb |  | present indicative of stämma (stämma: to agree, to correspond, to tally, to be correct) | checked |
 | W864 | fel | fel | Adjective |  | wrong, incorrect, erroneous | checked |
 | W865 | rätt | rätt | Adjective |  | right, correct | checked |
 | W866 | precis | precis | Adverb |  | precisely; exactly | checked |
@@ -1314,11 +1314,11 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W879 | miljoner | miljon | Numeral |  | indefinite plural of miljon (miljon: A million, 10.) | checked |
 | W880 | mer | mer | Adjective |  | Comparative form of mycket, used in construction of comparative form of certain adjectives; more. | checked |
 | W881 | fler | fler | Adjective |  | more and most | checked |
-| W882 | mindre | mindre | Adverb |  | Comparative of lite | checked |
+| W882 | mindre | mindre | Adverb |  | Comparative of lite (mindre: a little, to a small extent; somewhat) | checked |
 | W883 | än | än | Conjunction |  | than | checked |
 | W884 | ungefär | ungefär | Adverb |  | about, approximately | checked |
 | W885 | över | över | Adverb |  | over; above; more than | checked |
-| W886 | bor | bo | Verb |  | present indicative of bo | checked |
+| W886 | bor | bo | Verb |  | present indicative of bo (bo: to live, to dwell, to reside) | checked |
 | W887 | bo | bo | Verb |  | to live, to dwell, to reside | checked |
 | W888 | adress | adress | Noun |  | an address; direction or superscription of a letter, or the name, title, and place of residence of the person addressed | checked |
 | W889 | land | land | Noun |  | a country, a land | checked |
@@ -1345,25 +1345,25 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W910 | England | England | Proper noun |  | England | checked |
 | W911 | Spanien | Spanien | Proper noun |  | Spain | checked |
 | W912 | Europa | Europa | Proper noun |  | Europe | checked |
-| W913 | kommer | komma | Verb |  | present indicative of komma | checked |
+| W913 | kommer | komma | Verb |  | present indicative of komma (komma: to come) | checked |
 | W914 | ifrån | ifrån | Preposition |  | from | checked |
 | W915 | svensk | svensk | Adjective |  | Swedish; of or pertaining to Sweden or the Swedish language | checked |
 | W916 | tyska | tyska | Noun |  | German | checked |
 | W917 | franska | franska | Noun |  | French; a language spoken in e.g. France and parts of Canada | checked |
 | W918 | spanska | spanska | Noun |  | Spanish | checked |
 | W919 | språk | språk | Noun |  | language | checked |
-| W920 | talar | tala | Verb |  | present indicative of tala | checked |
+| W920 | talar | tala | Verb |  | present indicative of tala (tala: to speak, to talk) | checked |
 | W921 | tala | tala | Verb |  | to speak, to talk | checked |
 | W922 | världen | värld | Noun |  | definite singular of värld (värld: world) | checked |
 | W923 | marknad | marknad | Noun |  | market | checked |
-| W924 | köper | köpa | Verb |  | present indicative of köpa | checked |
+| W924 | köper | köpa | Verb |  | present indicative of köpa (köpa: to buy, to purchase) | checked |
 | W925 | köpa | köpa | Verb |  | to buy, to purchase | checked |
-| W926 | vill | vilja | Verb |  | present indicative of vilja | checked |
+| W926 | vill | vilja | Verb |  | present indicative of vilja (vilja: to want, desire) | checked |
 | W927 | vilja | vilja | Verb |  | to want, desire | checked |
 | W928 | ha | ha | Verb |  | To have; to possess, or to have as a property; to come into possession of something concrete or abstract. | checked |
-| W929 | får | få | Verb |  | present indicative of få | checked |
+| W929 | får | få | Verb |  | present indicative of få (få: to get, to receive) | checked |
 | W930 | få | få | Verb |  | to get, to receive | checked |
-| W931 | tar | ta | Verb |  | present indicative of ta | checked |
+| W931 | tar | ta | Verb |  | present indicative of ta (ta: take; to grab and move to oneself) | checked |
 | W932 | ta | ta | Verb |  | take; to grab and move to oneself | checked |
 | W933 | måste | måste | Verb |  | must, have to | checked |
 | W934 | kilo | kilo | Noun |  | kilo, clipping of kilogram | checked |
@@ -1372,7 +1372,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W937 | ägg | ägg | Noun |  | an egg an egg | checked |
 | W938 | tomat | tomat | Noun |  | tomato | checked |
 | W939 | banan | banan | Noun |  | a banana | checked |
-| W940 | behöver | behöva | Verb |  | present indicative of behöva | checked |
+| W940 | behöver | behöva | Verb |  | present indicative of behöva (behöva: to need) | checked |
 | W941 | något | något | Pronoun |  | any, some, anything, something | checked |
 | W942 | någon | någon | Pronoun |  | anybody, somebody, anyone, someone | checked |
 | W943 | känna | känna | Verb |  | to know | checked |
@@ -1382,15 +1382,15 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W947 | klart | klar | Adjective |  | indefinite neuter singular of klar (klar: ready, finished, done) | checked |
 | W948 | verkligen | verkligen | Adverb |  | really, truly | checked |
 | W949 | säkert | säker | Adjective |  | indefinite neuter singular of säker (säker: safe) | checked |
-| W950 | menar | mena | Verb |  | present indicative of mena | checked |
-| W951 | tror | tro | Verb |  | present indicative of tro | checked |
+| W950 | menar | mena | Verb |  | present indicative of mena (mena: to mean; to convey, or to want to convey) | checked |
+| W951 | tror | tro | Verb |  | present indicative of tro (tro: to believe, to think) | checked |
 | W952 | alltså | alltså | Adverb |  | therefore, thus, consequently | checked |
-| W953 | fattar | fatta | Verb |  | present indicative of fatta | checked |
+| W953 | fattar | fatta | Verb |  | present indicative of fatta (fatta: to grasp, take; the concrete meaning of grasp) | checked |
 | W954 | kanske | kanske | Adverb |  | maybe, perhaps, possibly | checked |
 | W955 | tyvärr | tyvärr | Adverb |  | unfortunately | checked |
 | W956 | ju | ju | Adverb |  | Indicates an expectation of shared understanding, or that what is said is an obvious fact – "as you well know," "of course." | checked |
 | W957 | faktiskt | faktiskt | Adverb |  | actually, for real | checked |
-| W958 | kostar | kosta | Verb |  | present indicative of kosta | checked |
+| W958 | kostar | kosta | Verb |  | present indicative of kosta (kosta: to cost) | checked |
 | W959 | pris | pris | Noun |  | a price | checked |
 | W960 | priset | pris | Noun |  | definite singular of pris (pris: a price) | checked |
 | W961 | krona | krona | Noun |  | krona, abbreviated to kr or kr. | checked |
@@ -1399,7 +1399,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W964 | dyrt | dyr | Adjective |  | indefinite neuter singular of dyr (dyr: expensive) | checked |
 | W965 | billig | billig | Adjective |  | cheap; of low price, of little worth | checked |
 | W966 | billigt | billig | Adjective |  | indefinite neuter singular of billig (billig: cheap; of low price, of little worth) | checked |
-| W967 | betalar | betala | Verb |  | present indicative of betala | checked |
+| W967 | betalar | betala | Verb |  | present indicative of betala (betala: to pay; to give money in exchange for goods or services) | checked |
 | W968 | betala | betala | Verb |  | to pay; to give money in exchange for goods or services | checked |
 | W969 | pengar | pengar | Noun |  | money | checked |
 | W970 | för | för | Preposition |  | for; during which time | checked |
@@ -1426,11 +1426,11 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W991 | inga | ingen | Determiner |  | plural of ingen (ingen: no) | checked |
 | W992 | av | av | Preposition |  | of; denoting a part | checked |
 | W993 | dem | dem | Pronoun |  | them; accusative/dative of de | checked |
-| W994 | säljer | sälja | Verb |  | present indicative of sälja | checked |
+| W994 | säljer | sälja | Verb |  | present indicative of sälja (sälja: to sell) | checked |
 | W995 | ge | ge | Verb |  | to give | checked |
 | W996 | hjälp | hjälp | Noun |  | help | checked |
 | W997 | hoppas | hoppas | Verb |  | to hope; to want something to happen | checked |
-| W998 | tänker | tänka | Verb |  | present indicative of tänka | checked |
+| W998 | tänker | tänka | Verb |  | present indicative of tänka (tänka: to think [ with på ‘about’]) | checked |
 | W999 | väl | väl | Adverb |  | Used to ask for confirmation or agreement. | checked |
 | W1000 | heller | heller | Adverb |  | either | checked |
 | W1101 | kläder | kläder | Noun |  | clothes, garments, items of clothing | checked |
@@ -1450,9 +1450,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1115 | lektion | lektion | Noun |  | lesson | checked |
 | W1116 | klass | klass | Noun |  | class a group, collection, category or set sharing characteristics or attributes. a group of students or pupils regularly taking classes together, with a teacher a group of students or pupils in a given class room, studying together a social grouping, based on job, wealth, etc.; the division of society into such classes admirable behavior or qualities a category of seats in a train or airplane a rank in the classification of organisms, below phylum and above order a class | checked |
 | W1117 | fråga | fråga | Noun |  | a question | checked |
-| W1118 | frågar | fråga | Verb |  | present indicative of fråga | checked |
+| W1118 | frågar | fråga | Verb |  | present indicative of fråga (fråga: to ask, to inquire) | checked |
 | W1119 | svar | svar | Noun |  | answer, response, reply | checked |
-| W1120 | svarar | svara | Verb |  | present indicative of svara | checked |
+| W1120 | svarar | svara | Verb |  | present indicative of svara (svara: to answer, to reply, to respond) | checked |
 | W1121 | svara | svara | Verb |  | to answer, to reply, to respond | checked |
 | W1122 | penna | penna | Noun |  | a pen | checked |
 | W1123 | papper | papper | Noun |  | paper | checked |
@@ -1512,17 +1512,17 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1177 | solen | sol | Noun |  | definite singular of sol (sol: sun) | checked |
 | W1178 | himlen | himmel | Noun |  | definite singular of himmel (himmel: sky) | checked |
 | W1179 | gräs | gräs | Noun |  | grass; any plant of the family Poaceae | checked |
-| W1180 | ser | se | Verb |  | present indicative of se | checked |
+| W1180 | ser | se | Verb |  | present indicative of se (se: to see) | checked |
 | W1181 | se | se | Verb |  | to see | checked |
-| W1182 | lyssnar | lyssna | Verb |  | present indicative of lyssna | checked |
+| W1182 | lyssnar | lyssna | Verb |  | present indicative of lyssna (lyssna: to listen) | checked |
 | W1183 | mening | mening | Noun |  | a sentence, a grammatical phrase | checked |
 | W1184 | exempel | exempel | Noun |  | an example | checked |
 | W1185 | bild | bild | Noun |  | picture | checked |
 | W1186 | använda | använda | Verb |  | to use | checked |
-| W1187 | räknar | räkna | Verb |  | present indicative of räkna | checked |
-| W1188 | verkar | verka | Verb |  | present indicative of verka | checked |
-| W1189 | saknar | sakna | Verb |  | present indicative of sakna | checked |
-| W1190 | klarar | klara | Verb |  | present indicative of klara | checked |
+| W1187 | räknar | räkna | Verb |  | present indicative of räkna (räkna: to count) | checked |
+| W1188 | verkar | verka | Verb |  | present indicative of verka (verka: to work, to act) | checked |
+| W1189 | saknar | sakna | Verb |  | present indicative of sakna (sakna: to miss, to lack, to want, to be without) | checked |
+| W1190 | klarar | klara | Verb |  | present indicative of klara (klara: to manage, to succeed in doing) | checked |
 | W1191 | lika | lika | Adverb |  | to the same degree, as, equally | checked |
 | W1192 | möjligt | möjlig | Adjective |  | indefinite neuter singular of möjlig (möjlig: possible) | checked |
 | W1193 | olika | olik | Adjective |  | inflection of olik: definite singular plural (olik: unlike, different, dissimilar) | checked |
@@ -1541,7 +1541,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1211 | tidig | tidig | Adjective |  | early | checked |
 | W1212 | sent | sen | Adjective |  | indefinite neuter singular of sen (sen: late) | checked |
 | W1213 | sen | sen | Adjective |  | late | checked |
-| W1214 | senare | senare | Adverb |  | comparative degree of sent | checked |
+| W1214 | senare | senare | Adverb |  | comparative degree of sent (senare: late) | checked |
 | W1215 | före | före | Preposition |  | before; earlier in time than | checked |
 | W1216 | just | just | Adverb |  | just | checked |
 | W1217 | direkt | direkt | Adverb |  | directly | checked |
@@ -1549,11 +1549,11 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1219 | samtidigt | samtidigt | Adverb |  | at the same time, simultaneously, concurrently | checked |
 | W1220 | hör | höra | Verb |  | inflection of höra: imperative present indicative | checked |
 | W1221 | höra | höra | Verb |  | to hear | checked |
-| W1222 | sa | säga | Verb |  | past indicative of säga | checked |
-| W1223 | högre | högre | Adjective |  | comparative degree of hög | checked |
+| W1222 | sa | säga | Verb |  | past indicative of säga (säga: to say) | checked |
+| W1223 | högre | högre | Adjective |  | comparative degree of hög (högre: high; tall; reaching a great distance from the ground or being found high above it) | checked |
 | W1224 | högt | högt | Adverb |  | loudly | checked |
 | W1225 | tydligt | tydlig | Adjective |  | indefinite neuter singular of tydlig (tydlig: clear) | checked |
-| W1226 | ber | be | Verb |  | present indicative of be | checked |
+| W1226 | ber | be | Verb |  | present indicative of be (be: to ask for, request someone else to do something) | checked |
 | W1227 | tisdag | tisdag | Noun |  | Tuesday | checked |
 | W1228 | onsdag | onsdag | Noun |  | Wednesday | checked |
 | W1229 | torsdag | torsdag | Noun |  | Thursday | checked |
@@ -1567,7 +1567,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1237 | aldrig | aldrig | Adverb |  | never | checked |
 | W1238 | ibland | ibland | Adverb |  | sometimes | checked |
 | W1239 | ofta | ofta | Adverb |  | often | checked |
-| W1240 | brukar | bruka | Verb |  | present indicative of bruka | checked |
+| W1240 | brukar | bruka | Verb |  | present indicative of bruka (bruka: to use to; to be in the habit of) | checked |
 | W1241 | nästa | nästa | Adjective |  | next; following in a sequence | checked |
 | W1242 | förra | förra | Adjective |  | former, last, previous | checked |
 | W1243 | först | först | Adverb |  | first, firstly; having no predecessor | checked |
@@ -1601,17 +1601,17 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1271 | datum | datum | Noun |  | date; | checked |
 | W1272 | början | början | Noun |  | beginning, start | checked |
 | W1273 | slut | slut | Adjective |  | over, finished; which has come to an end | checked |
-| W1274 | låt | låta | Verb |  | imperative of låta | checked |
-| W1275 | låter | låta | Verb |  | present indicative of låta | checked |
+| W1274 | låt | låta | Verb |  | imperative of låta (låta: to make sound) | checked |
+| W1275 | låter | låta | Verb |  | present indicative of låta (låta: to make sound) | checked |
 | W1276 | tänka | tänka | Verb |  | to think [ with på ‘about’] | checked |
-| W1277 | minns | minnas | Verb |  | present of minnas | checked |
+| W1277 | minns | minnas | Verb |  | present of minnas (minnas: to remember, to recall) | checked |
 | W1278 | egentligen | egentligen | Adverb |  | actually, really, in truth, "in actual reality" | checked |
-| W1279 | antar | anta | Verb |  | present indicative of anta | checked |
-| W1280 | undrar | undra | Verb |  | present indicative of undra | checked |
+| W1279 | antar | anta | Verb |  | present indicative of anta (anta: to assume, to suppose) | checked |
+| W1280 | undrar | undra | Verb |  | present indicative of undra (undra: to wonder) | checked |
 | W1281 | nå | nå | Interjection |  | well? | checked |
 | W1282 | ska | ska | Verb |  | will, be going to, shall, is to; were to; was to | checked |
-| W1283 | ses | ses | Verb |  | passive infinitive of se | checked |
-| W1284 | följer | följa | Verb |  | present indicative of följa | checked |
+| W1283 | ses | ses | Verb |  | passive infinitive of se (ses: to see) | checked |
+| W1284 | följer | följa | Verb |  | present indicative of följa (följa: to follow; to go after) | checked |
 | W1285 | följa | följa | Verb |  | to follow; to go after | checked |
 | W1286 | ikväll | ikväll | Adverb |  | this evening tonight | checked |
 | W1287 | bio | bio | Noun |  | cinema, movie theater, the movies | checked |
@@ -1621,35 +1621,35 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1291 | plan | plan | Noun |  | a plan | checked |
 | W1292 | möte | möte | Noun |  | a meeting | checked |
 | W1293 | bestämma | bestämma | Verb |  | to decide to decide from a position of authority | checked |
-| W1294 | bestämmer | bestämma | Verb |  | present indicative of bestämma | checked |
-| W1295 | passar | passa | Verb |  | present indicative of passa | checked |
+| W1294 | bestämmer | bestämma | Verb |  | present indicative of bestämma (bestämma: to decide to decide from a position of authority) | checked |
+| W1295 | passar | passa | Verb |  | present indicative of passa (passa: fit, suit; be suitable) | checked |
 | W1296 | förslag | förslag | Noun |  | a proposal, an estimate, a nomination | checked |
-| W1297 | föreslår | föreslå | Verb |  | present indicative of föreslå | checked |
+| W1297 | föreslår | föreslå | Verb |  | present indicative of föreslå (föreslå: to suggest; to ask for without demanding) | checked |
 | W1298 | istället | istället | Adverb |  | instead | checked |
 | W1299 | därför | därför | Adverb |  | therefore | checked |
 | W1300 | annan | annan | Pronoun |  | other, else,other one | checked |
-| W1301 | möter | möta | Verb |  | present indicative of möta | checked |
+| W1301 | möter | möta | Verb |  | present indicative of möta (möta: to meet) | checked |
 | W1302 | beslut | beslut | Noun |  | decision, resolution | checked |
 | W1303 | framtiden | framtid | Noun |  | definite singular of framtid (framtid: future) | checked |
-| W1304 | vaknar | vakna | Verb |  | present indicative of vakna | checked |
+| W1304 | vaknar | vakna | Verb |  | present indicative of vakna (vakna: to wake up) | checked |
 | W1305 | upp | upp | Adverb |  | up | checked |
-| W1306 | sover | sova | Verb |  | present indicative of sova | checked |
+| W1306 | sover | sova | Verb |  | present indicative of sova (sova: to sleep) | checked |
 | W1307 | sova | sova | Verb |  | to sleep | checked |
-| W1308 | duschar | duscha | Verb |  | present indicative of duscha | checked |
+| W1308 | duschar | duscha | Verb |  | present indicative of duscha (duscha: to shower; to clean oneself in a shower; take a shower / have a shower) | checked |
 | W1309 | frukost | frukost | Noun |  | breakfast | checked |
 | W1310 | lunch | lunch | Noun |  | lunch, a meal eaten around noon | checked |
 | W1311 | middag | middag | Noun |  | dinner | checked |
-| W1312 | jobbar | jobba | Verb |  | present indicative of jobba | checked |
+| W1312 | jobbar | jobba | Verb |  | present indicative of jobba (jobba: to work) | checked |
 | W1313 | jobb | jobb | Noun |  | job; a task | checked |
-| W1314 | arbetar | arbeta | Verb |  | present indicative of arbeta | checked |
+| W1314 | arbetar | arbeta | Verb |  | present indicative of arbeta (arbeta: to work, to be employed to do) | checked |
 | W1315 | arbete | arbete | Noun |  | work, job | checked |
-| W1316 | börjar | börja | Verb |  | present indicative of börja | checked |
+| W1316 | börjar | börja | Verb |  | present indicative of börja (börja: to begin; to start) | checked |
 | W1317 | börja | börja | Verb |  | to begin; to start | checked |
-| W1318 | slutar | sluta | Verb |  | present indicative of sluta | checked |
+| W1318 | slutar | sluta | Verb |  | present indicative of sluta (sluta: to stop, to end) | checked |
 | W1319 | sluta | sluta | Verb |  | to stop, to end | checked |
 | W1320 | klar | klar | Adjective |  | ready, finished, done | checked |
-| W1321 | lägger | lägga | Verb |  | present of lägga | checked |
-| W1322 | sitter | sitta | Verb |  | present indicative of sitta | checked |
+| W1321 | lägger | lägga | Verb |  | present of lägga (lägga: to place lying somewhere, to place/put in a lying position; in particular used like the English put for things that either lie down flat or where the eventual orientation does not matter, such as in a heap) | checked |
+| W1322 | sitter | sitta | Verb |  | present indicative of sitta (sitta: to sit) | checked |
 | W1323 | kvar | kvar | Adjective |  | left, remaining | checked |
 | W1324 | medan | medan | Conjunction |  | while; during the same time that | checked |
 | W1325 | vanlig | vanlig | Adjective |  | common, usual | checked |
@@ -1666,22 +1666,22 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1336 | polis | polis | Noun |  | police | checked |
 | W1337 | fri | fri | Adjective |  | free | checked |
 | W1338 | regler | regel | Noun |  | indefinite plural of regel (regel: A rule or regulation) | checked |
-| W1339 | avgår | avgå | Verb |  | present indicative of avgå | checked |
+| W1339 | avgår | avgå | Verb |  | present indicative of avgå (avgå: to resign) | checked |
 | W1340 | avgång | avgång | Noun |  | departure; the act of leaving | checked |
 | W1341 | ankomst | ankomst | Noun |  | arrival; the act of arriving | checked |
 | W1342 | fram | fram | Adverb |  | forth, forward, out | checked |
 | W1343 | flygplan | flygplan | Noun |  | airplane, aeroplane | checked |
-| W1344 | flyger | flyga | Verb |  | present indicative of flyga | checked |
+| W1344 | flyger | flyga | Verb |  | present indicative of flyga (flyga: to fly) | checked |
 | W1345 | båt | båt | Noun |  | a boat | checked |
 | W1346 | resa | resa | Noun |  | an instance of traveling, "a travel"; a trip, a journey, a voyage, travels, etc. | checked |
-| W1347 | reser | resa | Verb |  | present of resa | checked |
+| W1347 | reser | resa | Verb |  | present of resa (resa: to travel, be on a journey) | checked |
 | W1348 | biljett | biljett | Noun |  | ticket; an entitling pass | checked |
 | W1349 | enkel | enkel | Adjective |  | simple, easy | checked |
 | W1350 | spår | spår | Noun |  | a rail track | checked |
 | W1351 | kör | köra | Verb |  | inflection of köra: present indicative imperative | checked |
 | W1352 | köra | köra | Verb |  | to drive | checked |
 | W1353 | säker | säker | Adjective |  | sure, certain | checked |
-| W1354 | beror | bero | Verb |  | present indicative of bero | checked |
+| W1354 | beror | bero | Verb |  | present indicative of bero (bero: to depend [with på or av ‘on’]) | checked |
 | W1355 | troligen | troligen | Adverb |  | probably; which makes sense to believe | checked |
 | W1356 | alls | alls | Adverb |  | at all | checked |
 | W1357 | ändå | ändå | Adverb |  | still, yet | checked |
@@ -1691,34 +1691,34 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1361 | försenat | försenad | Adjective |  | indefinite neuter singular of försenad (försenad: delayed) | checked |
 | W1362 | damer | dam | Noun |  | indefinite plural of dam (dam: a lady) | checked |
 | W1363 | herrar | herr | Noun |  | indefinite plural of herr (herr: Mr., Mister, gentleman, sir) | checked |
-| W1364 | stannar | stanna | Verb |  | present indicative of stanna | checked |
+| W1364 | stannar | stanna | Verb |  | present indicative of stanna (stanna: to stay; to remain at a place) | checked |
 | W1365 | vänligen | vänligen | Adverb |  | kindly, please | checked |
 | W1366 | mellan | mellan | Preposition |  | between | checked |
 | W1367 | via | via | Preposition |  | via, over, by, through | checked |
 | W1368 | cirka | cirka | Adverb |  | circa, roughly, about, approximately | checked |
 | W1369 | titta | titta | Verb |  | to look; keep one's eyes open as to be able to see | checked |
-| W1370 | välj | välja | Verb |  | imperative of välja | checked |
+| W1370 | välj | välja | Verb |  | imperative of välja (välja: to choose) | checked |
 | W1371 | välja | välja | Verb |  | to choose | checked |
-| W1372 | fyll | fylla | Verb |  | imperative of fylla | checked |
-| W1373 | läs | läsa | Verb |  | imperative of läsa | checked |
-| W1374 | glöm | glömma | Verb |  | imperative of glömma | checked |
-| W1375 | försök | försöka | Verb |  | imperative of försöka | checked |
+| W1372 | fyll | fylla | Verb |  | imperative of fylla (fylla: to fill, to make full) | checked |
+| W1373 | läs | läsa | Verb |  | imperative of läsa (läsa: to read) | checked |
+| W1374 | glöm | glömma | Verb |  | imperative of glömma (glömma: to forget) | checked |
+| W1375 | försök | försöka | Verb |  | imperative of försöka (försöka: to attempt, to try) | checked |
 | W1376 | försöka | försöka | Verb |  | to attempt, to try | checked |
 | W1377 | övning | övning | Noun |  | exercise | checked |
 | W1378 | text | text | Noun |  | text | checked |
 | W1379 | visa | visa | Verb |  | to show, to display | checked |
-| W1380 | visar | visa | Verb |  | present indicative of visa | checked |
+| W1380 | visar | visa | Verb |  | present indicative of visa (visa: to show, to display) | checked |
 | W1381 | rätta | rätta | Verb |  | to correct, to rectify | checked |
 | W1382 | förklara | förklara | Verb |  | to explain | checked |
 | W1383 | berätta | berätta | Verb |  | to tell | checked |
-| W1384 | berättar | berätta | Verb |  | present indicative of berätta | checked |
+| W1384 | berättar | berätta | Verb |  | present indicative of berätta (berätta: to tell) | checked |
 | W1385 | till exempel | till exempel | Adverb |  | for example; e.g. | checked |
 | W1386 | gå | gå | Verb |  | to walk | checked |
 | W1387 | dagen | dag | Noun |  | definite singular of dag (dag: a day) | checked |
 | W1388 | ditt | din | Pronoun |  | neuter singular of din, your, yours | checked |
 | W1389 | tåget | tåg | Noun |  | definite singular of tåg (tåg: a train) | checked |
-| W1390 | mina | mina | Pronoun |  | Plural of min | checked |
-| W1391 | tidigare | tidigare | Adverb |  | comparative degree of tidigt | checked |
+| W1390 | mina | mina | Pronoun |  | Plural of min (mina: my) | checked |
+| W1391 | tidigare | tidigare | Adverb |  | comparative degree of tidigt (tidigare: early) | checked |
 | W1392 | möjlighet | möjlighet | Noun |  | possibility, opportunity | checked |
 | W1393 | tillfälle | tillfälle | Noun |  | opportunity | checked |
 | W1394 | lösning | lösning | Noun |  | solution | checked |
@@ -1752,43 +1752,43 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1423 | sådan | sådan | Determiner |  | such, such a | checked |
 | W1424 | väder | väder | Noun |  | weather | checked |
 | W1425 | regn | regn | Noun |  | rain | checked |
-| W1426 | regnar | regna | Verb |  | present indicative of regna | checked |
+| W1426 | regnar | regna | Verb |  | present indicative of regna (regna: to rain) | checked |
 | W1427 | snö | snö | Noun |  | snow; frozen, crystalline water falling as precipitation | checked |
-| W1428 | snöar | snöa | Verb |  | present indicative of snöa | checked |
-| W1429 | blåser | blåsa | Verb |  | present indicative of blåsa | checked |
+| W1428 | snöar | snöa | Verb |  | present indicative of snöa (snöa: to snow; said about weather when snow is falling) | checked |
+| W1429 | blåser | blåsa | Verb |  | present indicative of blåsa (blåsa: to blow; to produce an air current to perform a breathalyser test) | checked |
 | W1430 | grader | grad | Noun |  | indefinite plural of grad (grad: degree) | checked |
 | W1431 | varmt | varm | Adjective |  | indefinite neuter singular of varm (varm: warm, hot hot) | checked |
 | W1432 | kallt | kall | Adjective |  | indefinite neuter singular of kall (kall: cold; having a low temperature.) | checked |
 | W1433 | soligt | solig | Adjective |  | indefinite neuter singular of solig (solig: sunny) | checked |
 | W1434 | is | is | Noun |  | ice | checked |
 | W1435 | ger | ge | Verb |  | present indicative of ge, contracted from the archaic giver | checked |
-| W1436 | håller | hålla | Verb |  | present indicative of hålla | checked |
-| W1437 | hittar | hitta | Verb |  | present indicative of hitta | checked |
+| W1436 | håller | hålla | Verb |  | present indicative of hålla (hålla: to hold) | checked |
+| W1437 | hittar | hitta | Verb |  | present indicative of hitta (hitta: to find) | checked |
 | W1438 | hitta | hitta | Verb |  | to find | checked |
 | W1439 | lämna | lämna | Verb |  | to leave; to not take away with oneself but leave as available for others; to deposit | checked |
-| W1440 | skickar | skicka | Verb |  | present indicative of skicka | checked |
-| W1441 | ställer | ställa | Verb |  | present indicative of ställa | checked |
-| W1442 | sätter | sätta | Verb |  | present indicative of sätta | checked |
-| W1443 | hämtar | hämta | Verb |  | present indicative of hämta | checked |
+| W1440 | skickar | skicka | Verb |  | present indicative of skicka (skicka: send) | checked |
+| W1441 | ställer | ställa | Verb |  | present indicative of ställa (ställa: to place upright somewhere, to place in a standing position) | checked |
+| W1442 | sätter | sätta | Verb |  | present indicative of sätta (sätta: to sit; to move oneself into a sitting position) | checked |
+| W1443 | hämtar | hämta | Verb |  | present indicative of hämta (hämta: to get, to fetch, to retrieve) | checked |
 | W1444 | flytta | flytta | Verb |  | to move; to relocate something | checked |
 | W1445 | ändra | ändra | Verb |  | to change, to alter | checked |
-| W1446 | drar | dra | Verb |  | present indicative of dra | checked |
-| W1447 | bygger | bygga | Verb |  | present indicative of bygga | checked |
-| W1448 | öppnar | öppna | Verb |  | present indicative of öppna | checked |
-| W1449 | stänger | stänga | Verb |  | present indicative of stänga | checked |
-| W1450 | söker | söka | Verb |  | present indicative of söka | checked |
-| W1451 | använder | använda | Verb |  | present indicative of använda | checked |
-| W1452 | delar | dela | Verb |  | present indicative of dela | checked |
-| W1453 | fortsätter | fortsätta | Verb |  | present indicative of fortsätta | checked |
-| W1454 | händer | hända | Verb |  | present indicative of hända | checked |
-| W1455 | startar | starta | Verb |  | present indicative of starta | checked |
-| W1456 | fungerar | fungera | Verb |  | present indicative of fungera | checked |
+| W1446 | drar | dra | Verb |  | present indicative of dra (dra: to pull) | checked |
+| W1447 | bygger | bygga | Verb |  | present indicative of bygga (bygga: to build; to construct) | checked |
+| W1448 | öppnar | öppna | Verb |  | present indicative of öppna (öppna: to open) | checked |
+| W1449 | stänger | stänga | Verb |  | present indicative of stänga (stänga: to close, to shut) | checked |
+| W1450 | söker | söka | Verb |  | present indicative of söka (söka: to search, to seek) | checked |
+| W1451 | använder | använda | Verb |  | present indicative of använda (använda: to use) | checked |
+| W1452 | delar | dela | Verb |  | present indicative of dela (dela: to deal, share; divide something between recipients) | checked |
+| W1453 | fortsätter | fortsätta | Verb |  | present indicative of fortsätta (fortsätta: to continue, to proceed) | checked |
+| W1454 | händer | hända | Verb |  | present indicative of hända (hända: to happen; chiefly what happens quickly or for a short time) | checked |
+| W1455 | startar | starta | Verb |  | present indicative of starta (starta: to begin, to start; to get something going; as in, to start an engine, to start a trip, to start a race; to start a company) | checked |
+| W1456 | fungerar | fungera | Verb |  | present indicative of fungera (fungera: function; to be in action) | checked |
 | W1457 | lyckas | lyckas | Verb |  | to manage | checked |
 | W1458 | sport | sport | Noun |  | sports | checked |
 | W1459 | tennis | tennis | Noun |  | tennis | checked |
-| W1460 | cyklar | cykla | Verb |  | present indicative of cykla | checked |
+| W1460 | cyklar | cykla | Verb |  | present indicative of cykla (cykla: to cycle, to ride a bike) | checked |
 | W1461 | promenad | promenad | Noun |  | a walk, a stroll, a promenade | checked |
-| W1462 | tränar | träna | Verb |  | present indicative of träna | checked |
+| W1462 | tränar | träna | Verb |  | present indicative of träna (träna: to exercise, to practice; to perform activities to develop skills) | checked |
 | W1463 | gitarr | gitarr | Noun |  | a guitar | checked |
 | W1464 | piano | piano | Noun |  | a piano | checked |
 | W1465 | tidning | tidning | Noun |  | a newspaper | checked |
@@ -1796,11 +1796,11 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1467 | hobby | hobby | Noun |  | hobby | checked |
 | W1468 | tv | tv | Noun |  | television | checked |
 | W1469 | radio | radio | Noun |  | radio | checked |
-| W1470 | vinner | vinna | Verb |  | present indicative of vinna | checked |
+| W1470 | vinner | vinna | Verb |  | present indicative of vinna (vinna: to win, to defeat, to beat) | checked |
 | W1471 | lag | lag | Noun |  | a team, a workgroup | checked |
 | W1472 | program | program | Noun |  | a program | checked |
 | W1473 | intresse | intresse | Noun |  | interest | checked |
-| W1474 | älskar | älska | Verb |  | present indicative of älska | checked |
+| W1474 | älskar | älska | Verb |  | present indicative of älska (älska: to love) | checked |
 | W1475 | kärlek | kärlek | Noun |  | love | checked |
 | W1476 | hjärta | hjärta | Noun |  | heart | checked |
 | W1477 | känsla | känsla | Noun |  | feeling | checked |
@@ -1815,20 +1815,20 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1486 | liv | liv | Noun |  | life | checked |
 | W1487 | problem | problem | Noun |  | a problem, an issue | checked |
 | W1488 | roll | roll | Noun |  | role | checked |
-| W1489 | vågar | våga | Verb |  | present indicative of våga | checked |
+| W1489 | vågar | våga | Verb |  | present indicative of våga (våga: to dare, to have enough courage) | checked |
 | W1490 | tur | tur | Noun |  | a turn; the chance to use an item shared in sequence with others | checked |
 | W1491 | fint | fin | Adjective |  | indefinite neuter singular of fin (fin: nice to look at or listen to or the like, nice, pretty) | checked |
 | W1492 | både | både | Conjunction |  | both; each of | checked |
 | W1493 | emot | emot | Preposition |  | towards, against | checked |
 | W1494 | bland | bland | Preposition |  | among | checked |
 | W1495 | sina | sin | Pronoun |  | plural of sin (sin: his, her, its, their.) | checked |
-| W1496 | handlar | handla | Verb |  | present indicative of handla | checked |
+| W1496 | handlar | handla | Verb |  | present indicative of handla (handla: to shop, buy) | checked |
 | W1497 | enda | enda | Pronoun |  | only, sole; also in the masculine form ende | checked |
 | W1498 | eget | egen | Adjective |  | indefinite neuter singular of egen (egen: peculiar, eccentric, odd, unique, personal, individualistic) | checked |
 | W1499 | råd | råd | Noun |  | enough money | checked |
 | W1500 | leva | leva | Verb |  | to live, to be alive | checked |
 | W1601 | beställa | beställa | Verb |  | to order | checked |
-| W1602 | beställer | beställa | Verb |  | present indicative of beställa | checked |
+| W1602 | beställer | beställa | Verb |  | present indicative of beställa (beställa: to order) | checked |
 | W1603 | kopp | kopp | Noun |  | a cup | checked |
 | W1604 | socker | socker | Noun |  | sugar; sucrose in the form of small crystals | checked |
 | W1605 | kaka | kaka | Noun |  | a cookie | checked |
@@ -1839,9 +1839,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1610 | servitör | servitör | Noun |  | a male waiter | checked |
 | W1611 | meny | meny | Noun |  | a menu | checked |
 | W1612 | fika | fika | Noun |  | having coffee, tea, saft, or the like, usually with cookies, pastries, or other snacks, usually with others, as a social activity a coffee break, when taking a break to do the above | checked |
-| W1613 | skulle | ska | Verb |  | past indicative of ska | checked |
+| W1613 | skulle | ska | Verb |  | past indicative of ska (ska: will, be going to, shall, is to; were to; was to) | checked |
 | W1614 | mat | mat | Noun |  | food | checked |
-| W1615 | smakar | smaka | Verb |  | present indicative of smaka | checked |
+| W1615 | smakar | smaka | Verb |  | present indicative of smaka (smaka: to taste) | checked |
 | W1616 | snälla | snälla | Adverb |  | please | checked |
 | W1617 | ingenting | ingenting | Pronoun |  | nothing | checked |
 | W1618 | fara | fara | Noun |  | a danger | checked |
@@ -1877,14 +1877,14 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1648 | väg | väg | Noun |  | a road | checked |
 | W1649 | vägen | väg | Noun |  | definite singular of väg (väg: a road) | checked |
 | W1650 | håll | håll | Noun |  | a direction | checked |
-| W1651 | hållet | håll | Noun |  | definite singular of håll | checked |
+| W1651 | hållet | håll | Noun |  | definite singular of håll (håll: a direction) | checked |
 | W1652 | sida | sida | Noun |  | side; a bounding straight edge or surface | checked |
 | W1653 | sidan | sida | Noun |  | definite singular of sida (sida: side; a bounding straight edge or surface) | checked |
 | W1654 | meter | meter | Noun |  | a metre; the SI-unit | checked |
-| W1655 | sväng | svänga | Verb |  | imperative of svänga | checked |
-| W1656 | svänger | svänga | Verb |  | present indicative of svänga | checked |
-| W1657 | fortsätt | fortsätta | Verb |  | imperative of fortsätta | checked |
-| W1658 | längre | längre | Adverb |  | comparative degree of långt | checked |
+| W1655 | sväng | svänga | Verb |  | imperative of svänga (svänga: to turn) | checked |
+| W1656 | svänger | svänga | Verb |  | present indicative of svänga (svänga: to turn) | checked |
+| W1657 | fortsätt | fortsätta | Verb |  | imperative of fortsätta (fortsätta: to continue, to proceed) | checked |
+| W1658 | längre | längre | Adverb |  | comparative degree of långt (längre: far) | checked |
 | W1659 | gatan | gata | Noun |  | definite singular of gata (gata: a street) | checked |
 | W1660 | vilse | vilse | Adverb |  | to a lost state, no longer knowing where one is, having lost orientation | checked |
 | W1661 | karta | karta | Noun |  | a map | checked |
@@ -1892,14 +1892,14 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1663 | hit | hit | Adverb |  | to here, hither, here | checked |
 | W1664 | dit | dit | Adverb |  | to there, thither, there | checked |
 | W1665 | adressen | adress | Noun |  | definite singular of adress (adress: an address; direction or superscription of a letter, or the name, title, and place of residence of the person addressed) | checked |
-| W1666 | borde | böra | Verb |  | past indicative of böra | checked |
+| W1666 | borde | böra | Verb |  | past indicative of böra (böra: should, ought to) | checked |
 | W1667 | spårvagn | spårvagn | Noun |  | a tram | checked |
 | W1668 | tunnelbana | tunnelbana | Noun |  | subway; underground railway | checked |
 | W1669 | tunnelbanan | tunnelbana | Noun |  | definite singular of tunnelbana (tunnelbana: subway; underground railway) | checked |
 | W1670 | hållplats | hållplats | Noun |  | a stop, a station | checked |
-| W1671 | byter | byta | Verb |  | present indicative of byta | checked |
+| W1671 | byter | byta | Verb |  | present indicative of byta (byta: to switch; to exchange) | checked |
 | W1672 | byta | byta | Verb |  | to switch; to exchange | checked |
-| W1673 | stiger | stiga | Verb |  | present indicative of stiga | checked |
+| W1673 | stiger | stiga | Verb |  | present indicative of stiga (stiga: to step; to move the foot in walking) | checked |
 | W1674 | till fots | till fots | Adverb |  | on foot, by foot | checked |
 | W1675 | taxi | taxi | Noun |  | taxi | checked |
 | W1676 | flygplats | flygplats | Noun |  | airport | checked |
@@ -1983,11 +1983,11 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1754 | ogift | ogift | Adjective |  | unmarried | checked |
 | W1755 | civilstånd | civilstånd | Noun |  | marital status | checked |
 | W1756 | mejl | mejl | Noun |  | e-mail | checked |
-| W1757 | skriv | skriva | Verb |  | imperative of skriva | checked |
+| W1757 | skriv | skriva | Verb |  | imperative of skriva (skriva: to write, to type, to copy; to put letters and digits on a surface, using a pen or typewriter) | checked |
 | W1758 | uppgifter | uppgift | Noun |  | indefinite plural of uppgift (uppgift: a task) | checked |
 | W1759 | kära | kär | Adjective |  | inflection of kär: definite singular plural (kär: [with i] in love, enamored) | checked |
 | W1760 | hälsningar | hälsning | Noun |  | indefinite plural of hälsning (hälsning: a greeting) | checked |
-| W1761 | hälsar | hälsa | Verb |  | present indicative of hälsa | checked |
+| W1761 | hälsar | hälsa | Verb |  | present indicative of hälsa (hälsa: to greet, salute) | checked |
 | W1762 | hälsa | hälsa | Verb |  | to greet, salute | checked |
 | W1763 | kram | kram | Noun |  | a hug, an embrace | checked |
 | W1764 | kramar | kram | Noun |  | indefinite plural of kram (kram: A merchandise, commodities, small and cheap products sold to consumers; trash.) | checked |
@@ -1995,7 +1995,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1766 | meddelande | meddelande | Noun |  | a message | checked |
 | W1767 | sms | sms | Noun |  | text message, an SMS message | checked |
 | W1768 | vykort | vykort | Noun |  | postcard, in particular with an image on the front side | checked |
-| W1769 | ring | ringa | Verb |  | imperative of ringa | checked |
+| W1769 | ring | ringa | Verb |  | imperative of ringa (ringa: to ring; to make a bell produce a sound) | checked |
 | W1770 | skicka | skicka | Verb |  | send | checked |
 | W1801 | fall | fall | Noun |  | a case | checked |
 | W1802 | form | form | Noun |  | a form, a shape | checked |
@@ -2056,7 +2056,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1857 | ekonomisk | ekonomisk | Adjective |  | economic, economical | checked |
 | W1858 | politisk | politisk | Adjective |  | political, having to do with politics | checked |
 | W1859 | kristen | kristen | Adjective |  | Christian | checked |
-| W1860 | flest | flest | Adjective |  | predicative superlative degree of fler | checked |
+| W1860 | flest | flest | Adjective |  | predicative superlative degree of fler (flest: more and most) | checked |
 | W1861 | varenda | varenda | Determiner |  | every single | checked |
 | W1862 | ena | ena | Pronoun |  | one; definite of en | checked |
 | W1863 | samhälle | samhälle | Noun |  | a society; a long-standing group of people sharing cultural aspects | checked |
@@ -2066,11 +2066,11 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1867 | parti | parti | Noun |  | party | checked |
 | W1868 | val | val | Noun |  | a choice | checked |
 | W1869 | rösta | rösta | Verb |  | to vote | checked |
-| W1870 | röstar | rösta | Verb |  | present indicative of rösta | checked |
+| W1870 | röstar | rösta | Verb |  | present indicative of rösta (rösta: to vote) | checked |
 | W1871 | demokrati | demokrati | Noun |  | democracy; a nation which is ruled by a democratically elected government | checked |
 | W1872 | debatt | debatt | Noun |  | a debate | checked |
 | W1873 | diskussion | diskussion | Noun |  | argument, discussion | checked |
-| W1874 | diskuterar | diskutera | Verb |  | present indicative of diskutera | checked |
+| W1874 | diskuterar | diskutera | Verb |  | present indicative of diskutera (diskutera: to discuss) | checked |
 | W1875 | ekonomi | ekonomi | Noun |  | economy | checked |
 | W1876 | organisation | organisation | Noun |  | organization | checked |
 | W1877 | medlem | medlem | Noun |  | a member | checked |
@@ -2086,14 +2086,14 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1887 | rättighet | rättighet | Noun |  | a right | checked |
 | W1888 | utveckling | utveckling | Noun |  | development | checked |
 | W1889 | folk | folk | Noun |  | people | checked |
-| W1890 | anser | anse | Verb |  | present indicative of anse | checked |
-| W1891 | inser | inse | Verb |  | present indicative of inse | checked |
-| W1892 | finner | finna | Verb |  | present indicative of finna | checked |
-| W1893 | nämner | nämna | Verb |  | present indicative of nämna | checked |
-| W1894 | beskriver | beskriva | Verb |  | present indicative of beskriva | checked |
-| W1895 | kallar | kalla | Verb |  | present indicative of kalla | checked |
-| W1896 | gäller | gälla | Verb |  | present indicative of gälla | checked |
-| W1897 | bör | böra | Verb |  | present indicative of böra | checked |
+| W1890 | anser | anse | Verb |  | present indicative of anse (anse: to be of an opinion, to think, to believe, to feel) | checked |
+| W1891 | inser | inse | Verb |  | present indicative of inse (inse: to realize; to become aware of) | checked |
+| W1892 | finner | finna | Verb |  | present indicative of finna (finna: to find, to locate, to discover) | checked |
+| W1893 | nämner | nämna | Verb |  | present indicative of nämna (nämna: to mention, to name) | checked |
+| W1894 | beskriver | beskriva | Verb |  | present indicative of beskriva (beskriva: to describe) | checked |
+| W1895 | kallar | kalla | Verb |  | present indicative of kalla (kalla: to call, denote, refer to; to give as a name) | checked |
+| W1896 | gäller | gälla | Verb |  | present indicative of gälla (gälla: to be valid; to be correct or proper, to apply) | checked |
+| W1897 | bör | böra | Verb |  | present indicative of böra (böra: should, ought to) | checked |
 | W1898 | dock | dock | Adverb |  | though, however, still, nevertheless | checked |
 | W1899 | däremot | däremot | Adverb |  | on the other hand, however | checked |
 | W1900 | liksom | liksom | Conjunction |  | as, like | checked |
@@ -2117,27 +2117,27 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1918 | inför | inför | Adverb |  | in front of, before; while having the attention of | checked |
 | W1919 | per | per | Preposition |  | For each; for every | checked |
 | W1920 | dess | dess | Pronoun |  | At a specific given time, then | checked |
-| W1921 | äger | äga | Verb |  | present indicative of äga | checked |
-| W1922 | skapar | skapa | Verb |  | present indicative of skapa | checked |
-| W1923 | ökar | öka | Verb |  | present indicative of öka | checked |
-| W1924 | minskar | minska | Verb |  | present indicative of minska | checked |
-| W1925 | växer | växa | Verb |  | present indicative of växa | checked |
-| W1926 | leder | leda | Verb |  | present indicative of leda | checked |
-| W1927 | driver | driva | Verb |  | present indicative of driva | checked |
+| W1921 | äger | äga | Verb |  | present indicative of äga (äga: to own) | checked |
+| W1922 | skapar | skapa | Verb |  | present indicative of skapa (skapa: to create; to make, to manufacture; to put into existence, chiefly by a creative act) | checked |
+| W1923 | ökar | öka | Verb |  | present indicative of öka (öka: to increase to speed up, to accelerate) | checked |
+| W1924 | minskar | minska | Verb |  | present indicative of minska (minska: to reduce) | checked |
+| W1925 | växer | växa | Verb |  | present indicative of växa (växa: grow; increase in size) | checked |
+| W1926 | leder | leda | Verb |  | present indicative of leda (leda: to lead; to guide, to conduct) | checked |
+| W1927 | driver | driva | Verb |  | present indicative of driva (driva: to drive) | checked |
 | W1928 | föra | föra | Verb |  | to move something or someone; to bring, to take | checked |
-| W1929 | kräver | kräva | Verb |  | present indicative of kräva | checked |
-| W1930 | tvingar | tvinga | Verb |  | present indicative of tvinga | checked |
-| W1931 | påverkar | påverka | Verb |  | present indicative of påverka | checked |
-| W1932 | utvecklar | utveckla | Verb |  | present indicative of utveckla | checked |
-| W1933 | deltar | delta | Verb |  | present indicative of delta | checked |
-| W1934 | bidrar | bidra | Verb |  | present indicative of bidra | checked |
-| W1935 | innehåller | innehålla | Verb |  | present indicative of innehålla | checked |
-| W1936 | bryter | bryta | Verb |  | present indicative of bryta | checked |
-| W1937 | faller | falla | Verb |  | present indicative of falla | checked |
+| W1929 | kräver | kräva | Verb |  | present indicative of kräva (kräva: to demand, to forcefully request) | checked |
+| W1930 | tvingar | tvinga | Verb |  | present indicative of tvinga (tvinga: to force) | checked |
+| W1931 | påverkar | påverka | Verb |  | present indicative of påverka (påverka: to affect, to influence) | checked |
+| W1932 | utvecklar | utveckla | Verb |  | present indicative of utveckla (utveckla: to develop) | checked |
+| W1933 | deltar | delta | Verb |  | present indicative of delta (delta: to participate, to take part) | checked |
+| W1934 | bidrar | bidra | Verb |  | present indicative of bidra (bidra: to contribute) | checked |
+| W1935 | innehåller | innehålla | Verb |  | present indicative of innehålla (innehålla: to contain, to include) | checked |
+| W1936 | bryter | bryta | Verb |  | present indicative of bryta (bryta: to break; to end abruptly) | checked |
+| W1937 | faller | falla | Verb |  | present indicative of falla (falla: to fall) | checked |
 | W1938 | rör | röra | Verb |  | inflection of röra: imperative present indicative | checked |
-| W1939 | vänder | vända | Verb |  | present indicative of vända | checked |
-| W1940 | sker | ske | Verb |  | present indicative of ske | checked |
-| W1941 | övar | öva | Verb |  | present indicative of öva | checked |
+| W1939 | vänder | vända | Verb |  | present indicative of vända (vända: to turn) | checked |
+| W1940 | sker | ske | Verb |  | present indicative of ske (ske: to happen; in particular what happens during some extended period of time) | checked |
+| W1941 | övar | öva | Verb |  | present indicative of öva (öva: to practice, to train to do something, to exercise) | checked |
 | W1942 | tag | tag | Noun |  | a grip, a hold | checked |
 
 ## Matched to Tatoeba (2146)

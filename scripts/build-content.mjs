@@ -8,6 +8,7 @@ import { normaliseFile } from './lib/loudness.mjs'
 import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 import { equivalentAnswers } from './lib/equivalents.mjs'
 import { usSpellingRows } from './lib/us-spelling.mjs'
+import { bareFormOf } from './lib/form-of.mjs'
 import { applyStoplist } from './lib/a1-stoplist.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
 // Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
@@ -104,6 +105,13 @@ const unitOpen = (id) => tables.units.some((u) => u.unit_id === id && (isLive(u)
 const hintFrom = (c) => {
   const short = (g) => String(g).split(/[;(]/)[0].replace(/^(feminine|plural|apocopic form) of [^:]+: /, '').trim()
   if (/\b(person|plural|singular|inflection) /.test(c.gloss) && c.lemma_gloss) return `${short(c.lemma_gloss)} (${c.lemma})`
+  // A bare form-of label the rule above leaves alone gets its word's meaning first: "can (present of kunne)"
+  // (scripts/lib/form-of.mjs, 2026-11-22).
+  // A gloss that carries its meaning after the label ("comparative degree of goed; better") uses that meaning.
+  const [head, ...rest] = String(c.gloss).split(';')
+  const bare = bareFormOf(c.gloss) ?? bareFormOf(head)
+  const meaning = c.lemma_gloss || rest.join(';').trim()
+  if (bare && meaning) return `${short(meaning)} (${bare.label})`
   return short(c.gloss)
 }
 tables.words = raw('words').flatMap((w) => {

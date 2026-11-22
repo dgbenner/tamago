@@ -699,7 +699,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W004 | nee | nee | Interjection |  | no | checked |
 | W005 | ik | ik | Pronoun |  | I; first-person singular subjective personal pronoun | checked |
 | W006 | jij | jij | Pronoun |  | you; second-person singular subjective personal pronoun | checked |
-| W007 | je | je | Pronoun |  | subjective unstressed form of jij | checked |
+| W007 | je | je | Pronoun |  | subjective unstressed form of jij (je: you; second-person singular subjective personal pronoun) | checked |
 | W008 | ben | zijn | Verb |  | inflection of zijn: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (zijn: to be, to exist) | checked |
 | W009 | bent | zijn | Verb |  | second-person singular present indicative of zijn; are (zijn: to be, to exist) | checked |
 | W010 | is | zijn | Verb |  | third-person singular present indicative of zijn; is, equals (zijn: to be, to exist) | checked |
@@ -707,14 +707,14 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W012 | man | man | Noun |  | man, human male, either adult or age-irrespective | checked |
 | W013 | vrouw | vrouw | Noun |  | woman | checked |
 | W014 | jongen | jongen | Noun |  | a boy, any male child | checked |
-| W015 | meisje | meisje | Noun |  | diminutive of meid | checked |
+| W015 | meisje | meisje | Noun |  | diminutive of meid (meisje: girl, lass) | checked |
 | W016 | kind | kind | Noun |  | child, kid, non-adult human | checked |
 | W017 | en | en | Conjunction |  | and | checked |
 | W018 | de | de | Article |  | the; definite article, masculine and feminine singular, plural | checked |
 | W019 | het | de | Article |  | the | checked |
 | W020 | hij | hij | Pronoun |  | he; third-person singular masculine subjective personal pronoun | checked |
 | W021 | zij | zij | Pronoun |  | she; third-person singular feminine subjective personal pronoun | checked |
-| W022 | ze | ze | Pronoun |  | unstressed form of zij | checked |
+| W022 | ze | ze | Pronoun |  | unstressed form of zij (ze: she; third-person singular feminine subjective personal pronoun) | checked |
 | W023 | dit | deze | Pronoun |  | neuter singular of deze; this, this here (deze: this) | checked |
 | W024 | dat | die | Pronoun |  | neuter singular of die that, that there (die: that) | checked |
 | W025 | boek | boek | Noun |  | book | checked |
@@ -769,7 +769,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W074 | konijn | konijn | Noun |  | a rabbit, a bunny; any non-hare lagomorph of the family Leporidae | checked |
 | W075 | dier | dier | Noun |  | animal | checked |
 | W076 | wij | wij | Pronoun |  | we; first-person plural subjective personal pronoun | checked |
-| W077 | we | we | Pronoun |  | unstressed form of wij | checked |
+| W077 | we | we | Pronoun |  | unstressed form of wij (we: we; first-person plural subjective personal pronoun) | checked |
 | W078 | jullie | jullie | Pronoun |  | you; second-person plural subjective personal pronoun | checked |
 | W079 | honden | hond | Noun |  | plural of hond (hond: dog) | checked |
 | W080 | katten | kat | Noun |  | plural of kat (kat: domestic cat, pussy, Felis silvestris catus) | checked |
@@ -877,7 +877,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W182 | straat | straat | Noun |  | street, paved way | checked |
 | W701 | begrijp | begrijpen | Verb |  | inflection of begrijpen: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (begrijpen: to understand, to comprehend, to grasp) | checked |
 | W702 | begrijpt | begrijpen | Verb |  | inflection of begrijpen: second/third-person singular present indicative plural imperative (begrijpen: to understand, to comprehend, to grasp) | checked |
-| W703 | langzamer | langzamer | Adjective |  | comparative degree of langzaam | checked |
+| W703 | langzamer | langzamer | Adjective |  | comparative degree of langzaam (langzamer: slow) | checked |
 | W704 | nog | nog | Adverb |  | still, as before | checked |
 | W705 | keer | keer | Noun |  | time | checked |
 | W706 | zeg | zeggen | Verb |  | inflection of zeggen: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (zeggen: to say, tell) | checked |
@@ -944,7 +944,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W809 | kent | kennen | Verb |  | inflection of kennen: second/third-person singular present indicative plural imperative (kennen: to know, be acquainted with, to have knowledge of the properties of a particular person, object or concept, through personal experience, teaching, practice, or habit; to be familiar with) | checked |
 | W810 | kennen | kennen | Verb |  | to know, be acquainted with, to have knowledge of the properties of a particular person, object or concept, through personal experience, teaching, practice, or habit; to be familiar with | checked |
 | W811 | aangenaam | aangenaam | Phrase |  | nice to meet you, pleased to meet you | checked |
-| W812 | me | me | Pronoun |  | unstressed form of mij | checked |
+| W812 | me | me | Pronoun |  | unstressed form of mij (me: me; first-person singular objective personal pronoun) | checked |
 | W813 | mij | mij | Pronoun |  | me; first-person singular objective personal pronoun | checked |
 | W814 | hem | hem | Pronoun |  | him; third-person singular masculine objective personal pronoun | checked |
 | W815 | niet | niet | Adverb |  | not, no, don't: used to express negation. | checked |
@@ -965,7 +965,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W830 | belt | bellen | Verb |  | inflection of bellen: second/third-person singular present indicative plural imperative (bellen: to ring, like using a bell) | checked |
 | W831 | bellen | bellen | Verb |  | to call, by bell or telephone; to dial | checked |
 | W832 | nul | nul | Numeral |  | zero, nought | checked |
-| W833 | één | één | Numeral |  | alternative form of een | checked |
+| W833 | één | één | Numeral |  | alternative form of een (één: one) | checked |
 | W834 | elf | elf | Numeral |  | eleven | checked |
 | W835 | twaalf | twaalf | Numeral |  | twelve | checked |
 | W836 | dertien | dertien | Numeral |  | thirteen | checked |
@@ -987,8 +987,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W852 | al | al | Adverb |  | already | checked |
 | W853 | pas | pas | Adverb |  | just, recently | checked |
 | W854 | bijna | bijna | Adverb |  | almost | checked |
-| W855 | ouder | ouder | Adjective |  | comparative degree of oud | checked |
-| W856 | jonger | jonger | Adjective |  | comparative degree of jong | checked |
+| W855 | ouder | ouder | Adjective |  | comparative degree of oud (ouder: old) | checked |
+| W856 | jonger | jonger | Adjective |  | comparative degree of jong (jonger: young) | checked |
 | W857 | baby | baby | Noun |  | baby | checked |
 | W858 | met | met | Preposition |  | with, along with | checked |
 | W859 | moment | moment | Noun |  | moment | checked |
@@ -1057,7 +1057,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W922 | willen | willen | Verb |  | to want, desire | checked |
 | W923 | neem | nemen | Verb |  | inflection of nemen: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (nemen: to take, to take hold of, to grasp or grab) | checked |
 | W924 | nemen | nemen | Verb |  | to take, to take hold of, to grasp or grab | checked |
-| W925 | kilo | kilo | Noun |  | abbreviation of kilogram | checked |
+| W925 | kilo | kilo | Noun |  | abbreviation of kilogram (kilo: kilogram) | checked |
 | W926 | fruit | fruit | Noun |  | fruit | checked |
 | W927 | groente | groente | Noun |  | vegetables | checked |
 | W928 | ei | ei | Noun |  | egg | checked |
@@ -1196,7 +1196,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1218 | horen | horen | Verb |  | to hear | checked |
 | W1219 | zei | zeggen | Verb |  | singular past indicative of zeggen (zeggen: to say, tell) | checked |
 | W1220 | luister | luisteren | Verb |  | inflection of luisteren: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (luisteren: to listen [with naar ‘to’]) | checked |
-| W1221 | harder | harder | Adjective |  | comparative degree of hard | checked |
+| W1221 | harder | harder | Adjective |  | comparative degree of hard (harder: hard, strong) | checked |
 | W1222 | versta | verstaan | Verb |  | inflection of verstaan: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative singular present subjunctive (verstaan: to understand, to hear clearly) | checked |
 | W1223 | dinsdag | dinsdag | Noun |  | Tuesday | checked |
 | W1224 | woensdag | woensdag | Noun |  | Wednesday | checked |
@@ -1248,7 +1248,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1270 | dacht | denken | Verb |  | singular past indicative of denken (denken: to think [with aan ‘about, of’]) | checked |
 | W1271 | zullen | zullen | Verb |  | used to form the future tense of a verb, together with an infinitive; will, going to | checked |
 | W1272 | zal | zullen | Verb |  | first/second/third-person singular present indicative of zullen (zullen: used to form the future tense of a verb, together with an infinitive; will, going to) | checked |
-| W1273 | mee | mee | Adverb |  | adverbial form of met | checked |
+| W1273 | mee | mee | Adverb |  | adverbial form of met (mee: with, along with) | checked |
 | W1274 | afspraak | afspraak | Noun |  | arrangement, agreement, understanding | checked |
 | W1275 | vanavond | vanavond | Adverb |  | tonight, this evening, the evening of the current day | checked |
 | W1276 | bioscoop | bioscoop | Noun |  | cinema; movie theater | checked |
@@ -1427,12 +1427,12 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1481 | hart | hart | Noun |  | heart, main muscle pumping blood through the body | checked |
 | W1482 | mooie | mooi | Adjective |  | inflection of mooi: masculine/feminine singular attributive definite neuter singular attributive plural attributive (mooi: beautiful, pretty, handsome) | checked |
 | W1483 | erg | erg | Adverb |  | very | checked |
-| W1484 | liever | liever | Adverb |  | comparative degree of graag | checked |
+| W1484 | liever | liever | Adverb |  | comparative degree of graag (liever: willingly, gladly) | checked |
 | W1601 | bestel | bestellen | Verb |  | inflection of bestellen: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (bestellen: to order, demand delivery) | checked |
 | W1602 | bestellen | bestellen | Verb |  | to order, demand delivery | checked |
 | W1603 | ober | ober | Noun |  | waiter | checked |
 | W1604 | menu | menu | Noun |  | menu | checked |
-| W1605 | kopje | kopje | Noun |  | diminutive of kop | checked |
+| W1605 | kopje | kopje | Noun |  | diminutive of kop (kopje: cup) | checked |
 | W1606 | kop | kop | Noun |  | cup | checked |
 | W1607 | suiker | suiker | Noun |  | sugar | checked |
 | W1608 | taart | taart | Noun |  | a pie, large cake, or cobbler | checked |
@@ -1440,7 +1440,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1610 | rekening | rekening | Noun |  | a bill, a check; hence the cost of something | checked |
 | W1611 | mag | mogen | Verb |  | inflection of mogen: first/second/third-person singular present indicative imperative (mogen: to be allowed) | checked |
 | W1612 | mogen | mogen | Verb |  | to be allowed | checked |
-| W1613 | drankje | drankje | Noun |  | diminutive of drank | checked |
+| W1613 | drankje | drankje | Noun |  | diminutive of drank (drankje: beverage, drink) | checked |
 | W1614 | gezellig | gezellig | Adjective |  | having an inviting and friendly ambiance; cosy, nice, pleasant, sociable, convivial | checked |
 | W1615 | excuseer | excuseren | Verb |  | inflection of excuseren: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (excuseren: to excuse, to pardon, to forgive) | checked |
 | W1616 | hulp | hulp | Noun |  | help, assistance, rescue | checked |
@@ -1489,7 +1489,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1659 | halte | halte | Noun |  | stop | checked |
 | W1660 | stap | stappen | Verb |  | inflection of stappen: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (stappen: to march) | checked |
 | W1661 | overstappen | overstappen | Verb |  | to transfer | checked |
-| W1662 | lopend | lopen | Participle |  | present participle of lopen | checked |
+| W1662 | lopend | lopen | Participle |  | present participle of lopen (lopen: to run, go fast on one's own legs) | checked |
 | W1663 | rijbewijs | rijbewijs | Noun |  | driver's license | checked |
 | W1664 | file | file | Noun |  | traffic jam | checked |
 | W1665 | neemt | nemen | Verb |  | inflection of nemen: second/third-person singular present indicative plural imperative (nemen: to take, to take hold of, to grasp or grab) | checked |
@@ -1551,13 +1551,13 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1721 | kapot | kapot | Adjective |  | broken, defective, kaput | checked |
 | W1722 | ongeluk | ongeluk | Noun |  | accident | checked |
 | W1723 | ambulance | ambulance | Noun |  | ambulance | checked |
-| W1724 | gebeurd | gebeuren | Participle |  | past participle of gebeuren | checked |
+| W1724 | gebeurd | gebeuren | Participle |  | past participle of gebeuren (gebeuren: to happen) | checked |
 | W1725 | gebeurt | gebeuren | Verb |  | inflection of gebeuren: second/third-person singular present indicative plural imperative (gebeuren: to happen) | checked |
 | W1726 | gebeuren | gebeuren | Verb |  | to happen | checked |
 | W1727 | veilig | veilig | Adjective |  | safe | checked |
 | W1728 | problemen | probleem | Noun |  | plural of probleem (probleem: problem) | checked |
 | W1729 | mis | mis | Adjective |  | wrong | checked |
-| W1730 | wees | wees | Verb |  | imperative of zijn | checked |
+| W1730 | wees | wees | Verb |  | imperative of zijn (wees: to be, to exist) | checked |
 | W1731 | orde | orde | Noun |  | order state of being ordered, arranged, in line with rules | checked |
 | W1732 | formulier | formulier | Noun |  | a form, a formally standardized document to fill out in order to file a specific request, declaration etc. | checked |
 | W1733 | geboortedatum | geboortedatum | Noun |  | date of birth | checked |
@@ -1569,7 +1569,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1739 | nationaliteit | nationaliteit | Noun |  | nationality | checked |
 | W1740 | teken | tekenen | Verb |  | inflection of tekenen: first-person singular present indicative (in case of inversion) second-person singular present indicative imperative (tekenen: to draw) | checked |
 | W1741 | invullen | invullen | Verb |  | to fill in | checked |
-| W1742 | mail | mail | Noun |  | alternative form of e-mail | checked |
+| W1742 | mail | mail | Noun |  | alternative form of e-mail (mail: e-mail) | checked |
 | W1743 | beste | best | Adjective |  | inflection of best, the superlative degree of goed: masculine/feminine singular attributive definite neuter singular attributive plural attributive (best: superlative degree of goed; best) | checked |
 | W1744 | lieve | lief | Adjective |  | inflection of lief: masculine/feminine singular attributive definite neuter singular attributive plural attributive (lief: nice, sweet, lovely) | checked |
 | W1745 | groeten | groet | Noun |  | plural of groet (groet: greeting) | checked |
@@ -1599,24 +1599,24 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1814 | dingen | ding | Noun |  | plural of ding (ding: matter, thing) | checked |
 | W1815 | zoveel | zoveel | Determiner |  | so many, so much | checked |
 | W1816 | rest | rest | Noun |  | rest | checked |
-| W1817 | gedaan | doen | Participle |  | past participle of doen | checked |
-| W1818 | gezien | zien | Participle |  | past participle of zien | checked |
-| W1819 | gezegd | zeggen | Participle |  | past participle of zeggen | checked |
-| W1820 | gehad | hebben | Participle |  | past participle of hebben | checked |
-| W1821 | gemaakt | maken | Participle |  | past participle of maken | checked |
-| W1822 | gehoord | horen | Participle |  | past participle of horen | checked |
-| W1823 | gevonden | vinden | Participle |  | past participle of vinden | checked |
-| W1824 | geweest | zijn | Participle |  | past participle of zijn | checked |
-| W1825 | gekomen | komen | Participle |  | past participle of komen | checked |
-| W1826 | gegeven | geven | Participle |  | past participle of geven | checked |
-| W1827 | gebruikt | gebruiken | Participle |  | past participle of gebruiken | checked |
-| W1828 | begrepen | begrijpen | Participle |  | past participle of begrijpen | checked |
-| W1829 | verteld | vertellen | Participle |  | past participle of vertellen | checked |
+| W1817 | gedaan | doen | Participle |  | past participle of doen (doen: to do) | checked |
+| W1818 | gezien | zien | Participle |  | past participle of zien (zien: to see) | checked |
+| W1819 | gezegd | zeggen | Participle |  | past participle of zeggen (zeggen: to say, tell) | checked |
+| W1820 | gehad | hebben | Participle |  | past participle of hebben (hebben: to have, to possess, own, hold) | checked |
+| W1821 | gemaakt | maken | Participle |  | past participle of maken (maken: to make, create, prepare) | checked |
+| W1822 | gehoord | horen | Participle |  | past participle of horen (horen: to hear) | checked |
+| W1823 | gevonden | vinden | Participle |  | past participle of vinden (vinden: to find) | checked |
+| W1824 | geweest | zijn | Participle |  | past participle of zijn (zijn: to be, to exist) | checked |
+| W1825 | gekomen | komen | Participle |  | past participle of komen (komen: to come) | checked |
+| W1826 | gegeven | geven | Participle |  | past participle of geven (geven: to give) | checked |
+| W1827 | gebruikt | gebruiken | Participle |  | past participle of gebruiken (gebruiken: to use) | checked |
+| W1828 | begrepen | begrijpen | Participle |  | past participle of begrijpen (begrijpen: to understand, to comprehend, to grasp) | checked |
+| W1829 | verteld | vertellen | Participle |  | past participle of vertellen (vertellen: to tell) | checked |
 | W1830 | vergeten | vergeten | Verb |  | to forget | checked |
 | W1831 | geleden | geleden | Adverb |  | ago | checked |
-| W1832 | gegeten | eten | Participle |  | past participle of eten | checked |
-| W1833 | gekocht | kopen | Participle |  | past participle of kopen | checked |
-| W1834 | gewerkt | werken | Participle |  | past participle of werken | checked |
+| W1832 | gegeten | eten | Participle |  | past participle of eten (eten: to eat) | checked |
+| W1833 | gekocht | kopen | Participle |  | past participle of kopen (kopen: to buy, purchase) | checked |
+| W1834 | gewerkt | werken | Participle |  | past participle of werken (werken: to work, labour) | checked |
 | W1835 | net | net | Adverb |  | just recently, just now | checked |
 | W1836 | eerder | eerder | Adverb |  | earlier | checked |
 | W1837 | steeds | steeds | Adverb |  | always, continually, all the time, every time, each time | checked |

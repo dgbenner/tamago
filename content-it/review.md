@@ -1085,7 +1085,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W036 | prego | prego | Interjection |  | you're welcome, don't mention it etc. | checked |
 | W037 | buongiorno | buongiorno | Interjection |  | good day | checked |
 | W038 | buonasera | buonasera | Interjection |  | good evening | checked |
-| W039 | buona notte | buona notte | Interjection |  | alternative spelling of buonanotte | checked |
+| W039 | buona notte | buona notte | Interjection |  | alternative spelling of buonanotte (buona notte: good night) | checked |
 | W040 | arrivederci | arrivederci | Interjection |  | goodbye, so long, see you soon, see you | checked |
 | W041 | scusa | scusa | Interjection |  | sorry! | checked |
 | W042 | scusi | scusi | Interjection |  | excuse me, pardon me | checked |
@@ -1354,7 +1354,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W841 | mese | mese | Noun | m | month | checked |
 | W842 | mesi | mese | Noun | m | plural of mese (mese: month) | checked |
 | W843 | auguri | augurio | Noun | m | plural of augurio: regards, wishes (augurio: wish, pl wishes, greetings) | checked |
-| W844 | buon | buon | Adjective |  | apocopic form of buono | checked |
+| W844 | buon | buon | Adjective |  | apocopic form of buono (buon: good, nice righteous, moral) | checked |
 | W845 | nato | nascere | Participle |  | past participle of nascere; born | checked |
 | W846 | nata | nato | Participle |  | feminine singular of nato (nato: past participle of nascere; born) | checked |
 | W847 | vita | vita | Noun | f | life | checked |
@@ -1428,7 +1428,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W915 | dovere | dovere | Verb |  | to owe | checked |
 | W916 | d'accordo | d'accordo | Interjection |  | sure!, OK!, of course!, naturally! | checked |
 | W917 | chiaro | chiaro | Adjective |  | clear | checked |
-| W918 | capito | capire | Participle |  | past participle of capire | checked |
+| W918 | capito | capire | Participle |  | past participle of capire (capire: to understand [auxiliary avere]) | checked |
 | W919 | vero | vero | Adjective |  | true | checked |
 | W920 | esatto | esatto | Adjective |  | exact, correct, right | checked |
 | W921 | cioè | cioè | Adverb |  | used to rephrase, clarify or correct something previously said: that is, in other words | checked |
@@ -1460,7 +1460,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W947 | poco | poco | Adverb |  | little, not much | checked |
 | W948 | tanto | tanto | Determiner |  | so much; so many | checked |
 | W949 | tutto | tutto | Determiner |  | all | checked |
-| W950 | po' | po' | Noun | m | apocopic form of poco | checked |
+| W950 | po' | po' | Noun | m | apocopic form of poco (po': little) | checked |
 | W951 | biscotti | biscotto | Noun | m | plural of biscotto (biscotto: biscuit, cookie) | checked |
 | W952 | ogni | ogni | Determiner |  | each, every | checked |
 | W953 | altro | altro | Determiner |  | other, another, more, further, else | checked |
@@ -1566,9 +1566,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1216 | periodo | periodo | Noun | m | period, time, span, run period the time between successive peaks or troughs in a sinusoidal phenomenon | checked |
 | W1217 | appena | appena | Adverb |  | barely, hardly | checked |
 | W1218 | sento | sentire | Verb |  | first-person singular present indicative of sentire (sentire: to feel) | checked |
-| W1219 | sentito | sentire | Participle |  | past participle of sentire | checked |
+| W1219 | sentito | sentire | Participle |  | past participle of sentire (sentire: to feel) | checked |
 | W1220 | sentire | sentire | Verb |  | to feel | checked |
-| W1221 | detto | dire | Participle |  | past participle of dire | checked |
+| W1221 | detto | dire | Participle |  | past participle of dire (dire: to utter) | checked |
 | W1222 | voce | voce | Noun | f | voice | checked |
 | W1223 | martedì | martedì | Noun | m | Tuesday | checked |
 | W1224 | mercoledì | mercoledì | Noun | m | Wednesday | checked |
@@ -1873,10 +1873,10 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1613 | permesso | permesso | Interjection |  | said to ask for permission; may I?; may I come in?; knock knock | checked |
 | W1614 | favore | favore | Noun | m | favour/favor | checked |
 | W1615 | qualcuno | qualcuno | Pronoun |  | someone, somebody | checked |
-| W1616 | nessun | nessun | Determiner |  | apocopic form of nessuno | checked |
+| W1616 | nessun | nessun | Determiner |  | apocopic form of nessuno (nessun: no, any) | checked |
 | W1617 | aiuto | aiuto | Noun | m | help, assistance, aid | checked |
 | W1618 | aiutare | aiutare | Verb |  | to help, assist | checked |
-| W1619 | menù | menù | Noun | m | alternative spelling of menu | checked |
+| W1619 | menù | menù | Noun | m | alternative spelling of menu (menù: menu) | checked |
 | W1620 | piatto | piatto | Noun | m | plate | checked |
 | W1621 | carne | carne | Noun | f | meat, flesh | checked |
 | W1622 | pollo | pollo | Noun | m | chicken | checked |
@@ -1902,7 +1902,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1642 | direttamente | direttamente | Adverb |  | directly | checked |
 | W1643 | percorso | percorso | Noun | m | distance | checked |
 | W1644 | posizione | posizione | Noun | f | position | checked |
-| W1645 | perso | perdere | Participle |  | past participle of perdere | checked |
+| W1645 | perso | perdere | Participle |  | past participle of perdere (perdere: to lose [auxiliary avere]) | checked |
 | W1646 | persa | perso | Participle |  | feminine singular of perso (perso: past participle of perdere) | checked |
 | W1647 | mappa | mappa | Noun | f | map map | checked |
 | W1648 | gira | girare | Verb |  | inflection of girare: third-person singular present indicative second-person singular imperative (girare: to turn, stir, turn over [auxiliary avere]) | checked |
