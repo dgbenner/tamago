@@ -473,7 +473,13 @@
       "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
     }
   },
-  "cut_sentences": [],
+  "cut_sentences": [
+    "S44005",
+    "S57011",
+    "S58007",
+    "S58025",
+    "S93016"
+  ],
   "vocabulary_additions": [],
   "hints": {},
   "borrow": {},
@@ -662,6 +668,22 @@
     "W1607": {
       "hint": "an open-face sandwich",
       "source": "Wiktionary sense 1, an (open-face) sandwich (slice(s) of bread with toppings, usually buttered); the pipeline gloss dropped the bracket and read an sandwich (Claude, Builder 2, 2026-11-21)"
+    },
+    "W127": {
+      "hint": "where; was (past of vara)",
+      "source": "Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md); U62 teaches Igår var det torsdag; Wiktionary: var, past indicative of vara"
+    },
+    "W047": {
+      "hint": "tycker om: to like; om: if, about",
+      "source": "Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md); Wiktionary: om, conjunction if, preposition about; tycka om, to like"
+    },
+    "W162": {
+      "hint": "to; for (till mig); another (en syster till)",
+      "source": "Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md); Wiktionary: till, preposition to, for; adverb another, more"
+    },
+    "W1481": {
+      "hint": "nice, pleasant (det är skönt)",
+      "source": "Fable's Swedish phase 6 review (2026-11-22; _review/swedish-phase6-review.md); Wiktionary: skönt, indefinite neuter singular of the adjective skön, comfortable, pleasurable"
     }
   },
   "phrases_off": {},
@@ -679,7 +701,8 @@
     "London",
     "Paris",
     "Andersson",
-    "Uppsala"
+    "Uppsala",
+    "Gotland"
   ],
   "accepted_additions": [],
   "gender": {
@@ -1092,5 +1115,9 @@
     "W1811": "ett",
     "W1882": "en",
     "W1883": "ett"
-  }
+  },
+  "cut_answers": [
+    "GS33103-4446756",
+    "GS33103-4446755"
+  ]
 }

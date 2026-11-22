@@ -1952,26 +1952,6 @@
     "status": "live"
   },
   {
-    "answer_id": "GS33103-4446756",
-    "sentence_id": "S33103",
-    "direction": "en_to_fr",
-    "answer": "Vad heter den?",
-    "source": "tatoeba",
-    "source_id": "4446756",
-    "status": "live",
-    "source_owner": "richke"
-  },
-  {
-    "answer_id": "GS33103-4446755",
-    "sentence_id": "S33103",
-    "direction": "en_to_fr",
-    "answer": "Vad kallas den?",
-    "source": "tatoeba",
-    "source_id": "4446755",
-    "status": "live",
-    "source_owner": "richke"
-  },
-  {
     "answer_id": "GS43105-4170049",
     "sentence_id": "S43105",
     "direction": "en_to_fr",
@@ -2000,16 +1980,6 @@
     "source_id": "2237785",
     "status": "live",
     "source_owner": "freddy1"
-  },
-  {
-    "answer_id": "GS95121-11657371",
-    "sentence_id": "S95121",
-    "direction": "en_to_fr",
-    "answer": "Det tar tid.",
-    "source": "tatoeba",
-    "source_id": "11657371",
-    "status": "live",
-    "source_owner": "Pineapple"
   },
   {
     "answer_id": "AE00001",
@@ -3335,7 +3305,7 @@
     "answer_id": "AE00166",
     "sentence_id": "S86109",
     "direction": "fr_to_en",
-    "answer": "I live one floor up, and I rent my apartment.",
+    "answer": "I rent an apartment one floor up.",
     "source": "equivalent: spelling",
     "status": "live"
   },
@@ -3381,14 +3351,6 @@
   },
   {
     "answer_id": "AE00172",
-    "sentence_id": "S92137",
-    "direction": "fr_to_en",
-    "answer": "Soccer is a national sport in Sweden.",
-    "source": "equivalent: spelling",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00173",
     "sentence_id": "S94148",
     "direction": "fr_to_en",
     "answer": "I like soccer and tennis, among other things.",
@@ -3396,7 +3358,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00174",
+    "answer_id": "AE00173",
     "sentence_id": "S95107",
     "direction": "fr_to_en",
     "answer": "Every day, my knowledge grows.",
@@ -3404,15 +3366,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00175",
-    "sentence_id": "S95148",
-    "direction": "fr_to_en",
-    "answer": "Every day, it happens.",
-    "source": "equivalent: order",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00176",
+    "answer_id": "AE00174",
     "sentence_id": "S95151",
     "direction": "fr_to_en",
     "answer": "Every day, I practise.",
