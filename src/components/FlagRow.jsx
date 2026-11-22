@@ -6,21 +6,21 @@ import { COURSES, chooseCourse, course } from '../lib/course.js'
 // Picking another course reloads straight into it; its progress is its own. The picked flag takes the orange outline
 // at once (Dan, 2026-11-20): while pressed, and from the click on, so the choice shows before the course opens; a reload
 // waits PICK_MS for that to be seen.
-// Order and rows (Dan, 2026-11-14; 15 flags since 2026-11-16): alphabetical by English name, Coming Soon ones in place;
-// rows of four on phones (4, 4, 4, 3: five rows of three ran off a phone's opening screen) and three rows of five from
-// 1024px (desktop, iPad landscape), so no flag is ever alone on a row. Columns shrink, never overflow. Coming Soon flags are faint and grey, so the live courses stand out in color.
+// Order and rows (Dan, 2026-11-14; nine flags since 2026-11-22): alphabetical by English name, Coming Soon ones in
+// place; rows of three on phones (3, 3, 3) and, from 1024px (desktop, iPad landscape), five then four, so no flag is
+// ever alone on a row. Columns shrink, never overflow. Coming Soon flags are faint and grey, so the live courses stand out in color.
 const BY_NAME = [...COURSES].sort((a, b) => a.name.localeCompare(b.name, 'en'))
 const PICK_MS = 150
 export function FlagRow({ size = 'md', onPick }) {
   const [soon, setSoon] = useState(null)
   const [picked, setPicked] = useState(null)
-  const px = size === 'lg' ? 'max-w-16 [@media(max-height:760px)]:max-w-12 lg:max-w-20' : 'max-w-14' // short phones (iPhone SE): smaller, so all four rows fit
+  const px = size === 'lg' ? 'max-w-16 [@media(max-height:760px)]:max-w-12 lg:max-w-20' : 'max-w-14' // short phones (iPhone SE): smaller, so all three rows fit
   const gap = size === 'lg' ? 'gap-x-0.5 gap-y-1 lg:gap-y-2' : 'gap-x-2 gap-y-3 lg:gap-x-1' // the opening screen's flags sit close together (Dan's design lab, 2026-11-10)
   return (
     <div data-ds="flag-row" className="flex flex-col items-center gap-2">
-      {/* Opening screen on wide screens (Dan, 2026-11-19): two rows, 8 then 7. The smaller picker (header, Settings)
-          keeps rows of five there; phones keep rows of four. */}
-      <ul className={`grid grid-cols-4 ${size === 'lg' ? 'lg:grid-cols-8' : 'lg:grid-cols-5'} items-start justify-center ${gap}`}>
+      {/* Nine flags (Dan, 2026-11-22): three per row on phones (3, 3, 3) and five then four from 1024px (opening
+          screen, header pop-up and Settings alike), so none is ever left alone on a row. */}
+      <ul className={`grid grid-cols-3 lg:grid-cols-5 items-start justify-center ${gap}`}>
         {BY_NAME.map((c, n) => {
           const current = c.id === course.id
           // The outline: the flag just picked, else the running course (not on the opening screen, where nothing is chosen yet).
