@@ -81,6 +81,14 @@ export const HELP_PHRASES = {
     { help: 'say', level: 2, text: 'Hoe zeg je…?', frame: 'Hoe zeg je „” in het Nederlands?', caret: 12 },
     { help: 'word', level: 3, text: 'Ik zoek het woord…', frame: 'Ik zoek het woord. Het is een ding om ' },
   ],
+  pl: [
+    { help: 'understand', level: 1, text: 'Nie rozumiem.' },
+    { help: 'slower', level: 1, text: 'Wolniej, proszę.' },
+    { help: 'repeat', level: 1, text: 'Możesz powtórzyć?' },
+    { help: 'meaning', level: 2, text: 'Co to znaczy?', withWord: (w) => `Co znaczy „${w}”?` },
+    { help: 'say', level: 2, text: 'Jak się mówi…?', frame: 'Jak się mówi „” po polsku?', caret: 14 },
+    { help: 'word', level: 3, text: 'Szukam słowa…', frame: 'Szukam słowa. To jest coś do ' },
+  ],
   no: [
     { help: 'understand', level: 1, text: 'Jeg forstår ikke.' },
     { help: 'slower', level: 1, text: 'Saktere, takk.' },
@@ -139,6 +147,11 @@ export const SCENES = {
     { id: 'cafe', title: 'Ordering a Drink', about: 'You walk into a café and order something to drink.', setting: 'A small café. The learner comes in and orders something to drink.', ai: 'the waiter, friendly and a little quick', learner: 'a customer', keys: ['koffie', 'thee', 'water', 'melk', 'alsjeblieft', 'dank'] },
     { id: 'neighbour', title: 'A New Neighbour', about: 'Someone has just moved in next door. Say hello and get to know them.', setting: 'The learner meets someone who has just moved in next door, outside the house.', ai: 'the new neighbour, chatty, with a family and a dog', learner: 'the person who lives next door', keys: ['hallo', 'huis', 'familie', 'kinderen', 'hond'] },
     { id: 'way', title: 'Finding the Way', about: 'You\'re in town looking for the park. Ask someone the way.', setting: 'In town. The learner is looking for the park and asks someone in the street.', ai: 'a local who knows the town well', learner: 'a visitor', keys: ['waar', 'park', 'school', 'restaurant', 'stad'] },
+  ],
+  pl: [
+    { id: 'cafe', title: 'Ordering a Drink', about: 'You walk into a café and order something to drink.', setting: 'A small café. The learner comes in and orders something to drink.', ai: 'the waiter, friendly and a little quick', learner: 'a customer', keys: ['kawa', 'herbata', 'woda', 'mleko', 'dziękuję'] },
+    { id: 'neighbour', title: 'A New Neighbour', about: 'Someone has just moved in next door. Say hello and get to know them.', setting: 'The learner meets someone who has just moved in next door, outside the house.', ai: 'the new neighbour, chatty, with a family and a dog', learner: 'the person who lives next door', keys: ['cześć', 'dom', 'rodzina', 'dzieci', 'pies'] },
+    { id: 'way', title: 'Finding the Way', about: 'You\'re in town looking for the park. Ask someone the way.', setting: 'In town. The learner is looking for the park and asks someone in the street.', ai: 'a local who knows the town well', learner: 'a visitor', keys: ['gdzie', 'park', 'szkoła', 'restauracja', 'miasto'] },
   ],
   no: [
     { id: 'cafe', title: 'Ordering a Drink', about: 'You walk into a café and order something to drink.', setting: 'A small café. The learner comes in and orders something to drink.', ai: 'the waiter, friendly and a little quick', learner: 'a customer', keys: ['kaffe', 'te', 'vann', 'melk', 'takk'] },
@@ -201,6 +214,12 @@ export const TALK_HELP = {
     { help: 'spell', text: 'Hoe schrijf je dat?', withWord: (w) => `Hoe schrijf je „${w}”?` },
     { help: 'meaning', text: 'Wat betekent dat?', withWord: (w) => `Wat betekent „${w}”?` },
   ],
+  pl: [
+    { help: 'repeat', text: 'Możesz powtórzyć?' },
+    { help: 'slower', text: 'Wolniej, proszę.' },
+    { help: 'spell', text: 'Jak to się pisze?', withWord: (w) => `Jak się pisze „${w}”?` },
+    { help: 'meaning', text: 'Co to znaczy?', withWord: (w) => `Co znaczy „${w}”?` },
+  ],
   no: [
     { help: 'repeat', text: 'Kan du gjenta det?' },
     { help: 'slower', text: 'Saktere, takk.' },
@@ -242,6 +261,7 @@ const KEYS = {
   it: { food: ['mangiare', 'pane', 'acqua', 'caffè', 'conto', 'vorrei'], way: ['dove', 'strada', 'sinistra', 'destra', 'lontano', 'stazione'], intro: ['chiamo', 'nome', 'abito', 'anni', 'lavoro', 'ciao'], shop: ['quanto', 'euro', 'comprare', 'prezzo', 'costa', 'vorrei'], plan: ['domani', 'sabato', 'cinema', 'ora', 'insieme', 'libero'] },
   pt: { food: ['comer', 'pão', 'água', 'café', 'conta', 'quero'], way: ['onde', 'rua', 'esquerda', 'direita', 'longe', 'estação'], intro: ['chamo', 'nome', 'moro', 'anos', 'trabalho', 'oi'], shop: ['quanto', 'reais', 'comprar', 'preço', 'custa', 'quero'], plan: ['amanhã', 'sábado', 'cinema', 'hora', 'juntos', 'livre'] },
   nl: { food: ['eten', 'brood', 'water', 'koffie', 'rekening', 'wil'], way: ['waar', 'straat', 'links', 'rechts', 'ver', 'station'], intro: ['heet', 'naam', 'woon', 'jaar', 'werk', 'hoi'], shop: ['hoeveel', 'euro', 'kopen', 'prijs', 'kost', 'wil'], plan: ['morgen', 'zaterdag', 'film', 'laat', 'samen', 'vrij'] },
+  pl: { food: ['jeść', 'chleb', 'woda', 'kawa', 'rachunek', 'chcę'], way: ['gdzie', 'ulica', 'w lewo', 'w prawo', 'daleko', 'dworzec'], intro: ['nazywam', 'imię', 'mieszkam', 'lat', 'pracuję', 'cześć'], shop: ['ile', 'złotych', 'kupić', 'cena', 'kosztuje', 'chcę'], plan: ['jutro', 'sobotę', 'kina', 'o której', 'razem', 'wolny'] },
   no: { food: ['spise', 'brød', 'vann', 'kaffe', 'regningen', 'vil'], way: ['hvor', 'gate', 'venstre', 'høyre', 'langt', 'stasjon'], intro: ['heter', 'navn', 'bor', 'år', 'jobber', 'hei'], shop: ['hvor mye', 'kroner', 'kjøpe', 'pris', 'koster', 'vil'], plan: ['i morgen', 'lørdag', 'kino', 'klokka', 'sammen', 'fri'] },
   da: { food: ['spise', 'brød', 'vand', 'kaffe', 'regningen', 'vil'], way: ['hvor', 'gade', 'venstre', 'højre', 'langt', 'station'], intro: ['hedder', 'navn', 'bor', 'år', 'arbejder', 'hej'], shop: ['hvor meget', 'kroner', 'købe', 'pris', 'koster', 'vil'], plan: ['i morgen', 'lørdag', 'biograf', 'klokken', 'sammen', 'fri'] },
   sv: { food: ['äta', 'bröd', 'vatten', 'kaffe', 'notan', 'vill'], way: ['var', 'gata', 'vänster', 'höger', 'långt', 'station'], intro: ['heter', 'namn', 'bor', 'år', 'jobbar', 'hej'], shop: ['hur mycket', 'kronor', 'köpa', 'pris', 'kostar', 'vill'], plan: ['imorgon', 'lördag', 'bio', 'klockan', 'tillsammans', 'ledig'] },

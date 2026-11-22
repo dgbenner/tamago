@@ -6,7 +6,7 @@ import { readFileSync } from 'node:fs'
 import { noteProblems, parseNote, plainNote } from '../src/lib/note-text.js'
 
 const table = (dir, name) => JSON.parse(readFileSync(new URL(`../src/${dir}/${name}.json`, import.meta.url), 'utf8'))
-const COURSES = ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl', 'content-no', 'content-da', 'content-sv']
+const COURSES = ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl', 'content-pl', 'content-no', 'content-da', 'content-sv']
 
 test('a note parses into paragraphs, lines and runs; only marked runs are the target language', () => {
   const note = "To ask someone's name:\n**Comment tu t'appelles ?** (to a friend)\n**Vous vous appelez comment ?** (polite)\n\n**Je m'appelle** means my name is."

@@ -32,7 +32,7 @@ export const OWN = {
   sv: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
   da: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
   no: { 'Body and Looks': 'Body + Looks' },
-  pl: { 'Body and Looks': 'Body + Looks' },
+  pl: { 'Body and Looks': 'Body + Looks', 'What People Are Like': 'Looks + Character' },
 }
 // French Part 2 kept its titles in the first round; since round 2 every part follows the same rules.
 const KEEP_PARTS = { fr: [], es: [], de: [], it: [], pt: [], nl: [], sv: [], da: [], no: [], pl: [] }

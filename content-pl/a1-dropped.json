@@ -1,0 +1,273 @@
+{
+  "_about": "Written by build-content: the A1 list words the shared stoplist (scripts/lib/a1-stoplist.mjs) leaves out of this course's shipped list and target. Do not edit; change the stoplist.",
+  "dropped": [
+    {
+      "word": "były",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "lato",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "państwo",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "ustawa",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "rząd",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "społeczny",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "dotyczyć",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "europejski",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "polityczny",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "komisja",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "władza",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "minister",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "prezydent",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "wojna",
+      "reason": "violence"
+    },
+    {
+      "word": "unia",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "określić",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "senator",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "działalność",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "śmierć",
+      "reason": "violence"
+    },
+    {
+      "word": "wniosek",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "partia",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "polityk",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "nim",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "gospodarczy",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "poseł",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "sąd",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "gospodarka",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "dokonać",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "zakład",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "stanowić",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "proca",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "wieko",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "urząd",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "premier",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "przepis",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "zgodnie",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "określony",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "realizacja",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "poprzez",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "finansowy",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "uzyskać",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "mus",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "instytucja",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "stwierdzić",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "prawny",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "państwowy",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "walka",
+      "reason": "violence"
+    },
+    {
+      "word": "sejm",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "ów",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "budżet",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "wyborczy",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "dr",
+      "reason": "subtitle leftover (English word, name, abbreviation or OCR slip)"
+    },
+    {
+      "word": "rana",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "ministerstwo",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "podatek",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "Senat",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "wojskowy",
+      "reason": "violence"
+    },
+    {
+      "word": "ofiara",
+      "reason": "violence"
+    },
+    {
+      "word": "komitet",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "poprawka",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "gen",
+      "reason": "lemmatiser artefact (a headword the corpus tagger made from another word, not the word itself)"
+    },
+    {
+      "word": "żołnierz",
+      "reason": "violence"
+    },
+    {
+      "word": "prenumerata",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "posiedzenie",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "parlament",
+      "reason": "legal, official or administrative register"
+    },
+    {
+      "word": "armia",
+      "reason": "violence"
+    },
+    {
+      "word": "administracja",
+      "reason": "legal, official or administrative register"
+    }
+  ]
+}

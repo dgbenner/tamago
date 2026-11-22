@@ -1,9 +1,374 @@
 {
- "_about": "Polish course review decisions (Builder 2, 2026-11-21, branch content/pl-a1; Part 1 gathered for review, no unit approvals yet). units: circle approvals (none: Dan and Fable decide). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword (corrections need gender_corrections with a why). names: people and places allowed in sentences, in the nominative only (Toma, Tomowi are other cases and are not names here). sentences/cut_sentences/claude_hints/accepted_additions as the review needs. Part 3 (2026-11-21, gathered for review): claude_hints for its 429 words from the cited Wiktionary definitions; gender for 26 case forms; names unchanged. Part 4 (2026-11-22, gathered for review): claude_hints for its 335 live words (and około, revived) from the cited Wiktionary definitions; gender for its case forms from their lemma's headword; names unchanged.",
+ "_about": "Polish course review decisions (Builder 2, 2026-11-21, branch content/pl-a1; Part 1 gathered for review). units: circle approvals (all 72 approved 2026-11-22 for Developer-only wiring, Fable review pending). gender: only for a noun whose gender the pipeline cannot read from its own Wiktionary headword (corrections need gender_corrections with a why). names: people and places allowed in sentences, in the nominative only (Toma, Tomowi are other cases and are not names here). sentences/cut_sentences/claude_hints/accepted_additions as the review needs. Part 3 (2026-11-21, gathered for review): claude_hints for its 429 words from the cited Wiktionary definitions; gender for 26 case forms; names unchanged. Part 4 (2026-11-22, gathered for review): claude_hints for its 335 live words (and około, revived) from the cited Wiktionary definitions; gender for its case forms from their lemma's headword; names unchanged.",
  "sentences": {},
  "accepted_answers": {},
- "units": {},
- "cut_sentences": {},
+ "units": {
+  "U01": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U02": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U03": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U04": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U05": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U06": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U07": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U08": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U09": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U10": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U11": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U12": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U13": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U14": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U15": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U31": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U32": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U33": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U51": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U52": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U53": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 1: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U41": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U54": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U34": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U42": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U43": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U55": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U35": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U44": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U45": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U56": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U46": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U47": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U57": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U36": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U48": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U49": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U58": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 2: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U61": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U71": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U37": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U62": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U63": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U72": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U38": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U64": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U65": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U73": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U66": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U67": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U74": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U39": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U68": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U69": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U75": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 3: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U81": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U91": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U26": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U82": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U83": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U92": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U27": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U84": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U85": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U93": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U86": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U87": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U94": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U28": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U88": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U89": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  },
+  "U95": {
+   "action": "approve",
+   "on": "2026-11-22",
+   "by": "Claude under autonomous-build.md: Part 4: approved for Developer-only wiring, Fable review pending; notes from the circle's own sentences"
+  }
+ },
+ "cut_sentences": [
+  "S48002",
+  "S48033",
+  "S48034"
+ ],
  "vocabulary_additions": [],
  "hints": {},
  "claude_hints": {
@@ -5264,5 +5629,6 @@
  },
  "accepted_additions": [],
  "_gender": "Each gender here is a case or plural form whose Wiktionary entry ({{pl-head|noun form|…}}) carries no gender; it is the one on its lemma's own Polish headword, {{pl-noun|…}}: koty from kot (m-anml), jabłka from jabłko (n), ręce from ręka (f), książkę from książka (f), read 2026-11-21. Masculine nouns show their animacy (m, personal; m, animate; m, inanimate), which decides the accusative. Part 3 (2026-11-21): the same for its case forms, from each lemma's {{pl-noun|…}}: minuta, godzina, sobota, środa, rodzina, przyszłość, kolacja, nauczycielka, stacja, muzyka (f); tydzień, początek, samochód, peron, dworzec, kierunek, stół, sport (m-in); przyjaciel, nauczyciel (m-pr); kino (n); lekarka, firma, sytuacja (f); profesor, dyrektor (m-pr). Part 4 (2026-11-22): the same for its case forms, from each lemma's {{pl-noun|…}}: piwa, biurze (n); kanapkę, kanapki, chwilę, zupę, drogę, drodze, taksówką, mężatką, łazience, pielęgniarką, wiadomości, zmiany, formie, szans (f); problemu, pokoju, kłopoty, dokumenty, ogóle (m-in); kurczaka, ziemniaki (m-anml); syna (m-pr).",
- "_claude_hints": "Short hints where Wiktionary's first definition is long, merges several senses, or carries a usage bracket ([with instrumental]); each hint is taken from the cited Wiktionary definition of the word or its lemma."
+ "_claude_hints": "Short hints where Wiktionary's first definition is long, merges several senses, or carries a usage bracket ([with instrumental]); each hint is taken from the cited Wiktionary definition of the word or its lemma.",
+ "_cut_sentences": "2026-11-22: U48's three tę lines, so tę (moved to U65 in workbook v7) is not introduced beside te: Match Pairs folds accents, and tę was first met by ear (the word-order sweep's 'first met without its meaning')."
 }

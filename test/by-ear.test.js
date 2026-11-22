@@ -10,7 +10,7 @@ import { QUESTION_NAMES, questionLabel } from '../src/lib/question-names.js'
 const sentencesOf = (dir) => JSON.parse(readFileSync(new URL(`../src/${dir}/sentences.json`, import.meta.url), 'utf8'))
 
 test('every repeated-word line in every course is decided: cut from listening, or fine by ear', () => {
-  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl', 'content-no', 'content-da', 'content-sv']) {
+  for (const dir of ['content', 'content-es', 'content-de', 'content-it', 'content-pt', 'content-nl', 'content-pl', 'content-no', 'content-da', 'content-sv']) {
     for (const s of sentencesOf(dir).filter((x) => repeatsAWord(x.french))) {
       assert.ok(NOT_BY_EAR.has(s.french) || FINE_BY_EAR.has(s.french), `${dir} ${s.sentence_id} "${s.french}" repeats a word: add it to NOT_BY_EAR or FINE_BY_EAR`)
     }

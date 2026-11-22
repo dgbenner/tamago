@@ -60,7 +60,8 @@ export const HELP = {
     U33: { grammar: 'Jeg leter etter ordet…; det er en ting å…; jeg vet ikke', words: ['leter', 'etter', 'ting', 'vet', 'heter'], borrow: ['å'] },
   },
   // Polish (2026-11-21, branch content/pl-a1): ty throughout, so powtórz and mów are the ty imperatives and możesz the
-  // ty form; proszę comes from U03, later in the path than U31, so U31 borrows it; wiem comes from U11, after U33.
+  // ty form; proszę comes from U03, later in the path than U31, so U31 borrows it here (workbook v7 then moves proszę's
+  // first circle to U31, the first circle on the path that uses it, and clears the borrow); wiem comes from U11, after U33.
   pl: {
     U31: { grammar: 'Nie rozumiem; wolniej, proszę; możesz powtórzyć?', words: ['rozumiem', 'rozumiesz', 'wolniej', 'powoli', 'głośniej', 'powtórz', 'możesz', 'powtórzyć', 'mów', 'mówisz', 'jeszcze', 'raz'], borrow: ['proszę'] },
     U32: { grammar: 'Jak się mówi …? Co znaczy …? po polsku, po angielsku', words: ['mówi', 'mówię', 'mówić', 'znaczy', 'oznacza', 'słowo', 'pytanie', 'język', 'po polsku', 'po angielsku', 'szybko'], borrow: [] },

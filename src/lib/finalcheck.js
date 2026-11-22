@@ -44,6 +44,14 @@ export const EXAMS = {
     note: 'Swedex starts at A2, one level above where this course ends; there is no Swedish exam set at A1. The final check follows its four modules for practice.',
     samples: 'https://www.folkuniversitetet.se/in-english/swedex-swedish-examinations/mock-exams/',
     format: 'Short texts to read; numbers and short lines to listen to; a form and a short message to write; then speaking.' },
+  // Polish (2026-11-22, the full A1 run): Poland's state certificate exam (państwowy egzamin certyfikatowy) is set at A1
+  // for adults. Its regulation (Dz.U. 2018 poz. 1386, § 14 and § 17) gives A1 a written part of at most 120 minutes,
+  // listening, reading and writing modules, with no separate grammar module (grammar is its own module from B1), then an
+  // oral part of at most 10 minutes; a pass is 50% of each part (§ 23).
+  pl: { name: 'Certificate in Polish as a Foreign Language (A1)', body: 'State Commission for the Certification of Proficiency in Polish as a Foreign Language', official: 'https://certyfikatpolski.pl',
+    about: 'The state certificate exam in Polish as a foreign language starts at A1. Its written part has three modules, listening, reading and writing, and an oral part follows, the same day or the next.',
+    samples: 'https://certyfikatpolski.pl',
+    format: 'Numbers and short lines to listen to; short texts to read; a form and a short message to write; then speaking.' },
 }
 
 export const PARTS = [
@@ -98,6 +106,15 @@ export const FORMATS = {
     { id: 'listening', label: 'Listening', paper: 'Hörförståelse', items: [['QT04', 2, 3], ['QT17', 3, 4], ['QT11', 4, 2]] },
     { id: 'writing', label: 'Writing', paper: 'Skriftlig del', items: [['QT15', 4, 1], ['QT16', 5, 1], ['QT12', 4, 2]] },
     { id: 'speaking', label: 'Speaking', paper: 'Muntlig del', items: [['QT13', 5, 3]] },
+  ],
+  // Polish is a mock state certificate exam at A1 (2026-11-22; end of Part 4, the last part): the written part's three
+  // modules in the regulation's order, listening, reading, writing (a form and a short message, the message not scored),
+  // then the oral part (never graded). Item counts are ours; the regulation sets none.
+  pl: [
+    { id: 'listening', label: 'Listening', paper: 'Rozumienie ze słuchu', items: [['QT17', 3, 4], ['QT04', 2, 3], ['QT11', 4, 2]] },
+    { id: 'reading', label: 'Reading', paper: 'Rozumienie tekstów pisanych', items: [['QT14', 3, 4], ['QT03', 2, 2]] },
+    { id: 'writing', label: 'Writing', paper: 'Pisanie', items: [['QT15', 4, 1], ['QT16', 5, 1], ['QT12', 4, 2]] },
+    { id: 'speaking', label: 'Speaking', paper: 'Mówienie', items: [['QT13', 5, 3]] },
   ],
 }
 // Italian is a mock CELI Impatto (A1) (Dan, 2026-11-16; at the end of Part 4, the last part). The Università per
