@@ -7,7 +7,7 @@ import { IconBack } from './icons.jsx'
 import Backup from './Backup.jsx'
 import FlaggedAnswers from './FlaggedAnswers.jsx'
 import { site, version } from '../lib/version.js'
-import { COURSES, TL, course, jumpInCourse } from '../lib/course.js'
+import { COURSES, PARKED, TL, course, jumpInCourse } from '../lib/course.js'
 import partsFr from '../content/parts.json'
 import partsEs from '../content-es/parts.json'
 import partsDe from '../content-de/parts.json'
@@ -225,7 +225,7 @@ function Resets() {
         confirm={`Reset ${course.name}`} run={async () => { await resetLanguage(); window.location.replace('/') }} />
       <ResetButton id="reset-everything" label="Reset Everything" title="Reset everything?"
         text="Every language's progress, all settings, the sign-in and the offline copy are cleared from this device, and Tamago opens as it does for a brand-new user. It can't be undone."
-        confirm="Reset Everything" run={async () => { await resetEverything([...COURSES.map((c) => c.db), 'tamago-accounts-mock']); window.location.replace('/') }} />
+        confirm="Reset Everything" run={async () => { await resetEverything([...COURSES.map((c) => c.db), ...PARKED.map((c) => c.db), 'tamago-accounts-mock']); window.location.replace('/') }} />
     </div>
   )
 }
