@@ -108,6 +108,20 @@ export const VOCAB_PART1 = {
       words: ['museum', 'kirke', 'hotell', 'stasjon', 'buss', 'tog', 'taxi', 'strand', 'sykehus', 'torg', 'nær', 'langt'],
       cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
   ],
+  // Polish (2026-11-21, branch content/pl-a1): Free Time from row 5 (lubię and umiem with an infinitive; w and the
+  // accusative for a game: gram w tenisa, w piłkę nożną); Around Town from row 7, places in the nominative (gdzie jest
+  // dworzec?); body words last, as for the others, with boli mnie (mnie the accusative of ja) for what hurts.
+  pl: [
+    { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Boli mnie głowa for my head hurts (mnie, the accusative of ja), bolą for more than one; ma długie włosy for features; wysoki, wysoka agree',
+      words: ['oczy', 'włosy', 'ręka', 'ręce', 'głowa', 'nos', 'usta', 'nogi', 'boli', 'bolą', 'mnie', 'długie', 'krótkie', 'wysoki', 'wysoka', 'niski', 'zły', 'zła'],
+      cando: ['speaking', 'Spoken production', 'I can describe a person simply: their hair, their eyes, what they are like.'] },
+    { unit_id: 'U52', order: 7.2, row: 5, title: 'Free Time', grammar: 'Lubię czytać, umiem pływać: lubię and umiem with an infinitive; gram w tenisa, w piłkę nożną (w and the accusative for a game); czytam, czytasz, czyta',
+      words: ['gram', 'grasz', 'gra', 'czytam', 'czytasz', 'czyta', 'muzyka', 'film', 'piłkę', 'nożną', 'tenisa', 'w', 'czytać', 'grać', 'pływać', 'tańczyć', 'umiem', 'umiesz', 'umie', 'książkę'],
+      cando: ['speaking', 'Spoken production', 'I can say what I like doing in my free time.'] },
+    { unit_id: 'U53', order: 11.2, row: 7, title: 'Around Town', grammar: 'Gdzie jest dworzec? Places in the nominative: to jest hotel, tam jest szpital; blisko and daleko; stąd for from here',
+      words: ['muzeum', 'kościół', 'hotel', 'dworzec', 'autobus', 'pociąg', 'taksówka', 'szpital', 'sklep', 'miasto', 'ulica', 'bank', 'poczta', 'lotnisko', 'restauracja', 'stąd'],
+      cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
+  ],
 }
 export const SLOTS_PART1 = [{ slot_id: 'C01', part: 1, after_row: 5 }, { slot_id: 'C02', part: 1, after_row: 7 }]
 
@@ -140,7 +154,7 @@ if (process.argv[1] === import.meta.filename) {
   const words = sheet('words').filter((w) => !/^W1\d{3}$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
   const keys = Object.keys(words[0])
-  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', nl: 'Dutch', sv: 'Swedish', da: 'Danish', no: 'Norwegian' }[COURSE]
+  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', nl: 'Dutch', sv: 'Swedish', da: 'Danish', no: 'Norwegian', pl: 'Polish' }[COURSE]
   let n = 1001
   for (const u of V) for (const form of u.words) {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)

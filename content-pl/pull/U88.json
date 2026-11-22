@@ -1,0 +1,1101 @@
+{
+  "unit_id": "U88",
+  "pulled_at": "2026-11-22",
+  "candidates": 23,
+  "sentences": [
+    {
+      "sentence_id": "S88001",
+      "unit_id": "U88",
+      "french": "Czy możesz wypełnić ten formularz?",
+      "english": "Can you fill out this form?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4258287",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88002",
+      "unit_id": "U88",
+      "french": "Jaki jest twój kod pocztowy?",
+      "english": "What's your postcode?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5488073",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rubber_duck",
+      "other_english": [
+        "What is your postcode?"
+      ]
+    },
+    {
+      "sentence_id": "S88003",
+      "unit_id": "U88",
+      "french": "Wypełnij formularz.",
+      "english": "Fill out the form.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3085203",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88004",
+      "unit_id": "U88",
+      "french": "Wypełnij ten formularz.",
+      "english": "Fill in this form.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12240070",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": [
+        "Fill out this form."
+      ]
+    },
+    {
+      "sentence_id": "S88005",
+      "unit_id": "U88",
+      "french": "Kiedy się urodziła?",
+      "english": "When was she born?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "348811",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88006",
+      "unit_id": "U88",
+      "french": "Gdzie on się urodził?",
+      "english": "Where was he born?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "348804",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88007",
+      "unit_id": "U88",
+      "french": "Gdzie się urodził Tom?",
+      "english": "Where was Tom born?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "367604",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88008",
+      "unit_id": "U88",
+      "french": "Gdzie są twoje dokumenty?",
+      "english": "Where are your papers?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3065552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88009",
+      "unit_id": "U88",
+      "french": "Jaka jest twoja data urodzenia?",
+      "english": "What is your date of birth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "733630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mateusz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88010",
+      "unit_id": "U88",
+      "french": "Proszę wypełnić ten formularz.",
+      "english": "Fill out this form, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "529527",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": [
+        "Sir, please fill out this form."
+      ]
+    },
+    {
+      "sentence_id": "S88011",
+      "unit_id": "U88",
+      "french": "Proszę, wypełnij ten formularz.",
+      "english": "Fill out this form, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "587592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "Please fill out this form."
+      ]
+    },
+    {
+      "sentence_id": "S88012",
+      "unit_id": "U88",
+      "french": "Musisz tylko wypełnić ten formularz.",
+      "english": "All you need to do is fill out this form.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12334685",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mwgamera",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88013",
+      "unit_id": "U88",
+      "french": "Podpisz to.",
+      "english": "Sign this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5651986",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88014",
+      "unit_id": "U88",
+      "french": "Podpisz tutaj.",
+      "english": "Sign here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8749630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88015",
+      "unit_id": "U88",
+      "french": "Proszę podpisz to.",
+      "english": "Please sign these.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5652080",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88016",
+      "unit_id": "U88",
+      "french": "Czy przyszedł e-mail.",
+      "english": "Has an e-mail come?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5934611",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qmak",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88017",
+      "unit_id": "U88",
+      "french": "Tutaj się urodziłem.",
+      "english": "I was born here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10584410",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88018",
+      "unit_id": "U88",
+      "french": "Urodziłem się w październiku.",
+      "english": "I was born in October.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10602900",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88019",
+      "unit_id": "U88",
+      "french": "Urodziłam się w październiku.",
+      "english": "I was born in October.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10602901",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88020",
+      "unit_id": "U88",
+      "french": "On mieszka tam od urodzenia.",
+      "english": "He's lived there all his life.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1648786",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Siganiv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88021",
+      "unit_id": "U88",
+      "french": "Tom urodził się w październiku.",
+      "english": "Tom was born in October.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10602899",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88022",
+      "unit_id": "U88",
+      "french": "Urodziłem się w tym domu.",
+      "english": "I was born in this home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12188908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88023",
+      "unit_id": "U88",
+      "french": "Wypełnij ten formularz, proszę.",
+      "english": "Fill out this form, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12240076",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S88001",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 2,
+      "surface": "możesz",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 3,
+      "surface": "wypełnić",
+      "word_id": "W2585",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 4,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 5,
+      "surface": "formularz",
+      "word_id": "W2584",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 1,
+      "surface": "Jaki",
+      "word_id": "W230",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 4,
+      "surface": "kod",
+      "word_id": "W2596",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 5,
+      "surface": "pocztowy",
+      "word_id": "W2597",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 1,
+      "surface": "Wypełnij",
+      "word_id": "W2586",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 2,
+      "surface": "formularz",
+      "word_id": "W2584",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 1,
+      "surface": "Wypełnij",
+      "word_id": "W2586",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 2,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 3,
+      "surface": "formularz",
+      "word_id": "W2584",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 1,
+      "surface": "Kiedy",
+      "word_id": "W186",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 3,
+      "surface": "urodziła",
+      "word_id": "W2593",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 2,
+      "surface": "on",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 4,
+      "surface": "urodził",
+      "word_id": "W2592",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 3,
+      "surface": "urodził",
+      "word_id": "W2592",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 2,
+      "surface": "są",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 3,
+      "surface": "twoje",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 4,
+      "surface": "dokumenty",
+      "word_id": "W2599",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 1,
+      "surface": "Jaka",
+      "word_id": "W231",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 4,
+      "surface": "data",
+      "word_id": "W1888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 5,
+      "surface": "urodzenia",
+      "word_id": "W2589",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 2,
+      "surface": "wypełnić",
+      "word_id": "W2585",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 3,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 4,
+      "surface": "formularz",
+      "word_id": "W2584",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 2,
+      "surface": "wypełnij",
+      "word_id": "W2586",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 3,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 4,
+      "surface": "formularz",
+      "word_id": "W2584",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 1,
+      "surface": "Musisz",
+      "word_id": "W271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 2,
+      "surface": "tylko",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 3,
+      "surface": "wypełnić",
+      "word_id": "W2585",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 4,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 5,
+      "surface": "formularz",
+      "word_id": "W2584",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 1,
+      "surface": "Podpisz",
+      "word_id": "W2588",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 1,
+      "surface": "Podpisz",
+      "word_id": "W2588",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 2,
+      "surface": "tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 2,
+      "surface": "podpisz",
+      "word_id": "W2588",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 2,
+      "surface": "przyszedł",
+      "word_id": "W2134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 3,
+      "surface": "e-mail",
+      "word_id": "W2603",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 1,
+      "surface": "Tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 3,
+      "surface": "urodziłem",
+      "word_id": "W2590",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 1,
+      "surface": "Urodziłem",
+      "word_id": "W2590",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 4,
+      "surface": "październiku",
+      "word_id": "W1872",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 1,
+      "surface": "Urodziłam",
+      "word_id": "W2591",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 4,
+      "surface": "październiku",
+      "word_id": "W1872",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 2,
+      "surface": "mieszka",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 3,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 4,
+      "surface": "od",
+      "word_id": "W1632",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88020",
+      "position": 5,
+      "surface": "urodzenia",
+      "word_id": "W2589",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 2,
+      "surface": "urodził",
+      "word_id": "W2592",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88021",
+      "position": 5,
+      "surface": "październiku",
+      "word_id": "W1872",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 1,
+      "surface": "Urodziłem",
+      "word_id": "W2590",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 4,
+      "surface": "tym",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88022",
+      "position": 5,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 1,
+      "surface": "Wypełnij",
+      "word_id": "W2586",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 2,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 3,
+      "surface": "formularz",
+      "word_id": "W2584",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88023",
+      "position": 4,
+      "surface": "proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A880021",
+      "sentence_id": "S88002",
+      "direction": "fr_to_en",
+      "answer": "What is your postcode?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A880041",
+      "sentence_id": "S88004",
+      "direction": "fr_to_en",
+      "answer": "Fill out this form.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A880101",
+      "sentence_id": "S88010",
+      "direction": "fr_to_en",
+      "answer": "Sir, please fill out this form.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A880111",
+      "sentence_id": "S88011",
+      "direction": "fr_to_en",
+      "answer": "Please fill out this form.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

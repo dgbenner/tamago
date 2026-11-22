@@ -1,0 +1,58 @@
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Nazywam się Piotr Nowak. Mam czterdzieści lat. Mieszkam w Warszawie. Mój adres to ulica Zielona dziesięć.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Imię\",\"rule\":\"text\",\"answer\":\"Piotr\"},{\"key\":\"last\",\"label\":\"Nazwisko\",\"rule\":\"text\",\"answer\":\"Nowak\"},{\"key\":\"age\",\"label\":\"Wiek\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adres\",\"rule\":\"text\",\"answer\":\"ulica Zielona 10\",\"also\":[\"Zielona 10\",\"ul. Zielona 10\",\"Ulica Zielona 10\",\"ulica Zielona dziesięć\",\"zielona 10\"]},{\"key\":\"town\",\"label\":\"Miasto\",\"rule\":\"text\",\"answer\":\"Warszawa\",\"also\":[\"warszawa\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Nazywam się Anna Kowalska. Mam trzydzieści lat. Jestem z Polski. Mieszkam we Francji. Mój numer telefonu to sześć zero jeden, dwa trzy cztery, pięć sześć siedem.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Imię\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"last\",\"label\":\"Nazwisko\",\"rule\":\"text\",\"answer\":\"Kowalska\"},{\"key\":\"age\",\"label\":\"Wiek\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Narodowość\",\"rule\":\"text\",\"answer\":\"polska\",\"also\":[\"Polska\",\"Polka\",\"polka\",\"polskie\"]},{\"key\":\"country\",\"label\":\"Kraj\",\"rule\":\"text\",\"answer\":\"Francja\",\"also\":[\"francja\"]},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"601 234 567\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "W sobotę idę z kolegą do kina. Film jest o ósmej. Spotykamy się na rynku.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dzień\",\"rule\":\"text\",\"answer\":\"sobota\",\"also\":[\"Sobota\",\"w sobotę\",\"W sobotę\",\"sobotę\"]},{\"key\":\"time\",\"label\":\"Godzina\",\"rule\":\"text\",\"answer\":\"20:00\",\"also\":[\"8:00\",\"20.00\",\"8.00\",\"8\",\"20\",\"ósma\",\"o ósmej\"]},{\"key\":\"where\",\"label\":\"Gdzie\",\"rule\":\"text\",\"answer\":\"na rynku\",\"also\":[\"rynek\",\"Rynek\",\"rynku\",\"Na rynku\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Nazywam się Anna. Wstaję o siódmej. Śniadanie jem o ósmej. Pracuję od dziewiątej do piątej.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Imię\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"up\",\"label\":\"Wstaje\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7.00\",\"siódma\",\"o siódmej\"]},{\"key\":\"breakfast\",\"label\":\"Śniadanie\",\"rule\":\"text\",\"answer\":\"8:00\",\"also\":[\"8\",\"8.00\",\"ósma\",\"o ósmej\"]},{\"key\":\"start\",\"label\":\"Praca od\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9.00\",\"dziewiąta\",\"od dziewiątej\"]},{\"key\":\"end\",\"label\":\"Praca do\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17.00\",\"piąta\",\"do piątej\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Nazywam się Anna Kowalska. Jestem Polką. Urodziłam się w Polsce. Data urodzenia: 10.04.1990. Mieszkam w Warszawie. Jestem mężatką.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Imię i nazwisko\",\"rule\":\"text\",\"answer\":\"Anna Kowalska\"},{\"key\":\"nat\",\"label\":\"Obywatelstwo\",\"rule\":\"text\",\"answer\":\"polskie\",\"also\":[\"Polskie\",\"Polka\",\"polka\",\"Polska\",\"polska\",\"polskie obywatelstwo\"]},{\"key\":\"born\",\"label\":\"Data urodzenia\",\"rule\":\"text\",\"answer\":\"10.04.1990\",\"also\":[\"10/04/1990\",\"10-04-1990\",\"10.4.1990\",\"1990-04-10\",\"10 04 1990\"]},{\"key\":\"place\",\"label\":\"Miejsce urodzenia\",\"rule\":\"text\",\"answer\":\"Polska\",\"also\":[\"polska\",\"Polsce\",\"w Polsce\"]},{\"key\":\"civil\",\"label\":\"Stan cywilny\",\"rule\":\"text\",\"answer\":\"mężatka\",\"also\":[\"Mężatka\",\"zamężna\",\"Zamężna\"]},{\"key\":\"town\",\"label\":\"Miejscowość\",\"rule\":\"text\",\"answer\":\"Warszawa\",\"also\":[\"warszawa\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Nazywam się Piotr Nowak. Mam trzydzieści lat. Mój zawód: kucharz. Pracuję w Warszawie. Nie jestem żonaty.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Imię\",\"rule\":\"text\",\"answer\":\"Piotr\"},{\"key\":\"last\",\"label\":\"Nazwisko\",\"rule\":\"text\",\"answer\":\"Nowak\"},{\"key\":\"age\",\"label\":\"Wiek\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"job\",\"label\":\"Zawód\",\"rule\":\"text\",\"answer\":\"kucharz\",\"also\":[\"Kucharz\",\"kucharzem\"]},{\"key\":\"civil\",\"label\":\"Stan cywilny\",\"rule\":\"text\",\"answer\":\"kawaler\",\"also\":[\"Kawaler\",\"nieżonaty\",\"nie jest żonaty\",\"wolny\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F303",
+    "unit_id": "U81",
+    "card": "Tom chce kawę i kawałek ciasta. Maria chce herbatę. Rachunek: trzydzieści sześć złotych.",
+    "fields_json": "[{\"key\":\"tom\",\"label\":\"Tom\",\"rule\":\"text\",\"answer\":\"kawa i ciasto\",\"also\":[\"kawę i kawałek ciasta\",\"kawa, ciasto\",\"kawę i ciasto\",\"kawa i kawałek ciasta\"]},{\"key\":\"maria\",\"label\":\"Maria\",\"rule\":\"text\",\"answer\":\"herbata\",\"also\":[\"herbatę\",\"Herbata\",\"Herbatę\"]},{\"key\":\"total\",\"label\":\"Razem (złote)\",\"rule\":\"number\",\"answer\":\"36\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

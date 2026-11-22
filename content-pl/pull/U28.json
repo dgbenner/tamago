@@ -1,0 +1,1367 @@
+{
+  "unit_id": "U28",
+  "pulled_at": "2026-11-22",
+  "candidates": 147,
+  "sentences": [
+    {
+      "sentence_id": "S28001",
+      "unit_id": "U28",
+      "french": "Co się dzieje?",
+      "english": "What is happening?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "361247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "What is going on?"
+      ]
+    },
+    {
+      "sentence_id": "S28002",
+      "unit_id": "U28",
+      "french": "Kto to zepsuł?",
+      "english": "Who broke it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6534012",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28003",
+      "unit_id": "U28",
+      "french": "Wiesz, co się stało?",
+      "english": "Do you know what happened?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "352841",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28004",
+      "unit_id": "U28",
+      "french": "Co mu się stało?",
+      "english": "What happened to him?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "562241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28005",
+      "unit_id": "U28",
+      "french": "Czy coś się stało?",
+      "english": "Has something happened?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "565288",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "Did something happen?"
+      ]
+    },
+    {
+      "sentence_id": "S28006",
+      "unit_id": "U28",
+      "french": "Czy coś się dzieje?",
+      "english": "Is anything happening?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3169335",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pompon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28007",
+      "unit_id": "U28",
+      "french": "Myślisz, że ma kłopoty?",
+      "english": "Do you think he's in trouble?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3680503",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": [
+        "Do you think she's in trouble?"
+      ]
+    },
+    {
+      "sentence_id": "S28008",
+      "unit_id": "U28",
+      "french": "Czy to jest zepsute?",
+      "english": "Is it broken?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3970433",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28009",
+      "unit_id": "U28",
+      "french": "Co się dziś dzieje?",
+      "english": "What's happening today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4939064",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "aleksandraeska",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28010",
+      "unit_id": "U28",
+      "french": "Bądź obecny.",
+      "english": "Be present.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "562246",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28011",
+      "unit_id": "U28",
+      "french": "Był wypadek.",
+      "english": "There's been an accident.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "567010",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28012",
+      "unit_id": "U28",
+      "french": "Miałem wypadek.",
+      "english": "I had an accident.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "868050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Igliwie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28013",
+      "unit_id": "U28",
+      "french": "Bądź cicho.",
+      "english": "Be quiet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5627112",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": [
+        "Quiet down.",
+        "Keep quiet.",
+        "Move quietly."
+      ]
+    },
+    {
+      "sentence_id": "S28014",
+      "unit_id": "U28",
+      "french": "Bądź miły.",
+      "english": "Be kind.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5627273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": [
+        "Be nice.",
+        "Be friendly."
+      ]
+    },
+    {
+      "sentence_id": "S28015",
+      "unit_id": "U28",
+      "french": "Jesteś niebezpieczny.",
+      "english": "You're dangerous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5665080",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28016",
+      "unit_id": "U28",
+      "french": "Tom zepsuł okno.",
+      "english": "Tom broke the window.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "569973",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28017",
+      "unit_id": "U28",
+      "french": "Przepraszam za kłopot.",
+      "english": "I'm sorry for the trouble.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "735757",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28018",
+      "unit_id": "U28",
+      "french": "Świat jest niebezpieczny.",
+      "english": "The world is dangerous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3894938",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28019",
+      "unit_id": "U28",
+      "french": "Tom ukradł pieniądze.",
+      "english": "Tom stole the money.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4258104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28020",
+      "unit_id": "U28",
+      "french": "To jest zepsute.",
+      "english": "It's broken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10565674",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28021",
+      "unit_id": "U28",
+      "french": "Tom jest niebezpieczny.",
+      "english": "Tom is dangerous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10598426",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28022",
+      "unit_id": "U28",
+      "french": "On ma kłopoty.",
+      "english": "He's in trouble.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12184022",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "He is in trouble."
+      ]
+    },
+    {
+      "sentence_id": "S28023",
+      "unit_id": "U28",
+      "french": "On ukradł rower.",
+      "english": "He stole the bike.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12960016",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Stanislawspruss",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28024",
+      "unit_id": "U28",
+      "french": "Miał wypadek przy pracy.",
+      "english": "He had an accident at work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "367163",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28025",
+      "unit_id": "U28",
+      "french": "On ukradł jej zegarek.",
+      "english": "He stole her watch.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "527788",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28026",
+      "unit_id": "U28",
+      "french": "John zepsuł wczoraj okno.",
+      "english": "John broke the window yesterday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "598277",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28027",
+      "unit_id": "U28",
+      "french": "Wiem, że masz kłopoty.",
+      "english": "I know you're in trouble.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10547659",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "I know that you're in trouble."
+      ]
+    },
+    {
+      "sentence_id": "S28028",
+      "unit_id": "U28",
+      "french": "Mam dwa zepsute zęby.",
+      "english": "I have two bad teeth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10549958",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28029",
+      "unit_id": "U28",
+      "french": "Mój zegarek jest zepsuty, więc chcę nowy.",
+      "english": "My watch is broken, so I want a new one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3108900",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28030",
+      "unit_id": "U28",
+      "french": "Co tu się stało?",
+      "english": "What happened in here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "590981",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "buari",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S28001",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28001",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28001",
+      "position": 3,
+      "surface": "dzieje",
+      "word_id": "W2572",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28002",
+      "position": 1,
+      "surface": "Kto",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28002",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28002",
+      "position": 3,
+      "surface": "zepsuł",
+      "word_id": "W2575",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 1,
+      "surface": "Wiesz",
+      "word_id": "W193",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 2,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 4,
+      "surface": "stało",
+      "word_id": "W2571",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 2,
+      "surface": "mu",
+      "word_id": "W2519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 4,
+      "surface": "stało",
+      "word_id": "W2571",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 4,
+      "surface": "stało",
+      "word_id": "W2571",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 4,
+      "surface": "dzieje",
+      "word_id": "W2572",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 1,
+      "surface": "Myślisz",
+      "word_id": "W1190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 2,
+      "surface": "że",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 4,
+      "surface": "kłopoty",
+      "word_id": "W2581",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 4,
+      "surface": "zepsute",
+      "word_id": "W2574",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 2,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 3,
+      "surface": "dziś",
+      "word_id": "W235",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 4,
+      "surface": "dzieje",
+      "word_id": "W2572",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 1,
+      "surface": "Bądź",
+      "word_id": "W2583",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 2,
+      "surface": "obecny",
+      "word_id": "W2744",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 1,
+      "surface": "Był",
+      "word_id": "W2103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 2,
+      "surface": "wypadek",
+      "word_id": "W2576",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 1,
+      "surface": "Miałem",
+      "word_id": "W2113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 2,
+      "surface": "wypadek",
+      "word_id": "W2576",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 1,
+      "surface": "Bądź",
+      "word_id": "W2583",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 2,
+      "surface": "cicho",
+      "word_id": "W1839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 1,
+      "surface": "Bądź",
+      "word_id": "W2583",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 2,
+      "surface": "miły",
+      "word_id": "W1165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28015",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28015",
+      "position": 2,
+      "surface": "niebezpieczny",
+      "word_id": "W2579",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 2,
+      "surface": "zepsuł",
+      "word_id": "W2575",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 3,
+      "surface": "okno",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 1,
+      "surface": "Przepraszam",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 2,
+      "surface": "za",
+      "word_id": "W1745",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 3,
+      "surface": "kłopot",
+      "word_id": "W2580",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 1,
+      "surface": "Świat",
+      "word_id": "W1655",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 3,
+      "surface": "niebezpieczny",
+      "word_id": "W2579",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 2,
+      "surface": "ukradł",
+      "word_id": "W2582",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 3,
+      "surface": "pieniądze",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 3,
+      "surface": "zepsute",
+      "word_id": "W2574",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 3,
+      "surface": "niebezpieczny",
+      "word_id": "W2579",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 3,
+      "surface": "kłopoty",
+      "word_id": "W2581",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 2,
+      "surface": "ukradł",
+      "word_id": "W2582",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 3,
+      "surface": "rower",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 1,
+      "surface": "Miał",
+      "word_id": "W2111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 2,
+      "surface": "wypadek",
+      "word_id": "W2576",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 3,
+      "surface": "przy",
+      "word_id": "W2190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 4,
+      "surface": "pracy",
+      "word_id": "W1617",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 2,
+      "surface": "ukradł",
+      "word_id": "W2582",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 3,
+      "surface": "jej",
+      "word_id": "W1511",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 4,
+      "surface": "zegarek",
+      "word_id": "W1830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 1,
+      "surface": "John",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 2,
+      "surface": "zepsuł",
+      "word_id": "W2575",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 3,
+      "surface": "wczoraj",
+      "word_id": "W2101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 4,
+      "surface": "okno",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 1,
+      "surface": "Wiem",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 2,
+      "surface": "że",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 3,
+      "surface": "masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 4,
+      "surface": "kłopoty",
+      "word_id": "W2581",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 1,
+      "surface": "Mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 2,
+      "surface": "dwa",
+      "word_id": "W203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 3,
+      "surface": "zepsute",
+      "word_id": "W2574",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 4,
+      "surface": "zęby",
+      "word_id": "W1935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 2,
+      "surface": "zegarek",
+      "word_id": "W1830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 4,
+      "surface": "zepsuty",
+      "word_id": "W2573",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 5,
+      "surface": "więc",
+      "word_id": "W1751",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 6,
+      "surface": "chcę",
+      "word_id": "W265",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 7,
+      "surface": "nowy",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 3,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 4,
+      "surface": "stało",
+      "word_id": "W2571",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A280011",
+      "sentence_id": "S28001",
+      "direction": "fr_to_en",
+      "answer": "What is going on?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280051",
+      "sentence_id": "S28005",
+      "direction": "fr_to_en",
+      "answer": "Did something happen?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280071",
+      "sentence_id": "S28007",
+      "direction": "fr_to_en",
+      "answer": "Do you think she's in trouble?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280131",
+      "sentence_id": "S28013",
+      "direction": "fr_to_en",
+      "answer": "Quiet down.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280132",
+      "sentence_id": "S28013",
+      "direction": "fr_to_en",
+      "answer": "Keep quiet.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280133",
+      "sentence_id": "S28013",
+      "direction": "fr_to_en",
+      "answer": "Move quietly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280141",
+      "sentence_id": "S28014",
+      "direction": "fr_to_en",
+      "answer": "Be nice.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280142",
+      "sentence_id": "S28014",
+      "direction": "fr_to_en",
+      "answer": "Be friendly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280221",
+      "sentence_id": "S28022",
+      "direction": "fr_to_en",
+      "answer": "He is in trouble.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280271",
+      "sentence_id": "S28027",
+      "direction": "fr_to_en",
+      "answer": "I know that you're in trouble.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

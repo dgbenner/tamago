@@ -11,7 +11,7 @@ import { META, CATEGORIES, COLORS, HELP_ROLLS, toneOf } from './lib/sushi-meta.m
 
 const ROOT = join(import.meta.dirname, '..')
 const R2 = { bucket: 'tamago-sushi', prefix: 'originals/' }
-const COURSES = [['French', 'content'], ['Spanish', 'content-es'], ['German', 'content-de'], ['Italian', 'content-it'], ['Portuguese', 'content-pt'], ['Dutch', 'content-nl'], ['Norwegian', 'content-no'], ['Danish', 'content-da'], ['Swedish', 'content-sv']]
+const COURSES = [['French', 'content'], ['Spanish', 'content-es'], ['German', 'content-de'], ['Italian', 'content-it'], ['Portuguese', 'content-pt'], ['Dutch', 'content-nl'], ['Polish', 'content-pl'], ['Norwegian', 'content-no'], ['Danish', 'content-da'], ['Swedish', 'content-sv']]
 const TREE = ['nigiri', 'maki', 'temaki']
 // Enough of each tree type for two neighbouring parts without a repeat: the longest run of one type in a part is 7
 // (Spanish Part 1 temaki), so 14. Misc covers two Pick Your Own nodes a part over six parts: 12.

@@ -1,0 +1,660 @@
+{
+  "unit_id": "U66",
+  "pulled_at": "2026-11-22",
+  "candidates": 13,
+  "sentences": [
+    {
+      "sentence_id": "S66001",
+      "unit_id": "U66",
+      "french": "Gdzie jest toaleta?",
+      "english": "Where's the toilet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "732023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Where's the loo?",
+        "Where is the toilet?"
+      ]
+    },
+    {
+      "sentence_id": "S66002",
+      "unit_id": "U66",
+      "french": "Jest tam gdzieś toaleta?",
+      "english": "Is there a toilet somewhere?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6553716",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66003",
+      "unit_id": "U66",
+      "french": "Dlaczego jest tu policja?",
+      "english": "Why are the police here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6554247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66004",
+      "unit_id": "U66",
+      "french": "Gdzie jest wejście do muzeum?",
+      "english": "Where's the entrance to the museum?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "382540",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "esperanto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66005",
+      "unit_id": "U66",
+      "french": "Policja jest tutaj.",
+      "english": "The police are here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3853031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66006",
+      "unit_id": "U66",
+      "french": "Toaleta jest tam.",
+      "english": "The toilet is there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695815",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "The toilet is over there."
+      ]
+    },
+    {
+      "sentence_id": "S66007",
+      "unit_id": "U66",
+      "french": "Wstęp jest wolny.",
+      "english": "Entry is free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12260903",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66008",
+      "unit_id": "U66",
+      "french": "Proszę tu nie palić.",
+      "english": "Please don't smoke here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "742377",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66009",
+      "unit_id": "U66",
+      "french": "Musimy znaleźć wyjście stąd.",
+      "english": "We've got to find a way out of here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3757017",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66010",
+      "unit_id": "U66",
+      "french": "Nie mogę palić. Jestem chory.",
+      "english": "I cannot smoke. I am sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3004507",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66011",
+      "unit_id": "U66",
+      "french": "Policja chce ze mną rozmawiać.",
+      "english": "The police want to talk to me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4241842",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66012",
+      "unit_id": "U66",
+      "french": "Proszę nie palić za dużo.",
+      "english": "Please don't smoke too much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8745947",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tadeusz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66013",
+      "unit_id": "U66",
+      "french": "Nawet nie wiem jak palić.",
+      "english": "I don't even know how to smoke.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12955527",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Stanislawspruss",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S66001",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 3,
+      "surface": "toaleta",
+      "word_id": "W1957",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 2,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 3,
+      "surface": "gdzieś",
+      "word_id": "W1634",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 4,
+      "surface": "toaleta",
+      "word_id": "W1957",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 1,
+      "surface": "Dlaczego",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 4,
+      "surface": "policja",
+      "word_id": "W1959",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 3,
+      "surface": "wejście",
+      "word_id": "W1951",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 4,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 5,
+      "surface": "muzeum",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 1,
+      "surface": "Policja",
+      "word_id": "W1959",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 3,
+      "surface": "tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 1,
+      "surface": "Toaleta",
+      "word_id": "W1957",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 3,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 1,
+      "surface": "Wstęp",
+      "word_id": "W1964",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 3,
+      "surface": "wolny",
+      "word_id": "W258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 4,
+      "surface": "palić",
+      "word_id": "W1956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 1,
+      "surface": "Musimy",
+      "word_id": "W1703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 2,
+      "surface": "znaleźć",
+      "word_id": "W2162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 3,
+      "surface": "wyjście",
+      "word_id": "W1952",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 4,
+      "surface": "stąd",
+      "word_id": "W1054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 2,
+      "surface": "mogę",
+      "word_id": "W268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 3,
+      "surface": "palić",
+      "word_id": "W1956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 4,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 5,
+      "surface": "chory",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 1,
+      "surface": "Policja",
+      "word_id": "W1959",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 2,
+      "surface": "chce",
+      "word_id": "W267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 3,
+      "surface": "ze",
+      "word_id": "W1898",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 4,
+      "surface": "mną",
+      "word_id": "W1899",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 5,
+      "surface": "rozmawiać",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 3,
+      "surface": "palić",
+      "word_id": "W1956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 4,
+      "surface": "za",
+      "word_id": "W1745",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 5,
+      "surface": "dużo",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 1,
+      "surface": "Nawet",
+      "word_id": "W1229",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 3,
+      "surface": "wiem",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 4,
+      "surface": "jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 5,
+      "surface": "palić",
+      "word_id": "W1956",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A660011",
+      "sentence_id": "S66001",
+      "direction": "fr_to_en",
+      "answer": "Where's the loo?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660012",
+      "sentence_id": "S66001",
+      "direction": "fr_to_en",
+      "answer": "Where is the toilet?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660061",
+      "sentence_id": "S66006",
+      "direction": "fr_to_en",
+      "answer": "The toilet is over there.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

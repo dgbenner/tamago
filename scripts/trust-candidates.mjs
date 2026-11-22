@@ -27,9 +27,11 @@ const turnedDown = new Set(Object.values(review).flatMap((r) => Object.keys(r?.r
 const NAMES = new Set([...sw.filter((r) => r.notes === 'name').map((r) => String(r.surface)), ...(decisions.names ?? [])].map((x) => x.toLowerCase()))
 const checked = JSON.parse(readFileSync(at('content/checks/words.json'), 'utf8'))
 const POS = new Map(checked.map((w) => [w.word_id, w.part_of_speech]))
+// Polish (2026-11-21): a case form (kota, psa) is a form-of entry, "genitive/accusative singular of kot"; its meaning
+// is its lemma's gloss, as for a plural (Romanian's definite forms take the same rule on their branch).
 const IRREGULAR = { man: 'men', woman: 'women', child: 'children', mouse: 'mice' }
 const nounMeaning = new Map(checked.filter((w) => w.part_of_speech === 'Noun').map((w) => [w.word_id,
-  (/\bplural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x)).concat(String(decisions.hints?.[w.word_id] ?? decisions.claude_hints?.[w.word_id]?.hint ?? '').replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase()).filter((x) => /^[a-z' -]+$/.test(x)))]))
+  (/\bplural of /.test(w.gloss) || (COURSE === 'pl' && w.lemma_gloss && w.lemma !== w.form) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x)).concat(String(decisions.hints?.[w.word_id] ?? decisions.claude_hints?.[w.word_id]?.hint ?? '').replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase()).filter((x) => /^[a-z' -]+$/.test(x)))]))
 const carriesNouns = (english, parts) => parts.every((p) => {
   const gs = nounMeaning.get(p.word_id)
   if (!gs?.length) return true

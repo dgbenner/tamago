@@ -64,6 +64,9 @@ try { tables.catch_up = (raw('catch_up') ?? []).filter((c) => c.slot_id && Strin
 // Sentences: live in the workbook and passed by the check, with the same source.
 // A pulled or drafted sentence ships once its unit is approved, unless Dan cut it.
 const approved = (unitId) => decisions.units?.[unitId]?.action === 'approve'
+// cut_sentences is a list of sentence ids (2026-11-22: Polish's review-decisions was started with {}, which new Set
+// can't read; say so rather than crash on it).
+if (decisions.cut_sentences != null && !Array.isArray(decisions.cut_sentences)) throw new Error('review-decisions.json cut_sentences must be a list of sentence ids')
 const cut = new Set(decisions.cut_sentences ?? [])
 // The native-speaker check (Phase 4): verdicts, fixes and recordings from scripts/import-native-check.mjs.
 const NATIVE = existsSync(at('content/native-check.json')) ? JSON.parse(readFileSync(at('content/native-check.json'), 'utf8')) : { checks: [], results: {} }

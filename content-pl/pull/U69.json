@@ -1,0 +1,1612 @@
+{
+  "unit_id": "U69",
+  "pulled_at": "2026-11-22",
+  "candidates": 74,
+  "sentences": [
+    {
+      "sentence_id": "S69001",
+      "unit_id": "U69",
+      "french": "Przeczytaj i odpowiedz.",
+      "english": "Read and reply.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3152114",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69002",
+      "unit_id": "U69",
+      "french": "Wybierz poprawną odpowiedź.",
+      "english": "Choose the correct answer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9678514",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69003",
+      "unit_id": "U69",
+      "french": "Kto może wybrać?",
+      "english": "Who can choose?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3897309",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69004",
+      "unit_id": "U69",
+      "french": "Na której stronie?",
+      "english": "What page?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12652558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JimiYoru",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69005",
+      "unit_id": "U69",
+      "french": "Czy muszę odpowiedzieć po angielsku?",
+      "english": "Do I have to answer in English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "653702",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69006",
+      "unit_id": "U69",
+      "french": "Nie rozumiem tego słowa. Masz słownik?",
+      "english": "I can't understand this word. Do you have a dictionary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12045105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jimbojim",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69007",
+      "unit_id": "U69",
+      "french": "Czy ktoś może odpowiedzieć na moje pytanie?",
+      "english": "Can anyone answer my question?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "589408",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69008",
+      "unit_id": "U69",
+      "french": "Otwórz oczy.",
+      "english": "Open your eyes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "359961",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69009",
+      "unit_id": "U69",
+      "french": "Zamknij drzwi.",
+      "english": "Close the door.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "558249",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "Shut the door."
+      ]
+    },
+    {
+      "sentence_id": "S69010",
+      "unit_id": "U69",
+      "french": "Zamknij okno.",
+      "english": "Close the window.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "742713",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Shut the window."
+      ]
+    },
+    {
+      "sentence_id": "S69011",
+      "unit_id": "U69",
+      "french": "Otwórz okno.",
+      "english": "Open the window.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "968967",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69012",
+      "unit_id": "U69",
+      "french": "Nie zapomnij.",
+      "english": "Don't forget.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1844956",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69013",
+      "unit_id": "U69",
+      "french": "Uzupełnij zdanie.",
+      "english": "Complete the sentence.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2140630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Hikaru",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69014",
+      "unit_id": "U69",
+      "french": "Musisz wybrać.",
+      "english": "You need to make a choice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3939810",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kobalt",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69015",
+      "unit_id": "U69",
+      "french": "Wybierz słowo.",
+      "english": "Choose a word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5437995",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pixelka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69016",
+      "unit_id": "U69",
+      "french": "Sprawdź to.",
+      "english": "Check that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5651992",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": [
+        "Check this."
+      ]
+    },
+    {
+      "sentence_id": "S69017",
+      "unit_id": "U69",
+      "french": "Posłuchaj tego!",
+      "english": "Listen to this!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5652010",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69018",
+      "unit_id": "U69",
+      "french": "Otwórz drzwi.",
+      "english": "Open the door.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6602603",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "princes21",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69019",
+      "unit_id": "U69",
+      "french": "Napisz coś.",
+      "english": "Write something.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7818306",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Hanyel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69020",
+      "unit_id": "U69",
+      "french": "Wybierz coś.",
+      "english": "Choose something.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7977898",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qmak",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69021",
+      "unit_id": "U69",
+      "french": "Spójrz tam.",
+      "english": "Look there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8617214",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69022",
+      "unit_id": "U69",
+      "french": "Posłuchaj mnie.",
+      "english": "Listen to me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11570607",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69023",
+      "unit_id": "U69",
+      "french": "Proszę, odpowiedz.",
+      "english": "Please reply.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12202522",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69024",
+      "unit_id": "U69",
+      "french": "Odpowiedz na pytanie.",
+      "english": "Answer the question.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "349045",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69025",
+      "unit_id": "U69",
+      "french": "Zamknij drzwi, proszę.",
+      "english": "Close the door, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "547737",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "Please shut the door."
+      ]
+    },
+    {
+      "sentence_id": "S69026",
+      "unit_id": "U69",
+      "french": "Napisz do mnie.",
+      "english": "Write me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "629817",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Text me."
+      ]
+    },
+    {
+      "sentence_id": "S69027",
+      "unit_id": "U69",
+      "french": "Przeczytaj tę książkę.",
+      "english": "Read this book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1637738",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Siganiv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69028",
+      "unit_id": "U69",
+      "french": "Spójrz na nas.",
+      "english": "Look at us.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2874438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69029",
+      "unit_id": "U69",
+      "french": "Proszę, posłuchaj nas.",
+      "english": "Please listen to us.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5437874",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pixelka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69030",
+      "unit_id": "U69",
+      "french": "Zapomnij o tym!",
+      "english": "Forget it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5627127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": [
+        "Forget it!"
+      ]
+    },
+    {
+      "sentence_id": "S69031",
+      "unit_id": "U69",
+      "french": "Przeczytaj to wieczorem!",
+      "english": "Read this in the evening.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6030844",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BeataB",
+      "other_english": [
+        "Read this in the evening!"
+      ]
+    },
+    {
+      "sentence_id": "S69032",
+      "unit_id": "U69",
+      "french": "Zapomnij o nim.",
+      "english": "Forget him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6160715",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69033",
+      "unit_id": "U69",
+      "french": "Spójrz na to.",
+      "english": "Look at it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6304213",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "Look at this stuff."
+      ]
+    },
+    {
+      "sentence_id": "S69034",
+      "unit_id": "U69",
+      "french": "Proszę wybrać jeden.",
+      "english": "Choose one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8617167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69035",
+      "unit_id": "U69",
+      "french": "Sprawdź to teraz.",
+      "english": "Check it now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8716627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gryzus24",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69036",
+      "unit_id": "U69",
+      "french": "Sprawdź to proszę.",
+      "english": "Check it, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10202750",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Marlena",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69037",
+      "unit_id": "U69",
+      "french": "Słowa są ważne.",
+      "english": "Words are important.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10755552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Wojtek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69038",
+      "unit_id": "U69",
+      "french": "Musisz szybko odpowiedzieć.",
+      "english": "You must respond quickly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12188666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69039",
+      "unit_id": "U69",
+      "french": "Nie powiedział ani słowa.",
+      "english": "He didn't say a word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "493074",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69040",
+      "unit_id": "U69",
+      "french": "Pamiętaj, to nie jest gra.",
+      "english": "Remember that this isn't a game.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10558484",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "antio",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S69001",
+      "position": 1,
+      "surface": "Przeczytaj",
+      "word_id": "W2021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69001",
+      "position": 2,
+      "surface": "i",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69001",
+      "position": 3,
+      "surface": "odpowiedz",
+      "word_id": "W2025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69002",
+      "position": 1,
+      "surface": "Wybierz",
+      "word_id": "W2024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69002",
+      "position": 2,
+      "surface": "poprawną",
+      "word_id": "W2037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69002",
+      "position": 3,
+      "surface": "odpowiedź",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69003",
+      "position": 1,
+      "surface": "Kto",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69003",
+      "position": 2,
+      "surface": "może",
+      "word_id": "W269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69003",
+      "position": 3,
+      "surface": "wybrać",
+      "word_id": "W2039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 1,
+      "surface": "Na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 2,
+      "surface": "której",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 3,
+      "surface": "stronie",
+      "word_id": "W2036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 2,
+      "surface": "muszę",
+      "word_id": "W270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 3,
+      "surface": "odpowiedzieć",
+      "word_id": "W2038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 4,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 2,
+      "surface": "rozumiem",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 3,
+      "surface": "tego",
+      "word_id": "W1700",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 4,
+      "surface": "słowa",
+      "word_id": "W2040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 5,
+      "surface": "Masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 6,
+      "surface": "słownik",
+      "word_id": "W1144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 2,
+      "surface": "ktoś",
+      "word_id": "W199",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 3,
+      "surface": "może",
+      "word_id": "W269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 4,
+      "surface": "odpowiedzieć",
+      "word_id": "W2038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 5,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 6,
+      "surface": "moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 7,
+      "surface": "pytanie",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69008",
+      "position": 1,
+      "surface": "Otwórz",
+      "word_id": "W2027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69008",
+      "position": 2,
+      "surface": "oczy",
+      "word_id": "W1001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69009",
+      "position": 1,
+      "surface": "Zamknij",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69009",
+      "position": 2,
+      "surface": "drzwi",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69010",
+      "position": 1,
+      "surface": "Zamknij",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69010",
+      "position": 2,
+      "surface": "okno",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69011",
+      "position": 1,
+      "surface": "Otwórz",
+      "word_id": "W2027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69011",
+      "position": 2,
+      "surface": "okno",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69012",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69012",
+      "position": 2,
+      "surface": "zapomnij",
+      "word_id": "W2032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69013",
+      "position": 1,
+      "surface": "Uzupełnij",
+      "word_id": "W2031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69013",
+      "position": 2,
+      "surface": "zdanie",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69014",
+      "position": 1,
+      "surface": "Musisz",
+      "word_id": "W271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69014",
+      "position": 2,
+      "surface": "wybrać",
+      "word_id": "W2039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69015",
+      "position": 1,
+      "surface": "Wybierz",
+      "word_id": "W2024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69015",
+      "position": 2,
+      "surface": "słowo",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69016",
+      "position": 1,
+      "surface": "Sprawdź",
+      "word_id": "W2029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69016",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69017",
+      "position": 1,
+      "surface": "Posłuchaj",
+      "word_id": "W2023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69017",
+      "position": 2,
+      "surface": "tego",
+      "word_id": "W1700",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69018",
+      "position": 1,
+      "surface": "Otwórz",
+      "word_id": "W2027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69018",
+      "position": 2,
+      "surface": "drzwi",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69019",
+      "position": 1,
+      "surface": "Napisz",
+      "word_id": "W2022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69019",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69020",
+      "position": 1,
+      "surface": "Wybierz",
+      "word_id": "W2024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69020",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 1,
+      "surface": "Spójrz",
+      "word_id": "W2028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 2,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 1,
+      "surface": "Posłuchaj",
+      "word_id": "W2023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 2,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 2,
+      "surface": "odpowiedz",
+      "word_id": "W2025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 1,
+      "surface": "Odpowiedz",
+      "word_id": "W2025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 3,
+      "surface": "pytanie",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69025",
+      "position": 1,
+      "surface": "Zamknij",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69025",
+      "position": 2,
+      "surface": "drzwi",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69025",
+      "position": 3,
+      "surface": "proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69026",
+      "position": 1,
+      "surface": "Napisz",
+      "word_id": "W2022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69026",
+      "position": 2,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69026",
+      "position": 3,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69027",
+      "position": 1,
+      "surface": "Przeczytaj",
+      "word_id": "W2021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69027",
+      "position": 2,
+      "surface": "tę",
+      "word_id": "W1747",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69027",
+      "position": 3,
+      "surface": "książkę",
+      "word_id": "W1038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69028",
+      "position": 1,
+      "surface": "Spójrz",
+      "word_id": "W2028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69028",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69028",
+      "position": 3,
+      "surface": "nas",
+      "word_id": "W1513",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69029",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69029",
+      "position": 2,
+      "surface": "posłuchaj",
+      "word_id": "W2023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69029",
+      "position": 3,
+      "surface": "nas",
+      "word_id": "W1513",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69030",
+      "position": 1,
+      "surface": "Zapomnij",
+      "word_id": "W2032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69030",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69030",
+      "position": 3,
+      "surface": "tym",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69031",
+      "position": 1,
+      "surface": "Przeczytaj",
+      "word_id": "W2021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69031",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69031",
+      "position": 3,
+      "surface": "wieczorem",
+      "word_id": "W251",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69032",
+      "position": 1,
+      "surface": "Zapomnij",
+      "word_id": "W2032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69032",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69032",
+      "position": 3,
+      "surface": "nim",
+      "word_id": "W2206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69033",
+      "position": 1,
+      "surface": "Spójrz",
+      "word_id": "W2028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69033",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69033",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69034",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69034",
+      "position": 2,
+      "surface": "wybrać",
+      "word_id": "W2039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69034",
+      "position": 3,
+      "surface": "jeden",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69035",
+      "position": 1,
+      "surface": "Sprawdź",
+      "word_id": "W2029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69035",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69035",
+      "position": 3,
+      "surface": "teraz",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69036",
+      "position": 1,
+      "surface": "Sprawdź",
+      "word_id": "W2029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69036",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69036",
+      "position": 3,
+      "surface": "proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69037",
+      "position": 1,
+      "surface": "Słowa",
+      "word_id": "W2040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69037",
+      "position": 2,
+      "surface": "są",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69037",
+      "position": 3,
+      "surface": "ważne",
+      "word_id": "W1217",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69038",
+      "position": 1,
+      "surface": "Musisz",
+      "word_id": "W271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69038",
+      "position": 2,
+      "surface": "szybko",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69038",
+      "position": 3,
+      "surface": "odpowiedzieć",
+      "word_id": "W2038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69039",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69039",
+      "position": 2,
+      "surface": "powiedział",
+      "word_id": "W2119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69039",
+      "position": 3,
+      "surface": "ani",
+      "word_id": "W1773",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69039",
+      "position": 4,
+      "surface": "słowa",
+      "word_id": "W2040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69040",
+      "position": 1,
+      "surface": "Pamiętaj",
+      "word_id": "W2033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69040",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69040",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69040",
+      "position": 4,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69040",
+      "position": 5,
+      "surface": "gra",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A690091",
+      "sentence_id": "S69009",
+      "direction": "fr_to_en",
+      "answer": "Shut the door.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690101",
+      "sentence_id": "S69010",
+      "direction": "fr_to_en",
+      "answer": "Shut the window.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690161",
+      "sentence_id": "S69016",
+      "direction": "fr_to_en",
+      "answer": "Check this.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690251",
+      "sentence_id": "S69025",
+      "direction": "fr_to_en",
+      "answer": "Please shut the door.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690261",
+      "sentence_id": "S69026",
+      "direction": "fr_to_en",
+      "answer": "Text me.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690301",
+      "sentence_id": "S69030",
+      "direction": "fr_to_en",
+      "answer": "Forget it!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690311",
+      "sentence_id": "S69031",
+      "direction": "fr_to_en",
+      "answer": "Read this in the evening!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690331",
+      "sentence_id": "S69033",
+      "direction": "fr_to_en",
+      "answer": "Look at this stuff.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

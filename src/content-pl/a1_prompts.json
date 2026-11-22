@@ -1,0 +1,118 @@
+[
+  {
+    "id": "P101",
+    "unit_id": "U45",
+    "prompt": "Write a short message to a new friend: your name, how old you are and where you live.",
+    "points": [
+      "your name",
+      "your age",
+      "where you live"
+    ],
+    "min_words": 15,
+    "max_words": 30
+  },
+  {
+    "id": "P102",
+    "unit_id": "U46",
+    "prompt": "Write a short postcard about yourself: where you are from, where you live and which languages you speak.",
+    "points": [
+      "where you are from",
+      "where you live",
+      "your languages"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P103",
+    "unit_id": "U49",
+    "prompt": "Write a short message to a friend: what to buy at the market, and how much of each.",
+    "points": [
+      "two or three things",
+      "how much of each"
+    ],
+    "min_words": 15,
+    "max_words": 30
+  },
+  {
+    "id": "P201",
+    "unit_id": "U62",
+    "prompt": "Write a short message to a friend about your week: what you do on two days.",
+    "points": [
+      "two days",
+      "what you do"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P202",
+    "unit_id": "U64",
+    "prompt": "Write a short message to invite a friend out: what, which day and what time.",
+    "points": [
+      "what",
+      "which day",
+      "what time"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P203",
+    "unit_id": "U65",
+    "prompt": "Write a few lines about your day: when you get up, work and have dinner.",
+    "points": [
+      "when you get up",
+      "when you work",
+      "when you have dinner"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P301",
+    "unit_id": "U85",
+    "prompt": "Write a few lines about your family: who they are and what they are like.",
+    "points": [
+      "who is in your family",
+      "what they are like"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P302",
+    "unit_id": "U86",
+    "prompt": "Write a short message about your home: where it is and which rooms it has.",
+    "points": [
+      "where it is",
+      "which rooms it has"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P303",
+    "unit_id": "U89",
+    "prompt": "Write a postcard to a friend from a trip: where you are, the weather and what you do.",
+    "points": [
+      "where you are",
+      "the weather",
+      "what you do"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P304",
+    "unit_id": "U89",
+    "prompt": "Write back to a friend who invited you to a party: say thank you, say if you can come, and ask one question.",
+    "points": [
+      "thank you",
+      "if you can come",
+      "one question"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  }
+]

@@ -1,0 +1,1319 @@
+{
+  "unit_id": "U09",
+  "pulled_at": "2026-11-21",
+  "candidates": 106,
+  "sentences": [
+    {
+      "sentence_id": "S9001",
+      "unit_id": "U09",
+      "french": "Tom jest zmęczony i głodny.",
+      "english": "Tom is tired and hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6598961",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "princes21",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9002",
+      "unit_id": "U09",
+      "french": "Jestem trochę zmęczony.",
+      "english": "I'm a little tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "352899",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I'm a little bit tired."
+      ]
+    },
+    {
+      "sentence_id": "S9003",
+      "unit_id": "U09",
+      "french": "Zawsze jestem głodny.",
+      "english": "I'm always hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "765705",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I always feel hungry."
+      ]
+    },
+    {
+      "sentence_id": "S9004",
+      "unit_id": "U09",
+      "french": "Zawsze jest głodna.",
+      "english": "She's always hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3177093",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ceresnya",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9005",
+      "unit_id": "U09",
+      "french": "Jestem naprawdę zmęczona.",
+      "english": "I'm really tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4654665",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9006",
+      "unit_id": "U09",
+      "french": "Jestem trochę chory.",
+      "english": "I'm a bit ill.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5525473",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "krzysiek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9007",
+      "unit_id": "U09",
+      "french": "Jest naprawdę chora.",
+      "english": "She is truly sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12188860",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9008",
+      "unit_id": "U09",
+      "french": "Jestem naprawdę głodna.",
+      "english": "I'm really hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12189142",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9009",
+      "unit_id": "U09",
+      "french": "Jestem zbyt chory.",
+      "english": "I'm too sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12999124",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fosforos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9010",
+      "unit_id": "U09",
+      "french": "Jesteś zawsze głodny.",
+      "english": "You're always hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5988594",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9011",
+      "unit_id": "U09",
+      "french": "Jestem trochę zajęty.",
+      "english": "I'm kind of busy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6309368",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": [
+        "I'm a little bit busy."
+      ]
+    },
+    {
+      "sentence_id": "S9012",
+      "unit_id": "U09",
+      "french": "Tom jest zbyt zajęty.",
+      "english": "Tom is too busy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4491102",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9013",
+      "unit_id": "U09",
+      "french": "Tom nie jest zbyt szczęśliwy.",
+      "english": "Tom is not very happy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6553662",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9014",
+      "unit_id": "U09",
+      "french": "Jesteś bardzo chora.",
+      "english": "You're very sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10572813",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9015",
+      "unit_id": "U09",
+      "french": "Nie jesteś zmęczony?",
+      "english": "Are you not tired?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "350175",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9016",
+      "unit_id": "U09",
+      "french": "Czy jesteś zajęty?",
+      "english": "Are you busy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "531002",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9017",
+      "unit_id": "U09",
+      "french": "Czy jesteś szczęśliwy?",
+      "english": "Are you happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "545362",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9018",
+      "unit_id": "U09",
+      "french": "Kto jest chory?",
+      "english": "Who's sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "730435",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Who is sick?"
+      ]
+    },
+    {
+      "sentence_id": "S9019",
+      "unit_id": "U09",
+      "french": "Czy nie jesteś szczęśliwa?",
+      "english": "Aren't you happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "569974",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9020",
+      "unit_id": "U09",
+      "french": "Czy nie jesteś szczęśliwa tam, gdzie jesteś?",
+      "english": "Aren't you happy where you are?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6304274",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9021",
+      "unit_id": "U09",
+      "french": "Jestem zawsze szczęśliwy.",
+      "english": "I'm always happy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4896833",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9022",
+      "unit_id": "U09",
+      "french": "Jestem zawsze szczęśliwa.",
+      "english": "I'm always happy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4896834",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9023",
+      "unit_id": "U09",
+      "french": "Jestem smutny.",
+      "english": "I'm sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5662023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9024",
+      "unit_id": "U09",
+      "french": "Jesteś smutny.",
+      "english": "You're upset.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5665023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": [
+        "You're sad."
+      ]
+    },
+    {
+      "sentence_id": "S9025",
+      "unit_id": "U09",
+      "french": "Jest smutna.",
+      "english": "She's sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10565728",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9026",
+      "unit_id": "U09",
+      "french": "Jest zajęta.",
+      "english": "It's occupied.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10606325",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9027",
+      "unit_id": "U09",
+      "french": "Teraz jestem głodna.",
+      "english": "Now I am hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5437353",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pixelka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9028",
+      "unit_id": "U09",
+      "french": "Jestem bardzo smutny.",
+      "english": "I'm very sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6178068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9029",
+      "unit_id": "U09",
+      "french": "Ona jest smutna.",
+      "english": "She's upset.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7303713",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "User81139",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9030",
+      "unit_id": "U09",
+      "french": "Nie jestem zajęta.",
+      "english": "I'm not busy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10623501",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9031",
+      "unit_id": "U09",
+      "french": "Jestem teraz zajęta.",
+      "english": "I'm busy at the moment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10874315",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S9001",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 3,
+      "surface": "zmęczony",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 4,
+      "surface": "i",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 5,
+      "surface": "głodny",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 2,
+      "surface": "trochę",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 3,
+      "surface": "zmęczony",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 1,
+      "surface": "Zawsze",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 2,
+      "surface": "jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 3,
+      "surface": "głodny",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 1,
+      "surface": "Zawsze",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 3,
+      "surface": "głodna",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 2,
+      "surface": "naprawdę",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 3,
+      "surface": "zmęczona",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 2,
+      "surface": "trochę",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 3,
+      "surface": "chory",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 2,
+      "surface": "naprawdę",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 3,
+      "surface": "chora",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 2,
+      "surface": "naprawdę",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 3,
+      "surface": "głodna",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 2,
+      "surface": "zbyt",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 3,
+      "surface": "chory",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 2,
+      "surface": "zawsze",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 3,
+      "surface": "głodny",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 2,
+      "surface": "trochę",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 3,
+      "surface": "zajęty",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 3,
+      "surface": "zbyt",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 4,
+      "surface": "zajęty",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 4,
+      "surface": "zbyt",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 5,
+      "surface": "szczęśliwy",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 2,
+      "surface": "bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 3,
+      "surface": "chora",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 3,
+      "surface": "zmęczony",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 3,
+      "surface": "zajęty",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 3,
+      "surface": "szczęśliwy",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 1,
+      "surface": "Kto",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 3,
+      "surface": "chory",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 3,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 4,
+      "surface": "szczęśliwa",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 3,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 4,
+      "surface": "szczęśliwa",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 5,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 6,
+      "surface": "gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 7,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 2,
+      "surface": "zawsze",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 3,
+      "surface": "szczęśliwy",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 2,
+      "surface": "zawsze",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 3,
+      "surface": "szczęśliwa",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 2,
+      "surface": "smutny",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 2,
+      "surface": "smutny",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 2,
+      "surface": "smutna",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 2,
+      "surface": "zajęta",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 1,
+      "surface": "Teraz",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 2,
+      "surface": "jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 3,
+      "surface": "głodna",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 2,
+      "surface": "bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 3,
+      "surface": "smutny",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 3,
+      "surface": "smutna",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 2,
+      "surface": "jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 3,
+      "surface": "zajęta",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9031",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9031",
+      "position": 2,
+      "surface": "teraz",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9031",
+      "position": 3,
+      "surface": "zajęta",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A90021",
+      "sentence_id": "S9002",
+      "direction": "fr_to_en",
+      "answer": "I'm a little bit tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90031",
+      "sentence_id": "S9003",
+      "direction": "fr_to_en",
+      "answer": "I always feel hungry.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90111",
+      "sentence_id": "S9011",
+      "direction": "fr_to_en",
+      "answer": "I'm a little bit busy.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90181",
+      "sentence_id": "S9018",
+      "direction": "fr_to_en",
+      "answer": "Who is sick?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90241",
+      "sentence_id": "S9024",
+      "direction": "fr_to_en",
+      "answer": "You're sad.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

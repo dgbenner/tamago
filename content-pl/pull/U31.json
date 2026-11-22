@@ -1,0 +1,681 @@
+{
+  "unit_id": "U31",
+  "pulled_at": "2026-11-21",
+  "candidates": 18,
+  "sentences": [
+    {
+      "sentence_id": "S31001",
+      "unit_id": "U31",
+      "french": "Jeszcze raz.",
+      "english": "Once again.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "564780",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31002",
+      "unit_id": "U31",
+      "french": "Mów głośniej!",
+      "english": "Speak up!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4791070",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cps",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31003",
+      "unit_id": "U31",
+      "french": "Mów wolniej.",
+      "english": "Talk slower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10595123",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": [
+        "Speak slower.",
+        "Speak more slowly."
+      ]
+    },
+    {
+      "sentence_id": "S31004",
+      "unit_id": "U31",
+      "french": "Mów powoli!",
+      "english": "Speak slowly!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12359760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31005",
+      "unit_id": "U31",
+      "french": "Nie rozumiesz?",
+      "english": "Don't you get it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1846090",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31006",
+      "unit_id": "U31",
+      "french": "Rozumiesz to?",
+      "english": "Do you understand that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3630926",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": [
+        "Do you understand it?"
+      ]
+    },
+    {
+      "sentence_id": "S31007",
+      "unit_id": "U31",
+      "french": "Jeszcze tu jesteś?",
+      "english": "Are you still here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11318557",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jezykiija",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31008",
+      "unit_id": "U31",
+      "french": "Czy ty nie rozumiesz?",
+      "english": "Can't you understand?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10529985",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shounen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31009",
+      "unit_id": "U31",
+      "french": "Proszę, mów głośniej.",
+      "english": "Please speak more loudly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "553523",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31010",
+      "unit_id": "U31",
+      "french": "Nie rozumiem.",
+      "english": "I don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "348672",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I do not understand."
+      ]
+    },
+    {
+      "sentence_id": "S31011",
+      "unit_id": "U31",
+      "french": "Proszę, powtórz.",
+      "english": "Could you repeat that, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "575002",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31012",
+      "unit_id": "U31",
+      "french": "Głośniej, proszę.",
+      "english": "Louder, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5627094",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "machmet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31013",
+      "unit_id": "U31",
+      "french": "Jeszcze nie.",
+      "english": "Not yet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6160769",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31014",
+      "unit_id": "U31",
+      "french": "Nie, nie możesz.",
+      "english": "No, you can't.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3630821",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31015",
+      "unit_id": "U31",
+      "french": "Ja też nie rozumiem.",
+      "english": "I don't understand either.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1518064",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31016",
+      "unit_id": "U31",
+      "french": "Ty mów.",
+      "english": "You speak.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12359700",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31017",
+      "unit_id": "U31",
+      "french": "Ty nie rozumiesz.",
+      "english": "You don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "559500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31018",
+      "unit_id": "U31",
+      "french": "Nie mów tak.",
+      "english": "Don't say that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "588390",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S31001",
+      "position": 1,
+      "surface": "Jeszcze",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 2,
+      "surface": "raz",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 1,
+      "surface": "Mów",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 2,
+      "surface": "głośniej",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 1,
+      "surface": "Mów",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 2,
+      "surface": "wolniej",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 1,
+      "surface": "Mów",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 2,
+      "surface": "powoli",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 2,
+      "surface": "rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 1,
+      "surface": "Rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 1,
+      "surface": "Jeszcze",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 3,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 2,
+      "surface": "ty",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 4,
+      "surface": "rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 2,
+      "surface": "mów",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 3,
+      "surface": "głośniej",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 2,
+      "surface": "rozumiem",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 1,
+      "surface": "Proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 2,
+      "surface": "powtórz",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 1,
+      "surface": "Głośniej",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 2,
+      "surface": "proszę",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 1,
+      "surface": "Jeszcze",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 3,
+      "surface": "możesz",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 2,
+      "surface": "też",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 4,
+      "surface": "rozumiem",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 1,
+      "surface": "Ty",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 2,
+      "surface": "mów",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 1,
+      "surface": "Ty",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 3,
+      "surface": "rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 2,
+      "surface": "mów",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 3,
+      "surface": "tak",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A310031",
+      "sentence_id": "S31003",
+      "direction": "fr_to_en",
+      "answer": "Speak slower.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310032",
+      "sentence_id": "S31003",
+      "direction": "fr_to_en",
+      "answer": "Speak more slowly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310061",
+      "sentence_id": "S31006",
+      "direction": "fr_to_en",
+      "answer": "Do you understand it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310101",
+      "sentence_id": "S31010",
+      "direction": "fr_to_en",
+      "answer": "I do not understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

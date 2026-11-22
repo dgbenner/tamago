@@ -1,0 +1,975 @@
+{
+  "unit_id": "U53",
+  "pulled_at": "2026-11-21",
+  "candidates": 21,
+  "sentences": [
+    {
+      "sentence_id": "S53001",
+      "unit_id": "U53",
+      "french": "Czy hotel jest daleko stąd?",
+      "english": "Is the hotel far from here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4816718",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53002",
+      "unit_id": "U53",
+      "french": "Jak daleko stąd jest miasto?",
+      "english": "How far is it into town from here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5148433",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tomash",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53003",
+      "unit_id": "U53",
+      "french": "Gdzie jest hotel?",
+      "english": "Where is the hotel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2499640",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cvbge",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53004",
+      "unit_id": "U53",
+      "french": "Gdzie jest szpital?",
+      "english": "Where's the hospital?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3743290",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lato365",
+      "other_english": [
+        "Where is the hospital?"
+      ]
+    },
+    {
+      "sentence_id": "S53005",
+      "unit_id": "U53",
+      "french": "Gdzie jest pociąg?",
+      "english": "Where is the train?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4412297",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Baakamono",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53006",
+      "unit_id": "U53",
+      "french": "Gdzie jest autobus?",
+      "english": "Where is the bus?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8766263",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53007",
+      "unit_id": "U53",
+      "french": "Gdzie jest bank?",
+      "english": "Where's the bank?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10586178",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "Where is the bank?"
+      ]
+    },
+    {
+      "sentence_id": "S53008",
+      "unit_id": "U53",
+      "french": "Czy to daleko stąd?",
+      "english": "Is it far from here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "355860",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53009",
+      "unit_id": "U53",
+      "french": "Gdzie jest ten bank?",
+      "english": "Where is the bank?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "357368",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53010",
+      "unit_id": "U53",
+      "french": "Przepraszam, gdzie jest poczta?",
+      "english": "Excuse me, where's the post office?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "930153",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Excuse me, where is the post office?"
+      ]
+    },
+    {
+      "sentence_id": "S53011",
+      "unit_id": "U53",
+      "french": "Czy lubisz to miasto?",
+      "english": "Do you like this city?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3634304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53012",
+      "unit_id": "U53",
+      "french": "Jak stary jest ten kościół?",
+      "english": "How old is this church?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1660168",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mateusz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53013",
+      "unit_id": "U53",
+      "french": "Tutaj jest restauracja.",
+      "english": "There's a restaurant here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3033627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53014",
+      "unit_id": "U53",
+      "french": "To jest kościół.",
+      "english": "That's a church.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3427955",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53015",
+      "unit_id": "U53",
+      "french": "To jest szpital.",
+      "english": "This is a hospital.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3961111",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53016",
+      "unit_id": "U53",
+      "french": "Tam jest hotel.",
+      "english": "The hotel is there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5917016",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": [
+        "There's a hotel there."
+      ]
+    },
+    {
+      "sentence_id": "S53017",
+      "unit_id": "U53",
+      "french": "To mój autobus.",
+      "english": "It's my bus.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10624690",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53018",
+      "unit_id": "U53",
+      "french": "Autobus jest tutaj.",
+      "english": "The bus is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10624697",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53019",
+      "unit_id": "U53",
+      "french": "Kościół jest tam.",
+      "english": "The church is there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695872",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53020",
+      "unit_id": "U53",
+      "french": "Jesteśmy stąd.",
+      "english": "We're from here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3038405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53021",
+      "unit_id": "U53",
+      "french": "Mój dom nie jest zbyt daleko stąd.",
+      "english": "My house isn't so far from here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3716103",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S53001",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 2,
+      "surface": "hotel",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 4,
+      "surface": "daleko",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 5,
+      "surface": "stąd",
+      "word_id": "W1054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 2,
+      "surface": "daleko",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 3,
+      "surface": "stąd",
+      "word_id": "W1054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 4,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 5,
+      "surface": "miasto",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 3,
+      "surface": "hotel",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 3,
+      "surface": "szpital",
+      "word_id": "W1046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 3,
+      "surface": "pociąg",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 3,
+      "surface": "autobus",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 3,
+      "surface": "bank",
+      "word_id": "W1050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 3,
+      "surface": "daleko",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 4,
+      "surface": "stąd",
+      "word_id": "W1054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 3,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 4,
+      "surface": "bank",
+      "word_id": "W1050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 1,
+      "surface": "Przepraszam",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 2,
+      "surface": "gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 4,
+      "surface": "poczta",
+      "word_id": "W1051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 2,
+      "surface": "lubisz",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 4,
+      "surface": "miasto",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 1,
+      "surface": "Jak",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 2,
+      "surface": "stary",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 4,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 5,
+      "surface": "kościół",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53013",
+      "position": 1,
+      "surface": "Tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53013",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53013",
+      "position": 3,
+      "surface": "restauracja",
+      "word_id": "W1053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53014",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53014",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53014",
+      "position": 3,
+      "surface": "kościół",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53015",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53015",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53015",
+      "position": 3,
+      "surface": "szpital",
+      "word_id": "W1046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53016",
+      "position": 1,
+      "surface": "Tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53016",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53016",
+      "position": 3,
+      "surface": "hotel",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53017",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53017",
+      "position": 2,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53017",
+      "position": 3,
+      "surface": "autobus",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53018",
+      "position": 1,
+      "surface": "Autobus",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53018",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53018",
+      "position": 3,
+      "surface": "tutaj",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53019",
+      "position": 1,
+      "surface": "Kościół",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53019",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53019",
+      "position": 3,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53020",
+      "position": 1,
+      "surface": "Jesteśmy",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53020",
+      "position": 2,
+      "surface": "stąd",
+      "word_id": "W1054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 2,
+      "surface": "dom",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 3,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 4,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 5,
+      "surface": "zbyt",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 6,
+      "surface": "daleko",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 7,
+      "surface": "stąd",
+      "word_id": "W1054",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A530041",
+      "sentence_id": "S53004",
+      "direction": "fr_to_en",
+      "answer": "Where is the hospital?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530071",
+      "sentence_id": "S53007",
+      "direction": "fr_to_en",
+      "answer": "Where is the bank?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530101",
+      "sentence_id": "S53010",
+      "direction": "fr_to_en",
+      "answer": "Excuse me, where is the post office?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530161",
+      "sentence_id": "S53016",
+      "direction": "fr_to_en",
+      "answer": "There's a hotel there.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

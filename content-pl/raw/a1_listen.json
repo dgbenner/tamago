@@ -1,0 +1,326 @@
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "piętnaście",
+    "answer": "15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "siedemnaście",
+    "answer": "17",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "sześć zero jeden, dwa trzy cztery, pięć sześć siedem",
+    "answer": "601 234 567",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "pięć zero dwa, osiem dziewięć zero, jeden trzy sześć",
+    "answer": "502 890 136",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Mam dwadzieścia lat.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Ona ma osiemnaście lat.",
+    "answer": "18",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "siedemdziesiąt",
+    "answer": "70",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "dziewięćdziesiąt",
+    "answer": "90",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "czterdzieści pięć",
+    "answer": "45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "dziewięćdziesiąt dziewięć",
+    "answer": "99",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "trzydzieści złotych",
+    "answer": "30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "dziesięć złotych",
+    "answer": "10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "sto złotych",
+    "answer": "100",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "pięćdziesiąt złotych",
+    "answer": "50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N201",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest wpół do czwartej.",
+    "answer": "3:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N202",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest kwadrans po ósmej.",
+    "answer": "8:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N203",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest dwunasta.",
+    "answer": "12:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N204",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Jest za kwadrans dziesiąta.",
+    "answer": "9:45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N205",
+    "unit_id": "U65",
+    "kind": "time",
+    "say": "Wstaję o siódmej.",
+    "answer": "7:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N206",
+    "unit_id": "U65",
+    "kind": "time",
+    "say": "Kończę pracę o szóstej.",
+    "answer": "6:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N207",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Autobus odjeżdża o dziesiątej.",
+    "answer": "10:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N208",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Pociąg przyjeżdża o dwunastej.",
+    "answer": "12:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N209",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Pociąg odjeżdża z peronu numer pięć.",
+    "answer": "5",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N210",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Samolot jest opóźniony o dwadzieścia minut.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Kawa kosztuje dwanaście złotych.",
+    "answer": "12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Ciasto kosztuje piętnaście złotych.",
+    "answer": "15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Zupa kosztuje dwadzieścia złotych.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Rachunek to osiemdziesiąt pięć złotych.",
+    "answer": "85",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N305",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Apteka jest sto metrów stąd.",
+    "answer": "100",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N306",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Idź prosto pięćdziesiąt metrów.",
+    "answer": "50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N307",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Jadę autobusem numer dwanaście.",
+    "answer": "12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N308",
+    "unit_id": "U84",
+    "kind": "time",
+    "say": "Pojadę pociągiem o wpół do ósmej.",
+    "answer": "7:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N309",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "Mieszkam w mieszkaniu numer osiem.",
+    "answer": "8",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N310",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "Spotkanie jest o dziesiątej.",
+    "answer": "10:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N311",
+    "unit_id": "U88",
+    "kind": "phone",
+    "say": "Mój numer to pięć zero jeden, dwa trzy cztery, pięć sześć siedem.",
+    "answer": "501 234 567",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N312",
+    "unit_id": "U89",
+    "kind": "time",
+    "say": "Zadzwonię jutro o szóstej.",
+    "answer": "6:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

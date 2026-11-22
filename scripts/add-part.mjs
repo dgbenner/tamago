@@ -11,11 +11,11 @@ import { addVocabFramework } from './lib/vocab-catchup.mjs'
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
 const COURSE = process.env.COURSE
-const LANG = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', nl: 'Dutch', sv: 'Swedish', da: 'Danish' }
+const LANG = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese', nl: 'Dutch', sv: 'Swedish', da: 'Danish', pl: 'Polish' }
 const PART = Number(process.env.PART)
 
 if (process.argv[1] === import.meta.filename) {
-  if (!LANG[COURSE] || !PART) throw new Error('COURSE=fr|es|de|it|pt|nl|sv|da and PART=n')
+  if (!LANG[COURSE] || !PART) throw new Error('COURSE=fr|es|de|it|pt|nl|sv|da|pl and PART=n')
   const P = (await import(`./part${PART}/${COURSE}.mjs`)).default
   if (P.part !== PART) throw new Error(`config says part ${P.part}`)
   const [from, to] = process.argv.slice(2)
@@ -47,7 +47,9 @@ if (process.argv[1] === import.meta.filename) {
       notes: u.help ? `A1 Part ${P.part} help circle, gates nothing` : P.vocab.includes(u) ? `A1 Part ${P.part} vocabulary circle` : `A1 Part ${P.part}` })
   }
   wb.Sheets.tree_layout = XLSX.utils.json_to_sheet(layout)
-  const mine = (id) => { const n = Number(String(id).slice(1)); return (n >= P.wordBase && n < P.wordBase + 200) || (n >= P.vocabBase && n < P.vocabBase + 200) }
+  // A config may claim a wider range than 200 (P.wordSpan, P.vocabSpan; Polish Part 2 has 247 situation words, so it
+  // takes W1501 to W1800, clear of Part 1's W1001 to W1054).
+  const mine = (id) => { const n = Number(String(id).slice(1)); return (n >= P.wordBase && n < P.wordBase + (P.wordSpan ?? 200)) || (n >= P.vocabBase && n < P.vocabBase + (P.vocabSpan ?? 200)) }
   const words = sheet('words').filter((w) => !mine(w.word_id))
   const keys = Object.keys(words[0])
   // A word turned off earlier and wanted now (P.revive: { form: unit }; French Part 5 copain, copine, temps) moves to

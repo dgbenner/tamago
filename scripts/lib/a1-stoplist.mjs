@@ -54,6 +54,26 @@ const BY_COURSE = {
   // åt …), web-page leftovers and parliamentary register. Everyday words the corpus over-represents (land, fråga, krona)
   // stay. Part 4 gather (2026-11-21): som att (a tagger multiword, not a unit of its own), dom (the spoken spelling of
   // de and dem; its noun is the court's verdict), bildning (formal cultivation, beside utbildning) and mission.
+  // Polish (2026-11-21, Builder 2, Part 1 gather): the Kelly A1 band is from a web corpus, so as Italian's it carries
+  // parliamentary, legal and official register (państwo as the state, rząd, ustawa, sejm, poseł, podatek …) and a few
+  // headwords the tagger made from other words: lato (summer) is counted from lat, the genitive of rok (years); były
+  // (former) from był, the past of być; proca (sling) from praca; mus (necessity) from musieć; wieko (lid) from wiek;
+  // rana (wound) from rano (morning); gen from the abbreviation gen. (general); dr is an abbreviation; nim (Part 2,
+  // 2026-11-21) is the instrumental or locative of on (z nim, o nim), a form listed as a headword. Violence: wojna,
+  // śmierć, walka, ofiara, żołnierz, armia, wojskowy. Everyday words the corpus over-represents (sprawa, strona,
+  // prawo, pan) stay, as do religious words (bóg, ksiądz) and Żyd, a plain noun, not a slur. Part 4 gather (2026-11-21):
+  // officialese verbs and connectives with no A1 line on Tatoeba (dokonać carry out, uzyskać obtain, stwierdzić state,
+  // określić and określony determine, zgodnie in accordance, poprzez by means of) and legal register (prawny, sąd as a
+  // court, wniosek as an application, zakład as an establishment), as Italian's nonché, mediante and effettuare.
+  pl: {
+    register: ['państwo', 'państwowy', 'rząd', 'ustawa', 'komisja', 'minister', 'ministerstwo', 'prezydent', 'premier', 'unia', 'senator', 'Senat', 'sejm', 'poseł',
+      'parlament', 'partia', 'polityczny', 'polityk', 'wyborczy', 'społeczny', 'europejski', 'administracja', 'budżet', 'podatek', 'przepis', 'poprawka',
+      'posiedzenie', 'komitet', 'urząd', 'instytucja', 'władza', 'gospodarczy', 'gospodarka', 'finansowy', 'działalność', 'realizacja', 'dotyczyć', 'stanowić', 'ów', 'prenumerata',
+      'dokonać', 'uzyskać', 'stwierdzić', 'określić', 'określony', 'zgodnie', 'poprzez', 'prawny', 'sąd', 'wniosek', 'zakład'],
+    artefact: ['lato', 'były', 'proca', 'mus', 'wieko', 'rana', 'gen', 'nim'],
+    subtitle: ['dr'],
+    violence: ['wojna', 'śmierć', 'walka', 'ofiara', 'żołnierz', 'armia', 'wojskowy'],
+  },
   sv: {
     artefact: ['analog', 'unna', 'å', 'te sig', 'riva', 'el', 'ro', 'kapa', 'beta', 'ätt', 'orm', 'akt', 'hov', 'medium', 'ämna', 'åta sig', 'port', 'lik', 'tyda', 'luta', 'peng', 'som att'],
     subtitle: ['etikett', 'inlägg', 'länka', 'kommentera', 'blogg', 'kl.', 'dom'],

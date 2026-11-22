@@ -1,0 +1,1806 @@
+{
+  "unit_id": "U45",
+  "pulled_at": "2026-11-22",
+  "candidates": 142,
+  "sentences": [
+    {
+      "sentence_id": "S45001",
+      "unit_id": "U45",
+      "french": "Kiedy Tom wraca do domu?",
+      "english": "When is Tom coming home?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4953063",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "aleksandraeska",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45002",
+      "unit_id": "U45",
+      "french": "Czy szkoła jest daleko od domu?",
+      "english": "Is your school far from your home?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "944262",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Is your school far away from your house?"
+      ]
+    },
+    {
+      "sentence_id": "S45003",
+      "unit_id": "U45",
+      "french": "Od kiedy mieszkasz w tym domu?",
+      "english": "How long have you been living in this house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5488255",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rubber_duck",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45004",
+      "unit_id": "U45",
+      "french": "Bardzo lubię życie w mieście.",
+      "english": "I really like city life.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "944227",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45005",
+      "unit_id": "U45",
+      "french": "Jesteś sam?",
+      "english": "Are you alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "537345",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45006",
+      "unit_id": "U45",
+      "french": "Od kiedy?",
+      "english": "Since when?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6729600",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45007",
+      "unit_id": "U45",
+      "french": "Jesteś sama?",
+      "english": "Are you alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10568864",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45008",
+      "unit_id": "U45",
+      "french": "Mieszkasz w mieście?",
+      "english": "Do you live in the city?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "442805",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45009",
+      "unit_id": "U45",
+      "french": "Czy mieszkasz sam?",
+      "english": "Do you live alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1659883",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mateusz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45010",
+      "unit_id": "U45",
+      "french": "Czy mieszkasz sama?",
+      "english": "Do you live alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1659884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mateusz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45011",
+      "unit_id": "U45",
+      "french": "Dlaczego jest sam?",
+      "english": "Why is he alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2319388",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45012",
+      "unit_id": "U45",
+      "french": "Jest Tom obok ciebie?",
+      "english": "Is Tom near you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3897260",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45013",
+      "unit_id": "U45",
+      "french": "Czy jest tu gdzieś poczta?",
+      "english": "Is there a post office around here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "367655",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45014",
+      "unit_id": "U45",
+      "french": "Dlaczego nie jesteś w pracy ?",
+      "english": "Why aren't you at work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5219735",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "krzysiek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45015",
+      "unit_id": "U45",
+      "french": "Wracam do domu.",
+      "english": "I'm heading back home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "852886",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45016",
+      "unit_id": "U45",
+      "french": "Jutro ojciec wraca do domu.",
+      "english": "Father is coming home tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "572695",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45017",
+      "unit_id": "U45",
+      "french": "Tom jest u mnie w domu.",
+      "english": "Tom is at my house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3407188",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45018",
+      "unit_id": "U45",
+      "french": "Rodziców nie ma teraz w domu.",
+      "english": "My parents aren't home right now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6320657",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45019",
+      "unit_id": "U45",
+      "french": "Nikt nie mieszka w domu obok.",
+      "english": "No one's living in the house next door.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12360053",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45020",
+      "unit_id": "U45",
+      "french": "W domu obok nikt nie mieszka.",
+      "english": "No one's living in the house next door.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12360055",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45021",
+      "unit_id": "U45",
+      "french": "Tom żyje.",
+      "english": "Tom's alive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8745516",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": [
+        "Tom is alive."
+      ]
+    },
+    {
+      "sentence_id": "S45022",
+      "unit_id": "U45",
+      "french": "Tak, czasami.",
+      "english": "Yes, sometimes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8989531",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shounen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45023",
+      "unit_id": "U45",
+      "french": "Mieszkam sama.",
+      "english": "I live alone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10627013",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45024",
+      "unit_id": "U45",
+      "french": "Znam adres.",
+      "english": "I know the address.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12189742",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45025",
+      "unit_id": "U45",
+      "french": "Do pracy!",
+      "english": "To work!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12652557",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JimiYoru",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45026",
+      "unit_id": "U45",
+      "french": "Życie jest piękne.",
+      "english": "Life is beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "350044",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45027",
+      "unit_id": "U45",
+      "french": "Mieszkam w mieście.",
+      "english": "I live in a city.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "359195",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I'm living in a town."
+      ]
+    },
+    {
+      "sentence_id": "S45028",
+      "unit_id": "U45",
+      "french": "Codziennie mówię po angielsku.",
+      "english": "I speak English daily.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "531876",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": [
+        "I speak English every day."
+      ]
+    },
+    {
+      "sentence_id": "S45029",
+      "unit_id": "U45",
+      "french": "Żyjesz tylko raz.",
+      "english": "You only live once.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "593507",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "buari",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45030",
+      "unit_id": "U45",
+      "french": "Mówię po angielsku codziennie.",
+      "english": "I speak English every day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "999293",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45031",
+      "unit_id": "U45",
+      "french": "Życie jest krótkie.",
+      "english": "Life's short.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2774505",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Martka",
+      "other_english": [
+        "Life is short."
+      ]
+    },
+    {
+      "sentence_id": "S45032",
+      "unit_id": "U45",
+      "french": "Pamiętam to miejsce.",
+      "english": "I remember this place.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3254889",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ceresnya",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45033",
+      "unit_id": "U45",
+      "french": "Właśnie to czytam.",
+      "english": "I'm reading it now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4406484",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45034",
+      "unit_id": "U45",
+      "french": "Mieszkam w Warszawie.",
+      "english": "I live in Warsaw.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4687326",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45035",
+      "unit_id": "U45",
+      "french": "Ten człowiek żyje.",
+      "english": "This man is alive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6322231",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45036",
+      "unit_id": "U45",
+      "french": "Właśnie tu pracuję.",
+      "english": "I actually work here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7894307",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maria_lysik",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45037",
+      "unit_id": "U45",
+      "french": "Czuję, że żyję.",
+      "english": "I feel alive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10626979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45038",
+      "unit_id": "U45",
+      "french": "Jestem w pracy.",
+      "english": "I'm at work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12152768",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mwgamera",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45039",
+      "unit_id": "U45",
+      "french": "To już duży chłopak.",
+      "english": "He's a big boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "364699",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45040",
+      "unit_id": "U45",
+      "french": "Codziennie gram w tenisa.",
+      "english": "I play tennis every day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "368431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S45001",
+      "position": 1,
+      "surface": "Kiedy",
+      "word_id": "W186",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 3,
+      "surface": "wraca",
+      "word_id": "W1637",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 4,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 5,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 2,
+      "surface": "szkoła",
+      "word_id": "W273",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 4,
+      "surface": "daleko",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 5,
+      "surface": "od",
+      "word_id": "W1632",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 6,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 1,
+      "surface": "Od",
+      "word_id": "W1632",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 2,
+      "surface": "kiedy",
+      "word_id": "W186",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 3,
+      "surface": "mieszkasz",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 5,
+      "surface": "tym",
+      "word_id": "W1147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 6,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 1,
+      "surface": "Bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 2,
+      "surface": "lubię",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 3,
+      "surface": "życie",
+      "word_id": "W1641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 5,
+      "surface": "mieście",
+      "word_id": "W1613",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 2,
+      "surface": "sam",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 1,
+      "surface": "Od",
+      "word_id": "W1632",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 2,
+      "surface": "kiedy",
+      "word_id": "W186",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 2,
+      "surface": "sama",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 1,
+      "surface": "Mieszkasz",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 3,
+      "surface": "mieście",
+      "word_id": "W1613",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 2,
+      "surface": "mieszkasz",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 3,
+      "surface": "sam",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 2,
+      "surface": "mieszkasz",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 3,
+      "surface": "sama",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 1,
+      "surface": "Dlaczego",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 3,
+      "surface": "sam",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 1,
+      "surface": "Jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 3,
+      "surface": "obok",
+      "word_id": "W1633",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 4,
+      "surface": "ciebie",
+      "word_id": "W1507",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 4,
+      "surface": "gdzieś",
+      "word_id": "W1634",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 5,
+      "surface": "poczta",
+      "word_id": "W1051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 1,
+      "surface": "Dlaczego",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 3,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 5,
+      "surface": "pracy",
+      "word_id": "W1617",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 1,
+      "surface": "Wracam",
+      "word_id": "W1636",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 2,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 3,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 1,
+      "surface": "Jutro",
+      "word_id": "W236",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 2,
+      "surface": "ojciec",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 3,
+      "surface": "wraca",
+      "word_id": "W1637",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 4,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 5,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 3,
+      "surface": "u",
+      "word_id": "W1625",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 4,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 6,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 1,
+      "surface": "Rodziców",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 4,
+      "surface": "teraz",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 6,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 1,
+      "surface": "Nikt",
+      "word_id": "W200",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 3,
+      "surface": "mieszka",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 5,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 6,
+      "surface": "obok",
+      "word_id": "W1633",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 1,
+      "surface": "W",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 2,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 3,
+      "surface": "obok",
+      "word_id": "W1633",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 4,
+      "surface": "nikt",
+      "word_id": "W200",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 5,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 6,
+      "surface": "mieszka",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 2,
+      "surface": "żyje",
+      "word_id": "W1630",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45022",
+      "position": 1,
+      "surface": "Tak",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45022",
+      "position": 2,
+      "surface": "czasami",
+      "word_id": "W1639",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 1,
+      "surface": "Mieszkam",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 2,
+      "surface": "sama",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 1,
+      "surface": "Znam",
+      "word_id": "W1502",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 2,
+      "surface": "adres",
+      "word_id": "W1619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 1,
+      "surface": "Do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 2,
+      "surface": "pracy",
+      "word_id": "W1617",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 1,
+      "surface": "Życie",
+      "word_id": "W1641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 3,
+      "surface": "piękne",
+      "word_id": "W1116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 1,
+      "surface": "Mieszkam",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 3,
+      "surface": "mieście",
+      "word_id": "W1613",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 1,
+      "surface": "Codziennie",
+      "word_id": "W1635",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 2,
+      "surface": "mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 3,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 1,
+      "surface": "Żyjesz",
+      "word_id": "W1629",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 2,
+      "surface": "tylko",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 3,
+      "surface": "raz",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 1,
+      "surface": "Mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 2,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 3,
+      "surface": "codziennie",
+      "word_id": "W1635",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45031",
+      "position": 1,
+      "surface": "Życie",
+      "word_id": "W1641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45031",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45031",
+      "position": 3,
+      "surface": "krótkie",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45032",
+      "position": 1,
+      "surface": "Pamiętam",
+      "word_id": "W727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45032",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45032",
+      "position": 3,
+      "surface": "miejsce",
+      "word_id": "W1627",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 1,
+      "surface": "Właśnie",
+      "word_id": "W1638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45033",
+      "position": 3,
+      "surface": "czytam",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 1,
+      "surface": "Mieszkam",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45034",
+      "position": 3,
+      "surface": "Warszawie",
+      "word_id": "W1615",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45035",
+      "position": 1,
+      "surface": "Ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45035",
+      "position": 2,
+      "surface": "człowiek",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45035",
+      "position": 3,
+      "surface": "żyje",
+      "word_id": "W1630",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45036",
+      "position": 1,
+      "surface": "Właśnie",
+      "word_id": "W1638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45036",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45036",
+      "position": 3,
+      "surface": "pracuję",
+      "word_id": "W255",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45037",
+      "position": 1,
+      "surface": "Czuję",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45037",
+      "position": 2,
+      "surface": "że",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45037",
+      "position": 3,
+      "surface": "żyję",
+      "word_id": "W1628",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45038",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45038",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45038",
+      "position": 3,
+      "surface": "pracy",
+      "word_id": "W1617",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45039",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45039",
+      "position": 2,
+      "surface": "już",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45039",
+      "position": 3,
+      "surface": "duży",
+      "word_id": "W032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45039",
+      "position": 4,
+      "surface": "chłopak",
+      "word_id": "W1626",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45040",
+      "position": 1,
+      "surface": "Codziennie",
+      "word_id": "W1635",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45040",
+      "position": 2,
+      "surface": "gram",
+      "word_id": "W1019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45040",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45040",
+      "position": 4,
+      "surface": "tenisa",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A450021",
+      "sentence_id": "S45002",
+      "direction": "fr_to_en",
+      "answer": "Is your school far away from your house?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450211",
+      "sentence_id": "S45021",
+      "direction": "fr_to_en",
+      "answer": "Tom is alive.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450271",
+      "sentence_id": "S45027",
+      "direction": "fr_to_en",
+      "answer": "I'm living in a town.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450281",
+      "sentence_id": "S45028",
+      "direction": "fr_to_en",
+      "answer": "I speak English every day.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450311",
+      "sentence_id": "S45031",
+      "direction": "fr_to_en",
+      "answer": "Life is short.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

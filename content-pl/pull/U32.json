@@ -1,0 +1,1330 @@
+{
+  "unit_id": "U32",
+  "pulled_at": "2026-11-21",
+  "candidates": 50,
+  "sentences": [
+    {
+      "sentence_id": "S32001",
+      "unit_id": "U32",
+      "french": "Co znaczy to słowo?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "348949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32002",
+      "unit_id": "U32",
+      "french": "Co oznacza to słowo?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "365282",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "What's the meaning of this word?",
+        "What is the meaning of this word?"
+      ]
+    },
+    {
+      "sentence_id": "S32003",
+      "unit_id": "U32",
+      "french": "Co oznacza to pytanie?",
+      "english": "What does this question mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5523906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rubber_duck",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32004",
+      "unit_id": "U32",
+      "french": "Mówię po angielsku.",
+      "english": "I speak English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "535134",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "orzechowski",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32005",
+      "unit_id": "U32",
+      "french": "On szybko mówi.",
+      "english": "He is a fast speaker.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1086670",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hebrajska",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32006",
+      "unit_id": "U32",
+      "french": "On mówi po angielsku.",
+      "english": "He speaks English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1169092",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hebrajska",
+      "other_english": [
+        "He is speaking English."
+      ]
+    },
+    {
+      "sentence_id": "S32007",
+      "unit_id": "U32",
+      "french": "Ona mówi po angielsku.",
+      "english": "She speaks English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3637399",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32008",
+      "unit_id": "U32",
+      "french": "Nie mówię szybko.",
+      "english": "I don't talk fast.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6329790",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32009",
+      "unit_id": "U32",
+      "french": "Nie mówię po polsku.",
+      "english": "I don't speak Polish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695774",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "I do not speak Polish."
+      ]
+    },
+    {
+      "sentence_id": "S32010",
+      "unit_id": "U32",
+      "french": "Nie rozumiem, co znaczy to słowo.",
+      "english": "I don't understand the meaning of this word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12469990",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "katix824",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32011",
+      "unit_id": "U32",
+      "french": "Mówisz po polsku?",
+      "english": "Do you speak Polish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4744563",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Spodnie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32012",
+      "unit_id": "U32",
+      "french": "Rozumiesz po polsku?",
+      "english": "Do you understand Polish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32013",
+      "unit_id": "U32",
+      "french": "Co to znaczy?",
+      "english": "What does this mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "629885",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "What does this stand for?"
+      ]
+    },
+    {
+      "sentence_id": "S32014",
+      "unit_id": "U32",
+      "french": "Co to oznacza?",
+      "english": "What does it mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2708782",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "aleksandraeska",
+      "other_english": [
+        "What does this mean?",
+        "What does this stand for?"
+      ]
+    },
+    {
+      "sentence_id": "S32015",
+      "unit_id": "U32",
+      "french": "Rozumiesz ten język?",
+      "english": "Can you understand this language?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3425868",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32016",
+      "unit_id": "U32",
+      "french": "Czy masz pytanie?",
+      "english": "Do you have a question?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13789162",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Just_Balls",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32017",
+      "unit_id": "U32",
+      "french": "Tom mówi szybko.",
+      "english": "Tom speaks fast.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6154713",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32018",
+      "unit_id": "U32",
+      "french": "Mam pytanie.",
+      "english": "I have a question.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "348817",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "I've got a question."
+      ]
+    },
+    {
+      "sentence_id": "S32019",
+      "unit_id": "U32",
+      "french": "Lubię mówić.",
+      "english": "I like talking.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10598382",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32020",
+      "unit_id": "U32",
+      "french": "Tom lubi mówić.",
+      "english": "Tom likes to talk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6157398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32021",
+      "unit_id": "U32",
+      "french": "Kto mówi?",
+      "english": "Who's speaking?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4748461",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "AgnieszkaC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32022",
+      "unit_id": "U32",
+      "french": "Czy mówisz po angielsku?",
+      "english": "Do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "569897",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": [
+        "Can't you speak English?"
+      ]
+    },
+    {
+      "sentence_id": "S32023",
+      "unit_id": "U32",
+      "french": "Rozumiesz, co mówię?",
+      "english": "Do you understand what I'm saying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "969879",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32024",
+      "unit_id": "U32",
+      "french": "Co ona mówi?",
+      "english": "What does she say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3300900",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32025",
+      "unit_id": "U32",
+      "french": "Rozumiesz co on mówi?",
+      "english": "Do you understand what he's saying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2138823",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "liori",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32026",
+      "unit_id": "U32",
+      "french": "Nie mówi po angielsku.",
+      "english": "He doesn't speak English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10565789",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": [
+        "He speaks no English."
+      ]
+    },
+    {
+      "sentence_id": "S32027",
+      "unit_id": "U32",
+      "french": "Nie mówię po angielsku.",
+      "english": "I don't speak English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12040241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jimbojim",
+      "other_english": [
+        "I do not speak English."
+      ]
+    },
+    {
+      "sentence_id": "S32028",
+      "unit_id": "U32",
+      "french": "Tom mówi bardzo szybko.",
+      "english": "Tom speaks very fast.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3748277",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32029",
+      "unit_id": "U32",
+      "french": "Nie, nie mówię po angielsku.",
+      "english": "No, I don't speak English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12188884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32030",
+      "unit_id": "U32",
+      "french": "Tu nie mówi się po angielsku.",
+      "english": "English is not spoken here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "361065",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S32001",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 2,
+      "surface": "znaczy",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 4,
+      "surface": "słowo",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 2,
+      "surface": "oznacza",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 4,
+      "surface": "słowo",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 2,
+      "surface": "oznacza",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 4,
+      "surface": "pytanie",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 1,
+      "surface": "Mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 2,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 2,
+      "surface": "szybko",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 3,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 2,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 3,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 1,
+      "surface": "Ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 2,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 3,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 2,
+      "surface": "mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 3,
+      "surface": "szybko",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 2,
+      "surface": "mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 3,
+      "surface": "po polsku",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 2,
+      "surface": "rozumiem",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 3,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 4,
+      "surface": "znaczy",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 5,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 6,
+      "surface": "słowo",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 1,
+      "surface": "Mówisz",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 2,
+      "surface": "po polsku",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 1,
+      "surface": "Rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 2,
+      "surface": "po polsku",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 3,
+      "surface": "znaczy",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 3,
+      "surface": "oznacza",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 1,
+      "surface": "Rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 2,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 3,
+      "surface": "język",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 2,
+      "surface": "masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 3,
+      "surface": "pytanie",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 2,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 3,
+      "surface": "szybko",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 1,
+      "surface": "Mam",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 2,
+      "surface": "pytanie",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 1,
+      "surface": "Lubię",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 2,
+      "surface": "mówić",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 2,
+      "surface": "lubi",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 3,
+      "surface": "mówić",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 1,
+      "surface": "Kto",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 2,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 2,
+      "surface": "mówisz",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 3,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 1,
+      "surface": "Rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 2,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 3,
+      "surface": "mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 2,
+      "surface": "ona",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 3,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 1,
+      "surface": "Rozumiesz",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 2,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 3,
+      "surface": "on",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 4,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 2,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 3,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 2,
+      "surface": "mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 3,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 2,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 3,
+      "surface": "bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 4,
+      "surface": "szybko",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 3,
+      "surface": "mówię",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 4,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 3,
+      "surface": "mówi",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 4,
+      "surface": "się",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 5,
+      "surface": "po angielsku",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A320021",
+      "sentence_id": "S32002",
+      "direction": "fr_to_en",
+      "answer": "What's the meaning of this word?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320022",
+      "sentence_id": "S32002",
+      "direction": "fr_to_en",
+      "answer": "What is the meaning of this word?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320061",
+      "sentence_id": "S32006",
+      "direction": "fr_to_en",
+      "answer": "He is speaking English.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320091",
+      "sentence_id": "S32009",
+      "direction": "fr_to_en",
+      "answer": "I do not speak Polish.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320131",
+      "sentence_id": "S32013",
+      "direction": "fr_to_en",
+      "answer": "What does this stand for?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320141",
+      "sentence_id": "S32014",
+      "direction": "fr_to_en",
+      "answer": "What does this mean?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320142",
+      "sentence_id": "S32014",
+      "direction": "fr_to_en",
+      "answer": "What does this stand for?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320181",
+      "sentence_id": "S32018",
+      "direction": "fr_to_en",
+      "answer": "I've got a question.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320221",
+      "sentence_id": "S32022",
+      "direction": "fr_to_en",
+      "answer": "Can't you speak English?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320261",
+      "sentence_id": "S32026",
+      "direction": "fr_to_en",
+      "answer": "He speaks no English.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320271",
+      "sentence_id": "S32027",
+      "direction": "fr_to_en",
+      "answer": "I do not speak English.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

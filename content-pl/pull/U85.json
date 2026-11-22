@@ -1,0 +1,1786 @@
+{
+  "unit_id": "U85",
+  "pulled_at": "2026-11-22",
+  "candidates": 128,
+  "sentences": [
+    {
+      "sentence_id": "S85001",
+      "unit_id": "U85",
+      "french": "Tom ma syna i córkę.",
+      "english": "Tom has a son and a daughter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6602839",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "princes21",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85002",
+      "unit_id": "U85",
+      "french": "Masz rodzeństwo?",
+      "english": "Do you have brothers and sisters?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "959561",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Do you have any brothers or sisters?"
+      ]
+    },
+    {
+      "sentence_id": "S85003",
+      "unit_id": "U85",
+      "french": "Jesteś mężatką?",
+      "english": "Are you married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2146160",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85004",
+      "unit_id": "U85",
+      "french": "Masz córkę?",
+      "english": "Do you have a daughter?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10570436",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85005",
+      "unit_id": "U85",
+      "french": "Jaki chcesz prezent?",
+      "english": "What kind of gift do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3579240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cvbge",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85006",
+      "unit_id": "U85",
+      "french": "Naprawdę jesteś żonaty?",
+      "english": "Are you really married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3637571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85007",
+      "unit_id": "U85",
+      "french": "Nie jesteś żonaty?",
+      "english": "Aren't you married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3664650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85008",
+      "unit_id": "U85",
+      "french": "Gdzie twoja babcia?",
+      "english": "Where's your grandmother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7962617",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85009",
+      "unit_id": "U85",
+      "french": "Kiedy jest jej ślub?",
+      "english": "When will her wedding be held?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "904476",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85010",
+      "unit_id": "U85",
+      "french": "Powinienem mu to powiedzieć?",
+      "english": "Ought I to tell it to him?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3064086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85011",
+      "unit_id": "U85",
+      "french": "Czy już mu powiedziałeś?",
+      "english": "Have you told him yet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3375159",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85012",
+      "unit_id": "U85",
+      "french": "Co ty mu robisz?",
+      "english": "What're you doing to him?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3943050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85013",
+      "unit_id": "U85",
+      "french": "Gdzie mieszka twój dziadek?",
+      "english": "Where does your grandfather live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4481561",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Detharon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85014",
+      "unit_id": "U85",
+      "french": "Gdzie jest twoja babcia?",
+      "english": "Where's your grandmother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7962616",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85015",
+      "unit_id": "U85",
+      "french": "Gdzie jest twój wnuk?",
+      "english": "Where's your grandson?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8809779",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "digitcrusher",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85016",
+      "unit_id": "U85",
+      "french": "Co powiedział twój dziadek?",
+      "english": "What did your grandfather say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10168592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shounen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85017",
+      "unit_id": "U85",
+      "french": "Gdzie mieszka jej dziadek?",
+      "english": "Where does her grandfather live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10542286",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85018",
+      "unit_id": "U85",
+      "french": "Co chcesz nam powiedzieć?",
+      "english": "What do you want to tell us?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12191535",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85019",
+      "unit_id": "U85",
+      "french": "Czy Tom był wcześniej żonaty?",
+      "english": "Has Tom ever been married?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1042218",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "yessoos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85020",
+      "unit_id": "U85",
+      "french": "Nie możesz nic nam powiedzieć?",
+      "english": "Can't you tell us anything?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8830587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "digitcrusher",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85021",
+      "unit_id": "U85",
+      "french": "Dla kogo jest ten prezent?",
+      "english": "For whom is the present?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12860391",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JimiYoru",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85022",
+      "unit_id": "U85",
+      "french": "Naprawdę myślisz, że Tom może nam pomóc?",
+      "english": "Do you really think that Tom can help us?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4789126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Chemiczny_Bogdan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85023",
+      "unit_id": "U85",
+      "french": "Jestem mężatką.",
+      "english": "I'm married.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "744053",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85024",
+      "unit_id": "U85",
+      "french": "Kupię samochód.",
+      "english": "I'll buy a car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7881697",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maria_lysik",
+      "other_english": [
+        "I will buy a car."
+      ]
+    },
+    {
+      "sentence_id": "S85025",
+      "unit_id": "U85",
+      "french": "Kupuję prezent.",
+      "english": "I'm buying a present.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8547686",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85026",
+      "unit_id": "U85",
+      "french": "Kupię nowy.",
+      "english": "I'll buy a new one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9678457",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85027",
+      "unit_id": "U85",
+      "french": "Ja to kupię.",
+      "english": "I'll buy this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "568682",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85028",
+      "unit_id": "U85",
+      "french": "Mary jest mężatką.",
+      "english": "Mary is a married woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6305771",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fau",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85029",
+      "unit_id": "U85",
+      "french": "To moje rodzeństwo.",
+      "english": "They are my siblings.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7184612",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85030",
+      "unit_id": "U85",
+      "french": "Dam jej kwiaty.",
+      "english": "I'll give her some flowers.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7803146",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mojeanin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85031",
+      "unit_id": "U85",
+      "french": "Tom miał syna.",
+      "english": "Tom had a son.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8765416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85032",
+      "unit_id": "U85",
+      "french": "To moja babcia.",
+      "english": "This is my grandmother.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10695792",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85033",
+      "unit_id": "U85",
+      "french": "Był zły na syna.",
+      "english": "He was angry with his son.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "551577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85034",
+      "unit_id": "U85",
+      "french": "To był piękny ślub.",
+      "english": "It was a beautiful wedding.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2964000",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ridilla",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85035",
+      "unit_id": "U85",
+      "french": "Ich ślub będzie jutro.",
+      "english": "Their wedding will be tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3838972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85036",
+      "unit_id": "U85",
+      "french": "Tom to mój kuzyn.",
+      "english": "Tom's my cousin.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3996270",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": [
+        "Tom is my cousin."
+      ]
+    },
+    {
+      "sentence_id": "S85037",
+      "unit_id": "U85",
+      "french": "To jest mój kuzyn.",
+      "english": "This is my cousin.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8751135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85038",
+      "unit_id": "U85",
+      "french": "To jest moja kuzynka.",
+      "english": "This is my cousin.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10701993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85039",
+      "unit_id": "U85",
+      "french": "To jest mój wujek.",
+      "english": "This is my uncle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10701995",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S85040",
+      "unit_id": "U85",
+      "french": "To jest moja ciocia.",
+      "english": "This is my aunt.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10701996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S85001",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 3,
+      "surface": "syna",
+      "word_id": "W2524",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 4,
+      "surface": "i",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85001",
+      "position": 5,
+      "surface": "córkę",
+      "word_id": "W2525",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 1,
+      "surface": "Masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85002",
+      "position": 2,
+      "surface": "rodzeństwo",
+      "word_id": "W2514",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85003",
+      "position": 1,
+      "surface": "Jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85003",
+      "position": 2,
+      "surface": "mężatką",
+      "word_id": "W2516",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85004",
+      "position": 1,
+      "surface": "Masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85004",
+      "position": 2,
+      "surface": "córkę",
+      "word_id": "W2525",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85005",
+      "position": 1,
+      "surface": "Jaki",
+      "word_id": "W230",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85005",
+      "position": 2,
+      "surface": "chcesz",
+      "word_id": "W266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85005",
+      "position": 3,
+      "surface": "prezent",
+      "word_id": "W2518",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85006",
+      "position": 1,
+      "surface": "Naprawdę",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85006",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85006",
+      "position": 3,
+      "surface": "żonaty",
+      "word_id": "W2515",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85007",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85007",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85007",
+      "position": 3,
+      "surface": "żonaty",
+      "word_id": "W2515",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85008",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85008",
+      "position": 2,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85008",
+      "position": 3,
+      "surface": "babcia",
+      "word_id": "W2504",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 1,
+      "surface": "Kiedy",
+      "word_id": "W186",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 3,
+      "surface": "jej",
+      "word_id": "W1511",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85009",
+      "position": 4,
+      "surface": "ślub",
+      "word_id": "W2517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 1,
+      "surface": "Powinienem",
+      "word_id": "W2046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 2,
+      "surface": "mu",
+      "word_id": "W2519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 3,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85010",
+      "position": 4,
+      "surface": "powiedzieć",
+      "word_id": "W1529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 2,
+      "surface": "już",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 3,
+      "surface": "mu",
+      "word_id": "W2519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85011",
+      "position": 4,
+      "surface": "powiedziałeś",
+      "word_id": "W1833",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 2,
+      "surface": "ty",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 3,
+      "surface": "mu",
+      "word_id": "W2519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85012",
+      "position": 4,
+      "surface": "robisz",
+      "word_id": "W196",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 2,
+      "surface": "mieszka",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85013",
+      "position": 4,
+      "surface": "dziadek",
+      "word_id": "W2506",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 3,
+      "surface": "twoja",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85014",
+      "position": 4,
+      "surface": "babcia",
+      "word_id": "W2504",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85015",
+      "position": 4,
+      "surface": "wnuk",
+      "word_id": "W2513",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 2,
+      "surface": "powiedział",
+      "word_id": "W2119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 3,
+      "surface": "twój",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85016",
+      "position": 4,
+      "surface": "dziadek",
+      "word_id": "W2506",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 1,
+      "surface": "Gdzie",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 2,
+      "surface": "mieszka",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 3,
+      "surface": "jej",
+      "word_id": "W1511",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85017",
+      "position": 4,
+      "surface": "dziadek",
+      "word_id": "W2506",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 2,
+      "surface": "chcesz",
+      "word_id": "W266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 3,
+      "surface": "nam",
+      "word_id": "W2520",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85018",
+      "position": 4,
+      "surface": "powiedzieć",
+      "word_id": "W1529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 3,
+      "surface": "był",
+      "word_id": "W2103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 4,
+      "surface": "wcześniej",
+      "word_id": "W1829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85019",
+      "position": 5,
+      "surface": "żonaty",
+      "word_id": "W2515",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 2,
+      "surface": "możesz",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 3,
+      "surface": "nic",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 4,
+      "surface": "nam",
+      "word_id": "W2520",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85020",
+      "position": 5,
+      "surface": "powiedzieć",
+      "word_id": "W1529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 1,
+      "surface": "Dla",
+      "word_id": "W1696",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 2,
+      "surface": "kogo",
+      "word_id": "W1514",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 4,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85021",
+      "position": 5,
+      "surface": "prezent",
+      "word_id": "W2518",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 1,
+      "surface": "Naprawdę",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 2,
+      "surface": "myślisz",
+      "word_id": "W1190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 3,
+      "surface": "że",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 5,
+      "surface": "może",
+      "word_id": "W269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 6,
+      "surface": "nam",
+      "word_id": "W2520",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85022",
+      "position": 7,
+      "surface": "pomóc",
+      "word_id": "W1706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85023",
+      "position": 1,
+      "surface": "Jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85023",
+      "position": 2,
+      "surface": "mężatką",
+      "word_id": "W2516",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85024",
+      "position": 1,
+      "surface": "Kupię",
+      "word_id": "W2521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85024",
+      "position": 2,
+      "surface": "samochód",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 1,
+      "surface": "Kupuję",
+      "word_id": "W1678",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85025",
+      "position": 2,
+      "surface": "prezent",
+      "word_id": "W2518",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85026",
+      "position": 1,
+      "surface": "Kupię",
+      "word_id": "W2521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85026",
+      "position": 2,
+      "surface": "nowy",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85027",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85027",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85027",
+      "position": 3,
+      "surface": "kupię",
+      "word_id": "W2521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85028",
+      "position": 1,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85028",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85028",
+      "position": 3,
+      "surface": "mężatką",
+      "word_id": "W2516",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85029",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85029",
+      "position": 2,
+      "surface": "moje",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85029",
+      "position": 3,
+      "surface": "rodzeństwo",
+      "word_id": "W2514",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85030",
+      "position": 1,
+      "surface": "Dam",
+      "word_id": "W2522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85030",
+      "position": 2,
+      "surface": "jej",
+      "word_id": "W1511",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85030",
+      "position": 3,
+      "surface": "kwiaty",
+      "word_id": "W1250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85031",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85031",
+      "position": 2,
+      "surface": "miał",
+      "word_id": "W2111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85031",
+      "position": 3,
+      "surface": "syna",
+      "word_id": "W2524",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85032",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85032",
+      "position": 2,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85032",
+      "position": 3,
+      "surface": "babcia",
+      "word_id": "W2504",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 1,
+      "surface": "Był",
+      "word_id": "W2103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 2,
+      "surface": "zły",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85033",
+      "position": 4,
+      "surface": "syna",
+      "word_id": "W2524",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 2,
+      "surface": "był",
+      "word_id": "W2103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 3,
+      "surface": "piękny",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85034",
+      "position": 4,
+      "surface": "ślub",
+      "word_id": "W2517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W1512",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 2,
+      "surface": "ślub",
+      "word_id": "W2517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 3,
+      "surface": "będzie",
+      "word_id": "W2152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85035",
+      "position": 4,
+      "surface": "jutro",
+      "word_id": "W236",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 3,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85036",
+      "position": 4,
+      "surface": "kuzyn",
+      "word_id": "W2511",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 3,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85037",
+      "position": 4,
+      "surface": "kuzyn",
+      "word_id": "W2511",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 3,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85038",
+      "position": 4,
+      "surface": "kuzynka",
+      "word_id": "W2512",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 3,
+      "surface": "mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85039",
+      "position": 4,
+      "surface": "wujek",
+      "word_id": "W2509",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85040",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85040",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85040",
+      "position": 3,
+      "surface": "moja",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S85040",
+      "position": 4,
+      "surface": "ciocia",
+      "word_id": "W2510",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A850021",
+      "sentence_id": "S85002",
+      "direction": "fr_to_en",
+      "answer": "Do you have any brothers or sisters?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A850241",
+      "sentence_id": "S85024",
+      "direction": "fr_to_en",
+      "answer": "I will buy a car.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A850361",
+      "sentence_id": "S85036",
+      "direction": "fr_to_en",
+      "answer": "Tom is my cousin.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

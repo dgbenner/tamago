@@ -1,0 +1,4884 @@
+{
+ "_about": "Which Wiktionary (Polish) entry each word uses (Builder 2, 2026-11-21): part of speech and, where needed, text the definition must contain (match; exact for the whole definition). A case form or verb form is a form-of entry naming its lemma; lemma_match picks the lemma sense the course teaches (ręce: hand, zła: angry). Homographs take the sense the circle teaches: je the verb (eats), not the pronoun; może the verb (can), so maybe-lines are cut in review; mam and ma from mieć.",
+ "W001": {
+  "pos": "Interjection"
+ },
+ "W002": {
+  "pos": "Particle",
+  "match": "yes"
+ },
+ "W003": {
+  "pos": "Particle"
+ },
+ "W004": {
+  "pos": "Pronoun"
+ },
+ "W005": {
+  "pos": "Pronoun"
+ },
+ "W006": {
+  "pos": "Verb"
+ },
+ "W007": {
+  "pos": "Verb"
+ },
+ "W008": {
+  "pos": "Verb"
+ },
+ "W009": {
+  "pos": "Pronoun",
+  "match": "used to point"
+ },
+ "W010": {
+  "pos": "Conjunction"
+ },
+ "W011": {
+  "pos": "Adverb"
+ },
+ "W012": {
+  "pos": "Adverb"
+ },
+ "W013": {
+  "pos": "Pronoun"
+ },
+ "W014": {
+  "pos": "Particle"
+ },
+ "W015": {
+  "pos": "Particle"
+ },
+ "W016": {
+  "pos": "Pronoun"
+ },
+ "W017": {
+  "pos": "Pronoun",
+  "match": "she"
+ },
+ "W018": {
+  "pos": "Pronoun"
+ },
+ "W019": {
+  "pos": "Pronoun"
+ },
+ "W020": {
+  "pos": "Particle",
+  "match": "only"
+ },
+ "W021": {
+  "pos": "Noun"
+ },
+ "W022": {
+  "pos": "Noun"
+ },
+ "W023": {
+  "pos": "Noun"
+ },
+ "W024": {
+  "pos": "Noun"
+ },
+ "W025": {
+  "pos": "Noun"
+ },
+ "W026": {
+  "pos": "Noun"
+ },
+ "W027": {
+  "pos": "Noun"
+ },
+ "W028": {
+  "pos": "Noun"
+ },
+ "W029": {
+  "pos": "Noun"
+ },
+ "W030": {
+  "pos": "Noun"
+ },
+ "W031": {
+  "pos": "Noun"
+ },
+ "W032": {
+  "pos": "Adjective"
+ },
+ "W033": {
+  "pos": "Adjective"
+ },
+ "W034": {
+  "pos": "Adjective"
+ },
+ "W035": {
+  "pos": "Adjective"
+ },
+ "W036": {
+  "pos": "Noun"
+ },
+ "W037": {
+  "pos": "Noun"
+ },
+ "W038": {
+  "pos": "Interjection"
+ },
+ "W039": {
+  "pos": "Interjection"
+ },
+ "W040": {
+  "pos": "Interjection"
+ },
+ "W041": {
+  "pos": "Interjection"
+ },
+ "W042": {
+  "pos": "Interjection"
+ },
+ "W043": {
+  "pos": "Interjection"
+ },
+ "W044": {
+  "pos": "Interjection"
+ },
+ "W045": {
+  "pos": "Pronoun"
+ },
+ "W046": {
+  "pos": "Pronoun",
+  "match": "reflexive pronoun"
+ },
+ "W047": {
+  "pos": "Verb"
+ },
+ "W048": {
+  "pos": "Conjunction"
+ },
+ "W049": {
+  "pos": "Verb"
+ },
+ "W050": {
+  "pos": "Verb"
+ },
+ "W051": {
+  "pos": "Verb"
+ },
+ "W052": {
+  "pos": "Verb"
+ },
+ "W053": {
+  "pos": "Verb"
+ },
+ "W054": {
+  "pos": "Adverb"
+ },
+ "W055": {
+  "pos": "Adverb"
+ },
+ "W056": {
+  "pos": "Adverb"
+ },
+ "W057": {
+  "pos": "Pronoun",
+  "match": "everything"
+ },
+ "W058": {
+  "pos": "Pronoun"
+ },
+ "W059": {
+  "pos": "Verb"
+ },
+ "W060": {
+  "pos": "Verb"
+ },
+ "W061": {
+  "pos": "Verb",
+  "match": "jeść"
+ },
+ "W062": {
+  "pos": "Verb"
+ },
+ "W063": {
+  "pos": "Verb"
+ },
+ "W064": {
+  "pos": "Verb"
+ },
+ "W065": {
+  "pos": "Verb",
+  "match": "lubić"
+ },
+ "W066": {
+  "pos": "Verb",
+  "match": "lubić"
+ },
+ "W067": {
+  "pos": "Verb",
+  "match": "lubić"
+ },
+ "W068": {
+  "pos": "Verb"
+ },
+ "W069": {
+  "pos": "Noun"
+ },
+ "W070": {
+  "pos": "Noun"
+ },
+ "W071": {
+  "pos": "Noun"
+ },
+ "W072": {
+  "pos": "Noun"
+ },
+ "W073": {
+  "pos": "Noun",
+  "match": "coffee"
+ },
+ "W074": {
+  "pos": "Noun"
+ },
+ "W075": {
+  "pos": "Noun"
+ },
+ "W076": {
+  "pos": "Noun"
+ },
+ "W077": {
+  "pos": "Noun"
+ },
+ "W078": {
+  "pos": "Noun"
+ },
+ "W079": {
+  "pos": "Noun"
+ },
+ "W080": {
+  "pos": "Adverb"
+ },
+ "W081": {
+  "pos": "Adverb"
+ },
+ "W082": {
+  "pos": "Verb",
+  "match": "mieć"
+ },
+ "W083": {
+  "pos": "Verb",
+  "match": "mieć"
+ },
+ "W084": {
+  "pos": "Noun"
+ },
+ "W085": {
+  "pos": "Noun",
+  "match": "dog"
+ },
+ "W086": {
+  "pos": "Noun"
+ },
+ "W087": {
+  "pos": "Noun"
+ },
+ "W088": {
+  "pos": "Noun"
+ },
+ "W089": {
+  "pos": "Noun"
+ },
+ "W090": {
+  "pos": "Noun"
+ },
+ "W091": {
+  "pos": "Noun"
+ },
+ "W092": {
+  "pos": "Noun"
+ },
+ "W093": {
+  "pos": "Noun"
+ },
+ "W094": {
+  "pos": "Noun"
+ },
+ "W095": {
+  "pos": "Pronoun"
+ },
+ "W096": {
+  "pos": "Pronoun"
+ },
+ "W097": {
+  "pos": "Pronoun"
+ },
+ "W098": {
+  "pos": "Pronoun"
+ },
+ "W099": {
+  "pos": "Pronoun"
+ },
+ "W100": {
+  "pos": "Verb"
+ },
+ "W101": {
+  "pos": "Verb"
+ },
+ "W102": {
+  "pos": "Verb"
+ },
+ "W103": {
+  "pos": "Verb"
+ },
+ "W104": {
+  "pos": "Verb"
+ },
+ "W105": {
+  "pos": "Verb",
+  "match": "mieć"
+ },
+ "W106": {
+  "pos": "Noun",
+  "match": "dog"
+ },
+ "W107": {
+  "pos": "Noun"
+ },
+ "W108": {
+  "pos": "Noun"
+ },
+ "W109": {
+  "pos": "Noun",
+  "match": "Suppletive plural"
+ },
+ "W110": {
+  "pos": "Noun"
+ },
+ "W111": {
+  "pos": "Noun"
+ },
+ "W112": {
+  "pos": "Pronoun"
+ },
+ "W113": {
+  "pos": "Adjective"
+ },
+ "W114": {
+  "pos": "Adjective"
+ },
+ "W115": {
+  "pos": "Adjective"
+ },
+ "W116": {
+  "pos": "Adjective"
+ },
+ "W117": {
+  "pos": "Adjective"
+ },
+ "W118": {
+  "pos": "Adjective"
+ },
+ "W119": {
+  "pos": "Adjective"
+ },
+ "W120": {
+  "pos": "Adjective"
+ },
+ "W121": {
+  "pos": "Adjective"
+ },
+ "W122": {
+  "pos": "Adjective"
+ },
+ "W123": {
+  "pos": "Adjective"
+ },
+ "W124": {
+  "pos": "Pronoun"
+ },
+ "W125": {
+  "pos": "Adjective"
+ },
+ "W126": {
+  "pos": "Adjective"
+ },
+ "W127": {
+  "pos": "Noun"
+ },
+ "W128": {
+  "pos": "Noun"
+ },
+ "W129": {
+  "pos": "Noun"
+ },
+ "W130": {
+  "pos": "Noun"
+ },
+ "W131": {
+  "pos": "Noun"
+ },
+ "W132": {
+  "pos": "Noun"
+ },
+ "W133": {
+  "pos": "Noun"
+ },
+ "W134": {
+  "pos": "Conjunction"
+ },
+ "W135": {
+  "pos": "Adverb",
+  "match": "in what place"
+ },
+ "W136": {
+  "pos": "Adverb"
+ },
+ "W137": {
+  "pos": "Adverb"
+ },
+ "W138": {
+  "pos": "Adverb"
+ },
+ "W139": {
+  "pos": "Verb"
+ },
+ "W140": {
+  "pos": "Verb"
+ },
+ "W141": {
+  "pos": "Verb"
+ },
+ "W142": {
+  "pos": "Noun"
+ },
+ "W143": {
+  "pos": "Noun"
+ },
+ "W144": {
+  "pos": "Noun"
+ },
+ "W145": {
+  "pos": "Noun"
+ },
+ "W146": {
+  "pos": "Noun",
+  "match": "apartment"
+ },
+ "W147": {
+  "pos": "Adverb"
+ },
+ "W148": {
+  "pos": "Adverb"
+ },
+ "W149": {
+  "pos": "Adjective"
+ },
+ "W150": {
+  "pos": "Adjective"
+ },
+ "W151": {
+  "pos": "Adjective"
+ },
+ "W152": {
+  "pos": "Adjective"
+ },
+ "W153": {
+  "pos": "Adjective"
+ },
+ "W154": {
+  "pos": "Adjective"
+ },
+ "W155": {
+  "pos": "Adjective"
+ },
+ "W156": {
+  "pos": "Adjective"
+ },
+ "W157": {
+  "pos": "Adjective"
+ },
+ "W158": {
+  "pos": "Adjective"
+ },
+ "W159": {
+  "pos": "Adjective"
+ },
+ "W160": {
+  "pos": "Adjective"
+ },
+ "W161": {
+  "pos": "Particle"
+ },
+ "W162": {
+  "pos": "Adverb"
+ },
+ "W163": {
+  "pos": "Adverb"
+ },
+ "W164": {
+  "pos": "Particle"
+ },
+ "W165": {
+  "pos": "Pronoun"
+ },
+ "W166": {
+  "pos": "Pronoun"
+ },
+ "W167": {
+  "pos": "Pronoun"
+ },
+ "W168": {
+  "pos": "Pronoun"
+ },
+ "W169": {
+  "pos": "Pronoun"
+ },
+ "W170": {
+  "pos": "Pronoun"
+ },
+ "W171": {
+  "pos": "Pronoun"
+ },
+ "W172": {
+  "pos": "Pronoun"
+ },
+ "W173": {
+  "pos": "Noun"
+ },
+ "W174": {
+  "pos": "Noun"
+ },
+ "W175": {
+  "pos": "Noun"
+ },
+ "W176": {
+  "pos": "Noun"
+ },
+ "W177": {
+  "pos": "Noun"
+ },
+ "W178": {
+  "pos": "Noun",
+  "lemma": "imię"
+ },
+ "W179": {
+  "pos": "Noun"
+ },
+ "W180": {
+  "pos": "Noun"
+ },
+ "W181": {
+  "pos": "Noun"
+ },
+ "W182": {
+  "pos": "Noun"
+ },
+ "W183": {
+  "pos": "Noun"
+ },
+ "W184": {
+  "pos": "Noun"
+ },
+ "W185": {
+  "pos": "Noun"
+ },
+ "W186": {
+  "pos": "Conjunction"
+ },
+ "W187": {
+  "pos": "Pronoun"
+ },
+ "W188": {
+  "pos": "Pronoun"
+ },
+ "W189": {
+  "pos": "Pronoun"
+ },
+ "W190": {
+  "pos": "Conjunction"
+ },
+ "W191": {
+  "pos": "Conjunction"
+ },
+ "W192": {
+  "pos": "Verb"
+ },
+ "W193": {
+  "pos": "Verb"
+ },
+ "W194": {
+  "pos": "Verb"
+ },
+ "W195": {
+  "pos": "Verb",
+  "match": "make"
+ },
+ "W196": {
+  "pos": "Verb",
+  "match": "make"
+ },
+ "W197": {
+  "pos": "Verb",
+  "match": "make"
+ },
+ "W198": {
+  "pos": "Verb"
+ },
+ "W199": {
+  "pos": "Pronoun"
+ },
+ "W200": {
+  "pos": "Pronoun"
+ },
+ "W201": {
+  "pos": "Numeral"
+ },
+ "W202": {
+  "pos": "Numeral"
+ },
+ "W203": {
+  "pos": "Numeral"
+ },
+ "W204": {
+  "pos": "Numeral"
+ },
+ "W205": {
+  "pos": "Numeral"
+ },
+ "W206": {
+  "pos": "Numeral"
+ },
+ "W207": {
+  "pos": "Numeral"
+ },
+ "W208": {
+  "pos": "Numeral"
+ },
+ "W209": {
+  "pos": "Numeral"
+ },
+ "W210": {
+  "pos": "Numeral"
+ },
+ "W211": {
+  "pos": "Numeral"
+ },
+ "W212": {
+  "pos": "Numeral"
+ },
+ "W213": {
+  "pos": "Pronoun"
+ },
+ "W214": {
+  "pos": "Noun",
+  "match": "rok"
+ },
+ "W215": {
+  "pos": "Verb",
+  "match": "cost"
+ },
+ "W216": {
+  "pos": "Adjective"
+ },
+ "W217": {
+  "pos": "Adjective"
+ },
+ "W218": {
+  "pos": "Adjective"
+ },
+ "W219": {
+  "pos": "Adjective"
+ },
+ "W220": {
+  "pos": "Adjective"
+ },
+ "W221": {
+  "pos": "Adjective"
+ },
+ "W222": {
+  "pos": "Adjective"
+ },
+ "W223": {
+  "pos": "Adjective"
+ },
+ "W224": {
+  "pos": "Adjective"
+ },
+ "W225": {
+  "pos": "Adjective"
+ },
+ "W226": {
+  "pos": "Adjective"
+ },
+ "W227": {
+  "pos": "Adjective"
+ },
+ "W228": {
+  "pos": "Adjective"
+ },
+ "W229": {
+  "pos": "Noun"
+ },
+ "W230": {
+  "pos": "Pronoun"
+ },
+ "W231": {
+  "pos": "Pronoun"
+ },
+ "W232": {
+  "pos": "Adjective"
+ },
+ "W233": {
+  "pos": "Noun"
+ },
+ "W234": {
+  "pos": "Adverb"
+ },
+ "W235": {
+  "pos": "Adverb"
+ },
+ "W236": {
+  "pos": "Adverb"
+ },
+ "W237": {
+  "pos": "Noun"
+ },
+ "W238": {
+  "pos": "Noun"
+ },
+ "W239": {
+  "pos": "Noun"
+ },
+ "W240": {
+  "pos": "Noun"
+ },
+ "W241": {
+  "pos": "Noun"
+ },
+ "W242": {
+  "pos": "Noun"
+ },
+ "W243": {
+  "pos": "Noun"
+ },
+ "W244": {
+  "pos": "Noun"
+ },
+ "W245": {
+  "pos": "Noun"
+ },
+ "W246": {
+  "pos": "Noun"
+ },
+ "W247": {
+  "pos": "Noun"
+ },
+ "W248": {
+  "pos": "Adverb"
+ },
+ "W249": {
+  "pos": "Adverb"
+ },
+ "W250": {
+  "pos": "Adverb"
+ },
+ "W251": {
+  "pos": "Adverb"
+ },
+ "W252": {
+  "pos": "Adverb"
+ },
+ "W253": {
+  "pos": "Adverb"
+ },
+ "W254": {
+  "pos": "Noun"
+ },
+ "W255": {
+  "pos": "Verb"
+ },
+ "W256": {
+  "pos": "Verb"
+ },
+ "W257": {
+  "pos": "Verb"
+ },
+ "W258": {
+  "pos": "Adjective",
+  "match": "free"
+ },
+ "W259": {
+  "pos": "Verb"
+ },
+ "W260": {
+  "pos": "Verb"
+ },
+ "W261": {
+  "pos": "Verb",
+  "match": "go"
+ },
+ "W262": {
+  "pos": "Verb"
+ },
+ "W263": {
+  "pos": "Verb"
+ },
+ "W264": {
+  "pos": "Adverb"
+ },
+ "W265": {
+  "pos": "Verb"
+ },
+ "W266": {
+  "pos": "Verb"
+ },
+ "W267": {
+  "pos": "Verb"
+ },
+ "W268": {
+  "pos": "Verb"
+ },
+ "W269": {
+  "pos": "Verb",
+  "match": "móc"
+ },
+ "W270": {
+  "pos": "Verb"
+ },
+ "W271": {
+  "pos": "Verb"
+ },
+ "W272": {
+  "pos": "Verb"
+ },
+ "W273": {
+  "pos": "Noun"
+ },
+ "W274": {
+  "pos": "Noun"
+ },
+ "W275": {
+  "pos": "Preposition"
+ },
+ "W276": {
+  "pos": "Verb"
+ },
+ "W701": {
+  "pos": "Verb"
+ },
+ "W702": {
+  "pos": "Verb"
+ },
+ "W703": {
+  "pos": "Adverb"
+ },
+ "W704": {
+  "pos": "Adverb"
+ },
+ "W705": {
+  "pos": "Adverb"
+ },
+ "W706": {
+  "pos": "Verb"
+ },
+ "W707": {
+  "pos": "Verb"
+ },
+ "W708": {
+  "pos": "Verb"
+ },
+ "W709": {
+  "pos": "Verb"
+ },
+ "W710": {
+  "pos": "Verb"
+ },
+ "W711": {
+  "pos": "Particle"
+ },
+ "W712": {
+  "pos": "Noun",
+  "match": "time"
+ },
+ "W713": {
+  "pos": "Verb"
+ },
+ "W714": {
+  "pos": "Verb"
+ },
+ "W715": {
+  "pos": "Verb"
+ },
+ "W716": {
+  "pos": "Verb"
+ },
+ "W717": {
+  "pos": "Verb",
+  "match": "signify"
+ },
+ "W718": {
+  "pos": "Noun"
+ },
+ "W719": {
+  "pos": "Noun",
+  "match": "inquiry"
+ },
+ "W720": {
+  "pos": "Noun",
+  "match": "language"
+ },
+ "W721": {
+  "pos": "Adverb"
+ },
+ "W722": {
+  "pos": "Adverb"
+ },
+ "W723": {
+  "pos": "Adverb"
+ },
+ "W724": {
+  "pos": "Verb"
+ },
+ "W725": {
+  "pos": "Noun"
+ },
+ "W726": {
+  "pos": "Pronoun"
+ },
+ "W727": {
+  "pos": "Verb"
+ },
+ "W728": {
+  "pos": "Verb"
+ },
+ "W1001": {
+  "pos": "Noun"
+ },
+ "W1002": {
+  "pos": "Noun"
+ },
+ "W1003": {
+  "pos": "Noun",
+  "match": "hand",
+  "exact": true
+ },
+ "W1004": {
+  "pos": "Noun",
+  "lemma_match": "hand",
+  "lemma_exact": true
+ },
+ "W1005": {
+  "pos": "Noun"
+ },
+ "W1006": {
+  "pos": "Noun"
+ },
+ "W1007": {
+  "pos": "Noun"
+ },
+ "W1008": {
+  "pos": "Noun"
+ },
+ "W1009": {
+  "pos": "Verb"
+ },
+ "W1010": {
+  "pos": "Verb"
+ },
+ "W1011": {
+  "pos": "Pronoun"
+ },
+ "W1012": {
+  "pos": "Adjective"
+ },
+ "W1013": {
+  "pos": "Adjective"
+ },
+ "W1014": {
+  "pos": "Adjective"
+ },
+ "W1015": {
+  "pos": "Adjective"
+ },
+ "W1016": {
+  "pos": "Adjective"
+ },
+ "W1017": {
+  "pos": "Adjective",
+  "match": "angry"
+ },
+ "W1018": {
+  "pos": "Adjective",
+  "lemma_match": "angry"
+ },
+ "W1019": {
+  "pos": "Verb",
+  "match": "play"
+ },
+ "W1020": {
+  "pos": "Verb",
+  "match": "play"
+ },
+ "W1021": {
+  "pos": "Verb",
+  "match": "play"
+ },
+ "W1022": {
+  "pos": "Verb"
+ },
+ "W1023": {
+  "pos": "Verb"
+ },
+ "W1024": {
+  "pos": "Verb"
+ },
+ "W1025": {
+  "pos": "Noun"
+ },
+ "W1026": {
+  "pos": "Noun"
+ },
+ "W1027": {
+  "pos": "Noun",
+  "match": "ball"
+ },
+ "W1028": {
+  "pos": "Adjective"
+ },
+ "W1029": {
+  "pos": "Noun"
+ },
+ "W1030": {
+  "pos": "Preposition"
+ },
+ "W1031": {
+  "pos": "Verb"
+ },
+ "W1032": {
+  "pos": "Verb"
+ },
+ "W1033": {
+  "pos": "Verb"
+ },
+ "W1034": {
+  "pos": "Verb"
+ },
+ "W1035": {
+  "pos": "Verb"
+ },
+ "W1036": {
+  "pos": "Verb"
+ },
+ "W1037": {
+  "pos": "Verb"
+ },
+ "W1038": {
+  "pos": "Noun"
+ },
+ "W1039": {
+  "pos": "Noun"
+ },
+ "W1040": {
+  "pos": "Noun"
+ },
+ "W1041": {
+  "pos": "Noun"
+ },
+ "W1042": {
+  "pos": "Noun"
+ },
+ "W1043": {
+  "pos": "Noun"
+ },
+ "W1044": {
+  "pos": "Noun"
+ },
+ "W1045": {
+  "pos": "Noun"
+ },
+ "W1046": {
+  "pos": "Noun"
+ },
+ "W1047": {
+  "pos": "Noun"
+ },
+ "W1048": {
+  "pos": "Noun"
+ },
+ "W1049": {
+  "pos": "Noun"
+ },
+ "W1050": {
+  "pos": "Noun"
+ },
+ "W1051": {
+  "pos": "Noun",
+  "match": "post office"
+ },
+ "W1052": {
+  "pos": "Noun"
+ },
+ "W1053": {
+  "pos": "Noun"
+ },
+ "W1054": {
+  "pos": "Adverb"
+ },
+ "W1501": {
+  "pos": "Noun"
+ },
+ "W1502": {
+  "pos": "Verb"
+ },
+ "W1503": {
+  "pos": "Verb"
+ },
+ "W1504": {
+  "pos": "Verb"
+ },
+ "W1505": {
+  "pos": "Verb",
+  "match": "to know"
+ },
+ "W1506": {
+  "pos": "Pronoun"
+ },
+ "W1507": {
+  "pos": "Pronoun"
+ },
+ "W1508": {
+  "pos": "Pronoun"
+ },
+ "W1509": {
+  "pos": "Pronoun"
+ },
+ "W1510": {
+  "pos": "Pronoun",
+  "match": "his"
+ },
+ "W1511": {
+  "pos": "Pronoun",
+  "match": "her:"
+ },
+ "W1512": {
+  "pos": "Pronoun",
+  "match": "their"
+ },
+ "W1513": {
+  "pos": "Pronoun"
+ },
+ "W1514": {
+  "pos": "Pronoun"
+ },
+ "W1515": {
+  "pos": "Pronoun"
+ },
+ "W1516": {
+  "pos": "Adverb"
+ },
+ "W1517": {
+  "pos": "Verb"
+ },
+ "W1518": {
+  "pos": "Verb"
+ },
+ "W1519": {
+  "pos": "Verb"
+ },
+ "W1520": {
+  "pos": "Verb"
+ },
+ "W1521": {
+  "pos": "Verb",
+  "match": "to write (to form"
+ },
+ "W1522": {
+  "pos": "Noun"
+ },
+ "W1523": {
+  "pos": "Noun",
+  "match": "letter"
+ },
+ "W1524": {
+  "pos": "Noun"
+ },
+ "W1525": {
+  "pos": "Noun"
+ },
+ "W1526": {
+  "pos": "Noun"
+ },
+ "W1527": {
+  "pos": "Verb"
+ },
+ "W1528": {
+  "pos": "Verb"
+ },
+ "W1529": {
+  "pos": "Verb"
+ },
+ "W1530": {
+  "pos": "Verb"
+ },
+ "W1531": {
+  "pos": "Verb"
+ },
+ "W1532": {
+  "pos": "Noun"
+ },
+ "W1533": {
+  "pos": "Noun"
+ },
+ "W1534": {
+  "pos": "Noun"
+ },
+ "W1535": {
+  "pos": "Numeral"
+ },
+ "W1536": {
+  "pos": "Numeral"
+ },
+ "W1537": {
+  "pos": "Numeral"
+ },
+ "W1538": {
+  "pos": "Numeral"
+ },
+ "W1539": {
+  "pos": "Numeral"
+ },
+ "W1540": {
+  "pos": "Numeral"
+ },
+ "W1541": {
+  "pos": "Numeral"
+ },
+ "W1542": {
+  "pos": "Numeral"
+ },
+ "W1543": {
+  "pos": "Numeral"
+ },
+ "W1544": {
+  "pos": "Numeral"
+ },
+ "W1545": {
+  "pos": "Verb"
+ },
+ "W1546": {
+  "pos": "Verb"
+ },
+ "W1547": {
+  "pos": "Verb"
+ },
+ "W1548": {
+  "pos": "Verb",
+  "match": "telephone"
+ },
+ "W1549": {
+  "pos": "Verb"
+ },
+ "W1550": {
+  "pos": "Conjunction"
+ },
+ "W1551": {
+  "pos": "Conjunction"
+ },
+ "W1552": {
+  "pos": "Interjection"
+ },
+ "W1553": {
+  "pos": "Preposition"
+ },
+ "W1554": {
+  "pos": "Verb"
+ },
+ "W1555": {
+  "pos": "Verb"
+ },
+ "W1556": {
+  "pos": "Verb"
+ },
+ "W1557": {
+  "pos": "Verb",
+  "match": "perceive with the ear)"
+ },
+ "W1558": {
+  "pos": "Verb"
+ },
+ "W1559": {
+  "pos": "Verb"
+ },
+ "W1560": {
+  "pos": "Verb"
+ },
+ "W1561": {
+  "pos": "Verb"
+ },
+ "W1562": {
+  "pos": "Noun"
+ },
+ "W1563": {
+  "pos": "Pronoun",
+  "match": "wszystko"
+ },
+ "W1564": {
+  "pos": "Adjective"
+ },
+ "W1565": {
+  "pos": "Noun"
+ },
+ "W1566": {
+  "pos": "Noun",
+  "match": "rok"
+ },
+ "W1567": {
+  "pos": "Particle"
+ },
+ "W1568": {
+  "pos": "Adjective"
+ },
+ "W1569": {
+  "pos": "Adjective"
+ },
+ "W1570": {
+  "pos": "Adjective"
+ },
+ "W1571": {
+  "pos": "Adjective"
+ },
+ "W1572": {
+  "pos": "Adjective"
+ },
+ "W1573": {
+  "pos": "Adjective"
+ },
+ "W1574": {
+  "pos": "Conjunction"
+ },
+ "W1575": {
+  "pos": "Particle"
+ },
+ "W1576": {
+  "pos": "Numeral"
+ },
+ "W1577": {
+  "pos": "Noun",
+  "match": "age"
+ },
+ "W1578": {
+  "pos": "Noun"
+ },
+ "W1579": {
+  "pos": "Interjection"
+ },
+ "W1580": {
+  "pos": "Interjection"
+ },
+ "W1581": {
+  "pos": "Adverb"
+ },
+ "W1582": {
+  "pos": "Adverb"
+ },
+ "W1583": {
+  "pos": "Verb"
+ },
+ "W1584": {
+  "pos": "Noun"
+ },
+ "W1585": {
+  "pos": "Particle"
+ },
+ "W1586": {
+  "pos": "Verb"
+ },
+ "W1587": {
+  "pos": "Adverb",
+  "match": "certainly"
+ },
+ "W1588": {
+  "pos": "Adjective"
+ },
+ "W1589": {
+  "pos": "Adjective",
+  "match": "pewny"
+ },
+ "W1590": {
+  "pos": "Adjective",
+  "match": "postpositive"
+ },
+ "W1591": {
+  "pos": "Noun"
+ },
+ "W1592": {
+  "pos": "Numeral"
+ },
+ "W1593": {
+  "pos": "Numeral"
+ },
+ "W1594": {
+  "pos": "Numeral"
+ },
+ "W1595": {
+  "pos": "Numeral"
+ },
+ "W1596": {
+  "pos": "Numeral"
+ },
+ "W1597": {
+  "pos": "Numeral"
+ },
+ "W1598": {
+  "pos": "Numeral"
+ },
+ "W1599": {
+  "pos": "Noun"
+ },
+ "W1600": {
+  "pos": "Adverb"
+ },
+ "W1601": {
+  "pos": "Adverb"
+ },
+ "W1602": {
+  "pos": "Noun"
+ },
+ "W1603": {
+  "pos": "Verb"
+ },
+ "W1604": {
+  "pos": "Verb"
+ },
+ "W1605": {
+  "pos": "Verb"
+ },
+ "W1606": {
+  "pos": "Determiner"
+ },
+ "W1607": {
+  "pos": "Numeral"
+ },
+ "W1608": {
+  "pos": "Particle"
+ },
+ "W1609": {
+  "pos": "Numeral"
+ },
+ "W1610": {
+  "pos": "Particle",
+  "match": "quite"
+ },
+ "W1611": {
+  "pos": "Adjective",
+  "match": "third"
+ },
+ "W1612": {
+  "pos": "Noun"
+ },
+ "W1613": {
+  "pos": "Noun"
+ },
+ "W1614": {
+  "pos": "Noun"
+ },
+ "W1615": {
+  "pos": "Proper noun"
+ },
+ "W1616": {
+  "pos": "Noun"
+ },
+ "W1617": {
+  "pos": "Noun"
+ },
+ "W1618": {
+  "pos": "Noun"
+ },
+ "W1619": {
+  "pos": "Noun"
+ },
+ "W1620": {
+  "pos": "Adjective"
+ },
+ "W1621": {
+  "pos": "Adjective"
+ },
+ "W1622": {
+  "pos": "Adverb"
+ },
+ "W1623": {
+  "pos": "Noun"
+ },
+ "W1624": {
+  "pos": "Noun"
+ },
+ "W1625": {
+  "pos": "Preposition"
+ },
+ "W1626": {
+  "pos": "Noun"
+ },
+ "W1627": {
+  "pos": "Noun"
+ },
+ "W1628": {
+  "pos": "Verb"
+ },
+ "W1629": {
+  "pos": "Verb"
+ },
+ "W1630": {
+  "pos": "Verb"
+ },
+ "W1631": {
+  "pos": "Verb"
+ },
+ "W1632": {
+  "pos": "Preposition"
+ },
+ "W1633": {
+  "pos": "Preposition"
+ },
+ "W1634": {
+  "pos": "Adverb"
+ },
+ "W1635": {
+  "pos": "Adverb"
+ },
+ "W1636": {
+  "pos": "Verb"
+ },
+ "W1637": {
+  "pos": "Verb"
+ },
+ "W1638": {
+  "pos": "Particle"
+ },
+ "W1639": {
+  "pos": "Adverb"
+ },
+ "W1640": {
+  "pos": "Adverb"
+ },
+ "W1641": {
+  "pos": "Noun",
+  "match": "life"
+ },
+ "W1642": {
+  "pos": "Pronoun"
+ },
+ "W1643": {
+  "pos": "Preposition",
+  "match": "delative"
+ },
+ "W1644": {
+  "pos": "Preposition"
+ },
+ "W1645": {
+  "pos": "Proper noun"
+ },
+ "W1646": {
+  "pos": "Proper noun"
+ },
+ "W1647": {
+  "pos": "Proper noun"
+ },
+ "W1648": {
+  "pos": "Proper noun"
+ },
+ "W1649": {
+  "pos": "Proper noun",
+  "match": "genitive plural of Niemcy"
+ },
+ "W1650": {
+  "pos": "Proper noun"
+ },
+ "W1651": {
+  "pos": "Proper noun"
+ },
+ "W1652": {
+  "pos": "Proper noun"
+ },
+ "W1653": {
+  "pos": "Proper noun"
+ },
+ "W1654": {
+  "pos": "Noun"
+ },
+ "W1655": {
+  "pos": "Noun"
+ },
+ "W1656": {
+  "pos": "Noun"
+ },
+ "W1657": {
+  "pos": "Verb"
+ },
+ "W1658": {
+  "pos": "Verb"
+ },
+ "W1659": {
+  "pos": "Verb",
+  "match": "come"
+ },
+ "W1660": {
+  "pos": "Adjective"
+ },
+ "W1661": {
+  "pos": "Adjective"
+ },
+ "W1662": {
+  "pos": "Preposition"
+ },
+ "W1663": {
+  "pos": "Adjective"
+ },
+ "W1664": {
+  "pos": "Adjective"
+ },
+ "W1665": {
+  "pos": "Adjective"
+ },
+ "W1666": {
+  "pos": "Particle"
+ },
+ "W1667": {
+  "pos": "Particle"
+ },
+ "W1668": {
+  "pos": "Particle"
+ },
+ "W1669": {
+  "pos": "Verb"
+ },
+ "W1670": {
+  "pos": "Verb"
+ },
+ "W1671": {
+  "pos": "Verb"
+ },
+ "W1672": {
+  "pos": "Verb"
+ },
+ "W1673": {
+  "pos": "Adjective"
+ },
+ "W1674": {
+  "pos": "Adjective"
+ },
+ "W1675": {
+  "pos": "Adjective"
+ },
+ "W1676": {
+  "pos": "Noun",
+  "match": "market"
+ },
+ "W1677": {
+  "pos": "Noun"
+ },
+ "W1678": {
+  "pos": "Verb"
+ },
+ "W1679": {
+  "pos": "Verb"
+ },
+ "W1680": {
+  "pos": "Verb"
+ },
+ "W1681": {
+  "pos": "Verb"
+ },
+ "W1682": {
+  "pos": "Noun"
+ },
+ "W1683": {
+  "pos": "Noun"
+ },
+ "W1684": {
+  "pos": "Noun"
+ },
+ "W1685": {
+  "pos": "Verb"
+ },
+ "W1686": {
+  "pos": "Verb"
+ },
+ "W1687": {
+  "pos": "Verb"
+ },
+ "W1688": {
+  "pos": "Verb"
+ },
+ "W1689": {
+  "pos": "Verb"
+ },
+ "W1690": {
+  "pos": "Verb"
+ },
+ "W1691": {
+  "pos": "Adjective"
+ },
+ "W1692": {
+  "pos": "Verb"
+ },
+ "W1693": {
+  "pos": "Verb"
+ },
+ "W1694": {
+  "pos": "Verb"
+ },
+ "W1695": {
+  "pos": "Verb"
+ },
+ "W1696": {
+  "pos": "Preposition"
+ },
+ "W1697": {
+  "pos": "Noun"
+ },
+ "W1698": {
+  "pos": "Noun"
+ },
+ "W1699": {
+  "pos": "Conjunction"
+ },
+ "W1700": {
+  "pos": "Pronoun"
+ },
+ "W1701": {
+  "pos": "Pronoun"
+ },
+ "W1702": {
+  "pos": "Verb"
+ },
+ "W1703": {
+  "pos": "Verb"
+ },
+ "W1704": {
+  "pos": "Verb"
+ },
+ "W1705": {
+  "pos": "Noun"
+ },
+ "W1706": {
+  "pos": "Verb"
+ },
+ "W1707": {
+  "pos": "Verb"
+ },
+ "W1708": {
+  "pos": "Noun"
+ },
+ "W1709": {
+  "pos": "Interjection"
+ },
+ "W1710": {
+  "pos": "Interjection"
+ },
+ "W1711": {
+  "pos": "Particle"
+ },
+ "W1712": {
+  "pos": "Verb"
+ },
+ "W1713": {
+  "pos": "Adverb"
+ },
+ "W1714": {
+  "pos": "Interjection"
+ },
+ "W1715": {
+  "pos": "Particle"
+ },
+ "W1716": {
+  "pos": "Noun"
+ },
+ "W1717": {
+  "pos": "Noun"
+ },
+ "W1718": {
+  "pos": "Adjective"
+ },
+ "W1719": {
+  "pos": "Particle"
+ },
+ "W1720": {
+  "pos": "Verb"
+ },
+ "W1721": {
+  "pos": "Verb"
+ },
+ "W1722": {
+  "pos": "Verb"
+ },
+ "W1723": {
+  "pos": "Interjection"
+ },
+ "W1724": {
+  "pos": "Particle"
+ },
+ "W1725": {
+  "pos": "Verb"
+ },
+ "W1726": {
+  "pos": "Verb"
+ },
+ "W1727": {
+  "pos": "Verb"
+ },
+ "W1728": {
+  "pos": "Noun"
+ },
+ "W1729": {
+  "pos": "Noun",
+  "match": "zloty"
+ },
+ "W1730": {
+  "pos": "Noun"
+ },
+ "W1731": {
+  "pos": "Noun"
+ },
+ "W1732": {
+  "pos": "Noun"
+ },
+ "W1733": {
+  "pos": "Noun"
+ },
+ "W1734": {
+  "pos": "Adjective"
+ },
+ "W1735": {
+  "pos": "Adjective"
+ },
+ "W1736": {
+  "pos": "Adjective"
+ },
+ "W1737": {
+  "pos": "Adjective"
+ },
+ "W1738": {
+  "pos": "Adverb"
+ },
+ "W1739": {
+  "pos": "Adverb"
+ },
+ "W1740": {
+  "pos": "Verb"
+ },
+ "W1741": {
+  "pos": "Verb"
+ },
+ "W1742": {
+  "pos": "Verb"
+ },
+ "W1743": {
+  "pos": "Verb"
+ },
+ "W1744": {
+  "pos": "Verb"
+ },
+ "W1745": {
+  "pos": "Particle"
+ },
+ "W1746": {
+  "pos": "Pronoun"
+ },
+ "W1747": {
+  "pos": "Pronoun"
+ },
+ "W1748": {
+  "pos": "Pronoun"
+ },
+ "W1749": {
+  "pos": "Noun"
+ },
+ "W1750": {
+  "pos": "Particle"
+ },
+ "W1751": {
+  "pos": "Particle"
+ },
+ "W1752": {
+  "pos": "Noun"
+ },
+ "W1753": {
+  "pos": "Noun"
+ },
+ "W1754": {
+  "pos": "Noun"
+ },
+ "W1755": {
+  "pos": "Noun"
+ },
+ "W1756": {
+  "pos": "Noun",
+  "match": "coffee"
+ },
+ "W1757": {
+  "pos": "Noun"
+ },
+ "W1758": {
+  "pos": "Noun"
+ },
+ "W1759": {
+  "pos": "Noun"
+ },
+ "W1760": {
+  "pos": "Noun"
+ },
+ "W1761": {
+  "pos": "Noun"
+ },
+ "W1762": {
+  "pos": "Noun"
+ },
+ "W1763": {
+  "pos": "Noun"
+ },
+ "W1764": {
+  "pos": "Noun"
+ },
+ "W1765": {
+  "pos": "Noun"
+ },
+ "W1766": {
+  "pos": "Noun"
+ },
+ "W1767": {
+  "pos": "Noun"
+ },
+ "W1768": {
+  "pos": "Pronoun"
+ },
+ "W1769": {
+  "pos": "Adjective"
+ },
+ "W1770": {
+  "pos": "Adjective"
+ },
+ "W1771": {
+  "pos": "Adjective"
+ },
+ "W1772": {
+  "pos": "Pronoun"
+ },
+ "W1773": {
+  "pos": "Conjunction"
+ },
+ "W1774": {
+  "pos": "Preposition",
+  "match": "without"
+ },
+ "W1775": {
+  "pos": "Noun"
+ },
+ "W1776": {
+  "pos": "Noun",
+  "match": "książka"
+ },
+ "W1777": {
+  "pos": "Noun",
+  "match": "food"
+ },
+ "W1778": {
+  "pos": "Noun"
+ },
+ "W1779": {
+  "pos": "Pronoun"
+ },
+ "W1780": {
+  "pos": "Noun"
+ },
+ "W1781": {
+  "pos": "Noun"
+ },
+ "W1101": {
+  "pos": "Noun"
+ },
+ "W1102": {
+  "pos": "Noun"
+ },
+ "W1103": {
+  "pos": "Noun"
+ },
+ "W1104": {
+  "pos": "Noun"
+ },
+ "W1105": {
+  "pos": "Noun"
+ },
+ "W1106": {
+  "pos": "Noun"
+ },
+ "W1107": {
+  "pos": "Noun"
+ },
+ "W1108": {
+  "pos": "Noun"
+ },
+ "W1109": {
+  "pos": "Noun"
+ },
+ "W1110": {
+  "pos": "Verb"
+ },
+ "W1111": {
+  "pos": "Verb"
+ },
+ "W1112": {
+  "pos": "Verb"
+ },
+ "W1113": {
+  "pos": "Noun"
+ },
+ "W1114": {
+  "pos": "Adjective"
+ },
+ "W1115": {
+  "pos": "Adjective"
+ },
+ "W1116": {
+  "pos": "Adjective"
+ },
+ "W1117": {
+  "pos": "Noun"
+ },
+ "W1118": {
+  "pos": "Noun"
+ },
+ "W1119": {
+  "pos": "Noun",
+  "match": "classroom"
+ },
+ "W1120": {
+  "pos": "Noun"
+ },
+ "W1121": {
+  "pos": "Noun"
+ },
+ "W1122": {
+  "pos": "Noun"
+ },
+ "W1123": {
+  "pos": "Verb"
+ },
+ "W1124": {
+  "pos": "Verb"
+ },
+ "W1125": {
+  "pos": "Verb"
+ },
+ "W1126": {
+  "pos": "Verb"
+ },
+ "W1127": {
+  "pos": "Verb"
+ },
+ "W1128": {
+  "pos": "Verb"
+ },
+ "W1129": {
+  "pos": "Noun"
+ },
+ "W1130": {
+  "pos": "Noun"
+ },
+ "W1131": {
+  "pos": "Noun"
+ },
+ "W1132": {
+  "pos": "Noun"
+ },
+ "W1133": {
+  "pos": "Noun"
+ },
+ "W1134": {
+  "pos": "Noun"
+ },
+ "W1135": {
+  "pos": "Verb"
+ },
+ "W1136": {
+  "pos": "Verb"
+ },
+ "W1137": {
+  "pos": "Verb"
+ },
+ "W1138": {
+  "pos": "Verb"
+ },
+ "W1139": {
+  "pos": "Verb"
+ },
+ "W1140": {
+  "pos": "Verb"
+ },
+ "W1141": {
+  "pos": "Verb"
+ },
+ "W1142": {
+  "pos": "Adjective"
+ },
+ "W1143": {
+  "pos": "Adjective"
+ },
+ "W1144": {
+  "pos": "Noun"
+ },
+ "W1145": {
+  "pos": "Noun"
+ },
+ "W1146": {
+  "pos": "Preposition",
+  "match": "about"
+ },
+ "W1147": {
+  "pos": "Pronoun",
+  "match": "locative"
+ },
+ "W1148": {
+  "pos": "Pronoun"
+ },
+ "W1149": {
+  "pos": "Verb"
+ },
+ "W1150": {
+  "pos": "Verb"
+ },
+ "W1151": {
+  "pos": "Verb"
+ },
+ "W1152": {
+  "pos": "Verb"
+ },
+ "W1153": {
+  "pos": "Noun"
+ },
+ "W1154": {
+  "pos": "Noun",
+  "match": "page"
+ },
+ "W1155": {
+  "pos": "Noun"
+ },
+ "W1156": {
+  "pos": "Noun"
+ },
+ "W1157": {
+  "pos": "Noun"
+ },
+ "W1158": {
+  "pos": "Verb"
+ },
+ "W1159": {
+  "pos": "Noun"
+ },
+ "W1160": {
+  "pos": "Noun"
+ },
+ "W1161": {
+  "pos": "Verb"
+ },
+ "W1162": {
+  "pos": "Verb"
+ },
+ "W1163": {
+  "pos": "Noun"
+ },
+ "W1164": {
+  "pos": "Noun"
+ },
+ "W1165": {
+  "pos": "Adjective"
+ },
+ "W1166": {
+  "pos": "Adjective"
+ },
+ "W1167": {
+  "pos": "Adjective",
+  "match": "fat"
+ },
+ "W1168": {
+  "pos": "Adjective"
+ },
+ "W1169": {
+  "pos": "Adjective"
+ },
+ "W1170": {
+  "pos": "Adjective"
+ },
+ "W1171": {
+  "pos": "Adjective"
+ },
+ "W1172": {
+  "pos": "Adjective"
+ },
+ "W1173": {
+  "pos": "Adjective"
+ },
+ "W1174": {
+  "pos": "Adjective"
+ },
+ "W1175": {
+  "pos": "Adjective"
+ },
+ "W1176": {
+  "pos": "Adjective"
+ },
+ "W1177": {
+  "pos": "Adjective"
+ },
+ "W1178": {
+  "pos": "Adjective"
+ },
+ "W1179": {
+  "pos": "Verb",
+  "match": "look like"
+ },
+ "W1180": {
+  "form_of": "wyglądać",
+  "person": "ty"
+ },
+ "W1181": {
+  "form_of": "wyglądać",
+  "person": "ja"
+ },
+ "W1182": {
+  "pos": "Verb"
+ },
+ "W1183": {
+  "pos": "Verb"
+ },
+ "W1184": {
+  "pos": "Verb"
+ },
+ "W1185": {
+  "pos": "Noun"
+ },
+ "W1186": {
+  "pos": "Noun"
+ },
+ "W1187": {
+  "pos": "Adjective"
+ },
+ "W1188": {
+  "pos": "Adjective"
+ },
+ "W1189": {
+  "pos": "Verb"
+ },
+ "W1190": {
+  "pos": "Verb"
+ },
+ "W1191": {
+  "pos": "Verb",
+  "match": "myśleć"
+ },
+ "W1192": {
+  "pos": "Verb"
+ },
+ "W1193": {
+  "pos": "Adjective"
+ },
+ "W1194": {
+  "pos": "Adjective"
+ },
+ "W1195": {
+  "pos": "Adjective"
+ },
+ "W1196": {
+  "pos": "Noun"
+ },
+ "W1197": {
+  "pos": "Noun"
+ },
+ "W1198": {
+  "pos": "Adjective"
+ },
+ "W1199": {
+  "pos": "Adjective"
+ },
+ "W1200": {
+  "pos": "Adjective"
+ },
+ "W1201": {
+  "pos": "Adjective"
+ },
+ "W1202": {
+  "pos": "Adjective"
+ },
+ "W1203": {
+  "pos": "Adverb"
+ },
+ "W1204": {
+  "pos": "Adjective"
+ },
+ "W1205": {
+  "pos": "Adjective"
+ },
+ "W1206": {
+  "pos": "Adverb"
+ },
+ "W1207": {
+  "pos": "Adjective"
+ },
+ "W1208": {
+  "pos": "Adjective"
+ },
+ "W1209": {
+  "pos": "Adjective"
+ },
+ "W1210": {
+  "pos": "Adverb"
+ },
+ "W1211": {
+  "pos": "Adjective"
+ },
+ "W1212": {
+  "pos": "Adverb"
+ },
+ "W1213": {
+  "pos": "Adverb"
+ },
+ "W1214": {
+  "pos": "Adjective"
+ },
+ "W1215": {
+  "pos": "Adjective"
+ },
+ "W1216": {
+  "pos": "Adjective"
+ },
+ "W1217": {
+  "pos": "Adjective"
+ },
+ "W1218": {
+  "pos": "Adjective"
+ },
+ "W1219": {
+  "pos": "Adverb"
+ },
+ "W1220": {
+  "pos": "Adjective"
+ },
+ "W1221": {
+  "pos": "Adjective"
+ },
+ "W1222": {
+  "pos": "Adjective",
+  "match": "simple (non-distinct)"
+ },
+ "W1223": {
+  "pos": "Adjective"
+ },
+ "W1224": {
+  "pos": "Adjective"
+ },
+ "W1225": {
+  "pos": "Adjective"
+ },
+ "W1226": {
+  "pos": "Adjective"
+ },
+ "W1227": {
+  "pos": "Adjective"
+ },
+ "W1228": {
+  "pos": "Adjective"
+ },
+ "W1229": {
+  "pos": "Particle"
+ },
+ "W1230": {
+  "pos": "Adjective"
+ },
+ "W1231": {
+  "pos": "Adjective"
+ },
+ "W1232": {
+  "pos": "Adverb"
+ },
+ "W1233": {
+  "pos": "Adverb"
+ },
+ "W1234": {
+  "pos": "Adverb"
+ },
+ "W1235": {
+  "pos": "Adjective"
+ },
+ "W1236": {
+  "pos": "Adjective"
+ },
+ "W1237": {
+  "pos": "Adjective"
+ },
+ "W1238": {
+  "pos": "Adjective"
+ },
+ "W1239": {
+  "pos": "Adverb"
+ },
+ "W1240": {
+  "pos": "Noun",
+  "match": "sea"
+ },
+ "W1241": {
+  "pos": "Noun"
+ },
+ "W1242": {
+  "pos": "Noun"
+ },
+ "W1243": {
+  "pos": "Noun"
+ },
+ "W1244": {
+  "pos": "Noun"
+ },
+ "W1245": {
+  "pos": "Noun"
+ },
+ "W1246": {
+  "pos": "Noun"
+ },
+ "W1247": {
+  "pos": "Noun"
+ },
+ "W1248": {
+  "pos": "Noun"
+ },
+ "W1249": {
+  "pos": "Noun"
+ },
+ "W1250": {
+  "pos": "Noun"
+ },
+ "W1251": {
+  "pos": "Noun",
+  "match": "sun"
+ },
+ "W1252": {
+  "pos": "Noun"
+ },
+ "W1253": {
+  "pos": "Noun"
+ },
+ "W1254": {
+  "pos": "Noun"
+ },
+ "W1255": {
+  "pos": "Noun"
+ },
+ "W1256": {
+  "pos": "Verb"
+ },
+ "W1257": {
+  "pos": "Verb"
+ },
+ "W1258": {
+  "pos": "Verb"
+ },
+ "W1259": {
+  "pos": "Verb"
+ },
+ "W1260": {
+  "pos": "Verb"
+ },
+ "W1261": {
+  "pos": "Verb"
+ },
+ "W1262": {
+  "pos": "Verb",
+  "match": "stand"
+ },
+ "W1263": {
+  "pos": "Verb"
+ },
+ "W1264": {
+  "pos": "Verb"
+ },
+ "W1265": {
+  "pos": "Verb"
+ },
+ "W1266": {
+  "pos": "Verb",
+  "match": "walk"
+ },
+ "W1267": {
+  "pos": "Preposition"
+ },
+ "W1268": {
+  "pos": "Noun"
+ },
+ "W1269": {
+  "pos": "Verb"
+ },
+ "W1270": {
+  "pos": "Verb"
+ },
+ "W1271": {
+  "pos": "Verb"
+ },
+ "W1272": {
+  "pos": "Verb"
+ },
+ "W1273": {
+  "pos": "Adverb"
+ },
+ "W1274": {
+  "pos": "Noun"
+ },
+ "W1275": {
+  "pos": "Noun"
+ },
+ "W1276": {
+  "pos": "Adverb",
+  "match": "comparative"
+ },
+ "W1277": {
+  "pos": "Noun"
+ },
+ "W1801": {
+  "pos": "Pronoun"
+ },
+ "W1802": {
+  "pos": "Noun"
+ },
+ "W1803": {
+  "pos": "Noun"
+ },
+ "W1804": {
+  "pos": "Noun"
+ },
+ "W1805": {
+  "pos": "Noun"
+ },
+ "W1806": {
+  "pos": "Noun"
+ },
+ "W1807": {
+  "pos": "Noun"
+ },
+ "W1808": {
+  "pos": "Noun"
+ },
+ "W1809": {
+  "pos": "Noun"
+ },
+ "W1810": {
+  "pos": "Noun"
+ },
+ "W1811": {
+  "pos": "Noun"
+ },
+ "W1812": {
+  "pos": "Noun"
+ },
+ "W1813": {
+  "pos": "Noun"
+ },
+ "W1814": {
+  "pos": "Noun",
+  "match": "of trzecia"
+ },
+ "W1815": {
+  "pos": "Noun",
+  "match": "of czwarta"
+ },
+ "W1816": {
+  "pos": "Noun",
+  "match": "of ósma"
+ },
+ "W1817": {
+  "pos": "Adverb"
+ },
+ "W1818": {
+  "pos": "Noun"
+ },
+ "W1819": {
+  "pos": "Numeral"
+ },
+ "W1820": {
+  "pos": "Noun"
+ },
+ "W1821": {
+  "pos": "Noun"
+ },
+ "W1822": {
+  "pos": "Noun"
+ },
+ "W1823": {
+  "pos": "Noun"
+ },
+ "W1824": {
+  "pos": "Noun"
+ },
+ "W1825": {
+  "pos": "Noun"
+ },
+ "W1826": {
+  "pos": "Noun"
+ },
+ "W1827": {
+  "pos": "Noun"
+ },
+ "W1828": {
+  "pos": "Adverb",
+  "match": "later"
+ },
+ "W1829": {
+  "pos": "Adverb"
+ },
+ "W1830": {
+  "pos": "Noun"
+ },
+ "W1831": {
+  "pos": "Adjective"
+ },
+ "W1832": {
+  "pos": "Adjective"
+ },
+ "W1833": {
+  "pos": "Verb"
+ },
+ "W1834": {
+  "pos": "Verb"
+ },
+ "W1835": {
+  "pos": "Verb"
+ },
+ "W1836": {
+  "pos": "Verb"
+ },
+ "W1837": {
+  "pos": "Verb"
+ },
+ "W1838": {
+  "pos": "Noun"
+ },
+ "W1839": {
+  "pos": "Adverb"
+ },
+ "W1840": {
+  "pos": "Adverb"
+ },
+ "W1841": {
+  "pos": "Adverb"
+ },
+ "W1842": {
+  "pos": "Adverb"
+ },
+ "W1843": {
+  "pos": "Verb"
+ },
+ "W1844": {
+  "pos": "Verb"
+ },
+ "W1845": {
+  "pos": "Noun"
+ },
+ "W1846": {
+  "pos": "Noun"
+ },
+ "W1847": {
+  "pos": "Noun"
+ },
+ "W1848": {
+  "pos": "Noun"
+ },
+ "W1849": {
+  "pos": "Particle"
+ },
+ "W1850": {
+  "pos": "Adverb"
+ },
+ "W1851": {
+  "pos": "Adverb"
+ },
+ "W1852": {
+  "pos": "Adverb"
+ },
+ "W1853": {
+  "pos": "Adverb"
+ },
+ "W1854": {
+  "pos": "Noun"
+ },
+ "W1855": {
+  "pos": "Adjective"
+ },
+ "W1856": {
+  "pos": "Adjective"
+ },
+ "W1857": {
+  "pos": "Adverb"
+ },
+ "W1858": {
+  "pos": "Adverb"
+ },
+ "W1859": {
+  "pos": "Adverb"
+ },
+ "W1860": {
+  "pos": "Adverb"
+ },
+ "W1861": {
+  "pos": "Conjunction"
+ },
+ "W1862": {
+  "pos": "Noun"
+ },
+ "W1863": {
+  "pos": "Noun"
+ },
+ "W1864": {
+  "pos": "Noun",
+  "match": "locative",
+  "lemma_match": "February"
+ },
+ "W1865": {
+  "pos": "Noun"
+ },
+ "W1866": {
+  "pos": "Noun"
+ },
+ "W1867": {
+  "pos": "Noun"
+ },
+ "W1868": {
+  "pos": "Noun"
+ },
+ "W1869": {
+  "pos": "Noun"
+ },
+ "W1870": {
+  "pos": "Noun"
+ },
+ "W1871": {
+  "pos": "Noun"
+ },
+ "W1872": {
+  "pos": "Noun"
+ },
+ "W1873": {
+  "pos": "Noun"
+ },
+ "W1874": {
+  "pos": "Noun"
+ },
+ "W1875": {
+  "pos": "Noun"
+ },
+ "W1876": {
+  "pos": "Noun"
+ },
+ "W1877": {
+  "pos": "Noun"
+ },
+ "W1878": {
+  "pos": "Noun"
+ },
+ "W1879": {
+  "pos": "Noun"
+ },
+ "W1880": {
+  "pos": "Noun"
+ },
+ "W1881": {
+  "pos": "Noun"
+ },
+ "W1882": {
+  "pos": "Noun"
+ },
+ "W1883": {
+  "pos": "Noun"
+ },
+ "W1884": {
+  "pos": "Noun"
+ },
+ "W1885": {
+  "pos": "Noun"
+ },
+ "W1886": {
+  "pos": "Noun"
+ },
+ "W1887": {
+  "pos": "Noun",
+  "match": "inflection of święto"
+ },
+ "W1888": {
+  "pos": "Noun"
+ },
+ "W1889": {
+  "pos": "Verb"
+ },
+ "W1890": {
+  "pos": "Verb",
+  "lemma_match": "wonder"
+ },
+ "W1891": {
+  "pos": "Verb",
+  "match": "think"
+ },
+ "W1892": {
+  "pos": "Particle"
+ },
+ "W1893": {
+  "pos": "Particle"
+ },
+ "W1894": {
+  "pos": "Verb"
+ },
+ "W1895": {
+  "pos": "Particle"
+ },
+ "W1896": {
+  "pos": "Conjunction"
+ },
+ "W1897": {
+  "pos": "Noun"
+ },
+ "W1898": {
+  "pos": "Preposition"
+ },
+ "W1899": {
+  "pos": "Pronoun"
+ },
+ "W1900": {
+  "pos": "Pronoun"
+ },
+ "W1901": {
+  "pos": "Pronoun"
+ },
+ "W1902": {
+  "pos": "Noun"
+ },
+ "W1903": {
+  "pos": "Noun"
+ },
+ "W1904": {
+  "pos": "Noun"
+ },
+ "W1905": {
+  "pos": "Verb"
+ },
+ "W1906": {
+  "pos": "Verb"
+ },
+ "W1907": {
+  "pos": "Verb"
+ },
+ "W1908": {
+  "pos": "Noun"
+ },
+ "W1909": {
+  "pos": "Noun"
+ },
+ "W1910": {
+  "pos": "Noun"
+ },
+ "W1911": {
+  "pos": "Verb"
+ },
+ "W1912": {
+  "pos": "Verb"
+ },
+ "W1913": {
+  "pos": "Verb"
+ },
+ "W1914": {
+  "pos": "Noun"
+ },
+ "W1915": {
+  "pos": "Noun"
+ },
+ "W1916": {
+  "pos": "Noun"
+ },
+ "W1917": {
+  "pos": "Adverb"
+ },
+ "W1918": {
+  "pos": "Verb",
+  "match": "imperative"
+ },
+ "W1919": {
+  "pos": "Verb"
+ },
+ "W1920": {
+  "pos": "Verb"
+ },
+ "W1921": {
+  "pos": "Noun"
+ },
+ "W1922": {
+  "pos": "Noun"
+ },
+ "W1923": {
+  "pos": "Noun"
+ },
+ "W1924": {
+  "pos": "Verb"
+ },
+ "W1925": {
+  "pos": "Verb"
+ },
+ "W1926": {
+  "pos": "Verb"
+ },
+ "W1927": {
+  "pos": "Verb"
+ },
+ "W1928": {
+  "pos": "Verb"
+ },
+ "W1929": {
+  "pos": "Noun"
+ },
+ "W1930": {
+  "pos": "Noun"
+ },
+ "W1931": {
+  "pos": "Noun"
+ },
+ "W1932": {
+  "pos": "Noun"
+ },
+ "W1933": {
+  "pos": "Noun"
+ },
+ "W1934": {
+  "pos": "Verb"
+ },
+ "W1935": {
+  "pos": "Noun"
+ },
+ "W1936": {
+  "pos": "Verb"
+ },
+ "W1937": {
+  "pos": "Verb"
+ },
+ "W1938": {
+  "pos": "Verb"
+ },
+ "W1939": {
+  "pos": "Preposition"
+ },
+ "W1940": {
+  "pos": "Noun"
+ },
+ "W1941": {
+  "pos": "Noun"
+ },
+ "W1942": {
+  "pos": "Noun"
+ },
+ "W1943": {
+  "pos": "Noun"
+ },
+ "W1944": {
+  "pos": "Noun"
+ },
+ "W1945": {
+  "pos": "Noun"
+ },
+ "W1946": {
+  "pos": "Noun",
+  "match": "of siódma"
+ },
+ "W1947": {
+  "pos": "Noun",
+  "match": "of szósta"
+ },
+ "W1948": {
+  "pos": "Noun",
+  "match": "of dziewiąta"
+ },
+ "W1949": {
+  "pos": "Noun",
+  "match": "of piąta"
+ },
+ "W1950": {
+  "pos": "Noun"
+ },
+ "W1951": {
+  "pos": "Noun"
+ },
+ "W1952": {
+  "pos": "Noun"
+ },
+ "W1953": {
+  "pos": "Noun"
+ },
+ "W1954": {
+  "pos": "Noun"
+ },
+ "W1955": {
+  "pos": "Noun"
+ },
+ "W1956": {
+  "pos": "Verb",
+  "match": "smoke"
+ },
+ "W1957": {
+  "pos": "Noun"
+ },
+ "W1958": {
+  "pos": "Noun"
+ },
+ "W1959": {
+  "pos": "Noun"
+ },
+ "W1960": {
+  "pos": "Noun"
+ },
+ "W1961": {
+  "pos": "Noun"
+ },
+ "W1962": {
+  "pos": "Adjective",
+  "lemma_match": "open"
+ },
+ "W1963": {
+  "pos": "Adjective"
+ },
+ "W1964": {
+  "pos": "Noun"
+ },
+ "W1965": {
+  "pos": "Verb"
+ },
+ "W1966": {
+  "pos": "Noun"
+ },
+ "W1967": {
+  "pos": "Noun"
+ },
+ "W1968": {
+  "pos": "Noun"
+ },
+ "W1969": {
+  "pos": "Noun"
+ },
+ "W1970": {
+  "pos": "Noun"
+ },
+ "W1971": {
+  "pos": "Noun"
+ },
+ "W1972": {
+  "pos": "Noun"
+ },
+ "W1973": {
+  "pos": "Noun"
+ },
+ "W1974": {
+  "pos": "Verb"
+ },
+ "W1975": {
+  "pos": "Verb"
+ },
+ "W1976": {
+  "pos": "Verb"
+ },
+ "W1977": {
+  "pos": "Verb"
+ },
+ "W1978": {
+  "pos": "Verb"
+ },
+ "W1979": {
+  "pos": "Verb"
+ },
+ "W1980": {
+  "pos": "Verb"
+ },
+ "W1981": {
+  "pos": "Verb"
+ },
+ "W1982": {
+  "pos": "Verb"
+ },
+ "W1983": {
+  "pos": "Noun"
+ },
+ "W1984": {
+  "pos": "Noun"
+ },
+ "W1985": {
+  "pos": "Noun"
+ },
+ "W1986": {
+  "pos": "Noun"
+ },
+ "W1987": {
+  "pos": "Noun"
+ },
+ "W1988": {
+  "pos": "Noun"
+ },
+ "W1989": {
+  "pos": "Noun"
+ },
+ "W1990": {
+  "pos": "Noun"
+ },
+ "W1991": {
+  "pos": "Noun"
+ },
+ "W1992": {
+  "pos": "Noun"
+ },
+ "W1993": {
+  "pos": "Noun"
+ },
+ "W1994": {
+  "pos": "Noun"
+ },
+ "W1995": {
+  "pos": "Noun",
+  "match": "of dziesiąta"
+ },
+ "W1996": {
+  "pos": "Noun"
+ },
+ "W1997": {
+  "pos": "Noun"
+ },
+ "W1998": {
+  "pos": "Noun",
+  "match": "of druga"
+ },
+ "W1999": {
+  "pos": "Particle"
+ },
+ "W2000": {
+  "pos": "Verb"
+ },
+ "W2001": {
+  "pos": "Adverb"
+ },
+ "W2002": {
+  "pos": "Verb",
+  "via": "wydaje",
+  "lemma_match": "seem"
+ },
+ "W2003": {
+  "pos": "Verb"
+ },
+ "W2004": {
+  "pos": "Verb"
+ },
+ "W2005": {
+  "pos": "Conjunction"
+ },
+ "W2006": {
+  "pos": "Noun"
+ },
+ "W2007": {
+  "pos": "Noun"
+ },
+ "W2008": {
+  "pos": "Participle"
+ },
+ "W2009": {
+  "pos": "Noun"
+ },
+ "W2010": {
+  "pos": "Verb"
+ },
+ "W2011": {
+  "pos": "Verb"
+ },
+ "W2012": {
+  "pos": "Noun"
+ },
+ "W2013": {
+  "pos": "Noun"
+ },
+ "W2014": {
+  "pos": "Verb"
+ },
+ "W2015": {
+  "pos": "Verb",
+  "match": "ask"
+ },
+ "W2016": {
+  "pos": "Verb"
+ },
+ "W2017": {
+  "pos": "Verb"
+ },
+ "W2018": {
+  "pos": "Preposition"
+ },
+ "W2019": {
+  "pos": "Noun"
+ },
+ "W2020": {
+  "pos": "Participle"
+ },
+ "W2021": {
+  "pos": "Verb"
+ },
+ "W2022": {
+  "pos": "Verb"
+ },
+ "W2023": {
+  "pos": "Verb"
+ },
+ "W2024": {
+  "pos": "Verb"
+ },
+ "W2025": {
+  "pos": "Verb"
+ },
+ "W2026": {
+  "pos": "Verb"
+ },
+ "W2027": {
+  "pos": "Verb"
+ },
+ "W2028": {
+  "pos": "Verb"
+ },
+ "W2029": {
+  "pos": "Verb"
+ },
+ "W2030": {
+  "pos": "Verb"
+ },
+ "W2031": {
+  "pos": "Verb"
+ },
+ "W2032": {
+  "pos": "Verb"
+ },
+ "W2033": {
+  "pos": "Verb"
+ },
+ "W2034": {
+  "pos": "Noun"
+ },
+ "W2035": {
+  "pos": "Noun"
+ },
+ "W2036": {
+  "pos": "Noun",
+  "lemma_match": "page"
+ },
+ "W2037": {
+  "pos": "Adjective"
+ },
+ "W2038": {
+  "pos": "Verb"
+ },
+ "W2039": {
+  "pos": "Verb"
+ },
+ "W2040": {
+  "pos": "Noun"
+ },
+ "W2101": {
+  "pos": "Adverb"
+ },
+ "W2102": {
+  "pos": "Verb"
+ },
+ "W2103": {
+  "pos": "Verb"
+ },
+ "W2104": {
+  "pos": "Verb"
+ },
+ "W2105": {
+  "pos": "Verb"
+ },
+ "W2106": {
+  "pos": "Verb"
+ },
+ "W2107": {
+  "pos": "Verb"
+ },
+ "W2108": {
+  "pos": "Verb"
+ },
+ "W2109": {
+  "pos": "Verb"
+ },
+ "W2110": {
+  "pos": "Verb"
+ },
+ "W2111": {
+  "pos": "Verb"
+ },
+ "W2112": {
+  "pos": "Verb"
+ },
+ "W2113": {
+  "pos": "Verb"
+ },
+ "W2114": {
+  "pos": "Verb"
+ },
+ "W2115": {
+  "pos": "Verb"
+ },
+ "W2116": {
+  "pos": "Verb"
+ },
+ "W2117": {
+  "pos": "Verb"
+ },
+ "W2118": {
+  "pos": "Verb"
+ },
+ "W2119": {
+  "pos": "Verb"
+ },
+ "W2120": {
+  "pos": "Verb"
+ },
+ "W2121": {
+  "pos": "Verb"
+ },
+ "W2122": {
+  "pos": "Verb"
+ },
+ "W2123": {
+  "pos": "Verb"
+ },
+ "W2124": {
+  "pos": "Verb"
+ },
+ "W2125": {
+  "pos": "Verb"
+ },
+ "W2126": {
+  "pos": "Verb"
+ },
+ "W2127": {
+  "pos": "Verb"
+ },
+ "W2128": {
+  "pos": "Verb"
+ },
+ "W2129": {
+  "pos": "Verb"
+ },
+ "W2130": {
+  "pos": "Verb"
+ },
+ "W2131": {
+  "pos": "Verb"
+ },
+ "W2132": {
+  "pos": "Verb"
+ },
+ "W2133": {
+  "pos": "Verb"
+ },
+ "W2134": {
+  "pos": "Verb"
+ },
+ "W2135": {
+  "pos": "Verb"
+ },
+ "W2136": {
+  "pos": "Verb"
+ },
+ "W2137": {
+  "pos": "Verb"
+ },
+ "W2138": {
+  "pos": "Verb"
+ },
+ "W2139": {
+  "pos": "Noun"
+ },
+ "W2140": {
+  "pos": "Noun"
+ },
+ "W2141": {
+  "pos": "Verb"
+ },
+ "W2142": {
+  "pos": "Verb"
+ },
+ "W2143": {
+  "pos": "Noun"
+ },
+ "W2144": {
+  "pos": "Noun"
+ },
+ "W2145": {
+  "pos": "Verb",
+  "match": "of wiać",
+  "lemma_match": "blow"
+ },
+ "W2146": {
+  "pos": "Adverb"
+ },
+ "W2147": {
+  "pos": "Adverb"
+ },
+ "W2148": {
+  "pos": "Adverb"
+ },
+ "W2149": {
+  "pos": "Adverb"
+ },
+ "W2150": {
+  "pos": "Noun",
+  "lemma_match": "degree"
+ },
+ "W2151": {
+  "pos": "Noun"
+ },
+ "W2152": {
+  "pos": "Verb"
+ },
+ "W2153": {
+  "pos": "Noun"
+ },
+ "W2154": {
+  "pos": "Noun"
+ },
+ "W2155": {
+  "pos": "Verb"
+ },
+ "W2156": {
+  "pos": "Verb"
+ },
+ "W2157": {
+  "pos": "Verb"
+ },
+ "W2158": {
+  "pos": "Verb"
+ },
+ "W2159": {
+  "pos": "Verb",
+  "match": "give"
+ },
+ "W2160": {
+  "pos": "Verb"
+ },
+ "W2161": {
+  "pos": "Verb"
+ },
+ "W2162": {
+  "pos": "Verb"
+ },
+ "W2163": {
+  "pos": "Verb"
+ },
+ "W2164": {
+  "pos": "Verb"
+ },
+ "W2165": {
+  "pos": "Verb"
+ },
+ "W2166": {
+  "pos": "Verb"
+ },
+ "W2167": {
+  "pos": "Verb"
+ },
+ "W2168": {
+  "pos": "Verb"
+ },
+ "W2169": {
+  "pos": "Verb"
+ },
+ "W2170": {
+  "pos": "Verb"
+ },
+ "W2171": {
+  "pos": "Verb"
+ },
+ "W2172": {
+  "pos": "Verb"
+ },
+ "W2173": {
+  "pos": "Verb"
+ },
+ "W2174": {
+  "pos": "Verb"
+ },
+ "W2175": {
+  "pos": "Verb"
+ },
+ "W2176": {
+  "pos": "Verb"
+ },
+ "W2177": {
+  "pos": "Verb"
+ },
+ "W2178": {
+  "pos": "Verb"
+ },
+ "W2179": {
+  "pos": "Verb",
+  "match": "działać"
+ },
+ "W2180": {
+  "pos": "Verb"
+ },
+ "W2181": {
+  "pos": "Verb"
+ },
+ "W2182": {
+  "pos": "Verb"
+ },
+ "W2183": {
+  "pos": "Verb"
+ },
+ "W2184": {
+  "pos": "Verb"
+ },
+ "W2185": {
+  "pos": "Verb"
+ },
+ "W2186": {
+  "pos": "Preposition"
+ },
+ "W2187": {
+  "pos": "Preposition"
+ },
+ "W2188": {
+  "pos": "Preposition"
+ },
+ "W2189": {
+  "pos": "Preposition"
+ },
+ "W2190": {
+  "pos": "Preposition"
+ },
+ "W2191": {
+  "pos": "Preposition"
+ },
+ "W2192": {
+  "pos": "Preposition"
+ },
+ "W2193": {
+  "pos": "Preposition"
+ },
+ "W2194": {
+  "pos": "Preposition"
+ },
+ "W2195": {
+  "pos": "Conjunction"
+ },
+ "W2196": {
+  "pos": "Particle"
+ },
+ "W2197": {
+  "pos": "Numeral"
+ },
+ "W2198": {
+  "pos": "Numeral"
+ },
+ "W2199": {
+  "pos": "Adverb"
+ },
+ "W2200": {
+  "pos": "Noun"
+ },
+ "W2201": {
+  "pos": "Noun"
+ },
+ "W2202": {
+  "pos": "Noun"
+ },
+ "W2203": {
+  "pos": "Noun"
+ },
+ "W2204": {
+  "pos": "Noun"
+ },
+ "W2205": {
+  "pos": "Noun"
+ },
+ "W2206": {
+  "pos": "Pronoun"
+ },
+ "W2207": {
+  "pos": "Pronoun"
+ },
+ "W2208": {
+  "pos": "Verb"
+ },
+ "W2209": {
+  "pos": "Verb"
+ },
+ "W2210": {
+  "pos": "Verb"
+ },
+ "W2211": {
+  "pos": "Noun"
+ },
+ "W2212": {
+  "pos": "Noun"
+ },
+ "W2213": {
+  "pos": "Noun"
+ },
+ "W2214": {
+  "pos": "Noun"
+ },
+ "W2215": {
+  "pos": "Verb"
+ },
+ "W2216": {
+  "pos": "Verb"
+ },
+ "W2217": {
+  "pos": "Verb"
+ },
+ "W2218": {
+  "pos": "Verb"
+ },
+ "W2219": {
+  "pos": "Verb",
+  "via": "podoba",
+  "lemma_match": "appeal"
+ },
+ "W2220": {
+  "pos": "Verb"
+ },
+ "W2221": {
+  "pos": "Verb"
+ },
+ "W2222": {
+  "pos": "Verb"
+ },
+ "W2223": {
+  "pos": "Verb"
+ },
+ "W2224": {
+  "pos": "Verb"
+ },
+ "W2225": {
+  "pos": "Verb"
+ },
+ "W2226": {
+  "pos": "Verb"
+ },
+ "W2227": {
+  "pos": "Noun"
+ },
+ "W2228": {
+  "pos": "Verb"
+ },
+ "W2229": {
+  "pos": "Adverb"
+ },
+ "W2230": {
+  "pos": "Adjective"
+ },
+ "W2231": {
+  "pos": "Adjective"
+ },
+ "W2232": {
+  "pos": "Noun"
+ },
+ "W2041": {
+  "pos": "Adverb"
+ },
+ "W2042": {
+  "pos": "Adjective"
+ },
+ "W2043": {
+  "pos": "Noun"
+ },
+ "W2044": {
+  "pos": "Noun"
+ },
+ "W2045": {
+  "pos": "Verb"
+ },
+ "W2046": {
+  "pos": "Verb"
+ },
+ "W2047": {
+  "pos": "Verb"
+ },
+ "W2048": {
+  "pos": "Verb"
+ },
+ "W2049": {
+  "pos": "Conjunction"
+ },
+ "W2050": {
+  "pos": "Noun"
+ },
+ "W2051": {
+  "pos": "Noun"
+ },
+ "W2052": {
+  "pos": "Noun"
+ },
+ "W2053": {
+  "pos": "Noun"
+ },
+ "W2054": {
+  "pos": "Noun"
+ },
+ "W2055": {
+  "pos": "Noun"
+ },
+ "W2056": {
+  "pos": "Noun"
+ },
+ "W2057": {
+  "pos": "Noun"
+ },
+ "W2058": {
+  "pos": "Noun"
+ },
+ "W2059": {
+  "pos": "Verb"
+ },
+ "W2060": {
+  "pos": "Noun"
+ },
+ "W2061": {
+  "pos": "Noun"
+ },
+ "W2062": {
+  "pos": "Noun"
+ },
+ "W2063": {
+  "pos": "Noun"
+ },
+ "W2064": {
+  "pos": "Noun"
+ },
+ "W2065": {
+  "pos": "Noun"
+ },
+ "W2066": {
+  "pos": "Noun"
+ },
+ "W2067": {
+  "pos": "Noun"
+ },
+ "W2068": {
+  "pos": "Noun"
+ },
+ "W2069": {
+  "pos": "Noun"
+ },
+ "W2070": {
+  "pos": "Noun"
+ },
+ "W2071": {
+  "pos": "Noun"
+ },
+ "W2072": {
+  "pos": "Noun"
+ },
+ "W2073": {
+  "pos": "Noun"
+ },
+ "W2074": {
+  "pos": "Noun"
+ },
+ "W2233": {
+  "pos": "Verb"
+ },
+ "W2234": {
+  "pos": "Verb"
+ },
+ "W2235": {
+  "pos": "Verb"
+ },
+ "W2236": {
+  "pos": "Verb"
+ },
+ "W2237": {
+  "pos": "Verb"
+ },
+ "W2238": {
+  "pos": "Pronoun"
+ },
+ "W2239": {
+  "pos": "Pronoun"
+ },
+ "W2240": {
+  "pos": "Pronoun"
+ },
+ "W2241": {
+  "pos": "Pronoun"
+ },
+ "W2242": {
+  "pos": "Pronoun"
+ },
+ "W2243": {
+  "pos": "Conjunction"
+ },
+ "W2244": {
+  "pos": "Conjunction"
+ },
+ "W2245": {
+  "pos": "Conjunction"
+ },
+ "W2246": {
+  "pos": "Particle"
+ },
+ "W2247": {
+  "pos": "Preposition"
+ },
+ "W2248": {
+  "pos": "Adjective"
+ },
+ "W2249": {
+  "pos": "Noun"
+ },
+ "W2250": {
+  "pos": "Noun"
+ },
+ "W2251": {
+  "pos": "Noun"
+ },
+ "W2252": {
+  "pos": "Noun"
+ },
+ "W2253": {
+  "pos": "Noun"
+ },
+ "W2254": {
+  "pos": "Noun"
+ },
+ "W2255": {
+  "pos": "Noun"
+ },
+ "W2401": {
+  "pos": "Noun"
+ },
+ "W2403": {
+  "pos": "Noun"
+ },
+ "W2405": {
+  "pos": "Noun",
+  "match": "cake"
+ },
+ "W2406": {
+  "pos": "Noun",
+  "lemma_match": "cake"
+ },
+ "W2407": {
+  "pos": "Noun"
+ },
+ "W2409": {
+  "pos": "Noun"
+ },
+ "W2410": {
+  "pos": "Noun"
+ },
+ "W2411": {
+  "pos": "Noun"
+ },
+ "W2412": {
+  "pos": "Noun"
+ },
+ "W2413": {
+  "pos": "Noun"
+ },
+ "W2414": {
+  "pos": "Noun"
+ },
+ "W2415": {
+  "pos": "Noun"
+ },
+ "W2416": {
+  "pos": "Noun"
+ },
+ "W2417": {
+  "pos": "Noun"
+ },
+ "W2418": {
+  "pos": "Verb"
+ },
+ "W2420": {
+  "pos": "Verb"
+ },
+ "W2421": {
+  "pos": "Noun"
+ },
+ "W2422": {
+  "pos": "Verb"
+ },
+ "W2423": {
+  "pos": "Pronoun"
+ },
+ "W2424": {
+  "pos": "Pronoun"
+ },
+ "W2425": {
+  "pos": "Verb"
+ },
+ "W2426": {
+  "pos": "Verb"
+ },
+ "W2427": {
+  "pos": "Phrase"
+ },
+ "W2428": {
+  "pos": "Noun"
+ },
+ "W2429": {
+  "pos": "Noun"
+ },
+ "W2430": {
+  "pos": "Noun"
+ },
+ "W2431": {
+  "pos": "Pronoun"
+ },
+ "W2432": {
+  "pos": "Noun"
+ },
+ "W2433": {
+  "pos": "Noun"
+ },
+ "W2434": {
+  "pos": "Noun"
+ },
+ "W2435": {
+  "pos": "Noun"
+ },
+ "W2436": {
+  "pos": "Noun",
+  "lemma_match": "chicken (meat)"
+ },
+ "W2437": {
+  "pos": "Noun"
+ },
+ "W2438": {
+  "pos": "Noun"
+ },
+ "W2439": {
+  "pos": "Noun",
+  "match": "salad"
+ },
+ "W2440": {
+  "pos": "Noun"
+ },
+ "W2441": {
+  "pos": "Noun"
+ },
+ "W2442": {
+  "pos": "Noun"
+ },
+ "W2443": {
+  "pos": "Interjection"
+ },
+ "W2444": {
+  "pos": "Verb"
+ },
+ "W2445": {
+  "pos": "Adjective"
+ },
+ "W2446": {
+  "pos": "Adjective"
+ },
+ "W2447": {
+  "pos": "Noun"
+ },
+ "W2448": {
+  "pos": "Noun"
+ },
+ "W2449": {
+  "pos": "Noun"
+ },
+ "W2450": {
+  "pos": "Noun"
+ },
+ "W2451": {
+  "pos": "Noun"
+ },
+ "W2452": {
+  "pos": "Noun"
+ },
+ "W2453": {
+  "pos": "Verb"
+ },
+ "W2454": {
+  "pos": "Noun"
+ },
+ "W2455": {
+  "pos": "Noun"
+ },
+ "W2456": {
+  "pos": "Adverb"
+ },
+ "W2457": {
+  "pos": "Adverb"
+ },
+ "W2458": {
+  "pos": "Adverb"
+ },
+ "W2459": {
+  "pos": "Verb",
+  "lemma_match": "to turn (change"
+ },
+ "W2460": {
+  "pos": "Verb",
+  "match": "to turn (change"
+ },
+ "W2461": {
+  "pos": "Noun",
+  "lemma_match": "corner"
+ },
+ "W2463": {
+  "pos": "Noun"
+ },
+ "W2465": {
+  "pos": "Noun"
+ },
+ "W2466": {
+  "pos": "Noun"
+ },
+ "W2467": {
+  "pos": "Noun"
+ },
+ "W2468": {
+  "pos": "Noun"
+ },
+ "W2469": {
+  "pos": "Noun"
+ },
+ "W2470": {
+  "pos": "Verb"
+ },
+ "W2471": {
+  "pos": "Noun"
+ },
+ "W2472": {
+  "pos": "Noun"
+ },
+ "W2474": {
+  "pos": "Adverb"
+ },
+ "W2475": {
+  "pos": "Verb"
+ },
+ "W2476": {
+  "pos": "Verb"
+ },
+ "W2477": {
+  "pos": "Verb"
+ },
+ "W2478": {
+  "pos": "Noun"
+ },
+ "W2479": {
+  "pos": "Noun"
+ },
+ "W2480": {
+  "pos": "Noun"
+ },
+ "W2481": {
+  "pos": "Adverb"
+ },
+ "W2482": {
+  "pos": "Verb"
+ },
+ "W2483": {
+  "pos": "Noun"
+ },
+ "W2484": {
+  "pos": "Noun"
+ },
+ "W2485": {
+  "pos": "Noun"
+ },
+ "W2486": {
+  "pos": "Adverb"
+ },
+ "W2487": {
+  "pos": "Verb"
+ },
+ "W2489": {
+  "pos": "Verb"
+ },
+ "W2490": {
+  "pos": "Verb"
+ },
+ "W2491": {
+  "pos": "Verb"
+ },
+ "W2492": {
+  "pos": "Verb"
+ },
+ "W2493": {
+  "pos": "Verb"
+ },
+ "W2494": {
+  "pos": "Verb"
+ },
+ "W2495": {
+  "pos": "Verb"
+ },
+ "W2496": {
+  "pos": "Verb"
+ },
+ "W2497": {
+  "pos": "Verb"
+ },
+ "W2498": {
+  "pos": "Verb"
+ },
+ "W2499": {
+  "pos": "Verb"
+ },
+ "W2500": {
+  "pos": "Noun"
+ },
+ "W2501": {
+  "pos": "Verb"
+ },
+ "W2502": {
+  "pos": "Verb"
+ },
+ "W2503": {
+  "pos": "Noun"
+ },
+ "W2504": {
+  "pos": "Noun"
+ },
+ "W2506": {
+  "pos": "Noun"
+ },
+ "W2508": {
+  "pos": "Noun"
+ },
+ "W2509": {
+  "pos": "Noun"
+ },
+ "W2510": {
+  "pos": "Noun"
+ },
+ "W2511": {
+  "pos": "Noun"
+ },
+ "W2512": {
+  "pos": "Noun"
+ },
+ "W2513": {
+  "pos": "Noun"
+ },
+ "W2514": {
+  "pos": "Noun"
+ },
+ "W2515": {
+  "pos": "Adjective"
+ },
+ "W2516": {
+  "pos": "Noun"
+ },
+ "W2517": {
+  "pos": "Noun"
+ },
+ "W2518": {
+  "pos": "Noun"
+ },
+ "W2519": {
+  "pos": "Pronoun",
+  "match": "of on"
+ },
+ "W2520": {
+  "pos": "Pronoun"
+ },
+ "W2521": {
+  "pos": "Verb"
+ },
+ "W2522": {
+  "pos": "Verb"
+ },
+ "W2523": {
+  "pos": "Adjective"
+ },
+ "W2524": {
+  "pos": "Noun"
+ },
+ "W2525": {
+  "pos": "Noun"
+ },
+ "W2526": {
+  "pos": "Noun",
+  "lemma_match": "room (part"
+ },
+ "W2527": {
+  "pos": "Noun"
+ },
+ "W2528": {
+  "pos": "Noun"
+ },
+ "W2529": {
+  "pos": "Noun"
+ },
+ "W2530": {
+  "pos": "Noun"
+ },
+ "W2531": {
+  "pos": "Noun"
+ },
+ "W2534": {
+  "pos": "Noun",
+  "match": "locative"
+ },
+ "W2535": {
+  "pos": "Noun"
+ },
+ "W2536": {
+  "pos": "Noun"
+ },
+ "W2537": {
+  "pos": "Noun"
+ },
+ "W2538": {
+  "pos": "Noun"
+ },
+ "W2539": {
+  "pos": "Noun"
+ },
+ "W2540": {
+  "pos": "Noun"
+ },
+ "W2541": {
+  "pos": "Noun"
+ },
+ "W2542": {
+  "pos": "Noun"
+ },
+ "W2543": {
+  "pos": "Noun"
+ },
+ "W2544": {
+  "pos": "Noun"
+ },
+ "W2545": {
+  "pos": "Noun"
+ },
+ "W2546": {
+  "pos": "Noun"
+ },
+ "W2547": {
+  "pos": "Verb"
+ },
+ "W2548": {
+  "pos": "Verb"
+ },
+ "W2549": {
+  "pos": "Noun"
+ },
+ "W2550": {
+  "pos": "Noun"
+ },
+ "W2551": {
+  "pos": "Noun"
+ },
+ "W2552": {
+  "pos": "Noun"
+ },
+ "W2553": {
+  "pos": "Noun",
+  "match": "colleague"
+ },
+ "W2554": {
+  "pos": "Noun"
+ },
+ "W2555": {
+  "pos": "Noun"
+ },
+ "W2556": {
+  "pos": "Noun"
+ },
+ "W2557": {
+  "pos": "Noun"
+ },
+ "W2559": {
+  "pos": "Noun"
+ },
+ "W2560": {
+  "pos": "Noun"
+ },
+ "W2561": {
+  "pos": "Noun"
+ },
+ "W2562": {
+  "pos": "Noun"
+ },
+ "W2563": {
+  "pos": "Verb"
+ },
+ "W2564": {
+  "pos": "Noun"
+ },
+ "W2565": {
+  "pos": "Noun",
+  "match": "position (place in the organizational"
+ },
+ "W2566": {
+  "pos": "Noun"
+ },
+ "W2567": {
+  "pos": "Noun"
+ },
+ "W2568": {
+  "pos": "Noun"
+ },
+ "W2569": {
+  "pos": "Noun"
+ },
+ "W2571": {
+  "pos": "Verb"
+ },
+ "W2572": {
+  "pos": "Verb",
+  "lemma_match": "to go on (to happen"
+ },
+ "W2573": {
+  "pos": "Participle"
+ },
+ "W2574": {
+  "pos": "Adjective"
+ },
+ "W2575": {
+  "pos": "Verb"
+ },
+ "W2576": {
+  "pos": "Noun"
+ },
+ "W2577": {
+  "pos": "Noun"
+ },
+ "W2578": {
+  "pos": "Noun"
+ },
+ "W2579": {
+  "pos": "Adjective"
+ },
+ "W2580": {
+  "pos": "Noun"
+ },
+ "W2581": {
+  "pos": "Noun"
+ },
+ "W2582": {
+  "pos": "Verb"
+ },
+ "W2583": {
+  "pos": "Verb"
+ },
+ "W2584": {
+  "pos": "Noun"
+ },
+ "W2585": {
+  "pos": "Verb"
+ },
+ "W2586": {
+  "pos": "Verb"
+ },
+ "W2587": {
+  "pos": "Noun"
+ },
+ "W2588": {
+  "pos": "Verb"
+ },
+ "W2589": {
+  "pos": "Noun"
+ },
+ "W2590": {
+  "pos": "Verb",
+  "lemma_match": "to be born"
+ },
+ "W2591": {
+  "pos": "Verb",
+  "lemma_match": "to be born"
+ },
+ "W2592": {
+  "pos": "Verb",
+  "lemma_match": "to be born"
+ },
+ "W2593": {
+  "pos": "Verb",
+  "lemma_match": "to be born"
+ },
+ "W2594": {
+  "pos": "Noun"
+ },
+ "W2595": {
+  "pos": "Noun"
+ },
+ "W2596": {
+  "pos": "Noun"
+ },
+ "W2597": {
+  "pos": "Adjective"
+ },
+ "W2598": {
+  "pos": "Noun"
+ },
+ "W2599": {
+  "pos": "Noun"
+ },
+ "W2600": {
+  "pos": "Noun",
+  "match": "identity document"
+ },
+ "W2601": {
+  "pos": "Noun"
+ },
+ "W2602": {
+  "pos": "Adjective"
+ },
+ "W2603": {
+  "pos": "Noun",
+  "match": "e-mail (message)"
+ },
+ "W2604": {
+  "pos": "Noun",
+  "match": "loved one"
+ },
+ "W2605": {
+  "pos": "Noun",
+  "match": "female equivalent"
+ },
+ "W2606": {
+  "pos": "Verb"
+ },
+ "W2607": {
+  "pos": "Noun"
+ },
+ "W2608": {
+  "pos": "Verb"
+ },
+ "W2609": {
+  "pos": "Noun"
+ },
+ "W2610": {
+  "pos": "Noun"
+ },
+ "W2612": {
+  "pos": "Noun"
+ },
+ "W2613": {
+  "pos": "Verb"
+ },
+ "W2614": {
+  "pos": "Verb",
+  "lemma_match": "to ring, call"
+ },
+ "W2615": {
+  "pos": "Verb"
+ },
+ "W2616": {
+  "pos": "Verb"
+ },
+ "W2617": {
+  "pos": "Verb"
+ },
+ "W2618": {
+  "pos": "Adverb"
+ },
+ "W2619": {
+  "pos": "Verb"
+ },
+ "W2620": {
+  "pos": "Phrase"
+ },
+ "W2621": {
+  "pos": "Adverb"
+ },
+ "W2622": {
+  "pos": "Noun"
+ },
+ "W2623": {
+  "pos": "Noun"
+ },
+ "W2701": {
+  "pos": "Noun",
+  "match": "rule, principle"
+ },
+ "W2702": {
+  "pos": "Noun",
+  "lemma_match": "rule, principle"
+ },
+ "W2703": {
+  "pos": "Noun"
+ },
+ "W2704": {
+  "pos": "Noun"
+ },
+ "W2705": {
+  "pos": "Noun"
+ },
+ "W2706": {
+  "pos": "Noun"
+ },
+ "W2707": {
+  "pos": "Noun",
+  "match": "of stan"
+ },
+ "W2708": {
+  "pos": "Noun"
+ },
+ "W2709": {
+  "pos": "Noun"
+ },
+ "W2710": {
+  "pos": "Noun"
+ },
+ "W2711": {
+  "pos": "Noun"
+ },
+ "W2713": {
+  "pos": "Noun"
+ },
+ "W2714": {
+  "pos": "Noun"
+ },
+ "W2716": {
+  "pos": "Noun"
+ },
+ "W2718": {
+  "pos": "Noun"
+ },
+ "W2719": {
+  "pos": "Noun"
+ },
+ "W2720": {
+  "pos": "Noun"
+ },
+ "W2721": {
+  "pos": "Noun"
+ },
+ "W2722": {
+  "pos": "Noun"
+ },
+ "W2723": {
+  "pos": "Noun"
+ },
+ "W2724": {
+  "pos": "Noun"
+ },
+ "W2725": {
+  "pos": "Noun"
+ },
+ "W2726": {
+  "pos": "Noun"
+ },
+ "W2727": {
+  "pos": "Noun"
+ },
+ "W2728": {
+  "pos": "Noun"
+ },
+ "W2729": {
+  "pos": "Noun",
+  "match": "source (that from"
+ },
+ "W2730": {
+  "pos": "Noun"
+ },
+ "W2731": {
+  "pos": "Noun"
+ },
+ "W2732": {
+  "pos": "Noun"
+ },
+ "W2733": {
+  "pos": "Noun"
+ },
+ "W2734": {
+  "pos": "Noun"
+ },
+ "W2735": {
+  "pos": "Noun"
+ },
+ "W2736": {
+  "pos": "Noun"
+ },
+ "W2737": {
+  "pos": "Noun"
+ },
+ "W2738": {
+  "pos": "Noun"
+ },
+ "W2739": {
+  "pos": "Adjective"
+ },
+ "W2740": {
+  "pos": "Adjective"
+ },
+ "W2741": {
+  "pos": "Adjective"
+ },
+ "W2742": {
+  "pos": "Adjective"
+ },
+ "W2743": {
+  "pos": "Adjective"
+ },
+ "W2744": {
+  "pos": "Adjective"
+ },
+ "W2745": {
+  "pos": "Adjective"
+ },
+ "W2746": {
+  "pos": "Adjective"
+ },
+ "W2747": {
+  "pos": "Adjective"
+ },
+ "W2748": {
+  "pos": "Adjective"
+ },
+ "W2749": {
+  "pos": "Adjective"
+ },
+ "W2750": {
+  "pos": "Adjective"
+ },
+ "W2751": {
+  "pos": "Adjective"
+ },
+ "W2752": {
+  "pos": "Adjective"
+ },
+ "W2753": {
+  "pos": "Adjective"
+ },
+ "W2754": {
+  "pos": "Adjective"
+ },
+ "W2755": {
+  "pos": "Adjective"
+ },
+ "W2756": {
+  "pos": "Adjective"
+ },
+ "W2757": {
+  "pos": "Adjective"
+ },
+ "W2758": {
+  "pos": "Adjective"
+ },
+ "W2762": {
+  "pos": "Adjective"
+ },
+ "W2763": {
+  "pos": "Verb",
+  "match": "belong"
+ },
+ "W2764": {
+  "pos": "Verb"
+ },
+ "W2765": {
+  "pos": "Verb"
+ },
+ "W2766": {
+  "pos": "Verb"
+ },
+ "W2767": {
+  "pos": "Verb"
+ },
+ "W2768": {
+  "pos": "Verb"
+ },
+ "W2769": {
+  "pos": "Verb"
+ },
+ "W2770": {
+  "pos": "Verb"
+ },
+ "W2771": {
+  "pos": "Verb"
+ },
+ "W2772": {
+  "pos": "Verb"
+ },
+ "W2773": {
+  "pos": "Verb"
+ },
+ "W2774": {
+  "pos": "Verb"
+ },
+ "W2775": {
+  "pos": "Verb"
+ },
+ "W2778": {
+  "pos": "Verb"
+ },
+ "W2779": {
+  "pos": "Verb"
+ },
+ "W2780": {
+  "pos": "Verb"
+ },
+ "W2781": {
+  "pos": "Verb"
+ },
+ "W2782": {
+  "pos": "Verb"
+ },
+ "W2786": {
+  "pos": "Verb"
+ },
+ "W2787": {
+  "pos": "Verb"
+ },
+ "W2789": {
+  "pos": "Verb"
+ },
+ "W2790": {
+  "pos": "Verb"
+ },
+ "W2791": {
+  "pos": "Verb"
+ },
+ "W2792": {
+  "pos": "Verb"
+ },
+ "W2793": {
+  "pos": "Verb"
+ },
+ "W2796": {
+  "pos": "Verb"
+ },
+ "W2798": {
+  "pos": "Verb"
+ },
+ "W2799": {
+  "pos": "Verb"
+ },
+ "W2800": {
+  "pos": "Verb"
+ },
+ "W2801": {
+  "pos": "Verb"
+ },
+ "W2802": {
+  "pos": "Verb"
+ },
+ "W2803": {
+  "pos": "Conjunction"
+ },
+ "W2804": {
+  "pos": "Particle"
+ },
+ "W2805": {
+  "pos": "Conjunction"
+ },
+ "W2806": {
+  "pos": "Conjunction"
+ },
+ "W2807": {
+  "pos": "Particle"
+ },
+ "W2808": {
+  "pos": "Particle"
+ },
+ "W2809": {
+  "pos": "Particle"
+ },
+ "W2810": {
+  "pos": "Particle"
+ },
+ "W2811": {
+  "pos": "Adverb"
+ },
+ "W2813": {
+  "pos": "Adverb"
+ },
+ "W2814": {
+  "pos": "Preposition"
+ },
+ "W2815": {
+  "pos": "Preposition"
+ },
+ "W2816": {
+  "pos": "Adverb"
+ },
+ "W2817": {
+  "pos": "Particle"
+ },
+ "W2818": {
+  "pos": "Conjunction"
+ },
+ "W2819": {
+  "pos": "Noun"
+ },
+ "W2821": {
+  "pos": "Conjunction",
+  "match": "in order to"
+ },
+ "W2822": {
+  "pos": "Pronoun"
+ },
+ "W2823": {
+  "pos": "Pronoun"
+ },
+ "W2824": {
+  "pos": "Adverb"
+ },
+ "W2825": {
+  "pos": "Adverb"
+ },
+ "W2826": {
+  "pos": "Adverb"
+ },
+ "W2827": {
+  "pos": "Noun"
+ },
+ "W2828": {
+  "pos": "Noun"
+ },
+ "W2829": {
+  "pos": "Noun"
+ },
+ "W2830": {
+  "pos": "Noun"
+ },
+ "W2831": {
+  "pos": "Noun"
+ },
+ "W2832": {
+  "pos": "Noun"
+ },
+ "W2833": {
+  "pos": "Noun"
+ },
+ "W2835": {
+  "pos": "Noun"
+ },
+ "W2842": {
+  "pos": "Noun"
+ },
+ "W2843": {
+  "pos": "Noun"
+ },
+ "W2846": {
+  "pos": "Noun"
+ },
+ "W2847": {
+  "pos": "Noun"
+ },
+ "W2848": {
+  "pos": "Noun"
+ },
+ "W2849": {
+  "pos": "Noun"
+ },
+ "W2850": {
+  "pos": "Noun"
+ },
+ "W2851": {
+  "pos": "Noun"
+ },
+ "W2852": {
+  "pos": "Noun"
+ },
+ "W2854": {
+  "pos": "Noun"
+ }
+}

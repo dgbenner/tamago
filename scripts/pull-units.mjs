@@ -51,10 +51,12 @@ const NAMES = new Set([...raw('sentence_words').filter((r) => r.notes === 'name'
 const checkedWords = JSON.parse(readFileSync(at('content/checks/words.json'), 'utf8'))
 const POS = new Map(checkedWords.map((w) => [w.word_id, w.part_of_speech]))
 // A noun's meaning in this course, from Wiktionary: the first sense, or the lemma's for a plural.
+// Polish (2026-11-21): a case form (kota, psa) is a form-of entry, "genitive/accusative singular of kot"; its meaning
+// is its lemma's gloss, as for a plural (Romanian's definite forms take the same rule on their branch).
 const IRREGULAR = { man: 'men', woman: 'women', child: 'children', mouse: 'mice' }
 // Every alternative Wiktionary gives counts ("movie, film"; "color/colour"; "physician; doctor"), not only the first.
 const nounMeaning = new Map(checkedWords.filter((w) => w.part_of_speech === 'Noun').map((w) => {
-  const g = (/\bplural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))
+  const g = (/\bplural of /.test(w.gloss) || (COURSE === 'pl' && w.lemma_gloss && w.lemma !== w.form) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))
   // The word's hint counts too (2026-11-10: German Katze is "house cat" on Wiktionary, and the English says cat).
   const hint = String(DECISIONS.hints?.[w.word_id] ?? DECISIONS.claude_hints?.[w.word_id]?.hint ?? '').replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase()).filter((x) => /^[a-z' -]+$/.test(x))
   return [w.word_id, [...g, ...hint]]
@@ -227,6 +229,9 @@ for (const u of units) {
     writeFileSync(file, JSON.stringify(pull, null, 2) + '\n')
   }
 
+  // A line one circle holds is not offered to a later circle in the same run (2026-11-21, Polish: a run that redoes
+  // every circle at once handed U05's lines to U06 too, since taken only knew the workbook and earlier imports).
+  for (const x of pull.sentences) taken.add(loose(x.french))
   // Report against the targets, whether freshly pulled or kept from before.
   const sw = pull.sentence_words
   const perWord = new Map(unitWords.map((w) => [w.word_id, new Set()]))

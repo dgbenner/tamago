@@ -1,0 +1,1737 @@
+{
+  "unit_id": "U62",
+  "pulled_at": "2026-11-22",
+  "candidates": 72,
+  "sentences": [
+    {
+      "sentence_id": "S62001",
+      "unit_id": "U62",
+      "french": "Ile jest dni w tygodniu?",
+      "english": "How many days are there in a week?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3427692",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "konrad509",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62002",
+      "unit_id": "U62",
+      "french": "Kupiłem to w zeszłym tygodniu.",
+      "english": "I bought it last week.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3502766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62003",
+      "unit_id": "U62",
+      "french": "To było w zeszłym tygodniu.",
+      "english": "That was last week.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7891192",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maria_lysik",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62004",
+      "unit_id": "U62",
+      "french": "A potem?",
+      "english": "And afterward?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6160722",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62005",
+      "unit_id": "U62",
+      "french": "A wtedy?",
+      "english": "And then?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12202524",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62006",
+      "unit_id": "U62",
+      "french": "I wtedy?",
+      "english": "And then?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12202525",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "polski_ren",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62007",
+      "unit_id": "U62",
+      "french": "Co robisz w niedzielę?",
+      "english": "What do you do on Sunday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3926288",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62008",
+      "unit_id": "U62",
+      "french": "Masz coś w ten weekend?",
+      "english": "Do you have anything on for this weekend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3125652",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62009",
+      "unit_id": "U62",
+      "french": "Pamiętasz kiedy cię ostatnio widziałem?",
+      "english": "Do you remember when I saw you last?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3298936",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62010",
+      "unit_id": "U62",
+      "french": "Możesz powtórzyć, ile razy tu byłeś?",
+      "english": "Could you please tell me again how many times you've been here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "959250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62011",
+      "unit_id": "U62",
+      "french": "Czy muszę wszystko mówić dwa razy?",
+      "english": "Do I have to say everything twice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5138558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tomash",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62012",
+      "unit_id": "U62",
+      "french": "Czy jesteś zwykle wieczorem w domu?",
+      "english": "Are you usually at home in the evening?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6031070",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BeataB",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62013",
+      "unit_id": "U62",
+      "french": "Widziałem ją w zeszłym tygodniu.",
+      "english": "I saw her last week.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8761231",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nusia2302",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62014",
+      "unit_id": "U62",
+      "french": "Rzadko go widzę.",
+      "english": "I rarely see him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5161941",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarekMazurkiewicz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62015",
+      "unit_id": "U62",
+      "french": "Wtedy byłem szczęśliwy.",
+      "english": "I was happy then.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6603113",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "princes21",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62016",
+      "unit_id": "U62",
+      "french": "Pojutrze jest wtorek.",
+      "english": "The day after tomorrow is Tuesday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7891131",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maria_lysik",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62017",
+      "unit_id": "U62",
+      "french": "Wrócił dwa dni później.",
+      "english": "He came back two days after.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "354057",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62018",
+      "unit_id": "U62",
+      "french": "Rzadko pisze do rodziców.",
+      "english": "He hardly ever writes to his parents.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "405567",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62019",
+      "unit_id": "U62",
+      "french": "Kot ma dwadzieścia dni.",
+      "english": "The cat is twenty days old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "524338",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Wimmer",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62020",
+      "unit_id": "U62",
+      "french": "Byłem tam wiele razy.",
+      "english": "I went there many times.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "614559",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bilberry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62021",
+      "unit_id": "U62",
+      "french": "W sobotę jestem zajęty.",
+      "english": "I'm busy on Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4785665",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62022",
+      "unit_id": "U62",
+      "french": "Bardzo rzadko go widzę.",
+      "english": "I see him very rarely.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5183888",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katubeltza",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62023",
+      "unit_id": "U62",
+      "french": "Pracuję nawet w niedzielę.",
+      "english": "I work even on Sunday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10548471",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62024",
+      "unit_id": "U62",
+      "french": "To samo co zwykle.",
+      "english": "Same as usual.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10558000",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tokzyk",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62025",
+      "unit_id": "U62",
+      "french": "To nie jest weekend.",
+      "english": "It's not the weekend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12999774",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fosforos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62026",
+      "unit_id": "U62",
+      "french": "On ostatnio za dużo pije.",
+      "english": "He's been drinking too much lately.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "823269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62027",
+      "unit_id": "U62",
+      "french": "Nie wiem, co zrobić najpierw.",
+      "english": "I don't know what to do first.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3289661",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Hikaru",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62028",
+      "unit_id": "U62",
+      "french": "Sklep jest zamknięty w niedzielę.",
+      "english": "The shop is closed on Sunday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3571172",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Siganiv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62029",
+      "unit_id": "U62",
+      "french": "Możemy iść potem na zakupy.",
+      "english": "We can go shopping later.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3844188",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62030",
+      "unit_id": "U62",
+      "french": "Idę w sobotę do szkoły.",
+      "english": "I go to school on Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4101535",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62031",
+      "unit_id": "U62",
+      "french": "Zwykle jesteśmy w domu wieczorem.",
+      "english": "We are usually at home in the evening.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6031012",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BeataB",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62032",
+      "unit_id": "U62",
+      "french": "Mój tata jest wolny w sobotę.",
+      "english": "My dad's free on Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1119095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hebrajska",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62033",
+      "unit_id": "U62",
+      "french": "Ostatnio Tom dużo gra w tenisa.",
+      "english": "Tom has been playing tennis a lot recently.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7166502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S62034",
+      "unit_id": "U62",
+      "french": "Nie lubię, gdy ludzie o mnie mówią.",
+      "english": "I don't like people talking about me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4101476",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jeedrek",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S62001",
+      "position": 1,
+      "surface": "Ile",
+      "word_id": "W213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62001",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62001",
+      "position": 3,
+      "surface": "dni",
+      "word_id": "W1862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62001",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62001",
+      "position": 5,
+      "surface": "tygodniu",
+      "word_id": "W1854",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62002",
+      "position": 1,
+      "surface": "Kupiłem",
+      "word_id": "W2131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62002",
+      "position": 2,
+      "surface": "to",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62002",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62002",
+      "position": 4,
+      "surface": "zeszłym",
+      "word_id": "W1856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62002",
+      "position": 5,
+      "surface": "tygodniu",
+      "word_id": "W1854",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62003",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62003",
+      "position": 2,
+      "surface": "było",
+      "word_id": "W2105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62003",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62003",
+      "position": 4,
+      "surface": "zeszłym",
+      "word_id": "W1856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62003",
+      "position": 5,
+      "surface": "tygodniu",
+      "word_id": "W1854",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62004",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62004",
+      "position": 2,
+      "surface": "potem",
+      "word_id": "W1859",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62005",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62005",
+      "position": 2,
+      "surface": "wtedy",
+      "word_id": "W1860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62006",
+      "position": 1,
+      "surface": "I",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62006",
+      "position": 2,
+      "surface": "wtedy",
+      "word_id": "W1860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62007",
+      "position": 1,
+      "surface": "Co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62007",
+      "position": 2,
+      "surface": "robisz",
+      "word_id": "W196",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62007",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62007",
+      "position": 4,
+      "surface": "niedzielę",
+      "word_id": "W1846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62008",
+      "position": 1,
+      "surface": "Masz",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62008",
+      "position": 2,
+      "surface": "coś",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62008",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62008",
+      "position": 4,
+      "surface": "ten",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62008",
+      "position": 5,
+      "surface": "weekend",
+      "word_id": "W1848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62009",
+      "position": 1,
+      "surface": "Pamiętasz",
+      "word_id": "W728",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62009",
+      "position": 2,
+      "surface": "kiedy",
+      "word_id": "W186",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62009",
+      "position": 3,
+      "surface": "cię",
+      "word_id": "W1506",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62009",
+      "position": 4,
+      "surface": "ostatnio",
+      "word_id": "W1857",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62009",
+      "position": 5,
+      "surface": "widziałem",
+      "word_id": "W2126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62010",
+      "position": 1,
+      "surface": "Możesz",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62010",
+      "position": 2,
+      "surface": "powtórzyć",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62010",
+      "position": 3,
+      "surface": "ile",
+      "word_id": "W213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62010",
+      "position": 4,
+      "surface": "razy",
+      "word_id": "W1853",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62010",
+      "position": 5,
+      "surface": "tu",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62010",
+      "position": 6,
+      "surface": "byłeś",
+      "word_id": "W2108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62011",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62011",
+      "position": 2,
+      "surface": "muszę",
+      "word_id": "W270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62011",
+      "position": 3,
+      "surface": "wszystko",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62011",
+      "position": 4,
+      "surface": "mówić",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62011",
+      "position": 5,
+      "surface": "dwa",
+      "word_id": "W203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62011",
+      "position": 6,
+      "surface": "razy",
+      "word_id": "W1853",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62012",
+      "position": 1,
+      "surface": "Czy",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62012",
+      "position": 2,
+      "surface": "jesteś",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62012",
+      "position": 3,
+      "surface": "zwykle",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62012",
+      "position": 4,
+      "surface": "wieczorem",
+      "word_id": "W251",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62012",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62012",
+      "position": 6,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62013",
+      "position": 1,
+      "surface": "Widziałem",
+      "word_id": "W2126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62013",
+      "position": 2,
+      "surface": "ją",
+      "word_id": "W1509",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62013",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62013",
+      "position": 4,
+      "surface": "zeszłym",
+      "word_id": "W1856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62013",
+      "position": 5,
+      "surface": "tygodniu",
+      "word_id": "W1854",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62014",
+      "position": 1,
+      "surface": "Rzadko",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62014",
+      "position": 2,
+      "surface": "go",
+      "word_id": "W1508",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62014",
+      "position": 3,
+      "surface": "widzę",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62015",
+      "position": 1,
+      "surface": "Wtedy",
+      "word_id": "W1860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62015",
+      "position": 2,
+      "surface": "byłem",
+      "word_id": "W2106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62015",
+      "position": 3,
+      "surface": "szczęśliwy",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62016",
+      "position": 1,
+      "surface": "Pojutrze",
+      "word_id": "W1851",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62016",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62016",
+      "position": 3,
+      "surface": "wtorek",
+      "word_id": "W242",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62017",
+      "position": 1,
+      "surface": "Wrócił",
+      "word_id": "W2133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62017",
+      "position": 2,
+      "surface": "dwa",
+      "word_id": "W203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62017",
+      "position": 3,
+      "surface": "dni",
+      "word_id": "W1862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62017",
+      "position": 4,
+      "surface": "później",
+      "word_id": "W1828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62018",
+      "position": 1,
+      "surface": "Rzadko",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62018",
+      "position": 2,
+      "surface": "pisze",
+      "word_id": "W1520",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62018",
+      "position": 3,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62018",
+      "position": 4,
+      "surface": "rodziców",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62019",
+      "position": 1,
+      "surface": "Kot",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62019",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62019",
+      "position": 3,
+      "surface": "dwadzieścia",
+      "word_id": "W1544",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62019",
+      "position": 4,
+      "surface": "dni",
+      "word_id": "W1862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62020",
+      "position": 1,
+      "surface": "Byłem",
+      "word_id": "W2106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62020",
+      "position": 2,
+      "surface": "tam",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62020",
+      "position": 3,
+      "surface": "wiele",
+      "word_id": "W1607",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62020",
+      "position": 4,
+      "surface": "razy",
+      "word_id": "W1853",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62021",
+      "position": 1,
+      "surface": "W",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62021",
+      "position": 2,
+      "surface": "sobotę",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62021",
+      "position": 3,
+      "surface": "jestem",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62021",
+      "position": 4,
+      "surface": "zajęty",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62022",
+      "position": 1,
+      "surface": "Bardzo",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62022",
+      "position": 2,
+      "surface": "rzadko",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62022",
+      "position": 3,
+      "surface": "go",
+      "word_id": "W1508",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62022",
+      "position": 4,
+      "surface": "widzę",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62023",
+      "position": 1,
+      "surface": "Pracuję",
+      "word_id": "W255",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62023",
+      "position": 2,
+      "surface": "nawet",
+      "word_id": "W1229",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62023",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62023",
+      "position": 4,
+      "surface": "niedzielę",
+      "word_id": "W1846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62024",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62024",
+      "position": 2,
+      "surface": "samo",
+      "word_id": "W1221",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62024",
+      "position": 3,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62024",
+      "position": 4,
+      "surface": "zwykle",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62025",
+      "position": 1,
+      "surface": "To",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62025",
+      "position": 2,
+      "surface": "nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62025",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62025",
+      "position": 4,
+      "surface": "weekend",
+      "word_id": "W1848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62026",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62026",
+      "position": 2,
+      "surface": "ostatnio",
+      "word_id": "W1857",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62026",
+      "position": 3,
+      "surface": "za",
+      "word_id": "W1745",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62026",
+      "position": 4,
+      "surface": "dużo",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62026",
+      "position": 5,
+      "surface": "pije",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62027",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62027",
+      "position": 2,
+      "surface": "wiem",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62027",
+      "position": 3,
+      "surface": "co",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62027",
+      "position": 4,
+      "surface": "zrobić",
+      "word_id": "W1707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62027",
+      "position": 5,
+      "surface": "najpierw",
+      "word_id": "W1858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62028",
+      "position": 1,
+      "surface": "Sklep",
+      "word_id": "W1047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62028",
+      "position": 2,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62028",
+      "position": 3,
+      "surface": "zamknięty",
+      "word_id": "W1200",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62028",
+      "position": 4,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62028",
+      "position": 5,
+      "surface": "niedzielę",
+      "word_id": "W1846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62029",
+      "position": 1,
+      "surface": "Możemy",
+      "word_id": "W1704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62029",
+      "position": 2,
+      "surface": "iść",
+      "word_id": "W263",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62029",
+      "position": 3,
+      "surface": "potem",
+      "word_id": "W1859",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62029",
+      "position": 4,
+      "surface": "na",
+      "word_id": "W275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62029",
+      "position": 5,
+      "surface": "zakupy",
+      "word_id": "W1708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62030",
+      "position": 1,
+      "surface": "Idę",
+      "word_id": "W259",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62030",
+      "position": 2,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62030",
+      "position": 3,
+      "surface": "sobotę",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62030",
+      "position": 4,
+      "surface": "do",
+      "word_id": "W1553",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62030",
+      "position": 5,
+      "surface": "szkoły",
+      "word_id": "W1122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62031",
+      "position": 1,
+      "surface": "Zwykle",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62031",
+      "position": 2,
+      "surface": "jesteśmy",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62031",
+      "position": 3,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62031",
+      "position": 4,
+      "surface": "domu",
+      "word_id": "W1612",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62031",
+      "position": 5,
+      "surface": "wieczorem",
+      "word_id": "W251",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62032",
+      "position": 1,
+      "surface": "Mój",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62032",
+      "position": 2,
+      "surface": "tata",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62032",
+      "position": 3,
+      "surface": "jest",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62032",
+      "position": 4,
+      "surface": "wolny",
+      "word_id": "W258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62032",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62032",
+      "position": 6,
+      "surface": "sobotę",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62033",
+      "position": 1,
+      "surface": "Ostatnio",
+      "word_id": "W1857",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62033",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62033",
+      "position": 3,
+      "surface": "dużo",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62033",
+      "position": 4,
+      "surface": "gra",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62033",
+      "position": 5,
+      "surface": "w",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62033",
+      "position": 6,
+      "surface": "tenisa",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62034",
+      "position": 1,
+      "surface": "Nie",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62034",
+      "position": 2,
+      "surface": "lubię",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62034",
+      "position": 3,
+      "surface": "gdy",
+      "word_id": "W1861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62034",
+      "position": 4,
+      "surface": "ludzie",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62034",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W1146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62034",
+      "position": 6,
+      "surface": "mnie",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S62034",
+      "position": 7,
+      "surface": "mówią",
+      "word_id": "W1150",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

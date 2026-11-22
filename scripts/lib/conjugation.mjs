@@ -166,4 +166,25 @@ async function swedish() { return null }
 // the same outcome as a verb whose table the other courses can't parse (null), which the pipeline already handles.
 async function norwegian() { return null }
 
-export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish, da: async () => null, no: norwegian }[COURSE]
+// Polish (2026-11-21, branch content/pl-a1): the verb page's own {{pl-conj|…}} call, as written in its Polish section;
+// never a bare template. Its table has a "present tense" row (1st person: singular, plural) and the next two rows
+// (2nd, 3rd); the persons are ja, ty, on/ona/ono, my, wy, oni/one, the course's ty throughout (Pan and Pani, which
+// take the third person, are not a column of their own). A perfective verb has no present row (its simple forms are
+// the future), so it gets no table: Part 1 teaches the imperfective present only. A cell with two forms keeps both,
+// joined by "or" as the other courses' tables do.
+async function polish(lemma) {
+  const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
+  const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
+  const template = section.match(/\{\{pl-conj(?:\|(?:[^{}]|\{\{[^{}]*\}\})*)?\}\}/)?.[0]
+  if (!template) return null
+  const rows = tableRows(await render(lemma, template))
+  const at = rows.findIndex((row) => row[0] === 'present tense' && row[1] === '1 st')
+  if (at < 0 || rows[at + 1]?.[0] !== '2 nd' || rows[at + 2]?.[0] !== '3 rd') return null
+  const [first, second, third] = [rows[at].slice(2), rows[at + 1].slice(1), rows[at + 2].slice(1)]
+  if ([first, second, third].some((x) => x.length !== 2)) return null
+  const form = (c) => c.split(/\s*,\s*/).map((x) => x.replace(/\s+\d+$/, '').trim()).filter(Boolean).join(' or ')
+  const out = [['ja', first[0]], ['ty', second[0]], ['on, ona, ono', third[0]], ['my', first[1]], ['wy', second[1]], ['oni, one', third[1]]].map(([person, c]) => ({ person, form: form(c) }))
+  return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
+}
+
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian, pt: portuguese, nl: dutch, sv: swedish, da: async () => null, no: norwegian, pl: polish }[COURSE]
