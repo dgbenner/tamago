@@ -4,11 +4,11 @@
     "unit_id": "U47",
     "kind": "sign",
     "title": "Na rynku",
-    "lines": "Owoce i warzywa\nJabłka: pięć złotych za kilo\nRynek: poniedziałek i sobota",
-    "questions_json": "[{\"question\":\"How much is a kilo of apples?\",\"choices\":[\"5 złotych\",\"15 złotych\",\"50 złotych\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Sunday\"],\"answer\":0}]",
+    "lines": "Owoce i warzywa\nJabłka, ser i chleb\nRynek: poniedziałek i sobota",
+    "questions_json": "[{\"question\":\"Which fruit is on the sign?\",\"choices\":[\"Apples\",\"Pears\",\"Bananas\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Sunday\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R102",
@@ -58,12 +58,12 @@
     "id": "R106",
     "unit_id": "U48",
     "kind": "notice",
-    "title": "Stare książki",
-    "lines": "Stare książki\nJedna książka: dziesięć złotych\nTrzy książki: dwadzieścia złotych",
+    "title": "Tanie książki",
+    "lines": "Tanie książki\nJedna książka: dziesięć złotych\nTrzy książki: dwadzieścia złotych",
     "questions_json": "[{\"question\":\"How much is one book?\",\"choices\":[\"10 złotych\",\"20 złotych\",\"30 złotych\"],\"answer\":0},{\"question\":\"How much are three books?\",\"choices\":[\"20 złotych\",\"30 złotych\",\"10 złotych\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R107",
@@ -268,22 +268,22 @@
     "unit_id": "U82",
     "kind": "menu",
     "title": "Obiad dnia",
-    "lines": "Zupa i sałatka\nRyż i ziemniaki\nDeser: lody\n35 zł",
+    "lines": "Zupa i sałatka\nRyż i ziemniaki\nDeser: lody\n35 złotych",
     "questions_json": "[{\"question\":\"How much is the lunch of the day?\",\"choices\":[\"35 złoty\",\"25 złoty\",\"53 złoty\"],\"answer\":0},{\"question\":\"What is there for dessert?\",\"choices\":[\"Ice cream\",\"Cake\",\"Fruit\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R302",
     "unit_id": "U81",
     "kind": "menu",
     "title": "Kawiarnia",
-    "lines": "Kawa: 12 zł\nHerbata: 9 zł\nCiasto: 15 zł\nKanapki: 14 zł",
+    "lines": "Kawa: 12 złotych\nHerbata: 9 złotych\nCiasto: 15 złotych\nKanapki: 14 złotych",
     "questions_json": "[{\"question\":\"How much are the sandwiches?\",\"choices\":[\"14 złoty\",\"12 złoty\",\"15 złoty\"],\"answer\":0},{\"question\":\"What costs 9 złoty?\",\"choices\":[\"A tea\",\"A coffee\",\"A piece of cake\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R303",
@@ -312,33 +312,33 @@
     "unit_id": "U83",
     "kind": "sign",
     "title": "W mieście",
-    "lines": "Muzeum: 200 m w lewo\nKościół: prosto\nDworzec: w prawo",
+    "lines": "Muzeum: 200 metrów w lewo\nKościół: prosto\nDworzec: w prawo",
     "questions_json": "[{\"question\":\"Where is the museum?\",\"choices\":[\"200 metres on the left\",\"200 metres on the right\",\"Straight on\"],\"answer\":0},{\"question\":\"Where is the station?\",\"choices\":[\"On the right\",\"On the left\",\"Straight on\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R306",
     "unit_id": "U84",
     "kind": "notice",
     "title": "Hotel",
-    "lines": "Hotel jest w centrum.\nDworzec: dziesięć minut pieszo.\nPrzystanek jest przed hotelem.",
-    "questions_json": "[{\"question\":\"How far is the station?\",\"choices\":[\"Ten minutes on foot\",\"Ten minutes by car\",\"Half an hour on foot\"],\"answer\":0},{\"question\":\"Where is the bus stop?\",\"choices\":[\"In front of the hotel\",\"Behind the hotel\",\"At the station\"],\"answer\":0}]",
+    "lines": "Hotel jest w centrum.\nDworzec: dziesięć minut pieszo.\nPrzystanek jest blisko.",
+    "questions_json": "[{\"question\":\"How far is the station?\",\"choices\":[\"Ten minutes on foot\",\"Ten minutes by car\",\"Half an hour on foot\"],\"answer\":0},{\"question\":\"Where is the bus stop?\",\"choices\":[\"Nearby\",\"Far away\",\"At the station\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R307",
     "unit_id": "U86",
     "kind": "notice",
     "title": "Mieszkanie",
-    "lines": "Mieszkanie w centrum\nSypialnia, salon, kuchnia i łazienka\nMieszkanie ma balkon.\n2500 zł",
+    "lines": "Mieszkanie w centrum\nSypialnia, salon, kuchnia i łazienka\nMieszkanie ma balkon.\n2500 złotych",
     "questions_json": "[{\"question\":\"Where is the flat?\",\"choices\":[\"In the centre\",\"Near the sea\",\"In the country\"],\"answer\":0},{\"question\":\"What else does it have?\",\"choices\":[\"A balcony\",\"A garden\",\"A garage\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R308",
@@ -355,34 +355,34 @@
     "id": "R309",
     "unit_id": "U86",
     "kind": "notice",
-    "title": "Pokój dla studenta",
-    "lines": "Pokój dla studenta\nŁóżko, stół, krzesło i szafa\nUniwersytet jest blisko.",
-    "questions_json": "[{\"question\":\"Who is the room for?\",\"choices\":[\"A student\",\"A family\",\"A tourist\"],\"answer\":0},{\"question\":\"What is in the room?\",\"choices\":[\"A bed, a table, a chair and a wardrobe\",\"A sofa and a lamp\",\"A fridge\"],\"answer\":0}]",
+    "title": "Pokój",
+    "lines": "Pokój w centrum\nŁóżko, stół, krzesło i szafa\nUniwersytet jest blisko.",
+    "questions_json": "[{\"question\":\"What is near the room?\",\"choices\":[\"The university\",\"The station\",\"The sea\"],\"answer\":0},{\"question\":\"What is in the room?\",\"choices\":[\"A bed, a table, a chair and a wardrobe\",\"A sofa and a lamp\",\"A fridge\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R310",
     "unit_id": "U87",
     "kind": "notice",
     "title": "Praca",
-    "lines": "Praca: kucharz\nWtorek – sobota, 17:00 – 23:00\nTel. 501 234 567",
+    "lines": "Praca: kucharz\nWtorek – sobota, 17:00 – 23:00\nTelefon: 501 234 567",
     "questions_json": "[{\"question\":\"What job is it?\",\"choices\":[\"A cook\",\"A waiter\",\"A driver\"],\"answer\":0},{\"question\":\"Which days?\",\"choices\":[\"Tuesday to Saturday\",\"Monday to Friday\",\"Every day\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R311",
     "unit_id": "U87",
     "kind": "message",
     "title": "Moja praca",
-    "lines": "Jestem pielęgniarką i pracuję w szpitalu.\nZaczynam pracę o siódmej rano.\nMój szef jest bardzo miły.",
-    "questions_json": "[{\"question\":\"Where does she work?\",\"choices\":[\"In a hospital\",\"In a school\",\"In a shop\"],\"answer\":0},{\"question\":\"When does she start?\",\"choices\":[\"At seven in the morning\",\"At seven in the evening\",\"At nine\"],\"answer\":0}]",
+    "lines": "Jestem pielęgniarką.\nZaczynam pracę o siódmej rano.\nMój szef jest bardzo miły.",
+    "questions_json": "[{\"question\":\"What is her job?\",\"choices\":[\"A nurse\",\"A teacher\",\"A doctor\"],\"answer\":0},{\"question\":\"When does she start?\",\"choices\":[\"At seven in the morning\",\"At seven in the evening\",\"At nine\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "reworded into taught words (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 12)"
   },
   {
     "id": "R312",

@@ -664,14 +664,6 @@
     "status": "live"
   },
   {
-    "answer_id": "A150251",
-    "sentence_id": "S15025",
-    "direction": "fr_to_en",
-    "answer": "Is his name Piotr?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
     "answer_id": "A260081",
     "sentence_id": "S26008",
     "direction": "fr_to_en",
@@ -2816,22 +2808,6 @@
     "status": "live"
   },
   {
-    "answer_id": "A950021",
-    "sentence_id": "S95002",
-    "direction": "fr_to_en",
-    "answer": "A God exists.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A950031",
-    "sentence_id": "S95003",
-    "direction": "fr_to_en",
-    "answer": "Allah knows.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
     "answer_id": "GS10103-6441395",
     "sentence_id": "S10103",
     "direction": "en_to_fr",
@@ -2840,46 +2816,6 @@
     "source_id": "6441395",
     "status": "live",
     "source_owner": "arie"
-  },
-  {
-    "answer_id": "GS10105-531786",
-    "sentence_id": "S10105",
-    "direction": "en_to_fr",
-    "answer": "Tom jest moim przyjacielem.",
-    "source": "tatoeba",
-    "source_id": "531786",
-    "status": "live",
-    "source_owner": "orzechowski"
-  },
-  {
-    "answer_id": "GS13105-10566149",
-    "sentence_id": "S13105",
-    "direction": "en_to_fr",
-    "answer": "To jest zielone.",
-    "source": "tatoeba",
-    "source_id": "10566149",
-    "status": "live",
-    "source_owner": "tokzyk"
-  },
-  {
-    "answer_id": "GS13108-10566149",
-    "sentence_id": "S13108",
-    "direction": "en_to_fr",
-    "answer": "To jest zielone.",
-    "source": "tatoeba",
-    "source_id": "10566149",
-    "status": "live",
-    "source_owner": "tokzyk"
-  },
-  {
-    "answer_id": "GS13112-8753528",
-    "sentence_id": "S13112",
-    "direction": "en_to_fr",
-    "answer": "Jest białe.",
-    "source": "tatoeba",
-    "source_id": "8753528",
-    "status": "live",
-    "source_owner": "nusia2302"
   },
   {
     "answer_id": "GS14107-2783031",
@@ -2892,16 +2828,6 @@
     "source_owner": "Chemiczny_Bogdan"
   },
   {
-    "answer_id": "GS14114-4451410",
-    "sentence_id": "S14114",
-    "direction": "en_to_fr",
-    "answer": "Jutro będzie niedziela.",
-    "source": "tatoeba",
-    "source_id": "4451410",
-    "status": "live",
-    "source_owner": "MarekMazurkiewicz"
-  },
-  {
     "answer_id": "GS14115-4449164",
     "sentence_id": "S14115",
     "direction": "en_to_fr",
@@ -2910,26 +2836,6 @@
     "source_id": "4449164",
     "status": "live",
     "source_owner": "MarekMazurkiewicz"
-  },
-  {
-    "answer_id": "GS2118-551692",
-    "sentence_id": "S2118",
-    "direction": "en_to_fr",
-    "answer": "Tom jest studentem.",
-    "source": "tatoeba",
-    "source_id": "551692",
-    "status": "live",
-    "source_owner": "zipangu"
-  },
-  {
-    "answer_id": "GS2121-12824929",
-    "sentence_id": "S2121",
-    "direction": "en_to_fr",
-    "answer": "To są drzwi.",
-    "source": "tatoeba",
-    "source_id": "12824929",
-    "status": "live",
-    "source_owner": "JimiYoru"
   },
   {
     "answer_id": "GS35101-9331312",
@@ -2962,26 +2868,6 @@
     "source_owner": "cps"
   },
   {
-    "answer_id": "GS35116-1614928",
-    "sentence_id": "S35116",
-    "direction": "en_to_fr",
-    "answer": "Nie mam pewności.",
-    "source": "tatoeba",
-    "source_id": "1614928",
-    "status": "live",
-    "source_owner": "zipangu"
-  },
-  {
-    "answer_id": "GS35117-1614928",
-    "sentence_id": "S35117",
-    "direction": "en_to_fr",
-    "answer": "Nie mam pewności.",
-    "source": "tatoeba",
-    "source_id": "1614928",
-    "status": "live",
-    "source_owner": "zipangu"
-  },
-  {
     "answer_id": "GS36101-559457",
     "sentence_id": "S36101",
     "direction": "en_to_fr",
@@ -2990,16 +2876,6 @@
     "source_id": "559457",
     "status": "live",
     "source_owner": "Bilberry"
-  },
-  {
-    "answer_id": "GS36109-3430004",
-    "sentence_id": "S36109",
-    "direction": "en_to_fr",
-    "answer": "Trudno w to uwierzyć.",
-    "source": "tatoeba",
-    "source_id": "3430004",
-    "status": "live",
-    "source_owner": "konrad509"
   },
   {
     "answer_id": "GS36112-369059",
@@ -3032,6 +2908,66 @@
     "source_owner": "orzechowski"
   },
   {
+    "answer_id": "GS41409-349237",
+    "sentence_id": "S41409",
+    "direction": "en_to_fr",
+    "answer": "Jak się pan nazywa?",
+    "source": "tatoeba",
+    "source_id": "349237",
+    "status": "live",
+    "source_owner": "zipangu"
+  },
+  {
+    "answer_id": "GS41410-353202",
+    "sentence_id": "S41410",
+    "direction": "en_to_fr",
+    "answer": "Gdzie mieszkasz?",
+    "source": "tatoeba",
+    "source_id": "353202",
+    "status": "live",
+    "source_owner": "zipangu"
+  },
+  {
+    "answer_id": "GS41410-409969",
+    "sentence_id": "S41410",
+    "direction": "en_to_fr",
+    "answer": "Gdzie pan mieszka?",
+    "source": "tatoeba",
+    "source_id": "409969",
+    "status": "live",
+    "source_owner": "zipangu"
+  },
+  {
+    "answer_id": "GS41411-348679",
+    "sentence_id": "S41411",
+    "direction": "en_to_fr",
+    "answer": "Czy mówi pan po angielsku?",
+    "source": "tatoeba",
+    "source_id": "348679",
+    "status": "live",
+    "source_owner": "zipangu"
+  },
+  {
+    "answer_id": "GS41411-569897",
+    "sentence_id": "S41411",
+    "direction": "en_to_fr",
+    "answer": "Czy mówisz po angielsku?",
+    "source": "tatoeba",
+    "source_id": "569897",
+    "status": "live",
+    "source_owner": "Bilberry"
+  },
+  {
+    "answer_id": "GS41411-348758",
+    "sentence_id": "S41411",
+    "direction": "en_to_fr",
+    "answer": "Mówi pan po angielsku?",
+    "source": "tatoeba",
+    "source_id": "348758",
+    "status": "live",
+    "source_owner": "zipangu"
+  },
+  {
     "answer_id": "GS43107-5664860",
     "sentence_id": "S43107",
     "direction": "en_to_fr",
@@ -3062,16 +2998,6 @@
     "source_owner": "Mateusz"
   },
   {
-    "answer_id": "GS53104-569901",
-    "sentence_id": "S53104",
-    "direction": "en_to_fr",
-    "answer": "Gdzie jest stacja?",
-    "source": "tatoeba",
-    "source_id": "569901",
-    "status": "live",
-    "source_owner": "Bilberry"
-  },
-  {
     "answer_id": "GS55151-1118057",
     "sentence_id": "S55151",
     "direction": "en_to_fr",
@@ -3090,46 +3016,6 @@
     "source_id": "1117987",
     "status": "live",
     "source_owner": "hebrajska"
-  },
-  {
-    "answer_id": "GS56105-2365518",
-    "sentence_id": "S56105",
-    "direction": "en_to_fr",
-    "answer": "Ona jest interesującą kobietą.",
-    "source": "tatoeba",
-    "source_id": "2365518",
-    "status": "live",
-    "source_owner": "MarekMazurkiewicz"
-  },
-  {
-    "answer_id": "GS56109-550653",
-    "sentence_id": "S56109",
-    "direction": "en_to_fr",
-    "answer": "On jest dobrą osobą.",
-    "source": "tatoeba",
-    "source_id": "550653",
-    "status": "live",
-    "source_owner": "Bilberry"
-  },
-  {
-    "answer_id": "GS56115-905944",
-    "sentence_id": "S56115",
-    "direction": "en_to_fr",
-    "answer": "Masz czerwoną twarz.",
-    "source": "tatoeba",
-    "source_id": "905944",
-    "status": "live",
-    "source_owner": "zipangu"
-  },
-  {
-    "answer_id": "GS57106-10624695",
-    "sentence_id": "S57106",
-    "direction": "en_to_fr",
-    "answer": "Autobus jest pełen.",
-    "source": "tatoeba",
-    "source_id": "10624695",
-    "status": "live",
-    "source_owner": "polski_ren"
   },
   {
     "answer_id": "GS6101-3418635",
@@ -3162,16 +3048,6 @@
     "source_owner": "zipangu"
   },
   {
-    "answer_id": "GS6107-531002",
-    "sentence_id": "S6107",
-    "direction": "en_to_fr",
-    "answer": "Czy jesteś zajęty?",
-    "source": "tatoeba",
-    "source_id": "531002",
-    "status": "live",
-    "source_owner": "Bilberry"
-  },
-  {
     "answer_id": "GS61170-5662097",
     "sentence_id": "S61170",
     "direction": "en_to_fr",
@@ -3182,16 +3058,6 @@
     "source_owner": "machmet"
   },
   {
-    "answer_id": "GS63170-3285682",
-    "sentence_id": "S63170",
-    "direction": "en_to_fr",
-    "answer": "Jaka jest dzisiejsza data?",
-    "source": "tatoeba",
-    "source_id": "3285682",
-    "status": "live",
-    "source_owner": "jeedrek"
-  },
-  {
     "answer_id": "GS65101-545054",
     "sentence_id": "S65101",
     "direction": "en_to_fr",
@@ -3200,16 +3066,6 @@
     "source_id": "545054",
     "status": "live",
     "source_owner": "Bilberry"
-  },
-  {
-    "answer_id": "GS65122-4558072",
-    "sentence_id": "S65122",
-    "direction": "en_to_fr",
-    "answer": "Kto jest twoim ojcem?",
-    "source": "tatoeba",
-    "source_id": "4558072",
-    "status": "live",
-    "source_owner": "pyoturu"
   },
   {
     "answer_id": "GS65127-8763045",
@@ -3232,16 +3088,6 @@
     "source_owner": "zipangu"
   },
   {
-    "answer_id": "GS67102-4101582",
-    "sentence_id": "S67102",
-    "direction": "en_to_fr",
-    "answer": "Jeżdżę do pracy autobusem.",
-    "source": "tatoeba",
-    "source_id": "4101582",
-    "status": "live",
-    "source_owner": "jeedrek"
-  },
-  {
     "answer_id": "GS68127-5659932",
     "sentence_id": "S68127",
     "direction": "en_to_fr",
@@ -3252,56 +3098,6 @@
     "source_owner": "machmet"
   },
   {
-    "answer_id": "GS68127-8213717",
-    "sentence_id": "S68127",
-    "direction": "en_to_fr",
-    "answer": "Proszę zaczekać.",
-    "source": "tatoeba",
-    "source_id": "8213717",
-    "status": "live",
-    "source_owner": "arie"
-  },
-  {
-    "answer_id": "GS68129-3785115",
-    "sentence_id": "S68129",
-    "direction": "en_to_fr",
-    "answer": "Mogę was o coś spytać?",
-    "source": "tatoeba",
-    "source_id": "3785115",
-    "status": "live",
-    "source_owner": "jeedrek"
-  },
-  {
-    "answer_id": "GS72112-535161",
-    "sentence_id": "S72112",
-    "direction": "en_to_fr",
-    "answer": "Dzisiaj jest pochmurno.",
-    "source": "tatoeba",
-    "source_id": "535161",
-    "status": "live",
-    "source_owner": "orzechowski"
-  },
-  {
-    "answer_id": "GS73111-2120078",
-    "sentence_id": "S73111",
-    "direction": "en_to_fr",
-    "answer": "Pokaż mi.",
-    "source": "tatoeba",
-    "source_id": "2120078",
-    "status": "live",
-    "source_owner": "liori"
-  },
-  {
-    "answer_id": "GS73123-3851745",
-    "sentence_id": "S73123",
-    "direction": "en_to_fr",
-    "answer": "Nie musisz mi dziękować.",
-    "source": "tatoeba",
-    "source_id": "3851745",
-    "status": "live",
-    "source_owner": "jeedrek"
-  },
-  {
     "answer_id": "GS75107-933371",
     "sentence_id": "S75107",
     "direction": "en_to_fr",
@@ -3310,16 +3106,6 @@
     "source_id": "933371",
     "status": "live",
     "source_owner": "zipangu"
-  },
-  {
-    "answer_id": "GS75131-8721600",
-    "sentence_id": "S75131",
-    "direction": "en_to_fr",
-    "answer": "Mój stan zdrowia jest dobry.",
-    "source": "tatoeba",
-    "source_id": "8721600",
-    "status": "live",
-    "source_owner": "nusia2302"
   },
   {
     "answer_id": "GS88123-4328190",
@@ -3360,16 +3146,6 @@
     "source_id": "5662023",
     "status": "live",
     "source_owner": "machmet"
-  },
-  {
-    "answer_id": "GS91138-919776",
-    "sentence_id": "S91138",
-    "direction": "en_to_fr",
-    "answer": "Wiedza to potęga.",
-    "source": "tatoeba",
-    "source_id": "919776",
-    "status": "live",
-    "source_owner": "zipangu"
   },
   {
     "answer_id": "GS93105-2841992",
@@ -6709,6 +6485,174 @@
     "direction": "fr_to_en",
     "answer": "Tomorrow, I have a check-up.",
     "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00416",
+    "sentence_id": "S41401",
+    "direction": "fr_to_en",
+    "answer": "What is your name?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00417",
+    "sentence_id": "S41406",
+    "direction": "fr_to_en",
+    "answer": "Have you got a dog?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00418",
+    "sentence_id": "S26404",
+    "direction": "fr_to_en",
+    "answer": "I am pleased to meet you.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00419",
+    "sentence_id": "S88404",
+    "direction": "fr_to_en",
+    "answer": "What is your marital status?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00420",
+    "sentence_id": "S41415",
+    "direction": "fr_to_en",
+    "answer": "No one likes Tom.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00421",
+    "sentence_id": "S41418",
+    "direction": "fr_to_en",
+    "answer": "Now, I'm looking for Tom.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00422",
+    "sentence_id": "S41419",
+    "direction": "fr_to_en",
+    "answer": "Tom's not here.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00423",
+    "sentence_id": "S41419",
+    "direction": "fr_to_en",
+    "answer": "Tom is not here.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00424",
+    "sentence_id": "S42403",
+    "direction": "fr_to_en",
+    "answer": "That's Tom's room.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00425",
+    "sentence_id": "S45401",
+    "direction": "fr_to_en",
+    "answer": "I'd known Tom for years.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00426",
+    "sentence_id": "S45404",
+    "direction": "fr_to_en",
+    "answer": "Tom's not home.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00427",
+    "sentence_id": "S45404",
+    "direction": "fr_to_en",
+    "answer": "Tom's not at home.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00428",
+    "sentence_id": "S45404",
+    "direction": "fr_to_en",
+    "answer": "Tom isn't home.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00429",
+    "sentence_id": "S45404",
+    "direction": "fr_to_en",
+    "answer": "Tom is not home.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00430",
+    "sentence_id": "S64403",
+    "direction": "fr_to_en",
+    "answer": "Today, I have a meeting with Tom.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00431",
+    "sentence_id": "S64404",
+    "direction": "fr_to_en",
+    "answer": "Now, I can't talk to Tom right.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00432",
+    "sentence_id": "S64407",
+    "direction": "fr_to_en",
+    "answer": "We're seeing Tom tomorrow.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00433",
+    "sentence_id": "S64407",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, we're meeting Tom.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00434",
+    "sentence_id": "S64407",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, we're seeing Tom.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00435",
+    "sentence_id": "S56403",
+    "direction": "fr_to_en",
+    "answer": "Sometimes, I feel stupid.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00436",
+    "sentence_id": "S41422",
+    "direction": "fr_to_en",
+    "answer": "Is his name Peter?",
+    "source": "equivalent: linked",
     "status": "live"
   }
 ]

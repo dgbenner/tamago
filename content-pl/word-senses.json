@@ -3408,8 +3408,9 @@
  },
  "W2145": {
   "pos": "Verb",
-  "match": "of wiać",
-  "lemma_match": "blow"
+  "form_of": "wiać",
+  "person": "on",
+  "note": "wiać to blow; the page's form-of lines name the scram and perceptible senses only"
  },
  "W2146": {
   "pos": "Adverb"
@@ -4323,10 +4324,12 @@
   "pos": "Noun"
  },
  "W2568": {
-  "pos": "Noun"
+  "pos": "Pronoun",
+  "note": "the polite you, U41 (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), Dan's call 1); the noun sense stays in the hint for ten pan"
  },
  "W2569": {
-  "pos": "Noun"
+  "pos": "Pronoun",
+  "note": "the polite you, U41 (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), Dan's call 1)"
  },
  "W2571": {
   "pos": "Verb"
@@ -4435,8 +4438,8 @@
   "match": "e-mail (message)"
  },
  "W2604": {
-  "pos": "Noun",
-  "match": "loved one"
+  "pos": "Participle",
+  "note": "used as an adjective (mój kochany brat); Wiktionary files the adjective under Participle, there is no Adjective heading (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), verdict 4)"
  },
  "W2605": {
   "pos": "Noun",
@@ -4880,5 +4883,20 @@
  },
  "W2854": {
   "pos": "Noun"
+ },
+ "W2624": {
+  "pos": "Pronoun",
+  "match": "you (polite)",
+  "note": "object form of the polite you, U26 (Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), Dan's call 1)"
+ },
+ "W1782": {
+  "name": "Tom",
+  "case": "genitive and accusative",
+  "note": "Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), Dan's call 2"
+ },
+ "W2075": {
+  "name": "Tom",
+  "case": "instrumental",
+  "note": "Fable's Polish phase 6 review (2026-11-22; _review/polish-phase6-review.md), Dan's call 2"
  }
 }

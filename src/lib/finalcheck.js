@@ -47,9 +47,11 @@ export const EXAMS = {
   // Polish (2026-11-22, the full A1 run): Poland's state certificate exam (państwowy egzamin certyfikatowy) is set at A1
   // for adults. Its regulation (Dz.U. 2018 poz. 1386, § 14 and § 17) gives A1 a written part of at most 120 minutes,
   // listening, reading and writing modules, with no separate grammar module (grammar is its own module from B1), then an
-  // oral part of at most 10 minutes; a pass is 50% of each part (§ 23).
+  // oral part of at most 10 minutes; a pass is 50% of each part (§ 23). The commission's current adult sessions start at
+  // A2, so A1 sittings are rare (Fable's phase 6 review, Dan's call, 2026-11-22): the note says so; the A1 format stays.
   pl: { name: 'Certificate in Polish as a Foreign Language (A1)', body: 'State Commission for the Certification of Proficiency in Polish as a Foreign Language', official: 'https://certyfikatpolski.pl',
-    about: 'The state certificate exam in Polish as a foreign language starts at A1. Its written part has three modules, listening, reading and writing, and an oral part follows, the same day or the next.',
+    about: 'The state certificate exam in Polish as a foreign language is set in law from A1. Its written part has three modules, listening, reading and writing, and an oral part follows, the same day or the next.',
+    note: 'The current adult sessions of the state certificate exam start at A2, so A1 sittings are rare; check the session list on the commission\'s site. The final check follows the A1 format for practice.',
     samples: 'https://certyfikatpolski.pl',
     format: 'Numbers and short lines to listen to; short texts to read; a form and a short message to write; then speaking.' },
 }

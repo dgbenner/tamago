@@ -20269,15 +20269,13 @@
     "lemma": "wiać",
     "part_of_speech": "Verb",
     "gender": "",
-    "gloss": "to scram",
-    "gloss_full": "third-person singular present of wiać (“to scram”)",
-    "lemma_gloss": "",
-    "wiktionary_url": "https://en.wiktionary.org/wiki/wieje#Polish",
+    "gloss": "third-person singular present of wiać",
+    "gloss_full": "present tense, on, in Wiktionary's conjugation of wiać",
+    "lemma_gloss": "to blow",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/wia%C4%87#Polish",
     "status": "checked",
     "flag_reason": "",
-    "other_entries": [
-      "Verb: third-person singular present of wiać (“to be perceptible”)"
-    ],
+    "other_entries": [],
     "lingua_libre": null
   },
   {
@@ -24982,16 +24980,16 @@
     "word_id": "W2568",
     "form": "pan",
     "lemma": "pan",
-    "part_of_speech": "Noun",
-    "gender": "m, personal",
-    "gloss": "gentleman, man",
-    "gloss_full": "gentleman, man (specific male person, especially one unknown to the speaker)",
+    "part_of_speech": "Pronoun",
+    "gender": "",
+    "gloss": "you polite second person m-personal nominative, it takes verbs as third-person sg form",
+    "gloss_full": "you polite second person m-personal nominative, it takes verbs as third-person sg form",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/pan#Polish",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Pronoun: you polite second person m-personal nominative, it takes verbs as third-person sg form",
+      "Noun: gentleman, man (specific male person, especially one unknown to the speaker)",
       "Noun: genitive plural of pana"
     ],
     "lingua_libre": {
@@ -25005,16 +25003,16 @@
     "word_id": "W2569",
     "form": "pani",
     "lemma": "pani",
-    "part_of_speech": "Noun",
-    "gender": "f",
-    "gloss": "female equivalent of pan female equivalent of pan female equivalent of pan female equivalent of pan female equivalent of pan female equivalent of pan",
-    "gloss_full": "female equivalent of pan (“woman”) (specific female person, especially one unknown to the speaker) female equivalent of pan (“Mrs; miss”) (title before a last name) female equivalent of pan (“mistress, lady”) (person with power over something) female equivalent of pan (“madam”) (rich, well-presenting person) female equivalent of pan (“lady”) (master of a house) female equivalent of pan (“teacher”)",
+    "part_of_speech": "Pronoun",
+    "gender": "",
+    "gloss": "female equivalent of pan",
+    "gloss_full": "female equivalent of pan (“you”) (polite second person f nominative, it takes verbs as third-person sg form)",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/pani#Polish",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Pronoun: female equivalent of pan (“you”) (polite second person f nominative, it takes verbs as third-person sg form)"
+      "Noun: female equivalent of pan (“woman”) (specific female person, especially one unknown to the speaker) female equivalent of pan (“Mrs; miss”) (title before a last name) female equivalent of pan (“mistress, lady”) (person with power over something) female equivalent of pan (“madam”) (rich, well-presenting person) female equivalent of pan (“lady”) (master of a house) female equivalent of pan (“teacher”)"
     ],
     "lingua_libre": {
       "file": "LL-Q809 (pol)-Gower-pani.wav",
@@ -25600,16 +25598,16 @@
     "word_id": "W2604",
     "form": "kochany",
     "lemma": "kochany",
-    "part_of_speech": "Noun",
-    "gender": "m, personal",
-    "gloss": "loved one, love",
-    "gloss_full": "loved one, love",
+    "part_of_speech": "Participle",
+    "gender": "",
+    "gloss": "passive adjectival participle of kochać",
+    "gloss_full": "passive adjectival participle of kochać",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/kochany#Polish",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Participle: passive adjectival participle of kochać"
+      "Noun: loved one, love"
     ],
     "lingua_libre": null
   },
@@ -28495,5 +28493,57 @@
     "flag_reason": "",
     "other_entries": [],
     "lingua_libre": null
+  },
+  {
+    "word_id": "W1782",
+    "form": "Toma",
+    "lemma": "Tom",
+    "part_of_speech": "Proper noun",
+    "gender": "",
+    "gloss": "Tom (genitive and accusative)",
+    "gloss_full": "genitive and accusative of the name Tom, as Tatoeba's checked lines use it (a name has no Wiktionary entry of its own)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/Toma#Polish",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W2075",
+    "form": "Tomem",
+    "lemma": "Tom",
+    "part_of_speech": "Proper noun",
+    "gender": "",
+    "gloss": "Tom (instrumental)",
+    "gloss_full": "instrumental of the name Tom, as Tatoeba's checked lines use it (a name has no Wiktionary entry of its own)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/Tomem#Polish",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W2624",
+    "form": "pana",
+    "lemma": "pan",
+    "part_of_speech": "Pronoun",
+    "gender": "",
+    "gloss": "you (polite)",
+    "gloss_full": "genitive/accusative singular of pan (“you (polite)”)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/pana#Polish",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: flat tire"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q809 (pol)-KaMan-Pana.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/LL-Q809_%28pol%29-KaMan-Pana.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 2
+    }
   }
 ]
