@@ -97,3 +97,29 @@ Read this first when Tamago comes back.
 ## Waiting for Dan
 
 - Nothing is running. Every Tamago dev server, preview and headless browser is stopped. Builder 2 is idle and has stopped.
+
+## Final sweep before closing the sessions (2026-11-22)
+
+- **Norwegian branch:** `lang/norwegian` is on origin and now matches the last local tip (b36df6d). The copy on origin was older and has been fast-forwarded. Its Part 1 is also in main, parked.
+- **This Mac:**
+  - Nothing Tamago-related is running: no builds, dev or preview servers, Storybook, headless browsers or watchers.
+  - None of the open Claude sessions, Builder 2 included, has a child process, so its background watch is gone too.
+  - This session has no scheduled jobs and no background agents left.
+- **Scheduled jobs on this Mac:** none start Tamago work.
+  - The only crontab entry is `price-intelligence-tracker/run_collection.sh` at 6:00 daily, which is not Tamago.
+  - The LaunchAgents and LaunchDaemons are all Box, Dropbox, Google, Microsoft, Zoom, Mullvad and Tidepool.
+  - Nothing was changed.
+- **What still runs on its own:**
+
+  | What | Repo | Trigger | Does | Cost |
+  |---|---|---|---|---|
+  | Full suite | dgbenner/tamago | each push to main, or manual | runs the full test suite | free: public repo |
+  | Daily snapshot | dgbenner/tamago-dashboard | daily at 10:37 UTC, or manual | reads Tamago's public runs and events with the built-in token, commits new data, redeploys the dashboard | free: public repo, no paid API |
+  | Deploy to GitHub Pages | dgbenner/tamago-dashboard | each push to main, manual, or called by the daily snapshot | builds and publishes the dashboard | free |
+
+  - The daily snapshot keeps committing to the dashboard repo every day while Tamago is on ice. To stop it, disable that workflow in the repo's Actions tab. GitHub also pauses scheduled workflows by itself after 60 days without repo activity, but the snapshot's own daily commits may keep the repo counting as active.
+  - **Cloudflare:** no cron triggers or scheduled workers. Tamago runs on Pages, with four Pages Functions (`/api/converse`, `/api/explain`, `/api/generate`, `/api/admin-user`). They run only when someone uses the app; there is no wrangler config and no scheduled handler. They cost nothing on Cloudflare's free tier unless traffic passes its daily request allowance.
+- **API spend (`TAMAGO_ANTHROPIC_API_KEY`):** the key and the account were not touched.
+  - **What the app limits:** each conversation is capped at 14 learner turns, with each line clipped to 240 characters, word lists to 400 and replies to 1,500 tokens. Explain and practice inputs are clipped as well. Conversations and explanations use Haiku 5.5. Practice generation (`/api/generate`) uses Opus 5.5, which costs more per call.
+  - **What it doesn't limit:** there is no per-user or per-IP rate limit and no daily or monthly cap in the app. The only gate is a check that the request comes from the app's own pages, and the code calls that "a light guard until sign-in gives a real per-learner limit". So spend scales with use and with anyone who scripts those endpoints.
+  - **Check this, Dan:** a comment in `server/converse.mjs` refers to "the Tamago workspace's $5 monthly cap". That is the only spending limit, and it lives in the Anthropic Console, not the app. Please check in the Console that a monthly spend limit really is set on the workspace this key belongs to.
