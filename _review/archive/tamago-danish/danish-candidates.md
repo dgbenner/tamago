@@ -1,0 +1,518 @@
+# Danish Part 1 — Tatoeba candidates (for Fable)
+Every Tatoeba line shipped, by circle. Mark any to cut (dark/odd/formal) or any English to improve.
+
+## U01 Saying Hello (17)
+- S1001  **Du er en dreng, ikke en mand.**  —  You are a boy, not a man. · **Use**
+- S1002  **Jeg er ikke et barn.**  —  I'm not a child. · **Use**
+- S1003  **Du er ikke en pige.**  —  You aren't a girl. · **Use**
+- S1004  **Jeg er et barn.**  —  I'm a child. · **Use**
+- S1005  **Er du en dreng?**  —  Are you a boy? · **Use**
+- S1006  **Ja, og?**  —  Yeah, and? · **Reject** — "Yeah, and?" is snippy and odd on its own
+- S1007  **Jeg er en mand.**  —  I'm a man. · **Use**
+- S1008  **Er du en pige?**  —  Are you a girl? · **Use**
+- S1009  **Jeg er en kvinde.**  —  I'm a woman. · **Use**
+- S1010  **Jeg er en dreng.**  —  I'm a boy. · **Use**
+- S1011  **Jeg er kvinde.**  —  I'm a woman. · **Use**
+- S1012  **Tom er en mand.**  —  Tom is a man. · **Use**
+- S1013  **Mary er en kvinde.**  —  Mary is a woman. · **Use**
+- S1014  **Hej, Tom!**  —  Hello, Tom. · **Use**
+- S1015  **Jeg er ikke Tom.**  —  I'm not Tom. · **Use**
+- S1016  **Jeg er Tom.**  —  I'm Tom. · **Use**
+- S1017  **Tom er Tom.**  —  Tom is Tom. · **Reject** — "Tom is Tom" is an idiom
+
+## U31 Asking for Help (5)
+- S31001  **Du taler.**  —  You speak. · **Use**
+- S31002  **Jeg forstår.**  —  I see. · **Reject** — duplicate of S31101 (same Danish); S31101 has the better English
+- S31003  **Jeg forstår ikke.**  —  I don't understand. · **Use**
+- S31101  **Jeg forstår.**  —  I understand. · **Use**
+- S31102  **Jeg forstår ikke.**  —  I do not understand. · **Reject** — duplicate of S31003 (same Danish)
+
+## U02 People and Things (29)
+- S2001  **Han er en stor dreng.**  —  He's a big boy. · **Use**
+- S2002  **Er han læge?**  —  Is he a doctor? · **Use**
+- S2003  **Er hun en læge?**  —  Is she a doctor? · **Use**
+- S2004  **Hun er læge.**  —  She's a doctor. · **Use**
+- S2005  **Det er en bog.**  —  It is a book. · **Use**
+- S2006  **Den kvinde er stærk.**  —  That woman is strong. · **Use**
+- S2007  **Jeg er stor og stærk.**  —  I'm big and strong. · **Use**
+- S2008  **Han er stærk.**  —  He's strong. · **Use**
+- S2009  **Ja, den er.**  —  Yes, it is. · **Reject** — "Ja, den er." is not natural Danish ("Ja, det er den")
+- S2010  **Ja, det er.**  —  Yes, it is. · **Reject** — "Ja, det er." is not natural Danish
+- S2011  **Du er stor.**  —  You're big. · **Use**
+- S2012  **Hun er kvinde.**  —  She's a woman. · **Use**
+- S2013  **Jeg er ikke lærer.**  —  I'm not a teacher. · **Use**
+- S2014  **Er han en læge?**  —  Is he a doctor? · **Use**
+- S2015  **Er du læge?**  —  Are you a doctor? · **Use**
+- S2016  **Han er læge.**  —  He's a doctor. · **Use**
+- S2017  **Han er ikke læge.**  —  He is not a doctor. · **Use**
+- S2018  **Du er læge.**  —  You're a doctor. · **Use**
+- S2019  **Tom er stor.**  —  Tom is big. · **Use**
+- S2020  **Maria er læge.**  —  Mary is a doctor. · **Use**
+- S2021  **Tom er læge.**  —  Tom's a doctor. · **Use**
+- S2022  **Jeg er stærk.**  —  I'm strong. · **Use**
+- S2023  **Jeg er ikke læge.**  —  I'm not a doctor. · **Use**
+- S2024  **Hun er et barn.**  —  She is a child. · **Use**
+- S2025  **Hun er en kvinde.**  —  She's a woman. · **Use**
+- S2026  **Du er en læge.**  —  You are a doctor. · **Use**
+- S2027  **Han er ikke en pige.**  —  He's not a girl. · **Use**
+- S2101  **Det er en bog.**  —  It is a book. · **Reject** — duplicate of S2005
+- S2103  **Han er læge.**  —  He is a doctor. · **Reject** — duplicate of S2016
+
+## U03 Polite Phrases (16)
+- S3001  **Goddag! Hvordan går det?**  —  Good day, how are you? · **Use**
+- S3002  **Hvordan går det, Tom?**  —  How are you, Tom? · **Use**
+- S3003  **Hej Tom! Hvordan går det?**  —  Hello Tom! How are you? · **Use**
+- S3004  **Ikke dårligt!**  —  Not bad. · **Use**
+- S3005  **Godaften, Tom.**  —  Good evening, Tom. · **Use**
+- S3006  **Nej tak.**  —  No, thanks. · **Use**
+- S3007  **Farvel, Tom!**  —  Have a nice day, Tom. · **Use** · English to show: "Goodbye, Tom!"
+- S3008  **Du er ikke velkommen.**  —  You're not welcome. · **Reject** — "You're not welcome" is hostile
+- S3009  **Jeg går.**  —  I'm going. · **Use**
+- S3010  **Han går.**  —  He walks. · **Use**
+- S3011  **Hun går.**  —  She's walking. · **Use**
+- S3101  **Godmorgen!**  —  Good morning! · **Use**
+- S3102  **Godaften!**  —  Good evening! · **Use**
+- S3105  **Farvel!**  —  Goodbye! · **Use**
+- S3106  **Undskyld!**  —  Sorry! · **Use**
+- S3107  **Velkommen!**  —  Welcome! · **Use**
+
+## U04 Food and Drink (30)
+- S4001  **Drikker du vand?**  —  Do you drink water? · **Use**
+- S4002  **Jeg drikker vand.**  —  I drink water. · **Use**
+- S4003  **Kan du lide te?**  —  Do you like tea? · **Use**
+- S4004  **Kan du lide mælk?**  —  Do you like milk? · **Use**
+- S4005  **Jeg spiser ost.**  —  I eat cheese. · **Use**
+- S4006  **Jeg spiser et æble.**  —  I eat an apple. · **Use**
+- S4007  **Jeg kan godt lide mælk.**  —  I like milk. · **Use**
+- S4008  **Drikker du kaffe?**  —  Do you drink coffee? · **Use**
+- S4009  **Han spiser et æble.**  —  He's eating an apple. · **Use**
+- S4010  **Drikker du vin?**  —  Do you drink wine? · **Use**
+- S4011  **Drikker Tom kaffe?**  —  Does Tom drink coffee? · **Use**
+- S4012  **Tom drikker kaffe.**  —  Tom drinks coffee. · **Use**
+- S4013  **Han drikker vand.**  —  He drinks water. · **Use**
+- S4014  **Tom drikker mælk.**  —  Tom drinks milk. · **Use**
+- S4015  **Han drikker te.**  —  He is drinking tea. · **Use**
+- S4016  **Hun spiser et æble.**  —  She's eating an apple. · **Use**
+- S4017  **Kan du lide det?**  —  Do you like it? · **Use**
+- S4018  **Kan du lide Tom?**  —  Do you like Tom? · **Use**
+- S4019  **Drikker Tom?**  —  Does Tom drink? · **Reject** — "Does Tom drink?" means alcohol
+- S4020  **Jeg drikker kaffe.**  —  I drink coffee. · **Use**
+- S4021  **Jeg drikker ikke kaffe.**  —  I don't drink coffee. · **Use**
+- S4022  **Hun drikker ikke kaffe.**  —  She doesn't drink coffee. · **Use**
+- S4023  **Tom spiser ikke et æble.**  —  Tom isn't eating an apple. · **Use**
+- S4024  **Hun spiser.**  —  She's eating. · **Use**
+- S4025  **Han spiser.**  —  He's eating. · **Use**
+- S4026  **Jeg spiser.**  —  I eat. · **Use**
+- S4027  **Tom spiser.**  —  Tom's eating. · **Use**
+- S4028  **Tom drikker.**  —  Tom drinks. · **Reject** — "Tom drinks" means alcohol
+- S4029  **Jeg spiser ikke.**  —  I am not eating. · **Use**
+- S4030  **Jeg kan ikke.**  —  I can't. · **Use**
+
+## U05 Pets and Animals (31)
+- S5001  **Jeg har en kat og en hund.**  —  I have a cat and a dog. · **Use**
+- S5002  **Jeg har en hund og en kat.**  —  I have a dog and a cat. · **Use**
+- S5003  **Har du en hund?**  —  Have you a dog? · **Use** · English to show: "Do you have a dog?"
+- S5004  **Er det en kat?**  —  Is that a cat? · **Use**
+- S5005  **Er det en fugl?**  —  Is it a bird? · **Use**
+- S5006  **Jeg har en hest.**  —  I have a horse. · **Use**
+- S5007  **Det er en fugl.**  —  It is a bird. · **Use**
+- S5008  **Drikker fisk vand?**  —  Do fish drink water? · **Use**
+- S5009  **Kan du ikke lide fisk?**  —  Don't you like fish? · **Use**
+- S5010  **Har han en hund?**  —  Does he have a dog? · **Use**
+- S5011  **Du har en hund, har du ikke?**  —  You have a dog, don't you? · **Use**
+- S5012  **Har du vin?**  —  Do you have some wine? · **Use**
+- S5013  **Hvordan har du det?**  —  How are you? · **Use**
+- S5014  **Har hun det godt?**  —  Is she all right? · **Use**
+- S5015  **Har du en bog?**  —  Do you have a book? · **Use**
+- S5016  **Har du et hus?**  —  Do you have a house? · **Use**
+- S5017  **Har du det dårligt?**  —  Do you feel sick? · **Use** · English to show: "Are you feeling bad?"
+- S5018  **Hvordan har Mary det?**  —  How is Mary? · **Use**
+- S5019  **Har Tom det dårligt?**  —  Is Tom feeling bad? · **Use**
+- S5020  **Har du det godt?**  —  Are you feeling OK? · **Use**
+- S5021  **Har du det ikke godt?**  —  Do you feel sick? · **Use** · English to show: "Aren't you feeling well?"
+- S5022  **Hvordan har du det, Tom?**  —  How are you, Tom? · **Use**
+- S5023  **Og du, hvordan har du det?**  —  And you, how are you? · **Use**
+- S5024  **Er du læge?**  —  Are you a doctor? · **Use**
+- S5025  **Er han læge?**  —  Is he a doctor? · **Use**
+- S5026  **Er hun en læge?**  —  Is she a doctor? · **Use**
+- S5027  **Er han en læge?**  —  Is he a doctor? · **Use**
+- S5028  **Er du en dreng?**  —  Are you a boy? · **Use**
+- S5029  **Er du en pige?**  —  Are you a girl? · **Use**
+- S5030  **Jeg har en hund.**  —  I have a dog. · **Use**
+- S5101  **Jeg har en hest.**  —  I have a horse. · **Reject** — duplicate of S5006
+
+## U32 Asking About Words (19)
+- S32001  **Taler hun engelsk?**  —  Does she speak English? · **Use**
+- S32002  **Taler du engelsk?**  —  Do you speak English? · **Use**
+- S32003  **Hvad betyder det?**  —  What's that mean? · **Reject** — duplicate of S32101 (same Danish); S32101 has the better English
+- S32004  **Taler han engelsk?**  —  Does he speak English? · **Use**
+- S32005  **Hvordan siger man ...?**  —  How do you say...? · **Use** · English to show: "How do you say ...?"
+- S32006  **Jeg taler dansk.**  —  I speak Danish. · **Use**
+- S32007  **Nej betyder nej.**  —  No means no. · **Reject** — "No means no" carries a loaded meaning
+- S32008  **Han taler dansk.**  —  He speaks Danish. · **Use**
+- S32009  **Jeg taler ikke dansk.**  —  I don't speak Danish. · **Use**
+- S32010  **Han siger ikke et ord.**  —  He doesn't say a word. · **Use**
+- S32011  **Jeg forstår ikke et ord.**  —  I don't understand a word. · **Use**
+- S32012  **Du kan engelsk?**  —  You know English? · **Reject** — kan as "know (a language)"; learners know kan only inside kan lide
+- S32013  **Undskyld, taler du engelsk?**  —  Pardon me, do you speak English? · **Use**
+- S32014  **Han taler engelsk.**  —  He speaks English. · **Use**
+- S32015  **Jeg taler engelsk.**  —  I speak English. · **Use**
+- S32016  **Han taler godt engelsk.**  —  He speaks English well. · **Use**
+- S32017  **Jeg kan ikke engelsk.**  —  I don't know English. · **Reject** — kan as "know (a language)"; learners know kan only inside kan lide
+- S32018  **Jeg taler ikke engelsk.**  —  I don't speak English. · **Use**
+- S32101  **Hvad betyder det?**  —  What does it mean? · **Use**
+
+## U06 More Than One (28)
+- S6001  **De æbler er store.**  —  Those apples are big. · **Reject** — de as "those" (demonstrative); taught as "they"
+- S6002  **Er de store?**  —  Are they big? · **Use**
+- S6003  **Vi er mænd.**  —  We are men. · **Use**
+- S6004  **Hun har mange hunde.**  —  She has many dogs. · **Use**
+- S6005  **De har mange venner.**  —  They have many friends. · **Use**
+- S6006  **Katte kan ikke lide hunde.**  —  Cats don't like dogs. · **Use**
+- S6007  **Katte og hunde er dyr.**  —  Cats and dogs are animals. · **Use**
+- S6008  **Vi er venner.**  —  We're friends. · **Use**
+- S6009  **Vi spiser æbler.**  —  We're eating apples. · **Use**
+- S6010  **Jeg har mange venner.**  —  I have many friends. · **Use**
+- S6011  **Hunde kan ikke lide katte.**  —  Dogs don't like cats. · **Use**
+- S6012  **Jeg har en stor hund.**  —  I have a big dog. · **Use**
+- S6013  **Tom har en stor hund.**  —  Tom has a big dog. · **Use**
+- S6015  **Har han børn?**  —  Has he any children? · **Use** · English to show: "Does he have children?"
+- S6016  **Har hun børn?**  —  Does she have children? · **Use**
+- S6017  **Har du børn?**  —  Do you have children? · **Use**
+- S6018  **De er kvinder.**  —  They're women. · **Use**
+- S6019  **Vi er kvinder.**  —  We are women. · **Use**
+- S6020  **Jeg er en mand.**  —  I'm a man. · **Use**
+- S6021  **Mary kan godt lide kvinder.**  —  Mary likes women. · **Reject** — "Mary likes women" reads as a line about attraction
+- S6022  **Tom er en mand.**  —  Tom is a man. · **Use**
+- S6023  **Har du æbler?**  —  Do you have any apples? · **Use**
+- S6024  **Kan du lide æbler?**  —  Do you like apples? · **Use**
+- S6026  **Kan Tom lide hunde?**  —  Does Tom like dogs? · **Use**
+- S6027  **Kan du ikke lide æbler?**  —  Don't you like apples? · **Use**
+- S6028  **Har du en hund?**  —  Have you a dog? · **Use** · English to show: "Do you have a dog?"
+- S6029  **Har han en hund?**  —  Does he have a dog? · **Use**
+- S6030  **Du har en hund, har du ikke?**  —  You have a dog, don't you? · **Use**
+
+## U07 Describing Things (30)
+- S7001  **Han er meget smuk.**  —  He is very handsome. · **Use**
+- S7002  **Hun er meget smuk.**  —  She's very pretty. · **Use**
+- S7003  **Tom er meget gammel.**  —  Tom is very old. · **Use**
+- S7004  **Tom har en ny bil.**  —  Tom has a new car. · **Use**
+- S7005  **Tom har en smuk bil.**  —  Tom has a beautiful car. · **Use**
+- S7006  **Den bog er meget gammel.**  —  That book is very old. · **Use**
+- S7007  **Den er ny.**  —  It's new. · **Use**
+- S7008  **Du er ikke ung.**  —  You aren't young. · **Use**
+- S7009  **"Er hun ung?" "Ja, det er hun."**  —  "Is she young?" "Yes, she is." · **Use**
+- S7010  **Hun er gammel.**  —  She is old. · **Use**
+- S7011  **Har du bil?**  —  Do you have a car? · **Use**
+- S7012  **Er jeg sjov?**  —  Am I fun? · **Use**
+- S7013  **Er han en god lærer?**  —  Is he a good teacher? · **Use**
+- S7014  **Er Tom en god lærer?**  —  Is Tom a good teacher? · **Use**
+- S7015  **Har du ikke en cykel?**  —  Don't you have a bicycle? · **Use**
+- S7016  **Er du også en mus?**  —  Are you a mouse as well? · **Reject** — "Are you a mouse as well?" is nonsense
+- S7017  **Også jeg er lærer.**  —  I'm a teacher, too. · **Reject** — "Også jeg er lærer" is marked word order; S7018 has the plain one
+- S7018  **Jeg er også lærer.**  —  I'm a teacher, too. · **Use**
+- S7019  **Jeg er ikke god.**  —  I am not good. · **Use**
+- S7020  **Du er en sjov pige.**  —  You're a funny girl. · **Use**
+- S7021  **Jeg har ikke en cykel.**  —  I don't have a bicycle. · **Use**
+- S7022  **Er hun smuk?**  —  Is she beautiful? · **Use**
+- S7023  **Har Tom bil?**  —  Does Tom have a car? · **Use**
+- S7024  **Drikker du meget?**  —  Are you a heavy drinker? · **Reject** — "Are you a heavy drinker?" is about alcohol
+- S7025  **Har du en bil?**  —  Do you have a car? · **Use**
+- S7026  **Drikker du meget kaffe?**  —  Do you drink a lot of coffee? · **Use**
+- S7027  **Er hun en smuk pige?**  —  Is she a pretty girl? · **Use**
+- S7028  **Mary er meget smuk.**  —  Mary is very pretty. · **Use**
+- S7029  **Du er meget smuk.**  —  You're very beautiful. · **Use**
+- S7030  **Du er smuk.**  —  You're pretty. · **Use**
+
+## U52 Free Time (21)
+- S52001  **Ser Tom fodbold?**  —  Does Tom watch soccer? · **Use**
+- S52002  **Jeg kan spille fodbold.**  —  I can play soccer. · **Use**
+- S52003  **Vi ser en ny film.**  —  We are watching a new film. · **Use**
+- S52004  **Kan du lide film?**  —  Do you like movies? · **Use**
+- S52005  **Jeg synger.**  —  I sing. · **Use**
+- S52006  **Jeg danser.**  —  I'm dancing. · **Use**
+- S52007  **Tom danser.**  —  Tom dances. · **Use**
+- S52008  **De danser.**  —  They're dancing. · **Use**
+- S52009  **Tom svømmer.**  —  Tom's swimming. · **Use**
+- S52010  **Tom synger godt.**  —  Tom sings well. · **Use**
+- S52011  **Han svømmer godt.**  —  He swims well. · **Use**
+- S52012  **Jeg ser en bog.**  —  I see a book. · **Use**
+- S52013  **Hun er en god svømmer.**  —  She is a good swimmer. · **Reject** — svømmer as the noun "swimmer"; taught as the verb
+- S52014  **Du kan ikke lide musik.**  —  You don't like music. · **Use**
+- S52015  **Det er en sjov film.**  —  It's a funny movie. · **Use**
+- S52016  **Jeg er danser.**  —  I'm a dancer. · **Reject** — danser as the noun "dancer"; taught as the verb
+- S52017  **Jeg danser ikke.**  —  I don't dance. · **Use**
+- S52018  **Tom og Mary danser.**  —  Tom and Mary are dancing. · **Use**
+- S52019  **Du er en god danser.**  —  You're a good dancer. · **Reject** — danser as the noun "dancer"; taught as the verb
+- S52104  **Jeg kan spille fodbold.**  —  I can play football. · **Reject** — duplicate of S52002
+- S52106  **Jeg synger.**  —  I sing. · **Reject** — duplicate of S52005
+
+## U08 Where Things Are (21)
+- S8002  **Der er meget på spil.**  —  There's a lot at stake. · **Reject** — idiom (a lot at stake); spil in a sense not taught
+- S8003  **Jeg går i seng!**  —  I'm going to bed. · **Use**
+- S8004  **Tom er i seng.**  —  Tom is in bed. · **Use**
+- S8005  **Er der vand?**  —  Is there water? · **Use**
+- S8006  **Er Tom her?**  —  Is Tom here? · **Use**
+- S8007  **Er du ny her?**  —  Are you new here? · **Use**
+- S8008  **Er Tom der også?**  —  Is Tom there, too? · **Use**
+- S8009  **Tom står.**  —  Tom is standing. · **Use**
+- S8010  **Vi står.**  —  We're standing. · **Use**
+- S8011  **Jeg står.**  —  I'm standing. · **Use**
+- S8017  **Er Tom lærer her?**  —  Is Tom a teacher here? · **Use**
+- S8020  **Er det der mælk?**  —  Is that milk? · **Use**
+- S8021  **Du er ny her, ikke?**  —  You're new here, aren't you? · **Use**
+- S8022  **Er det der en fugl?**  —  Is that a bird? · **Use**
+- S8023  **Er det her en fugl?**  —  Is this a bird? · **Use**
+- S8024  **Ikke her!**  —  Not here. · **Use**
+- S8025  **I bil!**  —  By car! · **Reject** — "I bil!" is a fragment with i as "by"
+- S8026  **Den er der.**  —  It's there. · **Use**
+- S8027  **Jeg er her.**  —  I'm here. · **Use**
+- S8029  **Tom er her.**  —  Tom's here. · **Use**
+- S8030  **Her er jeg.**  —  Here I am. · **Use**
+
+## U09 How You Feel (30)
+- S9001  **Er du tørstig?**  —  Are you thirsty? · **Use**
+- S9002  **Er du træt?**  —  Are you tired? · **Use**
+- S9003  **Er du sulten?**  —  Are you hungry? · **Use**
+- S9004  **Er du også sulten?**  —  Are you hungry, too? · **Use**
+- S9005  **Er du ikke tørstig?**  —  Aren't you thirsty? · **Use**
+- S9006  **Jeg er træt.**  —  I'm tired. · **Use**
+- S9007  **Jeg er glad!**  —  I'm happy! · **Use**
+- S9008  **Jeg kan ikke lide kold kaffe.**  —  I don't like cold coffee. · **Use**
+- S9009  **Jeg er tørstig.**  —  I'm thirsty. · **Use**
+- S9010  **Jeg er sulten.**  —  I'm hungry. · **Use**
+- S9011  **Er du syg?**  —  Are you sick? · **Use**
+- S9012  **Er du ikke bange?**  —  Aren't you afraid? · **Use**
+- S9013  **Han er syg.**  —  He is sick. · **Use**
+- S9014  **Jeg er syg.**  —  I am sick. · **Use**
+- S9015  **Jeg er trist.**  —  I'm sad. · **Use**
+- S9016  **Han er bange.**  —  He's afraid. · **Use**
+- S9017  **Jeg er vred.**  —  I'm angry. · **Use**
+- S9018  **Tom er bange.**  —  Tom's afraid. · **Use**
+- S9019  **Jeg er meget træt.**  —  I'm very tired. · **Use**
+- S9020  **Ja, hun er vred.**  —  Yes, she is angry. · **Use**
+- S9021  **Jeg er ikke vred.**  —  I'm not angry. · **Use**
+- S9022  **Tom er syg.**  —  Tom's sick. · **Use**
+- S9023  **Du er syg!**  —  You're sick. · **Reject** — "Du er syg!" with the exclamation reads as an insult
+- S9024  **Du er bange.**  —  You're afraid. · **Use**
+- S9025  **Vi er bange.**  —  We're afraid. · **Use**
+- S9026  **De er bange.**  —  They're afraid. · **Use**
+- S9027  **Jeg er bange.**  —  I'm afraid. · **Use**
+- S9028  **Du er tørstig.**  —  You're thirsty. · **Use**
+- S9029  **Jeg er meget sulten.**  —  I'm very hungry. · **Use**
+- S9030  **Jeg er ikke bange.**  —  I'm not afraid. · **Use**
+
+## U33 Finding the Word (13)
+- S33001  **Ved du ikke det?**  —  Don't you know? · **Use**
+- S33002  **Er det ikke Tom han hedder?**  —  Isn't his name Tom? · **Reject** — cleft "Er det ikke Tom han hedder?" is word order past A1 Part 1
+- S33003  **Jeg ved ikke.**  —  Dunno. · **Use** · English to show: "I don't know."
+- S33004  **Jeg ved hvordan.**  —  I know a way. · **Use** · English to show: "I know how."
+- S33005  **Jeg hedder Tom.**  —  My name is Tom. · **Use**
+- S33006  **Jeg hedder også Tom.**  —  My name is Tom, too. · **Use**
+- S33007  **Det ved jeg.**  —  I know that. · **Use**
+- S33008  **Han ved det.**  —  He knows it. · **Use**
+- S33009  **Det ved kvinder.**  —  Women know that. · **Reject** — "Women know that" is an odd line
+- S33010  **Det ved jeg ikke.**  —  Don't know. · **Use** · English to show: "I don't know that."
+- S33011  **Jeg ved det ikke.**  —  I don't know. · **Use**
+- S33012  **Han ved det ikke.**  —  He does not know. · **Use**
+- S33013  **Ja, jeg ved det.**  —  Yes, I know. · **Use**
+
+## U10 Mine and Yours (30)
+- S10001  **Tom er din ven, ikke min.**  —  Tom is your friend, not mine. · **Use**
+- S10002  **Er hans far læge?**  —  Is his father a doctor? · **Use**
+- S10003  **Er hendes far læge?**  —  Is her father a doctor? · **Use**
+- S10004  **Er du hans mor?**  —  Are you his mother? · **Use**
+- S10005  **Er du min mor?**  —  Are you my mother? · **Use**
+- S10006  **Er din far læge?**  —  Is your father a doctor? · **Use**
+- S10007  **Det er min, ikke hendes.**  —  It's mine, not hers. · **Use**
+- S10008  **Er han din ven?**  —  Is he your friend? · **Use**
+- S10009  **Det er mit, ikke hans.**  —  It's mine, not his. · **Use**
+- S10010  **Det er mit, ikke hendes.**  —  It's mine, not hers. · **Use**
+- S10011  **Hvordan har din ven det?**  —  How is your friend? · **Use**
+- S10012  **Hvordan har din mor det?**  —  How is your mother? · **Use**
+- S10013  **Det er min bror.**  —  That's my brother. · **Use**
+- S10014  **Vi er din familie.**  —  We're your family. · **Use**
+- S10015  **Det er min søster.**  —  That is my sister. · **Use**
+- S10016  **Hans familie er meget stor.**  —  His family is very large. · **Use**
+- S10017  **Hendes familie er meget stor.**  —  Her family is very large. · **Use**
+- S10018  **Det her er min bror.**  —  This is my brother. · **Use**
+- S10019  **Det her er min søster.**  —  This is my sister. · **Use**
+- S10020  **Hun er ikke min søster.**  —  She's not my sister. · **Use**
+- S10021  **Det er vores.**  —  It's ours. · **Use**
+- S10022  **Det er mit.**  —  It's mine. · **Use**
+- S10023  **De bøger er vores.**  —  Those are our books. · **Reject** — de as "those"; taught as "they"
+- S10024  **Jeg har en bror.**  —  I have one brother. · **Use**
+- S10025  **Jeg ser dit bord.**  —  I see your table. · **Use**
+- S10026  **De her er vores bøger.**  —  These are our books. · **Reject** — "de her" as "these"; de taught as "they"
+- S10027  **Er hans far lærer?**  —  Is his father a teacher? · **Use**
+- S10028  **Er det din?**  —  Is it yours? · **Use**
+- S10029  **Er det din bil?**  —  Is this your car? · **Use**
+- S10030  **Ser du min bog?**  —  Do you see my book? · **Use**
+
+## U11 Asking Questions (27)
+- S11001  **Hvor stor?**  —  How big? · **Reject** — hvor as "how" (Hvor stor?); taught as "where"
+- S11002  **Hvem er han?**  —  Who's he? · **Use**
+- S11003  **Hvad er det?**  —  What's that? · **Use**
+- S11004  **Hvem står der?**  —  Who is standing there? · **Use**
+- S11005  **Hvor er du?**  —  Where are you? · **Use**
+- S11007  **Hvorfor danser du?**  —  Why are you dancing? · **Use**
+- S11008  **Hvorfor er du her?**  —  Why are you here? · **Use**
+- S11009  **Hvornår drikker du kaffe?**  —  When do you drink coffee? · **Use**
+- S11010  **Hvornår er vi der?**  —  When will we get there? · **Use** · English to show: "When are we there?"
+- S11011  **Det er fordi du er en pige.**  —  That's because you're a girl. · **Use**
+- S11012  **Hvem er du?**  —  Who are you? · **Use**
+- S11013  **Hvor svømmer du?**  —  Where do you swim? · **Use**
+- S11014  **Hvad har Tom?**  —  What does Tom have? · **Use**
+- S11015  **Hvilken hund er din?**  —  Which dog is yours? · **Use**
+- S11016  **Hvorfor er han her?**  —  Why is he here? · **Use**
+- S11017  **Hvornår går du i seng?**  —  At what time do you go to bed? · **Use** · English to show: "When do you go to bed?"
+- S11018  **Hvor er Paris?**  —  Where is Paris? · **Use**
+- S11019  **Hvor er han?**  —  Where is he? · **Use**
+- S11020  **Hvem er Tom?**  —  Who's Tom? · **Use**
+- S11021  **Hvor er Tom?**  —  Where's Tom? · **Use**
+- S11023  **Hvad drikker de?**  —  What are they drinking? · **Use**
+- S11024  **Hvor ligger Paris?**  —  Where is Paris? · **Use**
+- S11025  **Hvor svømmer de?**  —  Where are they swimming? · **Use**
+- S11027  **Hvor er de?**  —  Where are they? · **Use**
+- S11028  **Hvem er træt?**  —  Who's tired? · **Use**
+- S11029  **Hvem er jeg?**  —  Who am I? · **Use**
+- S11030  **Hvem er hun?**  —  Who's she? · **Use**
+
+## U53 Around Town (5)
+- S53001  **Hvor er dit hotel?**  —  Where's your hotel? · **Use**
+- S53002  **Der er vores bus.**  —  There's our bus. · **Use**
+- S53003  **Det er en kirke.**  —  That's a church. · **Use**
+- S53004  **Jeg ser en kirke.**  —  I see a church. · **Use**
+- S53005  **Tom går ikke i kirke.**  —  Tom isn't a church-going man. · **Use** · English to show: "Tom doesn't go to church."
+
+## U12 Counting to Ten (28)
+- S12001  **To og to er fire.**  —  Two and two is four. · **Use**
+- S12002  **Tom har tre hunde og syv katte.**  —  Tom has three dogs and seven cats. · **Use**
+- S12003  **Hans bil er to år gammel.**  —  His car is two years old. · **Use**
+- S12004  **Jeg har tre hunde.**  —  I have three dogs. · **Use**
+- S12005  **Du har fire hunde.**  —  You have four dogs. · **Use**
+- S12006  **Jeg har fem katte.**  —  I have five cats. · **Use**
+- S12007  **Vi er en familie på fem.**  —  We are a family of five. · **Use**
+- S12009  **Tom har tre katte.**  —  Tom has three cats. · **Use**
+- S12011  **Hun er otte.**  —  She is eight. · **Use**
+- S12012  **Han har ti børn.**  —  He has ten children. · **Use**
+- S12013  **Hun har ti børn.**  —  She has ten children. · **Use**
+- S12014  **Han har en hund og seks katte.**  —  He has a dog and six cats. · **Use**
+- S12015  **Hun har en hund og seks katte.**  —  She has a dog and six cats. · **Use**
+- S12016  **Hvor er de to?**  —  Where are those two? · **Use**
+- S12017  **To kvinder synger.**  —  Two women sing. · **Use**
+- S12018  **Jeg har to bøger.**  —  I have two books. · **Use**
+- S12019  **Han har to hunde.**  —  He has two dogs. · **Use**
+- S12020  **Vi har to børn.**  —  We have two children. · **Use**
+- S12021  **Hun har to børn.**  —  She has two children. · **Use**
+- S12022  **Jeg har to katte.**  —  I have two cats. · **Use**
+- S12023  **Tom har tre hunde.**  —  Tom has three dogs. · **Use**
+- S12024  **Jeg har to børn.**  —  I have two children. · **Use**
+- S12025  **Jeg har fire katte.**  —  I have four cats. · **Use**
+- S12026  **Mary har tre børn.**  —  Mary has three children. · **Use**
+- S12027  **Maria har tre børn.**  —  Mary has three children. · **Use**
+- S12028  **Jeg har ikke to katte.**  —  I don't have two cats. · **Use**
+- S12029  **De tre store mænd spiser.**  —  The three big men eat. · **Reject** — de as the plural definite article "the"; taught as "they"
+- S12030  **Jeg har en hund og to katte.**  —  I have a dog and two cats. · **Use**
+
+## U13 Naming Colors (20)
+- S13001  **Er den blå?**  —  Is it blue? · **Use**
+- S13002  **Er den hvid?**  —  Is it white? · **Use**
+- S13003  **Er den rød?**  —  Is it red? · **Use**
+- S13004  **Er din hest sort?**  —  Is your horse black? · **Use**
+- S13005  **Hans cykel er blå.**  —  His bicycle is blue. · **Use**
+- S13006  **Din kat er sort.**  —  Your cat is black. · **Use**
+- S13007  **Min hund er hvid.**  —  My dog is white. · **Use**
+- S13008  **Tom har også en rød bil.**  —  Tom has a red car, too. · **Use**
+- S13009  **Hendes cykel er blå.**  —  Her bicycle is blue. · **Use**
+- S13010  **Min kat er sort.**  —  My cat is black. · **Use**
+- S13011  **Drikker du grøn te?**  —  Do you drink green tea? · **Use**
+- S13012  **Hvilken farve har dit hus?**  —  What color is your house? · **Use**
+- S13013  **Hun har en hvid kat.**  —  She has a white cat. · **Use**
+- S13014  **Jeg har en brun hest.**  —  I have a brown horse. · **Use**
+- S13015  **Jeg kan ikke lide grøn te.**  —  I do not like green tea. · **Use**
+- S13016  **Han har en hvid kat.**  —  He has a white cat. · **Use**
+- S13017  **Tom har en sort hund.**  —  Tom has a black dog. · **Use**
+- S13018  **Han har en blå bil.**  —  He has a blue car. · **Use**
+- S13019  **Hun har en lille sort hund.**  —  She has a small black dog. · **Use**
+- S13020  **Jeg har en stor, sort hund.**  —  I have a big black dog. · **Use**
+
+## U14 Days and Times (30)
+- S14001  **Hvad dag er det i dag?**  —  What day is it today? · **Use**
+- S14002  **I dag er en ny dag!**  —  Today is a new day! · **Use**
+- S14003  **Er det lørdag i morgen?**  —  Is tomorrow Saturday? · **Use**
+- S14004  **I morgen er det søndag.**  —  Tomorrow's Sunday. · **Use**
+- S14005  **I dag er det mandag.**  —  Today is Monday. · **Use**
+- S14006  **I morgen er det mandag.**  —  Tomorrow is Monday. · **Use**
+- S14007  **I dag er det lørdag.**  —  Today is Saturday. · **Use**
+- S14008  **Det er mandag i morgen.**  —  It's Monday tomorrow. · **Use**
+- S14009  **Og hvad nu?**  —  What now? · **Use**
+- S14010  **Hvor er Tom nu?**  —  Where's Tom now? · **Use**
+- S14011  **Hvad er der nu?**  —  What is it now? · **Use**
+- S14012  **Det er lørdag.**  —  It is Saturday. · **Use**
+- S14013  **Hvordan har du det i dag?**  —  How are you today? · **Use**
+- S14014  **I dag danser vi.**  —  Today we dance. · **Use**
+- S14015  **Hvor er du nu?**  —  Where are you now? · **Use**
+- S14016  **Hvor er vi nu?**  —  Where are we now? · **Use**
+- S14018  **Er du glad nu?**  —  Are you happy now? · **Use**
+- S14019  **Er du bange nu?**  —  Are you scared now? · **Use**
+- S14020  **Hvor er jeg nu?**  —  Where am I now? · **Use**
+- S14021  **Hvor er din far nu?**  —  Where's your father now? · **Use**
+- S14022  **Det er mandag.**  —  It's Monday. · **Use**
+- S14023  **Jeg går nu.**  —  I'll go now. · **Use**
+- S14024  **Jeg er glad i dag.**  —  I'm happy today. · **Use**
+- S14025  **Jeg er syg nu.**  —  I'm sick now. · **Use**
+- S14026  **De har nu tre børn.**  —  They now have three children. · **Use**
+- S14027  **Tom er ikke her i dag.**  —  Tom isn't here today. · **Use**
+- S14028  **Jeg er en mand nu.**  —  I'm a man now. · **Use**
+- S14029  **Han går i seng nu.**  —  He's going to bed now. · **Use**
+- S14030  **Jeg har det ikke godt i dag.**  —  I'm not feeling well today. · **Use**
+- S14105  **Hvad er klokken?**  —  What time is it? · **Use**
+
+## U15 Going Places (22)
+- S15001  **Han går til skole.**  —  He walks to school. · **Use**
+- S15002  **Hvor er din skole?**  —  Where's your school? · **Use**
+- S15003  **Hvilken by er vi i?**  —  What city are we in? · **Use**
+- S15004  **Hvor ligger din skole?**  —  Where's your school? · **Use**
+- S15005  **Hvad er det til?**  —  What's it for? · **Reject** — til as "for"; taught as "to"
+- S15006  **Hvad er Tom god til?**  —  What's Tom good at? · **Reject** — "god til" = good at; til in a sense not taught
+- S15007  **Her er butik.**  —  At this location, there is a store. · **Reject** — "Her er butik." is not natural Danish and the English is odd
+- S15008  **Er Tom i skole?**  —  Is Tom at school? · **Use**
+- S15009  **Hvor går Tom i skole?**  —  Where does Tom attend school? · **Use** · English to show: "Where does Tom go to school?"
+- S15010  **Hvorfor er du ikke i skole?**  —  Why aren't you in school? · **Use**
+- S15011  **Jeg går i skole.**  —  I go to school. · **Use**
+- S15012  **Det er en skole.**  —  That is a school. · **Use**
+- S15013  **Tom er ikke i skole.**  —  Tom isn't at school. · **Use**
+- S15014  **Er du bror til Mary?**  —  Are you Mary's brother? · **Reject** — "bror til" = brother of; til in a sense not taught
+- S15015  **Det er til Tom.**  —  It's for Tom. · **Reject** — til as "for"; taught as "to"
+- S15016  **Den er til Tom.**  —  It's for Tom. · **Reject** — til as "for"; taught as "to"
+- S15017  **Den er til min familie.**  —  It's for my family. · **Reject** — til as "for"; taught as "to"
+- S15018  **Tom er ikke til katte.**  —  Tom is not a cat person. · **Reject** — idiom (not a cat person); til in a sense not taught
+- S15019  **Der er ikke langt til Paris.**  —  It is not far to Paris. · **Use**
+- S15020  **Tom er far til tre børn.**  —  Tom is the father of three children. · **Reject** — "far til" = father of; til in a sense not taught
+- S15021  **Jeg går ikke i skole i dag.**  —  I'm not going to school today. · **Use**
+- S15022  **Jeg er ikke far til Tom.**  —  I'm not Tom's father. · **Reject** — "far til" = father of; til in a sense not taught
+
+## U51 Body and Looks (21)
+- S51001  **Han har en lang næse.**  —  He has a long nose. · **Use**
+- S51002  **Hun er meget klog, er hun ikke?**  —  She's very smart, isn't she? · **Use**
+- S51003  **Tom er kort.**  —  Tom is short. · **Use**
+- S51004  **Tom er klog.**  —  Tom has brains. · **Use** · English to show: "Tom is clever."
+- S51005  **Hun har blå øjne.**  —  She has blue eyes. · **Use**
+- S51006  **Han har blå øjne.**  —  He has blue eyes. · **Use**
+- S51007  **Hendes øjne er blå.**  —  Her eyes are blue. · **Use**
+- S51008  **Tom er meget kort.**  —  Tom is very short. · **Use**
+- S51009  **Du er meget klog.**  —  You are very smart. · **Use**
+- S51010  **Vi har et kort.**  —  We have a map. · **Reject** — kort as the noun "map"; taught as the adjective "short"
+- S51011  **Den kvinde har en mund.**  —  That woman has a mouth. · **Reject** — "That woman has a mouth" is an odd line
+- S51012  **En hund har fire ben.**  —  A dog has four legs. · **Use**
+- S51013  **Jeg har en bog i min hånd.**  —  I have a book in my hand. · **Use**
+- S51014  **Jeg har blå øjne.**  —  I have blue eyes. · **Use**
+- S51015  **Tom har blå øjne.**  —  Tom has blue eyes. · **Use**
+- S51016  **Hans øjne er blå.**  —  His eyes are blue. · **Use**
+- S51017  **Den dreng er meget klog.**  —  That boy is very clever. · **Use**
+- S51018  **Han er en klog dreng.**  —  He is a clever boy. · **Use**
+- S51019  **Den lille dreng er klog.**  —  The little boy is clever. · **Use**
+- S51020  **Mary er en klog pige.**  —  Mary is a smart girl. · **Use**
+- S51021  **Hun har store blå øjne.**  —  She has large blue eyes. · **Use**
+

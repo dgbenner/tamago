@@ -1,0 +1,153 @@
+# Language shelf: check-in
+
+Updated 2026-11-21. The run now takes every remaining language to A1-complete (your instruction; recorded at the end of `_source/language-pipeline.md`).
+
+## Done since last check-in
+
+- **Junk-word filter is a standing step.** Shared stoplist `scripts/lib/a1-stoplist.mjs`, applied automatically when content is built and when coverage is measured. What it drops is logged per course in `content*/a1-dropped.json`; nothing stops to ask. It starts from Italian's 44 register cuts and Dutch's 31, plus English subtitle leftovers common to every list ("the", "sir", "mrs" and similar). What it drops:
+  - Italian 44 (unchanged; these were already left out of its target).
+  - Dutch 31 (approved).
+  - Danish 35: English leftovers; oaths such as *fanden*, *lort*; kill words such as *dræbe*, *våben*.
+  - Norwegian 31: English leftovers; oaths such as *faen*, *jævla*; kill words such as *drepe*, *våpen*.
+  - French, Spanish, German, Portuguese and Swedish: nothing; their lists are official or CEFR-graded.
+- **Word splitter** fixed on main for Romanian and Polish letters (cea068e). Every existing course splits identically.
+- **Scout** finished (reports in `_review/scout/`). Polish: Ready-with-caveats, 6,899 usable lines, estimated drafts 20–35%. Romanian: likely dry, 3,661 usable lines, estimated drafts 40–55%. Norwegian Parts 2–4: Hold-dry, estimated drafts 55–70%.
+- **Dutch Part 2 gathered:** 690 sentences (560 Tatoeba, 130 drafts, 19%), core list 44%. Commit b6be58e.
+- **Dutch Part 3 gathered:** 740 sentences (574 Tatoeba, 166 drafts, 22%), check clean, core list 66%. Commit c70d738.
+- **Dutch Part 4 gathered:** 786 sentences (563 Tatoeba, 223 drafts, 28%), core list 90% (95% without the junk words). Commit e45bd4b.
+- **Swedish Part 2 gathered:** 845 sentences (537 Tatoeba, 308 drafts, 36%), core list 38%. Commit eaa2cf2.
+- **Swedish Part 3 gathered:** 980 sentences (667 Tatoeba, 313 drafts, 32%), 17 circles, 297 live new words; core list 65% (71% without the stoplist), back on Dutch's pace. Commit a6bbd8b.
+- **Swedish Part 4 gathered, then trimmed:** first 916 sentences at 46% drafts. Trimmed to 789 sentences (493 Tatoeba, 296 drafts, 37.5%) by turning off 46 vocabulary words that had only drafted lines, rarest first, ids kept (e.g. handling, kropp, ekonomi, organisation, nämligen, påverkar). Core list 82% (89% without the stoplist). Commit fbe69e9.
+- **Danish Part 2 gathered:** 859 sentences (611 Tatoeba, 248 drafts, 29%), 17 circles, 293 live new words; core list 53% (56% without the stoplist). Commit 0e741f6 in `Sites/tamago-da-a1`.
+- **Danish Part 3 gathered:** 893 sentences (706 Tatoeba, 187 drafts, 21%), 17 circles, 290 live new words; core list 81% (86% without the stoplist). Commit 402e746.
+- **Danish Part 4 gathered:** 672 sentences (546 Tatoeba, 126 drafts, 19%), 17 circles, 211 live new words; core list 94% (99% without the stoplist). Commit f5b61dc.
+- **Polish is A1-complete and wired, Developer only.** Merged into main locally (3bbb386), not pushed. **This finishes the run:** every language not struck or held is now A1-complete.
+  - 72 circles approved; 4,641 sentences (2,992 Tatoeba, 1,649 drafts, 35.5%), 1,579 words, 592 recordings, 118 verb tables.
+  - Notes and overview lines for all 72 circles, each with a status so they ship; icons assigned. U56 retitled "Looks + Character" (workbook v7).
+  - Word audit 0 and 0 (3,101 lessons); every-lesson check 0 issues (31,781 questions); fast tier 312 of 312; smoke test passed.
+  - **Mock exam:** Poland's state certificate exam is set at A1 for adults (regulation Dz.U. 2018 poz. 1386: listening, reading and writing in up to 120 minutes, then a 10-minute oral; pass at 50% per part). The final check follows it: listening, reading, writing (a form plus a short message), speaking. Source: https://api.sejm.gov.pl/eli/acts/DU/2018/1386/text.html
+  - Fixes on the way: the content build failed on Polish (an empty cut list in the wrong shape, and a missing pictures file); both fixed, other courses unchanged. *proszę* moved to U31, the first circle that uses it. *tę* moved to U65, since the matching game can't tell it from *te* in U48.
+  - By ear: four "Nie, nie …" lines out of listening, as Spanish's "No, no".
+  - Not checked in a browser: Polish in the picker. It uses the same Developer-only path as Dutch.
+  - Fable review: queued.
+- **Danish is A1-complete and wired, Developer only.** Merged into main locally (dc9edee), not pushed.
+  - 72 circles approved; 2,960 sentences (2,289 Tatoeba, 671 drafts), 1,012 words, 57 recordings.
+  - Notes and overview lines for all 51 new circles, all with a status so they ship. Icons assigned. U56 retitled "Looks + Character" (workbook v7).
+  - Word audit 0 and 0 (2,006 lessons); every-lesson check 0 issues (20,577 questions).
+  - Reading text R306 reworded to taught words ("Bussen stopper foran hotellet"). "Hvem tror du, du er?" kept in listening.
+  - General final check (Denmark has no A1 exam).
+  - Fast tier 304 of 304; smoke test passed.
+  - Fable review: queued.
+- **Romanian Part 1 built, Hold-dry.** 689 sentences, 250 Tatoeba and 439 drafts: 64%, over the 40% line. Romanian stops here: no Parts 2–4, not wired, not merged.
+  - Tatoeba has only about 250 usable Romanian lines within Part 1's circles. Drafts were already cut to the minimum that gives each word three sentences. Accepting all 184 non-native Tatoeba lines would still leave about 45% drafts.
+  - Kept on branch `content/ro-a1` (commit 11dc7a6, worktree `Sites/tamago-ro-a1`).
+  - Review files `_review/ro-part1-candidates.md` and `-drafts.md` are there, as you asked.
+  - The branch has the pipeline pieces Romanian needed, all scoped to Romanian: course entries, a verb-table reader, gender from Romanian headwords, and a stoplist entry (61 words). Ready for if Romanian is ever revisited.
+- **Polish Part 1 gathered:** 841 sentences (599 Tatoeba, 242 drafts, 29%), 21 circles, 358 words (each case form a circle uses is its own word, e.g. kot/kota, kawa/kawę), 198 recordings; core list 25% (26% without the stoplist). Commit 8277ff9 in `Sites/tamago-pl-a1` (after the WIP save 44271a6). Under the 40% line, so Polish continues; Part 2 is gathering.
+  - **Kelly list:** the A1 band, 1,103 words, CC BY-NC-SA 2.0. The Polish stoplist drops 55 list words (34 core), mostly officialese (państwo, sejm, podatek).
+  - **Cases:** Part 1 uses the nominative, plus the accusative for objects. The genitive appears only where unavoidable (after *nie* with animals, *lat*, *ile*). "Tom to student" stands in for the instrumental. Lines hiding a locative are cut.
+  - **Gender** shows masculine animacy ("m, personal / animate / inanimate"), since it decides the accusative.
+  - 199 lines with *może* as "maybe" turned down (it's taught as "can").
+  - U02 People + Things and U53 Around Town have more drafts than Tatoeba lines.
+  - **For Builder 1 at merge:** the pull now stops offering a line already picked for one circle to a later circle in the same run. This changes every course, but only when pulls are re-run.
+- **Polish Part 2 gathered:** 1,270 sentences (807 Tatoeba, 463 drafts, 36.5%), 17 circles, 457 live new words, 166 recordings; check clean (0 words, 0 sentences flagged). Core list 48% (51% without the stoplist). Commit 33d8330. Under the line with no trim; Part 3 is gathering.
+  - **Cases:** the genitive and locative come in here, a few uses per circle (z Polski, nie ma, bez; w domu, w Polsce, na plaży). The dative and instrumental stay out; lines using them were cut.
+  - **Word ids:** Part 2 needed more ids than usual, so its situation words sit at W1501–W1780. Parts 3 and 4 take ranges clear of these. All 358 Part 1 words checked unchanged.
+  - Shared scripts: `add-part.mjs` gains optional wider id ranges (other courses unchanged); stoplist adds *nim* for Polish.
+- **Polish Part 3 gathered:** 1,293 sentences (819 Tatoeba, 474 drafts, 36.7%), 17 circles, 428 live new words, 125 recordings; check clean. Core list 64% (68% without the stoplist), a little under the 70% aim: more core words would have pushed drafts toward 40%. Commit b19531a. Part 4 is gathering.
+  - **Past tense** comes in at U71 Yesterday (być first, then known verbs; -łem said by a man, -łam by a woman). Future of być only.
+  - **Instrumental** from U64 on: z kolegą, jestem nauczycielem, autobusem, przed/pod/nad, interesować się muzyką. Dative only in podoba mi się and wydaje mi się.
+  - U62 teaches the days in use (w sobotę, w zeszłym tygodniu), since Part 1 already taught their names; Free Time gives way to Little Words, as in Danish. No dates yet (they need the genitive ordinal).
+  - Signs, timetables, announcements and months circles are mostly drafts (55–77%).
+- **Polish Part 4 gathered, then trimmed:** 1,240 sentences (770 Tatoeba, 470 drafts, 37.9%), 17 circles, 335 live new words, 88 recordings; check clean. All drafted it would have been about 41%, so 23 vocabulary words with only drafted lines were turned off, rarest first, ids kept (e.g. wzrost, umowa, produkcja, sukces, współpraca). Core list 84% (91% without the stoplist). Commit fba862a.
+  - **Dative** as pronouns only (mi, ci, mu, nam) from U26; **perfective future** from U84 (pojadę, kupię, zadzwonię). Dates stay out: no spoken-date lines on Tatoeba without digits.
+  - *około* revived in U94 now that the hour forms are taught.
+  - Stoplist adds 11 Polish officialese words (dokonać, uzyskać, sąd, wniosek …).
+- **Swedish is A1-complete and wired, Developer only.** Merged into main locally (ac00c3c), not pushed.
+  - 72 circles approved; 3,133 sentences (2,146 Tatoeba, 987 drafts), 1,040 words, 137 recordings.
+  - Notes and overview lines for all 51 new circles; icons assigned. U56 retitled "Looks + Character" (workbook v7).
+  - **Bug fixed:** Swedish Part 1's 21 grammar notes had no status, so the live build was shipping none of them. All 72 notes ship now. Only Swedish had this.
+  - Word audit 0 and 0 (2,111 lessons); every-lesson check 0 issues (21,653 questions). No Part 1 word sits under a circle that doesn't use it.
+  - Mock exam: Swedex's four modules (reading, listening, written, spoken). Swedex starts at A2; no Swedish exam is set at A1, and the exam note says so.
+  - Fast tier 304 of 304; smoke test passed.
+  - Fable review: queued.
+- **Dutch is A1-complete and wired, Developer only.** Merged into main locally (02c4fc8), not pushed.
+  - 72 of 72 circles approved; 2,992 sentences (2,320 Tatoeba, 672 drafts), 1,009 words, 523 recordings.
+  - Grammar notes and overview lines for all 51 new circles; icons assigned. U56 retitled "Looks + Character" (workbook v7) to fit the copy rule.
+  - Word audit 0 and 0 (2,018 lessons); every-lesson check: no issues on 20,649 questions.
+  - By-ear decisions: "Rustig, rustig!" and "Regen, regen, ga weg!" out of listening; seven "je je" and "dat dat" lines fine.
+  - Mock exam: the Basic Civic Integration Exam Abroad format. Reading (Leestoets) first, then spoken Dutch as listening and speaking; a short writing section is kept as practice, since the exam has none.
+  - Fast tier 303 of 303; smoke test passed.
+  - Fable review: queued.
+- Dutch review files for Parts 2–4: `_review/dutch-part2-`, `-part3-`, `-part4-candidates.md` / `-drafts.md` in `Sites/tamago-nl-a1`.
+
+## Decisions made
+
+- **Every language goes through six phases:** gather, filter, wire Developer-only, audit, mock exam, then Fable review. One language at a time, phases 1–5 on Opus. Fable is queued and runs when Fable credits return.
+- **Order:** Dutch, Swedish and Danish (done, Fable queued), Romanian (Hold-dry after Part 1), Polish (done, Fable queued). Nothing left to build: Greek, Czech, Hungarian and Finnish are struck; Romanian and Norwegian are held dry.
+- **Swedish Part 4 trim (my call, under the 40% rule):** a part over 40% stops its language, but the rule exists to keep invented content from filling a gap. So instead of holding all of Swedish, Part 4 drops the vocabulary words that exist only in drafts, rarest first, until drafts are at or under 38%. Result: 46 words off, core coverage 89% to 82% (98% to 89% without the stoplist), Swedish stays sourced. If you'd rather keep the words and hold Swedish, say so; the trimmed words keep their ids and can come back.
+- **Romanian: Hold-dry** by the 40% rule (Part 1 at 64% drafts).
+- **Norwegian:** held by the 40% rule. Not built. Its two parked options (recordings, Kelly list) stay parked.
+- **Wiring:** each language is merged into main locally and its units approved, as a Developer-only course. Nothing is pushed: the live site changes only when you say push.
+- **Polish word list:** the Kelly A1 list (your call).
+- **Dutch Part 4 calls (agent's, logged):** *liefs* turned off (Wiktionary has it only as a form of *lief*, not the letter closing); nouns with two genders take Wiktionary's first (spijt de, raam het, gram het); *kopje* and *drankje* left without gender (Wiktionary gives none for diminutives); *af* taught through drafts, since Tatoeba's *af* lines are nearly all separable verbs; *teken* in U88 is signing, not drawing. *hard* (works hard) carries the adverb gloss "fast; very; loudly": flagged for Fable.
+- **Dutch polite form:** u, uw, meneer, mevrouw and alstublieft are taught in Part 2's U41 and used in café and official lines (as German teaches Sie); je/jij elsewhere. Flagged for Fable.
+- **Updated pipeline doc:** it never reached me (only the first version was pasted, and nothing newer is on disk). I'm running the phases as your message listed them, under the first doc's rules.
+
+## Waiting for Dan
+
+- **Updated pipeline doc:** paste it when convenient and I'll replace `_source/language-pipeline.md`. The run doesn't wait for it.
+- **Push** of main's local commits (picker hover 3f70ad0, pipeline spec e0ec6c4, picked outline b32b7bd, word splitter cea068e, stoplist da153e4, Dutch Parts 2–4 02c4fc8, Swedish Parts 2–4 ac00c3c, Danish Parts 2–4 dc9edee, Polish A1 3bbb386; 32 commits ahead of the live site in all), when you want them live.
+- **Swedish Part 2 calls (agent's, logged):**
+  - Verbs: the pipeline didn't count present forms toward the Kelly list (är for vara), so 58 verbs got their infinitive as lemma. Part 1's core rose from 83 to 100 words.
+  - 20 thin forms turned off (namnet, priset, krona …), ids kept; 20 Kelly core words added late.
+  - Swedish stoplist: 45 entries, including word-tagger leftovers (analog, orm, beta …), parliament words (regering, riksdag, kommun) and krig, dö, död, slå.
+  - Cuts: var as "was" (the analyser reads "where"), känna sig, kommer att, ni duplicates.
+  - Numbers circles and Outdoors are mostly drafts, as in Dutch.
+- **Swedish Part 3 calls (agent's, logged):**
+  - Turned off: *kring* (runt carries "around") and *förra* (needs a past tense).
+  - *tur* moved to Likes + Feelings as "a turn" (Tatoeba's lines are "din tur").
+  - Senses: *sen* late, *åt* the preposition, *andra* second, *råd* afford; lines using the other meanings are cut.
+  - Fable to judge: "ser … ut" (looks) and "håller med" (agree) lines kept under their literal glosses; U68 announcements lean on "Mina damer och herrar …".
+- **Danish Part 2 calls (agent's, logged):**
+  - 20 thin words turned off (nummeret, fødselsdag, nederdel …); *altså* and *blyant* too, since Wiktionary has no Danish entry for them.
+  - Words with no Danish page read their lemma's page (koster from koste, kilo from kilogram).
+  - Hints for definite forms (solen, havet, pengene …), so lines using them aren't dropped.
+  - "have" (to have) is spelled like Part 1's "have" (garden), so the verb is avoided; the market circle uses "må jeg få" and "jeg tager".
+  - U42 Phone Numbers and U54 Clothes are mostly drafts. Only 3 of Part 2's words have Lingua Libre recordings.
+- **Danish Part 3 calls (agent's, logged):**
+  - The past tense is taught in Part 3 (U71 Yesterday, U73 Have You Ever?), because the frequency list leans on past forms. That is why coverage overshot the 70% aim.
+  - Part 2's "så as saw" cut never matched: the pattern's word boundary fails next to å. Redone with letter-aware boundaries (45 lines cut).
+  - 27 "I går" (yesterday) lines let back in, since the plural-I rule had blocked them.
+  - Word ids start at W1301 and W1501, so Part 2's words weren't overwritten. Part 4 picks ranges clear of everything.
+  - Fable to read first: the 32 months drafts in U63, U69's *sætte* lines, "har åbent" (U66) and "har ankomst" (U67). *lov* has no gender (Wiktionary gives both).
+- **Danish Part 4 calls (agent's, logged):**
+  - Seven words turned off because Wiktionary has no Danish entry (salat, metroen, stoppested, underskrift, postnummer, udfyld, fat).
+  - Ordering goes through "må jeg få" and "bede om", since the verb "have" is avoided.
+  - Hints with thinner sources: *ondt* (pain; Wiktionary has only "evil", so it rests on "ondt i halsen"), *i stykker*, *til fods*, *ligeud*.
+  - Five plain death lines kept in U92 for *død* and *døde*.
+  - Draft wording for a native ear: "første etage" vs "første sal", "Der er brand!".
+- **Polish Part 2 calls (agent's, logged), for Fable:**
+  - *po francusku*, *po niemiecku*, *po japońsku* have no Wiktionary pages, so *po* and each adverb are separate words with hints pointing to *po polsku*.
+  - *Polski* is taught only as "of Poland" (z Polski); *Niemiec* is glossed as the genitive of Niemcy, not "a German". *około* is off (needs a genitive numeral).
+  - Perfective verbs only after chcę, muszę, mogę, możesz and in fixed phrases (poproszę, miło cię poznać); *zobaczę* as a plain future cut.
+  - Lines where *drogi* means road or *je* means them were cut. *pochodzę* and *wyglądam* carry their sense in hints.
+  - U42 Phone Numbers and U44 Numbers to 100 are mostly drafts (Tatoeba writes digits).
+  - Part 1 slip, left for review: *proszę* (taught in U03) appears earlier, in U31.
+- **Polish Part 3 calls (agent's, logged), for Fable:**
+  - Names stay nominative only (Tom, not Toma/Tomem), which keeps out about 120 Tatoeba lines. Your call if you want case-marked names.
+  - 16 generated accepted answers use untaught words (accepted only, never shown); the same shared-script gap Dutch logged.
+  - *za* has three senses (too, in, to the hour) but its hint covers one; *po* in "kwadrans po ósmej" means after.
+  - Senses to check: zegarek, obiad (lunch), święta (holidays), prawo, autobus (animacy). *wśród* off (needs the genitive plural).
+- **Polish Part 4 calls (agent's, logged), for Fable or you:**
+  - *pan* and *pani* taught only as "this man / this woman" (U87), all drafts, since every Tatoeba line uses them as the formal "you". The formal register isn't taught; your call whether to add it.
+  - Vocabulary circles U91, U92, U95 are mostly plain "To jest …" drafts of abstract Kelly words; they need a native read.
+  - Reading texts use three untaught case forms (przed hotelem, w szpitalu, dla studenta).
+  - The 23 trimmed words can come back if review finds Tatoeba lines for them.
+- **Polish, for Fable:** loose English (S4014 "Lubię lody" as "I love ice cream", S4022 "Tom is a heavy drinker"); S15025 uses "ma na imię" before U41; hints with the wrong sense (*wieje* "to scram", *słonecznie* "sunly"); S62019 "Kot ma dwadzieścia dni"; eight U95 lines about Bóg; UK spellings in some English lines (the same shared-script gap as Dutch).
+- **Danish mock exam (my call):** Denmark has no A1 certificate (its state Danish exams aren't single A1 tests), so Danish keeps the general final-check format and names no exam.
+- **Fable queue, Dutch:**
+  - English spelling: only "colour" is changed to US spelling, so litre, harbour, aeroplane, centre and Mum still appear in shipped English. Fixing it means extending the shared US-spelling script.
+  - Glosses that read oddly in context: *dragen* "to carry" where it means wear, *rijden* "to ride" where it means drive, *hard* "fast; very; loudly".
+  - S87017 "Maria is een boer" puts *een* before a job.
+- **For Builder 1, no action needed:** the pull step treats Dutch "het" as "the", so lines like "Het regent" get drafted instead of pulled.
