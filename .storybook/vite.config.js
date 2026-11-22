@@ -8,5 +8,5 @@ export default defineConfig({
   // Vite would copy all of public/ (recordings included) into the build; Storybook's staticDirs names the few
   // pictures the stories use instead (.storybook/main.js).
   publicDir: false,
-  define: { __BUILD_TIME__: JSON.stringify(''), __WORKBOOKS__: JSON.stringify({}), __DEPLOY_BRANCH__: JSON.stringify('') },
+  define: { __BUILD_TIME__: JSON.stringify(''), __WORKBOOKS__: JSON.stringify({}), __COURSE_STATS__: JSON.stringify({}), __DEPLOY_BRANCH__: JSON.stringify('') },
 })
