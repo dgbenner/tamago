@@ -184,7 +184,7 @@ Standing decisions:
 
 - `src/lib/check.js`: answer checking. `src/lib/lesson.js`: mixes, lessons, re-asks, review. Both pure; `npm test` runs them against the real content.
 - `src/lib/store.js`: IndexedDB, runtime_schema table names. Loaded once at startup, then written behind.
-- `src/sw-template.js`: becomes `dist/sw.js` at build, precaching everything.
+- `src/sw-template.js`: becomes `dist/sw.js` at build (vite.config.js serviceWorker). Since 2026-11-23 (Dan, for weak Wi-Fi) it precaches only the app itself at install (CORE, about 3.3 MB, was all 95 MB); each course's own chunks and recordings folder (COURSE_FILES, 4 to 15 MB a course) are saved when the page posts `cache-course` for the open course, which main.jsx does a few seconds after the page loads (it registers the worker then too). Anything else fetched is kept as it arrives. The build also adds modulepreload links for the app's code to index.html, so it downloads alongside the course's tables. A course never opened on a device isn't offline there.
 
 Choices the specs left open, easy to change:
 

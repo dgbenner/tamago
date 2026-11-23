@@ -1,10 +1,27 @@
-// Everything the app needs is cached at install, so a lesson runs with no connection.
+// Offline copy (2026-11-23): the app itself (FILES, no course) is cached at install; a course's own files, its content
+// chunks and recordings (COURSE_FILES), are cached once the page says that course is open (message cache-course, sent
+// after the first screen is up), so a first visit no longer downloads every course at once. Anything else the page
+// fetches is kept as it arrives. Once a course is cached, its lessons run with no connection.
 const CACHE = 'tamago-__VERSION__'
 const FILES = __FILES__
+const COURSE_FILES = __COURSE_FILES__
 const NAV_WAIT_MS = 1500 // how long a launch waits for the page from the network before opening the saved copy
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()))
+})
+
+// The open course's files, a few at a time so the page's own requests still get through, skipping what's cached.
+self.addEventListener('message', (event) => {
+  if (event.data?.type !== 'cache-course') return
+  const list = COURSE_FILES[event.data.id] ?? []
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE)
+    const todo = []
+    for (const u of list) if (!(await cache.match(u))) todo.push(u)
+    const worker = async () => { for (let u = todo.shift(); u; u = todo.shift()) await cache.add(u).catch(() => {}) }
+    await Promise.all([worker(), worker(), worker(), worker()])
+  })())
 })
 
 self.addEventListener('activate', (event) => {
@@ -53,7 +70,14 @@ self.addEventListener('fetch', (event) => {
   event.respondWith((async () => {
     const key = url.pathname
     const cached = await caches.match(key)
-    if (!cached) return fetch(request)
-    return request.headers.has('range') ? rangeResponse(request, cached) : cached
+    if (cached) return request.headers.has('range') ? rangeResponse(request, cached) : cached
+    const response = await fetch(request)
+    // Kept for next time (a course's chunks the page loads before cache-course has run, for instance); a partial
+    // answer to a byte range isn't, since it isn't the whole file.
+    if (response.ok && response.status === 200 && !request.headers.has('range')) {
+      const copy = response.clone()
+      event.waitUntil(caches.open(CACHE).then((cache) => cache.put(key, copy)).catch(() => {}))
+    }
+    return response
   })())
 })

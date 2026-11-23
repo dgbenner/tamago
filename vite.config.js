@@ -11,13 +11,43 @@ const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((e) => (
 const LAB_PAGES = { main: 'index.html', lab: 'lab.html', 'design-lab': 'design-lab.html', 'voice-lab': 'voice-lab.html', 'lab-sounds': 'lab/sounds/index.html' }
 const LAB_PAGE = /^(lab\.html|design-lab\.html|voice-lab\.html|lab[\\/])/
 
-// Writes sw.js into the build folder with every built file precached, named by a hash of their contents.
+// Writes sw.js into the build folder, named by a hash of every built file's contents (2026-11-23, Dan: a first visit
+// had downloaded all 95 MB, every course, at once, sharing weak Wi-Fi with the page itself). CORE, the app without any
+// course, is saved at install; each course's own files (its tables chunks and its recordings folder) are listed in
+// COURSE_FILES and saved only once the page says that course is open. generateBundle finds each course's chunks: those
+// reached from src/lib/tables-<id>.js and not from the app's own entry. It also adds modulepreload links for the app's
+// code to the page, so the browser fetches it while main.jsx loads the course's tables (the app reads them as it
+// starts, so it still runs after them).
 function serviceWorker() {
   let outDir = 'dist'
+  const courseChunks = {}
   return {
     name: 'tamago-service-worker',
     apply: 'build',
+    enforce: 'post',
     configResolved(c) { outDir = c.build.outDir }, // dist, or --outDir for a test build
+    generateBundle(_, bundle) {
+      const reach = (start) => {
+        const seen = new Set()
+        const go = (f) => { if (seen.has(f) || !bundle[f]) return; seen.add(f); for (const i of bundle[f].imports ?? []) go(i) }
+        go(start)
+        return seen
+      }
+      const chunks = Object.values(bundle).filter((c) => c.type === 'chunk')
+      const app = chunks.find((c) => c.facadeModuleId?.endsWith('/src/App.jsx'))
+      const main = chunks.find((c) => c.isEntry && c.facadeModuleId?.endsWith('/index.html'))
+      const shared = new Set([...(main ? reach(main.fileName) : []), ...(app ? reach(app.fileName) : [])])
+      for (const c of chunks) {
+        const m = /\/src\/lib\/tables-([a-z]+)\.js$/.exec(c.facadeModuleId ?? '')
+        if (m) courseChunks[m[1]] = [...reach(c.fileName)].filter((f) => !shared.has(f)).map((f) => `/${f}`)
+      }
+      const html = bundle['index.html']
+      if (app && html?.type === 'asset') {
+        const page = String(html.source)
+        const links = [...reach(app.fileName)].filter((f) => !page.includes(`/${f}"`)).map((f) => `<link rel="modulepreload" crossorigin href="/${f}">`)
+        html.source = page.replace('</head>', `  ${links.join('\n    ')}\n  </head>`)
+      }
+    },
     closeBundle() {
       const out = outDir
       // host config files are never served; the Picture Check images are for the Developer page only, so they aren't cached offline
@@ -27,9 +57,19 @@ function serviceWorker() {
       // The page is cached as / because Cloudflare Pages answers /index.html with a redirect to /, and a
       // cached redirect can't be served for a page load.
       const urls = files.map((f) => (`/${relative(out, f)}`).replace(/\/index\.html$/, '/'))
+      const ofCourse = {}
+      for (const [id, list] of Object.entries(courseChunks)) for (const u of list) ofCourse[u] = id
+      const audioCourse = (u) => { const m = /^\/audio(?:-([a-z]+))?\//.exec(u); return m ? (m[1] ?? 'fr') : null }
+      const core = [], byCourse = {}
+      for (const u of urls) {
+        const id = ofCourse[u] ?? audioCourse(u)
+        if (id) (byCourse[id] ??= []).push(u)
+        else core.push(u)
+      }
       const source = readFileSync('src/sw-template.js', 'utf8')
         .replace('__VERSION__', hash.digest('hex').slice(0, 12))
-        .replace('__FILES__', JSON.stringify(urls))
+        .replace('__FILES__', JSON.stringify(core))
+        .replace('__COURSE_FILES__', JSON.stringify(byCourse))
       writeFileSync(join(out, 'sw.js'), source)
     },
   }
