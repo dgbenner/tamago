@@ -772,3 +772,25 @@ button.chip-drag {
   from { opacity: 0; transform: translateY(-0.5rem); }
   to { opacity: 1; transform: none; }
 }
+
+/* The right-hand panel as an accordion (Dan, 2026-11-23): a tool's page unfolds from the top in about a fifth of a
+   second; back on the list, the cards fold in one after another. Only the start is held (fill backwards), so nothing
+   stays clipped once it has opened. Off with reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .panel-unfold { animation: panel-unfold 220ms cubic-bezier(0.2, 0.7, 0.3, 1) backwards; }
+  .panel-tools [data-ds='tool-card'] { animation: panel-card-in 180ms ease-out backwards; }
+  .panel-tools [data-ds='tool-card']:nth-child(2) { animation-delay: 25ms; }
+  .panel-tools [data-ds='tool-card']:nth-child(3) { animation-delay: 50ms; }
+  .panel-tools [data-ds='tool-card']:nth-child(4) { animation-delay: 75ms; }
+  .panel-tools [data-ds='tool-card']:nth-child(5) { animation-delay: 100ms; }
+  .panel-tools [data-ds='tool-card']:nth-child(6) { animation-delay: 125ms; }
+  .panel-tools nav > [data-ds='tool-card'] { animation-delay: 150ms; } /* Developer, below the grid */
+}
+@keyframes panel-unfold {
+  from { opacity: 0; clip-path: inset(0 0 100% 0); transform: translateY(-0.25rem); }
+  to { opacity: 1; clip-path: inset(0); transform: none; }
+}
+@keyframes panel-card-in {
+  from { opacity: 0; transform: translateY(-0.375rem); }
+  to { opacity: 1; transform: none; }
+}

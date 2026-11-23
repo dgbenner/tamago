@@ -1251,7 +1251,7 @@ export default function App() {
         { id: 'progress', screen: 'progress', label: 'Progress', about: 'Track your CEFR level in all four skills', onOpen: () => setScreen('progress') },
         ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls, not part of the course', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
-      wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
+      wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null} panelKey={wide && panelScreens[screen] ? screen : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: true, done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null, lit: isLit({ row, startedRows, used: checkpoints[row] }) }))}
       catchUps={catchUps.filter((c) => rows.some((r) => r.row === c.afterRow))} onCatchUp={startCatchUp}
       onCheckpoint={startCheckpoint} finalCheck={shownPart === lastPart ? finalInfo : null} onFinal={startFinal}

@@ -454,7 +454,7 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
+export default function Home({ wide, panel, panelKey = null, rows, iCan = [], onCheckCanDo, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, cascade = false, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, hasNote, noteOf, sentenceById }) {
   const [picked, setPicked] = useState(null)
   const [infoPicked, setInfoPicked] = useState(null)
@@ -550,11 +550,13 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
 
       {wide && (
         <aside className="home-panel" aria-label={panel ? undefined : 'Tools'}>
+          {/* Opening and closing as an accordion (Dan, 2026-11-23): a tool's page unfolds top to bottom, and going back
+              the cards fold back in one after another; keyed, so moving from one tool to another unfolds again. */}
           {panel
-            ? <div className="panel-screen">
+            ? <div key={panelKey} className="panel-screen panel-unfold">
                 {panel}
               </div>
-            : <ToolPanel tools={allTools} />}
+            : <div key="tools" className="panel-tools"><ToolPanel tools={allTools} /></div>}
         </aside>
       )}
 
