@@ -19,7 +19,10 @@
     <link rel="preload" as="image" href="/flags/de.webp" />
   </head>
   <body>
-    <div id="root"></div>
+    <!-- The sushi mark from the first moment (Dan, 2026-11-23): plain HTML in the page, so a slow load on weak Wi-Fi shows
+         the logo, not an empty screen. React replaces it when the app starts. -->
+    <div id="root"><img src="/logo.webp" width="384" height="256" alt="Tamago" decoding="sync"
+      style="position: fixed; inset: 0; margin: auto; width: 7.5rem; height: auto; aspect-ratio: 3 / 2;" /></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

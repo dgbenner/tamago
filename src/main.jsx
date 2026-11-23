@@ -30,7 +30,7 @@ document.addEventListener('touchstart', () => {}, { passive: true })
 if (navigator.audioSession) navigator.audioSession.type = 'playback'
 
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
-  // The worker fetches the page fresh on every launch with a connection (sw-template.js), so this launch is already
-  // the newest version; a new worker only refreshes the offline copy, with no reload (Dan, 2026-11-11).
+  // The worker fetches the page fresh on every launch whose connection answers within 1.5 s (sw-template.js), so this
+  // launch is usually already the newest version; a new worker only refreshes the offline copy, with no reload (Dan, 2026-11-11).
   navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
 }
