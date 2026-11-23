@@ -3,6 +3,7 @@ import { checkTyped } from '../lib/check.js'
 import { cue } from '../lib/audio.js'
 import { IconBack, IconClose } from './icons.jsx'
 import { TL } from '../lib/course.js'
+import UnderConstruction from '../components/UnderConstruction.jsx'
 
 // The verb conjugation trainer. Tables are Wiktionary's present indicative. Three exercises per verb (Dan, 2026-11-15):
 // Type the Forms (one person at a time), Pick the Right Form (four choices), Match Pronoun to Form (one board). In each,
@@ -22,6 +23,7 @@ export default function Verbs({ tables, strict, onBack }) {
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <h1 className="text-xl font-semibold">Verbs</h1>
       </header>
+      <UnderConstruction />
       {tables.length === 0 && <p className="text-muted">Verbs appear here once you've met them in a lesson.</p>}
       {tables.map((t) => (
         <section key={t.lemma} className="flex flex-col gap-2 rounded-xl border-2 border-line bg-surface p-3" data-verb={t.lemma}>

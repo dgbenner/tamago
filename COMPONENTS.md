@@ -230,6 +230,17 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 <LevelLine label="A1: Part 2 · Midpoint" />
 ```
 
+## UnderConstruction
+
+- **File:** `src/components/UnderConstruction.jsx`
+- **What it's for:** a plain yellow banner reading "Under construction." (Dan, 2026-11-23). It sits under the title of the tool screens still being built: Conversations, Glossary, Progress, Self-Study and Verbs. No date and no "coming soon". A note (`role="note"`), not an alert.
+- **Styles:** Tamago's own, in the warning toast's colors (`--toast-warning-bg`, `--toast-warning-ink`), so light and dark match the toast.
+- **Main settings:** none.
+
+```jsx
+<UnderConstruction />
+```
+
 ## Toast
 
 - **File:** `src/components/Toast.jsx`

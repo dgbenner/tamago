@@ -4,6 +4,7 @@ import NeedsSetup from './NeedsSetup.jsx'
 import { IconBack } from './icons.jsx'
 import { COURSES, chooseCourse, course } from '../lib/course.js'
 import { Block } from './Make.jsx'
+import UnderConstruction from '../components/UnderConstruction.jsx'
 
 // Conversations, a tool of its own (Dan, 2026-11-13; it was the last block of Self-Study): the conversation partner,
 // open to any learner whatever their place on the tree, once the API key is set and 10 words are met. The three set
@@ -67,6 +68,7 @@ export default function Conversations({ partner, onPartner, onBack }) {
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <h1 className="text-xl font-semibold">Conversations</h1>
       </header>
+      <UnderConstruction />
       {talkReady === false && <NeedsSetup title="Conversation Partner">A short spoken or typed exchange with Claude in {course.name}, kept to the words you know. Needs the API key.</NeedsSetup>}
       {talkReady === null && <p className="text-sm text-muted">Checking…</p>}
       {talkReady && <Partner partner={partner} onStart={onPartner} />}

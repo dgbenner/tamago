@@ -5,6 +5,7 @@ import { IconBack, IconSpeaker } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { tables } from '../lib/content.js'
 import { formLemmas } from '../lib/word-hints.js'
+import UnderConstruction from '../components/UnderConstruction.jsx'
 
 let lemmas = null
 
@@ -42,6 +43,7 @@ export default function Glossary({ words, groups, statusOf, examplesOf, tableOf,
         <h1 className="text-xl font-semibold">Glossary</h1>
         <span className="ml-auto text-sm text-muted">{met.length} of {words.length} A1 words met</span>
       </header>
+      <UnderConstruction />
 
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">

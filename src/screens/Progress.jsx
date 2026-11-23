@@ -1,5 +1,6 @@
 import { IconBack } from './icons.jsx'
 import { A1_HOURS, TYPICAL_WEEKLY_HOURS, paceOf } from '../lib/pace.js'
+import UnderConstruction from '../components/UnderConstruction.jsx'
 
 const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', speaking: 'Speaking' }
 
@@ -16,6 +17,7 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <h1 className="text-xl font-semibold">Progress</h1>
       </header>
+      <UnderConstruction />
 
       <section className="flex flex-col gap-1.5" aria-labelledby="time-h">
         <div className="flex items-baseline justify-between">

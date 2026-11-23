@@ -3,6 +3,7 @@ import { generateReady } from '../lib/generate.js'
 import NeedsSetup from './NeedsSetup.jsx'
 import { IconBack } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
+import UnderConstruction from '../components/UnderConstruction.jsx'
 
 // Learner-guided practice (Phase 5): the learner asks, Tamago builds it in its own question shapes. The conversation
 // partner moved to its own tool, Conversations (Dan, 2026-11-13; Conversations.jsx).
@@ -31,6 +32,7 @@ export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <h1 className="text-xl font-semibold">Self-Study</h1>
       </header>
+      <UnderConstruction />
 
       <Block title="Your Weakest Skill" text={weakSkill ? `Ten questions in ${weakSkill.toLowerCase()}, on the sentences you know least well.` : 'Answer a few questions first.'}>
         <button onClick={onWeak} disabled={!weakSkill} className="btn-secondary">Practise {weakSkill ? weakSkill.toLowerCase() : ''}</button>
