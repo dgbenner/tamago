@@ -761,3 +761,14 @@ button.chip-drag {
   100% { box-shadow: 0 0 0 10px color-mix(in srgb, var(--accent) 0%, transparent); }
 }
 @media (prefers-reduced-motion: reduce) { .speaker-row .speaker-ring { animation: none; } }
+
+/* After a language switch (Dan, 2026-11-23): the tree's rows fade in from the top, one after another, quickly. Only
+   then: a first launch has the opening screen over the tree instead. Rows past the twelfth start with the twelfth, so a
+   long tree never waits. Off with reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .tree-cascade > li { animation: tree-cascade-in 240ms ease-out both; animation-delay: calc(min(var(--i, 0), 12) * 45ms); }
+}
+@keyframes tree-cascade-in {
+  from { opacity: 0; transform: translateY(-0.5rem); }
+  to { opacity: 1; transform: none; }
+}

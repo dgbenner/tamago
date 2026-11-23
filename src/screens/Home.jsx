@@ -455,7 +455,7 @@ function Points({ total, today }) {
 }
 
 export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
-  finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, hasNote, noteOf, sentenceById }) {
+  finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, cascade = false, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, hasNote, noteOf, sentenceById }) {
   const [picked, setPicked] = useState(null)
   const [infoPicked, setInfoPicked] = useState(null)
   const [iCanPicked, setICanPicked] = useState(null)
@@ -509,7 +509,7 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
       {/* Nothing between the tools and the first circle (Dan, 2026-11-11): no streak, no part header or switcher; "Start
           Here" on the first circle, first use only. From Part 2 the part's divider ("A1: Part 2") sits above it (Dan, 2026-11-20). */}
-      <ol className="home-tree flex flex-1 flex-col items-center gap-y-[2.7rem] pt-[1.9rem] pb-24 lg:[&>li]:[zoom:1.11]">
+      <ol className={`home-tree${cascade ? ' tree-cascade' : ''} flex flex-1 flex-col items-center gap-y-[2.7rem] pt-[1.9rem] pb-24 lg:[&>li]:[zoom:1.11]`}>
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)
@@ -521,7 +521,7 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
             marker && <LevelLine key={`m${i}`} label={marker.label} />,
             // Responsive spacing (Dan, 2026-11-11): each circle takes an equal share up to its full size, the gap shrinks
             // with the screen, so a row of three always fits the tree, titles included.
-            <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
+            <li key={i} style={{ '--i': i }} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onTestPass={onTestPass}
                 onPick={(n) => { if (n.open && !n.topic) { cue('start'); onStartUnit(n.unit.unit_id) } else setPicked(n) }}
                 onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => setNotePicked(node) : null}

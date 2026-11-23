@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, tables, unitContent } from './lib/content.js'
-import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, takeDevJump } from './lib/course.js'
+import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, takeDevJump, takeSwitched } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining, buildCatchUp, catchUpItems } from './lib/lesson.js'
 import { brushUpGreen, brushUpSpan, inSpan, isLit } from './lib/tree-reach.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
@@ -114,7 +114,11 @@ export default function App() {
   const account = useAuth()
   const [accountStart, setAccountStart] = useState(null) // { mode, token, code } for the Account screen
   const [choice, setChoice] = useState(null) // both sides have progress: { device, account, then } for ProgressChoice
-  const [splash, setSplash] = useState(true) // the opening screen and version name on every launch (Dan, 2026-11-11)
+  // The opening screen and version name on every launch (Dan, 2026-11-11), except straight after a language switch
+  // (Dan, 2026-11-23): then the tree cascades in and a toast names the new language.
+  const [switched] = useState(takeSwitched)
+  const [splash, setSplash] = useState(!switched)
+  useEffect(() => { if (switched) toast('info', `Switched to ${course.name}`) }, []) // eslint-disable-line react-hooks/exhaustive-deps
   // First launch: the opening screen asks for a language, but only once the saved state shows nobody has used this
   // course here yet (a learner with progress is never asked, and never sees the flags flash and vanish).
   const [chooser, setChooser] = useState(false)
@@ -1259,7 +1263,7 @@ export default function App() {
       practice={{ mistakes: bank.length, ready: bank.length > 0 || practiceIds().length > 0 }} onPractice={startPracticeMix}
       nextLabel={`Next Lesson: ${curUnit?.title ?? ''}`}
       onNext={() => (session ? startLesson() : startUnit(currentUnit))}
-      inProgress={Boolean(session)} lastLine={lastLine} onLastLineGone={() => setLastLine(null)}
+      inProgress={Boolean(session)} cascade={switched} lastLine={lastLine} onLastLineGone={() => setLastLine(null)}
       onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       hasNote={(id) => Boolean(noteFor(id))} noteOf={noteFor} sentenceById={allContent.sentenceById}
       onChooseTopic={(id) => { const at = nodeOfPack(id); setTopicChoice((c) => ({ ...c, [at]: id })); putKv(topicKey(at), id); if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}

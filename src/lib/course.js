@@ -52,8 +52,21 @@ export function chooseCourse(id) {
   const c = COURSES.find((x) => x.id === id && x.ready)
   if (!c) return false
   write(localStorage, KEY, c.id)
-  if (c.id !== course.id) window.location.reload()
+  if (c.id !== course.id) { write(sessionStorage, SWITCHED, c.id); window.location.reload() }
   return true
+}
+
+// A language switch (Dan, 2026-11-23) still reloads into the new course, but without the opening screen: the tree
+// fades in from the top and an info toast says "Switched to Polish". The flag lives in sessionStorage for the one
+// reload; takeSwitched reads it once and clears it, so a later launch shows the opening screen as usual.
+const SWITCHED = 'tamago-switched'
+let switched
+export function takeSwitched() {
+  if (switched === undefined) {
+    switched = read(sessionStorage, SWITCHED) === course.id
+    try { sessionStorage.removeItem(SWITCHED) } catch { /* private mode */ }
+  }
+  return switched
 }
 
 // Dev: Jump to Part on the Developer page for another language (Dan, 2026-11-11): the part waits here across the
