@@ -13,8 +13,8 @@ import { LETTERS, Letter, LetterStrokes, SushiMark, splashViewBox } from '../com
 // shows through. Then it leaves: by itself, except while it asks for a language; on a pick; or on a tap anywhere (kept
 // if it came early), with the halftone wipe: the black becomes a grid of dots that shrink away corner to corner, and the
 // tree is there. Reduced motion: a short fade.
-const MIN_MS = 1900 // the least it shows, from its first paint: the drop lands by 0.9 s, then a moment at rest
-const LINE_MS = 1200 // and at least this after the app is ready: the tree shows through, the learner's line can be read
+const MIN_MS = 1230 // the least it shows, from its first paint: at rest by 0.9 s, then a third of a second (Dan, 2026-11-25: was 1 s)
+const LINE_MS = 400 // and at least this (was 1.2 s) after the app is ready: the tree shows through, the learner's line can be read
 const PICK_MS = 150 // the picked flag's outline shows before a reload
 const DOT = 26 // CSS px between dot centres
 const SWEEP = 0.7 // how staggered the corner-to-corner sweep is (0: every dot at once)
