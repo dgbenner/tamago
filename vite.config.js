@@ -147,7 +147,7 @@ function openingPictures() {
     }).join('\n            ')
     return { flags, pictures, courses }
   }
-  return { name: 'tamago-opening-pictures', transformIndexHtml: (html) => { if (!html.includes('%FLAGS%')) return html; const { flags, pictures, courses } = all(); return html.replace('%FLAGS%', () => flags).replace('%PICTURES%', () => pictures).replace('%TREES%', () => JSON.stringify(trees(courses.map((c) => c.id)))).replace('%VERSION%', versionName(VERSION.seq ?? VERSION.number)).replace('%SITE%', SITE ? `<span data-site class="site-tag">${SITE}</span>` : '') } }
+  return { name: 'tamago-opening-pictures', transformIndexHtml: (html) => { if (!html.includes('%FLAGS%')) return html; const { flags, pictures, courses } = all(); return html.replace('%FLAGS%', () => flags).replace('%PICTURES%', () => pictures).replace('%TREES%', () => JSON.stringify(trees(courses.map((c) => c.id)))).replace('%HOME%', () => readFileSync('src/opening-home.html', 'utf8').trim()).replace('%VERSION%', versionName(VERSION.seq ?? VERSION.number)).replace('%SITE%', SITE ? `<span data-site class="site-tag">${SITE}</span>` : '') } }
 }
 
 // StatCounter (Dan, 2026-11-14; project "Tamago Dev", 13366867): added only to Cloudflare's builds (CF_PAGES is set
