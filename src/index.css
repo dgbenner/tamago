@@ -306,7 +306,6 @@ button.chip-drag {
     --logo-green: #22b573;
     --logo-orange: #ff7a2e;
     --focus: #8ab4ff;
-    background: #000;
     color: var(--ink);
   }
   .splash-dots {
@@ -318,18 +317,14 @@ button.chip-drag {
   }
   #opening.splash-leaving {
     pointer-events: none;
-    background: transparent;
+    background: transparent !important;
+    transition: none !important;
   }
   #opening.splash-leaving > :not(.splash-dots) {
     opacity: 0;
     transition: opacity 180ms ease-out;
   }
   .splash-line { animation: splash-line-in 300ms ease-out both; }
-  @media (prefers-reduced-motion: no-preference) {
-    /* First launch: as the logo lands, the flags come up in a quick ripple, the question just ahead of them. */
-    .splash-choose h1 { animation: splash-rise 300ms ease-out var(--wait, 0ms) both; }
-    .splash-choose li { animation: splash-rise 300ms ease-out both; animation-delay: calc(var(--wait, 0ms) + 60ms + var(--i, 0) * 30ms); }
-  }
   /* Toasts (Dan, 2026-11-11): at the top of the screen, sliding down, held about 3 seconds, then sliding back up.
      One container, one plain color per kind: info, success, warning, error. */
   .toast-region {
@@ -556,10 +551,6 @@ button.chip-drag {
 }
 @keyframes splash-line-in {
   from { opacity: 0; }
-}
-@keyframes splash-rise {
-  from { opacity: 0; transform: translateY(4px); }
-  to { opacity: 1; transform: none; }
 }
 /* Falling with weight (Dan, 2026-11-19): gravity on the way down (an ease-in), the landing at the same moment as
    before, then a small rebound, up a few pixels and down again, while the squash plays. Wordmark: lands at 1870 of

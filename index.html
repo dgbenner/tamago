@@ -28,15 +28,31 @@
       @media (min-width: 768px) { #opening .splash-wordmark { width: 114%; } }
       #opening .splash-sushi { position: relative; width: 37%; margin-top: -14.5%; }
       #opening .splash-sushi img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; }
-      /* Room for the flags on a first launch, so the logo lands where it stays. */
-      #opening-ui { width: 100%; }
-      #opening.op-first #opening-ui { min-height: 29.35rem; }
-      @media (max-height: 760px) { #opening.op-first #opening-ui { min-height: 23.3rem; } }
-      @media (min-width: 640px) and (max-width: 1023px) and (min-height: 761px) { #opening.op-first #opening-ui { min-height: 30.1rem; } }
-      @media (min-width: 1024px) { #opening.op-first #opening-ui { min-height: 24.65rem; } }
-      @media (min-width: 1024px) and (max-height: 760px) { #opening.op-first #opening-ui { min-height: 17.6rem; } }
+      /* The first-launch question, here so it comes up as the sushi lands. Sizes as FlagRow's size lg. */
+      #opening { color: #f6f1e6; font-family: ui-sans-serif, system-ui, sans-serif; line-height: 1.5; -webkit-tap-highlight-color: transparent; }
+      /* The app is drawn behind: the tree shows through (Splash.jsx). */
+      #opening.op-see { background: rgb(0 0 0 / 0.8); transition: background-color 450ms ease-out; }
+      .splash-choose { display: none; flex-direction: column; align-items: center; width: max-content; max-width: 92vw; padding-top: 3.8rem; }
+      .op-first .splash-choose { display: flex; }
+      .splash-choose h1 { margin: 0; font-size: 1.15rem; font-weight: 600; }
+      .splash-choose ul { list-style: none; margin: 0; padding: 0 0 1.75rem; display: grid; grid-template-columns: repeat(3, auto); align-items: start; justify-content: center; gap: .25rem .125rem; }
+      .splash-choose li { display: flex; min-width: 0; justify-content: center; }
+      .splash-choose button { width: 100%; display: flex; flex-direction: column; align-items: center; gap: .25rem; margin: 0; border: 0; border-radius: 1rem; padding: .375rem; background: none; color: inherit; font: inherit; cursor: pointer; touch-action: manipulation; transition: transform 160ms ease-out; }
+      .splash-choose button:active { transform: scale(.94); }
+      .splash-choose button:active, .splash-choose button[aria-pressed='true'] { outline: 4px solid #ff7a2e; outline-offset: 2px; }
+      .splash-choose button:focus-visible { outline: 3px solid #8ab4ff; outline-offset: 2px; }
+      .splash-choose img { display: block; width: 4rem; height: 4rem; }
+      .splash-choose span { white-space: nowrap; font-size: .75rem; line-height: 1rem; }
+      .splash-choose em { font-size: .75rem; line-height: 1.25; color: #b9b1a2; }
+      @media (hover: hover) { .splash-choose button:hover { transform: scale(1.06); } }
+      @media (min-width: 640px) { .splash-choose span { font-size: .875rem; line-height: 1.25rem; } }
+      @media (min-width: 1024px) { .splash-choose ul { grid-template-columns: repeat(5, auto); row-gap: .5rem; } .splash-choose img { width: 5rem; height: 5rem; } }
+      @media (max-height: 760px) { .splash-choose { padding-top: .75rem; } .splash-choose img { width: 3rem; height: 3rem; } }
       @media (prefers-reduced-motion: no-preference) {
         #opening:not(.op-rest) .op-fall { animation: op-fall 900ms linear both; }
+        /* The sushi lands at 0.58 s. */
+        .op-first .splash-choose h1 { animation: op-rise 240ms ease-out 540ms both; }
+        .op-first .splash-choose li { animation: op-rise 240ms ease-out both; animation-delay: calc(560ms + var(--i) * 25ms); }
         #opening:not(.op-rest) .op-land { animation: op-squash 340ms ease-out 560ms both; }
       }
       @keyframes op-fall {
@@ -45,6 +61,7 @@
         80% { transform: translateY(-12px); animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
         100% { transform: none; }
       }
+      @keyframes op-rise { from { opacity: 0; transform: translateY(6px); } }
       @keyframes op-squash { 0%, 100% { transform: none; } 30% { transform: scale(1.06, 0.86); } 65% { transform: scale(0.98, 1.04); } }
     </style>
     <!-- A chosen light or dark theme before the first paint (for what shows after the opening), and black bars with it. -->
@@ -71,9 +88,15 @@
             <g transform="translate(-15.5 0)"><path d="M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121" stroke="#22b573" stroke-width="25" /><path d="M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121" stroke="#000" stroke-width="15" /><path d="M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121" stroke="#ff7a2e" stroke-width="5" /></g>
             <g transform="translate(-18.5 0)"><path d="M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#22b573" stroke-width="25" /><path d="M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#000" stroke-width="15" /><path d="M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#ff7a2e" stroke-width="5" /></g>
           </svg>
-          <!-- The build puts the picture itself here (vite.config.js inlineLogo). -->
-          <div class="splash-sushi"><img src="/logo.webp" width="384" height="256" alt="" decoding="sync" /></div>
+          <!-- The pictures themselves come at the end (vite.config.js openingPictures). -->
+          <div class="splash-sushi"><img data-pic="sushi" width="384" height="256" alt="" decoding="sync" /></div>
         </div></div>
+        <div class="splash-choose">
+          <h1>Choose Your Language</h1>
+          <ul>
+            %FLAGS%
+          </ul>
+        </div>
         <div id="opening-ui"></div>
       </div>
     </div>
@@ -85,15 +108,23 @@
         try { picked = sessionStorage.getItem('tamago-picked'); switched = sessionStorage.getItem('tamago-switched'); course = localStorage.getItem('tamago-course'); sessionStorage.removeItem('tamago-picked') } catch {}
         if (location.pathname.startsWith('/admin') || (switched && !picked)) { html.classList.remove('is-opening'); el.remove(); return }
         if (picked) el.classList.add('op-rest')
-        else if (!course) {
-          el.classList.add('op-first')
-          // The flags, fetched from the start so they're there when the question shows.
-          for (const id of ['da', 'nl', 'fr', 'de', 'it', 'pl', 'pt', 'es', 'sv']) new Image().src = `/flags/${id}.webp`
-        }
+        else if (!course) el.classList.add('op-first')
         window.openingAt = performance.now()
         for (const m of document.querySelectorAll('meta[name=theme-color]')) { m.dataset.color = m.content; m.content = '#000000' }
+        // Taps count from the start. A flag before the app has read which course to open is simply remembered as that
+        // course; after, Splash.jsx takes it. Anywhere else asks to go on to the tree.
+        el.addEventListener('click', (e) => {
+          const b = e.target.closest('[data-course]')
+          if (!b) { if (window.openingTake) window.openingTake({ skip: true }); else window.openingSkip = true; return }
+          if (window.openingPick) return
+          b.setAttribute('aria-pressed', 'true')
+          window.openingPick = b.dataset.course
+          if (window.openingTake) window.openingTake({ picked: window.openingPick })
+          else try { localStorage.setItem('tamago-course', window.openingPick) } catch {}
+        })
       })()
     </script>
+    %PICTURES%
     <!--shell-end-->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

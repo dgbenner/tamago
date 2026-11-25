@@ -1,6 +1,7 @@
 // What the opening screen (index.html #opening, screens/Splash.jsx) knows of the app, which loads behind it and has its
-// own React root: ready (a page is drawn under it), choose (ask for a language), line (where the learner is).
-let state = { ready: false, choose: false, line: null }
+// own React root: ready (a page is drawn under it), choose (ask for a language), line (where the learner is);
+// and what the learner did on it: picked (a flag's course), skip (a tap elsewhere).
+let state = { ready: false, choose: false, line: null, picked: null, skip: false }
 const subs = new Set()
 export const openingState = () => state
 export const onOpening = (fn) => { subs.add(fn); return () => subs.delete(fn) }

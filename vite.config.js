@@ -116,9 +116,24 @@ function soundLab() {
   }
 }
 
-// The opening's sushi picture inside the page itself, so it needs no request of its own (2026-11-25).
-function inlineLogo() {
-  return { name: 'tamago-inline-logo', transformIndexHtml: (html) => html.replace('<img src="/logo.webp"', `<img src="data:image/webp;base64,${readFileSync('public/logo.webp').toString('base64')}"`) }
+// The opening's pictures inside the page itself (2026-11-25), so the sushi and the language flags need no request of
+// their own: %FLAGS%, one button per course of src/lib/course.js in the order FlagRow shows them, and after the whole
+// layout %PICTURES%, which fills in the sushi and then each flag, so nothing moves as they arrive.
+const dataUri = (file) => `data:image/webp;base64,${readFileSync(file).toString('base64')}`
+function openingPictures() {
+  const all = () => {
+    const list = readFileSync('src/lib/course.js', 'utf8').split('export const PARKED')[0]
+    const courses = [...list.matchAll(/\{ id: '(\w+)', name: '([^']+)'.*?flag: '([^']+)', ready: true/g)].map(([, id, name, flag]) => ({ id, name, flag }))
+    courses.sort((x, y) => x.name.localeCompare(y.name, 'en'))
+    const fill = (id, file) => `<script>document.querySelectorAll('[data-pic="${id}"]').forEach((i) => { i.src = '${dataUri(file)}' })</script>`
+    const pictures = [fill('sushi', 'public/logo.webp'), ...courses.map((c) => fill(c.id, `public${c.flag}`))].join('\n    ')
+    const flags = courses.map((c, i) => {
+      const stats = COURSE_STATS[c.id]
+      return `<li style="--i:${i}"><button type="button" data-course="${c.id}" aria-label="${c.name}" aria-pressed="false"><img data-pic="${c.id}" width="192" height="192" alt="" /><span>${c.name}</span>${stats ? `<em>${stats.level} · ${stats.circles} circles</em>` : ''}</button></li>`
+    }).join('\n            ')
+    return { flags, pictures }
+  }
+  return { name: 'tamago-opening-pictures', transformIndexHtml: (html) => { if (!html.includes('%FLAGS%')) return html; const { flags, pictures } = all(); return html.replace('%FLAGS%', () => flags).replace('%PICTURES%', () => pictures) } }
 }
 
 // StatCounter (Dan, 2026-11-14; project "Tamago Dev", 13366867): added only to Cloudflare's builds (CF_PAGES is set
@@ -158,7 +173,7 @@ const courseStats = () => Object.fromEntries(Object.entries(COURSE_DIRS).map(([i
 const COURSE_STATS = courseStats()
 export default defineConfig({
   build: { rollupOptions: { input: LAB_PAGES } },
-  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), soundLab(), inlineLogo(), statCounter()],
+  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), soundLab(), openingPictures(), statCounter()],
   // Which site this build is for (Cloudflare Pages sets CF_PAGES_BRANCH): main is the stable site, dev the working one.
   define: { __BUILD_TIME__: JSON.stringify(new Date().toISOString()), __WORKBOOKS__: JSON.stringify(WORKBOOKS), __COURSE_STATS__: JSON.stringify(COURSE_STATS), __DEPLOY_BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH ?? '') },
 })
