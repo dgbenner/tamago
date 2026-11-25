@@ -50,7 +50,11 @@ function serviceWorker() {
         // before the app's styles have loaded and the part above the mark names no built file (sw-template.js).
         const assets = [...page.matchAll(/^ *<(?:script type="module"|link rel="(?:modulepreload|stylesheet)")[^>]*\/assets\/[^>]*>(?:<\/script>)?\n/gm)].map((m) => m[0])
         const rest = assets.reduce((p, a) => p.replace(a, ''), page)
-        html.source = rest.replace('<!--shell-end-->\n', `<!--shell-end-->\n    <script>window.courseFiles = ${JSON.stringify(courseChunks)}</script>\n${assets.join('')}    ${links.join('\n    ')}\n`)
+        // The app's styles again in the page itself, for home as it last looked (#shell); main.jsx drops them once the
+        // app has drawn, since after a deploy this copy can be the last version's.
+        const css = assets.map((a) => /rel="stylesheet".*href="\/([^"]+)"/.exec(a)?.[1]).filter(Boolean).map((f) => bundle[f]?.source ?? '').join('\n')
+        const styled = rest.replace('</head>', () => `  <style id="shell-style">${css}</style>\n  </head>`)
+        html.source = styled.replace('<!--shell-end-->\n', `<!--shell-end-->\n    <script>window.courseFiles = ${JSON.stringify(courseChunks)}</script>\n${assets.join('')}    ${links.join('\n    ')}\n`)
       }
     },
     closeBundle() {

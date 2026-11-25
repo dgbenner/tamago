@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { cue } from '../lib/audio.js'
 import { IconBack, IconCheckered, IconComment, IconForward } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
+import { saveHomePicture } from '../lib/home-picture.js'
 import { FlagRow } from '../components/FlagRow.jsx'
 import CircleNode from '../components/CircleNode.jsx'
 import NoteText from '../components/NoteText.jsx'
@@ -493,6 +494,7 @@ export default function Home({ wide, panel, panelKey = null, rows, iCan = [], on
     window.addEventListener('touchend', up)
     return () => { window.removeEventListener('keydown', onKey); window.removeEventListener('touchstart', down); window.removeEventListener('touchend', up) }
   }, [onTestPass, current?.unit.unit_id, sheetOpen])
+  useEffect(saveHomePicture) // for the next launch's first paint
   return (
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and

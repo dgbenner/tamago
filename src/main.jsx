@@ -31,7 +31,7 @@ tablesFor[course.id]().then(({ tables }) => {
 const root = document.getElementById('root')
 const clearShell = () => {
   if (!root.querySelector('main')) return false
-  requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById('shell')?.remove()))
+  requestAnimationFrame(() => requestAnimationFrame(() => { document.getElementById('shell')?.remove(); document.getElementById('shell-style')?.remove() }))
   return true
 }
 if (!clearShell()) { const seen = new MutationObserver(() => { if (clearShell()) seen.disconnect() }); seen.observe(root, { childList: true, subtree: true }) }

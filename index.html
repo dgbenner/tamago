@@ -186,12 +186,6 @@
         let course = null
         try { course = localStorage.getItem('tamago-course') } catch {}
         const admin = location.pathname.startsWith('/admin')
-        if (admin || course) {
-          html.classList.remove('is-opening'); el.remove()
-          if (admin) shell.remove()
-          else if (/^[a-z]{2}$/.test(course)) shell.querySelector('.sh-flag').src = `/flags/${course}.webp`
-          return
-        }
         const TREES = %TREES%
         const nodes = [...shell.querySelectorAll('.sh-node')]
         const show = (id) => {
@@ -199,6 +193,16 @@
           nodes.forEach((n, i) => { const [title, pic] = TREES[id][i]; n.querySelector('span').textContent = title; n.querySelector('img').src = `/sushi/${pic}.webp` })
         }
         shell.classList.add('is-new')
+        if (admin || course) {
+          html.classList.remove('is-opening'); el.remove()
+          if (admin) { shell.remove(); return }
+          // Home exactly as it last looked here (saved by src/lib/home-picture.js), pictures and progress included; with
+          // none saved yet, this course's first circles.
+          let saved = null
+          try { saved = localStorage.getItem(`tamago-home:${course}`) } catch {}
+          if (saved) { shell.inert = true; shell.innerHTML = saved } else if (TREES[course]) show(course)
+          return
+        }
         el.classList.add('op-first')
         for (const m of document.querySelectorAll('meta[name=theme-color]')) { m.dataset.color = m.content; m.content = '#000000' }
         show('fr')

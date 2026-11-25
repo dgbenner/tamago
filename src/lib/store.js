@@ -111,7 +111,7 @@ export async function resetProgress() {
 export async function resetLanguage() {
   await resetProgress()
   try {
-    for (const k of Object.keys(localStorage)) if (k.startsWith(`tamago-sync:${course.id}:`) || k === `tamago-owner:${course.id}`) localStorage.removeItem(k)
+    for (const k of Object.keys(localStorage)) if (k.startsWith(`tamago-sync:${course.id}:`) || k === `tamago-owner:${course.id}` || k === `tamago-home:${course.id}`) localStorage.removeItem(k)
   } catch { /* private mode */ }
 }
 // Reset Everything (Dan, 2026-11-13): every course, settings, sign-in and the offline copy, as a brand-new user. Closes
