@@ -11,7 +11,6 @@ import Home from './screens/Home.jsx'
 import Lesson, { preloadSpeakers } from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
-import { tellOpening } from './lib/opening.js'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
 import RealExam from './screens/RealExam.jsx'
@@ -114,13 +113,9 @@ export default function App() {
   const account = useAuth()
   const [accountStart, setAccountStart] = useState(null) // { mode, token, code } for the Account screen
   const [choice, setChoice] = useState(null) // both sides have progress: { device, account, then } for ProgressChoice
-  // The opening screen and version name on every launch (Dan, 2026-11-11), except straight after a language switch
-  // (Dan, 2026-11-23): then the tree cascades in and a toast names the new language.
+  // Straight after a language switch (Dan, 2026-11-23) the tree cascades in and a toast names the new language.
   const [switched] = useState(takeSwitched)
   useEffect(() => { if (switched) toast('info', `Switched to ${course.name}`) }, []) // eslint-disable-line react-hooks/exhaustive-deps
-  // First launch: the opening screen asks for a language, but only once the saved state shows nobody has used this
-  // course here yet (a learner with progress is never asked, and never sees the flags flash and vanish).
-  const [chooser, setChooser] = useState(false)
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
   const carry = useRef([])
@@ -175,11 +170,8 @@ export default function App() {
       // Settings are shared across courses: the shared copy wins, else this course's own.
       const shared = sharedSettings()
       if (shared || s.kv.settings) setSettings({ ...DEFAULT_SETTINGS, ...(s.kv.settings ?? {}), ...(shared ?? {}) })
-      // Someone who already has progress here isn't new: no language question, this course stays.
-      if (firstLaunch) {
-        if (s.progress.length || s.points.length || s.bank.length) chooseCourse(course.id)
-        else setChooser(true)
-      }
+      // Someone with progress here but no course recorded isn't asked again.
+      if (firstLaunch && (s.progress.length || s.points.length || s.bank.length)) chooseCourse(course.id)
       seenWords.current = new Set(s.kv.seen_words ?? [])
       // Rounds seen, per unit. Older installs kept Unit 1's alone under round_seen.
       roundSeen.current = s.kv.round_seen_by_unit ?? (s.kv.round_seen ? { [FIRST_UNIT]: s.kv.round_seen } : {})
@@ -537,13 +529,6 @@ export default function App() {
   }
   // Side tools. Words met, in unit order; a word's recall is its own card, else the average of its sentences'.
   const metWords = () => tables.words.filter((w) => seenWords.current.has(w.word_id))
-  // Progress on return (Dan, 2026-11-15): one quiet line on the opening screen, "French · Part 3 of 6 · 42% of A1
-  // words", from what's already in memory (nothing read or fetched for it). Nothing for a learner who hasn't met a word.
-  const returnLine = () => {
-    const c = seenWords.current.size ? a1Coverage() : null
-    if (!c || c.met === 0) return null
-    return `${course.name} · Part ${c.part} of ${c.parts} · ${Math.round((c.met * 100) / c.total)}% of A1 words`
-  }
   // A1 coverage (A1 Complete, section 6): list words met (a course word counts for its lemma), tasks whose circles
   // have finished round 1, and the part. Progress shows it; the opening screen's line uses it too.
   const a1Coverage = () => {
@@ -1037,9 +1022,6 @@ export default function App() {
     setEnding(null)
     setScreen(back)
   }
-
-  // The opening screen, over this (Splash.jsx): it may leave once a page is drawn.
-  useEffect(() => { if (ready) tellOpening({ ready: true, choose: chooser, line: returnLine() }) }, [ready, chooser]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const view = () => {
   if (!ready) return null

@@ -24,7 +24,6 @@ test('this version is the one in src/version.json', () => {
   assert.deepEqual(version, { number, day, name: versionName(seq) })
 })
 test('the name is on the opening screen and the Developer page', () => {
-  for (const file of ['Splash.jsx', 'Developer.jsx']) {
-    assert.match(readFileSync(new URL(`../src/screens/${file}`, import.meta.url), 'utf8'), /data-version[^>]*>Version \{version\.name\}/, file)
-  }
+  assert.match(readFileSync(new URL('../src/screens/Developer.jsx', import.meta.url), 'utf8'), /data-version[^>]*>Version \{version\.name\}/)
+  assert.match(readFileSync(new URL('../index.html', import.meta.url), 'utf8'), /data-version[^>]*>Version %VERSION%/) // filled in by vite.config.js
 })

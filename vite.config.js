@@ -4,6 +4,7 @@ import { join, relative } from 'node:path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+import { versionName } from './src/lib/version.js'
 
 const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(join(dir, e.name)) : [join(dir, e.name)]))
 
@@ -49,7 +50,7 @@ function serviceWorker() {
         // before the app's styles have loaded and the part above the mark names no built file (sw-template.js).
         const assets = [...page.matchAll(/^ *<(?:script type="module"|link rel="(?:modulepreload|stylesheet)")[^>]*\/assets\/[^>]*>(?:<\/script>)?\n/gm)].map((m) => m[0])
         const rest = assets.reduce((p, a) => p.replace(a, ''), page)
-        html.source = rest.replace('<!--shell-end-->\n', `<!--shell-end-->\n${assets.join('')}    ${links.join('\n    ')}\n`)
+        html.source = rest.replace('<!--shell-end-->\n', `<!--shell-end-->\n    <script>window.courseFiles = ${JSON.stringify(courseChunks)}</script>\n${assets.join('')}    ${links.join('\n    ')}\n`)
       }
     },
     closeBundle() {
@@ -119,6 +120,15 @@ function soundLab() {
 // The opening's pictures inside the page itself (2026-11-25), so the sushi and the language flags need no request of
 // their own: %FLAGS%, one button per course of src/lib/course.js in the order FlagRow shows them, and after the whole
 // layout %PICTURES%, which fills in the sushi and then each flag, so nothing moves as they arrive.
+// %TREES%: each course's first seven circles as a new learner sees them, [title, picture], for the tree's place (#shell).
+const VERSION = JSON.parse(readFileSync('src/version.json', 'utf8'))
+const BRANCH = process.env.CF_PAGES_BRANCH ?? ''
+const SITE = BRANCH && BRANCH !== 'main' ? BRANCH[0].toUpperCase() + BRANCH.slice(1) : ''
+const trees = (ids) => Object.fromEntries(ids.map((id) => {
+  const read = (f) => JSON.parse(readFileSync(join(COURSE_DIRS[id], f), 'utf8'))
+  const units = new Map(read('units.json').map((u) => [u.unit_id, u]))
+  return [id, read('tree_layout.json').sort((a, b) => a.row - b.row || a.position - b.position).slice(0, 7).map((t) => { const u = units.get(t.unit_id); return [u.title, `${u.icon_group}/${u.icon_file.replace(/\.webp$/, '')}`] })]
+}))
 const dataUri = (file) => `data:image/webp;base64,${readFileSync(file).toString('base64')}`
 function openingPictures() {
   const all = () => {
@@ -131,9 +141,9 @@ function openingPictures() {
       const stats = COURSE_STATS[c.id]
       return `<li style="--i:${i}"><button type="button" data-course="${c.id}" aria-label="${c.name}" aria-pressed="false"><img data-pic="${c.id}" width="192" height="192" alt="" /><span>${c.name}</span>${stats ? `<em>${stats.level} · ${stats.circles} circles</em>` : ''}</button></li>`
     }).join('\n            ')
-    return { flags, pictures }
+    return { flags, pictures, courses }
   }
-  return { name: 'tamago-opening-pictures', transformIndexHtml: (html) => { if (!html.includes('%FLAGS%')) return html; const { flags, pictures } = all(); return html.replace('%FLAGS%', () => flags).replace('%PICTURES%', () => pictures) } }
+  return { name: 'tamago-opening-pictures', transformIndexHtml: (html) => { if (!html.includes('%FLAGS%')) return html; const { flags, pictures, courses } = all(); return html.replace('%FLAGS%', () => flags).replace('%PICTURES%', () => pictures).replace('%TREES%', () => JSON.stringify(trees(courses.map((c) => c.id)))).replace('%VERSION%', versionName(VERSION.seq ?? VERSION.number)).replace('%SITE%', SITE ? `<span data-site class="site-tag">${SITE}</span>` : '') } }
 }
 
 // StatCounter (Dan, 2026-11-14; project "Tamago Dev", 13366867): added only to Cloudflare's builds (CF_PAGES is set

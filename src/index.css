@@ -295,7 +295,7 @@ button.chip-drag {
   /* Opening screen (Dan, 2026-11-13): a gauze curtain over the home screen, which is already drawn underneath: the page
      color at --gauze opacity, with a fine woven-dot texture. Leaving, the logo and version fade in 180 ms while the
      curtain itself is handed to the halftone canvas (Splash.jsx halftoneOut), and taps already reach the home screen. */
-  /* The opening (index.html #opening, Splash.jsx): black in both themes, so the dark colors, whatever the theme. */
+  /* The opening (index.html #opening): black in both themes, so the dark colors, whatever the theme. */
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center;
     color-scheme: dark;
@@ -308,23 +308,6 @@ button.chip-drag {
     --focus: #8ab4ff;
     color: var(--ink);
   }
-  .splash-dots {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-  }
-  #opening.splash-leaving {
-    pointer-events: none;
-    background: transparent !important;
-    transition: none !important;
-  }
-  #opening.splash-leaving > :not(.splash-dots) {
-    opacity: 0;
-    transition: opacity 180ms ease-out;
-  }
-  .splash-line { animation: splash-line-in 300ms ease-out both; }
   /* Toasts (Dan, 2026-11-11): at the top of the screen, sliding down, held about 3 seconds, then sliding back up.
      One container, one plain color per kind: info, success, warning, error. */
   .toast-region {
@@ -417,9 +400,6 @@ button.chip-drag {
     /* A toast appears in place and fades; no slide. */
     .toast {
       animation: toast-fade 260ms linear 3200ms forwards;
-    }
-    .splash-line {
-      animation: none;
     }
     .pair-out {
       animation: none;
@@ -548,9 +528,6 @@ button.chip-drag {
 }
 @keyframes toast-out {
   to { transform: translateY(calc(-100% - 1rem)); opacity: 0; visibility: hidden; }
-}
-@keyframes splash-line-in {
-  from { opacity: 0; }
 }
 /* Falling with weight (Dan, 2026-11-19): gravity on the way down (an ease-in), the landing at the same moment as
    before, then a small rebound, up a few pixels and down again, while the squash plays. Wordmark: lands at 1870 of

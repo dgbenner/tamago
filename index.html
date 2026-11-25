@@ -16,11 +16,20 @@
       html { background: #fffbf2; }
       @media (prefers-color-scheme: dark) { html:not([data-theme='light']) { background: #12100d; } }
       html[data-theme='dark'] { background: #12100d; }
+      html { --sh-bg: #fffbf2; --sh-line: #e7dfcf; --sh-ink: #1c1a17; --sh-muted: #645e53; --sh-surface: #fff; }
+      @media (prefers-color-scheme: dark) { html:not([data-theme='light']) { --sh-bg: #12100d; --sh-line: #38322a; --sh-ink: #f6f1e6; --sh-muted: #a89f8f; --sh-surface: #1e1b16; } }
+      html[data-theme='dark'] { --sh-bg: #12100d; --sh-line: #38322a; --sh-ink: #f6f1e6; --sh-muted: #a89f8f; --sh-surface: #1e1b16; }
       html.is-opening { background: #000; }
       @media (max-width: 767px), (min-width: 1024px) { html { font-size: 17px; } }
       body { margin: 0; }
+      html.no-opening #opening { display: none; }
       #opening { position: fixed; inset: 0; z-index: 50; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #000; }
       #opening .op-text { position: absolute; margin: 0; font-size: 1px; color: transparent; }
+      .op-version { position: absolute; left: max(1rem, env(safe-area-inset-left)); bottom: max(1rem, env(safe-area-inset-bottom)); display: flex; align-items: center; gap: .5rem; color: #a89f8f; }
+      .op-version p { margin: 0; font-size: 1rem; }
+      #opening canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+      #opening.op-leaving { background: transparent; transition: none; pointer-events: none; }
+      #opening.op-leaving > :not(canvas) { opacity: 0; transition: opacity 180ms ease-out; }
       #opening .splash-stack { position: relative; width: min(84vw, 430px); display: flex; flex-direction: column; align-items: center; }
       #opening .op-fall { width: 100%; display: flex; flex-direction: column; align-items: center; will-change: transform; }
       #opening .op-land { width: 100%; transform-origin: 50% 100%; display: flex; flex-direction: column; align-items: center; }
@@ -28,6 +37,64 @@
       @media (min-width: 768px) { #opening .splash-wordmark { width: 114%; } }
       #opening .splash-sushi { position: relative; width: 37%; margin-top: -14.5%; }
       #opening .splash-sushi img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; }
+      /* The tree's place (2026-11-25): what's under the opening, and what a returning learner sees at once until the app has
+         drawn home (main.jsx removes it). Sizes follow Home.jsx, CircleNode.jsx and index.css (.home, .bar-top, .bar-bottom).
+         A new learner's first circles are known, so they show with their pictures and titles (.is-new); else plain shapes. */
+      #shell, #shell * { box-sizing: border-box; }
+      #shell { position: fixed; inset: 0; overflow: hidden; pointer-events: none; background: var(--sh-bg); color: var(--sh-ink); font-family: ui-sans-serif, system-ui, sans-serif; line-height: 1.5; }
+      .sh-text { position: absolute; margin: 0; font-size: 1px; color: transparent; }
+      .sh-home { position: relative; height: 100%; max-width: 28rem; margin: 0 auto; padding: 0 1rem; }
+      .sh-top { height: calc(3rem + max(0px, env(safe-area-inset-top) - 2px)); margin: 0 -1rem; padding-top: max(2px, env(safe-area-inset-top)); border-bottom: 2px solid var(--sh-line); display: flex; align-items: center; justify-content: center; gap: 3px; position: relative; }
+      .sh-top .sh-brand { display: none; width: 2.18rem; height: auto; }
+      .sh-top .sh-word { display: block; width: 92px; }
+      .sh-flag { position: absolute; left: .875rem; top: 50%; width: 2rem; height: 2rem; margin-top: -1rem; object-fit: contain; }
+      .sh-flag:not([src]) { visibility: hidden; }
+      .sh-gear { position: absolute; right: .875rem; top: 50%; width: 24px; height: 24px; margin-top: -12px; }
+      .sh-fill { background: var(--sh-line); border-radius: 99px; }
+      .sh-pills { display: flex; gap: .5rem; margin: 1rem -1rem 0; overflow: hidden; }
+      .sh-pills i { flex: none; min-width: 5.5rem; height: 2.5rem; padding: 0 .75rem 0 2.35rem; display: flex; align-items: center; font-size: .875rem; font-style: normal; white-space: nowrap; border: 2px solid var(--sh-line); border-radius: 99px; background: var(--sh-surface); }
+      .sh-tree { padding-top: 2.9rem; display: flex; flex-direction: column; gap: 2.7rem; }
+      .sh-row { display: flex; justify-content: center; gap: min(4.9rem, 6vw); }
+      .sh-node { width: 8rem; height: 9.24rem; padding-top: 1.625rem; display: flex; flex-direction: column; align-items: center; }
+      .sh-node b { width: 5.76rem; height: 5.76rem; margin: .12rem; border-radius: 50%; border: .34rem solid var(--sh-line); background: #f6efe0; background-clip: content-box; padding: .16rem; display: flex; align-items: center; justify-content: center; position: relative; }
+      .sh-node img { display: none; position: absolute; width: 4.68rem; height: 4.68rem; object-fit: contain; }
+      .sh-node span { display: none; margin-top: .375rem; font-size: 1rem; font-weight: 600; line-height: 1.25; white-space: nowrap; }
+      .is-new .sh-node img[src], .is-new .sh-node span { display: block; }
+      .is-new .sh-node i { display: none; }
+      .sh-start { display: none; position: absolute; top: 0; align-items: center; gap: .25rem; height: 1.25rem; font-size: .75rem; font-weight: 600; color: #0b7a43; }
+      .sh-start::before { content: ''; width: .5rem; height: .5rem; border-radius: 50%; background: currentColor; }
+      .sh-node { position: relative; }
+      .is-new .sh-start { display: flex; }
+      .is-new .sh-row:not(:first-child) b, .is-new .sh-row:not(:first-child) .sh-node span { opacity: .55; filter: saturate(.15); }
+      .sh-pill { align-self: center; height: 2.25rem; width: 8.56rem; border: 2px solid var(--sh-line); border-radius: 99px; opacity: .55; }
+      .sh-node i { width: 4.5rem; height: .8rem; margin-top: .6rem; }
+      .sh-foot { position: absolute; left: 0; right: 0; bottom: 0; padding: .75rem 1rem max(1rem, env(safe-area-inset-bottom)); border-top: 2px solid var(--sh-line); background: var(--sh-bg); }
+      .sh-foot i { display: flex; align-items: center; justify-content: center; height: 3rem; border-radius: .75rem; font-style: normal; font-weight: 600; color: transparent; }
+      .is-new .sh-foot i { background: #ffc21a; color: #1c1a17; }
+      .sh-panel { display: none; }
+      @media (min-width: 1024px) {
+        .sh-home { max-width: 72rem; padding: 0 2rem; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); column-gap: 3rem; }
+        .sh-top { grid-column: 1 / -1; margin: 0; padding-left: 2px; justify-content: flex-start; }
+        .sh-top .sh-brand { display: block; position: relative; top: -2px; }
+        .sh-pills { display: none; }
+        .sh-path { position: relative; }
+        .sh-row { zoom: 1.11; }
+        .sh-foot { left: -1rem; right: -1rem; }
+        .sh-panel { display: grid; gap: .5rem; align-content: start; padding: 2rem .25rem 0; }
+        .sh-panel i { height: 79.2px; padding: .75rem .75rem .75rem 3rem; font-style: normal; border: 2px solid var(--sh-line); border-radius: .75rem; background: var(--sh-surface); }
+        .sh-panel b, .sh-panel small { display: block; }
+        .sh-panel b { font-weight: 600; }
+        .sh-panel small { margin-top: .125rem; font-size: .875rem; line-height: 1.25rem; color: var(--sh-muted); }
+        .sh-flag { left: auto; right: 2.95rem; }
+        .sh-gear { right: .2rem; }
+        .sh-pill { zoom: 1.11; }
+      }
+      /* iPad held upright shows "Turn your iPad sideways" instead. */
+      @media (pointer: coarse) and (orientation: portrait) and (min-width: 744px) { .sh-home { display: none; } }
+      @media (prefers-reduced-motion: no-preference) {
+        #shell:not(.is-new) .sh-row { animation: sh-pulse 1.6s ease-in-out infinite; }
+        @keyframes sh-pulse { 50% { opacity: .55; } }
+      }
       /* The first-launch question, here so it comes up as the sushi lands. Sizes as FlagRow's size lg. */
       #opening { color: #f6f1e6; font-family: ui-sans-serif, system-ui, sans-serif; line-height: 1.5; -webkit-tap-highlight-color: transparent; }
       /* The app is drawn behind: the tree shows through (Splash.jsx). */
@@ -49,11 +116,11 @@
       @media (min-width: 1024px) { .splash-choose ul { grid-template-columns: repeat(5, auto); row-gap: .5rem; } .splash-choose img { width: 5rem; height: 5rem; } }
       @media (max-height: 760px) { .splash-choose { padding-top: .75rem; } .splash-choose img { width: 3rem; height: 3rem; } }
       @media (prefers-reduced-motion: no-preference) {
-        #opening:not(.op-rest) .op-fall { animation: op-fall 900ms linear both; }
+        #opening .op-fall { animation: op-fall 900ms linear both; }
         /* The sushi lands at 0.58 s. */
         .op-first .splash-choose h1 { animation: op-rise 240ms ease-out 540ms both; }
         .op-first .splash-choose li { animation: op-rise 240ms ease-out both; animation-delay: calc(560ms + var(--i) * 25ms); }
-        #opening:not(.op-rest) .op-land { animation: op-squash 340ms ease-out 560ms both; }
+        #opening .op-land { animation: op-squash 340ms ease-out 560ms both; }
       }
       @keyframes op-fall {
         0% { transform: translateY(-65vh); animation-timing-function: cubic-bezier(0.4, 0.1, 0.9, 0.6); }
@@ -67,13 +134,22 @@
     <!-- A chosen light or dark theme before the first paint (for what shows after the opening), and black bars with it. -->
     <script>
       try { const t = JSON.parse(localStorage.getItem('tamago-settings') || '{}').theme; if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t) } catch {}
-      document.documentElement.classList.add('is-opening')
+      try { document.documentElement.classList.add(localStorage.getItem('tamago-course') || location.pathname.startsWith('/admin') ? 'no-opening' : 'is-opening') } catch { document.documentElement.classList.add('is-opening') }
     </script>
     <link rel="icon" type="image/png" href="/icon-32.png" />
     <link rel="apple-touch-icon" href="/icon-180.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
   </head>
   <body>
+    <div id="shell" aria-hidden="true"><div class="sh-home">
+      <div class="sh-top"><img class="sh-brand" data-pic="sushi" width="384" height="256" alt="" /><svg class="sh-word" viewBox="-16 -6 482 156" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 10H60M30 10V100M111 72.5A27.5 27.5 0 1 0 56 72.5A27.5 27.5 0 1 0 111 72.5M111 45V100M138 45V100M138 67A17 22 0 0 1 172 67V100M172 67A17 22 0 0 1 206 67V100M288 72.5A27.5 27.5 0 1 0 233 72.5A27.5 27.5 0 1 0 288 72.5M288 45V100M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#ffc21a" stroke-width="15" /></svg><img class="sh-flag" alt="" /><svg class="sh-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-2.9-1.2l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0-1.2-2.9H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.2-2.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3h.1a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 2.9 1.2l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9v.1a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z" /></svg></div>
+      <div class="sh-path">
+        <div class="sh-pills"><i>Conversations</i><i>Glossary</i><i>Practice Mistakes</i><i>Progress</i></div>
+        <div class="sh-tree"><div class="sh-row"><div class="sh-node"><em class="sh-start" style="font-style:normal">Start Here</em><b><img alt="" /></b><i class="sh-fill"></i><span></span></div></div><div class="sh-row"><div class="sh-node"><b><img alt="" /></b><i class="sh-fill"></i><span></span></div></div><div class="sh-row"><div class="sh-node"><b><img alt="" /></b><i class="sh-fill"></i><span></span></div><div class="sh-node"><b><img alt="" /></b><i class="sh-fill"></i><span></span></div></div><div class="sh-pill"></div><div class="sh-row"><div class="sh-node"><b><img alt="" /></b><i class="sh-fill"></i><span></span></div><div class="sh-node"><b><img alt="" /></b><i class="sh-fill"></i><span></span></div></div><div class="sh-pill"></div><div class="sh-row"><div class="sh-node"><b><img alt="" /></b><i class="sh-fill"></i><span></span></div></div></div>
+        <div class="sh-foot"><i class="sh-fill">Next Lesson: Say Hi</i></div>
+      </div>
+      <div class="sh-panel"><i><b>Conversations</b><small>Talk with Claude, spoken or typed</small></i><i><b>Glossary</b><small>See which words are sticking</small></i><i><b>Practice Mistakes</b><small>Fills up after a lesson or two</small></i><i><b>Progress</b><small>Track your CEFR level in all four skills</small></i><i><b>Self-Study</b><small>Extra reps with tough areas</small></i><i><b>Verbs</b><small>Get every present-tense form right</small></i></div>
+    </div></div>
     <div id="opening" class="splash">
       <!-- Unseen text: Safari paints nothing of a page still arriving until it holds about 200 characters. Don't remove. -->
       <p class="op-text" aria-hidden="true">Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading.</p>
@@ -97,31 +173,109 @@
             %FLAGS%
           </ul>
         </div>
-        <div id="opening-ui"></div>
       </div>
+      <!-- The version's name, lower left (Dan, 2026-11-11): which deploy this device is running. -->
+      <div class="op-version"><p data-version>Version %VERSION%</p>%SITE%</div>
     </div>
     <script>
-      // Not on the console or straight after a language switch; at rest for the reload that follows a first pick.
+      // The opening is for someone who hasn't picked a language here (Dan, 2026-11-25). With one saved, straight to the tree.
+      // On a pick the halftone goes at once to that language's tree, its place already drawn in #shell, and only then does
+      // the app load (main.jsx waits for openingChoice), so the wipe is never interrupted and nothing reloads.
       (() => {
-        const el = document.getElementById('opening'), html = document.documentElement
-        let picked = null, switched = null, course = 'x'
-        try { picked = sessionStorage.getItem('tamago-picked'); switched = sessionStorage.getItem('tamago-switched'); course = localStorage.getItem('tamago-course'); sessionStorage.removeItem('tamago-picked') } catch {}
-        if (location.pathname.startsWith('/admin') || (switched && !picked)) { html.classList.remove('is-opening'); el.remove(); return }
-        if (picked) el.classList.add('op-rest')
-        else if (!course) el.classList.add('op-first')
-        window.openingAt = performance.now()
+        const el = document.getElementById('opening'), html = document.documentElement, shell = document.getElementById('shell')
+        let course = null
+        try { course = localStorage.getItem('tamago-course') } catch {}
+        const admin = location.pathname.startsWith('/admin')
+        if (admin || course) {
+          html.classList.remove('is-opening'); el.remove()
+          if (admin) shell.remove()
+          else if (/^[a-z]{2}$/.test(course)) shell.querySelector('.sh-flag').src = `/flags/${course}.webp`
+          return
+        }
+        const TREES = %TREES%
+        const nodes = [...shell.querySelectorAll('.sh-node')]
+        const show = (id) => {
+          shell.querySelector('.sh-flag').src = `/flags/${id}.webp`
+          nodes.forEach((n, i) => { const [title, pic] = TREES[id][i]; n.querySelector('span').textContent = title; n.querySelector('img').src = `/sushi/${pic}.webp` })
+        }
+        shell.classList.add('is-new')
+        el.classList.add('op-first')
         for (const m of document.querySelectorAll('meta[name=theme-color]')) { m.dataset.color = m.content; m.content = '#000000' }
-        // Taps count from the start. A flag before the app has read which course to open is simply remembered as that
-        // course; after, Splash.jsx takes it. Anywhere else asks to go on to the tree.
+        show('fr')
+        // Once the drop is over and the tree's pictures are in (or have had their time), the black thins and it shows through.
+        const t0 = performance.now()
+        let left = false
+        const pics = Promise.race([Promise.all(nodes.map((n) => n.querySelector('img').decode().catch(() => {}))), new Promise((r) => setTimeout(r, 3000))])
+        pics.then(() => setTimeout(() => { if (!left) el.classList.add('op-see') }, Math.max(0, 1400 - (performance.now() - t0))))
+        let done
+        window.openingChoice = new Promise((r) => { done = r })
+        const leave = () => {
+          if (left) return
+          left = true
+          quiet.abort()
+          removeEventListener('keydown', onKey)
+          const gone = () => { el.remove(); done() }
+          html.classList.remove('is-opening')
+          for (const m of document.querySelectorAll('meta[name=theme-color]')) m.content = m.dataset.color
+          if (matchMedia('(prefers-reduced-motion: reduce)').matches) { el.classList.add('op-leaving'); setTimeout(gone, 200); return }
+          // The halftone wipe (from the Cunk countdown): the black, drawn as overlapping dots that cover it, shrinks to
+          // nothing corner to corner, the top-left dots first. One path filled once a frame, so overlaps never darken.
+          const MS = 750, SWEEP = 0.7, dpr = Math.min(devicePixelRatio || 1, 2), s = 26 * dpr, R = s * 0.73
+          const c = document.createElement('canvas'), x2 = c.getContext('2d')
+          const W = (c.width = Math.ceil(innerWidth * dpr)), H = (c.height = Math.ceil(innerHeight * dpr))
+          x2.fillStyle = getComputedStyle(el).backgroundColor
+          el.prepend(c)
+          const start = performance.now()
+          let over = false
+          const end = () => { if (!over) { over = true; gone() } }
+          setTimeout(end, MS + 500)
+          const frame = (now) => {
+            if (over) return
+            const p = Math.min(1, Math.max(0, (now - start) / MS))
+            x2.clearRect(0, 0, W, H); x2.beginPath()
+            for (let y = 0; y <= H + s; y += s) for (let x = 0; x <= W + s; x += s) {
+              const k = Math.min(1, Math.max(0, p * (1 + SWEEP) - ((x + y) / (W + H)) * SWEEP)), r = R * (1 - k) * (1 - k * 0.15)
+              if (r > 0.01) { x2.moveTo(x + r, y); x2.arc(x, y, r, 0, 7) }
+            }
+            x2.fill()
+            if (p < 1) requestAnimationFrame(frame); else end()
+          }
+          frame(start)
+          el.classList.add('op-leaving')
+        }
+        // While they choose, once the app's own code is in: the courses' files one at a time at the lowest priority, so a
+        // pick is ready sooner. Stops at the pick; never on a data saver.
+        const quiet = new AbortController()
+        addEventListener('load', async () => {
+          if (navigator.connection?.saveData) return
+          for (const id of ['fr', 'es', 'de', 'it', 'pt', 'nl', 'pl', 'sv', 'da']) for (const f of window.courseFiles?.[id] ?? []) {
+            if (left) return
+            await fetch(f, { priority: 'low', signal: quiet.signal }).then((r) => r.arrayBuffer()).catch(() => {})
+          }
+        }, { once: true })
+        // Pressing a flag starts fetching its course (vite.config.js lists each course's files in courseFiles).
+        const fetchSoon = (e) => {
+          const id = e.target.closest?.('[data-course]')?.dataset.course
+          for (const href of (id && window.courseFiles?.[id]) || []) {
+            if (document.querySelector(`link[href="${href}"]`)) continue
+            const l = document.createElement('link'); l.rel = 'modulepreload'; l.crossOrigin = ''; l.href = href; document.head.append(l)
+          }
+        }
+        el.addEventListener('pointerover', fetchSoon); el.addEventListener('pointerdown', fetchSoon)
         el.addEventListener('click', (e) => {
+          if (left) return
           const b = e.target.closest('[data-course]')
-          if (!b) { if (window.openingTake) window.openingTake({ skip: true }); else window.openingSkip = true; return }
-          if (window.openingPick) return
-          b.setAttribute('aria-pressed', 'true')
-          window.openingPick = b.dataset.course
-          if (window.openingTake) window.openingTake({ picked: window.openingPick })
-          else try { localStorage.setItem('tamago-course', window.openingPick) } catch {}
+          if (b) {
+            fetchSoon(e)
+            b.setAttribute('aria-pressed', 'true')
+            window.openingPick = b.dataset.course
+            try { localStorage.setItem('tamago-course', b.dataset.course) } catch {}
+            show(b.dataset.course)
+          }
+          leave() // anywhere else: the French tree, unsaved, so the question comes again next launch
         })
+        const onKey = (e) => { if (e.key === 'Escape') leave() }
+        addEventListener('keydown', onKey)
       })()
     </script>
     %PICTURES%

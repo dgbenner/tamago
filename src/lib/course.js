@@ -42,7 +42,8 @@ for (const c of COURSES) c.stats = COURSE_STATS[c.id] ?? null
 const read = (store, key) => { try { return store.getItem(key) } catch { return null } }
 const write = (store, key, value) => { try { store.setItem(key, value) } catch { /* private mode: this launch only */ } }
 
-const saved = read(localStorage, KEY)
+// The opening's pick also waits on the page itself, for a browser that won't store it.
+const saved = read(localStorage, KEY) ?? (typeof window === 'undefined' ? null : window.openingPick ?? null)
 export const firstLaunch = !saved
 export const course = COURSES.find((c) => c.id === saved && c.ready) ?? COURSES[0]
 export const TL = course.lang // the course language, for lang attributes

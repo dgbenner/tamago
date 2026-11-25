@@ -33,6 +33,7 @@ try {
   await page.goto(url)
   await page.locator('.splash-choose button[aria-label="French"]').click() // by name: flags are alphabetical, Dutch first
   await page.locator('.splash').waitFor({ state: 'detached' })
+  await page.waitForFunction(() => window.__tamago) // the app loads after the pick (2026-11-25)
   // A speaking question: open rounds 4 and 5 of the first circle until one has Speak and Compare.
   const findSpeak = async () => {
     for (let tries = 0; tries < 12; tries++) {
