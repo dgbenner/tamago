@@ -2,12 +2,18 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { course } from './lib/course.js'
 import { useTables } from './lib/content.js'
+import { Opening } from './screens/Splash.jsx'
 import './index.css'
 
 // The console (accounts layer 1, 2026-11-11) is its own small app at /admin, loaded without any course.
 if (location.pathname.startsWith('/admin')) {
   import('./admin/AdminApp.jsx').then(({ default: AdminApp }) => createRoot(document.getElementById('root')).render(<StrictMode><AdminApp /></StrictMode>))
 } else startApp()
+
+// The opening screen's flags and version, over the drop that index.html already started; first, and on its own root, so
+// nothing here waits for the course (Dan, 2026-11-25).
+const opening = document.getElementById('opening-ui')
+if (opening) { const ui = createRoot(opening); ui.render(<Opening onDone={() => ui.unmount()} />) }
 
 // Load the chosen course's tables first (src/lib/course.js), then the app, which reads them as it starts.
 function startApp() {
@@ -23,16 +29,6 @@ tablesFor[course.id]().then(({ tables }) => {
   )
 })
 }
-
-// The tree's placeholder (index.html #shell) stays until a page of the app is on screen: the app draws nothing while it
-// reads saved progress. Removed two frames after, so the page under it has painted.
-const root = document.getElementById('root')
-const clearShell = () => {
-  if (!root.querySelector('main')) return false
-  requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById('shell')?.remove()))
-  return true
-}
-if (!clearShell()) { const seen = new MutationObserver(() => { if (clearShell()) seen.disconnect() }); seen.observe(root, { childList: true, subtree: true }) }
 
 // Safari only applies :active styles on a page that listens for touches.
 document.addEventListener('touchstart', () => {}, { passive: true })

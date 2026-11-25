@@ -11,7 +11,7 @@ import Home from './screens/Home.jsx'
 import Lesson, { preloadSpeakers } from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
-import Splash from './screens/Splash.jsx'
+import { tellOpening } from './lib/opening.js'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
 import RealExam from './screens/RealExam.jsx'
@@ -117,7 +117,6 @@ export default function App() {
   // The opening screen and version name on every launch (Dan, 2026-11-11), except straight after a language switch
   // (Dan, 2026-11-23): then the tree cascades in and a toast names the new language.
   const [switched] = useState(takeSwitched)
-  const [splash, setSplash] = useState(!switched)
   useEffect(() => { if (switched) toast('info', `Switched to ${course.name}`) }, []) // eslint-disable-line react-hooks/exhaustive-deps
   // First launch: the opening screen asks for a language, but only once the saved state shows nobody has used this
   // course here yet (a learner with progress is never asked, and never sees the flags flash and vanish).
@@ -1039,6 +1038,9 @@ export default function App() {
     setScreen(back)
   }
 
+  // The opening screen, over this (Splash.jsx): it may leave once a page is drawn.
+  useEffect(() => { if (ready) tellOpening({ ready: true, choose: chooser, line: returnLine() }) }, [ready, chooser]) // eslint-disable-line react-hooks/exhaustive-deps
+
   const view = () => {
   if (!ready) return null
 
@@ -1279,7 +1281,6 @@ export default function App() {
         <p className="text-xl font-semibold">Turn your iPad sideways</p>
         <p className="text-muted">Tamago on iPad works in landscape.</p>
       </div>
-      {splash && <Splash onDone={() => setSplash(false)} choose={chooser} line={returnLine()} />}
     </>
   )
 }

@@ -8,76 +8,92 @@
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#12100d" />
     <!-- The page color from the first moment (Dan, 2026-11-19), before the app's own styles and code arrive, so the
          wait is never the browser's black or white. -->
-    <!-- The tree's placeholder (Dan, 2026-11-25): the header, circles and button as plain shapes in their real places, from
-         the first paint until the app has drawn home (main.jsx removes it). Plain CSS with its own colors, since the
-         app's styles haven't arrived. Sizes follow Home.jsx, CircleNode.jsx and index.css (.home, .bar-top, .bar-bottom). -->
+    <!-- The opening (Dan, 2026-11-25): a black screen with the wordmark and the sushi dropping in, all in this page, so it
+         plays from the first paint with nothing else loaded; the language flags come next (screens/Splash.jsx) and the
+         tree loads behind it. Plain CSS, since the app's styles haven't arrived. Transform only, so it keeps moving while
+         the app's code runs. -->
     <style>
-      html { --sh-bg: #fffbf2; --sh-line: #e7dfcf; background: var(--sh-bg); }
-      @media (prefers-color-scheme: dark) { html:not([data-theme='light']) { --sh-bg: #12100d; --sh-line: #38322a; } }
-      html[data-theme='dark'] { --sh-bg: #12100d; --sh-line: #38322a; }
+      html { background: #fffbf2; }
+      @media (prefers-color-scheme: dark) { html:not([data-theme='light']) { background: #12100d; } }
+      html[data-theme='dark'] { background: #12100d; }
+      html.is-opening { background: #000; }
       @media (max-width: 767px), (min-width: 1024px) { html { font-size: 17px; } }
       body { margin: 0; }
-      #shell, #shell * { box-sizing: border-box; }
-      #shell { position: fixed; inset: 0; overflow: hidden; pointer-events: none; background: var(--sh-bg); }
-      .sh-text { position: absolute; margin: 0; font-size: 1px; color: transparent; }
-      .sh-home { position: relative; height: 100%; max-width: 28rem; margin: 0 auto; padding: 0 1rem; }
-      .sh-top { height: calc(3rem + max(0px, env(safe-area-inset-top) - 2px)); margin: 0 -1rem; padding-top: max(2px, env(safe-area-inset-top)); border-bottom: 2px solid var(--sh-line); display: flex; align-items: center; justify-content: center; gap: 3px; }
-      .sh-top img { display: none; width: 2.18rem; height: auto; }
-      .sh-top svg { display: block; width: 92px; }
-      .sh-fill { background: var(--sh-line); border-radius: 99px; }
-      .sh-pills { display: flex; gap: .5rem; margin: 1rem -1rem 0; overflow: hidden; }
-      .sh-pills i { flex: 0 0 8.6rem; height: 2.5rem; border: 2px solid var(--sh-line); border-radius: 99px; }
-      .sh-tree { padding-top: 2.9rem; display: flex; flex-direction: column; gap: 2.7rem; }
-      .sh-row { display: flex; justify-content: center; gap: min(4.9rem, 6vw); }
-      .sh-node { width: 8rem; height: 9.24rem; padding-top: 1.625rem; display: flex; flex-direction: column; align-items: center; }
-      .sh-node b { width: 6rem; height: 6rem; border-radius: 50%; border: .34rem solid var(--sh-line); background: #f6efe0; background-clip: content-box; padding: .16rem; }
-      .sh-node i { width: 4.5rem; height: .8rem; margin-top: .6rem; }
-      .sh-foot { position: absolute; left: 0; right: 0; bottom: 0; padding: .75rem 1rem max(1rem, env(safe-area-inset-bottom)); border-top: 2px solid var(--sh-line); background: var(--sh-bg); }
-      .sh-foot i { display: block; height: 3rem; border-radius: .75rem; }
-      .sh-panel { display: none; }
-      @media (min-width: 1024px) {
-        .sh-home { max-width: 72rem; padding: 0 2rem; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); column-gap: 3rem; }
-        .sh-top { grid-column: 1 / -1; margin: 0; padding-left: 2px; justify-content: flex-start; }
-        .sh-top img { display: block; position: relative; top: -2px; }
-        .sh-pills { display: none; }
-        .sh-path { position: relative; }
-        .sh-row { zoom: 1.11; }
-        .sh-foot { left: -1rem; right: -1rem; }
-        .sh-panel { display: grid; gap: .5rem; align-content: start; padding: 2rem .25rem 0; }
-        .sh-panel i { height: 5rem; border: 2px solid var(--sh-line); border-radius: .75rem; }
-      }
-      /* iPad held upright shows "Turn your iPad sideways" instead. */
-      @media (pointer: coarse) and (orientation: portrait) and (min-width: 744px) { .sh-home { display: none; } }
+      #opening { position: fixed; inset: 0; z-index: 50; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #000; }
+      #opening .op-text { position: absolute; margin: 0; font-size: 1px; color: transparent; }
+      #opening .splash-stack { position: relative; width: min(84vw, 430px); display: flex; flex-direction: column; align-items: center; }
+      #opening .op-fall { width: 100%; display: flex; flex-direction: column; align-items: center; will-change: transform; }
+      #opening .op-land { width: 100%; transform-origin: 50% 100%; display: flex; flex-direction: column; align-items: center; }
+      #opening .splash-wordmark { display: block; flex: none; width: 100%; max-width: none; height: auto; }
+      @media (min-width: 768px) { #opening .splash-wordmark { width: 114%; } }
+      #opening .splash-sushi { position: relative; width: 37%; margin-top: -14.5%; }
+      #opening .splash-sushi img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; }
+      /* Room for the flags on a first launch, so the logo lands where it stays. */
+      #opening-ui { width: 100%; }
+      #opening.op-first #opening-ui { min-height: 29.35rem; }
+      @media (max-height: 760px) { #opening.op-first #opening-ui { min-height: 23.3rem; } }
+      @media (min-width: 640px) and (max-width: 1023px) and (min-height: 761px) { #opening.op-first #opening-ui { min-height: 30.1rem; } }
+      @media (min-width: 1024px) { #opening.op-first #opening-ui { min-height: 24.65rem; } }
+      @media (min-width: 1024px) and (max-height: 760px) { #opening.op-first #opening-ui { min-height: 17.6rem; } }
       @media (prefers-reduced-motion: no-preference) {
-        .sh-tree, .sh-panel { animation: sh-pulse 1.6s ease-in-out infinite; }
-        @keyframes sh-pulse { 50% { opacity: .55; } }
+        #opening:not(.op-rest) .op-fall { animation: op-fall 900ms linear both; }
+        #opening:not(.op-rest) .op-land { animation: op-squash 340ms ease-out 560ms both; }
       }
+      @keyframes op-fall {
+        0% { transform: translateY(-65vh); animation-timing-function: cubic-bezier(0.4, 0.1, 0.9, 0.6); }
+        64% { transform: none; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
+        80% { transform: translateY(-12px); animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
+        100% { transform: none; }
+      }
+      @keyframes op-squash { 0%, 100% { transform: none; } 30% { transform: scale(1.06, 0.86); } 65% { transform: scale(0.98, 1.04); } }
     </style>
-    <!-- A chosen light or dark theme, before the first paint. -->
-    <script>try { const t = JSON.parse(localStorage.getItem('tamago-settings') || '{}').theme; if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t) } catch {}</script>
+    <!-- A chosen light or dark theme before the first paint (for what shows after the opening), and black bars with it. -->
+    <script>
+      try { const t = JSON.parse(localStorage.getItem('tamago-settings') || '{}').theme; if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t) } catch {}
+      document.documentElement.classList.add('is-opening')
+    </script>
     <link rel="icon" type="image/png" href="/icon-32.png" />
     <link rel="apple-touch-icon" href="/icon-180.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="preload" as="image" href="/logo.webp" type="image/webp" />
-    <!-- The language flags, fetched from the start so they're there the moment the first-launch question shows. -->
-    <link rel="preload" as="image" href="/flags/fr.webp" />
-    <link rel="preload" as="image" href="/flags/es.webp" />
-    <link rel="preload" as="image" href="/flags/de.webp" />
   </head>
   <body>
-    <div id="shell" aria-hidden="true">
+    <div id="opening" class="splash">
       <!-- Unseen text: Safari paints nothing of a page still arriving until it holds about 200 characters. Don't remove. -->
-      <p class="sh-text">Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading.</p>
-      <div class="sh-home">
-      <div class="sh-top"><img src="/logo.webp" width="384" height="256" alt="" /><svg viewBox="-16 -6 482 156" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 10H60M30 10V100M111 72.5A27.5 27.5 0 1 0 56 72.5A27.5 27.5 0 1 0 111 72.5M111 45V100M138 45V100M138 67A17 22 0 0 1 172 67V100M172 67A17 22 0 0 1 206 67V100M288 72.5A27.5 27.5 0 1 0 233 72.5A27.5 27.5 0 1 0 288 72.5M288 45V100M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#ffc21a" stroke-width="15" /></svg></div>
-      <div class="sh-path">
-        <div class="sh-pills"><i></i><i></i><i></i><i></i></div>
-        <div class="sh-tree"><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span></div></div>
-        <div class="sh-foot"><i class="sh-fill"></i></div>
+      <p class="op-text" aria-hidden="true">Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading.</p>
+      <div class="splash-stack">
+        <div class="op-fall"><div class="op-land">
+          <!-- The letters, spacing and view of components/Logo.jsx (splashViewBox), in its dark colors on black. -->
+          <svg class="splash-wordmark" viewBox="-16 -6 463.5 156" role="img" aria-label="Tamago" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <g><path d="M0 10H60M30 10V100" stroke="#22b573" stroke-width="25" /><path d="M0 10H60M30 10V100" stroke="#000" stroke-width="15" /><path d="M0 10H60M30 10V100" stroke="#ff7a2e" stroke-width="5" /></g>
+            <g transform="translate(-2 0)"><path d="M111 72.5A27.5 27.5 0 1 0 56 72.5A27.5 27.5 0 1 0 111 72.5M111 45V100" stroke="#22b573" stroke-width="25" /><path d="M111 72.5A27.5 27.5 0 1 0 56 72.5A27.5 27.5 0 1 0 111 72.5M111 45V100" stroke="#000" stroke-width="15" /><path d="M111 72.5A27.5 27.5 0 1 0 56 72.5A27.5 27.5 0 1 0 111 72.5M111 45V100" stroke="#ff7a2e" stroke-width="5" /></g>
+            <g transform="translate(-8.5 0)"><path d="M138 45V100M138 67A17 22 0 0 1 172 67V100M172 67A17 22 0 0 1 206 67V100" stroke="#22b573" stroke-width="25" /><path d="M138 45V100M138 67A17 22 0 0 1 172 67V100M172 67A17 22 0 0 1 206 67V100" stroke="#000" stroke-width="15" /><path d="M138 45V100M138 67A17 22 0 0 1 172 67V100M172 67A17 22 0 0 1 206 67V100" stroke="#ff7a2e" stroke-width="5" /></g>
+            <g transform="translate(-12.5 0)"><path d="M288 72.5A27.5 27.5 0 1 0 233 72.5A27.5 27.5 0 1 0 288 72.5M288 45V100" stroke="#22b573" stroke-width="25" /><path d="M288 72.5A27.5 27.5 0 1 0 233 72.5A27.5 27.5 0 1 0 288 72.5M288 45V100" stroke="#000" stroke-width="15" /><path d="M288 72.5A27.5 27.5 0 1 0 233 72.5A27.5 27.5 0 1 0 288 72.5M288 45V100" stroke="#ff7a2e" stroke-width="5" /></g>
+            <g transform="translate(-15.5 0)"><path d="M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121" stroke="#22b573" stroke-width="25" /><path d="M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121" stroke="#000" stroke-width="15" /><path d="M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121" stroke="#ff7a2e" stroke-width="5" /></g>
+            <g transform="translate(-18.5 0)"><path d="M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#22b573" stroke-width="25" /><path d="M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#000" stroke-width="15" /><path d="M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#ff7a2e" stroke-width="5" /></g>
+          </svg>
+          <!-- The build puts the picture itself here (vite.config.js inlineLogo). -->
+          <div class="splash-sushi"><img src="/logo.webp" width="384" height="256" alt="" decoding="sync" /></div>
+        </div></div>
+        <div id="opening-ui"></div>
       </div>
-      <div class="sh-panel"><i></i><i></i><i></i><i></i><i></i></div>
-    </div></div>
-    <script>if (location.pathname.startsWith('/admin')) document.getElementById('shell').remove()</script>
+    </div>
+    <script>
+      // Not on the console or straight after a language switch; at rest for the reload that follows a first pick.
+      (() => {
+        const el = document.getElementById('opening'), html = document.documentElement
+        let picked = null, switched = null, course = 'x'
+        try { picked = sessionStorage.getItem('tamago-picked'); switched = sessionStorage.getItem('tamago-switched'); course = localStorage.getItem('tamago-course'); sessionStorage.removeItem('tamago-picked') } catch {}
+        if (location.pathname.startsWith('/admin') || (switched && !picked)) { html.classList.remove('is-opening'); el.remove(); return }
+        if (picked) el.classList.add('op-rest')
+        else if (!course) {
+          el.classList.add('op-first')
+          // The flags, fetched from the start so they're there when the question shows.
+          for (const id of ['da', 'nl', 'fr', 'de', 'it', 'pl', 'pt', 'es', 'sv']) new Image().src = `/flags/${id}.webp`
+        }
+        window.openingAt = performance.now()
+        for (const m of document.querySelectorAll('meta[name=theme-color]')) { m.dataset.color = m.content; m.content = '#000000' }
+      })()
+    </script>
     <!--shell-end-->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

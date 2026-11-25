@@ -5,7 +5,7 @@
 const CACHE = 'tamago-__VERSION__'
 const FILES = __FILES__
 const COURSE_FILES = __COURSE_FILES__
-const SHELL_END = '<!--shell-end-->' // index.html: everything above it is the tree's placeholder
+const SHELL_END = '<!--shell-end-->' // index.html: everything above it is the opening screen
 const NAV_WAIT_MS = 1500 // how long a launch waits for the page from the network before opening the saved copy
 
 self.addEventListener('install', (event) => {
@@ -64,7 +64,7 @@ self.addEventListener('fetch', (event) => {
       const saved = await caches.match('/')
       if (!saved) return fresh.catch(() => Response.error())
       const late = (value) => new Promise((resolve) => setTimeout(() => resolve(value), NAV_WAIT_MS))
-      // The app's own page (Dan, 2026-11-25): the saved copy's first part, the tree's placeholder, goes out at once; the
+      // The app's own page (Dan, 2026-11-25): the saved copy's first part, the opening screen, goes out at once; the
       // rest, which names the version's files, follows from the network or the saved copy as above.
       const copy = url.pathname === '/' ? await saved.clone().text() : ''
       const cut = copy.indexOf(SHELL_END)

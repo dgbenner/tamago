@@ -295,24 +295,19 @@ button.chip-drag {
   /* Opening screen (Dan, 2026-11-13): a gauze curtain over the home screen, which is already drawn underneath: the page
      color at --gauze opacity, with a fine woven-dot texture. Leaving, the logo and version fade in 180 ms while the
      curtain itself is handed to the halftone canvas (Splash.jsx halftoneOut), and taps already reach the home screen. */
+  /* The opening (index.html #opening, Splash.jsx): black in both themes, so the dark colors, whatever the theme. */
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center;
-  }
-  /* Under the logo, the tint: the page color with a faint ink tint at --gauze, so the home screen shows through, with a
-     fine woven-dot texture (and the halftone dots read against the home screen as they shrink). It comes on as halftone
-     dots over the tree, whose placeholder (index.html #shell) was already there (Dan, 2026-11-25: the plain base layer
-     that hid the tree while it was built is gone; it was a blank screen). */
-  .splash-tint { position: absolute; inset: 0; pointer-events: none; }
-  .splash-tint {
-    background-color: color-mix(in srgb, color-mix(in srgb, var(--bg) 90%, var(--ink)) calc(var(--gauze, 0.84) * 100%), transparent);
-    background-image: radial-gradient(circle at center, color-mix(in srgb, var(--ink) 9%, transparent) 0 0.8px, transparent 1.3px);
-    background-size: 5px 5px;
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    /* the halftone dots bring the tint on (Splash.jsx halftoneIn); its layer shows once they cover the screen */
-    .splash:not(.splash-covered) > .splash-tint { opacity: 0; }
-    /* leaving, the halftone canvas takes the tint over at once, so the two never stack */
-    .splash.splash-leaving > .splash-tint { transition: none; }
+    color-scheme: dark;
+    --bg: #000;
+    --ink: #f6f1e6;
+    --muted: #a89f8f;
+    --orange: #ff7a2e;
+    --logo-green: #22b573;
+    --logo-orange: #ff7a2e;
+    --focus: #8ab4ff;
+    background: #000;
+    color: var(--ink);
   }
   .splash-dots {
     position: absolute;
@@ -321,52 +316,19 @@ button.chip-drag {
     height: 100%;
     pointer-events: none;
   }
-  .splash.splash-leaving {
+  #opening.splash-leaving {
     pointer-events: none;
+    background: transparent;
   }
-  .splash.splash-leaving > :not(.splash-dots) {
-    animation: none;
+  #opening.splash-leaving > :not(.splash-dots) {
     opacity: 0;
     transition: opacity 180ms ease-out;
   }
-  /* The returning learner's line (2026-11-15): fades in after the wordmark has drawn. */
-  .splash-line {
-    animation: splash-line-in 400ms ease-out 900ms both;
-  }
-  /* A dash longer than the stroke, offset past its end: nothing shows, not even a round cap, until it moves. */
-  .splash-draw {
-    stroke-dasharray: 1 2;
-    stroke-dashoffset: 1.01;
-    animation: splash-draw 300ms linear both;
-  }
-  /* The drop (Dan, 2026-11-19, after the dashboard's sushi hop, only its coming-down half): the wordmark falls from
-     above the screen soon after the curtain appears and lands with a little squash from its bottom edge, its shadow
-     growing as it nears and spreading as it lands; the sushi starts falling as the wordmark lands and does the same.
-     Off under reduced motion (everything rests in place, shadows included). */
-  .splash-shadow {
-    position: absolute;
-    left: 50%;
-    width: 70%;
-    translate: -50% 0;
-    border-radius: 9999px;
-    background: radial-gradient(closest-side, rgb(0 0 0 / 0.24), transparent); /* black in both themes (Dan, 2026-11-19) */
-    filter: blur(2px);
-    pointer-events: none;
-  }
-  .splash-shadow-wm { bottom: -0.25rem; height: 0.7rem; }
-  .splash-shadow-sushi { bottom: 4%; height: 0.6rem; width: 66%; }
-  .splash-land { transform-origin: 50% 100%; }
+  .splash-line { animation: splash-line-in 300ms ease-out both; }
   @media (prefers-reduced-motion: no-preference) {
-    .splash-fall-wm { animation: splash-fall-wm 2170ms linear -300ms both; }
-    .splash-fall-wm > .splash-land { animation: splash-squash 400ms ease-out 1570ms both; }
-    .splash-fall-wm > .splash-shadow { animation: splash-shadow-near 1870ms cubic-bezier(0.55, 0, 1, 0.45) -300ms both, splash-shadow-spread 400ms ease-out 1570ms, splash-shadow-ground-wm 2170ms linear -300ms both; }
-    .splash-fall-sushi { animation: splash-fall-sushi 1530ms linear 700ms both; }
-    .splash-fall-sushi > .splash-land { animation: splash-squash 380ms ease-out 1970ms both; }
-    .splash-fall-sushi > .splash-shadow { animation: splash-shadow-near 1270ms cubic-bezier(0.55, 0, 1, 0.45) 700ms both, splash-shadow-spread 380ms ease-out 1970ms, splash-shadow-ground-sushi 1530ms linear 700ms both; }
-    /* First launch (Dan, 2026-11-19): once the sushi is down, the flags fade up quickly in a gentle ripple, and
-       "Choose Your Language" follows just behind them. */
-    .splash-choose li { animation: splash-rise 360ms ease-out both; animation-delay: calc(1970ms - var(--since, 0ms) + var(--i, 0) * 35ms); }
-    .splash-choose h1 { animation: splash-rise 420ms ease-out calc(2270ms - var(--since, 0ms)) both; }
+    /* First launch: as the logo lands, the flags come up in a quick ripple, the question just ahead of them. */
+    .splash-choose h1 { animation: splash-rise 300ms ease-out var(--wait, 0ms) both; }
+    .splash-choose li { animation: splash-rise 300ms ease-out both; animation-delay: calc(var(--wait, 0ms) + 60ms + var(--i, 0) * 30ms); }
   }
   /* Toasts (Dan, 2026-11-11): at the top of the screen, sliding down, held about 3 seconds, then sliding back up.
      One container, one plain color per kind: info, success, warning, error. */
@@ -461,15 +423,8 @@ button.chip-drag {
     .toast {
       animation: toast-fade 260ms linear 3200ms forwards;
     }
-    .splash-draw {
-      animation: none;
-      stroke-dashoffset: 0;
-    }
     .splash-line {
       animation: none;
-    }
-    .splash {
-      transition: background-color 300ms linear;
     }
     .pair-out {
       animation: none;
@@ -609,47 +564,6 @@ button.chip-drag {
 /* Falling with weight (Dan, 2026-11-19): gravity on the way down (an ease-in), the landing at the same moment as
    before, then a small rebound, up a few pixels and down again, while the squash plays. Wordmark: lands at 1870 of
    2170 ms; sushi: at 1270 of 1530 ms. */
-@keyframes splash-fall-wm {
-  0% { transform: translateY(-110vh); animation-timing-function: cubic-bezier(0.5, 0, 0.88, 0.5); }
-  86.2% { transform: none; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
-  93% { transform: translateY(-12px); animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
-  100% { transform: none; }
-}
-/* the shadow stays on the ground while its object rebounds (it sits inside the falling wrapper) */
-@keyframes splash-shadow-ground-wm {
-  0%, 86.2% { translate: -50% 0; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
-  93% { translate: -50% 12px; animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
-  100% { translate: -50% 0; }
-}
-@keyframes splash-shadow-ground-sushi {
-  0%, 83% { translate: -50% 0; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
-  91.5% { translate: -50% 10px; animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
-  100% { translate: -50% 0; }
-}
-@keyframes splash-fall-sushi {
-  0% { transform: translateY(-110vh); animation-timing-function: cubic-bezier(0.5, 0, 0.88, 0.5); }
-  83% { transform: none; animation-timing-function: cubic-bezier(0.2, 0.6, 0.35, 1); }
-  91.5% { transform: translateY(-10px); animation-timing-function: cubic-bezier(0.55, 0, 0.75, 0.4); }
-  100% { transform: none; }
-}
-@keyframes splash-squash {
-  0% { transform: none; }
-  30% { transform: scale(1.06, 0.86); }
-  65% { transform: scale(0.98, 1.04); }
-  100% { transform: none; }
-}
-@keyframes splash-shadow-near {
-  from { transform: scale(0.2); opacity: 0; }
-  to { transform: none; opacity: 1; }
-}
-@keyframes splash-shadow-spread {
-  0% { transform: none; }
-  30% { transform: scale(1.14, 1); }
-  100% { transform: none; }
-}
-@keyframes splash-draw {
-  to { stroke-dashoffset: 0; }
-}
 @keyframes pair-out {
   to { opacity: 0; transform: scale(0.85); visibility: hidden; }
 }

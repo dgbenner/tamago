@@ -45,7 +45,7 @@ function serviceWorker() {
       if (app && html?.type === 'asset') {
         const page = String(html.source)
         const links = [...reach(app.fileName)].filter((f) => !page.includes(`/${f}"`)).map((f) => `<link rel="modulepreload" crossorigin href="/${f}">`)
-        // The app's own scripts and styles go after the tree's placeholder (index.html #shell, 2026-11-25), so it paints
+        // The app's own scripts and styles go after the opening (index.html #opening, 2026-11-25), so it paints
         // before the app's styles have loaded and the part above the mark names no built file (sw-template.js).
         const assets = [...page.matchAll(/^ *<(?:script type="module"|link rel="(?:modulepreload|stylesheet)")[^>]*\/assets\/[^>]*>(?:<\/script>)?\n/gm)].map((m) => m[0])
         const rest = assets.reduce((p, a) => p.replace(a, ''), page)
@@ -116,6 +116,11 @@ function soundLab() {
   }
 }
 
+// The opening's sushi picture inside the page itself, so it needs no request of its own (2026-11-25).
+function inlineLogo() {
+  return { name: 'tamago-inline-logo', transformIndexHtml: (html) => html.replace('<img src="/logo.webp"', `<img src="data:image/webp;base64,${readFileSync('public/logo.webp').toString('base64')}"`) }
+}
+
 // StatCounter (Dan, 2026-11-14; project "Tamago Dev", 13366867): added only to Cloudflare's builds (CF_PAGES is set
 // there), so local runs, test builds and the smoke test's own builds count nothing. Invisible counter, no cookies
 // banner needed by the app itself.
@@ -153,7 +158,7 @@ const courseStats = () => Object.fromEntries(Object.entries(COURSE_DIRS).map(([i
 const COURSE_STATS = courseStats()
 export default defineConfig({
   build: { rollupOptions: { input: LAB_PAGES } },
-  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), soundLab(), statCounter()],
+  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), soundLab(), inlineLogo(), statCounter()],
   // Which site this build is for (Cloudflare Pages sets CF_PAGES_BRANCH): main is the stable site, dev the working one.
   define: { __BUILD_TIME__: JSON.stringify(new Date().toISOString()), __WORKBOOKS__: JSON.stringify(WORKBOOKS), __COURSE_STATS__: JSON.stringify(COURSE_STATS), __DEPLOY_BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH ?? '') },
 })
