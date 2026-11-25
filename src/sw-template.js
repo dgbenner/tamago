@@ -5,6 +5,7 @@
 const CACHE = 'tamago-__VERSION__'
 const FILES = __FILES__
 const COURSE_FILES = __COURSE_FILES__
+const SHELL_END = '<!--shell-end-->' // index.html: everything above it is the tree's placeholder
 const NAV_WAIT_MS = 1500 // how long a launch waits for the page from the network before opening the saved copy
 
 self.addEventListener('install', (event) => {
@@ -62,8 +63,23 @@ self.addEventListener('fetch', (event) => {
       const fresh = fetch(request, { cache: 'no-cache' })
       const saved = await caches.match('/')
       if (!saved) return fresh.catch(() => Response.error())
-      const late = new Promise((resolve) => setTimeout(() => resolve(saved), NAV_WAIT_MS))
-      return Promise.race([fresh.catch(() => saved), late])
+      const late = (value) => new Promise((resolve) => setTimeout(() => resolve(value), NAV_WAIT_MS))
+      // The app's own page (Dan, 2026-11-25): the saved copy's first part, the tree's placeholder, goes out at once; the
+      // rest, which names the version's files, follows from the network or the saved copy as above.
+      const copy = url.pathname === '/' ? await saved.clone().text() : ''
+      const cut = copy.indexOf(SHELL_END)
+      if (cut < 0) return Promise.race([fresh.catch(() => saved), late(saved)])
+      const after = (html) => { const i = html.indexOf(SHELL_END); return i < 0 ? null : html.slice(i) }
+      const newest = fresh.then(async (r) => (r.ok ? after(await r.text()) : null)).catch(() => null)
+      const bytes = new TextEncoder()
+      const body = new ReadableStream({
+        // not awaited by start: the first part is read at once
+        start(out) {
+          out.enqueue(bytes.encode(copy.slice(0, cut)))
+          Promise.race([newest, late(null)]).then((rest) => { out.enqueue(bytes.encode(rest ?? after(copy))); out.close() })
+        },
+      })
+      return new Response(body, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-cache' } })
     })())
     return
   }

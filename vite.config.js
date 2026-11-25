@@ -45,7 +45,11 @@ function serviceWorker() {
       if (app && html?.type === 'asset') {
         const page = String(html.source)
         const links = [...reach(app.fileName)].filter((f) => !page.includes(`/${f}"`)).map((f) => `<link rel="modulepreload" crossorigin href="/${f}">`)
-        html.source = page.replace('</head>', `  ${links.join('\n    ')}\n  </head>`)
+        // The app's own scripts and styles go after the tree's placeholder (index.html #shell, 2026-11-25), so it paints
+        // before the app's styles have loaded and the part above the mark names no built file (sw-template.js).
+        const assets = [...page.matchAll(/^ *<(?:script type="module"|link rel="(?:modulepreload|stylesheet)")[^>]*\/assets\/[^>]*>(?:<\/script>)?\n/gm)].map((m) => m[0])
+        const rest = assets.reduce((p, a) => p.replace(a, ''), page)
+        html.source = rest.replace('<!--shell-end-->\n', `<!--shell-end-->\n${assets.join('')}    ${links.join('\n    ')}\n`)
       }
     },
     closeBundle() {

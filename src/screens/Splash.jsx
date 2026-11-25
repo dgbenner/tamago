@@ -59,12 +59,12 @@ export default function Splash({ onDone, choose = false, line = null }) {
     window.addEventListener('keydown', onKey)
     return () => { clearTimeout(auto); window.removeEventListener('keydown', onKey) }
   }, [held])
-  // The curtain comes on as halftone dots; the tint layer shows (and the base starts to thin) once they cover it.
+  // The curtain comes on as halftone dots; the tint layer shows once they cover it.
   const [covered, setCovered] = useState(false)
   useLayoutEffect(() => {
     if (matchMedia('(prefers-reduced-motion: reduce)').matches || !canvas.current) { setCovered(true); return }
     // The home screen is built underneath in the first moments and holds the page up for a few hundred ms; the dots
-    // wait until it is free (the plain page color holds until then), or they would jump from nothing to full cover.
+    // wait until it is free (the tree or its placeholder shows until then), or they would jump from nothing to full cover.
     const start = () => { if (!left.current && canvas.current) halftoneIn(canvas.current, () => { if (!left.current) setCovered(true) }) }
     // Free = three frames in a row under 40 ms apart; never later than SETTLE_MAX_MS.
     let last = performance.now(), smooth = 0, raf = 0, gone = false
@@ -104,7 +104,6 @@ export default function Splash({ onDone, choose = false, line = null }) {
   const pick = (id) => { if (chooseCourse(id)) setPicked(true) }
   return (
     <div className={`splash ${covered ? 'splash-covered' : ''} ${leaving ? 'splash-leaving' : ''}`} onClick={skip} style={{ '--gauze': GAUZE }}>
-      <div className="splash-base" aria-hidden="true" />
       <div className="splash-tint" aria-hidden="true" />
       <canvas ref={canvas} className="splash-dots" aria-hidden="true" />
       <div className="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">

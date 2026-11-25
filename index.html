@@ -8,7 +8,53 @@
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#12100d" />
     <!-- The page color from the first moment (Dan, 2026-11-19), before the app's own styles and code arrive, so the
          wait is never the browser's black or white. -->
-    <style>html { background: #fffbf2; } @media (prefers-color-scheme: dark) { html { background: #12100d; } }</style>
+    <!-- The tree's placeholder (Dan, 2026-11-25): the header, circles and button as plain shapes in their real places, from
+         the first paint until the app has drawn home (main.jsx removes it). Plain CSS with its own colors, since the
+         app's styles haven't arrived. Sizes follow Home.jsx, CircleNode.jsx and index.css (.home, .bar-top, .bar-bottom). -->
+    <style>
+      html { --sh-bg: #fffbf2; --sh-line: #e7dfcf; background: var(--sh-bg); }
+      @media (prefers-color-scheme: dark) { html:not([data-theme='light']) { --sh-bg: #12100d; --sh-line: #38322a; } }
+      html[data-theme='dark'] { --sh-bg: #12100d; --sh-line: #38322a; }
+      @media (max-width: 767px), (min-width: 1024px) { html { font-size: 17px; } }
+      body { margin: 0; }
+      #shell, #shell * { box-sizing: border-box; }
+      #shell { position: fixed; inset: 0; overflow: hidden; pointer-events: none; background: var(--sh-bg); }
+      .sh-text { position: absolute; margin: 0; font-size: 1px; color: transparent; }
+      .sh-home { position: relative; height: 100%; max-width: 28rem; margin: 0 auto; padding: 0 1rem; }
+      .sh-top { height: calc(3rem + max(0px, env(safe-area-inset-top) - 2px)); margin: 0 -1rem; padding-top: max(2px, env(safe-area-inset-top)); border-bottom: 2px solid var(--sh-line); display: flex; align-items: center; justify-content: center; gap: 3px; }
+      .sh-top img { display: none; width: 2.18rem; height: auto; }
+      .sh-top svg { display: block; width: 92px; }
+      .sh-fill { background: var(--sh-line); border-radius: 99px; }
+      .sh-pills { display: flex; gap: .5rem; margin: 1rem -1rem 0; overflow: hidden; }
+      .sh-pills i { flex: 0 0 8.6rem; height: 2.5rem; border: 2px solid var(--sh-line); border-radius: 99px; }
+      .sh-tree { padding-top: 2.9rem; display: flex; flex-direction: column; gap: 2.7rem; }
+      .sh-row { display: flex; justify-content: center; gap: min(4.9rem, 6vw); }
+      .sh-node { width: 8rem; height: 9.24rem; padding-top: 1.625rem; display: flex; flex-direction: column; align-items: center; }
+      .sh-node b { width: 6rem; height: 6rem; border-radius: 50%; border: .34rem solid var(--sh-line); background: #f6efe0; background-clip: content-box; padding: .16rem; }
+      .sh-node i { width: 4.5rem; height: .8rem; margin-top: .6rem; }
+      .sh-foot { position: absolute; left: 0; right: 0; bottom: 0; padding: .75rem 1rem max(1rem, env(safe-area-inset-bottom)); border-top: 2px solid var(--sh-line); background: var(--sh-bg); }
+      .sh-foot i { display: block; height: 3rem; border-radius: .75rem; }
+      .sh-panel { display: none; }
+      @media (min-width: 1024px) {
+        .sh-home { max-width: 72rem; padding: 0 2rem; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); column-gap: 3rem; }
+        .sh-top { grid-column: 1 / -1; margin: 0; padding-left: 2px; justify-content: flex-start; }
+        .sh-top img { display: block; position: relative; top: -2px; }
+        .sh-pills { display: none; }
+        .sh-path { position: relative; }
+        .sh-row { zoom: 1.11; }
+        .sh-foot { left: -1rem; right: -1rem; }
+        .sh-panel { display: grid; gap: .5rem; align-content: start; padding: 2rem .25rem 0; }
+        .sh-panel i { height: 5rem; border: 2px solid var(--sh-line); border-radius: .75rem; }
+      }
+      /* iPad held upright shows "Turn your iPad sideways" instead. */
+      @media (pointer: coarse) and (orientation: portrait) and (min-width: 744px) { .sh-home { display: none; } }
+      @media (prefers-reduced-motion: no-preference) {
+        .sh-tree, .sh-panel { animation: sh-pulse 1.6s ease-in-out infinite; }
+        @keyframes sh-pulse { 50% { opacity: .55; } }
+      }
+    </style>
+    <!-- A chosen light or dark theme, before the first paint. -->
+    <script>try { const t = JSON.parse(localStorage.getItem('tamago-settings') || '{}').theme; if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t) } catch {}</script>
     <link rel="icon" type="image/png" href="/icon-32.png" />
     <link rel="apple-touch-icon" href="/icon-180.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -19,6 +65,20 @@
     <link rel="preload" as="image" href="/flags/de.webp" />
   </head>
   <body>
+    <div id="shell" aria-hidden="true">
+      <!-- Unseen text: Safari paints nothing of a page still arriving until it holds about 200 characters. Don't remove. -->
+      <p class="sh-text">Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading. Tamago is loading.</p>
+      <div class="sh-home">
+      <div class="sh-top"><img src="/logo.webp" width="384" height="256" alt="" /><svg viewBox="-16 -6 482 156" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 10H60M30 10V100M111 72.5A27.5 27.5 0 1 0 56 72.5A27.5 27.5 0 1 0 111 72.5M111 45V100M138 45V100M138 67A17 22 0 0 1 172 67V100M172 67A17 22 0 0 1 206 67V100M288 72.5A27.5 27.5 0 1 0 233 72.5A27.5 27.5 0 1 0 288 72.5M288 45V100M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45" stroke="#ffc21a" stroke-width="15" /></svg></div>
+      <div class="sh-path">
+        <div class="sh-pills"><i></i><i></i><i></i><i></i></div>
+        <div class="sh-tree"><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span><span class="sh-node"><b></b><i class="sh-fill"></i></span></div><div class="sh-row"><span class="sh-node"><b></b><i class="sh-fill"></i></span></div></div>
+        <div class="sh-foot"><i class="sh-fill"></i></div>
+      </div>
+      <div class="sh-panel"><i></i><i></i><i></i><i></i><i></i></div>
+    </div></div>
+    <script>if (location.pathname.startsWith('/admin')) document.getElementById('shell').remove()</script>
+    <!--shell-end-->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

@@ -24,6 +24,16 @@ tablesFor[course.id]().then(({ tables }) => {
 })
 }
 
+// The tree's placeholder (index.html #shell) stays until a page of the app is on screen: the app draws nothing while it
+// reads saved progress. Removed two frames after, so the page under it has painted.
+const root = document.getElementById('root')
+const clearShell = () => {
+  if (!root.querySelector('main')) return false
+  requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById('shell')?.remove()))
+  return true
+}
+if (!clearShell()) { const seen = new MutationObserver(() => { if (clearShell()) seen.disconnect() }); seen.observe(root, { childList: true, subtree: true }) }
+
 // Safari only applies :active styles on a page that listens for touches.
 document.addEventListener('touchstart', () => {}, { passive: true })
 // Lets audio play with the iPhone's ring switch on silent, where Safari supports it.

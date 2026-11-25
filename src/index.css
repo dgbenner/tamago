@@ -298,13 +298,11 @@ button.chip-drag {
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center;
   }
-  /* Two layers under the logo. The tint: the page color with a faint ink tint at --gauze, so the home screen shows
-     through, with a fine woven-dot texture (and the halftone dots read against the home screen as they shrink).
-     Coming on (Dan, 2026-11-19): the tint fades in quickly over the base, plain page color that hides the home
-     screen; then the base fades and the tree shows through. Both are opacity only, so they keep moving while the
-     home screen is still being built underneath. */
-  .splash-tint, .splash-base { position: absolute; inset: 0; pointer-events: none; }
-  .splash-base { background-color: var(--bg); opacity: 0; }
+  /* Under the logo, the tint: the page color with a faint ink tint at --gauze, so the home screen shows through, with a
+     fine woven-dot texture (and the halftone dots read against the home screen as they shrink). It comes on as halftone
+     dots over the tree, whose placeholder (index.html #shell) was already there (Dan, 2026-11-25: the plain base layer
+     that hid the tree while it was built is gone; it was a blank screen). */
+  .splash-tint { position: absolute; inset: 0; pointer-events: none; }
   .splash-tint {
     background-color: color-mix(in srgb, color-mix(in srgb, var(--bg) 90%, var(--ink)) calc(var(--gauze, 0.84) * 100%), transparent);
     background-image: radial-gradient(circle at center, color-mix(in srgb, var(--ink) 9%, transparent) 0 0.8px, transparent 1.3px);
@@ -313,14 +311,8 @@ button.chip-drag {
   @media (prefers-reduced-motion: no-preference) {
     /* the halftone dots bring the tint on (Splash.jsx halftoneIn); its layer shows once they cover the screen */
     .splash:not(.splash-covered) > .splash-tint { opacity: 0; }
-    .splash-base { opacity: 1; }
-    .splash-covered > .splash-base { animation: splash-base-out 280ms ease-out both; }
     /* leaving, the halftone canvas takes the tint over at once, so the two never stack */
     .splash.splash-leaving > .splash-tint { transition: none; }
-  }
-  @keyframes splash-base-out {
-    from { opacity: 1; }
-    to { opacity: 0; }
   }
   .splash-dots {
     position: absolute;
